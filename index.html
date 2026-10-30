@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#4f46e5">
+  <title>JLPT N2 - 15 Ngày Luyện Đề Chuyên Sâu</title>
+    <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="images/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons for clean UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-group" id="btn-dashboard">
+        <span class="badge-jlpt">JLPT N2</span>
+        <div class="app-title">
+          <span>15 NGÀY LUYỆN ĐỀ CHUYÊN SÂU</span>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <!-- Chế độ làm bài -->
+        <div class="mode-toggle">
+          <button id="btn-mode-practice" class="mode-btn active" title="Làm câu nào xem giải thích ngay">
+            <i class="fas fa-graduation-cap"></i> Luyện Tập
+          </button>
+          <button id="btn-mode-exam" class="mode-btn" title="Canh 105 phút chuẩn thi thật N2">
+            <i class="fas fa-stopwatch"></i> Thi Thử (105p)
+          </button>
+        </div>
+
+        <!-- Timer box (Ẩn khi ở practice mode) -->
+        <div id="timer-box" class="timer-box" style="display: none;">
+          <i class="fas fa-clock"></i>
+          <span id="timer-text">105:00</span>
+          <div id="pacing-badge" class="pacing-badge" title="Gợi ý nhịp thời gian chuẩn N2">
+            Moji-Goi (25p)
+          </div>
+        </div>
+
+        <!-- Dark / Light theme toggle -->
+        <button id="theme-toggle" class="btn btn-outline" title="Chuyển chế độ Sáng / Tối">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Nút nộp bài -->
+        <button id="btn-submit-exam" class="btn btn-primary" title="Xem bảng tổng kết điểm và phân tích câu sai">
+          <i class="fas fa-chart-bar"></i> Tổng Kết Điểm
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Body Content -->
+  <main class="app-body">
+
+    <!-- 1. DASHBOARD VIEW (Lộ trình 15 Ngày) -->
+    <section id="view-dashboard" class="dashboard-view">
+      <div class="hero-banner">
+        <div>
+          <h1 style="font-size: 1.8rem; margin-bottom: 0.5rem;">🔥 15 Ngày Chinh Phục JLPT N2</h1>
+          <p style="opacity: 0.9; max-width: 600px;">
+            Số hóa toàn bộ đề thi thật & chuyên đề từ thư mục gốc. Không câu nghe hiểu (Choukai) — tập trung tối đa 
+            vào <b>Từ vựng, Chữ Hán, Ngữ pháp Dấu sao và Đọc hiểu chuyên sâu</b>.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat-card">
+            <div class="hero-stat-num" id="stat-completed-days">0/15</div>
+            <div class="hero-stat-label">Buổi Hoàn Thành</div>
+          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-num" id="stat-accuracy">0%</div>
+            <div class="hero-stat-label">Tỷ Lệ Đúng TB</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1.25rem; font-weight: 700; font-size: 1.25rem;">
+        📚 Danh Sách Các Buổi Luyện Đề
+      </div>
+      <div class="grid-sessions" id="sessions-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 2. PRACTICE / EXAM VIEW (Màn hình làm bài) -->
+    <section id="view-practice" class="practice-view">
+      <div class="filter-bar">
+        <div class="filter-header-row">
+          <div class="filter-title-group">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <button id="btn-back-dashboard" class="btn btn-outline" style="padding: 0.35rem 0.85rem; font-size: 0.85rem; border-radius: 6px; font-weight: 600;" title="Quay lại danh sách buổi">
+                <i class="fas fa-chevron-left"></i> Danh sách buổi
+              </button>
+              <h2 id="current-session-title" style="font-size: 1.25rem; font-weight: 700;">
+                BUỔI 1: Đề Thi Thật N2
+              </h2>
+              <span id="autosave-indicator" class="autosave-badge" style="display: none;">
+                <i class="fas fa-cloud-check"></i> Đã lưu
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter tabs container (sắp xếp 2 hàng hoặc 3 hàng và nhiều cột, luôn hiện hết không cuộn ngang) -->
+        <div class="nav-tabs" id="filter-tabs">
+          <!-- Rendered by app.js -->
+        </div>
+      </div>
+
+      <div class="workspace-grid">
+        <!-- Questions Container (Cột Trái) -->
+        <div class="questions-list" id="questions-container">
+          <!-- Rendered by app.js -->
+        </div>
+
+        <!-- Sidebar Answer Pallet (Cột Phải) -->
+        <aside class="sidebar-pallet">
+          <div class="pallet-header">
+            <span>Tiến Độ Làm Bài</span>
+            <span id="pallet-status-text" style="color: var(--primary);">0/0</span>
+          </div>
+          <div class="progress-container">
+            <div class="progress-bar" id="pallet-progress-bar"></div>
+          </div>
+          <div class="pallet-grid" id="pallet-grid">
+            <!-- Rendered by app.js -->
+          </div>
+          <div style="margin-top: 1.25rem; font-size: 0.8rem; color: var(--text-sub); display: flex; flex-direction: column; gap: 0.4rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="width: 12px; height: 12px; border-radius: 3px; background: var(--success); display: inline-block;"></span>
+              <span>Đúng (Chế độ luyện tập)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="width: 12px; height: 12px; border-radius: 3px; background: var(--error); display: inline-block;"></span>
+              <span>Sai (Chế độ luyện tập)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="width: 12px; height: 12px; border-radius: 3px; background: var(--primary-light); border: 1px solid var(--primary); display: inline-block;"></span>
+              <span>Đã chọn đáp án</span>
+            </div>
+          </div>
+          <div class="pallet-quick-actions" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button id="btn-filter-starred" class="btn btn-outline" style="flex: 1; font-size: 0.75rem; padding: 0.35rem 0.4rem; justify-content: center;">
+              <i class="fas fa-star" style="color: #f59e0b;"></i> Đã lưu (<span id="count-starred">0</span>)
+            </button>
+            <button id="btn-filter-wrong" class="btn btn-outline" style="flex: 1; font-size: 0.75rem; padding: 0.35rem 0.4rem; justify-content: center; border-color: var(--error); color: var(--error);">
+              <i class="fas fa-times-circle"></i> Câu sai (<span id="count-wrong">0</span>)
+            </button>
+          </div>
+          <button id="btn-reset-session" class="btn btn-outline" style="font-size: 0.8rem; padding: 0.45rem 0.6rem; width: 100%; margin-top: 0.75rem; justify-content: center;">
+            <i class="fas fa-undo"></i> Xóa Làm Lại Buổi Này
+          </button>
+          <!-- Dedicated Dokkai Tools Box (Pinned at Image 1 position) -->
+          <div class="sidebar-dokkai-panel" id="sidebar-dokkai-panel">
+            <div class="dokkai-panel-title">
+              <span><i class="fas fa-highlighter" style="color: #f59e0b; margin-right: 0.35rem;"></i>CÔNG CỤ ĐỌC HIỂU</span>
+              <span class="dokkai-badge-live">Cố định</span>
+            </div>
+
+            <!-- Nút Bôi Vàng chính -->
+            <button id="btn-sidebar-highlight" class="dokkai-tool-btn hl-primary" title="Bôi vàng đoạn văn bản đang chọn (Phím H)">
+              <i class="fas fa-highlighter"></i> BÔI VÀNG (Phím H)
+            </button>
+
+            <div class="dokkai-action-grid">
+              <button id="btn-sidebar-clear-hl" class="dokkai-tool-btn" title="Xóa tất cả bôi vàng trong bài">
+                <i class="fas fa-eraser"></i> Xóa bôi
+              </button>
+              <button id="btn-sidebar-split" class="dokkai-tool-btn" title="Chế độ chia đôi bài đọc">
+                <i class="fas fa-columns"></i> Chia đôi
+              </button>
+              <button id="btn-sidebar-font-dec" class="dokkai-tool-btn" title="Giảm cỡ chữ bài đọc">
+                <i class="fas fa-font" style="font-size: 0.75rem;"></i> A-
+              </button>
+              <button id="btn-sidebar-font-inc" class="dokkai-tool-btn" title="Tăng cỡ chữ bài đọc">
+                <i class="fas fa-font" style="font-size: 0.95rem;"></i> A+
+              </button>
+            </div>
+
+
+
+            <div class="dokkai-panel-hint">
+              <i class="fas fa-lightbulb" style="color: #f59e0b; margin-top: 2px;"></i>
+              <span>Bôi đen chữ trong bài đọc rồi bấm <b>BÔI VÀNG</b> hoặc phím <b>H</b></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Floating Back to Top / Home Button (Always accessible) -->
+  <button id="btn-floating-home" class="floating-home-fab" title="Lên đầu trang để chọn chủ đề (Phím Home)" onclick="if(window.app && window.app.scrollToTop){window.app.scrollToTop();}else{window.scrollTo({top:0,behavior:'smooth'});}">
+    <i class="fas fa-arrow-up"></i>
+    <span>Đầu trang</span>
+  </button>
+  </main>
+
+  <!-- 3. Result Modal (Bảng điểm sau khi nộp bài) -->
+  <div class="modal-overlay" id="result-modal">
+    <div class="modal-card">
+      <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">📊 KẾT QUẢ BÀI THI</h2>
+      <div id="res-pass-status" style="font-weight: 700; font-size: 1.1rem; color: var(--primary);">
+        Đang tính điểm...
+      </div>
+
+      <div class="score-circle">
+        <span class="score-num" id="res-score-num">0</span>
+        <span class="score-total" id="res-score-total">/ 38</span>
+      </div>
+
+      <div class="score-breakdown" id="res-breakdown">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; justify-content: center;">
+        <button id="btn-retry-wrong" class="btn btn-outline" style="border-color: var(--error); color: var(--error);">
+          <i class="fas fa-redo"></i> Chỉ Ôn Lại Câu Sai
+        </button>
+        <button id="btn-close-modal" class="btn btn-primary">
+          <i class="fas fa-search"></i> Xem Chi Tiết Đáp Án
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Quick Word Lookup Popup (Tra từ nhanh khi click đúp) -->
+  <div id="dict-popup" class="dict-popup" style="display: none;">
+    <div class="dict-popup-header">
+      <div class="dict-word-group">
+        <span class="dict-word" id="dict-popup-word">祖母</span>
+        <span class="dict-reading" id="dict-popup-reading">そぼ</span>
+        <span class="dict-hanviet" id="dict-popup-hanviet">TỔ MẪU</span>
+        <button class="dict-audio-btn" id="dict-popup-audio" title="Nghe phát âm tiếng Nhật">
+          <i class="fas fa-volume-up"></i>
+        </button>
+      </div>
+      <button class="dict-close-btn" id="dict-popup-close" title="Đóng (Phím Esc)">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="dict-popup-body" id="dict-popup-body">
+      <!-- Loading or content -->
+    </div>
+    <div class="dict-popup-footer">
+      <span class="dict-tag" id="dict-popup-tag">JLPT N2</span>
+      <a id="dict-popup-link" href="#" target="_blank" class="dict-more-link">
+        Mở trên Mazii <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- 5. Floating Selection Action Bubble (Tối ưu cho iPhone, iPad, PC) -->
+  <div id="selection-action-bubble" class="selection-bubble" style="display: none;">
+    <button type="button" class="bubble-btn" id="bubble-btn-speak" title="Nghe phát âm tiếng Nhật">
+      <i class="fas fa-volume-up"></i> <span>Đọc</span>
+    </button>
+    <button type="button" class="bubble-btn" id="bubble-btn-lookup" title="Tra từ điển nhanh">
+      <i class="fas fa-book-open"></i> <span>Tra từ</span>
+    </button>
+    <button type="button" class="bubble-btn bubble-btn-hl" id="bubble-btn-highlight" title="Bôi vàng văn bản đọc hiểu" style="display: none;">
+      <i class="fas fa-highlighter"></i> <span>Bôi vàng</span>
+    </button>
+  </div>
+
+  <!-- 6. Mobile Bottom Action Bar (Cố định ở đáy màn hình điện thoại) -->
+  <div id="mobile-bottom-bar" class="mobile-bottom-bar" style="display: none;">
+    <div class="mobile-bar-info" id="mobile-bar-info">
+      <span class="mobile-bar-tag">ĐANG LÀM</span>
+      <span class="mobile-bar-q">Câu <b id="mob-q-num">1</b>/<span id="mob-q-total">38</span></span>
+      <span class="mobile-bar-pct" id="mob-q-pct">0%</span>
+    </div>
+    <div class="mobile-bar-actions">
+      <button type="button" class="mob-act-btn" id="btn-mob-prev" title="Câu trước">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button type="button" class="mob-act-btn primary" id="btn-mob-pallet" title="Mở bảng câu hỏi">
+        <i class="fas fa-th"></i> <span>Bảng câu</span>
+      </button>
+      <button type="button" class="mob-act-btn" id="btn-mob-next" title="Câu tiếp theo">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- 7. Mobile Pallet Modal (Bảng chọn câu hỏi nhanh cho iPhone & Tablet) -->
+  <div class="modal-overlay" id="mobile-pallet-modal" style="display: none;">
+    <div class="mobile-pallet-card">
+      <div class="mobile-pallet-header">
+        <div class="mobile-pallet-title">
+          <i class="fas fa-th-large"></i> <span id="mob-pallet-title-text">Danh Sách Câu Hỏi</span> (<span id="mob-pallet-status">0/38</span>)
+        </div>
+        <button type="button" class="btn-close-mob-pallet" id="btn-close-mob-pallet" title="Đóng">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="mobile-pallet-filter-tabs" id="mob-pallet-filter-tabs">
+        <!-- Rendered by JS -->
+      </div>
+      <div class="mobile-pallet-body" id="mobile-pallet-grid">
+        <!-- Rendered by JS -->
+      </div>
+      <div class="mobile-pallet-footer">
+        <button type="button" class="btn btn-outline" id="btn-mob-close-sheet" style="width: 100%; justify-content: center;">
+          Đóng bảng câu
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data/common_dict.js"></script>
+  <script src="data/syllabus.js"></script>
+  <script src="data/buoi_01.js"></script>
+  <script src="data/buoi_02.js"></script>
+  <script src="data/buoi_03.js"></script>
+  <script src="data/buoi_04.js"></script>
+  <script src="data/buoi_05.js"></script>
+  <script src="data/buoi_06.js"></script>
+  <script src="data/buoi_07.js"></script>
+  <script src="data/buoi_08.js"></script>
+  <script src="data/buoi_09.js"></script>
+  <script src="data/buoi_10.js"></script>
+  <script src="data/buoi_11.js"></script>
+  <script src="data/buoi_12.js"></script>
+  <script src="data/buoi_13.js"></script>
+  <script src="data/buoi_14.js"></script>
+  <script src="data/buoi_15.js"></script>
+  <script src="data/passage_translations.js"></script>
+  <script src="user_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

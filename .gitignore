@@ -1,0 +1,6 @@
+# Exclude scratch directory and temporary files
+scratch/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
