@@ -2237,11 +2237,38 @@ class JLPTApp {
   }
 
   getStarTranslation(sessionNum, qId) {
-    const key = `${sessionNum}_${qId}`;
-    if (window.JLPT_STAR_TRANSLATIONS && window.JLPT_STAR_TRANSLATIONS[key]) {
-      return window.JLPT_STAR_TRANSLATIONS[key];
+    if (!window.JLPT_STAR_TRANSLATIONS) return "";
+    const num = parseInt(String(sessionNum).replace(/\D+/g, ""), 10);
+    const keys = [
+      `${sessionNum}_${qId}`,
+      `${num}_${qId}`,
+      `buoi_${String(num).padStart(2, "0")}_${qId}`
+    ];
+    for (let k of keys) {
+      if (window.JLPT_STAR_TRANSLATIONS[k]) {
+        return window.JLPT_STAR_TRANSLATIONS[k];
+      }
     }
     return "";
+  }
+
+  getStarPosition(q) {
+    if (!q) return 3;
+    const order = q.correctOrder || q.sentenceOrder;
+    const target = q.correctStarOption || q.correctAnswer;
+    if (Array.isArray(order) && target !== undefined) {
+      const idx = order.indexOf(target);
+      if (idx !== -1) return idx + 1;
+    }
+    const text = q.question || q.sentence;
+    if (text) {
+      const blanks = text.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
+      if (blanks && blanks.length >= 4) {
+        const sIdx = blanks.findIndex(b => b.includes("★"));
+        if (sIdx !== -1) return sIdx + 1;
+      }
+    }
+    return q.starPositionIndex || 3;
   }
 
   formatStarExplanationHTML(q) {
@@ -2249,16 +2276,7 @@ class JLPTApp {
     const rawExp = q.explanation || "";
     const order = q.correctOrder || q.sentenceOrder || [];
 
-    let starPos = q.starPositionIndex;
-    if (!starPos && (q.question || q.sentence)) {
-      const text = q.question || q.sentence;
-      const blanks = text.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
-      if (blanks && blanks.length >= 4) {
-        const sIdx = blanks.findIndex(b => b.includes("★"));
-        if (sIdx !== -1) starPos = sIdx + 1;
-      }
-    }
-    if (!starPos) starPos = 3;
+    const starPos = this.getStarPosition(q);
 
     const formattedOrder = this.formatStarOrder(order, starPos);
 
@@ -2304,8 +2322,8 @@ class JLPTApp {
 
     if (trans) {
       html += `
-        <div class="star-trans-box" style="margin-top: 0.65rem; padding-top: 0.5rem; border-top: 1px dashed rgba(255,255,255,0.18); font-size: 0.95rem; line-height: 1.55;">
-          <b style="color: var(--primary-light, #93c5fd);">Dịch:</b> <span style="color: var(--text-main);">${trans}</span>
+        <div class="star-trans-box">
+          <b class="star-trans-label">Dịch:</b> <span style="color: var(--text-main); font-weight: 500;">${trans}</span>
         </div>
       `;
     }
@@ -2324,15 +2342,7 @@ class JLPTApp {
       : (Array.isArray(q.options) ? q.options.map((opt, i) => ({ id: i + 1, text: opt })) : []);
 
     // Detect star position (1..4)
-    let starPos = q.starPositionIndex;
-    if (!starPos && q.question) {
-      const blanks = q.question.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
-      if (blanks && blanks.length >= 4) {
-        const sIdx = blanks.findIndex(b => b.includes("★"));
-        if (sIdx !== -1) starPos = sIdx + 1;
-      }
-    }
-    if (!starPos) starPos = 3;
+    const starPos = this.getStarPosition(q);
 
     // Detect beforeText / afterText
     let beforeText = q.beforeText;
@@ -2600,15 +2610,7 @@ class JLPTApp {
     const q = this.getAllQuestions().find(x => x.id === qId);
 
     if (isComplete) {
-      let starPos = (q && q.starPositionIndex) ? q.starPositionIndex : null;
-      if (!starPos && q && q.question) {
-        const blanks = q.question.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
-        if (blanks && blanks.length >= 4) {
-          const sIdx = blanks.findIndex(b => b.includes("★"));
-          if (sIdx !== -1) starPos = sIdx + 1;
-        }
-      }
-      if (!starPos) starPos = 3;
+      const starPos = this.getStarPosition(q);
       const starFragId = slots[starPos - 1];
       this.userAnswers[qId] = starFragId;
 

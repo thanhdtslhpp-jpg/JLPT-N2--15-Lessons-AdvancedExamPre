@@ -1559,7 +1559,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのように (Cứ hệt như là úp cả xô nước xuống).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのような + N (hoặc まるで〜かのように + V/A): Cứ hệt như là... (Vì phía sau là danh từ 「降り方」 nên dùng 「かのような」 bổ nghĩa).<br><b>Đáp án chọn:</b> 1",
           "id": 99
         },
         {

@@ -685,7 +685,7 @@ window.JLPT_DATA[11] = {
             3,
             2
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 3,
           "correctAnswer": 3,
           "explanation": "Thứ tự: 「送る【うえで(1)】【何が(4)】【大切か(3)★】【といえば(2)】...」 -> Dấu sao là (3)."
@@ -709,7 +709,7 @@ window.JLPT_DATA[11] = {
             4,
             3
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 4,
           "correctAnswer": 4,
           "explanation": "Thứ tự: 「就職したとき【買って以来(2)】【ずっと(1)】【使っていた(4)★】【かばんが(3)】とうとう壊れた...」 -> Dấu sao là (4)."
@@ -733,7 +733,7 @@ window.JLPT_DATA[11] = {
             1,
             4
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 1,
           "correctAnswer": 1,
           "explanation": "Thứ tự: 「こんなに【苦しいことは(3)】【二度としたくないと(2)】【思うのに(1)★】【山を下りて何日かすると(4)】...」 -> Dấu sao là (1)."
@@ -757,7 +757,7 @@ window.JLPT_DATA[11] = {
             1,
             2
           ],
-          "starPositionIndex": 3,
+          "starPositionIndex": 4,
           "correctStarOption": 2,
           "correctAnswer": 2,
           "explanation": "Thứ tự: 「シンプル【ながら(3)】【今にも(4)】【動き出し(1)】【そうな(2)★】生命力...」 -> Dấu sao là (2)."
@@ -781,7 +781,7 @@ window.JLPT_DATA[11] = {
             1,
             3
           ],
-          "starPositionIndex": 3,
+          "starPositionIndex": 4,
           "correctStarOption": 3,
           "correctAnswer": 3,
           "explanation": "Thứ tự: 「あきらめずに【最後まで(4)】【取り組める(2)】【かどうか(1)】【にある(3)★】と思う。」 -> Dấu sao là (3)."
@@ -2643,7 +2643,7 @@ window.JLPT_DATA[11] = {
             3,
             2
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 3
         },
         {
@@ -2667,7 +2667,7 @@ window.JLPT_DATA[11] = {
             4,
             2
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 4
         },
         {
@@ -2691,7 +2691,7 @@ window.JLPT_DATA[11] = {
             1,
             3
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 1
         },
         {
@@ -2715,7 +2715,7 @@ window.JLPT_DATA[11] = {
             2,
             1
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 2
         },
         {
@@ -2739,7 +2739,7 @@ window.JLPT_DATA[11] = {
             3,
             2
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 3
         },
         {

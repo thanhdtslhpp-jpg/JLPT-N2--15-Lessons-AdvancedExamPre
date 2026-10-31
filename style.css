@@ -4488,3 +4488,30 @@ button,
     transform: translate(-50%, 0);
   }
 }
+
+
+/* Star Question Explanation Styling & Theme Contrast */
+.star-order-badge {
+  color: #d97706 !important;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+[data-theme="dark"] .star-order-badge {
+  color: #fbbf24 !important;
+}
+
+.star-trans-box {
+  margin-top: 0.65rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.star-trans-label {
+  color: var(--primary) !important;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}

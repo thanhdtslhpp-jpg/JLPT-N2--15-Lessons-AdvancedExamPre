@@ -655,7 +655,7 @@ window.JLPT_DATA[10] = {
             3,
             1
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 3,
           "correctAnswer": 3,
           "explanation": "Thứ tự câu hoàn chỉnh: 「原料の【小麦粉は(2)】【もちろん(4)】【水にまで(3)★】【こだわって(1)】一つ一つ丁寧にパンを作っているそうだ。」 -> Vị trí ngôi sao là (3)."
@@ -679,7 +679,7 @@ window.JLPT_DATA[10] = {
             4,
             1
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 4,
           "correctAnswer": 4,
           "explanation": "Thứ tự câu hoàn chỉnh: 「梅雨の【この(3)】【時期にしては(2)】【珍しく(4)★】【いい天気で(1)】久しぶりに洗濯物を外に干すことができた。」 -> Vị trí ngôi sao là (4)."
@@ -703,7 +703,7 @@ window.JLPT_DATA[10] = {
             2,
             4
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 2,
           "correctAnswer": 2,
           "explanation": "Thứ tự câu hoàn chỉnh: 「人の【集まりにくい(1)】【平日だった(3)】【ことを考えると(2)★】【200名もの(4)】参加者が集まったのは大成功といえる。」 -> Vị trí ngôi sao là (2)."
@@ -727,7 +727,7 @@ window.JLPT_DATA[10] = {
             1,
             4
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 1,
           "correctAnswer": 1,
           "explanation": "Thứ tự: 「人には【誰にでも(2)】【その人にしかない(3)】【良さがあるというが(1)★】自分でそれに気づくのは難しい。」 -> Vị trí ngôi sao là (1)."
@@ -751,7 +751,7 @@ window.JLPT_DATA[10] = {
             2,
             3
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 2,
           "correctAnswer": 2,
           "explanation": "Thứ tự: 「それでも【遅刻をせずに済んだ(4)】【のは(1)】【たまたまかかってきた(2)★】電話に起こされたからだ。」 -> Vị trí ngôi sao là (2)."
@@ -2533,7 +2533,7 @@ window.JLPT_DATA[10] = {
             1,
             3
           ],
-          "starPositionIndex": 1,
+          "starPositionIndex": 2,
           "correctStarOption": 4
         },
         {
@@ -2557,7 +2557,7 @@ window.JLPT_DATA[10] = {
             1,
             4
           ],
-          "starPositionIndex": 1,
+          "starPositionIndex": 2,
           "correctStarOption": 2
         },
         {
@@ -2581,7 +2581,7 @@ window.JLPT_DATA[10] = {
             3,
             1
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 3
         },
         {
@@ -2605,7 +2605,7 @@ window.JLPT_DATA[10] = {
             1,
             3
           ],
-          "starPositionIndex": 1,
+          "starPositionIndex": 2,
           "correctStarOption": 2
         },
         {
@@ -2629,7 +2629,7 @@ window.JLPT_DATA[10] = {
             1,
             3
           ],
-          "starPositionIndex": 2,
+          "starPositionIndex": 3,
           "correctStarOption": 1
         },
         {
