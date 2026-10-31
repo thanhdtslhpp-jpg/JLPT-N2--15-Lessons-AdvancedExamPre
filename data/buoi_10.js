@@ -761,7 +761,6 @@ window.JLPT_DATA[10] = {
           "mondai": 9,
           "mondaiName": "問題9: 文章法",
           "type": "grammar",
-          "readingPassage": "日本で今、高齢者の体と心の健康のために外出を支援するサービスの重要性が増しているそうだ。\n現在、日本では65歳以上の高齢者が人口の約3割に達するほど高齢化が進んでいる。そんな中、外出を支援するサービスは大きく分けて二つある。まず一つ目は、移動をサポートするサービスだ。車での送迎サービスが主に【 48 】。車の運転が困難な人や、最寄りのバス停や駅まで歩くことが負担な人にとって、非常に心強い存在となっている。\n外出の目的は通院や買い物などが多いが、外出することで他者と交流する機会が増え、生きがいを感じる高齢者も【 49 】。また、閉じこもりがちな生活を防ぎ、認知症予防にもつながるという研究結果も【 50 】。\n超高齢社会【 51 】、こうした支援はますます不可欠なものとなっていくに違いない。",
           "question": "【 48 】に入る最もよいものを選びなさい。",
           "options": [
             "利用させてほしい",
@@ -770,7 +769,8 @@ window.JLPT_DATA[10] = {
             "利用してもいい"
           ],
           "correctAnswer": 2,
-          "explanation": "Dịch vụ đưa đón bằng ô tô chủ yếu đang được sử dụng rộng rãi: 「利用されている」."
+          "explanation": "Dịch vụ đưa đón bằng ô tô chủ yếu đang được sử dụng rộng rãi: 「利用されている」.",
+          "passage": "日本で今、高齢者の体と心の健康のために外出を支援するサービスの重要性が増しているそうだ。\n現在、日本では65歳以上の高齢者が人口の約3割に達するほど高齢化が進んでいる。そんな中、外出を支援するサービスは大きく分けて二つある。まず一つ目は、移動をサポートするサービスだ。車での送迎サービスが主に【 48 】。車の運転が困難な人や、最寄りのバス停や駅まで歩くことが負担な人にとって、非常に心強い存在となっている。\n外出の目的は通院や買い物などが多いが、外出することで他者と交流する機会が増え、生きがいを感じる高齢者も【 49 】。また、閉じこもりがちな生活を防ぎ、認知症予防にもつながるという研究結果も【 50 】。\n超高齢社会【 51 】、こうした支援はますます不可欠なものとなっていくに違いない。"
         },
         {
           "id": 49,
@@ -785,7 +785,8 @@ window.JLPT_DATA[10] = {
             "少なくなりかねない"
           ],
           "correctAnswer": 2,
-          "explanation": "「〜も少なくないという」: nghe nói người già tìm thấy niềm vui sống nhờ ra ngoài giao lưu cũng không hề ít."
+          "explanation": "「〜も少なくないという」: nghe nói người già tìm thấy niềm vui sống nhờ ra ngoài giao lưu cũng không hề ít.",
+          "passage": "日本で今、高齢者の体と心の健康のために外出を支援するサービスの重要性が増しているそうだ。\n現在、日本では65歳以上の高齢者が人口の約3割に達するほど高齢化が進んでいる。そんな中、外出を支援するサービスは大きく分けて二つある。まず一つ目は、移動をサポートするサービスだ。車での送迎サービスが主に【 48 】。車の運転が困難な人や、最寄りのバス停や駅まで歩くことが負担な人にとって、非常に心強い存在となっている。\n外出の目的は通院や買い物などが多いが、外出することで他者と交流する機会が増え、生きがいを感じる高齢者も【 49 】。また、閉じこもりがちな生活を防ぎ、認知症予防にもつながるという研究結果も【 50 】。\n超高齢社会【 51 】、こうした支援はますます不可欠なものとなっていくに違いない。"
         },
         {
           "id": 50,
@@ -800,7 +801,8 @@ window.JLPT_DATA[10] = {
             "ある"
           ],
           "correctAnswer": 4,
-          "explanation": "「研究結果もある」: cũng có kết quả nghiên cứu chỉ ra rằng..."
+          "explanation": "「研究結果もある」: cũng có kết quả nghiên cứu chỉ ra rằng...",
+          "passage": "日本で今、高齢者の体と心の健康のために外出を支援するサービスの重要性が増しているそうだ。\n現在、日本では65歳以上の高齢者が人口の約3割に達するほど高齢化が進んでいる。そんな中、外出を支援するサービスは大きく分けて二つある。まず一つ目は、移動をサポートするサービスだ。車での送迎サービスが主に【 48 】。車の運転が困難な人や、最寄りのバス停や駅まで歩くことが負担な人にとって、非常に心強い存在となっている。\n外出の目的は通院や買い物などが多いが、外出することで他者と交流する機会が増え、生きがいを感じる高齢者も【 49 】。また、閉じこもりがちな生活を防ぎ、認知症予防にもつながるという研究結果も【 50 】。\n超高齢社会【 51 】、こうした支援はますます不可欠なものとなっていくに違いない。"
         },
         {
           "id": 51,
@@ -815,14 +817,14 @@ window.JLPT_DATA[10] = {
             "をはじめ"
           ],
           "correctAnswer": 1,
-          "explanation": "N＋において: trong bối cảnh xã hội siêu già hoá (超高齢社会において)."
+          "explanation": "N＋において: trong bối cảnh xã hội siêu già hoá (超高齢社会において).",
+          "passage": "日本で今、高齢者の体と心の健康のために外出を支援するサービスの重要性が増しているそうだ。\n現在、日本では65歳以上の高齢者が人口の約3割に達するほど高齢化が進んでいる。そんな中、外出を支援するサービスは大きく分けて二つある。まず一つ目は、移動をサポートするサービスだ。車での送迎サービスが主に【 48 】。車の運転が困難な人や、最寄りのバス停や駅まで歩くことが負担な人にとって、非常に心強い存在となっている。\n外出の目的は通院や買い物などが多いが、外出することで他者と交流する機会が増え、生きがいを感じる高齢者も【 49 】。また、閉じこもりがちな生活を防ぎ、認知症予防にもつながるという研究結果も【 50 】。\n超高齢社会【 51 】、こうした支援はますます不可欠なものとなっていくに違いない。"
         },
         {
           "id": 52,
           "mondai": 10,
           "mondaiName": "問題10: 短文読解",
           "type": "reading",
-          "readingPassage": "人間は「私」として生きるのですが、よく言われるように「私」とは、「あなた」がいて初めてその像を結びます。これは、「他人の評価によって自分が決まる」ということではなく、「他人と自分の違いを通して初めて、自分というものがどういうものかがわかる」ということです。他人との好みの違いや意見の対立。そういうものを通して初めて、自分とは何が好きで何が嫌いで何を支えにしているのかがわかるということです。それは、他者との付き合いなしに生まれることはありません。",
           "question": "筆者の考えに合うのはどれか。",
           "options": [
             "自分がどういう人間かは、他者とのかかわりがなければわからない。",
@@ -831,14 +833,14 @@ window.JLPT_DATA[10] = {
             "他者との付き合いを通して、自分への評価がわかる。"
           ],
           "correctAnswer": 1,
-          "explanation": "Tác giả chỉ ra rằng thông qua sự khác biệt với người khác trong giao tiếp, bản thân mới nhận thức rõ mình là con người thế nào."
+          "explanation": "Tác giả chỉ ra rằng thông qua sự khác biệt với người khác trong giao tiếp, bản thân mới nhận thức rõ mình là con người thế nào.",
+          "passage": "人間は「私」として生きるのですが、よく言われるように「私」とは、「あなた」がいて初めてその像を結びます。これは、「他人の評価によって自分が決まる」ということではなく、「他人と自分の違いを通して初めて、自分というものがどういうものかがわかる」ということです。他人との好みの違いや意見の対立。そういうものを通して初めて、自分とは何が好きで何が嫌いで何を支えにしているのかがわかるということです。それは、他者との付き合いなしに生まれることはありません。"
         },
         {
           "id": 53,
           "mondai": 10,
           "mondaiName": "問題10: 短文読解",
           "type": "reading",
-          "readingPassage": "水石食品商品開発部 田中由夏様\n昨日は「水石りんごジャム」のサンプルをお届けいただき、ありがとうございました。本日試食をし、予定どおり来月から朝食で提供することにいたしました。\nまた、お客様から名産のりんごを使ったお土産がないかたびたびご質問を受けますので、このジャムを売店でも販売したいと考えております。同じ時期に販売を開始したいと思っておりますが、ご対応いただけるでしょうか。\nご検討いただきたく、どうぞよろしくお願いいたします。\n水石温泉ホテル営業部 島本洋太",
           "question": "このメールで問い合わせていることは何か。",
           "options": [
             "来月から「水石りんごジャム」をホテルの朝食で提供できるか。",
@@ -847,14 +849,14 @@ window.JLPT_DATA[10] = {
             "売店で販売するための「水石りんごジャム」を、来月から納品できるか。"
           ],
           "correctAnswer": 4,
-          "explanation": "Email hỏi xem bên sản xuất có thể cung cấp thêm mứt táo để bày bán tại quầy lưu niệm của khách sạn từ tháng sau được không."
+          "explanation": "Email hỏi xem bên sản xuất có thể cung cấp thêm mứt táo để bày bán tại quầy lưu niệm của khách sạn từ tháng sau được không.",
+          "passage": "水石食品商品開発部 田中由夏様\n昨日は「水石りんごジャム」のサンプルをお届けいただき、ありがとうございました。本日試食をし、予定どおり来月から朝食で提供することにいたしました。\nまた、お客様から名産のりんごを使ったお土産がないかたびたびご質問を受けますので、このジャムを売店でも販売したいと考えております。同じ時期に販売を開始したいと思っておりますが、ご対応いただけるでしょうか。\nご検討いただきたく、どうぞよろしくお願いいたします。\n水石温泉ホテル営業部 島本洋太"
         },
         {
           "id": 54,
           "mondai": 10,
           "mondaiName": "問題10: 短文読解",
           "type": "reading",
-          "readingPassage": "ラジオを聴いていると、テレビやネット動画とは違って、視覚情報が一切ない。その分、耳から入ってくる声や音を頼りに、頭の中で情景を自由に思い描くことになる。まるで本で読む小説のように、ある意味、自由度が高いメディアなのだ。聴き手の想像力に委ねられているからこそ、心に深く響く体験になるのだと思う。",
           "question": "ラジオについて、筆者はどのように考えているか。",
           "options": [
             "他のことをしながら聴け、時間が有効に使える。",
@@ -863,14 +865,14 @@ window.JLPT_DATA[10] = {
             "目からの情報がなく、小説より自由に空想ができる。"
           ],
           "correctAnswer": 3,
-          "explanation": "Đài phát thanh không có thông tin hình ảnh, hoàn toàn dựa vào âm thanh nên người nghe thỏa sức mở rộng trí tưởng tượng trong đầu."
+          "explanation": "Đài phát thanh không có thông tin hình ảnh, hoàn toàn dựa vào âm thanh nên người nghe thỏa sức mở rộng trí tưởng tượng trong đầu.",
+          "passage": "ラジオを聴いていると、テレビやネット動画とは違って、視覚情報が一切ない。その分、耳から入ってくる声や音を頼りに、頭の中で情景を自由に思い描くことになる。まるで本で読む小説のように、ある意味、自由度が高いメディアなのだ。聴き手の想像力に委ねられているからこそ、心に深く響く体験になるのだと思う。"
         },
         {
           "id": 55,
           "mondai": 10,
           "mondaiName": "問題10: 短文読解",
           "type": "reading",
-          "readingPassage": "坂元ガスをご利用のお客様へ\nこれまで月々のガスの使用量と料金は、紙の通知書でお伝えしていましたが、資源節約のため8月末で廃止いたします。9月以降、使用量と料金の確認は、ウェブ会員サービス「サカモト・ガスネット」をご利用ください（無料）。引き続き紙の通知書をご希望のお客様には有料（月額110円）にて郵送でお届けいたします。",
           "question": "このお知らせで最も伝えたいことは何か。",
           "options": [
             "ガスの料金が9月から値上がりする。",
@@ -879,14 +881,14 @@ window.JLPT_DATA[10] = {
             "9月から紙の通知書を有料にするので、無料で確認したい場合はウェブで確認してほしい。"
           ],
           "correctAnswer": 4,
-          "explanation": "Thông báo dừng cấp giấy miễn phí từ cuối tháng 8, chuyển sang thu phí giấy từ tháng 9 và hướng dẫn tra cứu miễn phí trên Web."
+          "explanation": "Thông báo dừng cấp giấy miễn phí từ cuối tháng 8, chuyển sang thu phí giấy từ tháng 9 và hướng dẫn tra cứu miễn phí trên Web.",
+          "passage": "坂元ガスをご利用のお客様へ\nこれまで月々のガスの使用量と料金は、紙の通知書でお伝えしていましたが、資源節約のため8月末で廃止いたします。9月以降、使用量と料金の確認は、ウェブ会員サービス「サカモト・ガスネット」をご利用ください（無料）。引き続き紙の通知書をご希望のお客様には有料（月額110円）にて郵送でお届けいたします。"
         },
         {
           "id": 56,
           "mondai": 10,
           "mondaiName": "問題10: 短文読解",
           "type": "reading",
-          "readingPassage": "仕事というものは、自分の専門分野のことだけ考えればよいのではなく、専門を超えてどんな影響を与えあうか考え調整しながらやるべきものである。自部門に余裕があれば、忙しい他部門を手伝ってあげるべきだが、誰もそういう具合には考えない。そして、いつのまにか自分の城を築き、守りに入る。それでは「会社」ではない。会社は、そこで働く普通の人たちの力が、みんなで働くことによって何倍にも大きくなる場所である。",
           "question": "会社での仕事について、筆者が言いたいことは何か。",
           "options": [
             "専門知識を深めることが会社全体の利益になる。",
@@ -895,14 +897,14 @@ window.JLPT_DATA[10] = {
             "部門同士が互いのことを考えて仕事をしなければ、会社とはいえない。"
           ],
           "correctAnswer": 4,
-          "explanation": "Tác giả nhấn mạnh tinh thần phối hợp giữa các phòng ban, nếu chỉ biết bo bo giữ việc của mình thì không thể gọi là một công ty thực thụ."
+          "explanation": "Tác giả nhấn mạnh tinh thần phối hợp giữa các phòng ban, nếu chỉ biết bo bo giữ việc của mình thì không thể gọi là một công ty thực thụ.",
+          "passage": "仕事というものは、自分の専門分野のことだけ考えればよいのではなく、専門を超えてどんな影響を与えあうか考え調整しながらやるべきものである。自部門に余裕があれば、忙しい他部門を手伝ってあげるべきだが、誰もそういう具合には考えない。そして、いつのまにか自分の城を築き、守りに入る。それでは「会社」ではない。会社は、そこで働く普通の人たちの力が、みんなで働くことによって何倍にも大きくなる場所である。"
         },
         {
           "id": 57,
           "mondai": 11,
           "mondaiName": "問題11: 中文読解",
           "type": "reading",
-          "readingPassage": "【ゾウの進化と長い鼻】\nゾウの巨大な脳と長い鼻の間には深い関係がある。ゾウの脳は非常に大きく発達しており、高い知能を有している。しかし、大きな脳を守るためには頭骨が頑丈で重くなければならない。その重い頭を支えるためには、首が太く短くなる必要があった。首が太く頑丈になると、今度は頭部を自由に動かせなくなるという不自由さが生じる。この不自由さを補うために発達したのが、手のように器用に動く「長い鼻」なのである。",
           "question": "ゾウの頭骨について、本文の説明と合っているものはどれか。",
           "options": [
             "高い知能を持つ脳を守るため、頭骨が頑丈である。",
@@ -911,7 +913,8 @@ window.JLPT_DATA[10] = {
             "重量のほとんどが脳の重さで、知能が高い。"
           ],
           "correctAnswer": 1,
-          "explanation": "Hộp sọ chắc khỏe để bảo vệ bộ não phát triển với trí thông minh cao."
+          "explanation": "Hộp sọ chắc khỏe để bảo vệ bộ não phát triển với trí thông minh cao.",
+          "passage": "【ゾウの進化と長い鼻】\nゾウの巨大な脳と長い鼻の間には深い関係がある。ゾウの脳は非常に大きく発達しており、高い知能を有している。しかし、大きな脳を守るためには頭骨が頑丈で重くなければならない。その重い頭を支えるためには、首が太く短くなる必要があった。首が太く頑丈になると、今度は頭部を自由に動かせなくなるという不自由さが生じる。この不自由さを補うために発達したのが、手のように器用に動く「長い鼻」なのである。"
         },
         {
           "id": 58,
@@ -926,14 +929,14 @@ window.JLPT_DATA[10] = {
             "大きな頭部を支えるために、太く長くなった。"
           ],
           "correctAnswer": 3,
-          "explanation": "Chiếc vòi dài bù đắp cho việc cổ to ngắn khiến phần đầu không thể cử động linh hoạt."
+          "explanation": "Chiếc vòi dài bù đắp cho việc cổ to ngắn khiến phần đầu không thể cử động linh hoạt.",
+          "passage": "【ゾウの進化と長い鼻】\nゾウの巨大な脳と長い鼻の間には深い関係がある。ゾウの脳は非常に大きく発達しており、高い知能を有している。しかし、大きな脳を守るためには頭骨が頑丈で重くなければならない。その重い頭を支えるためには、首が太く短くなる必要があった。首が太く頑丈になると、今度は頭部を自由に動かせなくなるという不自由さが生じる。この不自由さを補うために発達したのが、手のように器用に動く「長い鼻」なのである。"
         },
         {
           "id": 59,
           "mondai": 11,
           "mondaiName": "問題11: 中文読解",
           "type": "reading",
-          "readingPassage": "【仕事選びのヒント】\n多くの若者が「自分に合った仕事」を探して悩んでいる。しかし最初から自分にぴったり合う仕事など見つかるはずがない。実際に仕事を始めてみて、困難を乗り越えながら経験を積む中で、初めてその仕事の面白さや適性が見えてくるものである。",
           "question": "この文章で筆者が最も主張したいことは何か。",
           "options": [
             "好きなことを仕事にするのが最も成功しやすい。",
@@ -942,7 +945,8 @@ window.JLPT_DATA[10] = {
             "若いうちは様々な仕事を転職しながら試すべきだ。"
           ],
           "correctAnswer": 3,
-          "explanation": "Thay vì cứ mải miết đi tìm công việc hoàn hảo, quan trọng là hãy bắt tay vào làm việc thực tế trước đã."
+          "explanation": "Thay vì cứ mải miết đi tìm công việc hoàn hảo, quan trọng là hãy bắt tay vào làm việc thực tế trước đã.",
+          "passage": "【仕事選びのヒント】\n多くの若者が「自分に合った仕事」を探して悩んでいる。しかし最初から自分にぴったり合う仕事など見つかるはずがない。実際に仕事を始めてみて、困難を乗り越えながら経験を積む中で、初めてその仕事の面白さや適性が見えてくるものである。"
         },
         {
           "id": 60,
@@ -957,14 +961,14 @@ window.JLPT_DATA[10] = {
             "趣味や興味関心の延長線上に存在する。"
           ],
           "correctAnswer": 3,
-          "explanation": "Sự phù hợp với công việc sẽ dần hiện rõ trong quá trình thực tế trải nghiệm và tích lũy."
+          "explanation": "Sự phù hợp với công việc sẽ dần hiện rõ trong quá trình thực tế trải nghiệm và tích lũy.",
+          "passage": "【仕事選びのヒント】\n多くの若者が「自分に合った仕事」を探して悩んでいる。しかし最初から自分にぴったり合う仕事など見つかるはずがない。実際に仕事を始めてみて、困難を乗り越えながら経験を積む中で、初めてその仕事の面白さや適性が見えてくるものである。"
         },
         {
           "id": 61,
           "mondai": 11,
           "mondaiName": "問題11: 中文読解",
           "type": "reading",
-          "readingPassage": "【子どもへの教え方】\n子どもが質問してきたとき、大人はすぐに正解を教えてしまいがちだ。しかし、すぐに答えを与えると、子どもは「わかったつもり」になってしまい、自分で深く考えることをやめてしまう。大人の役割は答えを教えることではなく、子どもの興味がさらに広がるようなヒントを投げかけることだ。",
           "question": "大人がすぐに正解を教えてしまうことの弊害として、筆者が挙げているのは何か。",
           "options": [
             "子どもが大人に依存するようになる。",
@@ -973,7 +977,8 @@ window.JLPT_DATA[10] = {
             "子どもが勉強嫌いになってしまう。"
           ],
           "correctAnswer": 2,
-          "explanation": "Việc người lớn đưa ra đáp án ngay sẽ làm trẻ 'tưởng như mình đã hiểu' mà không chịu tự suy nghĩ."
+          "explanation": "Việc người lớn đưa ra đáp án ngay sẽ làm trẻ 'tưởng như mình đã hiểu' mà không chịu tự suy nghĩ.",
+          "passage": "【子どもへの教え方】\n子どもが質問してきたとき、大人はすぐに正解を教えてしまいがちだ。しかし、すぐに答えを与えると、子どもは「わかったつもり」になってしまい、自分で深く考えることをやめてしまう。大人の役割は答えを教えることではなく、子どもの興味がさらに広がるようなヒントを投げかけることだ。"
         },
         {
           "id": 62,
@@ -988,14 +993,14 @@ window.JLPT_DATA[10] = {
             "質問の内容が正しいかどうか厳密に精査する。"
           ],
           "correctAnswer": 2,
-          "explanation": "Người lớn cần gợi mở để khơi gợi thêm sự tò mò và hứng thú của trẻ."
+          "explanation": "Người lớn cần gợi mở để khơi gợi thêm sự tò mò và hứng thú của trẻ.",
+          "passage": "【子どもへの教え方】\n子どもが質問してきたとき、大人はすぐに正解を教えてしまいがちだ。しかし、すぐに答えを与えると、子どもは「わかったつもり」になってしまい、自分で深く考えることをやめてしまう。大人の役割は答えを教えることではなく、子どもの興味がさらに広がるようなヒントを投げかけることだ。"
         },
         {
           "id": 63,
           "mondai": 11,
           "mondaiName": "問題11: 中文読解",
           "type": "reading",
-          "readingPassage": "【医療と対話】\n現代医療では、単に病気を治すだけでなく、患者がどのような人生観を持ち、何を望んでいるかを踏まえた治療が求められる。同じ病気であっても、患者の価値観や生活背景によって最適な治療方針は全く異なってくるからである。",
           "question": "現代医療において治療方針が多様になる理由として、筆者が述べているのは何か。",
           "options": [
             "医療技術の進歩により選択肢が増えたから。",
@@ -1004,7 +1009,8 @@ window.JLPT_DATA[10] = {
             "病院の規模によって設備が異なるから。"
           ],
           "correctAnswer": 2,
-          "explanation": "Phương châm điều trị trở nên đa dạng tùy thuộc vào quan điểm và mong muốn của từng bệnh nhân."
+          "explanation": "Phương châm điều trị trở nên đa dạng tùy thuộc vào quan điểm và mong muốn của từng bệnh nhân.",
+          "passage": "【医療と対話】\n現代医療では、単に病気を治すだけでなく、患者がどのような人生観を持ち、何を望んでいるかを踏まえた治療が求められる。同じ病気であっても、患者の価値観や生活背景によって最適な治療方針は全く異なってくるからである。"
         },
         {
           "id": 64,
@@ -1019,14 +1025,14 @@ window.JLPT_DATA[10] = {
             "患者の家族の意見を最優先に尊重すること。"
           ],
           "correctAnswer": 1,
-          "explanation": "Đối thoại trực tiếp để thấu hiểu suy nghĩ và nguyện vọng của bệnh nhân."
+          "explanation": "Đối thoại trực tiếp để thấu hiểu suy nghĩ và nguyện vọng của bệnh nhân.",
+          "passage": "【医療と対話】\n現代医療では、単に病気を治すだけでなく、患者がどのような人生観を持ち、何を望んでいるかを踏まえた治療が求められる。同じ病気であっても、患者の価値観や生活背景によって最適な治療方針は全く異なってくるからである。"
         },
         {
           "id": 65,
           "mondai": 12,
           "mondaiName": "問題12: 比較読解",
           "type": "reading",
-          "readingPassage": "【A】スポーツ観戦の醍醐味は、選手たちの熱いプレーに心を揺さぶられ、スタジアム全体で歓喜や悔しさを共有できる点にある。ルールを詳しく知らなくても、その場の熱気や選手の表情を見るだけで十分に感動できる。\n\n【B】スポーツを深く楽しむためには、基本的なルールや戦術の知識が不可欠だ。なぜそのプレーが選ばれたのか、どんな意図があるのかを理解しながら観戦することで、試合の奥深さを真に味わうことができる。",
           "question": "Aが考えるスポーツ観戦の魅力は何か。",
           "options": [
             "選手の戦術的な意図を読み取れること。",
@@ -1035,7 +1041,8 @@ window.JLPT_DATA[10] = {
             "高度なルールを学ぶきっかけになること。"
           ],
           "correctAnswer": 2,
-          "explanation": "A cho rằng cái hay là được chia sẻ cảm xúc, rung động cùng nhịp đập với tuyển thủ."
+          "explanation": "A cho rằng cái hay là được chia sẻ cảm xúc, rung động cùng nhịp đập với tuyển thủ.",
+          "passage": "【A】スポーツ観戦の醍醐味は、選手たちの熱いプレーに心を揺さぶられ、スタジアム全体で歓喜や悔しさを共有できる点にある。ルールを詳しく知らなくても、その場の熱気や選手の表情を見るだけで十分に感動できる。\n\n【B】スポーツを深く楽しむためには、基本的なルールや戦術の知識が不可欠だ。なぜそのプレーが選ばれたのか、どんな意図があるのかを理解しながら観戦することで、試合の奥深さを真に味わうことができる。"
         },
         {
           "id": 66,
@@ -1050,14 +1057,14 @@ window.JLPT_DATA[10] = {
             "AもBもルールを知らないほうが感動が大きいと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "A cho rằng không cần nắm rõ luật vẫn tận hưởng được, trong khi B cho rằng cần nắm vững quy tắc cơ bản."
+          "explanation": "A cho rằng không cần nắm rõ luật vẫn tận hưởng được, trong khi B cho rằng cần nắm vững quy tắc cơ bản.",
+          "passage": "【A】スポーツ観戦の醍醐味は、選手たちの熱いプレーに心を揺さぶられ、スタジアム全体で歓喜や悔しさを共有できる点にある。ルールを詳しく知らなくても、その場の熱気や選手の表情を見るだけで十分に感動できる。\n\n【B】スポーツを深く楽しむためには、基本的なルールや戦術の知識が不可欠だ。なぜそのプレーが選ばれたのか、どんな意図があるのかを理解しながら観戦することで、試合の奥深さを真に味わうことができる。"
         },
         {
           "id": 67,
           "mondai": 13,
           "mondaiName": "問題13: 長文読解",
           "type": "reading",
-          "readingPassage": "【「分かる」とは何か】\n私たちが何かを「分かった」と感じるとき、脳内では何が起きているのだろうか。それは、新しく入ってきた情報を、すでに頭の中にある知識の枠組み（引き出し）と関連づけ、適切に分類・整理できたときである。\nしかし、ここに落とし穴がある。人間は早く安心したいために、よく分かりもしない情報を安易に既存の引き出しに放り込み、「分かったつもり」になってしまうことがある。間違った引き出しに入れたまま忘れてしまうと、新しい発見の芽を摘んでしまうことになる。\n真の学習とは、「分からない」という宙ぶらりんな状態に耐え、じっくりと物事を見つめ直す態度から生まれるのである。",
           "question": "筆者によると、「分かる」とはどのような状態か。",
           "options": [
             "「分かる」とは、新しい情報を頭の中にある知識と関連づけて分類することだから。",
@@ -1066,7 +1073,8 @@ window.JLPT_DATA[10] = {
             "新しい情報によって過去の知識がすべて書き換えられる状態。"
           ],
           "correctAnswer": 1,
-          "explanation": "'Hiểu' tức là liên kết và phân loại thông tin mới vào kho kiến thức đã có trong đầu."
+          "explanation": "'Hiểu' tức là liên kết và phân loại thông tin mới vào kho kiến thức đã có trong đầu.",
+          "passage": "【「分かる」とは何か】\n私たちが何かを「分かった」と感じるとき、脳内では何が起きているのだろうか。それは、新しく入ってきた情報を、すでに頭の中にある知識の枠組み（引き出し）と関連づけ、適切に分類・整理できたときである。\nしかし、ここに落とし穴がある。人間は早く安心したいために、よく分かりもしない情報を安易に既存の引き出しに放り込み、「分かったつもり」になってしまうことがある。間違った引き出しに入れたまま忘れてしまうと、新しい発見の芽を摘んでしまうことになる。\n真の学習とは、「分からない」という宙ぶらりんな状態に耐え、じっくりと物事を見つめ直す態度から生まれるのである。"
         },
         {
           "id": 68,
@@ -1081,7 +1089,8 @@ window.JLPT_DATA[10] = {
             "誤った箱に入れたのに、適切な箱に入れたつもりになって忘れてしまうこと。"
           ],
           "correctAnswer": 4,
-          "explanation": "Xếp nhầm thông tin vào ngăn kéo sai mà lại ngỡ là đã hiểu đúng rồi lãng quên đi."
+          "explanation": "Xếp nhầm thông tin vào ngăn kéo sai mà lại ngỡ là đã hiểu đúng rồi lãng quên đi.",
+          "passage": "【「分かる」とは何か】\n私たちが何かを「分かった」と感じるとき、脳内では何が起きているのだろうか。それは、新しく入ってきた情報を、すでに頭の中にある知識の枠組み（引き出し）と関連づけ、適切に分類・整理できたときである。\nしかし、ここに落とし穴がある。人間は早く安心したいために、よく分かりもしない情報を安易に既存の引き出しに放り込み、「分かったつもり」になってしまうことがある。間違った引き出しに入れたまま忘れてしまうと、新しい発見の芽を摘んでしまうことになる。\n真の学習とは、「分からない」という宙ぶらりんな状態に耐え、じっくりと物事を見つめ直す態度から生まれるのである。"
         },
         {
           "id": 69,
@@ -1096,14 +1105,14 @@ window.JLPT_DATA[10] = {
             "分からないことはすぐに専門家に質問して解消すべきだ。"
           ],
           "correctAnswer": 3,
-          "explanation": "Trong việc học, thái độ biết trân trọng và kiên nhẫn với trạng thái 'chưa hiểu' là rất quan trọng."
+          "explanation": "Trong việc học, thái độ biết trân trọng và kiên nhẫn với trạng thái 'chưa hiểu' là rất quan trọng.",
+          "passage": "【「分かる」とは何か】\n私たちが何かを「分かった」と感じるとき、脳内では何が起きているのだろうか。それは、新しく入ってきた情報を、すでに頭の中にある知識の枠組み（引き出し）と関連づけ、適切に分類・整理できたときである。\nしかし、ここに落とし穴がある。人間は早く安心したいために、よく分かりもしない情報を安易に既存の引き出しに放り込み、「分かったつもり」になってしまうことがある。間違った引き出しに入れたまま忘れてしまうと、新しい発見の芽を摘んでしまうことになる。\n真の学習とは、「分からない」という宙ぶらりんな状態に耐え、じっくりと物事を見つめ直す態度から生まれるのである。"
         },
         {
           "id": 70,
           "mondai": 14,
           "mondaiName": "問題14: 情報検索",
           "type": "reading",
-          "readingPassage": "【市民パソコン講座のご案内】\n講座一覧：\n① はじめてのパソコン（月曜午前、初心者向け、定員10名）\n② ワード基礎（火曜午後、文字入力ができる方、定員15名）\n③ エクセル入門（水曜午前、文字入力ができる方、定員15名）\n④ パワーポイント（木曜午後、ワード経験者向け、定員10名）\n⑤ エクセル応用（金曜午前、エクセル入門修了者向け、定員10名）\n\n【申込方法】\n・受付期間：11月15日〜12月7日（電話または窓口にて、先着順）\n・事前に空き状況を電話でご確認ください。",
           "question": "文字入力はできるが表計算ソフト（エクセル）の経験がない人が申し込める講座の組み合わせはどれか。",
           "options": [
             "①と②",
@@ -1112,7 +1121,8 @@ window.JLPT_DATA[10] = {
             "②と③"
           ],
           "correctAnswer": 3,
-          "explanation": "Khóa ③ là入門, khóa ⑤ là 応用. Đối chiếu theo điều kiện biểu mẫu chọn ③ và ⑤."
+          "explanation": "Khóa ③ là入門, khóa ⑤ là 応用. Đối chiếu theo điều kiện biểu mẫu chọn ③ và ⑤.",
+          "passage": "【市民パソコン講座のご案内】\n講座一覧：\n① はじめてのパソコン（月曜午前、初心者向け、定員10名）\n② ワード基礎（火曜午後、文字入力ができる方、定員15名）\n③ エクセル入門（水曜午前、文字入力ができる方、定員15名）\n④ パワーポイント（木曜午後、ワード経験者向け、定員10名）\n⑤ エクセル応用（金曜午前、エクセル入門修了者向け、定員10名）\n\n【申込方法】\n・受付期間：11月15日〜12月7日（電話または窓口にて、先着順）\n・事前に空き状況を電話でご確認ください。"
         },
         {
           "id": 71,
@@ -1127,7 +1137,8 @@ window.JLPT_DATA[10] = {
             "12月7日までに電話で空きを確認して申し込む。"
           ],
           "correctAnswer": 4,
-          "explanation": "Trước ngày 7/12 gọi điện thoại xác nhận chỗ trống rồi tiến hành đăng ký."
+          "explanation": "Trước ngày 7/12 gọi điện thoại xác nhận chỗ trống rồi tiến hành đăng ký.",
+          "passage": "【市民パソコン講座のご案内】\n講座一覧：\n① はじめてのパソコン（月曜午前、初心者向け、定員10名）\n② ワード基礎（火曜午後、文字入力ができる方、定員15名）\n③ エクセル入門（水曜午前、文字入力ができる方、定員15名）\n④ パワーポイント（木曜午後、ワード経験者向け、定員10名）\n⑤ エクセル応用（金曜午前、エクセル入門修了者向け、定員10名）\n\n【申込方法】\n・受付期間：11月15日〜12月7日（電話または窓口にて、先着順）\n・事前に空き状況を電話でご確認ください。"
         }
       ]
     },
@@ -2646,7 +2657,7 @@ window.JLPT_DATA[10] = {
           ],
           "correctAnswer": 1,
           "explanation": "Các cuộc hội thoại đối mặt thông thường trên tàu xe thì hoàn toàn không bận tâm: 「気にならない」.",
-          "readingPassage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
+          "passage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
         },
         {
           "id": 169,
@@ -2661,7 +2672,8 @@ window.JLPT_DATA[10] = {
             "a 無視でき ／ b 理解する"
           ],
           "correctAnswer": 2,
-          "explanation": "Nếu hiểu được mạch truyện thì có thể chủ động lờ đi: a 理解でき / b 無視する."
+          "explanation": "Nếu hiểu được mạch truyện thì có thể chủ động lờ đi: a 理解でき / b 無視する.",
+          "passage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
         },
         {
           "id": 170,
@@ -2676,7 +2688,8 @@ window.JLPT_DATA[10] = {
             "わからないもの"
           ],
           "correctAnswer": 4,
-          "explanation": "Đối với những điều chưa rõ tiếp theo sẽ xảy ra chuyện gì: 「わからないもの」."
+          "explanation": "Đối với những điều chưa rõ tiếp theo sẽ xảy ra chuyện gì: 「わからないもの」.",
+          "passage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
         },
         {
           "id": 171,
@@ -2691,7 +2704,8 @@ window.JLPT_DATA[10] = {
             "半分しか"
           ],
           "correctAnswer": 3,
-          "explanation": "Do chỉ nghe được một nửa câu chuyện từ phía người gọi: 「半分だけ」."
+          "explanation": "Do chỉ nghe được một nửa câu chuyện từ phía người gọi: 「半分だけ」.",
+          "passage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
         },
         {
           "id": 172,
@@ -2706,7 +2720,8 @@ window.JLPT_DATA[10] = {
             "控えるわけだろう"
           ],
           "correctAnswer": 3,
-          "explanation": "Kết luận tác giả khuyên nên hạn chế nghe điện thoại nơi công cộng: 「控えるべきだろう」."
+          "explanation": "Kết luận tác giả khuyên nên hạn chế nghe điện thoại nơi công cộng: 「控えるべきだろう」.",
+          "passage": "日本では、電車やバスなど公共交通機関でのケータイの通話を禁止している。しかし、ときどき緊急の用事で通話している人を見かける事がある。手短にすむのならよいが、長々と話をしている人を見るとついイライラしてしまう。これと似たような経験をお持ちの方も多いだろう。\n電車やバスで聞こえてくる会話はまったく【 50 】のに、ケータイは不快に感じてしまう。なぜかケータイは気になって仕方がない。この疑問をアメリカの心理学者が解明し、このほど科学誌に発表した。\n電車内でのケータイ会話について研究を行ったのは、コーネル大学の心理学者ローレン・エンバーソン博士のチームだ。研究チームは対面会話とケータイを比較し、周りの人が受ける影響について実験を行った。\nそれによると、周りの人は聞こえてくる会話の内容が把握できないと、ストレスを感じるという。対面会話であれば、話の流れがなんとなくでも【 51-a 】、不必要な情報であれば【 51-b 】ことができる。一方、ケータイの場合は電話の向こうの声が聞き取れないため、話の流れが見えず、内容が気になって無視できなくなってしまうというのだ。\n「人間は簡単に想像のつくものに対して、無視することができる。しかし次に何が起こるか【 52 】に対しては、常に注意を払ってしまう。ケータイは話が【 53 】聞こえるために、無意識に話の全体像をつかもうと脳は緊張した状態を持続することになる」と、ローレン博士は説明している。\nつまりケータイは、話している声だけでなく、その内容も周りのイライラの原因になっているようだ。公共交通機関でのケータイ使用は【 54 】。"
         }
       ]
     },
@@ -2715,194 +2730,194 @@ window.JLPT_DATA[10] = {
       "name": "聴解 (Nghe hiểu - Đề thi thật 07/2025)",
       "icon": "fa-headphones",
       "questions": [
-            {
-                  "id": 173,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m1_01.mp3",
-                  "audioUrl": "audio/buoi_10/m1_01.mp3",
-                  "questionText": "図書館で男の職員と女の職員が話しています。女の職員はこの後まず、何をしますか。",
-                  "options": [
-                        "ページがぬけていないか かくにんする",
-                        "<ruby>本<rt>ほん</rt></ruby>のデータをとうろくする",
-                        "<ruby>本<rt>ほん</rt></ruby>にカバーをつける",
-                        "イベントで<ruby>使<rt>つか</rt></ruby>う<ruby>本<rt>ほん</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại thư viện, nhân viên nam và nhân viên nữ đang nói chuyện. Nhân viên nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ページがぬけていないか かくにんする: Kiểm tra xem có trang sách nào bị thiếu không<br>2. 本のデータをとうろくする: Nhập (đăng ký) dữ liệu sách vào máy tính<br>3. 本にカバーをつける: Bọc bìa cho sách<br>4. イベントで使う本を選ぶ: Chọn sách dùng cho sự kiện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：中村さん、新しい図書のコーナーに置く本が届いたよ。<br>女：そうですか。<br>男：新しい本に抜けてるページがないかどうか、今加藤さんが確認してるとこで、<b>それが終わったらパソコンに本のデータを登録してくれる？</b><br>女：<b>はい</b>。<br>男：本にカバーをつけるのは私が担当するね。土曜日の朝、コーナーに並べるね。<br>女：わかりました。<br>男：それと再来週の子供向けのイベントのことなんだけど、イベントで使う本、2冊ピックアップしてくれる？貸し出し中の本とか、今後の予約の状況を見て来週の金曜日の会議までにお願いね。<br>女：はい。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Nakamura này, sách đặt ở góc sách mới đã chuyển tới rồi đấy.\"<br>Nữ: \"Thế ạ.\"<br>Nam: \"Việc kiểm tra xem sách mới có bị rách hay thiếu trang nào không thì hiện tại Kato đang kiểm tra rồi, <b>khi Kato làm xong thì cô nhập dữ liệu sách vào máy tính giúp tôi nhé?</b>\"<br>Nữ: \"<b>Vâng ạ</b>.\"<br>Nam: \"Việc bọc bìa sách thì tôi sẽ phụ trách. Sáng thứ 7 tôi sẽ xếp ra góc trưng bày.\"<br>Nữ: \"Dạ em hiểu rồi.\"<br>Nam: \"Còn việc sự kiện cho trẻ em tuần sau nữa, cô chọn giúp tôi 2 cuốn sách dùng trong sự kiện nhé. Xem tình trạng sách đang cho mượn và đặt trước rồi chuẩn bị trước cuộc họp thứ 6 tuần sau nhé.\"<br>Nữ: \"Vâng ạ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Việc kiểm tra trang sách (抜けてるページ) do Kato đang làm.<br>- Người nam yêu cầu nhân viên nữ: Kato kiểm tra xong thì nhập dữ liệu sách vào máy tính (パソコンに本のデータを登録してくれる？) và cô đồng ý làm ngay.<br>- Việc chọn sách sự kiện hạn đến thứ 6 tuần sau.<br>- Do đó việc cô làm trước tiên sau đây là nhập dữ liệu sách &rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 174,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m1_02.mp3",
-                  "audioUrl": "audio/buoi_10/m1_02.mp3",
-                  "questionText": "科学館で男の職員と女の職員が講演会について話しています。女の職員はこの後何をしますか。",
-                  "options": [
-                        "<ruby>部屋<rt>へや</rt></ruby>をさがす",
-                        "<ruby>質問<rt>しつもん</rt></ruby>をまとめて<ruby>先生<rt>せんせい</rt></ruby>に<ruby>送<rt>おく</rt></ruby>る",
-                        "<ruby>当日<rt>とうじつ</rt></ruby>のしりょうを<ruby>印刷<rt>いんさつ</rt></ruby>をする",
-                        "ホームページの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>新<rt>あたら</rt></ruby>しくする"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bảo tàng khoa học, nhân viên nam và nhân viên nữ đang nói về buổi diễn thuyết. Nhân viên nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 部屋をさがす: Tìm phòng<br>2. 質問をまとめて先生に送る: Tổng hợp câu hỏi và gửi cho giảng viên<br>3. 当日のしりょうを印刷をする: In tài liệu phát trong ngày diễn ra buổi thuyết trình<br>4. ホームページの情報を新しくする: Cập nhật thông tin trên trang web<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：来週の講演会、ほかのイベントの都合で部屋を急に変更しなきゃならなくなったけど、空いててよかったね。<br>女：はい。<br>男：参加希望者に事前に出してもらった質問をまとめて講師の先生に送った方がいいね。私がやっておこう。ちょうど今、先生と別のことでやり取りしてるから。<br>女：そうですか。ありがとうございます。<br>男：当日配る資料の印刷は大丈夫かな？それとホームページに部屋が変更になったことを載せる必要もあるね。<br>女：<b>資料の印刷、後回しになってました。すぐ取り掛かります</b>。ホームページの更新は山下さんが引き受けてくれました。<br>男：そう、わかった。では、引き続きよろしくね。<br>女：はい、わかりました。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Buổi diễn thuyết tuần tới vì trùng sự kiện khác nên phải đổi phòng gấp, may mà vẫn còn phòng trống em nhỉ.\"<br>Nữ: \"Dạ vâng.\"<br>Nam: \"Những câu hỏi người tham gia gửi trước cần tổng hợp lại gửi cho thầy giảng viên. Việc đó để anh làm cho, vì tiện đang trao đổi với thầy về việc khác.\"<br>Nữ: \"Thế ạ, em cảm ơn anh.\"<br>Nam: \"Việc in tài liệu phát hôm đó ổn chưa em? Cả việc đăng thông báo đổi phòng lên trang web nữa.\"<br>Nữ: \"<b>Việc in tài liệu em vẫn đang hoãn lại. Em sẽ bắt tay vào in ngay ạ</b>. Còn việc cập nhật web thì anh Yamashita đã nhận làm rồi.\"<br>Nam: \"Thế à, vậy nhờ em tiếp tục nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Gửi câu hỏi cho giảng viên do nam làm.<br>- Cập nhật trang web do Yamashita làm.<br>- Việc in tài liệu đang hoãn lại nên nhân viên nữ sẽ bắt tay vào in ngay lập tức (すぐ取り掛かります) &rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 175,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m1_03.mp3",
-                  "audioUrl": "audio/buoi_10/m1_03.mp3",
-                  "questionText": "文房具の会社で課長と男の人が話しています。男の人はこの後まず何をしますか。",
-                  "options": [
-                        "チームのメンバーを<ruby>選<rt>えら</rt></ruby>ぶ",
-                        "<ruby>会議<rt>かいぎ</rt></ruby>でチームをしょうかいする",
-                        "メンバーの<ruby>仕事<rt>しごと</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>を<ruby>決定<rt>けってい</rt></ruby>する",
-                        "<ruby>開発<rt>かいはつ</rt></ruby>スケジュールを<ruby>作<rt>つく</rt></ruby>る"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty văn phòng phẩm, trưởng nhóm (kachou) và người đàn ông đang nói chuyện. Người đàn ông sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. チームのメンバーを選ぶ: Chọn thành viên cho nhóm<br>2. 会議でチームをしょうかいする: Giới thiệu nhóm tại cuộc họp<br>3. メンバーの仕事の内容を決定する: Quyết định nội dung công việc (phân công việc) cho các thành viên<br>4. 開発スケジュールを作る: Lập lịch trình phát triển sản phẩm<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：伊藤さん。伊藤さんがリーダーで始動する新商品の開発チームのことですけど。<br>男：はい、課長。子供向けのハサミの商品開発の件ですね。<br>女：ええ、開発メンバーを私が選んでみたんですけど、どうですか。<br>男：はい。えー、岡田さんに高橋さん。子供向けの商品の開発経験者が入っているので心強いです。もし人が足りない場合は増やしてもらえますか。<br>女：ええ、もちろん。その時は相談してくれたらいいですよ。開発チームについて来週の会議で私が紹介するから、早速で悪いんだけど、<b>メンバーを見て誰にどの仕事を任せるか決めておいてもらえますか</b>。<br>男：<b>わかりました。やってみます</b>。<br>女：商品開発の大まかなスケジュールは会議の資料の最後に載っていますから、確認しておいてください。<br>男：はい、わかりました。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ (Trưởng nhóm): \"Ito này, về nhóm phát triển sản phẩm mới mà cậu làm nhóm trưởng chuẩn bị khởi động ấy.\"<br>Nam: \"Dạ vâng kachou, vụ phát triển sản phẩm kéo dành cho trẻ em đúng không ạ.\"<br>Nữ: \"Ừ, danh sách thành viên tôi đã chọn thử rồi, cậu thấy sao?\"<br>Nam: \"Dạ, chị Okada và anh Takahashi... Có những người giàu kinh nghiệm phát triển sản phẩm cho trẻ em nên rất yên tâm ạ. Nếu thiếu người có được bổ sung không ạ?\"<br>Nữ: \"Tất nhiên, lúc đó cứ bàn với tôi. Nhóm phát triển thì cuộc họp tuần sau tôi sẽ giới thiệu, nên hơi gấp một chút nhưng <b>cậu xem các thành viên rồi quyết định xem giao việc gì cho ai trước giúp tôi nhé</b>.\"<br>Nam: \"<b>Dạ em hiểu rồi, em sẽ làm ngay ạ</b>.\"<br>Nữ: \"Lịch trình phát triển đại khái nằm ở cuối tài liệu cuộc họp, cậu xem qua nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Thành viên đã do trưởng nhóm chọn.<br>- Trưởng nhóm yêu cầu Ito phân chia công việc cho từng thành viên: 誰にどの仕事を任せるか決めておいてもらえますか (Quyết định xem giao việc gì cho ai).<br>- Do đó việc người đàn ông làm trước tiên là quyết định phân công công việc cho thành viên &rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 176,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m1_04.mp3",
-                  "audioUrl": "audio/buoi_10/m1_04.mp3",
-                  "questionText": "野球場で市役所の職員がアルバイトの人たちに話しています。アルバイトの人たちはこの後まず何をしますか。",
-                  "options": [
-                        "アンケートをかいしゅうする",
-                        "テントをかたづける",
-                        "<ruby>作業用<rt>さぎょうよう</rt></ruby>てぶくろをする",
-                        "<ruby>机<rt>つくえ</rt></ruby>といすをトラックにのせる"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sân bóng chày, nhân viên ủy ban thành phố đang nói chuyện với các bạn làm thêm (arubaito). Các bạn làm thêm sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. アンケートをかいしゅうする: Thu phiếu khảo sát<br>2. テントをかたづける: Dọn dẹp lều bạt<br>3. 作業用てぶくろをする: Đeo găng tay bảo hộ lao động<br>4. 机といすをトラックにのせる: Khiêng bàn ghế xếp lên xe tải<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：アルバイトの皆さん、お疲れ様です。本日の市民野球大会を無事終えることができました。参加者へのアンケートの実施ならびに回収もありがとうございました。これからテントの片付けを行います。<b>安全の観点から作業の前に作業用手袋をするのを忘れないでください</b>。受付の机と椅子については畳んだテントと一緒にトラックに積み込んでください。よろしくお願いします。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>\"Cảm ơn tất cả các bạn làm thêm. Giải bóng chày thành phố hôm nay đã kết thúc tốt đẹp. Cảm ơn các bạn đã hỗ trợ phát và thu phiếu khảo sát. Bây giờ chúng ta sẽ tiến hành dọn lều bạt. <b>Vì lý do an toàn, trước khi bắt tay vào làm việc các bạn đừng quên đeo găng tay lao động vào nhé</b>. Bàn ghế ở bàn lễ tân thì hãy khiêng xếp lên xe tải cùng với lều đã gấp. Nhờ các bạn nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khảo sát đã thu xong.<br>- Trước khi dọn lều và bàn ghế, nhân viên nhấn mạnh: 作業の前に作業用手袋をするのを忘れないでください (Trước khi làm việc đừng quên đeo găng tay lao động).<br>- Do đó hành động đầu tiên các bạn làm thêm phải làm ngay là đeo găng tay bảo hộ &rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 177,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m1_05.mp3",
-                  "audioUrl": "audio/buoi_10/m1_05.mp3",
-                  "questionText": "大学で美術サークルの男の部長と女の学生が話しています。女の学生はこの後まず何をしますか。",
-                  "options": [
-                        "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>の<ruby>絵<rt>え</rt></ruby>をほかの<ruby>絵<rt>え</rt></ruby>に<ruby>替<rt>か</rt></ruby>える",
-                        "しょうめいを<ruby>暗<rt>くら</rt></ruby>くする",
-                        "<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>花<rt>はな</rt></ruby>をかざる",
-                        "<ruby>絵<rt>え</rt></ruby>と<ruby>絵<rt>え</rt></ruby>のかんかくを<ruby>広<rt>ひろ</rt></ruby>くする"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, trưởng câu lạc bộ mỹ thuật và bạn nữ sinh viên đang nói chuyện. Bạn nữ sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 入り口の絵をほかの絵に替える: Đổi bức tranh ở lối vào sang bức khác<br>2. しょうめいを暗くする: Chỉnh đèn chiếu sáng tối bớt lại<br>3. 教室に花をかざる: Cắm hoa trang trí trong phòng học<br>4. 絵と絵のかんかくを広くする: Nới rộng khoảng cách giữa các bức tranh<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：いよいよ明日から展覧会が始まるけど、よろしく。じゃ、展覧会用の教室、最終チェックしようか。<br>女：よろしくお願いします。<br>男：えっと、入口のところの絵、前回の打ち合わせで出口のところの絵と変えることにしたけど、変えてよかったね。<br>女：はい、いいですよね。<br>男：でも、教室全体の照明が明るくて考えていたのとは違うな。<b>もう少し暗めの方がいいな</b>。前の打ち合わせで花を飾って明るい雰囲気にしたいとは言ったけど。<br>女：あー、そうですね。<br>男：あとは絵と絵の間隔を広くしたかった気もするけど、これは教室の広さを考えると仕方ないか。<br>女：はい。<br>男：じゃ、<b>さっきのところだけ調整してくれる？</b><br>女：<b>わかりました</b>。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Cuối cùng thì ngày mai triển lãm cũng bắt đầu rồi, nhờ em nhé. Giờ chúng ta kiểm tra lần cuối phòng triển lãm nào.\"<br>Nữ: \"Dạ vâng.\"<br>Nam: \"À tranh ở cửa ra vào đã đổi với tranh ở cửa ra như thống nhất lần trước rồi, đổi thế nhìn ổn đấy chứ.\"<br>Nữ: \"Dạ vâng, đẹp lắm anh.\"<br>Nam: \"Nhưng mà ánh sáng đèn cả phòng hơi bị sáng quá so với dự tính. <b>Nên để tối hơn một chút thì tốt hơn</b>. Dù lần trước có bảo cắm hoa cho không khí tươi sáng.\"<br>Nữ: \"A đúng rồi ạ.\"<br>Nam: \"Còn khoảng cách giữa các bức tranh anh cũng muốn rộng hơn nhưng phòng học có hạn nên thôi đành chịu vậy.\"<br>Nữ: \"Dạ.\"<br>Nam: \"Vậy em <b>chỉnh lại mỗi chỗ lúc nãy giúp anh nhé?</b>\"<br>Nữ: \"<b>Dạ em hiểu rồi</b>.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tranh cửa vào đã đổi xong từ trước.<br>- Khoảng cách tranh không đổi được do phòng hẹp.<br>- Người nam yêu cầu chỉnh điểm duy nhất vừa nhận xét là hạ bớt độ sáng đèn phòng (もう少し暗めの方がいいな &rarr; さっきのところだけ調整してくれる？).<br>- Do đó bạn nữ sinh sẽ chỉnh đèn tối bớt lại &rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 178,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_01.mp3",
-                  "audioUrl": "audio/buoi_10/m2_01.mp3",
-                  "questionText": "大学で女の学生と男の学生が話しています。女の学生は卒業したら何をしたいと言っていますか。",
-                  "options": [
-                        "<ruby>食品<rt>しょくひん</rt></ruby>かんれんの<ruby>仕事<rt>しごと</rt></ruby>をする",
-                        "<ruby>大学院<rt>だいがくいん</rt></ruby>に<ruby>進<rt>すす</rt></ruby>む",
-                        "<ruby>研究<rt>けんきゅう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をする",
-                        "しゅっぱんしゃで<ruby>働<rt>はたら</rt></ruby>く"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, bạn nữ sinh và bạn nam sinh đang nói chuyện. Bạn nữ sinh nói sau khi tốt nghiệp muốn làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 食品かんれんの仕事をする: Làm công việc liên quan đến thực phẩm<br>2. 大学院に進む: Học lên cao học (thạc sĩ)<br>3. 研究の仕事をする: Làm công việc nghiên cứu<br>4. しゅっぱんしゃで働く: Làm việc tại nhà xuất bản<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：村上君、今日はスーツ着て就職の活動なの？<br>男：あ、石川さん。今日は食品メーカーの企業説明会に行くんだ。<br>女：へー、村上君って食品関連の企業志望だっけ？<br>男：うん。石川さんは卒業後、大学院で植物の研究続けるんでしょう？<br>女：そう思ってたんだけど、今は就職しようと思ってるの。<br>男：そうなんだ。研究の仕事とか？<br>女：ううん、<b>植物の図鑑とか植物専門の本を作ってる出版社があって、そこに入りたいんだ</b>。<br>男：へー、専門分野を生かすんだったら、そういう道もあるね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Murakami, hôm nay mặc vest đi xin việc à cậu?\"<br>Nam: \"A Ishikawa. Hôm nay mình đi dự buổi thuyết minh doanh nghiệp của công ty sản xuất thực phẩm.\"<br>Nữ: \"Ồ, cậu có nguyện vọng vào các công ty thực phẩm hả?\"<br>Nam: \"Ừ. Còn Ishikawa sau khi tốt nghiệp sẽ học lên cao học tiếp tục nghiên cứu về thực vật đúng không?\"<br>Nữ: \"Lúc trước mình cũng định thế, nhưng giờ mình muốn đi làm cơ.\"<br>Nam: \"Thế à, làm công việc nghiên cứu hả?\"<br>Nữ: \"Không, <b>có một nhà xuất bản chuyên làm sách và bách khoa toàn thư hình ảnh về thực vật, mình muốn vào đó làm việc</b>.\"<br>Nam: \"Chà, để phát huy chuyên ngành thì hướng đi đó cũng hay đấy nhỉ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bạn nữ sinh giải thích rõ ràng không học lên cao học và cũng không làm nghiên cứu, mà muốn vào nhà xuất bản chuyên về sách thực vật (植物専門の本を作ってる出版社があって、そこに入りたいんだ).<br>- Do đó cô muốn làm việc tại nhà xuất bản &rarr; <b>Đáp án đúng là 4</b>."
-            },
-            {
-                  "id": 179,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_02.mp3",
-                  "audioUrl": "audio/buoi_10/m2_02.mp3",
-                  "questionText": "病院で女の人と医者が話しています。医者は何をしてはいけないと言っていますか。",
-                  "options": [
-                        "つえを<ruby>使<rt>つか</rt></ruby>わないで<ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>歩<rt>ある</rt></ruby>くこと",
-                        "<ruby>薬<rt>くすり</rt></ruby>をやめること",
-                        "<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>うこと",
-                        "<ruby>足首<rt>あしくび</rt></ruby>のトレーニングをすること"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bệnh viện, người phụ nữ và bác sĩ đang nói chuyện. Bác sĩ dặn KHÔNG ĐƯỢC làm việc gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. つえを使わないで長時間歩くこと: Đi bộ thời gian dài mà không dùng gậy chống<br>2. 薬をやめること: Ngừng uống thuốc<br>3. 自転車で会社に通うこと: Đi làm bằng xe đạp<br>4. 足首のトレーニングをすること: Luyện tập phục hồi cổ chân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：先生、先週に比べて右の足首、調子だいぶ良くなったんです。歩いてもあまり痛みは感じないです。<br>医者：そうですか。じゃ、怪我の状態を見せてくださいね。うん、もうあんまり腫れてはいませんね。杖を使わなくてもいいですよ。飲み薬ももうやめましょう。<br>女：よかった。杖なしで歩いてもいいんですか？<br>医者：はい。日常生活の範囲なら大丈夫です。<b>あまり長い時間は厳禁ですよ。やめてくださいね</b>。<br>女：あ。自転車で通勤してもいいですか？会社まで15分くらいです。<br>医者：あまり負担がかからないので構いませんよ。今の足首の状態に合うトレーニングを紹介しますから、やってみてくださいね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Thưa bác sĩ, so với tuần trước thì cổ chân phải của tôi đã đỡ nhiều rồi ạ. Đi lại cũng không thấy đau lắm nữa.\"<br>Bác sĩ: \"Thế à, để tôi kiểm tra vết thương nhé. Ừm, không còn sưng nhiều nữa rồi. Cô không cần dùng gậy chống nữa cũng được. Thuốc uống cũng ngưng được rồi nhé.\"<br>Nữ: \"May quá. Không cần gậy đi lại bình thường được rồi ạ?\"<br>Bác sĩ: \"Vâng, trong phạm vi sinh hoạt hàng ngày thì được. <b>Nhưng đi bộ thời gian quá lâu là nghiêm cấm đấy nhé, tuyệt đối tránh đừng làm</b>.\"<br>Nữ: \"À tôi đi làm bằng xe đạp có được không bác sĩ? Đến công ty tầm 15 phút.\"<br>Bác sĩ: \"Không tạo gánh nặng lớn lên chân nên được cô nhé. Tôi sẽ hướng dẫn một vài bài tập phục hồi hợp với cổ chân hiện tại, cô thử tập xem sao nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bác sĩ cho phép bỏ gậy, ngừng uống thuốc, đi xe đạp và tập luyện cổ chân.<br>- Điều bác sĩ nghiêm cấm (厳禁) tuyệt đối không được làm là đi bộ trong thời gian dài (あまり長い時間は厳禁ですよ) &rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 180,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_03.mp3",
-                  "audioUrl": "audio/buoi_10/m2_03.mp3",
-                  "questionText": "女の高校生と男の高校生が話しています。男の高校生が農業体験で1番印象に残っていることは何ですか。",
-                  "options": [
-                        "<ruby>自然<rt>しぜん</rt></ruby>のゆたかな<ruby>所<rt>ところ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>けたこと",
-                        "<ruby>野菜<rt>やさい</rt></ruby>をとる<ruby>経験<rt>けいけん</rt></ruby>をしたこと",
-                        "<ruby>同級生<rt>どうきゅうせい</rt></ruby>の<ruby>知<rt>し</rt></ruby>らなかった<ruby>面<rt>めん</rt></ruby>を<ruby>知<rt>し</rt></ruby>ったこと",
-                        "のうぎょうのおもしろさを<ruby>実感<rt>じっかん</rt></ruby>したこと"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Nữ sinh cấp 3 và nam sinh cấp 3 đang nói chuyện. Điều khiến nam sinh ấn tượng nhất trong chuyến đi trải nghiệm làm nông nghiệp là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 自然のゆたかな所へ行けたこと: Việc được đến nơi có thiên nhiên phong phú<br>2. 野菜をとる経験をしたこと: Việc trải nghiệm thu hoạch rau củ<br>3. 同級生の知らなかった面を知ったこと: Việc biết được những mặt (nét tính cách) chưa từng biết của bạn cùng lớp<br>4. のうぎょうのおもしろさを実感したこと: Việc cảm nhận được sự thú vị của nghề nông<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：松本君の学校で農業体験に行くって言ってたよね。どうだった？<br>男：結構よかったよ。自然の豊かなところだった。<br>女：野菜とか収穫した？<br>男：うん。玉ねぎとかトマトとか採ったよ。玉ねぎを育ててるところなんて初めて見たよ。美味しい玉ねぎの見分け方とか知らないことばっかりだったよ。<br>女：へー、いろいろ楽しめたみたいだね。<br>男：そうだね。スタンプを集めるレクリエーションとか農業に関するクイズに応えるグループワークがあったんだけど、あーこの人は地図を読むのが上手で頼りになるとか授業中はおとなしいけど、クイズは得意だとか<b>クラスメイトの意外な一面を知ることができたんだよね</b>。<br>女：あぁ、教室では知り得ないことを発見できたんだね。<br>男：うん、もちろん農業の面白さも実感できたけど、<b>どんなことよりそっちの方が印象に残ってる</b>。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Matsumoto này, đợt trước trường cậu có đi trải nghiệm nông nghiệp đúng không? Thế nào rồi?\"<br>Nam: \"Hay lắm cậu ạ. Nơi đó thiên nhiên rất phong phú trù phú.\"<br>Nữ: \"Cậu có thu hoạch rau củ gì không?\"<br>Nam: \"Có chứ, hái cà chua với nhổ hành tây. Lần đầu tiên tận mắt thấy nơi trồng hành đấy. Toàn những điều mình chưa từng biết như cách chọn hành tây ngon.\"<br>Nữ: \"Chà, có vẻ cậu trải nghiệm được nhiều điều thú vị nhỉ.\"<br>Nam: \"Ừ. Có cả hoạt động nhóm giải câu đố về nông nghiệp với sưu tầm tem, nhờ đó mà mình biết được bạn này đọc bản đồ siêu đáng tin cậy, bạn kia trên lớp ít nói nhưng trả lời câu đố cực giỏi... <b>biết được những mặt đầy bất ngờ của các bạn cùng lớp ấy</b>.\"<br>Nữ: \"À, phát hiện ra những điều ở lớp học không thể nào biết được nhỉ.\"<br>Nam: \"Ừ, tất nhiên thấy nghề nông thú vị thật, nhưng <b>hơn bất cứ điều gì khác, chính điều đó để lại ấn tượng sâu sắc nhất trong mình</b>.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh nhấn mạnh: どんなことよりそっちの方が印象に残ってる (Hơn bất kỳ điều gì, việc biết thêm những mặt bất ngờ của bạn cùng lớp mới để lại ấn tượng sâu đậm nhất) &rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 181,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_04.mp3",
-                  "audioUrl": "audio/buoi_10/m2_04.mp3",
-                  "questionText": "女の人と男の人が話しています。男の人が公園ボランティアを始めた理由は何ですか。",
-                  "options": [
-                        "<ruby>花<rt>はな</rt></ruby>を<ruby>育<rt>そだ</rt></ruby>てるのに きょうみがあったから",
-                        "<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がよろこんでくれるから",
-                        "いろいろな<ruby>人<rt>ひと</rt></ruby>と<ruby>交流<rt>こうりゅう</rt></ruby>したいから",
-                        "バスで<ruby>通<rt>かよ</rt></ruby>いやすいから"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Lý do người đàn ông bắt đầu tham gia hoạt động tình nguyện tại công viên là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 花を育てるのに きょうみがあったから: Vì có hứng thú với việc trồng và chăm sóc hoa<br>2. 町の人がよろこんでくれるから: Vì người dân trong thị trấn sẽ vui mừng<br>3. いろいろな人と交流したいから: Vì muốn giao lưu với nhiều người<br>4. バスで通いやすいから: Vì đi xe buýt tiện lợi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：最近何か週末にできることを新しく始めたいと思っているんですけど、山田さんは特に何かしてます？<br>男：ええ。実はね、3ヶ月前から公園ボランティアをしてるんですよ。<br>女：いいですね。どんなことをするんですか？<br>男：花を植えたり、雑草を抜いたり、掃除をしたり。うちはアパートなんで、庭がないんですが、<b>花を育ててみたいとずっと思ってたんですよ。それを友達に話したら、紹介してくれたんです</b>。きれいになると町の人にも喜んでもらえて、やりがいもありますよ。<br>女：そうだったんですか。どのくらいの年齢の方が多いんですか？<br>男：思ったより色々な年齢の方がいらしてて。普段はあまり話す機会のない世代の方とも話せて、それも楽しみなんです。<br>女：近所なんですか？<br>男：いいえ、電車だと乗り換えもあって面倒なんですけど、バスなら思ったより近いですね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Dạo này em đang muốn bắt đầu một sở thích mới vào cuối tuần, anh Yamada có tham gia gì không anh?\"<br>Nam: \"Có chứ, thật ra từ 3 tháng trước anh tham gia tình nguyện viên công viên đấy.\"<br>Nữ: \"Hay quá. Thường làm những gì vậy anh?\"<br>Nam: \"Trồng hoa, nhổ cỏ, dọn dẹp vệ sinh. Nhà anh ở chung cư không có sân vườn, nhưng <b>anh luôn muốn thử trồng hoa. Kể chuyện đó với bạn bè thì được giới thiệu tham gia</b>. Công viên sạch đẹp người dân cũng vui nên thấy ý nghĩa lắm.\"<br>Nữ: \"Thế ạ, thường ở độ tuổi nào tham gia nhiều anh?\"<br>Nam: \"Nhiều lứa tuổi khác nhau lắm, được trò chuyện với những thế hệ bình thường ít tiếp xúc cũng là niềm vui.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người đàn ông nêu rõ lý do bắt đầu tham gia tình nguyện viên: do ở chung cư không có vườn mà luôn ấp ủ muốn tự tay trồng hoa (花を育ててみたいとずっと思ってたんですよ) nên được bạn giới thiệu.<br>- Việc dân làng vui hay giao lưu thế hệ là những niềm vui nhận được sau khi làm, không phải lý do bắt đầu.<br>- Do đó lý do bắt đầu là vì muốn trồng hoa &rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 182,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_05.mp3",
-                  "audioUrl": "audio/buoi_10/m2_05.mp3",
-                  "questionText": "弁当屋の開発部で女の人と男の人が話しています。2人は試作の弁当をどのように変えて売ることにしましたか。",
-                  "options": [
-                        "おかずの<ruby>味<rt>あじ</rt></ruby>をこくする",
-                        "ご<ruby>飯<rt>はん</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>少<rt>すく</rt></ruby>なくする",
-                        "サラダの<ruby>量<rt>りょう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす",
-                        "おかずの<ruby>種類<rt>しゅるい</rt></ruby>を<ruby>多<rt>おお</rt></ruby>くする"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại phòng phát triển của cửa hàng cơm hộp (bento), người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định sẽ THAY ĐỔI hộp cơm mẫu thử như thế nào để bán ra thị trường?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. おかずの味をこくする: Làm vị món ăn đậm đà hơn<br>2. ご飯の量を少なくする: Giảm bớt lượng cơm<br>3. サラダの量を増やす: Tăng lượng rau salad<br>4. おかずの種類を多くする: Tăng thêm nhiều loại món ăn kèm<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：山田さん、試作のお弁当食べてみましたよ。売り出しは来月ですね。味付けが全体的に薄い気がしましたけど、中高年の会社員がターゲットですよね。健康のために塩分の量に気を遣っている人も多いから、味の濃さはこれぐらいがちょうどいいかもしれません。おいしかったです。<br>男：そうですか。ありがとうございます。ご飯の量はどうでしたか？多い方がいいかなと思ってそうしたんですが。<br>女：<b>健康のためには少し減らしてみましょうか</b>。<br>男：<b>そうですね。そうしましょう</b>。現在販売中のよりサラダの量は増やしてみましたが、それはどうですか？<br>女：ええ、ちょうどいいですね。もう少しおかずの種類があればって思いましたけど、値段のこともありますし、おかずの種類はこれでいきましょう。<br>男：はい。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Yamada này, tôi ăn thử hộp cơm mẫu rồi nhé, tháng sau mở bán đúng không. Tôi thấy nêm nếm vị tổng thể hơi nhạt, nhưng khách hàng mục tiêu là dân văn phòng trung niên nhỉ. Vì sức khỏe nhiều người chú ý đến lượng muối, nên độ đậm thế này có khi lại vừa chuẩn đấy. Ngon lắm.\"<br>Nam: \"Thế ạ, cảm ơn chị. Còn lượng cơm thì sao chị? Tôi nghĩ nhiều cơm thì tốt nên đã cho hơi nhiều.\"<br>Nữ: \"<b>Vì sức khỏe thì chúng ta giảm bớt lượng cơm đi một chút xem sao nhé</b>.\"<br>Nam: \"<b>Vâng, quyết định vậy đi chị</b>. Lượng salad thì tôi đã tăng lên so với hộp đang bán hiện nay, chị thấy thế nào ạ?\"<br>Nữ: \"Ừ, salad thế là vừa đẹp rồi. Tôi cũng muốn có thêm nhiều loại món ăn kèm nữa nhưng còn liên quan đến giá thành, nên loại thức ăn cứ giữ nguyên như vậy nhé.\"<br>Nam: \"Vâng ạ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Vị thức ăn (味の濃さ): giữ nguyên mức nhạt hiện tại.<br>- Salad: lượng trong mẫu thử đã vừa đẹp rồi (ちょうどいい).<br>- Loại món ăn (おかずの種類): giữ nguyên do giá thành.<br>- Điểm DUY NHẤT quyết định điều chỉnh thay đổi so với mẫu thử là: Giảm bớt lượng cơm (ご飯の量を少し減らしてみましょうか &rarr; そうしましょう) &rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 183,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "audio": "audio/buoi_10/m2_06.mp3",
-                  "audioUrl": "audio/buoi_10/m2_06.mp3",
-                  "questionText": "ラジオで女の人が自分の家で飼っている猫について話しています。女の人がイベントでこの猫を選んだ1番の理由は何ですか。",
-                  "options": [
-                        "<ruby>元気<rt>げんき</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>回<rt>まわ</rt></ruby>っていたから",
-                        "<ruby>寝<rt>ね</rt></ruby>ているすがたが かわいかったから",
-                        "しっぽの<ruby>形<rt>かたち</rt></ruby>が<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ったから",
-                        "<ruby>顔<rt>かお</rt></ruby>の<ruby>毛<rt>け</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>がユニークだったから"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Trên đài phát thanh, người phụ nữ đang kể về chú mèo nuôi ở nhà mình. Lý do LỚN NHẤT (số 1) khiến cô chọn chú mèo này tại sự kiện là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 元気に飛び回っていたから: Vì nó chạy nhảy tung tăng năng động<br>2. 寝ているすがたが かわいかったから: Vì dáng vẻ lúc ngủ đáng yêu<br>3. しっぽの形が気に入ったから: Vì thích mê hình dáng cái đuôi của nó<br>4. 顔の毛の色がユニークだったから: Vì màu lông trên mặt độc đáo<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：猫の飼い主を探すイベントで真っ先に目についたのがこの子でした。他の子は元気に飛び回って、自分をアピールしていましたが、この子はずっと寝ているか、あくびをしているか。マイペースな猫だなと思いました。<b>しっぽの形が先が曲がっていて、はてなマーク、クエスチョンマークみたいだったことにすっかり心を奪われました。ハテナという名前が浮かび、すぐにこの子を飼おうと決めました</b>。顔は鼻の周りの毛が黒くて、鼻の穴が大きく見えたのもユニークで可愛かったです。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>\"Tại sự kiện tìm chủ nhân cho mèo, bé mèo này là đứa đầu tiên đập vào mắt tôi. Những bé khác đều chạy nhảy lanh lợi thể hiện mình, riêng bé này thì cứ ngủ suốt hoặc ngáp dài ngáp ngắn. Tôi nghĩ đây đúng là một bé mèo sống theo nhịp riêng của mình. <b>Đặc biệt phần đuôi của nó đầu bị cong lại, trông hệt như dấu hỏi chấm (question mark), tôi đã hoàn toàn bị hớp hồn bởi cái đuôi ấy. Trong đầu lập tức hiện lên cái tên Hatena (Dấu hỏi), và tôi quyết định nhận nuôi bé ngay lập tức</b>. Khuôn mặt thì phần lông quanh mũi có màu đen khiến lỗ mũi trông to ra cũng rất độc đáo và đáng yêu.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khi nhìn thấy cái đuôi cong hình dấu hỏi chấm, người phụ nữ hoàn toàn bị hớp hồn (すっかり心を奪われました) và ngay lập tức quyết định nhận nuôi chú mèo (すぐにこの子を飼おうと決めました).<br>- Chi tiết mặt có lông đen quanh mũi chỉ là chi tiết bổ sung kể thêm về sự độc đáo.<br>- Lý do lớn nhất quyết định nhận nuôi là vì yêu thích hình dạng cái đuôi (しっぽの形が気に入ったから) &rarr; <b>Đáp án đúng là 3</b>."
-            }
+        {
+          "id": 173,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m1_01.mp3",
+          "audioUrl": "audio/buoi_10/m1_01.mp3",
+          "questionText": "図書館で男の職員と女の職員が話しています。女の職員はこの後まず、何をしますか。",
+          "options": [
+            "ページがぬけていないか かくにんする",
+            "<ruby>本<rt>ほん</rt></ruby>のデータをとうろくする",
+            "<ruby>本<rt>ほん</rt></ruby>にカバーをつける",
+            "イベントで<ruby>使<rt>つか</rt></ruby>う<ruby>本<rt>ほん</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại thư viện, nhân viên nam và nhân viên nữ đang nói chuyện. Nhân viên nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ページがぬけていないか かくにんする: Kiểm tra xem có trang sách nào bị thiếu không<br>2. 本のデータをとうろくする: Nhập (đăng ký) dữ liệu sách vào máy tính<br>3. 本にカバーをつける: Bọc bìa cho sách<br>4. イベントで使う本を選ぶ: Chọn sách dùng cho sự kiện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：中村さん、新しい図書のコーナーに置く本が届いたよ。<br>女：そうですか。<br>男：新しい本に抜けてるページがないかどうか、今加藤さんが確認してるとこで、<b>それが終わったらパソコンに本のデータを登録してくれる？</b><br>女：<b>はい</b>。<br>男：本にカバーをつけるのは私が担当するね。土曜日の朝、コーナーに並べるね。<br>女：わかりました。<br>男：それと再来週の子供向けのイベントのことなんだけど、イベントで使う本、2冊ピックアップしてくれる？貸し出し中の本とか、今後の予約の状況を見て来週の金曜日の会議までにお願いね。<br>女：はい。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Nakamura này, sách đặt ở góc sách mới đã chuyển tới rồi đấy.\"<br>Nữ: \"Thế ạ.\"<br>Nam: \"Việc kiểm tra xem sách mới có bị rách hay thiếu trang nào không thì hiện tại Kato đang kiểm tra rồi, <b>khi Kato làm xong thì cô nhập dữ liệu sách vào máy tính giúp tôi nhé?</b>\"<br>Nữ: \"<b>Vâng ạ</b>.\"<br>Nam: \"Việc bọc bìa sách thì tôi sẽ phụ trách. Sáng thứ 7 tôi sẽ xếp ra góc trưng bày.\"<br>Nữ: \"Dạ em hiểu rồi.\"<br>Nam: \"Còn việc sự kiện cho trẻ em tuần sau nữa, cô chọn giúp tôi 2 cuốn sách dùng trong sự kiện nhé. Xem tình trạng sách đang cho mượn và đặt trước rồi chuẩn bị trước cuộc họp thứ 6 tuần sau nhé.\"<br>Nữ: \"Vâng ạ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Việc kiểm tra trang sách (抜けてるページ) do Kato đang làm.<br>- Người nam yêu cầu nhân viên nữ: Kato kiểm tra xong thì nhập dữ liệu sách vào máy tính (パソコンに本のデータを登録してくれる？) và cô đồng ý làm ngay.<br>- Việc chọn sách sự kiện hạn đến thứ 6 tuần sau.<br>- Do đó việc cô làm trước tiên sau đây là nhập dữ liệu sách &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 174,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m1_02.mp3",
+          "audioUrl": "audio/buoi_10/m1_02.mp3",
+          "questionText": "科学館で男の職員と女の職員が講演会について話しています。女の職員はこの後何をしますか。",
+          "options": [
+            "<ruby>部屋<rt>へや</rt></ruby>をさがす",
+            "<ruby>質問<rt>しつもん</rt></ruby>をまとめて<ruby>先生<rt>せんせい</rt></ruby>に<ruby>送<rt>おく</rt></ruby>る",
+            "<ruby>当日<rt>とうじつ</rt></ruby>のしりょうを<ruby>印刷<rt>いんさつ</rt></ruby>をする",
+            "ホームページの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>新<rt>あたら</rt></ruby>しくする"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bảo tàng khoa học, nhân viên nam và nhân viên nữ đang nói về buổi diễn thuyết. Nhân viên nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 部屋をさがす: Tìm phòng<br>2. 質問をまとめて先生に送る: Tổng hợp câu hỏi và gửi cho giảng viên<br>3. 当日のしりょうを印刷をする: In tài liệu phát trong ngày diễn ra buổi thuyết trình<br>4. ホームページの情報を新しくする: Cập nhật thông tin trên trang web<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：来週の講演会、ほかのイベントの都合で部屋を急に変更しなきゃならなくなったけど、空いててよかったね。<br>女：はい。<br>男：参加希望者に事前に出してもらった質問をまとめて講師の先生に送った方がいいね。私がやっておこう。ちょうど今、先生と別のことでやり取りしてるから。<br>女：そうですか。ありがとうございます。<br>男：当日配る資料の印刷は大丈夫かな？それとホームページに部屋が変更になったことを載せる必要もあるね。<br>女：<b>資料の印刷、後回しになってました。すぐ取り掛かります</b>。ホームページの更新は山下さんが引き受けてくれました。<br>男：そう、わかった。では、引き続きよろしくね。<br>女：はい、わかりました。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Buổi diễn thuyết tuần tới vì trùng sự kiện khác nên phải đổi phòng gấp, may mà vẫn còn phòng trống em nhỉ.\"<br>Nữ: \"Dạ vâng.\"<br>Nam: \"Những câu hỏi người tham gia gửi trước cần tổng hợp lại gửi cho thầy giảng viên. Việc đó để anh làm cho, vì tiện đang trao đổi với thầy về việc khác.\"<br>Nữ: \"Thế ạ, em cảm ơn anh.\"<br>Nam: \"Việc in tài liệu phát hôm đó ổn chưa em? Cả việc đăng thông báo đổi phòng lên trang web nữa.\"<br>Nữ: \"<b>Việc in tài liệu em vẫn đang hoãn lại. Em sẽ bắt tay vào in ngay ạ</b>. Còn việc cập nhật web thì anh Yamashita đã nhận làm rồi.\"<br>Nam: \"Thế à, vậy nhờ em tiếp tục nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Gửi câu hỏi cho giảng viên do nam làm.<br>- Cập nhật trang web do Yamashita làm.<br>- Việc in tài liệu đang hoãn lại nên nhân viên nữ sẽ bắt tay vào in ngay lập tức (すぐ取り掛かります) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 175,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m1_03.mp3",
+          "audioUrl": "audio/buoi_10/m1_03.mp3",
+          "questionText": "文房具の会社で課長と男の人が話しています。男の人はこの後まず何をしますか。",
+          "options": [
+            "チームのメンバーを<ruby>選<rt>えら</rt></ruby>ぶ",
+            "<ruby>会議<rt>かいぎ</rt></ruby>でチームをしょうかいする",
+            "メンバーの<ruby>仕事<rt>しごと</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>を<ruby>決定<rt>けってい</rt></ruby>する",
+            "<ruby>開発<rt>かいはつ</rt></ruby>スケジュールを<ruby>作<rt>つく</rt></ruby>る"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty văn phòng phẩm, trưởng nhóm (kachou) và người đàn ông đang nói chuyện. Người đàn ông sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. チームのメンバーを選ぶ: Chọn thành viên cho nhóm<br>2. 会議でチームをしょうかいする: Giới thiệu nhóm tại cuộc họp<br>3. メンバーの仕事の内容を決定する: Quyết định nội dung công việc (phân công việc) cho các thành viên<br>4. 開発スケジュールを作る: Lập lịch trình phát triển sản phẩm<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：伊藤さん。伊藤さんがリーダーで始動する新商品の開発チームのことですけど。<br>男：はい、課長。子供向けのハサミの商品開発の件ですね。<br>女：ええ、開発メンバーを私が選んでみたんですけど、どうですか。<br>男：はい。えー、岡田さんに高橋さん。子供向けの商品の開発経験者が入っているので心強いです。もし人が足りない場合は増やしてもらえますか。<br>女：ええ、もちろん。その時は相談してくれたらいいですよ。開発チームについて来週の会議で私が紹介するから、早速で悪いんだけど、<b>メンバーを見て誰にどの仕事を任せるか決めておいてもらえますか</b>。<br>男：<b>わかりました。やってみます</b>。<br>女：商品開発の大まかなスケジュールは会議の資料の最後に載っていますから、確認しておいてください。<br>男：はい、わかりました。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ (Trưởng nhóm): \"Ito này, về nhóm phát triển sản phẩm mới mà cậu làm nhóm trưởng chuẩn bị khởi động ấy.\"<br>Nam: \"Dạ vâng kachou, vụ phát triển sản phẩm kéo dành cho trẻ em đúng không ạ.\"<br>Nữ: \"Ừ, danh sách thành viên tôi đã chọn thử rồi, cậu thấy sao?\"<br>Nam: \"Dạ, chị Okada và anh Takahashi... Có những người giàu kinh nghiệm phát triển sản phẩm cho trẻ em nên rất yên tâm ạ. Nếu thiếu người có được bổ sung không ạ?\"<br>Nữ: \"Tất nhiên, lúc đó cứ bàn với tôi. Nhóm phát triển thì cuộc họp tuần sau tôi sẽ giới thiệu, nên hơi gấp một chút nhưng <b>cậu xem các thành viên rồi quyết định xem giao việc gì cho ai trước giúp tôi nhé</b>.\"<br>Nam: \"<b>Dạ em hiểu rồi, em sẽ làm ngay ạ</b>.\"<br>Nữ: \"Lịch trình phát triển đại khái nằm ở cuối tài liệu cuộc họp, cậu xem qua nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Thành viên đã do trưởng nhóm chọn.<br>- Trưởng nhóm yêu cầu Ito phân chia công việc cho từng thành viên: 誰にどの仕事を任せるか決めておいてもらえますか (Quyết định xem giao việc gì cho ai).<br>- Do đó việc người đàn ông làm trước tiên là quyết định phân công công việc cho thành viên &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 176,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m1_04.mp3",
+          "audioUrl": "audio/buoi_10/m1_04.mp3",
+          "questionText": "野球場で市役所の職員がアルバイトの人たちに話しています。アルバイトの人たちはこの後まず何をしますか。",
+          "options": [
+            "アンケートをかいしゅうする",
+            "テントをかたづける",
+            "<ruby>作業用<rt>さぎょうよう</rt></ruby>てぶくろをする",
+            "<ruby>机<rt>つくえ</rt></ruby>といすをトラックにのせる"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sân bóng chày, nhân viên ủy ban thành phố đang nói chuyện với các bạn làm thêm (arubaito). Các bạn làm thêm sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. アンケートをかいしゅうする: Thu phiếu khảo sát<br>2. テントをかたづける: Dọn dẹp lều bạt<br>3. 作業用てぶくろをする: Đeo găng tay bảo hộ lao động<br>4. 机といすをトラックにのせる: Khiêng bàn ghế xếp lên xe tải<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：アルバイトの皆さん、お疲れ様です。本日の市民野球大会を無事終えることができました。参加者へのアンケートの実施ならびに回収もありがとうございました。これからテントの片付けを行います。<b>安全の観点から作業の前に作業用手袋をするのを忘れないでください</b>。受付の机と椅子については畳んだテントと一緒にトラックに積み込んでください。よろしくお願いします。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>\"Cảm ơn tất cả các bạn làm thêm. Giải bóng chày thành phố hôm nay đã kết thúc tốt đẹp. Cảm ơn các bạn đã hỗ trợ phát và thu phiếu khảo sát. Bây giờ chúng ta sẽ tiến hành dọn lều bạt. <b>Vì lý do an toàn, trước khi bắt tay vào làm việc các bạn đừng quên đeo găng tay lao động vào nhé</b>. Bàn ghế ở bàn lễ tân thì hãy khiêng xếp lên xe tải cùng với lều đã gấp. Nhờ các bạn nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khảo sát đã thu xong.<br>- Trước khi dọn lều và bàn ghế, nhân viên nhấn mạnh: 作業の前に作業用手袋をするのを忘れないでください (Trước khi làm việc đừng quên đeo găng tay lao động).<br>- Do đó hành động đầu tiên các bạn làm thêm phải làm ngay là đeo găng tay bảo hộ &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 177,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m1_05.mp3",
+          "audioUrl": "audio/buoi_10/m1_05.mp3",
+          "questionText": "大学で美術サークルの男の部長と女の学生が話しています。女の学生はこの後まず何をしますか。",
+          "options": [
+            "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>の<ruby>絵<rt>え</rt></ruby>をほかの<ruby>絵<rt>え</rt></ruby>に<ruby>替<rt>か</rt></ruby>える",
+            "しょうめいを<ruby>暗<rt>くら</rt></ruby>くする",
+            "<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>花<rt>はな</rt></ruby>をかざる",
+            "<ruby>絵<rt>え</rt></ruby>と<ruby>絵<rt>え</rt></ruby>のかんかくを<ruby>広<rt>ひろ</rt></ruby>くする"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, trưởng câu lạc bộ mỹ thuật và bạn nữ sinh viên đang nói chuyện. Bạn nữ sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 入り口の絵をほかの絵に替える: Đổi bức tranh ở lối vào sang bức khác<br>2. しょうめいを暗くする: Chỉnh đèn chiếu sáng tối bớt lại<br>3. 教室に花をかざる: Cắm hoa trang trí trong phòng học<br>4. 絵と絵のかんかくを広くする: Nới rộng khoảng cách giữa các bức tranh<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：いよいよ明日から展覧会が始まるけど、よろしく。じゃ、展覧会用の教室、最終チェックしようか。<br>女：よろしくお願いします。<br>男：えっと、入口のところの絵、前回の打ち合わせで出口のところの絵と変えることにしたけど、変えてよかったね。<br>女：はい、いいですよね。<br>男：でも、教室全体の照明が明るくて考えていたのとは違うな。<b>もう少し暗めの方がいいな</b>。前の打ち合わせで花を飾って明るい雰囲気にしたいとは言ったけど。<br>女：あー、そうですね。<br>男：あとは絵と絵の間隔を広くしたかった気もするけど、これは教室の広さを考えると仕方ないか。<br>女：はい。<br>男：じゃ、<b>さっきのところだけ調整してくれる？</b><br>女：<b>わかりました</b>。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nam: \"Cuối cùng thì ngày mai triển lãm cũng bắt đầu rồi, nhờ em nhé. Giờ chúng ta kiểm tra lần cuối phòng triển lãm nào.\"<br>Nữ: \"Dạ vâng.\"<br>Nam: \"À tranh ở cửa ra vào đã đổi với tranh ở cửa ra như thống nhất lần trước rồi, đổi thế nhìn ổn đấy chứ.\"<br>Nữ: \"Dạ vâng, đẹp lắm anh.\"<br>Nam: \"Nhưng mà ánh sáng đèn cả phòng hơi bị sáng quá so với dự tính. <b>Nên để tối hơn một chút thì tốt hơn</b>. Dù lần trước có bảo cắm hoa cho không khí tươi sáng.\"<br>Nữ: \"A đúng rồi ạ.\"<br>Nam: \"Còn khoảng cách giữa các bức tranh anh cũng muốn rộng hơn nhưng phòng học có hạn nên thôi đành chịu vậy.\"<br>Nữ: \"Dạ.\"<br>Nam: \"Vậy em <b>chỉnh lại mỗi chỗ lúc nãy giúp anh nhé?</b>\"<br>Nữ: \"<b>Dạ em hiểu rồi</b>.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tranh cửa vào đã đổi xong từ trước.<br>- Khoảng cách tranh không đổi được do phòng hẹp.<br>- Người nam yêu cầu chỉnh điểm duy nhất vừa nhận xét là hạ bớt độ sáng đèn phòng (もう少し暗めの方がいいな &rarr; さっきのところだけ調整してくれる？).<br>- Do đó bạn nữ sinh sẽ chỉnh đèn tối bớt lại &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 178,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_01.mp3",
+          "audioUrl": "audio/buoi_10/m2_01.mp3",
+          "questionText": "大学で女の学生と男の学生が話しています。女の学生は卒業したら何をしたいと言っていますか。",
+          "options": [
+            "<ruby>食品<rt>しょくひん</rt></ruby>かんれんの<ruby>仕事<rt>しごと</rt></ruby>をする",
+            "<ruby>大学院<rt>だいがくいん</rt></ruby>に<ruby>進<rt>すす</rt></ruby>む",
+            "<ruby>研究<rt>けんきゅう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をする",
+            "しゅっぱんしゃで<ruby>働<rt>はたら</rt></ruby>く"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, bạn nữ sinh và bạn nam sinh đang nói chuyện. Bạn nữ sinh nói sau khi tốt nghiệp muốn làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 食品かんれんの仕事をする: Làm công việc liên quan đến thực phẩm<br>2. 大学院に進む: Học lên cao học (thạc sĩ)<br>3. 研究の仕事をする: Làm công việc nghiên cứu<br>4. しゅっぱんしゃで働く: Làm việc tại nhà xuất bản<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：村上君、今日はスーツ着て就職の活動なの？<br>男：あ、石川さん。今日は食品メーカーの企業説明会に行くんだ。<br>女：へー、村上君って食品関連の企業志望だっけ？<br>男：うん。石川さんは卒業後、大学院で植物の研究続けるんでしょう？<br>女：そう思ってたんだけど、今は就職しようと思ってるの。<br>男：そうなんだ。研究の仕事とか？<br>女：ううん、<b>植物の図鑑とか植物専門の本を作ってる出版社があって、そこに入りたいんだ</b>。<br>男：へー、専門分野を生かすんだったら、そういう道もあるね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Murakami, hôm nay mặc vest đi xin việc à cậu?\"<br>Nam: \"A Ishikawa. Hôm nay mình đi dự buổi thuyết minh doanh nghiệp của công ty sản xuất thực phẩm.\"<br>Nữ: \"Ồ, cậu có nguyện vọng vào các công ty thực phẩm hả?\"<br>Nam: \"Ừ. Còn Ishikawa sau khi tốt nghiệp sẽ học lên cao học tiếp tục nghiên cứu về thực vật đúng không?\"<br>Nữ: \"Lúc trước mình cũng định thế, nhưng giờ mình muốn đi làm cơ.\"<br>Nam: \"Thế à, làm công việc nghiên cứu hả?\"<br>Nữ: \"Không, <b>có một nhà xuất bản chuyên làm sách và bách khoa toàn thư hình ảnh về thực vật, mình muốn vào đó làm việc</b>.\"<br>Nam: \"Chà, để phát huy chuyên ngành thì hướng đi đó cũng hay đấy nhỉ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bạn nữ sinh giải thích rõ ràng không học lên cao học và cũng không làm nghiên cứu, mà muốn vào nhà xuất bản chuyên về sách thực vật (植物専門の本を作ってる出版社があって、そこに入りたいんだ).<br>- Do đó cô muốn làm việc tại nhà xuất bản &rarr; <b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 179,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_02.mp3",
+          "audioUrl": "audio/buoi_10/m2_02.mp3",
+          "questionText": "病院で女の人と医者が話しています。医者は何をしてはいけないと言っていますか。",
+          "options": [
+            "つえを<ruby>使<rt>つか</rt></ruby>わないで<ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>歩<rt>ある</rt></ruby>くこと",
+            "<ruby>薬<rt>くすり</rt></ruby>をやめること",
+            "<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>うこと",
+            "<ruby>足首<rt>あしくび</rt></ruby>のトレーニングをすること"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bệnh viện, người phụ nữ và bác sĩ đang nói chuyện. Bác sĩ dặn KHÔNG ĐƯỢC làm việc gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. つえを使わないで長時間歩くこと: Đi bộ thời gian dài mà không dùng gậy chống<br>2. 薬をやめること: Ngừng uống thuốc<br>3. 自転車で会社に通うこと: Đi làm bằng xe đạp<br>4. 足首のトレーニングをすること: Luyện tập phục hồi cổ chân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：先生、先週に比べて右の足首、調子だいぶ良くなったんです。歩いてもあまり痛みは感じないです。<br>医者：そうですか。じゃ、怪我の状態を見せてくださいね。うん、もうあんまり腫れてはいませんね。杖を使わなくてもいいですよ。飲み薬ももうやめましょう。<br>女：よかった。杖なしで歩いてもいいんですか？<br>医者：はい。日常生活の範囲なら大丈夫です。<b>あまり長い時間は厳禁ですよ。やめてくださいね</b>。<br>女：あ。自転車で通勤してもいいですか？会社まで15分くらいです。<br>医者：あまり負担がかからないので構いませんよ。今の足首の状態に合うトレーニングを紹介しますから、やってみてくださいね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Thưa bác sĩ, so với tuần trước thì cổ chân phải của tôi đã đỡ nhiều rồi ạ. Đi lại cũng không thấy đau lắm nữa.\"<br>Bác sĩ: \"Thế à, để tôi kiểm tra vết thương nhé. Ừm, không còn sưng nhiều nữa rồi. Cô không cần dùng gậy chống nữa cũng được. Thuốc uống cũng ngưng được rồi nhé.\"<br>Nữ: \"May quá. Không cần gậy đi lại bình thường được rồi ạ?\"<br>Bác sĩ: \"Vâng, trong phạm vi sinh hoạt hàng ngày thì được. <b>Nhưng đi bộ thời gian quá lâu là nghiêm cấm đấy nhé, tuyệt đối tránh đừng làm</b>.\"<br>Nữ: \"À tôi đi làm bằng xe đạp có được không bác sĩ? Đến công ty tầm 15 phút.\"<br>Bác sĩ: \"Không tạo gánh nặng lớn lên chân nên được cô nhé. Tôi sẽ hướng dẫn một vài bài tập phục hồi hợp với cổ chân hiện tại, cô thử tập xem sao nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bác sĩ cho phép bỏ gậy, ngừng uống thuốc, đi xe đạp và tập luyện cổ chân.<br>- Điều bác sĩ nghiêm cấm (厳禁) tuyệt đối không được làm là đi bộ trong thời gian dài (あまり長い時間は厳禁ですよ) &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 180,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_03.mp3",
+          "audioUrl": "audio/buoi_10/m2_03.mp3",
+          "questionText": "女の高校生と男の高校生が話しています。男の高校生が農業体験で1番印象に残っていることは何ですか。",
+          "options": [
+            "<ruby>自然<rt>しぜん</rt></ruby>のゆたかな<ruby>所<rt>ところ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>けたこと",
+            "<ruby>野菜<rt>やさい</rt></ruby>をとる<ruby>経験<rt>けいけん</rt></ruby>をしたこと",
+            "<ruby>同級生<rt>どうきゅうせい</rt></ruby>の<ruby>知<rt>し</rt></ruby>らなかった<ruby>面<rt>めん</rt></ruby>を<ruby>知<rt>し</rt></ruby>ったこと",
+            "のうぎょうのおもしろさを<ruby>実感<rt>じっかん</rt></ruby>したこと"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Nữ sinh cấp 3 và nam sinh cấp 3 đang nói chuyện. Điều khiến nam sinh ấn tượng nhất trong chuyến đi trải nghiệm làm nông nghiệp là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 自然のゆたかな所へ行けたこと: Việc được đến nơi có thiên nhiên phong phú<br>2. 野菜をとる経験をしたこと: Việc trải nghiệm thu hoạch rau củ<br>3. 同級生の知らなかった面を知ったこと: Việc biết được những mặt (nét tính cách) chưa từng biết của bạn cùng lớp<br>4. のうぎょうのおもしろさを実感したこと: Việc cảm nhận được sự thú vị của nghề nông<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：松本君の学校で農業体験に行くって言ってたよね。どうだった？<br>男：結構よかったよ。自然の豊かなところだった。<br>女：野菜とか収穫した？<br>男：うん。玉ねぎとかトマトとか採ったよ。玉ねぎを育ててるところなんて初めて見たよ。美味しい玉ねぎの見分け方とか知らないことばっかりだったよ。<br>女：へー、いろいろ楽しめたみたいだね。<br>男：そうだね。スタンプを集めるレクリエーションとか農業に関するクイズに応えるグループワークがあったんだけど、あーこの人は地図を読むのが上手で頼りになるとか授業中はおとなしいけど、クイズは得意だとか<b>クラスメイトの意外な一面を知ることができたんだよね</b>。<br>女：あぁ、教室では知り得ないことを発見できたんだね。<br>男：うん、もちろん農業の面白さも実感できたけど、<b>どんなことよりそっちの方が印象に残ってる</b>。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Matsumoto này, đợt trước trường cậu có đi trải nghiệm nông nghiệp đúng không? Thế nào rồi?\"<br>Nam: \"Hay lắm cậu ạ. Nơi đó thiên nhiên rất phong phú trù phú.\"<br>Nữ: \"Cậu có thu hoạch rau củ gì không?\"<br>Nam: \"Có chứ, hái cà chua với nhổ hành tây. Lần đầu tiên tận mắt thấy nơi trồng hành đấy. Toàn những điều mình chưa từng biết như cách chọn hành tây ngon.\"<br>Nữ: \"Chà, có vẻ cậu trải nghiệm được nhiều điều thú vị nhỉ.\"<br>Nam: \"Ừ. Có cả hoạt động nhóm giải câu đố về nông nghiệp với sưu tầm tem, nhờ đó mà mình biết được bạn này đọc bản đồ siêu đáng tin cậy, bạn kia trên lớp ít nói nhưng trả lời câu đố cực giỏi... <b>biết được những mặt đầy bất ngờ của các bạn cùng lớp ấy</b>.\"<br>Nữ: \"À, phát hiện ra những điều ở lớp học không thể nào biết được nhỉ.\"<br>Nam: \"Ừ, tất nhiên thấy nghề nông thú vị thật, nhưng <b>hơn bất cứ điều gì khác, chính điều đó để lại ấn tượng sâu sắc nhất trong mình</b>.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh nhấn mạnh: どんなことよりそっちの方が印象に残ってる (Hơn bất kỳ điều gì, việc biết thêm những mặt bất ngờ của bạn cùng lớp mới để lại ấn tượng sâu đậm nhất) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 181,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_04.mp3",
+          "audioUrl": "audio/buoi_10/m2_04.mp3",
+          "questionText": "女の人と男の人が話しています。男の人が公園ボランティアを始めた理由は何ですか。",
+          "options": [
+            "<ruby>花<rt>はな</rt></ruby>を<ruby>育<rt>そだ</rt></ruby>てるのに きょうみがあったから",
+            "<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がよろこんでくれるから",
+            "いろいろな<ruby>人<rt>ひと</rt></ruby>と<ruby>交流<rt>こうりゅう</rt></ruby>したいから",
+            "バスで<ruby>通<rt>かよ</rt></ruby>いやすいから"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Lý do người đàn ông bắt đầu tham gia hoạt động tình nguyện tại công viên là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 花を育てるのに きょうみがあったから: Vì có hứng thú với việc trồng và chăm sóc hoa<br>2. 町の人がよろこんでくれるから: Vì người dân trong thị trấn sẽ vui mừng<br>3. いろいろな人と交流したいから: Vì muốn giao lưu với nhiều người<br>4. バスで通いやすいから: Vì đi xe buýt tiện lợi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：最近何か週末にできることを新しく始めたいと思っているんですけど、山田さんは特に何かしてます？<br>男：ええ。実はね、3ヶ月前から公園ボランティアをしてるんですよ。<br>女：いいですね。どんなことをするんですか？<br>男：花を植えたり、雑草を抜いたり、掃除をしたり。うちはアパートなんで、庭がないんですが、<b>花を育ててみたいとずっと思ってたんですよ。それを友達に話したら、紹介してくれたんです</b>。きれいになると町の人にも喜んでもらえて、やりがいもありますよ。<br>女：そうだったんですか。どのくらいの年齢の方が多いんですか？<br>男：思ったより色々な年齢の方がいらしてて。普段はあまり話す機会のない世代の方とも話せて、それも楽しみなんです。<br>女：近所なんですか？<br>男：いいえ、電車だと乗り換えもあって面倒なんですけど、バスなら思ったより近いですね。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Dạo này em đang muốn bắt đầu một sở thích mới vào cuối tuần, anh Yamada có tham gia gì không anh?\"<br>Nam: \"Có chứ, thật ra từ 3 tháng trước anh tham gia tình nguyện viên công viên đấy.\"<br>Nữ: \"Hay quá. Thường làm những gì vậy anh?\"<br>Nam: \"Trồng hoa, nhổ cỏ, dọn dẹp vệ sinh. Nhà anh ở chung cư không có sân vườn, nhưng <b>anh luôn muốn thử trồng hoa. Kể chuyện đó với bạn bè thì được giới thiệu tham gia</b>. Công viên sạch đẹp người dân cũng vui nên thấy ý nghĩa lắm.\"<br>Nữ: \"Thế ạ, thường ở độ tuổi nào tham gia nhiều anh?\"<br>Nam: \"Nhiều lứa tuổi khác nhau lắm, được trò chuyện với những thế hệ bình thường ít tiếp xúc cũng là niềm vui.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người đàn ông nêu rõ lý do bắt đầu tham gia tình nguyện viên: do ở chung cư không có vườn mà luôn ấp ủ muốn tự tay trồng hoa (花を育ててみたいとずっと思ってたんですよ) nên được bạn giới thiệu.<br>- Việc dân làng vui hay giao lưu thế hệ là những niềm vui nhận được sau khi làm, không phải lý do bắt đầu.<br>- Do đó lý do bắt đầu là vì muốn trồng hoa &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 182,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_05.mp3",
+          "audioUrl": "audio/buoi_10/m2_05.mp3",
+          "questionText": "弁当屋の開発部で女の人と男の人が話しています。2人は試作の弁当をどのように変えて売ることにしましたか。",
+          "options": [
+            "おかずの<ruby>味<rt>あじ</rt></ruby>をこくする",
+            "ご<ruby>飯<rt>はん</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>少<rt>すく</rt></ruby>なくする",
+            "サラダの<ruby>量<rt>りょう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす",
+            "おかずの<ruby>種類<rt>しゅるい</rt></ruby>を<ruby>多<rt>おお</rt></ruby>くする"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại phòng phát triển của cửa hàng cơm hộp (bento), người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định sẽ THAY ĐỔI hộp cơm mẫu thử như thế nào để bán ra thị trường?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. おかずの味をこくする: Làm vị món ăn đậm đà hơn<br>2. ご飯の量を少なくする: Giảm bớt lượng cơm<br>3. サラダの量を増やす: Tăng lượng rau salad<br>4. おかずの種類を多くする: Tăng thêm nhiều loại món ăn kèm<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：山田さん、試作のお弁当食べてみましたよ。売り出しは来月ですね。味付けが全体的に薄い気がしましたけど、中高年の会社員がターゲットですよね。健康のために塩分の量に気を遣っている人も多いから、味の濃さはこれぐらいがちょうどいいかもしれません。おいしかったです。<br>男：そうですか。ありがとうございます。ご飯の量はどうでしたか？多い方がいいかなと思ってそうしたんですが。<br>女：<b>健康のためには少し減らしてみましょうか</b>。<br>男：<b>そうですね。そうしましょう</b>。現在販売中のよりサラダの量は増やしてみましたが、それはどうですか？<br>女：ええ、ちょうどいいですね。もう少しおかずの種類があればって思いましたけど、値段のこともありますし、おかずの種類はこれでいきましょう。<br>男：はい。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>Nữ: \"Yamada này, tôi ăn thử hộp cơm mẫu rồi nhé, tháng sau mở bán đúng không. Tôi thấy nêm nếm vị tổng thể hơi nhạt, nhưng khách hàng mục tiêu là dân văn phòng trung niên nhỉ. Vì sức khỏe nhiều người chú ý đến lượng muối, nên độ đậm thế này có khi lại vừa chuẩn đấy. Ngon lắm.\"<br>Nam: \"Thế ạ, cảm ơn chị. Còn lượng cơm thì sao chị? Tôi nghĩ nhiều cơm thì tốt nên đã cho hơi nhiều.\"<br>Nữ: \"<b>Vì sức khỏe thì chúng ta giảm bớt lượng cơm đi một chút xem sao nhé</b>.\"<br>Nam: \"<b>Vâng, quyết định vậy đi chị</b>. Lượng salad thì tôi đã tăng lên so với hộp đang bán hiện nay, chị thấy thế nào ạ?\"<br>Nữ: \"Ừ, salad thế là vừa đẹp rồi. Tôi cũng muốn có thêm nhiều loại món ăn kèm nữa nhưng còn liên quan đến giá thành, nên loại thức ăn cứ giữ nguyên như vậy nhé.\"<br>Nam: \"Vâng ạ.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Vị thức ăn (味の濃さ): giữ nguyên mức nhạt hiện tại.<br>- Salad: lượng trong mẫu thử đã vừa đẹp rồi (ちょうどいい).<br>- Loại món ăn (おかずの種類): giữ nguyên do giá thành.<br>- Điểm DUY NHẤT quyết định điều chỉnh thay đổi so với mẫu thử là: Giảm bớt lượng cơm (ご飯の量を少し減らしてみましょうか &rarr; そうしましょう) &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 183,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_10/m2_06.mp3",
+          "audioUrl": "audio/buoi_10/m2_06.mp3",
+          "questionText": "ラジオで女の人が自分の家で飼っている猫について話しています。女の人がイベントでこの猫を選んだ1番の理由は何ですか。",
+          "options": [
+            "<ruby>元気<rt>げんき</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>回<rt>まわ</rt></ruby>っていたから",
+            "<ruby>寝<rt>ね</rt></ruby>ているすがたが かわいかったから",
+            "しっぽの<ruby>形<rt>かたち</rt></ruby>が<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ったから",
+            "<ruby>顔<rt>かお</rt></ruby>の<ruby>毛<rt>け</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>がユニークだったから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên đài phát thanh, người phụ nữ đang kể về chú mèo nuôi ở nhà mình. Lý do LỚN NHẤT (số 1) khiến cô chọn chú mèo này tại sự kiện là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 元気に飛び回っていたから: Vì nó chạy nhảy tung tăng năng động<br>2. 寝ているすがたが かわいかったから: Vì dáng vẻ lúc ngủ đáng yêu<br>3. しっぽの形が気に入ったから: Vì thích mê hình dáng cái đuôi của nó<br>4. 顔の毛の色がユニークだったから: Vì màu lông trên mặt độc đáo<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：猫の飼い主を探すイベントで真っ先に目についたのがこの子でした。他の子は元気に飛び回って、自分をアピールしていましたが、この子はずっと寝ているか、あくびをしているか。マイペースな猫だなと思いました。<b>しっぽの形が先が曲がっていて、はてなマーク、クエスチョンマークみたいだったことにすっかり心を奪われました。ハテナという名前が浮かび、すぐにこの子を飼おうと決めました</b>。顔は鼻の周りの毛が黒くて、鼻の穴が大きく見えたのもユニークで可愛かったです。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>\"Tại sự kiện tìm chủ nhân cho mèo, bé mèo này là đứa đầu tiên đập vào mắt tôi. Những bé khác đều chạy nhảy lanh lợi thể hiện mình, riêng bé này thì cứ ngủ suốt hoặc ngáp dài ngáp ngắn. Tôi nghĩ đây đúng là một bé mèo sống theo nhịp riêng của mình. <b>Đặc biệt phần đuôi của nó đầu bị cong lại, trông hệt như dấu hỏi chấm (question mark), tôi đã hoàn toàn bị hớp hồn bởi cái đuôi ấy. Trong đầu lập tức hiện lên cái tên Hatena (Dấu hỏi), và tôi quyết định nhận nuôi bé ngay lập tức</b>. Khuôn mặt thì phần lông quanh mũi có màu đen khiến lỗ mũi trông to ra cũng rất độc đáo và đáng yêu.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khi nhìn thấy cái đuôi cong hình dấu hỏi chấm, người phụ nữ hoàn toàn bị hớp hồn (すっかり心を奪われました) và ngay lập tức quyết định nhận nuôi chú mèo (すぐにこの子を飼おうと決めました).<br>- Chi tiết mặt có lông đen quanh mũi chỉ là chi tiết bổ sung kể thêm về sự độc đáo.<br>- Lý do lớn nhất quyết định nhận nuôi là vì yêu thích hình dạng cái đuôi (しっぽの形が気に入ったから) &rarr; <b>Đáp án đúng là 3</b>."
+        }
       ]
-}
+    }
   ]
 };

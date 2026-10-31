@@ -1064,7 +1064,7 @@ window.JLPT_DATA[3] = {
           "id": 72,
           "mondai": 10,
           "mondaiName": "Đoản văn N2 (1): Viết văn hay",
-          "question": "名文を書くためには豊富な語彙があったほうがいいかといえば、そうでもありません。あまり聞かない言葉をわざわざ使わなくても、自分の気持ちや考え、状況を読み手に伝えることは十分にできます。変に凝った言葉を使うと、かえって伝わりません。相手に分かりやすい素直な言葉で書くことこそが、最も心に響く文章を生み出すのです。<br><br><b>問い：筆者の考えとして最も適切なものはどれか。</b>",
+          "question": "<b>問い：筆者の考えとして最も適切なものはどれか。</b>",
           "options": [
             "名文を書くためには、難解で珍しい語彙をたくさん覚える必要がある",
             "凝った難しい言葉を使わずに、素直で分かりやすい言葉で書くことが大切だ",
@@ -1072,13 +1072,14 @@ window.JLPT_DATA[3] = {
             "相手に気持ちを伝えるためには、専門用語を積極的に使うべきだ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2</b><br>• Tác giả khẳng định rõ: \"あまり聞かない言葉をわざわざ使わなくても、自分の気持ちや考えを伝えることは十分にできます。変に凝った言葉を使うとかえって伝わりません\" (Viết văn hay không cần vốn từ hoa mỹ xa lạ mà điều cốt lõi là diễn đạt chân thật, giản dị dễ hiểu)."
+          "explanation": "<b>Đáp án: 2</b><br>• Tác giả khẳng định rõ: \"あまり聞かない言葉をわざわざ使わなくても、自分の気持ちや考えを伝えることは十分にできます。変に凝った言葉を使うとかえって伝わりません\" (Viết văn hay không cần vốn từ hoa mỹ xa lạ mà điều cốt lõi là diễn đạt chân thật, giản dị dễ hiểu).",
+          "passage": "名文を書くためには豊富な語彙があったほうがいいかといえば、そうでもありません。あまり聞かない言葉をわざわざ使わなくても、自分の気持ちや考え、状況を読み手に伝えることは十分にできます。変に凝った言葉を使うと、かえって伝わりません。相手に分かりやすい素直な言葉で書くことこそが、最も心に響く文章を生み出すのです。"
         },
         {
           "id": 73,
           "mondai": 10,
           "mondaiName": "Đoản văn N2 (2): Thư chuyển nhà",
-          "question": "以下は、ある引っ越しセンターに届いたメールである。<br><br>やまの引っ越しセンター 東地区ご担当 水川様<br>先日お願いした引っ越しについてご相談があります。実は友人からテレビを譲ってもらえることになりました。引っ越しの当日に、引っ越し先と同じ町にある友人宅に寄ってもらい、そこからテレビを新居に運んでいただきたいと思っております。その場合、追加の料金はどのようになりますでしょうか。お見積もりをお願いできますと幸いです。<br><br><b>問い：メールの送信者が最も聞きたいことは何か。</b>",
+          "question": "<b>問い：メールの送信者が最も聞きたいことは何か。</b>",
           "options": [
             "引っ越しの予定日を来週に変更できるかどうか",
             "テレビの処分を引っ越し業者に依頼できるかどうか",
@@ -1086,13 +1087,14 @@ window.JLPT_DATA[3] = {
             "新居の鍵の受け渡し方法について"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Đáp án: 3</b><br>• Trọng tâm câu hỏi trong thư: \"その場合、追加の料金はどのようになりますでしょうか\" (Chi phí bổ sung sẽ tính như thế nào nếu xe ghé qua nhà bạn chở thêm chiếc tivi)."
+          "explanation": "<b>Đáp án: 3</b><br>• Trọng tâm câu hỏi trong thư: \"その場合、追加の料金はどのようになりますでしょうか\" (Chi phí bổ sung sẽ tính như thế nào nếu xe ghé qua nhà bạn chở thêm chiếc tivi).",
+          "passage": "以下は、ある引っ越しセンターに届いたメールである。<br><br>やまの引っ越しセンター 東地区ご担当 水川様<br>先日お願いした引っ越しについてご相談があります。実は友人からテレビを譲ってもらえることになりました。引っ越しの当日に、引っ越し先と同じ町にある友人宅に寄ってもらい、そこからテレビを新居に運んでいただきたいと思っております。その場合、追加の料金はどのようになりますでしょうか。お見積もりをお願いできますと幸いです。"
         },
         {
           "id": 74,
           "mondai": 10,
           "mondaiName": "Đoản văn N2 (3): Biểu cảm và não bộ",
-          "question": "人は、目の前の人が嬉しそうな表情をしていると、ついその表情を写し取ってしまう。表情というのは不思議なもので、出力にも入力にも使える。つまり、嬉しいから嬉しい表情をするわけだが、嬉しい表情を作ってしまうと、嬉しい時に脳に起こる神経信号が誘発されるのである。目の前の人の笑顔につられて笑うと、脳の緊張が和らぎ、実際に気分が晴れやかになっていくのだ。<br><br><b>問い：表情の働きについて、文章で述べられていることはどれか。</b>",
+          "question": "<b>問い：表情の働きについて、文章で述べられていることはどれか。</b>",
           "options": [
             "笑顔の表情を作ることで、脳の神経が刺激されて緊張が和らぐ",
             "悲しい気分の時は、無理に笑顔を作ると脳に悪影響を及ぼす",
@@ -1100,13 +1102,14 @@ window.JLPT_DATA[3] = {
             "脳の緊張をほぐすには、表情よりも言葉による会話が効果的である"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Đáp án: 1</b><br>• Bài viết giải thích tác dụng hai chiều: Khi làm nét mặt mỉm cười thì tín hiệu thần kinh tương ứng trong não được kích hoạt, làm giải tỏa căng thẳng và cải thiện tâm trạng (脳の緊張が和らぎ、実際に気分が晴れやかになる)."
+          "explanation": "<b>Đáp án: 1</b><br>• Bài viết giải thích tác dụng hai chiều: Khi làm nét mặt mỉm cười thì tín hiệu thần kinh tương ứng trong não được kích hoạt, làm giải tỏa căng thẳng và cải thiện tâm trạng (脳の緊張が和らぎ、実際に気分が晴れやかになる).",
+          "passage": "人は、目の前の人が嬉しそうな表情をしていると、ついその表情を写し取ってしまう。表情というのは不思議なもので、出力にも入力にも使える。つまり、嬉しいから嬉しい表情をするわけだが、嬉しい表情を作ってしまうと、嬉しい時に脳に起こる神経信号が誘発されるのである。目の前の人の笑顔につられて笑うと、脳の緊張が和らぎ、実際に気分が晴れやかになっていくのだ。"
         },
         {
           "id": 75,
           "mondai": 10,
           "mondaiName": "Đoản văn N2 (4): Thư gửi giáo sư biên tập sách",
-          "question": "北川農業大学 応用生命科学部 教授 青山友菜先生<br>先日は、来月出版予定の『果物の不思議』に掲載する図表20点についてご意見をいただき、ありがとうございました。<br>ご指示のあった追加のグラフ1点（図表21）が出来上がりましたので、添付ファイルにてお送りいたします。ご確認をお願いいたします。なお、修正のご指摘があった図表5点は現在作業中ですので、今週末までに改めてお送りいたします。<br><br><b>問い：このメールに添付されているものは何か。</b>",
+          "question": "<b>問い：このメールに添付されているものは何か。</b>",
           "options": [
             "来月出版予定の『果物の不思議』の完成原稿全文",
             "青山先生の指示を受けて新しく作成した追加のグラフ1点",
@@ -1114,13 +1117,14 @@ window.JLPT_DATA[3] = {
             "最初からあった図表20点すべてのデータ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2</b><br>• Thư ghi rõ: \"ご指示のあった追加のグラフ1点（図表21）が出来上がりましたので、添付ファイルにてお送りいたします\" (Đính kèm 1 biểu đồ bổ sung theo chỉ dẫn của giáo sư)."
+          "explanation": "<b>Đáp án: 2</b><br>• Thư ghi rõ: \"ご指示のあった追加のグラフ1点（図表21）が出来上がりましたので、添付ファイルにてお送りいたします\" (Đính kèm 1 biểu đồ bổ sung theo chỉ dẫn của giáo sư).",
+          "passage": "北川農業大学 応用生命科学部 教授 青山友菜先生<br>先日は、来月出版予定の『果物の不思議』に掲載する図表20点についてご意見をいただき、ありがとうございました。<br>ご指示のあった追加のグラフ1点（図表21）が出来上がりましたので、添付ファイルにてお送りいたします。ご確認をお願いいたします。なお、修正のご指摘があった図表5点は現在作業中ですので、今週末までに改めてお送りいたします。"
         },
         {
           "id": 76,
           "mondai": 10,
           "mondaiName": "Đoản văn N2 (5): Trách nhiệm và sự giúp đỡ",
-          "question": "私たちには、責任を果たすために、他者を頼らなければならないときがある。そしてそれは責任から逃れることではない。仕事・家事・育児を一人で抱え込み、壊れそうになりながら日々を生き抜いている人は、その責任を全うするためにこそ、他者の手を借りるべきなのだ。他人に頼ることは決して恥ずかしいことではない。責任を果たすための前向きな選択として、胸を張るべきである。<br><br><b>問い：筆者が最も主張したいことは何か。</b>",
+          "question": "<b>問い：筆者が最も主張したいことは何か。</b>",
           "options": [
             "何事も他人に頼らず、自分の力だけで責任を果たすべきだ",
             "仕事と家庭の両立が難しいときは、責任を放棄する勇気が必要だ",
@@ -1128,13 +1132,14 @@ window.JLPT_DATA[3] = {
             "責任をしっかり果たすために他者の助けを借りることは、決して恥ずかしいことではない"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Đáp án: 4</b><br>• Luận điểm cốt lõi của tác giả: Nhờ cậy người khác để hoàn thành trách nhiệm là điều hoàn toàn đúng đắn, không có gì phải xấu hổ mà nên tự hào (他者に頼ることは決して恥ずかしいことではない)."
+          "explanation": "<b>Đáp án: 4</b><br>• Luận điểm cốt lõi của tác giả: Nhờ cậy người khác để hoàn thành trách nhiệm là điều hoàn toàn đúng đắn, không có gì phải xấu hổ mà nên tự hào (他者に頼ることは決して恥ずかしいことではない).",
+          "passage": "私たちには、責任を果たすために、他者を頼らなければならないときがある。そしてそれは責任から逃れることではない。仕事・家事・育児を一人で抱え込み、壊れそうになりながら日々を生き抜いている人は、その責任を全うするためにこそ、他者の手を借りるべきなのだ。他人に頼ることは決して恥ずかしいことではない。責任を果たすための前向きな選択として、胸を張るべきである。"
         },
         {
           "id": 77,
           "mondai": 14,
           "mondaiName": "Mondai 14: Thư - Thông báo tuyển dụng tình nguyện viên",
-          "question": "<b>Thông báo tuyển tình nguyện viên Lễ hội Văn hóa Thành phố (市民文化祭ボランティア募集):</b><br>・Hoạt động: Hỗ trợ hướng dẫn khách, phát tờ rơi, hỗ trợ sân khấu.<br>・Thời gian: Ngày 12/11 (Thứ Bảy) và 13/11 (Chủ Nhật), từ 9:00 đến 17:00.<br>・Điều kiện: Từ 16 tuổi trở lên, có thể tham gia buổi họp tập huấn trước lễ hội vào ngày 5/11 (Thứ Bảy) lúc 14:00.<br>・Quyền lợi: Được cấp áo đồng phục, hỗ trợ tiền ăn trưa 1,000円/ngày.<br>・Đăng ký: Gửi đơn qua website trước ngày 25/10.<br><br><b>問い77：応募条件として必須とされているものはどれか。</b>",
+          "question": "<b>問い77：応募条件として必須とされているものはどれか。</b>",
           "options": [
             "過去に文化祭ボランティアの経験があること",
             "11月5日の事前説明会に参加できること",
@@ -1142,7 +1147,8 @@ window.JLPT_DATA[3] = {
             "普通自動車運転免許を持っていること"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2</b><br>• Điều kiện bắt buộc ghi rõ: Có thể tham gia buổi tập huấn chuẩn bị vào ngày 5/11 lúc 14:00 (11月5日の事前説明会に参加できること)."
+          "explanation": "<b>Đáp án: 2</b><br>• Điều kiện bắt buộc ghi rõ: Có thể tham gia buổi tập huấn chuẩn bị vào ngày 5/11 lúc 14:00 (11月5日の事前説明会に参加できること).",
+          "passage": "<b>Thông báo tuyển tình nguyện viên Lễ hội Văn hóa Thành phố (市民文化祭ボランティア募集):</b><br>・Hoạt động: Hỗ trợ hướng dẫn khách, phát tờ rơi, hỗ trợ sân khấu.<br>・Thời gian: Ngày 12/11 (Thứ Bảy) và 13/11 (Chủ Nhật), từ 9:00 đến 17:00.<br>・Điều kiện: Từ 16 tuổi trở lên, có thể tham gia buổi họp tập huấn trước lễ hội vào ngày 5/11 (Thứ Bảy) lúc 14:00.<br>・Quyền lợi: Được cấp áo đồng phục, hỗ trợ tiền ăn trưa 1,000円/ngày.<br>・Đăng ký: Gửi đơn qua website trước ngày 25/10."
         },
         {
           "id": 78,
@@ -1156,13 +1162,14 @@ window.JLPT_DATA[3] = {
             "文化祭終了後に打ち上げパーティーの全額費用が支給される"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2</b><br>• Mục quyền lợi ghi: Hỗ trợ tiền ăn trưa 1,000円/ngày và được cấp áo đồng phục (1日あたり1,000円の昼食代補助があり、スタッフ用Tシャツが支給される)."
+          "explanation": "<b>Đáp án: 2</b><br>• Mục quyền lợi ghi: Hỗ trợ tiền ăn trưa 1,000円/ngày và được cấp áo đồng phục (1日あたり1,000円の昼食代補助があり、スタッフ用Tシャツが支給される).",
+          "passage": "<b>Thông báo tuyển tình nguyện viên Lễ hội Văn hóa Thành phố (市民文化祭ボランティア募集):</b><br>・Hoạt động: Hỗ trợ hướng dẫn khách, phát tờ rơi, hỗ trợ sân khấu.<br>・Thời gian: Ngày 12/11 (Thứ Bảy) và 13/11 (Chủ Nhật), từ 9:00 đến 17:00.<br>・Điều kiện: Từ 16 tuổi trở lên, có thể tham gia buổi họp tập huấn trước lễ hội vào ngày 5/11 (Thứ Bảy) lúc 14:00.<br>・Quyền lợi: Được cấp áo đồng phục, hỗ trợ tiền ăn trưa 1,000円/ngày.<br>・Đăng ký: Gửi đơn qua website trước ngày 25/10."
         },
         {
           "id": 79,
           "mondai": 14,
           "mondaiName": "Mondai 14: Quy định sử dụng phòng họp và hội trường",
-          "question": "<b>Quy định thuê phòng hội nghị Tòa nhà Thương mại (会議室利用規約):</b><br>・Phòng A (sức chứa 50 người): 3,000円/giờ. Phòng B (sức chứa 20 người): 1,500円/giờ.<br>・Sử dụng ngoài giờ (sau 18:00): Phụ thu thêm 20%.<br>・Máy chiếu (projector): 1,000円/lần sử dụng.<br>・Hủy phòng: Trước 7 ngày miễn phí; từ 6 đến 2 ngày trước phạt 30%; trước 1 ngày hoặc trong ngày phạt 100%.<br><br><b>問い79：田中さんは会議室Bを平日の14:00〜16:00（2時間）利用し、プロジェクターを1台借りたい。料金はいくらになるか。</b>",
+          "question": "<b>問い79：田中さんは会議室Bを平日の14:00〜16:00（2時間）利用し、プロジェクターを1台借りたい。料金はいくらになるか。</b>",
           "options": [
             "3,000円",
             "4,000円",
@@ -1170,7 +1177,8 @@ window.JLPT_DATA[3] = {
             "5,000円"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2 (4,000円)</b><br>• Tính tiền:<br>- Phòng B: 1,500円/giờ x 2 giờ = 3,000円.<br>- Thuê máy chiếu: 1,000円.<br>-> Tổng cộng = 3,000円 + 1,000円 = 4,000円."
+          "explanation": "<b>Đáp án: 2 (4,000円)</b><br>• Tính tiền:<br>- Phòng B: 1,500円/giờ x 2 giờ = 3,000円.<br>- Thuê máy chiếu: 1,000円.<br>-> Tổng cộng = 3,000円 + 1,000円 = 4,000円.",
+          "passage": "<b>Quy định thuê phòng hội nghị Tòa nhà Thương mại (会議室利用規約):</b><br>・Phòng A (sức chứa 50 người): 3,000円/giờ. Phòng B (sức chứa 20 người): 1,500円/giờ.<br>・Sử dụng ngoài giờ (sau 18:00): Phụ thu thêm 20%.<br>・Máy chiếu (projector): 1,000円/lần sử dụng.<br>・Hủy phòng: Trước 7 ngày miễn phí; từ 6 đến 2 ngày trước phạt 30%; trước 1 ngày hoặc trong ngày phạt 100%."
         },
         {
           "id": 80,
@@ -1184,7 +1192,8 @@ window.JLPT_DATA[3] = {
             "直前キャンセルのため、利用料金の100%を支払わなければならない"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Đáp án: 2</b><br>• Quy định hủy ghi rõ: Hủy từ 6 ngày đến 2 ngày trước ngày sử dụng thì chịu phí phạt 30% (利用料金の30%をキャンセル料として支払う)."
+          "explanation": "<b>Đáp án: 2</b><br>• Quy định hủy ghi rõ: Hủy từ 6 ngày đến 2 ngày trước ngày sử dụng thì chịu phí phạt 30% (利用料金の30%をキャンセル料として支払う).",
+          "passage": "<b>Quy định thuê phòng hội nghị Tòa nhà Thương mại (会議室利用規約):</b><br>・Phòng A (sức chứa 50 người): 3,000円/giờ. Phòng B (sức chứa 20 người): 1,500円/giờ.<br>・Sử dụng ngoài giờ (sau 18:00): Phụ thu thêm 20%.<br>・Máy chiếu (projector): 1,000円/lần sử dụng.<br>・Hủy phòng: Trước 7 ngày miễn phí; từ 6 đến 2 ngày trước phạt 30%; trước 1 ngày hoặc trong ngày phạt 100%."
         }
       ]
     },

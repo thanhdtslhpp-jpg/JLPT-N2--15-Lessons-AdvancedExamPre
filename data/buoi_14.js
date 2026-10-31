@@ -1,4 +1,3 @@
-// Buổi 14: Đề Thi Thử HQ 1 & Siêu Chuyên Đề Từ Vựng - Ngữ Pháp 10
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[14] = {
   "sessionId": 14,
@@ -1627,7 +1626,7 @@ window.JLPT_DATA[14] = {
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 1：プロフェッショナルの条件】\n一流と呼ばれるプロフェッショナルとアマチュアの決定的な違いは、「気分の浮き沈み」に仕事を左右されるか否かにある。アマチュアは気分が乗った時にだけ素晴らしいパフォーマンスを発揮するが、プロはモチベーションが上がらない日や体調が万全でない時であっても、常に一定基準以上の成果を淡々と出し続ける。感情をコントロールし、再現性のある仕事を持続することこそが、プロたる所以なのである。\n\n【問い】筆者によると、プロフェッショナルの最も重要な特徴は何か。",
+          "question": "【問い】筆者によると、プロフェッショナルの最も重要な特徴は何か。",
           "options": [
             "常に高いモチベーションを維持して情熱的に仕事をすること。",
             "気分の良し悪しに関わらず、常に一定水準以上の成果を安定して出し続けること。",
@@ -1635,14 +1634,15 @@ window.JLPT_DATA[14] = {
             "体調を崩すことなく、毎日休まず長時間労働をこなすこと。"
           ],
           "correctAnswer": 2,
-          "explanation": "Điểm khác biệt của người chuyên nghiệp là tính ổn định kiên định: dù tâm trạng thế nào cũng luôn bàn giao kết quả trên mức chuẩn."
+          "explanation": "Điểm khác biệt của người chuyên nghiệp là tính ổn định kiên định: dù tâm trạng thế nào cũng luôn bàn giao kết quả trên mức chuẩn.",
+          "passage": "【短文 1：プロフェッショナルの条件】\n一流と呼ばれるプロフェッショナルとアマチュアの決定的な違いは、「気分の浮き沈み」に仕事を左右されるか否かにある。アマチュアは気分が乗った時にだけ素晴らしいパフォーマンスを発揮するが、プロはモチベーションが上がらない日や体調が万全でない時であっても、常に一定基準以上の成果を淡々と出し続ける。感情をコントロールし、再現性のある仕事を持続することこそが、プロたる所以なのである。"
         },
         {
           "id": 103,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 2：時間の使い方と『余白』】\n現代人は手帳やカレンダーアプリに予定をびっしりと詰め込みがちである。空き時間があると「無駄に過ごしてしまった」と罪悪感を覚える人さえいる。しかし、真の創造性や新しいアイデアは、何もしない「余白」の時間からこそ生まれる。スケジュールを予定で埋め尽くすのではなく、意識的に空白の時間を確保することこそが、豊かな人生を送るための知恵なのである。\n\n【問い】筆者がこの文章で最も主張したいことは何か。",
+          "question": "【問い】筆者がこの文章で最も主張したいことは何か。",
           "options": [
             "時間を無駄にしないよう、毎日綿密にスケジュールを組むべきだ。",
             "空き時間があるときは、趣味や副業などの有益な活動に充てるべきだ。",
@@ -1650,14 +1650,15 @@ window.JLPT_DATA[14] = {
             "スケジュール帳を使わずに、その日の気分次第で行動するのが理想的だ。"
           ],
           "correctAnswer": 3,
-          "explanation": "Tác giả khuyên nên chủ động tạo ra những khoảng thời gian trống không vướng bận lịch trình để kích thích tư duy sáng tạo."
+          "explanation": "Tác giả khuyên nên chủ động tạo ra những khoảng thời gian trống không vướng bận lịch trình để kích thích tư duy sáng tạo.",
+          "passage": "【短文 2：時間の使い方と『余白』】\n現代人は手帳やカレンダーアプリに予定をびっしりと詰め込みがちである。空き時間があると「無駄に過ごしてしまった」と罪悪感を覚える人さえいる。しかし、真の創造性や新しいアイデアは、何もしない「余白」の時間からこそ生まれる。スケジュールを予定で埋め尽くすのではなく、意識的に空白の時間を確保することこそが、豊かな人生を送るための知恵なのである。"
         },
         {
           "id": 104,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 3：失敗の捉え方と成長】\n挑戦を重ねる人ほど、多くの失敗に直面する。重要なのは、失敗そのものを恥じるのではなく、「なぜうまくいかなかったのか」を客観的に分析し、次の試みの糧とすることだ。失敗を経験していない人は、単に安全な道しか歩んでこなかったにすぎない。失敗とは成功へのプロセスにおける通過点であり、挑戦したこと自体の尊い証拠なのである。\n\n【問い】本文の内容と最もよく一致するものはどれか。",
+          "question": "【問い】本文の内容と最もよく一致するものはどれか。",
           "options": [
             "失敗を避けるためには、他人の成功事例だけを真似することが望ましい。",
             "失敗は挑戦した証であり、その原因を分析して次に活かすことが成長につながる。",
@@ -1665,14 +1666,15 @@ window.JLPT_DATA[14] = {
             "大きな成功を収めるためには、事前の失敗対策にすべての時間を費やすべきだ。"
           ],
           "correctAnswer": 2,
-          "explanation": "Thất bại là minh chứng của lòng quả cảm dám dấn thân; phân tích bài học từ sai lầm là động lực để vươn tới nấc thang thành công mới."
+          "explanation": "Thất bại là minh chứng của lòng quả cảm dám dấn thân; phân tích bài học từ sai lầm là động lực để vươn tới nấc thang thành công mới.",
+          "passage": "【短文 3：失敗の捉え方と成長】\n挑戦を重ねる人ほど、多くの失敗に直面する。重要なのは、失敗そのものを恥じるのではなく、「なぜうまくいかなかったのか」を客観的に分析し、次の試みの糧とすることだ。失敗を経験していない人は、単に安全な道しか歩んでこなかったにすぎない。失敗とは成功へのプロセスにおける通過点であり、挑戦したこと自体の尊い証拠なのである。"
         },
         {
           "id": 105,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 4：新入社員研修のご案内】\n本年度の新入社員研修は、来月15日より5日間の日程で本社研修センターにて実施されます。ビジネスマナー、コンプライアンス教育、グループワークを通じた課題解決演習など多岐にわたるプログラムを用意しております。参加者は初日午前9時までに筆記用具および指定のテキストを持参の上、第3会議室へお集まりください。なお、体調不良等で欠席する場合は、前日午後5時までに人事部へご連絡願います。\n\n【問い】この案内から分かる研修の参加手続きとして正しいものはどれか。",
+          "question": "【問い】この案内から分かる研修の参加手続きとして正しいものはどれか。",
           "options": [
             "テキストは研修初日に研修センターの受付で配布される。",
             "欠席する場合は、初日の朝8時までに人事部へ連絡すればよい。",
@@ -1680,14 +1682,15 @@ window.JLPT_DATA[14] = {
             "研修はすべてオンライン形式で自宅から参加する。"
           ],
           "correctAnswer": 3,
-          "explanation": "Văn bản nêu rõ: người tham gia cần mang theo tài liệu được chỉ định cùng đồ dùng viết và tập trung trước 9 giờ sáng ngày đầu tiên."
+          "explanation": "Văn bản nêu rõ: người tham gia cần mang theo tài liệu được chỉ định cùng đồ dùng viết và tập trung trước 9 giờ sáng ngày đầu tiên.",
+          "passage": "【短文 4：新入社員研修のご案内】\n本年度の新入社員研修は、来月15日より5日間の日程で本社研修センターにて実施されます。ビジネスマナー、コンプライアンス教育、グループワークを通じた課題解決演習など多岐にわたるプログラムを用意しております。参加者は初日午前9時までに筆記用具および指定のテキストを持参の上、第3会議室へお集まりください。なお、体調不良等で欠席する場合は、前日午後5時までに人事部へご連絡願います。"
         },
         {
           "id": 106,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 5：人間関係における『境界線』】\n良好な人間関係を維持するためには、親しい間柄であっても適度な「心理的距離（境界線）」を保つことが不可欠である。相手を思いやるあまり、過度に相手のプライベートに踏み込んだり、相手の感情に巻き込まれすぎたりすると、やがて共依存や疲弊を招く。互いを一個の自立した人間として尊重し、適度な境界線を引くことこそが、長続きする健全な信頼関係の基盤となる。\n\n【問い】筆者が考える「良好な人間関係を保つコツ」はどれか。",
+          "question": "【問い】筆者が考える「良好な人間関係を保つコツ」はどれか。",
           "options": [
             "相手と常に感情を共有し、隠し事のない関係を築くこと。",
             "親しい関係であっても適度な心理的距離を保ち、互いの自立を尊重すること。",
@@ -1695,14 +1698,15 @@ window.JLPT_DATA[14] = {
             "自分の意見を主張せず、常に相手の要求を優先して受け入れること。"
           ],
           "correctAnswer": 2,
-          "explanation": "Dù thân thiết đến đâu cũng cần giữ ranh giới tâm lý lành mạnh và tôn trọng sự độc lập tự chủ của nhau."
+          "explanation": "Dù thân thiết đến đâu cũng cần giữ ranh giới tâm lý lành mạnh và tôn trọng sự độc lập tự chủ của nhau.",
+          "passage": "【短文 5：人間関係における『境界線』】\n良好な人間関係を維持するためには、親しい間柄であっても適度な「心理的距離（境界線）」を保つことが不可欠である。相手を思いやるあまり、過度に相手のプライベートに踏み込んだり、相手の感情に巻き込まれすぎたりすると、やがて共依存や疲弊を招く。互いを一個の自立した人間として尊重し、適度な境界線を引くことこそが、長続きする健全な信頼関係の基盤となる。"
         },
         {
           "id": 107,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 6：集中力を保つ環境づくり】\n長時間のデスクワークにおいて集中力を維持するためには、意志の力に頼るよりも「環境」を整えることが効果的である。机の上に余計な書類やスマートフォンを置かない、一定時間ごとに立ち上がって軽くストレッチをするなど、集中を妨げる要因を物理的に排除することが重要だ。集中できない自分を責める前に、まず作業環境を見直すことから始めよう。\n\n【問い】筆者が推奨する集中力向上のアプローチはどれか。",
+          "question": "【問い】筆者が推奨する集中力向上のアプローチはどれか。",
           "options": [
             "強い意志を持って、何時間でも休憩を取らずに机に向かい続ける。",
             "周囲の誘惑を排除し、ストレッチを取り入れるなど作業環境を整える。",
@@ -1710,14 +1714,15 @@ window.JLPT_DATA[14] = {
             "作業スペースにはできるだけ多くの参考資料を手の届く範囲に広げておく。"
           ],
           "correctAnswer": 2,
-          "explanation": "Thay vì tự trách bản thân, hãy chủ động dọn dẹp bàn làm việc, cất điện thoại và vận động giãn cơ để duy trì sự tập trung."
+          "explanation": "Thay vì tự trách bản thân, hãy chủ động dọn dẹp bàn làm việc, cất điện thoại và vận động giãn cơ để duy trì sự tập trung.",
+          "passage": "【短文 6：集中力を保つ環境づくり】\n長時間のデスクワークにおいて集中力を維持するためには、意志の力に頼るよりも「環境」を整えることが効果的である。机の上に余計な書類やスマートフォンを置かない、一定時間ごとに立ち上がって軽くストレッチをするなど、集中を妨げる要因を物理的に排除することが重要だ。集中できない自分を責める前に、まず作業環境を見直すことから始めよう。"
         },
         {
           "id": 108,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 7：アート鑑賞と個人の感性】\n美術館で絵画を見る際、「正しい鑑賞法」や「歴史的背景の知識」がなければ理解できないと思い込んでいる人が多い。しかし、アートの鑑賞において最も大切なのは、作品を前にした時に自分自身の心がどう動いたかという素直な感性である。知識は作品を深める助けにはなるが、まずは固定観念にとらわれず、自分なりの自由な視点で美を感じ取ることが鑑賞の真髄なのである。\n\n【問い】筆者によると、美術鑑賞で最も重視されるべきものは何か。",
+          "question": "【問い】筆者によると、美術鑑賞で最も重視されるべきものは何か。",
           "options": [
             "専門書を熟読して美術史の知識を完璧に予習しておくこと。",
             "専門家の解説通りに作品の意図を正確に読み解くこと。",
@@ -1725,14 +1730,15 @@ window.JLPT_DATA[14] = {
             "絵画の市場価値やオークションでの評価額を把握すること。"
           ],
           "correctAnswer": 3,
-          "explanation": "Điều đáng quý nhất khi ngắm tranh nghệ thuật là những rung cảm rung động chân thực của trái tim mình trước tác phẩm."
+          "explanation": "Điều đáng quý nhất khi ngắm tranh nghệ thuật là những rung cảm rung động chân thực của trái tim mình trước tác phẩm.",
+          "passage": "【短文 7：アート鑑賞と個人の感性】\n美術館で絵画を見る際、「正しい鑑賞法」や「歴史的背景の知識」がなければ理解できないと思い込んでいる人が多い。しかし、アートの鑑賞において最も大切なのは、作品を前にした時に自分自身の心がどう動いたかという素直な感性である。知識は作品を深める助けにはなるが、まずは固定観念にとらわれず、自分なりの自由な視点で美を感じ取ることが鑑賞の真髄なのである。"
         },
         {
           "id": 109,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 8：コミュニティの役割】\n地域社会におけるコミュニティの希薄化が叫ばれて久しい。隣人の顔すら知らない都市生活は気楽である一方、災害時や孤立といった危機に対して脆弱である。日常的な挨拶やちょっとした立ち話など、緩やかなつながりを維持しておくことは、いざという時の安心と相互支援のセーフティネットとなる。人と人とのつながりは、目に見えない社会のインフラなのである。\n\n【問い】筆者が考える「地域コミュニティの緩やかなつながり」の意義は何か。",
+          "question": "【問い】筆者が考える「地域コミュニティの緩やかなつながり」の意義は何か。",
           "options": [
             "個人の自由を制限し、地域の厳しい掟に従わせること。",
             "災害時や困難な状況における安心や相互支援のセーフティネットとなること。",
@@ -1740,7 +1746,8 @@ window.JLPT_DATA[14] = {
             "地域の経済活動を活性化させて観光客を呼び込むこと。"
           ],
           "correctAnswer": 2,
-          "explanation": "Những mối liên hệ thường nhật giản dị chính là chiếc lưới an toàn vô giá để mọi người nương tựa giúp đỡ lẫn nhau khi hoạn nạn."
+          "explanation": "Những mối liên hệ thường nhật giản dị chính là chiếc lưới an toàn vô giá để mọi người nương tựa giúp đỡ lẫn nhau khi hoạn nạn.",
+          "passage": "【短文 8：コミュニティの役割】\n地域社会におけるコミュニティの希薄化が叫ばれて久しい。隣人の顔すら知らない都市生活は気楽である一方、災害時や孤立といった危機に対して脆弱である。日常的な挨拶やちょっとした立ち話など、緩やかなつながりを維持しておくことは、いざという時の安心と相互支援のセーフティネットとなる。人と人とのつながりは、目に見えない社会のインフラなのである。"
         }
       ]
     },
@@ -1748,194 +1755,194 @@ window.JLPT_DATA[14] = {
       "id": "choukai",
       "name": "Phần 5: 聴解 - Luyện Nghe Hiểu N2 Đề 2 (11 câu)",
       "questions": [
-            {
-                  "id": 110,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m1_01.mp3",
-                  "questionText": "会社で課長と男の人が話しています。男の人はこのあと何をしますか。",
-                  "options": [
-                        "報告書を提出する",
-                        "山田さんに確認する",
-                        "会議の資料を準備する",
-                        "取引先の人に会う"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nam đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 報告書を提出する: Nộp bản báo cáo<br>2. 山田さんに確認する: Xác nhận với Yamada-san<br>3. 会議の資料を準備する: Chuẩn bị tài liệu cuộc họp<br>4. 取引先の人に会う: Gặp mặt khách hàng / đối tác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：森さん、ちょっと来てください。<br>男：はい、何ですか。<br>女：今、山田さんから電話があって、事故で電車が止まって、何時に会社に着くか、わからないらしいの。それで、今日9時半に東京広告の人が新しい広告プランの提案に来るんだけど、代わりに話を聞いておいてもらえない？今日午前中、特に外出の予定はないよね？<br>男：あ、はい。ただ、それをするとなると、1時提出の報告書が間に合いそうにないんですが・・・<br>女：じゃ、報告書は5時までに出してくれればいいですよ。<br>男：わかりました。東京広告の人に会う前に、何か準備しておくことはありますか。<br>女：特に何もしなくていいよ。今日はSNSを使った広告についての話で、提案を聞くだけでいいみたいだから。<br>男：わかりました。<br>女：じゃ、よろしくね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Yamada bị trễ tàu nên trưởng phòng nhờ người nam thay mặt gặp đối tác \"Tokyo Koukoku\" lúc 9h30 sáng để nghe đề xuất quảng cáo mới.<br>- Báo cáo lúc 1h được lùi sang 5h chiều. Trưởng phòng dặn không cần chuẩn bị tài liệu trước mà chỉ cần gặp để nghe thuyết trình.<br>&rarr; <b>Đáp án đúng là 4 (取引先の人に会う)</b>."
-            },
-            {
-                  "id": 111,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m1_02.mp3",
-                  "questionText": "大学で女の学生と男の学生が話しています。女の学生はこのあとまず何をしますか。",
-                  "options": [
-                        "学生課の総合受付に行く",
-                        "大学のホームページで申込書を探す",
-                        "申込書を印刷する",
-                        "学生課で免許証をコピーする"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 学生課の総合受付に行く: Đến bàn tiếp tân phòng công tác sinh viên<br>2. 大学のホームページで申込書を探す: Tìm đơn đăng ký trên trang web trường<br>3. 申込書を印刷する: In đơn đăng ký<br>4. 学生課で免許証をコピーする: Photo bằng lái xe tại phòng sinh viên<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：中野君って、バイクで大学に来てるよね。私も来月からバイクで来たいなと思ってるんだけど・・・駐車場ってどうしてるの？自転車置き場と一緒でいいの？<br>男：いや、自転車とは別で、バイク用の駐車場に停めてる。学生課の総合受付で申し込みをすることになってる。毎月20日が締め切り。あ、今日だよ。<br>女：え、今日なの？困ったな。今日バイトだし間に合うかなあ。<br>男：<b>申込書は大学のホームページの学生用ページにあるから、それに入力して印刷して出すんだよ。今から入力しておけば、間に合うんじゃない？</b><br>女：<b>わかった。ありがとう！そうする。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Hôm nay là hạn chót nộp đơn đăng ký chỗ đỗ xe máy. Nam sinh bảo mẫu đơn có trên trang web của trường, điền thông tin vào rồi in ra nộp. Nữ sinh đồng ý làm ngay.<br>- Vậy bước đầu tiên nữ sinh cần làm là lên web của trường tìm đơn đăng ký để điền.<br>&rarr; <b>Đáp án đúng là 2 (大学のホームページで申込書を探す)</b>."
-            },
-            {
-                  "id": 112,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m1_03.mp3",
-                  "questionText": "息子と母親が話しています。息子はこのあとまず何をしますか。",
-                  "options": [
-                        "今から行ける病院を探す",
-                        "インフルエンザの検査を受ける",
-                        "タクシーを呼ぶ",
-                        "横になって休む"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người con trai và mẹ đang nói chuyện. Người con trai sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 今から行ける病院を探す: Tìm bệnh viện có thể đến khám ngay lúc này<br>2. インフルエンザの検査を受ける: Xét nghiệm cúm<br>3. タクシーを呼ぶ: Gọi taxi<br>4. 横になって休む: Nằm xuống nghỉ ngơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：寝ている間、ずっと頭が痛くて寒気がするから熱測ったら、38度5分あった。<br>女：えっ、大丈夫？結構高いじゃない。<br>男：うん・・・かなりつらい。学校でインフルエンザになった人がいたから、うつったかもしれない。<br>女：病院で診てもらったほうがいいわね。でも、インフルエンザの検査って熱が出てすぐだと正確に出ないって言うし、今の時間は近所の病院もまだ開いてないわ。<b>病院は私が探しておくから、あなたはお薬飲んで、ベッドで横になって休んでなさい。</b><br>男：<b>うん、そうする。ありがとう。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Con trai bị sốt 38.5 độ nghi nhiễm cúm. Mẹ bảo bệnh viện chưa mở cửa và mẹ sẽ chịu trách nhiệm tìm bệnh viện, con hãy uống thuốc rồi lên giường nằm nghỉ.<br>- Con trai đồng ý làm theo lời mẹ &rarr; việc con trai làm ngay sau đây là nằm nghỉ.<br>&rarr; <b>Đáp án đúng là 4 (横になって休む)</b>."
-            },
-            {
-                  "id": 113,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m1_04.mp3",
-                  "questionText": "レストランで、店長と店員が話しています。店員はこのあと、客に何を確認しなければなりませんか。",
-                  "options": [
-                        "どのコースを頼むか",
-                        "何人分用意すればいいか",
-                        "使わないでほしい材料はないか",
-                        "デザートは何がいいか"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà hàng, chủ quán và nhân viên đang nói chuyện. Nhân viên sau đây phải xác nhận điều gì với khách hàng?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. どのコースを頼むか: Khách đặt set menu / khóa ăn nào<br>2. 何人分用意すればいいか: Chuẩn bị khẩu phần cho bao nhiêu người<br>3. 使わないでほしい材料はないか: Có nguyên liệu nào không ăn được không<br>4. デザートは何がいいか: Món tráng miệng chọn loại nào<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：今度の土曜日の夜に、青木様からご予約入ってたよね。<br>女：はい、19時から5名で予約されてます。<br>男：青木様から、お連れの方でお一人牛乳アレルギーの方がいらっしゃるって連絡があったんだ。豆乳などで対応できるから問題ないんだけど、<b>そういえば、青木様はどのコース料理にするか、まだ決めていらっしゃらなかったよね？</b><br>女：<b>あ、はい。まだ伺っていません。</b><br>男：仕入れの都合もあるから、<b>電話してどのコースになさるか確認しておいてくれる？</b>デザートはチョコムースで決まってるから。<br>女：はい、わかりました。すぐお電話します。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khách dị ứng sữa đã được giải quyết bằng sữa đậu nành. Số lượng khách (5 người) và món tráng miệng (mousse socola) đã rõ ràng.<br>- Điểm còn thiếu để nhập nguyên liệu là khách chưa chọn set menu nào (どのコースにするか) &rarr; Chủ quán bảo gọi điện xác nhận điều này.<br>&rarr; <b>Đáp án đúng là 1 (どのコースを頼むか)</b>."
-            },
-            {
-                  "id": 114,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m1_05.mp3",
-                  "questionText": "男の人と女の人が話しています。男の人はこのあと何をしますか。",
-                  "options": [
-                        "鈴木さんにギターを習う",
-                        "楽器店でギターを買う",
-                        "ギター教室に参加する",
-                        "インターネットでギターの弾き方を調べる"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 鈴木さんにギターを習う: Nhờ Suzuki dạy đàn guitar<br>2. 楽器店でギターを買う: Mua đàn guitar ở tiệm nhạc cụ<br>3. ギター教室に参加する: Tham gia lớp học đánh guitar<br>4. インターネットでギターの弾き方を調べる: Tra cứu cách đánh guitar trên mạng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：鈴木さん、ギター弾くのが趣味って言ってましたよね。実は使わなくなったギターをもらったんですが、何から始めたらいいかわからなくて・・・何かアドバイスをいただけませんか。<br>女：ネットにいろんな情報があるから、調べてみたら？<br>男：それが情報が多すぎてよくわからなかったんです。<br>女：そっか。私が教えてあげてもいいんだけど、最近すごく忙しくて無理なのよね。<b>あ、私が使ってる楽器店でギター教室をやってるんだけど、そこはどうかなあ。初心者向けだし、メンテナンスも教えてくれるよ。無理に買わされることもないし。</b><br>男：<b>いいですね。やっぱり直接教わるほうが安心ですし、やってみます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nam tự tra mạng thấy quá nhiều thông tin bị rối, Suzuki bận không dạy kèm được nên giới thiệu lớp học guitar cho người mới bắt đầu ở cửa hàng nhạc cụ.<br>- Người nam đồng ý tham gia lớp học đó (やってみます) &rarr; tham gia lớp guitar.<br>&rarr; <b>Đáp án đúng là 3 (ギター教室に参加する)</b>."
-            },
-            {
-                  "id": 115,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_01.mp3",
-                  "questionText": "男の学生と女の学生が話しています。女の学生は、男の学生の発表について何が問題だったと言っていますか。",
-                  "options": [
-                        "声が小さくて聞き取りにくかったこと",
-                        "話の構成がわかりにくかったこと",
-                        "資料の説明が不足していたこと",
-                        "資料の文字が多すぎたこと"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Nam sinh và nữ sinh đang nói chuyện. Nữ sinh nói buổi thuyết trình của nam sinh có vấn đề gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 声が小さくて聞き取りにくかったこと: Giọng nói nhỏ khó nghe<br>2. 話の構成がわかりにくかったこと: Bố cục bài nói khó hiểu<br>3. 資料の説明が不足していたこと: Thiếu giải thích cho tài liệu<br>4. 資料の文字が多すぎたこと: Tài liệu/slide có quá nhiều chữ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：山本さん、僕の発表どうだった？<br>女：声もはっきり通ってたし、話の流れもすごくわかりやすかったよ。<br>男：本当？よかった。<br>女：<b>ただね、スライドの資料に細かい文字がぎっしり詰まってて、後ろの席からだと読みにくかったかも。ポイントだけ箇条書きにして、あとは口頭で説明したほうがもっと伝わったと思うな。</b><br>男：なるほど、文字が多すぎたんだね。次は気をつけるよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh khen giọng nói to rõ và bố cục rành mạch, nhưng góp ý nhược điểm là trên slide tài liệu chứa quá nhiều chữ nhỏ khiến người ngồi sau khó đọc (文字が多すぎた).<br>&rarr; <b>Đáp án đúng là 4 (資料の文字が多すぎたこと)</b>."
-            },
-            {
-                  "id": 116,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_02.mp3",
-                  "questionText": "テレビでアナウンサーと大学の教授が話しています。教授が心配しているのはどんなことですか。",
-                  "options": [
-                        "大学での教育レベルが低いこと",
-                        "大学院が入りにくくなること",
-                        "大学院を出た人への評価が低いこと",
-                        "研究者をめざす人が減ること"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Trên truyền hình, phát thanh viên đang phỏng vấn giáo sư đại học. Điều giáo sư lo lắng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 大学での教育レベルが低いこと: Trình độ giáo dục ở đại học bị thấp<br>2. 大学院が入りにくくなること: Cao học trở nên khó thi đỗ hơn<br>3. 大学院を出た人への評価が低いこと: Đánh giá dành cho người tốt nghiệp thạc sĩ/tiến sĩ bị thấp<br>4. 研究者をめざす人が減ること: Số người hướng tới trở thành nhà nghiên cứu ngày càng giảm sút<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：本日は城山大学の青山教授にお話を伺います。<br>女：近年、日本では大学院に進学して研究者を目指す若者が年々減少しています。ポストの不安定さや経済的理由が背景にありますが、<b>このまま研究者を志す人材が減り続ければ、日本の科学技術や学術の発展そのものが停滞してしまうと、非常に危惧しています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Giáo sư bày tỏ mối lo ngại sâu sắc nhất là hiện tượng giới trẻ ngày càng ít theo đuổi con đường nghiên cứu khoa học (研究者を目指す若者が減少), đe dọa sự phát triển học thuật tương lai.<br>&rarr; <b>Đáp án đúng là 4 (研究者をめざす人が減ること)</b>."
-            },
-            {
-                  "id": 117,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_03.mp3",
-                  "questionText": "電器店で店員が商品について話しています。この商品にはどんな特徴がありますか。",
-                  "options": [
-                        "拭き掃除ができる",
-                        "長い時間充電しなくても使える",
-                        "電気代が節約できる",
-                        "自動で掃除機にたまったごみを捨てる"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại cửa hàng đồ điện, nhân viên bán hàng đang giới thiệu sản phẩm. Sản phẩm này có đặc điểm gì nổi bật?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 拭き掃除ができる: Có khả năng lau sàn (lau ướt/lau khô)<br>2. 長い時間充電しなくても使える: Dùng được lâu mà không cần sạc pin<br>3. 電気代が節約できる: Tiết kiệm tiền điện<br>4. 自動で掃除機にたまったごみを捨てる: Tự động đổ rác gom được<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：こちらの最新型お掃除ロボットは、今当店で一番売れているモデルです。従来のモデル同様、ゴミの吸引力は抜群ですが、<b>お客様の強いご要望にお応えして、水拭き機能が新たに搭載されました。フローリングのベタつきや細かなホコリも、水拭きモップで一度にピカピカにしてくれます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Điểm cải tiến và đặc trưng nổi bật nhất của mẫu robot hút bụi này là được trang bị thêm tính năng lau sàn ướt (水拭き機能 &rarr; 拭き掃除ができる).<br>&rarr; <b>Đáp án đúng là 1 (拭き掃除ができる)</b>."
-            },
-            {
-                  "id": 118,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_04.mp3",
-                  "questionText": "男の人と女の人が話しています。女の人が転職しようと思ったのはどうしてですか。",
-                  "options": [
-                        "新しい仕事を覚えたかったから",
-                        "給料が不満だったから",
-                        "仕事が終わるのが遅かったから",
-                        "母親が入院したから"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Vì sao người nữ lại quyết định chuyển việc?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 新しい仕事を覚えたかったから: Muốn học công việc mới<br>2. 給料が不満だったから: Bất mãn với tiền lương<br>3. 仕事が終わるのが遅かったから: Công việc tan ca quá muộn (nhiều tăng ca)<br>4. 母親が入院したから: Mẹ phải nhập viện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんも新しい職場に慣れてきましたね。前の会社もやりがいがありそうでしたけど、どうして転職されたんですか。<br>女：そうですね、前の仕事自体は大好きでしたし、お給料も悪くなかったんです。<b>ただ、毎日終電近くまで残業が続いて、家には寝に帰るだけという生活で・・・体調を崩しそうになってしまって。もう少しプライベートな時間が持てる、定時で帰れる仕事にしたくて転職したんです。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nữ giải thích lương và nội dung việc cũ đều tốt, nhưng ngày nào cũng phải tăng ca đến gần chuyến tàu cuối mới tan sở (残業で終わるのが遅い), ảnh hưởng sức khỏe nên cô chuyển sang việc có thời gian biểu chuẩn để về sớm.<br>&rarr; <b>Đáp án đúng là 3 (仕事が終わるのが遅かったから)</b>."
-            },
-            {
-                  "id": 119,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_05.mp3",
-                  "questionText": "男の人と女の人が話しています。電車が止まったのはどうしてですか。",
-                  "options": [
-                        "雪がたくさん積もったから",
-                        "電気関係の問題が起きたから",
-                        "電車の事故があったから",
-                        "滑ってけがをした人がいたから"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện điện thoại. Tàu điện bị dừng là do nguyên nhân gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 雪がたくさん積もったから: Do tuyết rơi tích tụ dày<br>2. 電気関係の問題が起きたから: Do phát sinh sự cố liên quan đến hệ thống điện<br>3. 電車の事故があったから: Do tai nạn tàu hỏa<br>4. 滑ってけがをした人がいたから: Do có người trượt ngã bị thương<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：もしもし、田中ですが。大雪で電車が止まってしまい、出社が遅れそうです。<br>男：雪の影響ですか？<br>女：<b>いえ、雪自体での線路の積雪は除雪されていたんですが、途中の駅の信号設備に停電というか、電気系統のトラブルが発生したそうで、全線で運転見合わせになっています。</b>復旧まで1時間以上かかるそうです。<br>男：なるほど、電気のトラブルですね。気をつけて来てください。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mặc dù trời có tuyết rơi nhưng tuyết đã được dọn sạch, nguyên nhân trực tiếp khiến tàu điện ngừng chạy là do sự cố hệ thống điện / thiết bị tín hiệu (電気系統のトラブル &rarr; 電気関係の問題が起きたから).<br>&rarr; <b>Đáp án đúng là 2 (電気関係の問題が起きたから)</b>."
-            },
-            {
-                  "id": 120,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_14/m2_06.mp3",
-                  "questionText": "男の学生と女の学生が話しています。男の学生は、これからどうするつもりだと言っていますか。",
-                  "options": [
-                        "棚など、家具の固定をする",
-                        "近所の小学校までの行き方を決める",
-                        "非常用の食べ物や水の用意について考える",
-                        "ガスや電気が止まらないように気をつける"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Nam sinh và nữ sinh đang nói chuyện. Nam sinh nói mình dự định từ giờ sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 棚など、家具の固定をする: Cố định đồ đạc giá kệ vào tường<br>2. 近所の小学校までの行き方を決める: Chọn đường đi đến trường tiểu học gần nhà để lánh nạn<br>3. 非常用の食べ物や水の用意について考える: Suy tính chuẩn bị lương thực và nước uống khẩn cấp<br>4. ガスや電気が止まらないように気をつける: Chú ý không để bị cắt ga cắt điện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：昨日の地震、びっくりしたね。揺れが長くて怖かったよ。<br>女：本当に。家具の固定とか避難場所の確認はしてある？<br>男：棚は前にしっかり固定してあるから倒れなかったし、避難所の小学校までの道もハザードマップで確認済みなんだ。<b>ただ、部屋に水も非常食も全然備蓄してないことに気づいてさ。まずは3日分の水と保存食を買い揃えておこうと思ってるんだ。</b><br>女：それは大事だね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã cố định kệ tủ từ trước và đã nắm rõ đường đến điểm lánh nạn trường tiểu học. Thứ nam sinh nhận ra còn thiếu và quyết định đi mua sắm tích trữ là đồ ăn khẩn cấp và nước uống (非常用の食べ物や水の用意).<br>&rarr; <b>Đáp án đúng là 3 (非常用の食べ物や水の用意について考える)</b>."
-            }
+        {
+          "id": 110,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m1_01.mp3",
+          "questionText": "会社で課長と男の人が話しています。男の人はこのあと何をしますか。",
+          "options": [
+            "報告書を提出する",
+            "山田さんに確認する",
+            "会議の資料を準備する",
+            "取引先の人に会う"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nam đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 報告書を提出する: Nộp bản báo cáo<br>2. 山田さんに確認する: Xác nhận với Yamada-san<br>3. 会議の資料を準備する: Chuẩn bị tài liệu cuộc họp<br>4. 取引先の人に会う: Gặp mặt khách hàng / đối tác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：森さん、ちょっと来てください。<br>男：はい、何ですか。<br>女：今、山田さんから電話があって、事故で電車が止まって、何時に会社に着くか、わからないらしいの。それで、今日9時半に東京広告の人が新しい広告プランの提案に来るんだけど、代わりに話を聞いておいてもらえない？今日午前中、特に外出の予定はないよね？<br>男：あ、はい。ただ、それをするとなると、1時提出の報告書が間に合いそうにないんですが・・・<br>女：じゃ、報告書は5時までに出してくれればいいですよ。<br>男：わかりました。東京広告の人に会う前に、何か準備しておくことはありますか。<br>女：特に何もしなくていいよ。今日はSNSを使った広告についての話で、提案を聞くだけでいいみたいだから。<br>男：わかりました。<br>女：じゃ、よろしくね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Yamada bị trễ tàu nên trưởng phòng nhờ người nam thay mặt gặp đối tác \"Tokyo Koukoku\" lúc 9h30 sáng để nghe đề xuất quảng cáo mới.<br>- Báo cáo lúc 1h được lùi sang 5h chiều. Trưởng phòng dặn không cần chuẩn bị tài liệu trước mà chỉ cần gặp để nghe thuyết trình.<br>&rarr; <b>Đáp án đúng là 4 (取引先の人に会う)</b>."
+        },
+        {
+          "id": 111,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m1_02.mp3",
+          "questionText": "大学で女の学生と男の学生が話しています。女の学生はこのあとまず何をしますか。",
+          "options": [
+            "学生課の総合受付に行く",
+            "大学のホームページで申込書を探す",
+            "申込書を印刷する",
+            "学生課で免許証をコピーする"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 学生課の総合受付に行く: Đến bàn tiếp tân phòng công tác sinh viên<br>2. 大学のホームページで申込書を探す: Tìm đơn đăng ký trên trang web trường<br>3. 申込書を印刷する: In đơn đăng ký<br>4. 学生課で免許証をコピーする: Photo bằng lái xe tại phòng sinh viên<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：中野君って、バイクで大学に来てるよね。私も来月からバイクで来たいなと思ってるんだけど・・・駐車場ってどうしてるの？自転車置き場と一緒でいいの？<br>男：いや、自転車とは別で、バイク用の駐車場に停めてる。学生課の総合受付で申し込みをすることになってる。毎月20日が締め切り。あ、今日だよ。<br>女：え、今日なの？困ったな。今日バイトだし間に合うかなあ。<br>男：<b>申込書は大学のホームページの学生用ページにあるから、それに入力して印刷して出すんだよ。今から入力しておけば、間に合うんじゃない？</b><br>女：<b>わかった。ありがとう！そうする。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Hôm nay là hạn chót nộp đơn đăng ký chỗ đỗ xe máy. Nam sinh bảo mẫu đơn có trên trang web của trường, điền thông tin vào rồi in ra nộp. Nữ sinh đồng ý làm ngay.<br>- Vậy bước đầu tiên nữ sinh cần làm là lên web của trường tìm đơn đăng ký để điền.<br>&rarr; <b>Đáp án đúng là 2 (大学のホームページで申込書を探す)</b>."
+        },
+        {
+          "id": 112,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m1_03.mp3",
+          "questionText": "息子と母親が話しています。息子はこのあとまず何をしますか。",
+          "options": [
+            "今から行ける病院を探す",
+            "インフルエンザの検査を受ける",
+            "タクシーを呼ぶ",
+            "横になって休む"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người con trai và mẹ đang nói chuyện. Người con trai sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 今から行ける病院を探す: Tìm bệnh viện có thể đến khám ngay lúc này<br>2. インフルエンザの検査を受ける: Xét nghiệm cúm<br>3. タクシーを呼ぶ: Gọi taxi<br>4. 横になって休む: Nằm xuống nghỉ ngơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：寝ている間、ずっと頭が痛くて寒気がするから熱測ったら、38度5分あった。<br>女：えっ、大丈夫？結構高いじゃない。<br>男：うん・・・かなりつらい。学校でインフルエンザになった人がいたから、うつったかもしれない。<br>女：病院で診てもらったほうがいいわね。でも、インフルエンザの検査って熱が出てすぐだと正確に出ないって言うし、今の時間は近所の病院もまだ開いてないわ。<b>病院は私が探しておくから、あなたはお薬飲んで、ベッドで横になって休んでなさい。</b><br>男：<b>うん、そうする。ありがとう。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Con trai bị sốt 38.5 độ nghi nhiễm cúm. Mẹ bảo bệnh viện chưa mở cửa và mẹ sẽ chịu trách nhiệm tìm bệnh viện, con hãy uống thuốc rồi lên giường nằm nghỉ.<br>- Con trai đồng ý làm theo lời mẹ &rarr; việc con trai làm ngay sau đây là nằm nghỉ.<br>&rarr; <b>Đáp án đúng là 4 (横になって休む)</b>."
+        },
+        {
+          "id": 113,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m1_04.mp3",
+          "questionText": "レストランで、店長と店員が話しています。店員はこのあと、客に何を確認しなければなりませんか。",
+          "options": [
+            "どのコースを頼むか",
+            "何人分用意すればいいか",
+            "使わないでほしい材料はないか",
+            "デザートは何がいいか"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà hàng, chủ quán và nhân viên đang nói chuyện. Nhân viên sau đây phải xác nhận điều gì với khách hàng?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. どのコースを頼むか: Khách đặt set menu / khóa ăn nào<br>2. 何人分用意すればいいか: Chuẩn bị khẩu phần cho bao nhiêu người<br>3. 使わないでほしい材料はないか: Có nguyên liệu nào không ăn được không<br>4. デザートは何がいいか: Món tráng miệng chọn loại nào<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：今度の土曜日の夜に、青木様からご予約入ってたよね。<br>女：はい、19時から5名で予約されてます。<br>男：青木様から、お連れの方でお一人牛乳アレルギーの方がいらっしゃるって連絡があったんだ。豆乳などで対応できるから問題ないんだけど、<b>そういえば、青木様はどのコース料理にするか、まだ決めていらっしゃらなかったよね？</b><br>女：<b>あ、はい。まだ伺っていません。</b><br>男：仕入れの都合もあるから、<b>電話してどのコースになさるか確認しておいてくれる？</b>デザートはチョコムースで決まってるから。<br>女：はい、わかりました。すぐお電話します。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khách dị ứng sữa đã được giải quyết bằng sữa đậu nành. Số lượng khách (5 người) và món tráng miệng (mousse socola) đã rõ ràng.<br>- Điểm còn thiếu để nhập nguyên liệu là khách chưa chọn set menu nào (どのコースにするか) &rarr; Chủ quán bảo gọi điện xác nhận điều này.<br>&rarr; <b>Đáp án đúng là 1 (どのコースを頼むか)</b>."
+        },
+        {
+          "id": 114,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m1_05.mp3",
+          "questionText": "男の人と女の人が話しています。男の人はこのあと何をしますか。",
+          "options": [
+            "鈴木さんにギターを習う",
+            "楽器店でギターを買う",
+            "ギター教室に参加する",
+            "インターネットでギターの弾き方を調べる"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 鈴木さんにギターを習う: Nhờ Suzuki dạy đàn guitar<br>2. 楽器店でギターを買う: Mua đàn guitar ở tiệm nhạc cụ<br>3. ギター教室に参加する: Tham gia lớp học đánh guitar<br>4. インターネットでギターの弾き方を調べる: Tra cứu cách đánh guitar trên mạng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：鈴木さん、ギター弾くのが趣味って言ってましたよね。実は使わなくなったギターをもらったんですが、何から始めたらいいかわからなくて・・・何かアドバイスをいただけませんか。<br>女：ネットにいろんな情報があるから、調べてみたら？<br>男：それが情報が多すぎてよくわからなかったんです。<br>女：そっか。私が教えてあげてもいいんだけど、最近すごく忙しくて無理なのよね。<b>あ、私が使ってる楽器店でギター教室をやってるんだけど、そこはどうかなあ。初心者向けだし、メンテナンスも教えてくれるよ。無理に買わされることもないし。</b><br>男：<b>いいですね。やっぱり直接教わるほうが安心ですし、やってみます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nam tự tra mạng thấy quá nhiều thông tin bị rối, Suzuki bận không dạy kèm được nên giới thiệu lớp học guitar cho người mới bắt đầu ở cửa hàng nhạc cụ.<br>- Người nam đồng ý tham gia lớp học đó (やってみます) &rarr; tham gia lớp guitar.<br>&rarr; <b>Đáp án đúng là 3 (ギター教室に参加する)</b>."
+        },
+        {
+          "id": 115,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_01.mp3",
+          "questionText": "男の学生と女の学生が話しています。女の学生は、男の学生の発表について何が問題だったと言っていますか。",
+          "options": [
+            "声が小さくて聞き取りにくかったこと",
+            "話の構成がわかりにくかったこと",
+            "資料の説明が不足していたこと",
+            "資料の文字が多すぎたこと"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Nam sinh và nữ sinh đang nói chuyện. Nữ sinh nói buổi thuyết trình của nam sinh có vấn đề gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 声が小さくて聞き取りにくかったこと: Giọng nói nhỏ khó nghe<br>2. 話の構成がわかりにくかったこと: Bố cục bài nói khó hiểu<br>3. 資料の説明が不足していたこと: Thiếu giải thích cho tài liệu<br>4. 資料の文字が多すぎたこと: Tài liệu/slide có quá nhiều chữ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：山本さん、僕の発表どうだった？<br>女：声もはっきり通ってたし、話の流れもすごくわかりやすかったよ。<br>男：本当？よかった。<br>女：<b>ただね、スライドの資料に細かい文字がぎっしり詰まってて、後ろの席からだと読みにくかったかも。ポイントだけ箇条書きにして、あとは口頭で説明したほうがもっと伝わったと思うな。</b><br>男：なるほど、文字が多すぎたんだね。次は気をつけるよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh khen giọng nói to rõ và bố cục rành mạch, nhưng góp ý nhược điểm là trên slide tài liệu chứa quá nhiều chữ nhỏ khiến người ngồi sau khó đọc (文字が多すぎた).<br>&rarr; <b>Đáp án đúng là 4 (資料の文字が多すぎたこと)</b>."
+        },
+        {
+          "id": 116,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_02.mp3",
+          "questionText": "テレビでアナウンサーと大学の教授が話しています。教授が心配しているのはどんなことですか。",
+          "options": [
+            "大学での教育レベルが低いこと",
+            "大学院が入りにくくなること",
+            "大学院を出た人への評価が低いこと",
+            "研究者をめざす人が減ること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên truyền hình, phát thanh viên đang phỏng vấn giáo sư đại học. Điều giáo sư lo lắng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 大学での教育レベルが低いこと: Trình độ giáo dục ở đại học bị thấp<br>2. 大学院が入りにくくなること: Cao học trở nên khó thi đỗ hơn<br>3. 大学院を出た人への評価が低いこと: Đánh giá dành cho người tốt nghiệp thạc sĩ/tiến sĩ bị thấp<br>4. 研究者をめざす人が減ること: Số người hướng tới trở thành nhà nghiên cứu ngày càng giảm sút<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：本日は城山大学の青山教授にお話を伺います。<br>女：近年、日本では大学院に進学して研究者を目指す若者が年々減少しています。ポストの不安定さや経済的理由が背景にありますが、<b>このまま研究者を志す人材が減り続ければ、日本の科学技術や学術の発展そのものが停滞してしまうと、非常に危惧しています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Giáo sư bày tỏ mối lo ngại sâu sắc nhất là hiện tượng giới trẻ ngày càng ít theo đuổi con đường nghiên cứu khoa học (研究者を目指す若者が減少), đe dọa sự phát triển học thuật tương lai.<br>&rarr; <b>Đáp án đúng là 4 (研究者をめざす人が減ること)</b>."
+        },
+        {
+          "id": 117,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_03.mp3",
+          "questionText": "電器店で店員が商品について話しています。この商品にはどんな特徴がありますか。",
+          "options": [
+            "拭き掃除ができる",
+            "長い時間充電しなくても使える",
+            "電気代が節約できる",
+            "自動で掃除機にたまったごみを捨てる"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại cửa hàng đồ điện, nhân viên bán hàng đang giới thiệu sản phẩm. Sản phẩm này có đặc điểm gì nổi bật?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 拭き掃除ができる: Có khả năng lau sàn (lau ướt/lau khô)<br>2. 長い時間充電しなくても使える: Dùng được lâu mà không cần sạc pin<br>3. 電気代が節約できる: Tiết kiệm tiền điện<br>4. 自動で掃除機にたまったごみを捨てる: Tự động đổ rác gom được<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：こちらの最新型お掃除ロボットは、今当店で一番売れているモデルです。従来のモデル同様、ゴミの吸引力は抜群ですが、<b>お客様の強いご要望にお応えして、水拭き機能が新たに搭載されました。フローリングのベタつきや細かなホコリも、水拭きモップで一度にピカピカにしてくれます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Điểm cải tiến và đặc trưng nổi bật nhất của mẫu robot hút bụi này là được trang bị thêm tính năng lau sàn ướt (水拭き機能 &rarr; 拭き掃除ができる).<br>&rarr; <b>Đáp án đúng là 1 (拭き掃除ができる)</b>."
+        },
+        {
+          "id": 118,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_04.mp3",
+          "questionText": "男の人と女の人が話しています。女の人が転職しようと思ったのはどうしてですか。",
+          "options": [
+            "新しい仕事を覚えたかったから",
+            "給料が不満だったから",
+            "仕事が終わるのが遅かったから",
+            "母親が入院したから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Vì sao người nữ lại quyết định chuyển việc?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 新しい仕事を覚えたかったから: Muốn học công việc mới<br>2. 給料が不満だったから: Bất mãn với tiền lương<br>3. 仕事が終わるのが遅かったから: Công việc tan ca quá muộn (nhiều tăng ca)<br>4. 母親が入院したから: Mẹ phải nhập viện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんも新しい職場に慣れてきましたね。前の会社もやりがいがありそうでしたけど、どうして転職されたんですか。<br>女：そうですね、前の仕事自体は大好きでしたし、お給料も悪くなかったんです。<b>ただ、毎日終電近くまで残業が続いて、家には寝に帰るだけという生活で・・・体調を崩しそうになってしまって。もう少しプライベートな時間が持てる、定時で帰れる仕事にしたくて転職したんです。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nữ giải thích lương và nội dung việc cũ đều tốt, nhưng ngày nào cũng phải tăng ca đến gần chuyến tàu cuối mới tan sở (残業で終わるのが遅い), ảnh hưởng sức khỏe nên cô chuyển sang việc có thời gian biểu chuẩn để về sớm.<br>&rarr; <b>Đáp án đúng là 3 (仕事が終わるのが遅かったから)</b>."
+        },
+        {
+          "id": 119,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_05.mp3",
+          "questionText": "男の人と女の人が話しています。電車が止まったのはどうしてですか。",
+          "options": [
+            "雪がたくさん積もったから",
+            "電気関係の問題が起きたから",
+            "電車の事故があったから",
+            "滑ってけがをした人がいたから"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện điện thoại. Tàu điện bị dừng là do nguyên nhân gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 雪がたくさん積もったから: Do tuyết rơi tích tụ dày<br>2. 電気関係の問題が起きたから: Do phát sinh sự cố liên quan đến hệ thống điện<br>3. 電車の事故があったから: Do tai nạn tàu hỏa<br>4. 滑ってけがをした人がいたから: Do có người trượt ngã bị thương<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：もしもし、田中ですが。大雪で電車が止まってしまい、出社が遅れそうです。<br>男：雪の影響ですか？<br>女：<b>いえ、雪自体での線路の積雪は除雪されていたんですが、途中の駅の信号設備に停電というか、電気系統のトラブルが発生したそうで、全線で運転見合わせになっています。</b>復旧まで1時間以上かかるそうです。<br>男：なるほど、電気のトラブルですね。気をつけて来てください。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mặc dù trời có tuyết rơi nhưng tuyết đã được dọn sạch, nguyên nhân trực tiếp khiến tàu điện ngừng chạy là do sự cố hệ thống điện / thiết bị tín hiệu (電気系統のトラブル &rarr; 電気関係の問題が起きたから).<br>&rarr; <b>Đáp án đúng là 2 (電気関係の問題が起きたから)</b>."
+        },
+        {
+          "id": 120,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_14/m2_06.mp3",
+          "questionText": "男の学生と女の学生が話しています。男の学生は、これからどうするつもりだと言っていますか。",
+          "options": [
+            "棚など、家具の固定をする",
+            "近所の小学校までの行き方を決める",
+            "非常用の食べ物や水の用意について考える",
+            "ガスや電気が止まらないように気をつける"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Nam sinh và nữ sinh đang nói chuyện. Nam sinh nói mình dự định từ giờ sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 棚など、家具の固定をする: Cố định đồ đạc giá kệ vào tường<br>2. 近所の小学校までの行き方を決める: Chọn đường đi đến trường tiểu học gần nhà để lánh nạn<br>3. 非常用の食べ物や水の用意について考える: Suy tính chuẩn bị lương thực và nước uống khẩn cấp<br>4. ガスや電気が止まらないように気をつける: Chú ý không để bị cắt ga cắt điện<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：昨日の地震、びっくりしたね。揺れが長くて怖かったよ。<br>女：本当に。家具の固定とか避難場所の確認はしてある？<br>男：棚は前にしっかり固定してあるから倒れなかったし、避難所の小学校までの道もハザードマップで確認済みなんだ。<b>ただ、部屋に水も非常食も全然備蓄してないことに気づいてさ。まずは3日分の水と保存食を買い揃えておこうと思ってるんだ。</b><br>女：それは大事だね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã cố định kệ tủ từ trước và đã nắm rõ đường đến điểm lánh nạn trường tiểu học. Thứ nam sinh nhận ra còn thiếu và quyết định đi mua sắm tích trữ là đồ ăn khẩn cấp và nước uống (非常用の食べ物や水の用意).<br>&rarr; <b>Đáp án đúng là 3 (非常用の食べ物や水の用意について考える)</b>."
+        }
       ]
-}
+    }
   ]
 };

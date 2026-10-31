@@ -1,4 +1,3 @@
-// Buổi 13: Kính Ngữ & Goukaku Moshi Đề 2
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[13] = {
   "sessionId": 13,
@@ -789,7 +788,7 @@ window.JLPT_DATA[13] = {
           "mondai": 9,
           "mondaiName": "問題9: 文章の文法",
           "type": "grammar",
-          "question": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n［ 50 ］に入る最もよいものを選びなさい。",
+          "question": "［ 50 ］に入る最もよいものを選びなさい。",
           "options": [
             "するのに対して",
             "するに伴って",
@@ -797,14 +796,15 @@ window.JLPT_DATA[13] = {
             "するとともに"
           ],
           "correctAnswer": 1,
-          "explanation": "「〜のに対して」 biểu thị sự đối lập so sánh giữa hai mô hình quyên góp."
+          "explanation": "「〜のに対して」 biểu thị sự đối lập so sánh giữa hai mô hình quyên góp.",
+          "passage": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\nまた、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。"
         },
         {
           "id": 51,
           "mondai": 9,
           "mondaiName": "問題9: 文章の文法",
           "type": "grammar",
-          "question": "企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n［ 51 ］に入る最もよいものを選びなさい。",
+          "question": "［ 51 ］に入る最もよいものを選びなさい。",
           "options": [
             "ないからといって",
             "ないばかりか",
@@ -812,14 +812,15 @@ window.JLPT_DATA[13] = {
             "ない限り"
           ],
           "correctAnswer": 3,
-          "explanation": "「〜にもかかわらず」: mặc dù về mặt an toàn vệ sinh hoàn toàn không có vấn đề gì nhưng vẫn bị tiêu hủy lãng phí."
+          "explanation": "「〜にもかかわらず」: mặc dù về mặt an toàn vệ sinh hoàn toàn không có vấn đề gì nhưng vẫn bị tiêu hủy lãng phí.",
+          "passage": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\nまた、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。"
         },
         {
           "id": 52,
           "mondai": 9,
           "mondaiName": "問題9: 文章の文法",
           "type": "grammar",
-          "question": "日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\n［ 52 ］に入る最もよいものを選びなさい。",
+          "question": "［ 52 ］に入る最もよいものを選びなさい。",
           "options": [
             "なんて",
             "ゆえに",
@@ -827,14 +828,15 @@ window.JLPT_DATA[13] = {
             "ほど"
           ],
           "correctAnswer": 4,
-          "explanation": "「日本ほど豊かな国」: ở một quốc gia giàu có như cỡ Nhật Bản."
+          "explanation": "「日本ほど豊かな国」: ở một quốc gia giàu có như cỡ Nhật Bản.",
+          "passage": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\nまた、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。"
         },
         {
           "id": 53,
           "mondai": 9,
           "mondaiName": "問題9: 文章の文法",
           "type": "grammar",
-          "question": "また、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n［ 53 ］に入る最もよいものを選びなさい。",
+          "question": "［ 53 ］に入る最もよいものを選びなさい。",
           "options": [
             "しないという",
             "せざるを得ない",
@@ -842,14 +844,15 @@ window.JLPT_DATA[13] = {
             "しつつある"
           ],
           "correctAnswer": 2,
-          "explanation": "「〜せざるを得ない」: đành phải, buộc lòng phải ưu tiên khía cạnh tài chính ngân sách."
+          "explanation": "「〜せざるを得ない」: đành phải, buộc lòng phải ưu tiên khía cạnh tài chính ngân sách.",
+          "passage": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\nまた、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。"
         },
         {
           "id": 54,
           "mondai": 9,
           "mondaiName": "問題9: 文章の文法",
           "type": "grammar",
-          "question": "日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。\n\n［ 54 ］に入る最もよいものを選びなさい。",
+          "question": "［ 54 ］に入る最もよいものを選びなさい。",
           "options": [
             "わけではない",
             "ものである",
@@ -857,7 +860,8 @@ window.JLPT_DATA[13] = {
             "に決まっている"
           ],
           "correctAnswer": 1,
-          "explanation": "「〜わけではない」: không hẳn là lúc nào hay ở đâu cũng có thể làm được hoạt động này."
+          "explanation": "「〜わけではない」: không hẳn là lúc nào hay ở đâu cũng có thể làm được hoạt động này.",
+          "passage": "【文章：フードドライブとフードバンク】\n「フードドライブ」が個人からのみ、食品を回収［　50　］、「フードバンク」では企業からの食品も回収する。\n\n企業から回収される食品は、製造過程で出る商品として販売できないものや賞味期限内の食品などで、安全上は問題が［　51　］廃棄されてしまう食品である。\n\n日本［　52　］豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が貧困とも言われている。\n\nまた、児童養護施設や社会福祉施設などで提供される食事は、栄養より金銭面を優先［　53　］状況もある。\n\n日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる［　54　］。"
         }
       ]
     },
@@ -2013,7 +2017,7 @@ window.JLPT_DATA[13] = {
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 1：褒め言葉の受け止め方】\n人から「素晴らしいですね」と褒められたとき、日本人は謙遜して「いえ、私なんてまだまだです」と否定することが美徳とされてきた。しかし、相手の褒め言葉を真っ向から否定することは、見方を変えれば、相手の審美眼や好意を否定することにもなりかねない。褒められたときは、過度にへりくだるよりも「ありがとうございます、励みになります」と素直に感謝を受け止めるほうが、双方にとって心地よい関係を築けるのである。\n\n【問い】筆者が望ましいと考える「褒められたときの対応」はどれか。",
+          "question": "【問い】筆者が望ましいと考える「褒められたときの対応」はどれか。",
           "options": [
             "自分の未熟さを強調し、相手の言葉を強く否定する。",
             "相手を喜ばせるために、相手のことも同じように大げさに褒め返す。",
@@ -2021,14 +2025,15 @@ window.JLPT_DATA[13] = {
             "自分の実力を誇らしげに語り、当然の評価だと認める。"
           ],
           "correctAnswer": 3,
-          "explanation": "Tác giả chỉ ra rằng không nên khiêm tốn quá mức làm đối phương phật ý, mà cách đón nhận khéo léo nhất là mỉm cười nói lời cảm ơn chân thành."
+          "explanation": "Tác giả chỉ ra rằng không nên khiêm tốn quá mức làm đối phương phật ý, mà cách đón nhận khéo léo nhất là mỉm cười nói lời cảm ơn chân thành.",
+          "passage": "【短文 1：褒め言葉の受け止め方】\n人から「素晴らしいですね」と褒められたとき、日本人は謙遜して「いえ、私なんてまだまだです」と否定することが美徳とされてきた。しかし、相手の褒め言葉を真っ向から否定することは、見方を変えれば、相手の審美眼や好意を否定することにもなりかねない。褒められたときは、過度にへりくだるよりも「ありがとうございます、励みになります」と素直に感謝を受け止めるほうが、双方にとって心地よい関係を築けるのである。"
         },
         {
           "id": 131,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 2：読書の目的と電子書籍】\n電子書籍の普及により、何百冊もの本を手軽に持ち歩ける時代になった。移動時間や旅行先でも読書が容易になった恩恵は計り知れない。一方で、紙の本特有の「手触り」や「ページをめくる感覚」、書棚に並んだ背表紙を眺める喜びを懐かしむ声も根強い。媒体がデジタルであれ紙であれ、読書の本質はテキストとの対話を通じて自己の内面を深めることにあるのだから、両者の特性を場面に応じて賢く使い分けることが求められている。\n\n【問い】筆者の考えに合致するものはどれか。",
+          "question": "【問い】筆者の考えに合致するものはどれか。",
           "options": [
             "電子書籍は紙の本に比べて内容の理解が浅くなるため避けるべきだ。",
             "読書の本質を理解した上で、紙とデジタルの長所を状況に応じて使い分けるのがよい。",
@@ -2036,14 +2041,15 @@ window.JLPT_DATA[13] = {
             "本棚に本を並べることこそが読書の真の喜びであり、電子書籍では得られない。"
           ],
           "correctAnswer": 2,
-          "explanation": "Bản chất việc đọc là đối thoại với tri thức; điều quan trọng là biết tận dụng thông minh cả sách giấy lẫn ebook tùy theo hoàn cảnh."
+          "explanation": "Bản chất việc đọc là đối thoại với tri thức; điều quan trọng là biết tận dụng thông minh cả sách giấy lẫn ebook tùy theo hoàn cảnh.",
+          "passage": "【短文 2：読書の目的と電子書籍】\n電子書籍の普及により、何百冊もの本を手軽に持ち歩ける時代になった。移動時間や旅行先でも読書が容易になった恩恵は計り知れない。一方で、紙の本特有の「手触り」や「ページをめくる感覚」、書棚に並んだ背表紙を眺める喜びを懐かしむ声も根強い。媒体がデジタルであれ紙であれ、読書の本質はテキストとの対話を通じて自己の内面を深めることにあるのだから、両者の特性を場面に応じて賢く使い分けることが求められている。"
         },
         {
           "id": 132,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 3：睡眠と記憶の定着】\n試験勉強などで徹夜をして知識を詰め込もうとする人がいるが、脳科学の観点からは極めて非効率である。日中にインプットされた情報は、夜間の深い睡眠中に脳の海馬から大脳皮質へと送られ、長期記憶として整理・定着するからだ。睡眠時間を削って暗記を繰り返すよりも、適度な学習の後にしっかりと良質な睡眠を取るほうが、結果として知識の定着率は遥かに高くなるのである。\n\n【問い】本文の内容と合致するものはどれか。",
+          "question": "【問い】本文の内容と合致するものはどれか。",
           "options": [
             "試験前日は徹夜で覚えたほうが、翌朝の記憶が鮮明に残りやすい。",
             "睡眠中に脳が記憶を整理して定着させるため、十分な睡眠を取ることが学習に効果的だ。",
@@ -2051,14 +2057,15 @@ window.JLPT_DATA[13] = {
             "長時間の睡眠は脳の活動を鈍らせるため、勉強期間中は短時間睡眠が推奨される。"
           ],
           "correctAnswer": 2,
-          "explanation": "Giấc ngủ là giai đoạn não bộ củng cố và chuyển hóa tri thức thành ký ức dài hạn; ngủ đủ giấc mang lại hiệu suất học tập vượt trội."
+          "explanation": "Giấc ngủ là giai đoạn não bộ củng cố và chuyển hóa tri thức thành ký ức dài hạn; ngủ đủ giấc mang lại hiệu suất học tập vượt trội.",
+          "passage": "【短文 3：睡眠と記憶の定着】\n試験勉強などで徹夜をして知識を詰め込もうとする人がいるが、脳科学の観点からは極めて非効率である。日中にインプットされた情報は、夜間の深い睡眠中に脳の海馬から大脳皮質へと送られ、長期記憶として整理・定着するからだ。睡眠時間を削って暗記を繰り返すよりも、適度な学習の後にしっかりと良質な睡眠を取るほうが、結果として知識の定着率は遥かに高くなるのである。"
         },
         {
           "id": 133,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 4：図書館利用に関するお知らせ】\n来月1日より、当館の図書予約システムがリニューアルされます。これまで1人最大5冊までだった予約可能数が最大10冊へと拡大されるほか、スマートフォンのアプリを通じて貸出延長の手続きが24時間可能になります。なお、システム移行作業に伴い、今月28日から末日までの3日間は全館臨時休館となりますので、期間中の図書のご返却は正面玄関横の返却ポストをご利用ください。\n\n【問い】このお知らせから分かる利用上の注意点はどれか。",
+          "question": "【問い】このお知らせから分かる利用上の注意点はどれか。",
           "options": [
             "予約できる本の冊数が来月から5冊に制限される。",
             "今月28日からの休館期間中は、一切の本の返却が受け付けられない。",
@@ -2066,14 +2073,15 @@ window.JLPT_DATA[13] = {
             "貸出延長の手続きは、図書館の窓口でのみ受け付ける。"
           ],
           "correctAnswer": 3,
-          "explanation": "Thông báo ghi rõ: trong 3 ngày tạm nghỉ chuyển đổi hệ thống, bạn đọc vẫn có thể trả sách bằng hòm trả sách trước sảnh chính."
+          "explanation": "Thông báo ghi rõ: trong 3 ngày tạm nghỉ chuyển đổi hệ thống, bạn đọc vẫn có thể trả sách bằng hòm trả sách trước sảnh chính.",
+          "passage": "【短文 4：図書館利用に関するお知らせ】\n来月1日より、当館の図書予約システムがリニューアルされます。これまで1人最大5冊までだった予約可能数が最大10冊へと拡大されるほか、スマートフォンのアプリを通じて貸出延長の手続きが24時間可能になります。なお、システム移行作業に伴い、今月28日から末日までの3日間は全館臨時休館となりますので、期間中の図書のご返却は正面玄関横の返却ポストをご利用ください。"
         },
         {
           "id": 134,
           "mondai": 10,
           "mondaiName": "読解特訓: 短文読解",
           "type": "reading",
-          "question": "【短文 5：ものづくりの原点】\n道具というものは、使っていくうちに手に馴染み、使う人の癖や生活の歴史を映し出すようになる。大量生産・大量消費の時代になり、壊れたらすぐに捨てて買い替えることが当たり前になったが、手入れをしながら一つの道具を長く大切に使い続ける行為には、物を愛しみ心を豊かにする力がある。職人が心を込めて作った道具を直しながら使い続けることこそ、持続可能な豊かな暮らしの原点と言えよう。\n\n【問い】筆者がこの文章で最も伝えたいことは何か。",
+          "question": "【問い】筆者がこの文章で最も伝えたいことは何か。",
           "options": [
             "大量生産された安価な道具はすぐに壊れるので購入すべきではない。",
             "道具を修理しながら長く大切に使い続けることが、心の豊かさや持続可能性につながる。",
@@ -2081,14 +2089,15 @@ window.JLPT_DATA[13] = {
             "道具は古くなると使いにくくなるため、定期的に最新のものへ買い替えるのがよい。"
           ],
           "correctAnswer": 2,
-          "explanation": "Biết nâng niu, sửa chữa và gắn bó lâu dài với đồ vật mang lại sự đủ đầy trong tâm hồn và là lối sống bền vững văn minh."
+          "explanation": "Biết nâng niu, sửa chữa và gắn bó lâu dài với đồ vật mang lại sự đủ đầy trong tâm hồn và là lối sống bền vững văn minh.",
+          "passage": "【短文 5：ものづくりの原点】\n道具というものは、使っていくうちに手に馴染み、使う人の癖や生活の歴史を映し出すようになる。大量生産・大量消費の時代になり、壊れたらすぐに捨てて買い替えることが当たり前になったが、手入れをしながら一つの道具を長く大切に使い続ける行為には、物を愛しみ心を豊かにする力がある。職人が心を込めて作った道具を直しながら使い続けることこそ、持続可能な豊かな暮らしの原点と言えよう。"
         },
         {
           "id": 135,
           "mondai": 11,
           "mondaiName": "読解特訓: 中文読解",
           "type": "reading",
-          "question": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。\n\n【問い1】「事前に完璧にスケジュールを組む旅」について、筆者はどう考えているか。",
+          "question": "【問い1】「事前に完璧にスケジュールを組む旅」について、筆者はどう考えているか。",
           "options": [
             "失敗がなく絶対に後悔しない、最も理想的な旅の形である。",
             "合理的ではあるが、予定を確認するだけの作業になりがちだと指摘している。",
@@ -2096,7 +2105,8 @@ window.JLPT_DATA[13] = {
             "予算を抑えて効率よく移動するために全員が実践すべきである。"
           ],
           "correctAnswer": 2,
-          "explanation": "Đoạn 1 và 2 chỉ ra: du lịch lên lịch quá kín kẽ tuy hợp lý nhưng chỉ giống như một thao tác xác nhận lại thông tin có sẵn."
+          "explanation": "Đoạn 1 và 2 chỉ ra: du lịch lên lịch quá kín kẽ tuy hợp lý nhưng chỉ giống như một thao tác xác nhận lại thông tin có sẵn.",
+          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
         },
         {
           "id": 136,
@@ -2111,7 +2121,8 @@ window.JLPT_DATA[13] = {
             "旅行の費用をできる限り節約して安く済ませること。"
           ],
           "correctAnswer": 3,
-          "explanation": "Chính những tình cờ nằm ngoài kế hoạch và cơ duyên gặp gỡ người dân địa phương mới là gia vị lưu dấu ấn sâu sắc nhất."
+          "explanation": "Chính những tình cờ nằm ngoài kế hoạch và cơ duyên gặp gỡ người dân địa phương mới là gia vị lưu dấu ấn sâu sắc nhất.",
+          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
         },
         {
           "id": 137,
@@ -2126,14 +2137,15 @@ window.JLPT_DATA[13] = {
             "旅先では地元の人と会話を交わすことを義務づけるべきだ。"
           ],
           "correctAnswer": 2,
-          "explanation": "Hãy để dành những khoảng trống trong lịch trình và sẵn sàng đón nhận những điều bất ngờ thú vị của cuộc sống."
+          "explanation": "Hãy để dành những khoảng trống trong lịch trình và sẵn sàng đón nhận những điều bất ngờ thú vị của cuộc sống.",
+          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
         },
         {
           "id": 138,
           "mondai": 11,
           "mondaiName": "読解特訓: 中文読解",
           "type": "reading",
-          "question": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。\n\n【問い1】本文における「批判的思考（クリティカル・シンキング）」の定義として適切なものはどれか。",
+          "question": "【問い1】本文における「批判的思考（クリティカル・シンキング）」の定義として適切なものはどれか。",
           "options": [
             "相手の意見の間違いを厳しく見つけ出し、論破すること。",
             "情報の発信者の素性を疑い、すべてのニュースを信用しないこと。",
@@ -2141,7 +2153,8 @@ window.JLPT_DATA[13] = {
             "専門家の意見だけを無条件に信じること。"
           ],
           "correctAnswer": 3,
-          "explanation": "Tư duy phản biện là nhìn nhận đa chiều, truy tìm bằng chứng logic và tự mình phán đoán chứ không phải bài xích đối phương."
+          "explanation": "Tư duy phản biện là nhìn nhận đa chiều, truy tìm bằng chứng logic và tự mình phán đoán chứ không phải bài xích đối phương.",
+          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
         },
         {
           "id": 139,
@@ -2156,7 +2169,8 @@ window.JLPT_DATA[13] = {
             "古い伝統や慣習を絶対に正しいと思い込んでしまう偏見。"
           ],
           "correctAnswer": 1,
-          "explanation": "Đoạn 2 định nghĩa thiên kiến xác nhận là xu hướng tự nhiên chỉ gom nhặt điều mình muốn tin và lờ đi dữ liệu trái chiều."
+          "explanation": "Đoạn 2 định nghĩa thiên kiến xác nhận là xu hướng tự nhiên chỉ gom nhặt điều mình muốn tin và lờ đi dữ liệu trái chiều.",
+          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
         },
         {
           "id": 140,
@@ -2171,7 +2185,8 @@ window.JLPT_DATA[13] = {
             "最新のAIツールを駆使して、すべての情報を自動で真偽判定させること。"
           ],
           "correctAnswer": 3,
-          "explanation": "Giữ vững sự hoài nghi lành mạnh và cái nhìn rộng mở để không bị cuốn theo dòng thác tin tức giả mạo."
+          "explanation": "Giữ vững sự hoài nghi lành mạnh và cái nhìn rộng mở để không bị cuốn theo dòng thác tin tức giả mạo.",
+          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
         }
       ]
     },
@@ -2179,199 +2194,199 @@ window.JLPT_DATA[13] = {
       "id": "choukai",
       "name": "Phần 6: 聴解 - Luyện Nghe Phản Xạ N2 Mondai 4 (12 câu)",
       "questions": [
-            {
-                  "id": 141,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_01.mp3",
-                  "questionText": "M: また部長に怒られちゃいました。",
-                  "options": [
-                        "それは気になりますね。",
-                        "気にすることはないですよ。",
-                        "やっと気が付いたんですね。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Lại bị trưởng phòng mắng rồi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. それは気になりますね: Chuyện đó đáng bận tâm thật đấy nhỉ.<br>2. 気にすることはないですよ: Không có gì phải bận tâm/để bụng đâu bạn.<br>3. やっと気が付いたんですね: Cuối cùng thì bạn cũng nhận ra rồi nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi đồng nghiệp than phiền bị sếp mắng, câu an ủi và động viên tự nhiên nhất trong giao tiếp công sở là \"気にすることはないですよ\" (Đừng để bụng làm gì / Đừng bận tâm quá).<br>&rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 142,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_02.mp3",
-                  "questionText": "F: この映画見たいけど、平日の昼間しかやってないのよ。",
-                  "options": [
-                        "その映画、すごくおもしろかったよ。",
-                        "そうなんだ。人気なんだね。",
-                        "仕事はなかなか休めないもんね。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ muốn xem bộ phim này ghê, mà nó chỉ chiếu vào ban ngày các ngày trong tuần thôi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. その映画、すごくおもしろかったよ: Bộ phim đó hay lắm đấy.<br>2. そうなんだ。人気なんだね: Thế à, phim hot thế nhỉ.<br>3. 仕事はなかなか休めないもんね: Ừ nhỉ, công việc đi làm thì khó mà xin nghỉ được.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ tiếc nuối vì phim chỉ chiếu ban ngày ngày thường (lúc người đi làm phải đi làm). Người nam đồng cảm rằng ngày thường thì khó mà nghỉ làm đi xem phim được (仕事はなかなか休めないもんね).<br>&rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 143,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_03.mp3",
-                  "questionText": "M: この日本酒、本当においしいですよね。",
-                  "options": [
-                        "きっとおいしいに決まってますよ。",
-                        "そういうわけではありません。",
-                        "賞を取っただけのことはありますね。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Rượu sake này công nhận ngon thật đấy nhỉ!<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. きっとおいしいに決まってますよ: Nhất định là ngon rồi (dùng phán đoán trước khi nếm thử).<br>2. そういうわけではありません: Không hẳn là vì lý do đó đâu.<br>3. 賞を取っただけのことはありますね: Quả không hổ danh là rượu từng đoạt giải thưởng.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu 「〜だけのことはある」(quả đúng là danh bất hư truyền, xứng đáng với danh tiếng/giải thưởng). Khi người nam khen rượu ngon, người nghe đồng cảm và khen ngợi thêm bằng mẫu câu này.<br>&rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 144,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_04.mp3",
-                  "questionText": "F: 最近、疲れ気味のようですね。",
-                  "options": [
-                        "お気遣いありがとうございます。",
-                        "こちらこそ、お世話になりました。",
-                        "大変申し訳ありませんでした。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Dạo gần đây trông anh có vẻ hơi mệt mỏi nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. お気遣いありがとうございます: Cảm ơn chị đã quan tâm lo lắng cho tôi.<br>2. こちらこそ、お世話になりました: Chính tôi mới là người được giúp đỡ.<br>3. 大変申し訳ありませんでした: Tôi vô cùng xin lỗi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi ai đó nhận thấy tình trạng sức khỏe và lo lắng hỏi han mình (気遣い), câu đáp lễ lịch sự chuẩn mực là \"お気遣いありがとうございます\" (Cảm ơn anh/chị đã quan tâm).<br>&rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 145,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_05.mp3",
-                  "questionText": "M: このティッシュ安いね。買っとこうかな。",
-                  "options": [
-                        "あんまり高くないのがいいな。",
-                        "まだ家にたくさんあるから、いいんじゃない。",
-                        "本当に安くて、得したね。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Bịch khăn giấy này rẻ ghê, hay mình mua để dành nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. あんまり高くないのがいいな: Loại không đắt quá thì tốt nhỉ.<br>2. まだ家にたくさんあるから、いいんじゃない: Ở nhà vẫn còn nhiều lắm, thôi khỏi mua cũng được mà.<br>3. 本当に安くて、得したね: Thật sự rẻ thật, hời quá (nói sau khi đã mua).<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi một người đang phân vân có nên mua không (買っとこうかな), người kia nêu lý do ở nhà còn nhiều để khuyên thôi không cần mua (いいんじゃない mang nghĩa \"thôi khỏi/không cần đâu\").<br>&rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 146,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_06.mp3",
-                  "questionText": "F: 私は並んでまでラーメンを食べたいと思わないな。",
-                  "options": [
-                        "さまざまなラーメンがありますね。",
-                        "考え方は人それぞれですよ。",
-                        "ときどき行列ができてますね。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tôi thì không nghĩ mình muốn xếp hàng dài đến mức ấy chỉ để ăn mì ramen đâu.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. さまざまなラーメンがありますね: Có nhiều loại ramen phong phú nhỉ.<br>2. 考え方は人それぞれですよ: Cách nghĩ và sở thích thì mỗi người mỗi khác mà.<br>3. ときどき行列ができてますね: Thỉnh thoảng quán có xếp hàng nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ nêu quan điểm cá nhân về việc không thích xếp hàng dài vì đồ ăn. Người nam đáp lại thể hiện sự cởi mở, chấp nhận sự khác biệt giữa mọi người: \"考え方は人それぞれですよ\" (Quan điểm thì mỗi người một khác).<br>&rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 147,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_07.mp3",
-                  "questionText": "F: 部長にお伝え願えますか。",
-                  "options": [
-                        "後ほどお伝えしておきます。",
-                        "何をお願いしますか。",
-                        "よろしくお願い申し上げます。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Bạn có thể nhắn lại/chuyển lời giúp tôi đến trưởng phòng được không?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 後ほどお伝えしておきます: Lát nữa tôi sẽ chuyển lời giúp bạn.<br>2. 何をお願いしますか: Bạn nhờ việc gì vậy?<br>3. よろしくお願い申し上げます: Xin nhờ bạn giúp đỡ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu nhờ chuyển lời: \"〜お伝え願えますか\" (xin chuyển lời giúp). Người nhận lời sẽ đáp: \"後ほどお伝えしておきます\" (Lát nữa tôi sẽ nói lại với sếp).<br>&rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 148,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_08.mp3",
-                  "questionText": "F: あれ？このお店、今日お休みなのかな・・・",
-                  "options": [
-                        "電話してから来ればよかったね。",
-                        "開店してからにしたら？",
-                        "注文してからのほうがいいかな。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Ủa? Quán này hôm nay đóng cửa nghỉ hay sao ý nhỉ...<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 電話してから来ればよかったね: Biết thế trước khi đến mình gọi điện hỏi trước có phải tốt hơn không.<br>2. 開店してからにしたら?: Hay đợi mở cửa rồi tính?<br>3. 注文してからのほうがいいかな: Hay đợi gọi món xong thì hơn?<br><br><b>💡 Phân tích phản xạ:</b><br>- Đến nơi thấy quán đóng cửa nghỉ bất ngờ, người nam bày tỏ tiếc nuối bằng mẫu câu 「〜ばよかった」(giá mà/biết thế thì): \"電話してから来ればよかったね\" (Biết thế gọi điện trước).<br>&rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 149,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_09.mp3",
-                  "questionText": "M: あさってお休みをいただいてもよろしいでしょうか。",
-                  "options": [
-                        "ええ、かまわないですよ。",
-                        "いや、できないこともありますよ。",
-                        "それはよかったですね。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ、かまわないですよ: Vâng, không sao cả, bạn cứ nghỉ đi.<br>2. いや、できないこともありますよ: Không, cũng có những việc không làm được.<br>3. それはよかったですね: Thế thì tốt quá rồi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng \"ええ、かまわないですよ\" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>."
-            },
-            {
-                  "id": 150,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_10.mp3",
-                  "questionText": "M: できることなら、一度あの歌手に会ってみたいなあ。",
-                  "options": [
-                        "ええ？コンサートに行ったんですか。",
-                        "昔から歌がお上手だったんですか。",
-                        "どういうところが魅力なんですか。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Nếu có thể, tôi muốn một lần được trực tiếp gặp mặt ca sĩ đó quá đi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ？コンサートに行ったんですか: Hả? Bạn đã đi xem concert rồi à?<br>2. 昔から歌がお上手だったんですか: Người đó từ xưa đã hát hay rồi à?<br>3. どういうところが魅力なんですか: Người đó có điểm gì lôi cuốn/hấp dẫn bạn vậy?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi nghe đối phương bày tỏ sự ngưỡng mộ tha thiết muốn gặp một ca sĩ, câu hỏi đáp tiếp nối tự nhiên là hỏi về nét cuốn hút của ca sĩ đó: \"どういうところが魅力なんですか\" (Ở người đó có sức hút thế nào thế?).<br>&rarr; <b>Đáp án đúng là 3</b>."
-            },
-            {
-                  "id": 151,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_11.mp3",
-                  "questionText": "F: ご無沙汰しております。お元気でいらっしゃいますか。",
-                  "options": [
-                        "ええ。こないだお見えになりましたね。",
-                        "ええ。去年お会いして以来ですね。",
-                        "ええ。先日拝見しましたよ。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Đã lâu không liên lạc, bác/anh dạo này vẫn khỏe mạnh cả chứ ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ。こないだお見えになりましたね: Vâng, dạo trước bác vừa ghé qua nhỉ (sai ngữ cảnh lâu không gặp).<br>2. ええ。去年お会いして以来ですね: Vâng, cũng từ lần gặp nhau năm ngoái tới giờ mới gặp lại nhỉ.<br>3. ええ。先日拝見しましたよ: Vâng, hôm trước tôi có xem/nhìn rồi (sai nghĩa kính ngữ).<br><br><b>💡 Phân tích phản xạ:</b><br>- \"ご無沙汰しております\" dùng chào hỏi sau khoảng thời gian dài không gặp gỡ hay liên lạc. Câu đáp lại tương xứng là xác nhận khoảng thời gian cách biệt: \"去年お会いして以来ですね\" (Đúng vậy, từ tận năm ngoái tới giờ).<br>&rarr; <b>Đáp án đúng là 2</b>."
-            },
-            {
-                  "id": 152,
-                  "mondai": 4,
-                  "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_13/m4_12.mp3",
-                  "questionText": "F: パスワードを忘れちゃって、メールが開けないんです。",
-                  "options": [
-                        "開こうと思ったら、開けるんじゃない。",
-                        "パスワードを変更するしかないね。",
-                        "もう一度メールを送ってみたら？"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ lỡ quên mất mật khẩu rồi nên không mở được email ra nữa.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 開こうと思ったら、開けるんじゃない: Nếu muốn mở thì chắc mở được thôi mà (không thực tế khi đã quên pass).<br>2. パスワードを変更するしかないね: Thế thì chỉ còn cách đặt lại/đổi mật khẩu thôi.<br>3. もう一度メールを送ってみたら?: Thử gửi lại email xem sao?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi quên mật khẩu không vào được hòm thư, giải pháp duy nhất là thiết lập/thay đổi mật khẩu mới: 「パスワードを変更するしかないね」 (Chỉ còn cách đổi mật khẩu thôi).<br>&rarr; <b>Đáp án đúng là 2</b>."
-            }
+        {
+          "id": 141,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_01.mp3",
+          "questionText": "M: また部長に怒られちゃいました。",
+          "options": [
+            "それは気になりますね。",
+            "気にすることはないですよ。",
+            "やっと気が付いたんですね。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Lại bị trưởng phòng mắng rồi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. それは気になりますね: Chuyện đó đáng bận tâm thật đấy nhỉ.<br>2. 気にすることはないですよ: Không có gì phải bận tâm/để bụng đâu bạn.<br>3. やっと気が付いたんですね: Cuối cùng thì bạn cũng nhận ra rồi nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi đồng nghiệp than phiền bị sếp mắng, câu an ủi và động viên tự nhiên nhất trong giao tiếp công sở là \"気にすることはないですよ\" (Đừng để bụng làm gì / Đừng bận tâm quá).<br>&rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 142,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_02.mp3",
+          "questionText": "F: この映画見たいけど、平日の昼間しかやってないのよ。",
+          "options": [
+            "その映画、すごくおもしろかったよ。",
+            "そうなんだ。人気なんだね。",
+            "仕事はなかなか休めないもんね。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ muốn xem bộ phim này ghê, mà nó chỉ chiếu vào ban ngày các ngày trong tuần thôi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. その映画、すごくおもしろかったよ: Bộ phim đó hay lắm đấy.<br>2. そうなんだ。人気なんだね: Thế à, phim hot thế nhỉ.<br>3. 仕事はなかなか休めないもんね: Ừ nhỉ, công việc đi làm thì khó mà xin nghỉ được.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ tiếc nuối vì phim chỉ chiếu ban ngày ngày thường (lúc người đi làm phải đi làm). Người nam đồng cảm rằng ngày thường thì khó mà nghỉ làm đi xem phim được (仕事はなかなか休めないもんね).<br>&rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 143,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_03.mp3",
+          "questionText": "M: この日本酒、本当においしいですよね。",
+          "options": [
+            "きっとおいしいに決まってますよ。",
+            "そういうわけではありません。",
+            "賞を取っただけのことはありますね。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Rượu sake này công nhận ngon thật đấy nhỉ!<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. きっとおいしいに決まってますよ: Nhất định là ngon rồi (dùng phán đoán trước khi nếm thử).<br>2. そういうわけではありません: Không hẳn là vì lý do đó đâu.<br>3. 賞を取っただけのことはありますね: Quả không hổ danh là rượu từng đoạt giải thưởng.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu 「〜だけのことはある」(quả đúng là danh bất hư truyền, xứng đáng với danh tiếng/giải thưởng). Khi người nam khen rượu ngon, người nghe đồng cảm và khen ngợi thêm bằng mẫu câu này.<br>&rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 144,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_04.mp3",
+          "questionText": "F: 最近、疲れ気味のようですね。",
+          "options": [
+            "お気遣いありがとうございます。",
+            "こちらこそ、お世話になりました。",
+            "大変申し訳ありませんでした。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Dạo gần đây trông anh có vẻ hơi mệt mỏi nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. お気遣いありがとうございます: Cảm ơn chị đã quan tâm lo lắng cho tôi.<br>2. こちらこそ、お世話になりました: Chính tôi mới là người được giúp đỡ.<br>3. 大変申し訳ありませんでした: Tôi vô cùng xin lỗi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi ai đó nhận thấy tình trạng sức khỏe và lo lắng hỏi han mình (気遣い), câu đáp lễ lịch sự chuẩn mực là \"お気遣いありがとうございます\" (Cảm ơn anh/chị đã quan tâm).<br>&rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 145,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_05.mp3",
+          "questionText": "M: このティッシュ安いね。買っとこうかな。",
+          "options": [
+            "あんまり高くないのがいいな。",
+            "まだ家にたくさんあるから、いいんじゃない。",
+            "本当に安くて、得したね。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Bịch khăn giấy này rẻ ghê, hay mình mua để dành nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. あんまり高くないのがいいな: Loại không đắt quá thì tốt nhỉ.<br>2. まだ家にたくさんあるから、いいんじゃない: Ở nhà vẫn còn nhiều lắm, thôi khỏi mua cũng được mà.<br>3. 本当に安くて、得したね: Thật sự rẻ thật, hời quá (nói sau khi đã mua).<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi một người đang phân vân có nên mua không (買っとこうかな), người kia nêu lý do ở nhà còn nhiều để khuyên thôi không cần mua (いいんじゃない mang nghĩa \"thôi khỏi/không cần đâu\").<br>&rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 146,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_06.mp3",
+          "questionText": "F: 私は並んでまでラーメンを食べたいと思わないな。",
+          "options": [
+            "さまざまなラーメンがありますね。",
+            "考え方は人それぞれですよ。",
+            "ときどき行列ができてますね。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tôi thì không nghĩ mình muốn xếp hàng dài đến mức ấy chỉ để ăn mì ramen đâu.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. さまざまなラーメンがありますね: Có nhiều loại ramen phong phú nhỉ.<br>2. 考え方は人それぞれですよ: Cách nghĩ và sở thích thì mỗi người mỗi khác mà.<br>3. ときどき行列ができてますね: Thỉnh thoảng quán có xếp hàng nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ nêu quan điểm cá nhân về việc không thích xếp hàng dài vì đồ ăn. Người nam đáp lại thể hiện sự cởi mở, chấp nhận sự khác biệt giữa mọi người: \"考え方は人それぞれですよ\" (Quan điểm thì mỗi người một khác).<br>&rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 147,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_07.mp3",
+          "questionText": "F: 部長にお伝え願えますか。",
+          "options": [
+            "後ほどお伝えしておきます。",
+            "何をお願いしますか。",
+            "よろしくお願い申し上げます。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Bạn có thể nhắn lại/chuyển lời giúp tôi đến trưởng phòng được không?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 後ほどお伝えしておきます: Lát nữa tôi sẽ chuyển lời giúp bạn.<br>2. 何をお願いしますか: Bạn nhờ việc gì vậy?<br>3. よろしくお願い申し上げます: Xin nhờ bạn giúp đỡ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu nhờ chuyển lời: \"〜お伝え願えますか\" (xin chuyển lời giúp). Người nhận lời sẽ đáp: \"後ほどお伝えしておきます\" (Lát nữa tôi sẽ nói lại với sếp).<br>&rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 148,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_08.mp3",
+          "questionText": "F: あれ？このお店、今日お休みなのかな・・・",
+          "options": [
+            "電話してから来ればよかったね。",
+            "開店してからにしたら？",
+            "注文してからのほうがいいかな。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Ủa? Quán này hôm nay đóng cửa nghỉ hay sao ý nhỉ...<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 電話してから来ればよかったね: Biết thế trước khi đến mình gọi điện hỏi trước có phải tốt hơn không.<br>2. 開店してからにしたら?: Hay đợi mở cửa rồi tính?<br>3. 注文してからのほうがいいかな: Hay đợi gọi món xong thì hơn?<br><br><b>💡 Phân tích phản xạ:</b><br>- Đến nơi thấy quán đóng cửa nghỉ bất ngờ, người nam bày tỏ tiếc nuối bằng mẫu câu 「〜ばよかった」(giá mà/biết thế thì): \"電話してから来ればよかったね\" (Biết thế gọi điện trước).<br>&rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 149,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_09.mp3",
+          "questionText": "M: あさってお休みをいただいてもよろしいでしょうか。",
+          "options": [
+            "ええ、かまわないですよ。",
+            "いや、できないこともありますよ。",
+            "それはよかったですね。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ、かまわないですよ: Vâng, không sao cả, bạn cứ nghỉ đi.<br>2. いや、できないこともありますよ: Không, cũng có những việc không làm được.<br>3. それはよかったですね: Thế thì tốt quá rồi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng \"ええ、かまわないですよ\" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 150,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_10.mp3",
+          "questionText": "M: できることなら、一度あの歌手に会ってみたいなあ。",
+          "options": [
+            "ええ？コンサートに行ったんですか。",
+            "昔から歌がお上手だったんですか。",
+            "どういうところが魅力なんですか。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Nếu có thể, tôi muốn một lần được trực tiếp gặp mặt ca sĩ đó quá đi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ？コンサートに行ったんですか: Hả? Bạn đã đi xem concert rồi à?<br>2. 昔から歌がお上手だったんですか: Người đó từ xưa đã hát hay rồi à?<br>3. どういうところが魅力なんですか: Người đó có điểm gì lôi cuốn/hấp dẫn bạn vậy?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi nghe đối phương bày tỏ sự ngưỡng mộ tha thiết muốn gặp một ca sĩ, câu hỏi đáp tiếp nối tự nhiên là hỏi về nét cuốn hút của ca sĩ đó: \"どういうところが魅力なんですか\" (Ở người đó có sức hút thế nào thế?).<br>&rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 151,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_11.mp3",
+          "questionText": "F: ご無沙汰しております。お元気でいらっしゃいますか。",
+          "options": [
+            "ええ。こないだお見えになりましたね。",
+            "ええ。去年お会いして以来ですね。",
+            "ええ。先日拝見しましたよ。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Đã lâu không liên lạc, bác/anh dạo này vẫn khỏe mạnh cả chứ ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ。こないだお見えになりましたね: Vâng, dạo trước bác vừa ghé qua nhỉ (sai ngữ cảnh lâu không gặp).<br>2. ええ。去年お会いして以来ですね: Vâng, cũng từ lần gặp nhau năm ngoái tới giờ mới gặp lại nhỉ.<br>3. ええ。先日拝見しましたよ: Vâng, hôm trước tôi có xem/nhìn rồi (sai nghĩa kính ngữ).<br><br><b>💡 Phân tích phản xạ:</b><br>- \"ご無沙汰しております\" dùng chào hỏi sau khoảng thời gian dài không gặp gỡ hay liên lạc. Câu đáp lại tương xứng là xác nhận khoảng thời gian cách biệt: \"去年お会いして以来ですね\" (Đúng vậy, từ tận năm ngoái tới giờ).<br>&rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 152,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_12.mp3",
+          "questionText": "F: パスワードを忘れちゃって、メールが開けないんです。",
+          "options": [
+            "開こうと思ったら、開けるんじゃない。",
+            "パスワードを変更するしかないね。",
+            "もう一度メールを送ってみたら？"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ lỡ quên mất mật khẩu rồi nên không mở được email ra nữa.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 開こうと思ったら、開けるんじゃない: Nếu muốn mở thì chắc mở được thôi mà (không thực tế khi đã quên pass).<br>2. パスワードを変更するしかないね: Thế thì chỉ còn cách đặt lại/đổi mật khẩu thôi.<br>3. もう一度メールを送ってみたら?: Thử gửi lại email xem sao?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi quên mật khẩu không vào được hòm thư, giải pháp duy nhất là thiết lập/thay đổi mật khẩu mới: 「パスワードを変更するしかないね」 (Chỉ còn cách đổi mật khẩu thôi).<br>&rarr; <b>Đáp án đúng là 2</b>."
+        }
       ]
-}
+    }
   ]
 };

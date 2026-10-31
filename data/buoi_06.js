@@ -2929,7 +2929,8 @@ window.JLPT_DATA[6] = {
             "信じなかったりしました"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin"
+          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin",
+          "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
           "id": 178,
@@ -2943,7 +2944,8 @@ window.JLPT_DATA[6] = {
             "だけに"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Cấu trúc: にしか～ない:</b> Chỉ tồn tại ở... ngoài ra không có nơi nào khác.<br><b>Ngữ cảnh:</b> 'Người máy robot thời đó <b>chỉ tồn tại trong thế giới truyện tranh giả tưởng mà thôi</b> (マンガや空想の世界にしか存在しない)'.<br>• 1. にこそ: Chính ở nơi đó<br>• <b>2. にしか: Chỉ ở... (đi với phủ định 存在しない) [Đúng]</b><br>• 3. でばかり: Toàn là<br>• 4. だけに: Chính vì"
+          "explanation": "<b>Cấu trúc: にしか～ない:</b> Chỉ tồn tại ở... ngoài ra không có nơi nào khác.<br><b>Ngữ cảnh:</b> 'Người máy robot thời đó <b>chỉ tồn tại trong thế giới truyện tranh giả tưởng mà thôi</b> (マンガや空想の世界にしか存在しない)'.<br>• 1. にこそ: Chính ở nơi đó<br>• <b>2. にしか: Chỉ ở... (đi với phủ định 存在しない) [Đúng]</b><br>• 3. でばかり: Toàn là<br>• 4. だけに: Chính vì",
+          "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
           "id": 179,
@@ -2957,7 +2959,8 @@ window.JLPT_DATA[6] = {
             "その時に"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Từ nối dự đoán tương lai:</b> 'Chẳng mấy chốc, liệu con người có làm sáng tỏ mọi bí ẩn và trẻ em không còn giấc mơ nào nữa chăng?'.<br><i>Phân tích:</i> <b>そのうちに</b> (chẳng mấy chốc, rồi thì trong tương lai gần).<br>• 1. それとも: Hoặc là (dùng trong câu hỏi lựa chọn)<br>• 2. それなら: Nếu vậy thì<br>• <b>3. そのうちに: Chẳng bao lâu nữa, rồi sẽ [Đúng]</b><br>• 4. その時に: Vào lúc đó"
+          "explanation": "<b>Từ nối dự đoán tương lai:</b> 'Chẳng mấy chốc, liệu con người có làm sáng tỏ mọi bí ẩn và trẻ em không còn giấc mơ nào nữa chăng?'.<br><i>Phân tích:</i> <b>そのうちに</b> (chẳng mấy chốc, rồi thì trong tương lai gần).<br>• 1. それとも: Hoặc là (dùng trong câu hỏi lựa chọn)<br>• 2. それなら: Nếu vậy thì<br>• <b>3. そのうちに: Chẳng bao lâu nữa, rồi sẽ [Đúng]</b><br>• 4. その時に: Vào lúc đó",
+          "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
           "id": 180,
@@ -2971,7 +2974,8 @@ window.JLPT_DATA[6] = {
             "a 夢 ／ b 科学"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Đối chiếu văn cảnh:</b><br>• Vế trước nói về nỗi sợ trẻ em mất đi giấc mơ mộng mơ: 【54-a】= <b>夢</b> (夢がなくなってしまう).<br>• Vế sau tác giả khẳng định giải quyết 1 câu đố sẽ sinh ra 10 câu đố mới, bản chất của khoa học chính là như thế: 【54-b】= <b>科学</b> (科学とはそういうものだからです).<br>=> Đáp án đúng là <b>4 (a 夢 ／ b 科学)</b>."
+          "explanation": "<b>Đối chiếu văn cảnh:</b><br>• Vế trước nói về nỗi sợ trẻ em mất đi giấc mơ mộng mơ: 【54-a】= <b>夢</b> (夢がなくなってしまう).<br>• Vế sau tác giả khẳng định giải quyết 1 câu đố sẽ sinh ra 10 câu đố mới, bản chất của khoa học chính là như thế: 【54-b】= <b>科学</b> (科学とはそういうものだからです).<br>=> Đáp án đúng là <b>4 (a 夢 ／ b 科学)</b>.",
+          "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         }
       ]
     },

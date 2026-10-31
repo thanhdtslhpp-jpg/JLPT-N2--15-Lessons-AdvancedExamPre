@@ -1754,8 +1754,26 @@ class JLPTApp {
 
   // Đọc hiểu: Tự động kế thừa đoạn văn nếu câu trước cùng Mondai đã có bài đọc
   getQuestionPassage(q, allQuestions) {
-    if (q.passage && q.passage.trim().length > 0) {
-      return { passage: q.passage, isShared: false, sourceId: q.id };
+    const rawOwn = q.passage || q.readingPassage || q.dokkaiPassage;
+    const clean = (str) => (str || "").replace(/<[^>]+>/g, "").replace(/\s+/g, "").trim();
+
+    if (rawOwn && rawOwn.trim().length > 0) {
+      let sourceId = q.id;
+      let isShared = false;
+      if (q.mondai >= 9 && allQuestions) {
+        const ownClean = clean(rawOwn);
+        const currIdx = allQuestions.findIndex(x => x.id === q.id);
+        for (let i = 0; i < currIdx; i++) {
+          const prev = allQuestions[i];
+          const prevRaw = prev.passage || prev.readingPassage || prev.dokkaiPassage;
+          if (prev.mondai === q.mondai && prevRaw && clean(prevRaw) === ownClean) {
+            sourceId = prev.id;
+            isShared = true;
+            break;
+          }
+        }
+      }
+      return { passage: rawOwn, isShared, sourceId };
     }
     // Nếu câu hỏi điền từ (Mondai 9) hoặc đọc hiểu (Mondai >= 10) bị thiếu bài đọc, tìm ngược về câu trước cùng Mondai
     if (q.mondai >= 9 && allQuestions) {
@@ -1763,8 +1781,9 @@ class JLPTApp {
       if (currIdx > 0) {
         for (let i = currIdx - 1; i >= 0; i--) {
           const prev = allQuestions[i];
-          if (prev.mondai === q.mondai && prev.passage && prev.passage.trim().length > 0) {
-            return { passage: prev.passage, isShared: true, sourceId: prev.id };
+          const prevRaw = prev.passage || prev.readingPassage || prev.dokkaiPassage;
+          if (prev.mondai === q.mondai && prevRaw && prevRaw.trim().length > 0) {
+            return { passage: prevRaw, isShared: true, sourceId: prev.id };
           }
         }
       }
@@ -1797,6 +1816,51 @@ class JLPTApp {
     });
 
     return group.length > 0 ? group : [q];
+  }
+
+  // Xác định trạng thái vị trí của câu hỏi trong nhóm bài đọc đang hiển thị (đầu nhóm, giữa nhóm, cuối nhóm)
+  getPassageGroupState(q, indexInFiltered, filteredList) {
+    const allQuestions = this.getAllQuestions();
+    const passageInfo = this.getQuestionPassage(q, allQuestions);
+    const passageGroup = this.getPassageQuestionGroup(q, allQuestions);
+    const isMultiQuestionPassage = !!(passageGroup && passageGroup.length > 1);
+
+    const prevQ = (indexInFiltered > 0 && filteredList) ? filteredList[indexInFiltered - 1] : null;
+    const nextQ = (filteredList && indexInFiltered < filteredList.length - 1) ? filteredList[indexInFiltered + 1] : null;
+
+    const isSharedWithPrev = isMultiQuestionPassage && !!prevQ && passageGroup.some(pg => pg.id === prevQ.id);
+    const isSharedWithNext = isMultiQuestionPassage && !!nextQ && passageGroup.some(pg => pg.id === nextQ.id);
+
+    const posInGroup = isMultiQuestionPassage ? (passageGroup.findIndex(pg => pg.id === q.id) + 1) : 1;
+    const answeredInGroup = isMultiQuestionPassage ? passageGroup.filter(pg => this.userAnswers[pg.id] !== undefined).length : (this.userAnswers[q.id] !== undefined ? 1 : 0);
+
+    const filteredGroup = filteredList ? filteredList.filter(item => passageGroup.some(pg => pg.id === item.id)) : passageGroup;
+    const lastQuestionInGroup = filteredGroup.length > 0 ? filteredGroup[filteredGroup.length - 1] : passageGroup[passageGroup.length - 1];
+    const isLastInPassageGroup = !isMultiQuestionPassage || !isSharedWithNext || (lastQuestionInGroup && q.id === lastQuestionInGroup.id);
+
+    let cardGroupClass = "";
+    if (isMultiQuestionPassage) {
+      if (!isSharedWithPrev && isSharedWithNext) {
+        cardGroupClass = " passage-group-start";
+      } else if (isSharedWithPrev && isSharedWithNext) {
+        cardGroupClass = " passage-child-card passage-group-middle";
+      } else if (isSharedWithPrev && !isSharedWithNext) {
+        cardGroupClass = " passage-child-card passage-group-end";
+      }
+    }
+
+    return {
+      passageInfo,
+      passageGroup,
+      isMultiQuestionPassage,
+      isSharedWithPrev,
+      isSharedWithNext,
+      posInGroup,
+      answeredInGroup,
+      lastQuestionInGroup,
+      isLastInPassageGroup,
+      cardGroupClass
+    };
   }
 
   renderQuestions() {
@@ -1847,7 +1911,8 @@ class JLPTApp {
 
     filtered.forEach((q, idx) => {
       const card = document.createElement("div");
-      card.className = "question-card" + (this.activeQuestionId === q.id ? " active-target" : "");
+      const groupState = !q.isStarQuestion ? this.getPassageGroupState(q, idx, filtered) : { cardGroupClass: "" };
+      card.className = "question-card" + groupState.cardGroupClass + (this.activeQuestionId === q.id ? " active-target" : "");
       card.id = `q-card-${q.id}`;
 
       if (q.isStarQuestion) {
@@ -2002,10 +2067,23 @@ class JLPTApp {
     const canShowFeedback = isAnswered;
     const showFeedback = this.currentMode === "practice" && canShowFeedback;
 
-    // Dokkai passage handling
-    const passageInfo = this.getQuestionPassage(q, this.getAllQuestions());
+    // Xác định trạng thái nhóm đoạn văn dùng chung (Mondai 9 - 14)
+    const groupState = this.getPassageGroupState(q, indexInFiltered, filteredList);
+    const {
+      passageInfo,
+      passageGroup,
+      isMultiQuestionPassage,
+      isSharedWithPrev,
+      isSharedWithNext,
+      posInGroup,
+      answeredInGroup,
+      lastQuestionInGroup,
+      isLastInPassageGroup
+    } = groupState;
+
+    // Dokkai passage handling: Chỉ hiển thị đoạn văn 1 lần duy nhất ở câu đầu tiên của nhóm (!isSharedWithPrev)
     let dokkaiHTML = "";
-    if (passageInfo.passage) {
+    if (passageInfo.passage && !isSharedWithPrev) {
       const fontClass = this.fontSizeLevel === "lg" ? "font-lg" : (this.fontSizeLevel === "xl" ? "font-xl" : "");
       const splitClass = this.splitReadingMode ? "split-active" : "";
       const passageKey = `${this.currentSessionId}_p_${passageInfo.sourceId || q.id}`;
@@ -2014,12 +2092,18 @@ class JLPTApp {
         passageBody = this.formatDokkaiPassage(passageBody);
       }
 
+      const firstGroupId = passageGroup[0].id;
+      const lastGroupId = passageGroup[passageGroup.length - 1].id;
+      const badgeLabel = isMultiQuestionPassage
+        ? `Văn bản dùng chung cho ${passageGroup.length} câu hỏi (Câu ${firstGroupId} – Câu ${lastGroupId})`
+        : `Văn bản đọc hiểu`;
+
       dokkaiHTML = `
         <div class="dokkai-box ${splitClass}">
           <div class="dokkai-box-header">
-            <div class="dokkai-badge ${passageInfo.isShared ? "shared" : ""}">
+            <div class="dokkai-badge ${isMultiQuestionPassage ? "shared" : ""}">
               <i class="fas fa-book-open"></i> 
-              ${passageInfo.isShared ? `Văn bản đọc hiểu (Dùng chung với Câu ${passageInfo.sourceId})` : `Văn bản đọc hiểu`}
+              ${badgeLabel}
             </div>
             <div class="dokkai-box-quicktools">
               <button type="button" class="btn-dokkai-mini hl" title="Bôi vàng văn bản đang chọn" onclick="app.highlightSelectedText()">
@@ -2035,6 +2119,13 @@ class JLPTApp {
           </div>
           <div class="dokkai-content ${fontClass}" data-passage-key="${passageKey}">${passageBody}</div>
         </div>
+        ${isMultiQuestionPassage ? `
+          <div class="passage-group-sub-banner">
+            <i class="fas fa-layer-group"></i>
+            <span>Trả lời lần lượt các câu hỏi <b>Câu ${firstGroupId} – Câu ${lastGroupId}</b> của đoạn văn trên</span>
+            <span class="passage-group-progress">Đã làm: <b>${answeredInGroup}/${passageGroup.length}</b> câu</span>
+          </div>
+        ` : ""}
       `;
     }
 
@@ -2145,19 +2236,7 @@ class JLPTApp {
 
     // Explanation & Dokkai Translation
     let explanationHTML = "";
-    // Chỉ lấy và hiển thị bản dịch bài đọc khi câu hỏi thực sự là bài Đọc hiểu hoặc Điền từ đoạn văn (có bài đọc đi kèm hoặc Mondai >= 9)
     const isDokkaiQuestion = !!(passageInfo && passageInfo.passage) || !!q.passage || (q.mondai >= 9 && q.mondai <= 14);
-
-    // Xác định nhóm câu hỏi cùng chia sẻ đoạn văn
-    const allQuestions = this.getAllQuestions();
-    const passageGroup = this.getPassageQuestionGroup(q, allQuestions);
-    const isMultiQuestionPassage = passageGroup && passageGroup.length > 1;
-
-    // Kiểm tra câu hiện tại có phải là vị trí cuối cùng trong nhóm đoạn văn hay không
-    // (Trong trường hợp lọc review/sao, lấy câu cuối cùng trong số các câu đang hiển thị)
-    const filteredGroup = filteredList.filter(item => passageGroup.some(pg => pg.id === item.id));
-    const lastQuestionInGroup = filteredGroup.length > 0 ? filteredGroup[filteredGroup.length - 1] : passageGroup[passageGroup.length - 1];
-    const isLastInPassageGroup = !isMultiQuestionPassage || (lastQuestionInGroup && q.id === lastQuestionInGroup.id);
 
     let trans = null;
     if (isDokkaiQuestion) {
@@ -2166,7 +2245,6 @@ class JLPTApp {
               || (window.JLPT_PASSAGE_TRANSLATIONS && window.JLPT_PASSAGE_TRANSLATIONS[`${this.currentSessionId}_${q.id}`])
               || q.passageTranslation;
 
-      // Nếu câu cuối cùng chưa tìm thấy bản dịch theo ID riêng, tìm từ các câu khác cùng nhóm đoạn văn
       if (!trans && isMultiQuestionPassage) {
         for (const member of passageGroup) {
           const mKey = `${this.currentSessionId}_${member.id}`;
@@ -2207,7 +2285,7 @@ class JLPTApp {
         translationHTML = `
           <div class="dokkai-translation-hint" style="margin-top: 0.65rem; padding: 0.5rem 0.85rem; background: rgba(59, 130, 246, 0.08); border-left: 3px solid var(--primary); font-size: 0.82rem; color: var(--text-sub); border-radius: 4px; display: flex; align-items: center; gap: 0.45rem;">
             <i class="fas fa-info-circle" style="color: var(--primary); flex-shrink: 0;"></i>
-            <span>Bản dịch tiếng Việt toàn bộ đoạn văn sẽ xuất hiện sau khi bạn hoàn thành vị trí cuối cùng${lastQId ? ` (Câu ${lastQId})` : ""} để tránh lộ trước đáp án.</span>
+            <span>Đã hoàn thành <b>${answeredInGroup}/${passageGroup.length}</b> câu trong đoạn văn — Bản dịch toàn bài sẽ xuất hiện ở vị trí cuối cùng${lastQId ? ` (<b>Câu ${lastQId}</b>)` : ""} để tránh lộ trước đáp án.</span>
           </div>
         `;
       }
@@ -2215,7 +2293,7 @@ class JLPTApp {
       explanationHTML = `
         <div class="explanation-box">
           <div class="explanation-title">
-            <span>💡 Giải thích chi tiết & Script hội thoại:</span>
+            <span>💡 Giải thích chi tiết${isChoukai ? " & Script hội thoại" : ""}:</span>
             <span style="margin-left: auto; font-weight: 700; color: ${isCorrect ? "var(--success)" : "var(--error)"};">
               ${statusText}
             </span>
@@ -2231,33 +2309,54 @@ class JLPTApp {
       `;
     }
 
-    // Navigation bar (Trước / Tiếp)
-    const hasPrev = indexInFiltered > 0;
-    const hasNext = indexInFiltered < filteredList.length - 1;
-    const prevId = hasPrev ? filteredList[indexInFiltered - 1].id : null;
-    const nextId = hasNext ? filteredList[indexInFiltered + 1].id : null;
+    // Navigation bar (Trước / Tiếp): Ẩn thanh điều hướng trung gian giữa các câu hỏi con trong cùng 1 đoạn văn
+    let navHTML = "";
+    if (!isSharedWithNext) {
+      const firstGroupIdx = isSharedWithPrev ? Math.max(0, indexInFiltered - (posInGroup - 1)) : indexInFiltered;
+      const hasPrev = firstGroupIdx > 0;
+      const hasNext = indexInFiltered < filteredList.length - 1;
+      const prevId = hasPrev ? filteredList[firstGroupIdx - 1].id : null;
+      const nextId = hasNext ? filteredList[indexInFiltered + 1].id : null;
 
-    const navHTML = `
-      <div class="q-nav-bar">
-        <button class="q-nav-btn" onclick="app.scrollToQuestion(${prevId})" ${!hasPrev ? "disabled" : ""}>
-          <i class="fas fa-arrow-left"></i> Câu trước
-        </button>
-        <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
-        <button class="q-nav-btn" onclick="app.scrollToQuestion(${nextId})" ${!hasNext ? "disabled" : ""}>
-          Câu tiếp <i class="fas fa-arrow-right"></i>
-        </button>
-      </div>
-    `;
+      navHTML = `
+        <div class="q-nav-bar">
+          <button class="q-nav-btn" onclick="app.scrollToQuestion(${prevId})" ${!hasPrev ? "disabled" : ""}>
+            <i class="fas fa-arrow-left"></i> Câu trước
+          </button>
+          <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
+          <button class="q-nav-btn" onclick="app.scrollToQuestion(${nextId})" ${!hasNext ? "disabled" : ""}>
+            Câu tiếp <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      `;
+    }
 
-    return `
-      <div class="q-header">
-        <span class="q-mondai-badge">${q.mondaiName || "Mondai " + q.mondai}</span>
+    const headerHTML = isSharedWithPrev ? `
+      <div class="q-header q-sub-header">
+        <span class="q-sub-badge"><i class="fas fa-pen-alt"></i> Câu hỏi ${posInGroup}/${passageGroup.length}</span>
         <span class="q-index">Câu ${q.id}</span>
         <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
           <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
         </button>
       </div>
+    ` : `
+      <div class="q-header">
+        <span class="q-mondai-badge">${q.mondaiName || "Mondai " + q.mondai}</span>
+        <span class="q-index">Câu ${q.id}${isMultiQuestionPassage ? ` <span class="q-sub-pos">(Câu 1/${passageGroup.length})</span>` : ""}</span>
+        <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
+          <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
+        </button>
+      </div>
+    `;
+
+    const questionItemOpen = isMultiQuestionPassage ? `<div class="passage-subquestion-item ${isSharedWithPrev ? "is-child" : "is-first"}">` : "";
+    const questionItemClose = isMultiQuestionPassage ? `</div>` : "";
+
+    return `
+      ${!isSharedWithPrev ? headerHTML : ""}
       ${dokkaiHTML}
+      ${questionItemOpen}
+      ${isSharedWithPrev ? headerHTML : ""}
       ${isChoukai ? choukaiHeaderHTML : ""}
       ${audioHTML}
       ${imageHTML}
@@ -2269,6 +2368,7 @@ class JLPTApp {
       <div class="options-grid">${optionsHTML}</div>
       ${choukaiPromptHTML}
       ${explanationHTML}
+      ${questionItemClose}
       ${navHTML}
     `;
   }
@@ -2881,7 +2981,8 @@ class JLPTApp {
     this.userAnswers[qId] = optNum;
 
     // Tự động tích sao và bôi đỏ nếu làm sai, bỏ tích sao và chuyển xanh nếu làm đúng
-    const q = this.getAllQuestions().find(x => x.id === qId);
+    const allQuestions = this.getAllQuestions();
+    const q = allQuestions.find(x => x.id === qId);
     if (q && this.currentMode === "practice") {
       const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
       const isCorrect = (optNum === targetAns);
@@ -2896,6 +2997,14 @@ class JLPTApp {
 
     this.saveDraftAnswers();
     this.renderSingleQuestion(qId);
+    if (q && !q.isStarQuestion) {
+      const pGroup = this.getPassageQuestionGroup(q, allQuestions);
+      if (pGroup && pGroup.length > 1) {
+        pGroup.forEach(member => {
+          if (member.id !== qId) this.renderSingleQuestion(member.id);
+        });
+      }
+    }
     this.updatePallet();
     this.renderFilterTabs();
     this.setActiveQuestion(qId, false);
@@ -2909,7 +3018,17 @@ class JLPTApp {
       localStorage.setItem("jlpt_audio_listened", JSON.stringify(this.audioListened));
     } catch (e) {}
     this.saveDraftAnswers();
+    const allQuestions = this.getAllQuestions();
+    const q = allQuestions.find(x => x.id === qId);
     this.renderSingleQuestion(qId);
+    if (q && !q.isStarQuestion) {
+      const pGroup = this.getPassageQuestionGroup(q, allQuestions);
+      if (pGroup && pGroup.length > 1) {
+        pGroup.forEach(member => {
+          if (member.id !== qId) this.renderSingleQuestion(member.id);
+        });
+      }
+    }
     this.updatePallet();
     this.setActiveQuestion(qId, false);
   }
@@ -3046,6 +3165,8 @@ class JLPTApp {
     const card = document.getElementById(`q-card-${qId}`);
     if (card) {
       const list = filtered.length > 0 ? filtered : all;
+      const groupState = !q.isStarQuestion ? this.getPassageGroupState(q, idx, list) : { cardGroupClass: "" };
+      card.className = "question-card" + groupState.cardGroupClass + (this.activeQuestionId === q.id ? " active-target" : "");
       if (q.isStarQuestion) {
         card.innerHTML = this.renderStarQuestionHTML(q, idx, list);
       } else {
