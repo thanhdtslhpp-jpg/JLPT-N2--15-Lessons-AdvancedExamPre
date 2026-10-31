@@ -292,33 +292,8 @@ class JLPTApp {
       }
     });
 
-    // Quick Dictionary: Bôi đen (chọn text) hoặc click đúp vào bất kỳ từ nào để tự động hiện popup tra cứu
-    const handleWordSelection = (e) => {
-      if (e.target.closest("#dict-popup")) return;
-      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
-
-      setTimeout(() => {
-        const sel = window.getSelection();
-        if (!sel || sel.isCollapsed) return;
-
-        const text = sel.toString().trim();
-        if (!text) return;
-
-        const word = this.cleanJapaneseWord(text);
-        if (word && word.length > 0 && word.length <= 15) {
-          try {
-            const range = sel.getRangeAt(0);
-            const rect = range.getBoundingClientRect();
-            this.showDictPopup(word, rect);
-          } catch (err) {
-            this.showDictPopup(word, { left: e.clientX, top: e.clientY, width: 0, height: 24, bottom: e.clientY + 24 });
-          }
-        }
-      }, 60);
-    };
-
-    document.addEventListener("mouseup", handleWordSelection);
-    document.addEventListener("dblclick", handleWordSelection);
+    // Khi bôi đen văn bản trên PC / Điện thoại: KHÔNG tự ý hiện ngay bảng nghĩa từ điển
+    // Mà chỉ hiển thị thanh tác vụ gọn gàng [Đọc | Tra từ | Sao chép]. Người dùng bấm 'Tra từ' mới mở bảng nghĩa.
 
     // Đóng popup từ điển khi click ra bên ngoài
     document.addEventListener("mousedown", (e) => {
@@ -1286,23 +1261,37 @@ class JLPTApp {
       }
     };
 
+    let selDebounce = null;
     const debouncedCheck = () => {
-      setTimeout(updateBubblePosition, 80);
+      if (selDebounce) clearTimeout(selDebounce);
+      selDebounce = setTimeout(updateBubblePosition, 100);
     };
 
+    // Theo dõi thay đổi bôi đen liên tục trên iOS Safari, iPad và PC
     document.addEventListener("selectionchange", () => {
       const sel = window.getSelection();
-      if (sel && sel.rangeCount > 0 && !sel.isCollapsed) {
+      if (sel && sel.rangeCount > 0 && !sel.isCollapsed && sel.toString().trim()) {
         this.savedSelectionRange = sel.getRangeAt(0).cloneRange();
+        if (selDebounce) clearTimeout(selDebounce);
+        selDebounce = setTimeout(updateBubblePosition, 140);
+      } else {
+        if (selDebounce) clearTimeout(selDebounce);
+        setTimeout(() => {
+          const curSel = window.getSelection();
+          if (!curSel || curSel.isCollapsed) {
+            hideBubble();
+          }
+        }, 120);
       }
     });
 
     document.addEventListener("touchend", debouncedCheck);
     document.addEventListener("mouseup", debouncedCheck);
 
-    // Bấm ra ngoài thì ẩn bubble
+    // Bấm ra ngoài thì ẩn bubble (không ẩn nếu bấm vào trong popup từ điển)
     document.addEventListener("pointerdown", (e) => {
-      if (!bubble.contains(e.target)) {
+      const popup = document.getElementById("dict-popup");
+      if (!bubble.contains(e.target) && (!popup || !popup.contains(e.target))) {
         hideBubble();
       }
     });
@@ -1326,7 +1315,7 @@ class JLPTApp {
     }
 
     if (btnLookup) {
-      btnLookup.addEventListener("pointerdown", (e) => {
+      const handleLookup = (e) => {
         e.preventDefault();
         e.stopPropagation();
         if (currentSelectedText) {
@@ -1335,11 +1324,14 @@ class JLPTApp {
           this.showDictPopup(word, rect);
           hideBubble();
         }
-      });
+      };
+
+      btnLookup.addEventListener("click", handleLookup);
+      btnLookup.addEventListener("touchend", handleLookup);
     }
 
     if (btnCopy) {
-      btnCopy.addEventListener("pointerdown", async (e) => {
+      const handleCopy = async (e) => {
         e.preventDefault();
         e.stopPropagation();
         if (currentSelectedText) {
@@ -1361,16 +1353,18 @@ class JLPTApp {
             hideBubble();
           }
         }
-      });
+      };
+
+      btnCopy.addEventListener("click", handleCopy);
+      btnCopy.addEventListener("touchend", handleCopy);
     }
 
-    // Chặn menu mặc định của iOS / iPadOS khi đang bôi đen chữ
-    document.addEventListener("contextmenu", (e) => {
-      const sel = window.getSelection();
-      if (sel && !sel.isCollapsed && sel.toString().trim()) {
+    // Chặn triệt để menu hệ thống iOS / iPadOS và desktop khi bôi đen để chỉ hiện menu ứng dụng
+    window.addEventListener("contextmenu", (e) => {
+      if (e.target.tagName !== "INPUT" && e.target.tagName !== "TEXTAREA") {
         e.preventDefault();
       }
-    });
+    }, { capture: true });
 
     if (btnHl) {
       btnHl.addEventListener("pointerdown", (e) => {
