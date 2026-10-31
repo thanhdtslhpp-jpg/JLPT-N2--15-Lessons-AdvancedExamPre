@@ -1287,39 +1287,72 @@ class JLPTApp {
       }
     };
 
+    let isPointerDown = false;
     let selDebounce = null;
-    const debouncedCheck = () => {
-      if (selDebounce) clearTimeout(selDebounce);
-      selDebounce = setTimeout(updateBubblePosition, 100);
+
+    const onPointerDown = (e) => {
+      const popup = document.getElementById("dict-popup");
+      // Bấm vào trong bubble hoặc popup từ điển thì không tính là bắt đầu bôi đen lại
+      if (bubble.contains(e.target) || (popup && popup.contains(e.target))) {
+        return;
+      }
+      isPointerDown = true;
+      hideBubble();
     };
 
-    // Theo dõi thay đổi bôi đen liên tục trên iOS Safari, iPad và PC
+    const onPointerUp = (e) => {
+      isPointerDown = false;
+      const popup = document.getElementById("dict-popup");
+      if (bubble.contains(e.target) || (popup && popup.contains(e.target))) {
+        return;
+      }
+
+      // Người dùng đã kết thúc thao tác bôi đen (thả chuột hoặc nhấc ngón tay)
+      if (selDebounce) clearTimeout(selDebounce);
+      // Đợi 120ms để trình duyệt cập nhật selection range ổn định trước khi hiển thị
+      selDebounce = setTimeout(updateBubblePosition, 120);
+    };
+
+    document.addEventListener("mousedown", onPointerDown, { passive: true });
+    document.addEventListener("touchstart", onPointerDown, { passive: true });
+    document.addEventListener("pointerdown", onPointerDown, { passive: true });
+
+    document.addEventListener("mouseup", onPointerUp, { passive: true });
+    document.addEventListener("touchend", onPointerUp, { passive: true });
+    document.addEventListener("pointerup", onPointerUp, { passive: true });
+
+    // Theo dõi thay đổi bôi đen
     document.addEventListener("selectionchange", () => {
       const sel = window.getSelection();
-      if (sel && sel.rangeCount > 0 && !sel.isCollapsed && sel.toString().trim()) {
-        this.savedSelectionRange = sel.getRangeAt(0).cloneRange();
+      if (!sel || sel.isCollapsed || !sel.toString().trim()) {
         if (selDebounce) clearTimeout(selDebounce);
-        selDebounce = setTimeout(updateBubblePosition, 140);
-      } else {
-        if (selDebounce) clearTimeout(selDebounce);
-        setTimeout(() => {
+        selDebounce = setTimeout(() => {
           const curSel = window.getSelection();
-          if (!curSel || curSel.isCollapsed) {
+          if (!curSel || curSel.isCollapsed || !curSel.toString().trim()) {
             hideBubble();
           }
-        }, 120);
+        }, 150);
+        return;
       }
-    });
 
-    document.addEventListener("touchend", debouncedCheck);
-    document.addEventListener("mouseup", debouncedCheck);
+      // Lưu lại range hiện tại
+      try {
+        if (sel.rangeCount > 0) {
+          this.savedSelectionRange = sel.getRangeAt(0).cloneRange();
+        }
+      } catch (err) {}
 
-    // Bấm ra ngoài thì ẩn bubble (không ẩn nếu bấm vào trong popup từ điển)
-    document.addEventListener("pointerdown", (e) => {
-      const popup = document.getElementById("dict-popup");
-      if (!bubble.contains(e.target) && (!popup || !popup.contains(e.target))) {
-        hideBubble();
+      // NẾU NGƯỜI DÙNG VẪN ĐANG GIỮ CHUỘT / KÉO TAY (CHƯA KẾT THÚC BÔI ĐEN):
+      // Tuyệt đối không hiện thanh tra từ sớm khi đang kéo dở từ (ví dụ đang kéo 計 chưa qua 算)
+      if (isPointerDown) {
+        if (selDebounce) clearTimeout(selDebounce);
+        return;
       }
+
+      // Nếu không có chuột/ngón tay đang nhấn (ví dụ chọn bằng phím Shift hoặc dừng):
+      // Chờ 350ms sau khi ngừng thay đổi mới hiển thị
+      if (selDebounce) clearTimeout(selDebounce);
+      selDebounce = setTimeout(updateBubblePosition, 350);
     });
 
     if (btnSpeak) {
