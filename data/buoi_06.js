@@ -392,7 +392,7 @@ window.JLPT_DATA[6] = {
             "副"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>諸問題（しょもんだい）：</b>Các vấn đề, nhiều vấn đề khác nhau.<br><b>Dịch nghĩa:</b> Chúng ta cần cùng nhau giải quyết nhiều vấn đề môi trường đang phát sinh.<br><i>Phân tích tiền tố:</i><br>• 1. 各 (Các: từng cái một, 各国, 各自)<br>• <b>2. 諸 (Chư: các, nhiều loại khác nhau: 諸問題, 諸国) [Đúng]</b><br>• 3. 全 (Toàn: toàn bộ, 全世界)<br>• 4. 総 (Tổng: tổng hợp, 総人口)",
+          "explanation": "<b>準決勝（じゅんけっしょう）：</b>Trận bán kết (Tiền tố 準〜: bán/chuẩn/cận).<br><b>Dịch nghĩa:</b> Vì đã thua ở trận bán kết nên tôi muốn cố gắng ở trận tranh hạng ba.",
           "id": 26
         },
         {
@@ -406,7 +406,7 @@ window.JLPT_DATA[6] = {
             "良"
           ],
           "correctAnswer": 1,
-          explanation: "<b>準決勝（じゅんけっしょう）：</b>Trận bán kết (Tiền tố 準〜: bán/chuẩn/cận).<br><b>Dịch nghĩa:</b> Vì đã thua ở trận bán kết nên tôi muốn cố gắng ở trận tranh hạng ba.",
+          "explanation": "<b>好都合（こうつごう）：</b>Thuận tiện, hợp lý về mặt thời gian/hoàn cảnh.<br><b>Dịch nghĩa:</b> Thứ bảy thì hơi khó... Nếu là chủ nhật thì đã thuận tiện biết mấy rồi.",
           "id": 27
         },
         {
@@ -420,7 +420,7 @@ window.JLPT_DATA[6] = {
             "票"
           ],
           "correctAnswer": 4,
-          explanation: "<b>好都合（こうつごう）：</b>Thuận tiện, hợp lý về mặt thời gian/hoàn cảnh.<br><b>Dịch nghĩa:</b> Thứ bảy thì hơi khó... Nếu là chủ nhật thì đã thuận tiện biết mấy rồi.",
+          "explanation": "<b>15万票（じゅうごまんぴょう）：</b>150.000 phiếu bầu (Hậu tố 〜票: phiếu bầu cử/bình chọn).<br><b>Dịch nghĩa:</b> Kết quả cuộc bầu cử, ông Yoshida đã đắc cử thị trưởng với 150.000 phiếu bầu.",
           "id": 28
         },
         {
@@ -1255,7 +1255,7 @@ window.JLPT_DATA[6] = {
           "options": [
             "とかで",
             "あまり",
-            "からは",
+            "からには",
             "くらいで"
           ],
           "optionsDisplay": [

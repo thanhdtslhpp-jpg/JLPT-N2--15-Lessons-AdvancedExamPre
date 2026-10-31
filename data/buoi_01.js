@@ -127,10 +127,10 @@ window.JLPT_DATA[1] = {
           "sentence": "先祖を<ruby>うやまう<rt>______</rt></ruby>心を大切にしたい。",
           "targetWord": "うやまう",
           "options": [
-            "敬う",
             "尊う",
+            "敬う",
             "貴う",
-            "奉う"
+            "拝う"
           ],
           "optionsDisplay": [
             "尊う",
@@ -349,8 +349,8 @@ window.JLPT_DATA[1] = {
           "targetWord": "徐々に",
           "options": [
             "やっと",
-            "だんだん",
             "いつの間にか",
+            "一気に",
             "次第に"
           ],
           "optionsDisplay": [
