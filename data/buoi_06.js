@@ -1623,13 +1623,13 @@ window.JLPT_DATA[6] = {
             }
           ],
           "correctOrder": [
-            4,
-            3,
+            2,
             1,
-            2
+            4,
+            3
           ],
-          "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> 映画を <b>[映画館で(4)] [見る人(3)] [★ 人にしてみれば(1)] [テレビでしか見ない(2)]</b> 人の気持ちがわからない。<br><b>Cấu trúc:</b> N + にしてみれば (Đứng trên lập trường của người xem phim ở rạp mà nói...).<br><b>Đáp án chọn:</b> 1",
+          "correctStarOption": 4,
+          "explanation": "<b>Thứ tự câu đúng:</b> 映画を <b>[テレビでしか見ない(2)] [人にして見れば(1)] [★ 映画館で(4)] [見る人(3)]</b> の気持ちがわからない。<br><b>Cấu trúc:</b> N + にしてみれば (Đứng trên lập trường/góc độ của ai đó mà nói...).<br><b>Dịch nghĩa:</b> Đứng từ góc độ của những người chỉ xem phim trên tivi mà nói, họ không thể hiểu nổi tâm lý của những người ra rạp xem phim.<br><b>Đáp án chọn:</b> 4",
           "id": 101
         },
         {
