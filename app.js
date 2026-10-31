@@ -2115,9 +2115,14 @@ class JLPTApp {
 
     // Explanation & Dokkai Translation
     let explanationHTML = "";
-    const transKey = `${this.currentSessionId}_${passageInfo.sourceId || q.id}`;
-    const trans = (window.JLPT_PASSAGE_TRANSLATIONS && (window.JLPT_PASSAGE_TRANSLATIONS[transKey] || window.JLPT_PASSAGE_TRANSLATIONS[String(q.id)]))
-                  || q.passageTranslation;
+    // Chỉ lấy và hiển thị bản dịch bài đọc khi câu hỏi thực sự là bài Đọc hiểu (có bài đọc đi kèm hoặc Mondai 10 - 14)
+    const isDokkaiQuestion = !!(passageInfo && passageInfo.passage) || !!q.passage || (q.mondai >= 10 && q.mondai <= 14);
+    let trans = null;
+    if (isDokkaiQuestion) {
+      const transKey = `${this.currentSessionId}_${passageInfo.sourceId || q.id}`;
+      trans = (window.JLPT_PASSAGE_TRANSLATIONS && window.JLPT_PASSAGE_TRANSLATIONS[transKey])
+              || q.passageTranslation;
+    }
 
     if (showFeedback && (q.explanation || (trans && trans.trim()))) {
       const statusText = isCorrect 
