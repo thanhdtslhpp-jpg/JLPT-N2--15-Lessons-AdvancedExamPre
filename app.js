@@ -1210,6 +1210,13 @@ class JLPTApp {
     };
 
     const updateBubblePosition = () => {
+      // Nếu bảng tra từ điển đang mở, tuyệt đối không hiện thanh thao tác đè lên
+      const dictPopup = document.getElementById("dict-popup");
+      if (dictPopup && dictPopup.style.display !== "none") {
+        hideBubble();
+        return;
+      }
+
       const sel = window.getSelection();
       if (!sel || sel.isCollapsed) {
         hideBubble();
@@ -1340,8 +1347,11 @@ class JLPTApp {
         if (currentSelectedText) {
           const word = this.cleanJapaneseWord(currentSelectedText) || currentSelectedText;
           const rect = bubble.getBoundingClientRect();
-          this.showDictPopup(word, rect);
           hideBubble();
+          try {
+            window.getSelection()?.removeAllRanges();
+          } catch (err) {}
+          this.showDictPopup(word, rect);
         }
       };
 
@@ -2148,9 +2158,6 @@ class JLPTApp {
       ${!isChoukai ? `
         <div class="q-sentence-row">
           <div class="q-sentence">${formattedSentence}</div>
-          <button type="button" class="btn-sentence-audio" title="Nghe phát âm cả câu" onclick="app.speakSentence(${q.id})">
-            <i class="fas fa-volume-up"></i>
-          </button>
         </div>
       ` : ""}
       <div class="options-grid">${optionsHTML}</div>
