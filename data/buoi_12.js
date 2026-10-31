@@ -1640,7 +1640,7 @@ window.JLPT_DATA[12] = {
           ],
           "correctStarOption": 4,
           "correctAnswer": 4,
-          "explanation": "Câu hoàn chỉnh: 「彼は失敗を【恐れる】 【ことなく】 【常に】 【★何事にも】果敢に挑戦する。」\nCấu trúc: 〜ことなく (không hề sợ hãi thất bại). Thứ tự 2 -> 1 -> 4 -> 3. Ngôi sao ở vị trí 3 (hoặc 4), đáp án chính thức là 4 (何事にも)."
+          "explanation": "Câu hoàn chỉnh: 「彼は失敗を【恐れる(2)】 【ことなく(1)】 【★常に(4)】 【何事にも(3)】果敢に挑戦する。」\nCấu trúc: 〜ことなく (không hề sợ hãi thất bại). Thứ tự 2 -> 1 -> 4 -> 3. Ngôi sao ở vị trí thứ 3, tương ứng đáp án 4 (常に)."
         },
         {
           "id": 102,

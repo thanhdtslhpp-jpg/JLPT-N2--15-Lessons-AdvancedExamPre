@@ -406,7 +406,7 @@ window.JLPT_DATA[6] = {
             "良"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>好天（こうてん）：</b>Thời tiết đẹp, trời nắng ráo thuận lợi.<br><b>Dịch nghĩa:</b> Nhờ thời tiết đẹp nên chuyến dã ngoại diễn ra vô cùng vui vẻ.<br><i>Phân tích tiền tố:</i><br>• <b>1. 好 (Hảo: tốt, thuận lợi: 好天, 好条件, 好都合) [Đúng]</b><br>• 2. 美 (Mỹ: đẹp, 美人, 美味)<br>• 3. 良 (Lương: tốt, 良心, 良好)<br>• 4. 優 (Ưu: xuất sắc, 優良)",
+          explanation: "<b>準決勝（じゅんけっしょう）：</b>Trận bán kết (Tiền tố 準〜: bán/chuẩn/cận).<br><b>Dịch nghĩa:</b> Vì đã thua ở trận bán kết nên tôi muốn cố gắng ở trận tranh hạng ba.",
           "id": 27
         },
         {
@@ -420,7 +420,7 @@ window.JLPT_DATA[6] = {
             "票"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>票（ひょう）：</b>Phiếu bầu, số phiếu bầu cử.<br><b>Dịch nghĩa:</b> Kết quả bầu cử, ông Yoshida đã trúng cử chức thị trưởng với 15 vạn phiếu bầu.<br><i>Phân tích các lượng từ:</i><br>• 1. 件 (けん): Đơn vị đếm vụ việc, hồ sơ, sự kiện<br>• 2. 頭 (とう): Đơn vị đếm gia súc lớn (bò, ngựa, voi)<br>• 3. 分 (ふん/ぶん): Phút hoặc phần chia<br>• <b>4. 票 (ひょう): Đơn vị đếm phiếu bầu cử [Đúng]</b>",
+          explanation: "<b>好都合（こうつごう）：</b>Thuận tiện, hợp lý về mặt thời gian/hoàn cảnh.<br><b>Dịch nghĩa:</b> Thứ bảy thì hơi khó... Nếu là chủ nhật thì đã thuận tiện biết mấy rồi.",
           "id": 28
         },
         {
