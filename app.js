@@ -900,10 +900,11 @@ class JLPTApp {
   // TỐI ƯU PHÁT ÂM TIẾNG NHẬT: Hoạt động hoàn hảo trên iPhone Safari, iPad, Android & Desktop
   speakWord(word) {
     if (!word) return;
-    const cleanWord = this.cleanJapaneseWord(word) || word.trim();
+    // Làm sạch từ/câu để đọc tự nhiên, không giới hạn độ dài 12 ký tự
+    const cleanWord = String(word).replace(/<[^>]+>/g, "").replace(/[_~`\*\^]/g, "").trim();
     if (!cleanWord) return;
 
-    // Bộ phát âm Online Fallback (Google Translate TTS endpoint cực chuẩn) nếu Web Speech bị lỗi trên iOS
+    // Bộ phát âm Online qua Google Translate TTS (hoạt động tuyệt hảo nhờ meta no-referrer)
     const playFallbackAudio = () => {
       try {
         if (this.currentAudioEl) {
@@ -911,26 +912,35 @@ class JLPTApp {
           this.currentAudioEl = null;
         }
         const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encodeURIComponent(cleanWord)}`;
-        const audio = new Audio(audioUrl);
+        const audio = new Audio();
+        audio.referrerPolicy = "no-referrer";
+        audio.src = audioUrl;
         this.currentAudioEl = audio;
-        audio.play().catch(err => console.warn("Fallback audio failed:", err));
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(err => {
+            console.warn("Audio play prevented/failed:", err);
+          });
+        }
       } catch (err) {
         console.warn("Audio initialization error:", err);
       }
     };
 
+    // Kiểm tra và sử dụng Web Speech Synthesis nếu có sẵn
     if ("speechSynthesis" in window) {
       try {
-        // iOS Safari fix: Không gọi cancel() ngay trước speak vì iOS sẽ hủy luôn utterance mới!
         if (window.speechSynthesis.paused) {
           window.speechSynthesis.resume();
         }
 
         const u = new SpeechSynthesisUtterance(cleanWord);
         u.lang = "ja-JP";
-        u.rate = 0.85;
+        u.rate = 0.9;
 
-        // Ưu tiên chọn giọng tiếng Nhật nếu có trên thiết bị (Kyoko, Otoya, v.v.)
+        // Tránh lỗi WebKit Garbage Collection trên iOS Safari (giữ tham chiếu window)
+        window._activeSpeechUtterance = u;
+
         const voices = (this.cachedVoices && this.cachedVoices.length > 0)
           ? this.cachedVoices
           : window.speechSynthesis.getVoices();
@@ -942,7 +952,8 @@ class JLPTApp {
         let started = false;
         u.onstart = () => { started = true; };
         u.onerror = (e) => {
-          console.warn("speechSynthesis error, switching to fallback:", e);
+          console.warn("speechSynthesis error, switching to audio fallback:", e);
+          window._activeSpeechUtterance = null;
           playFallbackAudio();
         };
 
@@ -950,9 +961,12 @@ class JLPTApp {
           if (!started && (!window.speechSynthesis.speaking || window.speechSynthesis.paused)) {
             playFallbackAudio();
           }
-        }, 500);
+        }, 1200);
 
-        u.onend = () => clearTimeout(timeoutId);
+        u.onend = () => {
+          clearTimeout(timeoutId);
+          window._activeSpeechUtterance = null;
+        };
 
         window.speechSynthesis.speak(u);
       } catch (e) {
@@ -1293,13 +1307,21 @@ class JLPTApp {
     });
 
     if (btnSpeak) {
-      btnSpeak.addEventListener("pointerdown", (e) => {
+      const handleSpeak = (e) => {
         e.preventDefault();
         e.stopPropagation();
         if (currentSelectedText) {
+          const orig = btnSpeak.innerHTML;
+          btnSpeak.innerHTML = `<i class="fas fa-spinner fa-spin" style="color: var(--primary);"></i> <span>Đang đọc...</span>`;
           this.speakWord(currentSelectedText);
+          setTimeout(() => {
+            btnSpeak.innerHTML = orig;
+          }, 1400);
         }
-      });
+      };
+
+      btnSpeak.addEventListener("click", handleSpeak);
+      btnSpeak.addEventListener("touchend", handleSpeak);
     }
 
     if (btnLookup) {
