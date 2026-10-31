@@ -160,8 +160,10 @@ class JLPTApp {
 
     document.getElementById("theme-toggle").addEventListener("click", () => this.toggleTheme());
 
-    document.getElementById("btn-mode-practice").addEventListener("click", () => this.setMode("practice"));
-    document.getElementById("btn-mode-exam").addEventListener("click", () => this.setMode("exam"));
+    const btnPractice = document.getElementById("btn-mode-practice");
+    if (btnPractice) btnPractice.addEventListener("click", () => this.setMode("practice"));
+    const btnExam = document.getElementById("btn-mode-exam");
+    if (btnExam) btnExam.addEventListener("click", () => this.setMode("exam"));
 
     document.getElementById("btn-submit-exam").addEventListener("click", () => this.submitExam());
     document.getElementById("btn-close-modal").addEventListener("click", () => {
@@ -389,31 +391,20 @@ class JLPTApp {
   updateSubmitButton() {
     const btnSubmit = document.getElementById("btn-submit-exam");
     if (!btnSubmit) return;
-    if (this.currentMode === "exam") {
-      btnSubmit.innerHTML = `<i class="fas fa-paper-plane"></i> Nộp Bài`;
-      btnSubmit.title = "Nộp bài thi và chấm điểm";
-    } else {
-      btnSubmit.innerHTML = `<i class="fas fa-chart-bar"></i> Tổng Kết Điểm`;
-      btnSubmit.title = "Xem bảng tổng kết điểm và phân tích câu sai";
-    }
+    btnSubmit.innerHTML = `<i class="fas fa-chart-bar"></i> Tổng Kết Điểm`;
+    btnSubmit.title = "Xem bảng tổng kết điểm và phân tích câu sai";
   }
 
   setMode(mode) {
-    this.currentMode = mode;
-    if (mode === "exam") {
-      this.isExamSubmitted = false;
-    }
-    document.getElementById("btn-mode-practice").classList.toggle("active", mode === "practice");
-    document.getElementById("btn-mode-exam").classList.toggle("active", mode === "exam");
+    this.currentMode = "practice";
+    const btnPractice = document.getElementById("btn-mode-practice");
+    if (btnPractice) btnPractice.classList.toggle("active", true);
+    const btnExam = document.getElementById("btn-mode-exam");
+    if (btnExam) btnExam.classList.toggle("active", false);
 
     const timerBox = document.getElementById("timer-box");
-    if (mode === "exam") {
-      timerBox.style.display = "flex";
-      this.startTimer();
-    } else {
-      timerBox.style.display = "none";
-      this.stopTimer();
-    }
+    if (timerBox) timerBox.style.display = "none";
+    this.stopTimer();
 
     this.updateSubmitButton();
     this.renderQuestions();
@@ -442,7 +433,8 @@ class JLPTApp {
   updateTimerDisplay() {
     const min = Math.floor(this.timeLeftSeconds / 60).toString().padStart(2, "0");
     const sec = (this.timeLeftSeconds % 60).toString().padStart(2, "0");
-    document.getElementById("timer-text").textContent = `${min}:${sec}`;
+    const timerText = document.getElementById("timer-text");
+    if (timerText) timerText.textContent = `${min}:${sec}`;
 
     // NÂNG CẤP: Pacing Guide chuẩn JLPT N2 (105 phút)
     const pacingEl = document.getElementById("pacing-badge");
@@ -600,9 +592,7 @@ class JLPTApp {
     this.renderQuestions();
     this.updatePallet();
 
-    if (this.currentMode === "exam") {
-      this.startTimer();
-    }
+    // Exam mode removed - always practice mode
 
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -2843,9 +2833,12 @@ class JLPTApp {
     // Chuyển sang chế độ practice để xem giải thích
     this.currentMode = "practice";
     this.isExamSubmitted = true;
-    document.getElementById("btn-mode-practice").classList.add("active");
-    document.getElementById("btn-mode-exam").classList.remove("active");
-    document.getElementById("timer-box").style.display = "none";
+    const btnPractice = document.getElementById("btn-mode-practice");
+    if (btnPractice) btnPractice.classList.add("active");
+    const btnExam = document.getElementById("btn-mode-exam");
+    if (btnExam) btnExam.classList.remove("active");
+    const timerBox = document.getElementById("timer-box");
+    if (timerBox) timerBox.style.display = "none";
     localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
     this.renderQuestions();
     this.updatePallet();
