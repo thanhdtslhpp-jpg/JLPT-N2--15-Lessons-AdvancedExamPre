@@ -1225,6 +1225,7 @@ class JLPTApp {
 
     const btnSpeak = document.getElementById("bubble-btn-speak");
     const btnLookup = document.getElementById("bubble-btn-lookup");
+    const btnCopy = document.getElementById("bubble-btn-copy");
     const btnHl = document.getElementById("bubble-btn-highlight");
 
     let currentSelectedText = "";
