@@ -2769,6 +2769,11 @@ class JLPTApp {
       });
     });
     this.updateMobileBar();
+    this.updateFloatingPalletBtn();
+    const modal = document.getElementById("mobile-pallet-modal");
+    if (modal && modal.style.display !== "none") {
+      this.renderMobilePallet();
+    }
   }
 
   // SỬA LỖI TÍNH ĐIỂM: Phân loại theo mondai thực tế thay vì hardcode sectionId
