@@ -9,6 +9,7 @@ class JLPTApp {
     this.activeQuestionId = null;
     this.timerInterval = null;
     this.timeLeftSeconds = 105 * 60; // 105 phút thi thật N2
+    this.cleanSharedDraftsOnce();
     this.syncFromDisk();
     this.history = JSON.parse(localStorage.getItem("jlpt_n2_history") || "{}");
     this.bookmarks = JSON.parse(localStorage.getItem("jlpt_n2_bookmarks") || "{}");
@@ -38,63 +39,33 @@ class JLPTApp {
     this.init();
   }
 
+  cleanSharedDraftsOnce() {
+    try {
+      if (!localStorage.getItem("jlpt_fresh_clean_v1")) {
+        // Xóa sạch các bài làm dở và dữ liệu mẫu cũ để mọi người dùng bắt đầu như mới
+        for (let i = 1; i <= 20; i++) {
+          localStorage.removeItem("jlpt_draft_" + i);
+        }
+        localStorage.removeItem("jlpt_n2_bookmarks");
+        localStorage.removeItem("jlpt_n2_history");
+        localStorage.removeItem("jlpt_n2_wrong_questions");
+        localStorage.setItem("jlpt_fresh_clean_v1", "true");
+      }
+    } catch (e) {
+      console.warn("cleanSharedDraftsOnce error", e);
+    }
+  }
+
   syncFromDisk() {
     if (window.JLPT_SYNC_DATA && typeof window.JLPT_SYNC_DATA === "object") {
       try {
-        let imported = 0;
-        for (const [k, v] of Object.entries(window.JLPT_SYNC_DATA)) {
-          if (!k || !k.startsWith("jlpt_")) continue;
-          const currentVal = localStorage.getItem(k);
-
-          if (!currentVal || currentVal === "{}" || currentVal === "[]" || currentVal === '""') {
-            localStorage.setItem(k, v);
-            imported++;
-            continue;
+        // Chỉ đồng bộ bộ đệm từ điển (dict cache) để hỗ trợ tra từ offline nhanh
+        // Tuyệt đối không nạp draft làm dở hay lịch sử cá nhân để tránh làm phiền người dùng mới
+        if (window.JLPT_SYNC_DATA.jlpt_dict_cache) {
+          const currentVal = localStorage.getItem("jlpt_dict_cache");
+          if (!currentVal || currentVal === "{}") {
+            localStorage.setItem("jlpt_dict_cache", window.JLPT_SYNC_DATA.jlpt_dict_cache);
           }
-
-          if (k.startsWith("jlpt_draft_")) {
-            try {
-              const currentDraft = JSON.parse(currentVal);
-              const syncDraft = JSON.parse(v);
-              if ((syncDraft.updatedAt || 0) >= (currentDraft.updatedAt || 0)) {
-                localStorage.setItem(k, v);
-                imported++;
-              }
-            } catch (e) {
-              localStorage.setItem(k, v);
-            }
-          } else if (k === "jlpt_n2_history" || k === "jlpt_dict_cache") {
-            try {
-              const currentObj = JSON.parse(currentVal || "{}");
-              const syncObj = JSON.parse(v || "{}");
-              const merged = Object.assign({}, currentObj, syncObj);
-              localStorage.setItem(k, JSON.stringify(merged));
-              imported++;
-            } catch (e) {}
-          } else if (k === "jlpt_n2_bookmarks" || k === "jlpt_n2_wrong_questions") {
-            try {
-              const currentObj = JSON.parse(currentVal || "{}");
-              const syncObj = JSON.parse(v || "{}");
-              const merged = Object.assign({}, currentObj);
-              for (const [sId, qList] of Object.entries(syncObj)) {
-                if (!merged[sId]) {
-                  merged[sId] = qList;
-                } else if (Array.isArray(qList)) {
-                  merged[sId] = Array.from(new Set([...merged[sId], ...qList]));
-                }
-              }
-              localStorage.setItem(k, JSON.stringify(merged));
-              imported++;
-            } catch (e) {}
-          } else {
-            if (!currentVal) {
-              localStorage.setItem(k, v);
-              imported++;
-            }
-          }
-        }
-        if (imported > 0) {
-          console.log(`[JLPT Sync] Da tu dong dong bo ${imported} muc tu user_data.js vao LocalStorage!`);
         }
       } catch (err) {
         console.warn("[JLPT Sync] Loi khi dong bo user_data.js:", err);
