@@ -2218,6 +2218,101 @@ class JLPTApp {
     return res;
   }
 
+  formatStarOrder(order, starPos) {
+    if (!order || !Array.isArray(order) || order.length !== 4) return "";
+    const starIdx = (starPos && starPos >= 1 && starPos <= 4) ? starPos - 1 : 2;
+    const before = order.slice(0, starIdx);
+    const star = order[starIdx];
+    const after = order.slice(starIdx + 1);
+
+    const parts = [];
+    if (before.length > 0) {
+      parts.push(`(${before.join(" - ")})`);
+    }
+    parts.push(`⭐ (${star})`);
+    if (after.length > 0) {
+      parts.push(`(${after.join(" - ")})`);
+    }
+    return parts.join(" - ");
+  }
+
+  getStarTranslation(sessionNum, qId) {
+    const key = `${sessionNum}_${qId}`;
+    if (window.JLPT_STAR_TRANSLATIONS && window.JLPT_STAR_TRANSLATIONS[key]) {
+      return window.JLPT_STAR_TRANSLATIONS[key];
+    }
+    return "";
+  }
+
+  formatStarExplanationHTML(q) {
+    if (!q) return "";
+    const rawExp = q.explanation || "";
+    const order = q.correctOrder || q.sentenceOrder || [];
+
+    let starPos = q.starPositionIndex;
+    if (!starPos && (q.question || q.sentence)) {
+      const text = q.question || q.sentence;
+      const blanks = text.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
+      if (blanks && blanks.length >= 4) {
+        const sIdx = blanks.findIndex(b => b.includes("★"));
+        if (sIdx !== -1) starPos = sIdx + 1;
+      }
+    }
+    if (!starPos) starPos = 3;
+
+    const formattedOrder = this.formatStarOrder(order, starPos);
+
+    let trans = this.getStarTranslation(this.currentSessionId, q.id);
+    if (!trans && q.translation) {
+      trans = q.translation;
+    }
+    if (!trans) {
+      const clean = rawExp.replace(/<[^>]+>/g, " ");
+      const m = clean.match(/(?:•\s*Dịch|Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:\s*([^<]+?)(?=(?:•|Vị trí ngôi sao|Đáp án|$))/i);
+      if (m) trans = m[1].trim();
+    }
+
+    let lines = rawExp.split(/<br\s*\/?>|\n/i).map(l => l.trim()).filter(Boolean);
+    let remainingLines = [];
+
+    for (let line of lines) {
+      const cleanLine = line.replace(/<[^>]+>/g, "").trim();
+      if (/^(?:•\s*)?(?:Thứ tự câu đúng|Thứ tự sắp xếp đúng|Thứ tự đúng|Cấu trúc ghép câu|Ghép câu)\s*:/i.test(cleanLine)) {
+        continue;
+      }
+      if (/^(?:•\s*)?(?:Câu hoàn chỉnh)\s*:/i.test(cleanLine)) {
+        continue;
+      }
+      if (/^(?:•\s*)?(?:Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:/i.test(cleanLine)) {
+        if (!trans) {
+          const m = cleanLine.match(/^(?:•\s*)?(?:Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:\s*(.+)$/i);
+          if (m) trans = m[1].trim();
+        }
+        continue;
+      }
+      remainingLines.push(line);
+    }
+
+    let html = "";
+    if (formattedOrder) {
+      html += `<div style="margin-bottom: 0.5rem; font-size: 1rem;"><b>Thứ tự câu đúng:</b> <span class="star-order-badge" style="color: #f59e0b; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.5px;">${formattedOrder}</span></div>`;
+    }
+
+    if (remainingLines.length > 0) {
+      html += `<div>${remainingLines.join("<br>")}</div>`;
+    }
+
+    if (trans) {
+      html += `
+        <div class="star-trans-box" style="margin-top: 0.65rem; padding-top: 0.5rem; border-top: 1px dashed rgba(255,255,255,0.18); font-size: 0.95rem; line-height: 1.55;">
+          <b style="color: var(--primary-light, #93c5fd);">Dịch:</b> <span style="color: var(--text-main);">${trans}</span>
+        </div>
+      `;
+    }
+
+    return html;
+  }
+
   renderStarQuestionHTML(q, indexInFiltered, filteredList) {
     const currentSlots = this.getStarSlots(q.id);
     const placedCount = currentSlots.filter((x) => x !== null).length;
@@ -2325,7 +2420,7 @@ class JLPTApp {
               ${statusText}
             </span>
           </div>
-          <div>${q.explanation}</div>
+          <div>${this.formatStarExplanationHTML(q)}</div>
           <div style="margin-top: 0.6rem; display: flex; justify-content: flex-end;">
             <button class="btn btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" onclick="app.resetStarQuestion(${q.id})">
               <i class="fas fa-redo"></i> Xếp lại câu này
