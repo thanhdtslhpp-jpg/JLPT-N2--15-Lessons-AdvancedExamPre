@@ -11,7 +11,7 @@ window.JLPT_DATA[11] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "先生に貴重な資料を見せていただいた。",
+          "question": "先生に<u>貴重</u>な資料を見せていただいた。",
           "options": [
             "きじゅう",
             "きちょう",
@@ -26,7 +26,7 @@ window.JLPT_DATA[11] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "その話を聞いて、とても怪しいと思った。",
+          "question": "その話を聞いて、とても<u>怪しい</u>と思った。",
           "options": [
             "むなしい",
             "くやしい",
@@ -41,7 +41,7 @@ window.JLPT_DATA[11] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "佐藤さんは容姿も性格もいい。",
+          "question": "佐藤さんは<u>容姿</u>も性格もいい。",
           "options": [
             "よし",
             "ようし",
@@ -56,7 +56,7 @@ window.JLPT_DATA[11] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "これは危険を伴う実験だ。",
+          "question": "これは危険を<u>伴う</u>実験だ。",
           "options": [
             "はらう",
             "あつかう",
@@ -71,7 +71,7 @@ window.JLPT_DATA[11] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "以前は、海外で暮らしたいという願望が強かった。",
+          "question": "以前は、海外で暮らしたいという<u>願望</u>が強かった。",
           "options": [
             "がんぼう",
             "げんぼう",
@@ -86,7 +86,7 @@ window.JLPT_DATA[11] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "友人を家にまねいた。",
+          "question": "友人を家に<u>まねいた</u>。",
           "options": [
             "伯いた",
             "招いた",
@@ -101,7 +101,7 @@ window.JLPT_DATA[11] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この商品は安全性がほしょうされている。",
+          "question": "この商品は安全性が<u>ほしょう</u>されている。",
           "options": [
             "補証",
             "保正",
@@ -116,7 +116,7 @@ window.JLPT_DATA[11] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この企業では、さまざまなもよおしを行っている。",
+          "question": "この企業では、さまざまな<u>もよおし</u>を行っている。",
           "options": [
             "携し",
             "催し",
@@ -131,7 +131,7 @@ window.JLPT_DATA[11] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "銀行に行って、お札をこうかに替えた。",
+          "question": "銀行に行って、お札を<u>こうか</u>に替えた。",
           "options": [
             "硬貨",
             "固貨",
@@ -146,7 +146,7 @@ window.JLPT_DATA[11] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "わが社の商品はここでせいぞうされている。",
+          "question": "わが社の商品はここで<u>せいぞう</u>されている。",
           "options": [
             "製増",
             "制増",
@@ -198,7 +198,7 @@ window.JLPT_DATA[11] = {
             "産業",
             "団体"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 2,
           "explanation": "「日本企業」（にほんきぎょう）: các doanh nghiệp Nhật Bản."
         },
         {
@@ -744,7 +744,7 @@ window.JLPT_DATA[11] = {
           "mondaiName": "問題8: 文章の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "彫刻家川村たけるが作る動物の彫刻作品は、形はシンプル ＿　＿　<u>★</u>　＿ 生命力にあふれている。",
+          "question": "彫刻家川村たけるが作る動物の彫刻作品は、形はシンプル ＿　＿　＿　<u>★</u> 生命力にあふれている。",
           "options": [
             "動き出し",
             "そうな",
@@ -768,7 +768,7 @@ window.JLPT_DATA[11] = {
           "mondaiName": "問題8: 文章の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "ビジネスで成功できる人とできない人との違いは、どんなに大変な状況でもあきらめずに ＿　＿　<u>★</u>　＿ と思う。",
+          "question": "ビジネスで成功できる人とできない人との違いは、どんなに大変な状況でもあきらめずに ＿　＿　＿　<u>★</u> と思う。",
           "options": [
             "かどうか",
             "取り組める",

@@ -396,7 +396,7 @@ window.JLPT_DATA[1] = {
           "id": 26,
           "mondai": 6,
           "mondaiName": "問題６：用例 (Cách dùng từ đúng)",
-          "sentence": "<b>薄める (làm nhạt đi)</b> - Hãy chọn câu sử dụng đúng nhất:",
+          "sentence": "<b>薄める</b>",
           "targetWord": "薄める",
           "options": [
             "夜遅くまで勉強していたので、記憶が薄めてしまった。",
@@ -411,7 +411,7 @@ window.JLPT_DATA[1] = {
           "id": 27,
           "mondai": 6,
           "mondaiName": "問題６：用例 (Cách dùng từ đúng)",
-          "sentence": "<b>充実 (viên mãn, trọn vẹn, phong phú)</b> - Hãy chọn câu sử dụng đúng nhất:",
+          "sentence": "<b>充実</b>",
           "targetWord": "充実",
           "options": [
             "この部屋は窓が大きく、日当たりがとても充実している。",
@@ -426,7 +426,7 @@ window.JLPT_DATA[1] = {
           "id": 28,
           "mondai": 6,
           "mondaiName": "問題６：用例 (Cách dùng từ đúng)",
-          "sentence": "<b>鮮明 (rõ nét, sống động)</b> - Hãy chọn câu sử dụng đúng nhất:",
+          "sentence": "<b>鮮明</b>",
           "targetWord": "鮮明",
           "options": [
             "彼女の歌声は会場の隅々まで鮮明に響き渡った。",
@@ -441,7 +441,7 @@ window.JLPT_DATA[1] = {
           "id": 29,
           "mondai": 6,
           "mondaiName": "問題６：用例 (Cách dùng từ đúng)",
-          "sentence": "<b>ふもと (chân núi)</b> - Hãy chọn câu sử dụng đúng nhất:",
+          "sentence": "<b>ふもと</b>",
           "targetWord": "ふもと",
           "options": [
             "ビルのふもとに多くの人が集まってイベントが開かれている。",
@@ -456,7 +456,7 @@ window.JLPT_DATA[1] = {
           "id": 30,
           "mondai": 6,
           "mondaiName": "問題６：用例 (Cách dùng từ đúng)",
-          "sentence": "<b>退職 (nghỉ việc, về hưu)</b> - Hãy chọn câu sử dụng đúng nhất:",
+          "sentence": "<b>退職</b>",
           "targetWord": "退職",
           "options": [
             "私の会社は60歳が定年なので、あと半年で退職だ。",

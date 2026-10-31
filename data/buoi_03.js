@@ -1148,7 +1148,7 @@ window.JLPT_DATA[3] = {
           ],
           "correctAnswer": 2,
           "explanation": "<b>Đáp án: 2</b><br>• Điều kiện bắt buộc ghi rõ: Có thể tham gia buổi tập huấn chuẩn bị vào ngày 5/11 lúc 14:00 (11月5日の事前説明会に参加できること).",
-          "passage": "<b>Thông báo tuyển tình nguyện viên Lễ hội Văn hóa Thành phố (市民文化祭ボランティア募集):</b><br>・Hoạt động: Hỗ trợ hướng dẫn khách, phát tờ rơi, hỗ trợ sân khấu.<br>・Thời gian: Ngày 12/11 (Thứ Bảy) và 13/11 (Chủ Nhật), từ 9:00 đến 17:00.<br>・Điều kiện: Từ 16 tuổi trở lên, có thể tham gia buổi họp tập huấn trước lễ hội vào ngày 5/11 (Thứ Bảy) lúc 14:00.<br>・Quyền lợi: Được cấp áo đồng phục, hỗ trợ tiền ăn trưa 1,000円/ngày.<br>・Đăng ký: Gửi đơn qua website trước ngày 25/10."
+          "passage": "<b>市民文化祭ボランティアスタッフ募集のご案内</b><br>今年度も「市民文化祭」の開催にあたり、運営をサポートしてくださるボランティアスタッフを募集いたします。<br><br><b>１．活動日時</b><br>11月12日（土）・11月13日（日） 9:00〜17:00<br><br><b>２．活動内容</b><br>来場者の会場案内、パンフレット・チラシの配布、ステージ進行の補助など<br><br><b>３．応募資格・条件（※必須）</b><br>・<b>16歳以上</b>の方（過去のボランティア経験や資格は問いません）<br>・<b>11月5日（土）14:00から</b>開催される<b>事前説明会に必ず参加できること</b><br><br><b>４．待遇・支給</b><br>・スタッフ用Tシャツ（制服）を支給します。<br>・<b>1日あたり1,000円の昼食代補助</b>を支給します（※交通費や日当の支給はありません）。<br><br><b>５．応募方法・締め切り</b><br><b>10月25日（火）までに</b>、市文化振興課の公式ウェブサイト内にある専用フォームからお申し込みください。"
         },
         {
           "id": 78,
@@ -1163,7 +1163,7 @@ window.JLPT_DATA[3] = {
           ],
           "correctAnswer": 2,
           "explanation": "<b>Đáp án: 2</b><br>• Mục quyền lợi ghi: Hỗ trợ tiền ăn trưa 1,000円/ngày và được cấp áo đồng phục (1日あたり1,000円の昼食代補助があり、スタッフ用Tシャツが支給される).",
-          "passage": "<b>Thông báo tuyển tình nguyện viên Lễ hội Văn hóa Thành phố (市民文化祭ボランティア募集):</b><br>・Hoạt động: Hỗ trợ hướng dẫn khách, phát tờ rơi, hỗ trợ sân khấu.<br>・Thời gian: Ngày 12/11 (Thứ Bảy) và 13/11 (Chủ Nhật), từ 9:00 đến 17:00.<br>・Điều kiện: Từ 16 tuổi trở lên, có thể tham gia buổi họp tập huấn trước lễ hội vào ngày 5/11 (Thứ Bảy) lúc 14:00.<br>・Quyền lợi: Được cấp áo đồng phục, hỗ trợ tiền ăn trưa 1,000円/ngày.<br>・Đăng ký: Gửi đơn qua website trước ngày 25/10."
+          "passage": "<b>市民文化祭ボランティアスタッフ募集のご案内</b><br>今年度も「市民文化祭」の開催にあたり、運営をサポートしてくださるボランティアスタッフを募集いたします。<br><br><b>１．活動日時</b><br>11月12日（土）・11月13日（日） 9:00〜17:00<br><br><b>２．活動内容</b><br>来場者の会場案内、パンフレット・チラシの配布、ステージ進行の補助など<br><br><b>３．応募資格・条件（※必須）</b><br>・<b>16歳以上</b>の方（過去のボランティア経験や資格は問いません）<br>・<b>11月5日（土）14:00から</b>開催される<b>事前説明会に必ず参加できること</b><br><br><b>４．待遇・支給</b><br>・スタッフ用Tシャツ（制服）を支給します。<br>・<b>1日あたり1,000円の昼食代補助</b>を支給します（※交通費や日当の支給はありません）。<br><br><b>５．応募方法・締め切り</b><br><b>10月25日（火）までに</b>、市文化振興課の公式ウェブサイト内にある専用フォームからお申し込みください。"
         },
         {
           "id": 79,
@@ -1178,7 +1178,7 @@ window.JLPT_DATA[3] = {
           ],
           "correctAnswer": 2,
           "explanation": "<b>Đáp án: 2 (4,000円)</b><br>• Tính tiền:<br>- Phòng B: 1,500円/giờ x 2 giờ = 3,000円.<br>- Thuê máy chiếu: 1,000円.<br>-> Tổng cộng = 3,000円 + 1,000円 = 4,000円.",
-          "passage": "<b>Quy định thuê phòng hội nghị Tòa nhà Thương mại (会議室利用規約):</b><br>・Phòng A (sức chứa 50 người): 3,000円/giờ. Phòng B (sức chứa 20 người): 1,500円/giờ.<br>・Sử dụng ngoài giờ (sau 18:00): Phụ thu thêm 20%.<br>・Máy chiếu (projector): 1,000円/lần sử dụng.<br>・Hủy phòng: Trước 7 ngày miễn phí; từ 6 đến 2 ngày trước phạt 30%; trước 1 ngày hoặc trong ngày phạt 100%."
+          "passage": "<b>商業ビル貸し会議室 ご利用規約・料金表</b><br>当ビルの貸し会議室をご利用いただく際の料金および規約は以下の通りです。<br><br><b>１．基本室料（1時間あたり・税込）</b><br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\"><tr><th>部屋名</th><th>定員（収容人数）</th><th>基本料金（9:00〜18:00）</th><th>時間外割増（18:00以降）</th></tr><tr><td><b>会議室A</b></td><td>50名</td><td>3,000円／時間</td><td rowspan=\"2\">基本料金の<b>20％割増</b></td></tr><tr><td><b>会議室B</b></td><td>20名</td><td>1,500円／時間</td></tr></table><br><b>２．備品レンタル料金</b><br>・プロジェクター：<b>1,000円／1回</b><br><br><b>３．ご予約のキャンセル・変更について</b><br>ご予約確定後にお客様のご都合でキャンセルされる場合、以下のキャンセル料を申し受けます。<br>・ご利用日の<b>7日前まで</b>：無料（キャンセル料は発生せず、全額返金いたします）<br>・ご利用日の<b>6日前〜2日前まで</b>：ご利用料金の<b>30％</b><br>・ご利用日の<b>前日および当日</b>：ご利用料金の<b>100％</b>"
         },
         {
           "id": 80,
@@ -1193,7 +1193,7 @@ window.JLPT_DATA[3] = {
           ],
           "correctAnswer": 2,
           "explanation": "<b>Đáp án: 2</b><br>• Quy định hủy ghi rõ: Hủy từ 6 ngày đến 2 ngày trước ngày sử dụng thì chịu phí phạt 30% (利用料金の30%をキャンセル料として支払う).",
-          "passage": "<b>Quy định thuê phòng hội nghị Tòa nhà Thương mại (会議室利用規約):</b><br>・Phòng A (sức chứa 50 người): 3,000円/giờ. Phòng B (sức chứa 20 người): 1,500円/giờ.<br>・Sử dụng ngoài giờ (sau 18:00): Phụ thu thêm 20%.<br>・Máy chiếu (projector): 1,000円/lần sử dụng.<br>・Hủy phòng: Trước 7 ngày miễn phí; từ 6 đến 2 ngày trước phạt 30%; trước 1 ngày hoặc trong ngày phạt 100%."
+          "passage": "<b>商業ビル貸し会議室 ご利用規約・料金表</b><br>当ビルの貸し会議室をご利用いただく際の料金および規約は以下の通りです。<br><br><b>１．基本室料（1時間あたり・税込）</b><br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\"><tr><th>部屋名</th><th>定員（収容人数）</th><th>基本料金（9:00〜18:00）</th><th>時間外割増（18:00以降）</th></tr><tr><td><b>会議室A</b></td><td>50名</td><td>3,000円／時間</td><td rowspan=\"2\">基本料金の<b>20％割増</b></td></tr><tr><td><b>会議室B</b></td><td>20名</td><td>1,500円／時間</td></tr></table><br><b>２．備品レンタル料金</b><br>・プロジェクター：<b>1,000円／1回</b><br><br><b>３．ご予約のキャンセル・変更について</b><br>ご予約確定後にお客様のご都合でキャンセルされる場合、以下のキャンセル料を申し受けます。<br>・ご利用日の<b>7日前まで</b>：無料（キャンセル料は発生せず、全額返金いたします）<br>・ご利用日の<b>6日前〜2日前まで</b>：ご利用料金の<b>30％</b><br>・ご利用日の<b>前日および当日</b>：ご利用料金の<b>100％</b>"
         }
       ]
     },

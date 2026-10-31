@@ -11,7 +11,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "素晴らしい才能を発揮した。",
+          "question": "素晴らしい<u>才能</u>を発揮した。",
           "options": [
             "ぜいのう",
             "ざいのう",
@@ -26,7 +26,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "辛い食べ物は好きではありません。",
+          "question": "<u>辛い</u>食べ物は好きではありません。",
           "options": [
             "あまい",
             "からい",
@@ -41,7 +41,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "私の友人は刑事です。",
+          "question": "私の友人は<u>刑事</u>です。",
           "options": [
             "けんじ",
             "かんじ",
@@ -56,7 +56,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "毎朝6時に起床して、少し運動をしている。",
+          "question": "毎朝6時に<u>起床</u>して、少し運動をしている。",
           "options": [
             "きしょう",
             "ぎしょう",
@@ -71,7 +71,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "夕方になって、ようやく風が収まった。",
+          "question": "夕方になって、ようやく風が<u>収まった</u>。",
           "options": [
             "さだまった",
             "しずまった",
@@ -86,7 +86,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "このタオルはまだしめっている。",
+          "question": "このタオルはまだ<u>しめって</u>いる。",
           "options": [
             "液って",
             "温って",
@@ -101,7 +101,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この時期は風邪をひく人が増えるけいこうがある。",
+          "question": "この時期は風邪をひく人が増える<u>けいこう</u>がある。",
           "options": [
             "傾向",
             "頃向",
@@ -116,7 +116,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "大勢の人がしさつに訪れた。",
+          "question": "大勢の人が<u>しさつ</u>に訪れた。",
           "options": [
             "診察",
             "視祭",
@@ -131,7 +131,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "もう少し力を入れてけずってください。",
+          "question": "もう少し力を入れて<u>けずって</u>ください。",
           "options": [
             "絞って",
             "削って",
@@ -146,7 +146,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "このしせつには、駐車場はありません。",
+          "question": "この<u>しせつ</u>には、駐車場はありません。",
           "options": [
             "支接",
             "施接",
@@ -1868,7 +1868,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "標準的な体重なのに、太っていると悩む女性が多い。",
+          "question": "<u>標準</u>的な体重なのに、太っていると悩む女性が多い。",
           "options": [
             "すいじゅん",
             "すいしゅん",
@@ -1883,7 +1883,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "国会では、与党と野党の攻防が続いている。",
+          "question": "国会では、与党と野党の<u>攻防</u>が続いている。",
           "options": [
             "せいぼう",
             "こうぼう",
@@ -1898,7 +1898,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "人間ドックは医師から1対1で検査結果の詳しい説明が受けられる。",
+          "question": "人間ドックは医師から1対1で検査結果の<u>詳しい</u>説明が受けられる。",
           "options": [
             "とぼしい",
             "ただしい",
@@ -1913,7 +1913,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "大学生の学力低下の原因は入試制度の欠陥だと主張する人は多い。",
+          "question": "大学生の学力低下の原因は入試制度の<u>欠陥</u>だと主張する人は多い。",
           "options": [
             "けっかん",
             "けってん",
@@ -1928,7 +1928,7 @@ window.JLPT_DATA[10] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "国道沿いの立て看板にはかなりの広告効果がある。",
+          "question": "国道沿いの<u>立て看板</u>にはかなりの広告効果がある。",
           "options": [
             "だてかんばん",
             "たてかんばん",
@@ -1943,7 +1943,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "受験する大学を決めたものの、これで本当にいいのかと気持ちがゆらぐ。",
+          "question": "受験する大学を決めたものの、これで本当にいいのかと気持ちが<u>ゆらぐ</u>。",
           "options": [
             "緩らぐ",
             "揺らぐ",
@@ -1958,7 +1958,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "人生はよきせぬことの連続なんだから、あまりくよくよしないほうがいいよ。",
+          "question": "人生は<u>よき</u>せぬことの連続なんだから、あまりくよくよしないほうがいいよ。",
           "options": [
             "与期",
             "余期",
@@ -1973,7 +1973,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この本は内容がこくて満足した。",
+          "question": "この本は内容が<u>こくて</u>満足した。",
           "options": [
             "濃くて",
             "巧くて",
@@ -1988,7 +1988,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "地雷は長期にわたって無差別に人々をねらい続ける、恐ろしい兵器だ。",
+          "question": "地雷は長期にわたって無差別に人々を<u>ねらい</u>続ける、恐ろしい兵器だ。",
           "options": [
             "盗い",
             "襲い",
@@ -2003,7 +2003,7 @@ window.JLPT_DATA[10] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "帰宅とちゅうにバイクに乗った男にバッグをひったくられた。",
+          "question": "帰宅<u>とちゅう</u>にバイクに乗った男にバッグをひったくられた。",
           "options": [
             "避中",
             "途中",

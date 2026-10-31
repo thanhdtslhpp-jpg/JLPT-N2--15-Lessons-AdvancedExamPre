@@ -3539,7 +3539,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいえものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいうものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Đáp án chọn:</b> 1",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"

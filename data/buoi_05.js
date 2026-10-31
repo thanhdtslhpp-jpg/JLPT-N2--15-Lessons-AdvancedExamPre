@@ -406,7 +406,7 @@ window.JLPT_DATA[5] = {
           "id": 28,
           "mondai": 6,
           "mondaiName": "Đề 07/2016 - 問題６：用例",
-          "sentence": "<b>発達 (phát triển)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>発達</b>",
           "targetWord": "発達",
           "options": [
             "息子は中学生になって急に身長が発達し、すぐに私を追い越した。",
@@ -421,7 +421,7 @@ window.JLPT_DATA[5] = {
           "id": 29,
           "mondai": 6,
           "mondaiName": "Đề 07/2016 - 問題６：用例",
-          "sentence": "<b>きっかけ (cơ duyên, ngòi nổ)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>きっかけ</b>",
           "targetWord": "きっかけ",
           "options": [
             "今回は都合が悪いのですが、次のきっかけにはぜひ出席したいと思います。",
@@ -436,7 +436,7 @@ window.JLPT_DATA[5] = {
           "id": 30,
           "mondai": 6,
           "mondaiName": "Đề 07/2016 - 問題６：用例",
-          "sentence": "<b>引退 (giải nghệ)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>引退</b>",
           "targetWord": "引退",
           "options": [
             "ひどい風邪を引いてしまい、明日のスピーチ大会は引退するしかない。",
@@ -451,7 +451,7 @@ window.JLPT_DATA[5] = {
           "id": 31,
           "mondai": 6,
           "mondaiName": "Đề 07/2016 - 問題６：用例",
-          "sentence": "<b>順調 (thuận lợi)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>順調</b>",
           "targetWord": "順調",
           "options": [
             "佐藤先生はどんな質問に対しても順調に答えてくれる。",
@@ -466,7 +466,7 @@ window.JLPT_DATA[5] = {
           "id": 32,
           "mondai": 6,
           "mondaiName": "Đề 07/2016 - 問題６：用例",
-          "sentence": "<b>生じる (phát sinh)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>生じる</b>",
           "targetWord": "生じる",
           "options": [
             "海外の生活では、習慣の違いから誤解が生じることがある。",
@@ -1004,7 +1004,7 @@ window.JLPT_DATA[5] = {
           "id": 74,
           "mondai": 14,
           "mondaiName": "Đề 07/2016 - 問題14：情報検索",
-          "passage": "<b>留学生寮 入居者応募案内</b><br>\n1. <b>さくら寮</b>: 20,000円 / 4月15日から入居開始<br>\n2. <b>ふじ寮</b>: 28,000円 / 各室風呂トイレあり / 3月25日から入居開始 / 光熱費込み<br>\n3. <b>すみれ寮</b>: 15,000円* (*chưa gồm điện nước)<br>\n4. <b>つばき寮</b>: 8,000円 (không có bồn tắm toilet riêng)<br><br>\n<b>【ジエゴさんの希望】</b>: Tiền phòng &lt; 30,000 yên, đã gồm điện nước, phòng đơn khép kín, <b>chuyển vào trước 3/4</b>.",
+          "passage": "<b>留学生寮 入居者応募案内</b><br>本協会では、下記のとおり来年度の入居者を募集します。<br><br><b>1. 募集対象者</b>：2017年4月に東京都及びその周辺の大学の学部に在籍する留学生。<br><b>2. 募集している部屋</b><br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\"><tr><th>寮名</th><th>部屋の種類</th><th>1ヶ月の寮費</th><th>設備</th></tr><tr><td><b>さくら寮</b></td><td>一人用</td><td>20,000円</td><td>8階建て・各室に風呂トイレあり</td></tr><tr><td rowspan=\"2\"><b>ふじ寮</b></td><td>一人用</td><td>28,000円</td><td rowspan=\"2\">6階建て・駐車場あり・各室に風呂トイレあり</td></tr><tr><td>家族用（四人まで）</td><td>48,000円*</td></tr><tr><td rowspan=\"2\"><b>すみれ寮</b></td><td>一人用</td><td>15,000円*</td><td rowspan=\"2\">3階建て・各室に風呂トイレあり</td></tr><tr><td>二人用</td><td>10,000円*</td></tr><tr><td><b>つばき寮</b></td><td>一人用</td><td>8,000円</td><td>3階建て・各室に風呂トイレなし</td></tr></table>注意 (1) *がついている場合、寮費には光熱費が含まれません。<br>　　 (2) すみれ寮二人用の部屋の寮費は、一人当たりの金額です。<br><br><b>3. 入居可能期間</b>：学部の標準修業年限まで（最長入居期間は、1年生なら4年、2年生なら3年、3年生なら2年、4年生なら1年までです。）<br><b>4. 入居開始日</b>：2017年3月25日から（さくら寮のみ建築中のため4月15日から）<br><b>5. 応募方法</b>：必要な書類を郵送または持参してください。（海外在住者はEメールでの提出も可）<br><b>6. 応募期間</b>：2017年2月1日〜2月20日（必着） ☆持参の場合は20日17時まで<br><b>7. 応募先</b>：東丘国際交流協会 留学生寮入居者募集係<br><b>8. 必要書類</b>：<br>① 申請書（本ホームページからダウンロード可能）<br>② 大学の在学証明書（入学予定者は合格通知書）のコピー<br>③ パスポート「写真およびパスポート番号のページ」のコピー（入学予定者のみ）<br>※Eメール提出の場合、②、③は画像データを添付してください。<br><b>9. 結果通知</b>：本協会の基準に基づき選考を行い、2017年2月28日にEメールで通知します。<br><br><b>【ジエゴさんのメモ】</b><br>・寮費は3万円以下のところがいい。<br>・寮費に光熱費が含まれているところがいい。<br>・1人用で、トイレと風呂がある部屋がいい。<br>・4月3日までに引っ越したい。",
           "questionText": "ジエゴさんの希望に合う寮はどれか。",
           "options": [
             "さくら寮のみ",
@@ -1028,7 +1028,7 @@ window.JLPT_DATA[5] = {
           ],
           "correctAnswer": 4,
           "explanation": "Người đang ở nước ngoài được nộp qua E-mail đính kèm file chụp hộ chiếu và giấy báo đỗ.",
-          "passage": "<b>留学生寮 入居者応募案内</b><br>\n1. <b>さくら寮</b>: 20,000円 / 4月15日から入居開始<br>\n2. <b>ふじ寮</b>: 28,000円 / 各室風呂トイレあり / 3月25日から入居開始 / 光熱費込み<br>\n3. <b>すみれ寮</b>: 15,000円* (*chưa gồm điện nước)<br>\n4. <b>つばき寮</b>: 8,000円 (không có bồn tắm toilet riêng)<br><br>\n<b>【ジエゴさんの希望】</b>: Tiền phòng &lt; 30,000 yên, đã gồm điện nước, phòng đơn khép kín, <b>chuyển vào trước 3/4</b>."
+          "passage": "<b>留学生寮 入居者応募案内</b><br>本協会では、下記のとおり来年度の入居者を募集します。<br><br><b>1. 募集対象者</b>：2017年4月に東京都及びその周辺の大学の学部に在籍する留学生。<br><b>2. 募集している部屋</b><br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\"><tr><th>寮名</th><th>部屋の種類</th><th>1ヶ月の寮費</th><th>設備</th></tr><tr><td><b>さくら寮</b></td><td>一人用</td><td>20,000円</td><td>8階建て・各室に風呂トイレあり</td></tr><tr><td rowspan=\"2\"><b>ふじ寮</b></td><td>一人用</td><td>28,000円</td><td rowspan=\"2\">6階建て・駐車場あり・各室に風呂トイレあり</td></tr><tr><td>家族用（四人まで）</td><td>48,000円*</td></tr><tr><td rowspan=\"2\"><b>すみれ寮</b></td><td>一人用</td><td>15,000円*</td><td rowspan=\"2\">3階建て・各室に風呂トイレあり</td></tr><tr><td>二人用</td><td>10,000円*</td></tr><tr><td><b>つばき寮</b></td><td>一人用</td><td>8,000円</td><td>3階建て・各室に風呂トイレなし</td></tr></table>注意 (1) *がついている場合、寮費には光熱費が含まれません。<br>　　 (2) すみれ寮二人用の部屋の寮費は、一人当たりの金額です。<br><br><b>3. 入居可能期間</b>：学部の標準修業年限まで（最長入居期間は、1年生なら4年、2年生なら3年、3年生なら2年、4年生なら1年までです。）<br><b>4. 入居開始日</b>：2017年3月25日から（さくら寮のみ建築中のため4月15日から）<br><b>5. 応募方法</b>：必要な書類を郵送または持参してください。（海外在住者はEメールでの提出も可）<br><b>6. 応募期間</b>：2017年2月1日〜2月20日（必着） ☆持参の場合は20日17時まで<br><b>7. 応募先</b>：東丘国際交流協会 留学生寮入居者募集係<br><b>8. 必要書類</b>：<br>① 申請書（本ホームページからダウンロード可能）<br>② 大学の在学証明書（入学予定者は合格通知書）のコピー<br>③ パスポート「写真およびパスポート番号のページ」のコピー（入学予定者のみ）<br>※Eメール提出の場合、②、③は画像データを添付してください。<br><b>9. 結果通知</b>：本協会の基準に基づき選考を行い、2017年2月28日にEメールで通知します。<br><br><b>【ジエゴさんのメモ】</b><br>・寮費は3万円以下のところがいい。<br>・寮費に光熱費が含まれているところがいい。<br>・1人用で、トイレと風呂がある部屋がいい。<br>・4月3日までに引っ越したい。"
         }
       ]
     },
@@ -1089,7 +1089,7 @@ window.JLPT_DATA[5] = {
           "sentence": "大学の先輩に結婚式の司会を頼んだが、丁寧に<ruby>断られた<rt>______</rt></ruby>。",
           "targetWord": "断られた",
           "options": [
-            "たら bounty",
+            "たられた",
             "だんられた",
             "きられた",
             "ことわられた"
@@ -1440,7 +1440,7 @@ window.JLPT_DATA[5] = {
           "id": 128,
           "mondai": 6,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題６",
-          "sentence": "<b>測定 (đo đạc, kiểm tra)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>測定</b>",
           "targetWord": "測定",
           "options": [
             "作品の完成まで何日かかるか、測定したら教えてください。",
@@ -1455,7 +1455,7 @@ window.JLPT_DATA[5] = {
           "id": 129,
           "mondai": 6,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題６",
-          "sentence": "<b>立場 (lập trường, cương vị)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>立場</b>",
           "targetWord": "立場",
           "options": [
             "私のマンションの立場は少し高い丘なので、遠くまでよく見えます。",
@@ -1470,7 +1470,7 @@ window.JLPT_DATA[5] = {
           "id": 130,
           "mondai": 6,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題６",
-          "sentence": "<b>のろのろ (chậm chạp, rề rà)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>のろのろ</b>",
           "targetWord": "のろのろ",
           "options": [
             "彼は8年もアメリカに住んでいたので、英語はのろのろ話せる。",
@@ -1485,7 +1485,7 @@ window.JLPT_DATA[5] = {
           "id": 131,
           "mondai": 6,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題６",
-          "sentence": "<b>頭にくる (tức giận, tức điên lên)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>頭にくる</b>",
           "targetWord": "頭にくる",
           "options": [
             "風邪を引いたたらしく、頭にきたので、朝からずっと頭痛がする。",
@@ -1500,7 +1500,7 @@ window.JLPT_DATA[5] = {
           "id": 132,
           "mondai": 6,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題６",
-          "sentence": "<b>二度と (không bao giờ lặp lại lần 2)</b> - Chọn câu đúng nhất:",
+          "sentence": "<b>二度と</b>",
           "targetWord": "二度と",
           "options": [
             "オリンピックの選手たちは、高い能力と技術を二度と見せてくれない。",

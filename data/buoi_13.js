@@ -13,7 +13,7 @@ window.JLPT_DATA[13] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "今朝は手足が凍えるほどの寒さだ。",
+          "question": "今朝は手足が<u>凍える</u>ほどの寒さだ。",
           "options": [
             "こごえる",
             "おとろえる",
@@ -28,7 +28,7 @@ window.JLPT_DATA[13] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "昨日、駅の近くで強盗事件があった。",
+          "question": "昨日、駅の近くで<u>強盗</u>事件があった。",
           "options": [
             "きょうかつ",
             "きょうとう",
@@ -43,7 +43,7 @@ window.JLPT_DATA[13] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "先生は生徒の意見を尊重した。",
+          "question": "先生は生徒の意見を<u>尊重</u>した。",
           "options": [
             "とうじゅう",
             "とうちょう",
@@ -58,7 +58,7 @@ window.JLPT_DATA[13] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "SNSを活用して商品を宣伝する。",
+          "question": "SNSを<u>活用</u>して商品を宣伝する。",
           "options": [
             "かつやく",
             "かつよう",
@@ -73,7 +73,7 @@ window.JLPT_DATA[13] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "ここは危険です。直ちに逃げてください。",
+          "question": "ここは危険です。<u>直ちに</u>逃げてください。",
           "options": [
             "すなわち",
             "たちまち",
@@ -88,7 +88,7 @@ window.JLPT_DATA[13] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "赤ちゃんのせいべつは妊娠4か月頃にわかるそうだ。",
+          "question": "赤ちゃんの<u>せいべつ</u>は妊娠4か月頃にわかるそうだ。",
           "options": [
             "生別",
             "性別",
@@ -103,7 +103,7 @@ window.JLPT_DATA[13] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "父の趣味は天体かんそくだ。",
+          "question": "父の趣味は天体<u>かんそく</u>だ。",
           "options": [
             "看測",
             "看則",
@@ -118,7 +118,7 @@ window.JLPT_DATA[13] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "彼は重い罪をおかした。",
+          "question": "彼は重い罪を<u>おかした</u>。",
           "options": [
             "犯した",
             "起した",
@@ -133,7 +133,7 @@ window.JLPT_DATA[13] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この割引券は一年間ゆうこうです。",
+          "question": "この割引券は一年間<u>ゆうこう</u>です。",
           "options": [
             "有功",
             "有効",
@@ -148,7 +148,7 @@ window.JLPT_DATA[13] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "本社を大阪にいてんする計画があります。",
+          "question": "本社を大阪に<u>いてん</u>する計画があります。",
           "options": [
             "移転",
             "居伝",
@@ -343,7 +343,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "彼はだまったまま、下を向いていた。",
+          "question": "彼は<u>だまった</u>まま、下を向いていた。",
           "options": [
             "話さないで",
             "見ないで",
@@ -358,7 +358,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "外がさわがしくて寝られない。",
+          "question": "外が<u>さわがしくて</u>寝られない。",
           "options": [
             "明るくて",
             "こわくて",
@@ -373,7 +373,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "もしさしつかえがなければ、一度こちらにいらっしゃってください。",
+          "question": "もし<u>さしつかえ</u>がなければ、一度こちらにいらっしゃってください。",
           "options": [
             "反対が",
             "問題が",
@@ -388,7 +388,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "あの人の指示はいつもあいまいだ。",
+          "question": "あの人の指示はいつも<u>あいまいだ</u>。",
           "options": [
             "わかりやすい",
             "はっきりしない",
@@ -403,7 +403,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "彼は次第に車のスピードを上げた。",
+          "question": "彼は<u>次第に</u>車のスピードを上げた。",
           "options": [
             "突然",
             "だんだん",
@@ -418,7 +418,7 @@ window.JLPT_DATA[13] = {
           "mondai": 6,
           "mondaiName": "問題6: 言葉の使い方",
           "type": "vocab",
-          "question": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【ぎっしり】",
+          "question": "次の言葉の使い方として最もよいものを一つ選びなさい。\n<u>ぎっしり</u>",
           "options": [
             "雨にぬれて服がぎっしりだ。",
             "お腹がすいていたので、夕飯をぎっしり食べた。",
@@ -717,6 +717,7 @@ window.JLPT_DATA[13] = {
         {
           "id": 47,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -740,6 +741,7 @@ window.JLPT_DATA[13] = {
         {
           "id": 48,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1330,7 +1332,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "新しい製品に対するあなたの【考え】はとても面白かった。",
+          "question": "新しい製品に対するあなたの<u>考え</u>はとても面白かった。",
           "options": [
             "サンプル",
             "クレーム",
@@ -1345,7 +1347,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "大地震を【契機】として消防の体制を新たにした。",
+          "question": "大地震を<u>契機</u>として消防の体制を新たにした。",
           "options": [
             "きっかけ",
             "チャンス",
@@ -1360,7 +1362,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "1990年代になってインターネットが一般の家庭に【普及し】始めた。",
+          "question": "1990年代になってインターネットが一般の家庭に<u>普及し</u>始めた。",
           "options": [
             "拡大し",
             "入り",
@@ -1375,7 +1377,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "明日、データを【修正した】文書を再提出します。",
+          "question": "明日、データを<u>修正した</u>文書を再提出します。",
           "options": [
             "書いた",
             "改善した",
@@ -1390,7 +1392,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "私はどうしても【真実】が知りたい。",
+          "question": "私はどうしても<u>真実</u>が知りたい。",
           "options": [
             "正しいこと",
             "本当のこと",
@@ -1405,7 +1407,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "工事現場の騒音に対する【クレーム】が近所から出ている。",
+          "question": "工事現場の騒音に対する<u>クレーム</u>が近所から出ている。",
           "options": [
             "事実",
             "苦情",
@@ -1420,7 +1422,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "彼は試験に落ちてしまったので、【落ち込んでいる】。",
+          "question": "彼は試験に落ちてしまったので、<u>落ち込んでいる</u>。",
           "options": [
             "うちけして",
             "へこんで",
@@ -1435,7 +1437,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "何度も約束を破るので、【腹が立って】、文句を言った。",
+          "question": "何度も約束を破るので、<u>腹が立って</u>、文句を言った。",
           "options": [
             "頭に来て",
             "気が短くて",
@@ -1450,7 +1452,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "六十階のここからの【眺め】はとても素晴らしい。",
+          "question": "六十階のここからの<u>眺め</u>はとても素晴らしい。",
           "options": [
             "ジャンル",
             "景色",
@@ -1465,7 +1467,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "私が希望する条件と【一致していた】ので、すぐに応募した。",
+          "question": "私が希望する条件と<u>一致していた</u>ので、すぐに応募した。",
           "options": [
             "そろっていた",
             "ぴったりだった",
@@ -1480,7 +1482,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "この会社では【各々】の資格や経験を生かして働いている。",
+          "question": "この会社では<u>各々</u>の資格や経験を生かして働いている。",
           "options": [
             "お互いの",
             "あれこれの",
@@ -1495,7 +1497,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "人と会ったらあいさつをするのは、最低限の【礼儀】だと思う。",
+          "question": "人と会ったらあいさつをするのは、最低限の<u>礼儀</u>だと思う。",
           "options": [
             "プラン",
             "サイン",
@@ -1510,7 +1512,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "重い荷物を【担いで】、一階から五階まで何回も往復した。",
+          "question": "重い荷物を<u>担いで</u>、一階から五階まで何回も往復した。",
           "options": [
             "背負って",
             "運んで",
@@ -1525,7 +1527,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "裁判で明らかになった事件の背景が新聞で【報じられた】。",
+          "question": "裁判で明らかになった事件の背景が新聞で<u>報じられた</u>。",
           "options": [
             "読んだ",
             "知らされた",
@@ -1540,7 +1542,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "仕事を【なまけて】いたら、残業することになってしまった。",
+          "question": "仕事を<u>なまけて</u>いたら、残業することになってしまった。",
           "options": [
             "たのんで",
             "サボって",
@@ -1555,7 +1557,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "失敗するかもしれないという不安を、彼は必死に【打ち消そう】としていた。",
+          "question": "失敗するかもしれないという不安を、彼は必死に<u>打ち消そう</u>としていた。",
           "options": [
             "訂正しよう",
             "あきらめよう",
@@ -1570,7 +1572,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "延長戦の結果、相手チームを一対0で【破った】。",
+          "question": "延長戦の結果、相手チームを一対0で<u>破った</u>。",
           "options": [
             "負けた",
             "負かした",
@@ -1585,7 +1587,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "そんな【でたらめ】を言っても、誰も信じないと思う。",
+          "question": "そんな<u>でたらめ</u>を言っても、誰も信じないと思う。",
           "options": [
             "うそ",
             "うわさ",
@@ -1600,7 +1602,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "ボランティア活動が地域の安全に【貢献した】。",
+          "question": "ボランティア活動が地域の安全に<u>貢献した</u>。",
           "options": [
             "関係があった",
             "耐えた",
@@ -1615,7 +1617,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "焼いた肉を野菜で【くるんで】、食べるとおいしいです。",
+          "question": "焼いた肉を野菜で<u>くるんで</u>、食べるとおいしいです。",
           "options": [
             "入れて",
             "おおって",
@@ -1630,7 +1632,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "一日中、子供の世話をして、【くたびれて】しまった。",
+          "question": "一日中、子供の世話をして、<u>くたびれて</u>しまった。",
           "options": [
             "疲れて",
             "くつろいで",
@@ -1645,7 +1647,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "なぜもう一度確認しなかったのかと【後悔した】。",
+          "question": "なぜもう一度確認しなかったのかと<u>後悔した</u>。",
           "options": [
             "あやまった",
             "つたえた",
@@ -1660,7 +1662,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "さまざまな【分野】に興味を持つことは、いいことだと思う。",
+          "question": "さまざまな<u>分野</u>に興味を持つことは、いいことだと思う。",
           "options": [
             "サンプル",
             "ジャンル",
@@ -1675,7 +1677,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "自分の考えを【主張する】だけでは、人を納得させることはできない。",
+          "question": "自分の考えを<u>主張する</u>だけでは、人を納得させることはできない。",
           "options": [
             "言い合う",
             "言い出す",
@@ -1690,7 +1692,7 @@ window.JLPT_DATA[13] = {
           "mondai": 5,
           "mondaiName": "類義語特訓: 意味が最も近い言葉",
           "type": "vocab",
-          "question": "【冷静】になれば、自分のしていることがおかしいことに気付くだろう。",
+          "question": "<u>冷静</u>になれば、自分のしていることがおかしいことに気付くだろう。",
           "options": [
             "落ち着けば",
             "順調になれば",

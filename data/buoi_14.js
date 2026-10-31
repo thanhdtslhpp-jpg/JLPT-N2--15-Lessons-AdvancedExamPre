@@ -13,7 +13,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "混雑を避けて時間差通勤をする。",
+          "question": "混雑を<u>避けて</u>時間差通勤をする。",
           "options": [
             "とけて",
             "さけて",
@@ -28,7 +28,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "駅に行く途中で雨が降り出した。",
+          "question": "駅に行く<u>途中</u>で雨が降り出した。",
           "options": [
             "とんちゅう",
             "とうちゅう",
@@ -43,7 +43,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "奨学金は来学期も継続して受けられます。",
+          "question": "奨学金は来学期も<u>継続</u>して受けられます。",
           "options": [
             "けいぞく",
             "けいそく",
@@ -58,7 +58,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "彼の映画は最新作を除いて全部見ています。",
+          "question": "彼の映画は最新作を<u>除いて</u>全部見ています。",
           "options": [
             "とどいて",
             "なげいて",
@@ -73,7 +73,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "マンション居住者の防災訓練が行われた。",
+          "question": "マンション居住者の<u>防災</u>訓練が行われた。",
           "options": [
             "ほうさい",
             "ぼうさい",
@@ -88,7 +88,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "もう少し詳しい地図はありませんか。",
+          "question": "もう少し<u>くわしい</u>地図はありませんか。",
           "options": [
             "細しい",
             "明しい",
@@ -103,7 +103,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "彼はやぶれた服を着ていても気にしない。",
+          "question": "彼は<u>やぶれた</u>服を着ていても気にしない。",
           "options": [
             "破れた",
             "敗れた",
@@ -118,7 +118,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "アンケート結果はそくざに集計された。",
+          "question": "アンケート結果は<u>そくざ</u>に集計された。",
           "options": [
             "速席",
             "速座",
@@ -133,7 +133,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "転職をしんけんに考えている。",
+          "question": "転職を<u>しんけん</u>に考えている。",
           "options": [
             "真剣",
             "真険",
@@ -148,7 +148,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "通りで手帳をひろった。",
+          "question": "通りで手帳を<u>ひろった</u>。",
           "options": [
             "払った",
             "拾った",
@@ -313,7 +313,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "このペースで行けば明日には大阪に着けるだろう。",
+          "question": "この<u>ペース</u>で行けば明日には大阪に着けるだろう。",
           "options": [
             "速度",
             "角度",
@@ -328,7 +328,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "学生およそ60人が集会に集まった。",
+          "question": "学生<u>およそ</u>60人が集会に集まった。",
           "options": [
             "せめて",
             "いったん",
@@ -343,7 +343,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "日本の雇用環境は依然として厳しい。",
+          "question": "日本の雇用環境は<u>依然として</u>厳しい。",
           "options": [
             "いわゆる",
             "あいかわらず",
@@ -358,7 +358,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "この文の意味はあいまいだ。",
+          "question": "この文の意味は<u>あいまいだ</u>。",
           "options": [
             "どきどきする",
             "どきどきしない",
@@ -373,7 +373,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "私は山のふもとの田んぼに囲まれた町に住んでいます。",
+          "question": "私は山の<u>ふもと</u>の田んぼに囲まれた町に住んでいます。",
           "options": [
             "山の上の方",
             "山の右の方",
@@ -388,7 +388,7 @@ window.JLPT_DATA[14] = {
           "mondai": 6,
           "mondaiName": "問題6: 言葉の使い方",
           "type": "vocab",
-          "question": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【範囲（はんい）】",
+          "question": "次の言葉の使い方として最もよいものを一つ選びなさい。\n<u>範囲（はんい）</u>",
           "options": [
             "彼は言語学の範囲で優れた学問的業績を上げた。",
             "警察は捜査範囲を広げる方針を採った。",
@@ -450,7 +450,7 @@ window.JLPT_DATA[14] = {
           "type": "vocab",
           "question": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【続出（ぞくしゅつ）】",
           "options": [
-            "今年の水泳大会では新記録が続出下。",
+            "今年の水泳大会では新記録が続出した。",
             "満員電車から乗客が続出してきた。",
             "薬で治ったと思っていた風邪が続出した。",
             "最近は、天気の悪い日が続出している。"
@@ -641,6 +641,7 @@ window.JLPT_DATA[14] = {
         {
           "id": 43,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -664,6 +665,7 @@ window.JLPT_DATA[14] = {
         {
           "id": 44,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -687,6 +689,7 @@ window.JLPT_DATA[14] = {
         {
           "id": 45,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -710,6 +713,7 @@ window.JLPT_DATA[14] = {
         {
           "id": 46,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -733,6 +737,7 @@ window.JLPT_DATA[14] = {
         {
           "id": 47,
           "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -764,7 +769,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "大切なデータのファイルを削除してしまった。",
+          "question": "大切なデータのファイルを<u>削除</u>してしまった。",
           "options": [
             "さくじょ",
             "けずじょ",
@@ -779,7 +784,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "この大学は留学生が2割を占めている。",
+          "question": "この大学は留学生が2割を<u>占めて</u>いる。",
           "options": [
             "せめて",
             "とめて",
@@ -794,7 +799,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "気が短く、怒りっぽいのが彼の欠点だ。",
+          "question": "気が短く、怒りっぽいのが彼の<u>欠点</u>だ。",
           "options": [
             "けつでん",
             "けつてん",
@@ -809,7 +814,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "社内での競争がはげしく、ストレスが大きい。",
+          "question": "社内での<u>競争</u>がはげしく、ストレスが大きい。",
           "options": [
             "きょそう",
             "きょうそう",
@@ -824,7 +829,7 @@ window.JLPT_DATA[14] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "今月の支出は多くなりそうだ。",
+          "question": "今月の<u>支出</u>は多くなりそうだ。",
           "options": [
             "しっしゅつ",
             "しっしゅう",
@@ -839,7 +844,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "危険ですから、ただちに建物から出てください。",
+          "question": "危険ですから、<u>ただちに</u>建物から出てください。",
           "options": [
             "直ちに",
             "急ちに",
@@ -854,7 +859,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "現在私は、新しい家でかいてきに過ごしている。",
+          "question": "現在私は、新しい家で<u>かいてき</u>に過ごしている。",
           "options": [
             "開適",
             "開滴",
@@ -869,7 +874,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "病気になってからほけんに入るのでは遅いと言われた。",
+          "question": "病気になってから<u>ほけん</u>に入るのでは遅いと言われた。",
           "options": [
             "保検",
             "保険",
@@ -884,7 +889,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "妹はギターにむちゅうで、朝から晩まで弾いている。",
+          "question": "妹はギターに<u>むちゅう</u>で、朝から晩まで弾いている。",
           "options": [
             "無虫",
             "夢虫",
@@ -899,7 +904,7 @@ window.JLPT_DATA[14] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "時計の針は5時46分をさしていた。",
+          "question": "時計の針は5時46分を<u>さして</u>いた。",
           "options": [
             "刺して",
             "指して",
@@ -1094,7 +1099,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "彼はいつも仕事に【妥協しない】。",
+          "question": "彼はいつも仕事に<u>妥協しない</u>。",
           "options": [
             "あきらめない",
             "手抜きをしない",
@@ -1109,7 +1114,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "突然の知らせに【うろたえて】しまった。",
+          "question": "突然の知らせに<u>うろたえて</u>しまった。",
           "options": [
             "慌てて",
             "怒って",
@@ -1124,7 +1129,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "その提案には【賛同しかねる】。",
+          "question": "その提案には<u>賛同しかねる</u>。",
           "options": [
             "反対だ",
             "賛成できない",
@@ -1139,7 +1144,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "彼女はどんな話題にも【柔軟に】対応できる。",
+          "question": "彼女はどんな話題にも<u>柔軟に</u>対応できる。",
           "options": [
             "素直に",
             "親切に",
@@ -1154,7 +1159,7 @@ window.JLPT_DATA[14] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "この規則は厳格に【遵守する】必要がある。",
+          "question": "この規則は厳格に<u>遵守する</u>必要がある。",
           "options": [
             "破る",
             "守る",
@@ -1247,7 +1252,7 @@ window.JLPT_DATA[14] = {
       "questions": [
         {
           "id": 80,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "A「夏休みはどうするの？」\nB「家族で北海道に行きたいなあ。（　　）休みが取れたらの話なんだけどね。」",
@@ -1262,7 +1267,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 81,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "あの真面目な吉田さんが、そんな冗談を言う（　　）。",
@@ -1277,7 +1282,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 82,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "A「ねえ、知ってる？安藤さん、来月歌手としてデビューするらしいよ。」\nB「えっ、信じられないなあ。あの安藤さんが歌手になる（　　）。」",
@@ -1292,7 +1297,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 83,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "（テスト後に）\n「もっと（　　）。思ったより難しかった…。」",
@@ -1307,7 +1312,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 84,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "（講演会で）\n「ただいま皆様に（　　）映画は、およそ80年前に制作されたものです。」",
@@ -1322,7 +1327,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 85,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "係員の指示（　　）車を止めてください。",
@@ -1337,7 +1342,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 86,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "風邪をひいてしまったが、大事な試験があるから休む（　　）。",
@@ -1352,7 +1357,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 87,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "一度決心した（　　）、最後までやり通す強い意志を持たなければならない。",
@@ -1367,7 +1372,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 88,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "長年の努力の（　　）、ついに自分の店を持つことができた。",
@@ -1382,7 +1387,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 89,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "彼女の歌声は、聴く人の心を揺さぶらずには（　　）。",
@@ -1397,7 +1402,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 90,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "この機械は複雑（　　）、操作がとても直感的で使いやすい。",
@@ -1412,7 +1417,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 91,
-          "mondai": 1,
+          "mondai": 7,
           "mondaiName": "文法問題1: 空欄補充",
           "type": "grammar",
           "question": "あのピアニストの演奏は、技術（　　）感情表現においても一流だ。",
@@ -1427,7 +1432,8 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 92,
-          "mondai": 2,
+          "mondai": 8,
+          "starPositionIndex": 2,
           "mondaiName": "文法問題2: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1450,7 +1456,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 93,
-          "mondai": 2,
+          "mondai": 8,
           "mondaiName": "文法問題2: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1473,7 +1479,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 94,
-          "mondai": 2,
+          "mondai": 8,
           "mondaiName": "文法問題2: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1496,7 +1502,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 95,
-          "mondai": 2,
+          "mondai": 8,
           "mondaiName": "文法問題2: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1519,7 +1525,7 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 96,
-          "mondai": 2,
+          "mondai": 8,
           "mondaiName": "文法問題2: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
@@ -1542,10 +1548,11 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 97,
-          "mondai": 3,
+          "mondai": 9,
           "mondaiName": "文法問題3: 文章の文法",
           "type": "grammar",
-          "question": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n［ 97 ］に入る最もよいものを選びなさい。",
+          "passage": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\nSNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。",
+          "question": "［ 97 ］に入る最もよいものを選びなさい。",
           "options": [
             "こと",
             "もの",
@@ -1557,10 +1564,11 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 98,
-          "mondai": 3,
+          "mondai": 9,
           "mondaiName": "文法問題3: 文章の文法",
           "type": "grammar",
-          "question": "一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\n［ 98 ］に入る最もよいものを選びなさい。",
+          "passage": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\nSNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。",
+          "question": "［ 98 ］に入る最もよいものを選びなさい。",
           "options": [
             "できないに違いない",
             "できないはずだ",
@@ -1572,10 +1580,11 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 99,
-          "mondai": 3,
+          "mondai": 9,
           "mondaiName": "文法問題3: 文章の文法",
           "type": "grammar",
-          "question": "SNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n［ 99 ］に入る最もよいものを選びなさい。",
+          "passage": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\nSNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。",
+          "question": "［ 99 ］に入る最もよいものを選びなさい。",
           "options": [
             "だけに",
             "反面",
@@ -1587,10 +1596,11 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 100,
-          "mondai": 3,
+          "mondai": 9,
           "mondaiName": "文法問題3: 文章の文法",
           "type": "grammar",
-          "question": "短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n［ 100 ］に入る最もよいものを選びなさい。",
+          "passage": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\nSNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。",
+          "question": "［ 100 ］に入る最もよいものを選びなさい。",
           "options": [
             "忘れることなく",
             "忘れるばかりに",
@@ -1602,10 +1612,11 @@ window.JLPT_DATA[14] = {
         },
         {
           "id": 101,
-          "mondai": 3,
+          "mondai": 9,
           "mondaiName": "文法問題3: 文章の文法",
           "type": "grammar",
-          "question": "言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。\n\n［ 101 ］に入る最もよいものを選びなさい。",
+          "passage": "【文章：言葉の力とコミュニケーション】\n日常の何気ない会話の中で、私たちは無数の言葉を交わしている。相手を励ます温かい言葉がある一方で、心ない一言が相手の胸に深く突き刺さる［　97　］もある。\n\n一度口から出た言葉は、消しゴムで消すように取り消すことは［　98　］。それゆえ、言葉を発する際には、相手の立場に立った慎重な配慮が欠かせない。\n\nSNSの普及によって文字によるコミュニケーションが主流となった現代、相手の表情や声のトーンが見えない［　99　］、誤解が生じるリスクも高まっている。\n\n短いメッセージを送る際にも、相手への敬意や思いやりを［　100　］、温かい人間関係を築いていきたいものだ。\n\n言葉遣い一つで、人間関係は良くも悪くも大きく変わる。言葉の持つ重みを真摯に受け止めることこそが、成熟した大人としての第一歩［　101　］。",
+          "question": "［ 101 ］に入る最もよいものを選びなさい。",
           "options": [
             "にほかならない",
             "にすぎない",

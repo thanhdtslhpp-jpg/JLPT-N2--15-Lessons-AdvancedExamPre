@@ -13,7 +13,7 @@ window.JLPT_DATA[15] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "日本では1960年代にテレビが普及し始めた。",
+          "question": "日本では1960年代にテレビが<u>普及</u>し始めた。",
           "options": [
             "ふきゅう",
             "ふきょう",
@@ -28,7 +28,7 @@ window.JLPT_DATA[15] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "政府の発表は国民の混乱を招いた。",
+          "question": "政府の発表は国民の混乱を<u>招いた</u>。",
           "options": [
             "ひきいた",
             "みぬいた",
@@ -43,7 +43,7 @@ window.JLPT_DATA[15] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "東京から大阪までの距離はおよそ550kmです。",
+          "question": "東京から大阪までの<u>距離</u>はおよそ550kmです。",
           "options": [
             "きょうり",
             "きょり",
@@ -58,7 +58,7 @@ window.JLPT_DATA[15] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "この野菜には多くのビタミンが含まれている。",
+          "question": "この野菜には多くのビタミンが<u>含まれて</u>いる。",
           "options": [
             "たのまれて",
             "くるまれて",
@@ -73,7 +73,7 @@ window.JLPT_DATA[15] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "会議で自分の考えを主張する。",
+          "question": "会議で自分の考えを<u>主張</u>する。",
           "options": [
             "しゅちょう",
             "ゆちょう",
@@ -88,7 +88,7 @@ window.JLPT_DATA[15] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "近年、情報通信技術はいちじるしく進歩した。",
+          "question": "近年、情報通信技術は<u>いちじるしく</u>進歩した。",
           "options": [
             "若しく",
             "著しく",
@@ -103,7 +103,7 @@ window.JLPT_DATA[15] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "次期社長のこうほとして名前が挙がっている。",
+          "question": "次期社長の<u>こうほ</u>として名前が挙がっている。",
           "options": [
             "候補",
             "候保",
@@ -118,7 +118,7 @@ window.JLPT_DATA[15] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "若いうちに知識と体力をたくわえておくべきだ。",
+          "question": "若いうちに知識と体力を<u>たくわえて</u>おくべきだ。",
           "options": [
             "蓄える",
             "貯える",
@@ -133,7 +133,7 @@ window.JLPT_DATA[15] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "正式なけいやくを結ぶ前に条件を確認する。",
+          "question": "正式な<u>けいやく</u>を結ぶ前に条件を確認する。",
           "options": [
             "契役",
             "契約",
@@ -148,7 +148,7 @@ window.JLPT_DATA[15] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "被災地へ食料と医療品をえんじょする。",
+          "question": "被災地へ食料と医療品を<u>えんじょ</u>する。",
           "options": [
             "遠助",
             "演助",
@@ -343,7 +343,7 @@ window.JLPT_DATA[15] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "会場には【おおよそ】300人の参加者が集まった。",
+          "question": "会場には<u>おおよそ</u>300人の参加者が集まった。",
           "options": [
             "きっかり",
             "だいたい",
@@ -358,7 +358,7 @@ window.JLPT_DATA[15] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "彼の話し方は父親に【そっくり】だ。",
+          "question": "彼の話し方は父親に<u>そっくり</u>だ。",
           "options": [
             "よく合っている",
             "親切だ",
@@ -373,7 +373,7 @@ window.JLPT_DATA[15] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "結果が出るのを待つ間、【いらいら】して落ち着かなかった。",
+          "question": "結果が出るのを待つ間、<u>いらいら</u>して落ち着かなかった。",
           "options": [
             "落ち着かないで",
             "怖くて",
@@ -388,7 +388,7 @@ window.JLPT_DATA[15] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "人前でそのような態度を取るのは【みっともない】。",
+          "question": "人前でそのような態度を取るのは<u>みっともない</u>。",
           "options": [
             "危険だ",
             "面倒だ",
@@ -403,7 +403,7 @@ window.JLPT_DATA[15] = {
           "mondai": 5,
           "mondaiName": "問題5: 言い換え類義語",
           "type": "vocab",
-          "question": "物価の上昇傾向は【依然として】続いている。",
+          "question": "物価の上昇傾向は<u>依然として</u>続いている。",
           "options": [
             "いわゆる",
             "あいかわらず",
