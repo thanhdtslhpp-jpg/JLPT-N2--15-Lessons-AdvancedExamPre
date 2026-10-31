@@ -1757,8 +1757,8 @@ class JLPTApp {
     if (q.passage && q.passage.trim().length > 0) {
       return { passage: q.passage, isShared: false, sourceId: q.id };
     }
-    // Nếu câu hỏi đọc hiểu (Mondai >= 10) bị thiếu bài đọc, tìm ngược về câu trước cùng Mondai
-    if (q.mondai >= 10 && allQuestions) {
+    // Nếu câu hỏi điền từ (Mondai 9) hoặc đọc hiểu (Mondai >= 10) bị thiếu bài đọc, tìm ngược về câu trước cùng Mondai
+    if (q.mondai >= 9 && allQuestions) {
       const currIdx = allQuestions.findIndex(x => x.id === q.id);
       if (currIdx > 0) {
         for (let i = currIdx - 1; i >= 0; i--) {
@@ -1770,6 +1770,33 @@ class JLPTApp {
       }
     }
     return { passage: null, isShared: false };
+  }
+
+  // Lấy nhóm tất cả các câu hỏi cùng thuộc một bài đọc / đoạn văn với câu q
+  getPassageQuestionGroup(q, allQuestions) {
+    if (!allQuestions) allQuestions = this.getAllQuestions();
+    const pInfo = this.getQuestionPassage(q, allQuestions);
+    if (!pInfo || !pInfo.passage) {
+      return [q];
+    }
+
+    const clean = (str) => (str || "").replace(/<[^>]+>/g, "").replace(/\s+/g, "").trim();
+    const targetClean = clean(pInfo.passage);
+    const currIdx = allQuestions.findIndex(x => x.id === q.id);
+    if (currIdx === -1) return [q];
+
+    const group = allQuestions.filter(item => {
+      if (item.mondai !== q.mondai) return false;
+      const itemPInfo = this.getQuestionPassage(item, allQuestions);
+      if (!itemPInfo || !itemPInfo.passage) return false;
+      
+      if (pInfo.sourceId && itemPInfo.sourceId && pInfo.sourceId === itemPInfo.sourceId) {
+        return true;
+      }
+      return clean(itemPInfo.passage) === targetClean;
+    });
+
+    return group.length > 0 ? group : [q];
   }
 
   renderQuestions() {
@@ -2118,13 +2145,41 @@ class JLPTApp {
 
     // Explanation & Dokkai Translation
     let explanationHTML = "";
-    // Chỉ lấy và hiển thị bản dịch bài đọc khi câu hỏi thực sự là bài Đọc hiểu (có bài đọc đi kèm hoặc Mondai 10 - 14)
-    const isDokkaiQuestion = !!(passageInfo && passageInfo.passage) || !!q.passage || (q.mondai >= 10 && q.mondai <= 14);
+    // Chỉ lấy và hiển thị bản dịch bài đọc khi câu hỏi thực sự là bài Đọc hiểu hoặc Điền từ đoạn văn (có bài đọc đi kèm hoặc Mondai >= 9)
+    const isDokkaiQuestion = !!(passageInfo && passageInfo.passage) || !!q.passage || (q.mondai >= 9 && q.mondai <= 14);
+
+    // Xác định nhóm câu hỏi cùng chia sẻ đoạn văn
+    const allQuestions = this.getAllQuestions();
+    const passageGroup = this.getPassageQuestionGroup(q, allQuestions);
+    const isMultiQuestionPassage = passageGroup && passageGroup.length > 1;
+
+    // Kiểm tra câu hiện tại có phải là vị trí cuối cùng trong nhóm đoạn văn hay không
+    // (Trong trường hợp lọc review/sao, lấy câu cuối cùng trong số các câu đang hiển thị)
+    const filteredGroup = filteredList.filter(item => passageGroup.some(pg => pg.id === item.id));
+    const lastQuestionInGroup = filteredGroup.length > 0 ? filteredGroup[filteredGroup.length - 1] : passageGroup[passageGroup.length - 1];
+    const isLastInPassageGroup = !isMultiQuestionPassage || (lastQuestionInGroup && q.id === lastQuestionInGroup.id);
+
     let trans = null;
     if (isDokkaiQuestion) {
       const transKey = `${this.currentSessionId}_${passageInfo.sourceId || q.id}`;
       trans = (window.JLPT_PASSAGE_TRANSLATIONS && window.JLPT_PASSAGE_TRANSLATIONS[transKey])
+              || (window.JLPT_PASSAGE_TRANSLATIONS && window.JLPT_PASSAGE_TRANSLATIONS[`${this.currentSessionId}_${q.id}`])
               || q.passageTranslation;
+
+      // Nếu câu cuối cùng chưa tìm thấy bản dịch theo ID riêng, tìm từ các câu khác cùng nhóm đoạn văn
+      if (!trans && isMultiQuestionPassage) {
+        for (const member of passageGroup) {
+          const mKey = `${this.currentSessionId}_${member.id}`;
+          if (window.JLPT_PASSAGE_TRANSLATIONS && window.JLPT_PASSAGE_TRANSLATIONS[mKey]) {
+            trans = window.JLPT_PASSAGE_TRANSLATIONS[mKey];
+            break;
+          }
+          if (member.passageTranslation) {
+            trans = member.passageTranslation;
+            break;
+          }
+        }
+      }
     }
 
     if (showFeedback && (q.explanation || (trans && trans.trim()))) {
@@ -2132,17 +2187,27 @@ class JLPTApp {
         ? (isBookmarked ? "✓ Chính xác (Đã tự động bỏ dấu sao ⭐)" : "✓ Chính xác") 
         : `✗ Chưa đúng (Đáp án: ${q.correctAnswer} - Đã tự động lưu ⭐)`;
 
-      // Dokkai Full Passage Translation
+      // Dokkai Full Passage Translation: Chỉ hiển thị ở vị trí cuối cùng trong đoạn văn
       let translationHTML = "";
-      if (trans && trans.trim()) {
+      if (isLastInPassageGroup) {
+        if (trans && trans.trim()) {
+          translationHTML = `
+            <div class="dokkai-translation-box">
+              <div class="dokkai-translation-header">
+                <i class="fas fa-language"></i> 📖 DỊCH TIẾNG VIỆT TOÀN BỘ BÀI ĐỌC:
+              </div>
+              <div class="dokkai-translation-body">
+                ${trans.trim()}
+              </div>
+            </div>
+          `;
+        }
+      } else if (isMultiQuestionPassage && trans && trans.trim()) {
+        const lastQId = lastQuestionInGroup ? lastQuestionInGroup.id : "";
         translationHTML = `
-          <div class="dokkai-translation-box">
-            <div class="dokkai-translation-header">
-              <i class="fas fa-language"></i> 📖 DỊCH TIẾNG VIỆT TOÀN BỘ BÀI ĐỌC:
-            </div>
-            <div class="dokkai-translation-body">
-              ${trans.trim()}
-            </div>
+          <div class="dokkai-translation-hint" style="margin-top: 0.65rem; padding: 0.5rem 0.85rem; background: rgba(59, 130, 246, 0.08); border-left: 3px solid var(--primary); font-size: 0.82rem; color: var(--text-sub); border-radius: 4px; display: flex; align-items: center; gap: 0.45rem;">
+            <i class="fas fa-info-circle" style="color: var(--primary); flex-shrink: 0;"></i>
+            <span>Bản dịch tiếng Việt toàn bộ đoạn văn sẽ xuất hiện sau khi bạn hoàn thành vị trí cuối cùng${lastQId ? ` (Câu ${lastQId})` : ""} để tránh lộ trước đáp án.</span>
           </div>
         `;
       }
