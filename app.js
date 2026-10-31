@@ -1315,6 +1315,40 @@ class JLPTApp {
       });
     }
 
+    if (btnCopy) {
+      btnCopy.addEventListener("pointerdown", async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (currentSelectedText) {
+          try {
+            await navigator.clipboard.writeText(currentSelectedText);
+            const orig = btnCopy.innerHTML;
+            btnCopy.innerHTML = `<i class="fas fa-check" style="color: #10b981;"></i> <span>Đã chép</span>`;
+            setTimeout(() => {
+              btnCopy.innerHTML = orig;
+              hideBubble();
+            }, 800);
+          } catch (err) {
+            const ta = document.createElement("textarea");
+            ta.value = currentSelectedText;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+            hideBubble();
+          }
+        }
+      });
+    }
+
+    // Chặn menu mặc định của iOS / iPadOS khi đang bôi đen chữ
+    document.addEventListener("contextmenu", (e) => {
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed && sel.toString().trim()) {
+        e.preventDefault();
+      }
+    });
+
     if (btnHl) {
       btnHl.addEventListener("pointerdown", (e) => {
         e.preventDefault();

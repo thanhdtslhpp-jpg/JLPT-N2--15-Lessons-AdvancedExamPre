@@ -4185,3 +4185,27 @@ button,
   background: var(--card-bg);
   border: 1.5px solid var(--border);
 }
+
+
+/* ==========================================================================
+   TẮT MENU HỆ THỐNG MẶC ĐỊNH CỦA IOS / IPADOS (Sao chép, Tìm kiếm Google...)
+   Khi người dùng bôi đen chữ, chỉ hiển thị menu tùy biến [Đọc | Tra từ]
+   ========================================================================== */
+* {
+  -webkit-touch-callout: none !important;
+}
+
+.question-text,
+.reading-passage,
+.reading-box,
+.option-text,
+.furigana-text,
+.dokkai-content,
+.dokkai-lead,
+.star-sentence-box,
+.grammar-meaning,
+.explanation-box {
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
