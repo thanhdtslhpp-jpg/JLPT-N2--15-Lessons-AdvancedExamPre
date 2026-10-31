@@ -1,4 +1,3 @@
-// Buổi 12: Đề Thi Thật N2 Tháng 07/2021 & Chuyên Đề Chuyên Sâu
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[12] = {
   "sessionId": 12,
@@ -31,13 +30,13 @@ window.JLPT_DATA[12] = {
           "type": "kanji",
           "question": "近年、科学技術は著しい進歩を見せている。",
           "options": [
-            "かがやかしい",
+            "めざましい",
             "かがやかしい",
             "いちじるしい",
             "いちるじしい"
           ],
           "correctAnswer": 3,
-          "explanation": "「著しい」 đọc là 「いちじるしい」 (đáng kể, nổi bật, rõ rệt)."
+          "explanation": "「著しい」 đọc là 「いちじるしい」 (đáng kể, nổi bật, rõ rệt).<br>• 1. めざましい: 目覚ましい (nổi bật, rực rỡ)<br>• 2. かがやかしい: 輝かしい (huy hoàng, rực rỡ)<br>• <b>3. いちじるしい: 著しい (đáng kể, rõ rệt) [Đúng]</b>"
         },
         {
           "id": 3,
@@ -2183,194 +2182,194 @@ window.JLPT_DATA[12] = {
       "id": "choukai",
       "name": "Phần 5: 聴解 - Luyện Nghe Đề Thi Thật N2 07/2021 (11 câu)",
       "questions": [
-            {
-                  "id": 139,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m1_01.mp3",
-                  "questionText": "大学でダンスサークルの男の学生と女の学生が話しています。男の学生は今日何をしますか。",
-                  "options": [
-                        "ポスターを掲示板に貼る",
-                        "ポスターを貼る許可をもらう",
-                        "チラシを作る",
-                        "チラシを配る"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nam sinh và một nữ sinh thuộc câu lạc bộ khiêu vũ đang nói chuyện. Nam sinh hôm nay sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ポスターを掲示板に貼る: Dán poster lên bảng thông báo<br>2. ポスターを貼る許可をもらう: Xin phép dán poster<br>3. チラシを作る: Làm tờ rơi<br>4. チラシを配る: Phát tờ rơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：おはよう。ちょうどよかった。頼みたいことがあるんだけど。<br>男：おはようございます。<br>女：あー、そのポスター、来週のサークルの紹介でやるダンスのお知らせですね。新入生勧誘のための。掲示板に貼るんですか。<br>男：うん。その前に学生課で掲示の許可をもらわないといけないから。今から行くんだ。<br>女：そうなんですか。後で貼るのを手伝いましょうか？<br>男：これは一人で大丈夫。<b>別にチラシも作ってあるんだけど、それを今日、大学の中で配る予定なんだ。その時何人か必要だから、手伝ってくれる？</b><br>女：<b>はい、分かりました。</b>僕たちのダンスを見て、新入生がたくさん入ってくれるといいですね。<br>男：そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh hỏi có cần giúp dán poster không, nam sinh bảo: \"Đây thì một mình anh làm được. Ngoài ra anh đã làm sẵn tờ rơi, hôm nay dự định phát trong trường. Lúc đó cần vài người, em giúp anh nhé?\" &rarr; Nữ sinh đồng ý.<br>- Nam sinh nhờ nữ sinh giúp phát tờ rơi, vậy việc nam sinh làm hôm nay cùng nữ sinh là đi phát tờ rơi.<br>&rarr; <b>Đáp án đúng là 4 (チラシを配る)</b>."
-            },
-            {
-                  "id": 140,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m1_02.mp3",
-                  "questionText": "駅の窓口で女の人が電車の切符を買おうとしています。女の人はどの切符を買いますか。",
-                  "options": [
-                        "新幹線指定席",
-                        "新幹線自由席",
-                        "特急指定席",
-                        "特急自由席"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại quầy vé nhà ga, một phụ nữ đang định mua vé tàu. Người phụ nữ sẽ mua loại vé nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 新幹線指定席: Shinkansen ghế chỉ định (đặt trước)<br>2. 新幹線自由席: Shinkansen ghế tự do<br>3. 特急指定席: Tàu tốc hành đặc biệt ghế chỉ định<br>4. 特急自由席: Tàu tốc hành đặc biệt ghế tự do<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：あの、明日西川まで行きたいんですけど、あちらに3時半までには着きたいんですね。で、あの、どの電車がいいのかなあと思って。あの、新幹線でも。<br>男：えっと、新幹線ですと、西川に行く場合、北川で普通列車に乗り換えていただくことになりますね。でなければ特急を利用するかですね。特急ですと、ここから西川まで一本ですね。<br>女：そうですか。あの、私乗り換えは間違えないかといつも心配で。<br>男：じゃあ、乗り換えはなしで。そうしますと、えっと、15時半に西川駅着となりますと、んー、あ、13時40分の特急ですね。<b>指定席ですが、ああ、もう禁煙車はいっぱいですね。喫煙車でもいいですか。</b><br>女：<b>いや、タバコは困ります、私。</b><br>男：<b>分かりました。じゃあ、自由席になりますね。</b>すいませんが、申し込み用紙に記入して窓口までお持ちください。<br>女：はい、じゃあ、そうします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ muốn đi chuyến không cần chuyển tàu &rarr; chọn đi Tokkyu (特急).<br>- Ghế chỉ định toa hút thuốc còn chỗ nhưng cô không chịu được khói thuốc &rarr; Nhân viên bảo vậy thì đi ghế tự do (自由席 toa không hút thuốc).<br>&rarr; <b>Đáp án đúng là 4 (特急自由席)</b>."
-            },
-            {
-                  "id": 141,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m1_03.mp3",
-                  "questionText": "会社で男の人と女の人が話しています。女の人はこの後まず何をしますか。",
-                  "options": [
-                        "鍋を買う",
-                        "田中さんと話す",
-                        "お金を集める",
-                        "花を買う"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, một người nam và một người nữ đang nói chuyện. Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 鍋を買う: Mua nồi<br>2. 田中さんと話す: Nói chuyện với Tanaka-san<br>3. お金を集める: Thu tiền mọi người<br>4. 花を買う: Mua hoa<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんが今月いっぱいで退職ですから、みんなで何かプレゼントしようと思っているんだけど。<br>女：ああ、いいですね。何がいいかなあ。<br>男：何かリクエストがあるか聞いてみようと思ってるんだけど。<br>女：田中さんって、何かほしいものないって直接聞いても、いいですって言いそうですし。<br>男：あ、そうそう。この前、鍋のいいのがほしいとか言ってなかったっけ。料理教室に通い始めたからって。<br>女：そうでしたね。<br>男：<b>ああ、でも、もう買っちゃったってこともあるから、それとなく本人に探ってみてよ。それでまだだったら、鍋にしようよ。</b><br>女：<b>そうですね。今日のランチの時にでも。</b><br>男：うん。頼んだよ。プレゼント代はそのあとでみんなから集めて、余れば当日花を買おう。<br>女：はい。花の注文は私の方でします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tanaka sắp nghỉ việc, mọi người tính tặng quà là chiếc nồi nấu ăn. Tuy nhiên sợ Tanaka đã tự mua rồi nên người nam bảo người nữ: \"Em hãy kín đáo dò hỏi xem sao (探ってみて)\".<br>- Người nữ đồng ý sẽ hỏi chuyện Tanaka vào bữa trưa hôm nay (今日のランチの時にでも). Sau đó mới thu tiền và đặt hoa.<br>&rarr; <b>Đáp án đúng là 2 (田中さんと話す)</b>."
-            },
-            {
-                  "id": 142,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m1_04.mp3",
-                  "questionText": "女の人が新しい商品の紹介をしています。よく頭が痛くなる人は、どの商品を選びますか。",
-                  "options": [
-                        "月のお茶",
-                        "星のお茶",
-                        "虹のお茶",
-                        "空のお茶"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ đang giới thiệu dòng sản phẩm trà mới. Người hay bị đau đầu nên chọn sản phẩm nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 月のお茶: Trà Mặt Trăng (ấm người, người hay lạnh chân tay)<br>2. 星のお茶: Trà Ngôi Sao (người mỏi mắt do máy tính)<br>3. 虹のお茶: Trà Cầu Vồng (người bị đau đầu)<br>4. 空のお茶: Trà Bầu Trời (người khó ngủ)<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：こちら、新発売の中国茶をご案内します。今回皆様にご紹介いたしますのは、月・星・虹・空のお茶の4種類でございます。さあ、どうぞ召し上がってください。えー、月のお茶は体を温めてくれます。体が冷えやすい方に向いています。星のお茶はパソコン等の見すぎで目が疲れている方。<b>虹のお茶は頭痛でお悩みの方に最適です。</b>なかなか眠れない方には空のお茶がお勧めです。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bài nói nêu rõ công dụng từng loại:<br>  + 月のお茶: Làm ấm cơ thể, hợp người hay bị lạnh.<br>  + 星のお茶: Người nhìn màn hình nhiều mỏi mắt.<br>  + <b>虹のお茶: Tối ưu cho người đau đầu (頭痛でお悩みの方に最適)</b>.<br>  + 空のお茶: Dành cho người khó ngủ.<br>&rarr; <b>Đáp án đúng là 3 (虹のお茶)</b>."
-            },
-            {
-                  "id": 143,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m1_05.mp3",
-                  "questionText": "大学の事務室で男の学生と職員が話しています。男の学生はこの後、まず何をしなければなりませんか。",
-                  "options": [
-                        "手数料を払う",
-                        "写真を持ってくる",
-                        "再発行の申込書を書く",
-                        "連絡先を変更する"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại văn phòng đại học, một nam sinh và một nhân viên đang nói chuyện. Nam sinh sau đây trước tiên phải làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 手数料を払う: Nộp lệ phí<br>2. 写真を持ってくる: Mang ảnh đến<br>3. 再発行の申込書を書く: Viết đơn xin cấp lại thẻ<br>4. 連絡先を変更する: Thay đổi địa chỉ liên lạc<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、学生証をなくしたんですが、再発行をお願いできますか。<br>職員：再発行には手数料が900円かかります。あと、写真が1枚必要です。えー、それから、再発行するとこれまでのものはもし見つかっても使えませんので。<br>男：はい。手数料、今払います。写真も持ってきました。<br>職員：<b>じゃ、先に写真、いただきます。それから、こちらの再発行の申込書を書いてもらえますか。</b><br>男：はい。<br>職員：あ、住所や電話番号は変わってませんか。変更がある場合は先にその変更届を出してもらわなくちゃいけないんで。<br>男：入学した時から変わってません。<br>職員：分かりました。ええ、手数料はここではなく、会計課で払ってもらいます。<b>申込書の記入が済んだらコピーをお渡しするので、それを会計課に持っていって手数料を払ってください。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã mang ảnh theo và nộp ảnh cho nhân viên rồi. Địa chỉ không thay đổi nên không cần làm đơn đổi.<br>- Bước tiếp theo nhân viên yêu cầu: \"Em hãy điền đơn xin cấp lại thẻ (再発行の申込書を書いてもらえますか)\". Sau khi điền xong mới cầm bản sao qua phòng kế toán nộp tiền.<br>&rarr; <b>Đáp án đúng là 3 (再発行の申込書を書く)</b>."
-            },
-            {
-                  "id": 144,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_01.mp3",
-                  "questionText": "郵便局で女の人が荷物を送ろうとしています。荷物はいつ届く予定ですか。",
-                  "options": [
-                        "明日の午前中",
-                        "明日の夜",
-                        "明後日の午前中",
-                        "明後日の夜"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bưu điện, người phụ nữ đang định gửi bưu kiện. Bưu kiện dự kiến bao giờ sẽ tới nơi?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 明日の午前中: Sáng mai<br>2. 明日の夜: Tối mai<br>3. 明後日の午前中: Sáng ngày kia<br>4. 明後日の夜: Tối ngày kia<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：これ明日までに届きますか？<br>男：ちょっとお待ちください。ああ、明日は無理ですね。<br>女：じゃあ、明後日になるの？食べ物が入っているんだけど、困ったなあ。仕方がないわね。<br>男：すみません。あの、時間の指定はできますか。一番早いのは午前中ですけど。<br>女：じゃあ、早いほうがいいんで、それでお願いします。<br>男：はい。午前中ですね。<br>女：<b>あ、待って。留守にしているかもしれない、やっぱり夜8時以降で。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bưu điện báo ngày mai không kịp, chỉ có thể đến vào ngày kia (明後日).<br>- Ban đầu phụ nữ chọn sáng sớm ngày kia, nhưng sau đó nhớ ra người nhận có thể vắng nhà nên đổi lại sang buổi tối sau 8 giờ (やっぱり夜8時以降で).<br>&rarr; <b>Đáp án đúng là 4 (明後日の夜)</b>."
-            },
-            {
-                  "id": 145,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_02.mp3",
-                  "questionText": "サッカーの試合の後、アナウンサーが解説の人に話を聞いています。チームブルーが勝った理由は何だと言っていますか。",
-                  "options": [
-                        "監督の指示が的確だったから",
-                        "新しい戦術が成功したから",
-                        "選手一人ひとりの体力があったから",
-                        "相手チームにミスが多かったから"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Blue giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 監督の指示が的確だったから: Chỉ đạo của huấn luyện viên chuẩn xác<br>2. 新しい戦術が成功したから: Chiến thuật mới thành công<br>3. 選手一人ひとりの体力があったから: Từng cầu thủ đều có thể lực dồi dào, bền bỉ<br>4. 相手チームにミスが多かったから: Đội đối phương mắc nhiều lỗi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日の試合、チームブルーが見事な勝利でしたね。<br>男：ええ、今日は蒸し暑くて、相手チームは後半足が止まってしまいましたが、<b>チームブルーは最後までよく走っていましたね。選手一人ひとりの体力の差が出ましたね。</b><br>アナウンサー：なるほど。監督のベンチからの指示も盛んでしたが。<br>男：いえ、試合中は選手の判断がすべてです。やはり日頃の走り込みによるスタミナの勝利でしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đối thủ đuối sức, trong khi đội Blue chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 3 (選手一人ひとりの体力があったから)</b>."
-            },
-            {
-                  "id": 146,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_03.mp3",
-                  "questionText": "男の人と女の人が日本語の教室について話しています。男の人はこの教室のどんなところがいいと言っていますか。",
-                  "options": [
-                        "好きな曜日に自由に参加できるところ",
-                        "文法の説明が上手な先生がいるところ",
-                        "実用的な日本語が学べるところ",
-                        "参加者が全員仲がいいところ"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Một người nam và một người nữ đang nói về lớp học tiếng Nhật. Người nam nói điểm hay của lớp học này là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 好きな曜日に自由に参加できるところ: Được tự do tham gia vào thứ trong tuần tùy thích<br>2. 文法の説明が上手な先生がいるところ: Có giáo viên giải thích ngữ pháp rất giỏi<br>3. 実用的な日本語が学べるところ: Học được tiếng Nhật thực tế, mang tính ứng dụng cao<br>4. 参加者が全員仲がいいところ: Tất cả học viên đều thân thiết với nhau<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：日本語教室に通ってるんだって？どう？<br>男：うん、すごくいいよ。教科書の文法ばかりじゃなくて、実際にロールプレイしたり自分たちでテーマを決めて話したりするんだ。<b>だから、日常で本当に使う実用的な表現が身につくんだよ。</b><br>女：へえ、面白そう。参加者はどんな人たち？<br>男：いろんな国の人がいて、中にはあまり気の合わない人もいるけどね。でも生きた表現が学べるのが一番の魅力だよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nam khen lớp học vì dạy theo hội thoại thực tế, học được những cách diễn đạt dùng trong đời sống thực (実際に使う実用的・生きた表現が覚えられる).<br>&rarr; <b>Đáp án đúng là 3 (実用的な日本語が学べるところ)</b>."
-            },
-            {
-                  "id": 147,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_04.mp3",
-                  "questionText": "女の人がスーパーの求人のチラシを見て、電話しています。女の人はどうして応募しないことにしましたか。",
-                  "options": [
-                        "勤務地が自宅から遠いから",
-                        "仕事の内容が希望と違ったから",
-                        "車の運転免許を持っていないから",
-                        "勤務日が希望と合わないから"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ xem tờ rơi tuyển dụng của siêu thị và gọi điện thoại. Vì sao cô ấy quyết định không ứng tuyển nữa?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 勤務地が自宅から遠いから: Nơi làm việc xa nhà<br>2. 仕事の内容が希望と違ったから: Nội dung công việc khác mong muốn<br>3. 車の運転免許を持っていないから: Không có bằng lái ô tô<br>4. 勤務日が希望と合わないから: Ngày làm việc không khớp nguyện vọng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：はい、スーパー山田、求人受付です。<br>女：チラシのレジのアルバイトはまだ募集していますか。<br>男：えーと、実は桜店はすでに採用が決まりまして、募集を終了いたしました。同じ市内の南店でも募集していますが、そちらはいかがでしょうか。仕事はレジの他に車での配達もお願いすることになるんですが。<br>女：仕事はレジでも配達でもいいんですが、普通免許も持っていますし。<br>男：南店は主に週末勤務となりますが。<br>女：勤務日はその方がありがたいですが。<b>んー、ただやっぱりもともと通いやすい場所で探していたので、南店だとちょっとうちから遠いですね。すみません、今回はやめておきます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Chi nhánh Sakura gần nhà đã hết chỗ. Chi nhánh Minami có tuyển xe giao hàng cuối tuần (cô đều đáp ứng được), nhưng vị trí xa nhà, không tiện đi lại (うちから遠い) &rarr; Cô từ chối vì nơi làm việc xa.<br>&rarr; <b>Đáp án đúng là 1 (勤務地が自宅から遠いから)</b>."
-            },
-            {
-                  "id": 148,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_05.mp3",
-                  "questionText": "テレビでアナウンサーが話しています。明日の東京の天気はどうなると言っていますか。",
-                  "options": [
-                        "午前中は晴れるが、午後から曇る",
-                        "午前中は晴れるが、午後から雨が降る",
-                        "午前中は曇りで、午後から雨が降る",
-                        "朝から雨が降り、夕方から大雨になる"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Phát thanh viên truyền hình đang dự báo thời tiết. Thời tiết Tokyo ngày mai được dự báo thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 午前中は晴れるが、午後から曇る: Buổi sáng trời nắng, nhưng từ chiều nhiều mây<br>2. 午前中は晴れるが、午後から雨が降る: Buổi sáng trời nắng, chiều có mưa<br>3. 午前中は曇りで、午後から雨が降る: Buổi sáng trời âm u, chiều mưa<br>4. 朝から雨が降り、夕方から大雨になる: Từ sáng đã mưa, chiều tối mưa to<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日、木曜日の東京は雲一つない爽やかなお天気となっていますが、<b>明日の日中は午前中は晴れ間が広がるものの、午後からは次第に雲が多くなってくる見込みです。</b>なお、南の熱帯低気圧の影響で、雨が降り出すのは明後日の土曜日朝からとなるでしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Phát thanh viên nói rõ: Ngày mai (thứ 6) ban sáng trời có nắng (午前中は晴れ間が広がる), chiều thì mây kéo đến âm u (午後からは次第に雲が多くなる). Đến ngày kia (thứ 7) mới bắt đầu mưa.<br>&rarr; <b>Đáp án đúng là 1 (午前中は晴れるが、午後から曇る)</b>."
-            },
-            {
-                  "id": 149,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_12/m2_06.mp3",
-                  "questionText": "火事の現場でアナウンサーが話しています。火事の原因は何ですか。",
-                  "options": [
-                        "2階でストーブの火が燃え出したこと",
-                        "台所でストーブの火が燃え出したこと",
-                        "台所のカーテンにストーブの火が燃え移ったこと",
-                        "居間のカーテンにストーブの火が燃え移ったこと"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại hiện trường vụ hỏa hoạn, phát thanh viên đang đưa tin. Nguyên nhân hỏa hoạn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 2階でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở tầng 2<br>2. 台所でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở nhà bếp<br>3. 台所のカーテンにストーブの火が燃え移ったこと: Lửa lò sưởi bén vào rèm ở nhà bếp<br>4. 居間のカーテンにストーブの火が燃え移ったこと: Lửa từ lò sưởi bén vào rèm cửa ở phòng khách<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：こちら、昨夜火事がありました現場です。台所の窓が黒く焦げていますが、<b>1階の居間と台所のうち、特に居間が一番ひどく燃えています。警察の調べによりますと、居間に置いてあったストーブにカーテンが触れ、火が燃え移ったものと見られています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bản tin nêu nguyên nhân chính xác: rèm phòng khách chạm vào lò sưởi khiến ngọn lửa bùng phát lan sang (居間に置いてあったストーブにカーテンが触れ、火が燃え移った).<br>&rarr; <b>Đáp án đúng là 4 (居間のカーテンにストーブの火が燃え移ったこと)</b>."
-            }
+        {
+          "id": 139,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m1_01.mp3",
+          "questionText": "大学でダンスサークルの男の学生と女の学生が話しています。男の学生は今日何をしますか。",
+          "options": [
+            "ポスターを掲示板に貼る",
+            "ポスターを貼る許可をもらう",
+            "チラシを作る",
+            "チラシを配る"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nam sinh và một nữ sinh thuộc câu lạc bộ khiêu vũ đang nói chuyện. Nam sinh hôm nay sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ポスターを掲示板に貼る: Dán poster lên bảng thông báo<br>2. ポスターを貼る許可をもらう: Xin phép dán poster<br>3. チラシを作る: Làm tờ rơi<br>4. チラシを配る: Phát tờ rơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：おはよう。ちょうどよかった。頼みたいことがあるんだけど。<br>男：おはようございます。<br>女：あー、そのポスター、来週のサークルの紹介でやるダンスのお知らせですね。新入生勧誘のための。掲示板に貼るんですか。<br>男：うん。その前に学生課で掲示の許可をもらわないといけないから。今から行くんだ。<br>女：そうなんですか。後で貼るのを手伝いましょうか？<br>男：これは一人で大丈夫。<b>別にチラシも作ってあるんだけど、それを今日、大学の中で配る予定なんだ。その時何人か必要だから、手伝ってくれる？</b><br>女：<b>はい、分かりました。</b>僕たちのダンスを見て、新入生がたくさん入ってくれるといいですね。<br>男：そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh hỏi có cần giúp dán poster không, nam sinh bảo: \"Đây thì một mình anh làm được. Ngoài ra anh đã làm sẵn tờ rơi, hôm nay dự định phát trong trường. Lúc đó cần vài người, em giúp anh nhé?\" &rarr; Nữ sinh đồng ý.<br>- Nam sinh nhờ nữ sinh giúp phát tờ rơi, vậy việc nam sinh làm hôm nay cùng nữ sinh là đi phát tờ rơi.<br>&rarr; <b>Đáp án đúng là 4 (チラシを配る)</b>."
+        },
+        {
+          "id": 140,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m1_02.mp3",
+          "questionText": "駅の窓口で女の人が電車の切符を買おうとしています。女の人はどの切符を買いますか。",
+          "options": [
+            "新幹線指定席",
+            "新幹線自由席",
+            "特急指定席",
+            "特急自由席"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại quầy vé nhà ga, một phụ nữ đang định mua vé tàu. Người phụ nữ sẽ mua loại vé nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 新幹線指定席: Shinkansen ghế chỉ định (đặt trước)<br>2. 新幹線自由席: Shinkansen ghế tự do<br>3. 特急指定席: Tàu tốc hành đặc biệt ghế chỉ định<br>4. 特急自由席: Tàu tốc hành đặc biệt ghế tự do<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：あの、明日西川まで行きたいんですけど、あちらに3時半までには着きたいんですね。で、あの、どの電車がいいのかなあと思って。あの、新幹線でも。<br>男：えっと、新幹線ですと、西川に行く場合、北川で普通列車に乗り換えていただくことになりますね。でなければ特急を利用するかですね。特急ですと、ここから西川まで一本ですね。<br>女：そうですか。あの、私乗り換えは間違えないかといつも心配で。<br>男：じゃあ、乗り換えはなしで。そうしますと、えっと、15時半に西川駅着となりますと、んー、あ、13時40分の特急ですね。<b>指定席ですが、ああ、もう禁煙車はいっぱいですね。喫煙車でもいいですか。</b><br>女：<b>いや、タバコは困ります、私。</b><br>男：<b>分かりました。じゃあ、自由席になりますね。</b>すいませんが、申し込み用紙に記入して窓口までお持ちください。<br>女：はい、じゃあ、そうします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ muốn đi chuyến không cần chuyển tàu &rarr; chọn đi Tokkyu (特急).<br>- Ghế chỉ định toa hút thuốc còn chỗ nhưng cô không chịu được khói thuốc &rarr; Nhân viên bảo vậy thì đi ghế tự do (自由席 toa không hút thuốc).<br>&rarr; <b>Đáp án đúng là 4 (特急自由席)</b>."
+        },
+        {
+          "id": 141,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m1_03.mp3",
+          "questionText": "会社で男の人と女の人が話しています。女の人はこの後まず何をしますか。",
+          "options": [
+            "鍋を買う",
+            "田中さんと話す",
+            "お金を集める",
+            "花を買う"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, một người nam và một người nữ đang nói chuyện. Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 鍋を買う: Mua nồi<br>2. 田中さんと話す: Nói chuyện với Tanaka-san<br>3. お金を集める: Thu tiền mọi người<br>4. 花を買う: Mua hoa<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんが今月いっぱいで退職ですから、みんなで何かプレゼントしようと思っているんだけど。<br>女：ああ、いいですね。何がいいかなあ。<br>男：何かリクエストがあるか聞いてみようと思ってるんだけど。<br>女：田中さんって、何かほしいものないって直接聞いても、いいですって言いそうですし。<br>男：あ、そうそう。この前、鍋のいいのがほしいとか言ってなかったっけ。料理教室に通い始めたからって。<br>女：そうでしたね。<br>男：<b>ああ、でも、もう買っちゃったってこともあるから、それとなく本人に探ってみてよ。それでまだだったら、鍋にしようよ。</b><br>女：<b>そうですね。今日のランチの時にでも。</b><br>男：うん。頼んだよ。プレゼント代はそのあとでみんなから集めて、余れば当日花を買おう。<br>女：はい。花の注文は私の方でします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tanaka sắp nghỉ việc, mọi người tính tặng quà là chiếc nồi nấu ăn. Tuy nhiên sợ Tanaka đã tự mua rồi nên người nam bảo người nữ: \"Em hãy kín đáo dò hỏi xem sao (探ってみて)\".<br>- Người nữ đồng ý sẽ hỏi chuyện Tanaka vào bữa trưa hôm nay (今日のランチの時にでも). Sau đó mới thu tiền và đặt hoa.<br>&rarr; <b>Đáp án đúng là 2 (田中さんと話す)</b>."
+        },
+        {
+          "id": 142,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m1_04.mp3",
+          "questionText": "女の人が新しい商品の紹介をしています。よく頭が痛くなる人は、どの商品を選びますか。",
+          "options": [
+            "月のお茶",
+            "星のお茶",
+            "虹のお茶",
+            "空のお茶"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ đang giới thiệu dòng sản phẩm trà mới. Người hay bị đau đầu nên chọn sản phẩm nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 月のお茶: Trà Mặt Trăng (ấm người, người hay lạnh chân tay)<br>2. 星のお茶: Trà Ngôi Sao (người mỏi mắt do máy tính)<br>3. 虹のお茶: Trà Cầu Vồng (người bị đau đầu)<br>4. 空のお茶: Trà Bầu Trời (người khó ngủ)<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：こちら、新発売の中国茶をご案内します。今回皆様にご紹介いたしますのは、月・星・虹・空のお茶の4種類でございます。さあ、どうぞ召し上がってください。えー、月のお茶は体を温めてくれます。体が冷えやすい方に向いています。星のお茶はパソコン等の見すぎで目が疲れている方。<b>虹のお茶は頭痛でお悩みの方に最適です。</b>なかなか眠れない方には空のお茶がお勧めです。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bài nói nêu rõ công dụng từng loại:<br>  + 月のお茶: Làm ấm cơ thể, hợp người hay bị lạnh.<br>  + 星のお茶: Người nhìn màn hình nhiều mỏi mắt.<br>  + <b>虹のお茶: Tối ưu cho người đau đầu (頭痛でお悩みの方に最適)</b>.<br>  + 空のお茶: Dành cho người khó ngủ.<br>&rarr; <b>Đáp án đúng là 3 (虹のお茶)</b>."
+        },
+        {
+          "id": 143,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m1_05.mp3",
+          "questionText": "大学の事務室で男の学生と職員が話しています。男の学生はこの後、まず何をしなければなりませんか。",
+          "options": [
+            "手数料を払う",
+            "写真を持ってくる",
+            "再発行の申込書を書く",
+            "連絡先を変更する"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại văn phòng đại học, một nam sinh và một nhân viên đang nói chuyện. Nam sinh sau đây trước tiên phải làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 手数料を払う: Nộp lệ phí<br>2. 写真を持ってくる: Mang ảnh đến<br>3. 再発行の申込書を書く: Viết đơn xin cấp lại thẻ<br>4. 連絡先を変更する: Thay đổi địa chỉ liên lạc<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、学生証をなくしたんですが、再発行をお願いできますか。<br>職員：再発行には手数料が900円かかります。あと、写真が1枚必要です。えー、それから、再発行するとこれまでのものはもし見つかっても使えませんので。<br>男：はい。手数料、今払います。写真も持ってきました。<br>職員：<b>じゃ、先に写真、いただきます。それから、こちらの再発行の申込書を書いてもらえますか。</b><br>男：はい。<br>職員：あ、住所や電話番号は変わってませんか。変更がある場合は先にその変更届を出してもらわなくちゃいけないんで。<br>男：入学した時から変わってません。<br>職員：分かりました。ええ、手数料はここではなく、会計課で払ってもらいます。<b>申込書の記入が済んだらコピーをお渡しするので、それを会計課に持っていって手数料を払ってください。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã mang ảnh theo và nộp ảnh cho nhân viên rồi. Địa chỉ không thay đổi nên không cần làm đơn đổi.<br>- Bước tiếp theo nhân viên yêu cầu: \"Em hãy điền đơn xin cấp lại thẻ (再発行の申込書を書いてもらえますか)\". Sau khi điền xong mới cầm bản sao qua phòng kế toán nộp tiền.<br>&rarr; <b>Đáp án đúng là 3 (再発行の申込書を書く)</b>."
+        },
+        {
+          "id": 144,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_01.mp3",
+          "questionText": "郵便局で女の人が荷物を送ろうとしています。荷物はいつ届く予定ですか。",
+          "options": [
+            "明日の午前中",
+            "明日の夜",
+            "明後日の午前中",
+            "明後日の夜"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bưu điện, người phụ nữ đang định gửi bưu kiện. Bưu kiện dự kiến bao giờ sẽ tới nơi?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 明日の午前中: Sáng mai<br>2. 明日の夜: Tối mai<br>3. 明後日の午前中: Sáng ngày kia<br>4. 明後日の夜: Tối ngày kia<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：これ明日までに届きますか？<br>男：ちょっとお待ちください。ああ、明日は無理ですね。<br>女：じゃあ、明後日になるの？食べ物が入っているんだけど、困ったなあ。仕方がないわね。<br>男：すみません。あの、時間の指定はできますか。一番早いのは午前中ですけど。<br>女：じゃあ、早いほうがいいんで、それでお願いします。<br>男：はい。午前中ですね。<br>女：<b>あ、待って。留守にしているかもしれない、やっぱり夜8時以降で。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bưu điện báo ngày mai không kịp, chỉ có thể đến vào ngày kia (明後日).<br>- Ban đầu phụ nữ chọn sáng sớm ngày kia, nhưng sau đó nhớ ra người nhận có thể vắng nhà nên đổi lại sang buổi tối sau 8 giờ (やっぱり夜8時以降で).<br>&rarr; <b>Đáp án đúng là 4 (明後日の夜)</b>."
+        },
+        {
+          "id": 145,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_02.mp3",
+          "questionText": "サッカーの試合の後、アナウンサーが解説の人に話を聞いています。チームブルーが勝った理由は何だと言っていますか。",
+          "options": [
+            "監督の指示が的確だったから",
+            "新しい戦術が成功したから",
+            "選手一人ひとりの体力があったから",
+            "相手チームにミスが多かったから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Blue giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 監督の指示が的確だったから: Chỉ đạo của huấn luyện viên chuẩn xác<br>2. 新しい戦術が成功したから: Chiến thuật mới thành công<br>3. 選手一人ひとりの体力があったから: Từng cầu thủ đều có thể lực dồi dào, bền bỉ<br>4. 相手チームにミスが多かったから: Đội đối phương mắc nhiều lỗi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日の試合、チームブルーが見事な勝利でしたね。<br>男：ええ、今日は蒸し暑くて、相手チームは後半足が止まってしまいましたが、<b>チームブルーは最後までよく走っていましたね。選手一人ひとりの体力の差が出ましたね。</b><br>アナウンサー：なるほど。監督のベンチからの指示も盛んでしたが。<br>男：いえ、試合中は選手の判断がすべてです。やはり日頃の走り込みによるスタミナの勝利でしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đối thủ đuối sức, trong khi đội Blue chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 3 (選手一人ひとりの体力があったから)</b>."
+        },
+        {
+          "id": 146,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_03.mp3",
+          "questionText": "男の人と女の人が日本語の教室について話しています。男の人はこの教室のどんなところがいいと言っていますか。",
+          "options": [
+            "好きな曜日に自由に参加できるところ",
+            "文法の説明が上手な先生がいるところ",
+            "実用的な日本語が学べるところ",
+            "参加者が全員仲がいいところ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Một người nam và một người nữ đang nói về lớp học tiếng Nhật. Người nam nói điểm hay của lớp học này là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 好きな曜日に自由に参加できるところ: Được tự do tham gia vào thứ trong tuần tùy thích<br>2. 文法の説明が上手な先生がいるところ: Có giáo viên giải thích ngữ pháp rất giỏi<br>3. 実用的な日本語が学べるところ: Học được tiếng Nhật thực tế, mang tính ứng dụng cao<br>4. 参加者が全員仲がいいところ: Tất cả học viên đều thân thiết với nhau<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：日本語教室に通ってるんだって？どう？<br>男：うん、すごくいいよ。教科書の文法ばかりじゃなくて、実際にロールプレイしたり自分たちでテーマを決めて話したりするんだ。<b>だから、日常で本当に使う実用的な表現が身につくんだよ。</b><br>女：へえ、面白そう。参加者はどんな人たち？<br>男：いろんな国の人がいて、中にはあまり気の合わない人もいるけどね。でも生きた表現が学べるのが一番の魅力だよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người nam khen lớp học vì dạy theo hội thoại thực tế, học được những cách diễn đạt dùng trong đời sống thực (実際に使う実用的・生きた表現が覚えられる).<br>&rarr; <b>Đáp án đúng là 3 (実用的な日本語が学べるところ)</b>."
+        },
+        {
+          "id": 147,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_04.mp3",
+          "questionText": "女の人がスーパーの求人のチラシを見て、電話しています。女の人はどうして応募しないことにしましたか。",
+          "options": [
+            "勤務地が自宅から遠いから",
+            "仕事の内容が希望と違ったから",
+            "車の運転免許を持っていないから",
+            "勤務日が希望と合わないから"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ xem tờ rơi tuyển dụng của siêu thị và gọi điện thoại. Vì sao cô ấy quyết định không ứng tuyển nữa?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 勤務地が自宅から遠いから: Nơi làm việc xa nhà<br>2. 仕事の内容が希望と違ったから: Nội dung công việc khác mong muốn<br>3. 車の運転免許を持っていないから: Không có bằng lái ô tô<br>4. 勤務日が希望と合わないから: Ngày làm việc không khớp nguyện vọng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：はい、スーパー山田、求人受付です。<br>女：チラシのレジのアルバイトはまだ募集していますか。<br>男：えーと、実は桜店はすでに採用が決まりまして、募集を終了いたしました。同じ市内の南店でも募集していますが、そちらはいかがでしょうか。仕事はレジの他に車での配達もお願いすることになるんですが。<br>女：仕事はレジでも配達でもいいんですが、普通免許も持っていますし。<br>男：南店は主に週末勤務となりますが。<br>女：勤務日はその方がありがたいですが。<b>んー、ただやっぱりもともと通いやすい場所で探していたので、南店だとちょっとうちから遠いですね。すみません、今回はやめておきます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Chi nhánh Sakura gần nhà đã hết chỗ. Chi nhánh Minami có tuyển xe giao hàng cuối tuần (cô đều đáp ứng được), nhưng vị trí xa nhà, không tiện đi lại (うちから遠い) &rarr; Cô từ chối vì nơi làm việc xa.<br>&rarr; <b>Đáp án đúng là 1 (勤務地が自宅から遠いから)</b>."
+        },
+        {
+          "id": 148,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_05.mp3",
+          "questionText": "テレビでアナウンサーが話しています。明日の東京の天気はどうなると言っていますか。",
+          "options": [
+            "午前中は晴れるが、午後から曇る",
+            "午前中は晴れるが、午後から雨が降る",
+            "午前中は曇りで、午後から雨が降る",
+            "朝から雨が降り、夕方から大雨になる"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Phát thanh viên truyền hình đang dự báo thời tiết. Thời tiết Tokyo ngày mai được dự báo thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 午前中は晴れるが、午後から曇る: Buổi sáng trời nắng, nhưng từ chiều nhiều mây<br>2. 午前中は晴れるが、午後から雨が降る: Buổi sáng trời nắng, chiều có mưa<br>3. 午前中は曇りで、午後から雨が降る: Buổi sáng trời âm u, chiều mưa<br>4. 朝から雨が降り、夕方から大雨になる: Từ sáng đã mưa, chiều tối mưa to<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日、木曜日の東京は雲一つない爽やかなお天気となっていますが、<b>明日の日中は午前中は晴れ間が広がるものの、午後からは次第に雲が多くなってくる見込みです。</b>なお、南の熱帯低気圧の影響で、雨が降り出すのは明後日の土曜日朝からとなるでしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Phát thanh viên nói rõ: Ngày mai (thứ 6) ban sáng trời có nắng (午前中は晴れ間が広がる), chiều thì mây kéo đến âm u (午後からは次第に雲が多くなる). Đến ngày kia (thứ 7) mới bắt đầu mưa.<br>&rarr; <b>Đáp án đúng là 1 (午前中は晴れるが、午後から曇る)</b>."
+        },
+        {
+          "id": 149,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m2_06.mp3",
+          "questionText": "火事の現場でアナウンサーが話しています。火事の原因は何ですか。",
+          "options": [
+            "2階でストーブの火が燃え出したこと",
+            "台所でストーブの火が燃え出したこと",
+            "台所のカーテンにストーブの火が燃え移ったこと",
+            "居間のカーテンにストーブの火が燃え移ったこと"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại hiện trường vụ hỏa hoạn, phát thanh viên đang đưa tin. Nguyên nhân hỏa hoạn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 2階でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở tầng 2<br>2. 台所でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở nhà bếp<br>3. 台所のカーテンにストーブの火が燃え移ったこと: Lửa lò sưởi bén vào rèm ở nhà bếp<br>4. 居間のカーテンにストーブの火が燃え移ったこと: Lửa từ lò sưởi bén vào rèm cửa ở phòng khách<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：こちら、昨夜火事がありました現場です。台所の窓が黒く焦げていますが、<b>1階の居間と台所のうち、特に居間が一番ひどく燃えています。警察の調べによりますと、居間に置いてあったストーブにカーテンが触れ、火が燃え移ったものと見られています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bản tin nêu nguyên nhân chính xác: rèm phòng khách chạm vào lò sưởi khiến ngọn lửa bùng phát lan sang (居間に置いてあったストーブにカーテンが触れ、火が燃え移った).<br>&rarr; <b>Đáp án đúng là 4 (居間のカーテンにストーブの火が燃え移ったこと)</b>."
+        }
       ]
-}
+    }
   ]
 };

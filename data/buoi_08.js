@@ -105,12 +105,12 @@ window.JLPT_DATA[8] = {
           "targetWord": "かんさつ",
           "options": [
             "感際",
-            "観察",
+            "観際",
             "感察",
             "観察"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>観察（かんさつ）：</b>Quan sát (QUAN 観 + SÁT 察).<br><b>Dịch nghĩa:</b> Hằng ngày tôi quan sát tình trạng hoa trong chậu cây rồi viết nhật ký.<br><i>Phân tích 4 đáp án:</i><br>• 1, 3: Sai chữ Cảm (感)<br>• 2: Sai chữ Quan (chữ 観 viết nhầm bộ bên phải)<br>• <b>4. 観察: Quan sát [Đúng]</b>",
+          "explanation": "<b>観察（かんさつ）：</b>Quan sát (QUAN 観 + SÁT 察).<br><b>Dịch nghĩa:</b> Hằng ngày tôi quan sát tình trạng hoa trong chậu cây rồi viết nhật ký.<br><i>Phân tích 4 đáp án:</i><br>• 1, 3: Sai chữ Cảm (感)<br>• 2. 観際: Sai chữ Tế (際)<br>• <b>4. 観察: Quan sát [Đúng]</b>",
           "id": 7
         },
         {
@@ -119,13 +119,13 @@ window.JLPT_DATA[8] = {
           "sentence": "これは10年後の自分を<ruby>そうぞう<rt>______</rt></ruby>して描いた絵だ。",
           "targetWord": "そうぞう",
           "options": [
-            "想像",
+            "想象",
             "相象",
             "想像",
             "相像"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>想像（そうぞう）：</b>Tưởng tượng (TƯỞNG 想 + TƯỢNG 像).<br><b>Dịch nghĩa:</b> Đây là bức tranh vẽ tưởng tượng về bản thân tôi 10 năm sau.<br><i>Phân tích 4 đáp án:</i><br>• 1, 2, 4: Nhầm giữa Tương 相 và Tưởng 想, hoặc Tượng 象 và Tượng 像<br>• <b>3. 想像: Tưởng tượng [Đúng]</b>",
+          "explanation": "<b>想像（そうぞう）：</b>Tưởng tượng (TƯỞNG 想 + TƯỢNG 像).<br><b>Dịch nghĩa:</b> Đây là bức tranh vẽ tưởng tượng về bản thân tôi 10 năm sau.<br><i>Phân tích 4 đáp án:</i><br>• 1. 想象: Sai chữ 象 (Tượng không có bộ Nhân đứng)<br>• 2, 4: Sai chữ Tương (相)<br>• <b>3. 想像: Tưởng tượng [Đúng]</b>",
           "id": 8
         },
         {
@@ -1958,202 +1958,201 @@ window.JLPT_DATA[8] = {
           "id": 124
         }
       ]
+    },
+    {
+      "id": "choukai",
+      "name": "聴解 (Nghe hiểu - Mondai 1 & 2)",
+      "questions": [
+        {
+          "id": 125,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m1_01.mp3",
+          "audioSrc": "audio/buoi_08/m1_01.mp3",
+          "image": "images/buoi_08/b8_m1_q1.png",
+          "questionText": "男の子はこのあとカバンに何を入れますか。",
+          "options": [
+            "ア　イ　ウ",
+            "ア　イ　エ",
+            "ア　ウ　エ",
+            "イ　ウ　エ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu bé sau đây sẽ cho những món đồ nào vào trong cặp/túi xách?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　イ　ウ: Thuốc, điện thoại di động, sạc pin<br>\n2. ア　イ　エ: Thuốc, điện thoại di động, máy ảnh<br>\n3. ア　ウ　エ: Thuốc, sạc pin, máy ảnh<br>\n4. イ　ウ　エ: Điện thoại di động, sạc pin, máy ảnh<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n母親と中学生の男の子が、明日の旅行の準備について話しています。男の子はこのあとカバンに何を入れますか。<br>\nF：もう明日の準備は終わった？忘れ物しないように、よく確認するのよ。薬は入れた？<br>\nM：うん、2種類入れたよ。<br>\nF：あっそう。乗り物酔いの薬も？<br>\nM：それは持って行かなくても大丈夫だよ。<br>\nF：本当にいいの？<br>\nM：<b>じゃあ、念のため（薬を入れる）</b>。<br>\nF：そうね。あら、携帯。机の上なんかに置いとくと忘れちゃうわよ。<b>今日入れなさい</b>。<br>\nM：<b>うん（携帯を入れる）</b>。<br>\nF：充電器は持って行かないの？<br>\nM：2泊3日だからね。<br>\nF：そう。<br>\nF：あら、ここにカメラが出てるけど。<br>\nM：<b>あ、明日持って行こうと思って、お父さんから借りてきたの忘れてた（カメラを入れる）</b>。<br>\nF：もう、しっかりしなさい。<br>\n男の子はこのあとカバンに何を入れますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười mẹ và cậu con trai học cấp 2 đang nói chuyện chuẩn bị đồ cho chuyến du lịch ngày mai. Cậu bé sau đây sẽ cho những món đồ nào vào cặp?<br>\nMẹ: \"Chuẩn bị cho ngày mai xong chưa con? Kiểm tra thật kỹ kẻo quên đồ đấy nhé. Thuốc đã cho vào chưa?\"<br>\nCon: \"Dạ, con cho 2 loại vào rồi ạ.\"<br>\nMẹ: \"Thế à. Cả thuốc chống say xe nữa chứ?\"<br>\nCon: \"Cái đó không mang chắc cũng không sao đâu mẹ.\"<br>\nMẹ: \"Thật không đấy con?\"<br>\nCon: \"<b>Vậy để chắc ăn con mang thêm thuốc say xe nhé (Thêm thuốc: ア)</b>.\"<br>\nMẹ: \"Ừ. Kìa, điện thoại kìa. Để trên mặt bàn thế kia thể nào cũng quên cho xem. <b>Cho vào cặp ngay hôm nay đi con</b>.\"<br>\nCon: \"<b>Dạ vâng (Thêm điện thoại: イ)</b>.\"<br>\nMẹ: \"Sạc pin không mang theo à con?\"<br>\nCon: \"Chuyến đi 2 ngày 3 đêm mà mẹ (đã sạc đầy hoặc không mang theo/để ở nhà).\"<br>\nMẹ: \"Ừ.\"<br>\nMẹ: \"Kìa, có máy ảnh để ở đây này.\"<br>\nCon: \"<b>A, con định mai mang đi nên mượn của bố mà suýt quên mất (Thêm máy ảnh: エ)</b>.\"<br>\nMẹ: \"Thật là, chú ý vào chứ con!\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thuốc chống say xe (ア: 薬): Sau khi mẹ nhắc thì cậu bé quyết định mang phòng hờ &rarr; Cho vào cặp.<br>\n- Điện thoại (イ: 携帯電話): Mẹ bảo cất vào cặp ngay kẻo quên &rarr; Cho vào cặp.<br>\n- Sạc pin (ウ: 充電器): Cậu bé không cho vào cặp.<br>\n- Máy ảnh (エ: カメラ): Cậu mượn của bố và cất vào cặp ngay &rarr; Cho vào cặp.<br>\n- Như vậy các món đồ cậu bé cho vào cặp sau cuộc nói chuyện là <b>ア (Thuốc), イ (Điện thoại), エ (Máy ảnh)</b> &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 126,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m1_02.mp3",
+          "audioSrc": "audio/buoi_08/m1_02.mp3",
+          "questionText": "女の人はこのあとまず何をしますか。",
+          "options": [
+            "会員登録をする",
+            "予約の内容を入力する",
+            "お金を振り込む",
+            "クレジットカードを作る"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ ngay sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 会員登録をする: Đăng ký thành viên trên trang web<br>\n2. 予約の内容を入力する: Nhập thông tin đặt vé<br>\n3. お金を振り込む: Chuyển khoản thanh toán tiền vé<br>\n4. クレジットカードを作る: Làm thẻ tín dụng (credit card)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。女の人はこのあとまず何をしますか。<br>\nF：インターネットで新幹線の予約ができるって聞いたんだけど、知ってる？<br>\nM：うん、よくやってるよ。駅で買うより、少し安く買えるんだ。会員にならなきゃいけないんだけどね。<br>\nF：本当？どうやって会員になるか教えて。来月、実家に帰るから、新幹線の予約をしたいの。<br>\nM：うん、いいよ。会員になるためには、まず会員登録をするんだ。ホームページを見ると、会員登録っていうところがあるから、そこから登録するんだよ。登録すると、メールアドレスに会員番号が送られてくるから、それが届いたら、すぐ予約の画面から入力できるよ。<br>\nF：へえ、ホームページを見ればいいのね。じゃあ、早速やってみるね。<br>\nM：<b>予約の内容を入力したら、最後にクレジットカードの番号を入れるんだけどさ</b>。<br>\nF：<b>え？クレジットカード？</b><br>\nM：<b>うん。それがないと予約できないよ</b>。<br>\nF：<b>え、そうなんだ。持っていないよ。てっきりチケットが届いてからお金を振り込むのかと思ってた</b>。<br>\nM：<b>帰省するのが来月なら、まだ時間があるから、まずはそれを用意したほうがいいね</b>。<br>\nF：<b>わかった。そうする</b>。<br>\n女の人はこのあとまず何をしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Người phụ nữ ngay sau đây trước tiên sẽ làm gì?<br>\nNữ: \"Tớ nghe bảo có thể đặt vé tàu Shinkansen qua mạng internet, cậu biết không?\"<br>\nNam: \"Ừ, tớ hay đặt lắm. Mua qua mạng rẻ hơn mua ở ga một chút đấy. Nhưng mà phải đăng ký làm hội viên cơ.\"<br>\nNữ: \"Thế à? Chỉ cho tớ cách làm hội viên với. Tháng sau tớ về quê nên muốn đặt vé Shinkansen.\"<br>\nNam: \"Ừ được chứ. Để làm hội viên thì trước hết phải đăng ký tài khoản. Lên trang chủ sẽ thấy mục 'Đăng ký thành viên', cậu đăng ký từ đó. Đăng ký xong hệ thống sẽ gửi mã số hội viên vào email, có mã rồi là vào màn hình đặt vé nhập thông tin được ngay.\"<br>\nNữ: \"Ồ, chỉ cần lên trang chủ là được nhỉ. Vậy để tớ làm luôn.\"<br>\nNam: \"<b>À mà, nhập xong thông tin đặt vé thì cuối cùng phải điền số thẻ tín dụng vào đấy nhé</b>.\"<br>\nNữ: \"<b>Ơ? Thẻ tín dụng á?</b>\"<br>\nNam: \"<b>Ừ, không có thẻ tín dụng là không đặt vé được đâu</b>.\"<br>\nNữ: \"<b>Ủa thế á? Tớ không có thẻ tín dụng đâu. Tớ cứ đinh ninh là vé gửi về tận nhà rồi mới chuyển khoản trả tiền cơ</b>.\"<br>\nNam: \"<b>Nếu tháng sau mới về quê thì vẫn còn thời gian, trước hết cậu nên chuẩn bị làm thẻ tín dụng đã</b>.\"<br>\nNữ: \"<b>Tớ hiểu rồi. Tớ sẽ làm vậy</b>.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người phụ nữ định đăng ký thành viên ngay nhưng người nam lưu ý phải có thẻ tín dụng để thanh toán thì mới hoàn tất đặt vé.<br>\n- Vì người phụ nữ chưa có thẻ tín dụng nên người nam khuyên \"まずはそれを用意したほうがいいね\" (Trước hết nên chuẩn bị cái thẻ đó đã). Cô đồng ý \"そうする\" (Tớ sẽ làm thế).<br>\n- Do đó hành động đầu tiên cô phải làm là đi làm thẻ tín dụng (クレジットカードを作る) &rarr; <b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 127,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m1_03.mp3",
+          "audioSrc": "audio/buoi_08/m1_03.mp3",
+          "questionText": "男の人は何を買わなければなりませんか。",
+          "options": [
+            "ア　オ",
+            "ア　イ　オ",
+            "ア　ウ　エ",
+            "イ　エ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông phải mua những nguyên liệu nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　オ: Bánh mì (パン) và Phô mai (チーズ)<br>\n2. ア　イ　オ: Bánh mì, bơ, phô mai<br>\n3. ア　ウ　エ: Bánh mì, trứng, rau<br>\n4. イ　エ: Bơ và rau<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人と女の人が話しています。男の人は何を買わなければなりませんか。<br>\nM：明日の弁当、サンドイッチ作るんだよね。何買ってくればいい？<br>\nF：ええと、パンは8枚あるからいいでしょう？<br>\nM：え？でも4人分でしょう？足りる？<br>\nF：半分に切ればいいかなって思ったけど、<b>じゃ、念のため追加しようか（パンを買う：ア）</b>。それから、バターはあるし……。<br>\nM：あ、俺、今朝バター使ったよ。もうあまり残ってなかったけど。<br>\nF：そう。じゃ、必要だね。それから、卵は3つあるからいいよね。<br>\nM：うん。<br>\nM：ねえ、野菜は何も入れないの？<br>\nF：うーん、そうだね。なんか緑の物が入ると、見た目がよくなるね。じゃ、入れようか。確か冷蔵庫にあったと思う。<br>\nM：そう。<br>\nF：<b>ねえ、野菜を入れるなら、バターの代わりにチーズ入れたいんだけど</b>。<br>\nM：いいよ。<br>\nF：<b>じゃ、バターはいいから、チーズお願い（チーズを買う：オ）</b>。<br>\nM：わかった。<br>\n男の人は何を買わなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười đàn ông và người phụ nữ đang nói chuyện. Người đàn ông phải mua những nguyên liệu nào?<br>\nNam: \"Cơm hộp ngày mai là làm bánh mì kẹp sandwich nhỉ. Anh cần mua những gì về đây?\"<br>\nNữ: \"Để xem nào, bánh mì gối có 8 lát rồi nên chắc đủ nhỉ?\"<br>\nNam: \"Ủa? Nhưng phần cho 4 người cơ mà? Có đủ không đấy?\"<br>\nNữ: \"Em định cắt đôi lát bánh ra, nhưng <b>thôi để chắc ăn anh mua thêm bánh mì nhé (Mua bánh mì: ア)</b>. Với lại bơ thì có rồi...\"<br>\nNam: \"À, sáng nay anh vừa dùng bơ xong, trong hộp chẳng còn lại mấy đâu.\"<br>\nNữ: \"Thế à. Vậy thì phải mua rồi. Còn trứng thì có 3 quả rồi nên thôi nhé.\"<br>\nNam: \"Ừ.\"<br>\nNam: \"Này, không cho rau vào à em?\"<br>\nNữ: \"Ừm, đúng rồi nhỉ. Có chút màu xanh vào trông sẽ đẹp mắt hơn. Thế cho rau vào nhé. Hình như trong tủ lạnh vẫn còn đấy.\"<br>\nNam: \"Ừ.\"<br>\nNữ: \"<b>Này, nếu cho rau thì thay vì phết bơ, em muốn kẹp phô mai cơ</b>.\"<br>\nNam: \"Được thôi.\"<br>\nNữ: \"<b>Vậy thì không cần mua bơ nữa, anh mua phô mai giúp em nhé (Mua phô mai: オ)</b>.\"<br>\nNam: \"Được rồi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bánh mì (ア: パン): Ban đầu tưởng đủ nhưng làm cho 4 người nên quyết định mua bổ sung &rarr; Phải mua (ア).<br>\n- Bơ (イ: バター): Ban đầu định mua vì hết, nhưng sau đó đổi ý không dùng bơ nữa mà dùng phô mai &rarr; Không mua.<br>\n- Trứng (ウ: 卵): Trong tủ lạnh còn 3 quả &rarr; Không mua.<br>\n- Rau (エ: 野菜): Trong tủ lạnh có sẵn &rarr; Không mua.<br>\n- Phô mai (オ: チーズ): Quyết định kẹp thay cho bơ &rarr; Phải mua (オ).<br>\n- Vậy những thứ cần mua là <b>ア (Bánh mì) và オ (Phô mai)</b> &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 128,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m1_04.mp3",
+          "audioSrc": "audio/buoi_08/m1_04.mp3",
+          "questionText": "男の人はこのあとまず何をしますか。",
+          "options": [
+            "備蓄品を買う",
+            "会議の議案をまとめる",
+            "資料を取り寄せる",
+            "行動マニュアルを配る"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 備蓄品を買う: Mua sắm đồ dự trữ ứng phó thảm họa<br>\n2. 会議の議案をまとめる: Tổng hợp nghị án cho cuộc họp<br>\n3. 資料を取り寄せる: Đặt / lấy tài liệu hướng dẫn mới nhất về<br>\n4. 行動マニュアルを配る: Phát sổ tay hướng dẫn hành động cho mọi người<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が会社の地震対策について話しています。男の人はこのあとまず何をしますか。<br>\nF：ねえ、田中さん、この間お願いした地震対策なんだけど、水や薬はまだ買ってないよね？<br>\nM：ええ、備蓄品の購入については、予算案を作成したところです。<br>\nF：よかった。備蓄品は会議で承認されてから購入することになってるから、会議の議案に入れといてくれる？<br>\nM：はい、それも入れてまとめておきます。<br>\nF：あと、地震が発生したあとの行動マニュアルだけど、どこまで進んでる？<br>\nM：はい、区が作成した資料をもとに、今、案を練っています。<br>\nF：そう。ちょっとその資料を見せてくれる？<br>\nM：これですけど。<br>\nF：あら、これ、5年前に発行されたものじゃない。<b>もっと最近のがあるはずだから、それに従わないと</b>。<br>\nM：<b>はい、すぐ手配します（最新の資料を取り寄せる）</b>。<br>\nF：マニュアルは来週の会議で検討しなきゃいけないんだから、まとまったら会議の前に配布しといてくれる？議案はそのあとでいいから。<br>\nM：はい。<br>\n男の人はこのあとまず何をしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang thảo luận về phương án đối phó động đất của công ty. Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br>\nNữ: \"Này anh Tanaka, kế hoạch đối phó động đất tôi nhờ hôm nọ ấy, nước và thuốc men anh vẫn chưa mua đúng không?\"<br>\nNam: \"Vâng, về việc mua đồ dự trữ thì tôi vừa mới lập xong bản dự toán ngân sách thôi ạ.\"<br>\nNữ: \"Tốt quá. Đồ dự trữ phải chờ cuộc họp thông qua phê duyệt mới được mua, nên anh hãy đưa vào nghị án cuộc họp nhé.\"<br>\nNam: \"Vâng, tôi sẽ đưa vào và tổng hợp lại ạ.\"<br>\nNữ: \"Còn cuốn sổ tay hướng dẫn hành vi khi xảy ra động đất thì tiến hành đến đâu rồi?\"<br>\nNam: \"Dạ, tôi đang dựa trên tài liệu do ủy ban quận phát hành để lên phương án ạ.\"<br>\nNữ: \"Thế à, cho tôi xem tập tài liệu đó một chút được không?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nNữ: \"Ơ kìa, tài liệu này phát hành từ 5 năm trước rồi còn gì. <b>Chắc chắn phải có bản mới gần đây hơn chứ, mình phải làm theo bản mới nhất</b>.\"<br>\nNam: \"<b>Vâng, tôi sẽ liên hệ lấy tài liệu mới về ngay ạ</b>.\"<br>\nNữ: \"Cuốn sổ tay hướng dẫn phải được thảo luận trong cuộc họp tuần tới, nên khi tổng hợp xong anh phát trước cuộc họp giúp tôi nhé. Còn nghị án thì để sau đó cũng được.\"<br>\nNam: \"Vâng.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Mua đồ dự trữ (備蓄品を買う) phải chờ cuộc họp duyệt mới mua &rarr; Chưa làm ngay.<br>\n- Phát sổ tay (行動マニュアルを配る) phải đợi soạn thảo xong mới phát trước cuộc họp tuần tới.<br>\n- Nghị án (会議の議案をまとめる) được người phụ nữ dặn \"そのあとでいいから\" (để sau cũng được).<br>\n- Người phụ nữ phát hiện tài liệu quận đang dùng đã cũ từ 5 năm trước và yêu cầu lấy bản mới nhất. Người nam nhận lệnh làm ngay: \"はい、すぐ手配します\" (Vâng, tôi sẽ liên hệ lấy tài liệu mới ngay) &rarr; Việc làm ngay trước tiên là <b>資料を取り寄せる (Đặt/lấy tài liệu mới về)</b> &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 129,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m1_05.mp3",
+          "audioSrc": "audio/buoi_08/m1_05.mp3",
+          "image": "images/buoi_08/b8_m1_q5.png",
+          "questionText": "男の子はこれからどの書類を準備しなければなりませんか。",
+          "options": [
+            "ア　ウ　エ",
+            "ア　エ",
+            "イ　ウ　オ",
+            "イ　オ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu học sinh từ bây giờ sẽ phải chuẩn bị lại/làm những giấy tờ nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　ウ　エ: Đơn nhập học, Giấy chứng nhận điểm số, Bản trình bày nguyện vọng<br>\n2. ア　エ: Đơn nhập học, Bản trình bày nguyện vọng<br>\n3. イ　ウ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy chứng nhận điểm số, Giấy khám sức khỏe<br>\n4. イ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy khám sức khỏe<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n高校生の男の子と先生が、大学の入学試験に必要な書類について話しています。男の子はこれからどの書類を準備しなければなりませんか。<br>\nM：先生、すみません。大学に提出する書類の確認を一緒にしていただきますか。<br>\nF：じゃあ、ちょっと見せて。まず、入学願書は？<br>\nM：これです。<br>\nF：<b>あら、書き間違いが随分多いね。もう一度きれいに書き直して（入学願書：ア）</b>。あと、卒業見込み証明書、準備できてる？<br>\nM：はい、ここにあります。<br>\nF：うん、いいね。それから、成績証明書。これは封筒に入っている書類だけど……あ、封筒開けちゃったの？<b>こういうのは開けたら書類としての効果がなくなっちゃうんだよ。もう一回作ってもらわなきゃ（成績証明書：ウ）</b>。<br>\nM：えっ、そうだったんですか。<br>\nF：<b>志望理由書は、卒業後の計画のところをもっと具体的に考えて書き直したほうがいいね（志望理由書：エ）</b>。<br>\nM：分かりました。<br>\nF：健康診断書は病院で作ってもらって……。<br>\nM：はい、それは昨日行ってきました。<br>\nF：そう、それなら問題ないね。じゃ、必要なものをすぐに準備してね。<br>\nM：はい。<br>\n男の子はこれからどの書類を準備しなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nMột bạn nam sinh cấp 3 và cô giáo đang trao đổi về các giấy tờ cần thiết cho kỳ thi tuyển sinh đại học. Bạn nam sinh từ bây giờ sẽ phải chuẩn bị lại những giấy tờ nào?<br>\nNam: \"Thưa cô, cô kiểm tra giúp em các giấy tờ nộp cho trường đại học với ạ.\"<br>\nCô: \"Được rồi, đưa cô xem nào. Trước hết, đơn đăng ký dự thi đâu em?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nCô: \"<b>Trời ơi, viết sai nhiều chỗ thế này em. Phải viết lại sạch đẹp lần nữa nhé (Đơn đăng ký: ア)</b>. Tiếp theo, giấy chứng nhận tốt nghiệp tạm thời chuẩn bị xong chưa em?\"<br>\nNam: \"Dạ có ở đây rồi ạ.\"<br>\nCô: \"Ừ, được rồi. Tiếp đến là bảng điểm. Bảng điểm để trong phong bì niêm phong mà... Ơ, em bóc phong bì ra rồi à? <b>Những giấy tờ niêm phong thế này bóc ra là mất giá trị hiệu lực đấy em. Phải xin cấp lại lần nữa rồi (Bảng điểm: ウ)</b>.\"<br>\nNam: \"Hả, thế ạ cô?\"<br>\nCô: \"<b>Còn bài trình bày lý do nguyện vọng, phần kế hoạch sau khi tốt nghiệp em cần suy nghĩ cụ thể hơn rồi viết lại nhé (Lý do nguyện vọng: エ)</b>.\"<br>\nNam: \"Dạ em hiểu rồi ạ.\"<br>\nCô: \"Giấy khám sức khỏe thì đi bệnh viện khám...\"<br>\nNam: \"Dạ cái đó hôm qua em đi khám xong rồi ạ.\"<br>\nCô: \"Thế thì ổn rồi. Giờ em mau chuẩn bị lại những giấy tờ cần thiết nhé.\"<br>\nNam: \"Vâng ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Giấy chứng nhận tốt nghiệp tạm thời (イ) và Giấy khám sức khỏe (オ) đã đạt yêu cầu &rarr; Không cần làm lại.<br>\n- Các giấy tờ bắt buộc phải chuẩn bị lại:<br>\n  + <b>ア (入学願書 - Đơn dự thi)</b>: Viết sai nhiều, cô bảo viết lại.<br>\n  + <b>ウ (成績証明書 - Bảng điểm)</b>: Đã lỡ bóc niêm phong phong bì nên mất hiệu lực, phải xin cấp lại.<br>\n  + <b>エ (志望理由書 - Bản lý do nguyện vọng)</b>: Chưa đủ cụ thể, cô bảo viết lại.<br>\n- Do đó các giấy tờ cần chuẩn bị lại là <b>ア, ウ, エ</b> &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 130,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_01.mp3",
+          "audioSrc": "audio/buoi_08/m2_01.mp3",
+          "questionText": "女の人はどうして髪を短くしますか。",
+          "options": [
+            "歌手と同じ髪型にしたいから",
+            "今年、流行っているから",
+            "運動するとき、邪魔だから",
+            "印象を変えたいから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao người phụ nữ lại muốn cắt tóc ngắn?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 歌手と同じ髪型にしたいから: Vì muốn để kiểu tóc giống ca sĩ<br>\n2. 今年、流行っているから: Vì năm nay kiểu tóc này đang thịnh hành<br>\n3. 運動するとき、邪魔だから: Vì khi vận động thể thao tóc vướng víu khó chịu<br>\n4. 印象を変えたいから: Vì muốn thay đổi ấn tượng hình ảnh của bản thân<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が美容院で話しています。女の人はどうして髪を短くしますか。<br>\nF：この写真みたいに短くしてください。<br>\nM：はい。ああ、この歌手の髪型、可愛いですよね。<br>\nF：はい。<br>\nM：最近、この髪型にしたいっていう人、多いですよ。今年は短いのが流行ってますから。<br>\nF：そうなんですか。<b>私の場合は、運動を始めたから、今の髪型はちょっと……</b>。<br>\nM：<b>そうですか。顔にかかるとイライラしますよね</b>。<br>\nF：<b>はい、そうなんです</b>。<br>\nM：短くしたら、だいぶ印象が変わりますね。<br>\nF：そうですね。みんなびっくりするかもしれません。<br>\nM：でも、短いのもう似合うと思いますよ。<br>\nF：ありがとうございます。<br>\n女の人はどうして髪を短くしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và anh thợ cắt tóc nam đang nói chuyện tại tiệm làm tóc. Tại sao người phụ nữ lại cắt tóc ngắn?<br>\nKhách nữ: \"Anh cắt ngắn giống trong bức ảnh này giúp tôi nhé.\"<br>\nThợ nam: \"Vâng. À, kiểu tóc của cô ca sĩ này dễ thương thật đấy.\"<br>\nKhách nữ: \"Vâng ạ.\"<br>\nThợ nam: \"Dạo này nhiều người muốn cắt kiểu này lắm. Năm nay mốt tóc ngắn đang lên ngôi mà.\"<br>\nKhách nữ: \"Thế ạ. <b>Còn trường hợp của tôi là do đợt này tôi bắt đầu tập thể thao vận động, nên để kiểu tóc dài hiện tại hơi...</b>\"<br>\nThợ nam: \"<b>Ra vậy ạ. Tóc cứ xõa vào mặt khi vận động bực mình lắm đúng không ạ</b>.\"<br>\nKhách nữ: \"<b>Vâng, đúng vậy đấy ạ</b>.\"<br>\nThợ nam: \"Cắt ngắn thế này trông diện mạo ấn tượng sẽ thay đổi hẳn đấy.\"<br>\nKhách nữ: \"Vâng, chắc mọi người sẽ bất ngờ lắm.\"<br>\nThợ nam: \"Nhưng tôi nghĩ tóc ngắn cũng rất hợp với chị đấy.\"<br>\nKhách nữ: \"Cảm ơn anh.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Mặc dù cô chọn bức ảnh mẫu tóc của ca sĩ và năm nay tóc ngắn đang là mốt, nhưng đó không phải lý do chính của cô.<br>\n- Cô nêu rõ lý do: \"私の場合は、運動を始めたから、今の髪型はちょっと……\" và đồng tình khi thợ nói tóc xõa vào mặt gây khó chịu khi tập luyện (\"顔にかかるとイライラしますよね\" &rarr; \"はい、そうなんです\").<br>\n- Tóc dài vướng víu khi vận động thể thao (運動するとき、邪魔だから) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 131,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_02.mp3",
+          "audioSrc": "audio/buoi_08/m2_02.mp3",
+          "questionText": "女の人がAランチを選ぶ一番の理由は何ですか。",
+          "options": [
+            "おいしいから",
+            "毎日違うスープが飲めるから",
+            "量が少ないから",
+            "値段が安いから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do lớn nhất khiến bạn nữ chọn suất cơm trưa A (Aランチ) là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. おいしいから: Vì ngon miệng<br>\n2. 毎日違うスープが飲めるから: Vì mỗi ngày được uống một món súp khác nhau<br>\n3. 量が少ないから: Vì lượng đồ ăn ít, vừa vặn bụng<br>\n4. 値段が安いから: Vì giá tiền rẻ<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人と女の人が大学の食堂で話しています。女の人がAランチを選ぶ一番の理由は何ですか。<br>\nM：また今日もAランチ食べてんの？よく飽きないね。<br>\nF：結構おいしいし、スープは毎日変わるんだよ。<br>\nM：変わるのはスープだけでしょ？他はいつも同じじゃない。<br>\nF：まあね。<br>\nM：<b>どう見ても、BランチとかCランチより量が少ないと思うけど。よくこれで足りるね</b>。<br>\nF：<b>そこがいいんじゃない！私、これを食べたあと、デザートも食べたいから</b>。<br>\nM：ふーん。でもこの量でBランチとかと同じ値段なんてなあ。<br>\nF：<b>でも、私にはこのぐらいがちょうどいいの</b>。<br>\nM：ふーん。もう少し安くてもいいと思うけど。<br>\nF：そうだね。<br>\n女の人がAランチを選ぶ一番の理由は何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBạn nam và bạn nữ đang nói chuyện ở căng-tin trường đại học. Lý do số một khiến bạn nữ chọn suất ăn trưa A là gì?<br>\nNam: \"Hôm nay cậu lại ăn suất A à? Không thấy ngán sao?\"<br>\nNữ: \"Ăn khá ngon mà, với lại súp mỗi ngày đổi một món khác nhau đấy nhé.\"<br>\nNam: \"Đổi có mỗi món súp chứ mấy? Mấy món kia ngày nào chẳng y xì đúc.\"<br>\nNữ: \"Thì cũng đúng.\"<br>\nNam: \"<b>Nhìn kiểu gì cũng thấy suất A ít hơn hẳn so với suất B và suất C. Cậu ăn ít thế mà no được à</b>.\"<br>\nNữ: \"<b>Ít thế mới thích đấy chứ! Vì ăn suất này xong tớ còn muốn ăn thêm đồ tráng miệng nữa cơ</b>.\"<br>\nNam: \"Hừm... Nhưng mà ít thế này mà giá lại ngang bằng suất B thì hơi đắt đấy.\"<br>\nNữ: \"<b>Nhưng đối với tớ thì lượng ngần này là vừa vặn nhất</b>.\"<br>\nNam: \"Hừm, tớ thấy giảm giá rẻ hơn chút nữa thì hợp lý hơn.\"<br>\nNữ: \"Ừ, cái đó thì công nhận.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm mấu chốt khiến cô luôn chọn suất A là vì suất ăn có lượng vừa phải, ít hơn các suất khác để bụng cô còn ăn thêm tráng miệng: \"そこがいいんじゃない！私、これを食べたあと、デザートも食べたいから\" và \"私にはこのぐらいがちょうどいいの\" (Lượng ngần này vừa vặn với tớ).<br>\n- Vì vậy lý do lớn nhất là lượng thức ăn ít (量が少ないから) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 132,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_03.mp3",
+          "audioSrc": "audio/buoi_08/m2_03.mp3",
+          "questionText": "この女の人がパソコンを習い始める理由は何ですか。",
+          "options": [
+            "時間に余裕があるから",
+            "割引期間だから",
+            "就職したとき役立つから",
+            "友達が始めたから"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do người phụ nữ bắt đầu đi học vi tính là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 時間に余裕があるから: Vì có dư dả thời gian rảnh rỗi<br>\n2. 割引期間だから: Vì đang trong đợt khuyến mãi giảm giá học phí<br>\n3. 就職したとき役立つから: Vì có ích khi đi xin việc làm<br>\n4. 友達が始めたから: Vì thấy bạn bè bắt đầu đi học<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が大学で話しています。この女の人がパソコンを習い始める理由は何ですか。<br>\nF：ねえ、パソコン教室に行ってるって聞いたけど、本当？<br>\nM：うん、先月から始めたんだ。<br>\nF：へえー。<b>私も、去年たくさん単位をとったから、今年は時間ができそうなんだ。それで、パソコンか何かやってみようと思ってるの</b>。<br>\nM：へえ、いいんじゃない？僕はちょうどキャンペーン中で、最初の1か月の授業料がただだったから始めたんだ。<br>\nF：そうなんだ。習い事してる人、多いね。みんな就職のための準備かな？<br>\nM：うーん、そうとは限らないんじゃない？友達が始めたからっていう人も多いと思うよ。<br>\nF：そうだね。じゃ、私がパソコン始めたら、他の友達もやるって言うかもね。<br>\nM：そうかもね。<br>\nこの女の人がパソコンを習い始める理由は何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBạn nữ và bạn nam đang nói chuyện ở trường đại học. Lý do bạn nữ bắt đầu đi học máy tính là gì?<br>\nNữ: \"Này, tớ nghe bảo cậu đang đi học ở lớp tin học máy tính hả, thật không?\"<br>\nNam: \"Ừ, tớ bắt đầu học từ tháng trước rồi.\"<br>\nNữ: \"Chà. <b>Năm ngoái tớ tích lũy được nhiều tín chỉ rồi nên năm nay có vẻ có nhiều thời gian rảnh rỗi. Thế nên tớ đang tính học thêm vi tính hay món gì đó đây</b>.\"<br>\nNam: \"Ồ, thế thì tốt quá còn gì. Tớ học là vì đợt đó trúng chương trình khuyến mãi, được miễn phí tháng đầu tiên đấy.\"<br>\nNữ: \"Ra là vậy. Dạo này nhiều người đi học thêm kỹ năng nhỉ. Chắc mọi người chuẩn bị hành trang đi xin việc làm?\"<br>\nNam: \"Ừm, cũng chưa hẳn là thế đâu. Tớ nghĩ nhiều người đi học là do thấy bạn bè đi học nên học theo đấy.\"<br>\nNữ: \"Ừ đúng rồi. Thế thì nếu tớ đi học vi tính khéo mấy đứa bạn khác cũng đi học theo mất nhỉ.\"<br>\nNam: \"Khéo thế thật đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người nam đi học vì đợt khuyến mại miễn phí tháng đầu (loại 2).<br>\n- Bạn nữ giải thích lý do của mình: năm ngoái đã tích lũy gần hết tín chỉ nên năm nay có nhiều thời gian rảnh rỗi (\"今年は時間ができそうなんだ。それで、パソコンか何かやってみようと思ってるの\") &rarr; Do có thời gian thảnh thơi (時間に余裕があるから) &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 133,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_04.mp3",
+          "audioSrc": "audio/buoi_08/m2_04.mp3",
+          "questionText": "男の人はどうして発表会に行きたくないのですか。",
+          "options": [
+            "仕事が忙しいから",
+            "行くのが面倒だから",
+            "知っている人が少ないから",
+            "人付き合いが苦手だから"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao người đàn ông lại không muốn đi dự buổi hòa nhạc báo cáo biểu diễn?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 仕事が忙しいから: Vì công việc bận rộn<br>\n2. 行くのが面倒だから: Vì thấy phiền phức, ngại đi lại<br>\n3. 知っている人が少ないから: Vì có ít người quen biết<br>\n4. 人付き合いが苦手だから: Vì ngại giao tiếp, xã giao với mọi người<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。男の人はどうして発表会に行きたくないのですか。<br>\nF：来週のよしこのバイオリンの発表会だけど、聞きに行けるよね？仕事、休めそう？<br>\nM：土曜日だったよね。ああ、ちょっと忙しいけど……。<br>\nF：え？時間取れないの？<br>\nM：いや、課長に頼めば何とかなるから大丈夫だよ。<br>\nF：じゃ、行くよね？他のお子さんのご両親はみんな聞きに行くんだから、面倒だなんて言わないでよね。<br>\nM：面倒じゃないけど、やっぱりみんな来るんだ。緊張するなあ。<br>\nF：何言ってんの。知らない人ばっかりじゃないんだから、安心して。<br>\nM：<b>いや、少し知ってるから、会ったときに何を話せばいいか分かんなくて大変なんだよ。黙ってるわけにはいかないしな</b>。<br>\nF：<b>まあ、そういうのが得意じゃないのは知ってるけど……</b>。毎日仕事で色んなお客さんと話してるじゃない。大丈夫だよ。<br>\nM：仕事とこれは別だよ。<br>\n男の人はどうして発表会に行きたくないのですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười vợ và người chồng đang nói chuyện. Tại sao người chồng lại không muốn đi dự buổi biểu diễn báo cáo kết quả của con?<br>\nVợ: \"Buổi biểu diễn violin của bé Yoshiko vào tuần sau, anh đi nghe được chứ? Công việc có xin nghỉ được không?\"<br>\nChồng: \"Vào thứ Bảy đúng không em. Ừm, dạo này hơi bận chút nhưng mà...\"<br>\nVợ: \"Ơ? Anh không thu xếp được thời gian à?\"<br>\nChồng: \"À không, nhờ trưởng phòng thì vẫn thu xếp được, không sao đâu.\"<br>\nVợ: \"Thế thì đi nhé? Phụ huynh của các cháu khác ai cũng đi đông đủ cả, anh đừng có kêu phiền phức đấy nhé.\"<br>\nChồng: \"Không phải anh thấy phiền, nhưng mà ai cũng đến đông đủ thế à... Thấy căng thẳng quá.\"<br>\nVợ: \"Anh nói gì lạ thế. Đâu phải toàn người xa lạ đâu mà anh lo.\"<br>\nChồng: \"<b>Không, chính vì hơi quen biết nhau nên lúc chạm mặt mới không biết phải bắt chuyện thế nào cho phải, mệt lắm. Chẳng lẽ lại cứ đứng im thin thít không nói gì</b>.\"<br>\nVợ: \"<b>Thì em biết tính anh vốn không giỏi mấy khoản giao tế xã giao này rồi...</b> Nhưng hàng ngày đi làm anh vẫn tiếp xúc nói chuyện với bao nhiêu khách hàng đấy thôi. Sẽ ổn cả mà anh.\"<br>\nChồng: \"Công việc với chuyện này nó khác nhau chứ em.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người chồng khẳng định công việc vẫn xin nghỉ được (loại 1) và không phải do ngại đi (loại 2).<br>\n- Anh không muốn đi vì sợ phải gặp mặt phụ huynh khác vốn là chỗ quen biết nhưng không thân, không biết phải xã giao nói chuyện gì, đứng im thì bất lịch sự (\"何を話せばいいか分かんなくて大変... 黙ってるわけにはいかない\").<br>\n- Người vợ cũng nhận xét anh vốn không giỏi khoản này (\"そういうのが得意じゃない\"). Đây chính là tính cách ngại giao tiếp, xã giao (人付き合いが苦手だから) &rarr; <b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 134,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_05.mp3",
+          "audioSrc": "audio/buoi_08/m2_05.mp3",
+          "questionText": "男の人はどうして留学しますか。",
+          "options": [
+            "就職するとき条件がよくなるから",
+            "英語を上手に話せるようになりたいから",
+            "外国で生活してみたいから",
+            "その国のいろいろな場所を旅行したいから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao bạn nam lại đi du học?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 就職するとき条件がよくなるから: Vì sẽ có lợi thế, điều kiện tốt hơn khi đi xin việc<br>\n2. 英語を上手に話せるようになりたいから: Vì muốn nói tiếng Anh thật lưu loát<br>\n3. 外国で生活してみたいから: Vì muốn được trải nghiệm cuộc sống sinh hoạt ở nước ngoài<br>\n4. その国のいろいろな場所を旅行したいから: Vì muốn đi du lịch nhiều nơi tại quốc gia đó<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で女の人と男の人が話しています。男の人はどうして留学しますか。<br>\nF：田中君、来月からアメリカの大学に行くんだね。寂しくなるなあ。でも、どうして留学するの？就職の時有利だから？<br>\nM：うーん、留学の経験が評価されるとは限らないよ。<br>\nF：じゃあ、英語の勉強のため？<br>\nM：まあ、英語は上手に話せるようにはなりたいけどね。<br>\nF：そうだよな。英語が話せると役に立つもんね。<br>\nM：まあね。<b>それより僕、前から日本以外の国で暮らしてみたいんだ。日本とは違う文化や、そこで暮らす人の考え方に興味があるんだ</b>。<br>\nF：ふーん。アメリカなら、色んな経験ができそうだね。私も旅行してみたいなあ。<br>\n男の人はどうして留学しますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nTại trường đại học, bạn nữ và bạn nam đang nói chuyện. Tại sao bạn nam lại đi du học?<br>\nNữ: \"Tanaka, từ tháng sau cậu sang học đại học ở Mỹ rồi nhỉ. Thiếu cậu sẽ buồn lắm đây. Nhưng mà sao cậu lại đi du học thế? Để sau này xin việc có lợi thế à?\"<br>\nNam: \"Ừm, kinh nghiệm du học chưa chắc đã được nhà tuyển dụng đánh giá cao đâu.\"<br>\nNữ: \"Thế thì để trau dồi tiếng Anh à?\"<br>\nNam: \"Thì tiếng Anh ai chẳng muốn nói giỏi.\"<br>\nNữ: \"Chuẩn luôn, bắn tiếng Anh trôi chảy thì có ích bao nhiêu mà.\"<br>\nNam: \"Ừ thì đúng. <b>Nhưng quan trọng hơn là từ trước đến nay tớ luôn muốn được thử sống ở một đất nước ngoài Nhật Bản. Tớ rất hứng thú với nền văn hóa khác biệt cũng như nhân sinh quan của con người nơi đó</b>.\"<br>\nNữ: \"Ồ. Sang Mỹ thì tha hồ trải nghiệm nhiều điều mới mẻ nhỉ. Tớ cũng muốn được đi du lịch một chuyến ghê.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm mấu chốt: bạn nam bác bỏ lợi thế xin việc (就職), còn việc học tiếng Anh chỉ là phụ. Lý do thực sự lớn nhất là mong muốn được sinh sống ở nước ngoài để trải nghiệm văn hóa và góc nhìn con người (\"それより僕、前から日本以外の国で暮らしてみたいんだ\") &rarr; Muốn trải nghiệm sinh sống ở nước ngoài (外国で生活してみたいから) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 135,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
+          "isChoukai": true,
+          "audio": "audio/buoi_08/m2_06.mp3",
+          "audioSrc": "audio/buoi_08/m2_06.mp3",
+          "questionText": "先生はこの取り組みを始めて何が一番良かったと言っていますか。",
+          "options": [
+            "生徒の自然に対する知識が深まったこと",
+            "生徒に体力が付いたこと",
+            "全員1000メートル泳げるようになったこと",
+            "生徒が助け合うようになったこと"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Thầy giáo chia sẻ điều tốt nhất sau khi triển khai hoạt động này là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 生徒の自然に対する知識が深まったこと: Học sinh hiểu biết sâu sắc hơn về thiên nhiên<br>\n2. 生徒に体力が付いたこと: Học sinh được tăng cường thể lực<br>\n3. 全員1000メートル泳げるようになったこと: Toàn bộ học sinh đều bơi được cự ly 1.000 mét<br>\n4. 生徒が助け合うようになったこと: Học sinh hình thành tinh thần tương thân tương ái, biết giúp đỡ lẫn nhau<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n小学校の先生が学校の取り組みについて話しています。先生はこの取り組みを始めて何が一番良かったと言っていますか。<br>\nM：私たちの学校では、6年生を対象に、毎年、近くの湖で1000メートルを泳ぐ遠泳大会を実施しています。生徒に身近な自然を知ってもらおうと、5年前に始めました。しかし、予想しなかった効果も上がっています。まず、大会を始める前に比べると、生徒の体力が随分向上しました。また、練習の成果があって、大会では1人の例外もなく、全員が1000メートルを泳ぎ切っています。これは決して簡単なことではありません。低学年のうちからクラスみんなで励まし合って練習しているからこそ、このような成果につながるのでしょう。<b>練習を通じて生まれた助け合い精神は、水泳の練習以外の場面でも見られます。実はこれが最大の効果だと、私たち教師は思っています</b>。遠泳大会を始めて、良かったなと思います。<br>\n先生はこの取り組みを始めて何が一番良かったと言っていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nMột thầy giáo tiểu học đang chia sẻ về một hoạt động ngoại khóa của trường. Thầy giáo nói điều tuyệt vời nhất sau khi khởi xướng hoạt động này là gì?<br>\nThầy giáo: \"Trường chúng tôi hàng năm đều tổ chức hội thi bơi đường trường 1.000 mét tại hồ nước gần trường dành cho các em học sinh lớp 6. Hoạt động này được bắt đầu từ 5 năm trước với mong muốn giúp các em gần gũi và hiểu thêm về thiên nhiên quê hương. Thế nhưng, hoạt động này còn mang lại những hiệu quả ngoài mong đợi. Đầu tiên, so với trước đây, thể lực của học sinh đã được nâng cao rõ rệt. Thêm vào đó, nhờ thành quả luyện tập, tại hội thi không có bất kỳ ngoại lệ nào, 100% học sinh đều bơi hoàn thành trọn vẹn cự ly 1.000 mét. Đây tuyệt đối không phải là điều dễ dàng. Chính nhờ việc các em trong lớp luôn biết động viên, khích lệ lẫn nhau cùng luyện tập từ những năm lớp nhỏ mới gặt hái được thành tích như vậy. <b>Tinh thần tương trợ, giúp đỡ lẫn nhau được ươm mầm qua những buổi tập luyện này còn được thể hiện rõ nét trong nhiều tình huống khác ngoài việc bơi lội. Các thầy cô chúng tôi tin rằng, trên thực tế đây mới chính là thành quả to lớn nhất</b>. Chúng tôi thực sự cảm thấy may mắn và tự hào khi đã khởi xướng hội thi bơi đường trường này.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thể lực tăng lên (生徒の体力向上) và tất cả học sinh bơi được 1.000m (全員1000メートル泳ぎ切る) đều là những thành quả tốt, nhưng thầy giáo nhấn mạnh thành quả lớn nhất (最大の効果 / 一番良かった):<br>\n- \"練習を通じて生まれた助け合い精神は、水泳の練習以外の場面でも見られます。実はこれが最大の効果だと、私たち教師は思っています\" (Tinh thần tương trợ, giúp đỡ lẫn nhau sinh ra từ luyện tập... mới chính là hiệu quả lớn nhất).<br>\n- Học sinh biết tương trợ, giúp đỡ lẫn nhau (生徒が助け合うようになったこと) &rarr; <b>Đáp án đúng là 4</b>."
+        }
+      ]
     }
-  ,
-{
-  "id": "choukai",
-  "name": "聴解 (Nghe hiểu - Mondai 1 & 2)",
-  "questions": [
-    {
-      "id": 125,
-      "mondai": 1,
-      "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m1_01.mp3",
-      "audioSrc": "audio/buoi_08/m1_01.mp3",
-      "image": "images/buoi_08/b8_m1_q1.png",
-      "questionText": "男の子はこのあとカバンに何を入れますか。",
-      "options": [
-        "ア　イ　ウ",
-        "ア　イ　エ",
-        "ア　ウ　エ",
-        "イ　ウ　エ"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu bé sau đây sẽ cho những món đồ nào vào trong cặp/túi xách?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　イ　ウ: Thuốc, điện thoại di động, sạc pin<br>\n2. ア　イ　エ: Thuốc, điện thoại di động, máy ảnh<br>\n3. ア　ウ　エ: Thuốc, sạc pin, máy ảnh<br>\n4. イ　ウ　エ: Điện thoại di động, sạc pin, máy ảnh<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n母親と中学生の男の子が、明日の旅行の準備について話しています。男の子はこのあとカバンに何を入れますか。<br>\nF：もう明日の準備は終わった？忘れ物しないように、よく確認するのよ。薬は入れた？<br>\nM：うん、2種類入れたよ。<br>\nF：あっそう。乗り物酔いの薬も？<br>\nM：それは持って行かなくても大丈夫だよ。<br>\nF：本当にいいの？<br>\nM：<b>じゃあ、念のため（薬を入れる）</b>。<br>\nF：そうね。あら、携帯。机の上なんかに置いとくと忘れちゃうわよ。<b>今日入れなさい</b>。<br>\nM：<b>うん（携帯を入れる）</b>。<br>\nF：充電器は持って行かないの？<br>\nM：2泊3日だからね。<br>\nF：そう。<br>\nF：あら、ここにカメラが出てるけど。<br>\nM：<b>あ、明日持って行こうと思って、お父さんから借りてきたの忘れてた（カメラを入れる）</b>。<br>\nF：もう、しっかりしなさい。<br>\n男の子はこのあとカバンに何を入れますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười mẹ và cậu con trai học cấp 2 đang nói chuyện chuẩn bị đồ cho chuyến du lịch ngày mai. Cậu bé sau đây sẽ cho những món đồ nào vào cặp?<br>\nMẹ: \"Chuẩn bị cho ngày mai xong chưa con? Kiểm tra thật kỹ kẻo quên đồ đấy nhé. Thuốc đã cho vào chưa?\"<br>\nCon: \"Dạ, con cho 2 loại vào rồi ạ.\"<br>\nMẹ: \"Thế à. Cả thuốc chống say xe nữa chứ?\"<br>\nCon: \"Cái đó không mang chắc cũng không sao đâu mẹ.\"<br>\nMẹ: \"Thật không đấy con?\"<br>\nCon: \"<b>Vậy để chắc ăn con mang thêm thuốc say xe nhé (Thêm thuốc: ア)</b>.\"<br>\nMẹ: \"Ừ. Kìa, điện thoại kìa. Để trên mặt bàn thế kia thể nào cũng quên cho xem. <b>Cho vào cặp ngay hôm nay đi con</b>.\"<br>\nCon: \"<b>Dạ vâng (Thêm điện thoại: イ)</b>.\"<br>\nMẹ: \"Sạc pin không mang theo à con?\"<br>\nCon: \"Chuyến đi 2 ngày 3 đêm mà mẹ (đã sạc đầy hoặc không mang theo/để ở nhà).\"<br>\nMẹ: \"Ừ.\"<br>\nMẹ: \"Kìa, có máy ảnh để ở đây này.\"<br>\nCon: \"<b>A, con định mai mang đi nên mượn của bố mà suýt quên mất (Thêm máy ảnh: エ)</b>.\"<br>\nMẹ: \"Thật là, chú ý vào chứ con!\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thuốc chống say xe (ア: 薬): Sau khi mẹ nhắc thì cậu bé quyết định mang phòng hờ &rarr; Cho vào cặp.<br>\n- Điện thoại (イ: 携帯電話): Mẹ bảo cất vào cặp ngay kẻo quên &rarr; Cho vào cặp.<br>\n- Sạc pin (ウ: 充電器): Cậu bé không cho vào cặp.<br>\n- Máy ảnh (エ: カメラ): Cậu mượn của bố và cất vào cặp ngay &rarr; Cho vào cặp.<br>\n- Như vậy các món đồ cậu bé cho vào cặp sau cuộc nói chuyện là <b>ア (Thuốc), イ (Điện thoại), エ (Máy ảnh)</b> &rarr; <b>Đáp án đúng là 2</b>."
-    },
-    {
-      "id": 126,
-      "mondai": 1,
-      "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m1_02.mp3",
-      "audioSrc": "audio/buoi_08/m1_02.mp3",
-      "questionText": "女の人はこのあとまず何をしますか。",
-      "options": [
-        "会員登録をする",
-        "予約の内容を入力する",
-        "お金を振り込む",
-        "クレジットカードを作る"
-      ],
-      "correctAnswer": 4,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ ngay sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 会員登録をする: Đăng ký thành viên trên trang web<br>\n2. 予約の内容を入力する: Nhập thông tin đặt vé<br>\n3. お金を振り込む: Chuyển khoản thanh toán tiền vé<br>\n4. クレジットカードを作る: Làm thẻ tín dụng (credit card)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。女の人はこのあとまず何をしますか。<br>\nF：インターネットで新幹線の予約ができるって聞いたんだけど、知ってる？<br>\nM：うん、よくやってるよ。駅で買うより、少し安く買えるんだ。会員にならなきゃいけないんだけどね。<br>\nF：本当？どうやって会員になるか教えて。来月、実家に帰るから、新幹線の予約をしたいの。<br>\nM：うん、いいよ。会員になるためには、まず会員登録をするんだ。ホームページを見ると、会員登録っていうところがあるから、そこから登録するんだよ。登録すると、メールアドレスに会員番号が送られてくるから、それが届いたら、すぐ予約の画面から入力できるよ。<br>\nF：へえ、ホームページを見ればいいのね。じゃあ、早速やってみるね。<br>\nM：<b>予約の内容を入力したら、最後にクレジットカードの番号を入れるんだけどさ</b>。<br>\nF：<b>え？クレジットカード？</b><br>\nM：<b>うん。それがないと予約できないよ</b>。<br>\nF：<b>え、そうなんだ。持っていないよ。てっきりチケットが届いてからお金を振り込むのかと思ってた</b>。<br>\nM：<b>帰省するのが来月なら、まだ時間があるから、まずはそれを用意したほうがいいね</b>。<br>\nF：<b>わかった。そうする</b>。<br>\n女の人はこのあとまず何をしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Người phụ nữ ngay sau đây trước tiên sẽ làm gì?<br>\nNữ: \"Tớ nghe bảo có thể đặt vé tàu Shinkansen qua mạng internet, cậu biết không?\"<br>\nNam: \"Ừ, tớ hay đặt lắm. Mua qua mạng rẻ hơn mua ở ga một chút đấy. Nhưng mà phải đăng ký làm hội viên cơ.\"<br>\nNữ: \"Thế à? Chỉ cho tớ cách làm hội viên với. Tháng sau tớ về quê nên muốn đặt vé Shinkansen.\"<br>\nNam: \"Ừ được chứ. Để làm hội viên thì trước hết phải đăng ký tài khoản. Lên trang chủ sẽ thấy mục 'Đăng ký thành viên', cậu đăng ký từ đó. Đăng ký xong hệ thống sẽ gửi mã số hội viên vào email, có mã rồi là vào màn hình đặt vé nhập thông tin được ngay.\"<br>\nNữ: \"Ồ, chỉ cần lên trang chủ là được nhỉ. Vậy để tớ làm luôn.\"<br>\nNam: \"<b>À mà, nhập xong thông tin đặt vé thì cuối cùng phải điền số thẻ tín dụng vào đấy nhé</b>.\"<br>\nNữ: \"<b>Ơ? Thẻ tín dụng á?</b>\"<br>\nNam: \"<b>Ừ, không có thẻ tín dụng là không đặt vé được đâu</b>.\"<br>\nNữ: \"<b>Ủa thế á? Tớ không có thẻ tín dụng đâu. Tớ cứ đinh ninh là vé gửi về tận nhà rồi mới chuyển khoản trả tiền cơ</b>.\"<br>\nNam: \"<b>Nếu tháng sau mới về quê thì vẫn còn thời gian, trước hết cậu nên chuẩn bị làm thẻ tín dụng đã</b>.\"<br>\nNữ: \"<b>Tớ hiểu rồi. Tớ sẽ làm vậy</b>.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người phụ nữ định đăng ký thành viên ngay nhưng người nam lưu ý phải có thẻ tín dụng để thanh toán thì mới hoàn tất đặt vé.<br>\n- Vì người phụ nữ chưa có thẻ tín dụng nên người nam khuyên \"まずはそれを用意したほうがいいね\" (Trước hết nên chuẩn bị cái thẻ đó đã). Cô đồng ý \"そうする\" (Tớ sẽ làm thế).<br>\n- Do đó hành động đầu tiên cô phải làm là đi làm thẻ tín dụng (クレジットカードを作る) &rarr; <b>Đáp án đúng là 4</b>."
-    },
-    {
-      "id": 127,
-      "mondai": 1,
-      "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m1_03.mp3",
-      "audioSrc": "audio/buoi_08/m1_03.mp3",
-      "questionText": "男の人は何を買わなければなりませんか。",
-      "options": [
-        "ア　オ",
-        "ア　イ　オ",
-        "ア　ウ　エ",
-        "イ　エ"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông phải mua những nguyên liệu nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　オ: Bánh mì (パン) và Phô mai (チーズ)<br>\n2. ア　イ　オ: Bánh mì, bơ, phô mai<br>\n3. ア　ウ　エ: Bánh mì, trứng, rau<br>\n4. イ　エ: Bơ và rau<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人と女の人が話しています。男の人は何を買わなければなりませんか。<br>\nM：明日の弁当、サンドイッチ作るんだよね。何買ってくればいい？<br>\nF：ええと、パンは8枚あるからいいでしょう？<br>\nM：え？でも4人分でしょう？足りる？<br>\nF：半分に切ればいいかなって思ったけど、<b>じゃ、念のため追加しようか（パンを買う：ア）</b>。それから、バターはあるし……。<br>\nM：あ、俺、今朝バター使ったよ。もうあまり残ってなかったけど。<br>\nF：そう。じゃ、必要だね。それから、卵は3つあるからいいよね。<br>\nM：うん。<br>\nM：ねえ、野菜は何も入れないの？<br>\nF：うーん、そうだね。なんか緑の物が入ると、見た目がよくなるね。じゃ、入れようか。確か冷蔵庫にあったと思う。<br>\nM：そう。<br>\nF：<b>ねえ、野菜を入れるなら、バターの代わりにチーズ入れたいんだけど</b>。<br>\nM：いいよ。<br>\nF：<b>じゃ、バターはいいから、チーズお願い（チーズを買う：オ）</b>。<br>\nM：わかった。<br>\n男の人は何を買わなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười đàn ông và người phụ nữ đang nói chuyện. Người đàn ông phải mua những nguyên liệu nào?<br>\nNam: \"Cơm hộp ngày mai là làm bánh mì kẹp sandwich nhỉ. Anh cần mua những gì về đây?\"<br>\nNữ: \"Để xem nào, bánh mì gối có 8 lát rồi nên chắc đủ nhỉ?\"<br>\nNam: \"Ủa? Nhưng phần cho 4 người cơ mà? Có đủ không đấy?\"<br>\nNữ: \"Em định cắt đôi lát bánh ra, nhưng <b>thôi để chắc ăn anh mua thêm bánh mì nhé (Mua bánh mì: ア)</b>. Với lại bơ thì có rồi...\"<br>\nNam: \"À, sáng nay anh vừa dùng bơ xong, trong hộp chẳng còn lại mấy đâu.\"<br>\nNữ: \"Thế à. Vậy thì phải mua rồi. Còn trứng thì có 3 quả rồi nên thôi nhé.\"<br>\nNam: \"Ừ.\"<br>\nNam: \"Này, không cho rau vào à em?\"<br>\nNữ: \"Ừm, đúng rồi nhỉ. Có chút màu xanh vào trông sẽ đẹp mắt hơn. Thế cho rau vào nhé. Hình như trong tủ lạnh vẫn còn đấy.\"<br>\nNam: \"Ừ.\"<br>\nNữ: \"<b>Này, nếu cho rau thì thay vì phết bơ, em muốn kẹp phô mai cơ</b>.\"<br>\nNam: \"Được thôi.\"<br>\nNữ: \"<b>Vậy thì không cần mua bơ nữa, anh mua phô mai giúp em nhé (Mua phô mai: オ)</b>.\"<br>\nNam: \"Được rồi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bánh mì (ア: パン): Ban đầu tưởng đủ nhưng làm cho 4 người nên quyết định mua bổ sung &rarr; Phải mua (ア).<br>\n- Bơ (イ: バター): Ban đầu định mua vì hết, nhưng sau đó đổi ý không dùng bơ nữa mà dùng phô mai &rarr; Không mua.<br>\n- Trứng (ウ: 卵): Trong tủ lạnh còn 3 quả &rarr; Không mua.<br>\n- Rau (エ: 野菜): Trong tủ lạnh có sẵn &rarr; Không mua.<br>\n- Phô mai (オ: チーズ): Quyết định kẹp thay cho bơ &rarr; Phải mua (オ).<br>\n- Vậy những thứ cần mua là <b>ア (Bánh mì) và オ (Phô mai)</b> &rarr; <b>Đáp án đúng là 1</b>."
-    },
-    {
-      "id": 128,
-      "mondai": 1,
-      "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m1_04.mp3",
-      "audioSrc": "audio/buoi_08/m1_04.mp3",
-      "questionText": "男の人はこのあとまず何をしますか。",
-      "options": [
-        "備蓄品を買う",
-        "会議の議案をまとめる",
-        "資料を取り寄せる",
-        "行動マニュアルを配る"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 備蓄品を買う: Mua sắm đồ dự trữ ứng phó thảm họa<br>\n2. 会議の議案をまとめる: Tổng hợp nghị án cho cuộc họp<br>\n3. 資料を取り寄せる: Đặt / lấy tài liệu hướng dẫn mới nhất về<br>\n4. 行動マニュアルを配る: Phát sổ tay hướng dẫn hành động cho mọi người<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が会社の地震対策について話しています。男の人はこのあとまず何をしますか。<br>\nF：ねえ、田中さん、この間お願いした地震対策なんだけど、水や薬はまだ買ってないよね？<br>\nM：ええ、備蓄品の購入については、予算案を作成したところです。<br>\nF：よかった。備蓄品は会議で承認されてから購入することになってるから、会議の議案に入れといてくれる？<br>\nM：はい、それも入れてまとめておきます。<br>\nF：あと、地震が発生したあとの行動マニュアルだけど、どこまで進んでる？<br>\nM：はい、区が作成した資料をもとに、今、案を練っています。<br>\nF：そう。ちょっとその資料を見せてくれる？<br>\nM：これですけど。<br>\nF：あら、これ、5年前に発行されたものじゃない。<b>もっと最近のがあるはずだから、それに従わないと</b>。<br>\nM：<b>はい、すぐ手配します（最新の資料を取り寄せる）</b>。<br>\nF：マニュアルは来週の会議で検討しなきゃいけないんだから、まとまったら会議の前に配布しといてくれる？議案はそのあとでいいから。<br>\nM：はい。<br>\n男の人はこのあとまず何をしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang thảo luận về phương án đối phó động đất của công ty. Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br>\nNữ: \"Này anh Tanaka, kế hoạch đối phó động đất tôi nhờ hôm nọ ấy, nước và thuốc men anh vẫn chưa mua đúng không?\"<br>\nNam: \"Vâng, về việc mua đồ dự trữ thì tôi vừa mới lập xong bản dự toán ngân sách thôi ạ.\"<br>\nNữ: \"Tốt quá. Đồ dự trữ phải chờ cuộc họp thông qua phê duyệt mới được mua, nên anh hãy đưa vào nghị án cuộc họp nhé.\"<br>\nNam: \"Vâng, tôi sẽ đưa vào và tổng hợp lại ạ.\"<br>\nNữ: \"Còn cuốn sổ tay hướng dẫn hành vi khi xảy ra động đất thì tiến hành đến đâu rồi?\"<br>\nNam: \"Dạ, tôi đang dựa trên tài liệu do ủy ban quận phát hành để lên phương án ạ.\"<br>\nNữ: \"Thế à, cho tôi xem tập tài liệu đó một chút được không?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nNữ: \"Ơ kìa, tài liệu này phát hành từ 5 năm trước rồi còn gì. <b>Chắc chắn phải có bản mới gần đây hơn chứ, mình phải làm theo bản mới nhất</b>.\"<br>\nNam: \"<b>Vâng, tôi sẽ liên hệ lấy tài liệu mới về ngay ạ</b>.\"<br>\nNữ: \"Cuốn sổ tay hướng dẫn phải được thảo luận trong cuộc họp tuần tới, nên khi tổng hợp xong anh phát trước cuộc họp giúp tôi nhé. Còn nghị án thì để sau đó cũng được.\"<br>\nNam: \"Vâng.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Mua đồ dự trữ (備蓄品を買う) phải chờ cuộc họp duyệt mới mua &rarr; Chưa làm ngay.<br>\n- Phát sổ tay (行動マニュアルを配る) phải đợi soạn thảo xong mới phát trước cuộc họp tuần tới.<br>\n- Nghị án (会議の議案をまとめる) được người phụ nữ dặn \"そのあとでいいから\" (để sau cũng được).<br>\n- Người phụ nữ phát hiện tài liệu quận đang dùng đã cũ từ 5 năm trước và yêu cầu lấy bản mới nhất. Người nam nhận lệnh làm ngay: \"はい、すぐ手配します\" (Vâng, tôi sẽ liên hệ lấy tài liệu mới ngay) &rarr; Việc làm ngay trước tiên là <b>資料を取り寄せる (Đặt/lấy tài liệu mới về)</b> &rarr; <b>Đáp án đúng là 3</b>."
-    },
-    {
-      "id": 129,
-      "mondai": 1,
-      "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m1_05.mp3",
-      "audioSrc": "audio/buoi_08/m1_05.mp3",
-      "image": "images/buoi_08/b8_m1_q5.png",
-      "questionText": "男の子はこれからどの書類を準備しなければなりませんか。",
-      "options": [
-        "ア　ウ　エ",
-        "ア　エ",
-        "イ　ウ　オ",
-        "イ　オ"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu học sinh từ bây giờ sẽ phải chuẩn bị lại/làm những giấy tờ nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　ウ　エ: Đơn nhập học, Giấy chứng nhận điểm số, Bản trình bày nguyện vọng<br>\n2. ア　エ: Đơn nhập học, Bản trình bày nguyện vọng<br>\n3. イ　ウ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy chứng nhận điểm số, Giấy khám sức khỏe<br>\n4. イ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy khám sức khỏe<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n高校生の男の子と先生が、大学の入学試験に必要な書類について話しています。男の子はこれからどの書類を準備しなければなりませんか。<br>\nM：先生、すみません。大学に提出する書類の確認を一緒にしていただきますか。<br>\nF：じゃあ、ちょっと見せて。まず、入学願書は？<br>\nM：これです。<br>\nF：<b>あら、書き間違いが随分多いね。もう一度きれいに書き直して（入学願書：ア）</b>。あと、卒業見込み証明書、準備できてる？<br>\nM：はい、ここにあります。<br>\nF：うん、いいね。それから、成績証明書。これは封筒に入っている書類だけど……あ、封筒開けちゃったの？<b>こういうのは開けたら書類としての効果がなくなっちゃうんだよ。もう一回作ってもらわなきゃ（成績証明書：ウ）</b>。<br>\nM：えっ、そうだったんですか。<br>\nF：<b>志望理由書は、卒業後の計画のところをもっと具体的に考えて書き直したほうがいいね（志望理由書：エ）</b>。<br>\nM：分かりました。<br>\nF：健康診断書は病院で作ってもらって……。<br>\nM：はい、それは昨日行ってきました。<br>\nF：そう、それなら問題ないね。じゃ、必要なものをすぐに準備してね。<br>\nM：はい。<br>\n男の子はこれからどの書類を準備しなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nMột bạn nam sinh cấp 3 và cô giáo đang trao đổi về các giấy tờ cần thiết cho kỳ thi tuyển sinh đại học. Bạn nam sinh từ bây giờ sẽ phải chuẩn bị lại những giấy tờ nào?<br>\nNam: \"Thưa cô, cô kiểm tra giúp em các giấy tờ nộp cho trường đại học với ạ.\"<br>\nCô: \"Được rồi, đưa cô xem nào. Trước hết, đơn đăng ký dự thi đâu em?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nCô: \"<b>Trời ơi, viết sai nhiều chỗ thế này em. Phải viết lại sạch đẹp lần nữa nhé (Đơn đăng ký: ア)</b>. Tiếp theo, giấy chứng nhận tốt nghiệp tạm thời chuẩn bị xong chưa em?\"<br>\nNam: \"Dạ có ở đây rồi ạ.\"<br>\nCô: \"Ừ, được rồi. Tiếp đến là bảng điểm. Bảng điểm để trong phong bì niêm phong mà... Ơ, em bóc phong bì ra rồi à? <b>Những giấy tờ niêm phong thế này bóc ra là mất giá trị hiệu lực đấy em. Phải xin cấp lại lần nữa rồi (Bảng điểm: ウ)</b>.\"<br>\nNam: \"Hả, thế ạ cô?\"<br>\nCô: \"<b>Còn bài trình bày lý do nguyện vọng, phần kế hoạch sau khi tốt nghiệp em cần suy nghĩ cụ thể hơn rồi viết lại nhé (Lý do nguyện vọng: エ)</b>.\"<br>\nNam: \"Dạ em hiểu rồi ạ.\"<br>\nCô: \"Giấy khám sức khỏe thì đi bệnh viện khám...\"<br>\nNam: \"Dạ cái đó hôm qua em đi khám xong rồi ạ.\"<br>\nCô: \"Thế thì ổn rồi. Giờ em mau chuẩn bị lại những giấy tờ cần thiết nhé.\"<br>\nNam: \"Vâng ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Giấy chứng nhận tốt nghiệp tạm thời (イ) và Giấy khám sức khỏe (オ) đã đạt yêu cầu &rarr; Không cần làm lại.<br>\n- Các giấy tờ bắt buộc phải chuẩn bị lại:<br>\n  + <b>ア (入学願書 - Đơn dự thi)</b>: Viết sai nhiều, cô bảo viết lại.<br>\n  + <b>ウ (成績証明書 - Bảng điểm)</b>: Đã lỡ bóc niêm phong phong bì nên mất hiệu lực, phải xin cấp lại.<br>\n  + <b>エ (志望理由書 - Bản lý do nguyện vọng)</b>: Chưa đủ cụ thể, cô bảo viết lại.<br>\n- Do đó các giấy tờ cần chuẩn bị lại là <b>ア, ウ, エ</b> &rarr; <b>Đáp án đúng là 1</b>."
-    },
-    {
-      "id": 130,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_01.mp3",
-      "audioSrc": "audio/buoi_08/m2_01.mp3",
-      "questionText": "女の人はどうして髪を短くしますか。",
-      "options": [
-        "歌手と同じ髪型にしたいから",
-        "今年、流行っているから",
-        "運動するとき、邪魔だから",
-        "印象を変えたいから"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao người phụ nữ lại muốn cắt tóc ngắn?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 歌手と同じ髪型にしたいから: Vì muốn để kiểu tóc giống ca sĩ<br>\n2. 今年、流行っているから: Vì năm nay kiểu tóc này đang thịnh hành<br>\n3. 運動するとき、邪魔だから: Vì khi vận động thể thao tóc vướng víu khó chịu<br>\n4. 印象を変えたいから: Vì muốn thay đổi ấn tượng hình ảnh của bản thân<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が美容院で話しています。女の人はどうして髪を短くしますか。<br>\nF：この写真みたいに短くしてください。<br>\nM：はい。ああ、この歌手の髪型、可愛いですよね。<br>\nF：はい。<br>\nM：最近、この髪型にしたいっていう人、多いですよ。今年は短いのが流行ってますから。<br>\nF：そうなんですか。<b>私の場合は、運動を始めたから、今の髪型はちょっと……</b>。<br>\nM：<b>そうですか。顔にかかるとイライラしますよね</b>。<br>\nF：<b>はい、そうなんです</b>。<br>\nM：短くしたら、だいぶ印象が変わりますね。<br>\nF：そうですね。みんなびっくりするかもしれません。<br>\nM：でも、短いのもう似合うと思いますよ。<br>\nF：ありがとうございます。<br>\n女の人はどうして髪を短くしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và anh thợ cắt tóc nam đang nói chuyện tại tiệm làm tóc. Tại sao người phụ nữ lại cắt tóc ngắn?<br>\nKhách nữ: \"Anh cắt ngắn giống trong bức ảnh này giúp tôi nhé.\"<br>\nThợ nam: \"Vâng. À, kiểu tóc của cô ca sĩ này dễ thương thật đấy.\"<br>\nKhách nữ: \"Vâng ạ.\"<br>\nThợ nam: \"Dạo này nhiều người muốn cắt kiểu này lắm. Năm nay mốt tóc ngắn đang lên ngôi mà.\"<br>\nKhách nữ: \"Thế ạ. <b>Còn trường hợp của tôi là do đợt này tôi bắt đầu tập thể thao vận động, nên để kiểu tóc dài hiện tại hơi...</b>\"<br>\nThợ nam: \"<b>Ra vậy ạ. Tóc cứ xõa vào mặt khi vận động bực mình lắm đúng không ạ</b>.\"<br>\nKhách nữ: \"<b>Vâng, đúng vậy đấy ạ</b>.\"<br>\nThợ nam: \"Cắt ngắn thế này trông diện mạo ấn tượng sẽ thay đổi hẳn đấy.\"<br>\nKhách nữ: \"Vâng, chắc mọi người sẽ bất ngờ lắm.\"<br>\nThợ nam: \"Nhưng tôi nghĩ tóc ngắn cũng rất hợp với chị đấy.\"<br>\nKhách nữ: \"Cảm ơn anh.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Mặc dù cô chọn bức ảnh mẫu tóc của ca sĩ và năm nay tóc ngắn đang là mốt, nhưng đó không phải lý do chính của cô.<br>\n- Cô nêu rõ lý do: \"私の場合は、運動を始めたから、今の髪型はちょっと……\" và đồng tình khi thợ nói tóc xõa vào mặt gây khó chịu khi tập luyện (\"顔にかかるとイライラしますよね\" &rarr; \"はい、そうなんです\").<br>\n- Tóc dài vướng víu khi vận động thể thao (運動するとき、邪魔だから) &rarr; <b>Đáp án đúng là 3</b>."
-    },
-    {
-      "id": 131,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_02.mp3",
-      "audioSrc": "audio/buoi_08/m2_02.mp3",
-      "questionText": "女の人がAランチを選ぶ一番の理由は何ですか。",
-      "options": [
-        "おいしいから",
-        "毎日違うスープが飲めるから",
-        "量が少ないから",
-        "値段が安いから"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do lớn nhất khiến bạn nữ chọn suất cơm trưa A (Aランチ) là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. おいしいから: Vì ngon miệng<br>\n2. 毎日違うスープが飲めるから: Vì mỗi ngày được uống một món súp khác nhau<br>\n3. 量が少ないから: Vì lượng đồ ăn ít, vừa vặn bụng<br>\n4. 値段が安いから: Vì giá tiền rẻ<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人と女の人が大学の食堂で話しています。女の人がAランチを選ぶ一番の理由は何ですか。<br>\nM：また今日もAランチ食べてんの？よく飽きないね。<br>\nF：結構おいしいし、スープは毎日変わるんだよ。<br>\nM：変わるのはスープだけでしょ？他はいつも同じじゃない。<br>\nF：まあね。<br>\nM：<b>どう見ても、BランチとかCランチより量が少ないと思うけど。よくこれで足りるね</b>。<br>\nF：<b>そこがいいんじゃない！私、これを食べたあと、デザートも食べたいから</b>。<br>\nM：ふーん。でもこの量でBランチとかと同じ値段なんてなあ。<br>\nF：<b>でも、私にはこのぐらいがちょうどいいの</b>。<br>\nM：ふーん。もう少し安くてもいいと思うけど。<br>\nF：そうだね。<br>\n女の人がAランチを選ぶ一番の理由は何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBạn nam và bạn nữ đang nói chuyện ở căng-tin trường đại học. Lý do số một khiến bạn nữ chọn suất ăn trưa A là gì?<br>\nNam: \"Hôm nay cậu lại ăn suất A à? Không thấy ngán sao?\"<br>\nNữ: \"Ăn khá ngon mà, với lại súp mỗi ngày đổi một món khác nhau đấy nhé.\"<br>\nNam: \"Đổi có mỗi món súp chứ mấy? Mấy món kia ngày nào chẳng y xì đúc.\"<br>\nNữ: \"Thì cũng đúng.\"<br>\nNam: \"<b>Nhìn kiểu gì cũng thấy suất A ít hơn hẳn so với suất B và suất C. Cậu ăn ít thế mà no được à</b>.\"<br>\nNữ: \"<b>Ít thế mới thích đấy chứ! Vì ăn suất này xong tớ còn muốn ăn thêm đồ tráng miệng nữa cơ</b>.\"<br>\nNam: \"Hừm... Nhưng mà ít thế này mà giá lại ngang bằng suất B thì hơi đắt đấy.\"<br>\nNữ: \"<b>Nhưng đối với tớ thì lượng ngần này là vừa vặn nhất</b>.\"<br>\nNam: \"Hừm, tớ thấy giảm giá rẻ hơn chút nữa thì hợp lý hơn.\"<br>\nNữ: \"Ừ, cái đó thì công nhận.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm mấu chốt khiến cô luôn chọn suất A là vì suất ăn có lượng vừa phải, ít hơn các suất khác để bụng cô còn ăn thêm tráng miệng: \"そこがいいんじゃない！私、これを食べたあと、デザートも食べたいから\" và \"私にはこのぐらいがちょうどいいの\" (Lượng ngần này vừa vặn với tớ).<br>\n- Vì vậy lý do lớn nhất là lượng thức ăn ít (量が少ないから) &rarr; <b>Đáp án đúng là 3</b>."
-    },
-    {
-      "id": 132,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_03.mp3",
-      "audioSrc": "audio/buoi_08/m2_03.mp3",
-      "questionText": "この女の人がパソコンを習い始める理由は何ですか。",
-      "options": [
-        "時間に余裕があるから",
-        "割引期間だから",
-        "就職したとき役立つから",
-        "友達が始めたから"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do người phụ nữ bắt đầu đi học vi tính là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 時間に余裕があるから: Vì có dư dả thời gian rảnh rỗi<br>\n2. 割引期間だから: Vì đang trong đợt khuyến mãi giảm giá học phí<br>\n3. 就職したとき役立つから: Vì có ích khi đi xin việc làm<br>\n4. 友達が始めたから: Vì thấy bạn bè bắt đầu đi học<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が大学で話しています。この女の人がパソコンを習い始める理由は何ですか。<br>\nF：ねえ、パソコン教室に行ってるって聞いたけど、本当？<br>\nM：うん、先月から始めたんだ。<br>\nF：へえー。<b>私も、去年たくさん単位をとったから、今年は時間ができそうなんだ。それで、パソコンか何かやってみようと思ってるの</b>。<br>\nM：へえ、いいんじゃない？僕はちょうどキャンペーン中で、最初の1か月の授業料がただだったから始めたんだ。<br>\nF：そうなんだ。習い事してる人、多いね。みんな就職のための準備かな？<br>\nM：うーん、そうとは限らないんじゃない？友達が始めたからっていう人も多いと思うよ。<br>\nF：そうだね。じゃ、私がパソコン始めたら、他の友達もやるって言うかもね。<br>\nM：そうかもね。<br>\nこの女の人がパソコンを習い始める理由は何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBạn nữ và bạn nam đang nói chuyện ở trường đại học. Lý do bạn nữ bắt đầu đi học máy tính là gì?<br>\nNữ: \"Này, tớ nghe bảo cậu đang đi học ở lớp tin học máy tính hả, thật không?\"<br>\nNam: \"Ừ, tớ bắt đầu học từ tháng trước rồi.\"<br>\nNữ: \"Chà. <b>Năm ngoái tớ tích lũy được nhiều tín chỉ rồi nên năm nay có vẻ có nhiều thời gian rảnh rỗi. Thế nên tớ đang tính học thêm vi tính hay món gì đó đây</b>.\"<br>\nNam: \"Ồ, thế thì tốt quá còn gì. Tớ học là vì đợt đó trúng chương trình khuyến mãi, được miễn phí tháng đầu tiên đấy.\"<br>\nNữ: \"Ra là vậy. Dạo này nhiều người đi học thêm kỹ năng nhỉ. Chắc mọi người chuẩn bị hành trang đi xin việc làm?\"<br>\nNam: \"Ừm, cũng chưa hẳn là thế đâu. Tớ nghĩ nhiều người đi học là do thấy bạn bè đi học nên học theo đấy.\"<br>\nNữ: \"Ừ đúng rồi. Thế thì nếu tớ đi học vi tính khéo mấy đứa bạn khác cũng đi học theo mất nhỉ.\"<br>\nNam: \"Khéo thế thật đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người nam đi học vì đợt khuyến mại miễn phí tháng đầu (loại 2).<br>\n- Bạn nữ giải thích lý do của mình: năm ngoái đã tích lũy gần hết tín chỉ nên năm nay có nhiều thời gian rảnh rỗi (\"今年は時間ができそうなんだ。それで、パソコンか何かやってみようと思ってるの\") &rarr; Do có thời gian thảnh thơi (時間に余裕があるから) &rarr; <b>Đáp án đúng là 1</b>."
-    },
-    {
-      "id": 133,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_04.mp3",
-      "audioSrc": "audio/buoi_08/m2_04.mp3",
-      "questionText": "男の人はどうして発表会に行きたくないのですか。",
-      "options": [
-        "仕事が忙しいから",
-        "行くのが面倒だから",
-        "知っている人が少ないから",
-        "人付き合いが苦手だから"
-      ],
-      "correctAnswer": 4,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao người đàn ông lại không muốn đi dự buổi hòa nhạc báo cáo biểu diễn?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 仕事が忙しいから: Vì công việc bận rộn<br>\n2. 行くのが面倒だから: Vì thấy phiền phức, ngại đi lại<br>\n3. 知っている人が少ないから: Vì có ít người quen biết<br>\n4. 人付き合いが苦手だから: Vì ngại giao tiếp, xã giao với mọi người<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。男の人はどうして発表会に行きたくないのですか。<br>\nF：来週のよしこのバイオリンの発表会だけど、聞きに行けるよね？仕事、休めそう？<br>\nM：土曜日だったよね。ああ、ちょっと忙しいけど……。<br>\nF：え？時間取れないの？<br>\nM：いや、課長に頼めば何とかなるから大丈夫だよ。<br>\nF：じゃ、行くよね？他のお子さんのご両親はみんな聞きに行くんだから、面倒だなんて言わないでよね。<br>\nM：面倒じゃないけど、やっぱりみんな来るんだ。緊張するなあ。<br>\nF：何言ってんの。知らない人ばっかりじゃないんだから、安心して。<br>\nM：<b>いや、少し知ってるから、会ったときに何を話せばいいか分かんなくて大変なんだよ。黙ってるわけにはいかないしな</b>。<br>\nF：<b>まあ、そういうのが得意じゃないのは知ってるけど……</b>。毎日仕事で色んなお客さんと話してるじゃない。大丈夫だよ。<br>\nM：仕事とこれは別だよ。<br>\n男の人はどうして発表会に行きたくないのですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười vợ và người chồng đang nói chuyện. Tại sao người chồng lại không muốn đi dự buổi biểu diễn báo cáo kết quả của con?<br>\nVợ: \"Buổi biểu diễn violin của bé Yoshiko vào tuần sau, anh đi nghe được chứ? Công việc có xin nghỉ được không?\"<br>\nChồng: \"Vào thứ Bảy đúng không em. Ừm, dạo này hơi bận chút nhưng mà...\"<br>\nVợ: \"Ơ? Anh không thu xếp được thời gian à?\"<br>\nChồng: \"À không, nhờ trưởng phòng thì vẫn thu xếp được, không sao đâu.\"<br>\nVợ: \"Thế thì đi nhé? Phụ huynh của các cháu khác ai cũng đi đông đủ cả, anh đừng có kêu phiền phức đấy nhé.\"<br>\nChồng: \"Không phải anh thấy phiền, nhưng mà ai cũng đến đông đủ thế à... Thấy căng thẳng quá.\"<br>\nVợ: \"Anh nói gì lạ thế. Đâu phải toàn người xa lạ đâu mà anh lo.\"<br>\nChồng: \"<b>Không, chính vì hơi quen biết nhau nên lúc chạm mặt mới không biết phải bắt chuyện thế nào cho phải, mệt lắm. Chẳng lẽ lại cứ đứng im thin thít không nói gì</b>.\"<br>\nVợ: \"<b>Thì em biết tính anh vốn không giỏi mấy khoản giao tế xã giao này rồi...</b> Nhưng hàng ngày đi làm anh vẫn tiếp xúc nói chuyện với bao nhiêu khách hàng đấy thôi. Sẽ ổn cả mà anh.\"<br>\nChồng: \"Công việc với chuyện này nó khác nhau chứ em.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người chồng khẳng định công việc vẫn xin nghỉ được (loại 1) và không phải do ngại đi (loại 2).<br>\n- Anh không muốn đi vì sợ phải gặp mặt phụ huynh khác vốn là chỗ quen biết nhưng không thân, không biết phải xã giao nói chuyện gì, đứng im thì bất lịch sự (\"何を話せばいいか分かんなくて大変... 黙ってるわけにはいかない\").<br>\n- Người vợ cũng nhận xét anh vốn không giỏi khoản này (\"そういうのが得意じゃない\"). Đây chính là tính cách ngại giao tiếp, xã giao (人付き合いが苦手だから) &rarr; <b>Đáp án đúng là 4</b>."
-    },
-    {
-      "id": 134,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_05.mp3",
-      "audioSrc": "audio/buoi_08/m2_05.mp3",
-      "questionText": "男の人はどうして留学しますか。",
-      "options": [
-        "就職するとき条件がよくなるから",
-        "英語を上手に話せるようになりたいから",
-        "外国で生活してみたいから",
-        "その国のいろいろな場所を旅行したいから"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao bạn nam lại đi du học?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 就職するとき条件がよくなるから: Vì sẽ có lợi thế, điều kiện tốt hơn khi đi xin việc<br>\n2. 英語を上手に話せるようになりたいから: Vì muốn nói tiếng Anh thật lưu loát<br>\n3. 外国で生活してみたいから: Vì muốn được trải nghiệm cuộc sống sinh hoạt ở nước ngoài<br>\n4. その国のいろいろな場所を旅行したいから: Vì muốn đi du lịch nhiều nơi tại quốc gia đó<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で女の人と男の人が話しています。男の人はどうして留学しますか。<br>\nF：田中君、来月からアメリカの大学に行くんだね。寂しくなるなあ。でも、どうして留学するの？就職の時有利だから？<br>\nM：うーん、留学の経験が評価されるとは限らないよ。<br>\nF：じゃあ、英語の勉強のため？<br>\nM：まあ、英語は上手に話せるようにはなりたいけどね。<br>\nF：そうだよな。英語が話せると役に立つもんね。<br>\nM：まあね。<b>それより僕、前から日本以外の国で暮らしてみたいんだ。日本とは違う文化や、そこで暮らす人の考え方に興味があるんだ</b>。<br>\nF：ふーん。アメリカなら、色んな経験ができそうだね。私も旅行してみたいなあ。<br>\n男の人はどうして留学しますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nTại trường đại học, bạn nữ và bạn nam đang nói chuyện. Tại sao bạn nam lại đi du học?<br>\nNữ: \"Tanaka, từ tháng sau cậu sang học đại học ở Mỹ rồi nhỉ. Thiếu cậu sẽ buồn lắm đây. Nhưng mà sao cậu lại đi du học thế? Để sau này xin việc có lợi thế à?\"<br>\nNam: \"Ừm, kinh nghiệm du học chưa chắc đã được nhà tuyển dụng đánh giá cao đâu.\"<br>\nNữ: \"Thế thì để trau dồi tiếng Anh à?\"<br>\nNam: \"Thì tiếng Anh ai chẳng muốn nói giỏi.\"<br>\nNữ: \"Chuẩn luôn, bắn tiếng Anh trôi chảy thì có ích bao nhiêu mà.\"<br>\nNam: \"Ừ thì đúng. <b>Nhưng quan trọng hơn là từ trước đến nay tớ luôn muốn được thử sống ở một đất nước ngoài Nhật Bản. Tớ rất hứng thú với nền văn hóa khác biệt cũng như nhân sinh quan của con người nơi đó</b>.\"<br>\nNữ: \"Ồ. Sang Mỹ thì tha hồ trải nghiệm nhiều điều mới mẻ nhỉ. Tớ cũng muốn được đi du lịch một chuyến ghê.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm mấu chốt: bạn nam bác bỏ lợi thế xin việc (就職), còn việc học tiếng Anh chỉ là phụ. Lý do thực sự lớn nhất là mong muốn được sinh sống ở nước ngoài để trải nghiệm văn hóa và góc nhìn con người (\"それより僕、前から日本以外の国で暮らしてみたいんだ\") &rarr; Muốn trải nghiệm sinh sống ở nước ngoài (外国で生活してみたいから) &rarr; <b>Đáp án đúng là 3</b>."
-    },
-    {
-      "id": 135,
-      "mondai": 2,
-      "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu tìm ý chính)",
-      "isChoukai": true,
-      "audio": "audio/buoi_08/m2_06.mp3",
-      "audioSrc": "audio/buoi_08/m2_06.mp3",
-      "questionText": "先生はこの取り組みを始めて何が一番良かったと言っていますか。",
-      "options": [
-        "生徒の自然に対する知識が深まったこと",
-        "生徒に体力が付いたこと",
-        "全員1000メートル泳げるようになったこと",
-        "生徒が助け合うようになったこと"
-      ],
-      "correctAnswer": 4,
-      "explanation": "<b>❓ Dịch câu hỏi:</b> Thầy giáo chia sẻ điều tốt nhất sau khi triển khai hoạt động này là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 生徒の自然に対する知識が深まったこと: Học sinh hiểu biết sâu sắc hơn về thiên nhiên<br>\n2. 生徒に体力が付いたこと: Học sinh được tăng cường thể lực<br>\n3. 全員1000メートル泳げるようになったこと: Toàn bộ học sinh đều bơi được cự ly 1.000 mét<br>\n4. 生徒が助け合うようになったこと: Học sinh hình thành tinh thần tương thân tương ái, biết giúp đỡ lẫn nhau<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n小学校の先生が学校の取り組みについて話しています。先生はこの取り組みを始めて何が一番良かったと言っていますか。<br>\nM：私たちの学校では、6年生を対象に、毎年、近くの湖で1000メートルを泳ぐ遠泳大会を実施しています。生徒に身近な自然を知ってもらおうと、5年前に始めました。しかし、予想しなかった効果も上がっています。まず、大会を始める前に比べると、生徒の体力が随分向上しました。また、練習の成果があって、大会では1人の例外もなく、全員が1000メートルを泳ぎ切っています。これは決して簡単なことではありません。低学年のうちからクラスみんなで励まし合って練習しているからこそ、このような成果につながるのでしょう。<b>練習を通じて生まれた助け合い精神は、水泳の練習以外の場面でも見られます。実はこれが最大の効果だと、私たち教師は思っています</b>。遠泳大会を始めて、良かったなと思います。<br>\n先生はこの取り組みを始めて何が一番良かったと言っていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nMột thầy giáo tiểu học đang chia sẻ về một hoạt động ngoại khóa của trường. Thầy giáo nói điều tuyệt vời nhất sau khi khởi xướng hoạt động này là gì?<br>\nThầy giáo: \"Trường chúng tôi hàng năm đều tổ chức hội thi bơi đường trường 1.000 mét tại hồ nước gần trường dành cho các em học sinh lớp 6. Hoạt động này được bắt đầu từ 5 năm trước với mong muốn giúp các em gần gũi và hiểu thêm về thiên nhiên quê hương. Thế nhưng, hoạt động này còn mang lại những hiệu quả ngoài mong đợi. Đầu tiên, so với trước đây, thể lực của học sinh đã được nâng cao rõ rệt. Thêm vào đó, nhờ thành quả luyện tập, tại hội thi không có bất kỳ ngoại lệ nào, 100% học sinh đều bơi hoàn thành trọn vẹn cự ly 1.000 mét. Đây tuyệt đối không phải là điều dễ dàng. Chính nhờ việc các em trong lớp luôn biết động viên, khích lệ lẫn nhau cùng luyện tập từ những năm lớp nhỏ mới gặt hái được thành tích như vậy. <b>Tinh thần tương trợ, giúp đỡ lẫn nhau được ươm mầm qua những buổi tập luyện này còn được thể hiện rõ nét trong nhiều tình huống khác ngoài việc bơi lội. Các thầy cô chúng tôi tin rằng, trên thực tế đây mới chính là thành quả to lớn nhất</b>. Chúng tôi thực sự cảm thấy may mắn và tự hào khi đã khởi xướng hội thi bơi đường trường này.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thể lực tăng lên (生徒の体力向上) và tất cả học sinh bơi được 1.000m (全員1000メートル泳ぎ切る) đều là những thành quả tốt, nhưng thầy giáo nhấn mạnh thành quả lớn nhất (最大の効果 / 一番良かった):<br>\n- \"練習を通じて生まれた助け合い精神は、水泳の練習以外の場面でも見られます。実はこれが最大の効果だと、私たち教師は思っています\" (Tinh thần tương trợ, giúp đỡ lẫn nhau sinh ra từ luyện tập... mới chính là hiệu quả lớn nhất).<br>\n- Học sinh biết tương trợ, giúp đỡ lẫn nhau (生徒が助け合うようになったこと) &rarr; <b>Đáp án đúng là 4</b>."
-    }
-  ]
-}
   ]
 };

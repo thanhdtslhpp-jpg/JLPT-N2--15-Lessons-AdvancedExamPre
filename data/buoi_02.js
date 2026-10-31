@@ -1,4 +1,3 @@
-// Buổi 2: Đề Thi Thật 07/2024 & Siêu Chuyên Đề So Sánh, Mondai 4 Yosou, Chokuzen 8
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[2] = {
   "session": 2,
@@ -1526,7 +1525,7 @@ window.JLPT_DATA[2] = {
             "分折",
             "分析",
             "分節",
-            "分析"
+            "分選"
           ],
           "correctAnswer": 2,
           "explanation": "<b>分析 (ぶんせき)</b>: Phân tích.<br>• Dịch: Tôi dự định phân tích các đề thi những năm trước để trang bị năng lực thi đỗ đại học trong thời gian ngắn.<br>• 2. <b>分析 (Đúng)</b>: 分析."

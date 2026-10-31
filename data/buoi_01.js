@@ -1,4 +1,3 @@
-// Dữ liệu số hóa đầy đủ BUỔI 1: Đề Thi Thật N2 (12/2024) - Kèm Nghe Hiểu (Choukai)
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[1] = {
   "id": 1,
@@ -108,7 +107,7 @@ window.JLPT_DATA[1] = {
           "targetWord": "ひなん",
           "options": [
             "避段",
-            "避難",
+            "非段",
             "非難",
             "避難"
           ],

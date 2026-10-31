@@ -2164,13 +2164,13 @@ window.JLPT_DATA[6] = {
           "sentence": "昨日は<ruby>てつや<rt>______</rt></ruby>で仕事をした。",
           "targetWord": "てつや",
           "options": [
-            "撤夜",
+            "澈夜",
             "撤夜",
             "徹夜",
             "激夜"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>徹夜（てつや）：</b>Thức trắng đêm (làm việc, học tập).<br><b>Dịch nghĩa:</b> Ngày hôm qua tôi đã thức thâu đêm để làm việc.<br><i>Phân tích các phương án:</i><br>• 1, 2. 撤夜: Sai chữ 撤 (chữ Triệt trong 撤去 - tháo dỡ, triệt tiêu)<br>• <b>3. 徹夜: Chữ 徹 (Triệt: thấu suốt, xuyên suốt) + 夜 (Dạ: đêm) [Đúng]</b><br>• 4. 激夜: Chữ Kích sai nghĩa"
+          "explanation": "<b>徹夜（てつや）：</b>Thức trắng đêm (làm việc, học tập).<br><b>Dịch nghĩa:</b> Ngày hôm qua tôi đã thức thâu đêm để làm việc.<br><i>Phân tích các phương án:</i><br>• 1. 澈夜: Sai chữ 澈 (bộ Thủy)<br>• 2. 撤夜: Sai chữ 撤 (chữ Triệt trong 撤去 - tháo dỡ, triệt tiêu)<br>• <b>3. 徹夜: Chữ 徹 (Triệt: thấu suốt, xuyên suốt) + 夜 (Dạ: đêm) [Đúng]</b><br>• 4. 激夜: Chữ Kích sai nghĩa"
         },
         {
           "id": 134,

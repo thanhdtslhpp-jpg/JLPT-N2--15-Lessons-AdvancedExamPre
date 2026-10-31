@@ -1,4 +1,3 @@
-// Buổi 15: Mock Test 3 Kanzen Moshi & Đại Tổng Ôn Toàn Diện
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[15] = {
   "sessionId": 15,
@@ -107,12 +106,12 @@ window.JLPT_DATA[15] = {
           "question": "次期社長のこうほとして名前が挙がっている。",
           "options": [
             "候補",
-            "候補",
+            "候保",
             "後補",
             "后補"
           ],
           "correctAnswer": 1,
-          "explanation": "「こうほ」 viết chữ Hán là 「候補」 (ứng cử viên sáng giá)."
+          "explanation": "「こうほ」 viết chữ Hán là 「候補」 (ứng cử viên sáng giá).<br>• <b>1. 候補: Hậu (候) + Bổ (補) [Đúng]</b><br>• 2. 候保: Sai chữ Bảo (保)<br>• 3. 後補: Sai chữ Hậu (後)<br>• 4. 后補: Sai chữ Hậu (后)"
         },
         {
           "id": 8,
@@ -124,10 +123,10 @@ window.JLPT_DATA[15] = {
             "蓄える",
             "貯える",
             "積える",
-            "蓄える"
+            "備える"
           ],
           "correctAnswer": 1,
-          "explanation": "「たくわえる」 viết chữ Hán là 「蓄える」 (tích lũy tri thức, rèn luyện thể lực)."
+          "explanation": "「たくわえる」 viết chữ Hán là 「蓄える」 (tích lũy tri thức, rèn luyện thể lực). 「貯える」 thường dùng cho tiền bạc. 「備える」 đọc là そなえる."
         },
         {
           "id": 9,
@@ -1717,194 +1716,194 @@ window.JLPT_DATA[15] = {
       "id": "choukai",
       "name": "Phần 4: 聴解 - Luyện Nghe Hiểu N2 Đề 3 (11 câu)",
       "questions": [
-            {
-                  "id": 111,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m1_01.mp3",
-                  "questionText": "大学で女の学生と職員が話しています。女の学生はこれから何をしますか。",
-                  "options": [
-                        "短期のスーパーのアルバイトの内容を確認する",
-                        "短期の家庭教師のアルバイトの内容を確認する",
-                        "長期のスーパーのアルバイトに申し込む",
-                        "長期の家庭教師のアルバイトに申し込む"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và nhân viên đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 短期のスーパーのアルバイトの内容を確認する: Xem nội dung việc làm thêm ngắn hạn ở siêu thị<br>2. 短期の家庭教師のアルバイトの内容を確認する: Xem nội dung việc làm thêm gia sư ngắn hạn<br>3. 長期のスーパーのアルバイトに申し込む: Đăng ký việc làm thêm dài hạn ở siêu thị<br>4. 長期の家庭教師のアルバイトに申し込む: Đăng ký làm gia sư dài hạn<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：すみません、家庭教師のアルバイトを探しているんですが、そこの掲示板を見ても見つからなくて。<br>職員：家庭教師ですか。今募集は出てないですね。毎年3月4月ごろには募集がたくさん出るんですが。<br>女：そうですか。あまり多くの時間はできないので、時給のいい家庭教師がちょうどいいと思ったんです。でも4月まで待つのは難しいです。<br>職員：じゃあ、しばらく短期のアルバイトをするというのはいかがですか。家庭教師のアルバイトの募集が出てくるのを待ちながら、時間を有効に使えると思いますけど。<br>女：そうですね。そうしたいと思います。<br>職員：<b>短期なら大学の近くのスーパーで募集が出てましたよ。それならどうですか？</b><br>女：<b>そうですか。じゃあ募集情報を見てみます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh muốn làm gia sư nhưng hiện chưa có đợt tuyển (phải chờ tới tháng 3-4). Nhân viên gợi ý làm việc ngắn hạn ở siêu thị gần trường trong lúc chờ. Nữ sinh đồng ý và bảo sẽ đi xem thông tin tuyển dụng việc làm thêm ngắn hạn ở siêu thị.<br>&rarr; <b>Đáp án đúng là 1 (短期のスーパーのアルバイトの内容を確認する)</b>."
-            },
-            {
-                  "id": 112,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m1_02.mp3",
-                  "questionText": "会社で課長と女の人が話しています。女の人はこの後何をしますか。",
-                  "options": [
-                        "田中さんと連絡を取り合う",
-                        "会場に連絡する",
-                        "空港に田中さんを迎えに行く",
-                        "他の出席者に連絡する"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nữ đang nói chuyện. Người phụ nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 田中さんと連絡を取り合う: Liên lạc qua lại với Tanaka-san<br>2. 会場に連絡する: Liên hệ với hội trường tổ chức<br>3. 空港に田中さんを迎えに行く: Ra sân bay đón Tanaka-san<br>4. 他の出席者に連絡する: Liên lạc với những người tham dự khác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：さくらコーポレーションの田中さんから連絡がありました。天候が悪くて飛行機がまだ東京を出発できていないそうです。<br>課長：そうか。会議は午後4時からだから、午前中に出発できなければ間に合わないな。もしかしたら田中さんにはオンラインで会議に参加してもらうことになるかもしれないな。<b>念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか。</b><br>女：<b>はい、わかりました。</b><br>課長：私は田中さんと連絡を取るよ。<br>女：他の出席者にも伝えておいた方がよろしいでしょうか。<br>課長：いや、まだ間に合わないと決まったわけじゃないし、もう少し様子を見てからにしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trưởng phòng đích thân liên hệ với Tanaka. Những người khác thì chưa cần báo vội.<br>- Nhiệm vụ giao cho người nữ: \"念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか\" &rarr; Người nữ nhận lời liên hệ ngay với hội trường nhờ cài đặt họp online.<br>&rarr; <b>Đáp án đúng là 2 (会場に連絡する)</b>."
-            },
-            {
-                  "id": 113,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m1_03.mp3",
-                  "questionText": "父親とその娘が話しています。父親はこの後何をしますか。",
-                  "options": [
-                        "携帯電話を買うのをやめる",
-                        "今使っている携帯電話を修理に出す",
-                        "娘と同じスマホを買いに行く",
-                        "使い方が簡単なスマホを買いに行く"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người cha và con gái đang nói chuyện. Người cha sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 携帯電話を買うのをやめる: Bỏ ý định mua điện thoại<br>2. 今使っている携帯電話を修理に出す: Đem sửa chiếc điện thoại gập đang dùng<br>3. 娘と同じスマホを買いに行く: Đi mua smartphone giống của con gái<br>4. 使い方が簡単なスマホを買いに行く: Đi mua smartphone có cách dùng đơn giản cho người cao tuổi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>父：やっぱり行くのやめるよ。70歳を過ぎてスマホなんてやっぱり無理だよ。今使っている携帯電話を修理すればいいんだから。<br>娘：でもその携帯、古すぎるんだよね。もう修理のサービスも終わってるんじゃないかな。私と同じスマホにしてって言ってるわけじゃないの。<b>お父さんでも使えるような簡単なスマホがあるから、そういうのを使ってくれればいいんだから。</b>スマホがあれば画面を見ながら電話もできるし、健康チェックもできるしいいことばかりだよ。分からないことがあったら私が教えてあげるから。<br>父：<b>しょうがないなあ。分かったよ。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Máy cũ đã ngừng hỗ trợ sửa chữa. Con gái thuyết phục bố mua loại smartphone đơn giản dễ thao tác dành cho người già (簡単なスマホ), hứa sẽ hướng dẫn bố tận tình. Người bố đồng ý đi mua.<br>&rarr; <b>Đáp án đúng là 4 (使い方が簡単なスマホを買いに行く)</b>."
-            },
-            {
-                  "id": 114,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m1_04.mp3",
-                  "questionText": "図書館で男の人と女の人が話しています。男の人はこの後何をしますか。",
-                  "options": [
-                        "パスワードに生年月日を入れて試す",
-                        "図書館の利用者カードを作る",
-                        "忘れたパスワードを教えてもらう",
-                        "新しいパスワードを作る"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại thư viện, một người nam và một người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. パスワードに生年月日を入れて試す: Thử nhập ngày tháng năm sinh làm mật khẩu<br>2. 図書館の利用者カードを作る: Làm thẻ người dùng thư viện<br>3. 忘れたパスワードを教えてもらう: Nhờ nhân viên nhắc lại mật khẩu đã quên<br>4. 新しいパスワードを作る: Tạo mật khẩu mới<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、ネットから本の貸出の予約をしたんですが、インターネットサービスのパスワードを忘れてしまって。<br>女：パスワードをお忘れになった場合、<b>こちらの窓口で新しいパスワードを作っていただくことになっています。</b>忘れたパスワードをお教えするわけではないんですね。<br>男：わかりました。<b>では、新しいパスワードを作ります。</b><br>女：図書館の利用者カードはお持ちですか。あと運転免許証など身分証明書はお持ちですか。<br>男：はい、持っています。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Quy định bảo mật thư viện không thể tra lại pass cũ mà bắt buộc cấp/tạo mật khẩu mới tại quầy (新しいパスワードを作っていただく). Người nam đồng ý làm thủ tục tạo mật khẩu mới.<br>&rarr; <b>Đáp án đúng là 4 (新しいパスワードを作る)</b>."
-            },
-            {
-                  "id": 115,
-                  "mondai": 1,
-                  "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m1_05.mp3",
-                  "questionText": "大学で先生が講義について話しています。学生は授業を休んだ時どのように課題を確認しますか。",
-                  "options": [
-                        "先生にメールで問い合わせる",
-                        "大学の事務所に聞く",
-                        "ホームページの先生の専用ページを見る",
-                        "先生の研究室を訪ねて聞く"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, giảng viên đang dặn dò về tiết học. Sinh viên khi nghỉ học sẽ xác nhận bài tập bằng cách nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 先生にメールで問い合わせる: Gửi email hỏi giảng viên<br>2. 大学の事務所に聞く: Hỏi phòng giáo vụ đại học<br>3. ホームページの先生の専用ページを見る: Xem trang riêng của giảng viên trên website trường<br>4. 先生の研究室を訪ねて聞く: Đến tận phòng nghiên cứu của thầy hỏi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>先生：この授業を休む時は必ず前日までに連絡してください。メールでも構いません。<b>それから授業を休んだ場合ですが、大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください。友達に聞くんじゃなくて自分で直接確認してやっておいてください。</b>課題の提出場所や締め切りなどもそこで示します。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Giảng viên chỉ thị rõ ràng: Nếu nghỉ học thì tự lên website trường vào trang nghiên cứu của thầy để kiểm tra bài tập được giao (大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください).<br>&rarr; <b>Đáp án đúng là 3 (ホームページの先生の専用ページを見る)</b>."
-            },
-            {
-                  "id": 116,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_01.mp3",
-                  "questionText": "家で夫婦が話しています。夫婦はどうすることにしましたか。",
-                  "options": [
-                        "郊外の店でテーブルを買って組み立てる",
-                        "インターネットでテーブルを買って組み立てる",
-                        "駅前の店でテーブルを買って組み立てサービスを頼む",
-                        "一番安い方法でテーブルを買って組み立てサービスを頼む"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, hai vợ chồng đang nói chuyện. Hai vợ chồng quyết định sẽ làm thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 郊外の店でテーブルを買って組み立てる: Mua bàn ở tiệm ngoại ô rồi tự mình lắp ráp<br>2. インターネットでテーブルを買って組み立てる: Mua bàn trên mạng rồi tự lắp ráp<br>3. 駅前の店でテーブルを買って組み立てサービスを頼む: Mua bàn tiệm trước ga và thuê dịch vụ lắp ráp<br>4. 一番安い方法でテーブルを買って組み立てサービスを頼む: Mua bằng cách rẻ nhất và thuê dịch vụ lắp ráp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：今のテーブル、買い替えたいなあ。<br>妻：駅前のかぐやさんにすごくいいテーブルがあったよ。でもちょっと高かった。<br>夫：郊外の大きいお店なら物がよくて、値段もそれほど高くないのがあるかもしれないね。<br>妻：ネットだと安くていいのがあるけど、実際に見てみないと不安かな。組み立てくらいは自分たちでできるよ。<b>郊外の店だって組み立てサービスを頼んだらプラス1万円かかるけど、それもちょっともったいないな。</b><br>夫：<b>それなら実際に見て選んで、頑張って組み立てようか。</b><br>妻：わかった、そうしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Hai vợ chồng chốt đi xem và mua thực tế ở cửa hàng lớn ngoại ô để yên tâm về chất lượng, đồng thời không thuê lắp ráp tốn 1 vạn yên mà tự mình lắp ráp tại nhà.<br>&rarr; <b>Đáp án đúng là 1 (郊外の店でテーブルを買って組み立てる)</b>."
-            },
-            {
-                  "id": 117,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_02.mp3",
-                  "questionText": "家で母親と息子が話しています。母親は特に何を注意していますか。",
-                  "options": [
-                        "朝、起きるのが遅いこと",
-                        "夜、寝るのが遅いこと",
-                        "朝ご飯を食べないこと",
-                        "授業に集中できないこと"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, mẹ và con trai đang nói chuyện. Người mẹ đặc biệt nhắc nhở lưu ý điều gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 朝、起きるのが遅いこと: Việc buổi sáng dậy muộn<br>2. 夜、寝るのが遅いこと: Việc buổi tối đi ngủ muộn<br>3. 朝ご飯を食べないこと: Việc không chịu ăn sáng<br>4. 授業に集中できないこと: Việc không tập trung vào giờ học<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>息子：じゃあ行ってきまーす。<br>母：もう行くの？コーヒーしか飲んでないじゃない、朝ご飯は？<br>息子：いいよ、今日はコーヒー飲んで目は覚めたし。<br>母：<b>ダメよ、ちゃんとご飯食べてから行きなさい！目は覚めたかもしれないけど頭が働かないでしょ。ぼーっとして授業も頭に入らないんだから。ふらふらして事故にでもあったらどうすんの！少しでもいいから食べなさい。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mẹ chặn con trai lại vì chỉ uống cafe mà bỏ bữa sáng, gay gắt nhắc nhở việc không ăn sáng sẽ khiến não không hoạt động, dễ hoa mắt chóng mặt gây tai nạn: \"ダメよ、ちゃんとご飯食べてから行きなさい！\"<br>&rarr; <b>Đáp án đúng là 3 (朝ご飯を食べないこと)</b>."
-            },
-            {
-                  "id": 118,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_03.mp3",
-                  "questionText": "就職相談室で先生と学生が話しています。先生は面接試験の時何が最も大切だと言っていますか。",
-                  "options": [
-                        "服装に気をつけること",
-                        "会場への行き方を確認すること",
-                        "自分に自信を持つこと",
-                        "たくさん練習をすること"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại phòng tư vấn việc làm, giáo viên và sinh viên đang nói chuyện. Giáo viên nói điều quan trọng nhất khi đi phỏng vấn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 服装に気をつけること: Chú ý trang phục chỉnh tề<br>2. 会場への行き方を確認すること: Xác nhận đường đến địa điểm thi<br>3. 自分に自信を持つこと: Có sự tự tin vào chính bản thân mình<br>4. たくさん練習をすること: Luyện tập thật nhiều<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>学生：先生、明日面接なんですが不安で落ち着かないんです。<br>先生：服装も準備できてるし、会場への道順も大丈夫ね。あなたはいろいろ心配しすぎよ。これまであんなに練習してきたじゃない。努力は嘘をつかないって言うから大丈夫だよ。<b>とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。</b><br>学生：ありがとうございます！<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trang phục và đường đi sinh viên đều đã chuẩn bị xong. Giáo viên khuyên giải điều then chốt nhất giúp phát huy thế mạnh của bản thân trong phòng phỏng vấn là sự tự tin: \"とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。\"<br>&rarr; <b>Đáp án đúng là 3 (自分に自信を持つこと)</b>."
-            },
-            {
-                  "id": 119,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_04.mp3",
-                  "questionText": "男の人と女の人が話しています。女の人は夫の両親と一緒に暮らして何が良かったと言っていますか。",
-                  "options": [
-                        "家事を助けてもらえること",
-                        "今の仕事を続けられること",
-                        "子供が社会や文化を学べること",
-                        "子供の勉強を見てもらえること"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người phụ nữ nói điều tuyệt vời nhất khi sống chung với bố mẹ chồng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 家事を助けてもらえること: Được giúp đỡ làm việc nhà<br>2. 今の仕事を続けられること: Có thể tiếp tục công việc hiện tại<br>3. 子供が社会や文化を学べること: Con cái được học hỏi về xã hội và văn hóa truyền thống<br>4. 子供の勉強を見てもらえること: Được ông bà kèm cặp chuyện học hành của con<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：毎日仕事と子育て両立して大変じゃない？<br>女：夫の両親がそばにいるから、ご飯や買い物、洗濯も手伝ってくれて助かってるわ。<br>男：気をつかって大変じゃない？<br>女：もちろん生活スタイルの違いはあるけど、気に入ってるよ。仕事ができるのはもちろんだけど、<b>子どもにとっていやいろんな年代の人と接することって大切でしょ。伝統とか行儀作法とか、私たち親では教えられないことってたくさんあるのよ。一緒に住んでて一番いいなと思うのはそれかな。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Việc nhà và nấu nướng là sự hỗ trợ thông thường, nhưng khi được hỏi điều tốt nhất (一番いいなと思うのは), người phụ nữ khẳng định chính là con cái được tiếp xúc với thế hệ lớn tuổi, học hỏi các giá trị truyền thống, phép tắc ứng xử lễ nghĩa (伝統・行儀作法 &rarr; 子供が社会や文化を学べること).<br>&rarr; <b>Đáp án đúng là 3 (子供が社会や文化を学べること)</b>."
-            },
-            {
-                  "id": 120,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_05.mp3",
-                  "questionText": "ラジオで女の人が話しています。女の人は何が一番大変だったと言っていますか。",
-                  "options": [
-                        "日本の習慣に慣れること",
-                        "日本人と会話すること",
-                        "日本語の文章を読むこと",
-                        "日本語の授業を聞き取ること"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Trên đài radio, người phụ nữ đang kể chuyện. Người phụ nữ nói điều gì từng khiến cô gặp khó khăn vất vả nhất?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 日本の習慣に慣れること: Quen với phong tục tập quán Nhật Bản<br>2. 日本人と会話すること: Trò chuyện hội thoại với người Nhật<br>3. 日本語の文章を読むこと: Đọc hiểu các văn bản câu cú tiếng Nhật<br>4. 日本語の授業を聞き取ること: Nghe hiểu các tiết học tiếng Nhật<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：私は7歳の時親の仕事の関係でアメリカから日本に来ました。文化や習慣に慣れるのは大変でしたが、一番苦労したのはやっぱり言葉です。話したり聞いたりするのは2年くらいで大体できるようになったんですが、<b>読んだり書いたりするのはずっと苦労していました。</b>ある程度会話ができるので上手に思われるようですが、読み書きは全然ダメでしたから。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ nói rõ: Giao tiếp nghe - nói chỉ mất 2 năm là thành thạo, nhưng kỹ năng đọc và viết văn bản chữ nghĩa (読み書き &rarr; 文章を読むこと) là rào cản gian nan và khổ sở nhất suốt thời gian dài.<br>&rarr; <b>Đáp án đúng là 3 (日本語の文章を読むこと)</b>."
-            },
-            {
-                  "id": 121,
-                  "mondai": 2,
-                  "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
-                  "isChoukai": true,
-                  "type": "audio",
-                  "audio": "audio/buoi_15/m2_06.mp3",
-                  "questionText": "家で夫と妻が話しています。妻はどうしてこの体操をしていますか。",
-                  "options": [
-                        "リラックスするため",
-                        "肩こりを楽にするため",
-                        "姿勢をよくするため",
-                        "痩せるため"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. 姿勢をよくするため: Để cải thiện tư thế đứng ngồi<br>4. 痩せるため: Để giảm cân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：ねえ、何してるの？<br>妻：これ、猫のポーズ。ヨガ体操だよ。<br>夫：へえ、どういう効果があるの？リラックスできるの？<br>妻：もちろんリラックスもできるけど、<b>最近パソコン作業が多くて、肩がガチガチに凝っちゃって痛くてね。このポーズをすると肩甲骨がほぐれて、肩こりがすごく楽になるのよ。</b>だから毎日やってるの。<br>夫：へえ、僕もやってみようかな。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>."
-            }
+        {
+          "id": 111,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m1_01.mp3",
+          "questionText": "大学で女の学生と職員が話しています。女の学生はこれから何をしますか。",
+          "options": [
+            "短期のスーパーのアルバイトの内容を確認する",
+            "短期の家庭教師のアルバイトの内容を確認する",
+            "長期のスーパーのアルバイトに申し込む",
+            "長期の家庭教師のアルバイトに申し込む"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và nhân viên đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 短期のスーパーのアルバイトの内容を確認する: Xem nội dung việc làm thêm ngắn hạn ở siêu thị<br>2. 短期の家庭教師のアルバイトの内容を確認する: Xem nội dung việc làm thêm gia sư ngắn hạn<br>3. 長期のスーパーのアルバイトに申し込む: Đăng ký việc làm thêm dài hạn ở siêu thị<br>4. 長期の家庭教師のアルバイトに申し込む: Đăng ký làm gia sư dài hạn<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：すみません、家庭教師のアルバイトを探しているんですが、そこの掲示板を見ても見つからなくて。<br>職員：家庭教師ですか。今募集は出てないですね。毎年3月4月ごろには募集がたくさん出るんですが。<br>女：そうですか。あまり多くの時間はできないので、時給のいい家庭教師がちょうどいいと思ったんです。でも4月まで待つのは難しいです。<br>職員：じゃあ、しばらく短期のアルバイトをするというのはいかがですか。家庭教師のアルバイトの募集が出てくるのを待ちながら、時間を有効に使えると思いますけど。<br>女：そうですね。そうしたいと思います。<br>職員：<b>短期なら大学の近くのスーパーで募集が出てましたよ。それならどうですか？</b><br>女：<b>そうですか。じゃあ募集情報を見てみます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh muốn làm gia sư nhưng hiện chưa có đợt tuyển (phải chờ tới tháng 3-4). Nhân viên gợi ý làm việc ngắn hạn ở siêu thị gần trường trong lúc chờ. Nữ sinh đồng ý và bảo sẽ đi xem thông tin tuyển dụng việc làm thêm ngắn hạn ở siêu thị.<br>&rarr; <b>Đáp án đúng là 1 (短期のスーパーのアルバイトの内容を確認する)</b>."
+        },
+        {
+          "id": 112,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m1_02.mp3",
+          "questionText": "会社で課長と女の人が話しています。女の人はこの後何をしますか。",
+          "options": [
+            "田中さんと連絡を取り合う",
+            "会場に連絡する",
+            "空港に田中さんを迎えに行く",
+            "他の出席者に連絡する"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nữ đang nói chuyện. Người phụ nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 田中さんと連絡を取り合う: Liên lạc qua lại với Tanaka-san<br>2. 会場に連絡する: Liên hệ với hội trường tổ chức<br>3. 空港に田中さんを迎えに行く: Ra sân bay đón Tanaka-san<br>4. 他の出席者に連絡する: Liên lạc với những người tham dự khác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：さくらコーポレーションの田中さんから連絡がありました。天候が悪くて飛行機がまだ東京を出発できていないそうです。<br>課長：そうか。会議は午後4時からだから、午前中に出発できなければ間に合わないな。もしかしたら田中さんにはオンラインで会議に参加してもらうことになるかもしれないな。<b>念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか。</b><br>女：<b>はい、わかりました。</b><br>課長：私は田中さんと連絡を取るよ。<br>女：他の出席者にも伝えておいた方がよろしいでしょうか。<br>課長：いや、まだ間に合わないと決まったわけじゃないし、もう少し様子を見てからにしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trưởng phòng đích thân liên hệ với Tanaka. Những người khác thì chưa cần báo vội.<br>- Nhiệm vụ giao cho người nữ: \"念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか\" &rarr; Người nữ nhận lời liên hệ ngay với hội trường nhờ cài đặt họp online.<br>&rarr; <b>Đáp án đúng là 2 (会場に連絡する)</b>."
+        },
+        {
+          "id": 113,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m1_03.mp3",
+          "questionText": "父親とその娘が話しています。父親はこの後何をしますか。",
+          "options": [
+            "携帯電話を買うのをやめる",
+            "今使っている携帯電話を修理に出す",
+            "娘と同じスマホを買いに行く",
+            "使い方が簡単なスマホを買いに行く"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người cha và con gái đang nói chuyện. Người cha sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 携帯電話を買うのをやめる: Bỏ ý định mua điện thoại<br>2. 今使っている携帯電話を修理に出す: Đem sửa chiếc điện thoại gập đang dùng<br>3. 娘と同じスマホを買いに行く: Đi mua smartphone giống của con gái<br>4. 使い方が簡単なスマホを買いに行く: Đi mua smartphone có cách dùng đơn giản cho người cao tuổi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>父：やっぱり行くのやめるよ。70歳を過ぎてスマホなんてやっぱり無理だよ。今使っている携帯電話を修理すればいいんだから。<br>娘：でもその携帯、古すぎるんだよね。もう修理のサービスも終わってるんじゃないかな。私と同じスマホにしてって言ってるわけじゃないの。<b>お父さんでも使えるような簡単なスマホがあるから、そういうのを使ってくれればいいんだから。</b>スマホがあれば画面を見ながら電話もできるし、健康チェックもできるしいいことばかりだよ。分からないことがあったら私が教えてあげるから。<br>父：<b>しょうがないなあ。分かったよ。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Máy cũ đã ngừng hỗ trợ sửa chữa. Con gái thuyết phục bố mua loại smartphone đơn giản dễ thao tác dành cho người già (簡単なスマホ), hứa sẽ hướng dẫn bố tận tình. Người bố đồng ý đi mua.<br>&rarr; <b>Đáp án đúng là 4 (使い方が簡単なスマホを買いに行く)</b>."
+        },
+        {
+          "id": 114,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m1_04.mp3",
+          "questionText": "図書館で男の人と女の人が話しています。男の人はこの後何をしますか。",
+          "options": [
+            "パスワードに生年月日を入れて試す",
+            "図書館の利用者カードを作る",
+            "忘れたパスワードを教えてもらう",
+            "新しいパスワードを作る"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại thư viện, một người nam và một người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. パスワードに生年月日を入れて試す: Thử nhập ngày tháng năm sinh làm mật khẩu<br>2. 図書館の利用者カードを作る: Làm thẻ người dùng thư viện<br>3. 忘れたパスワードを教えてもらう: Nhờ nhân viên nhắc lại mật khẩu đã quên<br>4. 新しいパスワードを作る: Tạo mật khẩu mới<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、ネットから本の貸出の予約をしたんですが、インターネットサービスのパスワードを忘れてしまって。<br>女：パスワードをお忘れになった場合、<b>こちらの窓口で新しいパスワードを作っていただくことになっています。</b>忘れたパスワードをお教えするわけではないんですね。<br>男：わかりました。<b>では、新しいパスワードを作ります。</b><br>女：図書館の利用者カードはお持ちですか。あと運転免許証など身分証明書はお持ちですか。<br>男：はい、持っています。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Quy định bảo mật thư viện không thể tra lại pass cũ mà bắt buộc cấp/tạo mật khẩu mới tại quầy (新しいパスワードを作っていただく). Người nam đồng ý làm thủ tục tạo mật khẩu mới.<br>&rarr; <b>Đáp án đúng là 4 (新しいパスワードを作る)</b>."
+        },
+        {
+          "id": 115,
+          "mondai": 1,
+          "mondaiName": "聴解 問題１：課題理解 (Nghe hiểu xử lý tình huống)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m1_05.mp3",
+          "questionText": "大学で先生が講義について話しています。学生は授業を休んだ時どのように課題を確認しますか。",
+          "options": [
+            "先生にメールで問い合わせる",
+            "大学の事務所に聞く",
+            "ホームページの先生の専用ページを見る",
+            "先生の研究室を訪ねて聞く"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, giảng viên đang dặn dò về tiết học. Sinh viên khi nghỉ học sẽ xác nhận bài tập bằng cách nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 先生にメールで問い合わせる: Gửi email hỏi giảng viên<br>2. 大学の事務所に聞く: Hỏi phòng giáo vụ đại học<br>3. ホームページの先生の専用ページを見る: Xem trang riêng của giảng viên trên website trường<br>4. 先生の研究室を訪ねて聞く: Đến tận phòng nghiên cứu của thầy hỏi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>先生：この授業を休む時は必ず前日までに連絡してください。メールでも構いません。<b>それから授業を休んだ場合ですが、大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください。友達に聞くんじゃなくて自分で直接確認してやっておいてください。</b>課題の提出場所や締め切りなどもそこで示します。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Giảng viên chỉ thị rõ ràng: Nếu nghỉ học thì tự lên website trường vào trang nghiên cứu của thầy để kiểm tra bài tập được giao (大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください).<br>&rarr; <b>Đáp án đúng là 3 (ホームページの先生の専用ページを見る)</b>."
+        },
+        {
+          "id": 116,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_01.mp3",
+          "questionText": "家で夫婦が話しています。夫婦はどうすることにしましたか。",
+          "options": [
+            "郊外の店でテーブルを買って組み立てる",
+            "インターネットでテーブルを買って組み立てる",
+            "駅前の店でテーブルを買って組み立てサービスを頼む",
+            "一番安い方法でテーブルを買って組み立てサービスを頼む"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, hai vợ chồng đang nói chuyện. Hai vợ chồng quyết định sẽ làm thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 郊外の店でテーブルを買って組み立てる: Mua bàn ở tiệm ngoại ô rồi tự mình lắp ráp<br>2. インターネットでテーブルを買って組み立てる: Mua bàn trên mạng rồi tự lắp ráp<br>3. 駅前の店でテーブルを買って組み立てサービスを頼む: Mua bàn tiệm trước ga và thuê dịch vụ lắp ráp<br>4. 一番安い方法でテーブルを買って組み立てサービスを頼む: Mua bằng cách rẻ nhất và thuê dịch vụ lắp ráp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：今のテーブル、買い替えたいなあ。<br>妻：駅前のかぐやさんにすごくいいテーブルがあったよ。でもちょっと高かった。<br>夫：郊外の大きいお店なら物がよくて、値段もそれほど高くないのがあるかもしれないね。<br>妻：ネットだと安くていいのがあるけど、実際に見てみないと不安かな。組み立てくらいは自分たちでできるよ。<b>郊外の店だって組み立てサービスを頼んだらプラス1万円かかるけど、それもちょっともったいないな。</b><br>夫：<b>それなら実際に見て選んで、頑張って組み立てようか。</b><br>妻：わかった、そうしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Hai vợ chồng chốt đi xem và mua thực tế ở cửa hàng lớn ngoại ô để yên tâm về chất lượng, đồng thời không thuê lắp ráp tốn 1 vạn yên mà tự mình lắp ráp tại nhà.<br>&rarr; <b>Đáp án đúng là 1 (郊外の店でテーブルを買って組み立てる)</b>."
+        },
+        {
+          "id": 117,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_02.mp3",
+          "questionText": "家で母親と息子が話しています。母親は特に何を注意していますか。",
+          "options": [
+            "朝、起きるのが遅いこと",
+            "夜、寝るのが遅いこと",
+            "朝ご飯を食べないこと",
+            "授業に集中できないこと"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, mẹ và con trai đang nói chuyện. Người mẹ đặc biệt nhắc nhở lưu ý điều gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 朝、起きるのが遅いこと: Việc buổi sáng dậy muộn<br>2. 夜、寝るのが遅いこと: Việc buổi tối đi ngủ muộn<br>3. 朝ご飯を食べないこと: Việc không chịu ăn sáng<br>4. 授業に集中できないこと: Việc không tập trung vào giờ học<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>息子：じゃあ行ってきまーす。<br>母：もう行くの？コーヒーしか飲んでないじゃない、朝ご飯は？<br>息子：いいよ、今日はコーヒー飲んで目は覚めたし。<br>母：<b>ダメよ、ちゃんとご飯食べてから行きなさい！目は覚めたかもしれないけど頭が働かないでしょ。ぼーっとして授業も頭に入らないんだから。ふらふらして事故にでもあったらどうすんの！少しでもいいから食べなさい。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mẹ chặn con trai lại vì chỉ uống cafe mà bỏ bữa sáng, gay gắt nhắc nhở việc không ăn sáng sẽ khiến não không hoạt động, dễ hoa mắt chóng mặt gây tai nạn: \"ダメよ、ちゃんとご飯食べてから行きなさい！\"<br>&rarr; <b>Đáp án đúng là 3 (朝ご飯を食べないこと)</b>."
+        },
+        {
+          "id": 118,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_03.mp3",
+          "questionText": "就職相談室で先生と学生が話しています。先生は面接試験の時何が最も大切だと言っていますか。",
+          "options": [
+            "服装に気をつけること",
+            "会場への行き方を確認すること",
+            "自分に自信を持つこと",
+            "たくさん練習をすること"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại phòng tư vấn việc làm, giáo viên và sinh viên đang nói chuyện. Giáo viên nói điều quan trọng nhất khi đi phỏng vấn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 服装に気をつけること: Chú ý trang phục chỉnh tề<br>2. 会場への行き方を確認すること: Xác nhận đường đến địa điểm thi<br>3. 自分に自信を持つこと: Có sự tự tin vào chính bản thân mình<br>4. たくさん練習をすること: Luyện tập thật nhiều<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>学生：先生、明日面接なんですが不安で落ち着かないんです。<br>先生：服装も準備できてるし、会場への道順も大丈夫ね。あなたはいろいろ心配しすぎよ。これまであんなに練習してきたじゃない。努力は嘘をつかないって言うから大丈夫だよ。<b>とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。</b><br>学生：ありがとうございます！<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trang phục và đường đi sinh viên đều đã chuẩn bị xong. Giáo viên khuyên giải điều then chốt nhất giúp phát huy thế mạnh của bản thân trong phòng phỏng vấn là sự tự tin: \"とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。\"<br>&rarr; <b>Đáp án đúng là 3 (自分に自信を持つこと)</b>."
+        },
+        {
+          "id": 119,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_04.mp3",
+          "questionText": "男の人と女の人が話しています。女の人は夫の両親と一緒に暮らして何が良かったと言っていますか。",
+          "options": [
+            "家事を助けてもらえること",
+            "今の仕事を続けられること",
+            "子供が社会や文化を学べること",
+            "子供の勉強を見てもらえること"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người phụ nữ nói điều tuyệt vời nhất khi sống chung với bố mẹ chồng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 家事を助けてもらえること: Được giúp đỡ làm việc nhà<br>2. 今の仕事を続けられること: Có thể tiếp tục công việc hiện tại<br>3. 子供が社会や文化を学べること: Con cái được học hỏi về xã hội và văn hóa truyền thống<br>4. 子供の勉強を見てもらえること: Được ông bà kèm cặp chuyện học hành của con<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：毎日仕事と子育て両立して大変じゃない？<br>女：夫の両親がそばにいるから、ご飯や買い物、洗濯も手伝ってくれて助かってるわ。<br>男：気をつかって大変じゃない？<br>女：もちろん生活スタイルの違いはあるけど、気に入ってるよ。仕事ができるのはもちろんだけど、<b>子どもにとっていやいろんな年代の人と接することって大切でしょ。伝統とか行儀作法とか、私たち親では教えられないことってたくさんあるのよ。一緒に住んでて一番いいなと思うのはそれかな。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Việc nhà và nấu nướng là sự hỗ trợ thông thường, nhưng khi được hỏi điều tốt nhất (一番いいなと思うのは), người phụ nữ khẳng định chính là con cái được tiếp xúc với thế hệ lớn tuổi, học hỏi các giá trị truyền thống, phép tắc ứng xử lễ nghĩa (伝統・行儀作法 &rarr; 子供が社会や文化を学べること).<br>&rarr; <b>Đáp án đúng là 3 (子供が社会や文化を学べること)</b>."
+        },
+        {
+          "id": 120,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_05.mp3",
+          "questionText": "ラジオで女の人が話しています。女の人は何が一番大変だったと言っていますか。",
+          "options": [
+            "日本の習慣に慣れること",
+            "日本人と会話すること",
+            "日本語の文章を読むこと",
+            "日本語の授業を聞き取ること"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên đài radio, người phụ nữ đang kể chuyện. Người phụ nữ nói điều gì từng khiến cô gặp khó khăn vất vả nhất?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 日本の習慣に慣れること: Quen với phong tục tập quán Nhật Bản<br>2. 日本人と会話すること: Trò chuyện hội thoại với người Nhật<br>3. 日本語の文章を読むこと: Đọc hiểu các văn bản câu cú tiếng Nhật<br>4. 日本語の授業を聞き取ること: Nghe hiểu các tiết học tiếng Nhật<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：私は7歳の時親の仕事の関係でアメリカから日本に来ました。文化や習慣に慣れるのは大変でしたが、一番苦労したのはやっぱり言葉です。話したり聞いたりするのは2年くらいで大体できるようになったんですが、<b>読んだり書いたりするのはずっと苦労していました。</b>ある程度会話ができるので上手に思われるようですが、読み書きは全然ダメでしたから。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ nói rõ: Giao tiếp nghe - nói chỉ mất 2 năm là thành thạo, nhưng kỹ năng đọc và viết văn bản chữ nghĩa (読み書き &rarr; 文章を読むこと) là rào cản gian nan và khổ sở nhất suốt thời gian dài.<br>&rarr; <b>Đáp án đúng là 3 (日本語の文章を読むこと)</b>."
+        },
+        {
+          "id": 121,
+          "mondai": 2,
+          "mondaiName": "聴解 問題２：ポイント理解 (Nghe hiểu nắm bắt ý chính)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_15/m2_06.mp3",
+          "questionText": "家で夫と妻が話しています。妻はどうしてこの体操をしていますか。",
+          "options": [
+            "リラックスするため",
+            "肩こりを楽にするため",
+            "姿勢をよくするため",
+            "痩せるため"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. 姿勢をよくするため: Để cải thiện tư thế đứng ngồi<br>4. 痩せるため: Để giảm cân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：ねえ、何してるの？<br>妻：これ、猫のポーズ。ヨガ体操だよ。<br>夫：へえ、どういう効果があるの？リラックスできるの？<br>妻：もちろんリラックスもできるけど、<b>最近パソコン作業が多くて、肩がガチガチに凝っちゃって痛くてね。このポーズをすると肩甲骨がほぐれて、肩こりがすごく楽になるのよ。</b>だから毎日やってるの。<br>夫：へえ、僕もやってみようかな。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>."
+        }
       ]
-}
+    }
   ]
 };

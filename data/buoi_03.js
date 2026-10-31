@@ -1,4 +1,3 @@
-// Dữ liệu số hóa đầy đủ BUỔI 3: Siêu Chuyên Đề & Nghe Hiểu (Choukai)
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[3] = {
   "session": 3,
@@ -638,7 +637,7 @@ window.JLPT_DATA[3] = {
           "question": "子どもの心身の成長には、<u>けんぜん</u>な食生活は欠かせない。",
           "options": [
             "建善",
-            "健全",
+            "建全",
             "健善",
             "健全"
           ],
@@ -668,7 +667,7 @@ window.JLPT_DATA[3] = {
             "保全",
             "保存",
             "保在",
-            "保存"
+            "保尊"
           ],
           "correctAnswer": 2,
           "explanation": "<b>保存 (ほぞん)</b>: Bảo tồn, giữ nguyên hiện trạng.<br>• Dịch: Giữ nguyên hiện trường vụ tai nạn.<br>• 2. <b>保存 (Đúng)</b>: 保存."
@@ -695,7 +694,7 @@ window.JLPT_DATA[3] = {
           "options": [
             "信勅",
             "信頼",
-            "信頼",
+            "信類",
             "頼信"
           ],
           "correctAnswer": 2,
