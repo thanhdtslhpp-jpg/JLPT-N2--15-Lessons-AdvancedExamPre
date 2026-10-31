@@ -1098,7 +1098,7 @@ ruby rt {
 
   background: var(--bg-main);
 
-  padding: 1.25rem;
+  padding: 1.15rem 1.35rem;
 
   border-radius: 10px;
 
@@ -1106,7 +1106,25 @@ ruby rt {
 
   margin-bottom: 1rem;
 
-  font-size: 1.15rem;
+  font-size: 1.12rem;
+
+  line-height: 2.3;
+
+  color: var(--text-main);
+
+  word-break: break-word;
+
+}
+
+
+
+.star-text-before,
+
+.star-text-after {
+
+  display: inline;
+
+  vertical-align: middle;
 
 }
 
@@ -1114,13 +1132,15 @@ ruby rt {
 
 .star-slots {
 
-  display: flex;
+  display: inline-flex;
 
   align-items: center;
 
-  gap: 0.6rem;
+  gap: 0.35rem;
 
-  margin: 1.25rem 0;
+  margin: 0 0.35rem;
+
+  vertical-align: middle;
 
   flex-wrap: wrap;
 
@@ -1130,13 +1150,13 @@ ruby rt {
 
 .star-slot {
 
-  min-width: 125px;
+  min-width: 68px;
 
-  min-height: 46px;
+  min-height: 34px;
 
   border: 2px dashed var(--border);
 
-  border-radius: 8px;
+  border-radius: 6px;
 
   display: inline-flex;
 
@@ -1148,7 +1168,9 @@ ruby rt {
 
   font-weight: 600;
 
-  padding: 0.4rem 0.8rem;
+  font-size: 0.98rem;
+
+  padding: 0.2rem 0.55rem;
 
   position: relative;
 
@@ -1157,6 +1179,12 @@ ruby rt {
   transition: all 0.2s ease;
 
   user-select: none;
+
+  vertical-align: middle;
+
+  box-sizing: border-box;
+
+  line-height: 1.3;
 
 }
 
@@ -1182,31 +1210,171 @@ ruby rt {
 
   color: var(--primary);
 
+  cursor: grab;
+
+}
+
+
+
+.star-slot.filled:active {
+
+  cursor: grabbing;
+
 }
 
 
 
 .star-slot.filled:hover {
 
-  border-color: var(--error);
+  border-color: var(--primary);
 
-  background: var(--error-bg);
-
-  color: var(--error);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.25);
 
 }
 
 
 
-.star-slot.filled:hover::before {
+.star-slot.drag-over {
 
-  content: "✕ Bỏ: ";
+  border-color: var(--primary) !important;
 
-  font-size: 0.8rem;
+  border-style: dashed !important;
 
-  margin-right: 4px;
+  background: rgba(59, 130, 246, 0.18) !important;
 
-  opacity: 0.8;
+  transform: scale(1.05);
+
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.35);
+
+}
+
+
+
+.star-slot.is-star.drag-over {
+
+  border-color: #f59e0b !important;
+
+  border-style: dashed !important;
+
+  background: rgba(245, 158, 11, 0.25) !important;
+
+  transform: scale(1.05);
+
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.45);
+
+}
+
+
+
+.star-slot.selected-slot {
+
+  border-color: var(--primary) !important;
+
+  border-style: solid !important;
+
+  background: var(--primary-light) !important;
+
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.35);
+
+  animation: pulse-star-slot 1.4s infinite ease-in-out;
+
+}
+
+
+
+.star-slot.is-star.selected-slot {
+
+  border-color: #f59e0b !important;
+
+  border-style: solid !important;
+
+  background: #fef3c7 !important;
+
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.45);
+
+  animation: pulse-star-slot 1.4s infinite ease-in-out;
+
+}
+
+
+
+@keyframes pulse-star-slot {
+
+  0% { transform: scale(1); }
+
+  50% { transform: scale(1.04); }
+
+  100% { transform: scale(1); }
+
+}
+
+
+
+.slot-remove-btn {
+
+  position: absolute;
+
+  top: -7px;
+
+  left: -7px;
+
+  width: 16px;
+
+  height: 16px;
+
+  line-height: 14px;
+
+  text-align: center;
+
+  border-radius: 50%;
+
+  background: var(--error);
+
+  color: #fff;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  opacity: 0;
+
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  z-index: 5;
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+}
+
+
+
+.star-slot.filled:hover .slot-remove-btn {
+
+  opacity: 0.92;
+
+}
+
+
+
+.slot-remove-btn:hover {
+
+  opacity: 1 !important;
+
+  transform: scale(1.2);
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  .slot-remove-btn {
+
+    opacity: 0.85;
+
+  }
 
 }
 
@@ -1242,11 +1410,11 @@ ruby rt {
 
   position: absolute;
 
-  top: -12px;
+  top: -10px;
 
-  right: -8px;
+  right: -6px;
 
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 
   color: #f59e0b;
 
@@ -1339,6 +1507,86 @@ ruby rt {
   text-decoration: none;
 
   background: var(--error-bg);
+
+}
+
+
+
+.star-fragments-pool {
+
+  transition: all 0.2s ease;
+
+  border: 1.5px dashed transparent;
+
+  border-radius: 8px;
+
+  padding: 0.35rem 0.2rem;
+
+}
+
+
+
+.star-fragments-pool.drag-over {
+
+  border-color: var(--primary) !important;
+
+  background: rgba(59, 130, 246, 0.08) !important;
+
+}
+
+
+
+.star-fragment-chip:not(.used) {
+
+  cursor: grab;
+
+}
+
+
+
+.star-fragment-chip:not(.used):active {
+
+  cursor: grabbing;
+
+}
+
+
+
+.star-fragment-chip.dragging,
+
+.star-slot.filled.dragging {
+
+  opacity: 0.35 !important;
+
+  transform: scale(0.96);
+
+}
+
+
+
+.star-drag-ghost {
+
+  position: fixed;
+
+  z-index: 999999;
+
+  pointer-events: none;
+
+  background: var(--card-bg);
+
+  border: 2px solid var(--primary);
+
+  color: var(--primary);
+
+  font-weight: 600;
+
+  border-radius: 8px;
+
+  padding: 0.5rem 1rem;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+
+  white-space: nowrap;
 
 }
 
@@ -3986,24 +4234,27 @@ button,
 /* 2. Star Slots Mobile Responsiveness (Mondai 8) */
 @media (max-width: 600px) {
   .star-sentence-box {
-    padding: 0.85rem 0.65rem !important;
+    padding: 0.85rem 0.75rem !important;
+    font-size: 1.02rem !important;
+    line-height: 2.1 !important;
   }
 
   .star-slots {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 0.35rem !important;
-    margin: 0.85rem 0 !important;
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.25rem !important;
+    margin: 0.15rem 0.2rem !important;
+    vertical-align: middle !important;
   }
 
   .star-slot {
-    min-width: 0 !important;
-    width: 100% !important;
-    padding: 0.45rem 0.2rem !important;
+    min-width: 52px !important;
+    width: auto !important;
+    padding: 0.15rem 0.4rem !important;
     font-size: 0.88rem !important;
-    min-height: 42px !important;
-    text-align: center !important;
-    word-break: break-all !important;
+    min-height: 30px !important;
+    border-radius: 5px !important;
+    line-height: 1.25 !important;
   }
 
   .star-fragments-pool {

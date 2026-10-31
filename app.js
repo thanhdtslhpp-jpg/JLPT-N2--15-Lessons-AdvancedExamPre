@@ -5,7 +5,9 @@ class JLPTApp {
     this.currentMode = "practice"; // "practice" | "exam"
     this.activeFilter = "all"; // "all" | sectionId
     this.userAnswers = {}; // { questionId: selectedNumber }
-    this.starAnswers = {}; // { questionId: [fragmentIds...] }
+    this.starAnswers = {}; // { questionId: [slot0, slot1, slot2, slot3] }
+    this.selectedStarSlot = null; // { qId, slotIndex } cho phep chon o truoc khi bam tu
+    this.currentDraggedStar = null;
     this.activeQuestionId = null;
     this.timerInterval = null;
     this.timeLeftSeconds = 105 * 60; // 105 phút thi thật N2
@@ -252,6 +254,7 @@ class JLPTApp {
 
     this.initSelectionBubble();
     this.initMobileBottomBar();
+    this.initStarTouchDrag();
 
     window.addEventListener("resize", () => {
       this.updateMobileBar();
@@ -2205,9 +2208,20 @@ class JLPTApp {
     `;
   }
 
+  getStarSlots(qId) {
+    const raw = this.starAnswers[qId];
+    if (!raw || !Array.isArray(raw)) return [null, null, null, null];
+    const res = [null, null, null, null];
+    for (let i = 0; i < 4; i++) {
+      res[i] = (raw[i] !== undefined && raw[i] !== null) ? raw[i] : null;
+    }
+    return res;
+  }
+
   renderStarQuestionHTML(q, indexInFiltered, filteredList) {
-    const currentOrder = this.starAnswers[q.id] || [];
-    const isComplete = currentOrder.length === 4;
+    const currentSlots = this.getStarSlots(q.id);
+    const placedCount = currentSlots.filter((x) => x !== null).length;
+    const isComplete = placedCount === 4;
 
     // Detect fragments pool
     const fragments = (Array.isArray(q.fragments) && q.fragments.length > 0)
@@ -2239,38 +2253,60 @@ class JLPTApp {
       }
     }
 
-    const starChosenId = currentOrder[starPos - 1]; // id của mảnh nằm ở vị trí sao
+    const starChosenId = currentSlots[starPos - 1]; // id của mảnh nằm ở vị trí sao
     const targetCorrectStar = q.correctStarOption || q.correctAnswer;
     const isCorrect = starChosenId === targetCorrectStar;
     const showFeedback = this.currentMode === "practice" && isComplete;
     const isBookmarked = this.isQuestionBookmarked(q.id);
 
-    // 4 Slots - Cho phép CLICK VÀO Ô ĐỂ GỠ MẢNH GHÉP RA
+    // 4 Slots - Kéo thả vào bất kỳ ô nào, hoặc click để gỡ / chọn ô
     let slotsHTML = "";
     for (let i = 0; i < 4; i++) {
       const isStar = (i + 1) === starPos;
-      const fragId = currentOrder[i];
+      const fragId = currentSlots[i];
       const frag = fragments.find((f) => f.id === fragId);
       const hasItem = !!frag;
+      const isSelected = this.selectedStarSlot && this.selectedStarSlot.qId === q.id && this.selectedStarSlot.slotIndex === i;
 
       slotsHTML += `
-        <div class="star-slot ${isStar ? "is-star" : ""} ${hasItem ? "filled" : ""}" 
+        <div class="star-slot ${isStar ? "is-star" : ""} ${hasItem ? "filled" : ""} ${isSelected ? "selected-slot" : ""}" 
+             data-qid="${q.id}"
+             data-slotindex="${i}"
+             data-source="slot"
+             ${hasItem ? `data-fragid="${frag.id}" data-fromslot="${i}"` : ""}
+             draggable="${hasItem && !showFeedback ? "true" : "false"}"
+             ondragstart="app.handleStarDragStart(event, ${q.id}, 'slot', ${hasItem ? frag.id : 'null'}, ${i})"
+             ondragend="app.handleStarDragEnd(event)"
+             ondragover="app.handleStarDragOver(event)"
+             ondragenter="app.handleStarDragEnter(event)"
+             ondragleave="app.handleStarDragLeave(event)"
+             ondrop="app.handleStarDrop(event, ${q.id}, ${i})"
              onclick="app.clickStarSlot(${q.id}, ${i})" 
-             title="${hasItem ? "Bấm vào đây để gỡ từ '" + frag.text + "' ra" : "Vị trí " + (i + 1)}">
-          ${hasItem ? frag.text : (isStar ? "★" : "______")}
+             title="${hasItem ? "Kéo sang ô khác hoặc bấm để gỡ từ '" + frag.text + "' ra" : (isSelected ? "Đang chọn ô này" : "Bấm chọn hoặc kéo từ thả vào ô " + (i + 1))}">
+          ${hasItem ? `
+            <span class="slot-text">${frag.text}</span>
+            ${!showFeedback ? `<span class="slot-remove-btn" title="Gỡ từ này ra" onclick="event.stopPropagation(); app.clickStarSlot(${q.id}, ${i})">&times;</span>` : ""}
+          ` : (isStar ? `<span class="slot-placeholder star-char">★</span>` : `<span class="slot-placeholder">＿＿</span>`)}
         </div>
       `;
     }
 
-    // Chips pool - Bấm vào từ chưa chọn để thêm, hoặc bấm vào từ đã chọn để gỡ ra
+    // Chips pool - Kéo thả hoặc click
     let chipsHTML = "";
     fragments.forEach((frag) => {
-      const isUsed = currentOrder.includes(frag.id);
+      const isUsed = currentSlots.includes(frag.id);
       chipsHTML += `
         <button class="star-fragment-chip ${isUsed ? "used" : ""}" 
+                data-qid="${q.id}"
+                data-fragid="${frag.id}"
+                data-source="pool"
                 ${showFeedback ? "disabled" : ""}
+                draggable="${!isUsed && !showFeedback ? "true" : "false"}"
+                ondragstart="app.handleStarDragStart(event, ${q.id}, 'pool', ${frag.id})"
+                ondragend="app.handleStarDragEnd(event)"
                 onclick="app.clickStarFragment(${q.id}, ${frag.id})"
-                title="${isUsed ? "Bấm để gỡ từ này ra" : "Bấm để chọn ghép vào câu"}">
+                title="${isUsed ? "Bấm để gỡ từ này ra" : "Kéo thả vào ô bất kỳ hoặc bấm để chọn"}">
+          <i class="fas fa-grip-vertical drag-handle-icon" style="font-size: 0.72rem; opacity: 0.55; margin-right: 2px;"></i>
           ${frag.id}. ${frag.text} ${isUsed ? '<i class="fas fa-undo" style="font-size: 0.75rem; margin-left: 4px;"></i>' : ""}
         </button>
       `;
@@ -2317,6 +2353,14 @@ class JLPTApp {
       </div>
     `;
 
+    const isSelectedSlot = this.selectedStarSlot && this.selectedStarSlot.qId === q.id;
+    let helperText = "";
+    if (isSelectedSlot) {
+      helperText = `👉 <b>Đang chọn Ô số ${this.selectedStarSlot.slotIndex + 1}</b>: Bấm một từ bên dưới để điền vào ô này, hoặc kéo thả từ vào bất kỳ ô nào khác.`;
+    } else {
+      helperText = `👉 <b>Kéo thả</b> đáp án vào <b>bất kì ô nào</b> (Ô số <b>${starPos}</b> là dấu ★), hoặc bấm từ để điền. Bấm vào ô đã điền để gỡ ra:`;
+    }
+
     return `
       <div class="q-header">
         <span class="q-mondai-badge">${q.mondaiName || "Mondai 8 (Dấu Sao ★)"}</span>
@@ -2326,112 +2370,344 @@ class JLPTApp {
         </button>
       </div>
       <div class="star-sentence-box">
-        <div>${q.beforeText || ""}</div>
-        <div class="star-slots">${slotsHTML}</div>
-        <div>${q.afterText || ""}</div>
+        <span class="star-text-before">${beforeText || ""}</span>
+        <span class="star-slots">${slotsHTML}</span>
+        <span class="star-text-after">${afterText || ""}</span>
       </div>
       <div style="font-size: 0.88rem; margin-bottom: 0.6rem; color: var(--text-sub);">
-        👉 <i>Bấm các từ bên dưới để ghép câu (Ô số <b>${starPos}</b> là dấu ★). Bấm vào ô đã điền nếu muốn gỡ ra xếp lại:</i>
+        ${helperText}
       </div>
-      <div class="star-fragments-pool">${chipsHTML}</div>
+      <div class="star-fragments-pool" 
+           data-qid="${q.id}"
+           ondragover="app.handleStarDragOver(event)"
+           ondragenter="app.handleStarDragEnter(event)"
+           ondragleave="app.handleStarDragLeave(event)"
+           ondrop="app.handleStarDropToPool(event, ${q.id})">
+        ${chipsHTML}
+      </div>
       <div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; align-items: center;">
         <button class="btn btn-outline" style="font-size: 0.8rem; padding: 0.35rem 0.7rem;" onclick="app.resetStarQuestion(${q.id})">
           <i class="fas fa-undo"></i> Xếp lại từ đầu
         </button>
-        ${currentOrder.length > 0 ? `<span style="font-size: 0.8rem; color: var(--text-sub);">Đã xếp: ${currentOrder.length}/4 từ</span>` : ""}
+        ${placedCount > 0 ? `<span style="font-size: 0.8rem; color: var(--text-sub);">Đã xếp: ${placedCount}/4 từ</span>` : ""}
       </div>
       ${explanationHTML}
       ${navHTML}
     `;
   }
 
-  // TÍNH NĂNG MỚI: Click vào ô đã chọn để gỡ từ ra
-  clickStarSlot(qId, slotIndex) {
-    if (!this.starAnswers[qId]) return;
-    if (slotIndex >= this.starAnswers[qId].length) return; // Ô này đang trống
-
-    // Trong chế độ luyện tập: nếu đã hoàn thành 4 từ thì khóa, không cho gỡ lẻ (bấm nút Xếp lại câu này để làm lại)
-    if (this.currentMode === "practice" && this.starAnswers[qId].length === 4) {
+  handleStarDragStart(e, qId, source, fragId, fromSlotIndex = null) {
+    const slots = this.getStarSlots(qId);
+    const isComplete = slots.every(s => s !== null);
+    if (this.currentMode === "practice" && isComplete) {
+      e.preventDefault();
       return;
     }
+    this.currentDraggedStar = { qId, source, fragId, fromSlotIndex };
+    if (e.dataTransfer) {
+      e.dataTransfer.effectAllowed = "move";
+      try {
+        e.dataTransfer.setData("text/plain", JSON.stringify(this.currentDraggedStar));
+      } catch (err) {}
+    }
+    setTimeout(() => {
+      if (e.target) e.target.classList.add("dragging");
+    }, 0);
+  }
 
-    // Xóa mảnh ghép ở vị trí slotIndex
-    this.starAnswers[qId].splice(slotIndex, 1);
+  handleStarDragEnd(e) {
+    if (e.target) e.target.classList.remove("dragging");
+    document.querySelectorAll(".star-slot.drag-over, .star-fragments-pool.drag-over").forEach(el => el.classList.remove("drag-over"));
+    this.currentDraggedStar = null;
+  }
 
-    // Vì chưa đủ 4 từ nên hủy đáp án trắc nghiệm đã chốt
-    delete this.userAnswers[qId];
+  handleStarDragOver(e) {
+    e.preventDefault();
+    if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+  }
+
+  handleStarDragEnter(e) {
+    const slot = e.currentTarget.closest(".star-slot") || e.currentTarget.closest(".star-fragments-pool");
+    if (slot) slot.classList.add("drag-over");
+  }
+
+  handleStarDragLeave(e) {
+    if (e.relatedTarget && e.currentTarget.contains(e.relatedTarget)) return;
+    e.currentTarget.classList.remove("drag-over");
+  }
+
+  handleStarDrop(e, qId, targetSlotIndex) {
+    e.preventDefault();
+    e.currentTarget.classList.remove("drag-over");
+    let dragData = this.currentDraggedStar;
+    if (!dragData && e.dataTransfer) {
+      try {
+        const text = e.dataTransfer.getData("text/plain");
+        if (text) dragData = JSON.parse(text);
+      } catch (err) {}
+    }
+    if (!dragData || dragData.qId !== qId) return;
+    this.handleStarDropAction(qId, dragData.source, dragData.fragId, dragData.fromSlotIndex, targetSlotIndex);
+  }
+
+  handleStarDropToPool(e, qId) {
+    e.preventDefault();
+    e.currentTarget.classList.remove("drag-over");
+    let dragData = this.currentDraggedStar;
+    if (!dragData && e.dataTransfer) {
+      try {
+        const text = e.dataTransfer.getData("text/plain");
+        if (text) dragData = JSON.parse(text);
+      } catch (err) {}
+    }
+    if (!dragData || dragData.qId !== qId || dragData.source !== "slot") return;
+    this.handleStarDropToPoolAction(qId, dragData.fromSlotIndex);
+  }
+
+  handleStarDropAction(qId, source, fragId, fromSlotIndex, targetSlotIndex) {
+    const slots = this.getStarSlots(qId);
+    const isComplete = slots.every(s => s !== null);
+    if (this.currentMode === "practice" && isComplete) return;
+
+    if (source === "slot") {
+      if (fromSlotIndex === targetSlotIndex) return;
+      const targetExisting = slots[targetSlotIndex];
+      // Hoán đổi hoặc di chuyển
+      slots[targetSlotIndex] = fragId;
+      slots[fromSlotIndex] = (targetExisting !== undefined && targetExisting !== null) ? targetExisting : null;
+    } else {
+      // Từ kho fragment pool
+      const oldIdx = slots.indexOf(fragId);
+      if (oldIdx !== -1) slots[oldIdx] = null;
+      slots[targetSlotIndex] = fragId;
+    }
+
+    this.selectedStarSlot = null;
+    this.starAnswers[qId] = slots;
+    this.checkAndSaveStarQuestion(qId, slots);
+  }
+
+  handleStarDropToPoolAction(qId, fromSlotIndex) {
+    const slots = this.getStarSlots(qId);
+    const isComplete = slots.every(s => s !== null);
+    if (this.currentMode === "practice" && isComplete) return;
+
+    if (fromSlotIndex !== null && fromSlotIndex !== undefined) {
+      slots[fromSlotIndex] = null;
+      this.selectedStarSlot = null;
+      this.starAnswers[qId] = slots;
+      this.checkAndSaveStarQuestion(qId, slots);
+    }
+  }
+
+  checkAndSaveStarQuestion(qId, slots) {
+    const isComplete = slots.every(s => s !== null);
+    const q = this.getAllQuestions().find(x => x.id === qId);
+
+    if (isComplete) {
+      let starPos = (q && q.starPositionIndex) ? q.starPositionIndex : null;
+      if (!starPos && q && q.question) {
+        const blanks = q.question.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
+        if (blanks && blanks.length >= 4) {
+          const sIdx = blanks.findIndex(b => b.includes("★"));
+          if (sIdx !== -1) starPos = sIdx + 1;
+        }
+      }
+      if (!starPos) starPos = 3;
+      const starFragId = slots[starPos - 1];
+      this.userAnswers[qId] = starFragId;
+
+      if (q && this.currentMode === "practice") {
+        const targetAns = q.correctStarOption || q.correctAnswer;
+        const isCorrect = (starFragId === targetAns);
+        if (isCorrect) {
+          this.removeBookmark(qId, false);
+          this.removeWrongQuestion(qId);
+        } else {
+          this.addBookmark(qId, false);
+          this.addWrongQuestion(qId);
+        }
+      }
+    } else {
+      delete this.userAnswers[qId];
+    }
 
     this.saveDraftAnswers();
     this.renderSingleQuestion(qId);
     this.updatePallet();
+    if (typeof this.renderFilterTabs === "function") this.renderFilterTabs();
     this.setActiveQuestion(qId, false);
   }
 
-  // TÍNH NĂNG MỚI: Click vào chip để chọn hoặc gỡ bỏ (toggle)
-  clickStarFragment(qId, fragId) {
-    if (!this.starAnswers[qId]) this.starAnswers[qId] = [];
+  // Click vào ô: nếu đã có từ thì gỡ ra, nếu trống thì chọn ô này để nhận từ tiếp theo
+  clickStarSlot(qId, slotIndex) {
+    const slots = this.getStarSlots(qId);
+    const isComplete = slots.every(s => s !== null);
 
-    // Trong chế độ luyện tập: nếu đã ghép xong 4 từ và có kết quả thì khóa (chỉ chọn 1 lần)
-    if (this.currentMode === "practice" && this.starAnswers[qId].length === 4) {
+    if (this.currentMode === "practice" && isComplete) {
       return;
     }
 
-    const existingIndex = this.starAnswers[qId].indexOf(fragId);
-
-    // Nếu từ này đã được chọn -> Bấm lại sẽ gỡ ra (Toggle)
-    if (existingIndex > -1) {
-      this.starAnswers[qId].splice(existingIndex, 1);
-      delete this.userAnswers[qId];
-    } else {
-      // Nếu chưa chọn và còn chỗ trống (< 4 từ)
-      if (this.starAnswers[qId].length < 4) {
-        this.starAnswers[qId].push(fragId);
-
-        // Nếu đã đủ 4 mảnh ghép -> chốt đáp án cho vị trí dấu sao
-        if (this.starAnswers[qId].length === 4) {
-          const q = this.getAllQuestions().find((x) => x.id === qId);
-          let starPos = (q && q.starPositionIndex) ? q.starPositionIndex : null;
-          if (!starPos && q && q.question) {
-            const blanks = q.question.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
-            if (blanks && blanks.length >= 4) {
-              const sIdx = blanks.findIndex(b => b.includes("★"));
-              if (sIdx !== -1) starPos = sIdx + 1;
-            }
-          }
-          if (!starPos) starPos = 3;
-          const starFragId = this.starAnswers[qId][starPos - 1];
-          this.userAnswers[qId] = starFragId;
-
-          // Tự động tích sao và bôi đỏ nếu làm sai, bỏ tích sao và chuyển xanh nếu làm đúng
-          if (q && this.currentMode === "practice") {
-            const targetAns = q.correctStarOption || q.correctAnswer;
-            const isCorrect = (starFragId === targetAns);
-            if (isCorrect) {
-              this.removeBookmark(qId, false);
-              this.removeWrongQuestion(qId);
-            } else {
-              this.addBookmark(qId, false);
-              this.addWrongQuestion(qId);
-            }
-          }
-        }
-      }
+    // Nếu ô đã điền -> Bấm để gỡ ra
+    if (slots[slotIndex] !== null) {
+      slots[slotIndex] = null;
+      this.selectedStarSlot = null;
+      this.starAnswers[qId] = slots;
+      this.checkAndSaveStarQuestion(qId, slots);
+      return;
     }
 
-    this.saveDraftAnswers();
+    // Nếu ô trống -> Chọn / Bỏ chọn ô này để nhận từ tiếp theo khi bấm chip
+    if (this.selectedStarSlot && this.selectedStarSlot.qId === qId && this.selectedStarSlot.slotIndex === slotIndex) {
+      this.selectedStarSlot = null;
+    } else {
+      this.selectedStarSlot = { qId, slotIndex };
+    }
     this.renderSingleQuestion(qId);
-    this.updatePallet();
-    this.renderFilterTabs();
-    this.setActiveQuestion(qId, false);
+  }
+
+  // Click vào chip để chọn hoặc gỡ bỏ
+  clickStarFragment(qId, fragId) {
+    const slots = this.getStarSlots(qId);
+    const isComplete = slots.every(s => s !== null);
+
+    if (this.currentMode === "practice" && isComplete) {
+      return;
+    }
+
+    const existingIndex = slots.indexOf(fragId);
+
+    // Nếu từ này đã được xếp trong 1 ô nào đó -> Bấm vào chip sẽ gỡ ra (Toggle)
+    if (existingIndex > -1) {
+      slots[existingIndex] = null;
+      this.selectedStarSlot = null;
+      this.starAnswers[qId] = slots;
+      this.checkAndSaveStarQuestion(qId, slots);
+      return;
+    }
+
+    // Nếu từ này chưa được xếp:
+    // 1. Nếu người dùng đang chọn sẵn 1 ô trống cụ thể -> Điền thẳng vào ô đó
+    if (this.selectedStarSlot && this.selectedStarSlot.qId === qId && slots[this.selectedStarSlot.slotIndex] === null) {
+      slots[this.selectedStarSlot.slotIndex] = fragId;
+      this.selectedStarSlot = null;
+      this.starAnswers[qId] = slots;
+      this.checkAndSaveStarQuestion(qId, slots);
+      return;
+    }
+
+    // 2. Mặc định điền vào ô trống đầu tiên từ trái qua phải
+    const emptyIdx = slots.findIndex(s => s === null);
+    if (emptyIdx !== -1) {
+      slots[emptyIdx] = fragId;
+      this.selectedStarSlot = null;
+      this.starAnswers[qId] = slots;
+      this.checkAndSaveStarQuestion(qId, slots);
+    }
   }
 
   resetStarQuestion(qId) {
-    this.starAnswers[qId] = [];
+    this.starAnswers[qId] = [null, null, null, null];
     delete this.userAnswers[qId];
+    this.selectedStarSlot = null;
     this.saveDraftAnswers();
     this.renderSingleQuestion(qId);
     this.updatePallet();
+    if (typeof this.renderFilterTabs === "function") this.renderFilterTabs();
     this.setActiveQuestion(qId, false);
+  }
+
+  // Hỗ trợ cảm ứng kéo thả trên Mobile & Tablet (Touch Drag & Drop)
+  initStarTouchDrag() {
+    let touchItem = null;
+    let ghostEl = null;
+    let startX = 0, startY = 0;
+    let isDragging = false;
+
+    const onTouchStart = (e) => {
+      const handle = e.target.closest(".star-fragment-chip:not(.used):not([disabled]), .star-slot.filled:not([disabled])");
+      if (!handle) return;
+      if (this.currentMode === "practice") {
+        const qId = parseInt(handle.dataset.qid, 10);
+        const slots = this.getStarSlots(qId);
+        if (slots.every(s => s !== null)) return;
+      }
+      const touch = e.touches[0];
+      startX = touch.clientX;
+      startY = touch.clientY;
+      touchItem = handle;
+      isDragging = false;
+    };
+
+    const onTouchMove = (e) => {
+      if (!touchItem) return;
+      const touch = e.touches[0];
+      const dx = touch.clientX - startX;
+      const dy = touch.clientY - startY;
+
+      if (!isDragging && (Math.abs(dx) > 10 || Math.abs(dy) > 10)) {
+        isDragging = true;
+        ghostEl = touchItem.cloneNode(true);
+        ghostEl.className = "star-drag-ghost";
+        const removeBtn = ghostEl.querySelector(".slot-remove-btn");
+        if (removeBtn) removeBtn.remove();
+        document.body.appendChild(ghostEl);
+        touchItem.classList.add("dragging");
+      }
+
+      if (isDragging && ghostEl) {
+        if (e.cancelable) e.preventDefault();
+        ghostEl.style.left = `${touch.clientX}px`;
+        ghostEl.style.top = `${touch.clientY}px`;
+
+        const elem = document.elementFromPoint(touch.clientX, touch.clientY);
+        document.querySelectorAll(".star-slot.drag-over, .star-fragments-pool.drag-over").forEach(el => el.classList.remove("drag-over"));
+        if (elem) {
+          const slot = elem.closest(".star-slot");
+          if (slot) slot.classList.add("drag-over");
+          const pool = elem.closest(".star-fragments-pool");
+          if (pool) pool.classList.add("drag-over");
+        }
+      }
+    };
+
+    const onTouchEnd = (e) => {
+      if (!touchItem) return;
+      if (isDragging) {
+        const touch = e.changedTouches[0];
+        const elem = document.elementFromPoint(touch.clientX, touch.clientY);
+
+        const qId = parseInt(touchItem.dataset.qid, 10);
+        const fragId = parseInt(touchItem.dataset.fragid, 10);
+        const source = touchItem.dataset.source;
+        const fromSlot = touchItem.dataset.fromslot !== undefined && touchItem.dataset.fromslot !== "" 
+          ? parseInt(touchItem.dataset.fromslot, 10) 
+          : null;
+
+        if (elem) {
+          const targetSlot = elem.closest(".star-slot");
+          const targetPool = elem.closest(".star-fragments-pool");
+          if (targetSlot && targetSlot.dataset.slotindex !== undefined) {
+            const targetIndex = parseInt(targetSlot.dataset.slotindex, 10);
+            this.handleStarDropAction(qId, source, fragId, fromSlot, targetIndex);
+          } else if (targetPool && source === "slot") {
+            this.handleStarDropToPoolAction(qId, fromSlot);
+          }
+        }
+
+        if (ghostEl && ghostEl.parentNode) ghostEl.parentNode.removeChild(ghostEl);
+        touchItem.classList.remove("dragging");
+        document.querySelectorAll(".star-slot.drag-over, .star-fragments-pool.drag-over").forEach(el => el.classList.remove("drag-over"));
+      }
+      touchItem = null;
+      ghostEl = null;
+      isDragging = false;
+    };
+
+    document.addEventListener("touchstart", onTouchStart, { passive: true });
+    document.addEventListener("touchmove", onTouchMove, { passive: false });
+    document.addEventListener("touchend", onTouchEnd, { passive: true });
+    document.addEventListener("touchcancel", onTouchEnd, { passive: true });
   }
 
   selectOption(qId, optNum) {
