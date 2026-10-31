@@ -40,20 +40,7 @@ class JLPTApp {
   }
 
   cleanSharedDraftsOnce() {
-    try {
-      if (!localStorage.getItem("jlpt_fresh_clean_v1")) {
-        // Xóa sạch các bài làm dở và dữ liệu mẫu cũ để mọi người dùng bắt đầu như mới
-        for (let i = 1; i <= 20; i++) {
-          localStorage.removeItem("jlpt_draft_" + i);
-        }
-        localStorage.removeItem("jlpt_n2_bookmarks");
-        localStorage.removeItem("jlpt_n2_history");
-        localStorage.removeItem("jlpt_n2_wrong_questions");
-        localStorage.setItem("jlpt_fresh_clean_v1", "true");
-      }
-    } catch (e) {
-      console.warn("cleanSharedDraftsOnce error", e);
-    }
+    // Đã hoàn tất dọn dẹp các bản nháp mẫu cũ, tuyệt đối không can thiệp hay xóa dữ liệu làm bài của người dùng
   }
 
   syncFromDisk() {
