@@ -1241,21 +1241,40 @@ class JLPTApp {
         }
 
         bubble.style.display = "flex";
-        const bubbleWidth = bubble.offsetWidth || 180;
-        const bubbleHeight = bubble.offsetHeight || 36;
+        const bubbleWidth = bubble.offsetWidth || 210;
+        const bubbleHeight = bubble.offsetHeight || 38;
         const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const isMobile = vw <= 768;
 
-        let left = rect.left + (rect.width / 2) - (bubbleWidth / 2);
-        let top = rect.top - bubbleHeight - 8;
+        if (isMobile) {
+          // Trên iPhone/màn hình nhỏ: Neo thanh tác vụ nổi ở đáy màn hình (trên thanh bottom bar)
+          // Tách biệt hoàn toàn khỏi menu Apple iOS callout ở phía trên chữ, triệt tiêu 100% việc bị đè
+          bubble.classList.add("mobile-docked");
+          bubble.style.left = "50%";
+          bubble.style.top = "auto";
+          bubble.style.bottom = "80px";
+          bubble.style.transform = "translateX(-50%)";
+        } else {
+          // Trên iPad & Máy tính: Đặt thanh tác vụ ở PHÍA DƯỚI dòng chữ bôi đen (rect.bottom + 12px)
+          // Vì menu mặc định của Apple luôn nằm ở PHÍA TRÊN dòng chữ, nên đặt ở dưới sẽ không bao giờ bị đè!
+          bubble.classList.remove("mobile-docked");
+          bubble.style.transform = "none";
+          bubble.style.bottom = "auto";
 
-        if (top < 10) {
-          top = rect.bottom + 8;
+          let left = rect.left + (rect.width / 2) - (bubbleWidth / 2);
+          let top = rect.bottom + 12;
+
+          // Nếu gần sát mép dưới màn hình thì mới đẩy lên trên
+          if (top + bubbleHeight > vh - 20) {
+            top = Math.max(10, rect.top - bubbleHeight - 12);
+          }
+          if (left < 10) left = 10;
+          if (left + bubbleWidth > vw - 10) left = vw - bubbleWidth - 10;
+
+          bubble.style.left = `${left}px`;
+          bubble.style.top = `${top}px`;
         }
-        if (left < 10) left = 10;
-        if (left + bubbleWidth > vw - 10) left = vw - bubbleWidth - 10;
-
-        bubble.style.left = `${left}px`;
-        bubble.style.top = `${top}px`;
       } catch (err) {
         hideBubble();
       }
