@@ -1,4 +1,3 @@
-// Số hóa toàn diện BUỔI 6: Đề Thi Thật 07/2018 & Trọn Bộ Chuyên Đề (100% Không Sót Dữ Liệu)
 window.JLPT_DATA = window.JLPT_DATA || {};
 window.JLPT_DATA[6] = {
   "id": 6,
@@ -82,7 +81,7 @@ window.JLPT_DATA[6] = {
             "はずれて"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>著しい（いちじるしい）：</b>Đáng kể, rõ rệt, nổi bật (tiến bộ, thay đổi).<br><b>Dịch nghĩa:</b> Gần đây sức khỏe của mẹ tôi đã có sự hồi phục rõ rệt.<br><i>Phân tích các phương án:</i><br>• 1. めざましい: 目覚ましい (nổi bật, rực rỡ)<br>• 2. すがすがしい: 清々しい (sảng khoái, tươi mát)<br>• 3. たくましい: 逞しい (cường tráng, vạm vỡ, mạnh mẽ)<br>• <b>4. いちじるしい: 著しい (rõ rệt, đáng kể) [Đúng]</b>",
+          "explanation": "<b>離れる（はなれる）：</b>Cách xa, rời xa, giữ khoảng cách.<br><b>Dịch nghĩa:</b> Hai người ngồi cách xa nhau một chút.<br><i>Phân tích các phương án:</i><br>• <b>1. はなれて: 離れて (cách xa, rời ra) [Đúng]</b><br>• 2. わかれて: 別れて (chia tay, ly biệt) / 分かれて (chia nhánh, phân chia)<br>• 3. かくれて: 隠れて (ẩn nấp, trốn núp)<br>• 4. はずれて: 外れて (tuột ra, lệch ra ngoài)",
           "id": 5
         },
         {
@@ -97,7 +96,7 @@ window.JLPT_DATA[6] = {
             "こわい"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>怠って（おこたって）：</b>Lơ là, sao nhãng, bỏ bê nhiệm vụ/trách nhiệm.<br><b>Dịch nghĩa:</b> Vì sao nhãng việc báo cáo nên đã xảy ra sự cố lớn.<br><i>Phân tích các phương án:</i><br>• 1. あらそって: 争って (tranh giành, cạnh tranh)<br>• 2. うしなって: 失って (đánh mất, mất mát)<br>• <b>3. おこたって: 怠って (lơ là, xao nhãng) [Đúng]</b><br>• 4. さからって: 逆らって (ngược lại, chống đối)",
+          "explanation": "<b>怖い（こわい）：</b>Đáng sợ, kinh sợ, ghê rợn.<br><b>Dịch nghĩa:</b> Tôi đã mơ thấy một giấc mơ đáng sợ.<br><i>Phân tích các phương án:</i><br>• 1. つらい: 辛い (khổ sở, cay đắng, đau lòng)<br>• 2. きつい: (chật chội, gay gắt, khắc nghiệt)<br>• 3. ゆるい: 緩い (lỏng lẻo, thoai thoải)<br>• <b>4. こわい: 怖い (đáng sợ, ghê sợ) [Đúng]</b>",
           "id": 6
         },
         {
@@ -112,7 +111,7 @@ window.JLPT_DATA[6] = {
             "よごれた"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>澄んだ（すんだ）：</b>Trong trẻo, trong vắt (nước, mắt, bầu trời, âm thanh).<br><b>Dịch nghĩa:</b> Dòng suối này nước trong vắt và rất sạch.<br><i>Phân tích các phương án:</i><br>• <b>1. すんだ: 澄んだ (trong trẻo, trong vắt) [Đúng]</b><br>• 2. ゆるんだ: 緩んだ (lỏng lẻo, giảm bớt)<br>• 3. とんだ: 飛んだ / 跳んだ (bay, nhảy)<br>• 4. こんだ: 混んだ / 込んだ (đông đúc, phức tạp)",
+          "explanation": "<b>乱れる（みだれる）：</b>Bị nhiễu, lộn xộn, rối loạn (tín hiệu tivi/màn hình, trật tự, hơi thở).<br><b>Dịch nghĩa:</b> Màn hình vô tuyến truyền hình bị nhiễu.<br><i>Phân tích các phương án:</i><br>• <b>1. みだれた: 乱れた (bị nhiễu, rối loạn) [Đúng]</b><br>• 2. くずれた: 崩れた (sụp đổ, tan rã, sạt lở)<br>• 3. つぶれた: 潰れた (bị đè bẹp, nghiền nát, phá sản)<br>• 4. よごれた: 汚れた (bị vấy bẩn)",
           "id": 7
         },
         {
@@ -127,7 +126,7 @@ window.JLPT_DATA[6] = {
             "しつこい"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>措置（そち）：</b>Biện pháp, xử trí đối phó (dùng trong văn bản chính thức).<br><b>Dịch nghĩa:</b> Sau cuộc thảo luận khẩn cấp, chúng tôi đã đưa ra các biện pháp cụ thể.<br><i>Phân tích các phương án:</i><br>• 1. 処置 (しょち: xử lý y tế, giải quyết vết thương/sự cố tạm thời)<br>• 2. 処直 (không phải từ ghép thông dụng)<br>• <b>3. 措置 (そち: biện pháp chính sách vĩ mô) [Đúng]</b><br>• 4. 措直 (sai chữ Hán)",
+          "explanation": "<b>幼い（おさない）：</b>Non nớt, trẻ con, thơ ngây, ấu trĩ (về suy nghĩ, tuổi tác).<br><b>Dịch nghĩa:</b> Cách suy nghĩ của anh ấy vẫn còn rất non nớt.<br><i>Phân tích các phương án:</i><br>• 1. くどい: (dài dòng, lải nhải, ngấy)<br>• 2. ずるい: (ranh mãnh, khôn lỏi, gian lận)<br>• <b>3. おさない: 幼い (non nớt, trẻ con, thơ dại) [Đúng]</b><br>• 4. しつこい: (dai dẳng, phiền toái, lằng nhằng)",
           "id": 8
         },
         {
@@ -157,7 +156,7 @@ window.JLPT_DATA[6] = {
             "ちりょう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>治療（ちりょう）：</b>Điều trị, chữa bệnh.<br><b>Dịch nghĩa:</b> Tôi đã đến bệnh viện để điều trị chiếc răng sâu.<br><i>Phân tích các phương án:</i><br>• 1. 治了: Chữ 了 là kết thúc/hoàn tất, sai<br>• <b>2. 治療: 治 (trị) + 療 (liệu: điều trị) [Đúng]</b><br>• 3. 療治: Đảo ngược từ, ít dùng trang trọng<br>• 4. 医療: いりょう (Y tế - chỉ ngành y tế nói chung)",
+          "explanation": "<b>治療（ちりょう）：</b>Điều trị, chữa bệnh, chữa trị vết thương.<br><b>Dịch nghĩa:</b> Tôi đã đến bệnh viện để điều trị vết thương.<br><i>Phân tích cách đọc Kanji:</i><br>• 1. じりょ: Sai cả hai âm đọc của 治 và 療<br>• 2. ちりょ: Thiếu trường âm ở chữ 療 (ryou)<br>• 3. じりょう: Chữ 治 ở đây đọc là ち, không đọc là じ<br>• <b>4. ちりょう: 治 (ち) + 療 (りょう) [Đúng]</b>",
           "id": 10
         },
         {
@@ -187,7 +186,7 @@ window.JLPT_DATA[6] = {
             "しっけ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>湿気（しっけ）：</b>Độ ẩm, hơi ẩm không khí.<br><b>Dịch nghĩa:</b> Căn phòng này nhiều hơi ẩm nên dễ sinh nấm mốc.<br><i>Phân tích các phương án:</i><br>• 1. しつき: Sai cách đọc âm On<br>• 2. しっき: Âm này của chữ 湿気 nhưng ít dùng hơn しっけ<br>• <b>3. しっけ: [Đúng] cách đọc thông dụng chuẩn JLPT N2</b><br>• 4. しちけ: Sai cách đọc",
+          "explanation": "<b>湿気（しっけ）：</b>Độ ẩm, hơi ẩm không khí.<br><b>Dịch nghĩa:</b> Căn phòng này nhiều hơi ẩm.<br><i>Phân tích cách đọc Kanji:</i><br>• 1. しつき: Sai biến âm<br>• 2. しっき: Âm này dùng trong 湿気 kế (ẩm kế: しっきけい), nhưng từ đứng độc lập thường đọc là しっけ<br>• 3. しつけ: Sai cách phát âm chữ 湿 (thất)<br>• <b>4. しっけ: [Đúng] cách đọc thông dụng chuẩn JLPT N2 của 湿気</b>",
           "id": 12
         },
         {
@@ -202,7 +201,7 @@ window.JLPT_DATA[6] = {
             "ふりむいて"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>縮む（ちぢむ）：</b>Co lại, rút ngắn lại (kích thước quần áo len, khoảng cách).<br><b>Dịch nghĩa:</b> Chiếc áo len này giặt nước nóng sẽ bị co rút lại.<br><i>Phân tích các phương án:</i><br>• 1. たたむ (畳む: gấp quần áo/chiếu)<br>• <b>2. ちぢむ (縮む: co lại, ngắn lại) [Đúng]</b><br>• 3. しずむ (沈む: chìm xuống, lặn)<br>• 4. つつむ (包む: bọc, gói lại)",
+          "explanation": "<b>傾く（かたむく）：</b>Nghiêng, xiêu vẹo, dốc xuống, suy thoái.<br><b>Dịch nghĩa:</b> Do động đất mà tòa nhà đã bị nghiêng đi.<br><i>Phân tích các phương án:</i><br>• 1. はぶいて: 省いて (lược bỏ, cắt giảm)<br>• <b>2. かたむいて: 傾いて (nghiêng, xiêu vẹo) [Đúng]</b><br>• 3. きずついて: 傷ついて (bị thương, tổn thương)<br>• 4. ふりむいて: 振り向いて (quay lại, ngoảnh nhìn lại)",
           "id": 13
         },
         {
@@ -217,7 +216,7 @@ window.JLPT_DATA[6] = {
             "きちょう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>貴重（きちょう）：</b>Quý báu, quý giá.<br><b>Dịch nghĩa:</b> Đi nước ngoài tôi đã có được những trải nghiệm quý báu.<br><i>Phân tích các phương án:</i><br>• 1. きじゅう: Sai âm On của chữ 重 (phải là ちょう trong 貴重)<br>• <b>2. きちょう: [Đúng] 貴重</b><br>• 3. ぎじゅう: Sai âm chữ 貴<br>• 4. ぎちょう: Sai âm đầu",
+          "explanation": "<b>貴重（きちょう）：</b>Quý giá, quý báu, đắt giá.<br><b>Dịch nghĩa:</b> Đi ra nước ngoài tôi đã có được những trải nghiệm quý giá.<br><i>Phân tích cách đọc Kanji:</i><br>• 1. きおも: Sai âm đọc của chữ 重<br>• 2. きじゅう: Chữ 重 trong từ này đọc âm On là ちょう (trong 尊重, 貴重)<br>• 3. きじょう: Sai âm đọc<br>• <b>4. きちょう: 貴 (き) + 重 (ちょう) [Đúng]</b>",
           "id": 14
         },
         {
@@ -232,7 +231,7 @@ window.JLPT_DATA[6] = {
             "ぶだん"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>負担（ふたん）：</b>Gánh nặng, chi trả phụ trách (chi phí, trách nhiệm).<br><b>Dịch nghĩa:</b> Toàn bộ chi phí đi lại sẽ do công ty gánh vác.<br><i>Phân tích các phương án:</i><br>• 1. ふだん (普段: thường ngày)<br>• <b>2. ふたん (負担: gánh vác, chịu trách nhiệm) [Đúng]</b><br>• 3. ぶたん: Sai âm chữ 負<br>• 4. ぶだん: Sai cả 2 âm",
+          "explanation": "<b>負担（ふたん）：</b>Gánh nặng, gánh vác, chịu trách nhiệm/chi phí.<br><b>Dịch nghĩa:</b> Tôi không muốn tạo thêm gánh nặng cho cha mẹ càng nhiều càng tốt.<br><i>Phân tích cách đọc Kanji:</i><br>• <b>1. ふたん: 負 (ふ) + 担 (たん) [Đúng]</b><br>• 2. ふだん: Nhầm với từ 普段 (thường ngày, bình thường)<br>• 3. ぷだん: Sai phát âm<br>• 4. ぶだん: Nhầm với từ 無断 (không xin phép, tự tiện)",
           "id": 15
         },
         {
@@ -247,7 +246,7 @@ window.JLPT_DATA[6] = {
             "たたかう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>針（はり）：</b>Cái kim, kim đồng hồ, ngòi ong.<br><b>Dịch nghĩa:</b> Kim đồng hồ đã chỉ đúng 12 giờ trưa.<br><i>Phân tích các phương án:</i><br>• 1. ぼう (棒: cái gậy, cây que)<br>• 2. くぎ (釘: cái đinh)<br>• <b>3. はり (針: cái kim) [Đúng]</b><br>• 4. いと (糸: sợi chỉ, sợi tơ)",
+          "explanation": "<b>戦う（たたかう）：</b>Chiến đấu, thi đấu hết mình, tranh đấu.<br><b>Dịch nghĩa:</b> Do bị chấn thương ở chân nên tôi đã không thể thi đấu hết mình được.<br><i>Phân tích các phương án:</i><br>• 1. さそう: 誘う (mời, rủ rê, lôi kéo)<br>• 2. あらそう: 争う (tranh cãi, tranh giành)<br>• 3. うたがう: 疑う (nghi ngờ, ngờ vực)<br>• <b>4. たたかう: 戦う (chiến đấu, thi đấu) [Đúng]</b>",
           "id": 16
         },
         {
@@ -277,7 +276,7 @@ window.JLPT_DATA[6] = {
             "出阪"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>出版（しゅっぱん）：</b>Xuất bản sách báo.<br><b>Dịch nghĩa:</b> Một ngày nào đó tôi muốn xuất bản cuốn sách do chính mình viết.<br><i>Phân tích các phương án:</i><br>• 1. 出扳: Chữ thứ 2 sai bộ thủ (bộ Thủ thay vì bộ Phiến)<br>• 2. 出板: 板 là tấm ván gỗ<br>• <b>3. 出版: [Đúng] chữ 版 trong bản in/xuất bản</b><br>• 4. 出坂: 坂 là con dốc",
+          "explanation": "<b>出版（しゅっぱん）：</b>Xuất bản sách, ấn phẩm.<br><b>Dịch nghĩa:</b> Tôi muốn một ngày nào đó sẽ xuất bản cuốn sách của chính mình.<br><i>Phân tích chữ Hán:</i><br>• 1. 出板: Chữ 板 là tấm ván, bảng gỗ<br>• <b>2. 出版: Chữ 版 trong xuất bản, bản in [Đúng]</b><br>• 3. 出販: Chữ 販 trong buôn bán (販売)<br>• 4. 出阪: Chữ 阪 trong Osaka (大阪)",
           "id": 18
         },
         {
@@ -292,7 +291,7 @@ window.JLPT_DATA[6] = {
             "広票"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>公表（こうひょう）：</b>Công bố công khai rộng rãi.<br><b>Dịch nghĩa:</b> Kết quả điều tra sẽ được công bố công khai vào ngày mai.<br><i>Phân tích các phương án:</i><br>• 1. 公評: 評 là bình phẩm, đánh giá<br>• <b>2. 公表: 表 là biểu thị, công khai [Đúng]</b><br>• 3. 広評: 広 là rộng lớn<br>• 4. 広表: Sai chữ Hán",
+          "explanation": "<b>公表（こうひょう）：</b>Công bố, công khai rộng rãi.<br><b>Dịch nghĩa:</b> Kết quả điều tra của năm tài chính trước đã được công bố rộng rãi.<br><i>Phân tích chữ Hán:</i><br>• <b>1. 公表: 公 (công khai) + 表 (biểu thị, đưa ra ngoài) [Đúng]</b><br>• 2. 広表: 広 là rộng, không ghép thành từ này<br>• 3. 公票: 票 là phiếu bầu, vé<br>• 4. 広票: Sai chữ Hán",
           "id": 19
         },
         {
@@ -337,7 +336,7 @@ window.JLPT_DATA[6] = {
             "代利"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>代理（だいり）：</b>Đại lý, đại diện thay mặt.<br><b>Dịch nghĩa:</b> Tôi đã thay mặt giám đốc tham dự cuộc họp.<br><i>Phân tích các phương án:</i><br>• <b>1. 代理: 代 (thay thế) + 理 (lý) [Đúng]</b><br>• 2. 代利: 利 là lợi ích<br>• 3. 貸理: 貸 là cho vay, cho mượn<br>• 4. 貸利: Sai hoàn toàn",
+          "explanation": "<b>代理（だいり）：</b>Đại diện, đại lý, thay mặt.<br><b>Dịch nghĩa:</b> Tôi đã thay mặt trưởng phòng tham dự cuộc họp.<br><i>Phân tích chữ Hán:</i><br>• 1. 替理: 替 là thay đổi, thay thế nhưng không ghép với 理 thành chức vụ đại diện<br>• <b>2. 代理: 代 (thay mặt, đại diện) + 理 (xử lý công việc) [Đúng]</b><br>• 3. 替利: Sai hoàn toàn<br>• 4. 代利: 利 là lợi ích, sai chữ Hán",
           "id": 22
         },
         {
@@ -351,7 +350,7 @@ window.JLPT_DATA[6] = {
             "良"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>大企業（だいきぎょう）：</b>Doanh nghiệp lớn, tập đoàn lớn.<br><b>Dịch nghĩa:</b> Anh ấy đang làm việc tại một doanh nghiệp lớn nổi tiếng.<br><i>Phân tích các tiền tố:</i><br>• <b>1. 大: Đại (lớn) -> 大企業 (doanh nghiệp quy mô lớn) [Đúng]</b><br>• 2. 高: Cao (dùng cho 高収入, 高学歴, 高品質)<br>• 3. 多: Đa (nhiều: 多目的, 多国籍)<br>• 4. 長: Trường (dài: 長期, 長時間)",
+          "explanation": "<b>大企業（だいきぎょう）：</b>Doanh nghiệp lớn, tập đoàn quy mô lớn.<br><b>Dịch nghĩa:</b> Anh ấy đang làm việc tại một tập đoàn doanh nghiệp lớn nổi tiếng.<br><i>Phân tích các tiền tố:</i><br>• 1. 高: Cao (dùng cho 高収入: thu nhập cao, 高学歴: học vấn cao, 高品質: chất lượng cao)<br>• 2. 強: Cường (dùng cho 強敵, 強豪)<br>• <b>3. 大: Đại (lớn) -> ghép thành 大企業 (doanh nghiệp lớn) [Đúng]</b><br>• 4. 良: Lương (tốt, dùng cho 良書: sách hay, 良心: lương tâm)",
           "id": 23
         },
         {
@@ -365,7 +364,7 @@ window.JLPT_DATA[6] = {
             "枚"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>不器用（ぶきよう）：</b>Vụng về, lóng ngóng tay chân.<br><b>Dịch nghĩa:</b> Tôi vụng về nên làm thủ công không được khéo léo.<br><i>Phân tích các tiền tố phủ định:</i><br>• 1. 無 (Vô: 無意味, 無関心)<br>• 2. 非 (Phi: 非常識, 非公式)<br>• <b>3. 不 (Bất: 不器用, 不自由, 不安) [Đúng]</b><br>• 4. 未 (Chưa: 未完成, 未経験)",
+          "explanation": "<b>部（ぶ）：</b>Lượng từ (đơn vị đếm) dùng cho báo chí, ấn phẩm xuất bản, bản hợp đồng.<br><b>Dịch nghĩa:</b> Nhà tôi đặt mua 2 tờ báo (2 bản báo khác nhau).<br><i>Phân tích các lượng từ:</i><br>• 1. 冊 (さつ): Đơn vị đếm sách, vở, tạp chí đóng quyển<br>• <b>2. 部 (ぶ): Đơn vị đếm báo chí, tài liệu in theo bộ/bản [Đúng]</b><br>• 3. 本 (ほん): Đơn vị đếm vật thon dài (chai, cây, bút)<br>• 4. 枚 (まい): Đơn vị đếm tờ giấy phẳng, áo, đĩa",
           "id": 24
         },
         {
@@ -379,7 +378,7 @@ window.JLPT_DATA[6] = {
             "まわった"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>無意味（むいみ）：</b>Vô nghĩa, không có ý nghĩa.<br><b>Dịch nghĩa:</b> Tiếp tục cuộc tranh cãi vô nghĩa này chỉ tốn thời gian.<br><i>Phân tích tiền tố:</i><br>• <b>1. 無 (Vô: không có) -> 無意味 [Đúng]</b><br>• 2. 非 (Phi: sai trái, không hợp lý)<br>• 3. 不 (Bất: không đều, không tốt)<br>• 4. 未 (Chưa)",
+          "explanation": "<b>駆けつける（かけつける）：</b>Vội vã chạy đến ngay hiện trường, tức tốc tới nơi.<br><b>Dịch nghĩa:</b> Nhận được tin báo tai nạn giao thông, cảnh sát đã tức tốc chạy đến hiện trường.<br><i>Phân tích các động từ ghép với 駆け:</i><br>• 1. かけこんだ (駆け込む): Lao bổ vào trong (phòng, tàu xe)<br>• <b>2. かけつけた: 駆けつけた (vội vã chạy đến hiện trường/đích đến) [Đúng]</b><br>• 3. かけぬけた (駆け抜けた): Chạy vượt qua, phóng qua<br>• 4. かけまわった (駆け回った): Chạy vòng quanh, chạy ngược chạy xuôi",
           "id": 25
         },
         {
@@ -421,7 +420,7 @@ window.JLPT_DATA[6] = {
             "票"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>再出発（さいしゅっぱつ）：</b>Khởi đầu lại từ đầu, bắt đầu lại.<br><b>Dịch nghĩa:</b> Sau thất bại, toàn đội đã quyết tâm làm lại từ đầu.<br><i>Phân tích tiền tố:</i><br>• 1. 新 (Tân: mới, 新製品)<br>• <b>2. 再 (Tái: lại một lần nữa: 再出発, 再開, 再利用) [Đúng]</b><br>• 3. 重 (Trọng/Trùng)<br>• 4. 初 (Sơ: lần đầu, 初体験)",
+          "explanation": "<b>票（ひょう）：</b>Phiếu bầu, số phiếu bầu cử.<br><b>Dịch nghĩa:</b> Kết quả bầu cử, ông Yoshida đã trúng cử chức thị trưởng với 15 vạn phiếu bầu.<br><i>Phân tích các lượng từ:</i><br>• 1. 件 (けん): Đơn vị đếm vụ việc, hồ sơ, sự kiện<br>• 2. 頭 (とう): Đơn vị đếm gia súc lớn (bò, ngựa, voi)<br>• 3. 分 (ふん/ぶん): Phút hoặc phần chia<br>• <b>4. 票 (ひょう): Đơn vị đếm phiếu bầu cử [Đúng]</b>",
           "id": 28
         },
         {
@@ -435,7 +434,7 @@ window.JLPT_DATA[6] = {
             "批判して"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>名演技（めいえんぎ）：</b>Diễn xuất xuất thần, tài tình.<br><b>Dịch nghĩa:</b> Mọi người đều xúc động trước diễn xuất tuyệt vời của nam diễn viên chính.<br><i>Phân tích tiền tố:</i><br>• 1. 秀 (Tú)<br>• 2. 優 (Ưu)<br>• <b>3. 名 (Danh: nổi tiếng, tuyệt đỉnh: 名演技, 名画, 名所) [Đúng]</b><br>• 4. 妙 (Diệu)",
+          "explanation": "<b>憧れる（あこがれる）：</b>Ngưỡng mộ, ao ước, thần tượng (lối sống, phong cách của ai đó).<br><b>Dịch nghĩa:</b> Rất nhiều phụ nữ đang ngưỡng mộ cách sống của nữ ca sĩ ấy.<br><i>Phân tích các phương án:</i><br>• <b>1. あこがれて: 憧れて (ngưỡng mộ, ao ước) [Đúng]</b><br>• 2. くろうして: 苦労して (vất vả, gian nan, nhọc công)<br>• 3. ちゅういして: 注意して (chú ý, cảnh giác, nhắc nhở)<br>• 4. ひはんして: 批判して (phê phán, chỉ trích)",
           "id": 29
         },
         {
@@ -449,7 +448,7 @@ window.JLPT_DATA[6] = {
             "きっかけ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>真新しい（まあたらしい）：</b>Mới toanh, mới tinh nguyên.<br><b>Dịch nghĩa:</b> Cậu bé tự hào khoác lên mình chiếc cặp sách mới toanh bước vào lớp một.<br><i>Phân tích tiền tố nhấn mạnh:</i><br>• 1. 正 (Chính: 正反対, 正面)<br>• <b>2. 真 (Chân: 真新しい, 真っ白, 真夜中) [Đúng]</b><br>• 3. 本 (Bản: 本格的)<br>• 4. 直 (Trực: 直前の)",
+          "explanation": "<b>きっかけ：</b>Cơ duyên, duyên cớ, bước ngoặt, nguyên cớ bắt đầu làm việc gì.<br><b>Dịch nghĩa:</b> Duyên cớ khiến tôi bắt đầu hứng thú với đất nước đó là sau khi xem một bộ phim.<br><i>Phân tích các phương án:</i><br>• 1. 機会 (きかい): Cơ hội, dịp tốt để làm gì (dùng dạng 機会に/機会があれば)<br>• 2. 初心 (しょしん): Ý định, tâm niệm ban đầu (初心を忘れない)<br>• 3. はじめ (初め): Lúc đầu, ban đầu (ở đây cần từ mang nghĩa động lực/cớ khởi đầu)<br>• <b>4. きっかけ: Duyên cớ, bước ngoặt khởi đầu [Đúng]</b>",
           "id": 30
         },
         {
