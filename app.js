@@ -138,6 +138,11 @@ class JLPTApp {
       btnReset.addEventListener("click", () => this.resetCurrentSession());
     }
 
+    const btnFloating = document.getElementById("btn-floating-pallet");
+    if (btnFloating) {
+      btnFloating.addEventListener("click", () => this.openPalletModal());
+    }
+
     // Reading controls: Cỡ chữ, Split View, Highlighter, Furigana
     const btnFontDec = document.getElementById("btn-font-dec");
     if (btnFontDec) btnFontDec.addEventListener("click", () => this.changeFontSize(-1));
@@ -519,6 +524,8 @@ class JLPTApp {
     this.stopTimer();
     document.getElementById("view-dashboard").style.display = "block";
     document.getElementById("view-practice").style.display = "none";
+    const floatBtn = document.getElementById("btn-floating-pallet");
+    if (floatBtn) floatBtn.style.display = "none";
     this.renderDashboard();
   }
 
@@ -549,6 +556,7 @@ class JLPTApp {
     this.renderFilterTabs();
     this.renderQuestions();
     this.updatePallet();
+    this.updateFloatingPalletBtn();
 
     // Exam mode removed - always practice mode
 
@@ -1350,24 +1358,47 @@ class JLPTApp {
       });
     }
 
-    const openPalletModal = () => {
-      if (!modal) return;
-      this.renderMobilePallet();
-      modal.style.display = "flex";
-    };
-
-    const closePalletModal = () => {
-      if (modal) modal.style.display = "none";
-    };
-
-    if (btnPallet) btnPallet.addEventListener("click", openPalletModal);
-    if (btnClose) btnClose.addEventListener("click", closePalletModal);
-    if (btnCloseSheet) btnCloseSheet.addEventListener("click", closePalletModal);
+    if (btnPallet) btnPallet.addEventListener("click", () => this.openPalletModal());
+    if (btnClose) btnClose.addEventListener("click", () => this.closePalletModal());
+    if (btnCloseSheet) btnCloseSheet.addEventListener("click", () => this.closePalletModal());
 
     if (modal) {
       modal.addEventListener("click", (e) => {
-        if (e.target === modal) closePalletModal();
+        if (e.target === modal) this.closePalletModal();
       });
+    }
+  }
+
+  openPalletModal() {
+    const modal = document.getElementById("mobile-pallet-modal");
+    if (!modal) return;
+    this.renderMobilePallet();
+    modal.style.display = "flex";
+  }
+
+  closePalletModal() {
+    const modal = document.getElementById("mobile-pallet-modal");
+    if (modal) modal.style.display = "none";
+  }
+
+  updateFloatingPalletBtn() {
+    const btn = document.getElementById("btn-floating-pallet");
+    if (!btn) return;
+    const practiceView = document.getElementById("view-practice");
+    if (!practiceView || practiceView.style.display === "none") {
+      btn.style.display = "none";
+      return;
+    }
+    btn.style.display = "flex";
+
+    const countEl = document.getElementById("floating-pallet-count");
+    if (countEl) {
+      const filtered = this.getFilteredQuestions();
+      let answeredCount = 0;
+      filtered.forEach(q => {
+        if (this.userAnswers[q.id] !== undefined) answeredCount++;
+      });
+      countEl.textContent = `${answeredCount}/${filtered.length}`;
     }
   }
 
@@ -1453,6 +1484,11 @@ class JLPTApp {
 
       if (q.id === this.activeQuestionId) {
         btn.classList.add("current");
+      }
+
+      const sessionKey = String(this.currentSessionId);
+      if (this.bookmarks[sessionKey] && this.bookmarks[sessionKey].includes(q.id)) {
+        btn.classList.add("starred");
       }
 
       btn.addEventListener("click", () => {
@@ -1571,6 +1607,7 @@ class JLPTApp {
     this.renderQuestions();
     this.updatePallet();
     this.updateMobileBar();
+    this.updateFloatingPalletBtn();
   }
 
   getAllQuestions() {

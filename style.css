@@ -3644,7 +3644,18 @@ body.hide-furigana ruby:hover rt {
   background: var(--card-bg);
   color: var(--text-main);
   cursor: pointer;
+  position: relative;
   transition: all 0.15s ease;
+}
+
+.mob-pallet-btn.starred::after {
+  content: '★';
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  font-size: 0.65rem;
+  color: #f59e0b;
+  line-height: 1;
 }
 
 .mob-pallet-btn.answered {
@@ -4032,4 +4043,145 @@ button,
 .nav-tabs,
 .mobile-pallet-filter-tabs {
   -webkit-overflow-scrolling: touch;
+}
+
+
+/* ==========================================================================
+   FLOATING EDGE TRIANGLE BUTTON (Nút tam giác cố định ở giữa cạnh màn hình)
+   ========================================================================== */
+.floating-pallet-trigger {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 995;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary) 0%, #4338ca 100%);
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-right: none;
+  border-radius: 14px 0 0 14px;
+  padding: 0.65rem 0.45rem 0.65rem 0.55rem;
+  box-shadow: -4px 6px 18px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(79, 70, 229, 0.4);
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-pallet-trigger:hover {
+  transform: translateY(-50%) translateX(-2px);
+  box-shadow: -6px 8px 24px rgba(0, 0, 0, 0.3), 0 3px 10px rgba(79, 70, 229, 0.5);
+}
+
+.floating-pallet-trigger:active {
+  transform: translateY(-50%) scale(0.92);
+}
+
+.floating-triangle-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  animation: pulseTriangle 2s infinite ease-in-out;
+}
+
+@keyframes pulseTriangle {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-3px);
+  }
+}
+
+.floating-pallet-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 1.15;
+  margin-top: 0.25rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.floating-pallet-info i {
+  font-size: 0.72rem;
+  margin-bottom: 2px;
+}
+
+#floating-pallet-count {
+  font-size: 0.68rem;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 1px 4px;
+  border-radius: 6px;
+  margin-top: 2px;
+}
+
+/* Modal Smooth Scale-in Animation */
+@keyframes modalScaleIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Legend in Mobile Pallet Card */
+.mobile-pallet-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.55rem 0.85rem;
+  background: var(--bg-main);
+  border-top: 1px solid var(--border);
+  font-size: 0.76rem;
+  color: var(--text-sub);
+}
+
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.legend-dot.dot-correct {
+  background: rgba(16, 185, 129, 0.2);
+  border: 1.5px solid var(--success, #10b981);
+}
+
+.legend-dot.dot-incorrect {
+  background: rgba(239, 68, 68, 0.2);
+  border: 1.5px solid var(--error, #ef4444);
+}
+
+.legend-dot.dot-answered {
+  background: var(--primary-light);
+  border: 1.5px solid var(--primary);
+}
+
+.legend-dot.dot-unanswered {
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
 }

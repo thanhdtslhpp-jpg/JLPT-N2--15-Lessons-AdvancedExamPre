@@ -276,7 +276,16 @@
     </div>
   </div>
 
-  <!-- 7. Mobile Pallet Modal (Bảng chọn câu hỏi nhanh cho iPhone & Tablet) -->
+    <!-- Floating Edge Button (Nut tam giac co dinh giua canh phai man hinh) -->
+  <button type="button" id="btn-floating-pallet" class="floating-pallet-trigger" title="Mở danh sách câu hỏi phần đang chọn" style="display: none;">
+    <span class="floating-triangle-icon"><i class="fas fa-caret-left"></i></span>
+    <span class="floating-pallet-info">
+      <i class="fas fa-th-list"></i>
+      <span id="floating-pallet-count">0/0</span>
+    </span>
+  </button>
+
+<!-- 7. Mobile Pallet Modal (Bảng chọn câu hỏi nhanh cho iPhone & Tablet) -->
   <div class="modal-overlay" id="mobile-pallet-modal" style="display: none;">
     <div class="mobile-pallet-card">
       <div class="mobile-pallet-header">
@@ -292,6 +301,13 @@
       </div>
       <div class="mobile-pallet-body" id="mobile-pallet-grid">
         <!-- Rendered by JS -->
+      </div>
+            <div class="mobile-pallet-legend">
+        <span class="legend-chip"><span class="legend-dot dot-correct"></span> Đúng</span>
+        <span class="legend-chip"><span class="legend-dot dot-incorrect"></span> Sai</span>
+        <span class="legend-chip"><span class="legend-dot dot-answered"></span> Đã làm</span>
+        <span class="legend-chip"><span class="legend-dot dot-unanswered"></span> Chưa làm</span>
+        <span class="legend-chip"><i class="fas fa-star" style="color: #f59e0b; font-size: 0.72rem;"></i> Đã lưu</span>
       </div>
       <div class="mobile-pallet-footer">
         <button type="button" class="btn btn-outline" id="btn-mob-close-sheet" style="width: 100%; justify-content: center;">
