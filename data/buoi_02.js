@@ -2039,29 +2039,31 @@ window.JLPT_DATA[2] = {
           "mondai": 8,
           "mondaiName": "Mondai 8: Dấu sao ★",
           "isStarQuestion": true,
-          "question": "新しい社員が＿＿ ＿＿ ★ ＿＿ いけない。",
+          "starPositionIndex": 2,
+          "question": "新しい社員が＿＿ ★ ＿＿ ＿＿ 規則を教えてやらなければいけない。",
           "options": [
             "会社に",
             "入ってくる",
             "会社の",
-            "たびに"
+            "たび"
           ],
           "correctOrder": [
+            1,
             2,
             4,
-            1,
             3
           ],
-          "correctStarOption": 1,
-          "correctAnswer": 1,
-          "explanation": "<b>Đáp án: 1 (会社に)</b><br>• Ghép câu: 新しい社員が<b>入ってくる(2) たびに(4) 会社に(1) 会社の(3)</b> 規則を教えてやらなければいけない。<br>• Dịch: Cứ mỗi lần có nhân viên mới vào công ty là phải chỉ bảo cho họ các quy định của công ty.<br>• Vị trí dấu sao ★ ở vị trí thứ 3 là phương án <b>1 (会社に)</b>."
+          "correctStarOption": 2,
+          "correctAnswer": 2,
+          "explanation": "<b>Đáp án: 2 (入ってくる)</b><br>• Ghép câu: 新しい社員が<b>会社に(1) ★ 入ってくる(2) たび(4) 会社の(3)</b> 規則を教えてやらなければいけない。<br>• Dịch: Cứ mỗi lần có nhân viên mới vào công ty là phải chỉ bảo cho họ các quy định của công ty.<br>• Vị trí dấu sao ★ ở vị trí thứ 2 là phương án <b>2 (入ってくる)</b>."
         },
         {
           "id": 143,
           "mondai": 8,
           "mondaiName": "Mondai 8: Dấu sao ★",
           "isStarQuestion": true,
-          "question": "この暑さに＿＿ ＿＿ ★ ＿＿ 倒れる人が出た。",
+          "starPositionIndex": 2,
+          "question": "この暑さに＿＿ ★ ＿＿ ＿＿ 倒れる人が出た。",
           "options": [
             "待たされて",
             "加えて",
@@ -2074,21 +2076,22 @@ window.JLPT_DATA[2] = {
             1,
             3
           ],
-          "correctStarOption": 1,
-          "correctAnswer": 1,
-          "explanation": "<b>Đáp án: 1 (待たされて)</b><br>• Ghép câu: この暑さに<b>加えて(2) 長い時間(4) 待たされて(1) 次々と(3)</b> 倒れる人が出た。<br>• Dịch: Thêm vào cái nóng nực này lại còn bị bắt đứng đợi suốt thời gian dài nên đã có người liên tiếp bị ngất ngã gục.<br>• Vị trí dấu sao ★ ở vị trí thứ 3 là phương án <b>1 (待たされて)</b>."
+          "correctStarOption": 4,
+          "correctAnswer": 4,
+          "explanation": "<b>Đáp án: 4 (長い時間)</b><br>• Ghép câu: この暑さに<b>加えて(2) ★ 長い時間(4) 待たされて(1) 次々と(3)</b> 倒れる人が出た。<br>• Dịch: Thêm vào cái nóng nực này lại còn bị bắt đứng đợi suốt thời gian dài nên đã có người liên tiếp bị ngất ngã gục.<br>• Vị trí dấu sao ★ ở vị trí thứ 2 là phương án <b>4 (長い時間)</b>."
         },
         {
           "id": 144,
           "mondai": 8,
           "mondaiName": "Mondai 8: Dấu sao ★",
           "isStarQuestion": true,
-          "question": "目の前に熊がいたが、後ろは谷で＿＿ ＿＿ ★ ＿＿ あわてて木に登った。",
+          "starPositionIndex": 2,
+          "question": "目の前に熊がいたが、後ろは谷で＿＿ ★ ＿＿ ＿＿ なく、あわてて木に登った。",
           "options": [
-            "にも",
-            "逃げ道が",
-            "逃げよう",
-            "なく"
+            "も",
+            "が",
+            "逃げように",
+            "逃げ道"
           ],
           "correctOrder": [
             3,
@@ -2096,31 +2099,32 @@ window.JLPT_DATA[2] = {
             4,
             2
           ],
-          "correctStarOption": 4,
-          "correctAnswer": 4,
-          "explanation": "<b>Đáp án: 4 (なく)</b><br>• Ghép câu: 目の前に熊がいたが、後ろは谷で<b>逃げよう(3) にも(1) 逃げ道が(2) なく(4)</b> あわてて木に登った。<br>• Dịch: Trước mắt có con gấu nhưng đằng sau lại là thung lũng vực sâu, dù muốn chạy cũng chẳng có đường thoát nên tôi đã cuống cuồng trèo vội lên cây.<br>• Vị trí dấu sao ★ ở vị trí thứ 3 là phương án <b>4 (なく / 逃げ道が)</b>."
+          "correctStarOption": 1,
+          "correctAnswer": 1,
+          "explanation": "<b>Đáp án: 1 (も)</b><br>• Ghép câu: 目の前に熊がいたが、後ろは谷で<b>逃げように(3) ★ も(1) 逃げ道(4) が(2)</b> なく、あわてて木に登った。<br>• Cấu trúc: <b>V-ようにも + V-れない / なく</b>: Dù muốn... cũng không thể...<br>• Dịch: Trước mắt có con gấu nhưng đằng sau lại là vực thẳm, dù muốn chạy trốn cũng không có lối thoát nên tôi đã cuống cuồng trèo vội lên cây.<br>• Vị trí dấu sao ★ ở vị trí thứ 2 là phương án <b>1 (も)</b>."
         },
         {
           "id": 145,
           "mondai": 8,
           "mondaiName": "Mondai 8: Dấu sao ★",
           "isStarQuestion": true,
+          "starPositionIndex": 3,
           "question": "この作文の漢字は＿＿ ＿＿ ★ ＿＿ 正しい漢字で書けている。",
           "options": [
-            "書けている",
             "間違い",
+            "名前",
             "だらけで",
-            "名前だけが"
+            "だけが"
           ],
           "correctOrder": [
-            2,
+            1,
             3,
-            4,
-            1
+            2,
+            4
           ],
-          "correctStarOption": 4,
-          "correctAnswer": 4,
-          "explanation": "<b>Đáp án: 4 (名前だけが)</b><br>• Ghép câu: この作文の漢字は<b>間違い(2) だらけで(3) 名前だけが(4) 正しい(1)</b> 漢字で書けている。<br>• Dịch: Chữ Hán trong bài văn này toàn là lỗi sai, chỉ có duy nhất cái tên là viết đúng chữ Hán.<br>• Vị trí dấu sao ★ ở vị trí thứ 3 là phương án <b>4 (名前だけが)</b>."
+          "correctStarOption": 2,
+          "correctAnswer": 2,
+          "explanation": "<b>Đáp án: 2 (名前)</b><br>• Ghép câu: この作文の漢字は<b>間違い(1) だらけで(3) ★ 名前(2) だけが(4)</b> 正しい漢字で書けている。<br>• Cấu trúc: N + だらけ (Toàn là...), N + だけ (Chỉ duy nhất...).<br>• Dịch: Chữ Hán trong bài văn này toàn là lỗi sai, chỉ có duy nhất cái tên là viết đúng chữ Hán.<br>• Vị trí dấu sao ★ ở vị trí thứ 3 là phương án <b>2 (名前)</b>."
         },
         {
           "id": 146,

@@ -782,7 +782,8 @@ window.JLPT_DATA[7] = {
           ],
           "correctStarOption": 4,
           "explanation": "<b>Câu hoàn chỉnh:</b> せっかくのチャンスを【気づかずに】★【のがしてしまう】【とは】【あきれて】ものが言えません。<br><b>Cấu trúc:</b> 〜とは (việc... đến mức kinh ngạc), 〜てものが言えない (kinh ngạc/ngán ngẩm đến mức không thốt nên lời).<br>Vị trí dấu sao ở ô thứ 2: <b>4. のがしてしまう</b>.",
-          "id": 49
+          "id": 49,
+          "starPositionIndex": 2
         },
         {
           "mondai": 9,

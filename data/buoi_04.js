@@ -1876,17 +1876,17 @@ window.JLPT_DATA[4] = {
             "という",
             "家を出る"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 1,
           "isStarQuestion": true,
           "starPositionIndex": 3,
-          "correctStarOption": 3,
+          "correctStarOption": 1,
           "sentenceOrder": [
             4,
-            1,
             3,
+            1,
             2
           ],
-          "explanation": "<b>Thứ tự đúng: 4 - 1 - 3 - 2</b><br>• Câu hoàn chỉnh: 主人公がミナに会いに<b>家を出る</b><b>ところ</b><b>★という</b><b>まで</b>だったけど、次が楽しみだね。<br>• Dịch: B: 'Phim mới chiếu đến đoạn nam chính vừa bước ra khỏi nhà để đi gặp Mina thôi, nhưng mà tớ hóng tập tiếp theo lắm.'<br>• Ngôi sao nằm ở vị trí thứ 3 là <b>3 (という)</b>."
+          "explanation": "<b>Thứ tự đúng: 4 - 1 - 3 - 2</b><br>• Câu hoàn chỉnh: 主人公がミナに会いに<b>家を出る</b><b>ところ</b>という</b><b>★ところ</b><b>まで</b>だったけど、次が楽しみだね。<br>• Dịch: B: 'Phim mới chiếu đến đoạn nam chính vừa bước ra khỏi nhà để đi gặp Mina thôi, nhưng mà tớ hóng tập tiếp theo lắm.'<br>• Ngôi sao nằm ở vị trí thứ 3 là <b>1 (ところ)</b>."
         },
         {
           "id": 127,
