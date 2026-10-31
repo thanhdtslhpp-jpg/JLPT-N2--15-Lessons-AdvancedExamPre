@@ -69,6 +69,16 @@
 
 
 
+
+### 1.4. Nguyên tắc "Thực hiện code, kiểm tra kỹ lưỡng và Tự động Commit & Push lên GitHub" (Zero-Friction Git Automation)
+- **Thực hiện code và kiểm tra kỹ lưỡng (Verification First):**
+  - Mọi thay đổi mã nguồn (HTML, CSS, JavaScript, Data) phải được kiểm tra cú pháp (ví dụ `node -c`), logic hoạt động, giao diện hiển thị và tính tương thích responsive trên cả Desktop lẫn Mobile trước khi bàn giao cho người dùng.
+- **Tự động Commit & Push thẳng lên GitHub (Automated Commit & Push):**
+  - Sau mỗi lần thực hiện chỉnh sửa hoặc bổ sung tính năng thành công, Agent **tự động kiểm tra `git status`, gom file (`git add`), tạo commit với nội dung súc tích rõ ràng (`git commit -m "..."`) và đẩy thẳng lên kho lưu trữ từ xa (`git push origin main`)**.
+  - Người dùng tuyệt đối không cần phải mở GitHub Desktop hay thực hiện các thao tác commit/push thủ công gây phiền toái.
+
+---
+
 ## 2. 📁 TIẾN ĐỘ SỐ HÓA & ÁNH XẠ DỮ LIỆU ĐÍCH
 
 
@@ -575,3 +585,15 @@ Khi người dùng yêu cầu số hóa bất kỳ buổi nào, Agent thực hi�
   - Trong chế độ Thi Thử hoặc khi câu hỏi chưa được trả lời, nội dung Lời thoại Script bị ẩn hoàn toàn để đảm bảo tính khách quan của bài thi nghe.
   - Khi đã chọn đáp án hoặc khi nộp bài thi, nút *"Xem Lời thoại & Script"* sẽ xuất hiện cho phép đối chiếu trực quan.
 - **Bộ đếm số lần nghe**: Tự động lưu trạng thái câu hỏi đã được nghe vào `sessionStorage` (`jlpt_audio_listened`) để phục vụ thống kê ôn tập.
+
+### 14. Tự Động Hóa Quy Trình Git & Cải Tiến Trải Nghiệm Bài Dấu Sao (Cập nhật 31/10/2026)
+- **Kéo thả linh hoạt câu dấu sao (★):**
+  - Cho phép kéo thả trực tiếp mảnh ghép vào bất kỳ ô nào (không ép buộc từ trái qua phải).
+  - Hỗ trợ đổi vị trí (swap) và gỡ từ trực tiếp, cùng cơ chế chạm chọn ô đích mượt mà trên Mobile & Tablet.
+- **Giao diện câu dấu sao thu nhỏ & liền mạch chuẩn đề thi PDF:**
+  - Thu nhỏ kích thước ô trống, ghép nối liền mạch câu trước và sau cùng dòng với các ô trống (inline-flex).
+- **Chuẩn hóa giải thích câu dấu sao & Dịch nghĩa toàn bộ:**
+  - Thứ tự câu đúng hiển thị định dạng ngắn gọn: `(1 - 4) - ⭐ (2) - (3)`.
+  - Tích hợp 100% bản dịch tiếng Việt cho toàn bộ 188 câu dấu sao trên 15 buổi học vào `data/star_translations.js`.
+- **Tự động Commit & Push lên GitHub:**
+  - Sau mỗi lần cập nhật, hệ thống tự động kiểm tra code và push thẳng lên GitHub remote, giải phóng người dùng khỏi việc commit thủ công trên GitHub Desktop.
