@@ -2155,12 +2155,12 @@ window.JLPT_DATA[2] = {
           "mondai": 8,
           "mondaiName": "Mondai 8: Dấu sao ★",
           "isStarQuestion": true,
-          "question": "現代は大学を出た＿＿ ＿＿ ★ ＿＿ 就職できる時代ではない。",
+          "question": "現代は大学を出た＿＿ ＿＿ ★ ＿＿ 時代ではない。",
           "options": [
             "といっても",
             "から",
             "必ずしも",
-            "わけでは"
+            "就職できる"
           ],
           "correctOrder": [
             2,

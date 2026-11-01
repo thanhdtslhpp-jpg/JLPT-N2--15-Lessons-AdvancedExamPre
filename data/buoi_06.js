@@ -1362,7 +1362,7 @@ window.JLPT_DATA[6] = {
           "fragments": [
             {
               "id": 1,
-              "text": "もちろんのだが"
+              "text": "もちろんだが"
             },
             {
               "id": 2,
@@ -1384,7 +1384,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんのだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんのだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Đáp án chọn:</b> 2",
           "id": 94
         },
         {
@@ -1426,8 +1426,8 @@ window.JLPT_DATA[6] = {
           "mondai": 8,
           "isStarQuestion": true,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Đề 7/2018)",
-          "beforeText": "明日の夕方が締め切りのレポートがまだ終わっていない。明日は一日中授業があって時間がとれないので、",
-          "afterText": "今晩いけない。",
+          "beforeText": "明日の夕方が締め切りのレポートがまだ終わっていない。明日は一日中授業があって時間がとれないので、今晩",
+          "afterText": "いけない。",
           "starPositionIndex": 2,
           "fragments": [
             {
@@ -1454,7 +1454,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> 今晩いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì cũng phải xong).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> 今晩 <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì tối nay cũng phải làm cho xong).<br><b>Đáp án chọn:</b> 4",
           "id": 96
         },
         {
@@ -3023,7 +3023,7 @@ window.JLPT_DATA[6] = {
           "id": 182,
           "beforeText": "あなたの説明のおかげで",
           "afterText": "よくわかりました。",
-          "starPositionIndex": 3,
+          "starPositionIndex": 4,
           "fragments": [
             {
               "id": 1,
@@ -3045,11 +3045,11 @@ window.JLPT_DATA[6] = {
           "correctOrder": [
             4,
             3,
-            2,
-            1
+            1,
+            2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [★ ことだけは(2)] [わけではない(1)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないこと (việc không phải cô ấy có ác ý).<br><b>Dịch:</b> Nhờ lời giải thích của bạn mà tôi hiểu rất rõ chuyện cô ấy không hề có ác ý.<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [わけではない(1)] [★ ことだけは(2)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないことだけは (chỉ riêng việc không phải cô ấy có ác ý thì tôi đã hiểu rõ).<br><b>Dịch:</b> Nhờ lời giải thích của bạn mà tôi hiểu rất rõ chuyện cô ấy không hề có ác ý.<br><b>Đáp án chọn:</b> 2",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3196,7 +3196,7 @@ window.JLPT_DATA[6] = {
         },
         {
           "id": 187,
-          "beforeText": "彼女ははじめ",
+          "beforeText": "彼女はまじめ",
           "afterText": "いい。",
           "starPositionIndex": 3,
           "fragments": [
@@ -3224,7 +3224,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 彼女ははじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> ～に見えて、意外と要領がいい (trông có vẻ cứng nhắc một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Đáp án chọn:</b> 3",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"

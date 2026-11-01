@@ -2210,7 +2210,7 @@ window.JLPT_DATA[13] = {
             "やっと気が付いたんですね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Lại bị trưởng phòng mắng rồi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. それは気になりますね: Chuyện đó đáng bận tâm thật đấy nhỉ.<br>2. 気にすることはないですよ: Không có gì phải bận tâm/để bụng đâu bạn.<br>3. やっと気が付いたんですね: Cuối cùng thì bạn cũng nhận ra rồi nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi đồng nghiệp than phiền bị sếp mắng, câu an ủi và động viên tự nhiên nhất trong giao tiếp công sở là \"気にすることはないですよ\" (Đừng để bụng làm gì / Đừng bận tâm quá).<br>&rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Lại bị trưởng phòng mắng rồi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. それは気になりますね: Chuyện đó đáng bận tâm thật đấy nhỉ.<br>2. 気にすることはないですよ: Không có gì phải bận tâm/để bụng đâu bạn.<br>3. やっと気が付いたんですね: Cuối cùng thì bạn cũng nhận ra rồi nhỉ.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM: また部長に怒られちゃいました。<br>\n1. それは気になりますね。\n<b>2. 気にすることはないですよ。</b>\n3. やっと気が付いたんですね。<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi đồng nghiệp than phiền bị sếp mắng, câu an ủi và động viên tự nhiên nhất trong giao tiếp công sở là \"気にすることはないですよ\" (Đừng để bụng làm gì / Đừng bận tâm quá).<br>&rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 142,
@@ -2226,7 +2226,7 @@ window.JLPT_DATA[13] = {
             "仕事はなかなか休めないもんね。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ muốn xem bộ phim này ghê, mà nó chỉ chiếu vào ban ngày các ngày trong tuần thôi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. その映画、すごくおもしろかったよ: Bộ phim đó hay lắm đấy.<br>2. そうなんだ。人気なんだね: Thế à, phim hot thế nhỉ.<br>3. 仕事はなかなか休めないもんね: Ừ nhỉ, công việc đi làm thì khó mà xin nghỉ được.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ tiếc nuối vì phim chỉ chiếu ban ngày ngày thường (lúc người đi làm phải đi làm). Người nam đồng cảm rằng ngày thường thì khó mà nghỉ làm đi xem phim được (仕事はなかなか休めないもんね).<br>&rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ muốn xem bộ phim này ghê, mà nó chỉ chiếu vào ban ngày các ngày trong tuần thôi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. その映画、すごくおもしろかったよ: Bộ phim đó hay lắm đấy.<br>2. そうなんだ。人気なんだね: Thế à, phim hot thế nhỉ.<br>3. 仕事はなかなか休めないもんね: Ừ nhỉ, công việc đi làm thì khó mà xin nghỉ được.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: この映画見たいけど、平日の昼間しかやってないのよ。<br>\n1. その映画、すごくおもしろかったよ。\n2. そうなんだ。人気なんだね。\n<b>3. 仕事はなかなか休めないもんね。</b><br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ tiếc nuối vì phim chỉ chiếu ban ngày ngày thường (lúc người đi làm phải đi làm). Người nam đồng cảm rằng ngày thường thì khó mà nghỉ làm đi xem phim được (仕事はなかなか休めないもんね).<br>&rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 143,
@@ -2242,7 +2242,7 @@ window.JLPT_DATA[13] = {
             "賞を取っただけのことはありますね。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Rượu sake này công nhận ngon thật đấy nhỉ!<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. きっとおいしいに決まってますよ: Nhất định là ngon rồi (dùng phán đoán trước khi nếm thử).<br>2. そういうわけではありません: Không hẳn là vì lý do đó đâu.<br>3. 賞を取っただけのことはありますね: Quả không hổ danh là rượu từng đoạt giải thưởng.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu 「〜だけのことはある」(quả đúng là danh bất hư truyền, xứng đáng với danh tiếng/giải thưởng). Khi người nam khen rượu ngon, người nghe đồng cảm và khen ngợi thêm bằng mẫu câu này.<br>&rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Rượu sake này công nhận ngon thật đấy nhỉ!<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. きっとおいしいに決まってますよ: Nhất định là ngon rồi (dùng phán đoán trước khi nếm thử).<br>2. そういうわけではありません: Không hẳn là vì lý do đó đâu.<br>3. 賞を取っただけのことはありますね: Quả không hổ danh là rượu từng đoạt giải thưởng.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM: この日本酒、本当においしいですよね。<br>\n1. きっとおいしいに決まってますよ。\n2. そういうわけではありません。\n<b>3. 賞を取っただけのことはありますね。</b><br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu 「〜だけのことはある」(quả đúng là danh bất hư truyền, xứng đáng với danh tiếng/giải thưởng). Khi người nam khen rượu ngon, người nghe đồng cảm và khen ngợi thêm bằng mẫu câu này.<br>&rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 144,
@@ -2258,7 +2258,7 @@ window.JLPT_DATA[13] = {
             "大変申し訳ありませんでした。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Dạo gần đây trông anh có vẻ hơi mệt mỏi nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. お気遣いありがとうございます: Cảm ơn chị đã quan tâm lo lắng cho tôi.<br>2. こちらこそ、お世話になりました: Chính tôi mới là người được giúp đỡ.<br>3. 大変申し訳ありませんでした: Tôi vô cùng xin lỗi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi ai đó nhận thấy tình trạng sức khỏe và lo lắng hỏi han mình (気遣い), câu đáp lễ lịch sự chuẩn mực là \"お気遣いありがとうございます\" (Cảm ơn anh/chị đã quan tâm).<br>&rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Dạo gần đây trông anh có vẻ hơi mệt mỏi nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. お気遣いありがとうございます: Cảm ơn chị đã quan tâm lo lắng cho tôi.<br>2. こちらこそ、お世話になりました: Chính tôi mới là người được giúp đỡ.<br>3. 大変申し訳ありませんでした: Tôi vô cùng xin lỗi.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: 最近、疲れ気味のようですね。<br>\n<b>1. お気遣いありがとうございます。</b>\n2. こちらこそ、お世話になりました。\n3. 大変申し訳ありませんでした。<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi ai đó nhận thấy tình trạng sức khỏe và lo lắng hỏi han mình (気遣い), câu đáp lễ lịch sự chuẩn mực là \"お気遣いありがとうございます\" (Cảm ơn anh/chị đã quan tâm).<br>&rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 145,
@@ -2274,7 +2274,7 @@ window.JLPT_DATA[13] = {
             "本当に安くて、得したね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Bịch khăn giấy này rẻ ghê, hay mình mua để dành nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. あんまり高くないのがいいな: Loại không đắt quá thì tốt nhỉ.<br>2. まだ家にたくさんあるから、いいんじゃない: Ở nhà vẫn còn nhiều lắm, thôi khỏi mua cũng được mà.<br>3. 本当に安くて、得したね: Thật sự rẻ thật, hời quá (nói sau khi đã mua).<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi một người đang phân vân có nên mua không (買っとこうかな), người kia nêu lý do ở nhà còn nhiều để khuyên thôi không cần mua (いいんじゃない mang nghĩa \"thôi khỏi/không cần đâu\").<br>&rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Bịch khăn giấy này rẻ ghê, hay mình mua để dành nhỉ.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. あんまり高くないのがいいな: Loại không đắt quá thì tốt nhỉ.<br>2. まだ家にたくさんあるから、いいんじゃない: Ở nhà vẫn còn nhiều lắm, thôi khỏi mua cũng được mà.<br>3. 本当に安くて、得したね: Thật sự rẻ thật, hời quá (nói sau khi đã mua).<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM: このティッシュ安いね。買っとこうかな。<br>\n1. あんまり高くないのがいいな。\n<b>2. まだ家にたくさんあるから、いいんじゃない。</b>\n3. 本当に安くて、得したね。<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi một người đang phân vân có nên mua không (買っとこうかな), người kia nêu lý do ở nhà còn nhiều để khuyên thôi không cần mua (いいんじゃない mang nghĩa \"thôi khỏi/không cần đâu\").<br>&rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 146,
@@ -2290,7 +2290,7 @@ window.JLPT_DATA[13] = {
             "ときどき行列ができてますね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tôi thì không nghĩ mình muốn xếp hàng dài đến mức ấy chỉ để ăn mì ramen đâu.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. さまざまなラーメンがありますね: Có nhiều loại ramen phong phú nhỉ.<br>2. 考え方は人それぞれですよ: Cách nghĩ và sở thích thì mỗi người mỗi khác mà.<br>3. ときどき行列ができてますね: Thỉnh thoảng quán có xếp hàng nhỉ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ nêu quan điểm cá nhân về việc không thích xếp hàng dài vì đồ ăn. Người nam đáp lại thể hiện sự cởi mở, chấp nhận sự khác biệt giữa mọi người: \"考え方は人それぞれですよ\" (Quan điểm thì mỗi người một khác).<br>&rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tôi thì không nghĩ mình muốn xếp hàng dài đến mức ấy chỉ để ăn mì ramen đâu.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. さまざまなラーメンがありますね: Có nhiều loại ramen phong phú nhỉ.<br>2. 考え方は人それぞれですよ: Cách nghĩ và sở thích thì mỗi người mỗi khác mà.<br>3. ときどき行列ができてますね: Thỉnh thoảng quán có xếp hàng nhỉ.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: 私は並んでまでラーメンを食べたいと思わないな。<br>\n1. さまざまなラーメンがありますね。\n<b>2. 考え方は人それぞれですよ。</b>\n3. ときどき行列ができてますね。<br><br><b>💡 Phân tích phản xạ:</b><br>- Người nữ nêu quan điểm cá nhân về việc không thích xếp hàng dài vì đồ ăn. Người nam đáp lại thể hiện sự cởi mở, chấp nhận sự khác biệt giữa mọi người: \"考え方は人それぞれですよ\" (Quan điểm thì mỗi người một khác).<br>&rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 147,
@@ -2306,7 +2306,7 @@ window.JLPT_DATA[13] = {
             "よろしくお願い申し上げます。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Bạn có thể nhắn lại/chuyển lời giúp tôi đến trưởng phòng được không?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 後ほどお伝えしておきます: Lát nữa tôi sẽ chuyển lời giúp bạn.<br>2. 何をお願いしますか: Bạn nhờ việc gì vậy?<br>3. よろしくお願い申し上げます: Xin nhờ bạn giúp đỡ.<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu nhờ chuyển lời: \"〜お伝え願えますか\" (xin chuyển lời giúp). Người nhận lời sẽ đáp: \"後ほどお伝えしておきます\" (Lát nữa tôi sẽ nói lại với sếp).<br>&rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Bạn có thể nhắn lại/chuyển lời giúp tôi đến trưởng phòng được không?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 後ほどお伝えしておきます: Lát nữa tôi sẽ chuyển lời giúp bạn.<br>2. 何をお願いしますか: Bạn nhờ việc gì vậy?<br>3. よろしくお願い申し上げます: Xin nhờ bạn giúp đỡ.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: 部長にお伝え願えますか。<br>\n<b>1. 後ほどお伝えしておきます。</b>\n2. 何をお願いしますか。\n3. よろしくお願い申し上げます。<br><br><b>💡 Phân tích phản xạ:</b><br>- Mẫu câu nhờ chuyển lời: \"〜お伝え願えますか\" (xin chuyển lời giúp). Người nhận lời sẽ đáp: \"後ほどお伝えしておきます\" (Lát nữa tôi sẽ nói lại với sếp).<br>&rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 148,
@@ -2322,7 +2322,7 @@ window.JLPT_DATA[13] = {
             "注文してからのほうがいいかな。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Ủa? Quán này hôm nay đóng cửa nghỉ hay sao ý nhỉ...<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 電話してから来ればよかったね: Biết thế trước khi đến mình gọi điện hỏi trước có phải tốt hơn không.<br>2. 開店してからにしたら?: Hay đợi mở cửa rồi tính?<br>3. 注文してからのほうがいいかな: Hay đợi gọi món xong thì hơn?<br><br><b>💡 Phân tích phản xạ:</b><br>- Đến nơi thấy quán đóng cửa nghỉ bất ngờ, người nam bày tỏ tiếc nuối bằng mẫu câu 「〜ばよかった」(giá mà/biết thế thì): \"電話してから来ればよかったね\" (Biết thế gọi điện trước).<br>&rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Ủa? Quán này hôm nay đóng cửa nghỉ hay sao ý nhỉ...<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 電話してから来ればよかったね: Biết thế trước khi đến mình gọi điện hỏi trước có phải tốt hơn không.<br>2. 開店してからにしたら?: Hay đợi mở cửa rồi tính?<br>3. 注文してからのほうがいいかな: Hay đợi gọi món xong thì hơn?<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: あれ？このお店、今日お休みなのかな・・・<br>\n<b>1. 電話してから来ればよかったね。</b>\n2. 開店してからにしたら？\n3. 注文してからのほうがいいかな。<br><br><b>💡 Phân tích phản xạ:</b><br>- Đến nơi thấy quán đóng cửa nghỉ bất ngờ, người nam bày tỏ tiếc nuối bằng mẫu câu 「〜ばよかった」(giá mà/biết thế thì): \"電話してから来ればよかったね\" (Biết thế gọi điện trước).<br>&rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 149,
@@ -2338,7 +2338,7 @@ window.JLPT_DATA[13] = {
             "それはよかったですね。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ、かまわないですよ: Vâng, không sao cả, bạn cứ nghỉ đi.<br>2. いや、できないこともありますよ: Không, cũng có những việc không làm được.<br>3. それはよかったですね: Thế thì tốt quá rồi.<br><br><b>💡 Phân tích phản xạ:</b><br>- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng \"ええ、かまわないですよ\" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ、かまわないですよ: Vâng, không sao cả, bạn cứ nghỉ đi.<br>2. いや、できないこともありますよ: Không, cũng có những việc không làm được.<br>3. それはよかったですね: Thế thì tốt quá rồi.<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM: あさってお休みをいただいてもよろしいでしょうか。<br>\n<b>1. ええ、かまわないですよ。</b>\n2. いや、できないこともありますよ。\n3. それはよかったですね。<br><br><b>💡 Phân tích phản xạ:</b><br>- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng \"ええ、かまわないですよ\" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 150,
@@ -2354,7 +2354,7 @@ window.JLPT_DATA[13] = {
             "どういうところが魅力なんですか。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Nếu có thể, tôi muốn một lần được trực tiếp gặp mặt ca sĩ đó quá đi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ？コンサートに行ったんですか: Hả? Bạn đã đi xem concert rồi à?<br>2. 昔から歌がお上手だったんですか: Người đó từ xưa đã hát hay rồi à?<br>3. どういうところが魅力なんですか: Người đó có điểm gì lôi cuốn/hấp dẫn bạn vậy?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi nghe đối phương bày tỏ sự ngưỡng mộ tha thiết muốn gặp một ca sĩ, câu hỏi đáp tiếp nối tự nhiên là hỏi về nét cuốn hút của ca sĩ đó: \"どういうところが魅力なんですか\" (Ở người đó có sức hút thế nào thế?).<br>&rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nam: Nếu có thể, tôi muốn một lần được trực tiếp gặp mặt ca sĩ đó quá đi.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ？コンサートに行ったんですか: Hả? Bạn đã đi xem concert rồi à?<br>2. 昔から歌がお上手だったんですか: Người đó từ xưa đã hát hay rồi à?<br>3. どういうところが魅力なんですか: Người đó có điểm gì lôi cuốn/hấp dẫn bạn vậy?<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM: できることなら、一度あの歌手に会ってみたいなあ。<br>\n1. ええ？コンサートに行ったんですか。\n2. 昔から歌がお上手だったんですか。\n<b>3. どういうところが魅力なんですか。</b><br><br><b>💡 Phân tích phản xạ:</b><br>- Khi nghe đối phương bày tỏ sự ngưỡng mộ tha thiết muốn gặp một ca sĩ, câu hỏi đáp tiếp nối tự nhiên là hỏi về nét cuốn hút của ca sĩ đó: \"どういうところが魅力なんですか\" (Ở người đó có sức hút thế nào thế?).<br>&rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 151,
@@ -2370,7 +2370,7 @@ window.JLPT_DATA[13] = {
             "ええ。先日拝見しましたよ。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Đã lâu không liên lạc, bác/anh dạo này vẫn khỏe mạnh cả chứ ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ。こないだお見えになりましたね: Vâng, dạo trước bác vừa ghé qua nhỉ (sai ngữ cảnh lâu không gặp).<br>2. ええ。去年お会いして以来ですね: Vâng, cũng từ lần gặp nhau năm ngoái tới giờ mới gặp lại nhỉ.<br>3. ええ。先日拝見しましたよ: Vâng, hôm trước tôi có xem/nhìn rồi (sai nghĩa kính ngữ).<br><br><b>💡 Phân tích phản xạ:</b><br>- \"ご無沙汰しております\" dùng chào hỏi sau khoảng thời gian dài không gặp gỡ hay liên lạc. Câu đáp lại tương xứng là xác nhận khoảng thời gian cách biệt: \"去年お会いして以来ですね\" (Đúng vậy, từ tận năm ngoái tới giờ).<br>&rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Đã lâu không liên lạc, bác/anh dạo này vẫn khỏe mạnh cả chứ ạ?<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. ええ。こないだお見えになりましたね: Vâng, dạo trước bác vừa ghé qua nhỉ (sai ngữ cảnh lâu không gặp).<br>2. ええ。去年お会いして以来ですね: Vâng, cũng từ lần gặp nhau năm ngoái tới giờ mới gặp lại nhỉ.<br>3. ええ。先日拝見しましたよ: Vâng, hôm trước tôi có xem/nhìn rồi (sai nghĩa kính ngữ).<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: ご無沙汰しております。お元気でいらっしゃいますか。<br>\n1. ええ。こないだお見えになりましたね。\n<b>2. ええ。去年お会いして以来ですね。</b>\n3. ええ。先日拝見しましたよ。<br><br><b>💡 Phân tích phản xạ:</b><br>- \"ご無沙汰しております\" dùng chào hỏi sau khoảng thời gian dài không gặp gỡ hay liên lạc. Câu đáp lại tương xứng là xác nhận khoảng thời gian cách biệt: \"去年お会いして以来ですね\" (Đúng vậy, từ tận năm ngoái tới giờ).<br>&rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 152,
@@ -2386,7 +2386,7 @@ window.JLPT_DATA[13] = {
             "もう一度メールを送ってみたら？"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ lỡ quên mất mật khẩu rồi nên không mở được email ra nữa.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 開こうと思ったら、開けるんじゃない: Nếu muốn mở thì chắc mở được thôi mà (không thực tế khi đã quên pass).<br>2. パスワードを変更するしかないね: Thế thì chỉ còn cách đặt lại/đổi mật khẩu thôi.<br>3. もう一度メールを送ってみたら?: Thử gửi lại email xem sao?<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi quên mật khẩu không vào được hòm thư, giải pháp duy nhất là thiết lập/thay đổi mật khẩu mới: 「パスワードを変更するしかないね」 (Chỉ còn cách đổi mật khẩu thôi).<br>&rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu thoại:</b> Nữ: Tớ lỡ quên mất mật khẩu rồi nên không mở được email ra nữa.<br><br><b>📝 Dịch chi tiết 3 đáp án:</b><br>1. 開こうと思ったら、開けるんじゃない: Nếu muốn mở thì chắc mở được thôi mà (không thực tế khi đã quên pass).<br>2. パスワードを変更するしかないね: Thế thì chỉ còn cách đặt lại/đổi mật khẩu thôi.<br>3. もう一度メールを送ってみたら?: Thử gửi lại email xem sao?<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF: パスワードを忘れちゃって、メールが開けないんです。<br>\n1. 開こうと思ったら、開けるんじゃない。\n<b>2. パスワードを変更するしかないね。</b>\n3. もう一度メールを送ってみたら？<br><br><b>💡 Phân tích phản xạ:</b><br>- Khi quên mật khẩu không vào được hòm thư, giải pháp duy nhất là thiết lập/thay đổi mật khẩu mới: 「パスワードを変更するしかないね」 (Chỉ còn cách đổi mật khẩu thôi).<br>&rarr; <b>Đáp án đúng là 2</b>."
         }
       ]
     }

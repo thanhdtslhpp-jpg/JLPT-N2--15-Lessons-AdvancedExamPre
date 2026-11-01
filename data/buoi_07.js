@@ -2650,7 +2650,7 @@ window.JLPT_DATA[7] = {
           "id": 170,
           "mondai": 8,
           "mondaiName": "問題２：文章の組み立て (Sắp xếp câu có dấu sao - Chuyên đề 2)",
-          "sentence": "上司「頼んでおいた仕事、どこまで進んでる？」<br>部下「今、データの入力作業＿＿ ＿＿ ★ ＿＿ 止まっていますが、今日中に終わる予定です。」",
+          "sentence": "上司「頼んでおいた仕事、どこまで進んでる？」<br>部下「今、データの入力作業を＿＿ ＿＿ ★ ＿＿ 止まっていますが、今日中に終わる予定です。」",
           "targetWord": "まで",
           "options": [
             "で",
@@ -2666,7 +2666,7 @@ window.JLPT_DATA[7] = {
             3,
             1
           ],
-          "explanation": "<b>Cấu trúc:</b> データの入力作業 [4 した] [2 ところ] [3 まで] [1 で] 止まっていますが...<br>Dừng lại ở đúng đoạn vừa mới nhập dữ liệu xong.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (まで)</b>."
+          "explanation": "<b>Cấu trúc:</b> データの入力作業を [4 した] [2 ところ] [3 まで] [1 で] 止まっていますが...<br>Dừng lại ở đúng đoạn vừa mới nhập dữ liệu xong.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (まで)</b>."
         },
         {
           "id": 171,

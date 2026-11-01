@@ -2132,11 +2132,12 @@ class JLPTApp {
     // Choukai Question Text & Header simulation
     let choukaiHeaderHTML = "";
     if (isChoukai) {
+      const choukaiQText = q.questionText || q.question || q.sentence || "";
       if (canShowFeedback) {
         choukaiHeaderHTML = `
           <div class="choukai-revealed-header">
             <div class="choukai-q-tag"><i class="fas fa-question-circle"></i> Câu hỏi trong bài nghe (Đã mở khóa):</div>
-            <div class="choukai-q-text">${q.questionText}</div>
+            <div class="choukai-q-text">${choukaiQText}</div>
           </div>
         `;
       } else {
@@ -2157,7 +2158,7 @@ class JLPTApp {
             ${isPeeking ? `
               <div class="choukai-peek-box" style="margin-top: 0.6rem; padding: 0.6rem 0.85rem; background: var(--bg-card); border-radius: 6px; border: 1px dashed var(--primary); font-size: 0.95rem; color: var(--text);">
                 <span style="font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; display: block; margin-bottom: 0.2rem;">👁️ Xem trước câu hỏi trong băng:</span>
-                <b>${q.questionText}</b>
+                <b>${choukaiQText}</b>
               </div>
             ` : ''}
           </div>
@@ -2427,7 +2428,7 @@ class JLPTApp {
     }
     const text = q.question || q.sentence;
     if (text) {
-      const blanks = text.match(/(?:_{2,}|＿|__★__|<u>★<\/u>|★)/g);
+      const blanks = text.match(/(?:[_＿]*<u>★<\/u>[_＿]*|[_＿]*★[_＿]*|[_＿]+)/g);
       if (blanks && blanks.length >= 4) {
         const sIdx = blanks.findIndex(b => b.includes("★"));
         if (sIdx !== -1) return sIdx + 1;
@@ -2512,13 +2513,14 @@ class JLPTApp {
     // Detect beforeText / afterText
     let beforeText = q.beforeText;
     let afterText = q.afterText;
-    if (beforeText === undefined && q.question) {
-      const match = q.question.match(/^(.*?)(?:[\s　]*(?:_{2,}|＿|__★__|<u>★<\/u>|★)[\s　]*){4}(.*)$/s);
+    const rawStarText = q.question || q.sentence || "";
+    if (beforeText === undefined && rawStarText) {
+      const match = rawStarText.match(/^(.*?)(?:[\s　]*(?:[_＿]*<u>★<\/u>[_＿]*|[_＿]*★[_＿]*|[_＿]+)[\s　]*){4}(.*)$/s);
       if (match) {
         beforeText = match[1];
         afterText = match[2];
       } else {
-        beforeText = q.question;
+        beforeText = rawStarText;
         afterText = "";
       }
     }

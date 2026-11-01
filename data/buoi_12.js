@@ -673,7 +673,7 @@ window.JLPT_DATA[12] = {
             "勇気",
             "とは",
             "ずいぶん",
-            "に"
+            "に転身する"
           ],
           "sentenceOrder": [
             4,
@@ -683,7 +683,7 @@ window.JLPT_DATA[12] = {
           ],
           "correctStarOption": 3,
           "correctAnswer": 3,
-          "explanation": "Câu hoàn chỉnh: 「サラリーマンから農家【に】 【とは】 【★ずいぶん】 【勇気】があるんだね。」\nThứ tự chuẩn là 4 -> 2 -> 3 -> 1. Ngôi sao nằm ở vị trí số 3, tương ứng với đáp án 3 (ずいぶん)."
+          "explanation": "Câu hoàn chỉnh: 「サラリーマンから農家【に転身する】 【とは】 【★ずいぶん】 【勇気】があるんだね。」\nThứ tự chuẩn là 4 -> 2 -> 3 -> 1. Ngôi sao nằm ở vị trí số 3, tương ứng với đáp án 3 (ずいぶん)."
         },
         {
           "id": 45,
@@ -691,7 +691,7 @@ window.JLPT_DATA[12] = {
           "mondaiName": "問題8: 文の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "遠足の日の朝、娘は、「いってきます」と ______  ______  __★__  ______ ていった。",
+          "question": "遠足の日の朝、娘は、「いってきます」と ______  ______  __★__  ______ 飛び出していった。",
           "options": [
             "終わらないか",
             "言い終わるか",

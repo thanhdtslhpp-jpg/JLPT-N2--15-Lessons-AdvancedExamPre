@@ -629,11 +629,11 @@ window.JLPT_DATA[9] = {
           "mondaiName": "Mondai 8: Dấu Sao (★)",
           "isStarQuestion": true,
           "starPositionIndex": 3,
-          "correctStarOption": 4,
+          "correctStarOption": 1,
           "sentenceOrder": [
+            4,
             3,
             1,
-            4,
             2
           ],
           "beforeText": "どれにするか",
@@ -662,8 +662,8 @@ window.JLPT_DATA[9] = {
             "迷った",
             "さんざん"
           ],
-          "correctAnswer": 4,
-          "explanation": "<b>Thứ tự chuẩn:</b> どれにするか [迷った 3] [あげく 1] [★ さんざん 4] [何も 2] 買わずに帰った。<br>👉 Thứ tự: <b>3 - 1 - 4 - 2</b>. Vị trí dấu ★ (số 3) là <b>さんざん (4)</b>."
+          "correctAnswer": 1,
+          "explanation": "<b>Thứ tự chuẩn:</b> どれにするか [さんざん 4] [迷った 3] [★ あげく 1] [何も 2] 買わずに帰った。<br>👉 Thứ tự: <b>4 - 3 - 1 - 2</b>. Vị trí dấu ★ (số 3) là <b>あげく (1)</b>."
         },
         {
           "id": 46,
@@ -1939,7 +1939,7 @@ window.JLPT_DATA[9] = {
           "fragments": [
             {
               "id": 1,
-              "text": "と思いづつ"
+              "text": "と思いつつ"
             },
             {
               "id": 2,
@@ -1955,13 +1955,13 @@ window.JLPT_DATA[9] = {
             }
           ],
           "options": [
-            "と思いづつ",
+            "と思いつつ",
             "そのままにしてしまい、",
             "お礼を",
             "しなければ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Thứ tự chuẩn:</b> この間のことで何か [お礼を 3] [しなければ 4] [★ と思いづつ 1] [そのままにしてしまい、 2] 失礼しました。<br>👉 Thứ tự: <b>3 - 4 - 1 - 2</b>. Vị trí dấu ★ (số 3) là <b>と思いづつ (1)</b>."
+          "explanation": "<b>Thứ tự chuẩn:</b> この間のことで何か [お礼を 3] [しなければ 4] [★ と思いつつ 1] [そのままにしてしまい、 2] 失礼しました。<br>👉 Thứ tự: <b>3 - 4 - 1 - 2</b>. Vị trí dấu ★ (số 3) là <b>と思いつつ (1)</b>."
         },
         {
           "id": 118,

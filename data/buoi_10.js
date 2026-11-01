@@ -690,7 +690,7 @@ window.JLPT_DATA[10] = {
           "mondaiName": "問題8: 文章の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "今回のセミナーの開催日が人の ＿　＿　<u>★</u>　＿ 200名もの参加者が集まったのは大成功といえる。",
+          "question": "今回のセミナーの開催日が人の ＿　＿　<u>★</u>　＿ 参加者が集まったのは大成功といえる。",
           "options": [
             "集まりにくい",
             "ことを考えると",
@@ -706,7 +706,7 @@ window.JLPT_DATA[10] = {
           "starPositionIndex": 3,
           "correctStarOption": 2,
           "correctAnswer": 2,
-          "explanation": "Thứ tự câu hoàn chỉnh: 「人の【集まりにくい(1)】【平日だった(3)】【ことを考えると(2)★】【200名もの(4)】参加者が集まったのは大成功といえる。」 -> Vị trí ngôi sao là (2)."
+          "explanation": "Thứ tự câu hoàn chỉnh: 「今回のセミナーの開催日が人の【集まりにくい(1)】【平日だった(3)】【ことを考えると(2)★】【200名もの(4)】参加者が集まったのは大成功といえる。」 -> Vị trí ngôi sao là (2)."
         },
         {
           "id": 46,
@@ -714,12 +714,12 @@ window.JLPT_DATA[10] = {
           "mondaiName": "問題8: 文章の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "人には ＿　＿　<u>★</u>　＿ 自分でそれに気づくのは難しい。",
+          "question": "人には ＿　＿　<u>★</u>　＿ それに気づくのは難しい。",
           "options": [
             "良さがあるというが",
             "誰にでも",
             "その人にしかない",
-            "それぞれ"
+            "自分で"
           ],
           "sentenceOrder": [
             2,
@@ -730,7 +730,7 @@ window.JLPT_DATA[10] = {
           "starPositionIndex": 3,
           "correctStarOption": 1,
           "correctAnswer": 1,
-          "explanation": "Thứ tự: 「人には【誰にでも(2)】【その人にしかない(3)】【良さがあるというが(1)★】自分でそれに気づくのは難しい。」 -> Vị trí ngôi sao là (1)."
+          "explanation": "Thứ tự: 「人には【誰にでも(2)】【その人にしかない(3)】【良さがあるというが(1)★】【自分で(4)】それに気づくのは難しい。」 -> Vị trí ngôi sao là (1)."
         },
         {
           "id": 47,
@@ -738,11 +738,11 @@ window.JLPT_DATA[10] = {
           "mondaiName": "問題8: 文章の組み立て",
           "type": "grammar",
           "isStarQuestion": true,
-          "question": "それでも ＿　＿　<u>★</u>　＿ 電話に起こされたからだ。",
+          "question": "それでも ＿　＿　<u>★</u>　＿ 起こされたからだ。",
           "options": [
             "のは",
             "たまたまかかってきた",
-            "助かった",
+            "電話に",
             "遅刻をせずに済んだ"
           ],
           "sentenceOrder": [
@@ -754,7 +754,7 @@ window.JLPT_DATA[10] = {
           "starPositionIndex": 3,
           "correctStarOption": 2,
           "correctAnswer": 2,
-          "explanation": "Thứ tự: 「それでも【遅刻をせずに済んだ(4)】【のは(1)】【たまたまかかってきた(2)★】電話に起こされたからだ。」 -> Vị trí ngôi sao là (2)."
+          "explanation": "Thứ tự: 「それでも【遅刻をせずに済んだ(4)】【のは(1)】【たまたまかかってきた(2)★】【電話に(3)】起こされたからだ。」 -> Vị trí ngôi sao là (2)."
         },
         {
           "id": 48,
