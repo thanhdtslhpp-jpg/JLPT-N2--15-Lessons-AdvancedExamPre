@@ -275,6 +275,15 @@ class JLPTCloudSync {
       badgeEl.title = isConnected ? `Đám mây Firebase: Đang kết nối (${this.config.syncId})` : "Bấm để thiết lập đồng bộ đám mây tự động";
     }
 
+    const saveBtn = document.getElementById("btn-save-cloud-config");
+    if (saveBtn) {
+      if (isConnected) {
+        saveBtn.innerHTML = `<i class="fas fa-check-circle"></i> Đã Kết Nối (Lưu Thay Đổi)`;
+      } else {
+        saveBtn.innerHTML = `<i class="fas fa-plug"></i> Bật & Kết Nối Đám Mây`;
+      }
+    }
+
     if (statusTextEl) {
       statusTextEl.textContent = displayText;
     }

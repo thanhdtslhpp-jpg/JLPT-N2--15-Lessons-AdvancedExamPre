@@ -12,7 +12,7 @@
     <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="images/icon-192.png">
-  <link rel="stylesheet" href="style.css?v=20261102_6_0">
+  <link rel="stylesheet" href="style.css?v=20261102_7_0">
   <!-- Font Awesome Icons for clean UI -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -259,7 +259,12 @@
             <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
               🔑 Mật Khẩu Khóa Bí Mật (E2EE Passphrase - Dùng để mã hóa & giải mã):
             </label>
-            <input type="password" id="cloud-input-pass" placeholder="Nhập mật khẩu riêng của bạn (Ví dụ: Thanh@2026)" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+            <div style="position: relative; display: flex; align-items: center;">
+              <input type="password" id="cloud-input-pass" placeholder="Nhập mật khẩu riêng của bạn (Ví dụ: Thanh@2026)" style="width: 100%; padding: 0.55rem 2.5rem 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+              <button type="button" id="btn-toggle-show-pass" style="position: absolute; right: 0.5rem; background: none; border: none; color: var(--text-sub); cursor: pointer; padding: 0.35rem; font-size: 0.95rem;" title="Bấm để Hiện / Ẩn mật khẩu">
+                <i class="far fa-eye" id="icon-toggle-pass"></i>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -414,27 +419,27 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data/common_dict.js?v=20261102_6_0"></script>
-  <script src="data/syllabus.js?v=20261102_6_0"></script>
-  <script src="data/buoi_01.js?v=20261102_6_0"></script>
-  <script src="data/buoi_02.js?v=20261102_6_0"></script>
-  <script src="data/buoi_03.js?v=20261102_6_0"></script>
-  <script src="data/buoi_04.js?v=20261102_6_0"></script>
-  <script src="data/buoi_05.js?v=20261102_6_0"></script>
-  <script src="data/buoi_06.js?v=20261102_6_0"></script>
-  <script src="data/buoi_07.js?v=20261102_6_0"></script>
-  <script src="data/buoi_08.js?v=20261102_6_0"></script>
-  <script src="data/buoi_09.js?v=20261102_6_0"></script>
-  <script src="data/buoi_10.js?v=20261102_6_0"></script>
-  <script src="data/buoi_11.js?v=20261102_6_0"></script>
-  <script src="data/buoi_12.js?v=20261102_6_0"></script>
-  <script src="data/buoi_13.js?v=20261102_6_0"></script>
-  <script src="data/buoi_14.js?v=20261102_6_0"></script>
-  <script src="data/buoi_15.js?v=20261102_6_0"></script>
-  <script src="data/passage_translations.js?v=20261102_6_0"></script>
-  <script src="data/star_translations.js?v=20261102_6_0"></script>
-  <script src="user_data.js?v=20261102_6_0"></script>
-  <script src="cloud_sync.js?v=20261102_6_0"></script>
-  <script src="app.js?v=20261102_6_0"></script>
+  <script src="data/common_dict.js?v=20261102_7_0"></script>
+  <script src="data/syllabus.js?v=20261102_7_0"></script>
+  <script src="data/buoi_01.js?v=20261102_7_0"></script>
+  <script src="data/buoi_02.js?v=20261102_7_0"></script>
+  <script src="data/buoi_03.js?v=20261102_7_0"></script>
+  <script src="data/buoi_04.js?v=20261102_7_0"></script>
+  <script src="data/buoi_05.js?v=20261102_7_0"></script>
+  <script src="data/buoi_06.js?v=20261102_7_0"></script>
+  <script src="data/buoi_07.js?v=20261102_7_0"></script>
+  <script src="data/buoi_08.js?v=20261102_7_0"></script>
+  <script src="data/buoi_09.js?v=20261102_7_0"></script>
+  <script src="data/buoi_10.js?v=20261102_7_0"></script>
+  <script src="data/buoi_11.js?v=20261102_7_0"></script>
+  <script src="data/buoi_12.js?v=20261102_7_0"></script>
+  <script src="data/buoi_13.js?v=20261102_7_0"></script>
+  <script src="data/buoi_14.js?v=20261102_7_0"></script>
+  <script src="data/buoi_15.js?v=20261102_7_0"></script>
+  <script src="data/passage_translations.js?v=20261102_7_0"></script>
+  <script src="data/star_translations.js?v=20261102_7_0"></script>
+  <script src="user_data.js?v=20261102_7_0"></script>
+  <script src="cloud_sync.js?v=20261102_7_0"></script>
+  <script src="app.js?v=20261102_7_0"></script>
 </body>
 </html>

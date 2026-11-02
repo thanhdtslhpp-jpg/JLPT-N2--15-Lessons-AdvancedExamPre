@@ -430,6 +430,21 @@ class JLPTApp {
     }
 
     // Cloud Firebase E2EE Sync listeners
+    const btnTogglePass = document.getElementById("btn-toggle-show-pass");
+    if (btnTogglePass) {
+      btnTogglePass.addEventListener("click", () => {
+        const passInput = document.getElementById("cloud-input-pass");
+        const icon = document.getElementById("icon-toggle-pass");
+        if (passInput) {
+          const isPass = passInput.type === "password";
+          passInput.type = isPass ? "text" : "password";
+          if (icon) {
+            icon.className = isPass ? "far fa-eye-slash" : "far fa-eye";
+          }
+        }
+      });
+    }
+
     const btnSaveCloud = document.getElementById("btn-save-cloud-config");
     if (btnSaveCloud) {
       btnSaveCloud.addEventListener("click", async () => {
