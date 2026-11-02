@@ -2838,19 +2838,12 @@ class JLPTApp {
   formatStarOrder(order, starPos) {
     if (!order || !Array.isArray(order) || order.length !== 4) return "";
     const starIdx = (starPos && starPos >= 1 && starPos <= 4) ? starPos - 1 : 2;
-    const before = order.slice(0, starIdx);
-    const star = order[starIdx];
-    const after = order.slice(starIdx + 1);
-
-    const parts = [];
-    if (before.length > 0) {
-      parts.push(`(${before.join(" - ")})`);
-    }
-    parts.push(`⭐ (${star})`);
-    if (after.length > 0) {
-      parts.push(`(${after.join(" - ")})`);
-    }
-    return parts.join(" - ");
+    return order.map((num, idx) => {
+      if (idx === starIdx) {
+        return `★ (${num})`;
+      }
+      return `(${num})`;
+    }).join(" - ");
   }
 
   getStarTranslation(sessionNum, qId) {
