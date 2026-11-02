@@ -35,6 +35,11 @@
           <i class="fas fa-moon"></i>
         </button>
 
+        <!-- Nút Đồng bộ & Sao lưu tiến độ đa thiết bị -->
+        <button id="btn-sync-modal" class="btn btn-outline" title="Sao lưu & Đồng bộ tiến độ đa thiết bị" style="border-color: #6366f1; color: #6366f1;">
+          <i class="fas fa-sync-alt"></i> Đồng Bộ
+        </button>
+
         <!-- Nút nộp bài -->
         <button id="btn-submit-exam" class="btn btn-primary" title="Xem bảng tổng kết điểm và phân tích câu sai">
           <i class="fas fa-chart-bar"></i> Tổng Kết Điểm
@@ -214,6 +219,66 @@
           <i class="fas fa-search"></i> Xem Chi Tiết Đáp Án
         </button>
       </div>
+    </div>
+  </div>
+
+  <!-- 3.1. Data Sync Modal (Sao lưu & Đồng bộ tiến độ đa thiết bị) -->
+  <div class="modal-overlay" id="sync-modal" style="display: none;">
+    <div class="modal-card" style="max-width: 560px; text-align: left; padding: 1.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+        <h2 style="font-size: 1.25rem; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 0.5rem; color: var(--text-main);">
+          <i class="fas fa-sync-alt" style="color: var(--primary);"></i> Đồng Bộ Tiến Độ Đa Thiết Bị
+        </h2>
+        <button id="btn-close-sync-modal" class="btn btn-outline" style="padding: 0.3rem 0.6rem; border: none; font-size: 1.2rem; cursor: pointer;">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <p style="font-size: 0.88rem; color: var(--text-sub); margin-bottom: 1.25rem; line-height: 1.5;">
+        Giữ nguyên 100% kết quả, bài làm dở, câu sai và dấu sao ⭐ khi chuyển đổi giữa điện thoại, máy tính ở nhà và cơ quan.
+      </p>
+
+      <!-- Sync Method 1: Instant Sync Code -->
+      <div style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-bottom: 1.25rem;">
+        <div style="font-weight: 600; font-size: 0.95rem; margin-bottom: 0.4rem; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fas fa-key" style="color: #f59e0b;"></i> Cách 1: Mã Đồng Bộ Nhanh (Copy & Paste)
+        </div>
+        <p style="font-size: 0.82rem; color: var(--text-sub); margin-bottom: 0.75rem;">
+          Bấm sao chép mã từ thiết bị đang làm, sau đó mở web trên thiết bị khác và dán mã vào để tiếp tục:
+        </p>
+        <div style="margin-bottom: 0.75rem;">
+          <button id="btn-copy-sync-code" class="btn btn-primary" style="width: 100%; font-size: 0.88rem; justify-content: center;">
+            <i class="fas fa-copy"></i> Sao Chép Mã Tiến Độ Từ Máy Này
+          </button>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <input type="text" id="input-sync-code" placeholder="Dán mã đồng bộ từ thiết bị khác vào đây..." style="flex: 1; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.85rem; background: var(--card-bg); color: var(--text-main);">
+          <button id="btn-apply-sync-code" class="btn btn-outline" style="font-size: 0.88rem; white-space: nowrap; font-weight: 600;">
+            <i class="fas fa-file-import"></i> Nạp Dữ Liệu
+          </button>
+        </div>
+      </div>
+
+      <!-- Sync Method 2: File Backup / Restore -->
+      <div style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; padding: 1rem;">
+        <div style="font-weight: 600; font-size: 0.95rem; margin-bottom: 0.4rem; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fas fa-file-export" style="color: var(--primary);"></i> Cách 2: Tải / Khôi Phục File Tiến Độ (.json)
+        </div>
+        <p style="font-size: 0.82rem; color: var(--text-sub); margin-bottom: 0.75rem;">
+          Lưu file tiến độ về máy hoặc nạp file sao lưu đã có từ trước:
+        </p>
+        <div style="display: flex; gap: 0.75rem;">
+          <button id="btn-download-backup" class="btn btn-outline" style="flex: 1; font-size: 0.85rem; justify-content: center;">
+            <i class="fas fa-download"></i> Tải File Sao Lưu
+          </button>
+          <label class="btn btn-outline" style="flex: 1; font-size: 0.85rem; cursor: pointer; text-align: center; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;">
+            <i class="fas fa-upload"></i> Nạp Từ File (.json)
+            <input type="file" id="file-restore-backup" accept=".json" style="display: none;">
+          </label>
+        </div>
+      </div>
+
+      <div id="sync-status-msg" style="margin-top: 1rem; font-size: 0.88rem; font-weight: 600; display: none; padding: 0.6rem 0.8rem; border-radius: 6px; background: rgba(99, 102, 241, 0.08);"></div>
     </div>
   </div>
 

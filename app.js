@@ -48,18 +48,265 @@ class JLPTApp {
   syncFromDisk() {
     if (window.JLPT_SYNC_DATA && typeof window.JLPT_SYNC_DATA === "object") {
       try {
-        // Chỉ đồng bộ bộ đệm từ điển (dict cache) để hỗ trợ tra từ offline nhanh
-        // Tuyệt đối không nạp draft làm dở hay lịch sử cá nhân để tránh làm phiền người dùng mới
-        if (window.JLPT_SYNC_DATA.jlpt_dict_cache) {
-          const currentVal = localStorage.getItem("jlpt_dict_cache");
-          if (!currentVal || currentVal === "{}") {
-            localStorage.setItem("jlpt_dict_cache", window.JLPT_SYNC_DATA.jlpt_dict_cache);
+        const sync = window.JLPT_SYNC_DATA;
+        for (const [key, val] of Object.entries(sync)) {
+          if (!val) continue;
+          const strVal = typeof val === "object" ? JSON.stringify(val) : String(val);
+
+          if (key === "jlpt_dict_cache") {
+            const currentVal = localStorage.getItem("jlpt_dict_cache");
+            if (!currentVal || currentVal === "{}") {
+              localStorage.setItem("jlpt_dict_cache", strVal);
+            }
+          } else if (key.startsWith("jlpt_draft_")) {
+            const curVal = localStorage.getItem(key);
+            if (!curVal) {
+              localStorage.setItem(key, strVal);
+            } else {
+              try {
+                const curObj = JSON.parse(curVal);
+                const syncObj = typeof val === "string" ? JSON.parse(val) : val;
+                const mergedAnswers = { ...(syncObj.userAnswers || {}), ...(curObj.userAnswers || {}) };
+                const mergedStar = { ...(syncObj.starAnswers || {}), ...(curObj.starAnswers || {}) };
+                const maxTime = Math.max(syncObj.updatedAt || 0, curObj.updatedAt || 0);
+                curObj.userAnswers = mergedAnswers;
+                curObj.starAnswers = mergedStar;
+                curObj.updatedAt = maxTime;
+                localStorage.setItem(key, JSON.stringify(curObj));
+              } catch (e) {
+                localStorage.setItem(key, strVal);
+              }
+            }
+          } else if (key === "jlpt_n2_bookmarks" || key === "jlpt_n2_wrong_questions") {
+            try {
+              const curMap = JSON.parse(localStorage.getItem(key) || "{}");
+              const syncMap = typeof val === "string" ? JSON.parse(val) : val;
+              for (const [sess, list] of Object.entries(syncMap)) {
+                if (Array.isArray(list)) {
+                  curMap[sess] = Array.from(new Set([...(curMap[sess] || []), ...list]));
+                }
+              }
+              localStorage.setItem(key, JSON.stringify(curMap));
+            } catch (e) {
+              localStorage.setItem(key, strVal);
+            }
+          } else if (key === "jlpt_n2_history") {
+            try {
+              const curHist = JSON.parse(localStorage.getItem(key) || "{}");
+              const syncHist = typeof val === "string" ? JSON.parse(val) : val;
+              for (const [sess, list] of Object.entries(syncHist)) {
+                if (Array.isArray(list)) {
+                  curHist[sess] = curHist[sess] || [];
+                  for (const item of list) {
+                    if (!curHist[sess].some(x => x.date === item.date)) {
+                      curHist[sess].push(item);
+                    }
+                  }
+                }
+              }
+              localStorage.setItem(key, JSON.stringify(curHist));
+            } catch (e) {
+              localStorage.setItem(key, strVal);
+            }
+          } else if (key === "jlpt_audio_listened") {
+            try {
+              const curAudio = JSON.parse(localStorage.getItem(key) || "{}");
+              const syncAudio = typeof val === "string" ? JSON.parse(val) : val;
+              for (const [aKey, aVal] of Object.entries(syncAudio)) {
+                curAudio[aKey] = curAudio[aKey] || aVal;
+              }
+              localStorage.setItem(key, JSON.stringify(curAudio));
+            } catch (e) {
+              localStorage.setItem(key, strVal);
+            }
+          } else {
+            if (!localStorage.getItem(key)) {
+              localStorage.setItem(key, strVal);
+            }
           }
         }
       } catch (err) {
         console.warn("[JLPT Sync] Loi khi dong bo user_data.js:", err);
       }
     }
+  }
+
+  openSyncModal() {
+    const modal = document.getElementById("sync-modal");
+    if (modal) modal.style.display = "flex";
+    const msg = document.getElementById("sync-status-msg");
+    if (msg) msg.style.display = "none";
+  }
+
+  closeSyncModal() {
+    const modal = document.getElementById("sync-modal");
+    if (modal) modal.style.display = "none";
+  }
+
+  exportAllUserData() {
+    const data = {};
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && (k.startsWith("jlpt_") || k.includes("jlpt"))) {
+        data[k] = localStorage.getItem(k);
+      }
+    }
+    return data;
+  }
+
+  importAllUserData(dataObj) {
+    if (!dataObj || typeof dataObj !== "object") return false;
+    let count = 0;
+    for (const [key, val] of Object.entries(dataObj)) {
+      if (!val) continue;
+      const strVal = typeof val === "object" ? JSON.stringify(val) : String(val);
+
+      if (key.startsWith("jlpt_draft_")) {
+        const curVal = localStorage.getItem(key);
+        if (!curVal) {
+          localStorage.setItem(key, strVal);
+        } else {
+          try {
+            const curObj = JSON.parse(curVal);
+            const syncObj = typeof val === "string" ? JSON.parse(val) : val;
+            const mergedAnswers = { ...(syncObj.userAnswers || {}), ...(curObj.userAnswers || {}) };
+            const mergedStar = { ...(syncObj.starAnswers || {}), ...(curObj.starAnswers || {}) };
+            const maxTime = Math.max(syncObj.updatedAt || 0, curObj.updatedAt || 0);
+            curObj.userAnswers = mergedAnswers;
+            curObj.starAnswers = mergedStar;
+            curObj.updatedAt = maxTime;
+            localStorage.setItem(key, JSON.stringify(curObj));
+          } catch (e) {
+            localStorage.setItem(key, strVal);
+          }
+        }
+        count++;
+      } else if (key === "jlpt_n2_bookmarks" || key === "jlpt_n2_wrong_questions") {
+        try {
+          const curMap = JSON.parse(localStorage.getItem(key) || "{}");
+          const syncMap = typeof val === "string" ? JSON.parse(val) : val;
+          for (const [sess, list] of Object.entries(syncMap)) {
+            if (Array.isArray(list)) {
+              curMap[sess] = Array.from(new Set([...(curMap[sess] || []), ...list]));
+            }
+          }
+          localStorage.setItem(key, JSON.stringify(curMap));
+        } catch (e) {
+          localStorage.setItem(key, strVal);
+        }
+        count++;
+      } else if (key === "jlpt_n2_history") {
+        try {
+          const curHist = JSON.parse(localStorage.getItem(key) || "{}");
+          const syncHist = typeof val === "string" ? JSON.parse(val) : val;
+          for (const [sess, list] of Object.entries(syncHist)) {
+            if (Array.isArray(list)) {
+              curHist[sess] = curHist[sess] || [];
+              for (const item of list) {
+                if (!curHist[sess].some(x => x.date === item.date)) {
+                  curHist[sess].push(item);
+                }
+              }
+            }
+          }
+          localStorage.setItem(key, JSON.stringify(curHist));
+        } catch (e) {
+          localStorage.setItem(key, strVal);
+        }
+        count++;
+      } else {
+        localStorage.setItem(key, strVal);
+        count++;
+      }
+    }
+
+    // Refresh current instance state
+    this.history = JSON.parse(localStorage.getItem("jlpt_n2_history") || "{}");
+    this.bookmarks = JSON.parse(localStorage.getItem("jlpt_n2_bookmarks") || "{}");
+    this.wrongQuestions = JSON.parse(localStorage.getItem("jlpt_n2_wrong_questions") || "{}");
+    if (this.currentSessionId) {
+      this.restoreDraftAnswers(this.currentSessionId);
+    }
+    this.renderDashboard();
+    return true;
+  }
+
+  copySyncCode() {
+    try {
+      const data = this.exportAllUserData();
+      const jsonStr = JSON.stringify(data);
+      const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
+      navigator.clipboard.writeText(b64).then(() => {
+        this.showSyncStatus("✅ Đã sao chép Mã Đồng Bộ vào Clipboard! Bạn hãy mở link trên thiết bị khác và dán mã này vào mục 'Nạp Dữ Liệu'.", "success");
+      }).catch(() => {
+        window.prompt("Sao chép mã đồng bộ này và dán sang thiết bị khác:", b64);
+      });
+    } catch (e) {
+      this.showSyncStatus("❌ Lỗi khi tạo mã: " + e.message, "error");
+    }
+  }
+
+  applySyncCode() {
+    const input = document.getElementById("input-sync-code");
+    const code = (input ? input.value : "").trim();
+    if (!code) {
+      this.showSyncStatus("⚠️ Vui lòng dán mã đồng bộ vào ô trước khi nạp.", "warning");
+      return;
+    }
+    try {
+      const jsonStr = decodeURIComponent(escape(atob(code)));
+      const dataObj = JSON.parse(jsonStr);
+      const ok = this.importAllUserData(dataObj);
+      if (ok) {
+        this.showSyncStatus("🎉 Đồng bộ thành công! Toàn bộ bài làm dở, câu sai và dấu sao đã được cập nhật.", "success");
+        if (input) input.value = "";
+      }
+    } catch (e) {
+      this.showSyncStatus("❌ Mã đồng bộ không hợp lệ: " + e.message, "error");
+    }
+  }
+
+  downloadBackupFile() {
+    try {
+      const data = this.exportAllUserData();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `jlpt_n2_backup_${new Date().toISOString().slice(0,10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      this.showSyncStatus("✅ Đã tải file sao lưu về máy thành công!", "success");
+    } catch (e) {
+      this.showSyncStatus("❌ Lỗi khi tải file: " + e.message, "error");
+    }
+  }
+
+  restoreFromFile(file) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const dataObj = JSON.parse(e.target.result);
+        const ok = this.importAllUserData(dataObj);
+        if (ok) {
+          this.showSyncStatus("🎉 Khôi phục từ file thành công! Toàn bộ tiến độ đã được cập nhật.", "success");
+        }
+      } catch (err) {
+        this.showSyncStatus("❌ File JSON không hợp lệ: " + err.message, "error");
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  showSyncStatus(text, type = "info") {
+    const el = document.getElementById("sync-status-msg");
+    if (!el) return;
+    el.style.display = "block";
+    el.style.color = type === "success" ? "var(--success)" : type === "error" ? "var(--error)" : "var(--primary)";
+    el.innerHTML = text;
   }
 
   init() {
@@ -119,6 +366,47 @@ class JLPTApp {
     if (btnBack) btnBack.addEventListener("click", () => this.showDashboard());
 
     document.getElementById("theme-toggle").addEventListener("click", () => this.toggleTheme());
+
+    const btnSyncModal = document.getElementById("btn-sync-modal");
+    if (btnSyncModal) {
+      btnSyncModal.addEventListener("click", () => this.openSyncModal());
+    }
+
+    const btnCloseSync = document.getElementById("btn-close-sync-modal");
+    if (btnCloseSync) {
+      btnCloseSync.addEventListener("click", () => this.closeSyncModal());
+    }
+
+    const syncModal = document.getElementById("sync-modal");
+    if (syncModal) {
+      syncModal.addEventListener("click", (e) => {
+        if (e.target === syncModal) this.closeSyncModal();
+      });
+    }
+
+    const btnCopySync = document.getElementById("btn-copy-sync-code");
+    if (btnCopySync) {
+      btnCopySync.addEventListener("click", () => this.copySyncCode());
+    }
+
+    const btnApplySync = document.getElementById("btn-apply-sync-code");
+    if (btnApplySync) {
+      btnApplySync.addEventListener("click", () => this.applySyncCode());
+    }
+
+    const btnDownloadBackup = document.getElementById("btn-download-backup");
+    if (btnDownloadBackup) {
+      btnDownloadBackup.addEventListener("click", () => this.downloadBackupFile());
+    }
+
+    const fileRestore = document.getElementById("file-restore-backup");
+    if (fileRestore) {
+      fileRestore.addEventListener("change", (e) => {
+        if (e.target.files && e.target.files[0]) {
+          this.restoreFromFile(e.target.files[0]);
+        }
+      });
+    }
 
     const btnPractice = document.getElementById("btn-mode-practice");
     if (btnPractice) btnPractice.addEventListener("click", () => this.setMode("practice"));
