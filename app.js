@@ -225,7 +225,8 @@ class JLPTApp {
     this.bookmarks = JSON.parse(localStorage.getItem("jlpt_n2_bookmarks") || "{}");
     this.wrongQuestions = JSON.parse(localStorage.getItem("jlpt_n2_wrong_questions") || "{}");
     if (this.currentSessionId) {
-      this.restoreDraftAnswers(this.currentSessionId);
+      this.loadDraftAnswers(this.currentSessionId);
+      this.syncWrongAndBookmarkedQuestions(this.currentSessionId);
     }
     this.renderDashboard();
     return true;
@@ -749,7 +750,64 @@ class JLPTApp {
 
   isQuestionBookmarked(qId) {
     const sessionKey = String(this.currentSessionId);
-    return this.bookmarks[sessionKey] && this.bookmarks[sessionKey].includes(qId);
+    if (this.bookmarks[sessionKey] && this.bookmarks[sessionKey].includes(qId)) {
+      return true;
+    }
+    // Tự động đồng bộ (Self-healing): Trong chế độ luyện tập, nếu câu này đã trả lời và bị sai thì tự động ghi nhận bookmark
+    if (this.currentMode === "practice" && this.userAnswers && this.userAnswers[qId] !== undefined) {
+      const all = this.getAllQuestions();
+      const q = all.find((x) => x.id === qId);
+      if (q) {
+        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        if (this.userAnswers[qId] !== targetAns) {
+          this.addBookmark(qId, false);
+          this.addWrongQuestion(qId);
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  // Tự động quét và đồng bộ các câu đã làm sai trong bài dở vào danh sách bookmarks & wrongQuestions
+  syncWrongAndBookmarkedQuestions(sessionId = this.currentSessionId) {
+    if (!sessionId) return;
+    const sessionKey = String(sessionId);
+    this.bookmarks[sessionKey] = this.bookmarks[sessionKey] || [];
+    this.wrongQuestions[sessionKey] = this.wrongQuestions[sessionKey] || [];
+
+    const all = this.getAllQuestions();
+    let hasChanges = false;
+
+    all.forEach((q) => {
+      const userAns = this.userAnswers[q.id];
+      if (userAns !== undefined) {
+        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const isCorrect = (userAns === targetAns);
+
+        if (!isCorrect) {
+          if (!this.bookmarks[sessionKey].includes(q.id)) {
+            this.bookmarks[sessionKey].push(q.id);
+            hasChanges = true;
+          }
+          if (!this.wrongQuestions[sessionKey].includes(q.id)) {
+            this.wrongQuestions[sessionKey].push(q.id);
+            hasChanges = true;
+          }
+        } else {
+          const wrongIdx = this.wrongQuestions[sessionKey].indexOf(q.id);
+          if (wrongIdx > -1) {
+            this.wrongQuestions[sessionKey].splice(wrongIdx, 1);
+            hasChanges = true;
+          }
+        }
+      }
+    });
+
+    if (hasChanges) {
+      localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
+      localStorage.setItem("jlpt_n2_wrong_questions", JSON.stringify(this.wrongQuestions));
+    }
   }
 
   changeFontSize(delta) {
@@ -814,6 +872,8 @@ class JLPTApp {
 
     // Restore draft answers from LocalStorage
     this.loadDraftAnswers(sessionId);
+    // Tự động đồng bộ các câu đã làm sai trong draft vào danh sách bookmarks & wrongQuestions
+    this.syncWrongAndBookmarkedQuestions(sessionId);
 
     this.activeFilter = "all";
     this.starredReviewIds = undefined;
@@ -3809,29 +3869,52 @@ class JLPTApp {
     this.renderFilterTabs();
   }
 
-  filterWrongQuestions() {
+  getWrongQuestions() {
     const all = this.getAllQuestions();
-    const wrongCards = [];
-
-    all.forEach((q) => {
+    return all.filter((q) => {
+      const ans = this.userAnswers[q.id];
+      if (ans === undefined) return false; // Chưa làm thì KHÔNG PHẢI là câu sai
       const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
-      const isRight = this.userAnswers[q.id] === targetAns;
-      const card = document.getElementById(`q-card-${q.id}`);
-      if (card) {
-        if (!isRight) {
-          card.style.display = "block";
-          wrongCards.push(card);
-        } else {
-          card.style.display = "none";
-        }
-      }
+      return ans !== targetAns;
     });
+  }
 
-    if (wrongCards.length > 0) {
-      wrongCards[0].scrollIntoView({ behavior: "smooth" });
-    } else {
-      alert("Chúc mừng! Bạn đã làm đúng tất cả các câu!");
-      this.renderQuestions();
+  filterWrongQuestions() {
+    const wrongQuestions = this.getWrongQuestions();
+
+    if (wrongQuestions.length === 0) {
+      alert("Tuyệt vời! Bạn chưa có câu nào làm sai trong buổi này.");
+      return;
+    }
+
+    // Đưa về chế độ xem tất cả nếu đang ở bộ lọc chuyên đề khác để câu hỏi luôn hiện diện trên DOM
+    if (this.activeFilter !== "all" && this.activeFilter !== "starred") {
+      this.setFilter("all");
+    }
+
+    // Tìm câu sai tiếp theo (chu trình qua các câu sai nếu nhấn nhiều lần)
+    let targetQ = wrongQuestions[0];
+    if (this.activeQuestionId) {
+      const curIdx = wrongQuestions.findIndex((q) => q.id === this.activeQuestionId);
+      if (curIdx !== -1 && curIdx < wrongQuestions.length - 1) {
+        targetQ = wrongQuestions[curIdx + 1];
+      } else if (curIdx === -1) {
+        const nextQ = wrongQuestions.find((q) => q.id > this.activeQuestionId);
+        if (nextQ) targetQ = nextQ;
+      }
+    }
+
+    // Cuộn mượt và làm nổi bật câu sai
+    this.scrollToQuestion(targetQ.id);
+
+    const card = document.getElementById(`q-card-${targetQ.id}`);
+    if (card) {
+      card.classList.remove("target-wrong-pulse");
+      void card.offsetWidth;
+      card.classList.add("target-wrong-pulse");
+      setTimeout(() => {
+        if (card) card.classList.remove("target-wrong-pulse");
+      }, 3000);
     }
   }
 }

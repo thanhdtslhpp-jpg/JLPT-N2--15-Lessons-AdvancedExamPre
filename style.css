@@ -845,9 +845,27 @@ body {
 
 
 .question-card.active-target {
-
   border-color: var(--primary);
+}
 
+@keyframes targetWrongPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    border-color: var(--error) !important;
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(239, 68, 68, 0);
+    border-color: var(--error) !important;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    border-color: var(--error) !important;
+  }
+}
+
+.question-card.target-wrong-pulse {
+  animation: targetWrongPulse 0.75s ease-in-out 3;
+  border-color: var(--error) !important;
 }
 
 
