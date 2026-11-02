@@ -837,6 +837,11 @@ class JLPTApp {
     }
   }
 
+  getTargetAnswer(q) {
+    if (!q) return undefined;
+    return q.isStarQuestion ? (q.correctStarOption ?? q.correctAnswer) : (q.correctAnswer ?? q.correctStarOption);
+  }
+
   isQuestionBookmarked(qId) {
     const sessionKey = String(this.currentSessionId);
     if (this.bookmarks[sessionKey] && this.bookmarks[sessionKey].includes(qId)) {
@@ -847,7 +852,7 @@ class JLPTApp {
       const all = this.getAllQuestions();
       const q = all.find((x) => x.id === qId);
       if (q) {
-        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const targetAns = this.getTargetAnswer(q);
         if (this.userAnswers[qId] !== targetAns) {
           this.addBookmark(qId, false);
           this.addWrongQuestion(qId);
@@ -871,7 +876,7 @@ class JLPTApp {
     all.forEach((q) => {
       const userAns = this.userAnswers[q.id];
       if (userAns !== undefined) {
-        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const targetAns = this.getTargetAnswer(q);
         const isCorrect = (userAns === targetAns);
 
         if (!isCorrect) {
@@ -887,6 +892,11 @@ class JLPTApp {
           const wrongIdx = this.wrongQuestions[sessionKey].indexOf(q.id);
           if (wrongIdx > -1) {
             this.wrongQuestions[sessionKey].splice(wrongIdx, 1);
+            hasChanges = true;
+          }
+          const bmIdx = this.bookmarks[sessionKey].indexOf(q.id);
+          if (bmIdx > -1) {
+            this.bookmarks[sessionKey].splice(bmIdx, 1);
             hasChanges = true;
           }
         }
@@ -2030,7 +2040,7 @@ class JLPTApp {
       btn.title = `Câu ${q.id} - ${q.mondaiName || ""}`;
 
       const isAnswered = this.userAnswers[q.id] !== undefined;
-      const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+      const targetAns = this.getTargetAnswer(q);
       const isCorrect = isAnswered && (this.userAnswers[q.id] === targetAns);
 
       if (this.currentMode === "practice" && isAnswered) {
@@ -3427,7 +3437,7 @@ class JLPTApp {
     const allQuestions = this.getAllQuestions();
     const q = allQuestions.find(x => x.id === qId);
     if (q && this.currentMode === "practice") {
-      const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+      const targetAns = this.getTargetAnswer(q);
       const isCorrect = (optNum === targetAns);
       if (isCorrect) {
         this.removeBookmark(qId, false);
@@ -3632,7 +3642,7 @@ class JLPTApp {
       const isAnswered = this.userAnswers[q.id] !== undefined;
       if (isAnswered) {
         answeredCount++;
-        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const targetAns = this.getTargetAnswer(q);
         if (this.userAnswers[q.id] !== targetAns) wrongCount++;
       }
     });
@@ -3683,7 +3693,7 @@ class JLPTApp {
 
       starredQuestions.forEach((q) => {
         const answered = this.userAnswers[q.id] !== undefined;
-        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const targetAns = this.getTargetAnswer(q);
         const isCorrect = answered && (this.userAnswers[q.id] === targetAns);
         let itemClass = "pallet-item has-star";
 
@@ -3734,7 +3744,7 @@ class JLPTApp {
       secQuestions.forEach((q) => {
         const answered = this.userAnswers[q.id] !== undefined;
         const isStarred = starredList.includes(q.id);
-        const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+        const targetAns = this.getTargetAnswer(q);
         const isCorrect = answered && (this.userAnswers[q.id] === targetAns);
         const isWrong = answered && !isCorrect;
 
@@ -3790,7 +3800,7 @@ class JLPTApp {
     let choukaiScore = { correct: 0, total: 0 };
 
     all.forEach((q) => {
-      const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+      const targetAns = this.getTargetAnswer(q);
       const isRight = this.userAnswers[q.id] === targetAns;
       if (isRight) {
         correctCount++;
@@ -3967,7 +3977,7 @@ class JLPTApp {
     return all.filter((q) => {
       const ans = this.userAnswers[q.id];
       if (ans === undefined) return false; // Chưa làm thì KHÔNG PHẢI là câu sai
-      const targetAns = q.isStarQuestion ? q.correctStarOption : q.correctAnswer;
+      const targetAns = this.getTargetAnswer(q);
       return ans !== targetAns;
     });
   }

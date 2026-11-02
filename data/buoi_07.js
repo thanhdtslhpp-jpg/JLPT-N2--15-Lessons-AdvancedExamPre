@@ -681,6 +681,7 @@ window.JLPT_DATA[7] = {
             "変わるか"
           ],
           "correctAnswer": 1,
+          "correctStarOption": 1,
           "isStarQuestion": true,
           "correctOrder": [
             4,
@@ -704,6 +705,7 @@ window.JLPT_DATA[7] = {
             "若い"
           ],
           "correctAnswer": 3,
+          "correctStarOption": 3,
           "isStarQuestion": true,
           "correctOrder": [
             2,
@@ -727,6 +729,7 @@ window.JLPT_DATA[7] = {
             "大学生とは"
           ],
           "correctAnswer": 1,
+          "correctStarOption": 1,
           "isStarQuestion": true,
           "correctOrder": [
             2,
@@ -750,6 +753,7 @@ window.JLPT_DATA[7] = {
             "ならなかった"
           ],
           "correctAnswer": 2,
+          "correctStarOption": 2,
           "isStarQuestion": true,
           "correctOrder": [
             3,
@@ -773,6 +777,7 @@ window.JLPT_DATA[7] = {
             "のがしてしまう"
           ],
           "correctAnswer": 4,
+          "correctStarOption": 4,
           "isStarQuestion": true,
           "correctOrder": [
             3,
@@ -2615,6 +2620,7 @@ window.JLPT_DATA[7] = {
             "出す"
           ],
           "correctAnswer": 3,
+          "correctStarOption": 3,
           "isStarQuestion": true,
           "correctOrder": [
             1,
@@ -2637,6 +2643,7 @@ window.JLPT_DATA[7] = {
             "のは"
           ],
           "correctAnswer": 1,
+          "correctStarOption": 1,
           "isStarQuestion": true,
           "correctOrder": [
             4,
@@ -2659,6 +2666,7 @@ window.JLPT_DATA[7] = {
             "した"
           ],
           "correctAnswer": 3,
+          "correctStarOption": 3,
           "isStarQuestion": true,
           "correctOrder": [
             4,
@@ -2681,6 +2689,7 @@ window.JLPT_DATA[7] = {
             "行った"
           ],
           "correctAnswer": 2,
+          "correctStarOption": 2,
           "isStarQuestion": true,
           "correctOrder": [
             4,
@@ -2703,6 +2712,7 @@ window.JLPT_DATA[7] = {
             "寿司やてんぷら"
           ],
           "correctAnswer": 4,
+          "correctStarOption": 4,
           "isStarQuestion": true,
           "correctOrder": [
             3,
