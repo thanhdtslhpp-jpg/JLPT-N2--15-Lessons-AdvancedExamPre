@@ -2832,17 +2832,17 @@ window.JLPT_DATA[7] = {
 4. はさみとマジックペン: Kéo và bút lông (dạ)<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 女1：もしもし、ともちゃん？引っ越しもう始めた？<br>
-女2：今、箱に荷物詰めてるところ。これからだね。何か買ってくものある？<br>
-女1：<b>カッターを買ってきてくれる？</b>ハサミじゃ後で箱を開けるのが大変そうだから。<br>
+女2：うん、今箱に荷物詰めてるところ。これからだね。何か買ってくものある？<br>
+女1：うん、<b>カッターを買ってきてくれる？</b>ハサミじゃ後で箱を開けるのが大変そうだから。<br>
 女2：他にガムテープとかは？<br>
 女1：それは大丈夫。あとね、<b>太い字が書けるマジックペン</b>。どの箱に何が入ってるか、後で分からなくなりそうだから。<br>
 女2：OK、了解。大介くんの車は来たの？<br>
-女1：まだなのよ。それが電話しても出ないし。やっぱり酒飲みの男はダメね。<br>
+女1：まだなのよ。それが電話しても出ないし。やっぱり酒飲みの男はダメねー。<br>
 女2：男の方も引っ越したら？それは。<br><br>
 <b>🇻🇳 Dịch nghĩa đoạn hội thoại:</b><br>
 Nữ 1: "Alo, Tomo-chan à? Cậu đã bắt đầu dọn nhà chuyển đi chưa?"<br>
-Nữ 2: "Tớ đang đóng đồ vào thùng carton đây. Giờ mới bắt đầu. Cậu có cần tớ mua gì mang qua không?"<br>
-Nữ 1: "Cậu <b>mua giúp tớ cái dao rọc giấy (cút-tơ)</b> được không? Dùng kéo thì sau này mở thùng hàng có vẻ vất vả lắm."<br>
+Nữ 2: "Ừ, tớ đang đóng đồ vào thùng carton đây. Giờ mới bắt đầu. Cậu có cần tớ mua gì mang qua không?"<br>
+Nữ 1: "Ừ, cậu <b>mua giúp tớ cái dao rọc giấy (cút-tơ)</b> được không? Dùng kéo thì sau này mở thùng hàng có vẻ vất vả lắm."<br>
 Nữ 2: "Thế còn những thứ khác như băng dính đóng thùng thì sao?"<br>
 Nữ 1: "Cái đó thì vẫn còn, không sao. À với lại, mua thêm <b>bút lông viết được nét to</b> nữa nhé. Tớ sợ sau này không biết thùng nào đựng cái gì mất."<br>
 Nữ 2: "OK, tớ hiểu rồi. Thế xe của Daisuke đến chưa?"<br>
@@ -2875,7 +2875,7 @@ Nữ 2: "Thế thì dọn luôn cả anh chàng đó ra khỏi đời cậu đi 
 4. 書類を2部コピーする: Photo tài liệu ra 2 bản<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 女：はい、東京工業です。<br>
-男：あ、佐藤君、今タクシーで研修センターに向かっているんだけど、例の書類できたかな？<br>
+男：ああ佐藤君、今タクシーで研修センターに向かってるんだけど、例の書類できたかな？<br>
 女：はい、研修センターの会議室に届ければよろしいでしょうか？<br>
 男：いや、会議は２時からだから、その前に内容をチェックしたいんだ。センターの隣に静かな喫茶店があっただろう？<b>あそこに持ってきてくれないかな？</b><br>
 女：はい、わかりました。ラセーヌですね。<br>
@@ -2918,7 +2918,7 @@ Nam: "Thế à, cừ lắm. Vậy nhờ em nhé."<br><br>
 4. 報告書を書く: Hoàn thành nốt bản báo cáo<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 男：山口さん、ちょっと大急ぎで見積書を一つ作ってほしいんだけど。<br>
-女：でも私、今からちょっと郵便局に行かないといけないんですが、それと今日は営業成績の報告書も急ぐんですけど。<br>
+女：はい。でも私、今からちょっと郵便局に行かないといけないんですが。それと今日は営業成績の報告書も急ぐんですけど。<br>
 男：報告書はいつまでに出すの？<br>
 女：明日のお昼です。<br>
 男：見積書は今日の５時までに出さないといけないんだよな。ごめん、こっち先にやってよ。郵便局には他の人に行ってもらうようにするから。<br>
@@ -2926,7 +2926,7 @@ Nam: "Thế à, cừ lắm. Vậy nhờ em nhé."<br><br>
 男：うん、とにかく５時までにできればいいから。<br><br>
 <b>🇻🇳 Dịch nghĩa đoạn hội thoại:</b><br>
 Nam: "Cô Yamaguchi ơi, tôi cần cô làm gấp một bản báo giá giúp tôi với."<br>
-Nữ: "Nhưng giờ em phải đi bưu điện một lát, với lại hôm nay bản báo cáo thành tích kinh doanh cũng đang rất gấp ạ."<br>
+Nữ: "Dạ. Nhưng giờ em phải đi bưu điện một lát, với lại hôm nay bản báo cáo thành tích kinh doanh cũng đang rất gấp ạ."<br>
 Nam: "Báo cáo thì hạn nộp khi nào?"<br>
 Nữ: "Trưa mai ạ."<br>
 Nam: "Bản báo giá thì phải nộp trước 5 giờ chiều nay cơ. Xin lỗi nhé, cô ưu tiên làm cái này trước giúp tôi đi. Bưu điện thì tôi sẽ nhờ người khác đi thay."<br>
@@ -2959,16 +2959,17 @@ Nam: "Ừ, miễn sao kịp trước 5 giờ là được."<br><br>
 4. 4番: Phím 4<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 お電話ありがとうございます。ABCカードお客様センターです。<br>
-音声案内に従って、電話機を操作してください。<br>
-解約・紛失のお問い合わせは「1」を。<br>
-暗証番号の変更・照会は「2」を。<br>
-分割払い・お支払いのご相談は「3」を。<br>
-<b>次回お支払いの金額、ご利用可能額の照会は「4」を。</b><br>
-その他のお問い合わせでオペレーターとお話しになりたい場合は「5」、もう一度お聞きになる場合は「8」をご入力ください。<br><br>
+音声案内に従って電話機を操作してください。<br>
+解約・紛失・盗難は「１」を。<br>
+暗証番号の変更・照会は「２」を。<br>
+分割払い・お支払いのご相談は「３」を。<br>
+<b>次回お支払いの金額・ご利用可能額は「４」を。</b><br>
+その他のお問い合わせでオペレーターとお話しになりたい場合は「５」を。<br>
+もう一度お聞きになる場合は「８」をご入力ください。<br><br>
 <b>🇻🇳 Dịch nghĩa bài hướng dẫn:</b><br>
 Cảm ơn quý khách đã gọi điện. Đây là Trung tâm chăm sóc khách hàng Thẻ ABC.<br>
 Xin quý khách vui lòng thao tác bàn phím theo hướng dẫn tự động sau:<br>
-- Yêu cầu hủy thẻ hoặc báo mất thẻ, xin bấm phím 1.<br>
+- Yêu cầu hủy thẻ, báo mất hoặc mất trộm, xin bấm phím 1.<br>
 - Thay đổi hoặc tra cứu mã PIN, xin bấm phím 2.<br>
 - Tư vấn về trả góp hoặc thanh toán, xin bấm phím 3.<br>
 - <b>Tra cứu số tiền thanh toán kỳ tới hoặc hạn mức khả dụng còn lại, xin bấm phím 4.</b><br>
@@ -2999,18 +3000,18 @@ Xin quý khách vui lòng thao tác bàn phím theo hướng dẫn tự động 
 3. ボランティアの学生を募集する: Tuyển tình nguyện viên sinh viên<br>
 4. 先生の研究室に行く: Đến phòng nghiên cứu của thầy giáo<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-先生：安藤くん、来月から始まる公開講座のことなんだけどね。どう？手伝ってくれる学生集めてくれたかな？<br>
+先生：ああ安藤君、来月から始まる公開講座のことなんだけどね。どう？手伝ってくれる学生集めてくれたかな？<br>
 学生：まだ友達に声かけたくらいで、募集は始めていませんが。<br>
-先生：そろそろ始めないとね。チラシを配ったり資料を作ったり、会場のセッティングもあるから、結構人手がいると思うよ。<br>
+先生：そろそろ始めないとね。チラシを作って配ったり資料を作ったり、会場のセッティングもあるから、結構人手がいると思うよ。<br>
 学生：はい、明日からすぐ始めます。あの、チラシの方は原稿ができていますので、先生にも見ていただきたいんですが。<br>
 先生：ああそう。じゃあ後で研究室に持ってきて。<br>
 学生：<b>はい、パソコンに入っていますので、プリントアウトしてすぐお持ちします。</b><br>
 先生：うん、じゃあ後で。ボランティアの学生集める方もよろしく頼むね。<br>
 学生：はい、わかりました。<br><br>
 <b>🇻🇳 Dịch nghĩa đoạn hội thoại:</b><br>
-Thầy: "Ando này, về các khóa học mở cho công chúng bắt đầu từ tháng sau ấy. Thế nào rồi? Em đã tập hợp được các bạn sinh viên phụ giúp chưa?"<br>
+Thầy: "À Ando này, về các khóa học mở cho công chúng bắt đầu từ tháng sau ấy. Thế nào rồi? Em đã tập hợp được các bạn sinh viên phụ giúp chưa?"<br>
 Sinh viên: "Em mới chỉ nói qua với mấy người bạn chứ chưa bắt đầu phát thông báo tuyển ạ."<br>
-Thầy: "Phải bắt đầu sớm đi thôi. Từ việc phát tờ rơi, làm tài liệu cho đến chuẩn bị hội trường, thầy nghĩ là cần khá nhiều nhân lực đấy."<br>
+Thầy: "Phải bắt đầu sớm đi thôi. Từ việc làm tờ rơi đi phát, làm tài liệu cho đến chuẩn bị hội trường, thầy nghĩ là cần khá nhiều nhân lực đấy."<br>
 Sinh viên: "Vâng, từ ngày mai em sẽ bắt tay làm ngay ạ. À thưa thầy, bản thảo tờ rơi thì em đã làm xong rồi, em muốn nhờ thầy xem qua giúp ạ."<br>
 Thầy: "Thế à, vậy lát nữa mang tới phòng nghiên cứu cho thầy nhé."<br>
 Sinh viên: "<b>Vâng, file đang ở trong máy tính nên em sẽ in ra ngay rồi mang tới cho thầy ạ.</b>"<br>
@@ -3042,11 +3043,13 @@ Sinh viên: "Dạ vâng, em hiểu rồi ạ."<br><br>
 3. 製品そのものが、今の若者向けではなかったから: Vì bản thân sản phẩm không phù hợp với thị hiếu giới trẻ hiện nay<br>
 4. アンケートをとらなかったから: Vì đã không khảo sát ý kiến khách hàng<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-男：今月の新製品の売り上げ報告書、読んだ？<br>
+男：今月の新製品の売上報告書、読んだ？<br>
 女：予想の半分も売れなくてびっくりしました。若者対象の商品だからって東京の販売店に広告費をかけたのに、それほど効果がなかったみたいですね。<br>
 男：ええ、割合で見ると地方の方が売れているみたいなんです。<br>
 女：地方の販売店に力を入れればもっと売れたんじゃないでしょうか。<br>
-男：それもあるかもしれないけど、<b>私はやっぱり流行を読み間違えたんじゃないかと思うけどね。製品そのものが今の若者向けではなかったのかもしれないな。</b><br>
+男：それもあるかもしれないけど、<b>私はやっぱり流行を読み間違えたんじゃないかと思うけどね。</b><br>
+女：パッケージのデザインですか？<br>
+男：<b>いや、製品そのものが今の若者向けではなかったのかもしれないな。</b><br>
 女：それでしたら、まずは購入されたお客様にアンケートをとって詳しく調べてみましょうか。<br>
 男：そうだな。じゃあアンケートの内容を考えておいて。<br>
 女：わかりました。<br><br>
@@ -3055,7 +3058,9 @@ Nam: "Cô đã đọc báo cáo doanh số của sản phẩm mới tháng này 
 Nữ: "Bán không nổi một nửa so với dự kiến khiến em giật mình luôn. Cứ nghĩ là sản phẩm hướng đến giới trẻ nên công ty đã đầu tư rất nhiều tiền quảng cáo ở các cửa hàng Tokyo, vậy mà dường như chẳng mấy hiệu quả anh nhỉ."<br>
 Nam: "Ừ, nhìn vào tỉ lệ thì thấy ở các tỉnh địa phương lại có vẻ bán được hơn đấy."<br>
 Nữ: "Nếu mình tập trung đẩy mạnh ở các cửa hàng địa phương thì biết đâu đã bán chạy hơn rồi ạ?"<br>
-Nam: "Cũng có thể là vậy, nhưng <b>tôi nghĩ rốt cuộc là do chúng ta đã đón sai xu hướng (nắm bắt nhầm trào lưu). Có lẽ bản thân sản phẩm vốn dĩ đã không phù hợp với giới trẻ ngày nay rồi.</b>"<br>
+Nam: "Cũng có thể là vậy, nhưng <b>tôi nghĩ rốt cuộc là do chúng ta đã đón sai xu hướng (nắm bắt nhầm trào lưu).</b>"<br>
+Nữ: "Ý anh là thiết kế bao bì ạ?"<br>
+Nam: "<b>Không, có lẽ bản thân sản phẩm vốn dĩ đã không phù hợp với giới trẻ ngày nay rồi.</b>"<br>
 Nữ: "Nếu vậy thì trước mắt chúng ta thử làm bảng khảo sát những khách hàng đã mua xem sao anh nhé."<br>
 Nam: "Được đấy, vậy cô lên ý tưởng nội dung phiếu khảo sát đi nhé."<br>
 Nữ: "Vâng, em rõ rồi ạ."<br><br>
@@ -3085,8 +3090,8 @@ Nữ: "Vâng, em rõ rồi ạ."<br><br>
 3. 夕方から晴れる: Trời tạnh ráo nắng đẹp từ chiều tối<br>
 4. 一日中雨がふって雷が鳴る: Cả ngày mưa to và có sấm sét<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-それでは今日のお天気です。日中は日差しもありますが天気は変わりやすいでしょう。昼過ぎには各地で雨が降る見込みです。ところによっては雷が鳴るかもしれません。今日は天気の急な変化に注意してください。<br>
-では天気の移り変わりを見てみましょう。今日の日中は広い範囲で晴れる予想ですが、午前中から東海地方では雨のところがありそうです。<b>午後になると、この雨の降りやすいエリアは関東地方にも広がってきます。</b>夕方以降は東京を中心に雨や雷雨になりそうです。<br><br>
+それでは今日のお天気です。日中は日差しもありますが、天気は変わりやすいでしょう。昼過ぎには各地で雨が降る見込みです。所によっては雷が鳴るかもしれません。今日は天気の急な変化に注意してください。<br>
+では、天気の移り変わりを見てみましょう。今日の日中は広い範囲で晴れる予想ですが、午前中から東海地方では雨の所がありそうです。<b>午後になると、この雨の降りやすいエリアは関東地方にも広がってきます。</b>夕方以降は東京を中心に雨や雷雨になりそうです。<br><br>
 <b>🇻🇳 Dịch nghĩa bản tin thời tiết:</b><br>
 Sau đây là dự báo thời tiết ngày hôm nay. Trong ngày trời vẫn có lúc hửng nắng nhưng thời tiết sẽ rất dễ thay đổi thất thường. Dự kiến qua trưa nhiều nơi sẽ có mưa, một số nơi có thể xuất hiện sấm sét. Xin quý vị lưu ý những biến đổi thời tiết đột ngột trong ngày hôm nay.<br>
 Chúng ta hãy cùng xem diễn biến thời tiết: Trong ngày hôm nay dự báo diện rộng sẽ có nắng, tuy nhiên ngay từ sáng khu vực Tokai đã có nơi xuất hiện mưa. <b>Đến buổi chiều, vùng dễ có mưa này sẽ lan rộng sang cả khu vực Kanto.</b> Từ chiều tối trở đi, mưa dông và sấm sét có khả năng tập trung ở khu vực Tokyo.<br><br>
@@ -3116,13 +3121,17 @@ Chúng ta hãy cùng xem diễn biến thời tiết: Trong ngày hôm nay dự 
 3. 1対1だから: Vì tỉ lệ pha là 1:1<br>
 4. 油が少ないから: Vì ít dầu<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-今日は低カロリーの和風ドレッシングの作り方をご紹介します。まずベースになるのはお醤油ですね。大さじ３杯、そしてお酢を大さじ２。それからお砂糖は小さじ１。これに塩と胡椒を加えてよく混ぜます。<br>
+今日は低カロリーの和風ドレッシングの作り方をご紹介します。<br>
+まずベースになるのはお醤油ですね。大さじ３杯。そしてお酢を大さじ２。それからお砂糖は小さじ１。これに塩と胡椒を加えてよく混ぜます。<br>
 そしてここにオリーブオイルを使います。<b>オリーブオイルは香りが非常に豊かで、少量でも満足感が得られます。</b>大さじ１杯だけ加えます。<br>
-普通市販のドレッシングは油とそれ以外の液体の割合が１対１ぐらいですけど、このように自分で作ると油を少なくしてカロリーを抑えることができますよね。はい、出来上がりです。<br><br>
+普通市販のドレッシングは油とそれ以外の液体の割合が１対１ぐらいですけど、このように自分で作ると油を少なくしてカロリーを抑えることができますよね。<br>
+はい、出来上がりです。油の少ない低カロリー和風ドレッシングです。<br><br>
 <b>🇻🇳 Dịch nghĩa bài hướng dẫn:</b><br>
-Hôm nay tôi xin giới thiệu cách làm nước sốt trộn salad kiểu Nhật ít calo. Trước hết, nguyên liệu nền là nước tương shoyu, ta cho 3 muỗng canh; tiếp theo là 2 muỗng canh giấm, và 1 muỗng cà phê đường. Ta thêm một chút muối và tiêu vào rồi khuấy đều.<br>
+Hôm nay tôi xin giới thiệu cách làm nước sốt trộn salad kiểu Nhật ít calo.<br>
+Trước hết, nguyên liệu nền là nước tương shoyu, ta cho 3 muỗng canh; tiếp theo là 2 muỗng canh giấm, và 1 muỗng cà phê đường. Ta thêm một chút muối và tiêu vào rồi khuấy đều.<br>
 Và tiếp theo, ta sử dụng dầu ô liu ở bước này. <b>Dầu ô liu có mùi thơm vô cùng phong phú (dậy mùi thơm), chỉ cần một lượng nhỏ thôi là đã mang lại cảm giác thỏa mãn đầy đặn rồi.</b> Ta chỉ cần cho 1 muỗng canh vào thôi.<br>
-Thông thường các loại nước sốt bán trên thị trường có tỉ lệ dầu và các chất lỏng khác là khoảng 1:1, nhưng nếu tự làm theo cách này thì ta có thể giảm lượng dầu và hạn chế calo rất hiệu quả. Vâng, nước sốt đã hoàn thành rồi đấy ạ.<br><br>
+Thông thường các loại nước sốt bán trên thị trường có tỉ lệ dầu và các chất lỏng khác là khoảng 1:1, nhưng nếu tự làm theo cách này thì ta có thể giảm lượng dầu và hạn chế calo rất hiệu quả.<br>
+Vâng, nước sốt đã hoàn thành rồi đấy ạ. Đây là loại sốt kiểu Nhật ít calo, rất ít dầu.<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
 - Lời thoại giải thích lý do dùng dầu ô liu: 「オリーブオイルは香りが非常に豊かで、少量でも満足感が得られます」 (Dầu ô liu mùi thơm rất đậm đà phong phú, chỉ một chút cũng đủ tạo độ ngon thỏa mãn).<br>
 - Do đó hương thơm tuyệt vời chính là lý do chọn dùng dầu ô liu (香りがいいから) &rarr; <b>Đáp án đúng là 2</b>.`
@@ -3149,21 +3158,23 @@ Thông thường các loại nước sốt bán trên thị trường có tỉ l
 3. 値段が安いから: Vì giá thành rẻ<br>
 4. 同じ水を飲んでいると飽きるから: Vì uống mãi một loại nước thì bị ngán, muốn đổi vị<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-女：酸素が入ってる水でしょ？今度はこれに変えたんだ。すっきりするとか健康にいいとか書いてあるけど、本当なの？<br>
+女：それって、酸素が入ってる水でしょ？<br>
+男：そうそう。今度はこれに変えたんだ。<br>
+女：頭がすっきりするとか、健康にいいとか宣伝しているようだけど、本当なの？<br>
 男：そんな感じもするけど、いいんだよ。薬じゃないんだから。<br>
-女：でもちょっと高いと思わない？ただの水だよ。<br>
-男：僕はそう思わないな。水にもいろんな味があるし、ジュースとかコーラより僕は水の方が好きだよ。<br>
-女：でもいつも同じのを飲んでると飽きるんだよね？<br>
-男：<b>時々変化が欲しくなるんだ。だから新しいのが出るとすぐ買っちゃうんだよね。</b><br><br>
+女：でも、ちょっと高いと思わない？ただの水だよ。<br>
+男：僕はそう思わないな。水にもいろんな味があるし、ジュースとかコーラより、僕は水のほうが好きだよ。<b>でも、いつも同じのを飲んでると飽きるんだよね。時々変化が欲しくなる。</b><br>
+女：うーん、そうだったんだ。だから新しいのが出るとすぐ買うんだね。<br><br>
 <b>🇻🇳 Dịch nghĩa đoạn hội thoại:</b><br>
-Nữ: "Nước có chứa oxy này phải không? Lần này anh lại đổi sang loại này à? Thấy trên nhãn ghi là uống sảng khoái rồi tốt cho sức khỏe các thứ, có thật không đấy?"<br>
-Nam: "Thì cũng có cảm giác như thế thật, mà quan trọng gì đâu, có phải thuốc chữa bệnh đâu mà khắt khe."<br>
+Nữ: "Cái đó là loại nước có chứa oxy đấy à?"<br>
+Nam: "Đúng rồi. Lần này anh đổi sang loại này đấy."<br>
+Nữ: "Thấy người ta quảng cáo là uống vào tỉnh táo sảng khoái đầu óc rồi tốt cho sức khỏe các thứ, có thật không đấy?"<br>
+Nam: "Thì cũng có cảm giác như thế thật, nhưng mà kệ đi, có phải thuốc chữa bệnh đâu."<br>
 Nữ: "Nhưng anh không thấy nó hơi đắt à? Dù sao cũng chỉ là nước lọc thôi mà."<br>
-Nam: "Anh lại không nghĩ thế. Nước cũng có nhiều tầng hương vị khác nhau lắm chứ, anh thích nước lọc hơn cả nước ngọt hay coca nữa cơ."<br>
-Nữ: "Thế nhưng uống mãi một loại thì cũng ngán chứ nhỉ?"<br>
-Nam: "<b>Ừ, thỉnh thoảng anh lại muốn đổi gió chút. Thế nên cứ hễ có loại nước mới ra mắt là anh mua dùng thử ngay.</b>"<br><br>
+Nam: "Anh thì không nghĩ thế đâu. Nước cũng có nhiều hương vị khác nhau lắm chứ, anh thích nước lọc hơn cả nước ngọt hay coca nữa cơ. <b>Cơ mà uống mãi một loại thì cũng ngán, thỉnh thoảng lại muốn đổi gió chút.</b>"<br>
+Nữ: "À ra là thế. Thảo nào cứ hễ có loại nước mới ra mắt là anh mua liền ha."<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
-- Người nam giải thích lý do hay đổi loại nước: Cứ uống mãi một thứ thì ngán, thỉnh thoảng muốn có sự thay đổi mới mẻ (時々変化が欲しくなる &rarr; 同じ水を飲んでいると飽きる).<br>
+- Người nam giải thích lý do hay đổi loại nước: Cứ uống mãi một thứ thì ngán, thỉnh thoảng muốn có sự thay đổi mới mẻ (いつも同じのを飲んでると飽きるんだよね。時々変化が欲しくなる &rarr; 同じ水を飲んでいると飽きるから).<br>
 - Do đó lý do đổi nước là vì uống một loại mãi sẽ bị ngán &rarr; <b>Đáp án đúng là 4</b>.`
             },
             {
@@ -3188,23 +3199,27 @@ Nam: "<b>Ừ, thỉnh thoảng anh lại muốn đổi gió chút. Thế nên c�
 3. 友だちにノートを貸したから: Vì đã cho bạn mượn vở ghi chép<br>
 4. 宿題を全部してきたから: Vì đã làm hết toàn bộ bài tập về nhà<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-女：昨日、田中君、先生に褒められたんだよ。<br>
+女：昨日田中君、先生に褒められたんだよ。<br>
 男：優等生だもんね、田中君は。<br>
-女：宿題のノートを忘れたの。<br>
-男：えっ？どうして？なんでそれで褒められるわけ？<br>
-女：友達に宿題のノートを貸したんだけどね、昨日その子が学校を休んじゃって。でも田中君はそれを黙ってたんだよ。先生はあとでなんとなく教室の席でそれが分かったから、<b>人のせいにしないのはえらいって褒めたのよ。</b>田中君、素敵よね。<br>
+女：うん。宿題のノートを忘れたの。<br>
+男：どうして？なんでそれで褒められるわけ？<br>
+女：友達に宿題のノートを貸したんだけどね、昨日その子が学校休んじゃって。でも田中君はそれを黙ってたのよ。<br>
+男：へえ。<br>
+女：先生はでもなんとなく教師の勘でそれが分かったから、<b>人のせいにしないのは偉いって褒めたのよ。</b>田中君、素敵よね。<br>
 男：でもノートを貸したりするのはよくないよ。<br>
 女：うん、そのことは先生にも注意されたんだけどね。<br><br>
 <b>🇻🇳 Dịch nghĩa đoạn hội thoại:</b><br>
 Nữ: "Hôm qua bạn Tanaka được cô giáo khen đấy nhé!"<br>
 Nam: "Thì cậu ấy vốn là học sinh ưu tú mà."<br>
-Nữ: "Thực ra là cậu ấy quên mang vở bài tập về nhà đấy."<br>
-Nam: "Hả? Sao lạ vậy? Quên vở bài tập mà lại được cô khen là sao?"<br>
-Nữ: "Cậu ấy cho bạn mượn vở bài tập, nhưng hôm qua bạn đó lại nghỉ học. Dẫu vậy Tanaka không hề nói ra mà cứ im lặng chịu phạt. Sau đó cô giáo nhìn chỗ ngồi trong lớp là hiểu ra mọi chuyện, nên <b>cô khen cậu ấy rất đáng khen vì không chịu đổ lỗi cho người khác.</b> Tanaka tuyệt thật đấy!"<br>
-Nam: "Cơ mà việc cho bạn mượn vở chép bài tập cũng đâu có tốt."<br>
+Nữ: "Ừ. Cậu ấy quên mang vở bài tập về nhà đấy."<br>
+Nam: "Sao lạ vậy? Quên vở bài tập mà sao lại được cô khen là thế nào?"<br>
+Nữ: "Cậu ấy cho bạn mượn vở bài tập, nhưng hôm qua bạn đó lại nghỉ học. Dẫu vậy Tanaka không hề nói ra mà cứ im lặng chịu phạt."<br>
+Nam: "Chà thế à."<br>
+Nữ: "Sau đó cô giáo nhìn chỗ ngồi với trực giác người làm thầy là hiểu ra mọi chuyện, nên <b>cô khen cậu ấy rất đáng khen vì không đổ lỗi cho người khác.</b> Tanaka tuyệt thật đấy!"<br>
+Nam: "Cơ mà việc cho bạn mượn vở bài tập cũng đâu có tốt."<br>
 Nữ: "Ừ, chuyện đó thì cô giáo cũng đã nhắc nhở cậu ấy rồi."<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
-- Cô giáo khen Tanaka vì cậu không đổ lỗi cho bạn mượn vở nghỉ học mà nhận trách nhiệm về mình (人のせいにしないのはえらいって褒めた).<br>
+- Cô giáo khen Tanaka vì cậu không đổ lỗi cho bạn mượn vở nghỉ học mà nhận trách nhiệm về mình (人のせいにしないのは偉いって褒めた).<br>
 - Do đó đáp án chính xác là phương án 1 &rarr; <b>Đáp án đúng là 1</b>.`
             },
             {
@@ -3229,11 +3244,15 @@ Nữ: "Ừ, chuyện đó thì cô giáo cũng đã nhắc nhở cậu ấy rồ
 3. 周りの大人たちの態度: Thái độ và cách ứng xử của những người lớn xung quanh<br>
 4. 周りの大人たちの子供への無関心: Sự thờ ơ vô cảm của người lớn đối với trẻ em<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-昔から「人を見たら泥棒と思え」という言葉がありますが、今では人を見たら走って逃げろと言った方がいいかもしれないぐらい、現実の社会は冷たく厳しいものになっています。いつ誰に何をされるかわからないと感じている大人たちが増えているために、その影響を受けて、今の子どもたちは友達づくりが苦手になってしまっているようです。<br>
-もちろん中には友達づくりがとても上手な子どももいます。優しくて周りによく気を使う子です。<b>実は彼らの周りには必ずそのような大人たちがいます。彼らはその大人たちから友達づくりを学んでいるのです。</b>我々大人はそのことを忘れてはいけないと思うのです。<br><br>
+昔から「人を見たら泥棒と思え」という言葉がありますが、今では「人を見たら走って逃げろ」と言ったほうがいいかもしれないぐらい、現実の社会は冷たく厳しいものになっています。<br>
+いつ誰に何をされるか分からないと感じている大人たちが増えているために、その影響を受けて、今の子供たちは友達づくりが苦手になってしまっているようです。<br>
+もちろん中には、友達づくりがとても上手な子供もいます。優しくて、周りによく気を使う子です。<br>
+<b>実は、彼らの周りには必ずそのような大人たちがいます。彼らはその大人たちから友達づくりを学んでいるのです。</b>我々大人は、そのことを忘れてはいけないと思うのです。<br><br>
 <b>🇻🇳 Dịch nghĩa bài phát biểu:</b><br>
-Từ xưa đã có câu tục ngữ: 'Hễ thấy người lạ thì hãy coi như trộm cắp', nhưng ngày nay xã hội thực tế lạnh lùng và khắt khe đến mức có lẽ nên khuyên rằng 'Hễ thấy người lạ thì hãy co giò chạy trốn' mới đúng. Ngày càng có nhiều người lớn luôn mang tâm lý bất an, không biết lúc nào sẽ bị ai làm hại, và chính vì chịu ảnh hưởng từ điều đó mà trẻ em ngày nay dường như trở nên vụng về trong việc kết bạn.<br>
-Tất nhiên, trong số đó vẫn có những đứa trẻ rất giỏi kết bạn. Đó là những đứa trẻ hiền lành và luôn chu đáo quan tâm đến mọi người xung quanh. <b>Thực ra, xung quanh những đứa trẻ ấy bao giờ cũng có những người lớn mẫu mực như vậy. Trẻ nhỏ đã học được cách kết bạn từ chính những người lớn đó.</b> Tôi cho rằng những người lớn chúng ta tuyệt đối không được quên điều này.<br><br>
+Từ xưa đã có câu tục ngữ: 'Hễ thấy người lạ thì hãy coi như trộm cắp', nhưng ngày nay xã hội thực tế lạnh lùng và khắt khe đến mức có lẽ nên khuyên rằng 'Hễ thấy người lạ thì hãy co giò chạy trốn' mới đúng.<br>
+Ngày càng có nhiều người lớn luôn mang tâm lý bất an, không biết lúc nào sẽ bị ai làm hại, và chính vì chịu ảnh hưởng từ điều đó mà trẻ em ngày nay dường như trở nên vụng về trong việc kết bạn.<br>
+Tất nhiên, trong số đó vẫn có những đứa trẻ rất giỏi kết bạn. Đó là những đứa trẻ hiền lành và luôn chu đáo quan tâm đến mọi người xung quanh.<br>
+<b>Thực ra, xung quanh những đứa trẻ ấy bao giờ cũng có những người lớn mẫu mực như vậy. Trẻ nhỏ đã học được cách kết bạn từ chính những người lớn đó.</b> Tôi cho rằng những người lớn chúng ta tuyệt đối không được quên điều này.<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
 - Tác giả khẳng định: Trẻ giỏi kết bạn là nhờ học hỏi từ những người lớn xung quanh mình (彼らの周りには必ずそのような大人たちがいます。彼らはその大人たちから友達づくりを学んでいるのです).<br>
 - Do đó trẻ chịu ảnh hưởng trực tiếp từ cách hành xử của người lớn xung quanh (周りの大人たちの態度) &rarr; <b>Đáp án đúng là 3</b>.`
