@@ -4626,3 +4626,21 @@ button,
   color: var(--text-sub);
   margin-left: 0.25rem;
 }
+
+/* Cloud Sync Realtime E2EE Styles */
+#cloud-sync-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+#cloud-sync-badge i {
+  color: #6366f1;
+}
+
+#btn-sync-modal:hover #cloud-sync-badge i {
+  transform: scale(1.1);
+}

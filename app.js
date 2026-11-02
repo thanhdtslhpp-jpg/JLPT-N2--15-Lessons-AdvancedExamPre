@@ -38,6 +38,7 @@ class JLPTApp {
       } catch (e) {}
     }
 
+    this.cloudSync = window.JLPTCloudSync ? new window.JLPTCloudSync(this) : null;
     this.init();
   }
 
@@ -136,6 +137,13 @@ class JLPTApp {
     if (modal) modal.style.display = "flex";
     const msg = document.getElementById("sync-status-msg");
     if (msg) msg.style.display = "none";
+    if (this.cloudSync) {
+      const idInput = document.getElementById("cloud-input-id");
+      const passInput = document.getElementById("cloud-input-pass");
+      if (idInput) idInput.value = this.cloudSync.config.syncId || "";
+      if (passInput) passInput.value = this.cloudSync.config.passphrase || "";
+      this.cloudSync.updateCloudStatusUI();
+    }
   }
 
   closeSyncModal() {
@@ -147,7 +155,7 @@ class JLPTApp {
     const data = {};
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
-      if (k && (k.startsWith("jlpt_") || k.includes("jlpt"))) {
+      if (k && (k.startsWith("jlpt_") || k.includes("jlpt")) && k !== "jlpt_cloud_sync_config") {
         data[k] = localStorage.getItem(k);
       }
     }
@@ -227,6 +235,12 @@ class JLPTApp {
     if (this.currentSessionId) {
       this.loadDraftAnswers(this.currentSessionId);
       this.syncWrongAndBookmarkedQuestions(this.currentSessionId);
+      const practiceView = document.getElementById("view-practice");
+      if (practiceView && practiceView.style.display !== "none") {
+        this.renderQuestions();
+        this.updatePallet();
+        this.renderFilterTabs();
+      }
     }
     this.renderDashboard();
     return true;
@@ -315,6 +329,12 @@ class JLPTApp {
     this.setupFurigana();
     this.renderDashboard();
     this.bindEvents();
+    if (this.cloudSync) {
+      this.cloudSync.updateCloudStatusUI();
+      if (this.cloudSync.config.enabled) {
+        this.cloudSync.pull(true);
+      }
+    }
   }
 
   setupTheme() {
@@ -405,6 +425,58 @@ class JLPTApp {
       fileRestore.addEventListener("change", (e) => {
         if (e.target.files && e.target.files[0]) {
           this.restoreFromFile(e.target.files[0]);
+        }
+      });
+    }
+
+    // Cloud Firebase E2EE Sync listeners
+    const btnSaveCloud = document.getElementById("btn-save-cloud-config");
+    if (btnSaveCloud) {
+      btnSaveCloud.addEventListener("click", async () => {
+        const idInput = document.getElementById("cloud-input-id");
+        const passInput = document.getElementById("cloud-input-pass");
+        const syncId = (idInput ? idInput.value : "").trim();
+        const passphrase = (passInput ? passInput.value : "").trim();
+
+        if (!syncId || !passphrase) {
+          this.showSyncStatus("⚠️ Vui lòng nhập Tên Đồng Bộ và Mật Khẩu Khóa Bí Mật!", "error");
+          return;
+        }
+
+        if (this.cloudSync) {
+          this.cloudSync.saveConfig({ enabled: true, syncId, passphrase });
+          this.showSyncStatus("🔄 Đang kết nối và đồng bộ với Đám mây Firebase...", "info");
+          const ok = await this.cloudSync.pull(false);
+          if (ok) {
+            this.showSyncStatus("🎉 Đã kết nối và đồng bộ Đám mây Firebase thành công! Tiến độ làm bài sẽ tự động đồng bộ ngầm.", "success");
+          }
+        }
+      });
+    }
+
+    const btnCloudSyncNow = document.getElementById("btn-cloud-sync-now");
+    if (btnCloudSyncNow) {
+      btnCloudSyncNow.addEventListener("click", async () => {
+        if (!this.cloudSync || !this.cloudSync.config.enabled) {
+          this.showSyncStatus("⚠️ Vui lòng nhập Tên và Mật khẩu rồi bấm 'Bật & Kết Nối Đám Mây' trước.", "warning");
+          return;
+        }
+        this.showSyncStatus("🔄 Đang đồng bộ với đám mây...", "info");
+        const ok = await this.cloudSync.pull(false);
+        if (ok) {
+          this.showSyncStatus("✅ Đồng bộ thành công! Toàn bộ tiến độ mới nhất đã được cập nhật.", "success");
+        }
+      });
+    }
+
+    const btnDisableCloud = document.getElementById("btn-disable-cloud");
+    if (btnDisableCloud) {
+      btnDisableCloud.addEventListener("click", () => {
+        if (confirm("Bạn có chắc chắn muốn ngắt kết nối đồng bộ đám mây trên thiết bị này?")) {
+          if (this.cloudSync) {
+            this.cloudSync.saveConfig({ enabled: false });
+            this.showSyncStatus("Đã ngắt kết nối đám mây trên thiết bị này.", "info");
+          }
         }
       });
     }
@@ -713,6 +785,7 @@ class JLPTApp {
     if (!this.bookmarks[sessionKey].includes(qId)) {
       this.bookmarks[sessionKey].push(qId);
       localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
+      if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
       if (shouldRender) {
         this.renderSingleQuestion(qId);
         this.updatePallet();
@@ -730,6 +803,7 @@ class JLPTApp {
     if (idx > -1) {
       this.bookmarks[sessionKey].splice(idx, 1);
       localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
+      if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
       if (shouldRender) {
         this.renderSingleQuestion(qId);
         this.updatePallet();
@@ -914,6 +988,9 @@ class JLPTApp {
       };
       localStorage.setItem(`jlpt_draft_${this.currentSessionId}`, JSON.stringify(draft));
       this.showAutoSaveIndicator();
+      if (this.cloudSync) {
+        this.cloudSync.triggerDebouncedPush();
+      }
     } catch (e) {
       console.warn("Failed to save draft", e);
     }
@@ -957,6 +1034,7 @@ class JLPTApp {
     } catch (e) {}
 
     this.activeFilter = "all";
+    if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
     this.renderFilterTabs();
     this.renderQuestions();
     this.updatePallet();
