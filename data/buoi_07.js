@@ -2628,7 +2628,7 @@ window.JLPT_DATA[7] = {
             3,
             2
           ],
-          "explanation": "<b>Cấu trúc:</b> 指示 [1 を] [4 出す] [3 ばかり] [2 で] 自分では何もしない。<br>Anh Yamamoto toàn chỉ đạo ra lệnh chứ bản thân chẳng làm cái gì cả.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (ばかり)</b>."
+          "explanation": "<b>Cấu trúc:</b> 指示 [1 を] [4 出す] [3 ばかり] [2 で] 自分では何もしない。<br><b>Dịch:</b> Anh Yamamoto toàn chỉ đạo ra lệnh chứ bản thân chẳng làm cái gì cả.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (ばかり)</b>."
         },
         {
           "id": 169,
@@ -2651,7 +2651,7 @@ window.JLPT_DATA[7] = {
             1,
             3
           ],
-          "explanation": "<b>Cấu trúc:</b> 体調が悪くて休む [4 のは] [2 仕方がない] [1 としても] [3 連絡だけは] してほしい。<br>Dù việc nghỉ vì không khỏe là bất đắc dĩ nhưng ít nhất cũng phải liên lạc lại chứ.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>1 (としても)</b>."
+          "explanation": "<b>Cấu trúc:</b> 体調が悪くて休む [4 のは] [2 仕方がない] [1 としても] [3 連絡だけは] してほしい。<br><b>Dịch:</b> Dù việc nghỉ vì không khỏe là bất đắc dĩ nhưng ít nhất cũng phải liên lạc lại chứ.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>1 (としても)</b>."
         },
         {
           "id": 170,
@@ -2674,7 +2674,7 @@ window.JLPT_DATA[7] = {
             3,
             1
           ],
-          "explanation": "<b>Cấu trúc:</b> データの入力作業を [4 した] [2 ところ] [3 まで] [1 で] 止まっていますが...<br>Dừng lại ở đúng đoạn vừa mới nhập dữ liệu xong.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (まで)</b>."
+          "explanation": "<b>Cấu trúc:</b> データの入力作業を [4 した] [2 ところ] [3 まで] [1 で] 止まっていますが...<br><b>Dịch:</b> Dừng lại ở đúng đoạn vừa mới nhập dữ liệu xong.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>3 (まで)</b>."
         },
         {
           "id": 171,
@@ -2697,7 +2697,7 @@ window.JLPT_DATA[7] = {
             2,
             3
           ],
-          "explanation": "<b>Cấu trúc:</b> [4 行った] [1 きり] [2 その後] [3 行って] いない。<br>Châu Âu thì đi đúng một lần đợt tuần trăng mật rồi sau đó bặt vô âm tín chưa từng đi lại.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>2 (その後)</b>."
+          "explanation": "<b>Cấu trúc:</b> [4 行った] [1 きり] [2 その後] [3 行って] いない。<br><b>Dịch:</b> Châu Âu thì đi đúng một lần đợt tuần trăng mật rồi sau đó bặt vô âm tín chưa từng đi lại.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>2 (その後)</b>."
         },
         {
           "id": 172,
@@ -2720,7 +2720,7 @@ window.JLPT_DATA[7] = {
             4,
             1
           ],
-          "explanation": "<b>Cấu trúc:</b> [3 日本の食べ物] [2 というと] [4 寿司やてんぷら] [1 といった] ものをあげる人が多いですが...<br>Hễ nói tới đồ ăn Nhật Bản thì nhiều người nêu ra sushi hay tempura, nhưng tempura thực chất lại truyền từ Bồ Đào Nha sang.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>4 (寿司やてんぷら)</b>."
+          "explanation": "<b>Cấu trúc:</b> [3 日本の食べ物] [2 というと] [4 寿司やてんぷら] [1 といった] ものをあげる人が多いですが...<br><b>Dịch:</b> Hễ nói tới đồ ăn Nhật Bản thì nhiều người nêu ra sushi hay tempura, nhưng tempura thực chất lại truyền từ Bồ Đào Nha sang.<br><b>Vị trí ngôi sao ★:</b> là đáp án <b>4 (寿司やてんぷら)</b>."
         },
         {
           "id": 173,

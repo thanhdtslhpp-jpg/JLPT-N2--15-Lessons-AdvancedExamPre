@@ -123,7 +123,7 @@ window.JLPT_STAR_TRANSLATIONS = {
   "7_169": "Dù việc nghỉ làm vì lý do sức khỏe không tốt là bất đắc dĩ, thế nhưng ít nhất thì tôi cũng muốn bạn phải liên lạc thông báo một tiếng.",
   "7_170": "Công việc nhập dữ liệu đang bị dừng lại ở đúng đoạn vừa mới làm xong...",
   "7_171": "Châu Âu thì tôi chỉ mới đi đúng một lần hồi tuần trăng mật thôi, từ đó đến nay chưa từng đi lại lần nào nữa.",
-  "7_172": "Hễ nhắc đến món ăn Nhật Bản thì nhiều người thường hay kể ra những món như sushi hay tempura.",
+  "7_172": "Hễ nói tới đồ ăn Nhật Bản thì nhiều người nêu ra sushi hay tempura, nhưng tempura thực chất lại truyền từ Bồ Đào Nha sang.",
   "8_45": "Một ngôi trường có thực sự tốt hay không thì nếu bản thân mình chưa từng đi học thử ở đó thì sẽ không thể nào biết được.",
   "8_46": "Ở công ty đó, kính ngữ còn chẳng biết dùng chứ đừng nói gì đến chào hỏi xã giao, có những nhân viên đến chào cũng không làm được khiến giám đốc vô cùng đau đầu.",
   "8_47": "Cảnh sát căn cứ vào việc cửa kính bị vỡ toang đã cho rằng có đối tượng đột nhập vào phòng từ đây, và bắt đầu điều tra cư dân xung quanh.",

@@ -2892,57 +2892,101 @@ class JLPTApp {
     if (!q) return "";
     const rawExp = q.explanation || "";
     const order = q.correctOrder || q.sentenceOrder || [];
-
     const starPos = this.getStarPosition(q);
-
     const formattedOrder = this.formatStarOrder(order, starPos);
 
     let trans = this.getStarTranslation(this.currentSessionId, q.id);
     if (!trans && q.translation) {
       trans = q.translation;
     }
-    if (!trans) {
-      const clean = rawExp.replace(/<[^>]+>/g, " ");
-      const m = clean.match(/(?:•\s*Dịch|Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:\s*([^<]+?)(?=(?:•|Vị trí ngôi sao|Đáp án|$))/i);
-      if (m) trans = m[1].trim();
-    }
 
     let lines = rawExp.split(/<br\s*\/?>|\n/i).map(l => l.trim()).filter(Boolean);
-    let remainingLines = [];
+    let sentenceLines = [];
+    let starPosLines = [];
+    let grammarLines = [];
+    let unlabelledLines = [];
 
     for (let line of lines) {
       const cleanLine = line.replace(/<[^>]+>/g, "").trim();
-      if (/^(?:•\s*)?(?:Thứ tự câu đúng|Thứ tự sắp xếp đúng|Thứ tự đúng|Cấu trúc ghép câu|Ghép câu)\s*:/i.test(cleanLine)) {
+
+      // 1. Thứ tự câu đúng đã hiển thị ở badge trên cùng nên bỏ qua
+      if (/^(?:•\s*)?(?:Thứ tự câu đúng|Thứ tự sắp xếp đúng|Thứ tự đúng)\s*:/i.test(cleanLine)) {
         continue;
       }
-      if (/^(?:•\s*)?(?:Câu hoàn chỉnh)\s*:/i.test(cleanLine)) {
+
+      // 2. Câu ghép hoàn chỉnh / Cấu trúc ghép câu
+      if (/^(?:•\s*)?(?:Cấu trúc ghép câu|Ghép câu|Câu hoàn chỉnh)\s*:/i.test(cleanLine)) {
+        sentenceLines.push(line);
         continue;
       }
+      if (/^<b>Cấu trúc:<\/b>\s*.*?(?:\[\d.*?\]|\d\s*->)/i.test(line) || /^Cấu trúc:\s*.*?(?:\[\d.*?\]|\d\s*->)/i.test(cleanLine)) {
+        sentenceLines.push(line);
+        continue;
+      }
+
+      // 3. Dịch nghĩa
       if (/^(?:•\s*)?(?:Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:/i.test(cleanLine)) {
-        if (!trans) {
-          const m = cleanLine.match(/^(?:•\s*)?(?:Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:\s*(.+)$/i);
-          if (m) trans = m[1].trim();
+        const m = cleanLine.match(/^(?:•\s*)?(?:Dịch nghĩa|Dịch câu|Dịch|Ý nghĩa)\s*:\s*(.+)$/i);
+        if (m && m[1].trim()) {
+          const parsed = m[1].trim();
+          if (!trans || parsed.length >= trans.length) trans = parsed;
         }
         continue;
       }
-      remainingLines.push(line);
+
+      // 4. Vị trí ngôi sao / Đáp án
+      if (/^(?:•\s*)?(?:Vị trí (?:ngôi |dấu )?sao|Đáp án(?: đúng)?|Ngôi sao|Dấu sao)\b/i.test(cleanLine) || /->\s*Vị trí (?:dấu )?sao/i.test(cleanLine)) {
+        starPosLines.push(line);
+        continue;
+      }
+
+      // 5. Cấu trúc / Ngữ pháp / Mẫu câu
+      if (/^(?:•\s*)?(?:Cấu trúc|Ngữ pháp|Mẫu câu)\s*:/i.test(cleanLine)) {
+        grammarLines.push(line);
+        continue;
+      }
+
+      // 6. Dòng tiếng Việt không nhãn (dịch câu)
+      if (!/[ぁ-んァ-ヶ一-龯]/.test(cleanLine) && /[a-zA-Zà-ỹÀ-Ỹ]/.test(cleanLine)) {
+        unlabelledLines.push(cleanLine);
+      } else {
+        grammarLines.push(line);
+      }
+    }
+
+    if (unlabelledLines.length > 0) {
+      const unlabelledTrans = unlabelledLines.join(" ");
+      if (!trans || unlabelledTrans.length >= trans.length) {
+        trans = unlabelledTrans;
+      }
     }
 
     let html = "";
+    // BƯỚC 1: Thứ tự câu đúng (1 - 4 - ★ 3 - 2)
     if (formattedOrder) {
       html += `<div style="margin-bottom: 0.5rem; font-size: 1rem;"><b>Thứ tự câu đúng:</b> <span class="star-order-badge" style="color: #f59e0b; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.5px;">${formattedOrder}</span></div>`;
     }
 
-    if (remainingLines.length > 0) {
-      html += `<div>${remainingLines.join("<br>")}</div>`;
+    // BƯỚC 2: Câu ghép hoàn chỉnh (ở vị trí trên)
+    if (sentenceLines.length > 0) {
+      html += `<div style="margin-bottom: 0.45rem;">${sentenceLines.join("<br>")}</div>`;
     }
 
+    // BƯỚC 3: Dịch nghĩa toàn câu (Ở VỊ TRÍ TRÊN, ngay dưới câu ghép hoàn chỉnh!)
     if (trans) {
       html += `
-        <div class="star-trans-box">
+        <div class="star-trans-box" style="margin-bottom: 0.55rem;">
           <b class="star-trans-label">Dịch:</b> <span style="color: var(--text-main); font-weight: 500;">${trans}</span>
         </div>
       `;
+    }
+
+    // BƯỚC 4: Vị trí ngôi sao ★ & Phân tích ngữ pháp (Ở VỊ TRÍ DƯỚI)
+    if (starPosLines.length > 0) {
+      html += `<div style="margin-bottom: 0.35rem;">${starPosLines.join("<br>")}</div>`;
+    }
+    if (grammarLines.length > 0) {
+      html += `<div>${grammarLines.join("<br>")}</div>`;
     }
 
     return html;
