@@ -1098,7 +1098,7 @@ window.JLPT_DATA[7] = {
           "mondai": 12,
           "mondaiName": "問題12：統合理解 (So sánh đối chiếu)",
           "passage": "<b>【A】</b>\n　日本人として当たり前のように日本語を使っているのに、どうも自分の言葉に自信が持てない人がいる。この本は日本語を学ぶ外国人向けに書かれたテキストだが、日本人が読んでもおもしろくてためになる。実際に練習問題をやってみるのもいい。無意識に使っていた「は」と「が」や、「〇〇してから」と「〇〇したら」などの表現の使い分けといった文法的ルールなど、新発見がたくさんあるだろう。外国人になったつもりで日本語を眺めてみるのもおもしろい。当たり前のように使ってきた日本語の奥の深さにも気がつくかもしれない。\n\n<b>【B】</b>\n　著者は外国人に日本語を教えている教師。文法、作文、読解などを長年教えてきた経験から、日本語が上手になるコツは日本語の心をつかみ、ポイントを押さえた学習をすることだと考えてこの本を書いたと言う。「は」と「が」の使い分けや「て形」のいろいろな使い方、「象は鼻が長い」という文の構造など基本的なことから、文と文を結びつけてまとまりのある文章にするための、文法的な決まりに至るまで丁寧におもしろく説明している。練習問題（英語、中国語、韓国語の翻訳つき）も豊富。日本語学習者はもちろん、外国人に日本語を教えたいと思っている人、実際に日本語教育の現場で教えている教師もほしい１冊。日本語の学習にも、教育にも役立つ新スタイルのテキストである。",
-          "sentence": "この本の題名として最も適当だと考えられるものはどれか。",
+          "sentence": "［A・B共通の対象：紹介されている本］ この本の題名として最も適当だと考えられるものはどれか。",
           "targetWord": "本の題名",
           "options": [
             "『日本語文法練習帳』",
@@ -1107,7 +1107,7 @@ window.JLPT_DATA[7] = {
             "『日本人のための文章学習』"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Phân tích đoạn A và B:</b><br>• Cả A và B đều giới thiệu đây là cuốn sách giáo khoa viết cho người nước ngoài học tiếng Nhật（A:「この本は日本語を学ぶ外国人向けに書かれたテキストだが」、B:「練習問題（英語、中国語、韓国語の翻訳つき）も豊富。日本語学習者はもちろん…」）&rarr; Loại 3 và 4 (vì không phải sách viết riêng cho người Nhật).<br>• Nội dung trọng tâm của sách là các quy tắc ngữ pháp（文法的ルール、「は」と「が」の使い分け、「て形」のいろいろな使い方、文法的な決まり）kèm theo rất nhiều bài tập thực hành（練習問題）.<br>&rarr; Tiêu đề phù hợp nhất là: <b>1. 『日本語文法練習帳』</b>.",
+          "explanation": "<b>💡 Bối cảnh bài đọc (Mondai 12 - So sánh đối chiếu):</b><br>Cả hai bài viết <b>【A】</b> và <b>【B】</b> đều là các bài giới thiệu/nhận xét (review) về <b>cùng một cuốn giáo trình tiếng Nhật</b> (được nhắc đến bằng cụm từ «この本»):<br>• <b>Đoạn A:</b> Người Nhật đọc và nhận xét cuốn sách này tuy viết cho người nước ngoài nhưng người Nhật đọc cũng rất bổ ích.<br>• <b>Đoạn B:</b> Giáo viên dạy tiếng Nhật giới thiệu về mục đích biên soạn và đối tượng sử dụng cuốn sách này.<br><br><b>🔍 Phân tích chọn đáp án:</b><br>• Cả A và B đều giới thiệu đây là sách viết cho người nước ngoài học tiếng Nhật（A:「この本は日本語を学ぶ外国人向けに書かれたテキストだが」、B:「練習問題（英語、中国語、韓国語の翻訳つき）も豊富。日本語学習者はもちろん…」）&rarr; <b>Loại phương án 3 và 4</b> (vì có tên『日本人のための…』- sách dành riêng cho người Nhật).<br>• Nội dung trọng tâm xuyên suốt cuốn sách là các <b>quy tắc ngữ pháp</b> và có nhiều <b>bài tập thực hành</b>（A:「文法的ルール」「練習問題」; B:「文法的な決まり」「練習問題も豊富」). Cuốn sách không phải sách luyện viết đoạn văn（文章）.<br>&rarr; Tiêu đề phù hợp và chính xác nhất là: <b>1. 『日本語文法練習帳』</b>.",
           "id": 69
         },
         {
