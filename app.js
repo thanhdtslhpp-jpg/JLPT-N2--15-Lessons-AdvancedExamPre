@@ -2794,9 +2794,30 @@ class JLPTApp {
       `;
     }
 
-    const headerHTML = isSharedWithPrev ? `
+    const hasPassage = !!(passageInfo && passageInfo.passage);
+    const firstGroupId = passageGroup && passageGroup.length > 0 ? passageGroup[0].id : q.id;
+    const lastGroupId = passageGroup && passageGroup.length > 0 ? passageGroup[passageGroup.length - 1].id : q.id;
+
+    // Header của khối đoạn văn (hiển thị TRƯỚC đoạn văn)
+    const passageHeaderHTML = (hasPassage && !isSharedWithPrev) ? `
+      <div class="q-header passage-top-header">
+        <span class="q-mondai-badge">${q.mondaiName || "Mondai " + q.mondai}</span>
+        <span class="passage-group-title">
+          <i class="fas fa-book-reader"></i>
+          ${isMultiQuestionPassage
+            ? `Đoạn văn cho Câu ${firstGroupId} – Câu ${lastGroupId} (${passageGroup.length} câu hỏi)`
+            : `Đoạn văn cho Câu ${q.id}`}
+        </span>
+      </div>
+    ` : "";
+
+    // Header của từng câu hỏi (luôn hiển thị BÊN DƯỚI đoạn văn cho cả Câu đầu và các Câu tiếp theo)
+    const questionHeaderHTML = hasPassage ? `
       <div class="q-header q-sub-header">
-        <span class="q-sub-badge"><i class="fas fa-pen-alt"></i> Câu hỏi ${posInGroup}/${passageGroup.length}</span>
+        <span class="q-sub-badge">
+          <i class="fas fa-pen-alt"></i>
+          ${isMultiQuestionPassage ? `Câu hỏi ${posInGroup}/${passageGroup.length}` : `Câu hỏi đọc hiểu`}
+        </span>
         <span class="q-index">Câu ${q.id}</span>
         <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
           <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
@@ -2805,21 +2826,21 @@ class JLPTApp {
     ` : `
       <div class="q-header">
         <span class="q-mondai-badge">${q.mondaiName || "Mondai " + q.mondai}</span>
-        <span class="q-index">Câu ${q.id}${isMultiQuestionPassage ? ` <span class="q-sub-pos">(Câu 1/${passageGroup.length})</span>` : ""}</span>
+        <span class="q-index">Câu ${q.id}</span>
         <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
           <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
         </button>
       </div>
     `;
 
-    const questionItemOpen = isMultiQuestionPassage ? `<div class="passage-subquestion-item ${isSharedWithPrev ? "is-child" : "is-first"}">` : "";
-    const questionItemClose = isMultiQuestionPassage ? `</div>` : "";
+    const questionItemOpen = hasPassage ? `<div id="q-subitem-${q.id}" class="passage-subquestion-item ${isSharedWithPrev ? "is-child" : "is-first"}">` : "";
+    const questionItemClose = hasPassage ? `</div>` : "";
 
     return `
-      ${!isSharedWithPrev ? headerHTML : ""}
+      ${passageHeaderHTML}
       ${dokkaiHTML}
       ${questionItemOpen}
-      ${isSharedWithPrev ? headerHTML : ""}
+      ${questionHeaderHTML}
       ${isChoukai ? choukaiHeaderHTML : ""}
       ${audioHTML}
       ${imageHTML}

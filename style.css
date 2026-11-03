@@ -4643,6 +4643,35 @@ button,
   color: var(--primary);
 }
 
+.q-header.passage-top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1.5px dashed var(--border);
+}
+
+.passage-group-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-sub);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.passage-group-title i {
+  color: var(--primary);
+}
+
+.passage-subquestion-item.is-first {
+  margin-top: 0.5rem;
+  padding-top: 0.25rem;
+}
+
 .q-header.q-sub-header {
   margin-bottom: 0.75rem;
   padding-bottom: 0.4rem;
