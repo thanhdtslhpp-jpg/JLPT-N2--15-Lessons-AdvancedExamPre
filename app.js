@@ -2016,7 +2016,18 @@ class JLPTApp {
           else shortName = shortName.split("(")[0].replace("Chuyên đề", "CĐ").trim();
           tabsHtml += `<button type="button" class="mob-tab-chip ${this.activeFilter === sec.id ? 'active' : ''}" onclick="app.setFilter('${sec.id}'); app.renderMobilePallet();">${shortName} (${count})</button>`;
         });
+        const sessionKey = this.currentSessionId;
+        const starredList = (this.bookmarks && this.bookmarks[sessionKey]) ? this.bookmarks[sessionKey] : [];
+        if (starredList.length > 0 || this.activeFilter === "starred") {
+          tabsHtml += `<button type="button" class="mob-tab-chip ${this.activeFilter === 'starred' ? 'active' : ''}" onclick="app.setFilter('starred'); app.renderMobilePallet();"><i class="fas fa-star" style="color: #f59e0b; margin-right: 3px;"></i>Đã lưu (${starredList.length})</button>`;
+        }
         filterTabsContainer.innerHTML = tabsHtml;
+        setTimeout(() => {
+          const activeChip = filterTabsContainer.querySelector(".mob-tab-chip.active");
+          if (activeChip) {
+            activeChip.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          }
+        }, 50);
       }
     }
 

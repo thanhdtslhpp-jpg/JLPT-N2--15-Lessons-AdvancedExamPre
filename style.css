@@ -3857,6 +3857,7 @@ body.hide-furigana ruby:hover rt {
 }
 
 .mobile-pallet-header {
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3889,9 +3890,12 @@ body.hide-furigana ruby:hover rt {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0.5rem;
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 .mobile-pallet-footer {
+  flex-shrink: 0;
   padding: 0.75rem 1rem;
   padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
   background: var(--bg-main);
@@ -4194,33 +4198,69 @@ body.hide-furigana ruby:hover rt {
 /* Mobile Pallet Filter Switcher Chips */
 .mobile-pallet-filter-tabs {
   display: flex;
-  gap: 0.4rem;
-  padding: 0.55rem 0.85rem;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.75rem 1rem;
+  min-height: 56px;
   background: var(--bg-main);
   border-bottom: 1px solid var(--border);
   overflow-x: auto;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  flex-shrink: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.45) transparent;
+}
+
+.mobile-pallet-filter-tabs::-webkit-scrollbar {
+  height: 5px;
+}
+
+.mobile-pallet-filter-tabs::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mobile-pallet-filter-tabs::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.45);
+  border-radius: 9999px;
+}
+
+.mobile-pallet-filter-tabs::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.75);
 }
 
 .mob-tab-chip {
-  padding: 0.35rem 0.7rem;
-  font-size: 0.78rem;
+  padding: 0.45rem 0.95rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  border-radius: 20px;
+  border-radius: 9999px;
   border: 1.5px solid var(--border);
   background: var(--card-bg);
   color: var(--text-sub);
   white-space: nowrap;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.18s ease;
   flex-shrink: 0;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.mob-tab-chip:hover {
+  background: var(--bg-hover, rgba(79, 70, 229, 0.05));
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .mob-tab-chip.active {
   background: var(--primary);
-  color: #fff;
+  color: #fff !important;
   border-color: var(--primary);
-  box-shadow: 0 1px 4px rgba(79, 70, 229, 0.3);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.35);
+  font-weight: 700;
 }
 
 
@@ -4410,6 +4450,7 @@ button,
 
 /* Legend in Mobile Pallet Card */
 .mobile-pallet-legend {
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
