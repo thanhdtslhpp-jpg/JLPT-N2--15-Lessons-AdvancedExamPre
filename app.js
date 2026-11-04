@@ -1316,6 +1316,12 @@ class JLPTApp {
     const searchInput = document.getElementById("cs-search-input");
     const searchClear = document.getElementById("cs-search-clear");
     const tabsContainer = document.getElementById("cs-modal-tabs");
+    const cardEl = document.getElementById("cs-modal-card");
+    const zoomInBtn = document.getElementById("btn-cs-zoom-in");
+    const zoomOutBtn = document.getElementById("btn-cs-zoom-out");
+    const zoomLabel = document.getElementById("cs-zoom-label");
+    const fullscreenBtn = document.getElementById("btn-cs-fullscreen");
+    const fullscreenIcon = document.getElementById("cs-fullscreen-icon");
 
     if (closeBtn) {
       closeBtn.addEventListener("click", () => this.closeCheatsheet());
@@ -1324,6 +1330,49 @@ class JLPTApp {
     if (modal) {
       modal.addEventListener("click", (e) => {
         if (e.target === modal) this.closeCheatsheet();
+      });
+    }
+
+    // Zoom level controls (small 90%, normal 100%, large 115%, xlarge 132%)
+    const zoomLevels = ["small", "normal", "large", "xlarge"];
+    const zoomLabels = { small: "90%", normal: "100%", large: "115%", xlarge: "132%" };
+    let currentZoom = localStorage.getItem("jlpt_cs_zoom") || "normal";
+    if (!zoomLevels.includes(currentZoom)) currentZoom = "normal";
+
+    const applyZoom = (lvl) => {
+      currentZoom = lvl;
+      if (cardEl) cardEl.dataset.zoom = lvl;
+      if (zoomLabel) zoomLabel.textContent = zoomLabels[lvl] || "100%";
+      localStorage.setItem("jlpt_cs_zoom", lvl);
+    };
+    applyZoom(currentZoom);
+
+    if (zoomInBtn) {
+      zoomInBtn.addEventListener("click", () => {
+        const idx = zoomLevels.indexOf(currentZoom);
+        if (idx < zoomLevels.length - 1) applyZoom(zoomLevels[idx + 1]);
+      });
+    }
+
+    if (zoomOutBtn) {
+      zoomOutBtn.addEventListener("click", () => {
+        const idx = zoomLevels.indexOf(currentZoom);
+        if (idx > 0) applyZoom(zoomLevels[idx - 1]);
+      });
+    }
+
+    if (fullscreenBtn) {
+      fullscreenBtn.addEventListener("click", () => {
+        if (cardEl) {
+          cardEl.classList.toggle("is-fullscreen");
+          const isFs = cardEl.classList.contains("is-fullscreen");
+          if (fullscreenIcon) {
+            fullscreenIcon.className = isFs ? "fas fa-compress" : "fas fa-expand";
+          }
+          if (fullscreenBtn) {
+            fullscreenBtn.title = isFs ? "Thu nhỏ cửa sổ" : "Phóng to toàn màn hình";
+          }
+        }
       });
     }
 
@@ -1340,7 +1389,7 @@ class JLPTApp {
       searchInput.addEventListener("input", (e) => {
         const q = e.target.value.trim();
         if (searchClear) searchClear.style.display = q ? "block" : "none";
-        this.renderCheatsheetContent(this.activeCheatsheetId || "cs_pho_tu", q);
+        this.renderCheatsheetContent(this.activeCheatsheetId || "cs_kosei_np", q);
       });
     }
 
@@ -1349,7 +1398,7 @@ class JLPTApp {
         if (searchInput) {
           searchInput.value = "";
           searchClear.style.display = "none";
-          this.renderCheatsheetContent(this.activeCheatsheetId || "cs_pho_tu", "");
+          this.renderCheatsheetContent(this.activeCheatsheetId || "cs_kosei_np", "");
           searchInput.focus();
         }
       });
@@ -1359,9 +1408,13 @@ class JLPTApp {
   openCheatsheet(csId) {
     const modal = document.getElementById("cheatsheet-modal");
     if (!modal) return;
-    this.activeCheatsheetId = csId || "cs_pho_tu";
+    this.activeCheatsheetId = csId || "cs_kosei_np";
     this.switchCheatsheetTab(this.activeCheatsheetId);
     modal.style.display = "flex";
+  }
+
+  openCheatsheetModal(csId) {
+    this.openCheatsheet(csId || "cs_kosei_np");
   }
 
   closeCheatsheet() {
@@ -1407,311 +1460,44 @@ class JLPTApp {
     // Helper highlight
     const hl = (txt) => {
       if (!query || !txt) return txt || "";
-      const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')})`, 'gi');
-      return txt.replace(regex, '<mark style="background:#fef08a;color:#854d0e;padding:1px 3px;border-radius:3px;">$1</mark>');
+      const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      return String(txt).replace(regex, '<mark style="background:#fef08a;color:#854d0e;padding:1px 4px;border-radius:4px;font-weight:700;">$1</mark>');
     };
 
-    if (csId === "cs_pho_tu") {
-      const items = (allData.cs_pho_tu || []).filter(item => {
-        if (!query) return true;
-        return item.adverb.toLowerCase().includes(qLower) ||
-               item.pattern.toLowerCase().includes(qLower) ||
-               item.meaning.toLowerCase().includes(qLower) ||
-               (item.note && item.note.toLowerCase().includes(qLower));
-      });
-
-      if (items.length === 0) {
-        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy phó từ nào khớp với "${query}"</div>`;
-        return;
+    // Helper format bilingual examples
+    const formatBilingual = (ex) => {
+      if (!ex) return { ja: "", vi: "" };
+      const m = ex.match(/^([^(（]+)[(（]([^)）]+)[)）]$/);
+      if (m) {
+        return { ja: m[1].trim(), vi: m[2].trim() };
       }
+      return { ja: ex, vi: "" };
+    };
 
-      body.innerHTML = `
-        <div class="cs-table-wrap">
-          <table class="cs-table">
-            <thead>
-              <tr>
-                <th style="width: 28%;">Phó từ (副詞)</th>
-                <th style="width: 28%;">Mẫu câu đi kèm</th>
-                <th style="width: 26%;">Ý nghĩa</th>
-                <th style="width: 18%;">Ghi chú / Mẹo</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${items.map(it => `
-                <tr>
-                  <td><span class="cs-highlight-term">${hl(it.adverb)}</span></td>
-                  <td><b style="color:var(--primary);">${hl(it.pattern)}</b></td>
-                  <td>${hl(it.meaning)}</td>
-                  <td><small style="color:var(--text-muted);">${hl(it.note)}</small></td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        </div>
-      `;
-    } else if (csId === "cs_dong_tu") {
-      const verbs = (allData.cs_dong_tu || []).filter(v => {
-        if (!query) return true;
-        return v.verb.toLowerCase().includes(qLower) ||
-               (v.kanji && v.kanji.toLowerCase().includes(qLower)) ||
-               v.meanings.some(m => m.meaning.toLowerCase().includes(qLower) || m.example.toLowerCase().includes(qLower));
-      });
-
-      if (verbs.length === 0) {
-        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy động từ nào khớp với "${query}"</div>`;
-        return;
-      }
-
-      body.innerHTML = `
-        <div class="cs-card-list">
-          ${verbs.map(v => `
-            <div class="cs-item-card" style="border-left-color: #ec4899;">
-              <div class="cs-item-head">
-                <div class="cs-item-title" style="color: #ec4899; font-size: 1.15rem;">
-                  ${hl(v.verb)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">[Hán Việt: ${v.kanji}]</span>
-                </div>
-                <span class="cs-badge-pill" style="background: rgba(236, 72, 153, 0.15); color: #ec4899;">${v.meanings.length} Nét Nghĩa</span>
-              </div>
-              <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
-                ${v.meanings.map((m, idx) => `
-                  <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border);">
-                    <div style="font-weight: 600; color: var(--text-main); margin-bottom: 0.2rem;">
-                      <span style="color: #ec4899; font-weight: 700;">${idx + 1}.</span> ${hl(m.meaning)}
-                    </div>
-                    <div style="font-size: 0.88rem; color: var(--text-muted);">
-                      <i class="fas fa-quote-left" style="font-size: 0.75rem; opacity: 0.6; margin-right: 0.3rem;"></i>${hl(m.example)}
-                    </div>
-                  </div>
-                `).join("")}
-              </div>
-            </div>
-          `).join("")}
-        </div>
-      `;
-    } else if (csId === "cs_mono_koto") {
-      const data = allData.cs_mono_koto || { koto: [], mono: [] };
-      const filterItems = (list) => list.filter(it => {
-        if (!query) return true;
-        return it.pattern.toLowerCase().includes(qLower) ||
-               it.meaning.toLowerCase().includes(qLower) ||
-               it.example.toLowerCase().includes(qLower);
-      });
-
-      const kotoFiltered = filterItems(data.koto || []);
-      const monoFiltered = filterItems(data.mono || []);
-
-      if (kotoFiltered.length === 0 && monoFiltered.length === 0) {
-        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy cấu trúc nào khớp với "${query}"</div>`;
-        return;
-      }
-
-      body.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #10b981; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc こと (KOTO)
-            </h3>
-            <div class="cs-table-wrap">
-              <table class="cs-table">
-                <thead>
-                  <tr>
-                    <th style="width: 25%;">Cấu trúc</th>
-                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
-                    <th style="width: 40%;">Ví dụ thực tế</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${kotoFiltered.map(it => `
-                    <tr>
-                      <td><b style="color: #10b981;">${hl(it.pattern)}</b></td>
-                      <td>${hl(it.meaning)}</td>
-                      <td><small style="color: var(--text-muted);">${hl(it.example)}</small></td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #3b82f6; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc もの (MONO)
-            </h3>
-            <div class="cs-table-wrap">
-              <table class="cs-table">
-                <thead>
-                  <tr>
-                    <th style="width: 25%;">Cấu trúc</th>
-                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
-                    <th style="width: 40%;">Ví dụ thực tế</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${monoFiltered.map(it => `
-                    <tr>
-                      <td><b style="color: #3b82f6;">${hl(it.pattern)}</b></td>
-                      <td>${hl(it.meaning)}</td>
-                      <td><small style="color: var(--text-muted);">${hl(it.example)}</small></td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      `;
-    } else if (csId === "cs_kinh_ngu") {
-      const data = allData.cs_kinh_ngu || { rules: [], special_verbs: [] };
-      const rules = (data.rules || []).filter(r => {
-        if (!query) return true;
-        return r.type.toLowerCase().includes(qLower) ||
-               r.formula.toLowerCase().includes(qLower) ||
-               r.example.toLowerCase().includes(qLower);
-      });
-      const verbs = (data.special_verbs || []).filter(v => {
-        if (!query) return true;
-        return v.normal.toLowerCase().includes(qLower) ||
-               v.sonkeigo.toLowerCase().includes(qLower) ||
-               v.kenjougo.toLowerCase().includes(qLower);
-      });
-
-      body.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #f59e0b; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-table"></i> Bảng Động Từ Kính Ngữ Đặc Biệt (Bắt buộc thuộc lòng)
-            </h3>
-            <div class="cs-table-wrap">
-              <table class="cs-table">
-                <thead>
-                  <tr>
-                    <th style="width: 25%;">Động từ thông thường</th>
-                    <th style="width: 37%;">Tôn kính ngữ (尊敬語 - Đối phương làm)</th>
-                    <th style="width: 38%;">Khiêm nhường ngữ (謙譲語 - Mình làm)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${verbs.map(v => `
-                    <tr>
-                      <td><b>${hl(v.normal)}</b></td>
-                      <td><span style="color: #10b981; font-weight: 700;">${hl(v.sonkeigo)}</span></td>
-                      <td><span style="color: #f59e0b; font-weight: 700;">${hl(v.kenjougo)}</span></td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #6366f1; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-cogs"></i> Quy Tắc Biến Đổi Kính Ngữ Theo Công Thức
-            </h3>
-            <div class="cs-table-wrap">
-              <table class="cs-table">
-                <thead>
-                  <tr>
-                    <th style="width: 25%;">Phân loại</th>
-                    <th style="width: 35%;">Công thức cấu tạo</th>
-                    <th style="width: 40%;">Ví dụ áp dụng</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${rules.map(r => `
-                    <tr>
-                      <td><span class="cs-badge-pill" style="background: rgba(99, 102, 241, 0.15); color: #6366f1;">${hl(r.type)}</span></td>
-                      <td><b style="color: var(--primary);">${hl(r.formula)}</b></td>
-                      <td><small style="color: var(--text-muted);">${hl(r.example)}</small></td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      `;
-    } else if (csId === "cs_dokkai_choukai") {
-      const data = allData.cs_dokkai_choukai || { dokkai_traps: [], choukai_formulas: [] };
-      const traps = (data.dokkai_traps || []).filter(t => {
-        if (!query) return true;
-        return t.trap_name.toLowerCase().includes(qLower) ||
-               t.desc.toLowerCase().includes(qLower) ||
-               t.solution.toLowerCase().includes(qLower);
-      });
-      const formulas = (data.choukai_formulas || []).filter(f => {
-        if (!query) return true;
-        return f.mondai.toLowerCase().includes(qLower) ||
-               f.tip.toLowerCase().includes(qLower);
-      });
-
-      body.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #ef4444; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-exclamation-triangle"></i> 5 Cạm Bẫy Đọc Hiểu Kinh Điển (Dokkai Traps)
-            </h3>
-            <div class="cs-card-list">
-              ${traps.map(t => `
-                <div class="cs-item-card" style="border-left-color: #ef4444;">
-                  <div class="cs-item-title" style="color: #ef4444; margin-bottom: 0.4rem;">
-                    ${hl(t.trap_name)}
-                  </div>
-                  <div style="font-size: 0.9rem; color: var(--text-main); line-height: 1.5; margin-bottom: 0.5rem;">
-                    ${hl(t.desc)}
-                  </div>
-                  <div style="background: rgba(239, 68, 68, 0.08); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.85rem; color: #b91c1c; font-weight: 600;">
-                    💡 Chiến lược hóa giải: ${hl(t.solution)}
-                  </div>
-                </div>
-              `).join("")}
-            </div>
-          </div>
-
-          <div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-headphones"></i> Chiến Lược Ăn Điểm 5 Mondai Nghe Hiểu (Choukai)
-            </h3>
-            <div class="cs-card-list">
-              ${formulas.map(f => `
-                <div class="cs-item-card" style="border-left-color: #06b6d4;">
-                  <div class="cs-item-title" style="color: #06b6d4; margin-bottom: 0.35rem;">
-                    ${hl(f.mondai)}
-                  </div>
-                  <div style="font-size: 0.9rem; color: var(--text-main); line-height: 1.5;">
-                    ${hl(f.tip)}
-                  </div>
-                </div>
-              `).join("")}
-            </div>
-          </div>
-        </div>
-      `;
-    } else if (csId === "cs_kosei_np") {
+    // 1. SỔ TAY KOSEI 75 TRANG
+    if (csId === "cs_kosei_np") {
       const book = allData.cs_kosei_np || { chapters: [] };
       const chapters = book.chapters || [];
       const activeChId = this.activeKoseiChapter || "all";
 
-      // Sub-chapter navigation buttons
       const subTabsHtml = `
-        <div style="display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.75rem; margin-bottom: 1rem; border-bottom: 1px dashed var(--border); scrollbar-width: thin;">
-          <button type="button" class="cs-subtab-btn ${activeChId === 'all' ? 'active' : ''}" data-chid="all" style="padding: 0.35rem 0.8rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === 'all' ? '#8b5cf6' : 'var(--bg-card)'}; color: ${activeChId === 'all' ? '#fff' : 'var(--text-main)'}; white-space: nowrap;">
+        <div style="display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.85rem; margin-bottom: 1.25rem; border-bottom: 1px dashed var(--border); scrollbar-width: thin;">
+          <button type="button" class="cs-subtab-btn ${activeChId === 'all' ? 'active' : ''}" data-chid="all" style="padding: 0.45rem 1rem; border-radius: 8px; font-size: calc(0.88rem * var(--cs-scale)); font-weight: 700; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === 'all' ? '#8b5cf6' : 'var(--card-bg)'}; color: ${activeChId === 'all' ? '#fff' : 'var(--text-main)'}; white-space: nowrap; transition: all 0.2s;">
             📖 Toàn bộ 75 trang
           </button>
           ${chapters.map((ch, idx) => `
-            <button type="button" class="cs-subtab-btn ${activeChId === ch.id ? 'active' : ''}" data-chid="${ch.id}" style="padding: 0.35rem 0.8rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === ch.id ? '#8b5cf6' : 'var(--bg-card)'}; color: ${activeChId === ch.id ? '#fff' : 'var(--text-main)'}; white-space: nowrap;">
+            <button type="button" class="cs-subtab-btn ${activeChId === ch.id ? 'active' : ''}" data-chid="${ch.id}" style="padding: 0.45rem 1rem; border-radius: 8px; font-size: calc(0.88rem * var(--cs-scale)); font-weight: 700; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === ch.id ? '#8b5cf6' : 'var(--card-bg)'}; color: ${activeChId === ch.id ? '#fff' : 'var(--text-main)'}; white-space: nowrap; transition: all 0.2s;">
               C${idx + 1}: ${ch.title.split(':')[1]?.trim() || ch.title} (${ch.pages})
             </button>
           `).join("")}
         </div>
       `;
 
-      // Filter chapters by active subtab
       const visibleChapters = chapters.filter(ch => {
         if (activeChId !== "all" && ch.id !== activeChId) return false;
         return true;
       });
 
-      // Render each chapter
       const renderChapterContent = (ch) => {
         let hasContent = false;
         let contentHtml = "";
@@ -1731,27 +1517,40 @@ class JLPTApp {
           if (secs.length > 0) {
             hasContent = true;
             contentHtml = `
-              <div class="cs-card-list">
+              <div style="display: flex; flex-direction: column; gap: 1.5rem;">
                 ${secs.map(sec => `
-                  <div class="cs-item-card" style="border-left-color: #8b5cf6;">
-                    <div class="cs-item-title" style="color: #8b5cf6; margin-bottom: 0.25rem;">
-                      Gốc Hán tự: ${hl(sec.root)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">- ${hl(sec.meaning)}</span>
+                  <div>
+                    <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.85rem;">
+                      <span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6; font-size: calc(0.95rem * var(--cs-scale)); font-weight: 800;">
+                        Gốc Hán Tự: ${hl(sec.root)}
+                      </span>
+                      <span style="font-size: calc(1rem * var(--cs-scale)); font-weight: 600; color: var(--text-sub);">
+                        ${hl(sec.meaning)}
+                      </span>
                     </div>
-                    <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem;">
+                    <div class="cs-card-grid">
                       ${sec.patterns.map(p => `
-                        <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border);">
-                          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                            <b style="color: var(--primary); font-size: 0.95rem;">${hl(p.pattern)}</b>
-                            ${p.note ? `<small style="background: rgba(99, 102, 241, 0.1); color: var(--primary); padding: 1px 6px; border-radius: 4px;">${hl(p.note)}</small>` : ''}
+                        <div class="cs-grammar-card" style="border-left-color: #8b5cf6;">
+                          <div class="cs-pattern-head">
+                            <span class="cs-pattern-title">${hl(p.pattern)}</span>
+                            ${p.note ? `<span class="cs-formula-badge">${hl(p.note)}</span>` : ''}
                           </div>
-                          <div style="font-size: 0.88rem; color: var(--text-main); margin-bottom: 0.35rem;">
+                          <div class="cs-meaning-text">
                             💡 ${hl(p.meaning)}
                           </div>
-                          ${(p.examples || []).map(ex => `
-                            <div style="font-size: 0.84rem; color: var(--text-muted); line-height: 1.4;">
-                              <i class="fas fa-quote-left" style="font-size: 0.72rem; opacity: 0.6; margin-right: 0.25rem;"></i>${hl(ex)}
+                          ${(p.examples || []).length > 0 ? `
+                            <div class="cs-example-group">
+                              ${p.examples.map(ex => {
+                                const b = formatBilingual(ex);
+                                return `
+                                  <div class="cs-example-item">
+                                    <div class="cs-ex-ja">${hl(b.ja)}</div>
+                                    ${b.vi ? `<div class="cs-ex-vi">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                                  </div>
+                                `;
+                              }).join("")}
                             </div>
-                          `).join("")}
+                          ` : ''}
                         </div>
                       `).join("")}
                     </div>
@@ -1775,10 +1574,10 @@ class JLPTApp {
           if (secs.length > 0) {
             hasContent = true;
             contentHtml = `
-              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div style="display: flex; flex-direction: column; gap: 1.5rem;">
                 ${secs.map(sec => `
                   <div>
-                    <h4 style="font-size: 0.95rem; font-weight: 700; color: #8b5cf6; margin-bottom: 0.5rem;">
+                    <h4 style="font-size: calc(1.08rem * var(--cs-scale)); font-weight: 800; color: #8b5cf6; margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.5rem;">
                       <i class="fas fa-layer-group"></i> ${sec.group}
                     </h4>
                     <div class="cs-table-wrap">
@@ -1786,18 +1585,32 @@ class JLPTApp {
                         <thead>
                           <tr>
                             <th style="width: 25%;">Mẫu câu</th>
-                            <th style="width: 35%;">Ý nghĩa & Sắc thái</th>
-                            <th style="width: 40%;">Ví dụ thực tế</th>
+                            <th style="width: 35%;">Ý nghĩa & Sắc thái phân biệt</th>
+                            <th style="width: 40%;">Ví dụ thực tế song ngữ</th>
                           </tr>
                         </thead>
                         <tbody>
-                          ${sec.patterns.map(p => `
-                            <tr>
-                              <td><b style="color: var(--primary);">${hl(p.pattern)}</b></td>
-                              <td>${hl(p.meaning)}</td>
-                              <td><small style="color: var(--text-muted);">${hl(p.example || '')}</small></td>
-                            </tr>
-                          `).join("")}
+                          ${sec.patterns.map(p => {
+                            const b = formatBilingual(p.example || "");
+                            return `
+                              <tr>
+                                <td>
+                                  <span class="cs-highlight-term">${hl(p.pattern)}</span>
+                                </td>
+                                <td>
+                                  <div style="font-weight: 600; color: var(--text-main); line-height: 1.6;">
+                                    ${hl(p.meaning)}
+                                  </div>
+                                </td>
+                                <td>
+                                  ${b.ja ? `
+                                    <div class="cs-ex-ja" style="font-size: calc(0.95rem * var(--cs-scale));">${hl(b.ja)}</div>
+                                    ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale)); margin-top: 0.2rem;">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                                  ` : '<span style="color: var(--text-sub);">-</span>'}
+                                </td>
+                              </tr>
+                            `;
+                          }).join("")}
                         </tbody>
                       </table>
                     </div>
@@ -1817,17 +1630,19 @@ class JLPTApp {
           if (signs.length > 0) {
             hasContent = true;
             contentHtml = `
-              <div class="cs-card-list">
+              <div class="cs-card-grid">
                 ${signs.map(s => `
-                  <div class="cs-item-card" style="border-left-color: #f59e0b;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                      <b style="color: #f59e0b; font-size: 1rem;"><i class="fas fa-bolt"></i> ${hl(s.signType)}</b>
-                      <span class="cs-badge-pill" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">Dấu Hiệu Vàng</span>
+                  <div class="cs-grammar-card" style="border-left-color: #f59e0b;">
+                    <div class="cs-pattern-head">
+                      <span class="cs-pattern-title" style="color: #d97706;">
+                        <i class="fas fa-bolt" style="color: #f59e0b; margin-right: 0.35rem;"></i>${hl(s.signType)}
+                      </span>
+                      <span class="cs-badge-pill" style="background: rgba(245, 158, 11, 0.15); color: #d97706;">Dấu Hiệu Vàng</span>
                     </div>
-                    <div style="margin-bottom: 0.4rem;">
-                      <span style="font-weight: 700; color: var(--primary);">Mẫu câu thường gặp:</span> <b>${hl(s.patterns)}</b>
+                    <div style="margin-bottom: 0.6rem;">
+                      <span class="cs-formula-badge">${hl(s.patterns)}</span>
                     </div>
-                    <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.88rem; line-height: 1.5; white-space: pre-line;">
+                    <div class="cs-note-box" style="margin-top: 0.5rem; font-size: calc(0.95rem * var(--cs-scale)); white-space: pre-line;">
                       ${hl(s.rule)}
                     </div>
                   </div>
@@ -1846,22 +1661,29 @@ class JLPTApp {
           if (items.length > 0) {
             hasContent = true;
             contentHtml = `
-              <div class="cs-card-list">
-                ${items.map(it => `
-                  <div class="cs-item-card" style="border-left-color: #ef4444;">
-                    <div class="cs-item-title" style="color: #ef4444; margin-bottom: 0.35rem;">
-                      ${hl(it.pattern)}
-                    </div>
-                    <div style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0.35rem;">
-                      💡 <b>Ý nghĩa:</b> ${hl(it.meaning)}
-                    </div>
-                    ${it.example ? `
-                      <div style="background: var(--bg-card); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.85rem; color: var(--text-muted);">
-                        <i class="fas fa-quote-left" style="font-size: 0.72rem; opacity: 0.6; margin-right: 0.3rem;"></i>${hl(it.example)}
+              <div class="cs-card-grid">
+                ${items.map(it => {
+                  const b = formatBilingual(it.example || "");
+                  return `
+                    <div class="cs-grammar-card" style="border-left-color: #ef4444;">
+                      <div class="cs-pattern-head">
+                        <span class="cs-pattern-title" style="color: #dc2626;">${hl(it.pattern)}</span>
+                        <span class="cs-badge-pill" style="background: rgba(239, 68, 68, 0.12); color: #dc2626;">Ngoài Shinkanzen</span>
                       </div>
-                    ` : ''}
-                  </div>
-                `).join("")}
+                      <div class="cs-meaning-text">
+                        💡 <b>Ý nghĩa:</b> ${hl(it.meaning)}
+                      </div>
+                      ${b.ja ? `
+                        <div class="cs-example-group">
+                          <div class="cs-example-item">
+                            <div class="cs-ex-ja">${hl(b.ja)}</div>
+                            ${b.vi ? `<div class="cs-ex-vi">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                          </div>
+                        </div>
+                      ` : ''}
+                    </div>
+                  `;
+                }).join("")}
               </div>
             `;
           }
@@ -1875,13 +1697,15 @@ class JLPTApp {
           if (tips.length > 0) {
             hasContent = true;
             contentHtml = `
-              <div class="cs-card-list">
+              <div class="cs-card-grid">
                 ${tips.map(t => `
-                  <div class="cs-item-card" style="border-left-color: #6366f1;">
-                    <div style="font-weight: 700; color: #6366f1; font-size: 1rem; margin-bottom: 0.4rem;">
-                      Mẹo ${t.tipNumber}: ${hl(t.title)}
+                  <div class="cs-grammar-card" style="border-left-color: #6366f1;">
+                    <div class="cs-pattern-head">
+                      <span class="cs-pattern-title" style="color: #4f46e5;">
+                        <i class="fas fa-star" style="color: #f59e0b; margin-right: 0.35rem;"></i>Mẹo ${t.tipNumber}: ${hl(t.title)}
+                      </span>
                     </div>
-                    <div style="background: var(--bg-card); padding: 0.65rem 0.85rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.88rem; line-height: 1.5; white-space: pre-line;">
+                    <div style="background: var(--bg-main); padding: 0.9rem 1.1rem; border-radius: 10px; border: 1px solid var(--border); font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.6; white-space: pre-line; color: var(--text-main);">
                       ${hl(t.detail)}
                     </div>
                   </div>
@@ -1892,30 +1716,30 @@ class JLPTApp {
         } else if (ch.id === "ch8") {
           hasContent = true;
           contentHtml = `
-            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
               ${(ch.sections || []).map(sec => `
                 <div>
-                  <h4 style="font-size: 0.95rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.5rem;">
+                  <h4 style="font-size: calc(1.08rem * var(--cs-scale)); font-weight: 800; color: #06b6d4; margin-bottom: 0.65rem;">
                     ${sec.title}
                   </h4>
                   <div class="cs-table-wrap">
                     <table class="cs-table">
                       <thead>
                         <tr>
-                          ${sec.items[0]?.adverb ? '<th style="width: 35%;">Phó từ</th><th style="width: 35%;">Mẫu đi kèm</th><th style="width: 30%;">Ý nghĩa</th>' : '<th style="width: 25%;">Động từ</th><th style="width: 40%;">Tôn kính ngữ</th><th style="width: 35%;">Khiêm nhường ngữ</th>'}
+                          ${sec.items[0]?.adverb ? '<th style="width: 32%;">Phó từ cố định</th><th style="width: 33%;">Mẫu ngữ pháp đi kèm</th><th style="width: 35%;">Ý nghĩa sư phạm</th>' : '<th style="width: 25%;">Động từ gốc</th><th style="width: 38%;">Tôn kính ngữ (Sonkeigo)</th><th style="width: 37%;">Khiêm nhường ngữ (Kenjougo)</th>'}
                         </tr>
                       </thead>
                       <tbody>
                         ${(sec.items || []).map(it => `
                           <tr>
                             ${it.adverb ? `
-                              <td><b>${hl(it.adverb)}</b></td>
-                              <td><span style="color: var(--primary); font-weight: 600;">${hl(it.match)}</span></td>
-                              <td>${hl(it.meaning)}</td>
+                              <td><span class="cs-highlight-term">${hl(it.adverb)}</span></td>
+                              <td><b style="color: var(--primary); font-size: calc(1.02rem * var(--cs-scale));">${hl(it.match)}</b></td>
+                              <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
                             ` : `
                               <td><b>${hl(it.verb)}</b></td>
-                              <td><span style="color: #10b981; font-weight: 600;">${hl(it.sonkei)}</span></td>
-                              <td><span style="color: #f59e0b; font-weight: 600;">${hl(it.kenjou)}</span></td>
+                              <td><span style="color: #059669; font-weight: 700; font-size: calc(1.02rem * var(--cs-scale));">${hl(it.sonkei)}</span></td>
+                              <td><span style="color: #d97706; font-weight: 700; font-size: calc(1.02rem * var(--cs-scale));">${hl(it.kenjou)}</span></td>
                             `}
                           </tr>
                         `).join("")}
@@ -1931,14 +1755,14 @@ class JLPTApp {
         if (!hasContent) return "";
 
         return `
-          <div style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
-              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin: 0;">
+          <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.75rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+              <h3 style="font-size: calc(1.22rem * var(--cs-scale)); font-weight: 800; color: var(--text-main); margin: 0;">
                 ${ch.title}
               </h3>
-              <span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">${ch.pages}</span>
+              <span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">${ch.pages}</span>
             </div>
-            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.4;">
+            <p style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-sub); margin-bottom: 1.25rem; line-height: 1.5;">
               ${ch.description}
             </p>
             ${contentHtml}
@@ -1951,8 +1775,8 @@ class JLPTApp {
       if (!chaptersOutput) {
         body.innerHTML = `
           ${subTabsHtml}
-          <div style="text-align:center;padding:3rem;color:var(--text-muted);">
-            <i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>
+          <div style="text-align:center;padding:3rem;color:var(--text-sub);">
+            <i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>
             Không tìm thấy nội dung nào trong 75 trang Kosei khớp với "${query}"
           </div>
         `;
@@ -1964,7 +1788,6 @@ class JLPTApp {
         ${chaptersOutput}
       `;
 
-      // Attach subtab click events
       const subTabs = body.querySelectorAll(".cs-subtab-btn");
       subTabs.forEach(btn => {
         btn.addEventListener("click", () => {
@@ -1972,6 +1795,300 @@ class JLPTApp {
           this.renderCheatsheetContent("cs_kosei_np", query);
         });
       });
+      return;
+    }
+
+    // 2. PHÓ TỪ
+    if (csId === "cs_pho_tu") {
+      const items = (allData.cs_pho_tu || []).filter(item => {
+        if (!query) return true;
+        return item.adverb.toLowerCase().includes(qLower) ||
+               item.pattern.toLowerCase().includes(qLower) ||
+               item.meaning.toLowerCase().includes(qLower) ||
+               (item.note && item.note.toLowerCase().includes(qLower));
+      });
+
+      if (items.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy phó từ nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div class="cs-table-wrap">
+          <table class="cs-table">
+            <thead>
+              <tr>
+                <th style="width: 28%;">Phó từ (副詞)</th>
+                <th style="width: 28%;">Mẫu câu đi kèm cố định</th>
+                <th style="width: 26%;">Ý nghĩa sư phạm</th>
+                <th style="width: 18%;">Ghi chú / Cạm bẫy</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${items.map(it => `
+                <tr>
+                  <td><span class="cs-highlight-term">${hl(it.adverb)}</span></td>
+                  <td><b style="color:var(--primary); font-size: calc(1.05rem * var(--cs-scale));">${hl(it.pattern)}</b></td>
+                  <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
+                  <td><small style="color:var(--text-sub); font-size: calc(0.9rem * var(--cs-scale));">${hl(it.note)}</small></td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+      return;
+    }
+
+    // 3. ĐỘNG TỪ ĐA NGHĨA
+    if (csId === "cs_dong_tu") {
+      const verbs = (allData.cs_dong_tu || []).filter(v => {
+        if (!query) return true;
+        return v.verb.toLowerCase().includes(qLower) ||
+               (v.kanji && v.kanji.toLowerCase().includes(qLower)) ||
+               v.meanings.some(m => m.meaning.toLowerCase().includes(qLower) || m.example.toLowerCase().includes(qLower));
+      });
+
+      if (verbs.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy động từ nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div class="cs-card-grid">
+          ${verbs.map(v => `
+            <div class="cs-grammar-card" style="border-left-color: #ec4899;">
+              <div class="cs-pattern-head">
+                <span class="cs-pattern-title" style="color: #db2777; font-size: calc(1.3rem * var(--cs-scale));">
+                  ${hl(v.verb)} <small style="font-size: calc(0.88rem * var(--cs-scale)); font-weight: normal; color: var(--text-sub);">[Hán Việt: ${v.kanji}]</small>
+                </span>
+                <span class="cs-badge-pill" style="background: rgba(236, 72, 153, 0.15); color: #db2777;">${v.meanings.length} Nét Nghĩa</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-top: 0.4rem;">
+                ${v.meanings.map((m, idx) => {
+                  const b = formatBilingual(m.example || "");
+                  return `
+                    <div style="background: var(--bg-main); padding: 0.75rem 1rem; border-radius: 10px; border: 1px solid var(--border);">
+                      <div style="font-weight: 700; color: var(--text-main); margin-bottom: 0.35rem; font-size: calc(1rem * var(--cs-scale));">
+                        <span style="color: #db2777; font-weight: 800;">${idx + 1}.</span> ${hl(m.meaning)}
+                      </div>
+                      ${b.ja ? `
+                        <div class="cs-ex-ja" style="font-size: calc(0.96rem * var(--cs-scale));">${hl(b.ja)}</div>
+                        ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale));">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                      ` : ''}
+                    </div>
+                  `;
+                }).join("")}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      return;
+    }
+
+    // 4. MONO & KOTO
+    if (csId === "cs_mono_koto") {
+      const data = allData.cs_mono_koto || { koto: [], mono: [] };
+      const filterItems = (list) => list.filter(it => {
+        if (!query) return true;
+        return it.pattern.toLowerCase().includes(qLower) ||
+               it.meaning.toLowerCase().includes(qLower) ||
+               it.example.toLowerCase().includes(qLower);
+      });
+
+      const kotoFiltered = filterItems(data.koto || []);
+      const monoFiltered = filterItems(data.mono || []);
+
+      if (kotoFiltered.length === 0 && monoFiltered.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy cấu trúc nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <div>
+            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #10b981; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc こと (KOTO)
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Cấu trúc</th>
+                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
+                    <th style="width: 40%;">Ví dụ thực tế song ngữ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${kotoFiltered.map(it => {
+                    const b = formatBilingual(it.example || "");
+                    return `
+                      <tr>
+                        <td><span class="cs-highlight-term" style="color: #059669;">${hl(it.pattern)}</span></td>
+                        <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
+                        <td>
+                          ${b.ja ? `
+                            <div class="cs-ex-ja" style="font-size: calc(0.96rem * var(--cs-scale));">${hl(b.ja)}</div>
+                            ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale));">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                          ` : '-'}
+                        </td>
+                      </tr>
+                    `;
+                  }).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #3b82f6; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc もの (MONO)
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Cấu trúc</th>
+                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
+                    <th style="width: 40%;">Ví dụ thực tế song ngữ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${monoFiltered.map(it => {
+                    const b = formatBilingual(it.example || "");
+                    return `
+                      <tr>
+                        <td><span class="cs-highlight-term" style="color: #2563eb;">${hl(it.pattern)}</span></td>
+                        <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
+                        <td>
+                          ${b.ja ? `
+                            <div class="cs-ex-ja" style="font-size: calc(0.96rem * var(--cs-scale));">${hl(b.ja)}</div>
+                            ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale));">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                          ` : '-'}
+                        </td>
+                      </tr>
+                    `;
+                  }).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    // 5. KÍNH NGỮ
+    if (csId === "cs_kinh_ngu") {
+      const data = allData.cs_kinh_ngu || { basicVerbs: [], specialForms: [] };
+      const filterVerbs = (list) => list.filter(v => {
+        if (!query) return true;
+        return v.verb.toLowerCase().includes(qLower) ||
+               v.sonkei.toLowerCase().includes(qLower) ||
+               v.kenjou.toLowerCase().includes(qLower);
+      });
+
+      const basicFiltered = filterVerbs(data.basicVerbs || []);
+
+      if (basicFiltered.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy động từ kính ngữ nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div class="cs-table-wrap">
+            <table class="cs-table">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">Động từ thông thường</th>
+                  <th style="width: 38%; color: #059669;">Tôn kính ngữ (尊敬語 - Đối phương làm)</th>
+                  <th style="width: 37%; color: #d97706;">Khiêm nhường ngữ (謙譲語 - Mình làm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${basicFiltered.map(it => `
+                  <tr>
+                    <td><b style="font-size: calc(1.08rem * var(--cs-scale));">${hl(it.verb)}</b></td>
+                    <td><span style="color: #059669; font-weight: 700; font-size: calc(1.04rem * var(--cs-scale));">${hl(it.sonkei)}</span></td>
+                    <td><span style="color: #d97706; font-weight: 700; font-size: calc(1.04rem * var(--cs-scale));">${hl(it.kenjou)}</span></td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    // 6. BẪY ĐỌC HIỂU & CÔNG THỨC NGHE HIỂU
+    if (csId === "cs_dokkai_choukai") {
+      const data = allData.cs_dokkai_choukai || { readingTraps: [], listeningFormulas: [] };
+      const traps = (data.readingTraps || []).filter(t => {
+        if (!query) return true;
+        return t.trapName.toLowerCase().includes(qLower) ||
+               t.description.toLowerCase().includes(qLower) ||
+               t.howToAvoid.toLowerCase().includes(qLower);
+      });
+      const formulas = (data.listeningFormulas || []).filter(f => {
+        if (!query) return true;
+        return f.mondai.toLowerCase().includes(qLower) ||
+               f.strategy.toLowerCase().includes(qLower) ||
+               f.tip.toLowerCase().includes(qLower);
+      });
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <div>
+            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #f59e0b; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-exclamation-triangle"></i> 7 Bẫy Đọc Hiểu Kinh Điển JLPT N2
+            </h3>
+            <div class="cs-card-grid">
+              ${traps.map(t => `
+                <div class="cs-grammar-card" style="border-left-color: #f59e0b;">
+                  <div class="cs-pattern-head">
+                    <span class="cs-pattern-title" style="color: #d97706;">
+                      ${t.id}. ${hl(t.trapName)}
+                    </span>
+                  </div>
+                  <div class="cs-meaning-text">
+                    ${hl(t.description)}
+                  </div>
+                  <div class="cs-note-box" style="margin-top: 0.4rem;">
+                    <div><b>🛡️ Cách phá bẫy:</b> ${hl(t.howToAvoid)}</div>
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #8b5cf6; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-headphones"></i> Chiến Thuật 5 Mondai Nghe Hiểu (Choukai)
+            </h3>
+            <div class="cs-card-grid">
+              ${formulas.map(f => `
+                <div class="cs-grammar-card" style="border-left-color: #8b5cf6;">
+                  <div class="cs-pattern-head">
+                    <span class="cs-pattern-title" style="color: #6d28d9;">
+                      ${hl(f.mondai)}
+                    </span>
+                  </div>
+                  <div style="font-weight: 700; color: var(--text-main); margin-bottom: 0.4rem; font-size: calc(1rem * var(--cs-scale));">
+                    🎯 <b>Chiến lược:</b> ${hl(f.strategy)}
+                  </div>
+                  <div style="background: var(--bg-main); padding: 0.75rem 1rem; border-radius: 10px; border: 1px solid var(--border); font-size: calc(0.94rem * var(--cs-scale)); line-height: 1.6; color: var(--text-main);">
+                    💡 ${hl(f.tip)}
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+        </div>
+      `;
+      return;
     }
   }
 

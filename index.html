@@ -455,7 +455,7 @@
 
   <!-- 8. Cheatsheet Viewer Modal (Thư Viện Bí Kíp Tra Nhanh N2) -->
   <div class="modal-overlay" id="cheatsheet-modal" style="display: none;">
-    <div class="cheatsheet-modal-card">
+    <div class="cheatsheet-modal-card" id="cs-modal-card" data-zoom="normal">
       <div class="cs-modal-header">
         <div class="cs-header-left">
           <div class="cs-header-icon" id="cs-modal-icon" style="background: #6366f1;">
@@ -466,15 +466,38 @@
             <div id="cs-modal-subtitle" class="cs-subtitle">Tra cứu cấp tốc phó từ, động từ đa nghĩa, kính ngữ, cấu trúc trọng điểm N2</div>
           </div>
         </div>
-        <button type="button" class="cs-close-btn" id="btn-close-cs-modal" title="Đóng (Esc)">
-          <i class="fas fa-times"></i>
-        </button>
+
+        <div class="cs-header-actions">
+          <!-- Cụm điều chỉnh cỡ chữ -->
+          <div class="cs-zoom-group" title="Điều chỉnh cỡ chữ">
+            <button type="button" class="cs-zoom-btn" id="btn-cs-zoom-out" title="Thu nhỏ chữ">
+              <i class="fas fa-font"></i>-
+            </button>
+            <span class="cs-zoom-level" id="cs-zoom-label">100%</span>
+            <button type="button" class="cs-zoom-btn" id="btn-cs-zoom-in" title="Phóng to chữ">
+              <i class="fas fa-font"></i>+
+            </button>
+          </div>
+
+          <!-- Nút Toàn màn hình -->
+          <button type="button" class="cs-ctrl-btn" id="btn-cs-fullscreen" title="Phóng to toàn màn hình / Thu nhỏ">
+            <i class="fas fa-expand" id="cs-fullscreen-icon"></i>
+          </button>
+
+          <!-- Nút đóng -->
+          <button type="button" class="cs-close-btn" id="btn-close-cs-modal" title="Đóng (Esc)">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
       </div>
 
       <!-- Quick Switch Tabs -->
       <div class="cs-modal-tabs" id="cs-modal-tabs">
-        <button type="button" class="cs-tab-btn active" data-cs="cs_pho_tu">
-          <i class="fas fa-link"></i> Phó từ
+        <button type="button" class="cs-tab-btn active" data-cs="cs_kosei_np">
+          <i class="fas fa-book-bookmark"></i> Sổ Tay Kosei (75 Trang)
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_pho_tu">
+          <i class="fas fa-link"></i> Phó từ mặc định
         </button>
         <button type="button" class="cs-tab-btn" data-cs="cs_dong_tu">
           <i class="fas fa-book-open"></i> Động từ đa nghĩa
@@ -487,9 +510,6 @@
         </button>
         <button type="button" class="cs-tab-btn" data-cs="cs_dokkai_choukai">
           <i class="fas fa-headphones-alt"></i> Bẫy Đọc - Nghe
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_kosei_np">
-          <i class="fas fa-graduation-cap"></i> Gốc Hán tự
         </button>
       </div>
 
