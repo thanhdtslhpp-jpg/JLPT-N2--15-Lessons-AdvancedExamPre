@@ -57,11 +57,11 @@ window.JLPT_DRILLS = [
     title: "Chuyên Đề 5: Ngữ Pháp Đục Lỗ Đoạn Văn (Mondai 9)",
     badge: "Mondai 9",
     badgeColor: "#f59e0b",
-    description: "Luyện kỹ năng nắm mạch văn, liên kết câu và điền ngữ pháp trong bài văn ngắn thực tế.",
-    ready: false,
+    description: "Bộ 9 bài đọc đục lỗ chuyên sâu (37 câu hỏi) từ Power Drill và Sou Matome giúp rèn luyện tư duy mạch văn, liên từ và cấu trúc ngữ pháp toàn bài.",
+    ready: true,
     file: "data/chuyende_duc_lo.js",
     stats: {
-      totalQuestions: 35,
+      totalQuestions: 37,
       type: "cloze"
     }
   },
