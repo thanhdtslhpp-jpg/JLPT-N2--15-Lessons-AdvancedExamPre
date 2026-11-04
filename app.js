@@ -1687,32 +1687,43 @@ class JLPTApp {
         </div>
       `;
     } else if (csId === "cs_kosei_np") {
-      const roots = (allData.cs_kosei_np || []).filter(r => {
-        if (!query) return true;
-        return r.root.toLowerCase().includes(qLower) ||
-               r.patterns.some(p => p.name.toLowerCase().includes(qLower) || p.meaning.toLowerCase().includes(qLower));
-      });
+      const categories = (allData.cs_kosei_np || []).map(cat => {
+        const filteredItems = (cat.items || []).filter(it => {
+          if (!query) return true;
+          return it.pattern.toLowerCase().includes(qLower) ||
+                 it.meaning.toLowerCase().includes(qLower) ||
+                 (it.kanji && it.kanji.toLowerCase().includes(qLower));
+        });
+        return { category: cat.category, items: filteredItems };
+      }).filter(cat => cat.items.length > 0);
+
+      if (categories.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy nội dung nào khớp với "${query}"</div>`;
+        return;
+      }
 
       body.innerHTML = `
-        <div class="cs-card-list">
-          ${roots.map(r => `
-            <div class="cs-item-card" style="border-left-color: #8b5cf6;">
-              <div class="cs-item-title" style="color: #8b5cf6; margin-bottom: 0.5rem;">
-                Gốc từ: ${hl(r.root)}
-              </div>
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          ${categories.map(cat => `
+            <div>
+              <h3 style="font-size: 1.05rem; font-weight: 700; color: #8b5cf6; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                <i class="fas fa-graduation-cap"></i> ${cat.category}
+              </h3>
               <div class="cs-table-wrap">
                 <table class="cs-table">
                   <thead>
                     <tr>
+                      <th style="width: 20%;">Gốc / Chủ điểm</th>
                       <th style="width: 35%;">Mẫu ngữ pháp</th>
-                      <th style="width: 65%;">Ý nghĩa và sắc thái</th>
+                      <th style="width: 45%;">Ý nghĩa & Sắc thái sư phạm</th>
                     </tr>
                   </thead>
                   <tbody>
-                    ${r.patterns.map(p => `
+                    ${cat.items.map(it => `
                       <tr>
-                        <td><b style="color: #8b5cf6;">${hl(p.name)}</b></td>
-                        <td>${hl(p.meaning)}</td>
+                        <td><span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">${hl(it.kanji)}</span></td>
+                        <td><b style="color: var(--primary);">${hl(it.pattern)}</b></td>
+                        <td>${hl(it.meaning)}</td>
                       </tr>
                     `).join("")}
                   </tbody>

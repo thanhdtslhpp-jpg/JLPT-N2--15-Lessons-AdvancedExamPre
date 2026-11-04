@@ -482,70 +482,187 @@ window.JLPT_CHEATSHEETS_DATA = {
   },
   "cs_kosei_np": [
     {
-      "root": "対 (ĐỐI - Quan hệ đối ứng, hướng đến, trái ngược)",
-      "patterns": [
+      "category": "PHẦN 1: HỌC NGỮ PHÁP QUA GỐC HÁN TỰ (75 TRANG KOSEI)",
+      "items": [
         {
-          "name": "～に対して (にたいして)",
+          "kanji": "対 (ĐỐI)",
+          "pattern": "～に対して (にたいして)",
           "meaning": "Trái ngược với... (so sánh đối lập) / Đối với... (hướng thái độ vào đối tượng)"
         },
         {
-          "name": "～に対する (にたいする)",
-          "meaning": "Đối với... (bổ nghĩa danh từ: Phát ngôn đối với đối phương)"
+          "kanji": "対 (ĐỐI)",
+          "pattern": "～に対する (にたいする)",
+          "meaning": "Đối với... (bổ nghĩa cho danh từ theo sau)"
         },
         {
-          "name": "～に応えて (にこたえて)",
-          "meaning": "Đáp lại (kỳ vọng, mong mỏi, tiếng reo hò của khán giả)"
+          "kanji": "対 (ĐỐI)",
+          "pattern": "～に応えて (にこたえて)",
+          "meaning": "Đáp ứng, đáp lại (kỳ vọng, yêu cầu, tiếng hò reo cổ vũ)"
+        },
+        {
+          "kanji": "通 (THÔNG)",
+          "pattern": "～を通じて / ～を通して",
+          "meaning": "Thông qua phương tiện, người trung gian / Xuyên suốt khoảng thời gian (4 mùa, cả năm)"
+        },
+        {
+          "kanji": "通 (THÔNG)",
+          "pattern": "～通りに (とおりに)",
+          "meaning": "Làm đúng theo như (chỉ dẫn, bản đồ, kế hoạch dự tính)"
+        },
+        {
+          "kanji": "連 (LIÊN)",
+          "pattern": "～につれて (につれて)",
+          "meaning": "Kéo theo, dẫn theo (A biến đổi kéo theo B tự nhiên biến đổi theo)"
+        },
+        {
+          "kanji": "従 (TÙNG)",
+          "pattern": "～にしたがって (にしたがって)",
+          "meaning": "Cùng với sự biến đổi / Tuân thủ theo (quy định, chỉ thị)"
+        },
+        {
+          "kanji": "違 (VI)",
+          "pattern": "～に違いない (にちがいない)",
+          "meaning": "Chắc chắn là... (không sai đi đâu được, phán đoán có cơ sở vững chắc)"
+        },
+        {
+          "kanji": "決 (QUYẾT)",
+          "pattern": "～に決まっている",
+          "meaning": "Nhất định là, quả quyết rằng là... (khẳng định chủ quan tuyệt đối)"
+        },
+        {
+          "kanji": "代 (ĐẠI)",
+          "pattern": "～に代わって / ～に代わり",
+          "meaning": "Đại diện cho, thay thế cho... (ai đó làm việc)"
+        },
+        {
+          "kanji": "関 (QUAN)",
+          "pattern": "～に関して (にかんして)",
+          "meaning": "Liên quan đến, về vấn đề... (trang trọng, dùng trong khảo sát, điều tra)"
+        },
+        {
+          "kanji": "反 (PHẢN)",
+          "pattern": "～に反して (にはんして)",
+          "meaning": "Trái với, ngược lại với (dự đoán, kỳ vọng, quy tắc)"
+        },
+        {
+          "kanji": "恐 (KHỦNG)",
+          "pattern": "～恐れがある (おそれがある)",
+          "meaning": "Có nguy cơ, e sợ rằng là... (hậu quả tiêu cực lớn, thiên tai, dịch bệnh)"
         }
       ]
     },
     {
-      "root": "通 (THÔNG - Xuyên suốt, thông qua con đường/trung gian)",
-      "patterns": [
+      "category": "PHẦN 2: HỆ THỐNG NGỮ PHÁP DỄ NHẦM LẪN (HAY BẪY TRONG ĐỀ THI)",
+      "items": [
         {
-          "name": "～を通じて / ～を通して (をつうじて・をとおして)",
-          "meaning": "Thông qua phương tiện, người trung gian / Xuyên suốt khoảng thời gian (cả năm bốn mùa)"
+          "kanji": "わけ",
+          "pattern": "わけがない",
+          "meaning": "Không thể nào mà... (tuyệt đối không thể có chuyện đó = はずがない)"
         },
         {
-          "name": "～通りに (とおりに)",
-          "meaning": "Đúng theo như (chỉ dẫn, bản đồ, dự đoán ban đầu)"
+          "kanji": "わけ",
+          "pattern": "わけではない",
+          "meaning": "Không hẳn là, không phải là... (phủ định một phần, tránh vơ đũa cả nắm)"
+        },
+        {
+          "kanji": "わけ",
+          "pattern": "わけだ",
+          "meaning": "1. Thảo nào mà (hiểu ra lý do) / 2. Tức là, thành ra là..."
+        },
+        {
+          "kanji": "わけ",
+          "pattern": "わけにはいかない",
+          "meaning": "Không thể làm được (vì đạo đức, lương tâm, áp lực xã hội ngăn cản)"
+        },
+        {
+          "kanji": "よう",
+          "pattern": "～ようがない",
+          "meaning": "Không còn cách nào để... (hoàn toàn bế tắc phương pháp)"
+        },
+        {
+          "kanji": "よう",
+          "pattern": "～ようになっている",
+          "meaning": "Được thiết kế/cài đặt tự động làm gì (máy móc, cơ chế)"
+        },
+        {
+          "kanji": "つもり",
+          "pattern": "～たつもり",
+          "meaning": "Cứ đinh ninh, cứ ngỡ là đã... (thực tế lại trái ngược)"
+        },
+        {
+          "kanji": "ほど",
+          "pattern": "～ば～ほど",
+          "meaning": "Càng... thì càng... (tỷ lệ thuận)"
+        },
+        {
+          "kanji": "ほど",
+          "pattern": "～ほど～はない",
+          "meaning": "Không có gì bằng... (khẳng định vị trí cao nhất)"
+        },
+        {
+          "kanji": "限る",
+          "pattern": "～に限る",
+          "meaning": "Là nhất, tốt nhất là... (lời khuyên tâm đắc)"
+        },
+        {
+          "kanji": "限る",
+          "pattern": "～に限って",
+          "meaning": "1. Chỉ riêng hôm đó / 2. Đúng vào lúc xui xẻo / 3. Riêng người đó thì không thể làm việc xấu"
         }
       ]
     },
     {
-      "root": "関 / 連 (QUAN / LIÊN - Mối liên hệ qua lại)",
-      "patterns": [
+      "category": "PHẦN 3: CÁC MẪU NGỮ PHÁP NGOÀI SHINKANZEN (RẤT HAY THI JLPT THẬT)",
+      "items": [
         {
-          "name": "～に関して (にかんして)",
-          "meaning": "Về vấn đề... (trang trọng hơn について, dùng cho điều tra, nghiên cứu)"
+          "kanji": "っこない",
+          "pattern": "V bỏ ます + っこない",
+          "meaning": "Tuyệt đối không thể nào làm được (văn nói khẳng định mạnh mẽ)"
         },
         {
-          "name": "～に関連して (にかんれんして)",
-          "meaning": "Liên quan mật thiết đến..."
+          "kanji": "げ",
+          "pattern": "A bỏ い/な + げ",
+          "meaning": "Có vẻ... (mang tâm trạng cảm xúc: 自信ありげ, 悲しげ, 懐かしげ)"
         },
         {
-          "name": "～に伴って / ～につれて (にともなって・につれて)",
-          "meaning": "Cùng với sự biến đổi A kéo theo sự biến đổi B (kéo theo, tỷ lệ thuận)"
+          "kanji": "かいがある",
+          "pattern": "V-た / N の + かいがある",
+          "meaning": "Bõ công, xứng đáng với công sức bỏ ra (đạt kết quả tốt đẹp)"
+        },
+        {
+          "kanji": "かいもなく",
+          "pattern": "V-た / N の + かいもなく",
+          "meaning": "Uổng công, vô ích dẫu đã cất công nỗ lực (kết quả thất vọng)"
+        },
+        {
+          "kanji": "ぬく",
+          "pattern": "V bỏ ます + ぬく",
+          "meaning": "Làm đến cùng dẫu trải qua vô vàn gian nan (最後までやりぬく)"
+        },
+        {
+          "kanji": "だらけ",
+          "pattern": "N + だらけ",
+          "meaning": "Đầy những thứ tiêu cực bám dính (bùn đất, vết thương, lỗi sai)"
         }
       ]
     },
     {
-      "root": "限 (HẠN - Giới hạn, phạm vi)",
-      "patterns": [
+      "category": "PHẦN 4: DẤU HIỆU NHẬN BIẾT & MẸO LÀM DẠNG BÀI DẤU SAO ★",
+      "items": [
         {
-          "name": "～に限る (にかぎる)",
-          "meaning": "Là nhất / Tốt nhất là... (không gì sánh bằng) / Giới hạn riêng cho đối tượng"
+          "kanji": "Dấu sao",
+          "pattern": "Không đi với câu mệnh lệnh",
+          "meaning": "Các cấu trúc như ～につれて, ～に伴って, ～にしたがって vế sau không dùng câu nhờ vả, sai khiến, mệnh lệnh."
         },
         {
-          "name": "～に限らず (にかぎらず)",
-          "meaning": "Không chỉ giới hạn ở... mà còn rộng ra toàn thể"
+          "kanji": "Dấu sao",
+          "pattern": "Đi tìm cặp bài trùng",
+          "meaning": "Thấy からといって &rarr; tìm vế sau とは限らない, わけではない. Thấy いくら/どんなに &rarr; tìm vế sau ても/でも."
         },
         {
-          "name": "～限り (かぎり)",
-          "meaning": "Chừng nào mà còn... / Trong phạm vi (những gì tôi biết)"
-        },
-        {
-          "name": "～とは限らない (とはかぎらない)",
-          "meaning": "Chưa chắc / Không hẳn là lúc nào cũng thế"
+          "kanji": "Dấu sao",
+          "pattern": "Định ngữ danh từ hóa",
+          "meaning": "Thấy trợ từ の ghép với danh từ; thấy thể thông thường bổ nghĩa cho danh từ sau."
         }
       ]
     }
