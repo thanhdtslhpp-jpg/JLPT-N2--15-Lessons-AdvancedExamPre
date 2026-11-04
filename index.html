@@ -448,6 +448,62 @@
     </div>
   </div>
 
+  <!-- 8. Cheatsheet Viewer Modal (Thư Viện Bí Kíp Tra Nhanh N2) -->
+  <div class="modal-overlay" id="cheatsheet-modal" style="display: none;">
+    <div class="cheatsheet-modal-card">
+      <div class="cs-modal-header">
+        <div class="cs-header-left">
+          <div class="cs-header-icon" id="cs-modal-icon" style="background: #6366f1;">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <div>
+            <h2 id="cs-modal-title" class="cs-title">Thư Viện Bí Kíp Tra Nhanh</h2>
+            <div id="cs-modal-subtitle" class="cs-subtitle">Tra cứu cấp tốc phó từ, động từ đa nghĩa, kính ngữ, cấu trúc trọng điểm N2</div>
+          </div>
+        </div>
+        <button type="button" class="cs-close-btn" id="btn-close-cs-modal" title="Đóng (Esc)">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Quick Switch Tabs -->
+      <div class="cs-modal-tabs" id="cs-modal-tabs">
+        <button type="button" class="cs-tab-btn active" data-cs="cs_pho_tu">
+          <i class="fas fa-link"></i> Phó từ
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_dong_tu">
+          <i class="fas fa-book-open"></i> Động từ đa nghĩa
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_mono_koto">
+          <i class="fas fa-layer-group"></i> もの・こと
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_kinh_ngu">
+          <i class="fas fa-user-tie"></i> Kính ngữ
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_dokkai_choukai">
+          <i class="fas fa-headphones-alt"></i> Bẫy Đọc - Nghe
+        </button>
+        <button type="button" class="cs-tab-btn" data-cs="cs_kosei_np">
+          <i class="fas fa-graduation-cap"></i> Gốc Hán tự
+        </button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="cs-search-bar">
+        <i class="fas fa-search cs-search-icon"></i>
+        <input type="text" id="cs-search-input" class="cs-search-input" placeholder="Tìm kiếm nhanh mẫu câu, từ vựng, ý nghĩa tiếng Việt (VD: 訴える, まるで, 敬語, bẫy...)" autocomplete="off" />
+        <button type="button" id="cs-search-clear" class="cs-search-clear" style="display: none;" title="Xóa tìm kiếm">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Content Container -->
+      <div class="cs-modal-body" id="cs-modal-body">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="data/common_dict.js?v=20261103_1_0"></script>
   <script src="data/syllabus.js?v=20261103_1_0"></script>
@@ -469,6 +525,7 @@
   <script src="data/passage_translations.js?v=20261103_1_0"></script>
   <script src="data/star_translations.js?v=20261103_1_0"></script>
   <script src="data/drills_catalog.js?v=20261104_1_0"></script>
+  <script src="data/cheatsheets_data.js?v=20261104_1_0"></script>
   <script src="data/chuyende_dau_sao.js?v=20261104_1_0"></script>
   <script src="data/chuyende_cach_dung_tu.js?v=20261104_1_0"></script>
   <script src="data/chuyende_tien_to_hau_to.js?v=20261104_1_0"></script>

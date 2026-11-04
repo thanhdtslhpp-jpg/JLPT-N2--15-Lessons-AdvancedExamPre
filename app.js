@@ -668,8 +668,14 @@ class JLPTApp {
         if (modal && modal.style.display !== "none") {
           modal.style.display = "none";
         }
+        const csModal = document.getElementById("cheatsheet-modal");
+        if (csModal && csModal.style.display !== "none") {
+          this.closeCheatsheet();
+        }
       }
     });
+
+    this.setupCheatsheetModal();
 
     // Khi bôi đen văn bản trên PC / Điện thoại: KHÔNG tự ý hiện ngay bảng nghĩa từ điển
     // Mà chỉ hiển thị thanh tác vụ gọn gàng [Đọc | Tra từ | Sao chép]. Người dùng bấm 'Tra từ' mới mở bảng nghĩa.
@@ -1281,11 +1287,13 @@ class JLPTApp {
       cheatsheets.forEach(cs => {
         const card = document.createElement("div");
         card.className = "cheatsheet-card";
+        card.style.cursor = "pointer";
+        card.onclick = () => this.openCheatsheet(cs.id);
         card.innerHTML = `
           <div class="cheatsheet-icon-box" style="background: ${cs.color || '#6366f1'};">
             <i class="fas ${cs.icon || 'fa-book'}"></i>
           </div>
-          <div>
+          <div style="flex: 1;">
             <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-main);">
               ${cs.title}
             </div>
@@ -1293,9 +1301,427 @@ class JLPTApp {
               ${cs.subtitle}
             </div>
           </div>
+          <div style="color: var(--primary); font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 0.25rem; align-self: center;">
+            <span>Tra cứu</span> <i class="fas fa-arrow-right"></i>
+          </div>
         `;
         csGrid.appendChild(card);
       });
+    }
+  }
+
+  setupCheatsheetModal() {
+    const modal = document.getElementById("cheatsheet-modal");
+    const closeBtn = document.getElementById("btn-close-cs-modal");
+    const searchInput = document.getElementById("cs-search-input");
+    const searchClear = document.getElementById("cs-search-clear");
+    const tabsContainer = document.getElementById("cs-modal-tabs");
+
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => this.closeCheatsheet());
+    }
+
+    if (modal) {
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) this.closeCheatsheet();
+      });
+    }
+
+    if (tabsContainer) {
+      tabsContainer.addEventListener("click", (e) => {
+        const btn = e.target.closest(".cs-tab-btn");
+        if (btn && btn.dataset.cs) {
+          this.switchCheatsheetTab(btn.dataset.cs);
+        }
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener("input", (e) => {
+        const q = e.target.value.trim();
+        if (searchClear) searchClear.style.display = q ? "block" : "none";
+        this.renderCheatsheetContent(this.activeCheatsheetId || "cs_pho_tu", q);
+      });
+    }
+
+    if (searchClear) {
+      searchClear.addEventListener("click", () => {
+        if (searchInput) {
+          searchInput.value = "";
+          searchClear.style.display = "none";
+          this.renderCheatsheetContent(this.activeCheatsheetId || "cs_pho_tu", "");
+          searchInput.focus();
+        }
+      });
+    }
+  }
+
+  openCheatsheet(csId) {
+    const modal = document.getElementById("cheatsheet-modal");
+    if (!modal) return;
+    this.activeCheatsheetId = csId || "cs_pho_tu";
+    this.switchCheatsheetTab(this.activeCheatsheetId);
+    modal.style.display = "flex";
+  }
+
+  closeCheatsheet() {
+    const modal = document.getElementById("cheatsheet-modal");
+    if (modal) modal.style.display = "none";
+  }
+
+  switchCheatsheetTab(csId) {
+    this.activeCheatsheetId = csId;
+    const tabBtns = document.querySelectorAll(".cs-tab-btn");
+    tabBtns.forEach(btn => {
+      if (btn.dataset.cs === csId) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+
+    const cheatsheetMeta = (window.JLPT_CHEATSHEETS || []).find(c => c.id === csId);
+    if (cheatsheetMeta) {
+      const titleEl = document.getElementById("cs-modal-title");
+      const subEl = document.getElementById("cs-modal-subtitle");
+      const iconEl = document.getElementById("cs-modal-icon");
+      if (titleEl) titleEl.textContent = cheatsheetMeta.title;
+      if (subEl) subEl.textContent = cheatsheetMeta.subtitle;
+      if (iconEl) {
+        iconEl.style.background = cheatsheetMeta.color || "#6366f1";
+        iconEl.innerHTML = `<i class="fas ${cheatsheetMeta.icon || 'fa-book'}"></i>`;
+      }
+    }
+
+    const searchInput = document.getElementById("cs-search-input");
+    const query = searchInput ? searchInput.value.trim() : "";
+    this.renderCheatsheetContent(csId, query);
+  }
+
+  renderCheatsheetContent(csId, query = "") {
+    const body = document.getElementById("cs-modal-body");
+    if (!body) return;
+    const allData = window.JLPT_CHEATSHEETS_DATA || {};
+    const qLower = query.toLowerCase();
+
+    // Helper highlight
+    const hl = (txt) => {
+      if (!query || !txt) return txt || "";
+      const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')})`, 'gi');
+      return txt.replace(regex, '<mark style="background:#fef08a;color:#854d0e;padding:1px 3px;border-radius:3px;">$1</mark>');
+    };
+
+    if (csId === "cs_pho_tu") {
+      const items = (allData.cs_pho_tu || []).filter(item => {
+        if (!query) return true;
+        return item.adverb.toLowerCase().includes(qLower) ||
+               item.pattern.toLowerCase().includes(qLower) ||
+               item.meaning.toLowerCase().includes(qLower) ||
+               (item.note && item.note.toLowerCase().includes(qLower));
+      });
+
+      if (items.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy phó từ nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div class="cs-table-wrap">
+          <table class="cs-table">
+            <thead>
+              <tr>
+                <th style="width: 28%;">Phó từ (副詞)</th>
+                <th style="width: 28%;">Mẫu câu đi kèm</th>
+                <th style="width: 26%;">Ý nghĩa</th>
+                <th style="width: 18%;">Ghi chú / Mẹo</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${items.map(it => `
+                <tr>
+                  <td><span class="cs-highlight-term">${hl(it.adverb)}</span></td>
+                  <td><b style="color:var(--primary);">${hl(it.pattern)}</b></td>
+                  <td>${hl(it.meaning)}</td>
+                  <td><small style="color:var(--text-muted);">${hl(it.note)}</small></td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    } else if (csId === "cs_dong_tu") {
+      const verbs = (allData.cs_dong_tu || []).filter(v => {
+        if (!query) return true;
+        return v.verb.toLowerCase().includes(qLower) ||
+               (v.kanji && v.kanji.toLowerCase().includes(qLower)) ||
+               v.meanings.some(m => m.meaning.toLowerCase().includes(qLower) || m.example.toLowerCase().includes(qLower));
+      });
+
+      if (verbs.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy động từ nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div class="cs-card-list">
+          ${verbs.map(v => `
+            <div class="cs-item-card" style="border-left-color: #ec4899;">
+              <div class="cs-item-head">
+                <div class="cs-item-title" style="color: #ec4899; font-size: 1.15rem;">
+                  ${hl(v.verb)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">[Hán Việt: ${v.kanji}]</span>
+                </div>
+                <span class="cs-badge-pill" style="background: rgba(236, 72, 153, 0.15); color: #ec4899;">${v.meanings.length} Nét Nghĩa</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+                ${v.meanings.map((m, idx) => `
+                  <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border);">
+                    <div style="font-weight: 600; color: var(--text-main); margin-bottom: 0.2rem;">
+                      <span style="color: #ec4899; font-weight: 700;">${idx + 1}.</span> ${hl(m.meaning)}
+                    </div>
+                    <div style="font-size: 0.88rem; color: var(--text-muted);">
+                      <i class="fas fa-quote-left" style="font-size: 0.75rem; opacity: 0.6; margin-right: 0.3rem;"></i>${hl(m.example)}
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    } else if (csId === "cs_mono_koto") {
+      const data = allData.cs_mono_koto || { koto: [], mono: [] };
+      const filterItems = (list) => list.filter(it => {
+        if (!query) return true;
+        return it.pattern.toLowerCase().includes(qLower) ||
+               it.meaning.toLowerCase().includes(qLower) ||
+               it.example.toLowerCase().includes(qLower);
+      });
+
+      const kotoFiltered = filterItems(data.koto || []);
+      const monoFiltered = filterItems(data.mono || []);
+
+      if (kotoFiltered.length === 0 && monoFiltered.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy cấu trúc nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #10b981; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc こと (KOTO)
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Cấu trúc</th>
+                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
+                    <th style="width: 40%;">Ví dụ thực tế</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${kotoFiltered.map(it => `
+                    <tr>
+                      <td><b style="color: #10b981;">${hl(it.pattern)}</b></td>
+                      <td>${hl(it.meaning)}</td>
+                      <td><small style="color: var(--text-muted);">${hl(it.example)}</small></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #3b82f6; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc もの (MONO)
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Cấu trúc</th>
+                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
+                    <th style="width: 40%;">Ví dụ thực tế</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${monoFiltered.map(it => `
+                    <tr>
+                      <td><b style="color: #3b82f6;">${hl(it.pattern)}</b></td>
+                      <td>${hl(it.meaning)}</td>
+                      <td><small style="color: var(--text-muted);">${hl(it.example)}</small></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      `;
+    } else if (csId === "cs_kinh_ngu") {
+      const data = allData.cs_kinh_ngu || { rules: [], special_verbs: [] };
+      const rules = (data.rules || []).filter(r => {
+        if (!query) return true;
+        return r.type.toLowerCase().includes(qLower) ||
+               r.formula.toLowerCase().includes(qLower) ||
+               r.example.toLowerCase().includes(qLower);
+      });
+      const verbs = (data.special_verbs || []).filter(v => {
+        if (!query) return true;
+        return v.normal.toLowerCase().includes(qLower) ||
+               v.sonkeigo.toLowerCase().includes(qLower) ||
+               v.kenjougo.toLowerCase().includes(qLower);
+      });
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #f59e0b; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-table"></i> Bảng Động Từ Kính Ngữ Đặc Biệt (Bắt buộc thuộc lòng)
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Động từ thông thường</th>
+                    <th style="width: 37%;">Tôn kính ngữ (尊敬語 - Đối phương làm)</th>
+                    <th style="width: 38%;">Khiêm nhường ngữ (謙譲語 - Mình làm)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${verbs.map(v => `
+                    <tr>
+                      <td><b>${hl(v.normal)}</b></td>
+                      <td><span style="color: #10b981; font-weight: 700;">${hl(v.sonkeigo)}</span></td>
+                      <td><span style="color: #f59e0b; font-weight: 700;">${hl(v.kenjougo)}</span></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #6366f1; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-cogs"></i> Quy Tắc Biến Đổi Kính Ngữ Theo Công Thức
+            </h3>
+            <div class="cs-table-wrap">
+              <table class="cs-table">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Phân loại</th>
+                    <th style="width: 35%;">Công thức cấu tạo</th>
+                    <th style="width: 40%;">Ví dụ áp dụng</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rules.map(r => `
+                    <tr>
+                      <td><span class="cs-badge-pill" style="background: rgba(99, 102, 241, 0.15); color: #6366f1;">${hl(r.type)}</span></td>
+                      <td><b style="color: var(--primary);">${hl(r.formula)}</b></td>
+                      <td><small style="color: var(--text-muted);">${hl(r.example)}</small></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      `;
+    } else if (csId === "cs_dokkai_choukai") {
+      const data = allData.cs_dokkai_choukai || { dokkai_traps: [], choukai_formulas: [] };
+      const traps = (data.dokkai_traps || []).filter(t => {
+        if (!query) return true;
+        return t.trap_name.toLowerCase().includes(qLower) ||
+               t.desc.toLowerCase().includes(qLower) ||
+               t.solution.toLowerCase().includes(qLower);
+      });
+      const formulas = (data.choukai_formulas || []).filter(f => {
+        if (!query) return true;
+        return f.mondai.toLowerCase().includes(qLower) ||
+               f.tip.toLowerCase().includes(qLower);
+      });
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #ef4444; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-exclamation-triangle"></i> 5 Cạm Bẫy Đọc Hiểu Kinh Điển (Dokkai Traps)
+            </h3>
+            <div class="cs-card-list">
+              ${traps.map(t => `
+                <div class="cs-item-card" style="border-left-color: #ef4444;">
+                  <div class="cs-item-title" style="color: #ef4444; margin-bottom: 0.4rem;">
+                    ${hl(t.trap_name)}
+                  </div>
+                  <div style="font-size: 0.9rem; color: var(--text-main); line-height: 1.5; margin-bottom: 0.5rem;">
+                    ${hl(t.desc)}
+                  </div>
+                  <div style="background: rgba(239, 68, 68, 0.08); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.85rem; color: #b91c1c; font-weight: 600;">
+                    💡 Chiến lược hóa giải: ${hl(t.solution)}
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-headphones"></i> Chiến Lược Ăn Điểm 5 Mondai Nghe Hiểu (Choukai)
+            </h3>
+            <div class="cs-card-list">
+              ${formulas.map(f => `
+                <div class="cs-item-card" style="border-left-color: #06b6d4;">
+                  <div class="cs-item-title" style="color: #06b6d4; margin-bottom: 0.35rem;">
+                    ${hl(f.mondai)}
+                  </div>
+                  <div style="font-size: 0.9rem; color: var(--text-main); line-height: 1.5;">
+                    ${hl(f.tip)}
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+        </div>
+      `;
+    } else if (csId === "cs_kosei_np") {
+      const roots = (allData.cs_kosei_np || []).filter(r => {
+        if (!query) return true;
+        return r.root.toLowerCase().includes(qLower) ||
+               r.patterns.some(p => p.name.toLowerCase().includes(qLower) || p.meaning.toLowerCase().includes(qLower));
+      });
+
+      body.innerHTML = `
+        <div class="cs-card-list">
+          ${roots.map(r => `
+            <div class="cs-item-card" style="border-left-color: #8b5cf6;">
+              <div class="cs-item-title" style="color: #8b5cf6; margin-bottom: 0.5rem;">
+                Gốc từ: ${hl(r.root)}
+              </div>
+              <div class="cs-table-wrap">
+                <table class="cs-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 35%;">Mẫu ngữ pháp</th>
+                      <th style="width: 65%;">Ý nghĩa và sắc thái</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${r.patterns.map(p => `
+                      <tr>
+                        <td><b style="color: #8b5cf6;">${hl(p.name)}</b></td>
+                        <td>${hl(p.meaning)}</td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
     }
   }
 
