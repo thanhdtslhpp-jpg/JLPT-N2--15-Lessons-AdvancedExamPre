@@ -70,9 +70,9 @@ window.JLPT_DRILLS = [
     title: "Chuyên Đề 6: Cày Nát Ngữ Pháp Drill & Drill N2 (Mondai 7)",
     badge: "Mondai 7",
     badgeColor: "#3b82f6",
-    description: "Trọn bộ 9 chuyên đề bài tập ngữ pháp thực chiến N2 kèm bảng phân tích đáp án chi tiết từng câu.",
-    ready: false,
-    file: "data/chuyende_ngu_phap_drill.js",
+    description: "Trọn bộ 120 câu hỏi ngữ pháp thực chiến kinh điển từ giáo trình Drill & Drill N2 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu.",
+    ready: true,
+    file: "data/chuyende_ngu_phap_n2.js",
     stats: {
       totalQuestions: 120,
       type: "grammar"
