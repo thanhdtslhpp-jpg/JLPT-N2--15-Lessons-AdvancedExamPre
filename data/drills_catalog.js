@@ -19,10 +19,10 @@ window.JLPT_DRILLS = [
     badge: "Mondai 6",
     badgeColor: "#ec4899",
     description: "Bộ câu hỏi phân tích ngữ cảnh sử dụng từ chuẩn xác từ Drill, Best Sougou và Yosou. Khắc phục triệt để nguy cơ mất điểm ở dạng bài khó nhất phần Từ vựng.",
-    ready: false,
+    ready: true,
     file: "data/chuyende_cach_dung_tu.js",
     stats: {
-      totalQuestions: 80,
+      totalQuestions: 60,
       type: "usage"
     }
   },
