@@ -84,10 +84,10 @@ window.JLPT_DRILLS = [
     badge: "Củng Cố N3",
     badgeColor: "#14b8a6",
     description: "Ôn tập cấp tốc toàn bộ cấu trúc ngữ pháp N3 nền tảng hay lừa trong đề thi N2, đảm bảo không mất điểm oan.",
-    ready: false,
+    ready: true,
     file: "data/chuyende_ngu_phap_n3.js",
     stats: {
-      totalQuestions: 150,
+      totalQuestions: 104,
       type: "grammar"
     }
   }
