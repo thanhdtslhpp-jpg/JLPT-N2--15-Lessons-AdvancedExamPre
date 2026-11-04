@@ -597,3 +597,55 @@ Khi người dùng yêu cầu số hóa bất kỳ buổi nào, Agent thực hi�
   - Tích hợp 100% bản dịch tiếng Việt cho toàn bộ 188 câu dấu sao trên 15 buổi học vào `data/star_translations.js`.
 - **Tự động Commit & Push lên GitHub:**
   - Sau mỗi lần cập nhật, hệ thống tự động kiểm tra code và push thẳng lên GitHub remote, giải phóng người dùng khỏi việc commit thủ công trên GitHub Desktop.
+
+
+---
+
+## 6. 🚀 KẾ HOẠCH TÍCH HỢP TOÀN DIỆN KHO "BÍ KÍP LUYỆN ĐỀ N2" (CẬP NHẬT 04/11/2026)
+
+> **Đường dẫn thư mục nguồn bổ trợ:**  
+> `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy`  
+> *(Gồm 28 thư mục con, 71 file PDF và 181 slide ảnh/infographic)*
+>
+> **Mục tiêu tối thượng:**  
+> Tích hợp toàn diện 100% tài liệu từ kho "BÍ KÍP LUYỆN ĐỀ N2" vào phân hệ mới `Luyện Chuyên Đề & Bí Kíp Cấp Tốc`, chuẩn bị nước rút cho kỳ thi JLPT N2 tháng tới.
+
+### 6.1. Nguyên Tắc Bất Di Bất Dịch (Non-Negotiable Mandates)
+1. **Bảo tồn nguyên vẹn 100% 15 Buổi luyện đề (15-Session Zero-Impact):**
+   - Giữ nguyên 100% dữ liệu của 15 buổi hiện có (`data/buoi_01.js` đến `buoi_15.js`), không sửa đổi, không ghi đè, không làm xáo trộn tiến độ và lịch sử lưu trữ `localStorage` của người học trên 15 buổi này.
+2. **Số hóa chính xác 100% theo tài liệu gốc (100% Fidelity & Zero-Loss):**
+   - **Khớp 100% nội dung gốc:** Trích xuất nguyên văn tiếng Nhật (kanji, ruby, ngữ pháp, câu hỏi, đoạn văn, 4 lựa chọn) chuẩn xác từng ký tự theo đúng file nguồn PDF/ảnh.
+   - **Khớp 100% đáp án chuẩn:** Đối chiếu tuyệt đối với bảng đáp án gốc (`kaitou`, `dap an`) đi kèm trong thư mục tài liệu. Tuyệt đối không tự ý thay đổi hay suy đoán đáp án sai lệch với tài liệu gốc.
+   - **Không bỏ sót:** Số hóa trọn vẹn mọi tài liệu trong folder: từ bài tập trắc nghiệm đến cẩm nang lý thuyết, bẫy đọc hiểu, công thức nghe hiểu và hệ thống flashcard.
+3. **Chuẩn mực sư phạm:**
+   - 100% câu hỏi có giải thích chi tiết, dịch nghĩa tiếng Việt, phân tích cấu trúc ngữ pháp / ngữ cảnh từ vựng và chỉ rõ lý do chọn hoặc loại trừ phương án.
+4. **Kiểm thử chặt chẽ & Tự động Commit/Push lên GitHub (Zero-Friction Git Automation):**
+   - Chạy script xác minh tính toàn vẹn dữ liệu trước khi xuất bản.
+   - Tự động chạy `git add`, `git commit` và `git push origin main` sau mỗi giai đoạn hoàn thành.
+
+### 6.2. Kiến Trúc Phân Hệ Mới: Giao Diện 2 Tab Dashboard
+- **Tab 1: 🏆 15 Buổi Luyện Đề Chuẩn JLPT** (Không gian thi thử và luyện tập toàn diện 15 buổi hiện có).
+- **Tab 2: ⚡ Luyện Chuyên Đề & Bí Kíp Cấp Tốc** (Không gian ôn luyện nước rút độc lập):
+  - **Phân khu 1: Luyện Trắc Nghiệm Chuyên Sâu Từng Dạng Bài (Mondai Mastery)**:
+    - *Chuyên đề 1:* 🌟 Sát thủ Hái Sao ★ (Mondai 8 - Sắp xếp câu dấu sao).
+    - *Chuyên đề 2:* 🎯 Chinh phục Cách Dùng Từ trong câu (Mondai 6).
+    - *Chuyên đề 3:* 🧩 Cấu tạo từ: Tiền tố, Hậu tố & Động từ phức (Mondai 3).
+    - *Chuyên đề 4:* 🔄 Từ đồng nghĩa / Gần nghĩa (Mondai 5).
+    - *Chuyên đề 5:* 📝 Ngữ pháp Đục Lỗ Đoạn Văn (Mondai 9).
+    - *Chuyên đề 6:* 📚 Ngữ pháp Drill & Drill N2 (Mondai 7).
+    - *Chuyên đề 7:* 🛡️ 300 Câu Ngữ pháp N3 Củng cố nền tảng (Chống liệt).
+  - **Phân khu 2: Thư Viện Bí Kíp & Sổ Tay Bỏ Túi (Quick Cheatsheet Drawer)**:
+    - Tra cứu Cặp Phó từ - Mẫu câu mặc định.
+    - Sổ tay Động từ đa nghĩa & Động từ phức.
+    - Hệ thống Ngữ pháp theo gốc Hán tự (75 trang Kosei).
+    - Chuyên sâu phân biệt cấu trúc もの và こと (16 trang).
+    - Bảng tra Kính ngữ N2-N3 cấp tốc.
+    - 7 Tuyệt kỹ phá bẫy Đọc hiểu & Infographics.
+    - 5 Công thức nghe hiểu Mondai 1 - Mondai 5.
+
+### 6.3. Lộ Trình Triển Khai 5 Giai Đoạn
+- **Giai đoạn 1:** Dựng khung giao diện 2 Tab trên Dashboard & Catalog chuyên đề độc lập (`data/drills_catalog.js`).
+- **Giai đoạn 2:** Số hóa Chuyên đề Dấu sao ★ (Mondai 8) & Chuyên đề Cách dùng từ (Mondai 6).
+- **Giai đoạn 3:** Số hóa Chuyên đề Cấu tạo từ (Mondai 3) & Từ gần nghĩa (Mondai 5).
+- **Giai đoạn 4:** Số hóa Ngữ pháp Đục lỗ (Mondai 9), Drill N2 (Mondai 7) & 300 câu N3.
+- **Giai đoạn 5:** Xây dựng Sổ tay Bí kíp & Flashcard Tra nhanh (Cheatsheet Drawer).
