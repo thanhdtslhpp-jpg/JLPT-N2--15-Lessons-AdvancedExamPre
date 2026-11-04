@@ -1687,52 +1687,291 @@ class JLPTApp {
         </div>
       `;
     } else if (csId === "cs_kosei_np") {
-      const categories = (allData.cs_kosei_np || []).map(cat => {
-        const filteredItems = (cat.items || []).filter(it => {
-          if (!query) return true;
-          return it.pattern.toLowerCase().includes(qLower) ||
-                 it.meaning.toLowerCase().includes(qLower) ||
-                 (it.kanji && it.kanji.toLowerCase().includes(qLower));
-        });
-        return { category: cat.category, items: filteredItems };
-      }).filter(cat => cat.items.length > 0);
+      const book = allData.cs_kosei_np || { chapters: [] };
+      const chapters = book.chapters || [];
+      const activeChId = this.activeKoseiChapter || "all";
 
-      if (categories.length === 0) {
-        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>Không tìm thấy nội dung nào khớp với "${query}"</div>`;
+      // Sub-chapter navigation buttons
+      const subTabsHtml = `
+        <div style="display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.75rem; margin-bottom: 1rem; border-bottom: 1px dashed var(--border); scrollbar-width: thin;">
+          <button type="button" class="cs-subtab-btn ${activeChId === 'all' ? 'active' : ''}" data-chid="all" style="padding: 0.35rem 0.8rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === 'all' ? '#8b5cf6' : 'var(--bg-card)'}; color: ${activeChId === 'all' ? '#fff' : 'var(--text-main)'}; white-space: nowrap;">
+            📖 Toàn bộ 75 trang
+          </button>
+          ${chapters.map((ch, idx) => `
+            <button type="button" class="cs-subtab-btn ${activeChId === ch.id ? 'active' : ''}" data-chid="${ch.id}" style="padding: 0.35rem 0.8rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: ${activeChId === ch.id ? '#8b5cf6' : 'var(--bg-card)'}; color: ${activeChId === ch.id ? '#fff' : 'var(--text-main)'}; white-space: nowrap;">
+              C${idx + 1}: ${ch.title.split(':')[1]?.trim() || ch.title} (${ch.pages})
+            </button>
+          `).join("")}
+        </div>
+      `;
+
+      // Filter chapters by active subtab
+      const visibleChapters = chapters.filter(ch => {
+        if (activeChId !== "all" && ch.id !== activeChId) return false;
+        return true;
+      });
+
+      // Render each chapter
+      const renderChapterContent = (ch) => {
+        let hasContent = false;
+        let contentHtml = "";
+
+        if (ch.id === "ch1") {
+          const secs = (ch.sections || []).map(sec => {
+            const matchedPatterns = (sec.patterns || []).filter(p => {
+              if (!query) return true;
+              return p.pattern.toLowerCase().includes(qLower) ||
+                     p.meaning.toLowerCase().includes(qLower) ||
+                     sec.root.toLowerCase().includes(qLower) ||
+                     (p.examples && p.examples.some(ex => ex.toLowerCase().includes(qLower)));
+            });
+            return { root: sec.root, meaning: sec.meaning, patterns: matchedPatterns };
+          }).filter(sec => sec.patterns.length > 0);
+
+          if (secs.length > 0) {
+            hasContent = true;
+            contentHtml = `
+              <div class="cs-card-list">
+                ${secs.map(sec => `
+                  <div class="cs-item-card" style="border-left-color: #8b5cf6;">
+                    <div class="cs-item-title" style="color: #8b5cf6; margin-bottom: 0.25rem;">
+                      Gốc Hán tự: ${hl(sec.root)} <span style="font-size: 0.85rem; font-weight: normal; color: var(--text-muted);">- ${hl(sec.meaning)}</span>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem;">
+                      ${sec.patterns.map(p => `
+                        <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border);">
+                          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                            <b style="color: var(--primary); font-size: 0.95rem;">${hl(p.pattern)}</b>
+                            ${p.note ? `<small style="background: rgba(99, 102, 241, 0.1); color: var(--primary); padding: 1px 6px; border-radius: 4px;">${hl(p.note)}</small>` : ''}
+                          </div>
+                          <div style="font-size: 0.88rem; color: var(--text-main); margin-bottom: 0.35rem;">
+                            💡 ${hl(p.meaning)}
+                          </div>
+                          ${(p.examples || []).map(ex => `
+                            <div style="font-size: 0.84rem; color: var(--text-muted); line-height: 1.4;">
+                              <i class="fas fa-quote-left" style="font-size: 0.72rem; opacity: 0.6; margin-right: 0.25rem;"></i>${hl(ex)}
+                            </div>
+                          `).join("")}
+                        </div>
+                      `).join("")}
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            `;
+          }
+        } else if (ch.id === "ch2" || ch.id === "ch3" || ch.id === "ch4") {
+          const secs = (ch.sections || []).map(sec => {
+            const matchedPatterns = (sec.patterns || []).filter(p => {
+              if (!query) return true;
+              return p.pattern.toLowerCase().includes(qLower) ||
+                     p.meaning.toLowerCase().includes(qLower) ||
+                     sec.group.toLowerCase().includes(qLower) ||
+                     (p.example && p.example.toLowerCase().includes(qLower));
+            });
+            return { group: sec.group, patterns: matchedPatterns };
+          }).filter(sec => sec.patterns.length > 0);
+
+          if (secs.length > 0) {
+            hasContent = true;
+            contentHtml = `
+              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                ${secs.map(sec => `
+                  <div>
+                    <h4 style="font-size: 0.95rem; font-weight: 700; color: #8b5cf6; margin-bottom: 0.5rem;">
+                      <i class="fas fa-layer-group"></i> ${sec.group}
+                    </h4>
+                    <div class="cs-table-wrap">
+                      <table class="cs-table">
+                        <thead>
+                          <tr>
+                            <th style="width: 25%;">Mẫu câu</th>
+                            <th style="width: 35%;">Ý nghĩa & Sắc thái</th>
+                            <th style="width: 40%;">Ví dụ thực tế</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${sec.patterns.map(p => `
+                            <tr>
+                              <td><b style="color: var(--primary);">${hl(p.pattern)}</b></td>
+                              <td>${hl(p.meaning)}</td>
+                              <td><small style="color: var(--text-muted);">${hl(p.example || '')}</small></td>
+                            </tr>
+                          `).join("")}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            `;
+          }
+        } else if (ch.id === "ch5") {
+          const signs = (ch.sections || []).filter(s => {
+            if (!query) return true;
+            return s.signType.toLowerCase().includes(qLower) ||
+                   s.patterns.toLowerCase().includes(qLower) ||
+                   s.rule.toLowerCase().includes(qLower);
+          });
+
+          if (signs.length > 0) {
+            hasContent = true;
+            contentHtml = `
+              <div class="cs-card-list">
+                ${signs.map(s => `
+                  <div class="cs-item-card" style="border-left-color: #f59e0b;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+                      <b style="color: #f59e0b; font-size: 1rem;"><i class="fas fa-bolt"></i> ${hl(s.signType)}</b>
+                      <span class="cs-badge-pill" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">Dấu Hiệu Vàng</span>
+                    </div>
+                    <div style="margin-bottom: 0.4rem;">
+                      <span style="font-weight: 700; color: var(--primary);">Mẫu câu thường gặp:</span> <b>${hl(s.patterns)}</b>
+                    </div>
+                    <div style="background: var(--bg-card); padding: 0.6rem 0.85rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.88rem; line-height: 1.5; white-space: pre-line;">
+                      ${hl(s.rule)}
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            `;
+          }
+        } else if (ch.id === "ch6") {
+          const items = (ch.sections || []).filter(it => {
+            if (!query) return true;
+            return it.pattern.toLowerCase().includes(qLower) ||
+                   it.meaning.toLowerCase().includes(qLower) ||
+                   (it.example && it.example.toLowerCase().includes(qLower));
+          });
+
+          if (items.length > 0) {
+            hasContent = true;
+            contentHtml = `
+              <div class="cs-card-list">
+                ${items.map(it => `
+                  <div class="cs-item-card" style="border-left-color: #ef4444;">
+                    <div class="cs-item-title" style="color: #ef4444; margin-bottom: 0.35rem;">
+                      ${hl(it.pattern)}
+                    </div>
+                    <div style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 0.35rem;">
+                      💡 <b>Ý nghĩa:</b> ${hl(it.meaning)}
+                    </div>
+                    ${it.example ? `
+                      <div style="background: var(--bg-card); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.85rem; color: var(--text-muted);">
+                        <i class="fas fa-quote-left" style="font-size: 0.72rem; opacity: 0.6; margin-right: 0.3rem;"></i>${hl(it.example)}
+                      </div>
+                    ` : ''}
+                  </div>
+                `).join("")}
+              </div>
+            `;
+          }
+        } else if (ch.id === "ch7") {
+          const tips = (ch.tips || []).filter(t => {
+            if (!query) return true;
+            return t.title.toLowerCase().includes(qLower) ||
+                   t.detail.toLowerCase().includes(qLower);
+          });
+
+          if (tips.length > 0) {
+            hasContent = true;
+            contentHtml = `
+              <div class="cs-card-list">
+                ${tips.map(t => `
+                  <div class="cs-item-card" style="border-left-color: #6366f1;">
+                    <div style="font-weight: 700; color: #6366f1; font-size: 1rem; margin-bottom: 0.4rem;">
+                      Mẹo ${t.tipNumber}: ${hl(t.title)}
+                    </div>
+                    <div style="background: var(--bg-card); padding: 0.65rem 0.85rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.88rem; line-height: 1.5; white-space: pre-line;">
+                      ${hl(t.detail)}
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            `;
+          }
+        } else if (ch.id === "ch8") {
+          hasContent = true;
+          contentHtml = `
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              ${(ch.sections || []).map(sec => `
+                <div>
+                  <h4 style="font-size: 0.95rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.5rem;">
+                    ${sec.title}
+                  </h4>
+                  <div class="cs-table-wrap">
+                    <table class="cs-table">
+                      <thead>
+                        <tr>
+                          ${sec.items[0]?.adverb ? '<th style="width: 35%;">Phó từ</th><th style="width: 35%;">Mẫu đi kèm</th><th style="width: 30%;">Ý nghĩa</th>' : '<th style="width: 25%;">Động từ</th><th style="width: 40%;">Tôn kính ngữ</th><th style="width: 35%;">Khiêm nhường ngữ</th>'}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${(sec.items || []).map(it => `
+                          <tr>
+                            ${it.adverb ? `
+                              <td><b>${hl(it.adverb)}</b></td>
+                              <td><span style="color: var(--primary); font-weight: 600;">${hl(it.match)}</span></td>
+                              <td>${hl(it.meaning)}</td>
+                            ` : `
+                              <td><b>${hl(it.verb)}</b></td>
+                              <td><span style="color: #10b981; font-weight: 600;">${hl(it.sonkei)}</span></td>
+                              <td><span style="color: #f59e0b; font-weight: 600;">${hl(it.kenjou)}</span></td>
+                            `}
+                          </tr>
+                        `).join("")}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          `;
+        }
+
+        if (!hasContent) return "";
+
+        return `
+          <div style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin: 0;">
+                ${ch.title}
+              </h3>
+              <span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">${ch.pages}</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.4;">
+              ${ch.description}
+            </p>
+            ${contentHtml}
+          </div>
+        `;
+      };
+
+      const chaptersOutput = visibleChapters.map(renderChapterContent).filter(Boolean).join("");
+
+      if (!chaptersOutput) {
+        body.innerHTML = `
+          ${subTabsHtml}
+          <div style="text-align:center;padding:3rem;color:var(--text-muted);">
+            <i class="fas fa-search" style="font-size:2rem;margin-bottom:0.75rem;display:block;"></i>
+            Không tìm thấy nội dung nào trong 75 trang Kosei khớp với "${query}"
+          </div>
+        `;
         return;
       }
 
       body.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          ${categories.map(cat => `
-            <div>
-              <h3 style="font-size: 1.05rem; font-weight: 700; color: #8b5cf6; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-                <i class="fas fa-graduation-cap"></i> ${cat.category}
-              </h3>
-              <div class="cs-table-wrap">
-                <table class="cs-table">
-                  <thead>
-                    <tr>
-                      <th style="width: 20%;">Gốc / Chủ điểm</th>
-                      <th style="width: 35%;">Mẫu ngữ pháp</th>
-                      <th style="width: 45%;">Ý nghĩa & Sắc thái sư phạm</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    ${cat.items.map(it => `
-                      <tr>
-                        <td><span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">${hl(it.kanji)}</span></td>
-                        <td><b style="color: var(--primary);">${hl(it.pattern)}</b></td>
-                        <td>${hl(it.meaning)}</td>
-                      </tr>
-                    `).join("")}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          `).join("")}
-        </div>
+        ${subTabsHtml}
+        ${chaptersOutput}
       `;
+
+      // Attach subtab click events
+      const subTabs = body.querySelectorAll(".cs-subtab-btn");
+      subTabs.forEach(btn => {
+        btn.addEventListener("click", () => {
+          this.activeKoseiChapter = btn.dataset.chid;
+          this.renderCheatsheetContent("cs_kosei_np", query);
+        });
+      });
     }
   }
 
