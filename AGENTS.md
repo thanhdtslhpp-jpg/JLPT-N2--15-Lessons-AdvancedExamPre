@@ -83,24 +83,23 @@
 
 
 
-| Buổi | Thư mục nguồn tại `(15 BUỔI) LUYỆN ĐỀ CHUYÊN SÂU\` | File đích tại dự án | Tiến độ Đọc - Viết | Tiến độ Nghe hiểu (Choukai) |
+| Buổi | Thư mục nguồn tại (15 BUỔI) LUYỆN ĐỀ CHUYÊN SÂU\ | File đích tại dự án | Tiến độ Đọc - Viết | Tiến độ Nghe hiểu (Choukai) |
 | :--- | :--- | :--- | :---: | :---: |
-| **Buổi 1** | `BUỔI 1` *(Đề T12/2024, Đề 12/2015, Mondai 2, Sougou)* | `data/buoi_01.js` | ✅ **Hoàn thành** (71 câu) | ⏳ Chờ cắt audio đề 12/2024 |
-| **Buổi 2** | `BUỔI 2` *(Đề Thi Thật 07/2024, Chokuzen 8, So sánh)* | `data/buoi_02.js` | ✅ **Hoàn thành** (161 câu) | ⏳ Chờ cắt audio đề 07/2024 |
-| **Buổi 3** | `BUỔI 3` *(Mondai 6, Hán tự Tiền tố, Super NP, Choukai M2)* | `data/buoi_03.js` | ✅ **Hoàn thành** (80 câu) | ✅ **Hoàn thành** (6 câu Audio M2) |
-| **Buổi 4** | `BUỔI 4` *(Goukaku Moshi, Super NP, Choukai M3 & M4)* | `data/buoi_04.js` | ✅ **Hoàn thành** (168 câu) | ✅ **Hoàn thành** (17 câu Audio M3-M4) |
-| **Buổi 5** | `BUỔI 5` *(Đề T7/2016, Chuyên đề Dấu sao ★, Choukai M2-M3)* | `data/buoi_05.js` | ✅ **Hoàn thành** (123 câu) | ⚠️ Sẵn sàng nạp 10 câu Audio M2-M3 |
-| **Buổi 6** | `BUỔI 6` *(Đề 07/2018, Dấu sao ★, Choukai Mondai 1 & 2)* | `data/buoi_06.js` | ✅ **Hoàn thành** (210 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 7** | `BUỔI 7` *(Đề Tổng hợp 합격시그ナル, M4, M5, Choukai M1 & 2)* | `data/buoi_07.js` | ✅ **Hoàn thành** (177 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 8** | `BUỔI 8` *(Đề Mô phỏng 2 3A, Super 3, Choukai M1 & 2)* | `data/buoi_08.js` | ✅ **Hoàn thành** (124 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 9** | `BUỔI 9` *(Đề Mô phỏng 4, Phó từ, Shinkanzen, Choukai M1 & 2)* | `data/buoi_09.js` | ✅ **Hoàn thành** (122 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 10** | `BUỔI 10` *(Đề Thi Thật 07/2025, Động từ & Tính từ, Choukai M1 & 2)* | `data/buoi_10.js` | ✅ **Hoàn thành** (130 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 11** | `BUỔI 11` *(Đề Thi Thử Đề 5, Quán dụng ngữ, Choukai M1 & 2)* | `data/buoi_11.js` | ✅ **Hoàn thành** (128 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
-| **Buổi 12** | `BUỔI 12` *(Đề Thi Thật 07/2021, Đọc hiểu chuyên sâu)* | `data/buoi_12.js` | ✅ **Hoàn thành** (112 câu) | ⏳ Chờ cắt audio đề 07/2021 |
-| **Buổi 13** | `BUỔI 13` *(Kính ngữ, Goukaku Moshi Đề 2)* | `data/buoi_13.js` | ✅ **Hoàn thành** (105 câu) | ⏳ Chờ nạp 12 track audio CD |
-| **Buổi 14** | `BUỔI 14` *(Đề Thi Thử HQ 1, Siêu chuyên đề 10)* | `data/buoi_14.js` | ✅ **Hoàn thành** (98 câu) | ⏳ Chờ nạp 51 track audio CD |
-| **Buổi 15** | `BUỔI 15` *(Mock Test 3 Kanzen Moshi, Đại tổng ôn)* | `data/buoi_15.js` | ✅ **Hoàn thành** (108 câu) | ⏳ Chờ nạp 43 track audio CD |
-
+| **Buổi 1** | BUỔI 1 *(Đề T12/2024, Đề 12/2015, Mondai 2, Sougou)* | data/buoi_01.js | ✅ **Hoàn thành** (71 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 2** | BUỔI 2 *(Đề Thi Thật 07/2024, Chokuzen 8, So sánh)* | data/buoi_02.js | ✅ **Hoàn thành** (161 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 3** | BUỔI 3 *(Mondai 6, Hán tự Tiền tố, Super NP, Choukai M2)* | data/buoi_03.js | ✅ **Hoàn thành** (80 câu) | ✅ **Hoàn thành** (6 câu Audio M2) |
+| **Buổi 4** | BUỔI 4 *(Goukaku Moshi, Super NP, Choukai M3 & M4)* | data/buoi_04.js | ✅ **Hoàn thành** (168 câu) | ✅ **Hoàn thành** (17 câu Audio M3-M4) |
+| **Buổi 5** | BUỔI 5 *(Đề T7/2016, Chuyên đề Dấu sao ★, Choukai M2-M3)* | data/buoi_05.js | ✅ **Hoàn thành** (109 câu) | ✅ **Hoàn thành** (10 câu Audio M2-M3) |
+| **Buổi 6** | BUỔI 6 *(Đề 07/2018, Dấu sao ★, Choukai Mondai 1 & 2)* | data/buoi_06.js | ✅ **Hoàn thành** (165 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 7** | BUỔI 7 *(Đề Tổng hợp 합격시グナル, M4, M5, Choukai M1 & 2)* | data/buoi_07.js | ✅ **Hoàn thành** (177 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 8** | BUỔI 8 *(Đề Mô phỏng 2 3A, Super 3, Choukai M1 & 2)* | data/buoi_08.js | ✅ **Hoàn thành** (124 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 9** | BUỔI 9 *(Đề Mô phỏng 4, Phó từ, Shinkanzen, Choukai M1 & 2)* | data/buoi_09.js | ✅ **Hoàn thành** (122 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 10** | BUỔI 10 *(Đề Thi Thật 07/2025, Động từ & Tính từ, Choukai M1 & 2)* | data/buoi_10.js | ✅ **Hoàn thành** (172 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 11** | BUỔI 11 *(Đề Thi Thử Đề 5, Quán dụng ngữ, Choukai M1 & 2)* | data/buoi_11.js | ✅ **Hoàn thành** (179 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 12** | BUỔI 12 *(Đề Thi Thật 07/2021, Đọc hiểu chuyên sâu)* | data/buoi_12.js | ✅ **Hoàn thành** (138 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 13** | BUỔI 13 *(Kính ngữ, Goukaku Moshi Đề 2)* | data/buoi_13.js | ✅ **Hoàn thành** (140 câu) | ✅ **Hoàn thành** (12 câu Audio M1-M2) |
+| **Buổi 14** | BUỔI 14 *(Đề Thi Thử HQ 1, Siêu chuyên đề 10)* | data/buoi_14.js | ✅ **Hoàn thành** (109 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
+| **Buổi 15** | BUỔI 15 *(Mock Test 3 Kanzen Moshi, Đại tổng ôn)* | data/buoi_15.js | ✅ **Hoàn thành** (110 câu) | ✅ **Hoàn thành** (11 câu Audio M1-M2) |
 > 🎧 **Tài nguyên Nghe hiểu:** Sử dụng nguồn audio trực tiếp trong từng thư mục buổi hoặc thư mục `LUYỆN TẬP NGHE HIỂU`. Các file audio đều được phân phối về thư mục chuẩn `audio/buoi_XX/`.
 
 
