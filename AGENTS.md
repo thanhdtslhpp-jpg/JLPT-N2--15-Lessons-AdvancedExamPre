@@ -643,9 +643,28 @@ Khi người dùng yêu cầu số hóa bất kỳ buổi nào, Agent thực hi�
     - 7 Tuyệt kỹ phá bẫy Đọc hiểu & Infographics.
     - 5 Công thức nghe hiểu Mondai 1 - Mondai 5.
 
-### 6.3. Lộ Trình Triển Khai 5 Giai Đoạn
-- **Giai đoạn 1:** Dựng khung giao diện 2 Tab trên Dashboard & Catalog chuyên đề độc lập (`data/drills_catalog.js`).
-- **Giai đoạn 2:** Số hóa Chuyên đề Dấu sao ★ (Mondai 8) & Chuyên đề Cách dùng từ (Mondai 6).
-- **Giai đoạn 3:** Số hóa Chuyên đề Cấu tạo từ (Mondai 3) & Từ gần nghĩa (Mondai 5).
-- **Giai đoạn 4:** Số hóa Ngữ pháp Đục lỗ (Mondai 9), Drill N2 (Mondai 7) & 300 câu N3.
-- **Giai đoạn 5:** Xây dựng Sổ tay Bí kíp & Flashcard Tra nhanh (Cheatsheet Drawer).
+### 6.3. Lộ Trình Triển Khai 5 Giai Đoạn (Đã Hoàn Thành Toàn Diện 100%)
+- **Giai đoạn 1:** ✅ Dựng khung giao diện 2 Tab trên Dashboard & Catalog chuyên đề độc lập (`data/drills_catalog.js`).
+- **Giai đoạn 2:** ✅ Số hóa Chuyên đề Dấu sao ★ (Mondai 8: 75 câu) & Chuyên đề Cách dùng từ (Mondai 6: 60 câu).
+- **Giai đoạn 3:** ✅ Số hóa Chuyên đề Cấu tạo từ (Mondai 3: 101 câu) & Từ gần nghĩa (Mondai 5: 75 câu).
+- **Giai đoạn 4:** ✅ Số hóa Ngữ pháp Đục lỗ (Mondai 9: 37 câu), Drill N2 (Mondai 7: 120 câu) & 300 câu N3 (104 câu).
+- **Giai đoạn 5:** ✅ Xây dựng Thư Viện Bí Kíp Tra Nhanh (Cheatsheet Drawer) với 6 chuyên đề lý thuyết, modal tra cứu trực quan và bộ lọc tìm kiếm tức thì.
+
+### 6.4. Bảng Tổng Hợp Tiến Độ Toàn Diện "Bí Kíp Luyện Đề N2"
+
+| Chuyên Đề / Bí Kíp | File Nguồn Tài Liệu Gốc | File Đích Trong Dự Án | Số Lượng / Quy Mô | Trạng Thái |
+| :--- | :--- | :--- | :---: | :---: |
+| **Chuyên Đề 1: Dấu Sao ★ (Mondai 8)** | `(Mai Lan ss) HÁI SAO - KHÔNG KHÓ`, `DẤU SAO` | `data/chuyende_dau_sao.js` | 75 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 2: Cách Dùng Từ (Mondai 6)** | `Shinkanzen Masuta - Mondai 6` (Test 1 - Test 12) | `data/chuyende_cach_dung_tu.js` | 60 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 3: Tiền Tố, Hậu Tố & ĐT Phức (Mondai 3)** | `Từ vựng N2/TỔNG HỢP TIỀN TỐ, HẬU TỐ N2` | `data/chuyende_tien_to_hau_to.js` | 101 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 4: Từ Gần Nghĩa / Thay Thế (Mondai 5)** | `Từ đồng nghĩa N2 ( ĐÁP ÁN).pdf` (15 bài) | `data/chuyende_tu_dong_nghia.js` | 75 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 5: Ngữ Pháp Đục Lỗ Đoạn Văn (Mondai 9)** | `100 BÀI ĐỌC ĐỤC LỖ N2` (Đề 1 - Đề 9) | `data/chuyende_duc_lo.js` | 37 câu / 9 bài | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 6: Ngữ Pháp Drill & Drill N2 (Mondai 7)** | `Drill N2 Bunpou` (10 bài x 12 câu) | `data/chuyende_ngu_phap_n2.js` | 120 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Chuyên Đề 7: Ngữ Pháp N3 Nền Tảng (Chống Liệt)** | `300 câu ngữ pháp DRILL & DRILL N3` (Test 1-8) | `data/chuyende_ngu_phap_n3.js` | 104 câu hỏi | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: Phó Từ Cố Định** | `Phó từ đi với các mẫu câu đặc định.pdf` (13 trang) | `data/cheatsheets_data.js` | 19 cặp bài trùng | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: Động Từ Đa Nghĩa** | `ĐỘNG TỪ ĐA NGHĨA N2.pdf` (16 trang) | `data/cheatsheets_data.js` | 6 động từ cốt lõi | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: もの & こと** | `もの・こと.pdf` (16 trang) | `data/cheatsheets_data.js` | 17 cấu trúc so sánh | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: Kính Ngữ N2-N3** | `Kính ngữ( N2,N3).pdf` (27 trang) | `data/cheatsheets_data.js` | 11 ĐT đặc biệt + 5 CT | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: Bẫy Đọc - Nghe** | `Bẫy đọc hiểu JLPT.pdf` & `CÔNG THỨC NGHE HIỂU` | `data/cheatsheets_data.js` | 5 bẫy + 5 công thức | ✅ **100% Hoàn Thành** |
+| **Thư Viện Bí Kíp: Ngữ Pháp Gốc Hán Tự** | `Tai lieu N2 Kosei.pdf` (75 trang) | `data/cheatsheets_data.js` | 4 nhóm gốc từ | ✅ **100% Hoàn Thành** |
+| **Tổng Cộng Chuyên Đề & Bí Kíp** | **Toàn bộ kho "BÍ KÍP LUYỆN ĐỀ N2"** | **7 Chuyên Đề + 6 Thư Viện** | **572 câu + 6 Bí Kíp** | 🏆 **100% HOÀN TẤT** |
