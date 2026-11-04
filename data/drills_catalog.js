@@ -44,11 +44,11 @@ window.JLPT_DRILLS = [
     title: "Chuyên Đề 4: Từ Gần Nghĩa & Thay Thế (Mondai 5)",
     badge: "Mondai 5",
     badgeColor: "#10b981",
-    description: "Tuyển chọn 50 câu từ đồng nghĩa N2 trọng điểm và Best Sougou có giải nghĩa cặn kẽ từng sắc thái từ.",
-    ready: false,
+    description: "Tuyển chọn 75 câu từ đồng nghĩa N2 trọng điểm và Best Sougou có giải nghĩa cặn kẽ từng sắc thái và ngữ cảnh thay thế từ.",
+    ready: true,
     file: "data/chuyende_tu_dong_nghia.js",
     stats: {
-      totalQuestions: 50,
+      totalQuestions: 75,
       type: "synonym"
     }
   },
