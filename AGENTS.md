@@ -2,12 +2,20 @@
 
 
 
-> **Đường dẫn thư mục nguồn tài liệu gốc:**  
-
-> `G:\.shortcut-targets-by-id\14u_Pa3_lz_o2_GM0U2922KTDUJqqlZda\(15 BUỔI) LUYỆN ĐỀ CHUYÊN SÂU`
-
+> **Đường dẫn thư mục nguồn tài liệu gốc (Đồng bộ đa thiết bị Google Drive - Máy Nhà & Máy Công Ty):**  
 >
-
+> 🏢 **1. Khi làm việc trên Máy Tính Công Ty:**
+> * **Đường dẫn Google Drive công ty:** `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy\BÍ KÍP LUYỆN ĐỀ N2`  
+> * *(Hoặc thư mục gốc shortcut:* `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy`*)*
+> * **Lý do & Quy định:** Máy tính công ty và ở nhà dùng chung Google Drive và tự động đồng bộ hóa với nhau. Khi người dùng làm việc trên máy tính công ty, Agent bắt buộc sử dụng thư mục Google Drive tại công ty (`G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy\BÍ KÍP LUYỆN ĐỀ N2`) để quét đệ quy, trích xuất và thực hiện toàn bộ công việc số hóa tài liệu.
+>
+> 🏠 **2. Khi làm việc trên Máy Tính Ở Nhà:**
+> * **Đường dẫn Google Drive ở nhà:** `G:\.shortcut-targets-by-id\14u_Pa3_lz_o2_GM0U2922KTDUJqqlZda\(15 BUỔI) LUYỆN ĐỀ CHUYÊN SÂU`
+>
+> 🔄 **Cơ chế tự động phát hiện môi trường (Dynamic Auto-Detection):**
+> * Agent luôn tự động kiểm tra sự tồn tại của thư mục nguồn trên máy đang thực thi (`os.path.exists`).
+> * Nếu môi trường có thư mục Google Drive công ty `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy\BÍ KÍP LUYỆN ĐỀ N2`, Agent lập tức sử dụng thư mục này để thực hiện số hóa không gián đoạn.
+>
 > **Mục tiêu tối thượng:**  
 
 > Số hóa đầy đủ 100% các bài tập, câu hỏi theo từng buổi (từ Buổi 1 đến Buổi 15) từ thư mục gốc vào ứng dụng web `jlpt-n2-practice`. **Tuyệt đối không bỏ sót bất kỳ tài liệu nào, không bỏ sót bất kỳ câu hỏi/mondai nào** trong mỗi buổi: Từ Từ Vựng - Hán Tự (Mondai 1-6), Ngữ Pháp - Dấu Sao ★ (Mondai 7-9), Đọc Hiểu (Mondai 10-14), và **Đồng bộ hóa toàn diện phần Nghe Hiểu (Choukai Mondai 1-5)** với đầy đủ File Audio chuẩn cắt từng câu, Trình phát đa tốc độ, Lời thoại Script Nhật - Việt và Lời giải thích phân tích sư phạm.
@@ -76,6 +84,18 @@
 - **Tự động Commit & Push thẳng lên GitHub (Automated Commit & Push):**
   - Sau mỗi lần thực hiện chỉnh sửa hoặc bổ sung tính năng thành công, Agent **tự động kiểm tra `git status`, gom file (`git add`), tạo commit với nội dung súc tích rõ ràng (`git commit -m "..."`) và đẩy thẳng lên kho lưu trữ từ xa (`git push origin main`)**.
   - Người dùng tuyệt đối không cần phải mở GitHub Desktop hay thực hiện các thao tác commit/push thủ công gây phiền toái.
+
+---
+
+### 1.5. Nguyên tắc "Đồng bộ Đa Thiết bị qua Google Drive (Máy Nhà & Máy Công Ty)" (Multi-Environment Sync Mandate)
+- **Dùng chung Google Drive:** Máy tính công ty và máy tính ở nhà cùng dùng chung tài khoản Google Drive và đồng bộ dữ liệu liên tục với nhau.
+- **Khi làm việc trên Máy tính Công ty:**
+  - Agent sử dụng thư mục Google Drive tại công ty: `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy\BÍ KÍP LUYỆN ĐỀ N2` (hoặc `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy`).
+  - Toàn bộ việc quét đệ quy, đọc và trích xuất tài liệu (PDF, docx, ảnh, audio) để số hóa đều lấy trực tiếp từ thư mục Google Drive công ty này.
+- **Khi làm việc trên Máy tính Ở Nhà:**
+  - Agent sử dụng thư mục Google Drive ở nhà: `G:\.shortcut-targets-by-id\14u_Pa3_lz_o2_GM0U2922KTDUJqqlZda\(15 BUỔI) LUYỆN ĐỀ CHUYÊN SÂU`.
+- **Tự động thích ứng môi trường (Dynamic Environment Detection):**
+  - Trước khi đọc dữ liệu, Agent dùng lệnh kiểm tra đường dẫn thư mục nào đang tồn tại trên máy hiện hành (`os.path.exists`) để tự động chọn đúng nguồn Google Drive tương ứng mà không làm gián đoạn người dùng.
 
 ---
 
@@ -602,9 +622,9 @@ Khi người dùng yêu cầu số hóa bất kỳ buổi nào, Agent thực hi�
 
 ## 6. 🚀 KẾ HOẠCH TÍCH HỢP TOÀN DIỆN KHO "BÍ KÍP LUYỆN ĐỀ N2" (CẬP NHẬT 04/11/2026)
 
-> **Đường dẫn thư mục nguồn bổ trợ:**  
-> `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy`  
-> *(Gồm 28 thư mục con, 71 file PDF và 181 slide ảnh/infographic)*
+> **Đường dẫn thư mục nguồn bổ trợ (Google Drive Máy tính công ty):**  
+> `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy\BÍ KÍP LUYỆN ĐỀ N2`  
+> *(Hoặc `G:\.shortcut-targets-by-id\1qxXXPmf0t6X3xelQZNI6q2BIev9mYxLy` - gồm 28 thư mục con, 71 file PDF và 181 slide ảnh/infographic)*
 >
 > **Mục tiêu tối thượng:**  
 > Tích hợp toàn diện 100% tài liệu từ kho "BÍ KÍP LUYỆN ĐỀ N2" vào phân hệ mới `Luyện Chuyên Đề & Bí Kíp Cấp Tốc`, chuẩn bị nước rút cho kỳ thi JLPT N2 tháng tới.
