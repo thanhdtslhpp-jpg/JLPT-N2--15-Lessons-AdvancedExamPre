@@ -949,7 +949,11 @@ class JLPTApp {
     document.getElementById("view-practice").style.display = "none";
     const floatBtn = document.getElementById("btn-floating-pallet");
     if (floatBtn) floatBtn.style.display = "none";
-    this.renderDashboard();
+    if (this.currentDashboardTab === "drills") {
+      this.switchDashboardTab("drills");
+    } else {
+      this.switchDashboardTab("sessions");
+    }
   }
 
   loadSession(sessionId) {
@@ -1159,14 +1163,154 @@ class JLPTApp {
     document.getElementById("stat-accuracy").textContent = this.calculateAverageAccuracy() + "%";
   }
 
+  switchDashboardTab(tab) {
+    this.currentDashboardTab = tab;
+    const btnSessions = document.getElementById("tab-btn-sessions");
+    const btnDrills = document.getElementById("tab-btn-drills");
+    const paneSessions = document.getElementById("tab-content-sessions");
+    const paneDrills = document.getElementById("tab-content-drills");
+
+    if (tab === "drills") {
+      if (btnSessions) btnSessions.classList.remove("active");
+      if (btnDrills) btnDrills.classList.add("active");
+      if (paneSessions) paneSessions.style.display = "none";
+      if (paneDrills) paneDrills.style.display = "block";
+      this.renderDrillsDashboard();
+    } else {
+      if (btnSessions) btnSessions.classList.add("active");
+      if (btnDrills) btnDrills.classList.remove("active");
+      if (paneSessions) paneSessions.style.display = "block";
+      if (paneDrills) paneDrills.style.display = "none";
+      this.renderDashboard();
+    }
+  }
+
+  renderDrillsDashboard() {
+    const mobBar = document.getElementById("mobile-bottom-bar");
+    if (mobBar) mobBar.style.display = "none";
+    const drillsGrid = document.getElementById("drills-grid");
+    if (!drillsGrid) return;
+    drillsGrid.innerHTML = "";
+
+    const drills = window.JLPT_DRILLS || [];
+
+    drills.forEach((item) => {
+      const hist = this.history[item.id];
+      const isDataAvailable = window.JLPT_DATA && !!window.JLPT_DATA[item.id];
+      const isReady = item.ready || isDataAvailable;
+      const totalQ = (item.stats && item.stats.totalQuestions) ? item.stats.totalQuestions : 35;
+
+      let draftAnswered = 0;
+      let hasDraft = false;
+      try {
+        const rawDraft = localStorage.getItem(`jlpt_draft_${item.id}`);
+        if (rawDraft) {
+          const draft = JSON.parse(rawDraft);
+          const uAns = draft.userAnswers || {};
+          draftAnswered = Object.keys(uAns).length;
+          if (draftAnswered > 0) hasDraft = true;
+        }
+      } catch (e) {}
+
+      const draftPct = totalQ > 0 ? Math.round((draftAnswered / totalQ) * 100) : 0;
+
+      let actionButtons = "";
+      if (!isReady) {
+        actionButtons = `
+          <button class="btn btn-outline" style="width: 100%; justify-content: center; opacity: 0.6; cursor: not-allowed;" disabled>
+            <i class="fas fa-spinner fa-spin" style="margin-right: 0.4rem;"></i> Đang chuẩn bị dữ liệu
+          </button>
+        `;
+      } else if (hasDraft) {
+        actionButtons = `
+          <div style="display: flex; gap: 0.5rem; align-items: center; width: 100%;">
+            <button class="btn btn-primary" style="flex: 1; justify-content: center;" onclick="app.loadSession('${item.id}')">
+              <i class="fas fa-play"></i> Tiếp Tục Làm Bài (${draftAnswered}/${totalQ})
+            </button>
+            <button class="btn btn-outline" style="color: var(--error); border-color: var(--border); padding: 0.55rem 0.75rem;" 
+                    title="Xóa nháp làm lại từ đầu" onclick="event.stopPropagation(); app.clearDraft('${item.id}')">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </div>
+        `;
+      } else {
+        actionButtons = `
+          <button class="btn btn-primary" style="width: 100%; justify-content: center;" onclick="app.loadSession('${item.id}')">
+            ${hist ? '<i class="fas fa-redo"></i> Luyện Lại Chuyên Đề Này' : '<i class="fas fa-bolt"></i> Bắt Đầu Luyện Cấp Tốc'}
+          </button>
+        `;
+      }
+
+      const card = document.createElement("div");
+      card.className = "session-card";
+      card.innerHTML = `
+        <div>
+          <div class="session-card-header">
+            <h3 class="session-card-title">${item.title}</h3>
+            <span class="session-badge" style="background: ${item.badgeColor || '#4f46e5'}20; color: ${item.badgeColor || '#4f46e5'}; border: 1px solid ${item.badgeColor || '#4f46e5'}50; font-weight: 700;">
+              ${item.badge || 'Chuyên đề'}
+            </span>
+          </div>
+          <p class="session-card-desc">${item.description}</p>
+          <div class="session-meta">
+            <span>⭐ ${totalQ} câu hỏi</span>
+            <span>⚡ Luyện phản xạ</span>
+            ${hist ? `<span>Điểm: <b>${hist.score}/${hist.total}</b> (${Math.round((hist.score/hist.total)*100)}%)</span>` : ""}
+          </div>
+          ${hasDraft ? `
+            <div class="draft-badge-row">
+              <span class="badge-draft"><i class="fas fa-edit"></i> Đang làm dở: <b>${draftAnswered}/${totalQ} câu</b> (${draftPct}%)</span>
+            </div>
+            <div class="card-progress-track">
+              <div class="card-progress-fill" style="width: ${draftPct}%;"></div>
+            </div>
+          ` : ""}
+        </div>
+        <div style="margin-top: 1.25rem;">
+          ${actionButtons}
+        </div>
+      `;
+      drillsGrid.appendChild(card);
+    });
+
+    // Render Cheatsheets
+    const csGrid = document.getElementById("cheatsheets-grid");
+    if (csGrid) {
+      csGrid.innerHTML = "";
+      const cheatsheets = window.JLPT_CHEATSHEETS || [];
+      cheatsheets.forEach(cs => {
+        const card = document.createElement("div");
+        card.className = "cheatsheet-card";
+        card.innerHTML = `
+          <div class="cheatsheet-icon-box" style="background: ${cs.color || '#6366f1'};">
+            <i class="fas ${cs.icon || 'fa-book'}"></i>
+          </div>
+          <div>
+            <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-main);">
+              ${cs.title}
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.4;">
+              ${cs.subtitle}
+            </div>
+          </div>
+        `;
+        csGrid.appendChild(card);
+      });
+    }
+  }
+
   clearDraft(sessionId) {
-    if (confirm(`Bạn có chắc chắn muốn xóa bản nháp làm dở của Buổi ${sessionId} để làm lại từ đầu?`)) {
+    if (confirm(`Bạn có chắc chắn muốn xóa bản nháp làm dở của ${sessionId} để làm lại từ đầu?`)) {
       localStorage.removeItem(`jlpt_draft_${sessionId}`);
       if (this.currentSessionId === sessionId) {
         this.userAnswers = {};
         this.starAnswers = {};
       }
-      this.renderDashboard();
+      if (this.currentDashboardTab === "drills") {
+        this.renderDrillsDashboard();
+      } else {
+        this.renderDashboard();
+      }
     }
   }
 

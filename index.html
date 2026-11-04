@@ -73,11 +73,41 @@
         </div>
       </div>
 
-      <div style="margin-bottom: 1.25rem; font-weight: 700; font-size: 1.25rem;">
-        📚 Danh Sách Các Buổi Luyện Đề
+      <!-- Dashboard Navigation Tabs: 15 Buổi vs Luyện Chuyên Đề & Bí Kíp -->
+      <div class="dashboard-tabs-container">
+        <button id="tab-btn-sessions" class="dash-tab-btn active" onclick="app.switchDashboardTab('sessions')">
+          <i class="fas fa-trophy"></i> 15 Buổi Luyện Đề Chuẩn JLPT
+        </button>
+        <button id="tab-btn-drills" class="dash-tab-btn" onclick="app.switchDashboardTab('drills')">
+          <i class="fas fa-bolt"></i> Luyện Chuyên Đề & Bí Kíp Cấp Tốc
+        </button>
       </div>
-      <div class="grid-sessions" id="sessions-grid">
-        <!-- Rendered by app.js -->
+
+      <!-- Tab Pane 1: 15 Buổi Luyện Đề -->
+      <div id="tab-content-sessions" class="tab-pane">
+        <div style="margin-bottom: 1.25rem; font-weight: 700; font-size: 1.25rem;">
+          📚 Danh Sách Các Buổi Luyện Đề
+        </div>
+        <div class="grid-sessions" id="sessions-grid">
+          <!-- Rendered by app.js -->
+        </div>
+      </div>
+
+      <!-- Tab Pane 2: Chuyên Đề & Bí Kíp -->
+      <div id="tab-content-drills" class="tab-pane" style="display: none;">
+        <div style="margin-bottom: 1.25rem; font-weight: 700; font-size: 1.25rem;">
+          ⚡ Ngân Hàng Luyện Cấp Tốc Từng Dạng Bài (Mondai Drills)
+        </div>
+        <div class="grid-sessions" id="drills-grid">
+          <!-- Rendered by app.js from window.JLPT_DRILLS -->
+        </div>
+
+        <div style="margin-top: 2.5rem; margin-bottom: 1.25rem; font-weight: 700; font-size: 1.25rem;">
+          📖 Thư Viện Bí Kíp Bỏ Túi & Tra Cứu Tốc Hành
+        </div>
+        <div class="grid-sessions" id="cheatsheets-grid">
+          <!-- Rendered by app.js from window.JLPT_CHEATSHEETS -->
+        </div>
       </div>
     </section>
 
@@ -438,6 +468,8 @@
   <script src="data/buoi_15.js?v=20261103_1_0"></script>
   <script src="data/passage_translations.js?v=20261103_1_0"></script>
   <script src="data/star_translations.js?v=20261103_1_0"></script>
+  <script src="data/drills_catalog.js?v=20261104_1_0"></script>
+  <script src="data/chuyende_dau_sao.js?v=20261104_1_0"></script>
   <script src="user_data.js?v=20261103_1_0"></script>
   <script src="cloud_sync.js?v=20261103_1_0"></script>
   <script src="app.js?v=20261103_1_0"></script>
