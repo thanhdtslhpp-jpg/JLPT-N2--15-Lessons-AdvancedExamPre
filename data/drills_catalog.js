@@ -31,11 +31,11 @@ window.JLPT_DRILLS = [
     title: "Chuyên Đề 3: Tiền Tố - Hậu Tố & Động Từ Phức (Mondai 3)",
     badge: "Mondai 3",
     badgeColor: "#0ea5e9",
-    description: "Bài tập cấu tạo từ ghép, tiền tố, hậu tố và động từ phức thường gặp trong đề thi JLPT N2 kèm phân tích nghĩa chi tiết.",
-    ready: false,
+    description: "Bộ 101 câu bài tập cấu tạo từ ghép, tiền tố, hậu tố và động từ phức sát đề thi thật JLPT N2 kèm phân tích nghĩa và cách ghép chi tiết.",
+    ready: true,
     file: "data/chuyende_tien_to_hau_to.js",
     stats: {
-      totalQuestions: 60,
+      totalQuestions: 101,
       type: "vocab"
     }
   },
