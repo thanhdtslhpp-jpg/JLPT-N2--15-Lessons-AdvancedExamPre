@@ -1,6 +1,4 @@
-// Dữ liệu Thư Viện Bí Kíp Tra Nhanh & Tra Cứu Cấp Tốc JLPT N2
-// Số hóa toàn diện 100% từ tài liệu ôn thi N2 chính thống (Kosei 75 trang, Shinkanzen, Drill & Drill)
-
+// Thư Viện Bí Kíp Tra Nhanh & Sổ Tay Trọng Tâm N2
 window.JLPT_CHEATSHEETS_DATA = {
   "cs_pho_tu": [
     {
@@ -498,142 +496,158 @@ window.JLPT_CHEATSHEETS_DATA = {
             "patterns": [
               {
                 "pattern": "～に対して (にたいして)",
-                "meaning": "① Trái ngược với... (so sánh đối lập giữa 2 sự vật/sự việc) | ② Đối với... (hướng thái độ/hành vi về phía ai)",
+                "meaning": "① Trái ngược với... (so sánh đối lập giữa 2 sự vật, sự việc, người) | ② Đối với... (hướng thái độ/hành vi về phía ai)",
+                "note": "Bổ nghĩa cho danh từ biến thành ～に対するN",
                 "examples": [
                   "あの二人は双子なのに、兄は大人しいのに対して、弟はよくしゃべる。(Hai người đó tuy là anh em sinh đôi nhưng trái ngược với người anh trầm tính thì người em lại nói rất nhiều.)",
                   "先生に対してその話し方は失礼だ。(Cách nói chuyện đối với thầy giáo như vậy là thất lễ.)"
-                ],
-                "note": "Bổ nghĩa cho danh từ biến thành ～に対するN"
+                ]
               },
               {
                 "pattern": "～に応えて (にこたえて)",
-                "meaning": "Đáp ứng, đáp lại (kỳ vọng, yêu cầu, tiếng hò reo)",
+                "meaning": "Đáp ứng, đáp lại (kỳ vọng, yêu cầu, tiếng hò reo cổ vũ...)",
+                "note": "Chữ Hán 応 trong Đáp ứng (こたえる) ➡ Bổ nghĩa danh từ: ～に応えるN",
                 "examples": [
                   "ファンの熱い声援に応えて、選手たちは全力を尽くした。(Đáp lại sự cổ vũ nồng nhiệt của người hâm mộ, các cầu thủ đã thi đấu hết mình.)"
-                ],
-                "note": "Chữ Hán 応 trong Đáp ứng (こたえる)"
+                ]
               }
             ]
           },
           {
             "root": "通 (THÔNG)",
-            "meaning": "Xuyên suốt, thông qua con đường/trung gian",
+            "meaning": "Xuyên suốt qua thời gian hoặc thông qua con đường/trung gian",
             "patterns": [
               {
-                "pattern": "～を通して / ～を通じて (をとおして・をつうじて)",
-                "meaning": "① Thông qua trung gian (người, phương tiện) | ② Xuyên suốt khoảng thời gian (cả năm, 4 mùa, suốt đời)",
+                "pattern": "～を通して (をとおして)",
+                "meaning": "① Thông qua (phương tiện, người trung gian) | ② Suốt cả một khoảng thời gian",
+                "note": "Thường dùng cho người trung gian hoặc phương tiện gián tiếp",
                 "examples": [
-                  "友人を通して、僕たちは知り合いました。(Thông qua người bạn mà chúng tôi quen biết nhau.)",
-                  "日本は四季を通じて、観光客が訪れる。(Nhật Bản quanh năm suốt bốn mùa đều có khách du lịch ghé thăm.)"
-                ],
-                "note": "Khi chỉ thời gian: 一年を通じて, 四季を通じて, 一生を通じて"
+                  "友人を通して、僕たちは知り合いました。(Thông qua bạn bè mà chúng tôi quen biết nhau.)",
+                  "この地域は一年を通して雨が多い。(Khu vực này suốt cả một năm mưa rất nhiều.)"
+                ]
               },
               {
-                "pattern": "～通りに (とおりに)",
-                "meaning": "Làm đúng theo như... (chỉ dẫn, bản đồ, dự tính ban đầu)",
+                "pattern": "～を通じて (をつうじて)",
+                "meaning": "① Thông qua (kênh, truyền hình, mạng internet) | ② Suốt cả (bốn mùa, cả đời)",
+                "note": "Mang tính trang trọng, văn viết hơn をとおして ➡ ～を通じたN",
                 "examples": [
-                  "先生が教えた通りに発音してみなさい。(Hãy phát âm đúng y như những gì thầy giáo đã hướng dẫn.)"
-                ],
-                "note": "V-る / V-た + とおりに | N + のとおりに / N + どおりに"
+                  "日本は四季を通じて、観光客が訪れる。(Nhật Bản suốt cả bốn mùa đều có du khách ghé thăm.)",
+                  "ボランティア活動を通じて、多くのことを学んだ。(Thông qua hoạt động tình nguyện, tôi đã học hỏi được rất nhiều điều.)"
+                ]
               }
             ]
           },
           {
-            "root": "連 / 従 (LIÊN / TÙNG)",
-            "meaning": "Dẫn theo, kéo theo sự biến đổi tỷ lệ thuận",
+            "root": "連 (LIÊN / DẪN)",
+            "meaning": "Kéo theo, dẫn dắt theo sự biến đổi",
             "patterns": [
               {
-                "pattern": "～につれて (につれて)",
-                "meaning": "Kéo theo, cùng với sự biến đổi của A thì B tự nhiên biến đổi theo (biến đổi tự nhiên)",
+                "pattern": "～につれて",
+                "meaning": "Cùng với sự biến đổi A thì B cũng biến đổi theo (kéo theo, tỷ lệ thuận)",
+                "note": "A thường là động từ chỉ sự tiến triển tự nhiên (già đi, thời gian trôi...)",
                 "examples": [
-                  "年をとるにつれて、白髪が増えてきた。(Càng nhiều tuổi thì tóc bạc kéo theo càng nhiều lên.)"
-                ],
-                "note": "Chữ Hán: 連 trong Liên đới, dẫn theo. Vế sau là biến đổi tự nhiên, không đi với câu mệnh lệnh."
+                  "年をとるにつれて、白髪が増えてきた。(Càng nhiều tuổi thì tóc bạc càng tăng lên.)",
+                  "台風が近づくにつれて、風雨が強くなってきた。(Khi bão càng tiến lại gần thì mưa gió càng trở nên dữ dội.)"
+                ]
               },
               {
-                "pattern": "～にしたがって (にしたがって)",
-                "meaning": "① Cùng với sự thay đổi (tương tự につれて nhưng trang trọng hơn) | ② Tuân theo, làm theo (quy định, chỉ thị)",
+                "pattern": "～にしたがって (～に従って)",
+                "meaning": "① Cùng với (biến đổi theo chiều hướng tất yếu) | ② Tuân theo, làm theo (quy định, chỉ dẫn)",
+                "note": "Chữ TÙNG/THUẬN (したがう)",
                 "examples": [
-                  "台風が近づくにしたがって、風が強くなってきた。(Bão càng đến gần thì gió lại càng thổi mạnh lên.)",
-                  "係員の指示に従って、避難してください。(Xin hãy tuân thủ theo chỉ dẫn của nhân viên mà sơ tán.)"
-                ],
-                "note": "Chữ Hán: 従 trong Phục tùng, tuân theo."
+                  "頂上に近づくにしたがって、気温が下がってきた。(Càng tiến gần tới đỉnh núi thì nhiệt độ càng hạ xuống.)",
+                  "指示にしたがって避難してください。(Hãy tuân theo chỉ dẫn mà lánh nạn.)"
+                ]
+              },
+              {
+                "pattern": "～に伴って (にともなって)",
+                "meaning": "Kéo theo, đi kèm với (biến đổi mang quy mô lớn xã hội, kinh tế, môi trường)",
+                "note": "Chữ BẠN (ともに). Đi sau danh từ hoặc Vる ➡ ～に伴うN",
+                "examples": [
+                  "人口の増加に伴って、様々な問題が生じている。(Kéo theo sự gia tăng dân số là nhiều vấn đề phát sinh.)"
+                ]
               }
             ]
           },
           {
-            "root": "違 / 決 (VI / QUYẾT)",
-            "meaning": "Khẳng định chắc chắn tuyệt đối",
+            "root": "違 (VI) & 決 (QUYẾT)",
+            "meaning": "Không sai lệch, quả quyết chắc chắn 100%",
             "patterns": [
               {
                 "pattern": "～に違いない (にちがいない)",
-                "meaning": "Chắc chắn là... (không sai đi đâu được, phán đoán có cơ sở vững chắc)",
+                "meaning": "Chắc chắn là... / Nhất định là... (phán đoán quả quyết dựa trên linh cảm, quan sát)",
+                "note": "Không dùng chữ Hán trong văn cảnh thường. Bổ nghĩa: ～に相違ない (văn bản trang trọng)",
                 "examples": [
-                  "あのレストランはいつも人が多いから、人気があるに違いない。(Nhà hàng đó lúc nào cũng đông khách nên chắc chắn là rất nổi tiếng.)"
-                ],
-                "note": "Chữ Hán 違: Khác, sai. に違いない = Không thể sai khác đi đâu được."
+                  "あのレストランはいつも人が多いから、人気があるに違いない。(Nhà hàng đó lúc nào cũng đông khách, chắc chắn là rất được ưa chuộng.)"
+                ]
               },
               {
                 "pattern": "～に決まっている (にきまっている)",
-                "meaning": "Nhất định là, quả quyết rằng là... (khẳng định chủ quan, hùng hồn của người nói)",
+                "meaning": "Chắc chắn là... / Quả quyết là... (khẳng định mang tính chủ quan của người nói: hiển nhiên là thế)",
+                "note": "Hay dùng trong hội thoại thân mật",
                 "examples": [
-                  "今週中に単語を全部覚えるなんて無理に決まってるよ。(Bảo nhớ hết toàn bộ từ vựng ngay trong tuần này thì nhất định là bất khả thi rồi.)"
-                ],
-                "note": "Chữ Hán 決: Quyết định, quả quyết."
+                  "今週中に単語を全部覚えるなんて無理に決まってるよ。(Học thuộc hết sạch từ vựng trong tuần này thì hiển nhiên là quá sức rồi.)"
+                ]
               }
             ]
           },
           {
-            "root": "代 / 関 / 反 / 恐 (ĐẠI / QUAN / PHẢN / KHỦNG)",
-            "meaning": "Các gốc từ chỉ hành động và tâm thái cốt lõi",
+            "root": "代 (ĐẠI) & 関 (QUAN) & 反 (PHẢN)",
+            "meaning": "Đại diện, liên quan, và phản kháng đối lập",
             "patterns": [
               {
-                "pattern": "～に代わって / ～に代わり (にかわって)",
-                "meaning": "Đại diện cho, thay thế cho... (ai đó làm gì)",
+                "pattern": "～に代わって (にかわって)",
+                "meaning": "Thay cho... / Đại diện cho... (ai đó làm việc gì)",
+                "note": "Chữ ĐẠI (かわる) ➡ ～に代わるN",
                 "examples": [
-                  "病気の母に代わって、私が兄弟の世話をしています。(Thay cho mẹ đang bị ốm, tôi chăm sóc các em.)"
-                ],
-                "note": "Chữ Hán 代 trong Đại biểu, Đại diện."
+                  "病気の母に代わって、私が兄弟の世話をしています。(Thay cho mẹ bị ốm, tôi chăm sóc các em.)"
+                ]
               },
               {
                 "pattern": "～に関して (にかんして)",
-                "meaning": "Liên quan đến, về vấn đề... (trang trọng, dùng cho điều tra, nghiên cứu, phát biểu)",
+                "meaning": "Liên quan đến... / Về vấn đề... (phạm vi thông tin, nghiên cứu)",
+                "note": "Chữ QUAN (かんする) ➡ ～に関するN",
                 "examples": [
-                  "事故の原因に関して、現在調査が進められている。(Về nguyên nhân vụ tai nạn, hiện cuộc điều tra đang được tiến hành.)"
-                ],
-                "note": "Chữ Hán 関 trong Liên quan. Bổ nghĩa danh từ: ～に関するN."
+                  "事故の原因に関して、現在調査が進められている。(Liên quan đến nguyên nhân vụ tai nạn, hiện đang được điều tra.)"
+                ]
               },
               {
                 "pattern": "～に反して (にはんして)",
-                "meaning": "Trái ngược với, phản lại (dự đoán, kỳ vọng, quy tắc, mong ước)",
+                "meaning": "Trái với, ngược lại với (dự đoán, kỳ vọng, quy tắc, mong đợi)",
+                "note": "Chữ PHẢN (はんする) ➡ ～に反するN",
                 "examples": [
-                  "ファンの期待に反して、試合は惨敗だった。(Trái ngược với kỳ vọng của người hâm mộ, trận đấu là một thất bại thảm hại.)"
-                ],
-                "note": "Chữ Hán 反 trong Tương phản, Phản bội."
+                  "周囲の予想に反して、彼のチームが見事に優勝した。(Trái với dự đoán của mọi người xung quanh, đội của anh ấy đã vô địch ngoạn mục.)"
+                ]
+              }
+            ]
+          },
+          {
+            "root": "くせ & 見せる & 恐れ",
+            "meaning": "Thói tật phê phán, quyết tâm làm cho xem, và e sợ mối nguy",
+            "patterns": [
+              {
+                "pattern": "～くせに",
+                "meaning": "Mặc dù... mà lại... (thể hiện thái độ mỉa mai, chỉ trích, coi thường người khác)",
+                "note": "Không dùng để nói về bản thân mình. N + のくせに, Na + なくせに",
+                "examples": [
+                  "自分では何もできないくせに、人の悪口ばかり言うのは良くないよ。(Bản thân chả làm được gì mà suốt ngày nói xấu người khác là không tốt đâu.)"
+                ]
+              },
+              {
+                "pattern": "～てみせる",
+                "meaning": "Làm V cho mà xem! (thể hiện quyết tâm mãnh liệt của bản thân trước đối phương)",
+                "note": "V-て + みせる",
+                "examples": [
+                  "将来は自分の会社を作って成功してみせる。(Tương lai tôi sẽ mở công ty riêng và thành công cho mà xem!)"
+                ]
               },
               {
                 "pattern": "～恐れがある (おそれがある)",
-                "meaning": "Có nguy cơ, e sợ rằng là... (kết quả xấu, tiêu cực nghiêm trọng)",
+                "meaning": "E sợ rằng là... / Có nguy cơ xảy ra điều xấu...",
+                "note": "Dùng trong bản tin thời sự, cảnh báo nguy hiểm",
                 "examples": [
-                  "不景気なので、大学を卒業しても就職できないおそれがある。(Do kinh tế suy thoái nên e rằng tốt nghiệp đại học xong cũng có nguy cơ không xin được việc.)"
-                ],
-                "note": "Chữ Hán 恐 trong Khủng hoảng, e sợ. Dùng trong văn cảnh báo tin tức, y tế, thời sự."
-              },
-              {
-                "pattern": "～くせに (くせに)",
-                "meaning": "Mặc dù... thế mà... (hàm ý chỉ trích, phê phán, coi thường sâu sắc)",
-                "examples": [
-                  "自分では何もできないくせに、人の悪口ばかり言うのは良くないよ。(Bản thân chẳng làm được trò trống gì thế mà chỉ toàn đi nói xấu người khác là không tốt đâu.)"
-                ],
-                "note": "Gốc từ 癖 (Kuse: tật xấu). Chỉ dùng khi chỉ trích người khác, không dùng cho bản thân."
-              },
-              {
-                "pattern": "～Vてみせる (てみせる)",
-                "meaning": "Làm V cho mà xem! (thể hiện quyết tâm mãnh liệt trước mặt đối phương)",
-                "examples": [
-                  "将来は自分の会社を作って成功してみせる。(Tương lai tôi nhất định sẽ lập công ty riêng và thành công cho các bạn xem!)"
-                ],
-                "note": "Gốc từ 見せる (Cho thấy, phô bày ra trước mắt)."
+                  "不景気なので、大学を卒業しても就職できないおそれがある。(Do kinh tế suy thoái, e rằng dù tốt nghiệp đại học cũng có nguy cơ không xin được việc.)"
+                ]
               }
             ]
           }
@@ -644,175 +658,135 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 2,
         "title": "Chương 2: Hệ Thống Ngữ Pháp Dễ Nhầm Lẫn (Phân Biệt Cặp Đôi)",
         "pages": "Trang 7 - 19",
-        "description": "Tổng hợp và phân biệt rạch ròi các mẫu câu có hình thức na ná nhau nhưng ý nghĩa và ngữ cảnh hoàn toàn khác biệt, hay bị gài bẫy nhất trong đề thi JLPT N2.",
+        "description": "Các cặp đôi ngữ pháp có cấu trúc hoặc ý nghĩa tương tự nhau nhưng sắc thái sử dụng và hoàn cảnh ứng dụng hoàn toàn khác biệt, hay bị lừa trong đề thi.",
         "sections": [
           {
-            "group": "BỘ TỨ わけ (WAKE)",
+            "group": "Nhóm 1: つもりだ vs ようとする vs としている",
             "patterns": [
               {
-                "pattern": "わけがない (＝はずがない)",
-                "meaning": "Tuyệt đối không thể nào có chuyện đó (phủ định chắc nịch 100%)",
-                "example": "今から家を出て、約束の時間に間に合うわけがない。(Bây giờ mới rời nhà thì làm sao mà kịp giờ hẹn cho nổi.)"
+                "pattern": "V-る / V-ない + つもりだ",
+                "meaning": "Dự định làm / không làm V (kế hoạch ý chí đã định trước của người nói)",
+                "example": "今年の夏休みは国へ帰らないつもりです。(Kỳ nghỉ hè năm nay tôi dự định sẽ không về nước.)"
               },
               {
-                "pattern": "わけではない",
-                "meaning": "Không hẳn là, không phải là... (phủ định một phần, làm mềm phát ngôn)",
-                "example": "申し込みをした全員が参加できるわけではない。(Không phải cứ ai đăng ký là cũng được tham gia đâu.)"
+                "pattern": "V-た + つもりだ (～たつもりで)",
+                "meaning": "Cứ ngỡ là / Đinh ninh là đã làm... (nhưng thực tế sự thật thì ngược lại hoặc chỉ coi như là)",
+                "example": "鍵をかけたもりだったが、開いていた。(Tôi cứ đinh ninh là đã khóa cửa rồi, thế mà cửa vẫn mở.)"
               },
               {
-                "pattern": "わけだ",
-                "meaning": "① Thảo nào mà! (nhận ra lý do ngọn ngành) | ② Tức là, thành ra là...",
-                "example": "寒いわけだ。雪が降ってきた。(Thảo nào mà lạnh thế! Tuyết đã bắt đầu rơi rồi kia.)"
+                "pattern": "V-(意向形) ようとする",
+                "meaning": "Vừa định làm gì thì... / Cố gắng định làm V thì có hành động khác xen vào",
+                "example": "電車に乗ろうとしたとき、ドアが閉まってしまった。(Đúng lúc vừa định bước lên tàu điện thì cửa đóng sầm lại.)"
               },
               {
-                "pattern": "わけにはいかない",
-                "meaning": "Không thể làm V được (dù rất muốn nhưng vì lương tâm, đạo đức, quy tắc ngăn cản)",
-                "example": "大事な会議があるので、風邪を引いても休むわけにはいかない。(Có cuộc họp quan trọng nên dù bị cảm cũng không thể nghỉ được.)"
+                "pattern": "V-(意向形) ようとしない",
+                "meaning": "Hoàn toàn không có ý định làm V (ngoan cố, không chịu làm)",
+                "example": "彼は自分の非を認めようとしない。(Anh ta nhất quyết không chịu thừa nhận lỗi lầm của mình.)"
+              },
+              {
+                "pattern": "V-(意向形) ようとしている",
+                "meaning": "Một thời khắc, một sự việc chuẩn bị bắt đầu hoặc sắp sửa xảy ra",
+                "example": "新しい年が明けようとしている。(Một năm mới đang chuẩn bị bắt đầu.)"
               }
             ]
           },
           {
-            "group": "BỘ CẤU TRÚC よう (YOU)",
+            "group": "Nhóm 2: に違いない vs に相違ない vs はずだ vs わけだ",
             "patterns": [
               {
-                "pattern": "～ようと思っている",
-                "meaning": "Đang có dự định làm gì đó (ý định được ấp ủ từ trước đến nay)",
-                "example": "大学を卒業したら、日本の会社に就職しようと思っている。(Tốt nghiệp đại học xong tôi dự định sẽ xin vào làm công ty Nhật.)"
+                "pattern": "～に違いない (にちがいない)",
+                "meaning": "Chắc chắn là... (phỏng đoán bằng trực giác mạnh mẽ cá nhân)",
+                "example": "夜遅くまで電気がついている。まだ勉強しているに違いない。(Đèn sáng tới tận đêm khuya. Chắc chắn là cậu ấy vẫn đang học bài.)"
               },
               {
-                "pattern": "～ようとしている",
-                "meaning": "Đang cố gắng làm gì / Chuẩn bị diễn ra ngay trước mắt (chủ thể hoặc tự nhiên)",
-                "example": "電車が発車しようとしている。(Đoàn tàu đang chuẩn bị lăn bánh khởi hành.)"
+                "pattern": "～に相違ない (にそういない)",
+                "meaning": "Chắc chắn không sai (văn phong trang trọng, báo cáo, văn bản tòa án)",
+                "example": "犯人は彼に相違ない。(Hung thủ chắc chắn không ai khác ngoài anh ta.)"
               },
               {
-                "pattern": "～ようとしない",
-                "meaning": "Nhất quyết không chịu làm gì (thể hiện thái độ bướng bỉnh, bị người khác phê phán)",
-                "example": "彼はどんなに進めても、病院に行こうとしませんでした。(Dù có khuyên bảo thế nào anh ta cũng nhất quyết không chịu đi khám bệnh.)"
+                "pattern": "～はずだ",
+                "meaning": "Chắc chắn sẽ... (suy luận logic dựa trên chứng cớ khách quan, lịch trình đã định)",
+                "example": "彼は日本に10年も住んでいるのだから、日本語が上手なはずだ。(Anh ấy sống ở Nhật tận 10 năm nên tiếng Nhật chắc chắn phải giỏi rồi.)"
               },
               {
-                "pattern": "～ようがない",
-                "meaning": "Hoàn toàn không có cách nào để mà làm được (bế tắc phương án)",
-                "example": "電話番号も住所もわからないので、連絡しようがない。(Số điện thoại lẫn địa chỉ đều không biết thì làm sao mà liên lạc cho nổi.)"
-              },
-              {
-                "pattern": "～ようになる",
-                "meaning": "Thay đổi dần thói quen hoặc năng lực (từ không thành có: V-可能形 + ようになる)",
-                "example": "毎日練習すれば、日本語が話せるようになりますよ。(Cứ luyện tập mỗi ngày thì bạn sẽ nói được tiếng Nhật thôi.)"
-              },
-              {
-                "pattern": "～ようにする",
-                "meaning": "Nỗ lực, cố gắng duy trì một thói quen tốt",
-                "example": "健康のために、毎朝野菜ジュースを飲むようにしています。(Vì sức khỏe, tôi cố gắng uống nước ép rau mỗi sáng.)"
-              },
-              {
-                "pattern": "～ようになっている",
-                "meaning": "Cơ chế máy móc/thiết bị được cài đặt tự động vận hành",
-                "example": "このドアは閉めると、自動的に鍵がかかるようになっている。(Cửa này hễ cứ đóng lại là sẽ tự động khóa.)"
+                "pattern": "～わけだ",
+                "meaning": "Thảo nào... / Hèn chi... / Đương nhiên là... (hiểu ra nguyên nhân tất yếu của sự việc)",
+                "example": "暑いわけだ。気温が38度もある。(Hèn chi mà nóng thế. Nhiệt độ tận 38 độ C cơ mà.)"
               }
             ]
           },
           {
-            "group": "PHÂN BIỆT つもり (TSUMORI)",
+            "group": "Nhóm 3: にすぎない vs にほかならない",
             "patterns": [
               {
-                "pattern": "～つもりだ (Dự định)",
-                "meaning": "Dự định làm hoặc không làm (V-る / V-ない + つもりだ)",
-                "example": "タバコはもう吸わないつもりだ。(Tôi dự định sẽ không bao giờ hút thuốc nữa.)"
+                "pattern": "～にすぎない (に過ぎない)",
+                "meaning": "Chỉ là... / Chẳng qua chỉ là... (nhấn mạnh mức độ nhỏ bé, tầm thường, không quan trọng)",
+                "example": "私はただ自分の義務を果たしたにすぎない。(Tôi chẳng qua chỉ làm tròn nghĩa vụ của mình mà thôi.)"
               },
               {
-                "pattern": "～たつもり (Đinh ninh / Ngỡ rằng)",
-                "meaning": "Bản thân cứ ngỡ / cứ đinh ninh là đã làm, nhưng thực tế kết quả lại sai lệch",
-                "example": "メールを送ったつもりだったが、届いていなかった。(Cứ đinh ninh là mình đã gửi mail rồi, vậy mà hóa ra mail chưa tới.)"
+                "pattern": "～にほかならない",
+                "meaning": "Chính là... / Không gì khác ngoài... (khẳng định nguyên nhân hoặc lý do duy nhất cốt lõi)",
+                "example": "今回の成功は、チーム全員の努力の結果にほかならない。(Thành công lần này không gì khác ngoài kết quả nỗ lực của toàn thể đội ngũ.)"
               }
             ]
           },
           {
-            "group": "PHÂN BIỆT BỘ ほど (HODO)",
+            "group": "Nhóm 4: ほかない vs よりほかない vs ざるを得ない",
             "patterns": [
               {
-                "pattern": "～ほど",
-                "meaning": "Đến mức độ... (diễn tả mức độ cao bằng hình ảnh so sánh)",
-                "example": "死ぬほど疲れた。もう何もしたくない。(Mệt đến mức muốn chết đi được. Chẳng muốn làm gì nữa cả.)"
+                "pattern": "V-る + ほかない / よりほかない",
+                "meaning": "Chỉ còn cách là... / Không còn con đường nào khác đành phải...",
+                "example": "バスも電車も止まったので、歩いて帰るほかない。(Cả xe buýt và tàu điện đều ngừng chạy nên chỉ còn cách đi bộ về nhà.)"
               },
               {
-                "pattern": "～ほど～ない",
-                "meaning": "Không... bằng... (so sánh kém)",
-                "example": "今年の夏は去年ほど暑くない。(Mùa hè năm nay không nóng bằng năm ngoái.)"
-              },
-              {
-                "pattern": "～ほど～はない",
-                "meaning": "Không có gì bằng... (khẳng định vị thế số 1)",
-                "example": "母の手料理ほどおいしいものはない。(Chẳng có món nào ngon bằng cơm mẹ nấu.)"
-              },
-              {
-                "pattern": "～ば～ほど",
-                "meaning": "Càng... thì càng... (V-ば V-るほど / A-いければ A-いほど)",
-                "example": "外国語は練習すれば練習するほど上手になる。(Ngoại ngữ càng luyện nhiều thì càng giỏi.)"
+                "pattern": "V-ない(bỏ ない) + ざるを得ない",
+                "meaning": "Đành phải... / Buộc lòng phải... (trái với mong muốn bản thân nhưng tình thế bắt buộc)",
+                "example": "これだけ証拠があれば、事実を認めざるを得ない。(Đã có ngần này chứng cứ thì đành lòng phải thừa nhận sự thật.)"
               }
             ]
           },
           {
-            "group": "PHÂN BIỆT BỘ 限る (KAGIRU)",
+            "group": "Nhóm 5: に限って (1) vs に限って (2) vs に限らず",
             "patterns": [
               {
-                "pattern": "～に限る (にかぎる)",
-                "meaning": "Là nhất, là tốt nhất (lời khuyên tâm đắc, không gì bằng)",
-                "example": "寒い日はやっぱり熱い鍋に限るよね。(Ngày lạnh thì đúng là ăn lẩu nóng hổi là tuyệt nhất rồi.)"
+                "pattern": "N + に限って (1)",
+                "meaning": "Cứ đúng vào lúc... thì lại gặp xui xẻo (oái oăm, trớ trêu)",
+                "example": "傘を持っていない日に限って、雨が降る。(Cứ đúng vào ngày không mang ô thì trời lại mưa.)"
               },
               {
-                "pattern": "～に限り (にかぎり)",
-                "meaning": "Chỉ giới hạn đặc biệt trong trường hợp ngoại lệ (ưu đãi, thông báo)",
-                "example": "本日ご来店のお客様に限り、ドリンクを1杯無料サービスします。(Chỉ riêng khách hàng đến quán hôm nay được tặng miễn phí 1 ly đồ uống.)"
+                "pattern": "N + に限って (2)",
+                "meaning": "Riêng người đó / việc đó thì tuyệt đối không có chuyện xấu",
+                "example": "うちの子に限って、そんな悪事をするはずがない。(Riêng con nhà tôi thì tuyệt đối không bao giờ làm điều xằng bậy như thế.)"
               },
               {
-                "pattern": "～限り（は） (かぎりは)",
-                "meaning": "Chừng nào mà còn... thì vẫn sẽ... (điều kiện duy trì trạng thái)",
-                "example": "この仕事が終わらない限り、家には帰れません。(Chừng nào chưa xong việc này thì vẫn chưa thể về nhà.)"
-              },
-              {
-                "pattern": "～限りでは (かぎりでは)",
-                "meaning": "Trong phạm vi (những gì tôi đã nhìn thấy, nghe thấy, điều tra được)",
-                "example": "私が知っている限りでは、彼はそんな嘘をつく人ではない。(Trong phạm vi tôi biết, anh ấy không phải người nói dối như vậy.)"
-              },
-              {
-                "pattern": "～に限って (にかぎって - 3 NÉT NGHĨA)",
-                "meaning": "① Chỉ riêng hôm đó thì khác thường | ② Đúng vào lúc xui xẻo thì bị... | ③ Riêng người đó thì tin tưởng tuyệt đối không làm việc xấu",
-                "example": "① いつもは怒るのに、今日に限って優しい。 / ② 急いでいる時に限って、信号に引っかかる。 / ③ うちの子に限って、そんなことをするはずがない。"
-              },
-              {
-                "pattern": "～とは限らない (とはかぎらない)",
-                "meaning": "Chưa chắc / Không hẳn là... (phủ định tính tuyệt đối, vế trước thường đi với からといって)",
-                "example": "お金持ちが必ずしも幸せとは限らない。(Người giàu chưa chắc đã luôn luôn hạnh phúc.)"
+                "pattern": "N + に限らず",
+                "meaning": "Không chỉ riêng N mà cả những cái khác cũng... (không giới hạn)",
+                "example": "若者に限らず、お年寄りもスマートフォンを使っている。(Không chỉ giới trẻ mà ngay cả người cao tuổi cũng sử dụng điện thoại thông minh.)"
               }
             ]
           },
           {
-            "group": "PHÂN BIỆT 5 NÉT NGHĨA CỦA によって (NI YOTTE)",
+            "group": "Nhóm 6: わけ (わけがない vs わけではない vs わけだ vs わけにはいかない)",
             "patterns": [
               {
-                "pattern": "によって (1): Nguyên nhân, lý do",
-                "meaning": "Do, vì... gây ra (hậu quả lớn, thiên tai, tai nạn)",
-                "example": "大地震によって、多くの建物が倒壊した。(Do trận động đất lớn, nhiều tòa nhà đã bị sập đổ.)"
+                "pattern": "～わけがない / ～わけはない",
+                "meaning": "Làm sao mà... được / Tuyệt đối không có khả năng... (= はずがない)",
+                "example": "こんな難しい問題、小学生に解けるわけがない。(Bài toán khó thế này, học sinh tiểu học làm sao giải được!)"
               },
               {
-                "pattern": "によって (2): Phương tiện, cách thức",
-                "meaning": "Bằng cách, thông qua phương tiện...",
-                "example": "語学は、毎日繰り返すことによって上達する。(Học ngoại ngữ sẽ tiến bộ bằng cách lặp lại mỗi ngày.)"
+                "pattern": "～わけではない / ～わけでもない",
+                "meaning": "Không hẳn là... / Không hẳn là không... (phủ định một phần, tránh tuyệt đối)",
+                "example": "嫌いなわけではないが、甘いものはあまり食べない。(Không hẳn là ghét nhưng tôi không ăn đồ ngọt nhiều lắm.)"
               },
               {
-                "pattern": "によって (3): Căn cứ",
-                "meaning": "Dựa trên, căn cứ vào...",
-                "example": "テストの成績によってクラスを分けます。(Chúng tôi phân lớp căn cứ theo điểm số bài kiểm tra.)"
+                "pattern": "～わけにはいかない",
+                "meaning": "Không thể làm V vì lý do đạo đức, trách nhiệm, phép lịch sự xã hội",
+                "example": "明日は大事な会議があるから、風邪でも休むわけにはいかない。(Ngày mai có cuộc họp quan trọng nên dù bị cảm cũng không thể nghỉ được.)"
               },
               {
-                "pattern": "によって (4): Tùy thuộc vào...",
-                "meaning": "Tùy theo mỗi đối tượng mà khác nhau (vế sau: 違う, 異なる, 様々)",
-                "example": "文化や習慣は国によって異なる。(Văn hóa và tập quán tùy theo từng quốc gia mà khác nhau.)"
-              },
-              {
-                "pattern": "によっては (5): Tùy vào...",
-                "meaning": "Tùy vào từng trường hợp cụ thể thì có thể xảy ra điều gì (vế sau: ～こともある, ～かもしれない)",
-                "example": "日によっては、残業になることもある。(Tùy từng ngày, cũng có hôm phải làm thêm giờ.)"
+                "pattern": "～ないわけにはいかない",
+                "meaning": "Không thể không làm V ➡ Buộc lòng phải làm V vì nghĩa vụ xã hội",
+                "example": "お世話になった先輩の結婚式だから、行かないわけにはいかない。(Là đám cưới của đàn anh đã giúp đỡ mình nên không thể không đi.)"
               }
             ]
           }
@@ -823,110 +797,85 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 3,
         "title": "Chương 3: Trọn Bộ Ngữ Pháp Liên Quan Đến もの & こと",
         "pages": "Trang 20 - 27",
-        "description": "Hai trục ngữ pháp chiếm mật độ xuất hiện dày đặc nhất trong đề thi JLPT N2. Nắm vững bản chất: こと mang tính quy định/sự việc lý tính; もの mang tính cảm xúc/bản chất tự nhiên.",
+        "description": "Toàn bộ cấu trúc ngữ pháp hình thành từ 2 danh từ hình thức quan trọng nhất ngữ pháp N2: こと (việc vô hình, quy tắc, lời khuyên) và もの (bản chất tự nhiên, cảm xúc, lý do).",
         "sections": [
           {
-            "group": "NHÓM CẤU TRÚC こと (KOTO)",
+            "group": "Nhóm cấu trúc với こと (KOTO)",
             "patterns": [
               {
-                "pattern": "～こと",
-                "meaning": "Quy định, mệnh lệnh trong nội quy văn bản",
-                "example": "試験中はスマートフォンの電源を切ること。(Trong phòng thi phải tắt nguồn điện thoại.)"
+                "pattern": "V-る / V-ない + ことだ",
+                "meaning": "Nên / Không nên làm V (lời khuyên răn, khuyến cáo trực tiếp trong tình huống cụ thể)",
+                "example": "日本語が上手になりたければ、毎日少しずつでも声を出して練習することだ。(Nếu muốn giỏi tiếng Nhật thì nên mỗi ngày dù ít cũng luyện phát âm to thành tiếng.)"
               },
               {
-                "pattern": "～ことだ",
-                "meaning": "Lời khuyên răn nên / không nên làm gì",
-                "example": "風邪を治したいなら、温かくして早く寝ることだ。(Muốn khỏi cảm thì nên giữ ấm và đi ngủ sớm.)"
+                "pattern": "どんなに / なんと + [V/A] + ことか",
+                "meaning": "Biết bao nhiêu! / Thật là... xiết bao! (cảm thán mức độ cảm xúc sâu sắc)",
+                "example": "合格できたと知ったとき、どんなに嬉しかったことか。(Lúc biết mình đã đỗ, tôi hạnh phúc biết bao nhiêu!)"
               },
               {
-                "pattern": "～ことか",
-                "meaning": "Biết bao nhiêu! (cảm thán đi cùng どんなに, どれほど)",
-                "example": "合格の知らせを聞いて、母がどんなに喜んだことか！(Biết bao nhiêu vui sướng khi mẹ nghe tin tôi đỗ đạt!)"
+                "pattern": "V-る / V-ない + ことになっている",
+                "meaning": "Được quy định là / Theo luật lệ là... (quy tắc chung của tập thể, trường học, công ty)",
+                "example": "この寮では、夜11時以降は外出できないことになっている。(Ở ký túc xá này, theo quy định là sau 11 giờ đêm không được ra ngoài.)"
               },
               {
-                "pattern": "～ことに",
-                "meaning": "Thật là... làm sao (cảm xúc đưa lên đầu câu)",
-                "example": "残念なことに、あと1点で不合格になってしまった。(Thật đáng tiếc làm sao, chỉ thiếu 1 điểm là đỗ rồi.)"
+                "pattern": "V-る + ことはない",
+                "meaning": "Không cần thiết phải làm V đâu (động viên, khuyên bảo đối phương không cần lo)",
+                "example": "簡単な怪我だから、心配することはないよ。(Vết thương nhẹ thôi nên không việc gì phải lo lắng đâu.)"
               },
               {
-                "pattern": "～ことだし",
-                "meaning": "Vì... (nêu thêm một lý do để rủ rê)",
-                "example": "お腹もすいたことだし、そろそろご飯を食べに行こう。(Bụng cũng đói rồi, chúng mình đi ăn cơm thôi.)"
+                "pattern": "A-い / A-な / V-た + ことに",
+                "meaning": "Thật là [hạnh phúc / đáng tiếc / bất ngờ] khi mà... (đặt cảm xúc lên trước đầu câu)",
+                "example": "嬉しいことに、応募した作文がコンクールで入賞した。(Thật là vui mừng khi bài văn gửi dự thi của tôi đã đạt giải.)"
               },
               {
-                "pattern": "～ことから",
-                "meaning": "Do... nên (nguồn gốc tên gọi, phán đoán căn cứ)",
-                "example": "窓が開いていることから、泥棒が入ったとわかった。(Do cửa sổ mở toang nên biết là trộm đã vào nhà.)"
-              },
-              {
-                "pattern": "～ことだから",
-                "meaning": "Vì tính cách của người đó nên đoán chắc là...",
-                "example": "真面目な彼のことだから、必ず時間通りに来るはずだ。(Vì tính anh ấy vốn cẩn thận nên chắc chắn sẽ đến đúng giờ.)"
-              },
-              {
-                "pattern": "～ことなく",
-                "meaning": "Không hề làm gì mà vẫn tiếp tục",
-                "example": "彼は弱音を吐くことなく、最後まで走り抜いた。(Cậu ấy không hề than thở một lời mà đã chạy đến tận đích.)"
-              },
-              {
-                "pattern": "～ことにする",
-                "meaning": "Bản thân người nói quyết định làm gì",
-                "example": "毎朝6時に起きることにした。(Tôi quyết định mỗi sáng sẽ dậy lúc 6 giờ.)"
-              },
-              {
-                "pattern": "～ことになる",
-                "meaning": "Được quy định, được an bài, có lịch trình",
-                "example": "来月からベトナム支社へ出向することになった。(Tôi nhận quyết định chuyển công tác sang chi nhánh Việt Nam từ tháng tới.)"
+                "pattern": "V-ない + ことには～ない",
+                "meaning": "Nếu không làm V trước thì không thể nào... xảy ra được",
+                "example": "実際に使ってみないことには、本当に良い品物か判断できない。(Nếu chưa dùng thử trong thực tế thì không thể phán đoán xem có phải hàng tốt hay không.)"
               }
             ]
           },
           {
-            "group": "NHÓM CẤU TRÚC もの (MONO)",
+            "group": "Nhóm cấu trúc với もの (MONO)",
             "patterns": [
               {
-                "pattern": "～ものだ",
-                "meaning": "① Bản chất tự nhiên của sự vật | ② Hồi tưởng thói quen quá khứ (V-たものだ) | ③ Cảm thán sâu sắc",
-                "example": "① 人の噂も七十五日というものだ。 / ② 子どもの頃はよくこの川で泳いだものだ。 / ③ 時の流れは本当に早いものだ。"
+                "pattern": "V-る / A-い / A-な + ものだ (Đạo lý)",
+                "meaning": "Là chuyện đương nhiên / Là bản chất tất yếu của sự vật",
+                "example": "人の心はなかなか分かりにくいものだ。(Lòng dạ con người vốn là thứ rất khó hiểu.)"
               },
               {
-                "pattern": "～ものではない",
-                "meaning": "Không nên làm điều trái luân thường đạo lý",
-                "example": "目上の人に対してそんな言葉遣いをするものではない。(Không nên ăn nói bỗ bã kiểu đó với người lớn tuổi.)"
+                "pattern": "V-た + ものだ (Hoài niệm)",
+                "meaning": "Hồi xưa thường hay... (nhớ lại thói quen sâu sắc trong quá khứ)",
+                "example": "子どもの頃、夏休みになると毎日川で泳いだものだ。(Hồi còn nhỏ, cứ đến kỳ nghỉ hè là ngày nào tôi cũng bơi ở bờ sông.)"
               },
               {
-                "pattern": "～ものだから / ～もので",
-                "meaning": "Tại vì... nên (biện minh, phân trần lý do cá nhân bất khả kháng)",
-                "example": "事故で電車が止まってしまったものですから、遅刻しました。(Vì có sự cố tàu dừng chạy nên em mới bị trễ học ạ.)"
-              },
-              {
-                "pattern": "～ものなら",
-                "meaning": "Nếu có thể... (thực tế rất khó hoặc bất khả thi)",
-                "example": "やり直せるものなら、人生をもう一度やり直したい。(Nếu có thể làm lại, tôi muốn làm lại cuộc đời một lần nữa.)"
-              },
-              {
-                "pattern": "～ものの",
-                "meaning": "Tuy là... thế nhưng mà... (tương phản)",
-                "example": "大学に入学したものの、勉強についていけない。(Tuy đã vào được đại học nhưng tôi không theo kịp bài vở.)"
-              },
-              {
-                "pattern": "～ものがある",
-                "meaning": "Có cảm giác chứa chan điều gì đó trong lòng",
-                "example": "彼の歌声には、聴く人の胸を打つものがある。(Giọng hát của anh ấy có điều gì đó chạm sâu vào trái tim người nghe.)"
-              },
-              {
-                "pattern": "～ないものか",
-                "meaning": "Liệu có cách nào... không nhỉ? (khao khát tìm giải pháp)",
-                "example": "なんとかしてN2に合格する方法はないものか。(Liệu không có cách nào giúp tôi đỗ N2 sao nhỉ?)"
-              },
-              {
-                "pattern": "～ものか (もんか)",
-                "meaning": "Tuyệt đối không bao giờ làm điều đó nữa! (phủ định cực mạnh)",
-                "example": "あんなまずい店、二度と行くものか！(Cái quán ăn dở tệ như thế, tôi quyết không bao giờ quay lại lần thứ hai!)"
+                "pattern": "V-たい / V-てほしい + ものだ (Nguyện vọng sâu sắc)",
+                "meaning": "Ước gì... / Thật muốn... xiết bao (nguyện vọng từ tận đáy lòng)",
+                "example": "一度でいいから、世界一周旅行をしてみたいものだ。(Dù chỉ một lần trong đời, tôi thật ước ao được đi du lịch vòng quanh thế giới.)"
               },
               {
                 "pattern": "～というものだ",
-                "meaning": "Đúng thật là... (nhận định xác đáng)",
-                "example": "困ったときにお互いに助け合うのが、本当の友情というものだ。(Lúc hoạn nạn giúp đỡ lẫn nhau, đó mới đúng thật là tình bạn chân chính.)"
+                "meaning": "Thật đúng là... (đánh giá dứt khoát một việc gì đó là bản chất chân thực)",
+                "example": "初対面でそんなプライベートなことを聞くのは、失礼というものだ。(Vừa gặp lần đầu mà đã hỏi chuyện đời tư như thế thì thật đúng là thất lễ.)"
+              },
+              {
+                "pattern": "～ものか / ～もんか",
+                "meaning": "Tuyệt đối không! / Làm sao mà... được! (phủ định mạnh mẽ, thách thức)",
+                "example": "あんな不味いレストラン、二度と行くものか。(Cái nhà hàng dở tệ thế kia, làm sao mà tôi thèm đến lần thứ hai nữa!)"
+              },
+              {
+                "pattern": "V-(可能形)ものなら",
+                "meaning": "Nếu có thể làm được V (thực tế rất khó hoặc không tưởng) thì...",
+                "example": "戻れるものなら、学生時代に戻りたい。(Nếu có thể quay trở lại được, tôi muốn quay về thời học sinh.)"
+              },
+              {
+                "pattern": "～ものの",
+                "meaning": "Mặc dù đã... nhưng mà... (= けれども, nhưng vế sau thường không như mong đợi)",
+                "example": "大学に合格したものの、学費が払えるか心配だ。(Tuy đã đỗ đại học nhưng tôi lo không biết có trả nổi học phí không.)"
+              },
+              {
+                "pattern": "～ものだから / ～もので",
+                "meaning": "Tại vì... (đưa ra lý do bào chữa chính đáng trong hoàn cảnh không ngờ)",
+                "example": "道が混んでいたものだから、遅刻してしまいました。(Tại vì đường tắc quá nên em bị đến muộn ạ.)"
               }
             ]
           }
@@ -937,65 +886,65 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 4,
         "title": "Chương 4: Phân Biệt Tuyệt Đối Cấu Trúc 上で, N上 & ところ",
         "pages": "Trang 28 - 31",
-        "description": "Các mẫu câu biến thể của 上 (Ue) và ところ (Tokoro) với các trợ từ を, に, へ, で mang ý nghĩa bước ngoặt trong câu văn.",
+        "description": "Bóc tách cặn kẽ các biến thể của 上で và các sắc thái phong phú của trợ từ đi kèm ところ trong đề thi thật.",
         "sections": [
           {
-            "group": "BỘ CẤU TRÚC VỚI 上 (UE)",
+            "group": "Phân biệt Vた上で vs Vる上で vs N上（じょう）",
             "patterns": [
               {
-                "pattern": "Vる上（で） / Nの上（で）",
-                "meaning": "Khi làm việc V / Liên quan đến phương diện nào đó thì...",
-                "example": "交通は不便だが、生活する上で特に困ることはない。(Giao thông tuy bất tiện nhưng xét khi sinh hoạt ở đây thì không có gì phiền toái cả.)"
+                "pattern": "V-た + 上で (うえで) / Nの + 上で",
+                "meaning": "Sau khi làm A xong thì mới tiến hành làm B (dựa trên cơ sở A đã chuẩn bị kỹ)",
+                "example": "家族と相談した上で、今後の進路を決めたいと思います。(Sau khi bàn bạc kỹ với gia đình xong, tôi muốn quyết định hướng đi sắp tới.)"
               },
               {
-                "pattern": "Vた上で",
-                "meaning": "Sau khi làm xong A thì mới tiến hành làm B (dựa trên nền tảng của A)",
-                "example": "専門家と相談した上で、決断を下します。(Sau khi đã thảo luận với chuyên gia xong thì tôi mới đưa ra quyết định.)"
+                "pattern": "V-る + 上で (うえで)",
+                "meaning": "Khi làm V / Trong quá trình làm V thì việc B là vô cùng cần thiết, quan trọng",
+                "example": "日本で生活する上で、ゴミの分別ルールを覚えることは大切だ。(Trong quá trình sinh sống tại Nhật, việc nhớ quy tắc phân loại rác là rất quan trọng.)"
               },
               {
-                "pattern": "～上に (うえに)",
-                "meaning": "Không những... mà thêm vào đó còn... (thêm lý do cùng chiều)",
-                "example": "田中さんは仕事ができる上に、性格も優しい。(Anh Tanaka không chỉ giỏi việc mà tính tình lại còn dịu dàng.)"
-              },
-              {
-                "pattern": "～上は (うえは)",
-                "meaning": "Một khi đã... thì phải... (＝からには, ＝以上は)",
-                "example": "留学すると決心した上は、必ず成果を出してみせる。(Một khi đã quyết tâm đi du học thì nhất định phải mang lại thành quả cho mà xem!)"
-              },
-              {
-                "pattern": "N上 (じょう)",
-                "meaning": "Xét về mặt, về phương diện (sức khỏe, giáo dục, pháp lý...)",
-                "example": "健康上・教育上・法律上・表面上 (Về mặt sức khỏe, về mặt giáo dục, về mặt pháp lý, về mặt biểu hiện bề ngoài)."
+                "pattern": "N + 上 (じょう)",
+                "meaning": "Về mặt N / Xét trên phương diện N (lịch sử, pháp luật, lý thuyết, sức khỏe...)",
+                "example": "法律上は問題がないとしても、道徳的には許されない行為だ。(Xét về mặt luật pháp dù không có vấn đề gì nhưng về mặt đạo đức thì đó là hành vi không thể tha thứ.)"
               }
             ]
           },
           {
-            "group": "BỘ CẤU TRÚC VỚI ところ (TOKORO)",
+            "group": "Hệ thống toàn bộ biến thể của ところ (TOKORO)",
             "patterns": [
               {
-                "pattern": "～ところを (bị bắt gặp)",
-                "meaning": "Đang trong lúc làm gì thì bị ai đó bắt gặp / nhắc nhở",
-                "example": "試験中、隣の人の答えを見ているところを先生に注意された。(Trong giờ kiểm tra, đúng lúc đang nhìn bài bạn thì bị cô giáo nhắc nhở.)"
+                "pattern": "V-る + ところだ",
+                "meaning": "Chuẩn bị làm V ngay tức thì (ngay trước thời điểm bắt đầu)",
+                "example": "今から食事をするところです。(Bây giờ tôi chuẩn bị ăn cơm đây.)"
               },
               {
-                "pattern": "～ところへ / ところに (ập đến)",
-                "meaning": "Đúng vào lúc đang... thì sự việc khác bất ngờ ập tới",
-                "example": "ケーキができ上がったところへ子どもたちが帰ってきた。(Đúng vào lúc bánh vừa nướng xong thì lũ trẻ ùa về nhà.)"
+                "pattern": "V-ている + ところだ",
+                "meaning": "Đang trong quá trình tiến hành làm V",
+                "example": "今、書類を作成しているところです。(Bây giờ tôi đang làm dở tài liệu.)"
               },
               {
-                "pattern": "Vたところ、～た",
-                "meaning": "Sau khi thử làm A thì nhận được kết quả B",
-                "example": "父に相談してみたところ、快く賛成してくれた。(Sau khi thử bàn với bố thì bố đã vui vẻ tán thành ngay.)"
+                "pattern": "V-た + ところだ",
+                "meaning": "Vừa mới làm V xong xuôi tức thì (khoảnh khắc vừa kết thúc)",
+                "example": "たった今、家に帰ってきたところです。(Tôi vừa mới về đến nhà xong tức thì.)"
               },
               {
-                "pattern": "Vるところだった",
-                "meaning": "Suýt chút nữa thì... (nhưng thực tế may mắn đã không xảy ra)",
-                "example": "彼女が注意してくれなかったら、だまされるところだった。(Nếu cô ấy không cảnh báo thì suýt chút nữa là tôi bị lừa rồi.)"
+                "pattern": "V-る + ところだった",
+                "meaning": "Suýt chút nữa thì... (may mắn thực tế đã không xảy ra)",
+                "example": "危ない！もう少しで車にひかれるところだった。(Nguy hiểm quá! Suýt chút nữa thì bị xe ô tô chèn trúng rồi.)"
               },
               {
-                "pattern": "～どころではない",
-                "meaning": "Không phải là lúc có thể làm việc đó (tình thế ngặt nghèo)",
-                "example": "忙しくて、旅行どころではない。(Đang bận tối mắt tối mũi thế này, thời gian đâu mà tính chuyện đi du lịch!)"
+                "pattern": "V-た + ところ",
+                "meaning": "Sau khi thử làm V thì nhận được kết quả bất ngờ hoặc thông tin mới",
+                "example": "病院で検査を受けたところ、幸い異常はなかった。(Sau khi đi kiểm tra ở bệnh viện, may mắn là không có điều gì bất thường.)"
+              },
+              {
+                "pattern": "V-た + ところで～ない",
+                "meaning": "Dù có làm V đi chăng nữa thì kết quả vẫn là vô ích / không thay đổi",
+                "example": "今さら後悔したところで、過去は変えられない。(Đến nước này dù có hối hận đi chăng nữa thì quá khứ cũng chẳng thể thay đổi.)"
+              },
+              {
+                "pattern": "～ところに / へ / を (Bị bắt gặp, xen vào)",
+                "meaning": "Đúng vào thời điểm đang... thì hành động khác xen vào",
+                "example": "隠れてお菓子を食べているところを、母に見つかってしまった。(Đúng lúc đang lén ăn bánh kẹo thì bị mẹ bắt quả tang.)"
               }
             ]
           }
@@ -1006,37 +955,37 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 5,
         "title": "Chương 5: Các Dấu Hiệu Nhận Biết Cực Nhanh Mẫu Câu Ngữ Pháp",
         "pages": "Trang 32 - 40",
-        "description": "Bí quyết bắt bài đáp án trắc nghiệm trong 3 giây: Nhìn từ khóa trước và sau chỗ trống để suy ra ngay cấu trúc tương ứng.",
+        "description": "Các cặp dấu hiệu vàng độc quyền của Kosei: Nhìn thấy từ khóa A là phản xạ ngay ra mẫu câu B trong bài thi chỉ mất 5 giây.",
         "sections": [
           {
-            "signType": "DẤU HIỆU BIẾN ĐỔI (変化・なる・増える・上がる)",
-            "patterns": "に連れて / に従って / 一方だ",
-            "rule": "Khi trong câu xuất hiện các từ chỉ sự biến đổi (変化, 増える, 減る, 上がる, 悪化する) &rarr; Ưu tiên chọn ngay につれて, にしたがって hoặc 一方だ."
+            "signType": "Dấu hiệu 1: Từ diễn tả sự biến đổi (変化)",
+            "patterns": "～につれて / ～にしたがって / ～とともに / ～に伴って",
+            "rule": "• Khi câu xuất hiện các từ chỉ sự biến đổi như: 増える (tăng), 減る (giảm), 変わる (thay đổi), 進む (tiến triển), 広がる (lan rộng), 高くなる (cao lên), 年をとる (già đi)...\n• ➔ Phản xạ ngay đến các cấu trúc tỉ lệ thuận / kéo theo: ～につれて, ～にしたがって, ～に伴って, ～とともに."
           },
           {
-            "signType": "KẾT HỢP VỚI THỂ ます (V bỏ ます)",
-            "patterns": "ようがない / かねる / かねない / 次第 / ながらも / つつも / がたい",
-            "rule": "Thấy động từ đứng trước chỗ trống bị bỏ ます: \n- Không cách nào: ようがない\n- Không thể (lịch sự): かねる\n- Có nguy cơ: かねない\n- Ngay sau khi: 次第\n- Dẫu biết nhưng: つつも\n- Khó mà (tin, hiểu): がたい (信じがたい, 理解しがたい)"
+            "signType": "Dấu hiệu 2: Kết hợp với dạng giả định Thể Điều Kiện (ば・たら・なら)",
+            "patterns": "～ば～ほど / ～さえ～ば / ～ものなら / ～としたら",
+            "rule": "• Xuất hiện lặp lại 2 lần thể điều kiện: AばAほど (Càng... càng...)\n• Xuất hiện trợ từ さえ: ～さえ～ば (Chỉ cần... là đủ)\n• Động từ chia thể khả năng + ものなら: V(可能形)ものなら (Nếu có thể làm được điều không tưởng thì...)\n• Đi với danh từ giả định: ～としたら / ～とすれば (Giả sử như là...)."
           },
           {
-            "signType": "KẾT HỢP VỚI THỂ た (V-た)",
-            "patterns": "とたん / あげく / 末に / きり / うえで",
-            "rule": "Thấy chỗ trống đi sau V-た: \n- Vừa xong thì bất ngờ: とたん\n- Sau một hồi chịu đựng (kết quả xấu): あげく\n- Sau một hồi đắn đo suy nghĩ (quyết định): 末に\n- Kể từ dạo đó bặt vô âm tín: きり\n- Sau khi làm xong thì: うえで"
+            "signType": "Dấu hiệu 3: Biểu thị kết quả tiêu cực, xấu ngoài mong đợi",
+            "patterns": "～せいで / ～あまり / ～末に / ～きり / ～おそれがある",
+            "rule": "• せいで: Tại vì A (tiêu cực) dẫn tới kết quả tệ B.\n• あまり: Vì quá mức cảm xúc (lo lắng, vui mừng, căng thẳng) nên ngất đi, làm điều dại dột.\n• 末に: Sau một hồi gian truân, tranh cãi kéo dài ➔ kết quả thất bại, chia tay, hủy bỏ.\n• おそれがある: E sợ rằng có nguy cơ xảy ra tai nạn, dịch bệnh."
           },
           {
-            "signType": "VẾ SAU BẮT BUỘC LÀ PHỦ ĐỊNH (～ない)",
-            "patterns": "てからでないと / として～ない / ないことには / めったに～ない / けっして～ない",
-            "rule": "Thấy đuôi câu kết thúc bằng dạng phủ định ない/できない: Nhận diện ngay các cấu trúc điều kiện kiên quyết てからでないと hoặc ないことには (Nếu không A thì không thể B)."
+            "signType": "Dấu hiệu 4: Nhấn mạnh mức độ không có ngoại lệ (Bất kể / Toàn bộ)",
+            "patterns": "～を問わず / ～にかかわらず / ～のみならず / ～をはじめ",
+            "rule": "• Xuất hiện các cặp đối lập (Nam nữ, già trẻ, quốc tịch, ngày đêm, trong ngoài): 男女、昼夜、国籍、年齢 ➔ Đi kèm ngay với: ～を問わず (Không màng tới, bất kể).\n• Xuất hiện đối tượng tiêu biểu hàng đầu: ～をはじめ (Trước tiên phải kể đến N hàng đầu là...)."
           },
           {
-            "signType": "BIỂU THỊ KẾT QUẢ XẤU, TIÊU CỰC",
-            "patterns": "せいで / おそれがある / かねない / ようものなら / だらけ",
-            "rule": "Toàn bộ câu mang sắc thái tiêu cực, xui xẻo: \n- Tại vì: せいで\n- Nguy cơ dịch bệnh, thiên tai: おそれがある\n- E rằng sẽ xảy ra chuyện xấu: かねない\n- Nếu lỡ trót làm bậy thì: ようものなら\n- Toàn rác, bụi bẩn, lỗi sai: だらけ (ゴミだらけ, 間違いだらけ)"
+            "signType": "Dấu hiệu 5: Trải qua suốt một khoảng thời gian dài hoặc phạm vi",
+            "patterns": "～にわたって / ～を通じて / ～を通して",
+            "rule": "• Khi vế trước là từ chỉ thời gian quy mô (vài năm, hàng chục năm, mấy tháng) hoặc không gian rộng lớn (toàn quốc, khắp biển): 数年、何日間、全域 ➔ Đi kèm với: ～にわたって (Kéo dài suốt, trải rộng trên).\n• Bốn mùa 四季, suốt một năm 一年 ➔ Đi với: ～を通じて / ～を通して."
           },
           {
-            "signType": "PHẠM VI THỜI GIAN DÀI & KHÔNG GIAN RỘNG",
-            "patterns": "にわたって / を通して / を問わず / もかまわず",
-            "rule": "- Suốt nhiều năm / khắp cả nước: 長年, 全国 + にわたって\n- Xuyên suốt 4 mùa / cả đời: 四季, 一生 + を通して\n- Bất kể tuổi tác, giới tính: 年齢, 性別 + を問わず\n- Bất chấp ánh nhìn của người khác: 人目 + もかまわず"
+            "signType": "Dấu hiệu 6: Thể hiện lập trường, điểm nhìn của người nói",
+            "patterns": "～から見ると / ～から言えば / ～からして / ～にしたら",
+            "rule": "• Đứng từ góc độ người khác: 私から見ると (Đứng từ lập trường của tôi mà xét).\n• Bắt nguồn từ 1 nét tiêu biểu nhỏ: 見た目からして (Ngay từ vẻ bề ngoài đã thấy lạ rồi).\n• Đặt mình vào vị trí đối phương: 親にしたら (Nếu đặt vào vị trí của bậc cha mẹ)."
           }
         ]
       },
@@ -1045,57 +994,67 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 6,
         "title": "Chương 6: Các Mẫu Ngữ Pháp Không Có Trong Shinkanzen Hay Thi JLPT",
         "pages": "Trang 41 - 51",
-        "description": "Các mẫu câu thực chiến xuất hiện rất nhiều trong các đề thi thật JLPT nhưng sách giáo trình Shinkanzen Masuta lại bỏ sót hoặc viết không kỹ.",
+        "description": "Các cấu trúc ngữ pháp thực chiến kinh điển xuất hiện dày đặc trong đề thi thật JLPT nhưng sách giáo trình Shinkanzen Masuta lại bỏ sót hoặc giảng giải không kỹ.",
         "sections": [
           {
-            "pattern": "～Vる・Vない＋ようでは",
-            "meaning": "Nếu cứ... thì... (cảnh báo hậu quả tiêu cực chắc chắn xảy ra)",
-            "example": "締め切りを守れないようでは、プロとしてやっていけないよ。(Nếu cứ không tuân thủ deadline thì không thể hành nghề chuyên nghiệp được đâu!)"
+            "pattern": "Vる上で (うえで)",
+            "meaning": "Cần thiết, mấu chốt, quan trọng khi làm V (quá trình hướng tới mục đích)",
+            "example": "この本は就職活動をする上での重要なポイントが書かれています。(Quyển sách này có viết những mấu chốt quan trọng khi đi xin việc.)"
           },
           {
-            "pattern": "に先立って (にさきだって)",
-            "meaning": "Trước khi tiến hành sự kiện quan trọng thì phải chuẩn bị trước",
+            "pattern": "～上 (じょう)",
+            "meaning": "Về mặt, về phương diện (sức khỏe, giáo dục, pháp luật, lý thuyết, bề ngoài)",
+            "example": "スポーツは、子どもにとって健康上はもちろん、教育上もいい点はたくさんある。(Thể thao, đối với trẻ con, về mặt sức khỏe là đương nhiên, về mặt giáo dục cũng có rất nhiều điểm tốt.)"
+          },
+          {
+            "pattern": "～Vる・Vない＋ようでは",
+            "meaning": "Nếu cứ... thì... (cảnh báo hậu quả tiêu cực không thể tiến xa được)",
+            "example": "締め切りを守れないようでは、プロとしてやっていけないよ。(Nếu cứ không hoàn thành đúng deadline thì không thể hành nghề chuyên nghiệp được đâu!)"
+          },
+          {
+            "pattern": "～に先立って (にさきだって)",
+            "meaning": "Trước khi làm việc lớn A thì chuẩn bị trước việc B",
             "example": "新作映画の公開に先立ち、試写会が開かれた。(Trước khi công chiếu tác phẩm điện ảnh mới, buổi chiếu thử đã được tổ chức.)"
           },
           {
-            "pattern": "N1も～ば・なら、N2も～",
-            "meaning": "Có cái tốt N1 thì cũng có cả cái tốt N2 / Có cái xấu N1 thì cũng có cái xấu N2",
-            "example": "この店は品数も多ければ、値段も安い。(Cửa hàng này mặt hàng vừa phong phú mà giá cả lại còn rẻ nữa.)"
+            "pattern": "N1 も～ば・なら、N2 も～",
+            "meaning": "Có N1 thì cũng có cả N2 (đồng thời tồn tại cả 2 mặt tích cực hoặc tiêu cực)",
+            "example": "人生には楽しいこともあれば、辛いこともある。(Đời người có những chuyện vui thì cũng có cả những chuyện cay đắng.)"
           },
           {
             "pattern": "～てこそ",
-            "meaning": "Phải có A thì mới thấm thía / mới có B (Nếu không có A thì B vô nghĩa)",
-            "example": "苦労してこそ、親のありがたみがわかる。(Phải trải qua gian nan vất vả thì mới thấu hiểu được công ơn của cha mẹ.)"
+            "meaning": "Nhất định phải qua... thì mới thực sự thấm thía / có kết quả được",
+            "example": "苦労してこそ、わかることもたくさんある。(Có nhiều điều, phải qua gian lao khổ cực rồi mới thực sự thấu hiểu được.)"
           },
           {
             "pattern": "～っこない",
-            "meaning": "Tuyệt đối không thể nào làm được! (＝わけがない trong khẩu ngữ)",
-            "example": "明日までに漢字を100個なんて、覚えられっこないよ。(Bảo nhớ 100 chữ Hán trước ngày mai thì sao mà nhớ cho nổi!)"
+            "meaning": "Tuyệt đối không thể nào... (phủ định cực mạnh trong văn nói = わけがない)",
+            "example": "一日でこの厚い本を全部読めっこないよ。(Làm sao mà có thể đọc hết quyển sách dày cộp này trong vòng một ngày được cơ chứ!)"
           },
           {
             "pattern": "～次第だ (しだいだ)",
-            "meaning": "Chuyện là thế đấy / Do hoàn cảnh như vậy nên mới...",
-            "example": "担当者が変わりましたので、ご挨拶に伺った次第です。(Do có sự thay đổi nhân sự phụ trách nên tôi mạn phép đến chào hỏi quý vị ạ.)"
+            "meaning": "Do lý do đó... / Vì tình cảnh đó nên mới dẫn tới tình trạng này",
+            "example": "このような事情から、今回は辞退させていただく次第です。(Do hoàn cảnh như thế này, tôi xin phép được từ chối dịp lần này ạ.)"
           },
           {
             "pattern": "～だけましだ",
-            "meaning": "Kể ra vẫn còn may mắn, tốt chán so với tình huống tồi tệ hơn",
-            "example": "自転車は壊れたが、怪我がなかっただけましだ。(Chiếc xe đạp tuy bị hỏng nhưng người không bị thương thì kể ra vẫn còn may mắn chán.)"
+            "meaning": "Vẫn còn may chán / Thế là tốt lắm rồi (so với kịch bản tồi tệ hơn)",
+            "example": "給料が減ったけれど、首にならなかっただけましだよ。(Tuy lương bị giảm thật nhưng không bị sa thải đuổi việc thì vẫn còn may chán.)"
           },
           {
-            "pattern": "～には及ばない (にはおよばない)",
-            "meaning": "Không cần thiết phải đến mức làm việc đó đâu",
-            "example": "大した病気ではないので、入院するには及びません。(Bệnh không có gì nghiêm trọng nên không cần thiết phải nhập viện đâu.)"
+            "pattern": "～どころではない / ～どころじゃない",
+            "meaning": "Không phải là lúc... / Tâm trí đâu mà... (hoàn cảnh cấp bách lấn át)",
+            "example": "風邪で熱が40度もあって、勉強どころではない。(Bị cảm sốt tận 40 độ, tâm trí đâu mà học hành gì nữa!)"
           },
           {
-            "pattern": "～っぱなし",
-            "meaning": "Cứ để nguyên trạng thái xấu kéo dài (quên tắt, vứt bừa bãi)",
-            "example": "電気をつけっぱなしで寝てしまった。(Tôi đã ngủ quên mà cứ để nguyên đèn bật sáng suốt đêm.)"
+            "pattern": "～かねない",
+            "meaning": "Có nguy cơ xảy ra kết quả xấu (tác hại tiêu cực)",
+            "example": "そんなスピードを出したら、大事故を起こしかねない。(Chạy tốc độ kinh hoàng thế thì có nguy cơ gây tai nạn nghiêm trọng đấy!)"
           },
           {
-            "pattern": "Các biến thể: ～よりほかない / ～からいえば / ～からいうと",
-            "meaning": "Chỉ còn cách là... / Xét từ góc độ... mà nói thì...",
-            "example": "やるべきことはすべてやった。あとは祈るよりほかない。(Những việc cần làm đã làm hết rồi. Giờ chỉ còn cách cầu nguyện mà thôi.)"
+            "pattern": "～かねる",
+            "meaning": "Khó lòng mà làm được / Xin phép từ chối một cách lịch sự trong công sở",
+            "example": "そのご要望にはお応えしかねます。(Yêu cầu đó của quý khách, chúng tôi rất tiếc khó lòng đáp ứng được.)"
           }
         ]
       },
@@ -1104,37 +1063,37 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 7,
         "title": "Chương 7: Các Mẫu Câu & Kỹ Thuật Phá Đảo Bài Dấu Sao ★",
         "pages": "Trang 52 - 62",
-        "description": "Toàn bộ công thức kết dính từ vựng và trật tự ngữ pháp giúp bạn giải quyết 100% các câu hỏi Mondai 8 sắp xếp trật tự câu không bao giờ sai.",
+        "description": "Toàn bộ 6 quy tắc mấu chốt giúp bạn ghép cặp chính xác tuyệt đối các câu hỏi Mondai 8 sắp xếp trật tự dấu sao.",
         "tips": [
           {
             "tipNumber": 1,
-            "title": "Bẫy khi gặp [N を]: Không chỉ tìm động từ kết hợp NをV",
-            "detail": "Nhiều khi bạn chỉ mải mê đi tìm động từ mà quên mất các mẫu câu nối danh từ cực kỳ hay gặp:\n- ～をもとにして (Dựa trên N)\n- ～を中心にして (Lấy N làm trung tâm)\n- ～をきっかけにして (Nhân dịp N)\n- ～をはじめにして (Trước hết phải kể đến N)"
+            "title": "Kỹ thuật khi xuất hiện [N を]",
+            "detail": "• Không chỉ tìm tha động từ kết hợp NをV!\n• Cần lập tức kiểm tra xem trong 4 đáp án có các trợ từ ghép đi kèm hay không: をめぐって (xoay quanh N), を中心にして (lấy N làm trọng tâm), を通して (thông qua N), をはじめ (trước tiên là N).\n• Nếu không có trợ từ ghép, mới tìm động từ tha động từ phù hợp."
           },
           {
             "tipNumber": 2,
-            "title": "Bẫy khi gặp [Vて]: Các mẫu câu cảm xúc bộc phát",
-            "detail": "Ngoài các trợ động từ quen thuộc (いる, ある, おく, しまう, もらう, あげる), hãy chú ý ngay:\n- Vて（は）ならない (Hết sức, vô cùng... lo lắng/nhớ nhung)\n- Vてたまらない / Vてしかたがない / Vてしょうがない (Không kìm nén nổi cảm xúc)"
+            "title": "Kỹ thuật khi xuất hiện động từ thể [Vて]",
+            "detail": "• Phản xạ lập tức tìm các trợ động từ đi sau thể Te: Vてみる (thử làm), Vておく (chuẩn bị trước), Vてしまう (lỡ làm/xong xuôi), Vてある (có sẵn), Vていく / Vてくる (tiến trình xu hướng).\n• Hoặc nối với mẫu câu: Vてこそ (phải qua V mới), Vて以来 (kể từ khi V), Vてたまらない (vô cùng, không chịu nổi)."
           },
           {
             "tipNumber": 3,
-            "title": "Quy tắc với động từ [なる] và [ある・ない]",
-            "detail": "- Gặp [なる] (ならない, なった, なって): Vế trước thường đi với tính từ đuôi [く] hoặc danh từ [に].\n- Gặp [ある・ない] (あった, なかった): Vế trước thường đi với trợ từ [は], [が], [も]."
+            "title": "Kỹ thuật khi có dạng [なる] (ならない・なった・なって)",
+            "detail": "• Đi tìm từ bổ nghĩa ở trước なる: Tính từ đuôi -i biến thành A-く + なる, Tính từ đuôi -na và Danh từ biến thành N-に + なる.\n• Hoặc các cấu trúc cố định đi với なる: ～ようになっている (cơ chế tự động), ～ことになっている (quy định), ～ざるを得ない (đành phải), ～ずにはいられない (không thể không kìm nén)."
           },
           {
             "tipNumber": 4,
-            "title": "Quy tắc danh từ hóa [こと・もの・わけ・のは]",
-            "detail": "Phía trước liền kề luôn là Thể thông thường (普通形: V-る, V-た, V-ない) hoặc Danh từ + の / Tính từ な + な:\n- ～こと (ことか, ことに, ことがある)\n- ～わけ (わけがない, わけにはいかない)\n- ～もの (ものがある, ものの)"
+            "title": "Kỹ thuật khi xuất hiện [こと・もの・わけ・の]",
+            "detail": "• Vị trí vàng của các danh từ hình thức này là: Đứng ở cuối câu (chốt hạ mẫu câu ngữ pháp: ～ものだ、～ことだ、～わけがない).\n• Hoặc đứng ngay trước các trợ từ làm chủ ngữ/tân ngữ: ～のは (điều mà...), ～のが, ～のを."
           },
           {
             "tipNumber": 5,
-            "title": "Mẫu câu lặp lại 2 động từ giống nhau",
-            "detail": "- ～ば～ほど : Càng... càng... (練習すれば練習するほど)\n- ～か～ないかのうちに : Vừa mới... thì ngay lập tức... (終わるか終わらないかのうちに)\n- ～ようか～まいか : Đắn đo nên làm hay không làm (行こうか行くまいか)"
+            "title": "Kỹ thuật lặp lại 2 động từ trong 1 câu",
+            "detail": "• Xuất hiện cùng 1 động từ ở 2 vị trí khác nhau: Lập tức ghép vào các cấu trúc lặp ngữ pháp:\n  - V-るに + V-ない (Muốn V mà không thể V: 泣くに泣けない)\n  - V-たら + V-たで (Nếu được thì lại nảy sinh phiền hà: 買ったら買ったで)\n  - V-ば + V-るほど (Càng... thì càng...)\n  - V-つ + V-つ (Lúc thì... lúc thì...: 追いつ追われつ)"
           },
           {
             "tipNumber": 6,
-            "title": "Biến đổi mẫu câu thành ngữ bổ nghĩa cho Danh từ",
-            "detail": "Khi bổ nghĩa cho danh từ, các mẫu ngữ pháp sẽ biến đổi đuôi:\n- ～にあたって ➡ ～にあたってのN\n- ～に際して ➡ ～に際してのN\n- ～のもとで ➡ ～のもとでのN\n- ～を通じて ➡ ～を通じてのN\n- ～をもとにして ➡ ～をもとにしたN\n- ～に沿って ➡ ～に沿ったN\n- ～に応じて ➡ ～に応じたN\n- ～に基づいて ➡ ～に基づいたN\n- ～にわたって ➡ ～にわたるN\n- ～に関して ➡ ～に関するN\n- ～に対して ➡ ～に対するN\n- ～に応えて ➡ ～に応えるN\n- ～によって ➡ ～によるN\n- ～において ➡ ～におけるN"
+            "title": "Kỹ thuật biến đổi thể liên kết bổ nghĩa cho Danh từ",
+            "detail": "• Gặp một danh từ N đứng ở vế sau, hãy kiểm tra thể biến đổi đặc biệt của các mẫu câu:\n  - ～に対して ➡ ～に対するN\n  - ～に応えて ➡ ～に応えるN\n  - ～によって ➡ ～によるN\n  - ～において ➡ ～におけるN\n  - ～をめぐって ➡ ～をめぐるN\n  - ～を通じて ➡ ～を通じたN\n  - ～をはじめ ➡ ～をはじめとするN"
           }
         ]
       },
@@ -1143,75 +1102,195 @@ window.JLPT_CHEATSHEETS_DATA = {
         "chapterNumber": 8,
         "title": "Chương 8: Cẩm Nang Phó Từ Đi Kèm & Kính Ngữ N2-N3 Toàn Diện",
         "pages": "Trang 63 - 74",
-        "description": "Bảng tổng kết phó từ bắt buộc đi với mẫu câu mặc định và toàn bộ hệ thống kính ngữ công sở N2-N3 (Tôn kính ngữ, Khiêm nhường ngữ I, Khiêm nhường ngữ II - Đinh trọng ngữ).",
+        "description": "Bảng tổng hợp trọn vẹn toàn bộ các cặp phó từ mặc định, 20 phó từ tượng thanh tượng hình kinh điển và quy tắc kính ngữ công sở N2-N3.",
         "sections": [
           {
-            "title": "Phó từ đi với thể khẳng định / phỏng đoán / so sánh",
+            "title": "Phần 1: Phó từ đi với mẫu câu mặc định (Trang 64 - 66)",
             "items": [
               {
-                "adverb": "もしかしたら / ひょっとしたら",
+                "adverb": "もしかしたら / もしかすると",
                 "match": "～かもしれない",
-                "meaning": "Có lẽ là..."
+                "meaning": "Có lẽ là... / Không chừng là..."
+              },
+              {
+                "adverb": "ぜひ / なんとかして",
+                "match": "～てください / ～たい",
+                "meaning": "Nhất định muốn / Bằng mọi giá..."
+              },
+              {
+                "adverb": "どんなに / いくら / たとえ",
+                "match": "～ても / ～でも",
+                "meaning": "Dù có thế nào... / Giả sử đi nữa..."
               },
               {
                 "adverb": "おそらく",
-                "match": "～だろう / ～と思う",
-                "meaning": "E rằng là..."
+                "match": "～だろう / ～でしょう",
+                "meaning": "E rằng... / Có lẽ rằng... (xác suất cao)"
+              },
+              {
+                "adverb": "どうも / どうやら",
+                "match": "～ようだ / ～らしい",
+                "meaning": "Hình như là... / Có vẻ như..."
+              },
+              {
+                "adverb": "すでに",
+                "match": "～た / ～ている",
+                "meaning": "Đã làm gì xong xuôi rồi"
+              },
+              {
+                "adverb": "かならずしも",
+                "match": "～とは限らない / ～わけではない",
+                "meaning": "Không hẳn là... / Chưa chắc đã..."
+              },
+              {
+                "adverb": "ただ",
+                "match": "～だけ",
+                "meaning": "Chỉ là... đơn thuần"
+              },
+              {
+                "adverb": "さすが",
+                "match": "～だけあって",
+                "meaning": "Quả nhiên là... có khác"
+              },
+              {
+                "adverb": "つい",
+                "match": "～てしまった",
+                "meaning": "Lỡ, trót làm gì mất rồi"
+              },
+              {
+                "adverb": "くれぐれも",
+                "match": "～てください",
+                "meaning": "Kính mong, dặn dò chu đáo"
+              },
+              {
+                "adverb": "たいして / けっして / めったに",
+                "match": "～ない",
+                "meaning": "Không mấy khi / Tuyệt đối không / Hiếm khi"
               },
               {
                 "adverb": "どうせ",
-                "match": "～だろう",
-                "meaning": "Đằng nào thì cũng..."
+                "match": "～だろう / ～命令形",
+                "meaning": "Đằng nào thì cũng... nên hãy..."
               },
               {
-                "adverb": "まるで",
-                "match": "～ようだ / ～みたいだ",
-                "meaning": "Giống hệt như là..."
+                "adverb": "あいにく",
+                "match": "～てしまった",
+                "meaning": "Rất tiếc là... ngoài ý muốn"
               },
               {
-                "adverb": "たった今",
-                "match": "～たところだ / ～たばかりだ",
-                "meaning": "Vừa mới xong tức thì"
+                "adverb": "果たして (はたして)",
+                "match": "～だろうか",
+                "meaning": "Thực sự là... / Liệu có chắc là...?"
               }
             ]
           },
           {
-            "title": "Phó từ bắt buộc đi với thể phủ định (～ない)",
+            "title": "Phần 2: 20 Phó từ tượng thanh & tượng hình trọng điểm (Trang 67 - 68)",
             "items": [
               {
-                "adverb": "けっして",
-                "match": "～ない",
-                "meaning": "Tuyệt đối không bao giờ..."
+                "adverb": "こつこつ (コツコツ)",
+                "match": "働く・勉強する・努力する",
+                "meaning": "Cần cù, chăm chỉ, tích tiểu thành đại"
               },
               {
-                "adverb": "めったに",
-                "match": "～ない",
-                "meaning": "Hiếm khi mới..."
+                "adverb": "びしょびしょ / びっしょり",
+                "match": "濡れる (ướt)",
+                "meaning": "Ướt sũng, ướt như chuột lột"
               },
               {
-                "adverb": "たいして / そんなに",
-                "match": "～ない",
-                "meaning": "Không... lắm"
+                "adverb": "ずらっと / ずらりと",
+                "match": "並んでいる",
+                "meaning": "Xếp thành hàng thẳng tắp, la liệt"
               },
               {
-                "adverb": "ちっとも / すこしも",
-                "match": "～ない",
-                "meaning": "Một chút cũng không..."
+                "adverb": "じっと",
+                "match": "見る・考える・耐える",
+                "meaning": "Chăm chú nhìn, yên một chỗ kiên nhẫn"
               },
               {
-                "adverb": "まさか",
-                "match": "～ないだろう / ～わけがない",
-                "meaning": "Không lẽ nào lại..."
+                "adverb": "すらすら",
+                "match": "読む・答える",
+                "meaning": "Trôi chảy, vanh vách không vấp"
+              },
+              {
+                "adverb": "ぺらぺら",
+                "match": "話す",
+                "meaning": "Nói ngoại ngữ lưu loát / Bép xép"
+              },
+              {
+                "adverb": "ざっと",
+                "match": "読む・目を通す",
+                "meaning": "Đọc lướt qua, xem qua loa"
+              },
+              {
+                "adverb": "きっぱり",
+                "match": "断る (từ chối)",
+                "meaning": "Thẳng thừng, dứt khoát"
+              },
+              {
+                "adverb": "あっさり",
+                "match": "味 / 諦める",
+                "meaning": "Vị thanh đạm / Từ bỏ dễ dàng, chóng vánh"
+              },
+              {
+                "adverb": "さっぱり",
+                "match": "～ない / 気分",
+                "meaning": "Hoàn toàn không hiểu / Sảng khoái nhẹ nhõm"
+              },
+              {
+                "adverb": "きっちり",
+                "match": "時間を守る・分ける",
+                "meaning": "Đầy đủ, chuẩn xác từng li từng tí"
+              },
+              {
+                "adverb": "すっきり",
+                "match": "する",
+                "meaning": "Khoan khoái, dễ chịu, thông thoáng"
+              },
+              {
+                "adverb": "くっきり",
+                "match": "見える",
+                "meaning": "Rành mạch, rõ nét mồn một"
+              },
+              {
+                "adverb": "すっかり",
+                "match": "忘れた",
+                "meaning": "Hoàn toàn, sạch sành sanh"
+              },
+              {
+                "adverb": "ぐったり",
+                "match": "疲れる",
+                "meaning": "Mệt mỏi rã rời, kiệt sức nằm bẹp"
+              },
+              {
+                "adverb": "たっぷり",
+                "match": "時間がある / 食べる",
+                "meaning": "Đầy ắp, tràn trề, dư dả"
+              },
+              {
+                "adverb": "こっそり",
+                "match": "見る・入る",
+                "meaning": "Lén lút, rón rén vụng trộm"
+              },
+              {
+                "adverb": "ばったり",
+                "match": "出会う (gặp)",
+                "meaning": "Tình cờ bắt gặp ai trên đường"
               }
             ]
           },
           {
-            "title": "Kính ngữ: Bảng đối chiếu Tôn kính ngữ & Khiêm nhường ngữ",
+            "title": "Phần 3: Bảng chuyển đổi kính ngữ thực chiến N2-N3 (Trang 69 - 74)",
             "items": [
+              {
+                "verb": "する",
+                "sonkei": "なさる (お～になる)",
+                "kenjou": "いたす (お～する)"
+              },
               {
                 "verb": "行く / 来る",
                 "sonkei": "いらっしゃる / おいでになる",
-                "kenjou": "参る (まいる) / 伺う (うかがう)"
+                "kenjou": "まいる / うかがう"
               },
               {
                 "verb": "いる",
@@ -1219,14 +1298,9 @@ window.JLPT_CHEATSHEETS_DATA = {
                 "kenjou": "おる"
               },
               {
-                "verb": "食べる / 飲む",
-                "sonkei": "召し上がる (めしあがる)",
-                "kenjou": "いただく"
-              },
-              {
                 "verb": "言う",
                 "sonkei": "おっしゃる",
-                "kenjou": "申す (もうす) / 申し上げる"
+                "kenjou": "申し上げる / 申す"
               },
               {
                 "verb": "見る",
@@ -1234,14 +1308,24 @@ window.JLPT_CHEATSHEETS_DATA = {
                 "kenjou": "拝見する (はいけんする)"
               },
               {
-                "verb": "知っている",
-                "sonkei": "ご存じだ (ごぞんじだ)",
-                "kenjou": "存じている / 存じ上げる"
+                "verb": "聞く / 訪ねる",
+                "sonkei": "お聞きになる",
+                "kenjou": "うかがう / 拝聴する"
               },
               {
-                "verb": "聞く / 尋ねる",
-                "sonkei": "お聞きになる",
-                "kenjou": "伺う (うかがう) / 拝聴する"
+                "verb": "食べる / 飲む",
+                "sonkei": "召し上がる (めしあがる)",
+                "kenjou": "いただく"
+              },
+              {
+                "verb": "もらう",
+                "sonkei": "お受け取りになる",
+                "kenjou": "いただく / 頂戴する (ちょうだいする)"
+              },
+              {
+                "verb": "知っている",
+                "sonkei": "ご存じだ (ごぞんじだ)",
+                "kenjou": "存じている / 存じ上げております"
               },
               {
                 "verb": "会う",
@@ -1249,9 +1333,19 @@ window.JLPT_CHEATSHEETS_DATA = {
                 "kenjou": "お目にかかる (おめにかかる)"
               },
               {
-                "verb": "する",
-                "sonkei": "なさる",
-                "kenjou": "いたす"
+                "verb": "読む",
+                "sonkei": "お読みになる",
+                "kenjou": "拝読する (はいどくする)"
+              },
+              {
+                "verb": "借りる",
+                "sonkei": "お借りになる",
+                "kenjou": "拝借する (はいしゃくする)"
+              },
+              {
+                "verb": "受け取る",
+                "sonkei": "お受け取りになる",
+                "kenjou": "拝受する (はいじゅする)"
               }
             ]
           }

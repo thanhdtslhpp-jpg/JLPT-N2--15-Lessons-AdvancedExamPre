@@ -468,6 +468,12 @@
         </div>
 
         <div class="cs-header-actions">
+          <!-- Nút Ẩn / Hiện thanh công cụ (Zen Reading Mode) -->
+          <button type="button" class="cs-ctrl-btn" id="btn-cs-toggle-toolbar" title="Thu gọn / Mở rộng thanh công cụ để đọc thoáng mắt">
+            <i class="fas fa-eye-slash" id="cs-toggle-toolbar-icon"></i>
+            <span id="cs-toggle-toolbar-text" style="font-size: 0.82rem; font-weight: 700; margin-left: 0.35rem;">Thu gọn</span>
+          </button>
+
           <!-- Cụm điều chỉnh cỡ chữ -->
           <div class="cs-zoom-group" title="Điều chỉnh cỡ chữ">
             <button type="button" class="cs-zoom-btn" id="btn-cs-zoom-out" title="Thu nhỏ chữ">
@@ -491,34 +497,67 @@
         </div>
       </div>
 
-      <!-- Quick Switch Tabs -->
-      <div class="cs-modal-tabs" id="cs-modal-tabs">
-        <button type="button" class="cs-tab-btn active" data-cs="cs_kosei_np">
-          <i class="fas fa-book-bookmark"></i> Sổ Tay Kosei (75 Trang)
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_pho_tu">
-          <i class="fas fa-link"></i> Phó từ mặc định
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_dong_tu">
-          <i class="fas fa-book-open"></i> Động từ đa nghĩa
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_mono_koto">
-          <i class="fas fa-layer-group"></i> もの・こと
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_kinh_ngu">
-          <i class="fas fa-user-tie"></i> Kính ngữ
-        </button>
-        <button type="button" class="cs-tab-btn" data-cs="cs_dokkai_choukai">
-          <i class="fas fa-headphones-alt"></i> Bẫy Đọc - Nghe
-        </button>
+      <!-- Cụm Thanh Công Cụ & Bộ Lọc (Có thể thu gọn 1 click để giải phóng 100% diện tích đọc) -->
+      <div class="cs-controls-cluster" id="cs-controls-cluster">
+        <!-- Quick Switch Tabs -->
+        <div class="cs-modal-tabs" id="cs-modal-tabs">
+          <button type="button" class="cs-tab-btn active" data-cs="cs_kosei_np">
+            <i class="fas fa-book-bookmark"></i> Sổ Tay Kosei (75 Trang)
+          </button>
+          <button type="button" class="cs-tab-btn" data-cs="cs_pho_tu">
+            <i class="fas fa-link"></i> Phó từ mặc định
+          </button>
+          <button type="button" class="cs-tab-btn" data-cs="cs_dong_tu">
+            <i class="fas fa-book-open"></i> Động từ đa nghĩa
+          </button>
+          <button type="button" class="cs-tab-btn" data-cs="cs_mono_koto">
+            <i class="fas fa-layer-group"></i> もの・こと
+          </button>
+          <button type="button" class="cs-tab-btn" data-cs="cs_kinh_ngu">
+            <i class="fas fa-user-tie"></i> Kính ngữ
+          </button>
+          <button type="button" class="cs-tab-btn" data-cs="cs_dokkai_choukai">
+            <i class="fas fa-headphones-alt"></i> Bẫy Đọc - Nghe
+          </button>
+        </div>
+
+        <!-- Integrated Search & Chapter Selector Row -->
+        <div class="cs-filter-row" id="cs-filter-row">
+          <!-- Dropdown chọn chương nhanh cho Kosei 75 trang -->
+          <div class="cs-chapter-dropdown-wrap" id="cs-chapter-dropdown-wrap">
+            <label for="cs-chapter-select" class="cs-chapter-label"><i class="fas fa-list-ol"></i> Chọn chương:</label>
+            <select id="cs-chapter-select" class="cs-chapter-select">
+              <option value="all">📖 Toàn bộ 75 trang (Tất cả 8 chương)</option>
+              <option value="ch1">Chương 1: Học Ngữ Pháp Theo Gốc Hán Tự (Trang 3-6)</option>
+              <option value="ch2">Chương 2: Hệ Thống Ngữ Pháp Dễ Nhầm Lẫn (Trang 7-19)</option>
+              <option value="ch3">Chương 3: Trọn Bộ Ngữ Pháp もの & こと (Trang 20-27)</option>
+              <option value="ch4">Chương 4: Phân Biệt 上で, N上 & ところ (Trang 28-31)</option>
+              <option value="ch5">Chương 5: Dấu Hiệu Vàng Nhận Biết Cực Nhanh (Trang 32-40)</option>
+              <option value="ch6">Chương 6: Ngữ Pháp Không Có Trong Shinkanzen (Trang 41-51)</option>
+              <option value="ch7">Chương 7: Kỹ Thuật Phá Đảo Bài Dấu Sao ★ (Trang 52-62)</option>
+              <option value="ch8">Chương 8: Cẩm Nang Phó Từ & Kính Ngữ N2-N3 (Trang 63-74)</option>
+            </select>
+          </div>
+
+          <!-- Ô tìm kiếm -->
+          <div class="cs-search-input-wrap">
+            <i class="fas fa-search cs-search-icon"></i>
+            <input type="text" id="cs-search-input" class="cs-search-input" placeholder="Tìm nhanh mẫu câu, từ vựng, ý nghĩa (VD: 訴える, まるで, 敬語...)" autocomplete="off" />
+            <button type="button" id="cs-search-clear" class="cs-search-clear" style="display: none;" title="Xóa tìm kiếm">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
       </div>
 
-      <!-- Search Bar -->
-      <div class="cs-search-bar">
-        <i class="fas fa-search cs-search-icon"></i>
-        <input type="text" id="cs-search-input" class="cs-search-input" placeholder="Tìm kiếm nhanh mẫu câu, từ vựng, ý nghĩa tiếng Việt (VD: 訴える, まるで, 敬語, bẫy...)" autocomplete="off" />
-        <button type="button" id="cs-search-clear" class="cs-search-clear" style="display: none;" title="Xóa tìm kiếm">
-          <i class="fas fa-times"></i>
+      <!-- Thanh Mini Bar khi thu gọn (hiển thị để báo trạng thái và bấm mở lại) -->
+      <div class="cs-minibar" id="cs-minibar" style="display: none;">
+        <div class="cs-minibar-left">
+          <span class="cs-minibar-badge"><i class="fas fa-book-open"></i> <span id="cs-minibar-tab-title">Sổ Tay Kosei (75 Trang)</span></span>
+          <span class="cs-minibar-ch" id="cs-minibar-ch-title">Toàn bộ 75 trang</span>
+        </div>
+        <button type="button" class="cs-minibar-btn" id="btn-cs-minibar-expand">
+          <i class="fas fa-sliders-h"></i> Mở công cụ tra cứu
         </button>
       </div>
 
