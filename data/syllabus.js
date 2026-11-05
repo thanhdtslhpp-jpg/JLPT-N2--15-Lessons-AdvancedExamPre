@@ -3,15 +3,15 @@ window.JLPT_SYLLABUS = [
   {
     "id": 1,
     "title": "Buổi 1: Đề Thi Thật N2 12/2024 & Chuyên Đề Tổng Hợp",
-    "description": "Toàn bộ Đề Thi Thật N2 Tháng 12/2024 (Moji-Goi, Bunpou, Dokkai) và Nghe hiểu Choukai Mondai 1 & 2.",
+    "description": "Toàn bộ Đề Thi Thật N2 Tháng 12/2024 (Moji-Goi, Bunpou, Dokkai) và Trọn bộ Nghe hiểu Choukai Mondai 1 đến 5.",
     "ready": true,
     "stats": {
-      "totalQuestions": 82,
+      "totalQuestions": 101,
       "kanji": 10,
       "vocab": 20,
       "grammar": 21,
       "reading": 20,
-      "listening": 11
+      "listening": 30
     }
   },
   {

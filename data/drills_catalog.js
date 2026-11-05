@@ -83,11 +83,11 @@ window.JLPT_DRILLS = [
     title: "Chuyên Đề 7: 300 Câu Ngữ Pháp N3 Nền Tảng (Chống Liệt)",
     badge: "Củng Cố N3",
     badgeColor: "#14b8a6",
-    description: "Ôn tập cấp tốc toàn bộ cấu trúc ngữ pháp N3 nền tảng hay lừa trong đề thi N2, đảm bảo không mất điểm oan.",
+    description: "Trọn bộ 300 câu hỏi ngữ pháp N3 nền tảng (23 Tests) từ giáo trình Drill & Drill N3 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu, củng cố vững chắc điểm số.",
     ready: true,
     file: "data/chuyende_ngu_phap_n3.js",
     stats: {
-      totalQuestions: 104,
+      totalQuestions: 300,
       type: "grammar"
     }
   }
