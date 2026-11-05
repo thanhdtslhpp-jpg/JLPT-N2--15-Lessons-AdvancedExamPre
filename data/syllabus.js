@@ -17,15 +17,15 @@ window.JLPT_SYLLABUS = [
   {
     "id": 2,
     "title": "Buổi 2: Đề Thi Thật N2 07/2024 & Siêu Chuyên Đề So Sánh, Mondai 4, Chokuzen 8",
-    "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2024, Chuyên đề Mondai 4 Dự đoán, So sánh Đọc hiểu và Đề Chokuzen 8.",
+    "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2024, Chuyên đề Mondai 4 Dự đoán, So sánh Đọc hiểu, Đề Chokuzen 8 và Trọn bộ Nghe hiểu Choukai Mondai 1 đến 5.",
     "ready": true,
     "stats": {
-      "totalQuestions": 172,
+      "totalQuestions": 191,
       "kanji": 20,
       "vocab": 68,
       "grammar": 43,
       "reading": 30,
-      "listening": 11
+      "listening": 30
     }
   },
   {
