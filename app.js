@@ -329,6 +329,7 @@ class JLPTApp {
     this.setupFurigana();
     this.renderDashboard();
     this.bindEvents();
+    this.setupHistoryRouting();
     if (this.cloudSync) {
       this.cloudSync.updateCloudStatusUI();
       if (this.cloudSync.config.enabled) {
@@ -371,6 +372,65 @@ class JLPTApp {
     if (btnSide) btnSide.classList.toggle("active", this.showFurigana);
   }
 
+  setupHistoryRouting() {
+    const parseHash = () => {
+      const hash = window.location.hash || "";
+      if (hash.startsWith("#session=")) {
+        const sId = hash.replace("#session=", "").trim();
+        if (sId) return { view: "session", sessionId: sId };
+      } else if (hash.startsWith("#cheatsheet=")) {
+        const csId = hash.replace("#cheatsheet=", "").trim();
+        if (csId) return { view: "cheatsheet", csId: csId };
+      }
+      return { view: "dashboard" };
+    };
+
+    // Khởi tạo trạng thái ban đầu
+    const initial = parseHash();
+    if (initial.view === "session") {
+      history.replaceState({ view: "dashboard" }, document.title, window.location.pathname + window.location.search);
+      history.pushState(initial, document.title, window.location.hash);
+      this.loadSession(initial.sessionId, false);
+    } else if (initial.view === "cheatsheet") {
+      history.replaceState({ view: "dashboard" }, document.title, window.location.pathname + window.location.search);
+      history.pushState(initial, document.title, window.location.hash);
+      this.openCheatsheet(initial.csId, false);
+    } else {
+      history.replaceState({ view: "dashboard" }, document.title, window.location.pathname + window.location.search);
+    }
+
+    // Lắng nghe nút Back / Forward của trình duyệt hoặc cử chỉ vuốt Back trên điện thoại
+    window.addEventListener("popstate", (e) => {
+      const csModal = document.getElementById("cheatsheet-modal");
+      const isCsOpen = csModal && (csModal.style.display === "flex" || csModal.style.display === "block");
+
+      const syncModal = document.getElementById("sync-modal");
+      if (syncModal && syncModal.style.display === "flex") {
+        this.closeSyncModal();
+        return;
+      }
+
+      const floatPallet = document.getElementById("floating-pallet-modal");
+      if (floatPallet && floatPallet.classList.contains("active")) {
+        floatPallet.classList.remove("active");
+        return;
+      }
+
+      const state = e.state || parseHash();
+
+      if (state && state.view === "cheatsheet" && state.csId) {
+        this.openCheatsheet(state.csId, false);
+      } else if (state && state.view === "session" && state.sessionId) {
+        if (isCsOpen) this.closeCheatsheet(false);
+        this.loadSession(state.sessionId, false);
+      } else {
+        // Quay về Dashboard an toàn tuyệt đối
+        if (isCsOpen) this.closeCheatsheet(false);
+        this.showDashboard(false);
+      }
+    });
+  }
+
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
     try {
@@ -384,7 +444,15 @@ class JLPTApp {
   bindEvents() {
     document.getElementById("btn-dashboard").addEventListener("click", () => this.showDashboard());
     const btnBack = document.getElementById("btn-back-dashboard");
-    if (btnBack) btnBack.addEventListener("click", () => this.showDashboard());
+    if (btnBack) {
+      btnBack.addEventListener("click", () => {
+        if (window.history.state && window.history.state.view === "session") {
+          window.history.back();
+        } else {
+          this.showDashboard(true);
+        }
+      });
+    }
 
     document.getElementById("theme-toggle").addEventListener("click", () => this.toggleTheme());
 
@@ -949,8 +1017,19 @@ class JLPTApp {
     this.setFilter("starred");
   }
 
-  showDashboard() {
+  showDashboard(pushHistory = true) {
     this.stopTimer();
+    this.saveDraftAnswers();
+    this.currentView = "dashboard";
+
+    if (pushHistory) {
+      if (window.location.hash) {
+        history.pushState({ view: "dashboard" }, document.title, window.location.pathname + window.location.search);
+      } else {
+        history.replaceState({ view: "dashboard" }, document.title, window.location.pathname + window.location.search);
+      }
+    }
+
     document.getElementById("view-dashboard").style.display = "block";
     document.getElementById("view-practice").style.display = "none";
     const floatBtn = document.getElementById("btn-floating-pallet");
@@ -960,9 +1039,10 @@ class JLPTApp {
     } else {
       this.switchDashboardTab("sessions");
     }
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  loadSession(sessionId) {
+  loadSession(sessionId, pushHistory = true) {
     this.currentSessionId = sessionId;
     const sessionData = window.JLPT_DATA ? window.JLPT_DATA[sessionId] : null;
 
@@ -974,6 +1054,16 @@ class JLPTApp {
       alert(`Buổi ${sessionId} đang được trích xuất dữ liệu. Vui lòng chọn các Buổi đã sẵn sàng (${readySessions || "Buổi 1, 5, 6"})!`);
       return;
     }
+
+    if (pushHistory) {
+      const newHash = `#session=${sessionId}`;
+      if (window.location.hash !== newHash) {
+        history.pushState({ view: "session", sessionId: sessionId }, document.title, newHash);
+      } else {
+        history.replaceState({ view: "session", sessionId: sessionId }, document.title, newHash);
+      }
+    }
+    this.currentView = "session";
 
     document.getElementById("view-dashboard").style.display = "none";
     document.getElementById("view-practice").style.display = "block";
@@ -1324,12 +1414,12 @@ class JLPTApp {
     const fullscreenIcon = document.getElementById("cs-fullscreen-icon");
 
     if (closeBtn) {
-      closeBtn.addEventListener("click", () => this.closeCheatsheet());
+      closeBtn.addEventListener("click", () => this.closeCheatsheet(true));
     }
 
     if (modal) {
       modal.addEventListener("click", (e) => {
-        if (e.target === modal) this.closeCheatsheet();
+        if (e.target === modal) this.closeCheatsheet(true);
       });
     }
 
@@ -1469,21 +1559,34 @@ class JLPTApp {
     }
   }
 
-  openCheatsheet(csId) {
+  openCheatsheet(csId, pushHistory = true) {
     const modal = document.getElementById("cheatsheet-modal");
     if (!modal) return;
     this.activeCheatsheetId = csId || "cs_kosei_np";
     this.switchCheatsheetTab(this.activeCheatsheetId);
     modal.style.display = "flex";
+
+    if (pushHistory) {
+      const prevHash = window.location.hash || "";
+      history.pushState(
+        { view: "cheatsheet", csId: this.activeCheatsheetId, previousHash: prevHash, previousView: this.currentView || "dashboard" },
+        document.title,
+        `#cheatsheet=${this.activeCheatsheetId}`
+      );
+    }
   }
 
   openCheatsheetModal(csId) {
     this.openCheatsheet(csId || "cs_kosei_np");
   }
 
-  closeCheatsheet() {
+  closeCheatsheet(syncHistory = false) {
     const modal = document.getElementById("cheatsheet-modal");
     if (modal) modal.style.display = "none";
+
+    if (syncHistory && window.history.state && window.history.state.view === "cheatsheet") {
+      window.history.back();
+    }
   }
 
   switchCheatsheetTab(csId) {
