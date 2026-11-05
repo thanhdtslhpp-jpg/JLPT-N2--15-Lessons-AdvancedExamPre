@@ -2586,8 +2586,10 @@ class JLPTApp {
   // TÍNH NĂNG MỚI: THANH TÁC VỤ NỔI KHI BÔI ĐEN VĂN BẢN (IPHONE / IPAD / PC)
   // =========================================================================
   initSelectionBubble() {
+    // Tam thoi vo hieu hoa va an thanh tac vu noi khi boi den van ban
     const bubble = document.getElementById("selection-action-bubble");
-    if (!bubble) return;
+    if (bubble) bubble.style.display = "none";
+    return;
 
     const btnSpeak = document.getElementById("bubble-btn-speak");
     const btnLookup = document.getElementById("bubble-btn-lookup");

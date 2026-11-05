@@ -3681,9 +3681,9 @@ body.hide-furigana ruby:hover rt {
 
 /* 3. Floating Selection Action Bubble */
 .selection-bubble {
+  display: none !important;
   position: fixed;
   z-index: 10001;
-  display: flex;
   align-items: center;
   gap: 0.35rem;
   padding: 0.35rem 0.45rem;
