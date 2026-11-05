@@ -25,6 +25,14 @@ class JLPTApp {
     this.audioSpeeds = {};
     this.choukaiPeek = {};
     this.isExamSubmitted = false;
+    this.keigoPracticeAnswers = {};
+    this.keigoShowAllAnswers = false;
+    try {
+      const savedKeigo = localStorage.getItem("jlpt_keigo_practice_answers");
+      if (savedKeigo) {
+        this.keigoPracticeAnswers = JSON.parse(savedKeigo);
+      }
+    } catch (e) {}
     this.saveTimeout = null;
     this.savedSelectionRange = null;
     this.currentAudioEl = null;
@@ -2300,50 +2308,155 @@ class JLPTApp {
 
           <!-- PHẦN 4: 18 BÀI TẬP KÍNH NGỮ THỰC CHIẾN (TRANG 10 - 27) -->
           <div id="cs-kn-exercises">
-            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
-              <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #8b5cf6; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
-                <i class="fas fa-tasks"></i> 4. Trọn Bộ 18 Câu Bài Tập Kính Ngữ Thực Chiến Có Phân Tích (Trang 10 - 27)
-              </h3>
-              <span class="cs-badge-pill" style="background: rgba(139, 92, 246, 0.12); color: #8b5cf6; font-weight: 700;">
-                ${filteredExercises.length} / 18 câu
-              </span>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.75rem;">
+              <div>
+                <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #8b5cf6; margin: 0 0 0.25rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                  <i class="fas fa-tasks"></i> 4. Trọn Bộ 18 Câu Bài Tập Kính Ngữ Thực Chiến Có Phân Tích (Trang 10 - 27)
+                </h3>
+                <div style="font-size: calc(0.88rem * var(--cs-scale)); color: var(--text-sub);">
+                  🎯 Đã làm: <b>${exercises.filter(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined).length}/${exercises.length} câu</b>
+                  ${exercises.some(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined) ? `• Đúng: <b style="color: #059669;">${exercises.filter(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] === e.correctAnswer).length}/${exercises.filter(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined).length}</b> (${Math.round((exercises.filter(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] === e.correctAnswer).length / Math.max(1, exercises.filter(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined).length)) * 100)}%)` : '• Nhấp vào đáp án bạn chọn để làm bài và xem giải thích!'}
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+                <button type="button" class="cs-ctrl-btn" onclick="app.toggleKeigoShowAllAnswers()" style="font-size: 0.82rem; font-weight: 700; color: ${this.keigoShowAllAnswers ? '#d97706' : '#8b5cf6'}; padding: 0.45rem 0.85rem; border-radius: 8px;">
+                  <i class="fas ${this.keigoShowAllAnswers ? 'fa-eye-slash' : 'fa-eye'}"></i> ${this.keigoShowAllAnswers ? 'Ẩn đáp án (Tự luyện)' : 'Hiện tất cả đáp án'}
+                </button>
+                ${exercises.some(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined) ? `
+                  <button type="button" class="cs-ctrl-btn" onclick="app.resetAllKeigoPractice()" style="font-size: 0.82rem; font-weight: 700; color: #ef4444; padding: 0.45rem 0.85rem; border-radius: 8px;" title="Xóa toàn bộ bài làm để làm lại từ đầu">
+                    <i class="fas fa-redo"></i> Làm lại tất cả
+                  </button>
+                ` : ''}
+              </div>
             </div>
+
+            ${!this.keigoShowAllAnswers && !exercises.some(e => this.keigoPracticeAnswers && this.keigoPracticeAnswers[e.id] !== undefined) ? `
+              <div style="background: rgba(139, 92, 246, 0.08); border: 1px dashed rgba(139, 92, 246, 0.35); border-radius: 12px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.65rem; font-size: calc(0.9rem * var(--cs-scale)); color: var(--text-main);">
+                <i class="fas fa-hand-pointer" style="color: #8b5cf6; font-size: 1.15rem; flex-shrink: 0;"></i>
+                <span><b>Chế độ Tự Luyện Tập Tương Tác:</b> Nhấp chuột chọn 1 trong 4 đáp án bên dưới. Hệ thống sẽ chấm đúng/sai ngay lập tức và mở khóa phần dịch nghĩa cùng phân tích sư phạm chi tiết!</span>
+              </div>
+            ` : ''}
+
             <div style="display: flex; flex-direction: column; gap: 1.25rem;">
-              ${filteredExercises.map(ex => `
-                <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 1.35rem; box-shadow: 0 4px 14px -2px rgba(0,0,0,0.05); border-left: 4px solid #8b5cf6;">
+              ${filteredExercises.map(ex => {
+                const userAns = this.keigoPracticeAnswers ? this.keigoPracticeAnswers[ex.id] : null;
+                const isAnswered = userAns !== undefined && userAns !== null;
+                const isCorrect = isAnswered && userAns === ex.correctAnswer;
+                const showExplanation = this.keigoShowAllAnswers || isAnswered;
+
+                return `
+                <div id="cs-kn-card-${ex.id}" style="background: var(--card-bg); border: 1.5px solid ${isAnswered ? (isCorrect ? 'rgba(16, 185, 129, 0.45)' : 'rgba(239, 68, 68, 0.45)') : 'var(--border)'}; border-radius: 14px; padding: 1.35rem; box-shadow: 0 4px 14px -2px rgba(0,0,0,0.05); border-left: 5px solid ${isAnswered ? (isCorrect ? '#10b981' : '#ef4444') : '#8b5cf6'}; transition: all 0.2s ease;">
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
-                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
                       <span class="cs-badge-pill" style="background: #8b5cf6; color: #fff; font-weight: 800; font-size: 0.85rem;">
                         Câu ${ex.id}
                       </span>
                       <span style="font-size: calc(0.92rem * var(--cs-scale)); font-weight: 700; color: var(--text-sub);">
                         [${hl(ex.context)}]
                       </span>
+                      ${isAnswered ? (isCorrect ? `
+                        <span class="cs-badge-pill" style="background: rgba(16, 185, 129, 0.15); color: #059669; font-weight: 800; font-size: 0.82rem;">
+                          <i class="fas fa-check-circle"></i> Chính xác!
+                        </span>
+                      ` : `
+                        <span class="cs-badge-pill" style="background: rgba(239, 68, 68, 0.15); color: #dc2626; font-weight: 800; font-size: 0.82rem;">
+                          <i class="fas fa-times-circle"></i> Chưa đúng (Đáp án đúng: ${ex.correctAnswer})
+                        </span>
+                      `) : ''}
                     </div>
-                    <span style="font-size: 0.82rem; color: var(--text-sub); font-weight: 600;">Trang ${ex.page}</span>
+                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                      ${isAnswered ? `
+                        <button type="button" class="cs-ctrl-btn" onclick="app.resetKeigoQuestion(${ex.id})" style="font-size: 0.78rem; padding: 0.25rem 0.6rem; color: var(--text-sub); border-color: var(--border);" title="Làm lại câu này">
+                          <i class="fas fa-redo"></i> Làm lại
+                        </button>
+                      ` : ''}
+                      <span style="font-size: 0.82rem; color: var(--text-sub); font-weight: 600;">Trang ${ex.page}</span>
+                    </div>
                   </div>
 
                   <div style="font-size: calc(1.08rem * var(--cs-scale)); font-weight: 700; color: var(--text-main); margin-bottom: 1rem; line-height: 1.7; background: var(--bg-main); padding: 0.85rem 1.15rem; border-radius: 10px; border: 1px solid var(--border);">
                     ${hl(ex.sentence)}
                   </div>
 
-                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.65rem; margin-bottom: 1rem;">
+                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.65rem; margin-bottom: ${showExplanation ? '1rem' : '0.5rem'};">
                     ${ex.options.map((opt, oIdx) => {
-                      const isCorrect = (oIdx + 1) === ex.correctAnswer;
+                      const optNum = oIdx + 1;
+                      const isThisCorrect = optNum === ex.correctAnswer;
+                      const isThisSelected = userAns === optNum;
+
+                      let optBorder = 'var(--border)';
+                      let optBg = 'var(--card-bg)';
+                      let optColor = 'var(--text-main)';
+                      let optFontWeight = '600';
+                      let badgeHtml = '';
+
+                      if (this.keigoShowAllAnswers) {
+                        if (isThisCorrect) {
+                          optBorder = '#10b981';
+                          optBg = 'rgba(16, 185, 129, 0.12)';
+                          optColor = '#059669';
+                          optFontWeight = '700';
+                          badgeHtml = '<span style="background: #10b981; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 7px; border-radius: 4px;"><i class="fas fa-check"></i> ĐÁP ÁN</span>';
+                        }
+                      } else if (isAnswered) {
+                        if (isThisSelected && isCorrect) {
+                          // Người học chọn đúng
+                          optBorder = '#10b981';
+                          optBg = 'rgba(16, 185, 129, 0.15)';
+                          optColor = '#059669';
+                          optFontWeight = '700';
+                          badgeHtml = '<span style="background: #10b981; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 7px; border-radius: 4px;"><i class="fas fa-check"></i> ĐÚNG</span>';
+                        } else if (isThisSelected && !isCorrect) {
+                          // Người học chọn sai
+                          optBorder = '#ef4444';
+                          optBg = 'rgba(239, 68, 68, 0.12)';
+                          optColor = '#dc2626';
+                          optFontWeight = '700';
+                          badgeHtml = '<span style="background: #ef4444; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 7px; border-radius: 4px;"><i class="fas fa-times"></i> ĐÃ CHỌN</span>';
+                        } else if (isThisCorrect && !isCorrect) {
+                          // Hiển thị đáp án đúng để đối chiếu khi người học chọn sai
+                          optBorder = '#10b981';
+                          optBg = 'rgba(16, 185, 129, 0.1)';
+                          optColor = '#059669';
+                          optFontWeight = '700';
+                          badgeHtml = '<span style="background: #10b981; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 7px; border-radius: 4px;"><i class="fas fa-check"></i> ĐÁP ÁN ĐÚNG</span>';
+                        } else {
+                          optBorder = 'var(--border)';
+                          optBg = 'var(--bg-main)';
+                          optColor = 'var(--text-sub)';
+                          optFontWeight = '500';
+                        }
+                      }
+
                       return `
-                        <div style="padding: 0.65rem 0.95rem; border-radius: 8px; border: 1.5px solid ${isCorrect ? '#10b981' : 'var(--border)'}; background: ${isCorrect ? 'rgba(16, 185, 129, 0.08)' : 'var(--card-bg)'}; font-size: calc(0.95rem * var(--cs-scale)); font-weight: ${isCorrect ? '700' : '500'}; color: ${isCorrect ? '#059669' : 'var(--text-main)'}; display: flex; align-items: center; justify-content: space-between;">
-                          <span><b>${oIdx + 1}.</b> ${hl(opt)}</span>
-                          ${isCorrect ? '<span style="background: #10b981; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 6px; border-radius: 4px;">ĐÁP ÁN</span>' : ''}
+                        <div class="cs-keigo-opt-btn" 
+                             onclick="app.selectKeigoOption(${ex.id}, ${optNum})"
+                             style="padding: 0.75rem 1rem; border-radius: 10px; border: 1.5px solid ${optBorder}; background: ${optBg}; font-size: calc(0.95rem * var(--cs-scale)); font-weight: ${optFontWeight}; color: ${optColor}; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+                          <span><b style="color: ${isThisCorrect && (isAnswered || this.keigoShowAllAnswers) ? '#059669' : (isThisSelected ? '#dc2626' : '#8b5cf6')}; margin-right: 0.4rem;">${optNum}.</b> ${hl(opt)}</span>
+                          ${badgeHtml ? badgeHtml : `<span style="font-size: 0.8rem; color: var(--text-sub); opacity: 0.5;"><i class="far fa-circle"></i></span>`}
                         </div>
                       `;
                     }).join("")}
                   </div>
 
-                  <div style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 10px; padding: 0.95rem 1.15rem; font-size: calc(0.94rem * var(--cs-scale)); line-height: 1.6; color: var(--text-main);" class="cs-explanation-card">
-                    ${ex.explanation}
-                  </div>
+                  ${showExplanation ? `
+                    <div style="background: var(--bg-main); border: 1.5px solid ${isCorrect ? 'rgba(16, 185, 129, 0.4)' : (isAnswered ? 'rgba(239, 68, 68, 0.4)' : 'rgba(139, 92, 246, 0.3)')}; border-radius: 12px; padding: 1.1rem 1.25rem; font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.65; color: var(--text-main); margin-top: 0.85rem;" class="cs-explanation-card">
+                      <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.65rem; font-weight: 800; font-size: 0.96rem; color: ${isCorrect ? '#059669' : (isAnswered ? '#dc2626' : '#8b5cf6')};">
+                        <i class="fas ${isCorrect ? 'fa-check-circle' : (isAnswered ? 'fa-info-circle' : 'fa-lightbulb')}"></i>
+                        ${isCorrect ? 'Chúc mừng bạn đã chọn đúng! Phân tích chi tiết:' : (isAnswered ? 'Phân tích tại sao câu trả lời của bạn chưa chuẩn:' : '💡 Phân tích & Lời giải chi tiết:')}
+                      </div>
+                      ${ex.explanation}
+                    </div>
+                  ` : `
+                    <div style="display: flex; justify-content: flex-end; margin-top: 0.4rem;">
+                      <button type="button" class="cs-ctrl-btn" onclick="app.selectKeigoOption(${ex.id}, ${ex.correctAnswer})" style="font-size: 0.78rem; font-weight: 600; color: var(--text-sub); border-color: var(--border); padding: 0.3rem 0.65rem; border-radius: 6px;">
+                        <i class="fas fa-eye"></i> Xem ngay đáp án câu này
+                      </button>
+                    </div>
+                  `}
                 </div>
-              `).join("")}
+              `;
+              }).join("")}
             </div>
           </div>
         </div>
@@ -2425,6 +2538,62 @@ class JLPTApp {
       `;
       return;
     }
+  }
+
+  selectKeigoOption(exId, chosenOpt) {
+    if (!this.keigoPracticeAnswers) this.keigoPracticeAnswers = {};
+    this.keigoPracticeAnswers[exId] = chosenOpt;
+    try {
+      localStorage.setItem("jlpt_keigo_practice_answers", JSON.stringify(this.keigoPracticeAnswers));
+    } catch (e) {}
+
+    const body = document.getElementById("cs-modal-body");
+    const prevScroll = body ? body.scrollTop : 0;
+    const searchInput = document.getElementById("cs-search-input");
+    const query = searchInput ? searchInput.value.trim() : "";
+    this.renderCheatsheetContent("cs_kinh_ngu", query);
+    if (body) body.scrollTop = prevScroll;
+  }
+
+  resetKeigoQuestion(exId) {
+    if (this.keigoPracticeAnswers && this.keigoPracticeAnswers[exId] !== undefined) {
+      delete this.keigoPracticeAnswers[exId];
+      try {
+        localStorage.setItem("jlpt_keigo_practice_answers", JSON.stringify(this.keigoPracticeAnswers));
+      } catch (e) {}
+    }
+    const body = document.getElementById("cs-modal-body");
+    const prevScroll = body ? body.scrollTop : 0;
+    const searchInput = document.getElementById("cs-search-input");
+    const query = searchInput ? searchInput.value.trim() : "";
+    this.renderCheatsheetContent("cs_kinh_ngu", query);
+    if (body) body.scrollTop = prevScroll;
+  }
+
+  resetAllKeigoPractice() {
+    if (confirm("Bạn có chắc muốn xóa kết quả để làm lại toàn bộ 18 câu bài tập Kính ngữ từ đầu không?")) {
+      this.keigoPracticeAnswers = {};
+      this.keigoShowAllAnswers = false;
+      try {
+        localStorage.removeItem("jlpt_keigo_practice_answers");
+      } catch (e) {}
+      const body = document.getElementById("cs-modal-body");
+      const prevScroll = body ? body.scrollTop : 0;
+      const searchInput = document.getElementById("cs-search-input");
+      const query = searchInput ? searchInput.value.trim() : "";
+      this.renderCheatsheetContent("cs_kinh_ngu", query);
+      if (body) body.scrollTop = prevScroll;
+    }
+  }
+
+  toggleKeigoShowAllAnswers() {
+    this.keigoShowAllAnswers = !this.keigoShowAllAnswers;
+    const body = document.getElementById("cs-modal-body");
+    const prevScroll = body ? body.scrollTop : 0;
+    const searchInput = document.getElementById("cs-search-input");
+    const query = searchInput ? searchInput.value.trim() : "";
+    this.renderCheatsheetContent("cs_kinh_ngu", query);
+    if (body) body.scrollTop = prevScroll;
   }
 
   clearDraft(sessionId) {

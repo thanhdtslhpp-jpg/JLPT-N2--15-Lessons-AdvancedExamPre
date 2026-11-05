@@ -10896,3 +10896,20 @@ button,
 .btn-back-nav:hover i {
   transform: translateX(-2px);
 }
+
+/* Bài tập Kính Ngữ Tương Tác trong Sổ Tay */
+.cs-keigo-opt-btn {
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cs-keigo-opt-btn:hover {
+  transform: translateY(-2px);
+  border-color: #8b5cf6 !important;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.18);
+}
+
+.cs-keigo-opt-btn:active {
+  transform: translateY(0);
+}
