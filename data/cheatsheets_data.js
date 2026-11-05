@@ -342,91 +342,458 @@ window.JLPT_CHEATSHEETS_DATA = {
     ]
   },
   "cs_kinh_ngu": {
-    "rules": [
-      {
-        "type": "Tôn kính ngữ (尊敬語)",
-        "formula": "お + V-bỏ-ます + になる",
-        "example": "先生がお帰りになります。 (Thầy giáo đã về.)"
-      },
-      {
-        "type": "Tôn kính ngữ (尊敬語)",
-        "formula": "お / ご + V-bỏ-ます + ください",
-        "example": "少々お待ちください。 / ご覧ください。 (Xin vui lòng đợi một chút / Xin mời xem.)"
-      },
-      {
-        "type": "Tôn kính ngữ (Thể bị động)",
-        "formula": "V-られる / V-られる",
-        "example": "社長が新しい方針を発表されました。 (Giám đốc đã công bố chính sách mới.)"
-      },
-      {
-        "type": "Khiêm nhường ngữ I (謙譲語 I)",
-        "formula": "お / ご + V-bỏ-ます + する / 申し上げる",
-        "example": "荷物をお持ちします。 / ご案内いたします。 (Để em xách hành lý giúp anh ạ.)"
-      },
-      {
-        "type": "Khiêm nhường ngữ II (丁重語)",
-        "formula": "お + V-bỏ-ます + いたす",
-        "example": "私からご連絡いたします。 (Chính tôi sẽ chủ động liên lạc ạ.)"
-      }
-    ],
-    "special_verbs": [
-      {
-        "normal": "行く / 来る",
-        "sonkeigo": "いらっしゃる / おいでになる",
-        "kenjougo": "参る (まいる) / 伺う (うかがう)"
-      },
-      {
-        "normal": "いる",
-        "sonkeigo": "いらっしゃる",
-        "kenjougo": "おる"
-      },
-      {
-        "normal": "食べる / 飲む",
-        "sonkeigo": "召し上がる (めしあがる)",
-        "kenjougo": "いただく"
-      },
-      {
-        "normal": "言う",
-        "sonkeigo": "おっしゃる",
-        "kenjougo": "申す (もうす) / 申し上げる"
-      },
-      {
-        "normal": "知っている",
-        "sonkeigo": "ご存じだ (ごぞんじだ)",
-        "kenjougo": "存じている (ぞんじている) / 存じ上げる"
-      },
-      {
-        "normal": "見る",
-        "sonkeigo": "ご覧になる (ごらんになる)",
-        "kenjougo": "拝見する (はいけんする)"
-      },
-      {
-        "normal": "聞く / 尋ねる",
-        "sonkeigo": "お聞きになる",
-        "kenjougo": "伺う (うかがう) / 拝聴する"
-      },
-      {
-        "normal": "会う",
-        "sonkeigo": "お会いになる",
-        "kenjougo": "お目にかかる (おめにかかる)"
-      },
-      {
-        "normal": "与える / あげる",
-        "sonkeigo": "くださる",
-        "kenjougo": "差し上げる (さしあげる)"
-      },
-      {
-        "normal": "もらう",
-        "sonkeigo": "―",
-        "kenjougo": "いただく / 頂戴する (ちょうだいする)"
-      },
-      {
-        "normal": "する",
-        "sonkeigo": "なさる",
-        "kenjougo": "いたす"
-      }
-    ]
-  },
+  "title": "Sổ Tay Kính Ngữ N2 - N3 Cấp Tốc (27 Trang)",
+  "totalPages": 27,
+  "source": "Kính ngữ( N2,N3).pdf",
+  "coreRules": [
+    {
+      "category": "尊敬語 (Tôn Kính Ngữ - Hành động của đối phương / Cấp trên / Khách hàng)",
+      "rules": [
+        {
+          "formula": "お + V(bỏ ます) + になる",
+          "meaning": "Cấu trúc tôn kính chuẩn tắc phổ biến nhất",
+          "examples": [
+            "先生はお使いになりますか。(Thầy giáo có dùng cái này không ạ?)",
+            "社長が新しい車をお買いになりました。(Giám đốc đã mua xe mới.)"
+          ]
+        },
+        {
+          "formula": "お / ご + V(bỏ ます) + ください",
+          "meaning": "Mời / Đề nghị đối phương làm gì một cách lịch sự",
+          "examples": [
+            "少々お待ちください。(Xin vui lòng đợi một chút.)",
+            "こちらの資料をご覧ください。(Xin mời xem tài liệu này.)"
+          ]
+        },
+        {
+          "formula": "お + V(bỏ ます) + だ / でいらっしゃる",
+          "meaning": "Hỏi hoặc nói về trạng thái / hành động đang diễn ra của đối phương",
+          "examples": [
+            "先生、本をお読みですか。(Thầy đang đọc sách phải không ạ?)",
+            "どちらへお出かけですか。(Bác đang đi ra ngoài đấy ạ?)"
+          ]
+        },
+        {
+          "formula": "V-(ら)れる (Thể bị động mang sắc thái tôn kính)",
+          "meaning": "Biểu đạt lịch sự tự nhiên, mức độ tôn kính nhẹ nhàng",
+          "examples": [
+            "明日会議に来られますか。(Ngày mai thầy có đến họp không ạ?)",
+            "もう準備されましたか。(Anh/chị đã chuẩn bị xong chưa ạ?)"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "謙譲語 (Khiêm Nhường Ngữ - Hành động của bản thân / Người phía mình)",
+      "rules": [
+        {
+          "formula": "お + V(bỏ ます) + します / いたします",
+          "meaning": "Hành động của mình hướng đến đối phương (Khiêm nhường I)",
+          "examples": [
+            "お荷物をお持ちしましょうか。(Để em xách hành lý giúp anh nhé.)",
+            "後ほど書類をお渡しします。(Lát nữa tôi sẽ trao lại tài liệu cho quý khách.)"
+          ]
+        },
+        {
+          "formula": "ご + Danh từ Hán tự + する / いたします",
+          "meaning": "Hành động của mình với danh từ Hán tự (Khiêm nhường I)",
+          "examples": [
+            "会場までご案内します。(Tôi sẽ dẫn đường quý khách đến hội trường.)",
+            "新製品についてご説明いたします。(Tôi xin phép được thuyết minh về sản phẩm mới.)"
+          ]
+        },
+        {
+          "formula": "V(sai khiến) + ていただく / ていただけますか",
+          "meaning": "Xin phép được làm gì (Được đối phương cho phép làm)",
+          "examples": [
+            "体調が悪いので、休ませていただけませんか。(Em mệt nên xin phép được nghỉ hôm nay có được không ạ?)",
+            "本日の司会を務めさせていただきます。(Tôi xin phép được đảm nhiệm vai trò MC hôm nay.)"
+          ]
+        },
+        {
+          "formula": "お + V(bỏ ます) + 申し上げる",
+          "meaning": "Khiêm nhường ngữ trang trọng trong văn bản & kinh doanh",
+          "examples": [
+            "心よりお祝い申し上げます。(Tôi xin gửi lời chúc mừng chân thành nhất.)",
+            "深くお詫び申し上げます。(Tôi xin thành thật gửi lời xin lỗi sâu sắc.)"
+          ]
+        }
+      ]
+    }
+  ],
+  "verbTable": [
+    {
+      "verb": "する (Làm)",
+      "sonkei": "なさる (なさいます)",
+      "kenjou": "いたす (いたします)",
+      "note": "Rất hay gặp trong đề thi: ご質問なさる (khách hỏi) vs ご質問いたす (mình hỏi)"
+    },
+    {
+      "verb": "いる (Ở / Có mặt)",
+      "sonkei": "いらっしゃる / おいでになる",
+      "kenjou": "おる (おります)",
+      "note": "Mẫu Vている &rarr; Vていらっしゃる (Tôn kính) vs Vておる (Khiêm nhường)"
+    },
+    {
+      "verb": "行く / 来る (Đi / Đến)",
+      "sonkei": "いらっしゃる / おいでになる / お越しになる / お見えになる",
+      "kenjou": "参る (まいる) / 伺う (うかがう)",
+      "note": "Đến chỗ đối phương: dùng 伺う (Ukatagau). Đi nơi khác: dùng 参る (Mairu)"
+    },
+    {
+      "verb": "聞く (Nghe / Hỏi)",
+      "sonkei": "お聞きになる",
+      "kenjou": "伺う (うかがう) / 承る (うけたまわる)",
+      "note": "承る dùng khi tiếp nhận yêu cầu, đơn hàng, lời nhắn của khách hàng"
+    },
+    {
+      "verb": "見る (Xem / Nhìn)",
+      "sonkei": "ご覧になる (ごらんになる)",
+      "kenjou": "拝見する (はいけんする)",
+      "note": "ご覧いただく = Nhờ đối phương xem giúp (Tôn kính)"
+    },
+    {
+      "verb": "見せる (Cho xem)",
+      "sonkei": "お見せになる / お見せくださる",
+      "kenjou": "ご覧に入れる (ごらんにいれる) / お目にかける",
+      "note": "Ví dụ: 新しい企画書をご覧に入れたい。(Tôi muốn cho quý khách xem bản kế hoạch mới)"
+    },
+    {
+      "verb": "言う (Nói)",
+      "sonkei": "おっしゃる (おっしゃいます)",
+      "kenjou": "申す (もうす) / 申し上げる (もうしあげる)",
+      "note": "Nói với khách: 申し上げる. Giới thiệu tên mình: 田中と申します"
+    },
+    {
+      "verb": "食べる / 飲む (Ăn / Uống)",
+      "sonkei": "召し上がる (めしあがる)",
+      "kenjou": "いただく (いただきます)",
+      "note": "Tuyệt đối không dùng 召し上がる cho bản thân mình"
+    },
+    {
+      "verb": "もらう (Nhận)",
+      "sonkei": "お受け取りになる",
+      "kenjou": "いただく / 頂戴する (ちょうだいする)",
+      "note": "Nhận đồ/ý kiến từ khách: 頂戴いたします / いただきます"
+    },
+    {
+      "verb": "くれる (Cho mình) / あげる (Mình cho)",
+      "sonkei": "くださる (くださいます) [くれ]",
+      "kenjou": "さしあげる (さしあげます) [あげ]",
+      "note": "先生がくださった (Thầy cho tôi) vs 先生にさしあげた (Tôi biếu thầy)"
+    },
+    {
+      "verb": "知っている (Biết)",
+      "sonkei": "ご存じだ (ごぞんじです)",
+      "kenjou": "存じている (存じております) / 存じ上げる",
+      "note": "Biết người: 存じ上げる (Biết thầy/giám đốc). Biết việc: 存じている (Biết thông tin)"
+    },
+    {
+      "verb": "会う (Gặp)",
+      "sonkei": "お会いになる",
+      "kenjou": "お目にかかる (おめにかかります)",
+      "note": "社長にお目にかかれて光栄です。(Rất vinh hạnh được diện kiến giám đốc)"
+    },
+    {
+      "verb": "借りる (Mượn)",
+      "sonkei": "お借りになる",
+      "kenjou": "拝借する (はいしゃくする)",
+      "note": "ペンを拝借できますか。(Tôi có thể mượn chiếc bút được không ạ?)"
+    },
+    {
+      "verb": "読む (Đọc)",
+      "sonkei": "お読みになる",
+      "kenjou": "拝読する (はいどくする)",
+      "note": "メール・お手紙を拝読いたしました。(Tôi đã đọc thư/email của quý khách rồi ạ)"
+    },
+    {
+      "verb": "受け取る (Nhận được)",
+      "sonkei": "お受け取りになる",
+      "kenjou": "拝受する (はいじゅする)",
+      "note": "確かに資料を拝受いたしました。(Tôi xác nhận đã nhận đủ tài liệu)"
+    },
+    {
+      "verb": "伝える (Truyền đạt / Chuyển lời)",
+      "sonkei": "お伝えになる",
+      "kenjou": "申し伝える (もうしつたえる)",
+      "note": "部長に申し伝えます。(Tôi sẽ chuyển lời lại cho trưởng phòng)"
+    },
+    {
+      "verb": "分かる (Hiểu / Nắm rõ)",
+      "sonkei": "お分かりになる / ご理解なさる",
+      "kenjou": "かしこまりました / 承知いたしました",
+      "note": "Không bao giờ dùng 了解しました với cấp trên hoặc khách hàng"
+    }
+  ],
+  "advancedNuances": [
+    {
+      "title": "Phân biệt 存じ上げる vs 存じる",
+      "content": "• <b>存じ上げております</b>: Dùng khi biết về <b>CON NGƯỜI</b> (đối phương, giám đốc, thầy giáo).<br><i>Ví dụ:</i> 山田社長のことは以前からよく存じ上げております。(Tôi biết rất rõ về giám đốc Yamada từ trước).<br>• <b>存じております</b>: Dùng khi biết về <b>SỰ VIỆC / THÔNG TIN</b>.<br><i>Ví dụ:</i> その件についてはよく存じております。(Về vụ việc đó thì tôi đã nắm rõ rồi ạ)."
+    },
+    {
+      "title": "Bộ tứ Tiền tố Hán tự Khiêm nhường '拝' (Bái - Thể hiện sự cung kính)",
+      "content": "• <b>拝見する (はいけんする)</b>: Xem / Nhìn (拝見いたします)<br>• <b>拝読する (はいどくする)</b>: Đọc thư từ / Báo cáo (拝読いたしました)<br>• <b>拝借する (はいしゃくする)</b>: Mượn đồ vật / Tài liệu (拝借いたします)<br>• <b>拝受する (はいじゅする)</b>: Nhận thư / Nhận hàng (拝受いたしました)"
+    },
+    {
+      "title": "Kỹ thuật Nhờ vả & Xin phép trong Thương mại (N2 Must-know)",
+      "content": "• <b>Yêu cầu / Nhờ đối phương làm:</b><br>- ご協力願いたいのですが / ご協力願えませんでしょうか。<br>- 資料をご覧いただけますでしょうか。<br>- 3時までにお越しいただけますと幸いです。<br>• <b>Bản thân mình xin phép được làm:</b><br>- 発表させていただきます。(Xin phép được thuyết trình).<br>- お返事いただきたく存じます。(Tôi rất mong nhận được phản hồi từ quý ngài)."
+    }
+  ],
+  "practiceExercises": [
+    {
+      "id": 1,
+      "page": 10,
+      "context": "Hội thoại đối đáp về mối quan hệ xã giao",
+      "sentence": "A:「うちの社長とは、お知り合いなんですか。」<br>B:「ええ、以前から、よく（　　）。」",
+      "options": [
+        "存じ上げております",
+        "ご存じでいらっしゃいます",
+        "存じてございます",
+        "ご存じ申し上げます"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>A: \"Anh có quen biết với giám đốc công ty chúng tôi à?\"<br>B: \"Vâng, tôi biết rõ về giám đốc từ trước rồi ạ.\"<br><br><b>Phân tích:</b><br>- B đang nói về hành động của bản thân mình (tôi biết), đối tượng được biết là \"giám đốc của A\" (con người).<br>- Biết về con người dùng khiêm nhường ngữ <b>存じ上げております</b>.<br>- Phương án 2 là tôn kính ngữ (dành cho người khác). Phương án 3 dùng cho sự vật. Phương án 4 kết hợp sai cấu trúc.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 2,
+      "page": 11,
+      "context": "Xin ý kiến thầy giáo / Cấp trên",
+      "sentence": "A:「先生、ちょっと（　　）ものがあるんですが、お時間よろしいでしょうか。」<br>B:「え、私に？何ですか。」",
+      "options": [
+        "ご覧いただきたい",
+        "お目にかかりたい",
+        "お見えになりたい",
+        "拝見していただきたい"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>A: \"Thầy ơi, em có thứ này muốn nhờ thầy xem qua một chút, thầy có thời gian không ạ?\"<br>B: \"Ơ, cho tôi xem à? Cái gì thế?\"<br><br><b>Phân tích:</b><br>- Hành động \"xem\" ở đây là do Thầy giáo (先生) thực hiện. Muốn nhờ thầy xem: 見てもらいたい &rarr; Tôn kính ngữ tương ứng là <b>ご覧いただきたい</b> (ご覧になる + いただく).<br>- Phương án 2 (お目にかかりたい) là muốn gặp (mình gặp). Phương án 3 (お見えになりたい) là muốn đến. Phương án 4 (拝見していただきたい) là lỗi ghép kính ngữ sai ngớ ngẩn (拝見 là mình xem, không thể ghép với いただく bảo người khác xem).<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 3,
+      "page": 12,
+      "context": "Nhân viên khách sạn phục vụ khách hàng",
+      "sentence": "（ホテルで）<br>従業員:「お客様、雨が降っていますから、この傘をお持ち（　　）。」<br>客:「ありがとうございます。」",
+      "options": [
+        "しましょう",
+        "ください",
+        "になります",
+        "してください"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dịch câu:</b><br>Nhân viên: \"Thưa quý khách, ngoài trời đang mưa nên xin mời quý khách hãy cầm theo chiếc ô này ạ.\"<br>Khách: \"Cảm ơn bạn.\"<br><br><b>Phân tích:</b><br>- Hành động cầm ô là của Khách hàng (お客様). Nhân viên đưa ra lời mời/khuyên lịch sự.<br>- Mẫu câu: <b>お + V(bỏ ます) + ください</b> &rarr; <b>お持ちください</b>.<br>- Phương án 1 (お持ちしましょう) là mình xách hộ. Phương án 3 (お持ちになります) chỉ là trần thuật. Phương án 4 (お持ちしてください) sai kết hợp.<br>&rarr; <b>Đáp án đúng là 2</b>."
+    },
+    {
+      "id": 4,
+      "page": 13,
+      "context": "Tiếp đón khách đặt bàn tại nhà hàng",
+      "sentence": "（レストランで）<br>客:「7時に予約しているんですが。」<br>店員:「恐れ入りますが、お客様のお名前を（　　）よろしいでしょうか。」<br>客:「佐藤です。」",
+      "options": [
+        "お聞きになっても",
+        "お聞きしても",
+        "伺われても",
+        "お伺いになっても"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dịch câu:</b><br>Khách: \"Tôi có đặt bàn lúc 7 giờ.\"<br>Nhân viên: \"Xin thứ lỗi, tôi có thể được phép hỏi/nghe tên của quý khách được không ạ?\"<br>Khách: \"Tôi là Sato.\"<br><br><b>Phân tích:</b><br>- Người thực hiện hành động hỏi/nghe tên là Nhân viên (店員 &rarr; phía mình).<br>- Dùng khiêm nhường ngữ xin phép: <b>お聞きしてもよろしいでしょうか</b> (hoặc 伺ってもよろしいでしょうか).<br>- Phương án 1 & 4 dùng tôn kính ngữ お...になる (sai vì nhân viên tự nâng mình lên). Phương án 3 伺われる là dạng bị động tôn kính sai.<br>&rarr; <b>Đáp án đúng là 2</b>."
+    },
+    {
+      "id": 5,
+      "page": 14,
+      "context": "Chỉ dẫn khách tham dự hội nghị",
+      "sentence": "講演会に出席される方は、3時までにこちらに（　　）。",
+      "options": [
+        "いらっしゃってください",
+        "お待ちしています",
+        "お通りください",
+        "うかがいます"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>\"Những quý vị tham dự buổi thuyết giảng, xin vui lòng có mặt/đến đây trước 3 giờ.\"<br><br><b>Phân tích:</b><br>- Chủ ngữ là quý vị tham dự (出席される方 &rarr; đối phương/khách). Hành động đến đây là của khách.<br>- Tôn kính ngữ của 来てください là <b>いらっしゃってください</b> (hoặc お越しください).<br>- Phương án 4 (うかがいます) là khiêm nhường ngữ (mình đến). Phương án 3 (お通りください) là mời đi qua.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 6,
+      "page": 15,
+      "context": "Hỏi đường người qua đường một cách lịch sự",
+      "sentence": "あのう、ちょっと（　　）、このあたりに「トレビアン」というレストランはありませんか。",
+      "options": [
+        "うかがってもよろしいですが",
+        "おたずねになりますが",
+        "うかがってもおりますが",
+        "おたずねしますが"
+      ],
+      "correctAnswer": 4,
+      "explanation": "<b>Dịch câu:</b><br>\"Xin lỗi, tôi xin phép hỏi một chút, ở quanh khu này có nhà hàng nào tên là Tres Bien không ạ?\"<br><br><b>Phân tích:</b><br>- Mình là người hỏi đường: dùng khiêm nhường ngữ お + Vます + します &rarr; <b>おたずねしますが</b> (hoặc 伺いたいのですが).<br>- Phương án 1 dùng sai liên từ が. Phương án 2 dùng tôn kính ngữ cho bản thân là sai.<br>&rarr; <b>Đáp án đúng là 4</b>."
+    },
+    {
+      "id": 7,
+      "page": 16,
+      "context": "Email trao đổi thương mại với đối tác",
+      "sentence": "（メールで）<br>ご希望に添えますように、できるだけの努力をして（　　）。",
+      "options": [
+        "うかがいたいと存じます",
+        "まいりたいと存じます",
+        "うかがわせていただきます",
+        "まいらせていただきます"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dịch câu:</b><br>\"Để đáp ứng được nguyện vọng của quý công ty, chúng tôi xin phép sẽ nỗ lực hết sức có thể từ nay về sau.\"<br><br><b>Phân tích:</b><br>- Thể hiện hành động nỗ lực tiếp tục từ giờ trở đi: Vていく &rarr; Khiêm nhường ngữ chuyển thành <b>Vてまいる</b>.<br>- Đi với mẫu bày tỏ ý kiến khiêm nhường: と存じます (tôi nghĩ/cho rằng). Ghép lại thành: <b>努力してまいりたいと存じます</b>.<br>&rarr; <b>Đáp án đúng là 2</b>."
+    },
+    {
+      "id": 8,
+      "page": 17,
+      "context": "Nhờ vả đồng nghiệp / Cấp trên cho xem tài liệu",
+      "sentence": "会議に出席できなかったので、資料を（　　）。",
+      "options": [
+        "お見せいただけますか",
+        "見られていただけますか",
+        "見ていただけますか",
+        "見せていただけますか"
+      ],
+      "correctAnswer": 4,
+      "explanation": "<b>Dịch câu:</b><br>\"Vì tôi không thể tham dự cuộc họp, anh/chị có thể cho tôi xem tài liệu được không ạ?\"<br><br><b>Phân tích:</b><br>- Bản thân mình muốn người ta cho mình xem: cấu trúc nhờ vả là <b>V(sai khiến/tha động từ) + ていただけますか</b> &rarr; <b>見せていただけますか</b>.<br>- Phương án 3 (見ていただけますか) là \"nhờ anh xem hộ bài của em\" (ngược nghĩa). Phương án 1 kết hợp sai (お見せする là mình cho người khác xem).<br>&rarr; <b>Đáp án đúng là 4</b>."
+    },
+    {
+      "id": 9,
+      "page": 18,
+      "context": "Nghe điện thoại tại văn phòng công ty",
+      "sentence": "（電話で）<br>A:「もしもし、山田さんはいらっしゃいますか。」<br>B:「あの、お名前を（　　）。」",
+      "options": [
+        "うかがってもよろしいですか",
+        "うかがっていただけますか",
+        "申してよろしいですか",
+        "申していただけますか"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>A: \"Alo, anh Yamada có ở đó không ạ?\"<br>B: \"Dạ, tôi có thể xin phép được biết/nghe tên của quý khách được không ạ?\"<br><br><b>Phân tích:</b><br>- Người nghe điện thoại (B) muốn biết tên của người gọi (A) &rarr; Hành động hỏi/nghe là của B (phía mình).<br>- Khiêm nhường ngữ xin phép: <b>うかがってもよろしいですか</b> (hoặc お名前をお聞かせ願えますか).<br>- Phương án 2 (うかがっていただけますか) là bắt khách phải nghe (sai). Phương án 3 & 4 (申す) là nói tên.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 10,
+      "page": 19,
+      "context": "Đề nghị hỗ trợ đối phương",
+      "sentence": "中国語は得意です。通訳が必要ならいつでも（　　）。",
+      "options": [
+        "おっしゃってください",
+        "申されてください",
+        "言われていただけますか",
+        "申していただけますか"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>\"Tôi rất thạo tiếng Trung. Nếu anh/chị cần phiên dịch thì bất cứ lúc nào cũng xin hãy cứ bảo tôi nhé.\"<br><br><b>Phân tích:</b><br>- Người nói bảo đối phương \"hãy nói/yêu cầu\": Hành động nói là của đối phương &rarr; Tôn kính ngữ của 言ってください là <b>おっしゃってください</b>.<br>- Phương án 2, 3, 4 đều chia sai thể kính ngữ (申す là khiêm nhường ngữ, không đi với ください bảo người khác làm).<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 11,
+      "page": 20,
+      "context": "Lời cảm ơn khách hàng trên trang web công ty",
+      "sentence": "いつも小社のホームページを（　　）、ありがとうございます。",
+      "options": [
+        "ご覧になられていただき",
+        "見させてくださり",
+        "ご覧いただき",
+        "見られてくださり"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Dịch câu:</b><br>\"Cảm ơn quý khách đã luôn ghé thăm / theo dõi trang web của công ty chúng tôi.\"<br><br><b>Phân tích:</b><br>- Khách hàng ghé xem: 見てくれてありがとう &rarr; Kính ngữ chuẩn mực cao nhất là <b>ご覧いただき (ありがとうございます)</b>.<br>- Phương án 1 (ご覧になられて) là lỗi kính ngữ kép (Nhị trùng kính ngữ - 二重敬語) bị cấm. Phương án 2 (見させてくださり) là để tôi xem (ngược nghĩa).<br>&rarr; <b>Đáp án đúng là 3</b>."
+    },
+    {
+      "id": 12,
+      "page": 21,
+      "context": "Thông báo tuyển dụng / Hướng dẫn phỏng vấn",
+      "sentence": "当社の面接を受ける方は、10日の10時までに本社ビルに（　　）。",
+      "options": [
+        "お越しください",
+        "お参りください",
+        "越されてください",
+        "うかがってください"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>\"Những ứng viên tham gia phỏng vấn của công ty chúng tôi, xin vui lòng đến toà nhà trụ sở trước 10 giờ ngày mùng 10.\"<br><br><b>Phân tích:</b><br>- Ứng viên (khách) đến: 来てください &rarr; Tôn kính ngữ lịch sự trang trọng là <b>お越しください</b> (hoặc おいでください).<br>- Phương án 2 (お参りください) chỉ dùng khi đi viếng đền chùa thần đạo. Phương án 4 (うかがう) là khiêm nhường ngữ.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 13,
+      "page": 22,
+      "context": "Mượn và trả tài liệu học tập / công việc",
+      "sentence": "きのうお借りした資料、お返しします。休んだ時の分を（　　）。",
+      "options": [
+        "写していただきました",
+        "写させていただきました",
+        "写させてあげました",
+        "写していただけました"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dịch câu:</b><br>\"Tài liệu hôm qua mượn em xin phép gửi lại ạ. Em đã xin phép và photocopy lại phần kiến thức hôm em nghỉ rồi ạ.\"<br><br><b>Phân tích:</b><br>- Bản thân mình đã photocopy và được đối phương tạo điều kiện cho phép: V(sai khiến) + ていただく &rarr; <b>写させていただきました</b>.<br>- Phương án 1 (写していただきました) nghĩa là nhờ người ta photo hộ (ngược người làm). Phương án 3 (あげる) mang tính ban ơn trịch thượng.<br>&rarr; <b>Đáp án đúng là 2</b>."
+    },
+    {
+      "id": 14,
+      "page": 23,
+      "context": "Khách mua hàng yêu cầu dịch vụ giao hàng",
+      "sentence": "客:「無理を言って済みませんが、この冷蔵庫を明後日までに家に（　　）。」<br>店員:「かしこまりました。」",
+      "options": [
+        "お着きになりますか",
+        "お渡しくださいますか",
+        "届けていただけませんか",
+        "受けていただけないでしょうか"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Dịch câu:</b><br>Khách: \"Biết là làm khó cho cửa hàng nhưng chiếc tủ lạnh này anh có thể giao đến nhà tôi trước ngày kia được không?\"<br>Nhân viên: \"Dạ vâng tôi đã hiểu rồi ạ.\"<br><br><b>Phân tích:</b><br>- Khách hàng nhờ cửa hàng giao tủ lạnh đến nhà: Vていただけませんか &rarr; <b>届けていただけませんか</b>.<br>- Phương án 1 (お着きになりますか) là tủ lạnh tự đến. Phương án 2 (お渡しくださいますか) không tự nhiên khi giao hàng tận nhà.<br>&rarr; <b>Đáp án đúng là 3</b>."
+    },
+    {
+      "id": 15,
+      "page": 24,
+      "context": "Báo cáo nội bộ công ty với cấp trên",
+      "sentence": "（会社で）<br>佐藤:「木村部長、10時にお約束のお客様が（　　）。」<br>部長:「じゃ、会議室にお通しして。」",
+      "options": [
+        "おうかがいしました",
+        "お見えになりました",
+        "お目にかけました",
+        "お通りになりました"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dịch câu:</b><br>Sato: \"Thưa Trưởng phòng Kimura, vị khách có hẹn lúc 10 giờ đã đến rồi ạ.\"<br>Trưởng phòng: \"Thế thì mời khách vào phòng họp đi.\"<br><br><b>Phân tích:</b><br>- Khách hàng (お客様) đến công ty &rarr; Dùng tôn kính ngữ của 来る: <b>お見えになりました</b> (hoặc お見えです / いらっしゃいました).<br>- Phương án 1 (おうかがいしました) là mình đến nhà người ta. Phương án 3 (お目にかけました) là cho xem.<br>&rarr; <b>Đáp án đúng là 2</b>."
+    },
+    {
+      "id": 16,
+      "page": 25,
+      "context": "Hướng dẫn khách ngồi chờ tiếp đón",
+      "sentence": "すぐにお呼びいたしますので、そちらのいすに（　　）お待ちください。",
+      "options": [
+        "おかけになって",
+        "お座りして",
+        "お休みになって",
+        "おかけして"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>\"Chúng tôi sẽ gọi ngay bây giờ, nên xin mời quý khách hãy ngồi xuống ghế đằng kia và đợi một chút ạ.\"<br><br><b>Phân tích:</b><br>- Khách ngồi vào ghế: 座る &rarr; Tôn kính ngữ trang trọng chuẩn mực là <b>おかけになる</b> (おかけになってお待ちください).<br>- Tuyệt đối không dùng お座りください (vì giống như bảo thú cưng ngồi). Phương án 4 (おかけして) là khiêm nhường ngữ.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    },
+    {
+      "id": 17,
+      "page": 26,
+      "context": "Lời kết thư / email lịch sự trang trọng",
+      "sentence": "お忙しいところ申し訳ありませんが、今週中にお返事をいただきたく（　　）。",
+      "options": [
+        "いらっしゃいます",
+        "なさいます",
+        "存じます",
+        "お受けします"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Dịch câu:</b><br>\"Biết quý ngài đang rất bận rộn nhưng tôi rất mong mỏi và hy vọng sẽ nhận được hồi âm trong tuần này ạ.\"<br><br><b>Phân tích:</b><br>- Cấu trúc kinh doanh quen thuộc: <b>～たく存じます (～たくぞんじます)</b> = Tôi mong muốn / Tôi nghĩ rằng rất muốn...<br>- Phương án 1 & 2 là tôn kính ngữ. Phương án 4 sai nghĩa kết hợp.<br>&rarr; <b>Đáp án đúng là 3</b>."
+    },
+    {
+      "id": 18,
+      "page": 27,
+      "context": "Phát biểu của đạo diễn tại buổi lễ vinh danh",
+      "sentence": "山田監督の、「わたくし、山田は50年ぶりにふるさとにもどって（　　）。」という挨拶に、会場からはおおきな拍手が起こった。",
+      "options": [
+        "まいりました",
+        "いらっしゃいました",
+        "うかがいました",
+        "おいでになりました"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dịch câu:</b><br>Trước lời chào của đạo diễn Yamada: \"Bản thân tôi, Yamada, sau 50 năm nay đã quay trở về quê hương.\", cả hội trường đã vang lên những tràng pháo tay rộn rã.<br><br><b>Phân tích:</b><br>- Đạo diễn tự xưng \"わたくし\" (tôi) nói về hành động trở về của chính mình: もどってきました &rarr; Khiêm nhường ngữ tương ứng của くる là 参る (まいる) &rarr; <b>もどってまいりました</b>.<br>- Phương án 2 & 4 là tôn kính ngữ (tự tôn kính mình là cấm kỵ). Phương án 3 (うかがう) là đến thăm chỗ người khác.<br>&rarr; <b>Đáp án đúng là 1</b>."
+    }
+  ]
+},
   "cs_dokkai_choukai": {
     "dokkai_traps": [
       {
