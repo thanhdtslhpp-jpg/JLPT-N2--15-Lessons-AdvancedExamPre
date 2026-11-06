@@ -2005,6 +2005,7 @@ window.JLPT_DATA[8] = {
           "isChoukai": true,
           "audio": "audio/buoi_08/m1_03.mp3",
           "audioSrc": "audio/buoi_08/m1_03.mp3",
+          "image": "images/buoi_08/b8_m1_q3.png",
           "questionText": "男の人は何を買わなければなりませんか。",
           "options": [
             "ア　オ",

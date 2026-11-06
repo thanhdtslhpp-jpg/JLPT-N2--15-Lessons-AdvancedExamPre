@@ -2103,6 +2103,7 @@ window.JLPT_DATA[9] = {
           "isChoukai": true,
           "audio": "audio/buoi_09/m1_04.mp3",
           "audioSrc": "audio/buoi_09/m1_04.mp3",
+          "image": "images/buoi_09/b9_m1_q4.png",
           "questionText": "女の人はこのあと家に何を取りに帰りますか。",
           "options": [
             "ア　イ　エ",
