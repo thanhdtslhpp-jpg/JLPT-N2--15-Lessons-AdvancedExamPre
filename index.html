@@ -15,8 +15,125 @@
   <link rel="stylesheet" href="style.css?v=20261103_1_0">
   <!-- Font Awesome Icons for clean UI -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="security.js?v=20261106_1_0"></script>
 </head>
 <body>
+
+  <!-- ============================================================== -->
+  <!-- BẢO VỆ MẬT KHẨU TOÀN ỨNG DỤNG (LOCK SCREEN OVERLAY) -->
+  <!-- ============================================================== -->
+  <div id="app-lock-screen" class="lock-screen-overlay" style="display: flex;">
+    <div class="lock-card">
+      <div class="lock-header">
+        <div class="lock-shield-icon">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <h1 class="lock-title">JLPT N2 MASTER</h1>
+        <p class="lock-subtitle">Bảo vệ an toàn dữ liệu học tập &amp; kết quả thi</p>
+      </div>
+
+      <!-- VIEW 1: ĐĂNG NHẬP / MỞ KHÓA -->
+      <div id="lock-login-view">
+        <div class="lock-input-group">
+          <label for="lock-password-input" class="lock-input-label">
+            <i class="fas fa-lock"></i> Nhập Mật Khẩu (PIN):
+          </label>
+          <div class="lock-input-wrapper">
+            <input type="password" id="lock-password-input" class="lock-input" placeholder="Mặc định: 2504" autocomplete="current-password" autofocus maxlength="20" />
+            <button type="button" class="lock-eye-btn" onclick="securityManager.togglePasswordVisibility('lock-password-input', 'lock-eye-icon')" title="Hiện / Ẩn mật khẩu">
+              <i class="fas fa-eye" id="lock-eye-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <div id="lock-error-msg" class="lock-error-box" style="display: none;"></div>
+
+        <!-- Bàn phím số PIN cảm ứng cho Mobile / Tablet -->
+        <div class="lock-keypad">
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('1')">1</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('2')">2</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('3')">3</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('4')">4</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('5')">5</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('6')">6</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('7')">7</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('8')">8</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('9')">9</button>
+          <button type="button" class="pin-btn pin-func" onclick="securityManager.clearPin()" title="Xóa hết">C</button>
+          <button type="button" class="pin-btn" onclick="securityManager.appendPin('0')">0</button>
+          <button type="button" class="pin-btn pin-func" onclick="securityManager.backspacePin()" title="Xóa 1 ký tự">⌫</button>
+        </div>
+
+        <div class="lock-remember-row">
+          <label class="lock-remember-label">
+            <input type="checkbox" id="lock-remember-device" />
+            <span>Ghi nhớ mở khóa trên thiết bị này</span>
+          </label>
+        </div>
+
+        <button type="button" class="btn btn-primary lock-submit-btn" onclick="securityManager.unlock()">
+          <i class="fas fa-unlock-alt"></i> MỞ KHÓA ỨNG DỤNG
+        </button>
+
+        <div class="lock-recovery-link-row">
+          <button type="button" class="lock-link-btn" onclick="securityManager.openRecoveryView('masterKey')">
+            <i class="fas fa-question-circle"></i> Quên mật khẩu? Khôi phục tại đây
+          </button>
+        </div>
+      </div>
+
+      <!-- VIEW 2: KHÔI PHỤC MẬT KHẨU KHI QUÊN -->
+      <div id="lock-recover-view" style="display: none;">
+        <div class="recover-tabs">
+          <button type="button" id="tab-rec-master" class="rec-tab-btn active" onclick="securityManager.switchRecoveryTab('masterKey')">
+            <i class="fas fa-key"></i> 1. Mã Khôi Phục Khẩn Cấp
+          </button>
+          <button type="button" id="tab-rec-sq" class="rec-tab-btn" onclick="securityManager.switchRecoveryTab('sq')">
+            <i class="fas fa-user-check"></i> 2. Câu Hỏi Bảo Mật
+          </button>
+        </div>
+
+        <!-- PANE 1: BẰNG MÃ MASTER KEY -->
+        <div id="pane-rec-master" class="rec-pane">
+          <p class="rec-desc">
+            Nhập <b>Mã Khôi Phục Bí Mật</b> đã được cấp (Mặc định: <code>JLPT-RECOVER-2504</code>) để đặt lại mật khẩu mới:
+          </p>
+          <div class="lock-input-group">
+            <input type="text" id="rec-master-key-input" class="lock-input" placeholder="Ví dụ: JLPT-RECOVER-2504" autocomplete="off" />
+          </div>
+          <button type="button" class="btn btn-primary lock-submit-btn" onclick="securityManager.recoverWithMasterKey()" style="margin-top: 0.75rem;">
+            <i class="fas fa-check-circle"></i> Xác Thực &amp; Đặt Lại Mật Khẩu
+          </button>
+        </div>
+
+        <!-- PANE 2: BẰNG CÂU HỎI BẢO MẬT -->
+        <div id="pane-rec-sq" class="rec-pane" style="display: none;">
+          <p class="rec-desc">
+            Trả lời câu hỏi bảo mật bạn đã lưu:
+          </p>
+          <div class="rec-question-box">
+            <i class="fas fa-question" style="color: #6366f1;"></i>
+            <span id="recover-sq-label">Mục tiêu kỳ thi JLPT của bạn là gì?</span>
+          </div>
+          <div class="lock-input-group" style="margin-top: 0.75rem;">
+            <input type="text" id="rec-sq-input" class="lock-input" placeholder="Gợi ý mặc định: N2" autocomplete="off" />
+          </div>
+          <button type="button" class="btn btn-primary lock-submit-btn" onclick="securityManager.recoverWithSecurityQuestion()" style="margin-top: 0.75rem;">
+            <i class="fas fa-check-circle"></i> Xác Thực Câu Hỏi &amp; Khôi Phục
+          </button>
+        </div>
+
+        <div id="rec-error-msg" class="lock-error-box" style="display: none; margin-top: 0.85rem;"></div>
+
+        <div class="lock-recovery-link-row" style="margin-top: 1rem;">
+          <button type="button" class="lock-link-btn" onclick="securityManager.closeRecoveryView()">
+            <i class="fas fa-arrow-left"></i> Quay lại màn hình mở khóa
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Top Navigation Bar -->
   <header class="app-header">
@@ -33,6 +150,15 @@
         <!-- Dark / Light theme toggle -->
         <button id="theme-toggle" class="btn btn-outline" title="Chuyển chế độ Sáng / Tối">
           <i class="fas fa-moon"></i>
+        </button>
+        <!-- Nút Khóa Ứng Dụng Bảo Vệ -->
+        <button id="btn-lock-app" class="btn btn-outline" style="border-color: #ef4444; color: #dc2626; background: rgba(239, 68, 68, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="securityManager.lockNow()" title="Khóa ứng dụng ngay lập tức để bảo vệ dữ liệu">
+          <i class="fas fa-lock"></i> Khóa Ngay
+        </button>
+
+        <!-- Nút Cài Đặt Mật Khẩu -->
+        <button id="btn-security-settings" class="btn btn-outline" style="border-color: #6366f1; color: #4f46e5; background: rgba(99, 102, 241, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="securityManager.openChangePasswordModal()" title="Cài đặt &amp; Đổi mật khẩu bảo vệ">
+          <i class="fas fa-key"></i> Đổi Mật Khẩu
         </button>
 
         <!-- Nút Tra Cứu Nhanh Sổ Tay Bí Kíp Kosei 75 Trang -->
@@ -258,6 +384,92 @@
   </div>
 
   <!-- 3.1. Data Sync Modal (Đồng bộ đám mây Firebase E2EE & Sao lưu) -->
+  
+  <!-- ============================================================== -->
+  <!-- MODAL ĐỔI MẬT KHẨU & QUẢN LÝ BẢO MẬT -->
+  <!-- ============================================================== -->
+  <div class="modal-overlay" id="change-password-modal" style="display: none;">
+    <div class="modal-card" style="max-width: 520px; text-align: left; padding: 1.5rem; max-height: 90vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+        <h2 style="font-size: 1.25rem; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 0.5rem; color: var(--text-main);">
+          <i class="fas fa-shield-alt" style="color: #6366f1;"></i> Quản Lý &amp; Đổi Mật Khẩu
+        </h2>
+        <button onclick="securityManager.closeChangePasswordModal()" class="btn btn-outline" style="padding: 0.3rem 0.6rem; border: none; font-size: 1.2rem; cursor: pointer;">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div style="background: rgba(99, 102, 241, 0.05); border: 1px solid #6366f1; border-radius: 8px; padding: 0.85rem 1rem; margin-bottom: 1.25rem;">
+        <p style="font-size: 0.82rem; color: var(--text-sub); margin: 0; line-height: 1.45;">
+          <i class="fas fa-info-circle" style="color: #6366f1;"></i> Để đổi mật khẩu mới, bạn <b>bắt buộc phải nhập chính xác mật khẩu hiện tại</b>. Nếu bạn muốn đổi cả câu hỏi bảo mật hoặc lưu lại mã Master Key khôi phục, hãy cập nhật bên dưới.
+        </p>
+      </div>
+
+      <div id="cp-error-msg" class="lock-error-box" style="display: none; margin-bottom: 1rem;"></div>
+      <div id="cp-success-msg" class="lock-success-box" style="display: none; margin-bottom: 1rem;"></div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 1.25rem;">
+        <div>
+          <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
+            🔒 Mật khẩu hiện tại (Bắt buộc):
+          </label>
+          <input type="password" id="cp-old-pass" placeholder="Nhập mật khẩu hiện tại (Mặc định: 2504)" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+          <div>
+            <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
+              ✨ Mật khẩu mới:
+            </label>
+            <input type="password" id="cp-new-pass" placeholder="Tối thiểu 4 ký tự" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+          </div>
+          <div>
+            <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
+              🔁 Xác nhận mật khẩu mới:
+            </label>
+            <input type="password" id="cp-confirm-pass" placeholder="Nhập lại mật khẩu mới" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+          </div>
+        </div>
+
+        <div style="border-top: 1px dashed var(--border); padding-top: 0.85rem; margin-top: 0.25rem;">
+          <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
+            ❓ Câu hỏi bảo mật dùng khi quên pass:
+          </label>
+          <input type="text" id="cp-sq-question" placeholder="Ví dụ: Tên trường cấp 3 của bạn?" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main); margin-bottom: 0.5rem;">
+          <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
+            💡 Câu trả lời bảo mật:
+          </label>
+          <input type="text" id="cp-sq-answer" placeholder="Ví dụ: N2" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+        </div>
+
+        <!-- Master Recovery Key Box -->
+        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid #10b981; border-radius: 6px; padding: 0.75rem; margin-top: 0.35rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <span style="font-size: 0.8rem; font-weight: 700; color: #059669; display: flex; align-items: center; gap: 0.35rem;">
+              <i class="fas fa-key"></i> Mã Khôi Phục Bí Mật Khẩn Cấp (Master Key):
+            </span>
+            <button type="button" class="btn btn-outline" onclick="securityManager.copyMasterKey()" style="padding: 0.2rem 0.5rem; font-size: 0.75rem; color: #059669; border-color: #10b981;">
+              <i class="fas fa-copy"></i> Sao chép
+            </button>
+          </div>
+          <code id="display-master-key" style="display: block; font-family: monospace; font-weight: 700; font-size: 0.92rem; color: #047857; letter-spacing: 1px; word-break: break-all;">JLPT-RECOVER-2504</code>
+          <p style="font-size: 0.72rem; color: var(--text-sub); margin: 0.3rem 0 0 0;">
+            Hãy lưu lại mã này ở ghi chú bí mật. Bất cứ khi nào quên mật khẩu, nhập mã này là mở khóa và reset được ngay.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; justify-content: flex-end;">
+        <button type="button" class="btn btn-outline" onclick="securityManager.closeChangePasswordModal()" style="font-size: 0.88rem;">
+          Hủy Bỏ
+        </button>
+        <button type="button" class="btn btn-primary" onclick="securityManager.submitChangePassword()" style="font-size: 0.88rem;">
+          <i class="fas fa-save"></i> Cập Nhật Mật Khẩu Mới
+        </button>
+      </div>
+    </div>
+  </div>
+
   <div class="modal-overlay" id="sync-modal" style="display: none;">
     <div class="modal-card" style="max-width: 580px; text-align: left; padding: 1.5rem; max-height: 90vh; overflow-y: auto;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">

@@ -10913,3 +10913,301 @@ button,
 .cs-keigo-opt-btn:active {
   transform: translateY(0);
 }
+
+
+/* ============================================================== */
+/* HỆ THỐNG KHÓA ỨNG DỤNG & BẢO VỆ MẬT KHẨU (SECURITY LOCK SCREEN) */
+/* ============================================================== */
+.lock-screen-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 20%, rgba(30, 27, 75, 0.96), rgba(15, 23, 42, 0.98));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.lock-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card-bg, #ffffff);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(99, 102, 241, 0.25);
+  padding: 2rem 1.75rem;
+  color: var(--text-main, #1e293b);
+  animation: lockModalPop 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+}
+
+@keyframes lockModalPop {
+  0% { opacity: 0; transform: scale(0.92) translateY(15px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.lock-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.lock-shield-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.85rem;
+  margin: 0 auto 0.85rem auto;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.45);
+}
+
+.lock-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin: 0 0 0.35rem 0;
+  letter-spacing: 0.5px;
+  color: var(--text-main, #1e293b);
+}
+
+.lock-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-sub, #64748b);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.lock-input-group {
+  margin-bottom: 1rem;
+}
+
+.lock-input-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main, #1e293b);
+  margin-bottom: 0.35rem;
+}
+
+.lock-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lock-input {
+  width: 100%;
+  padding: 0.75rem 2.85rem 0.75rem 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 4px;
+  border: 2px solid var(--border, #e2e8f0);
+  border-radius: 12px;
+  background: var(--bg-main, #f8fafc);
+  color: var(--text-main, #1e293b);
+  outline: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.lock-input:focus {
+  border-color: #6366f1;
+  background: var(--card-bg, #ffffff);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.18);
+}
+
+.lock-eye-btn {
+  position: absolute;
+  right: 0.65rem;
+  background: transparent;
+  border: none;
+  color: var(--text-sub, #64748b);
+  cursor: pointer;
+  padding: 0.45rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: color 0.15s ease;
+}
+
+.lock-eye-btn:hover {
+  color: #6366f1;
+}
+
+.lock-error-box {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #ef4444;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.85rem;
+}
+
+.lock-success-box {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #10b981;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.85rem;
+}
+
+.lock-shake {
+  animation: lockShake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes lockShake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(4px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-6px, 0, 0); }
+  40%, 60% { transform: translate3d(6px, 0, 0); }
+}
+
+/* Keypad số */
+.lock-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.pin-btn {
+  background: var(--bg-main, #f1f5f9);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 12px;
+  padding: 0.7rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main, #1e293b);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.pin-btn:hover {
+  background: #6366f1;
+  color: #ffffff;
+  border-color: #6366f1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.25);
+}
+
+.pin-btn:active {
+  transform: translateY(0);
+}
+
+.pin-btn.pin-func {
+  font-size: 1rem;
+  color: var(--text-sub, #64748b);
+  background: var(--bg-main, #f8fafc);
+}
+
+.lock-remember-row {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.lock-remember-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-sub, #64748b);
+  cursor: pointer;
+}
+
+.lock-submit-btn {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+}
+
+.lock-recovery-link-row {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.lock-link-btn {
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.lock-link-btn:hover {
+  color: #4f46e5;
+}
+
+/* Giao diện phục hồi */
+.recover-tabs {
+  display: flex;
+  gap: 0.35rem;
+  border-bottom: 2px solid var(--border, #e2e8f0);
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.35rem;
+}
+
+.rec-tab-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 0.5rem 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-sub, #64748b);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+}
+
+.rec-tab-btn.active {
+  background: rgba(99, 102, 241, 0.1);
+  color: #6366f1;
+}
+
+.rec-desc {
+  font-size: 0.82rem;
+  color: var(--text-sub, #64748b);
+  line-height: 1.45;
+  margin: 0 0 0.85rem 0;
+}
+
+.rec-question-box {
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid #6366f1;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main, #1e293b);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
