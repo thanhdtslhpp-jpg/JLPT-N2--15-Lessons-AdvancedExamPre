@@ -39,7 +39,7 @@
             <i class="fas fa-lock"></i> Nhập Mật Khẩu (PIN):
           </label>
           <div class="lock-input-wrapper">
-            <input type="password" id="lock-password-input" class="lock-input" placeholder="Mặc định: 2504" autocomplete="current-password" autofocus maxlength="20" />
+            <input type="password" id="lock-password-input" class="lock-input" placeholder="••••••••" autocomplete="current-password" autofocus maxlength="20" />
             <button type="button" class="lock-eye-btn" onclick="securityManager.togglePasswordVisibility('lock-password-input', 'lock-eye-icon')" title="Hiện / Ẩn mật khẩu">
               <i class="fas fa-eye" id="lock-eye-icon"></i>
             </button>
@@ -96,10 +96,10 @@
         <!-- PANE 1: BẰNG MÃ MASTER KEY -->
         <div id="pane-rec-master" class="rec-pane">
           <p class="rec-desc">
-            Nhập <b>Mã Khôi Phục Bí Mật</b> đã được cấp (Mặc định: <code>JLPT-RECOVER-2504</code>) để đặt lại mật khẩu mới:
+            Nhập <b>Mã Khôi Phục Bí Mật</b> của bạn để xác thực và đặt lại mật khẩu:
           </p>
           <div class="lock-input-group">
-            <input type="text" id="rec-master-key-input" class="lock-input" placeholder="Ví dụ: JLPT-RECOVER-2504" autocomplete="off" />
+            <input type="text" id="rec-master-key-input" class="lock-input" placeholder="Nhập mã khôi phục bí mật" autocomplete="off" />
           </div>
           <button type="button" class="btn btn-primary lock-submit-btn" onclick="securityManager.recoverWithMasterKey()" style="margin-top: 0.75rem;">
             <i class="fas fa-check-circle"></i> Xác Thực &amp; Đặt Lại Mật Khẩu
@@ -116,7 +116,7 @@
             <span id="recover-sq-label">Mục tiêu kỳ thi JLPT của bạn là gì?</span>
           </div>
           <div class="lock-input-group" style="margin-top: 0.75rem;">
-            <input type="text" id="rec-sq-input" class="lock-input" placeholder="Gợi ý mặc định: N2" autocomplete="off" />
+            <input type="text" id="rec-sq-input" class="lock-input" placeholder="Nhập câu trả lời bí mật" autocomplete="off" />
           </div>
           <button type="button" class="btn btn-primary lock-submit-btn" onclick="securityManager.recoverWithSecurityQuestion()" style="margin-top: 0.75rem;">
             <i class="fas fa-check-circle"></i> Xác Thực Câu Hỏi &amp; Khôi Phục
@@ -413,7 +413,7 @@
           <label style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-main);">
             🔒 Mật khẩu hiện tại (Bắt buộc):
           </label>
-          <input type="password" id="cp-old-pass" placeholder="Nhập mật khẩu hiện tại (Mặc định: 2504)" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
+          <input type="password" id="cp-old-pass" placeholder="Nhập mật khẩu hiện tại" style="width: 100%; padding: 0.55rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.88rem; background: var(--card-bg); color: var(--text-main);">
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">

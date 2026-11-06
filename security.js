@@ -286,7 +286,7 @@
 
       if (entered.toUpperCase() === currentMaster.toUpperCase()) {
         // Khôi phục thành công -> Reset về 2504 hoặc đặt mật khẩu mới
-        const newPass = prompt("Xác thực Mã Khôi Phục thành công!\nNhập mật khẩu mới bạn muốn đặt (hoặc bấm OK để đặt về mặc định 2504):", "2504");
+        const newPass = prompt("Xác thực Mã Khôi Phục thành công!\nNhập mật khẩu mới bạn muốn đặt:", "");
         const finalPass = (newPass && newPass.trim()) ? newPass.trim() : "2504";
 
         this.config.password = finalPass;
@@ -300,7 +300,7 @@
         this.closeRecoveryView();
         this.hideLockScreen();
       } else {
-        this.showRecError("Mã Khôi Phục không đúng! Vui lòng kiểm tra lại (Mặc định: JLPT-RECOVER-2504)");
+        this.showRecError("Mã Khôi Phục không chính xác! Vui lòng kiểm tra lại.");
       }
     }
 
@@ -318,7 +318,7 @@
 
       // So sánh không phân biệt hoa thường và bỏ khoảng trắng dư thừa
       if (entered === target || entered === "n2" || entered === "jlpt n2") {
-        const newPass = prompt("Xác thực câu hỏi bảo mật thành công!\nNhập mật khẩu mới bạn muốn đặt (hoặc bấm OK để đặt về mặc định 2504):", "2504");
+        const newPass = prompt("Xác thực câu hỏi bảo mật thành công!\nNhập mật khẩu mới bạn muốn đặt:", "");
         const finalPass = (newPass && newPass.trim()) ? newPass.trim() : "2504";
 
         this.config.password = finalPass;
@@ -332,7 +332,7 @@
         this.closeRecoveryView();
         this.hideLockScreen();
       } else {
-        this.showRecError("Câu trả lời bảo mật chưa chính xác! (Gợi ý mặc định: N2)");
+        this.showRecError("Câu trả lời bảo mật chưa chính xác! Vui lòng thử lại.");
       }
     }
 
