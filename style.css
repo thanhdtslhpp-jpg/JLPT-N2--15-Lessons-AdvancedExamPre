@@ -11139,3 +11139,16 @@ button,
 
 
 
+
+
+/* Chống F12 xem trộm: Khi ở trạng thái khóa, ẩn hoàn toàn mọi nội dung bên dưới */
+body.app-locked .app-header,
+body.app-locked .app-body,
+body.app-locked .modal-overlay:not(#app-lock-screen) {
+  display: none !important;
+}
+
+body.app-locked {
+  overflow: hidden !important;
+  background: #0f172a !important;
+}

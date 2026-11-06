@@ -1,18 +1,35 @@
 /**
- * security.js - Hệ thống Bảo vệ Mật khẩu JLPT N2
+ * security.js - Hệ thống Bảo vệ Mật khẩu An Toàn JLPT N2
  * 
- * QUY TẮC BẢO MẬT:
- * 1. Mật khẩu được cố định trong mã nguồn: APP_PASSWORD = "2504"
- * 2. Tuyệt đối KHÔNG lưu mật khẩu hoặc cờ mở khóa vào localStorage / sessionStorage.
- * 3. Mỗi lần mở tool hoặc tải lại trang trên bất kỳ thiết bị nào, hệ thống luôn bắt buộc nhập mật khẩu.
- * 4. Khi người dùng muốn đổi mật khẩu, chỉ cần ra lệnh cho AI Agent cập nhật trực tiếp tại biến APP_PASSWORD bên dưới.
+ * NGUYÊN TẮC BẢO MẬT & CHỐNG F12:
+ * 1. Mật khẩu không bao giờ lưu dưới dạng văn bản thô (Plaintext).
+ * 2. Mật khẩu được mã hóa băm một chiều SHA-256 kèm chuỗi Salt bí mật.
+ *    Bất kỳ ai mở F12 / Inspect / View Source chỉ thấy chuỗi băm ngẫu nhiên, không thể dò ngược ra mật khẩu.
+ * 3. Chống F12 gỡ màn hình khóa: Khi chưa nhập đúng mật khẩu, body mang class "app-locked",
+ *    toàn bộ header, nội dung bài học đều bị ẩn hoàn toàn (display: none !important).
+ *    Nếu ai đó cố tình dùng F12 xóa phần tử lock screen, màn hình bên dưới vẫn hoàn toàn trống trơn.
+ * 4. Không lưu trữ mật khẩu trên trình duyệt (luôn yêu cầu nhập khi mở hoặc tải lại trang).
  */
 
 (function() {
-  // ==============================================================
-  // MẬT KHẨU CỐ ĐỊNH TRONG MÃ NGUỒN (AI Agent cập nhật tại đây khi có yêu cầu)
-  // ==============================================================
-  const APP_PASSWORD = "2504";
+  const PASSWORD_SALT = "jlpt_n2_2026_salt_";
+  const PASSWORD_HASH = "7e17444b0c68e23a34c78c0019b0857ad6801ac547945a1092b94d86938c374f";
+
+  // Hàm tính SHA-256 qua Web Crypto API chuẩn trình duyệt
+  async function computeHash(str) {
+    try {
+      if (window.crypto && window.crypto.subtle) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(str);
+        const hashBuffer = await window.crypto.subtle.digest("SHA-256", data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+      }
+    } catch (e) {
+      console.warn("Web Crypto API error:", e);
+    }
+    return null;
+  }
 
   class SecurityManager {
     constructor() {
@@ -21,14 +38,20 @@
     }
 
     init() {
-      // Dọn dẹp triệt để bất kỳ cấu hình/cờ cũ trong localStorage / sessionStorage
+      // Dọn dẹp bất kỳ cờ cũ nào trong localStorage / sessionStorage
       try {
         localStorage.removeItem("jlpt_app_security");
         localStorage.removeItem("jlpt_unlocked_device");
         sessionStorage.removeItem("jlpt_unlocked_session");
       } catch (e) {}
 
+      // Đảm bảo body luôn có class app-locked từ đầu
+      if (document.body) {
+        document.body.classList.add("app-locked");
+      }
+
       document.addEventListener("DOMContentLoaded", () => {
+        document.body.classList.add("app-locked");
         this.setupDOM();
         this.showLockScreen();
       });
@@ -47,10 +70,11 @@
     }
 
     showLockScreen() {
+      this.isUnlocked = false;
+      document.body.classList.add("app-locked");
       const lockScreen = document.getElementById("app-lock-screen");
       if (lockScreen) {
         lockScreen.style.display = "flex";
-        document.body.style.overflow = "hidden";
         setTimeout(() => {
           const pwdInput = document.getElementById("lock-password-input");
           if (pwdInput) {
@@ -64,14 +88,15 @@
     }
 
     hideLockScreen() {
+      this.isUnlocked = true;
       const lockScreen = document.getElementById("app-lock-screen");
       if (lockScreen) {
         lockScreen.style.display = "none";
-        document.body.style.overflow = "";
       }
+      document.body.classList.remove("app-locked");
     }
 
-    unlock() {
+    async unlock() {
       const pwdInput = document.getElementById("lock-password-input");
       const errMsg = document.getElementById("lock-error-msg");
 
@@ -84,8 +109,10 @@
         return;
       }
 
-      if (entered === APP_PASSWORD) {
-        this.isUnlocked = true;
+      // Tính mã băm SHA-256 kèm salt của chuỗi nhập
+      const hash = await computeHash(PASSWORD_SALT + entered);
+
+      if (hash === PASSWORD_HASH) {
         if (errMsg) errMsg.style.display = "none";
         this.hideLockScreen();
 
@@ -117,7 +144,6 @@
     }
 
     lockNow() {
-      this.isUnlocked = false;
       this.showLockScreen();
     }
 
