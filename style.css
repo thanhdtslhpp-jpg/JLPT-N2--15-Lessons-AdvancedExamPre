@@ -11117,20 +11117,9 @@ button,
   background: var(--bg-main, #f8fafc);
 }
 
-.lock-remember-row {
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: center;
-}
 
-.lock-remember-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.82rem;
-  color: var(--text-sub, #64748b);
-  cursor: pointer;
-}
+
+
 
 .lock-submit-btn {
   width: 100%;
@@ -11145,69 +11134,8 @@ button,
   box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
 }
 
-.lock-recovery-link-row {
-  text-align: center;
-  margin-top: 1rem;
-}
 
-.lock-link-btn {
-  background: none;
-  border: none;
-  color: #6366f1;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: underline;
-  transition: color 0.15s ease;
-}
 
-.lock-link-btn:hover {
-  color: #4f46e5;
-}
 
-/* Giao diện phục hồi */
-.recover-tabs {
-  display: flex;
-  gap: 0.35rem;
-  border-bottom: 2px solid var(--border, #e2e8f0);
-  margin-bottom: 1.15rem;
-  padding-bottom: 0.35rem;
-}
 
-.rec-tab-btn {
-  flex: 1;
-  background: none;
-  border: none;
-  padding: 0.5rem 0.25rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--text-sub, #64748b);
-  cursor: pointer;
-  border-radius: 8px;
-  transition: all 0.15s ease;
-}
 
-.rec-tab-btn.active {
-  background: rgba(99, 102, 241, 0.1);
-  color: #6366f1;
-}
-
-.rec-desc {
-  font-size: 0.82rem;
-  color: var(--text-sub, #64748b);
-  line-height: 1.45;
-  margin: 0 0 0.85rem 0;
-}
-
-.rec-question-box {
-  background: rgba(99, 102, 241, 0.08);
-  border: 1px solid #6366f1;
-  padding: 0.65rem 0.85rem;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text-main, #1e293b);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
