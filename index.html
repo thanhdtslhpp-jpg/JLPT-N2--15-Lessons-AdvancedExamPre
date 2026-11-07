@@ -94,6 +94,11 @@
 
         
 
+        <!-- Nút Bật / Tắt Tra Từ Điển Mazii -->
+        <button id="btn-toggle-mazii" class="btn btn-outline" style="border-color: #10b981; color: #059669; background: rgba(16, 185, 129, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.toggleMaziiLookup()" title="Bật / Tắt công cụ tra từ điển Mazii khi bôi đen chữ">
+          <i class="fas fa-book-reader" id="mazii-toggle-icon"></i> <span id="mazii-toggle-label">Tra Mazii: BẬT</span>
+        </button>
+
         <!-- Nút Tra Cứu Nhanh Sổ Tay Bí Kíp Kosei 75 Trang -->
         <button id="btn-quick-kosei" class="btn btn-outline" style="border-color: #f59e0b; color: #b45309; background: rgba(245, 158, 11, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.openCheatsheetModal('cs_kosei_np')" title="Mở Sổ Tay Bí Kíp Ngữ Pháp N2 (Kosei 75 Trang)">
           <i class="fas fa-book-open"></i> Bí Kíp Kosei (75 Trang)
@@ -271,6 +276,11 @@
             </div>
 
 
+
+            <!-- Nút Bật / Tắt Tra Mazii trong panel Đọc hiểu -->
+            <button id="btn-sidebar-toggle-mazii" class="dokkai-tool-btn active" style="width: 100%; margin-top: 0.45rem; justify-content: center; font-weight: 600;" onclick="app.toggleMaziiLookup()" title="Bật / Tắt công cụ tra từ Mazii khi bôi đen">
+              <i class="fas fa-book-reader" style="color: #10b981;"></i> Tra Mazii: BẬT
+            </button>
 
             <div class="dokkai-panel-hint">
               <i class="fas fa-lightbulb" style="color: #f59e0b; margin-top: 2px;"></i>

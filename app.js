@@ -17,6 +17,7 @@ class JLPTApp {
     this.bookmarks = JSON.parse(localStorage.getItem("jlpt_n2_bookmarks") || "{}");
     this.wrongQuestions = JSON.parse(localStorage.getItem("jlpt_n2_wrong_questions") || "{}");
     this.fontSizeLevel = localStorage.getItem("jlpt_font_size") || "normal"; // normal | lg | xl
+    this.enableMaziiLookup = localStorage.getItem("jlpt_enable_mazii") !== "false";
     this.splitReadingMode = localStorage.getItem("jlpt_split_reading") === "true";
     this.showFurigana = localStorage.getItem("jlpt_show_furigana") !== "false";
     this.highlights = JSON.parse(localStorage.getItem("jlpt_highlights") || "{}");
@@ -335,6 +336,7 @@ class JLPTApp {
   init() {
     this.setupTheme();
     this.setupFurigana();
+    this.updateMaziiToggleUI();
     this.renderDashboard();
     this.bindEvents();
     this.setupHistoryRouting();
@@ -2705,6 +2707,7 @@ class JLPTApp {
   }
 
   showDictPopup(word, rect) {
+    if (!this.enableMaziiLookup) return;
     const popup = document.getElementById("dict-popup");
     if (!popup) return;
 
@@ -3102,13 +3105,104 @@ class JLPTApp {
 
 
   // =========================================================================
+  // =========================================================================
+  // TÍNH NĂNG MỚI: BẬT / TẮT CHẾ ĐỘ TRA TỪ ĐIỂN MAZII KHI BÔI ĐEN VĂN BẢN
+  // =========================================================================
+  toggleMaziiLookup(forceState = null) {
+    if (forceState !== null) {
+      this.enableMaziiLookup = !!forceState;
+    } else {
+      this.enableMaziiLookup = !this.enableMaziiLookup;
+    }
+    try {
+      localStorage.setItem("jlpt_enable_mazii", String(this.enableMaziiLookup));
+    } catch (e) {}
+
+    this.updateMaziiToggleUI();
+
+    // Nếu vừa tắt, ẩn ngay lập tức popup từ điển và thanh tác vụ đang hiển thị
+    if (!this.enableMaziiLookup) {
+      this.hideDictPopup();
+      const bubble = document.getElementById("selection-action-bubble");
+      if (bubble) bubble.style.display = "none";
+    }
+
+    const msg = this.enableMaziiLookup 
+      ? "Đã BẬT công cụ tra Mazii (Bôi đen chữ để tra)"
+      : "Đã TẮT công cụ tra Mazii (Ẩn thanh tra cứu khi bôi đen)";
+    this.showToast(msg, this.enableMaziiLookup ? "success" : "info");
+  }
+
+  updateMaziiToggleUI() {
+    const btnHeader = document.getElementById("btn-toggle-mazii");
+    const labelHeader = document.getElementById("mazii-toggle-label");
+    const iconHeader = document.getElementById("mazii-toggle-icon");
+    const btnSidebar = document.getElementById("btn-sidebar-toggle-mazii");
+
+    if (this.enableMaziiLookup) {
+      if (btnHeader) {
+        btnHeader.classList.add("active");
+        btnHeader.style.borderColor = "#10b981";
+        btnHeader.style.color = "#059669";
+        btnHeader.style.background = "rgba(16, 185, 129, 0.08)";
+        btnHeader.title = "Tra từ điển Mazii: Đang BẬT (Bấm để TẮT)";
+      }
+      if (labelHeader) labelHeader.textContent = "Tra Mazii: BẬT";
+      if (iconHeader) iconHeader.className = "fas fa-book-reader";
+
+      if (btnSidebar) {
+        btnSidebar.classList.add("active");
+        btnSidebar.innerHTML = `<i class="fas fa-book-reader" style="color: #10b981;"></i> Tra Mazii: BẬT`;
+        btnSidebar.title = "Tra từ điển Mazii: Đang BẬT (Bấm để TẮT)";
+      }
+    } else {
+      if (btnHeader) {
+        btnHeader.classList.remove("active");
+        btnHeader.style.borderColor = "var(--border)";
+        btnHeader.style.color = "var(--text-sub)";
+        btnHeader.style.background = "transparent";
+        btnHeader.title = "Tra từ điển Mazii: Đang TẮT (Bấm để BẬT)";
+      }
+      if (labelHeader) labelHeader.textContent = "Tra Mazii: TẮT";
+      if (iconHeader) iconHeader.className = "fas fa-eye-slash";
+
+      if (btnSidebar) {
+        btnSidebar.classList.remove("active");
+        btnSidebar.innerHTML = `<i class="fas fa-eye-slash" style="opacity: 0.6;"></i> Tra Mazii: TẮT`;
+        btnSidebar.title = "Tra từ điển Mazii: Đang TẮT (Bấm để BẬT)";
+      }
+    }
+  }
+
+  showToast(message, type = "info") {
+    let toastContainer = document.getElementById("app-toast-container");
+    if (!toastContainer) {
+      toastContainer = document.createElement("div");
+      toastContainer.id = "app-toast-container";
+      toastContainer.style.cssText = "position: fixed; bottom: 25px; right: 25px; z-index: 999999; display: flex; flex-direction: column; gap: 8px; pointer-events: none;";
+      document.body.appendChild(toastContainer);
+    }
+    const toast = document.createElement("div");
+    const bg = type === "success" ? "#10b981" : (type === "error" ? "#ef4444" : "#4f46e5");
+    toast.style.cssText = `background: ${bg}; color: #fff; padding: 0.6rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 600; box-shadow: 0 4px 14px rgba(0,0,0,0.25); display: flex; align-items: center; gap: 0.5rem; animation: bubblePop 0.2s ease; pointer-events: auto;`;
+    const icon = type === "success" ? "fa-check-circle" : (type === "error" ? "fa-exclamation-triangle" : "fa-info-circle");
+    toast.innerHTML = `<i class="fas ${icon}"></i> <span>${message}</span>`;
+    toastContainer.appendChild(toast);
+    setTimeout(() => {
+      toast.style.opacity = "0";
+      toast.style.transition = "opacity 0.3s ease";
+      setTimeout(() => {
+        if (toast.remove) toast.remove();
+        else if (toast.parentNode) toast.parentNode.removeChild(toast);
+      }, 300);
+    }, 2200);
+  }
+
   // TÍNH NĂNG MỚI: THANH TÁC VỤ NỔI KHI BÔI ĐEN VĂN BẢN (IPHONE / IPAD / PC)
   // =========================================================================
   initSelectionBubble() {
-    // Tam thoi vo hieu hoa va an thanh tac vu noi khi boi den van ban
     const bubble = document.getElementById("selection-action-bubble");
-    if (bubble) bubble.style.display = "none";
-    return;
+    if (!bubble) return;
 
     const btnSpeak = document.getElementById("bubble-btn-speak");
     const btnLookup = document.getElementById("bubble-btn-lookup");
@@ -3122,6 +3216,12 @@ class JLPTApp {
     };
 
     const updateBubblePosition = () => {
+      // Nếu chế độ tra cứu Mazii đang TẮT -> không hiện bubble
+      if (!this.enableMaziiLookup) {
+        hideBubble();
+        return;
+      }
+
       // Nếu bảng tra từ điển đang mở, tuyệt đối không hiện thanh thao tác đè lên
       const dictPopup = document.getElementById("dict-popup");
       if (dictPopup && dictPopup.style.display !== "none") {
