@@ -1050,13 +1050,28 @@ class JLPTApp {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
+  getSessionData(sessionId) {
+    if (!window.JLPT_DATA) return null;
+    if (window.JLPT_DATA[sessionId]) return window.JLPT_DATA[sessionId];
+    const str = String(sessionId);
+    if (window.JLPT_DATA[str]) return window.JLPT_DATA[str];
+    const num = parseInt(str.replace(/\D+/g, ""), 10);
+    if (!isNaN(num)) {
+      if (window.JLPT_DATA[num]) return window.JLPT_DATA[num];
+      if (window.JLPT_DATA[String(num)]) return window.JLPT_DATA[String(num)];
+      const padKey = `buoi_${String(num).padStart(2, "0")}`;
+      if (window.JLPT_DATA[padKey]) return window.JLPT_DATA[padKey];
+    }
+    return null;
+  }
+
   loadSession(sessionId, pushHistory = true) {
     this.currentSessionId = sessionId;
-    const sessionData = window.JLPT_DATA ? window.JLPT_DATA[sessionId] : null;
+    const sessionData = this.getSessionData(sessionId);
 
     if (!sessionData) {
       const readySessions = (window.JLPT_SYLLABUS || [])
-        .filter(s => s.ready || (window.JLPT_DATA && !!window.JLPT_DATA[s.id]))
+        .filter(s => s.ready || !!this.getSessionData(s.id))
         .map(s => `Buổi ${s.id}`)
         .join(", ");
       alert(`Buổi ${sessionId} đang được trích xuất dữ liệu. Vui lòng chọn các Buổi đã sẵn sàng (${readySessions || "Buổi 1, 5, 6"})!`);
@@ -1187,7 +1202,7 @@ class JLPTApp {
       const hist = this.history[item.id];
       if (hist && hist.completed) completedCount++;
 
-      const isDataAvailable = window.JLPT_DATA && !!window.JLPT_DATA[item.id];
+      const isDataAvailable = !!this.getSessionData(item.id);
       const isReady = item.ready || isDataAvailable;
       const totalQ = (item.stats && item.stats.totalQuestions) ? item.stats.totalQuestions : 35;
 
@@ -3415,7 +3430,7 @@ class JLPTApp {
   getActiveFilterName() {
     if (this.activeFilter === "all") return "Tất cả câu hỏi";
     if (this.activeFilter === "starred") return "⭐ Đã lưu / Ôn lại";
-    const session = window.JLPT_DATA ? window.JLPT_DATA[this.currentSessionId] : null;
+    const session = this.getSessionData(this.currentSessionId);
     if (session && session.sections) {
       const sec = session.sections.find(s => s.id === this.activeFilter);
       if (sec) {
@@ -3448,7 +3463,7 @@ class JLPTApp {
 
     // Thanh chuyển đổi nhanh các phần thi ngay trong Bảng câu hỏi Mobile
     if (filterTabsContainer) {
-      const session = window.JLPT_DATA ? window.JLPT_DATA[this.currentSessionId] : null;
+      const session = this.getSessionData(this.currentSessionId);
       if (session && session.sections) {
         let tabsHtml = `<button type="button" class="mob-tab-chip ${this.activeFilter === 'all' ? 'active' : ''}" onclick="app.setFilter('all'); app.renderMobilePallet();">Tất cả (${this.getAllQuestions().length})</button>`;
         session.sections.forEach(sec => {
@@ -3581,7 +3596,7 @@ class JLPTApp {
 
   renderFilterTabs() {
     const tabsContainer = document.getElementById("filter-tabs");
-    const session = window.JLPT_DATA ? window.JLPT_DATA[this.currentSessionId] : null;
+    const session = this.getSessionData(this.currentSessionId);
     if (!session) return;
 
     const sessionKey = String(this.currentSessionId);
@@ -3632,7 +3647,7 @@ class JLPTApp {
   }
 
   getAllQuestions() {
-    const session = window.JLPT_DATA ? window.JLPT_DATA[this.currentSessionId] : null;
+    const session = this.getSessionData(this.currentSessionId);
     if (!session || !session.sections) return [];
     let list = [];
     session.sections.forEach((sec) => {
@@ -4490,8 +4505,10 @@ class JLPTApp {
 
     const starChosenId = currentSlots[starPos - 1]; // id của mảnh nằm ở vị trí sao
     const targetCorrectStar = q.correctStarOption || q.correctAnswer;
-    const isCorrect = starChosenId === targetCorrectStar;
-    const showFeedback = this.currentMode === "practice" && isComplete;
+    const userSelected = this.userAnswers[q.id];
+    const isDirectAnswered = userSelected !== undefined;
+    const isCorrect = isDirectAnswered ? (userSelected === targetCorrectStar) : (starChosenId === targetCorrectStar);
+    const showFeedback = this.currentMode === "practice" && (isComplete || isDirectAnswered);
     const isBookmarked = this.isQuestionBookmarked(q.id);
 
     // 4 Slots - Kéo thả vào bất kỳ ô nào, hoặc click để gỡ / chọn ô
@@ -4596,7 +4613,31 @@ class JLPTApp {
       helperText = `👉 <b>Kéo thả</b> đáp án vào <b>bất kì ô nào</b> (Ô số <b>${starPos}</b> là dấu ★), hoặc bấm từ để điền. Bấm vào ô đã điền để gỡ ra:`;
     }
 
-    return `
+      // Tạo lưới 4 nút chọn nhanh trắc nghiệm cho vị trí Dấu Sao ★
+      let directOptionsHTML = "";
+      const isLockedInPractice = this.currentMode === "practice" && isDirectAnswered;
+
+      fragments.forEach((frag) => {
+        const optNum = frag.id;
+        let optClass = "opt-btn";
+
+        if (isDirectAnswered) {
+          if (userSelected === optNum) optClass += " selected";
+          if (showFeedback) {
+            if (optNum === targetCorrectStar) optClass += " correct";
+            else if (userSelected === optNum) optClass += " incorrect";
+          }
+        }
+
+        directOptionsHTML += `
+          <button class="${optClass}" ${isLockedInPractice ? "disabled" : ""} onclick="app.selectStarDirectOption(${q.id}, ${optNum})">
+            <span class="opt-num">${optNum}</span>
+            <span>${frag.text}</span>
+          </button>
+        `;
+      });
+
+      return `
       <div class="q-header">
         <span class="q-mondai-badge">${q.mondaiName || "Mondai 8 (Dấu Sao ★)"}</span>
         <span class="q-index">Câu ${q.id} (Dấu Sao ★)</span>
@@ -4604,13 +4645,26 @@ class JLPTApp {
           <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
         </button>
       </div>
+
       <div class="star-sentence-box">
         <span class="star-text-before">${beforeText || ""}</span>
         <span class="star-slots">${slotsHTML}</span>
         <span class="star-text-after">${afterText || ""}</span>
       </div>
-      <div style="font-size: 0.88rem; margin-bottom: 0.6rem; color: var(--text-sub);">
-        ${helperText}
+
+      <!-- Hướng dẫn cách làm rõ ràng cho câu dấu sao -->
+      <div style="background: var(--card-bg, #ffffff); border: 1px solid var(--border); border-left: 4px solid var(--primary); border-radius: 8px; padding: 0.7rem 0.9rem; margin-bottom: 0.85rem; font-size: 0.85rem; line-height: 1.5;">
+        <div style="font-weight: 700; color: var(--primary); margin-bottom: 0.25rem;">
+          <i class="fas fa-info-circle"></i> HƯỚNG DẪN CÂU HỎI DẤU SAO ★ (Vị trí ô ★ là Ô số ${starPos}):
+        </div>
+        <div style="color: var(--text-sub);">
+          • <b>Cách 1 (Ghép câu):</b> Kéo thả hoặc click lần lượt 4 từ bên dưới để ghép trọn câu (từ nằm ở ô số <b>${starPos} ★</b> là đáp án tính điểm).<br>
+          • <b>Cách 2 (Chọn nhanh):</b> Bấm trực tiếp 1 trong 4 đáp án trắc nghiệm bên dưới để chọn ngay phương án cho vị trí <b>[ ★ ]</b>.
+        </div>
+      </div>
+
+      <div style="font-size: 0.83rem; font-weight: 600; color: var(--text); margin-bottom: 0.35rem;">
+        🧩 Mảnh ghép từ vựng (Click vào từ để điền vào ô trống tiếp theo, click ô đã điền để gỡ):
       </div>
       <div class="star-fragments-pool" 
            data-qid="${q.id}"
@@ -4620,15 +4674,26 @@ class JLPTApp {
            ondrop="app.handleStarDropToPool(event, ${q.id})">
         ${chipsHTML}
       </div>
-      <div style="margin-bottom: 1rem; display: flex; gap: 0.5rem; align-items: center;">
-        <button class="btn btn-outline" style="font-size: 0.8rem; padding: 0.35rem 0.7rem;" onclick="app.resetStarQuestion(${q.id})">
+
+      <div style="margin: 0.4rem 0 0.8rem 0; display: flex; gap: 0.5rem; align-items: center;">
+        <button class="btn btn-outline" style="font-size: 0.78rem; padding: 0.3rem 0.65rem;" onclick="app.resetStarQuestion(${q.id})">
           <i class="fas fa-undo"></i> Xếp lại từ đầu
         </button>
-        ${placedCount > 0 ? `<span style="font-size: 0.8rem; color: var(--text-sub);">Đã xếp: ${placedCount}/4 từ</span>` : ""}
+        ${placedCount > 0 ? `<span style="font-size: 0.78rem; color: var(--text-sub);">Đã xếp: ${placedCount}/4 từ</span>` : ""}
       </div>
+
+      <!-- CHỌN TRỰC TIẾP ĐÁP ÁN CHO VỊ TRÍ DẤU SAO -->
+      <div style="margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px dashed var(--border);">
+        <div style="font-size: 0.86rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fas fa-check-circle" style="color: var(--primary);"></i> Hoặc chọn nhanh đáp án trắc nghiệm cho vị trí [★]:
+        </div>
+        <div class="options-grid">
+          ${directOptionsHTML}
+        </div>
+      </div>
+
       ${explanationHTML}
-      ${navHTML}
-    `;
+      ${navHTML}`;
   }
 
   handleStarDragStart(e, qId, source, fragId, fromSlotIndex = null) {
@@ -4794,6 +4859,64 @@ class JLPTApp {
   }
 
   // Click vào chip để chọn hoặc gỡ bỏ
+  // TÍNH NĂNG MỚI: Chọn nhanh đáp án trắc nghiệm cho vị trí Dấu Sao ★
+  selectStarDirectOption(qId, fragId) {
+    if (this.currentMode === "practice" && this.userAnswers[qId] !== undefined) {
+      return;
+    }
+    const all = this.getAllQuestions();
+    const q = all.find(x => x.id === qId);
+    if (!q) return;
+
+    const starPos = this.getStarPosition(q);
+    const slots = this.getStarSlots(qId);
+
+    // Giải phóng từ fragId nếu đang nằm ở ô khác
+    for (let i = 0; i < 4; i++) {
+      if (slots[i] === fragId) slots[i] = null;
+    }
+    // Đặt từ fragId vào đúng ô dấu sao (starPos - 1)
+    slots[starPos - 1] = fragId;
+
+    // Tự động sắp xếp các ô còn lại theo trật tự câu đúng nếu có
+    const order = q.correctOrder || q.sentenceOrder;
+    const fragments = (Array.isArray(q.fragments) && q.fragments.length > 0)
+      ? q.fragments
+      : (Array.isArray(q.options) ? q.options.map((opt, i) => ({ id: i + 1, text: opt })) : []);
+    const remainingFragIds = fragments.map(f => f.id).filter(id => id !== fragId);
+    let remIdx = 0;
+    for (let i = 0; i < 4; i++) {
+      if (i !== starPos - 1) {
+        if (order && Array.isArray(order) && order[i] !== undefined && order[i] !== fragId) {
+          slots[i] = order[i];
+        } else {
+          slots[i] = remainingFragIds[remIdx++] || null;
+        }
+      }
+    }
+
+    this.starAnswers[qId] = slots;
+    this.userAnswers[qId] = fragId;
+
+    if (this.currentMode === "practice") {
+      const targetAns = q.correctStarOption || q.correctAnswer;
+      const isCorrect = (fragId === targetAns);
+      if (isCorrect) {
+        this.removeBookmark(qId, false);
+        this.removeWrongQuestion(qId);
+      } else {
+        this.addBookmark(qId, false);
+        this.addWrongQuestion(qId);
+      }
+    }
+
+    this.saveDraftAnswers();
+    this.renderSingleQuestion(qId);
+    this.updatePallet();
+    if (typeof this.renderFilterTabs === "function") this.renderFilterTabs();
+    this.setActiveQuestion(qId, false);
+  }
+
   clickStarFragment(qId, fragId) {
     const slots = this.getStarSlots(qId);
     const isComplete = slots.every(s => s !== null);
@@ -5092,7 +5215,7 @@ class JLPTApp {
 
       if (targetQ.isStarQuestion) {
         // Với câu dấu sao: phím 1..4 tương ứng với fragment id 1..4
-        this.clickStarFragment(targetQ.id, optNum);
+        this.selectStarDirectOption(targetQ.id, optNum);
       } else {
         // Với câu trắc nghiệm: phím 1..4 tương ứng với đáp án 1..4
         this.selectOption(targetQ.id, optNum);
@@ -5192,7 +5315,7 @@ class JLPTApp {
     }
 
     // Nhóm câu hỏi theo section để không bị rối mắt
-    const session = window.JLPT_DATA ? window.JLPT_DATA[this.currentSessionId] : null;
+    const session = this.getSessionData(this.currentSessionId);
 
     // Nếu đang filter 'starred', chỉ hiển thị các câu đã lưu trong pallet
     if (this.activeFilter === "starred") {

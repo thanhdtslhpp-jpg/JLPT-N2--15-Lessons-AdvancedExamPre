@@ -998,7 +998,7 @@ window.JLPT_DATA["drill_ngu_phap_n2"] = {
     "options": [
       "せいだ",
       "ことに",
-      "せいだ",
+      "ものか",
       "ことか"
     ],
     "correctAnswer": 4,

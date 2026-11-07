@@ -3340,7 +3340,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
       "というのは",
       "としては",
       "にとっては",
-      "としては"
+      "については"
     ],
     "correctAnswer": 1,
     "explanation": "<b>Đáp án đúng: 1 (というのは)</b><br><b>Định nghĩa khái niệm:</b> N + というのは〜のことだ: Thuật ngữ 'Non-alcohol' có nghĩa là đồ uống không chứa cồn.<br><b>Dịch câu:</b> 'Non-alcohol' có nghĩa là những loại đồ uống hoàn toàn không chứa nồng độ cồn."

@@ -2913,3 +2913,5 @@ window.JLPT_DATA["buoi_02"] = {
     }
   ]
 };
+
+window.JLPT_DATA[2] = window.JLPT_DATA["2"] = window.JLPT_DATA["buoi_02"];

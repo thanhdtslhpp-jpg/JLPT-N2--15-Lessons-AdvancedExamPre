@@ -1659,3 +1659,5 @@ window.JLPT_DATA["buoi_01"] = {
     }
   ]
 };
+
+window.JLPT_DATA[1] = window.JLPT_DATA["1"] = window.JLPT_DATA["buoi_01"];
