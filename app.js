@@ -1556,11 +1556,31 @@ class JLPTApp {
     }
 
     if (chapterSelect) {
-      chapterSelect.addEventListener("change", (e) => {
+      const handleChapterSelection = (e) => {
         this.activeKoseiChapter = e.target.value;
         updateMinibarTitles();
         const q = searchInput ? searchInput.value.trim() : "";
-        this.renderCheatsheetContent("cs_kosei_np", q);
+        this.renderCheatsheetContent("cs_kosei_np", q, true);
+        this.scrollCheatsheetToTop(false);
+      };
+      chapterSelect.addEventListener("change", handleChapterSelection);
+      chapterSelect.addEventListener("input", handleChapterSelection);
+    }
+
+    // Nút nổi cuộn lên đầu trang / đầu chương
+    const scrollTopBtn = document.getElementById("btn-cs-scroll-top");
+    const modalBody = document.getElementById("cs-modal-body");
+    if (modalBody && scrollTopBtn) {
+      modalBody.addEventListener("scroll", () => {
+        if (modalBody.scrollTop > 220) {
+          scrollTopBtn.classList.add("is-visible");
+        } else {
+          scrollTopBtn.classList.remove("is-visible");
+        }
+      }, { passive: true });
+
+      scrollTopBtn.addEventListener("click", () => {
+        this.scrollCheatsheetToTop(true);
       });
     }
 
@@ -1577,10 +1597,37 @@ class JLPTApp {
         if (searchInput) {
           searchInput.value = "";
           searchClear.style.display = "none";
-          this.renderCheatsheetContent(this.activeCheatsheetId || "cs_kosei_np", "");
+          this.renderCheatsheetContent(this.activeCheatsheetId || "cs_kosei_np", "", true);
+          this.scrollCheatsheetToTop(false);
           searchInput.focus();
         }
       });
+    }
+  }
+
+  scrollCheatsheetToTop(smooth = false) {
+    const body = document.getElementById("cs-modal-body");
+    const scrollTopBtn = document.getElementById("btn-cs-scroll-top");
+    if (scrollTopBtn && !smooth) {
+      scrollTopBtn.classList.remove("is-visible");
+    }
+    if (!body) return;
+    if (smooth) {
+      body.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      body.scrollTop = 0;
+      body.scrollTo({ top: 0, left: 0, behavior: "instant" });
+      requestAnimationFrame(() => {
+        if (body) {
+          body.scrollTop = 0;
+          body.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        }
+      });
+      setTimeout(() => {
+        if (body) {
+          body.scrollTop = 0;
+        }
+      }, 25);
     }
   }
 
@@ -1590,6 +1637,7 @@ class JLPTApp {
     this.activeCheatsheetId = csId || "cs_kosei_np";
     this.switchCheatsheetTab(this.activeCheatsheetId);
     modal.style.display = "flex";
+    this.scrollCheatsheetToTop(false);
 
     if (pushHistory) {
       const prevHash = window.location.hash || "";
@@ -1658,10 +1706,11 @@ class JLPTApp {
 
     const searchInput = document.getElementById("cs-search-input");
     const query = searchInput ? searchInput.value.trim() : "";
-    this.renderCheatsheetContent(csId, query);
+    this.renderCheatsheetContent(csId, query, true);
+    this.scrollCheatsheetToTop(false);
   }
 
-  renderCheatsheetContent(csId, query = "") {
+  renderCheatsheetContent(csId, query = "", resetScroll = false) {
     const body = document.getElementById("cs-modal-body");
     if (!body) return;
     const allData = window.JLPT_CHEATSHEETS_DATA || {};
@@ -1997,6 +2046,9 @@ class JLPTApp {
       }
 
       body.innerHTML = chaptersOutput;
+      if (resetScroll) {
+        this.scrollCheatsheetToTop(false);
+      }
       return;
     }
 
