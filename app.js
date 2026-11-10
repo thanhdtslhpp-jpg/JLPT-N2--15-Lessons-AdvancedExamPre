@@ -1988,43 +1988,223 @@ class JLPTApp {
       return;
     }
 
-    // 2. PHÓ TỪ
-    if (csId === "cs_pho_tu") {
-      const items = (allData.cs_pho_tu || []).filter(item => {
+    // 1.5. DẤU HIỆU MẪU CÂU NGỮ PHÁP N2 (18 TRANG GỐC)
+    if (csId === "cs_dau_hieu_mau_cau") {
+      const book = allData.cs_dau_hieu_mau_cau || { pages: [] };
+      const pages = book.pages || [];
+
+      const filteredPages = pages.map(pg => {
+        const matchesCategory = pg.category && (pg.category.toLowerCase().includes(qLower) || (pg.description && pg.description.toLowerCase().includes(qLower)));
+        const matchedItems = (pg.items || []).filter(it => {
+          if (!query) return true;
+          if (matchesCategory) return true;
+          return (it.pattern && it.pattern.toLowerCase().includes(qLower)) ||
+                 (it.meaning && it.meaning.toLowerCase().includes(qLower)) ||
+                 (it.note && it.note.toLowerCase().includes(qLower)) ||
+                 (it.example && it.example.toLowerCase().includes(qLower));
+        });
+        return { ...pg, items: matchedItems };
+      }).filter(pg => pg.items.length > 0);
+
+      if (filteredPages.length === 0) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy dấu hiệu mẫu câu nào khớp với "${query}"</div>`;
+        return;
+      }
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 1.75rem;">
+          <div style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(245, 158, 11, 0.04)); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 12px; padding: 1rem 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; font-weight: 800; color: #b45309; font-size: calc(1.05rem * var(--cs-scale)); margin-bottom: 0.35rem;">
+              <i class="fas fa-bolt" style="color: #f59e0b;"></i> ${book.title || 'Bí Kíp Dấu Hiệu Nhận Biết Mẫu Câu N2 (Trọn Bộ 18 Trang Gốc)'}
+            </div>
+            <div style="color: var(--text-sub); font-size: calc(0.92rem * var(--cs-scale)); line-height: 1.5;">
+              ${book.subtitle || 'Bí kíp phản xạ 5 giây: Nhìn từ khóa nhận diện ngay cấu trúc ngữ pháp'}
+            </div>
+          </div>
+
+          ${filteredPages.map(pg => `
+            <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.65rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+                <h3 style="font-size: calc(1.15rem * var(--cs-scale)); font-weight: 800; color: #d97706; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                  <i class="fas fa-bookmark" style="font-size: 0.95rem;"></i> ${hl(pg.category)}
+                </h3>
+                <span class="cs-badge-pill" style="background: rgba(245, 158, 11, 0.15); color: #d97706; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">
+                  Trang ${pg.pageNumber} / 18
+                </span>
+              </div>
+              ${pg.description ? `<p style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-sub); margin-bottom: 1.2rem; line-height: 1.5; font-style: italic;">📌 ${hl(pg.description)}</p>` : ''}
+              
+              <div class="cs-card-grid">
+                ${pg.items.map(it => `
+                  <div class="cs-grammar-card" style="border-left-color: #f59e0b;">
+                    <div class="cs-pattern-head">
+                      <span class="cs-pattern-title" style="color: #b45309; font-size: calc(1.1rem * var(--cs-scale));">${hl(it.pattern)}</span>
+                      <span class="cs-badge-pill" style="background: rgba(245, 158, 11, 0.12); color: #b45309; font-size: calc(0.82rem * var(--cs-scale));">Trọng Tâm</span>
+                    </div>
+                    <div class="cs-meaning-text" style="font-size: calc(0.98rem * var(--cs-scale)); margin-bottom: 0.6rem;">
+                      💡 <b>Ý nghĩa:</b> ${hl(it.meaning)}
+                    </div>
+                    ${it.example ? `
+                      <div class="cs-example-group">
+                        <div class="cs-example-item">
+                          <div class="cs-ex-ja" style="font-size: calc(0.93rem * var(--cs-scale)); line-height: 1.5;">${hl(it.example)}</div>
+                        </div>
+                      </div>
+                    ` : ''}
+                    ${it.note ? `
+                      <div class="cs-note-box" style="margin-top: 0.5rem; font-size: calc(0.9rem * var(--cs-scale)); line-height: 1.45;">
+                        <i class="fas fa-lightbulb" style="color: #f59e0b; margin-right: 0.3rem;"></i>${hl(it.note)}
+                      </div>
+                    ` : ''}
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      return;
+    }
+
+    // 2. PHÓ TỪ ĐẶC ĐỊNH (13 TRANG GỐC - 3 PHẦN TOÀN DIỆN)
+    if (csId === "cs_pho_tu" || csId === "cs_pho_tu_dac_dinh") {
+      const doc = allData.cs_pho_tu || allData.cs_pho_tu_dac_dinh || {};
+      const p1 = (doc.part1_fixed_endings || []).filter(it => {
         if (!query) return true;
-        return item.adverb.toLowerCase().includes(qLower) ||
-               item.pattern.toLowerCase().includes(qLower) ||
-               item.meaning.toLowerCase().includes(qLower) ||
-               (item.note && item.note.toLowerCase().includes(qLower));
+        return (it.adverb && it.adverb.toLowerCase().includes(qLower)) ||
+               (it.pattern && it.pattern.toLowerCase().includes(qLower)) ||
+               (it.meaning && it.meaning.toLowerCase().includes(qLower)) ||
+               (it.note && it.note.toLowerCase().includes(qLower));
       });
 
-      if (items.length === 0) {
+      const p2 = (doc.part2_fixed_verbs || []).filter(it => {
+        if (!query) return true;
+        return (it.adverb && it.adverb.toLowerCase().includes(qLower)) ||
+               (it.collocation && it.collocation.toLowerCase().includes(qLower)) ||
+               (it.meaning && it.meaning.toLowerCase().includes(qLower));
+      });
+
+      const p3 = (doc.part3_onomatopoeia || []).filter(it => {
+        if (!query) return true;
+        return (it.word && it.word.toLowerCase().includes(qLower)) ||
+               (it.meaning && it.meaning.toLowerCase().includes(qLower));
+      });
+
+      if (p1.length === 0 && p2.length === 0 && p3.length === 0) {
         body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy phó từ nào khớp với "${query}"</div>`;
         return;
       }
 
       body.innerHTML = `
-        <div class="cs-table-wrap">
-          <table class="cs-table">
-            <thead>
-              <tr>
-                <th style="width: 28%;">Phó từ (副詞)</th>
-                <th style="width: 28%;">Mẫu câu đi kèm cố định</th>
-                <th style="width: 26%;">Ý nghĩa sư phạm</th>
-                <th style="width: 18%;">Ghi chú / Cạm bẫy</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${items.map(it => `
-                <tr>
-                  <td><span class="cs-highlight-term">${hl(it.adverb)}</span></td>
-                  <td><b style="color:var(--primary); font-size: calc(1.05rem * var(--cs-scale));">${hl(it.pattern)}</b></td>
-                  <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
-                  <td><small style="color:var(--text-sub); font-size: calc(0.9rem * var(--cs-scale));">${hl(it.note)}</small></td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(99, 102, 241, 0.04)); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 12px; padding: 1rem 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; font-weight: 800; color: #4338ca; font-size: calc(1.05rem * var(--cs-scale)); margin-bottom: 0.35rem;">
+              <i class="fas fa-link" style="color: #6366f1;"></i> ${doc.title || 'Phó Từ Đi Với Các Mẫu Câu Đặc Định (Trọn Bộ 13 Trang Gốc)'}
+            </div>
+            <div style="color: var(--text-sub); font-size: calc(0.92rem * var(--cs-scale)); line-height: 1.5;">
+              ${doc.subtitle || 'Trọn bộ 3 phần: Đuôi câu cố định, Cụm động từ cố định & Phó từ láy tượng thanh tượng hình'}
+            </div>
+          </div>
+
+          <!-- PHẦN 1 -->
+          ${p1.length > 0 ? `
+            <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+                <h3 style="font-size: calc(1.15rem * var(--cs-scale)); font-weight: 800; color: #4f46e5; margin: 0;">
+                  <i class="fas fa-exchange-alt" style="margin-right: 0.4rem;"></i> PHẦN 1: 23 Cặp Phó Từ Đi Với Đuôi Câu Cố Định
+                </h3>
+                <span class="cs-badge-pill" style="background: rgba(99, 102, 241, 0.15); color: #4f46e5; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">Trang 1 - 6 (23 cặp)</span>
+              </div>
+              <p style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-sub); margin-bottom: 1.25rem;">
+                Gặp phó từ ở vế đầu &rarr; Tự động phản xạ ngay đuôi câu ở vế sau không cần dịch nghĩa phức tạp.
+              </p>
+              <div class="cs-table-wrap">
+                <table class="cs-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 28%;">Phó từ (副詞)</th>
+                      <th style="width: 28%;">Mẫu câu đi kèm cố định</th>
+                      <th style="width: 26%;">Ý nghĩa sư phạm</th>
+                      <th style="width: 18%;">Ghi chú / Mức độ</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${p1.map(it => `
+                      <tr>
+                        <td><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale));">${hl(it.adverb)}</span></td>
+                        <td><b style="color: #4f46e5; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.pattern)}</b></td>
+                        <td><div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div></td>
+                        <td><small style="color: var(--text-sub); font-size: calc(0.9rem * var(--cs-scale));">${hl(it.note || '')}</small></td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- PHẦN 2 -->
+          ${p2.length > 0 ? `
+            <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+                <h3 style="font-size: calc(1.15rem * var(--cs-scale)); font-weight: 800; color: #0891b2; margin: 0;">
+                  <i class="fas fa-layer-group" style="margin-right: 0.4rem;"></i> PHẦN 2: 18 Phó Từ Đi Với Động Từ / Cụm Cố Định
+                </h3>
+                <span class="cs-badge-pill" style="background: rgba(8, 145, 178, 0.15); color: #0891b2; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">Trang 7 - 11 (18 cụm)</span>
+              </div>
+              <p style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-sub); margin-bottom: 1.25rem;">
+                Các phó từ chuyên đi kèm với các động từ thành cụm bất biến, xuất hiện dày đặc trong Mondai 4 & Mondai 6.
+              </p>
+              <div class="cs-table-wrap">
+                <table class="cs-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 25%;">Phó từ</th>
+                      <th style="width: 35%;">Cụm động từ cố định</th>
+                      <th style="width: 40%;">Ý nghĩa & Ngữ cảnh sử dụng</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${p2.map(it => `
+                      <tr>
+                        <td><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale)); color: #0891b2; background: rgba(8, 145, 178, 0.1); border-color: rgba(8, 145, 178, 0.3);">${hl(it.adverb)}</span></td>
+                        <td><b style="color: #0e7490; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.collocation)}</b></td>
+                        <td><div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div></td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- PHẦN 3 -->
+          ${p3.length > 0 ? `
+            <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+                <h3 style="font-size: calc(1.15rem * var(--cs-scale)); font-weight: 800; color: #16a34a; margin: 0;">
+                  <i class="fas fa-spell-check" style="margin-right: 0.4rem;"></i> PHẦN 3: 22 Phó Từ Láy Tượng Thanh Tượng Hình N2
+                </h3>
+                <span class="cs-badge-pill" style="background: rgba(22, 163, 74, 0.15); color: #16a34a; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">Trang 12 - 13 (22 từ)</span>
+              </div>
+              <p style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-sub); margin-bottom: 1.25rem;">
+                Bảng phân biệt các từ láy đuôi 「り」 và 「っと」 cực kỳ hay nhầm lẫn trong các kỳ thi JLPT N2.
+              </p>
+              <div class="cs-card-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+                ${p3.map(it => `
+                  <div class="cs-grammar-card" style="border-left-color: #16a34a; padding: 1rem 1.15rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+                      <span style="font-weight: 800; font-size: calc(1.15rem * var(--cs-scale)); color: #15803d;">${hl(it.word)}</span>
+                      <span class="cs-badge-pill" style="background: rgba(22, 163, 74, 0.12); color: #15803d; font-size: 0.8rem;">Từ láy</span>
+                    </div>
+                    <div style="color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.5; font-weight: 600;">
+                      ${hl(it.meaning)}
+                    </div>
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          ` : ''}
         </div>
       `;
       return;

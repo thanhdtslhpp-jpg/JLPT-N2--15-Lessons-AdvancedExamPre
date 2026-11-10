@@ -95,9 +95,16 @@ window.JLPT_DRILLS = [
 
 window.JLPT_CHEATSHEETS = [
   {
+    id: "cs_dau_hieu_mau_cau",
+    title: "Dấu Hiệu Mẫu Câu Ngữ Pháp N2 (18 Trang)",
+    subtitle: "Tuyệt chiêu nhận diện phản xạ nhanh từ khóa biến đổi, thể kết hợp & mẹo dấu sao ★",
+    icon: "fa-bolt",
+    color: "#f59e0b"
+  },
+  {
     id: "cs_pho_tu",
-    title: "Phó Từ Đi Với Mẫu Câu Mặc Định",
-    subtitle: "13 trang cẩm nang cặp bài trùng trong ngữ pháp N2",
+    title: "Phó Từ Đi Với Mẫu Câu Đặc Định (13 Trang)",
+    subtitle: "Trọn bộ 3 phần: Đuôi câu cố định, Cụm động từ cố định & Phó từ láy tượng thanh tượng hình",
     icon: "fa-link",
     color: "#6366f1"
   },

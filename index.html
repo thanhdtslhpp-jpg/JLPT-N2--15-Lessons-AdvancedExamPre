@@ -99,8 +99,18 @@
           <i class="fas fa-book-reader" id="mazii-toggle-icon"></i> <span id="mazii-toggle-label">Tra Mazii: BẬT</span>
         </button>
 
+        <!-- Nút Tra Cứu Nhanh Dấu Hiệu Mẫu Câu (18 Trang) -->
+        <button id="btn-quick-dau-hieu" class="btn btn-outline" style="border-color: #f59e0b; color: #b45309; background: rgba(245, 158, 11, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.openCheatsheetModal('cs_dau_hieu_mau_cau')" title="Mở Sổ Tay Dấu Hiệu Mẫu Câu N2 (18 Trang)">
+          <i class="fas fa-bolt"></i> Dấu Hiệu Mẫu Câu (18 Trang)
+        </button>
+
+        <!-- Nút Tra Cứu Nhanh Phó Từ Đặc Định (13 Trang) -->
+        <button id="btn-quick-pho-tu" class="btn btn-outline" style="border-color: #6366f1; color: #4338ca; background: rgba(99, 102, 241, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.openCheatsheetModal('cs_pho_tu')" title="Mở Sổ Tay Phó Từ Đặc Định N2 (13 Trang)">
+          <i class="fas fa-link"></i> Phó Từ Đặc Định (13 Trang)
+        </button>
+
         <!-- Nút Tra Cứu Nhanh Sổ Tay Bí Kíp Kosei 75 Trang -->
-        <button id="btn-quick-kosei" class="btn btn-outline" style="border-color: #f59e0b; color: #b45309; background: rgba(245, 158, 11, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.openCheatsheetModal('cs_kosei_np')" title="Mở Sổ Tay Bí Kíp Ngữ Pháp N2 (Kosei 75 Trang)">
+        <button id="btn-quick-kosei" class="btn btn-outline" style="border-color: #8b5cf6; color: #6d28d9; background: rgba(139, 92, 246, 0.08); font-weight: 600; font-size: 0.85rem;" onclick="app.openCheatsheetModal('cs_kosei_np')" title="Mở Sổ Tay Bí Kíp Ngữ Pháp N2 (Kosei 75 Trang)">
           <i class="fas fa-book-open"></i> Bí Kíp Kosei (75 Trang)
         </button>
 
@@ -571,11 +581,14 @@
       <div class="cs-controls-cluster" id="cs-controls-cluster">
         <!-- Quick Switch Tabs -->
         <div class="cs-modal-tabs" id="cs-modal-tabs">
-          <button type="button" class="cs-tab-btn active" data-cs="cs_kosei_np">
-            <i class="fas fa-book-bookmark"></i> Sổ Tay Kosei (75 Trang)
+          <button type="button" class="cs-tab-btn" data-cs="cs_dau_hieu_mau_cau">
+            <i class="fas fa-bolt"></i> Dấu Hiệu Mẫu Câu (18 Trang)
           </button>
           <button type="button" class="cs-tab-btn" data-cs="cs_pho_tu">
-            <i class="fas fa-link"></i> Phó từ mặc định
+            <i class="fas fa-link"></i> Phó Từ Đặc Định (13 Trang)
+          </button>
+          <button type="button" class="cs-tab-btn active" data-cs="cs_kosei_np">
+            <i class="fas fa-book-bookmark"></i> Sổ Tay Kosei (75 Trang)
           </button>
           <button type="button" class="cs-tab-btn" data-cs="cs_dong_tu">
             <i class="fas fa-book-open"></i> Động từ đa nghĩa
@@ -659,7 +672,7 @@
   <script src="data/passage_translations.js?v=20261103_1_0"></script>
   <script src="data/star_translations.js?v=20261103_1_0"></script>
   <script src="data/drills_catalog.js?v=20261104_1_0"></script>
-  <script src="data/cheatsheets_data.js?v=20261104_1_0"></script>
+  <script src="data/cheatsheets_data.js?v=20261110_2_0"></script>
   <script src="data/chuyende_dau_sao.js?v=20261104_1_0"></script>
   <script src="data/chuyende_cach_dung_tu.js?v=20261104_1_0"></script>
   <script src="data/chuyende_tien_to_hau_to.js?v=20261104_1_0"></script>
