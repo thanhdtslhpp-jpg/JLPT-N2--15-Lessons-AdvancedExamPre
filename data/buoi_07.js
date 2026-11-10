@@ -690,7 +690,26 @@ window.JLPT_DATA[7] = {
             3
           ],
           "explanation": "<b>Thứ tự câu đúng:</b> 事故は、急いでいた歩行者が、信号が <b>[変わるか(4)] [変わらないか(2)] [★ のうちに(1)] [あわてて(3)]</b> 交差点を飛び出したことが原因だった。<br><b>Cấu trúc:</b> <code>V-るか V-ないかのうちに</code> (Ngay trong khi vừa mới... / Chưa biết đã... hay chưa thì...).<br><b>Dịch nghĩa:</b> Vụ tai nạn là do người đi bộ đang vội vã đã lao ra ngã tư ngay trong lúc đèn tín hiệu không biết đã đổi màu hay chưa.<br><i>Phân tích các phương án:</i><br>• <b>1. のうちに: Đi sau 変わるか変わらないか tạo thành mẫu ngữ pháp 〜か〜ないかのうちに (vừa mới/trong chớp mắt) [Đúng]</b><br>• 2. 変わらないか: Dạng phủ định đứng liền sau 変わるか<br>• 3. あわてて: Phó từ bổ nghĩa cho động từ 飛び出した (vội vã lao ra)<br>• 4. 変わるか: Dạng khẳng định đứng đầu cụm ngữ pháp<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (のうちに)</b>.",
-          "id": 45
+          "id": 45,
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "のうちに"
+            },
+            {
+              "id": 2,
+              "text": "変わらないか"
+            },
+            {
+              "id": 3,
+              "text": "あわてて"
+            },
+            {
+              "id": 4,
+              "text": "変わるか"
+            }
+          ]
         },
         {
           "mondai": 8,
@@ -713,7 +732,26 @@ window.JLPT_DATA[7] = {
             1
           ],
           "explanation": "<b>Thứ tự câu đúng:</b> あの選手はまだ高校生で、 <b>[年も(2)] [若い(4)] [★ ことだし(3)] [これから(1)]</b> まだまだ伸びますよ。<br><b>Cấu trúc:</b> <code>〜ことだし</code> (Vì... hơn nữa... - đưa ra một lý do tiêu biểu mang tính khách quan để dẫn đến nhận định vế sau).<br><b>Dịch nghĩa:</b> Tuyển thủ đó vẫn còn là học sinh cấp 3, tuổi tác lại còn trẻ nữa nên từ giờ trở đi sẽ còn tiến bộ nhiều đấy.<br><i>Phân tích các phương án:</i><br>• 1. これから: Từ giờ trở đi, bổ nghĩa cho vế sau (これからまだまだ伸びますよ)<br>• 2. 年も: Đi với 若い tạo thành ngữ 年も若い (tuổi trẻ)<br>• <b>3. ことだし: Liên từ chỉ nguyên nhân/lý do tiêu biểu (Aことだし、B) [Đúng]</b><br>• 4. 若い: Tính từ bổ nghĩa cho 年も<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ことだし)</b>.",
-          "id": 46
+          "id": 46,
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "これから"
+            },
+            {
+              "id": 2,
+              "text": "年も"
+            },
+            {
+              "id": 3,
+              "text": "ことだし"
+            },
+            {
+              "id": 4,
+              "text": "若い"
+            }
+          ]
         },
         {
           "mondai": 8,
@@ -736,7 +774,26 @@ window.JLPT_DATA[7] = {
             3
           ],
           "explanation": "<b>Thứ tự câu đúng:</b> そんなこともわからない <b>[ようでは(2)] [大学生とは(4)] [★ 言えないと(1)] [思わずには(3)]</b> いられなかった。<br><b>Cấu trúc:</b> <code>〜ようでは</code> (Nếu cứ cái tình trạng này thì... dẫn đến kết quả xấu) + <code>〜ずにはいられない</code> (Không thể không... / Không kìm được...).<br><b>Dịch nghĩa:</b> Đến chuyện cỏn con thế mà cũng không hiểu thì tôi không thể không nghĩ rằng không thể gọi là sinh viên đại học được.<br><i>Phân tích các phương án:</i><br>• <b>1. 言えないと: Đi trước 思わずには (không kìm được mà nghĩ rằng không thể nói là...) [Đúng]</b><br>• 2. ようでは: Đứng sau そんなこともわからない (nếu tình trạng không hiểu như vậy tiếp diễn)<br>• 3. 思わずには: Kết hợp với いられなかった (không kìm được suy nghĩ)<br>• 4. 大学生とは: Tân ngữ đi với 言えない (không thể gọi là sinh viên đại học)<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (言えないと)</b>.",
-          "id": 47
+          "id": 47,
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "言えないと"
+            },
+            {
+              "id": 2,
+              "text": "ようでは"
+            },
+            {
+              "id": 3,
+              "text": "思わずには"
+            },
+            {
+              "id": 4,
+              "text": "大学生とは"
+            }
+          ]
         },
         {
           "mondai": 8,
@@ -759,7 +816,26 @@ window.JLPT_DATA[7] = {
             4
           ],
           "explanation": "<b>Thứ tự câu đúng:</b> 一度はあきらめたが、まだ可能性は <b>[ある(3)] [ような(1)] [★ 気がして(2)] [ならなかった(4)]</b> ので、もう一度やってみることにした。<br><b>Cấu trúc:</b> <code>〜ような気がしてならない</code> (Cảm thấy dường như là... không sao kìm nén được cảm xúc).<br><b>Dịch nghĩa:</b> Tôi đã từng một lần từ bỏ, nhưng trong lòng cứ cảm thấy dường như vẫn còn khả năng nên tôi quyết định thử làm lại lần nữa.<br><i>Phân tích các phương án:</i><br>• 1. ような: Bổ nghĩa cho 気がして (cảm giác dường như)<br>• <b>2. 気がして: Kết hợp với ならなかった thành cụm cố định 気がしてならない (cảm thấy khôn nguôi) [Đúng]</b><br>• 3. ある: Đi sau 可能性は (vẫn còn khả năng)<br>• 4. ならなかった: Đuôi câu diễn tả cảm xúc mãnh liệt không kìm được<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>2 (気がして)</b>.",
-          "id": 48
+          "id": 48,
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "ような"
+            },
+            {
+              "id": 2,
+              "text": "気がして"
+            },
+            {
+              "id": 3,
+              "text": "ある"
+            },
+            {
+              "id": 4,
+              "text": "ならなかった"
+            }
+          ]
         },
         {
           "mondai": 8,
@@ -783,7 +859,25 @@ window.JLPT_DATA[7] = {
           ],
           "explanation": "<b>Thứ tự câu đúng:</b> せっかくのチャンスを <b>[気づかずに(3)] [★ のがしてしまう(4)] [とは(1)] [あきれて(2)]</b> ものが言えません。<br><b>Cấu trúc:</b> <code>〜とは</code> (Cái việc mà... - biểu thị ngạc nhiên/bàng hoàng) + <code>あきれてものが言えない</code> (Ngán ngẩm cạn lời không nói nên lời).<br><b>Dịch nghĩa:</b> Không hề nhận ra mà lại để vuột mất cơ hội quý báu như thế thì tôi ngán ngẩm đến cạn cả lời.<br><i>Phân tích các phương án:</i><br>• 1. とは: Trợ từ đứng sau のがしてしまう nhấn mạnh sự ngỡ ngàng/bàng hoàng<br>• 2. あきれて: Ngán ngẩm, đi với ものが言えません<br>• 3. 気づかずに: Không nhận biết, bổ nghĩa cho động từ のがしてしまう<br>• <b>4. のがしてしまう: Bỏ lỡ, để vuột mất (cơ hội) [Đúng]</b><br>-> Vị trí ngôi sao ★ (vị trí 2) là phương án <b>4 (のがしてしまう)</b>.",
           "id": 49,
-          "starPositionIndex": 2
+          "starPositionIndex": 2,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "とは"
+            },
+            {
+              "id": 2,
+              "text": "あきれて"
+            },
+            {
+              "id": 3,
+              "text": "気づかずに"
+            },
+            {
+              "id": 4,
+              "text": "のがしてしまう"
+            }
+          ]
         },
         {
           "mondai": 9,
@@ -2623,7 +2717,26 @@ window.JLPT_DATA[7] = {
             3,
             2
           ],
-          "explanation": "<b>Thứ tự câu đúng:</b> 山本さんは指示 <b>[を(1)] [出す(4)] [★ ばかり(3)] [で(2)]</b> 自分では何もしない。<br><b>Cấu trúc:</b> <code>V-る + ばかりで</code> (Chỉ toàn là làm V... mà không chịu làm việc khác).<br><b>Dịch nghĩa:</b> Anh Yamamoto toàn chỉ đạo ra lệnh chứ bản thân chẳng làm cái gì cả.<br><i>Phân tích các phương án:</i><br>• 1. を: Trợ từ đi sau 指示 tạo cụm 指示を出す (đưa ra chỉ thị)<br>• 2. で: Đi sau ばかり tạo thành ばかりで (toàn là... mà)<br>• <b>3. ばかり: Đứng sau động từ thể từ điển tạo nghĩa \"chỉ toàn là...\" [Đúng]</b><br>• 4. 出す: Động từ bổ nghĩa cho ばかり<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ばかり)</b>."
+          "explanation": "<b>Thứ tự câu đúng:</b> 山本さんは指示 <b>[を(1)] [出す(4)] [★ ばかり(3)] [で(2)]</b> 自分では何もしない。<br><b>Cấu trúc:</b> <code>V-る + ばかりで</code> (Chỉ toàn là làm V... mà không chịu làm việc khác).<br><b>Dịch nghĩa:</b> Anh Yamamoto toàn chỉ đạo ra lệnh chứ bản thân chẳng làm cái gì cả.<br><i>Phân tích các phương án:</i><br>• 1. を: Trợ từ đi sau 指示 tạo cụm 指示を出す (đưa ra chỉ thị)<br>• 2. で: Đi sau ばかり tạo thành ばかりで (toàn là... mà)<br>• <b>3. ばかり: Đứng sau động từ thể từ điển tạo nghĩa \"chỉ toàn là...\" [Đúng]</b><br>• 4. 出す: Động từ bổ nghĩa cho ばかり<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ばかり)</b>.",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "を"
+            },
+            {
+              "id": 2,
+              "text": "で"
+            },
+            {
+              "id": 3,
+              "text": "ばかり"
+            },
+            {
+              "id": 4,
+              "text": "出す"
+            }
+          ]
         },
         {
           "id": 169,
@@ -2646,7 +2759,26 @@ window.JLPT_DATA[7] = {
             1,
             3
           ],
-          "explanation": "<b>Thứ tự câu đúng:</b> 体調が悪くて休む <b>[のは(4)] [仕方がない(2)] [★ としても(1)] [連絡だけは(3)]</b> してほしい。<br><b>Cấu trúc:</b> <code>〜としても</code> (Dẫu cho là... / Kể cả giả sử là... thì...).<br><b>Dịch nghĩa:</b> Dù việc nghỉ vì không khỏe là chuyện bất đắc dĩ chăng nữa nhưng ít nhất cũng phải liên lạc lại chứ.<br><i>Phân tích các phương án:</i><br>• <b>1. としても: Dẫu cho là, kể cả là (đi sau 仕方がない) [Đúng]</b><br>• 2. 仕方がない: Bất đắc dĩ, không còn cách nào khác<br>• 3. 連絡だけは: Đi trước してほしい (ít nhất cũng liên lạc lại)<br>• 4. のは: Danh từ hóa cụm từ 体調が悪くて休む<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (としても)</b>."
+          "explanation": "<b>Thứ tự câu đúng:</b> 体調が悪くて休む <b>[のは(4)] [仕方がない(2)] [★ としても(1)] [連絡だけは(3)]</b> してほしい。<br><b>Cấu trúc:</b> <code>〜としても</code> (Dẫu cho là... / Kể cả giả sử là... thì...).<br><b>Dịch nghĩa:</b> Dù việc nghỉ vì không khỏe là chuyện bất đắc dĩ chăng nữa nhưng ít nhất cũng phải liên lạc lại chứ.<br><i>Phân tích các phương án:</i><br>• <b>1. としても: Dẫu cho là, kể cả là (đi sau 仕方がない) [Đúng]</b><br>• 2. 仕方がない: Bất đắc dĩ, không còn cách nào khác<br>• 3. 連絡だけは: Đi trước してほしい (ít nhất cũng liên lạc lại)<br>• 4. のは: Danh từ hóa cụm từ 体調が悪くて休む<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (としても)</b>.",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "としても"
+            },
+            {
+              "id": 2,
+              "text": "仕方がない"
+            },
+            {
+              "id": 3,
+              "text": "連絡だけは"
+            },
+            {
+              "id": 4,
+              "text": "のは"
+            }
+          ]
         },
         {
           "id": 170,
@@ -2669,7 +2801,26 @@ window.JLPT_DATA[7] = {
             3,
             1
           ],
-          "explanation": "<b>Thứ tự câu đúng:</b> データの入力作業を <b>[した(4)] [ところ(2)] [★ まで(3)] [で(1)]</b> 止まっていますが、今日中に終わる予定です。<br><b>Cấu trúc:</b> <code>V-たところまでで</code> (Dừng lại ở đúng mức/chỗ vừa mới làm xong...).<br><b>Dịch nghĩa:</b> Công việc hiện tại đang dừng lại ở đúng chỗ vừa mới nhập xong dữ liệu, nhưng dự kiến trong hôm nay sẽ hoàn thành xong.<br><i>Phân tích các phương án:</i><br>• 1. で: Trợ từ chỉ giới hạn điểm dừng (〜までで止まっている)<br>• 2. ところ: Chỗ, điểm vừa mới làm xong<br>• <b>3. まで: Trợ từ chỉ phạm vi mức độ (đến tận chỗ...) [Đúng]</b><br>• 4. した: Động từ dạng quá khứ đi với ところ tạo thành vừa mới làm xong<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (まで)</b>."
+          "explanation": "<b>Thứ tự câu đúng:</b> データの入力作業を <b>[した(4)] [ところ(2)] [★ まで(3)] [で(1)]</b> 止まっていますが、今日中に終わる予定です。<br><b>Cấu trúc:</b> <code>V-たところまでで</code> (Dừng lại ở đúng mức/chỗ vừa mới làm xong...).<br><b>Dịch nghĩa:</b> Công việc hiện tại đang dừng lại ở đúng chỗ vừa mới nhập xong dữ liệu, nhưng dự kiến trong hôm nay sẽ hoàn thành xong.<br><i>Phân tích các phương án:</i><br>• 1. で: Trợ từ chỉ giới hạn điểm dừng (〜までで止まっている)<br>• 2. ところ: Chỗ, điểm vừa mới làm xong<br>• <b>3. まで: Trợ từ chỉ phạm vi mức độ (đến tận chỗ...) [Đúng]</b><br>• 4. した: Động từ dạng quá khứ đi với ところ tạo thành vừa mới làm xong<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (まで)</b>.",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "で"
+            },
+            {
+              "id": 2,
+              "text": "ところ"
+            },
+            {
+              "id": 3,
+              "text": "まで"
+            },
+            {
+              "id": 4,
+              "text": "した"
+            }
+          ]
         },
         {
           "id": 171,
@@ -2692,7 +2843,26 @@ window.JLPT_DATA[7] = {
             2,
             3
           ],
-          "explanation": "<b>Thứ tự câu đúng:</b> ヨーロッパへは新婚旅行で <b>[行った(4)] [きり(1)] [★ その後(2)] [行って(3)]</b> いない。<br><b>Cấu trúc:</b> <code>V-た + きり</code> (Kể từ khi... thì suốt từ đó bặt vô âm tín / không lặp lại nữa).<br><b>Dịch nghĩa:</b> Châu Âu thì tôi đi đúng một lần đợt tuần trăng mật rồi từ đó đến nay chưa từng đi lại lần nào.<br><i>Phân tích các phương án:</i><br>• 1. きり: Đi sau 行った tạo cấu trúc 行ったきり (kể từ khi đi đợt đó)<br>• <b>2. その後: Phó từ thời gian (kể từ sau đó) [Đúng]</b><br>• 3. 行って: Dạng て đi với いない (chưa từng đi)<br>• 4. 行った: Động từ quá khứ đứng đầu cụm ngữ pháp<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>2 (その後)</b>."
+          "explanation": "<b>Thứ tự câu đúng:</b> ヨーロッパへは新婚旅行で <b>[行った(4)] [きり(1)] [★ その後(2)] [行って(3)]</b> いない。<br><b>Cấu trúc:</b> <code>V-た + きり</code> (Kể từ khi... thì suốt từ đó bặt vô âm tín / không lặp lại nữa).<br><b>Dịch nghĩa:</b> Châu Âu thì tôi đi đúng một lần đợt tuần trăng mật rồi từ đó đến nay chưa từng đi lại lần nào.<br><i>Phân tích các phương án:</i><br>• 1. きり: Đi sau 行った tạo cấu trúc 行ったきり (kể từ khi đi đợt đó)<br>• <b>2. その後: Phó từ thời gian (kể từ sau đó) [Đúng]</b><br>• 3. 行って: Dạng て đi với いない (chưa từng đi)<br>• 4. 行った: Động từ quá khứ đứng đầu cụm ngữ pháp<br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>2 (その後)</b>.",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "きり"
+            },
+            {
+              "id": 2,
+              "text": "その後"
+            },
+            {
+              "id": 3,
+              "text": "行って"
+            },
+            {
+              "id": 4,
+              "text": "行った"
+            }
+          ]
         },
         {
           "id": 172,
@@ -2715,7 +2885,26 @@ window.JLPT_DATA[7] = {
             4,
             1
           ],
-          "explanation": "<b>Thứ tự câu đúng:</b> <b>[日本の食べ物(3)] [というと(2)] [★ 寿司やてんぷら(4)] [といった(1)]</b> ものをあげる人が多いですが、実はてんぷらはポルトガルから伝わったものなのです。<br><b>Cấu trúc:</b> <code>〜というと</code> (Hễ nhắc tới...) + <code>〜といった N</code> (Những thứ tiêu biểu như là...).<br><b>Dịch nghĩa:</b> Hễ nhắc đến đồ ăn Nhật Bản thì nhiều người nêu ra những món như sushi hay tempura, nhưng tempura thực chất lại truyền từ Bồ Đào Nha sang.<br><i>Phân tích các phương án:</i><br>• 1. といった: Đứng sau ví dụ cụ thể để bổ nghĩa cho danh từ もの<br>• 2. というと: Hễ nói tới, liên kết chủ đề 日本の食べ物<br>• 3. 日本の食べ物: Đứng đầu câu làm chủ đề<br>• <b>4. 寿司やてんぷら: Đưa ra ví dụ tiêu biểu [Đúng]</b><br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (寿司やてんぷら)</b>."
+          "explanation": "<b>Thứ tự câu đúng:</b> <b>[日本の食べ物(3)] [というと(2)] [★ 寿司やてんぷら(4)] [といった(1)]</b> ものをあげる人が多いですが、実はてんぷらはポルトガルから伝わったものなのです。<br><b>Cấu trúc:</b> <code>〜というと</code> (Hễ nhắc tới...) + <code>〜といった N</code> (Những thứ tiêu biểu như là...).<br><b>Dịch nghĩa:</b> Hễ nhắc đến đồ ăn Nhật Bản thì nhiều người nêu ra những món như sushi hay tempura, nhưng tempura thực chất lại truyền từ Bồ Đào Nha sang.<br><i>Phân tích các phương án:</i><br>• 1. といった: Đứng sau ví dụ cụ thể để bổ nghĩa cho danh từ もの<br>• 2. というと: Hễ nói tới, liên kết chủ đề 日本の食べ物<br>• 3. 日本の食べ物: Đứng đầu câu làm chủ đề<br>• <b>4. 寿司やてんぷら: Đưa ra ví dụ tiêu biểu [Đúng]</b><br>-> Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (寿司やてんぷら)</b>.",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "といった"
+            },
+            {
+              "id": 2,
+              "text": "というと"
+            },
+            {
+              "id": 3,
+              "text": "日本の食べ物"
+            },
+            {
+              "id": 4,
+              "text": "寿司やてんぷら"
+            }
+          ]
         },
         {
           "id": 173,

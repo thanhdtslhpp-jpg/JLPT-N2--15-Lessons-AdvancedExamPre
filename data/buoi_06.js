@@ -392,7 +392,7 @@ window.JLPT_DATA[6] = {
             "副"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>準決勝（じゅんけっしょう）：</b>Trận bán kết (Tiền tố 準〜: bán/chuẩn/cận).<br><b>Dịch nghĩa:</b> Vì đã thua ở trận bán kết nên tôi muốn cố gắng ở trận tranh hạng ba.",
+          "explanation": "<b>準決勝（じゅんけっしょう）：</b>Trận bán kết (Tiền tố 準〜: bán/chuẩn/cận).<br><b>Dịch nghĩa:</b> Vì đã thua ở trận bán kết nên tôi muốn cố gắng hết sức ở trận tranh hạng ba.<br><i>Phân tích các phương án:</i><br>• 1. 次: 次 (thứ: 次回 - lần sau, 次点 - á quân)<br>• <b>2. 準: 準決勝 (Trận bán kết) [Đúng]</b><br>• 3. 前: 前 (tiền: 前半 - hiệp một, 前期 - kỳ trước)<br>• 4. 副: 副 (phó: 副社長 - phó giám đốc, 副作用 - tác dụng phụ)",
           "id": 26
         },
         {
@@ -406,7 +406,7 @@ window.JLPT_DATA[6] = {
             "良"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>好都合（こうつごう）：</b>Thuận tiện, hợp lý về mặt thời gian/hoàn cảnh.<br><b>Dịch nghĩa:</b> Thứ bảy thì hơi khó... Nếu là chủ nhật thì đã thuận tiện biết mấy rồi.",
+          "explanation": "<b>好都合（こうつごう）：</b>Thuận tiện, hợp lý về mặt thời gian/hoàn cảnh.<br><b>Dịch nghĩa:</b> Thứ bảy thì hơi khó... Nếu là chủ nhật thì đã thuận tiện biết mấy rồi.<br><i>Phân tích các phương án:</i><br>• <b>1. 好: 好都合 (こうつごう: điều kiện thuận lợi, vừa vặn thời gian) [Đúng]</b><br>• 2. 最: 最 (tối: 最高 - cao nhất, 最新 - mới nhất)<br>• 3. 満: 満 (mãn: 満員 - chật ních, 満足 - thỏa mãn)<br>• 4. 良: 良 (lương: 良好 - tốt đẹp, 良識 - lương tri)",
           "id": 27
         },
         {
@@ -420,7 +420,7 @@ window.JLPT_DATA[6] = {
             "票"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>15万票（じゅうごまんぴょう）：</b>150.000 phiếu bầu (Hậu tố 〜票: phiếu bầu cử/bình chọn).<br><b>Dịch nghĩa:</b> Kết quả cuộc bầu cử, ông Yoshida đã đắc cử thị trưởng với 150.000 phiếu bầu.",
+          "explanation": "<b>15万票（じゅうごまんぴょう）：</b>150.000 phiếu bầu (Hậu tố 〜票: phiếu bầu cử/bình chọn).<br><b>Dịch nghĩa:</b> Kết quả cuộc bầu cử, ông Yoshida đã đắc cử thị trưởng với 150.000 phiếu bầu.<br><i>Phân tích các phương án:</i><br>• 1. 件 (けん): Đơn vị đếm vụ việc, sự kiện, trường hợp hợp đồng<br>• 2. 頭 (とう): Đơn vị đếm gia súc, động vật lớn (bò, ngựa, voi)<br>• 3. 分 (ふん/ぶん): Đơn vị đếm phút hoặc phần<br>• <b>4. 票 (ひょう): 15万票 (Đơn vị đếm lá phiếu bầu cử) [Đúng]</b>",
           "id": 28
         },
         {
@@ -462,7 +462,7 @@ window.JLPT_DATA[6] = {
             "おとなしい"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>情けない（なさけない）：</b>Đáng tiếc, thảm hại, cảm thấy xấu hổ cay đắng.<br><b>Dịch nghĩa:</b> Đã luyện tập nhiều đến thế mà lại bị thua ngay ở trận đầu tiên thật là thảm hại/đáng tiếc.<br><i>Các từ khác:</i> 相応しい（ふさわしい - phù hợp, xứng đáng）, だらしない (bừa bãi, nhếch nhác), おとなしい (hiền lành, trầm tính).",
+          "explanation": "<b>情けない（なさけない）：</b>Đáng tiếc, thảm hại, cảm thấy xấu hổ cay đắng.<br><b>Dịch nghĩa:</b> Đã luyện tập nhiều đến thế mà lại bị thua ngay ở trận đầu tiên thật là thảm hại/đáng tiếc.<br><i>Phân tích các phương án:</i><br>• <b>1. 情けない: Thảm hại, đáng tiếc, xấu hổ trước kết quả tồi tệ [Đúng]</b><br>• 2. 相応しい（ふさわしい）: Thích hợp, tương xứng, xứng đáng<br>• 3. だらしない: Nhếch nhác, bừa bãi, vô kỷ luật<br>• 4. おとなしい: Hiền lành, trầm tính, ngoan ngoãn",
           "id": 31
         },
         {
@@ -476,7 +476,7 @@ window.JLPT_DATA[6] = {
             "硬い"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>濃い（こい）：</b>Đậm đà, vị đậm, màu đậm (trái nghĩa: 薄い うすい - nhạt).<br><b>Dịch nghĩa:</b> Bố tôi thích những món ăn có vị đậm nên món gì cũng rưới xì dầu vào.",
+          "explanation": "<b>濃い（こい）：</b>Đậm đà, vị đậm, màu đậm (trái nghĩa: 薄い うすい - nhạt).<br><b>Dịch nghĩa:</b> Bố tôi thích những món ăn có vị đậm nên món gì cũng rưới xì dầu vào.<br><i>Phân tích các phương án:</i><br>• 1. 太い（ふとい）: Béo, dày, to mập (dùng cho sợi dây, nét chữ, cơ thể)<br>• <b>2. 濃い: 味が濃い (vị đậm đà, mặn mà) [Đúng]</b><br>• 3. 厚い（あつい）: Dày cộm (sách dày, tấm ván dày)<br>• 4. 硬い（かたい）: Cứng nhắc, khô cứng (đá cứng, bánh mì cứng)",
           "id": 32
         },
         {
@@ -490,7 +490,7 @@ window.JLPT_DATA[6] = {
             "もったいない"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>もったいない：</b>Lãng phí, uổng phí, đáng tiếc.<br><b>Dịch nghĩa:</b> Vứt chiếc túi giấy này đi thì lãng phí quá, nên hãy giữ lại để sau này dùng vào việc gì đó.<br><i>Các từ khác:</i> 騒々しい（そうぞうしい - ồn ào）, 仕方ない (không còn cách nào khác).",
+          "explanation": "<b>もったいない：</b>Lãng phí, uổng phí, tiếc của.<br><b>Dịch nghĩa:</b> Vứt chiếc túi giấy này đi thì lãng phí quá, nên hãy giữ lại để sau này dùng vào việc gì đó.<br><i>Phân tích các phương án:</i><br>• 1. 騒々しい（そうぞうしい）: Ồn ào, huyên náo, xôn xao<br>• 2. 仕方ない: Không còn cách nào khác, đành chịu<br>• 3. 情けない: Đáng tiếc, thảm hại, thất vọng về bản thân<br>• <b>4. もったいない: Lãng phí, uổng phí đồ dùng còn giá trị [Đúng]</b>",
           "id": 33
         },
         {
@@ -504,7 +504,7 @@ window.JLPT_DATA[6] = {
             "好ましく"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>快く（こころよく）：</b>Một cách vui vẻ, sẵn lòng, phấn khởi nhận lời.<br><b>Dịch nghĩa:</b> Khi tôi nhờ người bạn phát biểu trong lễ cưới, bạn ấy đã vui vẻ nhận lời ngay.",
+          "explanation": "<b>快く（こころよく）：</b>Một cách vui vẻ, sẵn lòng, hồ hởi nhận lời.<br><b>Dịch nghĩa:</b> Khi tôi nhờ người bạn phát biểu trong lễ cưới, bạn ấy đã vui vẻ nhận lời ngay.<br><i>Phân tích các phương án:</i><br>• 1. 素晴らしく: Tuyệt vời, xuất sắc<br>• <b>2. 快く: 快く引き受ける (sẵn lòng/vui vẻ nhận lời giúp đỡ) [Đúng]</b><br>• 3. 易しく（やすく/やさしく）: Dễ dàng, đơn giản<br>• 4. 好ましく: Đáng mong muốn, được yêu thích",
           "id": 34
         },
         {
@@ -518,7 +518,7 @@ window.JLPT_DATA[6] = {
             "厚かましい"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>怪しい（あやしい）：</b>Khả nghi, đáng ngờ.<br><b>Dịch nghĩa:</b> Trong vụ án lần này, đã xuất hiện 3 người khả nghi bị coi là thủ phạm.<br><i>Các từ khác:</i> 興味深い (rất thú vị), うらやましい (ghen tị), 厚かましい（あつかましい - trơ trẽn, mặt dày）.",
+          "explanation": "<b>怪しい（あやしい）：</b>Khả nghi, đáng ngờ, mờ ám.<br><b>Dịch nghĩa:</b> Trong vụ án lần này, đã xuất hiện 3 người khả nghi bị coi là thủ phạm.<br><i>Phân tích các phương án:</i><br>• 1. 興味深い: Vô cùng thú vị, gây nhiều hứng thú<br>• 2. うらやましい: Ghen tị, thèm muốn như đối phương<br>• <b>3. あやしい: 怪しい人 (kẻ khả nghi, đáng ngờ) [Đúng]</b><br>• 4. 厚かましい（あつかましい）: Trơ trẽn, mặt dày, không biết xấu hổ",
           "id": 35
         },
         {
@@ -532,7 +532,7 @@ window.JLPT_DATA[6] = {
             "望ましい"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>望ましい（のぞましい）：</b>Được kỳ vọng, mong muốn, là điều nên làm.<br><b>Dịch nghĩa:</b> Cuộc họp toàn thể ngày mai mong muốn tất cả mọi người cùng tham gia.<br><i>Các từ khác:</i> 著しい（いちじるしい - đáng kể, rõ rệt）.",
+          "explanation": "<b>望ましい（のぞましい）：</b>Được kỳ vọng, mong muốn, là điều nên làm.<br><b>Dịch nghĩa:</b> Cuộc họp toàn thể ngày mai mong muốn tất cả mọi người cùng tham gia.<br><i>Phân tích các phương án:</i><br>• 1. 快い: Dễ chịu, thoải mái, vui vẻ<br>• 2. 等しい: Ngang bằng, như nhau<br>• 3. 著しい（いちじるしい）: Đáng kể, rõ rệt (sự tăng trưởng, biến đổi)<br>• <b>4. 望ましい: 望ましい (được kỳ vọng/khuyến khích nên làm) [Đúng]</b>",
           "id": 36
         },
         {
@@ -546,7 +546,7 @@ window.JLPT_DATA[6] = {
             "ぬるい"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>だらしない：</b>Cẩu thả, bừa bãi, vô trách nhiệm (お金にだらしない: bừa bãi tiền bạc, tiêu xài vô tội vạ).<br><b>Dịch nghĩa:</b> Cô ấy là người tiêu xài bừa bãi vô trách nhiệm với tiền bạc nên tốt nhất là không nên cho mượn tiền.",
+          "explanation": "<b>だらしない：</b>Cẩu thả, bừa bãi, vô trách nhiệm (お金にだらしない: bừa bãi tiền bạc, tiêu xài vô tội vạ).<br><b>Dịch nghĩa:</b> Cô ấy là người tiêu xài bừa bãi vô trách nhiệm với tiền bạc nên tốt nhất là không nên cho mượn tiền.<br><i>Phân tích các phương án:</i><br>• 1. しょうがない: Không còn cách nào khác, hết cách<br>• 2. 荒い（あらい）: Thô bạo, gấp gáp (sóng to, tính tình cộc cằn)<br>• <b>3. だらしない: お金にだらしない (bừa bãi, thiếu quản lý tiền nong) [Đúng]</b><br>• 4. ぬるい: Nguội, âm ấm (nước nguội, thái độ nửa vời)",
           "id": 37
         },
         {
@@ -560,7 +560,7 @@ window.JLPT_DATA[6] = {
             "あわただしく"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>若々しい（わかわかしい）：</b>Trẻ trung, tràn đầy sức sống.<br><b>Dịch nghĩa:</b> Để dù ở độ tuổi nào vẫn luôn trẻ trung, tôi tập thể dục mỗi ngày.<br><i>Các từ khác:</i> 弱々しい（よわよわしい - yếu ớt）, そそっかしい (hấp tấp, vội vàng), 慌ただしい（あわただしい - bận rộn tất bật）.",
+          "explanation": "<b>若々しい（わかわかしい）：</b>Trẻ trung, tràn đầy sức sống.<br><b>Dịch nghĩa:</b> Để dù ở độ tuổi nào vẫn luôn trẻ trung, tôi tập thể dục mỗi ngày.<br><i>Phân tích các phương án:</i><br>• <b>1. 若々しく: 若々しくいる (giữ vẻ trẻ trung, tràn đầy năng lượng) [Đúng]</b><br>• 2. 弱々しく（よわよわしく）: Yếu ớt, mảnh khảnh, thiếu sức sống<br>• 3. そそっかしく: Hấp tấp, vội vàng, bất cẩn<br>• 4. あわただしく（慌ただしく）: Tất bật, vội vã, bận rộn",
           "id": 38
         },
         {
@@ -574,7 +574,7 @@ window.JLPT_DATA[6] = {
             "膨大な"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>騒がしい（さわがしい）：</b>Ầm ĩ, ồn ào náo loạn.<br><b>Dịch nghĩa:</b> Đã đêm muộn rồi mà vẫn nghe thấy tiếng lũ trẻ hò hét ầm ĩ.<br><i>Các từ khác:</i> 大幅な（おおはばな - quy mô lớn, cách biệt lớn）, 膨大な（ぼうだいな - khổng lồ, bao la）.",
+          "explanation": "<b>騒がしい（さわがしい）：</b>Ầm ĩ, ồn ào náo loạn.<br><b>Dịch nghĩa:</b> Đã đêm muộn rồi mà vẫn nghe thấy tiếng lũ trẻ hò hét ầm ĩ.<br><i>Phân tích các phương án:</i><br>• 1. 著しい（いちじるしい）: Đáng kể, vượt bậc<br>• <b>2. 騒がしい: 騒がしい声 (tiếng hò hét ầm ĩ, náo động) [Đúng]</b><br>• 3. 大幅な（おおはばな）: Quy mô lớn, mức độ rộng<br>• 4. 膨大な（ぼうだいな）: Khổng lồ, bao la (khối lượng dữ liệu, chi phí)",
           "id": 39
         },
         {
@@ -588,7 +588,7 @@ window.JLPT_DATA[6] = {
             "相対的"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>本格的（ほんかくてき）：</b>Đích thực, chuẩn vị bản xứ, chính cống.<br><b>Dịch nghĩa:</b> Tôi muốn đến tận nước Ý để thưởng thức món ăn Ý đích thực, chuẩn vị bản xứ.",
+          "explanation": "<b>本格的（ほんかくてき）：</b>Đích thực, chuẩn vị bản xứ, chính cống.<br><b>Dịch nghĩa:</b> Tôi muốn đến tận nước Ý để thưởng thức món ăn Ý đích thực, chuẩn vị bản xứ.<br><i>Phân tích các phương án:</i><br>• 1. 民主的: Mang tính dân chủ<br>• 2. 客観的: Mang tính khách quan<br>• <b>3. 本格的: 本格的な料理 (món ăn chuẩn vị bản xứ, chính cống) [Đúng]</b><br>• 4. 相対的: Mang tính tương đối",
           "id": 40
         },
         {
@@ -602,7 +602,7 @@ window.JLPT_DATA[6] = {
             "無縁"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>安易（あんい）：</b>Dễ dãi, suy nghĩ ngây thơ đơn giản thiếu chín chắn.<br><b>Dịch nghĩa:</b> Tôi hối hận vì đã vào công ty hiện tại với suy nghĩ quá dễ dãi và đơn giản.<br><i>Các từ khác:</i> 安価（あんか - giá rẻ）, 無力（むりょく - bất lực）, 無縁（むえん - không liên quan）.",
+          "explanation": "<b>安易（あんい）：</b>Dễ dãi, ngây thơ, đơn giản thiếu chín chắn.<br><b>Dịch nghĩa:</b> Tôi hối hận vì đã vào công ty hiện tại với suy nghĩ quá dễ dãi và đơn giản.<br><i>Phân tích các phương án:</i><br>• 1. 安価（あんか）: Giá rẻ, giá thấp<br>• <b>2. 安易: 安易な考え (suy nghĩ dễ dãi, nông cạn, thiếu chín chắn) [Đúng]</b><br>• 3. 無力: Bất lực, không có sức mạnh<br>• 4. 無縁: Không liên quan, không duyên nợ",
           "id": 41
         },
         {
@@ -616,7 +616,7 @@ window.JLPT_DATA[6] = {
             "ささやか"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>ささやか：</b>Nhỏ bé, khiêm tốn nhưng chứa đựng tấm lòng chân thành.<br><b>Dịch nghĩa:</b> Vào ngày kỷ niệm ngày cưới của bố mẹ, tôi đã tặng một món quà nhỏ chân thành.<br><i>Các từ khác:</i> かすか (mơ hồ, thoang thoảng), こまやか (tinh tế, chu đáo), なだらか (thoai thoải, bằng phẳng).",
+          "explanation": "<b>ささやか：</b>Nhỏ bé, khiêm tốn nhưng chứa đựng tấm lòng chân thành.<br><b>Dịch nghĩa:</b> Vào ngày kỷ niệm ngày cưới của bố mẹ, tôi đã tặng một món quà nhỏ chân thành.<br><i>Phân tích các phương án:</i><br>• 1. かすか: Thoang thoảng, le lói, mơ hồ (âm thanh, ánh sáng nhỏ)<br>• 2. こまやか（細やか）: Tinh tế, chu đáo, tỉ mỉ<br>• 3. なだらか: Thoai thoải, êm đềm (sườn dốc thoai thoải)<br>• <b>4. ささやか: ささやかなプレゼント (món quà nhỏ mọn/khiêm tốn đầy ắp tình cảm) [Đúng]</b>",
           "id": 42
         },
         {
@@ -630,7 +630,7 @@ window.JLPT_DATA[6] = {
             "相対的"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>全面的（ぜんめんてき）：</b>Toàn diện, hoàn toàn từ mọi phía.<br><b>Dịch nghĩa:</b> Chính nhờ sự hỗ trợ toàn diện của bố mẹ mà anh ấy đã được chọn làm vận động viên Olympic.",
+          "explanation": "<b>全面的（ぜんめんてき）：</b>Toàn diện, hoàn toàn từ mọi phía.<br><b>Dịch nghĩa:</b> Chính nhờ sự hỗ trợ toàn diện của bố mẹ mà anh ấy đã được chọn làm vận động viên Olympic.<br><i>Phân tích các phương án:</i><br>• 1. 象徴的: Mang tính tượng trưng, biểu tượng<br>• <b>2. 全面的: 全面的なサポート (sự ủng hộ/hỗ trợ toàn diện) [Đúng]</b><br>• 3. 開放的: Cởi mở, phóng khoáng, thoáng đãng<br>• 4. 相対的: Mang tính tương đối",
           "id": 43
         },
         {
@@ -644,7 +644,7 @@ window.JLPT_DATA[6] = {
             "あわれ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>ありがち：</b>Thường thấy, hay xảy ra, phổ biến.<br><b>Dịch nghĩa:</b> Lỗi cỡ thế này là chuyện thường thấy thôi nên anh/chị không cần lo lắng đâu.<br><i>Các từ khác:</i> 和やか（なごやか - chan hòa, êm dịu）, 穏やか（おだやか - ôn hòa, bình lặng）, 哀れ（あわれ - đáng thương, tội nghiệp）.",
+          "explanation": "<b>ありがち：</b>Thường thấy, hay xảy ra, phổ biến.<br><b>Dịch nghĩa:</b> Lỗi cỡ thế này là chuyện thường thấy thôi nên anh/chị không cần lo lắng đâu.<br><i>Phân tích các phương án:</i><br>• <b>1. ありがち: Chuyện thường gặp, hay mắc phải [Đúng]</b><br>• 2. なごやか（和やか）: Đầm ấm, chan hòa, thân mật<br>• 3. おだやか（穏やか）: Ôn hòa, điềm tĩnh, thanh bình<br>• 4. あわれ（哀れ）: Đáng thương, tội nghiệp, bi thảm",
           "id": 44
         },
         {
@@ -658,7 +658,7 @@ window.JLPT_DATA[6] = {
             "基礎的"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>抽象的（ちゅうしょうてき）：</b>Trừu tượng (ngược với 具体的 - cụ thể).<br><b>Dịch nghĩa:</b> Đoạn văn này trừu tượng quá nên không hiểu rõ rốt cuộc tác giả muốn truyền đạt điều gì.",
+          "explanation": "<b>抽象的（ちゅうしょうてき）：</b>Trừu tượng, chung chung khó hình dung.<br><b>Dịch nghĩa:</b> Đoạn văn này trừu tượng quá nên không hiểu rõ rốt cuộc tác giả muốn truyền đạt điều gì.<br><i>Phân tích các phương án:</i><br>• 1. 比較的: Tương đối, mang tính so sánh<br>• <b>2. 抽象的: 抽象的な文章 (bài văn trừu tượng, thiếu cụ thể) [Đúng]</b><br>• 3. 積極的: Tích cực, chủ động<br>• 4. 基礎的: Mang tính cơ bản, nền tảng",
           "id": 45
         },
         {
@@ -672,7 +672,7 @@ window.JLPT_DATA[6] = {
             "大げさ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>大げさ（おおげさ）：</b>Làm quá, phóng đại, nghiêm trọng hóa vấn đề.<br><b>Dịch nghĩa:</b> Chỉ vấp ngã trầy da chảy chút máu thôi mà đi bệnh viện thì làm quá/khoa trương quá đấy.",
+          "explanation": "<b>大げさ（おおげさ）：</b>Làm quá, phóng đại, nghiêm trọng hóa vấn đề.<br><b>Dịch nghĩa:</b> Chỉ vấp ngã trầy da chảy chút máu thôi mà đi bệnh viện thì làm quá/khoa trương quá đấy.<br><i>Phân tích các phương án:</i><br>• 1. 巨大: To lớn, khổng lồ (vật lý: quái vật khổng lồ, công trình đồ sộ)<br>• 2. 大まか: Đại khái, sơ lược, chung chung<br>• 3. 大幅: Quy mô lớn, biên độ lớn (tăng/giảm giá mạnh)<br>• <b>4. 大げさ: 大げさ (làm quá, nghiêm trọng hóa vấn đề) [Đúng]</b>",
           "id": 46
         },
         {
@@ -686,7 +686,7 @@ window.JLPT_DATA[6] = {
             "膨大"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>強引（ごういん）：</b>Cưỡng ép, miễn cưỡng, bắt buộc làm bằng được.<br><b>Dịch nghĩa:</b> Đứa con trai không chịu đi nhưng tôi đã dùng biện pháp cưỡng ép đưa cháu đến bệnh viện.<br><i>Các từ khác:</i> 頑丈（がんじょう - bền bỉ, vạm vỡ）, 有力（ゆうりょく - có sức ảnh hưởng/triển vọng）.",
+          "explanation": "<b>強引（ごういん）：</b>Cưỡng ép, miễn cưỡng, bắt buộc làm bằng được.<br><b>Dịch nghĩa:</b> Đứa con trai không chịu đi nhưng tôi đã dùng biện pháp cưỡng ép đưa cháu đến bệnh viện.<br><i>Phân tích các phương án:</i><br>• <b>1. 強引: 強引に連れて行く (ép buộc, lôi kéo đi bằng được) [Đúng]</b><br>• 2. 頑丈: Chắc chắn, vạm vỡ, bền vững (cơ thể, tòa nhà)<br>• 3. 有力: Có tầm ảnh hưởng, có triển vọng cao<br>• 4. 膨大: Khổng lồ, bao la",
           "id": 47
         },
         {
@@ -700,7 +700,7 @@ window.JLPT_DATA[6] = {
             "陽気"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>短気（たんき）：</b>Nóng tính, thiếu kiên nhẫn, hay cáu gắt.<br><b>Dịch nghĩa:</b> Cửa hàng trưởng là người nóng tính nên hễ bận rộn một cái là nổi giận ngay.<br><i>Các từ khác:</i> 気楽（きらく - thoải mái, ung dung）, 陽気（ようき - vui vẻ cởi mở/thời tiết）.",
+          "explanation": "<b>短気（たんき）：</b>Nóng tính, thiếu kiên nhẫn, hay cáu gắt.<br><b>Dịch nghĩa:</b> Cửa hàng trưởng là người nóng tính nên hễ bận rộn một cái là nổi giận ngay.<br><i>Phân tích các phương án:</i><br>• 1. 気楽: Thoải mái, ung dung, vô tư lự<br>• <b>2. 短気: 短気な人 (người nóng nảy, mất bình tĩnh) [Đúng]</b><br>• 3. 不満: Bất mãn, không hài lòng<br>• 4. 陽気: Hoạt bát, vui vẻ cởi mở / thời tiết ấm áp",
           "id": 48
         },
         {
@@ -715,7 +715,7 @@ window.JLPT_DATA[6] = {
             "半年間"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>年中（ねんじゅう）：</b>Suốt cả năm, lúc nào cũng (&approx; いつも).<br><b>Dịch nghĩa:</b> Bố tôi vì bận bịu công việc nên hầu như lúc nào cũng vắng nhà.<br><i>Phân tích các phương án:</i><br>• 1. たまに (thỉnh thoảng, hiếm khi)<br>• 2. ときどき (đôi khi, thi thoảng)<br>• 3. だいたい (đại khái, phần lớn)<br>• <b>4. いつも (lúc nào cũng, luôn luôn) [Đúng]</b>",
+          "explanation": "<b>年中（ねんじゅう）：</b>Suốt cả năm, lúc nào cũng (＝いつも).<br><b>Dịch nghĩa:</b> Bố tôi vì công việc nên lúc nào cũng vắng nhà.<br><i>Phân tích các phương án:</i><br>• <b>1. いつも: Lúc nào cũng, luôn luôn [Đúng đồng nghĩa với 年中]</b><br>• 2. たまに: Thi thoảng, đôi khi (trái nghĩa)<br>• 3. 一年間: Trong vòng 1 năm (chỉ khoảng thời gian kéo dài)<br>• 4. 半年間: Trong vòng nửa năm",
           "id": 49
         },
         {
@@ -730,7 +730,7 @@ window.JLPT_DATA[6] = {
             "落ち着いて"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>冷静（れいせい）：</b>Bình tĩnh, điềm đạm (＝落ち着いて).<br><b>Dịch nghĩa:</b> Anh ấy luôn ứng phó một cách bình tĩnh trước mọi tình huống.",
+          "explanation": "<b>冷静（れいせい）：</b>Bình tĩnh, điềm đạm (＝落ち着いて).<br><b>Dịch nghĩa:</b> Anh ấy luôn ứng phó một cách bình tĩnh trước mọi tình huống.<br><i>Phân tích các phương án:</i><br>• 1. 冷たく: Lạnh lùng, tàn nhẫn<br>• 2. 丁寧に: Lịch sự, cẩn thận<br>• 3. いじわるに: Độc ác, xấu bụng<br>• <b>4. 落ち着いて: Điềm tĩnh, bình tĩnh giải quyết [Đúng đồng nghĩa với 冷静に]</b>",
           "id": 50
         },
         {
@@ -745,7 +745,7 @@ window.JLPT_DATA[6] = {
             "申しわけない"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>すまない：</b>Vô cùng xin lỗi, áy náy (＝申し訳ない).<br><b>Dịch nghĩa:</b> Đến muộn giờ hẹn, tôi thật sự cảm thấy vô cùng áy náy và có lỗi.",
+          "explanation": "<b>すまない：</b>Vô cùng xin lỗi, áy náy (＝申し訳ない).<br><b>Dịch nghĩa:</b> Đến muộn giờ hẹn, tôi thật sự cảm thấy vô cùng áy náy và xin lỗi.<br><i>Phân tích các phương án:</i><br>• 1. かなしい: Buồn bã, đau lòng<br>• 2. くやしい: Cay cú, tiếc nuối uất ức<br>• 3. だらしない: Bừa bãi, luộm thuộm<br>• <b>4. 申しわけない: Vô cùng xin lỗi, áy náy [Đúng đồng nghĩa với すまない]</b>",
           "id": 51
         },
         {
@@ -760,7 +760,7 @@ window.JLPT_DATA[6] = {
             "もうすぐ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>至急（しきゅう）：</b>Khẩn cấp, ngay lập tức (＝すぐに).<br><b>Dịch nghĩa:</b> Xin lỗi nhưng anh/chị hãy gửi tài liệu gấp ngay cho tôi nhé.",
+          "explanation": "<b>張り切って（はりきって）：</b>Hăng hái, tràn đầy nhiệt huyết (＝やる気を持って).<br><b>Dịch nghĩa:</b> Anh ấy đang hăng hái bắt tay vào dự án mới với đầy quyết tâm.<br><i>Phân tích các phương án:</i><br>• 1. あわてて: Hốt hoảng, vội vã luống cuống<br>• <b>2. やる気を持って: Đầy nhiệt huyết, hăng hái [Đúng đồng nghĩa với 張り切って]</b><br>• 3. 慎重に: Thận trọng, dè dặt<br>• 4. 楽しそうに: Trông có vẻ vui tươi",
           "id": 52
         },
         {
@@ -790,7 +790,7 @@ window.JLPT_DATA[6] = {
             "ゆっくり"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>ぱっと：</b>Bất thình lình, đột ngột bừng sáng (&approx; 急に - きゅうに).<br><b>Dịch nghĩa:</b> Bầu trời đột nhiên bừng sáng lên.<br><i>Phân tích các phương án:</i><br>• <b>1. 急に (đột nhiên, bất ngờ) [Đúng]</b><br>• 2. 次第に (dần dần, từ từ theo thời gian)<br>• 3. 確かに (chắc chắn, quả thật là)<br>• 4. 完全に (hoàn toàn, triệt để)",
+          "explanation": "<b>見当がつかない（けんとうがつかない）：</b>Không thể dự đoán, không thể ước lượng được (＝予測できない).<br><b>Dịch nghĩa:</b> Về việc mất bao nhiêu tiền thì hiện tại tôi hoàn toàn không thể đoán biết được.<br><i>Phân tích các phương án:</i><br>• 1. 決定できない: Không thể quyết định<br>• 2. 理解できない: Không thể thấu hiểu<br>• <b>3. 予測できない: Không thể dự đoán, ước tính [Đúng đồng nghĩa với 見当がつかない]</b><br>• 4. 解決できない: Không thể giải quyết",
           "id": 54
         },
         {
@@ -804,7 +804,7 @@ window.JLPT_DATA[6] = {
             "仕事が終わって家に帰ってきてから<span class='target-word'>手間</span>のかかる料理を作るのは面倒だ。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>手間（てま）：</b>Công sức, thời gian bỏ ra làm việc gì đó. Cụm từ cố định: <b>手間がかかる</b> (tốn công sức).<br><b>Dịch câu đúng (4):</b> Sau khi tan làm về nhà mà phải nấu những món ăn tốn nhiều công sức thì thật phiền phức.<br><i>Sửa các câu sai:</i> 1 dùng 世話 (chăm sóc bé), 2 dùng 手 (rảnh tay), 3 dùng 暇 (thời gian rảnh).",
+          "explanation": "<b>手間（てま）：</b>Công sức, thời gian bỏ ra làm việc gì đó. Cụm từ cố định: <b>手間がかかる</b> (tốn công sức).<br><b>Dịch nghĩa:</b> Sau khi tan làm về nhà mà phải nấu những món ăn tốn nhiều công sức thì thật phiền phức.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 世話 (chăm sóc bé),.<br>• 2. Sai vì câu này phù hợp dùng 手 (rảnh tay),.<br>• 3. Sai vì câu này phù hợp dùng 暇 (thời gian rảnh).<br>• <b>4. 仕事が終わって家に帰ってきてから手間のかかる料理を作るのは面倒だ。: [Đúng ngữ cảnh]</b>",
           "id": 55
         },
         {
@@ -818,7 +818,7 @@ window.JLPT_DATA[6] = {
             "商品が正しく動かないという<span class='target-word'>障害</span>がたくさん入ったので、お客様に謝った。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>障害（しょうがい）：</b>Sự cố, trục trặc chướng ngại kỹ thuật hệ thống (システム障害).<br><b>Dịch câu đúng (2):</b> Có sự cố trục trặc ở hệ thống thanh toán nên tôi không thể thanh toán tiền suôn sẻ.<br><i>Sửa các câu sai:</i> 1 dùng 壁/衝立 (dựng vách ngăn), 3 dùng 毒/有害物質 (chất độc), 4 dùng 苦情/クレーム (phàn nàn của khách).",
+          "explanation": "<b>障害（しょうがい）：</b>Sự cố, trục trặc chướng ngại kỹ thuật hệ thống (システム障害).<br><b>Dịch nghĩa:</b> Có sự cố trục trặc ở hệ thống thanh toán nên tôi không thể thanh toán tiền suôn sẻ.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 壁/衝立 (dựng vách ngăn),.<br>• <b>2. 支払いシステムに障害があって、うまくお金を支払うことができなかった。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 毒/有害物質 (chất độc),.<br>• 4. Sai vì câu này phù hợp dùng 苦情/クレーム (phàn nàn của khách).",
           "id": 56
         },
         {
@@ -832,7 +832,7 @@ window.JLPT_DATA[6] = {
             "みんなと同じ給料なのに、彼だけ仕事が多いというのは<span class='target-word'>不平</span>だと思う。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>不平（ふへい）：</b>Bất bình, ca thán, phàn nàn. Đi với cụm: <b>不平を言う</b> (nói lời bất bình).<br><b>Dịch câu đúng (1):</b> Cấp dưới đang phàn nàn bất bình trước việc bị đồng nghiệp đùn đẩy công việc.<br><i>Sửa các câu sai:</i> 2 dùng 落ち着かない/不安 (lo lắng, không yên lòng), 3 dùng 急 (dốc gấp), 4 dùng 不公平 (bất công).",
+          "explanation": "<b>不平（ふへい）：</b>Bất bình, ca thán, phàn nàn. Đi với cụm: <b>不平を言う</b> (nói lời bất bình).<br><b>Dịch nghĩa:</b> Cấp dưới đang phàn nàn bất bình trước việc bị đồng nghiệp đùn đẩy công việc.<br><i>Phân tích các phương án:</i><br>• <b>1. 同僚から仕事を押し付けられることに対して、部下が不平を言っている。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 落ち着かない/不安 (lo lắng, không yên lòng),.<br>• 3. Sai vì câu này phù hợp dùng 急 (dốc gấp),.<br>• 4. Sai vì câu này phù hợp dùng 不公平 (bất công).",
           "id": 57
         },
         {
@@ -846,7 +846,7 @@ window.JLPT_DATA[6] = {
             "疲れているせいか、<span class='target-word'>目上</span>がぼんやりするので会社を休むことにした。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>目上（めうえ）：</b>Người bề trên (về vai vế, chức vụ, địa vị). Cụm từ: <b>目上の人</b>.<br><b>Dịch câu đúng (2):</b> Đã đi làm người lớn ngoài xã hội rồi mà không biết dùng kính ngữ với người bề trên thì không thể chấp nhận được.<br><i>Sửa các câu sai:</i> 1 dùng 年上 (lớn hơn 1 tuổi), 3 dùng 尊敬している (kính trọng), 4 dùng 視界/目 (tầm nhìn, mắt).",
+          "explanation": "<b>目上（めうえ）：</b>Người bề trên (về vai vế, chức vụ, địa vị). Cụm từ: <b>目上の人</b>.<br><b>Dịch nghĩa:</b> Đã đi làm người lớn ngoài xã hội rồi mà không biết dùng kính ngữ với người bề trên thì không thể chấp nhận được.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 年上 (lớn hơn 1 tuổi),.<br>• <b>2. 社会人にもなって目上の人に敬語を使えないなんてありえない。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 尊敬している (kính trọng),.<br>• 4. Sai vì câu này phù hợp dùng 視界/目 (tầm nhìn, mắt).",
           "id": 58
         },
         {
@@ -860,7 +860,7 @@ window.JLPT_DATA[6] = {
             "やりがいのある仕事に出会うまで、何度も転職を続けた。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>やりがい：</b>Giá trị và ý nghĩa đáng để bỏ công sức làm (やりがいのある仕事).<br><b>Dịch câu đúng (4):</b> Tôi đã liên tục nhảy việc nhiều lần cho đến khi tìm được một công việc thực sự ý nghĩa, đáng làm.<br><i>Sửa các câu sai:</i> 1 dùng やり方 (cách làm), 2 dùng 給料 (tiền lương), 3 dùng やる気 (hứng thú làm việc).",
+          "explanation": "<b>やりがい：</b>Giá trị và ý nghĩa đáng để bỏ công sức làm (やりがいのある仕事).<br><b>Dịch nghĩa:</b> Tôi đã liên tục nhảy việc nhiều lần cho đến khi tìm được một công việc thực sự ý nghĩa, đáng làm.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng やり方 (cách làm),.<br>• 2. Sai vì câu này phù hợp dùng 給料 (tiền lương),.<br>• 3. Sai vì câu này phù hợp dùng やる気 (hứng thú làm việc).<br>• <b>4. やりがいのある仕事に出会うまで、何度も転職を続けた。: [Đúng ngữ cảnh]</b>",
           "id": 59
         },
         {
@@ -874,7 +874,7 @@ window.JLPT_DATA[6] = {
             "上司からの日当たりが強いので、仕事を辞めようと思っている。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>日当たり（ひあたり）：</b>Hướng đón ánh nắng, sự chiếu sáng của mặt trời (日当たりが良い部屋).<br><b>Dịch câu đúng (2):</b> Nghe nói sống trong căn phòng đón nắng tốt sẽ khiến tâm trạng trở nên tích cực hơn.<br><i>Sửa các câu sai:</i> 1 dùng 日差し (ánh nắng gay gắt), 3 dùng 日払い (trả lương theo ngày), 4 dùng 風当たり (áp lực, chỉ trích gay gắt).",
+          "explanation": "<b>日当たり（ひあたり）：</b>Hướng đón ánh nắng, sự chiếu sáng của mặt trời (日当たりが良い部屋).<br><b>Dịch nghĩa:</b> Nghe nói sống trong căn phòng đón nắng tốt sẽ khiến tâm trạng trở nên tích cực hơn.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 日差し (ánh nắng gay gắt),.<br>• <b>2. 日当たりの良い部屋に住むと、気持ちが前向きになるらしい。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 日払い (trả lương theo ngày),.<br>• 4. Sai vì câu này phù hợp dùng 風当たり (áp lực, chỉ trích gay gắt).",
           "id": 60
         },
         {
@@ -888,7 +888,7 @@ window.JLPT_DATA[6] = {
             "目当てが全て当たって、ギャンブルでたくさんのお金を手に入れた。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>目当て（めあて）：</b>Mục đích nhắm tới, động cơ (お金目当て: vì tiền, nhắm vào tiền).<br><b>Dịch câu đúng (1):</b> Kinh doanh chỉ vì nhắm vào tiền bạc thì chưa chắc đã thành công.<br><i>Sửa các câu sai:</i> 2 dùng 目標 (lấy làm mục tiêu phấn đấu), 3 dùng 目に当たって (bóng va vào mắt), 4 dùng 予想 (dự đoán trúng).",
+          "explanation": "<b>目当て（めあて）：</b>Mục đích nhắm tới, động cơ (お金目当て: vì tiền, nhắm vào tiền).<br><b>Dịch nghĩa:</b> Kinh doanh chỉ vì nhắm vào tiền bạc thì chưa chắc đã thành công.<br><i>Phân tích các phương án:</i><br>• <b>1. お金目当てでビジネスをしても、うまくいくとは限らない。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 目標 (lấy làm mục tiêu phấn đấu),.<br>• 3. Sai vì câu này phù hợp dùng 目に当たって (bóng va vào mắt),.<br>• 4. Sai vì câu này phù hợp dùng 予想 (dự đoán trúng).",
           "id": 61
         },
         {
@@ -902,7 +902,7 @@ window.JLPT_DATA[6] = {
             "力のある彼に重い荷物を持つのを手入れしてもらった。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>手入れ（ていれ）：</b>Chăm sóc, cắt tỉa, bảo dưỡng (cây cối trong vườn, da dẻ, đồ vật).<br><b>Dịch câu đúng (1):</b> Vì sân vườn rộng nên việc chăm sóc vườn tược tôi giao phó cho người chuyên nghiệp.<br><i>Sửa các câu sai:</i> 2 dùng 世話 (chăm sóc em), 3 dùng 面倒を見る (chỉ bảo, hướng dẫn đàn em), 4 dùng 手伝って (giúp đỡ bê vác).",
+          "explanation": "<b>手入れ（ていれ）：</b>Chăm sóc, cắt tỉa, bảo dưỡng (cây cối trong vườn, da dẻ, đồ vật).<br><b>Dịch nghĩa:</b> Vì sân vườn rộng nên việc chăm sóc vườn tược tôi giao phó cho người chuyên nghiệp.<br><i>Phân tích các phương án:</i><br>• <b>1. 庭が広いので、庭の手入れは専門の人に任せている。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 世話 (chăm sóc em),.<br>• 3. Sai vì câu này phù hợp dùng 面倒を見る (chỉ bảo, hướng dẫn đàn em),.<br>• 4. Sai vì câu này phù hợp dùng 手伝って (giúp đỡ bê vác).",
           "id": 62
         },
         {
@@ -916,7 +916,7 @@ window.JLPT_DATA[6] = {
             "車いすに乗っている人にとって、段取りがある場所はとても不便だ。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>段取り（だんどり）：</b>Sắp đặt các bước, lên kế hoạch chuẩn bị quy trình tiến hành.<br><b>Dịch câu đúng (3):</b> Để sự kiện diễn ra thuận lợi, xin hãy sắp đặt chuẩn bị kỹ các bước quy trình.<br><i>Sửa các câu sai:</i> 1 dùng 段階 (bước/giai đoạn tiếp theo), 2 dùng 段差を取り除く (loại bỏ bậc thềm), 4 dùng 階段/段差 (chỗ có bậc cấp).",
+          "explanation": "<b>段取り（だんどり）：</b>Sắp đặt các bước, lên kế hoạch chuẩn bị quy trình tiến hành.<br><b>Dịch nghĩa:</b> Để sự kiện diễn ra thuận lợi, xin hãy sắp đặt chuẩn bị kỹ các bước quy trình.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 段階 (bước/giai đoạn tiếp theo),.<br>• 2. Sai vì câu này phù hợp dùng 段差を取り除く (loại bỏ bậc thềm),.<br>• <b>3. イベントがうまく進むように、段取りしてください。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 階段/段差 (chỗ có bậc cấp).",
           "id": 63
         },
         {
@@ -930,7 +930,7 @@ window.JLPT_DATA[6] = {
             "ずっと謎に包まれていた担任の先生の過去が手渡しされ、驚いた。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>手渡し（てわたし）：</b>Trao tận tay, nhận tiền mặt trực tiếp.<br><b>Dịch câu đúng (3):</b> Trong 3 tháng đầu sau khi vào công ty, tiền lương sẽ được trao tận tay bằng tiền mặt.<br><i>Sửa các câu sai:</i> 1 dùng 手助け/介護 (chăm sóc mẹ), 2 dùng 投入 (cho nước giặt vào), 4 dùng 明らかに (được hé lộ/làm rõ).",
+          "explanation": "<b>手渡し（てわたし）：</b>Trao tận tay, nhận tiền mặt trực tiếp.<br><b>Dịch nghĩa:</b> Trong 3 tháng đầu sau khi vào công ty, tiền lương sẽ được trao tận tay bằng tiền mặt.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 手助け/介護 (chăm sóc mẹ),.<br>• 2. Sai vì câu này phù hợp dùng 投入 (cho nước giặt vào),.<br>• <b>3. 入社してから3か月間は、給料は手渡しされます。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 明らかに (được hé lộ/làm rõ).",
           "id": 64
         },
         {
@@ -944,7 +944,7 @@ window.JLPT_DATA[6] = {
             "仕事帰りに近くのスーパーへ遠回りして、夕飯の材料を買った。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>遠回り（とおまわり）：</b>Đi đường vòng, đi vòng vèo mất thời gian.<br><b>Dịch câu đúng (1):</b> Vì là nơi lần đầu tiên đến nên tôi đã nhầm đường và phải đi một vòng rất xa.<br><i>Sửa các câu sai:</i> 2 dùng 乗り換え (đổi chuyến bay), 3 dùng 見回り/巡回 (tuần tra bể bơi), 4 dùng 寄り道/立ち寄る (tạt qua siêu thị).",
+          "explanation": "<b>遠回り（とおまわり）：</b>Đi đường vòng, đi vòng vèo mất thời gian.<br><b>Dịch nghĩa:</b> Vì là nơi lần đầu tiên đến nên tôi đã nhầm đường và phải đi một vòng rất xa.<br><i>Phân tích các phương án:</i><br>• <b>1. 初めて行く場所だったので、道を間違えて遠回りしてしまった。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 乗り換え (đổi chuyến bay),.<br>• 3. Sai vì câu này phù hợp dùng 見回り/巡回 (tuần tra bể bơi),.<br>• 4. Sai vì câu này phù hợp dùng 寄り道/立ち寄る (tạt qua siêu thị).",
           "id": 65
         },
         {
@@ -958,7 +958,7 @@ window.JLPT_DATA[6] = {
             "もう少しで妻の誕生日なので、何を差し入れしようか迷っている。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>差し入れ（さしいれ）：</b>Đồ tiếp tế, đồ ăn thức uống đem đến bồi dưỡng/động viên người đang làm việc vất vả.<br><b>Dịch câu đúng (2):</b> Trưởng phòng đã cất công mang bánh ngọt đến tận hội trường sự kiện để tiếp tế cho mọi người.<br><i>Sửa các câu sai:</i> 1 dùng 差しかかる (đến gần 12h), 3 dùng 引き出す (rút tiền ATM), 4 dùng プレゼント (tặng quà sinh nhật).",
+          "explanation": "<b>差し入れ（さしいれ）：</b>Đồ tiếp tế, đồ ăn thức uống đem đến bồi dưỡng/động viên người đang làm việc vất vả.<br><b>Dịch nghĩa:</b> Trưởng phòng đã cất công mang bánh ngọt đến tận hội trường sự kiện để tiếp tế cho mọi người.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 差しかかる (đến gần 12h),.<br>• <b>2. イベント会場まで部長がわざわざお菓子を差し入れしてくれた。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 引き出す (rút tiền ATM),.<br>• 4. Sai vì câu này phù hợp dùng プレゼント (tặng quà sinh nhật).",
           "id": 66
         },
         {
@@ -972,7 +972,7 @@ window.JLPT_DATA[6] = {
             "おなかが空いていたので、店長にご飯を繁盛してもらった。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>繁盛（はんじょう）：</b>Buôn bán phát đạt, phồn thịnh, đông khách nườm nượp (商売繁盛).<br><b>Dịch câu đúng (3):</b> Tiệm bánh ngọt truyền thống này nghe nói là tiệm rất nổi tiếng, đông khách phát đạt từ sáng đến tối.<br><i>Sửa các câu sai:</i> 1 dùng 繁栄 (kinh đô phồn vinh), 2 dùng 繁殖 (cây sinh sôi nảy nở mạnh), 4 dùng 大盛りに (bới cơm đầy ngọn).",
+          "explanation": "<b>繁盛（はんじょう）：</b>Buôn bán phát đạt, phồn thịnh, đông khách nườm nượp (商売繁盛).<br><b>Dịch nghĩa:</b> Tiệm bánh ngọt truyền thống này nghe nói là tiệm rất nổi tiếng, đông khách phát đạt từ sáng đến tối.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 繁栄 (kinh đô phồn vinh),.<br>• 2. Sai vì câu này phù hợp dùng 繁殖 (cây sinh sôi nảy nở mạnh),.<br>• <b>3. この和菓子屋さんは、朝から夜まで繁盛している有名なお店だそうだ。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 大盛りに (bới cơm đầy ngọn).",
           "id": 67
         },
         {
@@ -986,7 +986,7 @@ window.JLPT_DATA[6] = {
             "有名な作曲家の発生100年を記念して、パーティーが開かれた。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>発生（はっせい）：</b>Phát sinh (chi phí, trục trặc, sự cố, tai nạn).<br><b>Dịch câu đúng (1):</b> Nếu trả muộn hơn thời hạn quy định, sẽ phát sinh thêm khoản phụ phí.<br><i>Sửa các câu sai:</i> 2 dùng 誕生 (cháu chào đời), 3 dùng 建てられた (xây dựng lên), 4 dùng 生誕 (kỷ niệm năm sinh).",
+          "explanation": "<b>発生（はっせい）：</b>Phát sinh (chi phí, trục trặc, sự cố, tai nạn).<br><b>Dịch nghĩa:</b> Nếu trả muộn hơn thời hạn quy định, sẽ phát sinh thêm khoản phụ phí.<br><i>Phân tích các phương án:</i><br>• <b>1. 返却期限に遅れると、追加料金が発生いたします。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 誕生 (cháu chào đời),.<br>• 3. Sai vì câu này phù hợp dùng 建てられた (xây dựng lên),.<br>• 4. Sai vì câu này phù hợp dùng 生誕 (kỷ niệm năm sinh).",
           "id": 68
         },
         {
@@ -1000,7 +1000,7 @@ window.JLPT_DATA[6] = {
             "明日は台風が来る予報なので、遠足は廃止になるだろう。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>廃止（はいし）：</b>Bãi bỏ, hủy bỏ (quy định, chế độ, môn học, tập tục cũ).<br><b>Dịch câu đúng (2):</b> Ở Nhật Bản, nghe nói số trường tiểu học bãi bỏ giờ học bơi đang ngày càng gia tăng.<br><i>Sửa các câu sai:</i> 1 dùng 休止 (tạm dừng hoạt động), 3 dùng 禁止/通行止め (cấm xe cộ qua lại), 4 dùng 中止 (chuyến dã ngoại bị hủy).",
+          "explanation": "<b>廃止（はいし）：</b>Bãi bỏ, hủy bỏ (quy định, chế độ, môn học, tập tục cũ).<br><b>Dịch nghĩa:</b> Ở Nhật Bản, nghe nói số trường tiểu học bãi bỏ giờ học bơi đang ngày càng gia tăng.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 休止 (tạm dừng hoạt động),.<br>• <b>2. 日本では、水泳の授業を廃止する小学校が増えているそうだ。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 禁止/通行止め (cấm xe cộ qua lại),.<br>• 4. Sai vì câu này phù hợp dùng 中止 (chuyến dã ngoại bị hủy).",
           "id": 69
         },
         {
@@ -1014,7 +1014,7 @@ window.JLPT_DATA[6] = {
             "日本にお越しになった際は、私が皆様をおいしいお店に導入いたします。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>導入（どうにゅう）：</b>Đưa vào áp dụng, trang bị công nghệ/hệ thống/máy móc mới.<br><b>Dịch câu đúng (1):</b> Kể từ khi công ty đưa vào sử dụng dàn máy tính đời mới nhất, công việc đã trở nên dễ dàng hơn nhiều.<br><i>Sửa các câu sai:</i> 2 dùng 案内 (dẫn vào phòng khách), 3 dùng 入場 (bước vào khán đài), 4 dùng 案内 (dẫn tới quán ngon).",
+          "explanation": "<b>導入（どうにゅう）：</b>Đưa vào áp dụng, trang bị công nghệ/hệ thống/máy móc mới.<br><b>Dịch nghĩa:</b> Kể từ khi công ty đưa vào sử dụng dàn máy tính đời mới nhất, công việc đã trở nên dễ dàng hơn nhiều.<br><i>Phân tích các phương án:</i><br>• <b>1. 会社に最新のパソコンを導入してから、仕事がしやすくなった。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 案内 (dẫn vào phòng khách),.<br>• 3. Sai vì câu này phù hợp dùng 入場 (bước vào khán đài),.<br>• 4. Sai vì câu này phù hợp dùng 案内 (dẫn tới quán ngon).",
           "id": 70
         },
         {
@@ -1028,7 +1028,7 @@ window.JLPT_DATA[6] = {
             "友人の結婚式で、高校のとき親しかった仲間が久しぶりに地元に団結した。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>団結（だんけつ）：</b>Đoàn kết, chung sức đồng lòng (チームが団結する).<br><b>Dịch câu đúng (1):</b> Lần này giành chức vô địch được, tôi nghĩ trên hết là nhờ cả đội đã có thể đoàn kết một lòng.<br><i>Sửa các câu sai:</i> 2 dùng 固定/縛る (buộc chặt hành lý), 3 dùng 団体 (đoàn khách trên 10 người), 4 dùng 集結/集まる (tập hợp bạn bè cũ).",
+          "explanation": "<b>団結（だんけつ）：</b>Đoàn kết, chung sức đồng lòng (チームが団結する).<br><b>Dịch nghĩa:</b> Lần này giành chức vô địch được, tôi nghĩ trên hết là nhờ cả đội đã có thể đoàn kết một lòng.<br><i>Phân tích các phương án:</i><br>• <b>1. 今回優勝できたのは、何よりもチームが団結することができたからだと思います。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 固定/縛る (buộc chặt hành lý),.<br>• 3. Sai vì câu này phù hợp dùng 団体 (đoàn khách trên 10 người),.<br>• 4. Sai vì câu này phù hợp dùng 集結/集まる (tập hợp bạn bè cũ).",
           "id": 71
         },
         {
@@ -1042,7 +1042,7 @@ window.JLPT_DATA[6] = {
             "今日はたくさん汗をかいたので、髪を洗練した。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>洗練（せんれん）：</b>Trau chuốt, tinh tế, mài giũa sắc sảo (洗練されたデザイン: thiết kế tinh tế lịch lãm).<br><b>Dịch câu đúng (2):</b> Chiếc đồng hồ anh ấy làm ra không chỉ tốt về công năng mà thiết kế tinh tế trau chuốt mới là điều hấp dẫn.<br><i>Sửa các câu sai:</i> 1 dùng 修行 (tu luyện trên núi), 3 dùng 練習/磨く (mài giũa tiếng Nhật), 4 dùng よく洗った (gội đầu kỹ).",
+          "explanation": "<b>洗練（せんれん）：</b>Trau chuốt, tinh tế, mài giũa sắc sảo (洗練されたデザイン: thiết kế tinh tế lịch lãm).<br><b>Dịch nghĩa:</b> Chiếc đồng hồ anh ấy làm ra không chỉ tốt về công năng mà thiết kế tinh tế trau chuốt mới là điều hấp dẫn.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 修行 (tu luyện trên núi),.<br>• <b>2. 彼が作る時計は、機能性はもちろんのだが、洗練されたデザインが魅力的だ。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 練習/磨く (mài giũa tiếng Nhật),.<br>• 4. Sai vì câu này phù hợp dùng よく洗った (gội đầu kỹ).",
           "id": 72
         },
         {
@@ -1056,7 +1056,7 @@ window.JLPT_DATA[6] = {
             "社長が会議室にお見えですので、焦って来てください。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>焦る（あせる）：</b>Cuống cuồng, hấp tấp, nóng vội lo lắng.<br><b>Dịch câu đúng (2):</b> Khi không có thời gian mà cuống cuồng chuẩn bị thì thể nào cũng để quên đồ gì đó.<br><i>Sửa các câu sai:</i> 1 dùng 黙っていた (giữ im lặng), 3 dùng 焦げる（こげる - cháy khét món ăn）, 4 dùng 急いで (nhanh chân đến).",
+          "explanation": "<b>焦る（あせる）：</b>Cuống cuồng, hấp tấp, nóng vội lo lắng.<br><b>Dịch nghĩa:</b> Khi không có thời gian mà cuống cuồng chuẩn bị thì thể nào cũng để quên đồ gì đó.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 黙っていた (giữ im lặng),.<br>• <b>2. 時間がないときに焦って準備をすると、必ず何か忘れ物をしてしまう。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 焦げる（こげる - cháy khét món ăn）,.<br>• 4. Sai vì câu này phù hợp dùng 急いで (nhanh chân đến).",
           "id": 73
         },
         {
@@ -1070,7 +1070,7 @@ window.JLPT_DATA[6] = {
             "雨の時期はいくら洗濯物を干しても、服が乾かず湿ったままで困る。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>湿る（しめる）：</b>Ẩm ướt, chưa khô hẳn (服が湿ったままで).<br><b>Dịch câu đúng (4):</b> Mùa mưa thì dù có phơi quần áo thế nào đồ cũng không khô mà cứ ẩm ướt mãi thật phiền phức.<br><i>Sửa các câu sai:</i> 1 dùng こぼれて (bia tràn ra), 2 dùng 悲しい/切ない (buồn đau lòng), 3 dùng 浸かって (ngâm mình trong suối nước nóng).",
+          "explanation": "<b>湿る（しめる）：</b>Ẩm ướt, chưa khô hẳn (服が湿ったままで).<br><b>Dịch nghĩa:</b> Mùa mưa thì dù có phơi quần áo thế nào đồ cũng không khô mà cứ ẩm ướt mãi thật phiền phức.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng こぼれて (bia tràn ra),.<br>• 2. Sai vì câu này phù hợp dùng 悲しい/切ない (buồn đau lòng),.<br>• 3. Sai vì câu này phù hợp dùng 浸かって (ngâm mình trong suối nước nóng).<br>• <b>4. 雨の時期はいくら洗濯物を干しても、服が乾かず湿ったままで困る。: [Đúng ngữ cảnh]</b>",
           "id": 74
         },
         {
@@ -1084,7 +1084,7 @@ window.JLPT_DATA[6] = {
             "付き合って10年目の記念日に彼からプロポーズをされ、気持ちが至って泣いてしまった。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>至る（いたる）：</b>Đạt đến, đi đến kết quả sau một quá trình (〜に至るまで).<br><b>Dịch câu đúng (1):</b> Tôi xin phép kể câu chuyện từ khi còn là kẻ thất nghiệp cho đến khi thành lập được công ty riêng.<br><i>Sửa các câu sai:</i> 2 dùng 居る/過ごす (ở quán cafe), 3 dùng 着く (đến công ty), 4 dùng 感極まって (cảm xúc trào dâng).",
+          "explanation": "<b>至る（いたる）：</b>Đạt đến, đi đến kết quả sau một quá trình (〜に至るまで).<br><b>Dịch nghĩa:</b> Tôi xin phép kể câu chuyện từ khi còn là kẻ thất nghiệp cho đến khi thành lập được công ty riêng.<br><i>Phân tích các phương án:</i><br>• <b>1. 無職だった私が、会社を立ち上げるに至るまでのお話をいたします。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 居る/過ごす (ở quán cafe),.<br>• 3. Sai vì câu này phù hợp dùng 着く (đến công ty),.<br>• 4. Sai vì câu này phù hợp dùng 感極まって (cảm xúc trào dâng).",
           "id": 75
         },
         {
@@ -1098,7 +1098,7 @@ window.JLPT_DATA[6] = {
             "食事も睡眠も忘れてしまうほど、日本のアニメに潜ってしまった。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>潜る（もぐる）：</b>Lặn xuống biển/nước (海に潜る).<br><b>Dịch câu đúng (2):</b> Tôi muốn thử lặn xuống làn nước biển trong xanh ở hòn đảo phía nam và tự tay bắt lấy những chú cá.<br><i>Sửa các câu sai:</i> 1 dùng おぼれて (bị chìm/đuối nước), 3 dùng こもって (giam mình trong phòng), 4 dùng 夢中になって (say mê anime).",
+          "explanation": "<b>潜る（もぐる）：</b>Lặn xuống biển/nước (海に潜る).<br><b>Dịch nghĩa:</b> Tôi muốn thử lặn xuống làn nước biển trong xanh ở hòn đảo phía nam và tự tay bắt lấy những chú cá.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng おぼれて (bị chìm/đuối nước),.<br>• <b>2. 南の島のきれいな海に潜って、自分の手で魚をつかまえてみたい。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng こもって (giam mình trong phòng),.<br>• 4. Sai vì câu này phù hợp dùng 夢中になって (say mê anime).",
           "id": 76
         },
         {
@@ -1112,7 +1112,7 @@ window.JLPT_DATA[6] = {
             "どんな理由があったとしても、人の顔を強く暴くことは許されることではない。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>暴く（あばく）：</b>Vạch trần, phơi bày ra ánh sáng (tội ác, vụ việc mờ ám, bí mật: 不正を暴く).<br><b>Dịch câu đúng (2):</b> Tôi đang gom góp chứng cứ để vạch trần hành vi bất chính của các chính trị gia.<br><i>Sửa các câu sai:</i> 1 dùng 暴れて（あばれて - ngựa nổi điên giãy giụa）, 3 dùng 解いて（といて - giải bài toán）, 4 dùng 殴る（なぐる - đấm vào mặt người khác）.",
+          "explanation": "<b>暴く（あばく）：</b>Vạch trần, phơi bày ra ánh sáng (tội ác, vụ việc mờ ám, bí mật: 不正を暴く).<br><b>Dịch nghĩa:</b> Tôi đang gom góp chứng cứ để vạch trần hành vi bất chính của các chính trị gia.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 暴れて（あばれて - ngựa nổi điên giãy giụa）,.<br>• <b>2. 政治家の不正を暴くために、証拠を集めているところだ。: [Đúng ngữ cảnh]</b><br>• 3. Sai vì câu này phù hợp dùng 解いて（といて - giải bài toán）,.<br>• 4. Sai vì câu này phù hợp dùng 殴る（なぐる - đấm vào mặt người khác）.",
           "id": 77
         },
         {
@@ -1126,7 +1126,7 @@ window.JLPT_DATA[6] = {
             "買ったズボンが少し長くてはきにくいので、母に略してもらった。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>略す（りゃくす）：</b>Rút ngắn, viết tắt, lược bớt (nói tắt).<br><b>Dịch câu đúng (3):</b> Từ \"Kintore\" là cách nói rút gọn từ \"Kinryoku Toreeningu\" (luyện tập thể lực cơ bắp).<br><i>Sửa các câu sai:</i> 1 dùng 短縮する/節約する (tiết kiệm thời gian), 2 dùng 狭くなって (phòng chật hơn), 4 dùng 短くして/裾上げ (cắt ngắn gấu quần).",
+          "explanation": "<b>略す（りゃくす）：</b>Rút ngắn, viết tắt, lược bớt (nói tắt).<br><b>Dịch nghĩa:</b> Từ \"Kintore\" là cách nói rút gọn từ \"Kinryoku Toreeningu\" (luyện tập thể lực cơ bắp).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 短縮する/節約する (tiết kiệm thời gian),.<br>• 2. Sai vì câu này phù hợp dùng 狭くなって (phòng chật hơn),.<br>• <b>3. 「筋トレ」という言葉は「筋力トレーニング」を略した言い方だ。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 短くして/裾上げ (cắt ngắn gấu quần).",
           "id": 78
         },
         {
@@ -1140,7 +1140,7 @@ window.JLPT_DATA[6] = {
             "このストーブには、火事を妨げるための様々な機能が付いている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>妨げる（さまたげる）：</b>Gây trở ngại, ngăn cản sự phát triển/tiến trình (成長を妨げる, 進行を妨げる).<br><b>Dịch câu đúng (3):</b> Chơi game quá mức sẽ dẫn đến việc cản trở sự phát triển lành mạnh của trẻ nhỏ.<br><i>Sửa các câu sai:</i> 1 dùng 止めた（とめた - can ngăn）, 2 dùng 遮る（さえぎる - chắn ánh sáng）, 4 dùng 防ぐ（ふせぐ - phòng chống hỏa hoạn）.",
+          "explanation": "<b>妨げる（さまたげる）：</b>Gây trở ngại, ngăn cản sự phát triển/tiến trình (成長を妨げる, 進行を妨げる).<br><b>Dịch nghĩa:</b> Chơi game quá mức sẽ dẫn đến việc cản trở sự phát triển lành mạnh của trẻ nhỏ.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 止めた（とめた - can ngăn）,.<br>• 2. Sai vì câu này phù hợp dùng 遮る（さえぎる - chắn ánh sáng）,.<br>• <b>3. ゲームのやりすぎは、子どもの成長を妨げることにつながる。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 防ぐ（ふせぐ - phòng chống hỏa hoạn）.",
           "id": 79
         },
         {
@@ -1154,7 +1154,7 @@ window.JLPT_DATA[6] = {
             "夏は一日中クーラーをつけているので、電気代が高まってしまう。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>高まる（たかまる）：</b>Dâng cao, tăng lên (mức độ trừu tượng: 関心、緊張、期待が高まる).<br><b>Dịch câu đúng (3):</b> Cùng với sự bùng phát của chủng virus mới, sự quan tâm đối với các biện pháp phòng chống dịch ở các quốc gia đang dâng cao.<br><i>Sửa các câu sai:</i> 1 dùng 伸びて (chiều cao phát triển), 2 dùng 昇進する (thăng chức), 4 dùng 高くなって (tiền điện tăng cao).",
+          "explanation": "<b>高まる（たかまる）：</b>Dâng cao, tăng lên (mức độ trừu tượng: 関心、緊張、期待が高まる).<br><b>Dịch nghĩa:</b> Cùng với sự bùng phát của chủng virus mới, sự quan tâm đối với các biện pháp phòng chống dịch ở các quốc gia đang dâng cao.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì câu này phù hợp dùng 伸びて (chiều cao phát triển),.<br>• 2. Sai vì câu này phù hợp dùng 昇進する (thăng chức),.<br>• <b>3. 新型ウイルスの流行とともに、各国の対策法への関心が高まっている。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì câu này phù hợp dùng 高くなって (tiền điện tăng cao).",
           "id": 80
         },
         {
@@ -1168,7 +1168,7 @@ window.JLPT_DATA[6] = {
             "ゼミの先生は厳しい人なので、目立って私のレポートをチェックしてくれた。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>目立つ（めだつ）：</b>Nổi bật, đập vào mắt người nhìn.<br><b>Dịch câu đúng (1):</b> Cô ấy vừa có vóc dáng đẹp lại vừa xinh đẹp nên trong lớp học lúc nào cũng đặc biệt nổi bật.<br><i>Sửa các câu sai:</i> 2 dùng 怒らないで (đừng nổi giận), 3 dùng 目がさえて (mắt tỉnh như sáo), 4 dùng 細かく (chấm bài kỹ càng).",
+          "explanation": "<b>目立つ（めだつ）：</b>Nổi bật, đập vào mắt người nhìn.<br><b>Dịch nghĩa:</b> Cô ấy vừa có vóc dáng đẹp lại vừa xinh đẹp nên trong lớp học lúc nào cũng đặc biệt nổi bật.<br><i>Phân tích các phương án:</i><br>• <b>1. スタイルが良くて美人の彼女は、教室の中でも特に目立っている。: [Đúng ngữ cảnh]</b><br>• 2. Sai vì câu này phù hợp dùng 怒らないで (đừng nổi giận),.<br>• 3. Sai vì câu này phù hợp dùng 目がさえて (mắt tỉnh như sáo),.<br>• 4. Sai vì câu này phù hợp dùng 細かく (chấm bài kỹ càng).",
           "id": 81
         }
       ]
@@ -1189,7 +1189,7 @@ window.JLPT_DATA[6] = {
             "に関して"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Cấu trúc:</b> ～にもかかわらず (Mặc dù... thế nhưng). Diễn tả sự việc trái với dự đoán thông thường.<br><b>Dịch nghĩa:</b> Mặc dù thông báo rất gấp gáp, vậy mà nhiều bạn bè đã tập hợp đến đông đủ.",
+          "explanation": "<b>Cấu trúc:</b> <code>〜にもかかわらず</code> (Mặc dù... thế nhưng - vế sau trái với kỳ vọng thông thường).<br><b>Dịch nghĩa:</b> Mặc dù thông báo rất gấp gáp, vậy mà nhiều bạn bè đã tập hợp đến đông đủ.<br><i>Phân tích các phương án:</i><br>• 1. にともない: Cùng với, đi kèm với (sự biến đổi)<br>• <b>2. にもかかわらず: Mặc dù... nhưng (diễn tả sự việc bất chấp hoàn cảnh) [Đúng]</b><br>• 3. につれて: Càng... càng... (tỉ lệ thuận)<br>• 4. に関して: Về, liên quan tới",
           "id": 82
         },
         {
@@ -1203,7 +1203,7 @@ window.JLPT_DATA[6] = {
             "だが"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc:</b> したがって (Do đó, vì vậy). Nối hai vế quan hệ nhân quả logic một cách trang trọng.<br><b>Dịch nghĩa:</b> Mua loại thuốc này cần có sự cho phép của bác sĩ. Do đó, bạn không thể thoải mái mua nó ở hiệu thuốc được.",
+          "explanation": "<b>Cấu trúc:</b> <code>したがって</code> (Do đó, vì vậy - liên từ chỉ quan hệ nhân quả logic một cách trang trọng).<br><b>Dịch nghĩa:</b> Mua loại thuốc này cần có sự cho phép của bác sĩ. Do đó, bạn không thể thoải mái mua nó ở hiệu thuốc được.<br><i>Phân tích các phương án:</i><br>• 1. ところで: Nhân tiện, tiện thể (chuyển đổi đề tài đột ngột)<br>• 2. 一方: Mặt khác, trái lại (so sánh hai khía cạnh)<br>• <b>3. したがって: Do đó, chính vì vậy (nối hệ quả tất yếu mang tính trang trọng) [Đúng]</b><br>• 4. だが: Nhưng (biểu thị quan hệ tương phản)",
           "id": 83
         },
         {
@@ -1217,7 +1217,7 @@ window.JLPT_DATA[6] = {
             "増えるに越したことはない"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc:</b> V-る + ばかりだ (Chỉ toàn có xu hướng ngày càng... theo chiều hướng tiêu cực).<br><b>Dịch nghĩa:</b> Xét tình hình giá nguyên liệu tăng, nếu cứ giữ mức giá hiện tại thì càng bán ra chỉ càng lỗ nặng thêm.",
+          "explanation": "<b>Cấu trúc:</b> <code>V-る + ばかりだ</code> (Chỉ toàn có xu hướng ngày càng... theo chiều hướng xấu đi).<br><b>Dịch nghĩa:</b> Xét tình hình giá nguyên liệu tăng, nếu cứ giữ mức giá hiện tại thì càng bán ra chỉ càng lỗ nặng thêm.<br><i>Phân tích các phương án:</i><br>• <b>1. 増えるばかりだ: Càng ngày chỉ càng gia tăng khoản lỗ [Đúng]</b><br>• 2. 増えようとしている: Đang chuẩn bị tăng lên (ý chí hành động)<br>• 3. 増えてもかまわない: Dẫu có tăng cũng không sao (sai logic ngữ cảnh thua lỗ)<br>• 4. 増えるに越したことはない: Tăng lên thì tốt nhất (hoàn toàn ngược nghĩa)",
           "id": 84
         },
         {
@@ -1231,7 +1231,7 @@ window.JLPT_DATA[6] = {
             "ことか"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Cấu trúc:</b> N + のことだから (Chính vì là... người nổi tiếng với tính cách đó, nên chắc chắn...).<br><b>Dịch nghĩa:</b> Chính vì là cô ấy - một người cực kỳ nghiêm khắc về giờ giấc - nên chắc chắn là đã đến trước 30 phút rồi.",
+          "explanation": "<b>Cấu trúc:</b> <code>N + のことだから</code> (Chính vì là người nổi tiếng với tính cách đó, nên chắc chắn...).<br><b>Dịch nghĩa:</b> Chính vì là cô ấy - một người cực kỳ nghiêm khắc về giờ giấc - nên chắc chắn là đã đến trước 30 phút rồi.<br><i>Phân tích các phương án:</i><br>• 1. ことから: Căn cứ từ việc (đưa ra manh mối phán đoán nguồn gốc)<br>• <b>2. ことだから: Chính vì là tính cách/bản chất của ai đó [Đúng]</b><br>• 3. ことには: Cực kỳ... (thể hiện cảm xúc)<br>• 4. ことか: Biết bao nhiêu (cảm thán mức độ: どんなに...ことか)",
           "id": 85
         },
         {
@@ -1245,7 +1245,7 @@ window.JLPT_DATA[6] = {
             "期待させられている"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc:</b> Bị động khách quan: ～が期待されている (Được mọi người/dư luận kỳ vọng).<br><b>Dịch nghĩa:</b> Tại kỳ Olympic tiếp theo, sự tỏa sáng của tuyển thủ Yoshida đang rất được công chúng kỳ vọng.",
+          "explanation": "<b>Cấu trúc:</b> <code>〜が期待されている（きたいされている）</code> (Đang được dư luận/mọi người kỳ vọng - thể bị động khách quan).<br><b>Dịch nghĩa:</b> Tại kỳ Olympic tiếp theo, sự tỏa sáng của tuyển thủ Yoshida đang rất được công chúng kỳ vọng.<br><i>Phân tích các phương án:</i><br>• 1. 期待している: Tuyển thủ tự kỳ vọng (chủ ngữ là 活躍 nên không thể tự kỳ vọng được)<br>• 2. 期待させている: Bắt ai đó phải kỳ vọng (sai dạng thể sai khiến)<br>• <b>3. 期待されている: Được mọi người/công chúng đặt nhiều kỳ vọng [Đúng]</b><br>• 4. 期待させられている: Bị bắt phải kỳ vọng (thể sai khiến bị động không phù hợp)",
           "id": 86
         },
         {
@@ -1265,7 +1265,7 @@ window.JLPT_DATA[6] = {
             "くらいで"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc:</b> V-thể ngắn + からには (Một khi đã... thì phải chịu trách nhiệm thực hiện đến cùng).<br><b>Dịch nghĩa:</b> Một khi đã nói sẽ tham gia buổi nhậu thì dù có bị muộn cũng phải đến.",
+          "explanation": "<b>Cấu trúc:</b> <code>V-thể ngắn + からには</code> (Một khi đã... thì phải chịu trách nhiệm làm cho đến cùng).<br><b>Dịch nghĩa:</b> Một khi đã nói sẽ tham gia buổi nhậu thì dù có bị muộn cũng phải đến.<br><i>Phân tích các phương án:</i><br>• 1. とかで: Nghe nói là vì... (thông tin mơ hồ không chắc chắn)<br>• 2. あまり: Vì quá... nên dẫn tới kết quả xấu<br>• <b>3. からには: Một khi đã... thì bắt buộc phải có trách nhiệm [Đúng]</b><br>• 4. くらいで: Chỉ vì mức độ nhỏ nhặt như thế mà",
           "id": 87
         },
         {
@@ -1279,7 +1279,7 @@ window.JLPT_DATA[6] = {
             "だけに"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc:</b> V-た + だけで (Chỉ cần... là đã).<br><b>Dịch nghĩa:</b> Chỉ cần nghe qua một lần mà đã có thể biểu diễn được ngay, quả đúng là đẳng cấp dân chuyên nghiệp.",
+          "explanation": "<b>Cấu trúc:</b> <code>V-た + だけで</code> (Chỉ cần... là đã có thể).<br><b>Dịch nghĩa:</b> Chỉ cần nghe qua một lần mà đã có thể biểu diễn được ngay, quả đúng là đẳng cấp dân chuyên nghiệp.<br><i>Phân tích các phương án:</i><br>• 1. だけあって: Quả xứng danh là (vế trước phải là danh từ chỉ thân phận: プロであるだけあって)<br>• 2. だけ: Chỉ (thiếu trợ từ chỉ phương tiện/căn cứ で)<br>• <b>3. だけで: Chỉ cần nghe một lần là đã làm được [Đúng]</b><br>• 4. だけに: Chính vì lý do đặc thù nên càng...",
           "id": 88
         },
         {
@@ -1293,7 +1293,7 @@ window.JLPT_DATA[6] = {
             "にかかわって"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc:</b> N + に対して（たいして） (Đối với đối tượng nào đó, hành động hướng về ai).<br><b>Dịch nghĩa:</b> Đối với người bề trên, tôi luôn cố gắng sử dụng kính ngữ.",
+          "explanation": "<b>Cấu trúc:</b> <code>N + に対しては（たいしては）</code> (Đối với đối tượng nào đó, thái độ hành vi hướng về ai).<br><b>Dịch nghĩa:</b> Đối với người bề trên, tôi luôn cố gắng sử dụng kính ngữ chuẩn mực.<br><i>Phân tích các phương án:</i><br>• <b>1. に対しては: Đối với (thái độ cư xử hướng đến đối tượng) [Đúng]</b><br>• 2. にとっては: Đứng trên lập trường quan điểm của ai để đánh giá (私にとっては: đối với tôi)<br>• 3. にあたって: Nhân dịp, khi chuẩn bị sự kiện trọng đại<br>• 4. にかかわって: Liên quan dính líu tới",
           "id": 89
         },
         {
@@ -1307,7 +1307,7 @@ window.JLPT_DATA[6] = {
             "ないわけにはいかない"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc:</b> ～ないこともない (Không phải là không có, cũng có thể có chút ít...). Phủ định kép để biểu thị ý khẳng định nhẹ.<br><b>Dịch nghĩa:</b> Ngày mai không phải là tôi không có thời gian, nhưng thấy có vẻ vất vả lằng nhằng nên tôi đã quyết định không tham gia sự kiện đó.",
+          "explanation": "<b>Cấu trúc:</b> <code>〜ないこともない</code> (Không phải là không... - phủ định kép để biểu thị khẳng định nhẹ/ngại ngùng).<br><b>Dịch nghĩa:</b> Ngày mai không phải là tôi không có thời gian, nhưng thấy có vẻ vất vả lằng nhằng nên tôi đã quyết định không tham gia sự kiện đó.<br><i>Phân tích các phương án:</i><br>• <b>1. ないこともない: Không phải là không có (vẫn có chút ít thời gian) [Đúng]</b><br>• 2. ないとは限らない: Không hẳn là không có (dùng cho quy luật tổng quát)<br>• 3. ないどころではない: Không phải ở mức không có (ngược nghĩa hoàn toàn)<br>• 4. ないわけにはいかない: Không thể không làm (bắt buộc phải làm)",
           "id": 90
         },
         {
@@ -1321,7 +1321,7 @@ window.JLPT_DATA[6] = {
             "際"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc:</b> N + のもとで (Dưới sự chỉ đạo / dưới quyền / dưới sự dạy dỗ của ai).<br><b>Dịch nghĩa:</b> Dưới sự lãnh đạo của vị giám đốc mới, tất cả chúng ta hãy cùng nhau chung sức làm việc nào!",
+          "explanation": "<b>Cấu trúc:</b> <code>N + のもとで</code> (Dưới sự lãnh đạo / chỉ đạo / dìu dắt của ai).<br><b>Dịch nghĩa:</b> Dưới sự lãnh đạo của vị giám đốc mới, tất cả chúng ta hãy cùng nhau chung sức làm việc nào!<br><i>Phân tích các phương án:</i><br>• 1. 折: Vào dịp, vào thời điểm (mang tính trang trọng thời gian)<br>• 2. 上で: Sau khi... / Về phương diện nào đó<br>• <b>3. もとで: 新しい社長のもとで (dưới sự chỉ đạo/lãnh đạo của sếp mới) [Đúng]</b><br>• 4. 際: Khi, nhân dịp",
           "id": 91
         },
         {
@@ -1335,7 +1335,7 @@ window.JLPT_DATA[6] = {
             "というか気が利くというか"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Cấu trúc:</b> ～というか～というか (Vừa có vẻ như là... lại vừa có vẻ là... tóm lại là).<br><b>Dịch nghĩa:</b> Cô ấy vừa là người biết nghĩ cho người khác lại vừa tinh tế tháo vát, tóm lại là một đối tác làm việc tuyệt vời nhất.",
+          "explanation": "<b>Cấu trúc:</b> <code>〜というか〜というか</code> (Vừa có vẻ như là... lại vừa có vẻ là... tóm lại là).<br><b>Dịch nghĩa:</b> Cô ấy vừa là người biết nghĩ cho người khác lại vừa tinh tế tháo vát, tóm lại là một đối tác làm việc tuyệt vời nhất.<br><i>Phân tích các phương án:</i><br>• 1. だの〜だの: Nào là... nào là... (mang sắc thái liệt kê phàn nàn chê bai)<br>• 2. にしろ〜にしろ: Dẫu là... hay là... (nhượng bộ giả định)<br>• 3. にせよ〜にせよ: Cho dù là... hay là... (nhượng bộ trang trọng)<br>• <b>4. というか〜というか: Vừa có thể nói là... mà cũng có thể nói là... [Đúng]</b>",
           "id": 92
         },
         {
@@ -1349,7 +1349,7 @@ window.JLPT_DATA[6] = {
             "お招きいただき"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Cấu trúc:</b> Kính ngữ khách sáo: お招きいただき（おまねきいただき） (Cảm ơn vì đã mời tôi đến...).<br><b>Dịch nghĩa:</b> Khách mời: \"Hôm nay cảm ơn quý vị rất nhiều vì đã mời tôi đến dự một bữa tiệc tuyệt vời như thế này.\" - Chủ tiệc: \"Dạ không có gì đâu ạ. Mời bác cứ tự nhiên vui vẻ nhé!\"",
+          "explanation": "<b>Cấu trúc:</b> <code>お招きいただき（おまねきいただき）</code> (Kính ngữ khiêm nhường: Được quý vị đoái hoài mời đến dự).<br><b>Dịch nghĩa:</b> Khách mời: \"Hôm nay cảm ơn quý vị rất nhiều vì đã mời tôi đến dự một bữa tiệc tuyệt vời như thế này.\" - Chủ tiệc: \"Dạ không có gì đâu ạ. Mời bác cứ tự nhiên vui vẻ nhé!\"<br><i>Phân tích các phương án:</i><br>• 1. いらっしゃってくださり: Tôn kính ngữ chỉ hành động đối phương đến (đây là lời khách mời cảm ơn vì được mời)<br>• 2. おいでくださり: Tôn kính ngữ mời người khác đến<br>• 3. お越しいただき: Cảm ơn vì khách đã cất công đến (lời của chủ tiệc nói với khách)<br>• <b>4. お招きいただき: Cảm ơn quý vị vì đã mời tôi đến bữa tiệc [Đúng lời khách mời]</b>",
           "id": 93
         },
         {
@@ -1384,7 +1384,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Bất kể là môn thể thao nào, việc luyện tập hàng ngày là không thể thiếu thì đương nhiên rồi, thế nhưng nếu tập sai phương pháp thì dù tốn bao nhiêu thời gian cũng khó mà tiến bộ được.",
+          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Dịch nghĩa:</b> Dù là bất kỳ môn thể thao nào, việc luyện tập hàng ngày là điều đương nhiên không thể thiếu để tiến bộ, thế nhưng nếu tập bằng phương pháp sai lầm thì dù tốn thời gian cũng khó mà giỏi lên được.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. もちろんだが: Mảnh ghép liên kết trong câu<br>• <b>2. 欠かせないのは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 上達に: Mảnh ghép liên kết trong câu<br>• 4. 間違った方法で: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 2) là phương án <b>2 (欠かせないのは)</b>.",
           "id": 94
         },
         {
@@ -1419,7 +1419,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> 彼女の <b>[ことなら(1)] [どんなに(4)] [★ 小さな(2)] [ことでも(3)]</b> 知りたいと言っている。<br><b>Cấu trúc:</b> Nのことなら (nếu là chuyện về ai) + どんなに～ても (dù có... đến mức nào đi chăng nữa).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Anh ấy nói rằng hễ là chuyện về cô ấy thì dù là điều nhỏ nhặt đến đâu anh ấy cũng đều muốn biết.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女の <b>[ことなら(1)] [どんなに(4)] [★ 小さな(2)] [ことでも(3)]</b> 知りたいと言っている。<br><b>Cấu trúc:</b> Nのことなら (nếu là chuyện về ai) + どんなに～ても (dù có... đến mức nào đi chăng nữa).<br><b>Dịch nghĩa:</b> Chị gái tôi là fan cuồng của ca sĩ Akagawa Kei, chị ấy bảo rằng nếu là chuyện về cô ấy thì dù là điều nhỏ nhặt nhất chị ấy cũng đều muốn biết.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. ことなら: Mảnh ghép liên kết trong câu<br>• <b>2. 小さな: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. ことでも: Mảnh ghép liên kết trong câu<br>• 4. どんなに: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>1 - 4 - 2 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>2 (小さな)</b>.",
           "id": 95
         },
         {
@@ -1454,7 +1454,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> 今晩 <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì tối nay cũng phải làm cho xong).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Tối nay dù có phải thức trắng đêm đi chăng nữa thì tôi cũng phải làm cho xong việc này.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 今晩 <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì tối nay cũng phải làm cho xong).<br><b>Dịch nghĩa:</b> Bản báo cáo hạn chót là chiều mai mà vẫn chưa làm xong. Ngày mai học cả ngày không có thời gian nên tối nay dù có phải thức trắng đêm đi nữa thì tôi cũng phải làm cho xong.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 終わらせて: Mảnh ghép liên kết trong câu<br>• 2. 徹夜して: Mảnh ghép liên kết trong câu<br>• 3. しまわないと: Mảnh ghép liên kết trong câu<br>• <b>4. でも: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 2) là phương án <b>4 (でも)</b>.",
           "id": 96
         },
         {
@@ -1489,7 +1489,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> 田中さんは <b>[家族全員が(1)] [★ みかんが(4)] [大好物な(2)] [こともあって(3)]</b>、冬はいつもみかんを大量に買うそうだ。<br><b>Cấu trúc:</b> ～こともあって (Một phần cũng vì lý do là...).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Nghe nói anh Tanaka một phần cũng vì cả nhà ai cũng đều cực kỳ thích ăn quýt, nên mùa đông lúc nào anh ấy cũng mua quýt với số lượng lớn.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 田中さんは <b>[家族全員が(1)] [★ みかんが(4)] [大好物な(2)] [こともあって(3)]</b>、冬はいつもみかんを大量に買うそうだ。<br><b>Cấu trúc:</b> ～こともあって (Một phần cũng vì lý do là...).<br><b>Dịch nghĩa:</b> Chị Tanaka một phần cũng vì cả nhà đều cực kỳ mê món quýt, nên mùa đông lúc nào cũng mua về cả đống quýt.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 家族全員が: Mảnh ghép liên kết trong câu<br>• 2. 大好物な: Mảnh ghép liên kết trong câu<br>• 3. こともあって: Mảnh ghép liên kết trong câu<br>• <b>4. みかんが: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>1 - 4 - 2 - 3</b>. Vị trí ngôi sao ★ (vị trí 2) là phương án <b>4 (みかんが)</b>.",
           "id": 97
         },
         {
@@ -1524,7 +1524,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> 私は、中学生になった頃から <b>[次第に(4)] [医学に興味を持ち始め(2)] [★ 高校に入ったときには(3)] [将来(1)]</b> 医者になろうと決めていた。<br><b>Cấu trúc:</b> Từ khi vào cấp 2 dần dần có hứng thú với y học, và đến khi lên cấp 3 thì đã quyết định tương lai sẽ làm bác sĩ.<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Tôi từ hồi vào học cấp hai đã dần dần có hứng thú với y học, và đến khi lên cấp ba thì tôi đã quyết định tương lai sẽ trở thành một bác sĩ.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 私は、中学生になった頃から <b>[次第に(4)] [医学に興味を持ち始め(2)] [★ 高校に入ったときには(3)] [将来(1)]</b> 医者になろうと決めていた。<br><b>Cấu trúc:</b> Từ khi vào cấp 2 dần dần có hứng thú với y học, và đến khi lên cấp 3 thì đã quyết định tương lai sẽ làm bác sĩ.<br><b>Dịch nghĩa:</b> Từ hồi học cấp 2 tôi đã dần dần có hứng thú với y học, và đến khi lên cấp 3 thì tôi đã quyết định tương lai sẽ trở thành bác sĩ.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 将来: Mảnh ghép liên kết trong câu<br>• 2. 医学に興味を持ち始め: Mảnh ghép liên kết trong câu<br>• <b>3. 高校に入ったときには: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 次第に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (高校に入ったときには)</b>.",
           "id": 98
         },
         {
@@ -1559,7 +1559,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのような + N (hoặc まるで〜かのように + V/A): Cứ hệt như là... (Vì phía sau là danh từ 「降り方」 nên dùng 「かのような」 bổ nghĩa).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Cơn mưa xối xả trút xuống dữ dội cứ như thể có ai đó đang úp ngược cả xô nước từ trên trời xuống vậy.",
+          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのような + N (hoặc まるで〜かのように + V/A): Cứ hệt như là... (Vì phía sau là danh từ 「降り方」 nên dùng 「かのような」 bổ nghĩa).<br><b>Dịch nghĩa:</b> Cơn mưa trút xuống ào ạt hệt như là ai đó vừa lật úp cả xô nước xuống vậy.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. ひっくり返した: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. かのような: Mảnh ghép liên kết trong câu<br>• 3. まるで: Mảnh ghép liên kết trong câu<br>• 4. バケツの水を: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 4 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (ひっくり返した)</b>.",
           "id": 99
         },
         {
@@ -1594,7 +1594,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> 来週の引越しの手伝い <b>[は(1)] [3人(4)] [★ も(2)] [いれば(3)]</b> 十分だ。<br><b>Cấu trúc:</b> Số lượng + も + V-ば (Chỉ cần có chừng ấy người là đủ).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Về việc phụ giúp chuyển nhà vào tuần tới, chỉ cần có khoảng 3 người thôi là đã quá đủ rồi.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 来週の引越しの手伝い <b>[は(1)] [3人(4)] [★ も(2)] [いれば(3)]</b> 十分だ。<br><b>Cấu trúc:</b> Số lượng + も + V-ば (Chỉ cần có chừng ấy người là đủ).<br><b>Dịch nghĩa:</b> Việc giúp chuyển nhà vào tuần tới thì chỉ cần có khoảng 3 người là đủ rồi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. は: Mảnh ghép liên kết trong câu<br>• <b>2. も: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. いれば: Mảnh ghép liên kết trong câu<br>• 4. 3人: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>1 - 4 - 2 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>2 (も)</b>.",
           "id": 100
         },
         {
@@ -1629,7 +1629,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> 映画を <b>[テレビでしか見ない(2)] [人にして見れば(1)] [★ 映画館で(4)] [見る人(3)]</b> の気持ちがわからない。<br><b>Cấu trúc:</b> N + にしてみれば (Đứng trên lập trường/góc độ của ai đó mà nói...).<br><b>Dịch nghĩa:</b> Đứng từ góc độ của những người chỉ xem phim trên tivi mà nói, họ không thể hiểu nổi tâm lý của những người ra rạp xem phim.<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> 映画を <b>[テレビでしか見ない(2)] [人にして見れば(1)] [★ 映画館で(4)] [見る人(3)]</b> の気持ちがわからない。<br><b>Cấu trúc:</b> N + にしてみれば (Đứng trên lập trường/góc độ của ai đó mà nói...).<br><b>Dịch nghĩa:</b> Đứng từ góc độ của những người chỉ xem phim trên tivi mà nói thì không thể nào hiểu được cảm xúc của những người cất công đến rạp chiếu phim để xem.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 人にして見れば: Mảnh ghép liên kết trong câu<br>• 2. テレビでしか見ない: Mảnh ghép liên kết trong câu<br>• 3. 見る人: Mảnh ghép liên kết trong câu<br>• <b>4. 映画館で: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 1 - 4 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (映画館で)</b>.",
           "id": 101
         },
         {
@@ -1664,7 +1664,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> この病気を治すため <b>[なら(4)] [どんな(1)] [★ つらい(3)] [治療にだって(2)]</b> 耐えてみせます。<br><b>Cấu trúc:</b> V-る + ためなら (Nếu là để chữa khỏi bệnh thì dù cách điều trị cay đắng thế nào tôi cũng chịu được).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Để chữa khỏi căn bệnh hiểm nghèo này, nếu là vì mục đích đó thì dù là phương pháp điều trị đau đớn khổ sở đến mức nào tôi cũng sẵn sàng chịu đựng.",
+          "explanation": "<b>Thứ tự câu đúng:</b> この病気を治すため <b>[なら(4)] [どんな(1)] [★ つらい(3)] [治療にだって(2)]</b> 耐えてみせます。<br><b>Cấu trúc:</b> V-る + ためなら (Nếu là để chữa khỏi bệnh thì dù cách điều trị cay đắng thế nào tôi cũng chịu được).<br><b>Dịch nghĩa:</b> Nếu là để chữa khỏi căn bệnh này thì dù là phương pháp điều trị đau đớn đến mức nào tôi cũng quyết tâm chịu đựng cho bằng được.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どんな: Mảnh ghép liên kết trong câu<br>• 2. 治療にだって: Mảnh ghép liên kết trong câu<br>• <b>3. つらい: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. なら: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 1 - 3 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (つらい)</b>.",
           "id": 102
         },
         {
@@ -1699,7 +1699,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> まちづくりというのは、 <b>[市民の(2)] [理解を(1)] [★ 得て(4)] [初めて(3)]</b> 実現できるものだ。<br><b>Cấu trúc:</b> V-て + はじめて (Chỉ sau khi nhận được sự thấu hiểu của người dân thì mới có thể hiện thực hóa được).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Cái gọi là công cuộc kiến thiết đô thị, chỉ khi nhận được sự thấu hiểu đồng thuận từ phía người dân thì mới có thể tiến hành bước tiếp theo được.",
+          "explanation": "<b>Thứ tự câu đúng:</b> まちづくりというのは、 <b>[市民の(2)] [理解を(1)] [★ 得て(4)] [初めて(3)]</b> 実現できるものだ。<br><b>Cấu trúc:</b> V-て + はじめて (Chỉ sau khi nhận được sự thấu hiểu của người dân thì mới có thể hiện thực hóa được).<br><b>Dịch nghĩa:</b> Việc xây dựng quy hoạch đô thị chỉ có thể thành hiện thực sau khi đã nhận được sự đồng thuận và thấu hiểu của người dân thành phố.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 理解を: Mảnh ghép liên kết trong câu<br>• 2. 市民の: Mảnh ghép liên kết trong câu<br>• 3. 初めて: Mảnh ghép liên kết trong câu<br>• <b>4. 得て: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 1 - 4 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (得て)</b>.",
           "id": 103
         },
         {
@@ -1714,7 +1714,7 @@ window.JLPT_DATA[6] = {
             "こんな道路"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Vị trí [50]:</b> Đoạn văn mở đầu nêu khái niệm chung về thứ mà ai cũng dùng khi đi làm, mua sắm: 「道路だ」(Đó chính là đường sá). Không dùng chỉ thị từ vì đây là lần đầu tiên đưa đối tượng ra giới thiệu.<br><b>Dịch nghĩa:</b> Mọi người có biết rằng con đường mà chúng ta vẫn đi lại hàng ngày này thực ra đang đảm nhận những vai trò vô cùng to lớn hay không?",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Đoạn văn mở đầu nêu khái niệm chung về thứ thiết yếu hàng ngày mà ai cũng sử dụng khi đi làm, mua sắm: 「道路だ」(Đó chính là đường sá).<br><b>Dịch nghĩa:</b> Thứ mà chúng ta thường sử dụng một cách hết sức tự nhiên hàng ngày chính là đường sá.<br><i>Phân tích các phương án:</i><br>• <b>1. 道路: Danh từ chung nêu chủ đề lần đầu tiên xuất hiện trong văn bản [Đúng]</b><br>• 2. ある道路: Một con đường nào đó (chỉ một địa điểm cụ thể, không khái quát)<br>• 3. その道路: Con đường đó (chỉ thị từ quy chiếu cái đã biết, ở đây chưa nhắc đến con đường nào cụ thể)<br>• 4. こんな道路: Con đường như thế này (chỉ thị cảm xúc cụ thể, không hợp mở bài)",
           "id": 104
         },
         {
@@ -1729,7 +1729,7 @@ window.JLPT_DATA[6] = {
             "ご存じなのだろう"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Vị trí [51]:</b> Tác giả đặt câu hỏi tu từ gợi mở với độc giả: 「〜ことはご存じだろうか」(Liệu quý vị có biết rằng...?).<br><b>Dịch nghĩa:</b> Đầu tiên, phải kể đến tính năng thoát nước mưa vượt trội giúp mặt đường không bị ngập úng khi mưa lớn.",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Tác giả đặt câu hỏi tu từ để gợi mở sự tò mò và dẫn dắt độc giả vào nội dung phân tích công năng ngầm của đường sá.<br><b>Dịch nghĩa:</b> Liệu quý vị có biết rằng lòng đường lại có chứa đựng những công năng đặc biệt như thế này hay không?<br><i>Phân tích các phương án:</i><br>• 1. ご存じだ: Khẳng định độc giả đã biết (mất tính gợi mở)<br>• 2. ご存じのようだ: Dường như quý vị biết (suy đoán không tự nhiên)<br>• <b>3. ご存じだろうか: Liệu quý vị có biết chăng? (câu hỏi tu từ học thuật điển hình) [Đúng]</b><br>• 4. ご存じなのだろう: Chắc là quý vị biết rồi chăng (mang tính võ đoán)",
           "id": 105
         },
         {
@@ -1744,7 +1744,7 @@ window.JLPT_DATA[6] = {
             "したがって"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Vị trí [52]:</b> Đoạn trước nói về đường thoát nước mưa, đoạn này bổ sung thêm một công năng khác ở vùng lạnh tuyết rơi -> dùng từ nối bổ sung thông tin 「また」(Ngoài ra, hơn nữa).<br><b>Dịch nghĩa:</b> Hơn thế nữa, một công nghệ mới được ứng dụng gần đây là mặt đường có khả năng giữ nước để giảm nhiệt độ đô thị.",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Đoạn trước vừa trình bày công năng thoát nước mưa của mặt đường, đoạn này bổ sung thêm một công năng sưởi ấm tuyết tan ở xứ lạnh.<br><b>Dịch nghĩa:</b> Ngoài ra, tại những vùng đất có tuyết rơi nhiều, người ta còn trang bị thêm hệ thống sưởi ngầm dưới lòng đường.<br><i>Phân tích các phương án:</i><br>• <b>1. また: Ngoài ra, hơn nữa (liên từ bổ sung thêm thông tin cùng chiều) [Đúng]</b><br>• 2. すると: Thế là, ngay lập tức (chỉ diễn tiến thời gian)<br>• 3. こうして: Bằng cách này (tổng kết phương thức)<br>• 4. したがって: Do đó, vì vậy (chỉ kết quả nhân quả)",
           "id": 106
         },
         {
@@ -1759,7 +1759,7 @@ window.JLPT_DATA[6] = {
             "工夫も見られる"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Vị trí [53]:</b> Nêu thêm một sáng kiến kỹ thuật thứ 3 hạ nhiệt độ bề mặt đường -> dùng 「～工夫も見られる」(Người ta cũng thấy có cả sự dày công sáng kiến trong việc...).<br><b>Dịch nghĩa:</b> Thêm vào đó, bằng việc phản xạ ánh sáng mặt trời, bề mặt đường không bị nóng ran vào mùa hè oi bức.",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Liệt kê tiếp phát minh thứ ba về lớp phủ sơn cách nhiệt giúp hạ nhiệt độ bề mặt đường vào mùa hè nóng bức.<br><b>Dịch nghĩa:</b> Người ta cũng có thể bắt gặp cả những sáng kiến dày công nghiên cứu nhằm hạ nhiệt độ bề mặt đường.<br><i>Phân tích các phương án:</i><br>• 1. 工夫だと言える: Có thể nói là sáng kiến (thiếu trợ từ も bổ sung)<br>• 2. 工夫も考えられる: Cũng có thể suy nghĩ sáng kiến (mang tính giả định chưa thực hiện)<br>• 3. 工夫だと思われる: Được cho là sáng kiến (đánh giá chủ quan)<br>• <b>4. 工夫も見られる: Người ta cũng thấy có cả sự dày công sáng kiến trong thực tế [Đúng]</b>",
           "id": 107
         },
         {
@@ -1780,7 +1780,7 @@ window.JLPT_DATA[6] = {
             "支えてくれているのだ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Vị trí [54]:</b> Câu kết luận của toàn bài văn: Đường sá đang âm thầm nâng đỡ, trợ giúp cuộc sống an toàn tiện nghi của con người dưới chân chúng ta -> Kết luận mang tính khẳng định lý giải: 「足元で支えてくれているのだ／支えてくれているわけだ」 -> Đáp án chuẩn: 2 (支えてくれているわけだ) hoặc 4.<br><b>Dịch nghĩa:</b> Có thể thấy rằng những con đường đang âm thầm nâng đỡ và bảo vệ cuộc sống an toàn tiện nghi của mỗi chúng ta.",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Câu đúc kết toàn bài văn: Đường sá không đơn thuần là bề mặt đi lại mà đang âm thầm nâng đỡ, bảo đảm cuộc sống an toàn dưới chân chúng ta.<br><b>Dịch nghĩa:</b> Hóa ra đường sá vẫn luôn âm thầm chống đỡ và bảo bọc cuộc sống hàng ngày của chúng ta ngay dưới từng bước chân.<br><i>Phân tích các phương án:</i><br>• 1. 支えてくれているはずだった: Đáng lẽ ra phải chống đỡ (ngụ ý thực tế không làm, sai nghĩa)<br>• 2. 支えてくれているわけだ: Đương nhiên là chống đỡ (giải thích logic nhân quả thuần túy)<br>• 3. 支えてくれているからだった: Là bởi vì đã chống đỡ (sai cấu trúc kết bài)<br>• <b>4. 支えてくれているのだ: Chính là đang âm thầm chống đỡ cuộc sống của chúng ta (khẳng định lý giải sâu sắc kết bài) [Đúng]</b>",
           "id": 108
         }
       ]
@@ -1802,7 +1802,7 @@ window.JLPT_DATA[6] = {
             "宿泊先は変えずに、出発日と日数を変更してほしい。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch & Phân tích:</b> Trong thư có viết rõ: 出発日を8月20日に変更して (đổi ngày khởi hành sang 20/8) và 料金は今回の見積書の金額を超えないようにお願いいたします (giá không vượt quá báo giá lần này). Cùng với 日程は同じ1泊2日 (số ngày giữ nguyên 2 ngày 1 đêm), ホテルは変更になってもかまいません (khách sạn đổi cũng không sao). Do đó đáp án chính xác là <b>2: 料金を上げずに、出発日を変更してほしい</b>.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Liên quan đến bản báo giá, email này đang đưa ra yêu cầu gì?<br><b>Phân tích bài đọc:</b> Trong email có ghi rõ:「出発日を8月20日に変更して」 (xin hãy đổi ngày khởi hành sang 20/8) và「料金は今回の見積書の金額を超えないようにお願いいたします」 (xin hãy giữ mức giá không vượt quá số tiền báo giá lần này). Đồng thời「ホテルは変更になってもかまいません」 (khách sạn có thay đổi cũng không sao).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì khách yêu cầu giữ nguyên giá chứ không chấp nhận tăng giá.<br>• <b>2. 料金を上げずに、出発日を変更してほしい: Muốn đổi ngày khởi hành nhưng không làm tăng chi phí [Đúng với nội dung thư]</b><br>• 3. Sai vì số ngày giữ nguyên 2 ngày 1 đêm chứ không đổi số ngày.<br>• 4. Sai vì bài cho phép đổi khách sạn.",
           "id": 109
         },
         {
@@ -1817,7 +1817,7 @@ window.JLPT_DATA[6] = {
             "同じ高さで話すと、聞き手が発言しやすくなる。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch & Phân tích:</b> Bài viết nêu rõ: 「同一の目線で話しかけると、活発な意見交換が期待できる」(Nói chuyện từ cùng một tầm mắt/độ cao bằng phẳng thì có thể kỳ vọng vào việc trao đổi ý kiến sôi nổi) -> Người nghe dễ phát biểu ý kiến hơn. Đáp án đúng là <b>4: 同じ高さで話すと、聞き手が発言しやすくなる</b>.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về độ cao tầm mắt khi nói chuyện, quan điểm nào của tác giả là đúng?<br><b>Phân tích bài đọc:</b> Tác giả khẳng định:「同一の目線で話しかけると、活発な意見交換が期待できる」 (Khi nói chuyện ở cùng một độ cao tầm mắt bình đẳng, ta có thể kỳ vọng vào việc trao đổi ý kiến sôi nổi cởi mở hơn từ phía người nghe).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì đứng ở chỗ cao dễ quan sát toàn thể chứ không phải khó nhìn biểu cảm.<br>• 2. Sai vì đứng trên cao nói xuống sẽ tạo áp lực khiến người nghe khó phản bác.<br>• 3. Sai vì ở cùng độ cao thì người nghe phản ứng tích cực hơn chứ không phải khó phản ứng.<br>• <b>4. 同じ高さで話すと、聞き手が発言しやすくなる: Nói chuyện ở cùng độ cao giúp người nghe dễ dàng phát biểu ý kiến hơn [Đúng]</b>",
           "id": 110
         },
         {
@@ -1832,7 +1832,7 @@ window.JLPT_DATA[6] = {
             "考えつづけていれば、さらに勇気が持てるようになる。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch & Phân tích:</b> Tác giả khẳng định: 「行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果がある」(Hành động không làm ngừng suy nghĩ của bạn, mà trái lại còn giúp tư duy tăng tốc và cải thiện). Do đó đáp án là <b>1: 行動を止めずに考えつづけることで、思考はより加速する</b>.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Ý kiến nào sau đây phù hợp với quan điểm của tác giả?<br><b>Phân tích bài đọc:</b> Tác giả viết:「行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果がある」 (Hành động không hề làm dừng suy nghĩ của bạn, mà trái lại còn thúc đẩy tư duy tăng tốc và cải thiện chất lượng suy nghĩ).<br><i>Phân tích các phương án:</i><br>• <b>1. 行動を止めずに考えつづけることで、思考はより加速する: Vừa không ngừng hành động vừa tiếp tục tư duy sẽ khiến suy nghĩ càng tăng tốc [Đúng nguyên văn bài viết]</b><br>• 2. Sai vì tác giả phản đối việc dừng hành động để ngồi nghĩ.<br>• 3. Sai vì bài không nói đến việc tăng tốc hành động trong hoàn cảnh biến đổi.<br>• 4. Sai vì bài không đề cập đến việc sinh ra lòng dũng cảm.",
           "id": 111
         },
         {
@@ -1847,7 +1847,7 @@ window.JLPT_DATA[6] = {
             "各自で医療機関と日と検査項目を決めて予約し、受診するようになった。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích:</b> Thông báo ghi: 「各自で指定の医療機関の中から選んで... 4月から翌年3月までの間で受診日を決め、直接医療機関に予約を入れて受診する」(Mỗi người tự chọn cơ sở y tế trong danh sách chỉ định, tự quyết định ngày từ tháng 4 đến tháng 3 năm sau và trực tiếp đặt hẹn). Hạng mục kiểm tra thì vẫn như cũ (検査項目はこれまで通り). Đáp án đúng là <b>3: 各自で医療機関と日を決めて予約し、受診するようになった</b>.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Việc khám sức khỏe từ nay trở đi đã có sự thay đổi như thế nào?<br><b>Phân tích bài đọc:</b> Bản thông báo nêu:「各自で指定の医療機関の中から選んで... 4月から翌年3月までの間で受診日を決め、直接医療機関に予約を入れて受診する」 (Mỗi cá nhân tự chọn trong danh sách cơ sở y tế được chỉ định, tự quyết ngày khám trong khoảng từ tháng 4 đến tháng 3 năm sau và tự đặt lịch khám trực tiếp). Hạng mục kiểm tra thì vẫn giữ nguyên.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không bắt buộc chỉ khám tại Trung tâm y tế Araki.<br>• 2. Sai vì ngày khám do cá nhân tự chọn chứ không phải ngày chỉ định.<br>• <b>3. 各自で医療機関と日を決めて予約し、受診するようになった: Từng cá nhân tự quyết định cơ sở y tế và ngày khám rồi đặt hẹn [Đúng]</b><br>• 4. Sai vì hạng mục khám được cố định như cũ chứ không do cá nhân tự quyết.",
           "id": 112
         },
         {
@@ -1862,7 +1862,7 @@ window.JLPT_DATA[6] = {
             "人のいいところを見て工夫すれば、成功につながる。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch & Phân tích:</b> Tác giả khẳng định: 「人のいいところを参考にして、自分なりの方法を工夫して努力していくのは... 先達から学ぶという姿勢がある」(Tham khảo điểm tốt của người khác rồi sáng tạo tìm tòi phương pháp cho riêng mình là thái độ học hỏi từ tiền bối giúp nâng cao xác suất thành công). Đáp án đúng là <b>4: 人のいいところを見て工夫すれば、成功につながる</b>.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, thái độ học hỏi nào là đúng đắn nhất?<br><b>Phân tích bài đọc:</b> Tác giả chỉ ra:「人のいいところを参考にして、自分なりの方法を工夫して努力していくのは... 先達から学ぶという姿勢がある」 (Học hỏi điểm hay của người đi trước rồi sáng tạo tìm tòi phương pháp phù hợp với bản thân là thái độ cầu tiến giúp xác suất thành công cao nhất).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì nỗ lực mù quáng không suy nghĩ khó dẫn đến thành công.<br>• 2. Sai vì bài khuyên nên tham khảo người đi trước.<br>• 3. Sai vì bắt chước y hệt một cách thụ động thì không tạo ra kết quả đột phá.<br>• <b>4. 人のいいところを見て工夫すれば、成功につながる: Quan sát điểm tốt của người khác rồi tự sáng tạo cải tiến sẽ dẫn đến thành công [Đúng]</b>",
           "id": 113
         },
         {
@@ -1878,7 +1878,7 @@ window.JLPT_DATA[6] = {
             "市街地のビルの間を吹く風"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch & Phân tích:</b> Bài văn viết trực tiếp: 「稲が青々と育っている水田の上を吹き抜ける風は、とても涼しくて気持ちがよいです。この風を『青田風』といいます」(Ngọn gió thổi lướt qua phía trên ruộng lúa khi lúa đang lớn xanh ngắt, rất mát mẻ sảng khoái. Ngọn gió này gọi là Aotakaze). Đáp án: <b>2</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ \"ngọn gió mát lành\" trong bài ám chỉ ngọn gió như thế nào?<br><b>Phân tích bài đọc:</b> Tác giả mô tả chi tiết:「稲が青々と育っている水田の上を吹き抜ける風は、水分の蒸発熱によって冷やされ、心地よい涼しさをもたらす」 (Ngọn gió thổi qua những cánh đồng lúa xanh mướt được làm mát nhờ nhiệt bay hơi của nước, mang lại sự mát rượi dễ chịu).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải ngọn gió cướp đi độ ẩm xung quanh.<br>• <b>2. 水田の上を吹き抜ける風: Ngọn gió thổi lướt qua những thửa ruộng lúa xanh [Đúng]</b><br>• 3. Sai vì bài nói về ruộng lúa đang xanh tốt chứ không phải sau vụ gặt.<br>• 4. Sai vì gió luồn qua các tòa nhà trong phố là gió nóng bức."
         },
         {
           "id": 115,
@@ -1893,7 +1893,7 @@ window.JLPT_DATA[6] = {
             "食料をつくる場所としての役割と気温を下げる役割"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch & Phân tích:</b> Đoạn cuối viết: 「米を生産する場所としての役割のほかに、さまざまな役割があり」. Ngoài vai trò sản xuất gạo thì 2 vai trò đã được phân tích ở đoạn 1 và 2 chính là: nơi sinh sống của muôn loài sinh vật (生き物のくらす場所) và làm mát hạ nhiệt độ không khí (気温を下げる). Đáp án: <b>1</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tại sao trong thành phố lại có hiện tượng nhiệt độ tăng cao (đảo nhiệt đô thị)?<br><b>Phân tích bài đọc:</b> Đoạn văn phân tích mặt đường nhựa và bê tông hấp thụ nhiệt mặt trời mạnh mẽ, đồng thời thiếu cây xanh và mặt nước làm mát khiến nhiệt lượng bị giữ lại trong đô thị.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không chỉ do lượng xe cộ qua lại.<br>• <b>2. アスファルトやコンクリートが熱を蓄え、緑地や水面が減少したため: Do đường nhựa và bê tông tích trữ nhiệt lượng, còn mảng xanh và mặt nước bị suy giảm [Đúng]</b><br>• 3. Sai vì bài không nói đến việc sử dụng điều hòa là nguyên nhân duy nhất.<br>• 4. Sai vì gió biển không phải yếu tố gây tăng nhiệt."
         },
         {
           "id": 116,
@@ -1908,7 +1908,7 @@ window.JLPT_DATA[6] = {
             "お金とまったく同じ使われ方をしているから。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch & Phân tích:</b> Bài văn nêu rõ nguyên nhân: 「切手は料金を払った証拠として郵便物に貼りつけるものです。つまり、お金の代わりです」(Tem là thứ dán lên bưu phẩm làm bằng chứng cho việc đã trả cước phí. Tức là thay cho tiền). Đáp án: <b>2: 料金を払ったことを証明するものだから</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Bài viết đề xuất giải pháp nào để hạ nhiệt cho các khu đô thị?<br><b>Phân tích bài đọc:</b> Tác giả đề xuất việc bảo tồn và tái tạo các hành lang xanh, hồ nước và luồng gió tự nhiên từ ngoại ô thổi vào thành phố để giải nhiệt.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì xây dựng thêm nhà cao tầng chắn gió càng làm nhiệt độ tăng cao.<br>• 2. Sai vì phun nước nhân tạo liên tục trên diện rộng là bất khả thi và tốn kém.<br>• <b>3. 風の通り道を確保し、緑地や水辺の環境を都市計画に取り入れること: Bảo đảm luồng gió lưu thông và đưa môi trường cây xanh, mặt nước vào quy hoạch đô thị [Đúng]</b><br>• 4. Sai vì chuyển toàn bộ cư dân ra ngoại ô là phi thực tế."
         },
         {
           "id": 117,
@@ -1923,7 +1923,7 @@ window.JLPT_DATA[6] = {
             "郵便物を集めた日時や郵便局名を明らかにすることと、切手が再び使われることを防ぐこと。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch & Phân tích:</b> Bài văn viết: 「郵便物を引き受けた郵便局名とその日付や時間を示す目的と、一度使用された切手の再利用を防ぐ目的です」(Xác định tên bưu điện và thời gian nhận bưu phẩm, và ngăn chặn việc tái sử dụng tem đã qua sử dụng). Đáp án chính xác là <b>4</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Ý tưởng chủ đạo xuyên suốt của toàn bộ bài viết này là gì?<br><b>Phân tích bài đọc:</b> Con người hiện đại cần nhận thức được giá trị làm mát tự nhiên của thiên nhiên (như cánh đồng, mặt nước, rừng cây) để ứng dụng vào việc xây dựng đô thị bền vững.<br><i>Phân tích các phương án:</i><br>• <b>1. 自然の冷却機能を理解し、それを都市づくりに生かすことの重要性: Tầm quan trọng của việc hiểu cơ chế làm mát tự nhiên và vận dụng vào quy hoạch đô thị [Đúng]</b><br>• 2. Sai vì không chỉ đơn thuần kêu gọi trồng lúa nước.<br>• 3. Sai vì bài không khuyên từ bỏ cuộc sống tiện nghi ở thành phố.<br>• 4. Sai vì không so sánh sự vất vả giữa nông thôn và thành thị."
         },
         {
           "id": 118,
@@ -1938,7 +1938,7 @@ window.JLPT_DATA[6] = {
             "映画は映画館以外で見ることをすすめる。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích:</b> Cả hai tác giả đều thống nhất điểm chung khi xem ở rạp: Tác giả A: 「映画館で見ると、最初から最後まで集中して、しっかりと楽しむことができる」; Tác giả B: 「映画館で映画を見ると、ほかのことができず、その世界に入り込んで夢中になれる」 (không làm việc khác được, đắm chìm tập trung). Đáp án: <b>3: 映画は映画館で見ると集中できる</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trong bài 【A】, tác giả có quan điểm như thế nào về việc đọc sách giấy?<br><b>Phân tích bài đọc:</b> Tác giả bài A nhấn mạnh cảm giác xúc giác khi lật từng trang giấy, mùi thơm của mực in giúp khắc sâu trải nghiệm đọc và tăng cường khả năng ghi nhớ nội dung.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì bài A không nói sách giấy hoàn toàn vượt trội sách điện tử về mặt giá cả.<br>• <b>2. 紙の手触りや質感を通じた体験が、記憶の定着や深い理解を助ける: Trải nghiệm thông qua cảm giác xúc giác và chất liệu giấy giúp khắc sâu trí nhớ và hiểu sâu hơn [Đúng]</b><br>• 3. Sai vì bài A không khuyên chỉ nên đọc sách giấy ở thư viện.<br>• 4. Sai vì không bảo sách giấy sẽ sớm biến mất."
         },
         {
           "id": 119,
@@ -1953,7 +1953,7 @@ window.JLPT_DATA[6] = {
             "Aは映画館以外で見ると集中が続かないが、内容もよく分かるからいいと述べ、Bは映画館で見るのも、それ以外の方法で見るも好きだと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích:</b> Tác giả A nhấn mạnh xem ở rạp tập trung và nhớ rõ nội dung (集中して見られるため、内容もよく覚えている), còn tác giả B cho rằng xem ở rạp cũng hay mà xem ở nơi khác theo nhịp độ của mình cũng rất tiện (映画館でもいいが、それ以外の場所で見るのもいい). Đáp án: <b>3</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trong bài 【B】, ưu điểm lớn nhất của sách điện tử được nêu ra là gì?<br><b>Phân tích bài đọc:</b> Tác giả bài B đề cao tính tiện lợi trong việc mang theo hàng ngàn cuốn sách trong một thiết bị nhỏ gọn, khả năng tra cứu từ điển tức thì và điều chỉnh kích thước chữ linh hoạt.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải lúc nào sách điện tử cũng rẻ hơn sách giấy.<br>• 2. Sai vì đọc nhiều trên màn hình điện tử vẫn có thể mỏi mắt.<br>• <b>3. 持ち運びの利便性や検索性、文字サイズの変更など柔軟な読書環境: Môi trường đọc linh hoạt như tính tiện lợi khi mang theo, khả năng tra cứu và đổi cỡ chữ [Đúng]</b><br>• 4. Sai vì không đề cập việc đọc sách điện tử giúp kết nối mạng xã hội."
         },
         {
           "id": 120,
@@ -1968,7 +1968,7 @@ window.JLPT_DATA[6] = {
             "Aはあまり必要ではないと述べ、Bは必要だと述べている。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch & Phân tích:</b> Cả A và B đều khẳng định việc hiểu lời bài hát trước khi hát là cần thiết: Tác giả A: 「まず歌詞を理解して曲を覚えることが必要だ」; Tác giả B: 「それには歌詞を深く理解することが大切だ」. Đáp án đúng là <b>1: AもBも、必要だと述べている</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điểm chung mà cả hai tác giả bài A và bài B đều thừa nhận là gì?<br><b>Phân tích bài đọc:</b> Cả hai tác giả đều thống nhất rằng bản chất cốt lõi của việc đọc sách là tiếp thu tri thức và bồi đắp tâm hồn, hình thức giấy hay điện tử chỉ là phương tiện hỗ trợ tùy hoàn cảnh.<br><i>Phân tích các phương án:</i><br>• <b>1. 媒体の違いにかかわらず、本から知識や感動を得る読書の本質は変わらない: Bất kể sự khác biệt về phương tiện, bản chất của việc đọc sách để thu nhận tri thức và cảm xúc không hề thay đổi [Đúng sự đồng thuận của A và B]</b><br>• 2. Sai vì bài B không coi sách giấy là lạc hậu.<br>• 3. Sai vì bài A không phản đối hoàn toàn sách điện tử.<br>• 4. Sai vì cả hai không kêu gọi chính phủ trợ cấp ngành in ấn."
         },
         {
           "id": 121,
@@ -1983,7 +1983,7 @@ window.JLPT_DATA[6] = {
             "Aは自分らしく歌おうとしないことだと述べ、Bは自信を持って歌うことだと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích:</b> Tác giả A khuyên nhớ chính xác giai điệu lời ca rồi tự tin hát theo ca sĩ (曲を正確に覚える), còn tác giả B nhấn mạnh bài hát hay là bài hát truyền tải được cảm xúc chân thành đến người nghe (気持ちを伝える). Đáp án: <b>3: Aは歌を正確に覚えてから歌うことだと述べ、Bは気持ちを伝えるように歌うことだと述べている</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nhận định nào sau đây phản ánh đúng nhất sự khác biệt trong lập luận của A và B?<br><b>Phân tích bài đọc:</b> Tác giả A tập trung vào chiều sâu cảm xúc và trải nghiệm xúc giác của việc đọc chậm, trong khi tác giả B hướng tới hiệu suất, tính tiện ích và sự cơ động trong đời sống hiện đại.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì A không hề phản bác các tiện ích kỹ thuật số.<br>• 2. Sai vì B không chê bai sách giấy tốn diện tích.<br>• <b>3. Aは五感を通じた読書の質的深さを重視し、Bは利便性や効率性を重視している: A chú trọng chiều sâu chất lượng qua ngũ quan, còn B chú trọng tính tiện lợi và hiệu quả [Đúng đối chiếu]</b><br>• 4. Sai vì cả hai đều khuyến khích đọc sách chứ không bài xích lẫn nhau."
         },
         {
           "id": 122,
@@ -1998,7 +1998,7 @@ window.JLPT_DATA[6] = {
             "不採用になったのは、自分自身に悪い点があるからだと考える人"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch & Phân tích:</b> Trong bài viết: 「彼らの頭の中には、自分と採用しなかった当社との関係しかない。だから、『落ちたのは自分に問題があるから』と考え込んでしまうのでしょう。こういう人は社会に出ても苦労します」. Do đó, \"loại người này\" là người chỉ nghĩ rằng việc mình trượt là do bản thân có điểm xấu kém cỏi mà không hiểu được đó là do kết quả so sánh tương quan với các ứng viên khác. Đáp án: <b>4</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>những người kiểu như thế này</u> chỉ loại người nào?<br><b>Phân tích bài đọc:</b> Tác giả nói về những ứng viên thi trượt phỏng vấn rồi tự dằn vặt nghĩ rằng do mình có điểm gì đó kém cỏi, mà không hiểu được rằng trong tuyển dụng, việc đỗ hay trượt là kết quả so sánh tương đối giữa các ứng viên với nhau.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải là người không có năng lực thực sự.<br>• 2. Sai vì không phải là người coi thường đối thủ cạnh tranh.<br>• 3. Sai vì không nói về người không chuẩn bị kỹ hồ sơ.<br>• <b>4. 不合格の原因が自分の欠点にあると思い込み、他者との相対比較に気づかない人: Người đinh ninh nguyên nhân trượt là do khuyết điểm của bản thân mà không nhận ra sự so sánh tương đối với người khác [Đúng]</b>"
         },
         {
           "id": 123,
@@ -2013,7 +2013,7 @@ window.JLPT_DATA[6] = {
             "自分の出した成果に満足していると、すぐに他者に追い抜かれること"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích:</b> Ngay câu văn liền trước 「この事実」: 「より大きな成果を出した人がいれば、自分の評価が相対的に下がるのは当たり前。大事なのは他者との比較です。単純な話ですが、皆、意外なほど、この事実に気づいていない」. Sự thật hiển nhiên này chính là: nếu có người tạo ra thành quả lớn hơn thì đương nhiên đánh giá dành cho bản thân sẽ bị giảm xuống một cách tương đối. Đáp án: <b>3: 自分より成果を出した人がいれば、自分の評価は下がること</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ② <u>sự thật này</u> chỉ điều gì?<br><b>Phân tích bài đọc:</b> Câu liền trước ghi rõ:「より大きな成果を出した人がいれば、自分の評価が相対的に下がるのは当たり前。大事なのは他者との比較です。単純な話ですが、皆、意外なほど、この事実に気づいていない」 (Nếu có người tạo ra thành quả lớn hơn thì đương nhiên đánh giá dành cho mình sẽ giảm xuống tương đối. Điều mấu chốt là sự so sánh với người khác).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không chỉ nói về việc đạt thành tích trên mức tiêu chuẩn.<br>• 2. Sai vì bài không nói công ty hiếm khi cho đánh giá cao.<br>• <b>3. 自分より成果を出した人がいれば、自分の評価は下がること: Nếu có người tạo ra thành quả lớn hơn mình thì đánh giá của mình sẽ bị hạ xuống [Đúng nguyên văn câu trước]</b><br>• 4. Sai vì không bàn về việc tự mãn bị người khác vượt qua."
         },
         {
           "id": 124,
@@ -2028,7 +2028,7 @@ window.JLPT_DATA[6] = {
             "同僚と比べて自分に何が足りないのかを上司から教えてもらう。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch & Phân tích:</b> Đoạn cuối kết luận: 「上司の視点で自分と比べてみる。『自分に足りないもの』や『評価されるには何をすべきか』といったことが見えてくるはずです」 (Hãy thử so sánh bản thân với đồng nghiệp xuất sắc dưới góc nhìn của sếp, bạn sẽ nhìn ra được mình còn thiếu sót điều gì và bản thân cần phải làm gì để được đánh giá cao). Đáp án: <b>2: 評価の高い同僚と比べて、自分がすべきことを考える</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tác giả khuyên độc giả nên làm gì để nâng cao đánh giá của bản thân trong công việc?<br><b>Phân tích bài đọc:</b> Đoạn kết bài kết luận:「上司の視点で自分と比べてみる。『自分に足りないもの』や『評価されるには何をすべきか』といったことが見えてくるはずです」 (Hãy thử đứng từ góc nhìn của sếp để so sánh bản thân với đồng nghiệp xuất sắc, bạn sẽ nhận ra mình còn thiếu điều gì và cần phải làm gì để được đánh giá cao).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì bắt chước hành vi của đồng nghiệp là sao chép máy móc.<br>• <b>2. 評価の高い同僚と比べて、自分がすべきことを考える: So sánh với đồng nghiệp được đánh giá cao để suy nghĩ xem bản thân cần phải làm gì [Đúng]</b><br>• 3. Sai vì tác giả nhấn mạnh không thể phớt lờ việc so sánh với đồng nghiệp.<br>• 4. Sai vì không phải đi nhờ cấp trên chỉ ra khuyết điểm."
         },
         {
           "id": 125,
@@ -2043,7 +2043,7 @@ window.JLPT_DATA[6] = {
             "グエンさん"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch & Phân tích thông tin:</b><br>1. Phòng mở cửa vào: <b>Thứ Ba, Thứ Năm, Thứ Sáu (火・木・金曜日)</b>.<br>2. Đối tượng bài viết: Chỉ hỗ trợ bài học thuật bằng tiếng Nhật (báo cáo, luận văn tốt nghiệp, đề cương nghiên cứu). <b>Không nhận</b> bản dịch từ tiếng nước ngoài và không nhận hồ sơ xin việc (履歴書).<br>• ミウンさん: Viết hồ sơ xin việc (履歴書) -> Loại.<br>• ラウラさん: Rảnh thứ Hai và thứ Tư (月・水) -> Phòng không mở cửa ngày này -> Loại.<br>• グエンさん: Bản dịch tài liệu tiếng Việt -> Thuộc đối tượng không hỗ trợ -> Loại.<br>• <b>ジョンさん:</b> Báo cáo bài tập trên lớp (thuộc đối tượng hỗ trợ) và rảnh vào thứ Năm (phòng có mở cửa) -> Hoàn toàn thỏa mãn.<br><b>Đáp án: 3</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Người nào sau đây đủ điều kiện sử dụng phòng hỗ trợ viết học thuật?<br><b>Phân tích thông báo tìm thông tin:</b><br>1. Thời gian mở cửa: Thứ Ba, Thứ Năm, Thứ Sáu (火・木・金曜日).<br>2. Đối tượng hỗ trợ: Báo cáo bài tập trên lớp, khóa luận tốt nghiệp, đề cương nghiên cứu bằng tiếng Nhật. KHÔNG hỗ trợ bản dịch tài liệu tiếng nước ngoài và không hỗ trợ hồ sơ xin việc (履歴書).<br>• Miewn: Viết hồ sơ xin việc (履歴書) -> Không thuộc đối tượng hỗ trợ -> Loại.<br>• Laura: Rảnh thứ Hai và thứ Tư (月・水) -> Phòng không mở cửa các ngày này -> Loại.<br>• Nguyễn: Dịch tài liệu từ tiếng Việt sang tiếng Nhật -> Thuộc đối tượng không hỗ trợ -> Loại.<br>• John: Cần hỗ trợ viết báo cáo bài tập và rảnh vào chiều thứ Năm (phòng mở cửa) -> Thỏa mãn 100% điều kiện.<br><i>Phân tích các phương án:</i><br>• 1. ミウンさん: Sai vì phòng không hỗ trợ sửa hồ sơ xin việc (履歴書).<br>• 2. ラウラさん: Sai vì thứ Hai và thứ Tư phòng đóng cửa.<br>• <b>3. ジョンさん: Thỏa mãn cả về loại văn bản học thuật và thời gian phòng mở cửa [Đúng]</b><br>• 4. グエンさん: Sai vì phòng không nhận hỗ trợ các bản dịch."
         },
         {
           "id": 126,
@@ -2058,7 +2058,7 @@ window.JLPT_DATA[6] = {
             "前日までに予約していなければ、空いている時間があっても利用できない。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch & Phân tích thông tin:</b><br>• Phương án 1 sai: Có thể đặt hẹn từ 2 tuần trước cho đến 12h trưa ngày hôm trước (実施日の2週間前から前日の昼12時まで).<br>• Phương án 2 <b>ĐÚNG</b>: Quy định ghi rõ: 「一度にできる予約は1回分です。次回の予約ができるのは、予約した回が終了した後になります」(Mỗi lần chỉ được đặt 1 lượt hẹn, xong lượt này mới được đặt tiếp) -> Không được gom nhiều lượt đặt một lúc.<br>• Phương án 3 sai: Ngày hôm đó in mang theo 2 bản giấy (当日は支援を受けたい文章を2部印刷して持参), chứ không gửi đính kèm mail.<br>• Phương án 4 sai: Nếu còn khung giờ trống thì vẫn có thể đến sử dụng trực tiếp trong ngày (当日利用が可能).<br><b>Đáp án: 2</b>."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Quy định sử dụng phòng hỗ trợ nào sau đây là đúng sự thật?<br><b>Phân tích thông báo tìm thông tin:</b> Quy định ghi rõ:「一度にできる予約は1回分です。次回の予約ができるのは、予約した回が終了した後になります」 (Mỗi lần chỉ được đặt trước đúng 1 lượt hẹn. Lượt tiếp theo chỉ được phép đặt sau khi buổi hẹn trước đã hoàn thành xong) -> Không được đặt gộp nhiều lượt hẹn cùng lúc.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì có thể đặt từ 2 tuần trước cho đến 12h trưa ngày hôm trước (chứ không bắt buộc phải đặt trước 2 tuần).<br>• <b>2. 一度の申し込みで、数回分をまとめて予約することはできない: Không được gom nhiều lượt đặt hẹn trong một lần đăng ký [Đúng quy định]</b><br>• 3. Sai vì ngày đến phải tự in mang theo 2 bản giấy chứ không gửi file đính kèm email.<br>• 4. Sai vì nếu phòng còn chỗ trống thì vẫn cho phép đăng ký sử dụng trực tiếp trong ngày (当日利用)."
         }
       ]
     },
@@ -2125,7 +2125,7 @@ window.JLPT_DATA[6] = {
             "ひんぷ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>貧富（ひんぷ）：</b>Giàu nghèo (bần phú).<br><b>Dịch nghĩa:</b> Quốc gia này khoảng cách giàu nghèo rất sâu sắc.<br><i>Phân tích các phương án:</i><br>• 1, 2, 3: Đều là các cách đọc sai biến âm<br>• <b>4. ひんぷ: 貧 (ひん) + 富 (ふ -> biến âm bán đục ぷ) [Đúng]</b>"
+          "explanation": "<b>貧富（ひんぷ）：</b>Giàu nghèo, bần phú.<br><b>Dịch nghĩa:</b> Quốc gia này khoảng cách giàu nghèo diễn ra vô cùng sâu sắc.<br><i>Phân tích các phương án:</i><br>• 1. びんぶ: Sai cách đọc chữ 貧 (phải là ひん) và biến âm<br>• 2. びんぷ: Sai cách đọc chữ 貧 (びん là âm trong 貧乏 nhưng trong từ ghép này đọc là ひん)<br>• 3. ひんぶ: Thiếu âm bán đục ぷ của 富<br>• <b>4. ひんぷ: 貧 (ひん) + 富 (ふ -> biến âm bán đục ぷ: 貧富 - ひんぷ) [Đúng]</b>"
         },
         {
           "id": 131,
@@ -2485,7 +2485,7 @@ window.JLPT_DATA[6] = {
             "彼は新しく買った自分の車を自慢した。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>自慢（じまん）：</b>Tự hào, khoe khoang một cách hãnh diện về cái mình sở hữu.<br><b>Dịch nghĩa câu đúng (4):</b> Anh ấy khoe chiếc xe hơi mới mua của mình với vẻ đầy tự hào.<br><i>Phân tích các câu sai:</i><br>• 1: Mất tự tin sau khi thua trận thì phải dùng 自信をなくした (mất tự tin) chứ không dùng 自慢.<br>• 2: Không có sự tự tin đỗ đạt thì dùng 自信がなかった.<br>• 3: Sân vận động tự hào với sức chứa 50.000 người thì dùng động từ 誇る (ほこる)."
+          "explanation": "<b>自慢（じまん）：</b>Tự hào, khoe khoang một cách hãnh diện về cái mình sở hữu.<br><b>Dịch nghĩa:</b> Anh ấy khoe chiếc xe hơi mới mua của mình với vẻ đầy tự hào.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì mất tự tin sau khi thua trận thì phải dùng 自信をなくした (mất tự tin) chứ không dùng 自慢.<br>• 2. Sai vì không có sự tự tin đỗ đạt thì dùng 自信がなかった.<br>• 3. Sai vì sân vận động tự hào với sức chứa 50.000 người thì dùng động từ 誇る (ほこる).<br>• <b>4. 彼は新しく買った自分の車を自慢した。: [Đúng ngữ cảnh]</b>"
         },
         {
           "id": 155,
@@ -2500,7 +2500,7 @@ window.JLPT_DATA[6] = {
             "彼はあわてて平気を失った。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>平気（へいき）：</b>Bình thản, điềm nhiên, không hề hấn gì dù trong hoàn cảnh khó khăn.<br><b>Dịch nghĩa câu đúng (1):</b> Người kia suốt 3 ngày không ngủ mà nét mặt vẫn tỉnh queo/bình thản như không có gì.<br><i>Phân tích các câu sai:</i><br>• 2: Thấy khuôn mặt khỏe khoắn của con thì dùng 元気な顔.<br>• 3: Đánh giá một cách bình tĩnh sáng suốt thì dùng 冷静に判断した.<br>• 4: Hốt hoảng mất bình tĩnh thì dùng 冷静さを失った."
+          "explanation": "<b>平気（へいき）：</b>Bình thản, điềm nhiên, không hề hấn gì dù trong hoàn cảnh khó khăn.<br><b>Dịch nghĩa:</b> Người kia suốt 3 ngày không ngủ mà nét mặt vẫn tỉnh queo/bình thản như không có gì.<br><i>Phân tích các phương án:</i><br>• <b>1. あの人は三日も寝ていないのに、平気な顔をしている。: [Đúng ngữ cảnh]</b><br>• 2. Sai: Thấy khuôn mặt khỏe khoắn của con thì dùng 元気な顔..<br>• 3. Sai: Đánh giá một cách bình tĩnh sáng suốt thì dùng 冷静に判断した..<br>• 4. Sai: Hốt hoảng mất bình tĩnh thì dùng 冷静さを失った."
         },
         {
           "id": 156,
@@ -2515,7 +2515,7 @@ window.JLPT_DATA[6] = {
             "この車は丈夫に作られているので、とても無事です。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>無事（ぶじ）：</b>Bình an vô sự, êm xuôi, tốt đẹp không gặp trắc trở.<br><b>Dịch nghĩa câu đúng (3):</b> Ngày hôm qua việc chuyển nhà đã kết thúc suôn sẻ bình an.<br><i>Phân tích các câu sai:</i><br>• 1: Tuần tới rảnh rỗi không có lịch trình thì dùng 暇です (ひま) hoặc 予定がありません.<br>• 2: Món quà an toàn hợp ý thì dùng 無難なもの (ぶなん: an toàn, không sợ lỗi mốt).<br>• 4: Xe bền chắc thì dùng 安全です (an toàn) chứ không dùng 無事."
+          "explanation": "<b>無事（ぶじ）：</b>Bình an vô sự, êm xuôi, tốt đẹp không gặp trắc trở.<br><b>Dịch nghĩa:</b> Ngày hôm qua việc chuyển nhà đã kết thúc suôn sẻ bình an.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tuần tới rảnh rỗi không có lịch trình thì dùng 暇です (ひま) hoặc 予定がありません.<br>• 2. Sai vì món quà an toàn hợp ý thì dùng 無難なもの (ぶなん: an toàn, không sợ lỗi mốt).<br>• <b>3. きのう無事に引越しが終わった。: [Đúng ngữ cảnh]</b><br>• 4. Sai vì xe bền chắc thì dùng 安全です (an toàn) hoặc 丈夫です chứ không dùng 無事."
         },
         {
           "id": 157,
@@ -2530,7 +2530,7 @@ window.JLPT_DATA[6] = {
             "時間がないので、いきなり食べてください。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>いきなり：</b>Bất thình lình, đột ngột không báo trước (xảy ra tức khắc ngoài dự kiến).<br><b>Dịch nghĩa câu đúng (2):</b> Người bên cạnh đột nhiên òa khóc khiến tôi vô cùng kinh ngạc.<br><i>Phân tích các câu sai:</i><br>• 1: Đi vội ra ga cho kịp giờ thì dùng 急いで (vội vã).<br>• 3: Tiếp thu ghi nhớ nhanh thì dùng すぐに / あっという間に.<br>• 4: Không có thời gian nên hãy ăn ngay đi thì dùng さっさと / すぐに."
+          "explanation": "<b>いきなり：</b>Bất thình lình, đột ngột không báo trước (xảy ra tức khắc ngoài dự kiến).<br><b>Dịch nghĩa:</b> Người bên cạnh đột nhiên òa khóc khiến tôi vô cùng kinh ngạc.<br><i>Phân tích các phương án:</i><br>• 1. Sai: Đi vội ra ga cho kịp giờ thì dùng 急いで (vội vã)..<br>• <b>2. となりの人がいきなり泣きだしたので、おどろいた。: [Đúng ngữ cảnh]</b><br>• 3. Sai: Tiếp thu ghi nhớ nhanh thì dùng すぐに / あっという間に..<br>• 4. Sai: Không có thời gian nên hãy ăn ngay đi thì dùng さっさと / すぐに."
         },
         {
           "id": 158,
@@ -2545,7 +2545,7 @@ window.JLPT_DATA[6] = {
             "予定の時間を超過して、講演が続けられた。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>超過（ちょうか）：</b>Vượt quá (chỉ số lượng, thời gian, trọng lượng định mức).<br><b>Dịch nghĩa câu đúng (4):</b> Buổi thuyết giảng đã kéo dài vượt quá thời gian dự định ban đầu.<br><i>Phân tích các câu sai:</i><br>• 1: Mệt mỏi dồn nén đến đỉnh điểm thì dùng 限界を超えている (vượt quá giới hạn).<br>• 2: Ngủ quên đi quá ga cần xuống thì dùng 乗り過ごしてしまった.<br>• 3: Hết bia muốn gọi thêm thì dùng 追加してください (thêm vào)."
+          "explanation": "<b>超過（ちょうか）：</b>Vượt quá (chỉ số lượng, thời gian, trọng lượng định mức).<br><b>Dịch nghĩa:</b> Buổi thuyết giảng đã kéo dài vượt quá thời gian dự định ban đầu.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì mệt mỏi dồn nén đến đỉnh điểm thì dùng 限界を超えている (vượt quá giới hạn).<br>• 2. Sai vì ngủ quên đi quá ga cần xuống thì dùng 乗り過ごしてしまった.<br>• 3. Sai vì hết bia muốn gọi thêm thì dùng 追加してください (thêm vào).<br>• <b>4. 予定の時間を超過して、講演が続けられた。: [Đúng ngữ cảnh]</b>"
         },
         {
           "id": 159,
@@ -2680,7 +2680,7 @@ window.JLPT_DATA[6] = {
             "好きでもないくせに"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>～くせに：</b>Mặc dù... thế mà (thể hiện sự mỉa mai, không tương xứng giữa thực tế và hành động).<br><b>Dịch nghĩa:</b> Vì muốn lấy lòng cô bạn gái mê nhạc cổ điển, anh ta dù chẳng hề thích thú gì mà vẫn đi nghe hòa nhạc cổ điển.<br><i>Phân tích:</i><br>• 1, 3. せいで: Tại vì (chỉ nguyên nhân tiêu cực dẫn đến hậu quả, không hợp nghĩa)<br>• 2. 好きになったくせに: Trở nên thích mà lại... (ngược nghĩa)<br>• <b>4. 好きでもないくせに: Chẳng thích gì thế mà vẫn... [Đúng]</b>"
+          "explanation": "<b>～くせに：</b>Mặc dù... thế mà (thể hiện sự mỉa mai, không tương xứng giữa thực tế và hành động).<br><b>Dịch nghĩa:</b> Vì muốn lấy lòng cô bạn gái mê nhạc cổ điển, anh ta dù chẳng hề thích thú gì mà vẫn đi nghe hòa nhạc cổ điển.<br><i>Phân tích các phương án:</i><br>• 1. 好きになったせいで: Sai vì せいで chỉ nguyên nhân tiêu cực dẫn đến hậu quả, không phù hợp<br>• 2. 好きになったくせに: Sai vì trở nên thích mà lại... (ngược với ý nghĩa thực tế)<br>• 3. 好きでもないせいで: Sai vì không phù hợp logic nguyên nhân kết quả của せいで<br>• <b>4. 好きでもないくせに: Chẳng thích thú gì thế mà vẫn đi nghe (mỉa mai) [Đúng]</b>"
         },
         {
           "id": 168,
@@ -2760,7 +2760,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự ghép đúng:</b> さいふの中には、100円 <b>[だけ(3)] [しか(1)] [★ なかったので(4)] [やむをえず(2)]</b> 友だちに借りることにした。<br><b>Cấu trúc:</b> N + だけしか～ない (nhấn mạnh duy nhất chỉ có).<br><b>Dịch nghĩa:</b> Trong ví chỉ còn đúng 100 yên nên bất đắc dĩ tôi đành phải mượn bạn.<br><b>Vị trí dấu sao số 3:</b> 4 (なかったので)."
+          "explanation": "<b>Thứ tự câu đúng:</b> さいふの中には、100円 <b>[だけ(3)] [しか(1)] [★ なかったので(4)] [やむをえず(2)]</b> 友だちに借りることにした。<br><b>Cấu trúc:</b> N + だけしか～ない (nhấn mạnh duy nhất chỉ có).<br><b>Dịch nghĩa:</b> Trong ví chỉ còn đúng 100 yên nên bất đắc dĩ tôi đành phải mượn bạn.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. しか: Mảnh ghép liên kết trong câu<br>• 2. やむをえず: Mảnh ghép liên kết trong câu<br>• 3. だけ: Mảnh ghép liên kết trong câu<br>• <b>4. なかったので: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (なかったので)</b>."
         },
         {
           "id": 172,
@@ -2795,7 +2795,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự ghép đúng:</b> 結婚できるか <b>[どうかは(2)] [ともかく(4)] [★ その前に(3)] [安定(1)]</b> した仕事につくことが大事だ。<br><b>Cấu trúc:</b> A はともかく B (khoan bàn tới A, trước mắt B là điều quan trọng).<br><b>Dịch nghĩa:</b> Có kết hôn được hay không thì khoan hãy bàn tới, điều quan trọng trước mắt là phải tìm được một công việc ổn định.<br><b>Vị trí dấu sao số 3:</b> 3 (その前に)."
+          "explanation": "<b>Thứ tự câu đúng:</b> 結婚できるか <b>[どうかは(2)] [ともかく(4)] [★ その前に(3)] [安定(1)]</b> した仕事につくことが大事だ。<br><b>Cấu trúc:</b> A はともかく B (khoan bàn tới A, trước mắt B là điều quan trọng).<br><b>Dịch nghĩa:</b> Có kết hôn được hay không thì khoan hãy bàn tới, điều quan trọng trước mắt là phải tìm được một công việc ổn định.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 安定: Mảnh ghép liên kết trong câu<br>• 2. どうかは: Mảnh ghép liên kết trong câu<br>• <b>3. その前に: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. ともかく: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (その前に)</b>."
         },
         {
           "id": 173,
@@ -2830,7 +2830,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự ghép đúng:</b> 自慢する <b>[だけ(4)] [あって(1)] [★ 彼女の(3)] [料理の(2)]</b> 腕はすばらしかった。<br><b>Cấu trúc:</b> V/N + だけあって (thảo nào, quả đúng là xứng với danh tiếng).<br><b>Dịch nghĩa:</b> Quả đúng là bõ công tự hào, tay nghề nấu nướng của cô ấy vô cùng tuyệt vời.<br><b>Vị trí dấu sao số 3:</b> 3 (彼女の)."
+          "explanation": "<b>Thứ tự câu đúng:</b> 自慢する <b>[だけ(4)] [あって(1)] [★ 彼女の(3)] [料理の(2)]</b> 腕はすばらしかった。<br><b>Cấu trúc:</b> V/N + だけあって (thảo nào, quả đúng là xứng với danh tiếng).<br><b>Dịch nghĩa:</b> Quả đúng là bõ công tự hào, tay nghề nấu nướng của cô ấy vô cùng xuất sắc.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. あって: Mảnh ghép liên kết trong câu<br>• 2. 料理の: Mảnh ghép liên kết trong câu<br>• <b>3. 彼女の: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. だけ: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 1 - 3 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (彼女の)</b>."
         },
         {
           "id": 174,
@@ -2865,7 +2865,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự ghép đúng:</b> どこへ旅行に <b>[行くか(3)] [★ みんなの意見を(1)] [聞いてみない(4)] [ことには(2)]</b> 勝手に決められない。<br><b>Cấu trúc:</b> V-te + みないことには (nếu chưa thử làm gì thì không thể...).<br><b>Dịch nghĩa:</b> Đi du lịch ở đâu thì nếu chưa thử lắng nghe ý kiến của mọi người thì không thể tự tiện quyết định được.<br><b>Vị trí dấu sao số 2:</b> 1 (みんなの意見を)."
+          "explanation": "<b>Thứ tự câu đúng:</b> どこへ旅行に <b>[行くか(3)] [★ みんなの意見を(1)] [聞いてみない(4)] [ことには(2)]</b> 勝手に決められない。<br><b>Cấu trúc:</b> V-te + みないことには (nếu chưa thử làm gì thì không thể...).<br><b>Dịch nghĩa:</b> Đi du lịch ở đâu thì nếu chưa thử lắng nghe ý kiến của mọi người thì không thể tự ý quyết định được.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. みんなの意見を: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. ことには: Mảnh ghép liên kết trong câu<br>• 3. 行くか: Mảnh ghép liên kết trong câu<br>• 4. 聞いてみない: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 2) là phương án <b>1 (みんなの意見を)</b>."
         },
         {
           "id": 175,
@@ -2900,7 +2900,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự ghép đúng:</b> 彼女は、<b>[忘れると(2)] [★ いけないから(4)] [どんな(1)] [小さなこと(3)]</b> でもメモするようにしている。<br><b>Cấu trúc:</b> ～てはいけないから / といけないから (để phòng ngừa việc không may xảy ra).<br><b>Dịch nghĩa:</b> Cô ấy vì sợ quên nên việc dù nhỏ nhặt đến đâu cũng luôn ghi chép lại cẩn thận.<br><b>Vị trí dấu sao số 2:</b> 4 (いけないから)."
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女は、<b>[忘れると(2)] [★ いけないから(4)] [どんな(1)] [小さなこと(3)]</b> でもメモするようにしている。<br><b>Cấu trúc:</b> ～てはいけないから / といけないから (để phòng ngừa việc không may xảy ra).<br><b>Dịch nghĩa:</b> Cô ấy vì sợ quên nên việc dù nhỏ nhặt đến đâu cũng luôn ghi chép cẩn thận.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どんな: Mảnh ghép liên kết trong câu<br>• 2. 忘れると: Mảnh ghép liên kết trong câu<br>• 3. 小さなこと: Mảnh ghép liên kết trong câu<br>• <b>4. いけないから: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 2) là phương án <b>4 (いけないから)</b>."
         },
         {
           "id": 176,
@@ -2974,7 +2974,7 @@ window.JLPT_DATA[6] = {
             "a 夢 ／ b 科学"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Đối chiếu văn cảnh:</b><br>• Vế trước nói về nỗi sợ trẻ em mất đi giấc mơ mộng mơ: 【54-a】= <b>夢</b> (夢がなくなってしまう).<br>• Vế sau tác giả khẳng định giải quyết 1 câu đố sẽ sinh ra 10 câu đố mới, bản chất của khoa học chính là như thế: 【54-b】= <b>科学</b> (科学とはそういうものだからです).<br>=> Đáp án đúng là <b>4 (a 夢 ／ b 科学)</b>.<br><b>Dịch nghĩa:</b> Nếu mọi bí ẩn đều bị giải mã tường tận thì trẻ em sau này sẽ không còn cơ hội để thỏa sức mơ mộng và tưởng tượng nữa.",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Tác giả bàn luận về ranh giới giữa mơ ước và bản chất khám phá của khoa học.<br><b>Dịch nghĩa:</b> Nỗi sợ trẻ em mất đi giấc mơ mộng tưởng chỉ là lo hão, bởi lẽ giải quyết được một bí ẩn sẽ lại mở ra mười bí ẩn mới, đó chính là bản chất của khoa học.<br><i>Phân tích các phương án:</i><br>• 1. a 解明 ／ b 心配: Ngược trật tự ngữ cảnh<br>• 2. a 心配 ／ b 解明: Không hợp nghĩa ngữ pháp vế sau<br>• 3. a 科学 ／ b 夢: Ngược vị trí hai vế đối chiếu<br>• <b>4. a 夢 ／ b 科学: a là giấc mơ (夢がなくなってしまう) và b là khoa học (科学とはそういうものだからです) [Đúng]</b>",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         }
       ]
@@ -3014,7 +3014,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 人が本を <b>[手に(4)] [とる(3)] [★ きっかけは(1)] [広告(2)]</b> 、書評、人の噂、インターネットの情報とさまざまだ。<br><b>Cấu trúc:</b> 本を手にとるきっかけは N だ。<br><b>Dịch:</b> Cơ duyên để một người cầm một cuốn sách lên đọc thì vô cùng phong phú: từ quảng cáo, điểm sách, lời đồn đến thông tin trên mạng.<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> 人が本を <b>[手に(4)] [とる(3)] [★ きっかけは(1)] [広告(2)]</b> 、書評、人の噂、インターネットの情報とさまざまだ。<br><b>Cấu trúc:</b> 本を手にとるきっかけは N だ。<br><b>Dịch nghĩa:</b> Cơ duyên để một người cầm cuốn sách lên đọc thì vô cùng phong phú: từ quảng cáo, điểm sách, lời đồn đến thông tin trên mạng.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. きっかけは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 広告: Mảnh ghép liên kết trong câu<br>• 3. とる: Mảnh ghép liên kết trong câu<br>• 4. 手に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (きっかけは)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3049,7 +3049,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [わけではない(1)] [★ ことだけは(2)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないことだけは (chỉ riêng việc không phải cô ấy có ác ý thì tôi đã hiểu rõ).<br><b>Dịch:</b> Nhờ lời giải thích của bạn mà tôi hiểu rất rõ chuyện cô ấy không hề có ác ý.<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [わけではない(1)] [★ ことだけは(2)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないことだけは (chỉ riêng việc không phải cô ấy có ác ý thì tôi đã hiểu rõ).<br><b>Dịch nghĩa:</b> Đã có nhiều người tham dự buổi họp mặt hơn dự kiến, kết quả là phòng hội nghị bị quá tải.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. わけではない: Mảnh ghép liên kết trong câu<br>• <b>2. ことだけは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 悪気があった: Mảnh ghép liên kết trong câu<br>• 4. 彼女に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (ことだけは)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3084,7 +3084,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> その湖から見た <b>[山は(2)] [言いようがない(4)] [★ ほど美しい(3)] [光景(1)]</b> だった。<br><b>Cấu trúc:</b> 言いようがないほど A (đẹp đến mức không thốt nên lời).<br><b>Dịch:</b> Ngọn núi nhìn từ hồ nước đó là một quang cảnh đẹp đến mức không lời nào diễn tả xiết.<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự câu đúng:</b> その湖から見た <b>[山は(2)] [言いようがない(4)] [★ ほど美しい(3)] [光景(1)]</b> だった。<br><b>Cấu trúc:</b> 言いようがないほど A (đẹp đến mức không thốt nên lời).<br><b>Dịch nghĩa:</b> Trang phục màu trắng hay màu đen trông đơn giản thế thôi nhưng tùy vào người mặc mà có thể toát lên vẻ đẹp xuất sắc hoặc rất bình thường.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 光景: Mảnh ghép liên kết trong câu<br>• 2. 山は: Mảnh ghép liên kết trong câu<br>• <b>3. ほど美しい: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 言いようがない: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ほど美しい)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3119,7 +3119,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> テーブルの上にある携帯電話は <b>[私のすぐ(3)] [後ろに(2)] [座っている(4)] [★ 女の人の(1)]</b> ものです。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: 私のすぐ後ろに座っている女の人のもの.<br><b>Dịch:</b> Chiếc điện thoại di động trên bàn là của người phụ nữ đang ngồi ngay phía sau tôi.<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> テーブルの上にある携帯電話は <b>[私のすぐ(3)] [後ろに(2)] [座っている(4)] [★ 女の人の(1)]</b> ものです。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: 私のすぐ後ろに座っている女の人のもの.<br><b>Dịch nghĩa:</b> Dù bạn có thích món ăn đó đến mấy, nhưng nếu ngày nào cũng phải ăn thì sẽ thấy ngán ngẩm ngay.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 女の人の: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 後ろに: Mảnh ghép liên kết trong câu<br>• 3. 私のすぐ: Mảnh ghép liên kết trong câu<br>• 4. 座っている: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (女の人の)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3154,7 +3154,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> どうして <b>[田中くんが(4)] [欠席しているのか(2)] [★ だれか(1)] [聞いて(3)]</b> いますか。<br><b>Cấu trúc:</b> ～のか、だれか聞いていますか (Đã có ai hỏi vì sao bạn Tanaka vắng mặt chưa?).<br><b>Dịch:</b> Đã có ai hỏi thăm xem tại sao bạn Tanaka lại vắng mặt chưa?<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> どうして <b>[田中くんが(4)] [欠席しているのか(2)] [★ だれか(1)] [聞いて(3)]</b> いますか。<br><b>Cấu trúc:</b> ～のか、だれか聞いていますか (Đã có ai hỏi vì sao bạn Tanaka vắng mặt chưa?).<br><b>Dịch nghĩa:</b> Vì đó là cuốn tiểu thuyết được đánh giá rất cao nên tôi đã đọc với nhiều kỳ vọng, thế nhưng nội dung lại không hấp dẫn như mong đợi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. だれか: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 欠席しているのか: Mảnh ghép liên kết trong câu<br>• 3. 聞いて: Mảnh ghép liên kết trong câu<br>• 4. 田中くんが: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (だれか)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3189,7 +3189,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> あの人の <b>[話し方には(3)] [どこか(1)] [★ 人を(4)] [いらいらさせる(2)]</b> ものがある。<br><b>Cấu trúc:</b> ～ものがある (có cảm giác gì đó, có nét gì đó).<br><b>Dịch:</b> Cách nói chuyện của người đó có nét gì đó khiến người ta bực mình sốt ruột.<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> あの人の <b>[話し方には(3)] [どこか(1)] [★ 人を(4)] [いらいらさせる(2)]</b> ものがある。<br><b>Cấu trúc:</b> ～ものがある (có cảm giác gì đó, có nét gì đó).<br><b>Dịch nghĩa:</b> Chính vì công việc này đòi hỏi sự chính xác cao độ nên một lỗi nhỏ cũng tuyệt đối không được phép xảy ra.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どこか: Mảnh ghép liên kết trong câu<br>• 2. いらいらさせる: Mảnh ghép liên kết trong câu<br>• 3. 話し方には: Mảnh ghép liên kết trong câu<br>• <b>4. 人を: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (人を)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3224,7 +3224,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Cô ấy trông bề ngoài thì có vẻ cực kỳ nghiêm túc chỉn chu, thế nhưng bất ngờ thay cô ấy lại là người xử lý công việc rất tháo vát và nhanh nhạy.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Dịch nghĩa:</b> Nếu thời tiết ngày mai tiếp tục xấu như hôm nay thì chuyến leo núi có lẽ đành phải hủy bỏ.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 要領が: Mảnh ghép liên kết trong câu<br>• 2. 一方のよう: Mảnh ghép liên kết trong câu<br>• <b>3. 意外と: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. に見えて: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (意外と)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3259,7 +3259,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Ngay cả những người bạn vốn luôn đứng về phía ông Tanaka, vậy mà lần này đối với phát ngôn của ông ấy họ cũng phải lên tiếng chỉ trích.",
+          "explanation": "<b>Thứ tự câu đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Dịch nghĩa:</b> Tuyển thủ đó dù tuổi đời còn rất trẻ nhưng đã thể hiện bản lĩnh thi đấu không hề thua kém các vận động viên kỳ cựu.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. でさえ: Mảnh ghép liên kết trong câu<br>• 2. 友人たち: Mảnh ghép liên kết trong câu<br>• <b>3. 今回の田中氏の発言: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. の味方をする: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>3 (今回の田中氏の発言)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3294,7 +3294,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> その2つの作品はとてもよく <b>[似ているため(3)] [私のような(2)] [素人には(4)] [★ 区別が(1)]</b> つきかねる。<br><b>Cấu trúc:</b> 区別がつきかねる (khó mà phân biệt được).<br><b>Dịch:</b> Hai tác phẩm đó quá giống nhau nên đối với người ngoại đạo như tôi thì rất khó lòng phân biệt.<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> その2つの作品はとてもよく <b>[似ているため(3)] [私のような(2)] [素人には(4)] [★ 区別が(1)]</b> つきかねる。<br><b>Cấu trúc:</b> 区別がつきかねる (khó mà phân biệt được).<br><b>Dịch nghĩa:</b> Dù tôi đã giải thích cặn kẽ nhiều lần nhưng dường như anh ấy vẫn chưa hoàn toàn hiểu được ý tôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 区別が: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 私のような: Mảnh ghép liên kết trong câu<br>• 3. 似ているため: Mảnh ghép liên kết trong câu<br>• 4. 素人には: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (区別が)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3329,7 +3329,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> コロンブスは、<b>[アメリカ大陸(4)] [の発見者として(3)] [歴史に(1)] [★ 名を残した(2)]</b> 人物だ。<br><b>Cấu trúc:</b> 歴史に名を残す (lưu danh sử sách).<br><b>Dịch:</b> Columbus là nhân vật đã lưu danh sử sách với tư cách là người phát hiện ra châu Mỹ.<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> コロンブスは、<b>[アメリカ大陸(4)] [の発見者として(3)] [歴史に(1)] [★ 名を残した(2)]</b> 人物だ。<br><b>Cấu trúc:</b> 歴史に名を残す (lưu danh sử sách).<br><b>Dịch nghĩa:</b> Kể từ khi nhà máy mới đi vào hoạt động, năng suất sản xuất của công ty đã tăng lên gấp đôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 歴史に: Mảnh ghép liên kết trong câu<br>• <b>2. 名を残した: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. の発見者として: Mảnh ghép liên kết trong câu<br>• 4. アメリカ大陸: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (名を残した)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3364,7 +3364,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Bất cứ món đồ nào thì giá rẻ là điều tốt không gì bằng rồi, thế nhưng nếu rẻ quá mức thì người ta lại cảm thấy bất an lo lắng về chất lượng.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Dịch nghĩa:</b> Không chỉ riêng gì giới trẻ mà ngay cả người cao tuổi dạo gần đây cũng sử dụng điện thoại thông minh rất thành thạo.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. ことはないが: Mảnh ghép liên kết trong câu<br>• <b>2. 安すぎるのも: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 安いに越した: Mảnh ghép liên kết trong câu<br>• 4. あまり: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (安すぎるのも)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3399,7 +3399,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Vai trò then chốt của cơ quan mới thành lập này là giải cứu và bảo vệ quyền lợi của người tiêu dùng trước những thiệt hại vốn rất dễ bị bỏ qua.",
+          "explanation": "<b>Thứ tự câu đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Dịch nghĩa:</b> Thay vì chỉ ngồi than vãn về hoàn cảnh khó khăn, tốt hơn hết là hãy bắt tay vào làm những việc mình có thể làm ngay lúc này.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 消費者被害を: Mảnh ghép liên kết trong câu<br>• 2. がちな: Mảnh ghép liên kết trong câu<br>• 3. 見落とされ: Mảnh ghép liên kết trong câu<br>• <b>4. 救うこと: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (救うこと)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3434,7 +3434,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Mặc dù giao thông đi lại từ trung tâm thành phố vô cùng thuận tiện, thế nhưng khuôn viên trường đại học này lại rất yên tĩnh và mang bầu không khí thanh bình.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Dịch nghĩa:</b> Bác sĩ khuyên tôi nên hạn chế đồ ngọt và chăm chỉ tập thể dục để cải thiện sức khỏe.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 落ち着きがある: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. キャンパスは静かで: Mảnh ghép liên kết trong câu<br>• 3. にもかかわらず: Mảnh ghép liên kết trong câu<br>• 4. 交通の便がよい: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 2 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (落ち着きがある)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3469,7 +3469,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 失業者が <b>[大量に生み出される(2)] [構造を(4)] [改めない限り(3)] [★ 社会の活力は(1)]</b> 取り戻せないだろう。<br><b>Cấu trúc:</b> ～ない限り (chừng nào chưa cải cách cơ cấu tạo ra lượng lớn người thất nghiệp thì sức sống xã hội không thể hồi phục).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Chừng nào chúng ta chưa cải cách được cơ cấu đang làm sản sinh ra hàng loạt người thất nghiệp, thì chừng đó sức sống và sự năng động của xã hội sẽ không thể hồi phục được.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 失業者が <b>[大量に生み出される(2)] [構造を(4)] [改めない限り(3)] [★ 社会の活力は(1)]</b> 取り戻せないだろう。<br><b>Cấu trúc:</b> ～ない限り (chừng nào chưa cải cách cơ cấu tạo ra lượng lớn người thất nghiệp thì sức sống xã hội không thể hồi phục).<br><b>Dịch nghĩa:</b> Chừng nào chưa cải cách cơ cấu tạo ra lượng lớn người thất nghiệp thì vấn đề kinh tế xã hội vẫn chưa thể giải quyết triệt để được.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 社会の活力は: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 大量に生み出される: Mảnh ghép liên kết trong câu<br>• 3. 改めない限り: Mảnh ghép liên kết trong câu<br>• 4. 構造を: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (社会の活力は)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3504,7 +3504,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 就職が <b>[なかなか(4)] [決まらないのを(2)] [★ 景気や大学名(1)] [だけのせいにしては(3)]</b> いけません。<br><b>Cấu trúc:</b> ～のせいにしてはいけない (không được đổ lỗi cho kinh tế và danh tiếng trường).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Việc mãi mà vẫn chưa tìm được việc làm, nếu chỉ biết đổ hết mọi lỗi lầm lên đầu tình hình kinh tế ảm đạm hay danh tiếng của trường đại học thì thật không nên chút nào.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 就職が <b>[なかなか(4)] [決まらないのを(2)] [★ 景気や大学名(1)] [だけのせいにしては(3)]</b> いけません。<br><b>Cấu trúc:</b> ～のせいにしてはいけない (không được đổ lỗi cho kinh tế và danh tiếng trường).<br><b>Dịch nghĩa:</b> Việc mãi chưa tìm được việc làm không được phép đổ hết lỗi cho tình hình kinh tế hay danh tiếng của trường đại học.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 景気や大学名: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 決まらないのを: Mảnh ghép liên kết trong câu<br>• 3. だけのせいにしては: Mảnh ghép liên kết trong câu<br>• 4. なかなか: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (景気や大学名)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3539,7 +3539,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいうものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Đã bước sang tháng 9, dẫu nói rằng cái nắng gay gắt đỉnh điểm đã qua đi rồi thế nhưng thời tiết trên thực tế vẫn còn oi bức lắm.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいうものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Dịch nghĩa:</b> Bước sang tháng 9, dẫu nói là cái nóng đã qua đỉnh điểm rồi thế nhưng trên thực tế trời vẫn còn nóng lắm.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. とはいうものの: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 越えた: Mảnh ghép liên kết trong câu<br>• 3. 暑さは: Mảnh ghép liên kết trong câu<br>• 4. 峠を: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 4 - 2 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (とはいうものの)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3574,7 +3574,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> レオナルド・ダ・ヴィンチの描いた <b>[「モナリザ」という絵の(3)] [すばらしさのために(2)] [世界中から(4)] [★ 観光客が訪れる(1)]</b> という。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: Du khách từ khắp thế giới kéo đến vì vẻ đẹp của bức tranh Mona Lisa.<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Chính bởi vẻ đẹp tuyệt mỹ của bức tranh mang tên 'Nàng Mona Lisa' do Leonardo da Vinci vẽ nên, rất đông du khách từ khắp nơi trên thế giới đã tìm đến bảo tàng Louvre.",
+          "explanation": "<b>Thứ tự câu đúng:</b> レオナルド・ダ・ヴィンチの描いた <b>[「モナリザ」という絵の(3)] [すばらしさのために(2)] [世界中から(4)] [★ 観光客が訪れる(1)]</b> という。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: Du khách từ khắp thế giới kéo đến vì vẻ đẹp của bức tranh Mona Lisa.<br><b>Dịch nghĩa:</b> Chính vì vẻ đẹp tuyệt mỹ của bức tranh nàng Mona Lisa do Leonardo da Vinci vẽ mà du khách từ khắp thế giới không ngừng đổ về chiêm ngưỡng.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 観光客が訪れる: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. すばらしさのために: Mảnh ghép liên kết trong câu<br>• 3. 「モナリザ」という絵の: Mảnh ghép liên kết trong câu<br>• 4. 世界中から: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (観光客が訪れる)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3609,7 +3609,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 彼は、<b>[元新聞記者(1)] [というより(2)] [作家として(4)] [★ 人々に知られて(3)]</b> いる。<br><b>Cấu trúc:</b> AというよりB (được biết đến như một nhà văn hơn là cựu phóng viên báo).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Anh ấy được công chúng biết đến với tư cách là một nhà văn hơn là một cựu phóng viên báo chí.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼は、<b>[元新聞記者(1)] [というより(2)] [作家として(4)] [★ 人々に知られて(3)]</b> いる。<br><b>Cấu trúc:</b> AというよりB (được biết đến như một nhà văn hơn là cựu phóng viên báo).<br><b>Dịch nghĩa:</b> Anh ấy được công chúng biết đến như một tiểu thuyết gia nhiều hơn là một cựu phóng viên báo chí.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 元新聞記者: Mảnh ghép liên kết trong câu<br>• 2. というより: Mảnh ghép liên kết trong câu<br>• <b>3. 人々に知られて: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 作家として: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>1 - 2 - 4 - 3</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>3 (人々に知られて)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3644,7 +3644,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 食べる <b>[話ばかり(3)] [で恐縮だが(2)] [これが一番(1)] [★ 無難(4)]</b> な話題なのである。<br><b>Cấu trúc:</b> 無難な話題 (chủ đề an toàn nhất trong giao tiếp).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Tuy có phần hơi ngại ngùng khi toàn nói về chuyện ăn uống, thế nhưng đây lại là chủ đề trò chuyện an toàn và dễ hòa nhập nhất.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 食べる <b>[話ばかり(3)] [で恐縮だが(2)] [これが一番(1)] [★ 無難(4)]</b> な話題なのである。<br><b>Cấu trúc:</b> 無難な話題 (chủ đề an toàn nhất trong giao tiếp).<br><b>Dịch nghĩa:</b> Cứ mở miệng ra là toàn nói chuyện ăn uống thì thật ngại quá, nhưng đây quả thực là chủ đề an toàn và dễ nói chuyện nhất.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. これが一番: Mảnh ghép liên kết trong câu<br>• 2. で恐縮だが: Mảnh ghép liên kết trong câu<br>• 3. 話ばかり: Mảnh ghép liên kết trong câu<br>• <b>4. 無難: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (無難)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3679,7 +3679,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 芸術にしても学問にしても、<b>[歴史に(4)] [かかわる(2)] [ものを正しく(1)] [★ 評価するのは(3)]</b> 難しい。<br><b>Cấu trúc:</b> 歴史にかかわるものを正しく評価する (đánh giá đúng đắn những thứ liên quan tới lịch sử là rất khó).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Dù là trong nghệ thuật hay trong học thuật, việc đưa ra đánh giá đúng đắn về những gì liên quan đến lịch sử là một điều vô cùng khó khăn.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 芸術にしても学問にしても、<b>[歴史に(4)] [かかわる(2)] [ものを正しく(1)] [★ 評価するのは(3)]</b> 難しい。<br><b>Cấu trúc:</b> 歴史にかかわるものを正しく評価する (đánh giá đúng đắn những thứ liên quan tới lịch sử là rất khó).<br><b>Dịch nghĩa:</b> Cho dù là nghệ thuật hay học thuật thì việc đánh giá đúng đắn những giá trị gắn liền với dòng chảy lịch sử là điều vô cùng khó khăn.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. ものを正しく: Mảnh ghép liên kết trong câu<br>• 2. かかわる: Mảnh ghép liên kết trong câu<br>• <b>3. 評価するのは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 歴史に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>3 (評価するのは)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3714,7 +3714,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> だれもがそのメロディは <b>[知って(4)] [いながら(1)] [正しい題名は(3)] [★ 知られていない(2)]</b> 歌がある。<br><b>Cấu trúc:</b> ～ていながら (ai cũng biết giai điệu thế mà tựa đề chính xác lại không được biết tới).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Ai ai cũng đều biết rõ giai điệu của bản nhạc đó, thế nhưng trớ trêu thay tựa đề chính xác của bài hát thì hầu như chẳng có ai hay biết.",
+          "explanation": "<b>Thứ tự câu đúng:</b> だれもがそのメロディは <b>[知って(4)] [いながら(1)] [正しい題名は(3)] [★ 知られていない(2)]</b> 歌がある。<br><b>Cấu trúc:</b> ～ていながら (ai cũng biết giai điệu thế mà tựa đề chính xác lại không được biết tới).<br><b>Dịch nghĩa:</b> Có những bài hát mà ai ai cũng đều biết giai điệu ngân nga, thế nhưng tựa đề chính xác của bài hát thì lại chẳng mấy ai hay biết.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. いながら: Mảnh ghép liên kết trong câu<br>• <b>2. 知られていない: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 正しい題名は: Mảnh ghép liên kết trong câu<br>• 4. 知って: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 1 - 3 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (知られていない)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3749,7 +3749,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> ダンスでなければ、<b>[自分を表現できない(2)] [と思った(3)] [からこそ(1)] [★ 彼はその道に(4)]</b> 進んだのだ。<br><b>Cấu trúc:</b> ～からこそ (chính vì nghĩ nếu không phải khiêu vũ thì không thể bộc lộ bản thân nên anh ấy mới bước vào con đường đó).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Chính bởi vì anh ấy nghĩ rằng nếu không phải là vũ đạo thì bản thân không thể bộc lộ hết cảm xúc, nên anh ấy mới quyết tâm dấn thân vào con đường đó.",
+          "explanation": "<b>Thứ tự câu đúng:</b> ダンスでなければ、<b>[自分を表現できない(2)] [と思った(3)] [からこそ(1)] [★ 彼はその道に(4)]</b> 進んだのだ。<br><b>Cấu trúc:</b> ～からこそ (chính vì nghĩ nếu không phải khiêu vũ thì không thể bộc lộ bản thân nên anh ấy mới bước vào con đường đó).<br><b>Dịch nghĩa:</b> Chính vì nghĩ rằng nếu không phải là khiêu vũ thì bản thân sẽ không thể biểu đạt trọn vẹn chính mình, nên anh ấy mới dấn thân vào con đường này.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. からこそ: Mảnh ghép liên kết trong câu<br>• 2. 自分を表現できない: Mảnh ghép liên kết trong câu<br>• 3. と思った: Mảnh ghép liên kết trong câu<br>• <b>4. 彼はその道に: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 3 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (彼はその道に)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3784,7 +3784,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 彼女の <b>[意見(3)] [について(4)] [部分的には賛同できる(2)] [★ 点(1)]</b> も少なくない。<br><b>Cấu trúc:</b> 賛同できる点も少なくない (có không ít điểm có thể đồng tình trong ý kiến của cô ấy).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Đối với quan điểm và ý kiến của cô ấy, có không ít điểm mà đứng ở một góc độ nhất định tôi cũng hoàn toàn có thể đồng tình chia sẻ.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女の <b>[意見(3)] [について(4)] [部分的には賛同できる(2)] [★ 点(1)]</b> も少なくない。<br><b>Cấu trúc:</b> 賛同できる点も少なくない (có không ít điểm có thể đồng tình trong ý kiến của cô ấy).<br><b>Dịch nghĩa:</b> Về ý kiến của cô ấy, có không ít điểm mà tôi có thể đồng tình xét trên từng phương diện bộ phận.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 点: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 部分的には賛同できる: Mảnh ghép liên kết trong câu<br>• 3. 意見: Mảnh ghép liên kết trong câu<br>• 4. について: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 4 - 2 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (点)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3819,7 +3819,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 親が子どもを <b>[どれだけ(1)] [深く(4)] [愛していても(3)] [★ 子どもに(2)]</b> 伝わらないこともある。<br><b>Cấu trúc:</b> どれだけ～ても (cho dù cha mẹ có yêu thương con cái sâu sắc đến nhường nào thì cũng có lúc tình cảm không truyền đạt được tới con).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Cha mẹ dù có yêu thương con cái sâu sắc đến nhường nào đi chăng nữa, nếu tình cảm đó không được truyền tải tới con trẻ thì cũng trở nên vô nghĩa.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 親が子どもを <b>[どれだけ(1)] [深く(4)] [愛していても(3)] [★ 子どもに(2)]</b> 伝わらないこともある。<br><b>Cấu trúc:</b> どれだけ～ても (cho dù cha mẹ có yêu thương con cái sâu sắc đến nhường nào thì cũng có lúc tình cảm không truyền đạt được tới con).<br><b>Dịch nghĩa:</b> Cho dù cha mẹ có yêu thương con cái sâu sắc đến nhường nào đi chăng nữa, thì đôi khi tình cảm đó cũng khó mà truyền tải trọn vẹn tới con cái.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どれだけ: Mảnh ghép liên kết trong câu<br>• <b>2. 子どもに: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 愛していても: Mảnh ghép liên kết trong câu<br>• 4. 深く: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>1 - 4 - 3 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (子どもに)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3854,7 +3854,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 我が社は、従業員を <b>[現在の(2)] [3分の2に(3)] [減らさなければ(1)] [★ 倒産(4)]</b> を避けられない。<br><b>Cấu trúc:</b> ～なければ倒産を避けられない (nếu không cắt giảm 2/3 nhân viên hiện tại thì không thể tránh khỏi phá sản).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Công ty chúng tôi nếu không cắt giảm số lượng nhân viên xuống còn hai phần ba so với hiện tại thì nguy cơ phá sản là điều khó tránh khỏi.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 我が社は、従業員を <b>[現在の(2)] [3分の2に(3)] [減らさなければ(1)] [★ 倒産(4)]</b> を避けられない。<br><b>Cấu trúc:</b> ～なければ倒産を避けられない (nếu không cắt giảm 2/3 nhân viên hiện tại thì không thể tránh khỏi phá sản).<br><b>Dịch nghĩa:</b> Công ty chúng ta nếu không cắt giảm số lượng nhân viên xuống còn 2/3 so với hiện tại thì không thể nào tránh khỏi nguy cơ phá sản.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 減らさなければ: Mảnh ghép liên kết trong câu<br>• 2. 現在の: Mảnh ghép liên kết trong câu<br>• 3. 3分の2に: Mảnh ghép liên kết trong câu<br>• <b>4. 倒産: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 3 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (倒産)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3889,7 +3889,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> この試験は、英語に <b>[ついての(3)] [能力の測定(4)] [のみならず(1)] [★ 就職や昇進(2)]</b> にも活用されるようになった。<br><b>Cấu trúc:</b> AのみならずB (không chỉ đánh giá năng lực tiếng Anh mà còn ứng dụng vào tuyển dụng thăng tiến).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Kỳ thi đánh giá năng lực tiếng Anh này không chỉ đo lường trình độ ngôn ngữ, mà kết quả của nó còn được sử dụng rộng rãi cho việc tuyển dụng và xét thăng tiến trong công việc.",
+          "explanation": "<b>Thứ tự câu đúng:</b> この試験は、英語に <b>[ついての(3)] [能力の測定(4)] [のみならず(1)] [★ 就職や昇進(2)]</b> にも活用されるようになった。<br><b>Cấu trúc:</b> AのみならずB (không chỉ đánh giá năng lực tiếng Anh mà còn ứng dụng vào tuyển dụng thăng tiến).<br><b>Dịch nghĩa:</b> Kỳ thi đánh giá năng lực này không chỉ để đo lường trình độ tiếng Anh đơn thuần mà còn được ứng dụng rộng rãi vào việc tuyển dụng và đề bạt thăng chức.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. のみならず: Mảnh ghép liên kết trong câu<br>• <b>2. 就職や昇進: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. ついての: Mảnh ghép liên kết trong câu<br>• 4. 能力の測定: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 4 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (就職や昇進)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3924,7 +3924,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 最初にシンガポール <b>[を例にして(3)] [現代の(1)] [都市国家の成り立ち(2)] [★ を見ていく(4)]</b> ことにしましょう。<br><b>Cấu trúc:</b> ～を例にして...を見ていく (lấy Singapore làm ví dụ để tìm hiểu về sự hình thành quốc gia đô thị hiện đại).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Trước tiên, chúng ta hãy cùng lấy ví dụ từ đất nước Singapore để xem xét quá trình hình thành và phát triển của một quốc gia đô thị hiện đại.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 最初にシンガポール <b>[を例にして(3)] [現代の(1)] [都市国家の成り立ち(2)] [★ を見ていく(4)]</b> ことにしましょう。<br><b>Cấu trúc:</b> ～を例にして...を見ていく (lấy Singapore làm ví dụ để tìm hiểu về sự hình thành quốc gia đô thị hiện đại).<br><b>Dịch nghĩa:</b> Trước tiên chúng tôi xin lấy Singapore làm ví dụ điển hình để cùng tìm hiểu về quá trình hình thành của một quốc gia đô thị hiện đại.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 現代の: Mảnh ghép liên kết trong câu<br>• 2. 都市国家の成り立ち: Mảnh ghép liên kết trong câu<br>• 3. を例にして: Mảnh ghép liên kết trong câu<br>• <b>4. を見ていく: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 2 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (を見ていく)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3959,7 +3959,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 彼にとって <b>[ビジネスは(3)] [生きがい(1)] [ではなく(4)] [★ 単なるゲーム(2)]</b> にすぎない。<br><b>Cấu trúc:</b> AではなくBにすぎない (kinh doanh đối với anh ta không phải lẽ sống mà chỉ đơn thuần là một trò chơi).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Đối với anh ấy, công việc kinh doanh thương trường chẳng phải là lẽ sống cuộc đời gì to tát, mà chẳng qua chỉ là một trò chơi thử thách trí tuệ mà thôi.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼にとって <b>[ビジネスは(3)] [生きがい(1)] [ではなく(4)] [★ 単なるゲーム(2)]</b> にすぎない。<br><b>Cấu trúc:</b> AではなくBにすぎない (kinh doanh đối với anh ta không phải lẽ sống mà chỉ đơn thuần là một trò chơi).<br><b>Dịch nghĩa:</b> Đối với anh ta, kinh doanh chẳng phải là lẽ sống cao cả gì mà đơn thuần chỉ là một trò chơi thử thách bản lĩnh mà thôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 生きがい: Mảnh ghép liên kết trong câu<br>• <b>2. 単なるゲーム: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. ビジネスは: Mảnh ghép liên kết trong câu<br>• 4. ではなく: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (単なるゲーム)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3994,7 +3994,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> すべての <b>[ひらがなは(2)] [漢字を(1)] [もとにして(3)] [★ 生まれて(4)]</b> います。<br><b>Cấu trúc:</b> ～をもとにして生まれる (tất cả chữ hiragana đều được sinh ra dựa trên nền tảng chữ Hán).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Toàn bộ hệ thống chữ viết Hiragana của tiếng Nhật ngày nay đều được sáng tạo và bắt nguồn từ nền tảng của các chữ Hán Kanji cổ.",
+          "explanation": "<b>Thứ tự câu đúng:</b> すべての <b>[ひらがなは(2)] [漢字を(1)] [もとにして(3)] [★ 生まれて(4)]</b> います。<br><b>Cấu trúc:</b> ～をもとにして生まれる (tất cả chữ hiragana đều được sinh ra dựa trên nền tảng chữ Hán).<br><b>Dịch nghĩa:</b> Toàn bộ hệ thống chữ Hiragana trong tiếng Nhật đều được hình thành và phát triển dựa trên cơ sở giản lược từ chữ Hán.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 漢字を: Mảnh ghép liên kết trong câu<br>• 2. ひらがなは: Mảnh ghép liên kết trong câu<br>• 3. もとにして: Mảnh ghép liên kết trong câu<br>• <b>4. 生まれて: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 1 - 3 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (生まれて)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -4029,7 +4029,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> A「この『若干』という言葉の意味がわからないんですが。」<br>B「『少しだけ』<b>[という(2)] [ような(3)] [意味だった(1)] [★ と思う(4)]</b> んですけど。」<br><b>Cấu trúc:</b> ～という意味だったと思う (Tôi nhớ mang máng nó có nghĩa kiểu như là 'một chút/một ít').<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> A: 'Cháu không hiểu từ \"若干\" (nhược can) này nghĩa là gì ạ.' - B: 'Nó mang nghĩa tương tự như từ \"một chút ít\", là một cách nói trang trọng đấy cháu ạ.'",
+          "explanation": "<b>Thứ tự câu đúng:</b> A「この『若干』という言葉の意味がわからないんですが。」<br>B「『少しだけ』<b>[という(2)] [ような(3)] [意味だった(1)] [★ と思う(4)]</b> んですけど。」<br><b>Cấu trúc:</b> ～という意味だったと思う (Tôi nhớ mang máng nó có nghĩa kiểu như là 'một chút/một ít').<br><b>Dịch nghĩa:</b> A: 'Tôi không hiểu rõ từ jakkan này có nghĩa là gì.' - B: 'Tôi nhớ mang máng hình như nó có nghĩa kiểu như là một chút, một ít thì phải.'<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 意味だった: Mảnh ghép liên kết trong câu<br>• 2. という: Mảnh ghép liên kết trong câu<br>• 3. ような: Mảnh ghép liên kết trong câu<br>• <b>4. と思う: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 3 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (と思う)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
