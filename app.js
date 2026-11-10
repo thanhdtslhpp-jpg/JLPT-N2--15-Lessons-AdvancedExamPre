@@ -2155,10 +2155,21 @@ class JLPTApp {
                   <tbody>
                     ${p1.map(it => `
                       <tr>
-                        <td><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale));">${hl(it.adverb)}</span></td>
-                        <td><b style="color: #4f46e5; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.pattern)}</b></td>
-                        <td><div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div></td>
-                        <td><small style="color: var(--text-sub); font-size: calc(0.9rem * var(--cs-scale));">${hl(it.note || '')}</small></td>
+                        <td style="vertical-align: top;"><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale));">${hl(it.adverb)}</span></td>
+                        <td style="vertical-align: top;"><b style="color: #4f46e5; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.pattern)}</b></td>
+                        <td style="vertical-align: top;">
+                          <div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div>
+                          ${it.example ? (() => {
+                            const b = formatBilingual(it.example);
+                            return `
+                              <div style="margin-top: 0.45rem; padding: 0.45rem 0.65rem; background: rgba(99, 102, 241, 0.05); border-left: 3px solid #6366f1; border-radius: 4px;">
+                                <div style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-main); font-weight: 600;"><span style="color: #4f46e5; font-weight: 700;">例：</span>${hl(b.ja)}</div>
+                                ${b.vi ? `<div style="font-size: calc(0.88rem * var(--cs-scale)); color: var(--text-sub); margin-top: 0.2rem;"><span style="color: #059669; font-weight: 700;">🇻🇳 Dịch:</span> ${hl(b.vi)}</div>` : ''}
+                              </div>
+                            `;
+                          })() : ''}
+                        </td>
+                        <td style="vertical-align: top;"><small style="color: var(--text-sub); font-size: calc(0.9rem * var(--cs-scale));">${hl(it.note || '')}</small></td>
                       </tr>
                     `).join("")}
                   </tbody>
@@ -2191,9 +2202,20 @@ class JLPTApp {
                   <tbody>
                     ${p2.map(it => `
                       <tr>
-                        <td><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale)); color: #0891b2; background: rgba(8, 145, 178, 0.1); border-color: rgba(8, 145, 178, 0.3);">${hl(it.adverb)}</span></td>
-                        <td><b style="color: #0e7490; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.collocation)}</b></td>
-                        <td><div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div></td>
+                        <td style="vertical-align: top;"><span class="cs-highlight-term" style="font-size: calc(1rem * var(--cs-scale)); color: #0891b2; background: rgba(8, 145, 178, 0.1); border-color: rgba(8, 145, 178, 0.3);">${hl(it.adverb)}</span></td>
+                        <td style="vertical-align: top;"><b style="color: #0e7490; font-size: calc(1.05rem * var(--cs-scale));">${hl(it.collocation)}</b></td>
+                        <td style="vertical-align: top;">
+                          <div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div>
+                          ${it.example ? (() => {
+                            const b = formatBilingual(it.example);
+                            return `
+                              <div style="margin-top: 0.45rem; padding: 0.45rem 0.65rem; background: rgba(8, 145, 178, 0.05); border-left: 3px solid #0891b2; border-radius: 4px;">
+                                <div style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-main); font-weight: 600;"><span style="color: #0891b2; font-weight: 700;">例：</span>${hl(b.ja)}</div>
+                                ${b.vi ? `<div style="font-size: calc(0.88rem * var(--cs-scale)); color: var(--text-sub); margin-top: 0.2rem;"><span style="color: #059669; font-weight: 700;">🇻🇳 Dịch:</span> ${hl(b.vi)}</div>` : ''}
+                              </div>
+                            `;
+                          })() : ''}
+                        </td>
                       </tr>
                     `).join("")}
                   </tbody>
@@ -2221,9 +2243,18 @@ class JLPTApp {
                       <span style="font-weight: 800; font-size: calc(1.15rem * var(--cs-scale)); color: #15803d;">${hl(it.word)}</span>
                       <span class="cs-badge-pill" style="background: rgba(22, 163, 74, 0.12); color: #15803d; font-size: 0.8rem;">Từ láy</span>
                     </div>
-                    <div style="color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.5; font-weight: 600;">
-                      ${hl(it.meaning)}
+                    <div style="color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.5; font-weight: 600; margin-bottom: 0.45rem;">
+                      💡 ${hl(it.meaning)}
                     </div>
+                    ${it.example ? (() => {
+                      const b = formatBilingual(it.example);
+                      return `
+                        <div style="margin-top: 0.4rem; padding: 0.45rem 0.65rem; background: rgba(22, 163, 74, 0.05); border-left: 3px solid #16a34a; border-radius: 4px;">
+                          <div style="font-size: calc(0.92rem * var(--cs-scale)); color: var(--text-main); font-weight: 600;"><span style="color: #15803d; font-weight: 700;">例：</span>${hl(b.ja)}</div>
+                          ${b.vi ? `<div style="font-size: calc(0.88rem * var(--cs-scale)); color: var(--text-sub); margin-top: 0.2rem;"><span style="color: #059669; font-weight: 700;">🇻🇳 Dịch:</span> ${hl(b.vi)}</div>` : ''}
+                        </div>
+                      `;
+                    })() : ''}
                   </div>
                 `).join("")}
               </div>
@@ -2281,50 +2312,62 @@ class JLPTApp {
       return;
     }
 
-    // 4. MONO & KOTO
+    // 4. TRỌN BỘ CẤU TRÚC MONO & KOTO (16 TRANG GỐC: こと, もの, 上, ところ)
     if (csId === "cs_mono_koto") {
-      const data = allData.cs_mono_koto || { koto: [], mono: [] };
+      const data = allData.cs_mono_koto || { koto: [], mono: [], ue: [], tokoro: [] };
       const filterItems = (list) => list.filter(it => {
         if (!query) return true;
-        return it.pattern.toLowerCase().includes(qLower) ||
-               it.meaning.toLowerCase().includes(qLower) ||
-               it.example.toLowerCase().includes(qLower);
+        return (it.pattern && it.pattern.toLowerCase().includes(qLower)) ||
+               (it.meaning && it.meaning.toLowerCase().includes(qLower)) ||
+               (it.example && it.example.toLowerCase().includes(qLower)) ||
+               (it.note && it.note.toLowerCase().includes(qLower));
       });
 
       const kotoFiltered = filterItems(data.koto || []);
       const monoFiltered = filterItems(data.mono || []);
+      const ueFiltered = filterItems(data.ue || []);
+      const tokoroFiltered = filterItems(data.tokoro || []);
 
-      if (kotoFiltered.length === 0 && monoFiltered.length === 0) {
+      if (kotoFiltered.length === 0 && monoFiltered.length === 0 && ueFiltered.length === 0 && tokoroFiltered.length === 0) {
         body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy cấu trúc nào khớp với "${query}"</div>`;
         return;
       }
 
-      body.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 2rem;">
-          <div>
-            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #10b981; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc こと (KOTO)
-            </h3>
+      const renderSectionTable = (title, colorClass, colorCode, icon, list) => {
+        if (!list || list.length === 0) return "";
+        return `
+          <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: 0 4px 16px -2px rgba(0,0,0,0.06);">
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;">
+              <h3 style="font-size: calc(1.18rem * var(--cs-scale)); font-weight: 800; color: ${colorCode}; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                <i class="fas ${icon}"></i> ${title}
+              </h3>
+              <span class="cs-badge-pill" style="background: ${colorCode}22; color: ${colorCode}; font-size: calc(0.85rem * var(--cs-scale)); font-weight: 700;">${list.length} cấu trúc</span>
+            </div>
             <div class="cs-table-wrap">
               <table class="cs-table">
                 <thead>
                   <tr>
-                    <th style="width: 25%;">Cấu trúc</th>
-                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
-                    <th style="width: 40%;">Ví dụ thực tế song ngữ</th>
+                    <th style="width: 25%;">Cấu trúc ngữ pháp</th>
+                    <th style="width: 33%;">Ý nghĩa sư phạm & Lưu ý</th>
+                    <th style="width: 42%;">Ví dụ thực tế song ngữ</th>
                   </tr>
                 </thead>
                 <tbody>
-                  ${kotoFiltered.map(it => {
+                  ${list.map(it => {
                     const b = formatBilingual(it.example || "");
                     return `
                       <tr>
-                        <td><span class="cs-highlight-term" style="color: #059669;">${hl(it.pattern)}</span></td>
-                        <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
-                        <td>
+                        <td style="vertical-align: top;"><span class="cs-highlight-term" style="color: ${colorCode}; background: ${colorCode}15; border-color: ${colorCode}33; font-weight: 800;">${hl(it.pattern)}</span></td>
+                        <td style="vertical-align: top;">
+                          <div style="font-weight: 600; color: var(--text-main); font-size: calc(0.95rem * var(--cs-scale));">${hl(it.meaning)}</div>
+                          ${it.note ? `<div style="color: var(--text-sub); font-size: calc(0.88rem * var(--cs-scale)); margin-top: 0.25rem;"><i class="fas fa-lightbulb" style="color: #f59e0b; margin-right: 0.25rem;"></i>${hl(it.note)}</div>` : ''}
+                        </td>
+                        <td style="vertical-align: top;">
                           ${b.ja ? `
-                            <div class="cs-ex-ja" style="font-size: calc(0.96rem * var(--cs-scale));">${hl(b.ja)}</div>
-                            ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale));">🇻🇳 ${hl(b.vi)}</div>` : ''}
+                            <div style="padding: 0.45rem 0.65rem; background: ${colorCode}08; border-left: 3px solid ${colorCode}; border-radius: 4px;">
+                              <div class="cs-ex-ja" style="font-size: calc(0.94rem * var(--cs-scale)); font-weight: 600; color: var(--text-main);"><span style="color: ${colorCode}; font-weight: 700;">例：</span>${hl(b.ja)}</div>
+                              ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale)); color: var(--text-sub); margin-top: 0.25rem;"><span style="color: #059669; font-weight: 700;">🇻🇳 Dịch:</span> ${hl(b.vi)}</div>` : ''}
+                            </div>
                           ` : '-'}
                         </td>
                       </tr>
@@ -2332,42 +2375,26 @@ class JLPTApp {
                   }).join("")}
                 </tbody>
               </table>
+            </div>
+          </div>
+        `;
+      };
+
+      body.innerHTML = `
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(16, 185, 129, 0.04)); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; padding: 1rem 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; font-weight: 800; color: #047857; font-size: calc(1.05rem * var(--cs-scale)); margin-bottom: 0.35rem;">
+              <i class="fas fa-layer-group" style="color: #10b981;"></i> Trọn Bộ Cấu Trúc もの & こと (Trọn Bộ 16 Trang Gốc)
+            </div>
+            <div style="color: var(--text-sub); font-size: calc(0.92rem * var(--cs-scale)); line-height: 1.5;">
+              Cẩm nang phân biệt 4 nhóm cấu trúc kinh điển N2: Nhóm こと (15 mẫu), Nhóm もの (10 mẫu), Nhóm chữ 上 (4 mẫu) & Nhóm ところ (5 mẫu) kèm ví dụ song ngữ.
             </div>
           </div>
 
-          <div>
-            <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #3b82f6; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-check-circle"></i> Nhóm Cấu Trúc もの (MONO)
-            </h3>
-            <div class="cs-table-wrap">
-              <table class="cs-table">
-                <thead>
-                  <tr>
-                    <th style="width: 25%;">Cấu trúc</th>
-                    <th style="width: 35%;">Ý nghĩa sư phạm</th>
-                    <th style="width: 40%;">Ví dụ thực tế song ngữ</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${monoFiltered.map(it => {
-                    const b = formatBilingual(it.example || "");
-                    return `
-                      <tr>
-                        <td><span class="cs-highlight-term" style="color: #2563eb;">${hl(it.pattern)}</span></td>
-                        <td><div style="font-weight: 600; color: var(--text-main);">${hl(it.meaning)}</div></td>
-                        <td>
-                          ${b.ja ? `
-                            <div class="cs-ex-ja" style="font-size: calc(0.96rem * var(--cs-scale));">${hl(b.ja)}</div>
-                            ${b.vi ? `<div class="cs-ex-vi" style="font-size: calc(0.88rem * var(--cs-scale));">🇻🇳 ${hl(b.vi)}</div>` : ''}
-                          ` : '-'}
-                        </td>
-                      </tr>
-                    `;
-                  }).join("")}
-                </tbody>
-              </table>
-            </div>
-          </div>
+          ${renderSectionTable("PHẦN 1: Nhóm Cấu Trúc こと (KOTO)", "koto", "#059669", "fa-check-circle", kotoFiltered)}
+          ${renderSectionTable("PHẦN 2: Nhóm Cấu Trúc もの (MONO)", "mono", "#2563eb", "fa-bookmark", monoFiltered)}
+          ${renderSectionTable("PHẦN 3: Trọn Bộ Mẫu Câu Chữ 上 (うえ / じょう)", "ue", "#d97706", "fa-arrow-up", ueFiltered)}
+          ${renderSectionTable("PHẦN 4: Trọn Bộ Mẫu Câu Chữ ところ (TOKORO)", "tokoro", "#7c3aed", "fa-map-marker-alt", tokoroFiltered)}
         </div>
       `;
       return;

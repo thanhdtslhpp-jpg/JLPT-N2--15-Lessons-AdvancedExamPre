@@ -12,388 +12,755 @@ window.JLPT_CHEATSHEETS_DATA = {
         "adverb": "もしかしたら / もしかすると / ひょっとしたら",
         "pattern": "～かもしれない",
         "meaning": "Có lẽ là... / Không chừng là...",
-        "note": "Khả năng xảy ra khoảng 50%."
+        "note": "Khả năng xảy ra khoảng 50%.",
+        "example": "もしかしたら、彼の話は本当かもしれない。(Có lẽ câu chuyện của anh ấy là thật cũng nên)."
       },
       {
         "adverb": "おそらく",
         "pattern": "～だろう・でしょう / ～と思う",
         "meaning": "E rằng... / Có lẽ rằng...",
-        "note": "Phán đoán khả năng cao (trên 80%)."
+        "note": "Phán đoán khả năng cao (trên 80%).",
+        "example": "おそらく明日は雨が降るだろう。(Có lẽ ngày mai trời sẽ mưa)."
       },
       {
         "adverb": "どうも",
         "pattern": "～ようだ / ～らしい",
         "meaning": "Hình như là... / Có vẻ là...",
-        "note": "Cảm giác mơ hồ từ trực giác."
+        "note": "Cảm giác mơ hồ từ trực giác.",
+        "example": "どうも風邪をひいてしまったようだ。(Hình như tôi bị cảm lạnh mất rồi)."
       },
       {
         "adverb": "いまにも (今にも)",
         "pattern": "～そうだ",
         "meaning": "Sắp sửa... (ngay tức khắc biến đổi)",
-        "note": "Trạng thái trực quan: 今にも雨が降りそうだ."
+        "note": "Trạng thái trực quan: 今にも雨が降りそうだ.",
+        "example": "いまにも雨が降り出しそうな空模様だ。(Bầu trời trông như sắp sửa đổ mưa tới nơi)."
       },
       {
         "adverb": "たった今 (たったいま)",
         "pattern": "～たところだ",
         "meaning": "Vừa mới xong tức thì",
-        "note": "Vừa xảy ra cách đây vài giây/vài phút."
+        "note": "Vừa xảy ra cách đây vài giây/vài phút.",
+        "example": "たった今、空港に着いたところです。(Tôi vừa mới đáp xuống sân bay xong tức thì)."
       },
       {
         "adverb": "まるで",
         "pattern": "～ようだ / ～みたいだ / ～かのようだ",
         "meaning": "Giống như là... / Cứ như thể là...",
-        "note": "So sánh ví von hình ảnh."
+        "note": "So sánh ví von hình ảnh.",
+        "example": "合格の知らせを聞いて、まるで夢を見ているようだ。(Nghe tin thi đỗ, tôi ngỡ như mình đang mơ vậy)."
       },
       {
         "adverb": "ぜひ / なんとかして",
         "pattern": "～てください / ～たい / ～てほしい",
         "meaning": "Nhất định... / Bằng mọi giá rất muốn...",
-        "note": "Bày tỏ nguyện vọng tha thiết."
+        "note": "Bày tỏ nguyện vọng tha thiết.",
+        "example": "日本へ行ったら、ぜひ富士山に登ってみたい。(Nếu đến Nhật, nhất định tôi rất muốn leo thử núi Phú Sĩ)."
       },
       {
         "adverb": "どんなに / いくら / たとえ",
         "pattern": "～ても・～でも",
         "meaning": "Dù có thế nào... / Dù bao nhiêu... / Dẫu cho...",
-        "note": "Giả định nhượng bộ dù khó khăn."
+        "note": "Giả định nhượng bộ dù khó khăn.",
+        "example": "どんなに頼まれても、この仕事を引き受けるわけにはいかない。(Dù có được nài nỉ thế nào đi nữa, tôi cũng không thể nhận công việc này)."
       },
       {
         "adverb": "せっかく",
         "pattern": "～のに / ～からには",
         "meaning": "Đã cất công... ấy thế mà lại...",
-        "note": "Bày tỏ sự tiếc nuối khi công sức bỏ ra bị uổng phí."
+        "note": "Bày tỏ sự tiếc nuối khi công sức bỏ ra bị uổng phí.",
+        "example": "せっかく料理を作ったのに、誰も食べてくれなかった。(Đã cất công nấu nướng bao món ngon ấy thế mà chẳng ai thèm ăn)."
       },
       {
         "adverb": "ただ",
         "pattern": "～だけ / ～のみ",
         "meaning": "Chỉ là... đơn thuần là...",
-        "note": "Giới hạn phạm vi."
+        "note": "Giới hạn phạm vi.",
+        "example": "ただ見ているだけで、何の手助けもしてくれない。(Anh ta chỉ đứng nhìn trơ mắt ra thôi chứ chẳng giúp được tích sự gì)."
       },
       {
         "adverb": "すでに (既に)",
         "pattern": "～た / ～ている・～てある",
         "meaning": "Đã... rồi (hoàn tất trước đó)",
-        "note": "Trạng thái đã hoàn thành."
+        "note": "Trạng thái đã hoàn thành.",
+        "example": "彼が到着したときには、会議はすでに始まっていた。(Lúc anh ấy đến nơi thì cuộc họp đã bắt đầu từ trước đó rồi)."
       },
       {
         "adverb": "たいして / けっして / めったに / そんなに",
         "pattern": "～ない",
         "meaning": "Không mấy... / Tuyệt đối không... / Hiếm khi... / Không... đến mức thế",
-        "note": "Bắt buộc đi với vị ngữ phủ định."
+        "note": "Bắt buộc đi với vị ngữ phủ định.",
+        "example": "けっして諦めないで、最後まで頑張りなさい。(Quyết không được từ bỏ, hãy nỗ lực kiên trì tới cùng)."
       },
       {
         "adverb": "さすが",
         "pattern": "～だけあって / ～だけのことはある",
         "meaning": "Quả nhiên là... có khác / Đúng xứng danh là...",
-        "note": "Khen ngợi xứng tầm danh tiếng/năng lực."
+        "note": "Khen ngợi xứng tầm danh tiếng/năng lực.",
+        "example": "さすがプロの歌手だけあって、歌声の迫力が違う。(Quả đúng là ca sĩ chuyên nghiệp có khác, giọng hát vang dội đầy nội lực)."
       },
       {
         "adverb": "まさか",
         "pattern": "～思わない / ～信じられない / ～なんて / ～わけがない",
         "meaning": "Không đời nào... / Không thể tin nổi là...",
-        "note": "Bất ngờ tột độ ngoài sức tưởng tượng."
+        "note": "Bất ngờ tột độ ngoài sức tưởng tượng.",
+        "example": "彼が犯人だなんて、まさか思わなかった。(Tôi không đời nào có thể nghĩ rằng anh ấy lại chính là thủ phạm)."
       },
       {
         "adverb": "～によると / ～によれば",
         "pattern": "～そうだ / ～ということだ / ～という / ～らしい",
         "meaning": "Theo như (nguồn thông tin)... thì nghe nói là...",
-        "note": "Dẫn nguồn truyền đạt khách quan."
+        "note": "Dẫn nguồn truyền đạt khách quan.",
+        "example": "天気予報によると、午後から強い風が吹くそうだ。(Theo dự báo thời tiết thì từ chiều sẽ có gió thổi rất mạnh)."
       },
       {
         "adverb": "つい",
         "pattern": "～てしまった",
         "meaning": "Lỡ, trót... buột miệng / vô ý",
-        "note": "Hành động mất kiểm soát ý chí."
+        "note": "Hành động mất kiểm soát ý chí.",
+        "example": "ダイエット中なのに、つい甘いケーキを食べてしまった。(Đang lúc ăn kiêng mà tôi lỡ mồm ăn mất miếng bánh ngọt)."
       },
       {
         "adverb": "かならずしも (必ずしも)",
         "pattern": "～とは限らない / ～わけではない",
         "meaning": "Không hẳn là... / Chưa chắc đã...",
-        "note": "Phủ định một phần chân lý/quan niệm."
+        "note": "Phủ định một phần chân lý/quan niệm.",
+        "example": "高いものが、かならずしも質が良いとは限らない。(Đồ đắt tiền chưa chắc chất lượng đã thực sự tốt)."
       },
       {
         "adverb": "くれぐれも",
         "pattern": "～てください / ～ないように",
         "meaning": "Kính mong, tha thiết mong hãy...",
-        "note": "Dùng trong lời chúc sức khỏe, nhắc nhở an toàn."
+        "note": "Dùng trong lời chúc sức khỏe, nhắc nhở an toàn.",
+        "example": "寒くなりますので、くれぐれもお体に気をつけてください。(Trời trở lạnh rồi nên kính mong anh giữ gìn sức khỏe cẩn thận)."
       },
       {
         "adverb": "どうせ",
         "pattern": "～だろう / ～命令形・意向形",
         "meaning": "Đằng nào thì cũng... / Đằng nào cũng... nên hãy...",
-        "note": "Tâm lý buông xuôi hoặc chấp nhận thực tế."
+        "note": "Tâm lý buông xuôi hoặc chấp nhận thực tế.",
+        "example": "どうせ間に合わないだろうから、急ぐのはやめよう。(Đằng nào thì cũng chẳng kịp đâu nên thôi đừng vội làm gì)."
       },
       {
         "adverb": "どうやら・どうも",
         "pattern": "～ようだ",
         "meaning": "Có vẻ như là... / Dường như...",
-        "note": "Nhận định dựa trên dấu hiệu khách quan."
+        "note": "Nhận định dựa trên dấu hiệu khách quan.",
+        "example": "どうも風邪をひいてしまったようだ。(Hình như tôi bị cảm lạnh mất rồi)."
       },
       {
         "adverb": "あいにく",
         "pattern": "～てしまった / ～の雨",
         "meaning": "Thật đáng tiếc... / Không may là...",
-        "note": "Tình huống trái với mong đợi."
+        "note": "Tình huống trái với mong đợi.",
+        "example": "あいにく社長はただ今席を外しております。(Rất tiếc hiện tại giám đốc của chúng tôi lại không có ở bàn làm việc)."
       },
       {
         "adverb": "とっくに",
         "pattern": "～た",
         "meaning": "Đã từ rất lâu rồi / Xong từ tám hoánh",
-        "note": "Không nhầm với 特に (đặc biệt)."
+        "note": "Không nhầm với 特に (đặc biệt).",
+        "example": "宿題なら、とっくに終わらせましたよ。(Nếu là bài tập về nhà thì tôi đã làm xong từ lâu lắm rồi)."
       },
       {
         "adverb": "果たして (はたして)",
         "pattern": "～だろうか",
         "meaning": "Liệu thực sự có... hay không? / Liệu có chắc là...",
-        "note": "Nghi vấn sâu sắc về khả năng thành công."
+        "note": "Nghi vấn sâu sắc về khả năng thành công.",
+        "example": "彼の計画は、果たしてうまくいくのだろうか。(Kế hoạch của anh ta liệu rằng thực sự có suôn sẻ hay không đây?)"
       }
     ],
     "part2_fixed_verbs": [
       {
         "adverb": "うっかり",
         "collocation": "忘れる・間違える・消す",
-        "meaning": "Lơ đãng, vô ý (quên khuấy, nhầm lẫn, bấm xóa nhầm)"
+        "meaning": "Lơ đãng, vô ý (quên khuấy, nhầm lẫn, bấm xóa nhầm)",
+        "example": "うっかり大切な書類を家に忘れてしまった。(Tôi sơ ý bỏ quên tập tài liệu quan trọng ở nhà)."
       },
       {
         "adverb": "ぐっすり",
         "collocation": "眠る (ねむる)",
-        "meaning": "Ngủ ngon giấc, ngủ say sưa không biết trời đất"
+        "meaning": "Ngủ ngon giấc, ngủ say sưa không biết trời đất",
+        "example": "昨日は疲れていたので、朝までぐっすり眠った。(Hôm qua mệt lả cả người nên tôi ngủ một mạch say sưa tới sáng)."
       },
       {
         "adverb": "ぎっしり",
         "collocation": "詰まる・入る (つまる・はいる)",
-        "meaning": "Nhét đầy ắp, lèn chặt ních (lịch trình kín mít, vali đầy đồ)"
+        "meaning": "Nhét đầy ắp, lèn chặt ních (lịch trình kín mít, vali đầy đồ)",
+        "example": "今週はスケジュールがぎっしり詰まっている。(Tuần này lịch trình công tác của tôi kín mít không còn một chỗ trống)."
       },
       {
         "adverb": "しみじみ",
         "collocation": "感じる・思う・味わう",
-        "meaning": "Thấm thía sâu sắc (tình cảm, nỗi cô đơn, lời dạy)"
+        "meaning": "Thấm thía sâu sắc (tình cảm, nỗi cô đơn, lời dạy)",
+        "example": "親元を離れて一人暮らしを始め、家族のありがたさをしみじみ感じた。(Rời xa bố mẹ ra ở riêng, tôi mới thấm thía sâu sắc sự ấm áp của gia đình)."
       },
       {
         "adverb": "着々と (ちゃくちゃくと)",
         "collocation": "進む (すすむ)",
-        "meaning": "Tiến hành đều đặn, vững chắc theo đúng từng bước kế hoạch"
+        "meaning": "Tiến hành đều đặn, vững chắc theo đúng từng bước kế hoạch",
+        "example": "新しいビルの建設工事は、着々と進んでいる。(Công trình xây dựng tòa nhà mới đang tiến triển rất đều đặn và thuận lợi)."
       },
       {
         "adverb": "めっきり",
         "collocation": "～くなる・変化する (へんか)",
-        "meaning": "Biến đổi trông thấy, rõ rệt hẳn (thời tiết lạnh hẳn, sức khỏe yếu đi rõ)"
+        "meaning": "Biến đổi trông thấy, rõ rệt hẳn (thời tiết lạnh hẳn, sức khỏe yếu đi rõ)",
+        "example": "朝晩はめっきり涼しくなってきた。(Sáng sớm và chiều tối trời đã se se lạnh trông thấy)."
       },
       {
         "adverb": "はっきり",
         "collocation": "見える・聞こえる・言う",
-        "meaning": "Rõ ràng (nhìn rõ, nghe rõ mồn một, nói thẳng thắn)"
+        "meaning": "Rõ ràng (nhìn rõ, nghe rõ mồn một, nói thẳng thắn)",
+        "example": "自分の意見は、相手にはっきり言うべきだ。(Ý kiến của bản thân thì nên nói rõ ràng rành mạch cho đối phương hiểu)."
       },
       {
         "adverb": "ぎりぎり",
         "collocation": "間に合う・合格する",
-        "meaning": "Sát nút, suýt soát (vừa kịp giờ tàu chạy, suýt soát điểm đỗ)"
+        "meaning": "Sát nút, suýt soát (vừa kịp giờ tàu chạy, suýt soát điểm đỗ)",
+        "example": "急いで走ったので、発車ベルの鳴るぎりぎりに間に合った。(Chạy thục mạng nên tôi đã kịp chuyến tàu vào đúng những giây phút chót)."
       },
       {
         "adverb": "じっと",
         "collocation": "見る・考える・耐える",
-        "meaning": "Chăm chú nhìn, ngồi yên bất động suy nghĩ, cắn răng chịu đựng"
+        "meaning": "Chăm chú nhìn, ngồi yên bất động suy nghĩ, cắn răng chịu đựng",
+        "example": "痛みをこらえて、じっと我慢した。(Cắn răng chịu đau, tôi cố nhẫn nại ngồi yên một chỗ)."
       },
       {
         "adverb": "こっそり",
         "collocation": "入る・タバコを吸う・持ち出す",
-        "meaning": "Lén lút, vụng trộm (làm điều giấu giếm, trốn ra ngoài)"
+        "meaning": "Lén lút, vụng trộm (làm điều giấu giếm, trốn ra ngoài)",
+        "example": "授業中に先生に見つからないよう、こっそりスマホを見た。(Trong giờ học tôi lén lút xem điện thoại để không bị giáo viên phát hiện)."
       },
       {
         "adverb": "こつこつ (コツコツ)",
         "collocation": "働く・勉強する・努力する・貯金する",
-        "meaning": "Cần cù, chăm chỉ, tích tiểu thành đại từng chút một"
+        "meaning": "Cần cù, chăm chỉ, tích tiểu thành đại từng chút một",
+        "example": "毎日こつこつ貯金して、マイホームを買った。(Mỗi ngày cần cù tiết kiệm từng đồng, cuối cùng tôi đã mua được ngôi nhà riêng)."
       },
       {
         "adverb": "びしょびしょ / びっしょり",
         "collocation": "濡れる (ぬれる)",
-        "meaning": "Ướt sũng, ướt như chuột lột (mưa ướt đầm đìa, mồ hôi đầm đìa)"
+        "meaning": "Ướt sũng, ướt như chuột lột (mưa ướt đầm đìa, mồ hôi đầm đìa)",
+        "example": "突然のゲリラ豪雨で、服がびしょびしょに濡れてしまった。(Cơn mưa rào bất ngờ ập xuống khiến quần áo tôi ướt sũng như chuột lột)."
       },
       {
         "adverb": "ずらっと / ずらりと",
         "collocation": "並んでいる (ならんでいる)",
-        "meaning": "Xếp thành hàng dài tăm tắp, la liệt nối đuôi nhau"
+        "meaning": "Xếp thành hàng dài tăm tắp, la liệt nối đuôi nhau",
+        "example": "本棚には専門書がずらりと並んでいる。(Trên giá sách, các đầu sách chuyên ngành được xếp ngay ngắn thành hàng dài)."
       },
       {
         "adverb": "すらすら",
         "collocation": "読む・答える・書く",
-        "meaning": "Trôi chảy, vanh vách không vấp (đọc lưu loát, trả lời trôi chảy)"
+        "meaning": "Trôi chảy, vanh vách không vấp (đọc lưu loát, trả lời trôi chảy)",
+        "example": "難しい漢字も、彼女はすらすらと読んだ。(Cả những chữ Hán khó nhằn cô ấy cũng đọc vanh vách một cách trôi chảy)."
       },
       {
         "adverb": "ぺらぺら",
         "collocation": "話す",
-        "meaning": "Nói trôi chảy ngoại ngữ / Nói liến thoắng bép xép"
+        "meaning": "Nói trôi chảy ngoại ngữ / Nói liến thoắng bép xép",
+        "example": "彼は日本語も英語もぺらぺら話す。(Anh ấy bắn cả tiếng Nhật lẫn tiếng Anh lưu loát như gió)."
       },
       {
         "adverb": "ざっと",
         "collocation": "読む・見る・目を通す",
-        "meaning": "Đọc lướt qua, xem qua đại khái nắm ý chính"
+        "meaning": "Đọc lướt qua, xem qua đại khái nắm ý chính",
+        "example": "会議の前に、配られた資料にざっと目を通した。(Trước giờ họp, tôi đã lướt nhanh qua tập tài liệu vừa được phát)."
       },
       {
         "adverb": "きっぱり",
         "collocation": "断る・やめる",
-        "meaning": "Thẳng thừng từ chối, dứt khoát chấm dứt không do dự"
+        "meaning": "Thẳng thừng từ chối, dứt khoát chấm dứt không do dự",
+        "example": "無理な頼み事は、きっぱり断る勇気が必要だ。(Những lời nhờ vả quá đáng thì cần phải có dũng khí để từ chối thẳng thừng)."
       },
       {
         "adverb": "一斉に (いっせいに)",
         "collocation": "笑う・始める・走る・飛び立つ",
-        "meaning": "Đồng loạt cùng một lúc (cùng cười òa, đồng loạt xuất phát)"
+        "meaning": "Đồng loạt cùng một lúc (cùng cười òa, đồng loạt xuất phát)",
+        "example": "ベルが鳴ると同時に、生徒たちは一斉に教室から飛び出した。(Chuông vừa reo là cả đám học sinh đồng loạt túa ra khỏi lớp học)."
       }
     ],
     "part3_onomatopoeia": [
       {
         "word": "あっさり",
-        "meaning": "Vị thanh đạm / Dễ dàng, nhanh gọn (giải quyết êm xuôi)"
+        "meaning": "Vị thanh đạm / Dễ dàng, nhanh gọn (giải quyết êm xuôi)",
+        "example": "このラーメンのスープは油っこくなくて、あっさりしている。(Nước dùng của bát ramen này không hề ngấy mà rất thanh đạm)."
       },
       {
         "word": "さっぱり",
-        "meaning": "Sảng khoái, khoan khoái (tắm xong) / Hoàn toàn không hiểu gì (さっぱり分からない)"
+        "meaning": "Sảng khoái, khoan khoái (tắm xong) / Hoàn toàn không hiểu gì (さっぱり分からない)",
+        "example": "お風呂に入って汗を流したら、気分がさっぱりした。(Tắm gội sạch sẽ mồ hôi xong, tinh thần tôi cảm thấy vô cùng sảng khoái)."
       },
       {
         "word": "きっちり",
-        "meaning": "Đầy đủ, tròn vẹn, vừa khít (thời gian, tiền bạc, số lượng)"
+        "meaning": "Đầy đủ, tròn vẹn, vừa khít (thời gian, tiền bạc, số lượng)",
+        "example": "借りたお金は、期日までにきっちり返します。(Tiền đã vay thì tôi sẽ trả đúng hẹn không thiếu một xu)."
       },
       {
         "word": "すっきり",
-        "meaning": "Dễ chịu, nhẹ nhõm sảng khoái (giải quyết xong âu lo, ngủ dậy tỉnh táo)"
+        "meaning": "Dễ chịu, nhẹ nhõm sảng khoái (giải quyết xong âu lo, ngủ dậy tỉnh táo)",
+        "example": "部屋をきれいに片付けたら、部屋も気分もすっきりした。(Dọn dẹp phòng ốc ngăn nắp xong cảm thấy đầu óc nhẹ nhõm, dễ chịu hẳn)."
       },
       {
         "word": "くっきり",
-        "meaning": "Rành mạch, rõ nét (đường nét, bóng dáng nổi bật trên nền trời)"
+        "meaning": "Rành mạch, rõ nét (đường nét, bóng dáng nổi bật trên nền trời)",
+        "example": "天気が良かったので、遠くの富士山がくっきりと見えた。(Trời nắng đẹp nên ngọn núi Phú Sĩ ở đằng xa hiện lên rõ mồn một)."
       },
       {
         "word": "すっかり",
-        "meaning": "Hoàn toàn, sạch trơn, tất tần tật (quên sạch, khỏi hẳn bệnh)"
+        "meaning": "Hoàn toàn, sạch trơn, tất tần tật (quên sạch, khỏi hẳn bệnh)",
+        "example": "久しぶりに会った友人の顔を、すっかり忘れていた。(Lâu ngày gặp lại, tôi đã quên béng mất khuôn mặt của người bạn cũ)."
       },
       {
         "word": "ぐったり",
-        "meaning": "Mệt mỏi rã rời, kiệt sức nằm bẹp một chỗ"
+        "meaning": "Mệt mỏi rã rời, kiệt sức nằm bẹp một chỗ",
+        "example": "一日中残業続きで、ベッドの上にぐったりと倒れ込んだ。(Làm thêm giờ suốt cả ngày mệt rã rời, tôi đổ gục xuống giường)."
       },
       {
         "word": "たっぷり",
-        "meaning": "Đầy ắp, ú ụ, dồi dào thoải mái (thời gian, dinh dưỡng, giấc ngủ)"
+        "meaning": "Đầy ắp, ú ụ, dồi dào thoải mái (thời gian, dinh dưỡng, giấc ngủ)",
+        "example": "栄養のあるものをたっぷり食べて、早く風邪を治しなさい。(Hãy ăn thật nhiều đồ bổ dưỡng để nhanh chóng khỏi ốm)."
       },
       {
         "word": "ばったり",
-        "meaning": "Tình cờ, bất ngờ chạm mặt nhau (ばったり会う)"
+        "meaning": "Tình cờ, bất ngờ chạm mặt nhau (ばったり会う)",
+        "example": "街を歩いていたら、高校時代の同級生にばったり会った。(Đang đi dạo trên phố thì tình cờ đụng mặt ngay đứa bạn cùng lớp cấp 3)."
       },
       {
         "word": "じっくり",
-        "meaning": "Kỹ lưỡng, thong thả cẩn thận (じっくり考える: suy nghĩ thấu đáo)"
+        "meaning": "Kỹ lưỡng, thong thả cẩn thận (じっくり考える: suy nghĩ thấu đáo)",
+        "example": "焦らずに、将来の進路についてじっくり考えよう。(Đừng sốt ruột, hãy suy nghĩ thật thấu đáo về con đường tương lai)."
       },
       {
         "word": "にっこり",
-        "meaning": "Nở nụ cười tươi tắn, mỉm cười rạng rỡ"
+        "meaning": "Nở nụ cười tươi tắn, mỉm cười rạng rỡ",
+        "example": "店員さんがにっこりと笑顔で迎えてくれた。(Nhân viên cửa hàng mỉm cười tươi tắn đón chào khách)."
       },
       {
         "word": "ぼんやり",
-        "meaning": "Mông lung, mờ ảo / Lơ đãng đờ đẫn mất tập trung"
+        "meaning": "Mông lung, mờ ảo / Lơ đãng đờ đẫn mất tập trung",
+        "example": "疲れていたのか、ぼんやりして乗り過ごしてしまった。(Chắc do mệt quá nên tôi ngồi thẫn thờ ngơ ngác để lỡ mất ga cần xuống)."
       },
       {
         "word": "さっさと",
-        "meaning": "Nhanh chóng, khẩn trương làm ngay đi đừng chần chừ"
+        "meaning": "Nhanh chóng, khẩn trương làm ngay đi đừng chần chừ",
+        "example": "文句を言っていないで、さっさと宿題を片付けなさい。(Đừng có càu nhàu nữa, mau mau làm nhanh cho xong bài tập đi)."
       },
       {
         "word": "すっと",
-        "meaning": "Thẳng tắp vươn lên / Nhanh như bay / Thấy nhẹ bẫng cả lòng"
+        "meaning": "Thẳng tắp vươn lên / Nhanh như bay / Thấy nhẹ bẫng cả lòng",
+        "example": "胃腸薬を飲んだら、胃の痛みがすっと軽くなった。(Uống thuốc dạ dày xong là cơn đau dịu hẳn đi một cách nhanh chóng)."
       },
       {
         "word": "せっせと",
-        "meaning": "Cần mẫn, siêng năng làm lụng không ngừng nghỉ"
+        "meaning": "Cần mẫn, siêng năng làm lụng không ngừng nghỉ",
+        "example": "老後の生活のために、若いうちからせっせと働いて蓄える。(Để lo cho tuổi già, từ lúc còn trẻ đã cần mẫn làm lụng tích cóp)."
       },
       {
         "word": "そっと",
-        "meaning": "Rón rén, nhẹ nhàng không gây tiếng động / Để mặc yên tĩnh"
+        "meaning": "Rón rén, nhẹ nhàng không gây tiếng động / Để mặc yên tĩnh",
+        "example": "赤ちゃんを起こさないように、そっとドアを閉めた。(Để không đánh thức em bé, tôi nhẹ nhàng khép cửa lại)."
       },
       {
         "word": "どっと",
-        "meaning": "Bất chợt ùa ra, rộ lên (đông nghẹt ùa vào, cười òa lên)"
+        "meaning": "Bất chợt ùa ra, rộ lên (đông nghẹt ùa vào, cười òa lên)",
+        "example": "その冗談を聞いて、会場からどっと笑いが起きた。(Nghe câu nói đùa dí dỏm đó, cả hội trường bất chợt rộ lên tiếng cười lớn)."
       },
       {
         "word": "わざと",
-        "meaning": "Cố tình, cố ý làm (không phải vô tình)"
+        "meaning": "Cố tình, cố ý làm (không phải vô tình)",
+        "example": "彼はわざと負けて、弟を喜ばせた。(Anh ấy cố tình thua để làm cho đứa em trai vui vẻ)."
       },
       {
         "word": "わりと",
-        "meaning": "Tương đối, khá là (so với mức trung bình)"
+        "meaning": "Tương đối, khá là (so với mức trung bình)",
+        "example": "今回の試験は、思ったよりわりと簡単だった。(Kỳ thi lần này tương đối dễ thở hơn so với tôi tưởng tượng)."
       },
       {
         "word": "ぎゅっと",
-        "meaning": "Ôm chặt cứng, nắm chặt tay"
+        "meaning": "Ôm chặt cứng, nắm chặt tay",
+        "example": "離れないように、お母さんの手をぎゅっと握りしめた。(Để không bị lạc, đứa bé nắm chặt lấy bàn tay mẹ)."
       },
       {
         "word": "ぐっと",
-        "meaning": "Hết sức, ghì chặt / Hơn hẳn một bậc (ぐっと良くなる: tốt hơn hẳn)"
+        "meaning": "Hết sức, ghì chặt / Hơn hẳn một bậc (ぐっと良くなる: tốt hơn hẳn)",
+        "example": "値段をぐっと下げてもらったので、即決で購入した。(Được bớt giá sâu hẳn nên tôi đã quyết định mua ngay tại chỗ)."
       },
       {
         "word": "ぱっと",
-        "meaning": "Đột nhiên bừng sáng / Nhanh chóng lan tỏa"
+        "meaning": "Đột nhiên bừng sáng / Nhanh chóng lan tỏa",
+        "example": "電気がついて、部屋の中がぱっと明るくなった。(Bật đèn lên một cái là cả căn phòng bừng sáng ngay tức thì)."
       }
     ]
   },
   "cs_dong_tu": [
     {
-      "verb": "訴える (うったえる)",
-      "kanji": "TỐ",
+      "verb": "訴える",
+      "kanji": "うったえる",
       "meanings": [
         {
+          "collocation": "病院・会社・学校・相手…を訴える",
           "meaning": "Kiện cáo, khởi kiện ra tòa",
-          "example": "会社・相手を裁判所に訴える"
+          "example": "会社を不当解雇で裁判所に訴えた。(Khởi kiện công ty ra tòa vì sa thải bất công)."
         },
         {
-          "meaning": "Kêu lên, than thở (nỗi đau, triệu chứng)",
-          "example": "医師に体の痛み・症状を訴える"
+          "collocation": "不安・痛み・不満・症状…を訴える",
+          "meaning": "Kêu lên, than thở, trình bày nỗi đau / triệu chứng",
+          "example": "患者は激しい頭痛と吐き気を訴えた。(Bệnh nhân kêu đau đầu dữ dội và buồn nôn)."
         },
         {
-          "meaning": "Kêu gọi, nhấn mạnh tầm quan trọng",
-          "example": "平和の重要性・環境保護の必要性を訴える"
+          "collocation": "重要性・大切さ・必要性…を訴える",
+          "meaning": "Kêu gọi, nhấn mạnh tầm quan trọng / tính cấp thiết",
+          "example": "環境保護の大切さを世界に向けて強く訴えた。(Mạnh mẽ kêu gọi toàn thế giới về tầm quan trọng của việc bảo vệ môi trường)."
         }
       ]
     },
     {
-      "verb": "押さえる / 抑える (おさえる)",
-      "kanji": "ÁP / ỨC",
+      "verb": "押さえる／抑える",
+      "kanji": "おさえる",
       "meanings": [
         {
-          "meaning": "Giữ chặt (cửa, mũ, nón bay)",
-          "example": "風で飛ばないように帽子を押さえる"
+          "collocation": "ドア・帽子・髪を押さえる",
+          "meaning": "Giữ, đè chặt (cửa, mũ, tóc bay)",
+          "example": "強風で帽子が飛ばされないように手で押さえた。(Lấy tay giữ chặt mũ để không bị gió mạnh thổi bay)."
         },
         {
-          "meaning": "Bịt, đè ép vết thương / che miệng",
-          "example": "傷口を押さえて血を止める / 口を押さえる"
+          "collocation": "口・耳・胸・傷口を押さえる",
+          "meaning": "Bịt, áp tay vào (mồm, tai, vết thương đang chảy máu)",
+          "example": "出血を止めるため、ハンカチで傷口を強く押さえた。(Lấy khăn tay bịt chặt vết thương để cầm máu)."
         },
         {
-          "meaning": "Nắm bắt điểm trọng yếu, cốt lõi",
-          "example": "試験の要点をしっかり押さえておく"
+          "collocation": "要点・ポイントを押さえる",
+          "meaning": "Nắm bắt, tóm gọn điểm mấu chốt",
+          "example": "試験で高得点を取るには、出題の要点をしっかり押さえることが大切だ。(Để đạt điểm cao trong kỳ thi thì việc nắm vững điểm trọng tâm đề thi là rất quan trọng)."
         },
         {
-          "meaning": "Hạn chế, kiềm chế chi phí, đồ ngọt",
-          "example": "予算・費用の上昇を抑える / 甘さを抑える"
+          "collocation": "甘さ・費用・上昇・増加を抑える",
+          "meaning": "Kìm hãm, hạn chế, tiết chế (độ ngọt, chi phí, sự gia tăng)",
+          "example": "経費をできる限り抑えて、利益を最大化する。(Tiết giảm chi phí hết mức có thể để tối đa hóa lợi nhuận)."
         },
         {
-          "meaning": "Kìm nén cảm xúc, cơn giận",
-          "example": "こみ上げる怒り・感情をぐっと抑える"
+          "collocation": "感情・怒り・気持ちを抑える",
+          "meaning": "Kiềm chế cảm xúc, nén cơn giận dữ",
+          "example": "湧き上がる怒りを必死に抑えて、冷静に対応した。(Cố kiềm chế cơn giận đang sôi sục để bình tĩnh xử lý sự việc)."
         }
       ]
     },
     {
-      "verb": "傾く (かたむく)",
-      "kanji": "KHUYNH",
+      "verb": "傾く",
+      "kanji": "かたむく",
       "meanings": [
         {
-          "meaning": "Nghiêng hẳn về một bên (vật lý)",
-          "example": "地震で古い建物が大きく傾いた"
+          "collocation": "建物・柱・船が傾く",
+          "meaning": "Nghiêng lệch, xiêu vẹo (nhà cửa, cột trụ, thuyền)",
+          "example": "大地震の影響で、古い家が大きく傾いてしまった。(Do ảnh hưởng của trận động đất lớn, ngôi nhà cổ đã bị nghiêng hẳn sang một bên)."
         },
         {
-          "meaning": "Mặt trời xế bóng, lặn dần",
-          "example": "日が西に傾き、あたりが暗くなってきた"
+          "collocation": "月・日が傾く",
+          "meaning": "Ngả bóng, lặn dần (mặt trời, mặt trăng)",
+          "example": "日が西に傾き、あたりが薄暗くなってきた。(Mặt trời ngả về tây, xung quanh bắt đầu sẩm tối)."
         },
         {
-          "meaning": "Kinh tế, công ty sa sút, suy thoái",
-          "example": "不況のあおりを受けて会社の経営が傾く"
+          "collocation": "気持ち・考えが傾く",
+          "meaning": "Xuôi lòng, nghiêng về một ý kiến / cảm xúc",
+          "example": "彼の熱心な説得を聞いて、転職へ心が傾いた。(Nghe anh ấy thuyết phục nhiệt tình, lòng tôi bắt đầu ngả về quyết định chuyển việc)."
         },
         {
-          "meaning": "Tâm ý ngả theo, thiên về ý kiến nào",
-          "example": "私の気持ちは転職のほうへ傾いている"
+          "collocation": "商売・経営・会社が傾く",
+          "meaning": "Suy tàn, sa sút, đi xuống bờ vực phá sản",
+          "example": "不景気の波に押され、長年続いた会社の経営が傾いた。(Bị cuốn theo làn sóng suy thoái, tình hình kinh doanh của công ty lâu đời bị sa sút nghiêm trọng)."
+        }
+      ]
+    },
+    {
+      "verb": "刻む",
+      "kanji": "きざむ",
+      "meanings": [
+        {
+          "collocation": "ハム・野菜を刻む",
+          "meaning": "Thái, băm, xắt nhỏ (rau củ, thịt)",
+          "example": "スープに入れるために、玉ねぎとニンジンを細かく刻んだ。(Tôi băm nhỏ hành tây và cà rốt để nấu súp)."
+        },
+        {
+          "collocation": "指輪・木・石・ガラスに刻む",
+          "meaning": "Khắc, chạm trổ lên (nhẫn, gỗ, đá, thủy tinh)",
+          "example": "二人の結婚指輪の内側に、記念日の日付を刻んだ。(Khắc ngày kỷ niệm vào mặt trong của cặp nhẫn cưới)."
+        },
+        {
+          "collocation": "歴史・伝統・時を刻む",
+          "meaning": "Ghi dấu (lịch sử, thời gian trôi)",
+          "example": "この古い時計台は、100年以上にわたって街の時を刻み続けている。(Tháp đồng hồ cổ kính này đã tiếp tục đếm từng nhịp thời gian của thành phố suốt hơn 100 năm qua)."
+        },
+        {
+          "collocation": "胸・心・記憶に刻む",
+          "meaning": "Khắc sâu vào tâm khảm, ghi tạc vào ký ức",
+          "example": "恩師からいただいた温かい言葉を、深く胸に刻んだ。(Tôi khắc sâu vào tâm khảm những lời dạy ấm áp của người thầy kính yêu)."
+        }
+      ]
+    },
+    {
+      "verb": "稼ぐ",
+      "kanji": "かせぐ",
+      "meanings": [
+        {
+          "collocation": "学費・生活費を稼ぐ",
+          "meaning": "Kiếm tiền, kiếm học phí / sinh hoạt phí",
+          "example": "アルバイトを掛け持ちして、自分で大学の学費を稼いだ。(Tôi làm thêm nhiều việc cùng lúc để tự kiếm tiền đóng học phí đại học)."
+        },
+        {
+          "collocation": "点を稼ぐ",
+          "meaning": "Kiếm điểm, ghi điểm (trong bài thi, trận đấu)",
+          "example": "読解が苦手なので、文字・語彙と文法で確実に点を稼ぎたい。(Vì đọc hiểu kém nên tôi muốn kiếm điểm chắc chắn ở phần từ vựng và ngữ pháp)."
+        },
+        {
+          "collocation": "時間を稼ぐ",
+          "meaning": "Câu giờ, kéo dài thời gian",
+          "example": "警察が現場に到着するまで、犯人と話して時間を稼いだ。(Tôi nói chuyện với tên tội phạm để câu giờ chờ cảnh sát đến hiện trường)."
+        }
+      ]
+    },
+    {
+      "verb": "つぶれる",
+      "kanji": "つぶれる",
+      "meanings": [
+        {
+          "collocation": "ケーキ・缶・箱がつぶれる",
+          "meaning": "Bị bẹp dúm, dập nát, xẹp lép",
+          "example": "満員電車でカバンが押され、中のお弁当がつぶれてしまった。(Bị chen lấn trên tàu điện đông đúc khiến hộp cơm bên trong túi bị bẹp nát)."
+        },
+        {
+          "collocation": "計画・チャンスがつぶれる",
+          "meaning": "Bị đổ vỡ, tiêu tan (kế hoạch, cơ hội)",
+          "example": "急な悪天候のせいで、楽しみにしていた週末の旅行計画がつぶれた。(Vì thời tiết xấu đột ngột mà kế hoạch du lịch cuối tuần mong đợi đã bị đổ bể)."
+        },
+        {
+          "collocation": "会社・店がつぶれる",
+          "meaning": "Bị phá sản, sập tiệm",
+          "example": "近所で評判だった老舗のパン屋が、ついに経営難でつぶれてしまった。(Tiệm bánh mì lâu đời nổi tiếng gần nhà cuối cùng đã phải sập tiệm vì khó khăn kinh tế)."
+        }
+      ]
+    },
+    {
+      "verb": "つぶす",
+      "kanji": "つぶす",
+      "meanings": [
+        {
+          "collocation": "じゃがいも・缶・虫をつぶす",
+          "meaning": "Nghiền nát, đập bẹp, dẫm nát",
+          "example": "ゆでたジャガイモをフォークで丁寧につぶしてサラダを作った。(Nghiền nát khoai tây đã luộc chín bằng nĩa để làm món salad)."
+        },
+        {
+          "collocation": "チャンス・夢・才能をつぶす",
+          "meaning": "Làm hỏng, đánh mất, chôn vùi (cơ hội, ước mơ, tài năng)",
+          "example": "プレッシャーのせいで実力を発揮できず、せっかくの昇進のチャンスをつぶしてしまった。(Vì áp lực mà không phát huy được thực lực, tự tay đánh mất cơ hội thăng tiến quý giá)."
+        },
+        {
+          "collocation": "会社をつぶす",
+          "meaning": "Làm phá sản công ty",
+          "example": "放漫経営の末に、父親から受け継いだ会社をつぶしてしまった。(Sau chuỗi ngày quản lý lỏng lẻo, anh ta đã làm phá sản công ty thừa hưởng từ người cha)."
+        },
+        {
+          "collocation": "時間・暇・休みをつぶす",
+          "meaning": "Giết thời gian, tiêu khiển cho qua giờ",
+          "example": "電車の待ち合わせまで30分あったので、本屋で立ち読みして時間をつぶした。(Còn 30 phút chờ tàu nên tôi vào hiệu sách đứng đọc cọp để giết thời gian)."
+        }
+      ]
+    },
+    {
+      "verb": "扱う",
+      "kanji": "あつかう",
+      "meanings": [
+        {
+          "collocation": "丁寧に扱ってください",
+          "meaning": "Cầm nắm, thao tác, sử dụng (cẩn thận)",
+          "example": "精密機械ですので、衝撃を与えないよう丁寧に扱ってください。(Đây là máy móc chính xác nên hãy thao tác cẩn thận tránh va đập mạnh)."
+        },
+        {
+          "collocation": "当店で扱っておりません",
+          "meaning": "Kinh doanh, buôn bán, cung cấp mặt hàng",
+          "example": "申し訳ございません、その商品は当店では扱っておりません。(Thành thật xin lỗi quý khách, cửa hàng chúng tôi không kinh doanh mặt hàng đó)."
+        },
+        {
+          "collocation": "公平に扱う",
+          "meaning": "Đối xử (công bằng, tử tế)",
+          "example": "指導者は部下をえこひいきせず、誰に対しても公平に扱うべきだ。(Người lãnh đạo không nên thiên vị mà phải đối xử công bằng với tất cả cấp dưới)."
+        },
+        {
+          "collocation": "大人として・家族の一員として扱われる",
+          "meaning": "Coi như là, đối đãi như là (người lớn, thành viên gia đình)",
+          "example": "18歳になったので、社会では一人の大人として扱われる。(Đã tròn 18 tuổi nên tôi được xã hội đối đãi như một người trưởng thành)."
+        }
+      ]
+    },
+    {
+      "verb": "跳ねる／はねる",
+      "kanji": "はねる",
+      "meanings": [
+        {
+          "collocation": "カエル・ウサギ・ボールが跳ねる",
+          "meaning": "Nhảy cẫng lên, nảy tưng tưng",
+          "example": "池の周りで、元気よくカエルが跳ねている。(Xung quanh ao, lũ ếch đang nhảy nhót rất tung tăng)."
+        },
+        {
+          "collocation": "油・水・泥が跳ねる",
+          "meaning": "Bắn lên, văng tung tóe (dầu, nước, bùn)",
+          "example": "揚げ物をしていたら、熱い油が跳ねて手に当たった。(Đang lúc rán đồ ăn thì dầu nóng bắn lên trúng vào mu bàn tay)."
+        },
+        {
+          "collocation": "ひげ・髪の毛が跳ねる",
+          "meaning": "Râu, tóc dựng ngược, vểnh lên",
+          "example": "寝癖のせいで、後ろの髪の毛がぴょんと跳ねている。(Do tư thế ngủ xấu mà tóc phía sau gáy dựng ngược vểnh cả lên)."
+        },
+        {
+          "collocation": "車にはねられる",
+          "meaning": "Bị xe tông trúng, đâm văng",
+          "example": "交差点で赤信号を無視したトラックにはねられ、大怪我を負った。(Bị chiếc xe tải vượt đèn đỏ tông trúng tại ngã tư khiến tôi bị thương nặng)."
+        }
+      ]
+    },
+    {
+      "verb": "削る",
+      "kanji": "けずる",
+      "meanings": [
+        {
+          "collocation": "鉛筆・木・骨・歯を削る",
+          "meaning": "Gọt, vót, mài bớt (bút chì, gỗ, răng)",
+          "example": "ナイフを使って、鉛筆の芯をきれいに削った。(Dùng con dao nhỏ gọt nhọn đầu chì rất khéo léo)."
+        },
+        {
+          "collocation": "予算・費用・時間を削る",
+          "meaning": "Cắt giảm, bớt xén (ngân sách, chi phí, thời gian)",
+          "example": "睡眠時間を削って勉強した甲斐があって、JLPT N2に合格した。(Không bõ công cắt bớt giấc ngủ để ôn luyện, tôi đã thi đỗ JLPT N2)."
+        }
+      ]
+    },
+    {
+      "verb": "逆らう",
+      "kanji": "さからう",
+      "meanings": [
+        {
+          "collocation": "風・時代・流行に逆らう",
+          "meaning": "Ngược (ngược chiều gió, đi ngược thời đại, trào lưu)",
+          "example": "強い向かい風に逆らって、自転車を必死にこいだ。(Gồng mình đạp xe ngược chiều cơn gió mạnh cản lối)."
+        },
+        {
+          "collocation": "指示・方針・親・上司に逆らう",
+          "meaning": "Làm trái, chống đối (chỉ thị, phương châm, cha mẹ, cấp trên)",
+          "example": "親の言いつけに逆らって、夜遅くまで遊び歩いた。(Làm trái lời căn dặn của bố mẹ, la cà chơi bời tới tận khuya)."
+        }
+      ]
+    },
+    {
+      "verb": "絞る・搾る",
+      "kanji": "しぼる",
+      "meanings": [
+        {
+          "collocation": "果実・レモン・牛乳を搾る",
+          "meaning": "Vắt lấy nước, vắt sữa (chanh, cam, sữa bò)",
+          "example": "新鮮なレモンをぎゅっと絞って、紅茶に入れた。(Vắt miếng chanh tươi thả vào tách hồng trà)."
+        },
+        {
+          "collocation": "ぞうきん・タオルを絞る",
+          "meaning": "Vắt ráo nước (khăn lau, quần áo)",
+          "example": "水に濡らした雑巾を固く絞ってから、床を拭いた。(Vắt thật kiệt chiếc giẻ lau rồi mới lau sàn nhà)."
+        },
+        {
+          "collocation": "アイディア・知恵・頭・声を絞る",
+          "meaning": "Vắt óc suy nghĩ, vắt kiệt tiếng để hô",
+          "example": "全員で知恵を絞って、難題の解決策を見つけ出した。(Mọi người cùng vắt óc suy nghĩ cuối cùng đã tìm ra giải pháp cho bài toán hóc búa)."
+        },
+        {
+          "collocation": "焦点・的・人数・条件を絞る",
+          "meaning": "Thu hẹp, khoanh vùng phạm vi (tiêu điểm, số lượng, điều kiện)",
+          "example": "採用候補者の人数を面接で最終的に3名に絞り込んだ。(Qua vòng phỏng vấn, chúng tôi đã thu hẹp danh sách ứng viên xuống còn 3 người cuối cùng)."
+        }
+      ]
+    },
+    {
+      "verb": "はまる",
+      "kanji": "はまる",
+      "meanings": [
+        {
+          "collocation": "指輪・ふた・ねじがはまる",
+          "meaning": "Vừa khít, khớp chặt, lọt vặn (nhẫn, nắp chai, đinh ốc)",
+          "example": "サイズを測って買ったので、指輪が薬指にぴったりはまった。(Vì đã đo kỹ kích thước nên chiếc nhẫn đeo vừa khít ngón áp út)."
+        },
+        {
+          "collocation": "わな・渋滞・深みにはまる",
+          "meaning": "Sa bẫy, mắc kẹt (tắc đường, bẫy rập)",
+          "example": "連休中の高速道路で、20キロに及ぶ大渋滞にはまってしまった。(Mắc kẹt trong dòng xe ùn tắc kéo dài 20km trên đường cao tốc dịp nghỉ lễ)."
+        },
+        {
+          "collocation": "映画・アニメ・ゲームにはまる",
+          "meaning": "Say mê, mê mẩn, nghiện ngập (phim ảnh, game)",
+          "example": "最近、日本の人気アニメにはまってしまい、夜更かしが続いている。(Dạo này tôi mê tít bộ anime Nhật Bản nên đêm nào cũng thức khuya)."
+        },
+        {
+          "collocation": "枠・型・パターンにはまる",
+          "meaning": "Rập khuôn, gò bó theo khuôn mẫu",
+          "example": "型にはまった考え方ばかりしていては、新しい斬新な発想は生まれない。(Nếu cứ tư duy rập khuôn theo lối mòn thì không bao giờ nảy sinh được ý tưởng đột phá)."
+        }
+      ]
+    },
+    {
+      "verb": "振る",
+      "kanji": "ふる",
+      "meanings": [
+        {
+          "collocation": "手・首・瓶・旗を振る",
+          "meaning": "Vẫy, lắc, xua (tay, cờ, chai nước)",
+          "example": "別れ際に、電車の窓から笑顔で大きく手を振った。(Lúc chia tay, cô ấy vẫy tay thật mạnh từ cửa sổ tàu điện kèm nụ cười rạng rỡ)."
+        },
+        {
+          "collocation": "塩・こしょうを振る",
+          "meaning": "Rắc (muối, tiêu, gia vị)",
+          "example": "焼く直前の肉に、塩とコショウを適量振った。(Rắc lượng muối tiêu vừa đủ lên miếng thịt ngay trước khi nướng)."
+        },
+        {
+          "collocation": "恋人を振る／恋人に振られる",
+          "meaning": "Đá người yêu, bị từ chối tình cảm",
+          "example": "勇気を出して告白したが、あっさりと振られてしまった。(Lấy hết can đảm tỏ tình nhưng bị cô ấy từ chối phũ phàng)."
+        },
+        {
+          "collocation": "番号・読みがなを振る",
+          "meaning": "Đánh số thứ tự, gán chữ đọc phiên âm (furigana)",
+          "example": "アンケート用紙の質問項目に、それぞれ通し番号を振った。(Đánh số thứ tự nối tiếp cho từng câu hỏi trên phiếu khảo sát)."
+        }
+      ]
+    },
+    {
+      "verb": "触れる",
+      "kanji": "ふれる",
+      "meanings": [
+        {
+          "collocation": "手・肌に触れる",
+          "meaning": "Chạm nhẹ, tiếp xúc vật lý",
+          "example": "展示物には絶対に手を触れないでください。(Xin tuyệt đối không chạm tay vào các hiện vật trưng bày)."
+        },
+        {
+          "collocation": "光・熱・空気に触れる",
+          "meaning": "Tiếp xúc với (ánh sáng, nhiệt độ, không khí)",
+          "example": "空気に触れると酸化しやすいので、密閉容器で保存してください。(Vì rất dễ bị oxy hóa khi tiếp xúc không khí nên xin hãy bảo quản trong hộp kín)."
+        },
+        {
+          "collocation": "芸術・文化・優しさに触れる",
+          "meaning": "Tiếp cận, hòa mình vào, cảm nhận (nghệ thuật, văn hóa, sự ấm áp)",
+          "example": "京都を旅行して、日本の伝統文化の素晴らしさに触れることができた。(Đi du lịch Kyoto, tôi đã có cơ hội tiếp cận và cảm nhận nét đẹp văn hóa truyền thống Nhật Bản)."
+        },
+        {
+          "collocation": "話題・問題に触れる",
+          "meaning": "Đề cập tới, nhắc đến (chủ đề, vấn đề nhạy cảm)",
+          "example": "会議の冒頭で、先日のトラブルの原因について軽く触れた。(Ở đầu cuộc họp, tôi đã đề cập nhẹ về nguyên nhân của vụ rắc rối hôm trước)."
+        },
+        {
+          "collocation": "規則・法律・タブーに触れる",
+          "meaning": "Vi phạm, phạm vào (luật lệ, quy tắc, điều cấm kỵ)",
+          "example": "著作権法に触れる恐れがあるため、無断転載は禁じられている。(Việc tự ý sao chép bị nghiêm cấm vì có nguy cơ vi phạm luật sở hữu trí tuệ)."
+        },
+        {
+          "collocation": "目・耳に触れる",
+          "meaning": "Đập vào mắt, lọt vào tai, thu hút sự chú ý",
+          "example": "街を歩いていると、新しい流行の看板が自然と目に触れる。(Đi dạo phố, những biển hiệu quảng cáo xu hướng mới tự nhiên đập vào mắt tôi)."
         }
       ]
     },
@@ -412,28 +779,6 @@ window.JLPT_CHEATSHEETS_DATA = {
         {
           "meaning": "Khuyết (trăng tròn trăng khuyết)",
           "example": "月が満ちたり欠けたりする"
-        }
-      ]
-    },
-    {
-      "verb": "触れる (ふれる)",
-      "kanji": "XÚC",
-      "meanings": [
-        {
-          "meaning": "Chạm nhẹ, tiếp xúc vật lý",
-          "example": "展示品に手を触れないでください"
-        },
-        {
-          "meaning": "Đề cập, nhắc tới chủ đề nhạy cảm",
-          "example": "会議でデリケートな問題に触れる"
-        },
-        {
-          "meaning": "Vi phạm quy định, luật pháp",
-          "example": "著作権法・規則に触れる行為"
-        },
-        {
-          "meaning": "Tiếp xúc, trải nghiệm văn hóa, nghệ thuật",
-          "example": "日本の伝統文化に肌で触れる"
         }
       ]
     },
@@ -468,90 +813,213 @@ window.JLPT_CHEATSHEETS_DATA = {
     "koto": [
       {
         "pattern": "～こと",
-        "meaning": "Quy định, mệnh lệnh trong văn bản",
-        "example": "試験中は私語を慎むこと。(Trong giờ thi phải giữ trật tự.)"
+        "meaning": "Nội quy, mệnh lệnh trong văn bản quy tắc (phải làm / cấm làm)",
+        "example": "試験中は私語を慎むこと。(Trong giờ thi phải giữ trật tự nghiêm túc).",
+        "note": "Hay dùng cuối câu mệnh lệnh quy chế, thi cử."
       },
       {
         "pattern": "～ことだ",
-        "meaning": "Lời khuyên răn nên/không nên",
-        "example": "上手になりたいなら、毎日練習することだ。(Muốn giỏi thì nên luyện tập mỗi ngày.)"
+        "meaning": "Khuyên răn trực tiếp: Nên... / Không nên... (lời khuyên chân thành)",
+        "example": "体調が悪いなら、無理をしないことだ。(Nếu thấy trong người không khỏe thì tốt nhất không nên gắng gượng).",
+        "note": "Chỉ dùng khuyên 1-1, không dùng với bề trên."
       },
       {
         "pattern": "～ことか",
-        "meaning": "Biết bao nhiêu! (cảm thán)",
-        "example": "N2に合格するためにどんなに勉強したことか！(Để đỗ N2 tôi đã học nhiều biết bao nhiêu!)"
+        "meaning": "Biết bao nhiêu! Thật là... xiết bao! (cảm thán mức độ sâu sắc)",
+        "example": "N2に合格するために、どんなに勉強したことか。(Để thi đỗ N2, tôi đã khổ luyện nhiều biết nhường nào!).",
+        "note": "Hay đi kèm: どんなに / なんと / どれほど / 何回."
       },
       {
         "pattern": "～ことに",
-        "meaning": "Thật là... làm sao (cảm xúc)",
-        "example": "悔しいことに、1点差で不合格になった。(Thật tức tưởi làm sao, trượt vì thiếu đúng 1 điểm.)"
+        "meaning": "Thật là... (nhấn mạnh cảm xúc của người nói ngay đầu câu)",
+        "example": "悔しいことに、１点差で試合に負けてしまった。(Thật tiếc nuối xiết bao, chúng tôi đã để thua trận đấu chỉ vì kém đúng 1 điểm).",
+        "note": "Hay đi kèm: 嬉しいことに, 悲しいことに, 驚いたことに, 残念なことに."
       },
       {
         "pattern": "～ことだし",
-        "meaning": "Vì... (nêu thêm một lý do)",
-        "example": "雨もやんだことだし、散歩にでも行こう。(Trời cũng tạnh mưa rồi, đi dạo một chút đi.)"
+        "meaning": "Vả lại... / Vì cũng... nên (nêu thêm một lý do tự nhiên)",
+        "example": "試験も終わったことだし、今からカラオケに行かない？(Kỳ thi cũng đã kết thúc rồi, tụi mình đi hát karaoke xả hơi đi!).",
+        "note": "Đưa ra lý do nhẹ nhàng để rủ rê, gợi ý."
       },
       {
         "pattern": "～ことから",
-        "meaning": "Do... nên (căn cứ / nguồn gốc)",
-        "example": "富士山が見えることから「富士見町」と呼ばれる。(Do nhìn thấy núi Phú Sĩ nên thị trấn mới có tên là Fujimi.)"
+        "meaning": "Do... nên... (căn cứ phán đoán / nguồn gốc tên gọi)",
+        "example": "道が濡れていることから、昨夜雨が降ったことがわかる。(Từ việc đường phố ẩm ướt ta có thể biết đêm qua trời đã đổ mưa).",
+        "note": "Vế sau hay gặp: ～とわかる, ～と気づく, ～と呼ばれる."
       },
       {
         "pattern": "～ことだから",
-        "meaning": "Vì bản tính của người đó nên chắc chắn...",
-        "example": "真面目な彼のことだから、必ず時間通りに来る。(Tính anh ấy cẩn thận nên chắc chắn sẽ đến đúng giờ.)"
+        "meaning": "Vì bản tính của... nên chắc chắn là (suy đoán dựa trên tính cách cố hữu)",
+        "example": "真面目な彼のことだから、約束の時間には必ず来るだろう。(Với tính cách chỉn chu của anh ấy thì chắc chắn sẽ đến đúng giờ hẹn).",
+        "note": "Thường đi với danh từ chỉ người có phẩm chất quen thuộc."
       },
       {
         "pattern": "～ことなく",
-        "meaning": "Không hề... mà vẫn tiếp tục",
-        "example": "最後まで諦めることなく走りきった。(Chạy đến cùng mà không hề bỏ cuộc.)"
+        "meaning": "Không hề... mà cứ thế... (bằng với ～ないで / ～ずに)",
+        "example": "彼は最後まであきらめることなく、走り抜いた。(Anh ấy đã chạy về đích mà không hề bỏ cuộc dù chỉ một giây).",
+        "note": "Văn phong trang trọng, viết văn."
       },
       {
         "pattern": "～ことにする",
-        "meaning": "Bản thân quyết định làm gì",
-        "example": "健康のために、毎朝走ることにした。(Vì sức khỏe, tôi quyết định chạy bộ mỗi sáng.)"
+        "meaning": "Quyết định là... (quyết định chủ quan của bản thân)",
+        "example": "健康のために、明日から毎日ジョギングすることにした。(Để giữ gìn sức khỏe, tôi đã quyết định từ mai sẽ chạy bộ mỗi ngày).",
+        "note": "Thể hiện ý chí chủ động cá nhân."
       },
       {
         "pattern": "～ことになる",
-        "meaning": "Được quy định / được ấn định",
-        "example": "来月から大阪へ転勤することになった。(Tôi nhận quyết định chuyển công tác về Osaka từ tháng sau.)"
+        "meaning": "Được quyết định là... / Quy định rằng (khách quan, tập thể)",
+        "example": "来月、大阪支社へ転勤することになりました。(Tôi vừa nhận được quyết định chuyển công tác sang chi nhánh Osaka vào tháng sau).",
+        "note": "Quyết định do hoàn cảnh hoặc tập thể đưa ra."
+      },
+      {
+        "pattern": "～ということだ",
+        "meaning": "① Nghe nói là... / ② Thế có nghĩa là... (truyền đạt tin tức / giải nghĩa)",
+        "example": "天気予報によると、明日は大雨になるということだ。(Theo dự báo thời tiết thì nghe nói ngày mai trời sẽ mưa to).",
+        "note": "Bằng với ～そうだ (nghe nói) hoặc ～という意味だ."
+      },
+      {
+        "pattern": "～ことはない・こともない",
+        "meaning": "Không cần thiết phải... / Không việc gì phải...",
+        "example": "君が謝ることはないよ。悪いのは向こうなんだから。(Cậu không việc gì phải xin lỗi cả, người sai rành rành là phía bên kia mà).",
+        "note": "Động viên, an ủi đối phương không phải bận tâm."
+      },
+      {
+        "pattern": "～ないことはない / ～ないこともない",
+        "meaning": "Không phải là không... (khẳng định nhẹ nhàng, có chút do dự)",
+        "example": "納豆は食べられないことはないが、あまり好きではない。(Natto không phải là tôi không ăn được, chỉ là không thích lắm thôi).",
+        "note": "Phủ định kép để biểu thị ý 'vẫn có thể'."
+      },
+      {
+        "pattern": "～ないことには～ない",
+        "meaning": "Nếu không... thì không thể nào... (điều kiện kiên quyết)",
+        "example": "実際に実物を見ないことには、買うかどうか判断できない。(Nếu chưa tận mắt thấy hàng thật thì không thể quyết định có mua hay không).",
+        "note": "Vế sau luôn mang ý phủ định hoặc bất khả thi."
+      },
+      {
+        "pattern": "～ことは～が",
+        "meaning": "Tuy thì có... thật đấy, nhưng mà... (thừa nhận vế đầu rồi đưa vế đối lập)",
+        "example": "勉強したことは勉強したが、試験に出たところは忘れてしまった。(Học thì đúng là có học thật đấy, nhưng phần vào đề thi thì quên mất tiêu).",
+        "note": "Lặp lại cùng một động từ/tính từ ở 2 vế."
       }
     ],
     "mono": [
       {
         "pattern": "～ものだ",
-        "meaning": "① Bản chất tự nhiên / ② Hồi tưởng kỷ niệm / ③ Cảm thán sâu sắc",
-        "example": "人の心は変わりやすいものだ。 / 子どもの頃はよく川で泳いだものだ。"
+        "meaning": "① Quy luật tự nhiên / ② Cảm thán / ③ Rất mong muốn / ④ Kỷ niệm xưa",
+        "example": "人の心は移ろいやすいものだ。 / 子供の頃はよくこの川で泳いだものだ。(Lòng người vốn dĩ dễ đổi thay. / Hồi bé tôi hay bơi ở khúc sông này).",
+        "note": "Nhiều sắc thái: chân lý (V-る), hồi tưởng (V-た), ước ao (V-たいものだ)."
       },
       {
         "pattern": "～ものではない",
-        "meaning": "Không nên / Đừng làm điều phi đạo đức",
-        "example": "目上の人にそんな口の利き方をするものではない。(Không nên ăn nói kiểu đó với bề trên.)"
+        "meaning": "Không nên... / Đừng có... (lời khuyên đạo lý luân thường đạo lý)",
+        "example": "他人の失敗を笑うものではない。(Đừng bao giờ cười cợt trên sự thất bại của người khác).",
+        "note": "Khuyên răn mang tính đạo đức, không dùng mệnh lệnh thô bạo."
       },
       {
-        "pattern": "～ものだから / ～もので",
-        "meaning": "Vì lý do cá nhân (phân trần, biện bạch)",
-        "example": "電車が遅れたものですから、遅刻してしまいました。(Vì tàu bị trễ nên em mới đi muộn ạ.)"
+        "pattern": "～もの・もん",
+        "meaning": "Tại vì là... mà! (ngụy biện, nũng nịu, bao biện lý do)",
+        "example": "だって、難しくて分からなかったんだもん。(Tại vì khó quá em có hiểu gì đâu mà!).",
+        "note": "Hay đi kèm だって～もん, dùng trong văn nói thân mật."
       },
       {
-        "pattern": "～ものなら",
-        "meaning": "Nếu có thể... (thực tế rất khó/bất khả thi)",
-        "example": "戻れるものなら、高校時代に戻りたい。(Nếu có thể quay lại, tôi muốn quay về thời cấp 3.)"
+        "pattern": "～もので / ～ものだから",
+        "meaning": "Vì... nên (phân trần, giải thích lý do khách quan bất đắc dĩ)",
+        "example": "電車が遅れたもので、遅刻してしまいました。(Vì tàu điện bị trễ chuyến nên tôi mới lỡ đến muộn, xin thông cảm).",
+        "note": "Dùng xin lỗi cấp trên hoặc khách hàng khi gặp sự cố."
+      },
+      {
+        "pattern": "～ものか / ～もんか",
+        "meaning": "Tuyệt đối không bao giờ... / Không đời nào! (phủ định cực mạnh)",
+        "example": "あんなサービスの悪い店、二度と行くもんか。(Cái quán dịch vụ tệ hại như thế, đời nào tôi thèm quay lại lần hai!).",
+        "note": "Tương đương ぜったいに～ない."
       },
       {
         "pattern": "～ものの",
-        "meaning": "Mặc dù... thế nhưng mà...",
-        "example": "車の免許は取ったものの、全然運転していない。(Tuy đã lấy bằng lái nhưng tôi chẳng lái xe bao giờ.)"
+        "meaning": "Mặc dù... thế nhưng mà (tuy đã diễn ra nhưng kết quả không như ý)",
+        "example": "車の免許は取ったものの、ペーパードライバーで運転できない。(Mặc dù đã lấy được bằng lái xe nhưng để xó chứ chẳng dám lái bao giờ).",
+        "note": "Bằng với ～けれども nhưng văn phong trang trọng hơn."
       },
       {
-        "pattern": "～ものがある",
-        "meaning": "Có cảm giác chứa chan điều gì...",
-        "example": "彼のスピーチには心を打つものがある。(Bài phát biểu của anh ấy có điều gì đó rất lay động lòng người.)"
+        "pattern": "～ものなら",
+        "meaning": "Nếu có thể... thì rất muốn... (giả định việc khó thực hiện)",
+        "example": "戻れるものなら、高校時代に戻ってやり直したい。(Nếu có thể quay ngược thời gian, tôi muốn trở lại thời cấp 3 để làm lại).",
+        "note": "Vế trước chia thể khả năng (可能形 + ものなら)."
       },
       {
-        "pattern": "～ないものか",
-        "meaning": "Liệu có cách nào... không nhỉ? (khát khao giải pháp)",
-        "example": "もっと簡単にN2に受かる方法はないものか。(Liệu không có cách nào đỗ N2 dễ hơn sao nhỉ?)"
+        "pattern": "～ようものなら",
+        "meaning": "Nếu lỡ mà... thì hậu quả kinh khủng sẽ xảy ra (giả định tình huống xấu)",
+        "example": "あの先生の授業に遅刻しようものなら、教室に入れてもらえない。(Nếu lỡ đi muộn vào tiết học của thầy ấy thì sẽ không được bước chân vào lớp đâu).",
+        "note": "Vế sau luôn là tình huống tai họa, nghiêm trọng."
+      },
+      {
+        "pattern": "～ないものか / ～ないものだろうか",
+        "meaning": "Liệu có thể... không nhỉ? / Giá mà có cách nào...",
+        "example": "何とかしてこの難病を治す薬は開発できないものだろうか。(Liệu rằng có cách nào nghiên cứu ra loại thuốc chữa căn bệnh hiểm nghèo này không nhỉ?).",
+        "note": "Thể hiện nguyện vọng tha thiết khó thành hiện thực."
+      },
+      {
+        "pattern": "～というものだ",
+        "meaning": "Đúng thật là... / Quả đúng là... (đánh giá theo lẽ thông thường)",
+        "example": "初対面でそんなプライベートな質問をするのは、失礼というものだ。(Lần đầu gặp gỡ mà đã hỏi đời tư như thế thì đúng thật là bất lịch sự).",
+        "note": "Nhận xét khách quan theo tiêu chuẩn đạo đức xã hội."
+      }
+    ],
+    "ue": [
+      {
+        "pattern": "～上で (うえで)",
+        "meaning": "Sau khi... rồi mới... (V-た 上で) / Trong việc... thì... (V-る 上で)",
+        "example": "両親とよく相談した上で、進路を決めたい。(Sau khi bàn bạc kỹ với bố mẹ rồi tôi mới quyết định chọn trường).",
+        "note": "Làm A xong, lấy A làm căn cứ rồi mới tiến hành B."
+      },
+      {
+        "pattern": "～上は (うえは)",
+        "meaning": "Một khi đã... thì phải... (thể hiện tinh thần trách nhiệm, quyết tâm)",
+        "example": "契約を結んだ上は、約束を守らなければならない。(Một khi đã đặt bút ký hợp đồng thì bắt buộc phải giữ đúng lời hứa).",
+        "note": "Vế sau thường là ～べきだ, ～なければならない, ～つもりだ."
+      },
+      {
+        "pattern": "～上に (うえに)",
+        "meaning": "Không chỉ... mà thêm vào đó còn... (hơn nữa, thêm vào đó)",
+        "example": "彼女は美人な上に、性格も優しくて誰からも好かれている。(Cô ấy không chỉ xinh đẹp mà tính tình còn dịu dàng nên ai ai cũng quý mến).",
+        "note": "Cùng hướng tích cực (+) đi với (+) hoặc tiêu cực (-) đi với (-)."
+      },
+      {
+        "pattern": "～上 (じょう)",
+        "meaning": "Về mặt... / Xét trên phương diện...",
+        "example": "法律上は問題ないが、道徳的には許されない行為だ。(Về mặt luật pháp thì không vi phạm, nhưng xét trên phương diện đạo đức thì khó chấp nhận).",
+        "note": "Hay gặp: 法律上, 健康上, 教育上, 都合上, 歴史上."
+      }
+    ],
+    "tokoro": [
+      {
+        "pattern": "～ところだ (Vる / Vている / Vた)",
+        "meaning": "Chuẩn bị làm... / Đang làm dở... / Vừa mới làm xong tức thì...",
+        "example": "今から出かけるところだ。 / 今調べているところです。(Bây giờ tôi chuẩn bị bước ra ngoài đây. / Tôi đang tra cứu ngay đây).",
+        "note": "3 mốc thời gian cực kỳ chuẩn xác của hành động."
+      },
+      {
+        "pattern": "～たところ、～た",
+        "meaning": "Sau khi thử làm... thì bất ngờ nhận được kết quả...",
+        "example": "病院で検査を受けたところ、幸い異常は見つからなかった。(Sau khi đi khám kiểm tra ở viện, thật may là không phát hiện bất thường nào).",
+        "note": "Kết quả nhận được thường bất ngờ ngoài dự kiến."
+      },
+      {
+        "pattern": "～どころではない",
+        "meaning": "Không phải là lúc... / Đâu còn tâm trí nào mà... nữa!",
+        "example": "仕事が山積みで、旅行どころではない。(Công việc chất cao như núi, đâu phải lúc rảnh rang mà đi du lịch nữa chứ!).",
+        "note": "Hoàn cảnh ngặt nghèo không cho phép thực hiện việc đó."
+      },
+      {
+        "pattern": "～どころか",
+        "meaning": "Không những không A mà thậm chí ngược lại còn tệ hơn B...",
+        "example": "喉が痛くて、ご飯を食べるどころか、水も飲めない。(Họng đau rát, cơm còn chẳng nuốt nổi nói chi đến uống nước).",
+        "note": "Thực tế tồi tệ hoặc cách biệt rất xa so với kỳ vọng ban đầu."
+      },
+      {
+        "pattern": "～ところだった",
+        "meaning": "Suýt chút nữa thì... (nhưng may mắn đã thoát được)",
+        "example": "急ブレーキをかけたので、もう少しで事故になるところだった。(Đạp phanh gấp nên suýt chút nữa là xảy ra tai nạn rồi).",
+        "note": "Hay đi kèm 危うく / もう少しで."
       }
     ]
   },
@@ -2434,321 +2902,384 @@ window.JLPT_CHEATSHEETS_DATA = {
         "adverb": "もしかしたら / もしかすると / ひょっとしたら",
         "pattern": "～かもしれない",
         "meaning": "Có lẽ là... / Không chừng là...",
-        "note": "Khả năng xảy ra khoảng 50%."
+        "note": "Khả năng xảy ra khoảng 50%.",
+        "example": "もしかしたら、彼の話は本当かもしれない。(Có lẽ câu chuyện của anh ấy là thật cũng nên)."
       },
       {
         "adverb": "おそらく",
         "pattern": "～だろう・でしょう / ～と思う",
         "meaning": "E rằng... / Có lẽ rằng...",
-        "note": "Phán đoán khả năng cao (trên 80%)."
+        "note": "Phán đoán khả năng cao (trên 80%).",
+        "example": "おそらく明日は雨が降るだろう。(Có lẽ ngày mai trời sẽ mưa)."
       },
       {
         "adverb": "どうも",
         "pattern": "～ようだ / ～らしい",
         "meaning": "Hình như là... / Có vẻ là...",
-        "note": "Cảm giác mơ hồ từ trực giác."
+        "note": "Cảm giác mơ hồ từ trực giác.",
+        "example": "どうも風邪をひいてしまったようだ。(Hình như tôi bị cảm lạnh mất rồi)."
       },
       {
         "adverb": "いまにも (今にも)",
         "pattern": "～そうだ",
         "meaning": "Sắp sửa... (ngay tức khắc biến đổi)",
-        "note": "Trạng thái trực quan: 今にも雨が降りそうだ."
+        "note": "Trạng thái trực quan: 今にも雨が降りそうだ.",
+        "example": "いまにも雨が降り出しそうな空模様だ。(Bầu trời trông như sắp sửa đổ mưa tới nơi)."
       },
       {
         "adverb": "たった今 (たったいま)",
         "pattern": "～たところだ",
         "meaning": "Vừa mới xong tức thì",
-        "note": "Vừa xảy ra cách đây vài giây/vài phút."
+        "note": "Vừa xảy ra cách đây vài giây/vài phút.",
+        "example": "たった今、空港に着いたところです。(Tôi vừa mới đáp xuống sân bay xong tức thì)."
       },
       {
         "adverb": "まるで",
         "pattern": "～ようだ / ～みたいだ / ～かのようだ",
         "meaning": "Giống như là... / Cứ như thể là...",
-        "note": "So sánh ví von hình ảnh."
+        "note": "So sánh ví von hình ảnh.",
+        "example": "合格の知らせを聞いて、まるで夢を見ているようだ。(Nghe tin thi đỗ, tôi ngỡ như mình đang mơ vậy)."
       },
       {
         "adverb": "ぜひ / なんとかして",
         "pattern": "～てください / ～たい / ～てほしい",
         "meaning": "Nhất định... / Bằng mọi giá rất muốn...",
-        "note": "Bày tỏ nguyện vọng tha thiết."
+        "note": "Bày tỏ nguyện vọng tha thiết.",
+        "example": "日本へ行ったら、ぜひ富士山に登ってみたい。(Nếu đến Nhật, nhất định tôi rất muốn leo thử núi Phú Sĩ)."
       },
       {
         "adverb": "どんなに / いくら / たとえ",
         "pattern": "～ても・～でも",
         "meaning": "Dù có thế nào... / Dù bao nhiêu... / Dẫu cho...",
-        "note": "Giả định nhượng bộ dù khó khăn."
+        "note": "Giả định nhượng bộ dù khó khăn.",
+        "example": "どんなに頼まれても、この仕事を引き受けるわけにはいかない。(Dù có được nài nỉ thế nào đi nữa, tôi cũng không thể nhận công việc này)."
       },
       {
         "adverb": "せっかく",
         "pattern": "～のに / ～からには",
         "meaning": "Đã cất công... ấy thế mà lại...",
-        "note": "Bày tỏ sự tiếc nuối khi công sức bỏ ra bị uổng phí."
+        "note": "Bày tỏ sự tiếc nuối khi công sức bỏ ra bị uổng phí.",
+        "example": "せっかく料理を作ったのに、誰も食べてくれなかった。(Đã cất công nấu nướng bao món ngon ấy thế mà chẳng ai thèm ăn)."
       },
       {
         "adverb": "ただ",
         "pattern": "～だけ / ～のみ",
         "meaning": "Chỉ là... đơn thuần là...",
-        "note": "Giới hạn phạm vi."
+        "note": "Giới hạn phạm vi.",
+        "example": "ただ見ているだけで、何の手助けもしてくれない。(Anh ta chỉ đứng nhìn trơ mắt ra thôi chứ chẳng giúp được tích sự gì)."
       },
       {
         "adverb": "すでに (既に)",
         "pattern": "～た / ～ている・～てある",
         "meaning": "Đã... rồi (hoàn tất trước đó)",
-        "note": "Trạng thái đã hoàn thành."
+        "note": "Trạng thái đã hoàn thành.",
+        "example": "彼が到着したときには、会議はすでに始まっていた。(Lúc anh ấy đến nơi thì cuộc họp đã bắt đầu từ trước đó rồi)."
       },
       {
         "adverb": "たいして / けっして / めったに / そんなに",
         "pattern": "～ない",
         "meaning": "Không mấy... / Tuyệt đối không... / Hiếm khi... / Không... đến mức thế",
-        "note": "Bắt buộc đi với vị ngữ phủ định."
+        "note": "Bắt buộc đi với vị ngữ phủ định.",
+        "example": "けっして諦めないで、最後まで頑張りなさい。(Quyết không được từ bỏ, hãy nỗ lực kiên trì tới cùng)."
       },
       {
         "adverb": "さすが",
         "pattern": "～だけあって / ～だけのことはある",
         "meaning": "Quả nhiên là... có khác / Đúng xứng danh là...",
-        "note": "Khen ngợi xứng tầm danh tiếng/năng lực."
+        "note": "Khen ngợi xứng tầm danh tiếng/năng lực.",
+        "example": "さすがプロの歌手だけあって、歌声の迫力が違う。(Quả đúng là ca sĩ chuyên nghiệp có khác, giọng hát vang dội đầy nội lực)."
       },
       {
         "adverb": "まさか",
         "pattern": "～思わない / ～信じられない / ～なんて / ～わけがない",
         "meaning": "Không đời nào... / Không thể tin nổi là...",
-        "note": "Bất ngờ tột độ ngoài sức tưởng tượng."
+        "note": "Bất ngờ tột độ ngoài sức tưởng tượng.",
+        "example": "彼が犯人だなんて、まさか思わなかった。(Tôi không đời nào có thể nghĩ rằng anh ấy lại chính là thủ phạm)."
       },
       {
         "adverb": "～によると / ～によれば",
         "pattern": "～そうだ / ～ということだ / ～という / ～らしい",
         "meaning": "Theo như (nguồn thông tin)... thì nghe nói là...",
-        "note": "Dẫn nguồn truyền đạt khách quan."
+        "note": "Dẫn nguồn truyền đạt khách quan.",
+        "example": "天気予報によると、午後から強い風が吹くそうだ。(Theo dự báo thời tiết thì từ chiều sẽ có gió thổi rất mạnh)."
       },
       {
         "adverb": "つい",
         "pattern": "～てしまった",
         "meaning": "Lỡ, trót... buột miệng / vô ý",
-        "note": "Hành động mất kiểm soát ý chí."
+        "note": "Hành động mất kiểm soát ý chí.",
+        "example": "ダイエット中なのに、つい甘いケーキを食べてしまった。(Đang lúc ăn kiêng mà tôi lỡ mồm ăn mất miếng bánh ngọt)."
       },
       {
         "adverb": "かならずしも (必ずしも)",
         "pattern": "～とは限らない / ～わけではない",
         "meaning": "Không hẳn là... / Chưa chắc đã...",
-        "note": "Phủ định một phần chân lý/quan niệm."
+        "note": "Phủ định một phần chân lý/quan niệm.",
+        "example": "高いものが、かならずしも質が良いとは限らない。(Đồ đắt tiền chưa chắc chất lượng đã thực sự tốt)."
       },
       {
         "adverb": "くれぐれも",
         "pattern": "～てください / ～ないように",
         "meaning": "Kính mong, tha thiết mong hãy...",
-        "note": "Dùng trong lời chúc sức khỏe, nhắc nhở an toàn."
+        "note": "Dùng trong lời chúc sức khỏe, nhắc nhở an toàn.",
+        "example": "寒くなりますので、くれぐれもお体に気をつけてください。(Trời trở lạnh rồi nên kính mong anh giữ gìn sức khỏe cẩn thận)."
       },
       {
         "adverb": "どうせ",
         "pattern": "～だろう / ～命令形・意向形",
         "meaning": "Đằng nào thì cũng... / Đằng nào cũng... nên hãy...",
-        "note": "Tâm lý buông xuôi hoặc chấp nhận thực tế."
+        "note": "Tâm lý buông xuôi hoặc chấp nhận thực tế.",
+        "example": "どうせ間に合わないだろうから、急ぐのはやめよう。(Đằng nào thì cũng chẳng kịp đâu nên thôi đừng vội làm gì)."
       },
       {
         "adverb": "どうやら・どうも",
         "pattern": "～ようだ",
         "meaning": "Có vẻ như là... / Dường như...",
-        "note": "Nhận định dựa trên dấu hiệu khách quan."
+        "note": "Nhận định dựa trên dấu hiệu khách quan.",
+        "example": "どうも風邪をひいてしまったようだ。(Hình như tôi bị cảm lạnh mất rồi)."
       },
       {
         "adverb": "あいにく",
         "pattern": "～てしまった / ～の雨",
         "meaning": "Thật đáng tiếc... / Không may là...",
-        "note": "Tình huống trái với mong đợi."
+        "note": "Tình huống trái với mong đợi.",
+        "example": "あいにく社長はただ今席を外しております。(Rất tiếc hiện tại giám đốc của chúng tôi lại không có ở bàn làm việc)."
       },
       {
         "adverb": "とっくに",
         "pattern": "～た",
         "meaning": "Đã từ rất lâu rồi / Xong từ tám hoánh",
-        "note": "Không nhầm với 特に (đặc biệt)."
+        "note": "Không nhầm với 特に (đặc biệt).",
+        "example": "宿題なら、とっくに終わらせましたよ。(Nếu là bài tập về nhà thì tôi đã làm xong từ lâu lắm rồi)."
       },
       {
         "adverb": "果たして (はたして)",
         "pattern": "～だろうか",
         "meaning": "Liệu thực sự có... hay không? / Liệu có chắc là...",
-        "note": "Nghi vấn sâu sắc về khả năng thành công."
+        "note": "Nghi vấn sâu sắc về khả năng thành công.",
+        "example": "彼の計画は、果たしてうまくいくのだろうか。(Kế hoạch của anh ta liệu rằng thực sự có suôn sẻ hay không đây?)"
       }
     ],
     "part2_fixed_verbs": [
       {
         "adverb": "うっかり",
         "collocation": "忘れる・間違える・消す",
-        "meaning": "Lơ đãng, vô ý (quên khuấy, nhầm lẫn, bấm xóa nhầm)"
+        "meaning": "Lơ đãng, vô ý (quên khuấy, nhầm lẫn, bấm xóa nhầm)",
+        "example": "うっかり大切な書類を家に忘れてしまった。(Tôi sơ ý bỏ quên tập tài liệu quan trọng ở nhà)."
       },
       {
         "adverb": "ぐっすり",
         "collocation": "眠る (ねむる)",
-        "meaning": "Ngủ ngon giấc, ngủ say sưa không biết trời đất"
+        "meaning": "Ngủ ngon giấc, ngủ say sưa không biết trời đất",
+        "example": "昨日は疲れていたので、朝までぐっすり眠った。(Hôm qua mệt lả cả người nên tôi ngủ một mạch say sưa tới sáng)."
       },
       {
         "adverb": "ぎっしり",
         "collocation": "詰まる・入る (つまる・はいる)",
-        "meaning": "Nhét đầy ắp, lèn chặt ních (lịch trình kín mít, vali đầy đồ)"
+        "meaning": "Nhét đầy ắp, lèn chặt ních (lịch trình kín mít, vali đầy đồ)",
+        "example": "今週はスケジュールがぎっしり詰まっている。(Tuần này lịch trình công tác của tôi kín mít không còn một chỗ trống)."
       },
       {
         "adverb": "しみじみ",
         "collocation": "感じる・思う・味わう",
-        "meaning": "Thấm thía sâu sắc (tình cảm, nỗi cô đơn, lời dạy)"
+        "meaning": "Thấm thía sâu sắc (tình cảm, nỗi cô đơn, lời dạy)",
+        "example": "親元を離れて一人暮らしを始め、家族のありがたさをしみじみ感じた。(Rời xa bố mẹ ra ở riêng, tôi mới thấm thía sâu sắc sự ấm áp của gia đình)."
       },
       {
         "adverb": "着々と (ちゃくちゃくと)",
         "collocation": "進む (すすむ)",
-        "meaning": "Tiến hành đều đặn, vững chắc theo đúng từng bước kế hoạch"
+        "meaning": "Tiến hành đều đặn, vững chắc theo đúng từng bước kế hoạch",
+        "example": "新しいビルの建設工事は、着々と進んでいる。(Công trình xây dựng tòa nhà mới đang tiến triển rất đều đặn và thuận lợi)."
       },
       {
         "adverb": "めっきり",
         "collocation": "～くなる・変化する (へんか)",
-        "meaning": "Biến đổi trông thấy, rõ rệt hẳn (thời tiết lạnh hẳn, sức khỏe yếu đi rõ)"
+        "meaning": "Biến đổi trông thấy, rõ rệt hẳn (thời tiết lạnh hẳn, sức khỏe yếu đi rõ)",
+        "example": "朝晩はめっきり涼しくなってきた。(Sáng sớm và chiều tối trời đã se se lạnh trông thấy)."
       },
       {
         "adverb": "はっきり",
         "collocation": "見える・聞こえる・言う",
-        "meaning": "Rõ ràng (nhìn rõ, nghe rõ mồn một, nói thẳng thắn)"
+        "meaning": "Rõ ràng (nhìn rõ, nghe rõ mồn một, nói thẳng thắn)",
+        "example": "自分の意見は、相手にはっきり言うべきだ。(Ý kiến của bản thân thì nên nói rõ ràng rành mạch cho đối phương hiểu)."
       },
       {
         "adverb": "ぎりぎり",
         "collocation": "間に合う・合格する",
-        "meaning": "Sát nút, suýt soát (vừa kịp giờ tàu chạy, suýt soát điểm đỗ)"
+        "meaning": "Sát nút, suýt soát (vừa kịp giờ tàu chạy, suýt soát điểm đỗ)",
+        "example": "急いで走ったので、発車ベルの鳴るぎりぎりに間に合った。(Chạy thục mạng nên tôi đã kịp chuyến tàu vào đúng những giây phút chót)."
       },
       {
         "adverb": "じっと",
         "collocation": "見る・考える・耐える",
-        "meaning": "Chăm chú nhìn, ngồi yên bất động suy nghĩ, cắn răng chịu đựng"
+        "meaning": "Chăm chú nhìn, ngồi yên bất động suy nghĩ, cắn răng chịu đựng",
+        "example": "痛みをこらえて、じっと我慢した。(Cắn răng chịu đau, tôi cố nhẫn nại ngồi yên một chỗ)."
       },
       {
         "adverb": "こっそり",
         "collocation": "入る・タバコを吸う・持ち出す",
-        "meaning": "Lén lút, vụng trộm (làm điều giấu giếm, trốn ra ngoài)"
+        "meaning": "Lén lút, vụng trộm (làm điều giấu giếm, trốn ra ngoài)",
+        "example": "授業中に先生に見つからないよう、こっそりスマホを見た。(Trong giờ học tôi lén lút xem điện thoại để không bị giáo viên phát hiện)."
       },
       {
         "adverb": "こつこつ (コツコツ)",
         "collocation": "働く・勉強する・努力する・貯金する",
-        "meaning": "Cần cù, chăm chỉ, tích tiểu thành đại từng chút một"
+        "meaning": "Cần cù, chăm chỉ, tích tiểu thành đại từng chút một",
+        "example": "毎日こつこつ貯金して、マイホームを買った。(Mỗi ngày cần cù tiết kiệm từng đồng, cuối cùng tôi đã mua được ngôi nhà riêng)."
       },
       {
         "adverb": "びしょびしょ / びっしょり",
         "collocation": "濡れる (ぬれる)",
-        "meaning": "Ướt sũng, ướt như chuột lột (mưa ướt đầm đìa, mồ hôi đầm đìa)"
+        "meaning": "Ướt sũng, ướt như chuột lột (mưa ướt đầm đìa, mồ hôi đầm đìa)",
+        "example": "突然のゲリラ豪雨で、服がびしょびしょに濡れてしまった。(Cơn mưa rào bất ngờ ập xuống khiến quần áo tôi ướt sũng như chuột lột)."
       },
       {
         "adverb": "ずらっと / ずらりと",
         "collocation": "並んでいる (ならんでいる)",
-        "meaning": "Xếp thành hàng dài tăm tắp, la liệt nối đuôi nhau"
+        "meaning": "Xếp thành hàng dài tăm tắp, la liệt nối đuôi nhau",
+        "example": "本棚には専門書がずらりと並んでいる。(Trên giá sách, các đầu sách chuyên ngành được xếp ngay ngắn thành hàng dài)."
       },
       {
         "adverb": "すらすら",
         "collocation": "読む・答える・書く",
-        "meaning": "Trôi chảy, vanh vách không vấp (đọc lưu loát, trả lời trôi chảy)"
+        "meaning": "Trôi chảy, vanh vách không vấp (đọc lưu loát, trả lời trôi chảy)",
+        "example": "難しい漢字も、彼女はすらすらと読んだ。(Cả những chữ Hán khó nhằn cô ấy cũng đọc vanh vách một cách trôi chảy)."
       },
       {
         "adverb": "ぺらぺら",
         "collocation": "話す",
-        "meaning": "Nói trôi chảy ngoại ngữ / Nói liến thoắng bép xép"
+        "meaning": "Nói trôi chảy ngoại ngữ / Nói liến thoắng bép xép",
+        "example": "彼は日本語も英語もぺらぺら話す。(Anh ấy bắn cả tiếng Nhật lẫn tiếng Anh lưu loát như gió)."
       },
       {
         "adverb": "ざっと",
         "collocation": "読む・見る・目を通す",
-        "meaning": "Đọc lướt qua, xem qua đại khái nắm ý chính"
+        "meaning": "Đọc lướt qua, xem qua đại khái nắm ý chính",
+        "example": "会議の前に、配られた資料にざっと目を通した。(Trước giờ họp, tôi đã lướt nhanh qua tập tài liệu vừa được phát)."
       },
       {
         "adverb": "きっぱり",
         "collocation": "断る・やめる",
-        "meaning": "Thẳng thừng từ chối, dứt khoát chấm dứt không do dự"
+        "meaning": "Thẳng thừng từ chối, dứt khoát chấm dứt không do dự",
+        "example": "無理な頼み事は、きっぱり断る勇気が必要だ。(Những lời nhờ vả quá đáng thì cần phải có dũng khí để từ chối thẳng thừng)."
       },
       {
         "adverb": "一斉に (いっせいに)",
         "collocation": "笑う・始める・走る・飛び立つ",
-        "meaning": "Đồng loạt cùng một lúc (cùng cười òa, đồng loạt xuất phát)"
+        "meaning": "Đồng loạt cùng một lúc (cùng cười òa, đồng loạt xuất phát)",
+        "example": "ベルが鳴ると同時に、生徒たちは一斉に教室から飛び出した。(Chuông vừa reo là cả đám học sinh đồng loạt túa ra khỏi lớp học)."
       }
     ],
     "part3_onomatopoeia": [
       {
         "word": "あっさり",
-        "meaning": "Vị thanh đạm / Dễ dàng, nhanh gọn (giải quyết êm xuôi)"
+        "meaning": "Vị thanh đạm / Dễ dàng, nhanh gọn (giải quyết êm xuôi)",
+        "example": "このラーメンのスープは油っこくなくて、あっさりしている。(Nước dùng của bát ramen này không hề ngấy mà rất thanh đạm)."
       },
       {
         "word": "さっぱり",
-        "meaning": "Sảng khoái, khoan khoái (tắm xong) / Hoàn toàn không hiểu gì (さっぱり分からない)"
+        "meaning": "Sảng khoái, khoan khoái (tắm xong) / Hoàn toàn không hiểu gì (さっぱり分からない)",
+        "example": "お風呂に入って汗を流したら、気分がさっぱりした。(Tắm gội sạch sẽ mồ hôi xong, tinh thần tôi cảm thấy vô cùng sảng khoái)."
       },
       {
         "word": "きっちり",
-        "meaning": "Đầy đủ, tròn vẹn, vừa khít (thời gian, tiền bạc, số lượng)"
+        "meaning": "Đầy đủ, tròn vẹn, vừa khít (thời gian, tiền bạc, số lượng)",
+        "example": "借りたお金は、期日までにきっちり返します。(Tiền đã vay thì tôi sẽ trả đúng hẹn không thiếu một xu)."
       },
       {
         "word": "すっきり",
-        "meaning": "Dễ chịu, nhẹ nhõm sảng khoái (giải quyết xong âu lo, ngủ dậy tỉnh táo)"
+        "meaning": "Dễ chịu, nhẹ nhõm sảng khoái (giải quyết xong âu lo, ngủ dậy tỉnh táo)",
+        "example": "部屋をきれいに片付けたら、部屋も気分もすっきりした。(Dọn dẹp phòng ốc ngăn nắp xong cảm thấy đầu óc nhẹ nhõm, dễ chịu hẳn)."
       },
       {
         "word": "くっきり",
-        "meaning": "Rành mạch, rõ nét (đường nét, bóng dáng nổi bật trên nền trời)"
+        "meaning": "Rành mạch, rõ nét (đường nét, bóng dáng nổi bật trên nền trời)",
+        "example": "天気が良かったので、遠くの富士山がくっきりと見えた。(Trời nắng đẹp nên ngọn núi Phú Sĩ ở đằng xa hiện lên rõ mồn một)."
       },
       {
         "word": "すっかり",
-        "meaning": "Hoàn toàn, sạch trơn, tất tần tật (quên sạch, khỏi hẳn bệnh)"
+        "meaning": "Hoàn toàn, sạch trơn, tất tần tật (quên sạch, khỏi hẳn bệnh)",
+        "example": "久しぶりに会った友人の顔を、すっかり忘れていた。(Lâu ngày gặp lại, tôi đã quên béng mất khuôn mặt của người bạn cũ)."
       },
       {
         "word": "ぐったり",
-        "meaning": "Mệt mỏi rã rời, kiệt sức nằm bẹp một chỗ"
+        "meaning": "Mệt mỏi rã rời, kiệt sức nằm bẹp một chỗ",
+        "example": "一日中残業続きで、ベッドの上にぐったりと倒れ込んだ。(Làm thêm giờ suốt cả ngày mệt rã rời, tôi đổ gục xuống giường)."
       },
       {
         "word": "たっぷり",
-        "meaning": "Đầy ắp, ú ụ, dồi dào thoải mái (thời gian, dinh dưỡng, giấc ngủ)"
+        "meaning": "Đầy ắp, ú ụ, dồi dào thoải mái (thời gian, dinh dưỡng, giấc ngủ)",
+        "example": "栄養のあるものをたっぷり食べて、早く風邪を治しなさい。(Hãy ăn thật nhiều đồ bổ dưỡng để nhanh chóng khỏi ốm)."
       },
       {
         "word": "ばったり",
-        "meaning": "Tình cờ, bất ngờ chạm mặt nhau (ばったり会う)"
+        "meaning": "Tình cờ, bất ngờ chạm mặt nhau (ばったり会う)",
+        "example": "街を歩いていたら、高校時代の同級生にばったり会った。(Đang đi dạo trên phố thì tình cờ đụng mặt ngay đứa bạn cùng lớp cấp 3)."
       },
       {
         "word": "じっくり",
-        "meaning": "Kỹ lưỡng, thong thả cẩn thận (じっくり考える: suy nghĩ thấu đáo)"
+        "meaning": "Kỹ lưỡng, thong thả cẩn thận (じっくり考える: suy nghĩ thấu đáo)",
+        "example": "焦らずに、将来の進路についてじっくり考えよう。(Đừng sốt ruột, hãy suy nghĩ thật thấu đáo về con đường tương lai)."
       },
       {
         "word": "にっこり",
-        "meaning": "Nở nụ cười tươi tắn, mỉm cười rạng rỡ"
+        "meaning": "Nở nụ cười tươi tắn, mỉm cười rạng rỡ",
+        "example": "店員さんがにっこりと笑顔で迎えてくれた。(Nhân viên cửa hàng mỉm cười tươi tắn đón chào khách)."
       },
       {
         "word": "ぼんやり",
-        "meaning": "Mông lung, mờ ảo / Lơ đãng đờ đẫn mất tập trung"
+        "meaning": "Mông lung, mờ ảo / Lơ đãng đờ đẫn mất tập trung",
+        "example": "疲れていたのか、ぼんやりして乗り過ごしてしまった。(Chắc do mệt quá nên tôi ngồi thẫn thờ ngơ ngác để lỡ mất ga cần xuống)."
       },
       {
         "word": "さっさと",
-        "meaning": "Nhanh chóng, khẩn trương làm ngay đi đừng chần chừ"
+        "meaning": "Nhanh chóng, khẩn trương làm ngay đi đừng chần chừ",
+        "example": "文句を言っていないで、さっさと宿題を片付けなさい。(Đừng có càu nhàu nữa, mau mau làm nhanh cho xong bài tập đi)."
       },
       {
         "word": "すっと",
-        "meaning": "Thẳng tắp vươn lên / Nhanh như bay / Thấy nhẹ bẫng cả lòng"
+        "meaning": "Thẳng tắp vươn lên / Nhanh như bay / Thấy nhẹ bẫng cả lòng",
+        "example": "胃腸薬を飲んだら、胃の痛みがすっと軽くなった。(Uống thuốc dạ dày xong là cơn đau dịu hẳn đi một cách nhanh chóng)."
       },
       {
         "word": "せっせと",
-        "meaning": "Cần mẫn, siêng năng làm lụng không ngừng nghỉ"
+        "meaning": "Cần mẫn, siêng năng làm lụng không ngừng nghỉ",
+        "example": "老後の生活のために、若いうちからせっせと働いて蓄える。(Để lo cho tuổi già, từ lúc còn trẻ đã cần mẫn làm lụng tích cóp)."
       },
       {
         "word": "そっと",
-        "meaning": "Rón rén, nhẹ nhàng không gây tiếng động / Để mặc yên tĩnh"
+        "meaning": "Rón rén, nhẹ nhàng không gây tiếng động / Để mặc yên tĩnh",
+        "example": "赤ちゃんを起こさないように、そっとドアを閉めた。(Để không đánh thức em bé, tôi nhẹ nhàng khép cửa lại)."
       },
       {
         "word": "どっと",
-        "meaning": "Bất chợt ùa ra, rộ lên (đông nghẹt ùa vào, cười òa lên)"
+        "meaning": "Bất chợt ùa ra, rộ lên (đông nghẹt ùa vào, cười òa lên)",
+        "example": "その冗談を聞いて、会場からどっと笑いが起きた。(Nghe câu nói đùa dí dỏm đó, cả hội trường bất chợt rộ lên tiếng cười lớn)."
       },
       {
         "word": "わざと",
-        "meaning": "Cố tình, cố ý làm (không phải vô tình)"
+        "meaning": "Cố tình, cố ý làm (không phải vô tình)",
+        "example": "彼はわざと負けて、弟を喜ばせた。(Anh ấy cố tình thua để làm cho đứa em trai vui vẻ)."
       },
       {
         "word": "わりと",
-        "meaning": "Tương đối, khá là (so với mức trung bình)"
+        "meaning": "Tương đối, khá là (so với mức trung bình)",
+        "example": "今回の試験は、思ったよりわりと簡単だった。(Kỳ thi lần này tương đối dễ thở hơn so với tôi tưởng tượng)."
       },
       {
         "word": "ぎゅっと",
-        "meaning": "Ôm chặt cứng, nắm chặt tay"
+        "meaning": "Ôm chặt cứng, nắm chặt tay",
+        "example": "離れないように、お母さんの手をぎゅっと握りしめた。(Để không bị lạc, đứa bé nắm chặt lấy bàn tay mẹ)."
       },
       {
         "word": "ぐっと",
-        "meaning": "Hết sức, ghì chặt / Hơn hẳn một bậc (ぐっと良くなる: tốt hơn hẳn)"
+        "meaning": "Hết sức, ghì chặt / Hơn hẳn một bậc (ぐっと良くなる: tốt hơn hẳn)",
+        "example": "値段をぐっと下げてもらったので、即決で購入した。(Được bớt giá sâu hẳn nên tôi đã quyết định mua ngay tại chỗ)."
       },
       {
         "word": "ぱっと",
-        "meaning": "Đột nhiên bừng sáng / Nhanh chóng lan tỏa"
+        "meaning": "Đột nhiên bừng sáng / Nhanh chóng lan tỏa",
+        "example": "電気がついて、部屋の中がぱっと明るくなった。(Bật đèn lên một cái là cả căn phòng bừng sáng ngay tức thì)."
       }
     ]
   }

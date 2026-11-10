@@ -110,8 +110,8 @@ window.JLPT_CHEATSHEETS = [
   },
   {
     id: "cs_dong_tu",
-    title: "Động Từ Đa Nghĩa & Động Từ Phức N2",
-    subtitle: "Phân biệt các nét nghĩa dễ bẫy trong đề thi",
+    title: "Động Từ Đa Nghĩa N2 (16 Trang Gốc)",
+    subtitle: "Trọn bộ 17 động từ đa nghĩa then chốt (訴える, 押さえる, 傾く, 刻む, 稼ぐ, つぶれる, 扱う...) kèm ví dụ song ngữ",
     icon: "fa-book-open",
     color: "#ec4899"
   },
@@ -124,8 +124,8 @@ window.JLPT_CHEATSHEETS = [
   },
   {
     id: "cs_mono_koto",
-    title: "Trọn Bộ Cấu Trúc もの & こと (16 Trang)",
-    subtitle: "Phân biệt tuyệt đối các mẫu câu chứa もの và こと",
+    title: "Trọn Bộ Cấu Trúc もの & こと (16 Trang Gốc)",
+    subtitle: "4 nhóm cấu trúc kinh điển: こと (15 mẫu), もの (10 mẫu), 上 (4 mẫu) & ところ (5 mẫu) kèm ví dụ song ngữ",
     icon: "fa-layer-group",
     color: "#10b981"
   },
