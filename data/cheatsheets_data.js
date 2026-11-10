@@ -1950,27 +1950,32 @@ window.JLPT_CHEATSHEETS_DATA = {
           {
             "pattern": "に連れて / に従って (につれて / にしたがって)",
             "meaning": "Kéo theo, dẫn theo (A biến đổi kéo theo B biến đổi song hành)",
-            "note": "に従って mang tính trang trọng hơn, につれて dùng nhiều trong đời sống."
+            "note": "に従って mang tính trang trọng hơn, につれて dùng nhiều trong đời sống.",
+            "example": "台風が近づくにつれて、雨と風が強くなってきた。(Càng gần bão đến gần, mưa và gió càng trở nên mạnh hơn)."
           },
           {
             "pattern": "に伴って / と共に (にともなって / とともに)",
             "meaning": "Cùng với (cùng lúc sự thay đổi quy mô lớn diễn ra)",
-            "note": "に伴って vế sau thường là biến đổi lớn về xã hội/tự nhiên."
+            "note": "に伴って vế sau thường là biến đổi lớn về xã hội/tự nhiên.",
+            "example": "経済の発展に伴って、国民の生活水準が大きく向上した。(Cùng với sự phát triển của nền kinh tế, mức sống của người dân đã được nâng cao đáng kể)."
           },
           {
             "pattern": "つつある",
             "meaning": "Đang dần dần... (tiến trình biến đổi đang diễn ra)",
-            "note": "Đi với V-ます (bỏ ます). Ví dụ: 回復しつつある (đang dần phục hồi)."
+            "note": "Đi với V-ます (bỏ ます). Ví dụ: 回復しつつある (đang dần phục hồi).",
+            "example": "医療技術の進歩により、新しい治療法が開発されつつある。(Nhờ sự tiến bộ của kỹ thuật y tế, phương pháp điều trị mới đang dần được phát triển)."
           },
           {
             "pattern": "ばかりだ",
             "meaning": "Càng ngày càng... (chiều hướng xấu, tiêu cực)",
-            "note": "Đi với V-る. Ví dụ: 悪化するばかりだ (càng ngày càng tệ đi)."
+            "note": "Đi với V-る. Ví dụ: 悪化するばかりだ (càng ngày càng tệ đi).",
+            "example": "不景気のため、会社の業績は悪化するばかりだ。(Vì suy thoái kinh tế nên tình hình kinh doanh của công ty cứ ngày càng xấu đi)."
           },
           {
             "pattern": "一方だ (いっぽうだ)",
             "meaning": "Càng ngày càng... (theo một chiều hướng tăng/giảm liên tục)",
-            "note": "Đi với V-る. Ví dụ: 増える一方だ (ngày càng tăng lên không ngừng)."
+            "note": "Đi với V-る. Ví dụ: 増える一方だ (ngày càng tăng lên không ngừng).",
+            "example": "物価が上がる一方で、生活費の負担は増える一方だ。(Vật giá cứ tiếp tục leo thang, gánh nặng chi phí sinh hoạt cứ ngày một tăng lên)."
           }
         ]
       },

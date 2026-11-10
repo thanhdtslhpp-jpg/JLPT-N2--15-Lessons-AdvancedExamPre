@@ -1677,11 +1677,23 @@ class JLPTApp {
     // Helper format bilingual examples
     const formatBilingual = (ex) => {
       if (!ex) return { ja: "", vi: "" };
-      const m = ex.match(/^([^(（]+)[(（]([^)）]+)[)）]$/);
+      const m = ex.match(/^([^(（]+)[(（]([^)）]+)[)）]\.?$/);
       if (m) {
         return { ja: m[1].trim(), vi: m[2].trim() };
       }
       return { ja: ex, vi: "" };
+    };
+
+    const formatBilingualList = (ex) => {
+      if (!ex) return [];
+      const parts = ex.split(/\s+\/\s+(?=[^()（）]*(?:[（(]|$))/);
+      return parts.map(p => {
+        const m = p.trim().match(/^([^(（]+)[(（]([^)）]+)[)）]\.?$/);
+        if (m) {
+          return { ja: m[1].trim(), vi: m[2].trim() };
+        }
+        return { ja: p.trim(), vi: "" };
+      }).filter(x => x.ja);
     };
 
     // 1. SỔ TAY KOSEI 75 TRANG
@@ -2044,13 +2056,25 @@ class JLPTApp {
                     <div class="cs-meaning-text" style="font-size: calc(0.98rem * var(--cs-scale)); margin-bottom: 0.6rem;">
                       💡 <b>Ý nghĩa:</b> ${hl(it.meaning)}
                     </div>
-                    ${it.example ? `
-                      <div class="cs-example-group">
-                        <div class="cs-example-item">
-                          <div class="cs-ex-ja" style="font-size: calc(0.93rem * var(--cs-scale)); line-height: 1.5;">${hl(it.example)}</div>
+                    ${it.example ? (() => {
+                      const bList = formatBilingualList(it.example);
+                      return `
+                        <div class="cs-example-group" style="margin-top: 0.65rem;">
+                          ${bList.map(b => `
+                            <div class="cs-example-item" style="padding: 0.55rem 0.8rem; background: rgba(0,0,0,0.02); border-left: 3px solid #f59e0b; border-radius: 6px; margin-bottom: 0.35rem;">
+                              <div class="cs-ex-ja" style="font-size: calc(0.95rem * var(--cs-scale)); line-height: 1.5; color: var(--text-main); font-weight: 600;">
+                                <span style="color: #d97706; margin-right: 0.35rem; font-weight: 700;">例：</span>${hl(b.ja)}
+                              </div>
+                              ${b.vi ? `
+                                <div class="cs-ex-vi" style="font-size: calc(0.9rem * var(--cs-scale)); color: var(--text-sub); margin-top: 0.25rem; line-height: 1.45;">
+                                  <span style="font-weight: 700; color: #059669; margin-right: 0.35rem;">🇻🇳 Dịch:</span>${hl(b.vi)}
+                                </div>
+                              ` : ''}
+                            </div>
+                          `).join("")}
                         </div>
-                      </div>
-                    ` : ''}
+                      `;
+                    })() : ''}
                     ${it.note ? `
                       <div class="cs-note-box" style="margin-top: 0.5rem; font-size: calc(0.9rem * var(--cs-scale)); line-height: 1.45;">
                         <i class="fas fa-lightbulb" style="color: #f59e0b; margin-right: 0.3rem;"></i>${hl(it.note)}
