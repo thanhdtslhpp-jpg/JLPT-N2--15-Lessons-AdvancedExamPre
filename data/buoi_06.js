@@ -715,7 +715,7 @@ window.JLPT_DATA[6] = {
             "半年間"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>年中（ねんじゅう）：</b>Suốt cả năm, lúc nào cũng (＝いつも).<br><b>Dịch nghĩa:</b> Bố tôi vì công việc nên lúc nào cũng vắng nhà.",
+          "explanation": "<b>年中（ねんじゅう）：</b>Suốt cả năm, lúc nào cũng (&approx; いつも).<br><b>Dịch nghĩa:</b> Bố tôi vì bận bịu công việc nên hầu như lúc nào cũng vắng nhà.<br><i>Phân tích các phương án:</i><br>• 1. たまに (thỉnh thoảng, hiếm khi)<br>• 2. ときどき (đôi khi, thi thoảng)<br>• 3. だいたい (đại khái, phần lớn)<br>• <b>4. いつも (lúc nào cũng, luôn luôn) [Đúng]</b>",
           "id": 49
         },
         {
@@ -790,7 +790,7 @@ window.JLPT_DATA[6] = {
             "ゆっくり"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>ぱっと：</b>Bất thình lình, đột nhiên bừng sáng (＝急に).<br><b>Dịch nghĩa:</b> Bầu trời đột nhiên bừng sáng lên.",
+          "explanation": "<b>ぱっと：</b>Bất thình lình, đột ngột bừng sáng (&approx; 急に - きゅうに).<br><b>Dịch nghĩa:</b> Bầu trời đột nhiên bừng sáng lên.<br><i>Phân tích các phương án:</i><br>• <b>1. 急に (đột nhiên, bất ngờ) [Đúng]</b><br>• 2. 次第に (dần dần, từ từ theo thời gian)<br>• 3. 確かに (chắc chắn, quả thật là)<br>• 4. 完全に (hoàn toàn, triệt để)",
           "id": 54
         },
         {
@@ -1384,7 +1384,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> どんなスポーツでも、日々の練習が <b>[上達に(3)] [★ 欠かせないのは(2)] [もちろんだが(1)] [間違った方法で(4)]</b> 行うと時間をかけてもなかなか上達しない。<br><b>Cấu trúc:</b> Nに欠かせない (không thể thiếu cho) + のはもちろんだが (thì là đương nhiên rồi, thế nhưng...).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Bất kể là môn thể thao nào, việc luyện tập hàng ngày là không thể thiếu thì đương nhiên rồi, thế nhưng nếu tập sai phương pháp thì dù tốn bao nhiêu thời gian cũng khó mà tiến bộ được.",
           "id": 94
         },
         {
@@ -1419,7 +1419,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> 彼女の <b>[ことなら(1)] [どんなに(4)] [★ 小さな(2)] [ことでも(3)]</b> 知りたいと言っている。<br><b>Cấu trúc:</b> Nのことなら (nếu là chuyện về ai) + どんなに～ても (dù có... đến mức nào đi chăng nữa).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女の <b>[ことなら(1)] [どんなに(4)] [★ 小さな(2)] [ことでも(3)]</b> 知りたいと言っている。<br><b>Cấu trúc:</b> Nのことなら (nếu là chuyện về ai) + どんなに～ても (dù có... đến mức nào đi chăng nữa).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Anh ấy nói rằng hễ là chuyện về cô ấy thì dù là điều nhỏ nhặt đến đâu anh ấy cũng đều muốn biết.",
           "id": 95
         },
         {
@@ -1454,7 +1454,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> 今晩 <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì tối nay cũng phải làm cho xong).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> 今晩 <b>[徹夜して(2)] [★ でも(4)] [終わらせて(1)] [しまわないと(3)]</b> いけない。<br><b>Cấu trúc:</b> V-てでも (Dù có phải thức trắng đêm đi chăng nữa thì tối nay cũng phải làm cho xong).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Tối nay dù có phải thức trắng đêm đi chăng nữa thì tôi cũng phải làm cho xong việc này.",
           "id": 96
         },
         {
@@ -1489,7 +1489,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> 田中さんは <b>[家族全員が(1)] [★ みかんが(4)] [大好物な(2)] [こともあって(3)]</b>、冬はいつもみかんを大量に買うそうだ。<br><b>Cấu trúc:</b> ～こともあって (Một phần cũng vì lý do là...).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> 田中さんは <b>[家族全員が(1)] [★ みかんが(4)] [大好物な(2)] [こともあって(3)]</b>、冬はいつもみかんを大量に買うそうだ。<br><b>Cấu trúc:</b> ～こともあって (Một phần cũng vì lý do là...).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Nghe nói anh Tanaka một phần cũng vì cả nhà ai cũng đều cực kỳ thích ăn quýt, nên mùa đông lúc nào anh ấy cũng mua quýt với số lượng lớn.",
           "id": 97
         },
         {
@@ -1524,7 +1524,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> 私は、中学生になった頃から <b>[次第に(4)] [医学に興味を持ち始め(2)] [★ 高校に入ったときには(3)] [将来(1)]</b> 医者になろうと決めていた。<br><b>Cấu trúc:</b> Từ khi vào cấp 2 dần dần có hứng thú với y học, và đến khi lên cấp 3 thì đã quyết định tương lai sẽ làm bác sĩ.<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự câu đúng:</b> 私は、中学生になった頃から <b>[次第に(4)] [医学に興味を持ち始め(2)] [★ 高校に入ったときには(3)] [将来(1)]</b> 医者になろうと決めていた。<br><b>Cấu trúc:</b> Từ khi vào cấp 2 dần dần có hứng thú với y học, và đến khi lên cấp 3 thì đã quyết định tương lai sẽ làm bác sĩ.<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Tôi từ hồi vào học cấp hai đã dần dần có hứng thú với y học, và đến khi lên cấp ba thì tôi đã quyết định tương lai sẽ trở thành một bác sĩ.",
           "id": 98
         },
         {
@@ -1559,7 +1559,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのような + N (hoặc まるで〜かのように + V/A): Cứ hệt như là... (Vì phía sau là danh từ 「降り方」 nên dùng 「かのような」 bổ nghĩa).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự câu đúng:</b> <b>[まるで(3)] [バケツの水を(4)] [★ ひっくり返した(1)] [かのような(2)]</b> 降り方だった。<br><b>Cấu trúc:</b> まるで～かのような + N (hoặc まるで〜かのように + V/A): Cứ hệt như là... (Vì phía sau là danh từ 「降り方」 nên dùng 「かのような」 bổ nghĩa).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Cơn mưa xối xả trút xuống dữ dội cứ như thể có ai đó đang úp ngược cả xô nước từ trên trời xuống vậy.",
           "id": 99
         },
         {
@@ -1594,7 +1594,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> 来週の引越しの手伝い <b>[は(1)] [3人(4)] [★ も(2)] [いれば(3)]</b> 十分だ。<br><b>Cấu trúc:</b> Số lượng + も + V-ば (Chỉ cần có chừng ấy người là đủ).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự câu đúng:</b> 来週の引越しの手伝い <b>[は(1)] [3人(4)] [★ も(2)] [いれば(3)]</b> 十分だ。<br><b>Cấu trúc:</b> Số lượng + も + V-ば (Chỉ cần có chừng ấy người là đủ).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Về việc phụ giúp chuyển nhà vào tuần tới, chỉ cần có khoảng 3 người thôi là đã quá đủ rồi.",
           "id": 100
         },
         {
@@ -1664,7 +1664,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> この病気を治すため <b>[なら(4)] [どんな(1)] [★ つらい(3)] [治療にだって(2)]</b> 耐えてみせます。<br><b>Cấu trúc:</b> V-る + ためなら (Nếu là để chữa khỏi bệnh thì dù cách điều trị cay đắng thế nào tôi cũng chịu được).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự câu đúng:</b> この病気を治すため <b>[なら(4)] [どんな(1)] [★ つらい(3)] [治療にだって(2)]</b> 耐えてみせます。<br><b>Cấu trúc:</b> V-る + ためなら (Nếu là để chữa khỏi bệnh thì dù cách điều trị cay đắng thế nào tôi cũng chịu được).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Để chữa khỏi căn bệnh hiểm nghèo này, nếu là vì mục đích đó thì dù là phương pháp điều trị đau đớn khổ sở đến mức nào tôi cũng sẵn sàng chịu đựng.",
           "id": 102
         },
         {
@@ -1699,7 +1699,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> まちづくりというのは、 <b>[市民の(2)] [理解を(1)] [★ 得て(4)] [初めて(3)]</b> 実現できるものだ。<br><b>Cấu trúc:</b> V-て + はじめて (Chỉ sau khi nhận được sự thấu hiểu của người dân thì mới có thể hiện thực hóa được).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự câu đúng:</b> まちづくりというのは、 <b>[市民の(2)] [理解を(1)] [★ 得て(4)] [初めて(3)]</b> 実現できるものだ。<br><b>Cấu trúc:</b> V-て + はじめて (Chỉ sau khi nhận được sự thấu hiểu của người dân thì mới có thể hiện thực hóa được).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Cái gọi là công cuộc kiến thiết đô thị, chỉ khi nhận được sự thấu hiểu đồng thuận từ phía người dân thì mới có thể tiến hành bước tiếp theo được.",
           "id": 103
         },
         {
@@ -1714,7 +1714,7 @@ window.JLPT_DATA[6] = {
             "こんな道路"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Vị trí [50]:</b> Đoạn văn mở đầu nêu khái niệm chung về thứ mà ai cũng dùng khi đi làm, mua sắm: 「道路だ」(Đó chính là đường sá). Không dùng chỉ thị từ vì đây là lần đầu tiên đưa đối tượng ra giới thiệu.",
+          "explanation": "<b>Vị trí [50]:</b> Đoạn văn mở đầu nêu khái niệm chung về thứ mà ai cũng dùng khi đi làm, mua sắm: 「道路だ」(Đó chính là đường sá). Không dùng chỉ thị từ vì đây là lần đầu tiên đưa đối tượng ra giới thiệu.<br><b>Dịch nghĩa:</b> Mọi người có biết rằng con đường mà chúng ta vẫn đi lại hàng ngày này thực ra đang đảm nhận những vai trò vô cùng to lớn hay không?",
           "id": 104
         },
         {
@@ -1729,7 +1729,7 @@ window.JLPT_DATA[6] = {
             "ご存じなのだろう"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Vị trí [51]:</b> Tác giả đặt câu hỏi tu từ gợi mở với độc giả: 「〜ことはご存じだろうか」(Liệu quý vị có biết rằng...?).",
+          "explanation": "<b>Vị trí [51]:</b> Tác giả đặt câu hỏi tu từ gợi mở với độc giả: 「〜ことはご存じだろうか」(Liệu quý vị có biết rằng...?).<br><b>Dịch nghĩa:</b> Đầu tiên, phải kể đến tính năng thoát nước mưa vượt trội giúp mặt đường không bị ngập úng khi mưa lớn.",
           "id": 105
         },
         {
@@ -1744,7 +1744,7 @@ window.JLPT_DATA[6] = {
             "したがって"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Vị trí [52]:</b> Đoạn trước nói về đường thoát nước mưa, đoạn này bổ sung thêm một công năng khác ở vùng lạnh tuyết rơi -> dùng từ nối bổ sung thông tin 「また」(Ngoài ra, hơn nữa).",
+          "explanation": "<b>Vị trí [52]:</b> Đoạn trước nói về đường thoát nước mưa, đoạn này bổ sung thêm một công năng khác ở vùng lạnh tuyết rơi -> dùng từ nối bổ sung thông tin 「また」(Ngoài ra, hơn nữa).<br><b>Dịch nghĩa:</b> Hơn thế nữa, một công nghệ mới được ứng dụng gần đây là mặt đường có khả năng giữ nước để giảm nhiệt độ đô thị.",
           "id": 106
         },
         {
@@ -1759,7 +1759,7 @@ window.JLPT_DATA[6] = {
             "工夫も見られる"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Vị trí [53]:</b> Nêu thêm một sáng kiến kỹ thuật thứ 3 hạ nhiệt độ bề mặt đường -> dùng 「～工夫も見られる」(Người ta cũng thấy có cả sự dày công sáng kiến trong việc...).",
+          "explanation": "<b>Vị trí [53]:</b> Nêu thêm một sáng kiến kỹ thuật thứ 3 hạ nhiệt độ bề mặt đường -> dùng 「～工夫も見られる」(Người ta cũng thấy có cả sự dày công sáng kiến trong việc...).<br><b>Dịch nghĩa:</b> Thêm vào đó, bằng việc phản xạ ánh sáng mặt trời, bề mặt đường không bị nóng ran vào mùa hè oi bức.",
           "id": 107
         },
         {
@@ -1780,7 +1780,7 @@ window.JLPT_DATA[6] = {
             "支えてくれているのだ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Vị trí [54]:</b> Câu kết luận của toàn bài văn: Đường sá đang âm thầm nâng đỡ, trợ giúp cuộc sống an toàn tiện nghi của con người dưới chân chúng ta -> Kết luận mang tính khẳng định lý giải: 「足元で支えてくれているのだ／支えてくれているわけだ」 -> Đáp án chuẩn: 2 (支えてくれているわけだ) hoặc 4.",
+          "explanation": "<b>Vị trí [54]:</b> Câu kết luận của toàn bài văn: Đường sá đang âm thầm nâng đỡ, trợ giúp cuộc sống an toàn tiện nghi của con người dưới chân chúng ta -> Kết luận mang tính khẳng định lý giải: 「足元で支えてくれているのだ／支えてくれているわけだ」 -> Đáp án chuẩn: 2 (支えてくれているわけだ) hoặc 4.<br><b>Dịch nghĩa:</b> Có thể thấy rằng những con đường đang âm thầm nâng đỡ và bảo vệ cuộc sống an toàn tiện nghi của mỗi chúng ta.",
           "id": 108
         }
       ]
@@ -2915,7 +2915,7 @@ window.JLPT_DATA[6] = {
             "と思われていました"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Đoạn văn hoài niệm quá khứ:</b> 'Thời chúng tôi còn nhỏ, rừng rậm nhiệt đới từng được người ta nghĩ rằng là thế giới bí ẩn...'.<br><i>Phân tích:</i> Dùng cấu trúc bị động chỉ nhận thức chung trong quá khứ <b>と思われていました</b>.<br>• 1. ではありませんでした: Phủ định (không phải là)<br>• 2. だったのでしょうか: Câu hỏi hoài nghi<br>• 3. と思われそうになりました: Suýt nữa thì bị nghĩ là<br>• <b>4. と思われていました: Từng được coi là, từng được nghĩ là [Đúng]</b>"
+          "explanation": "<b>Đoạn văn hoài niệm quá khứ:</b> 'Thời chúng tôi còn nhỏ, rừng rậm nhiệt đới từng được người ta nghĩ rằng là thế giới bí ẩn...'.<br><i>Phân tích:</i> Dùng cấu trúc bị động chỉ nhận thức chung trong quá khứ <b>と思われていました</b>.<br>• 1. ではありませんでした: Phủ định (không phải là)<br>• 2. だったのでしょうか: Câu hỏi hoài nghi<br>• 3. と思われそうになりました: Suýt nữa thì bị nghĩ là<br>• <b>4. と思われていました: Từng được coi là, từng được nghĩ là [Đúng]</b><br><b>Dịch nghĩa:</b> Hồi chúng tôi còn nhỏ, rừng nhiệt đới trong mắt lũ trẻ là một thế giới thần tiên bí ẩn đầy mê hoặc."
         },
         {
           "id": 177,
@@ -2929,7 +2929,7 @@ window.JLPT_DATA[6] = {
             "信じなかったりしました"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin",
+          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin<br><b>Dịch nghĩa:</b> Hồi bé chúng tôi thường hay mơ mộng về những cuộc thám hiểm kỳ thú trong những cánh rừng xa xôi như thế.",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
@@ -2944,7 +2944,7 @@ window.JLPT_DATA[6] = {
             "だけに"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Cấu trúc: にしか～ない:</b> Chỉ tồn tại ở... ngoài ra không có nơi nào khác.<br><b>Ngữ cảnh:</b> 'Người máy robot thời đó <b>chỉ tồn tại trong thế giới truyện tranh giả tưởng mà thôi</b> (マンガや空想の世界にしか存在しない)'.<br>• 1. にこそ: Chính ở nơi đó<br>• <b>2. にしか: Chỉ ở... (đi với phủ định 存在しない) [Đúng]</b><br>• 3. でばかり: Toàn là<br>• 4. だけに: Chính vì",
+          "explanation": "<b>Cấu trúc: にしか～ない:</b> Chỉ tồn tại ở... ngoài ra không có nơi nào khác.<br><b>Ngữ cảnh:</b> 'Người máy robot thời đó <b>chỉ tồn tại trong thế giới truyện tranh giả tưởng mà thôi</b> (マンガや空想の世界にしか存在しない)'.<br>• 1. にこそ: Chính ở nơi đó<br>• <b>2. にしか: Chỉ ở... (đi với phủ định 存在しない) [Đúng]</b><br>• 3. でばかり: Toàn là<br>• 4. だけに: Chính vì<br><b>Dịch nghĩa:</b> Những điều kỳ diệu bí ẩn ấy chỉ tồn tại trong trí tưởng tượng phong phú của tuổi thơ mà thôi.",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
@@ -2959,7 +2959,7 @@ window.JLPT_DATA[6] = {
             "その時に"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Từ nối dự đoán tương lai:</b> 'Chẳng mấy chốc, liệu con người có làm sáng tỏ mọi bí ẩn và trẻ em không còn giấc mơ nào nữa chăng?'.<br><i>Phân tích:</i> <b>そのうちに</b> (chẳng mấy chốc, rồi thì trong tương lai gần).<br>• 1. それとも: Hoặc là (dùng trong câu hỏi lựa chọn)<br>• 2. それなら: Nếu vậy thì<br>• <b>3. そのうちに: Chẳng bao lâu nữa, rồi sẽ [Đúng]</b><br>• 4. その時に: Vào lúc đó",
+          "explanation": "<b>Từ nối dự đoán tương lai:</b> 'Chẳng mấy chốc, liệu con người có làm sáng tỏ mọi bí ẩn và trẻ em không còn giấc mơ nào nữa chăng?'.<br><i>Phân tích:</i> <b>そのうちに</b> (chẳng mấy chốc, rồi thì trong tương lai gần).<br>• 1. それとも: Hoặc là (dùng trong câu hỏi lựa chọn)<br>• 2. それなら: Nếu vậy thì<br>• <b>3. そのうちに: Chẳng bao lâu nữa, rồi sẽ [Đúng]</b><br>• 4. その時に: Vào lúc đó<br><b>Dịch nghĩa:</b> Chẳng mấy chốc nữa, liệu khoa học kỹ thuật hiện đại có làm sáng tỏ và phơi bày hết mọi bí ẩn của thế giới tự nhiên hay không?",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
@@ -2974,7 +2974,7 @@ window.JLPT_DATA[6] = {
             "a 夢 ／ b 科学"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Đối chiếu văn cảnh:</b><br>• Vế trước nói về nỗi sợ trẻ em mất đi giấc mơ mộng mơ: 【54-a】= <b>夢</b> (夢がなくなってしまう).<br>• Vế sau tác giả khẳng định giải quyết 1 câu đố sẽ sinh ra 10 câu đố mới, bản chất của khoa học chính là như thế: 【54-b】= <b>科学</b> (科学とはそういうものだからです).<br>=> Đáp án đúng là <b>4 (a 夢 ／ b 科学)</b>.",
+          "explanation": "<b>Đối chiếu văn cảnh:</b><br>• Vế trước nói về nỗi sợ trẻ em mất đi giấc mơ mộng mơ: 【54-a】= <b>夢</b> (夢がなくなってしまう).<br>• Vế sau tác giả khẳng định giải quyết 1 câu đố sẽ sinh ra 10 câu đố mới, bản chất của khoa học chính là như thế: 【54-b】= <b>科学</b> (科学とはそういうものだからです).<br>=> Đáp án đúng là <b>4 (a 夢 ／ b 科学)</b>.<br><b>Dịch nghĩa:</b> Nếu mọi bí ẩn đều bị giải mã tường tận thì trẻ em sau này sẽ không còn cơ hội để thỏa sức mơ mộng và tưởng tượng nữa.",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         }
       ]
@@ -3224,7 +3224,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Cô ấy trông bề ngoài thì có vẻ cực kỳ nghiêm túc chỉn chu, thế nhưng bất ngờ thay cô ấy lại là người xử lý công việc rất tháo vát và nhanh nhạy.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3259,7 +3259,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Ngay cả những người bạn vốn luôn đứng về phía ông Tanaka, vậy mà lần này đối với phát ngôn của ông ấy họ cũng phải lên tiếng chỉ trích.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3364,7 +3364,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Bất cứ món đồ nào thì giá rẻ là điều tốt không gì bằng rồi, thế nhưng nếu rẻ quá mức thì người ta lại cảm thấy bất an lo lắng về chất lượng.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3399,7 +3399,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Vai trò then chốt của cơ quan mới thành lập này là giải cứu và bảo vệ quyền lợi của người tiêu dùng trước những thiệt hại vốn rất dễ bị bỏ qua.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3434,7 +3434,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Mặc dù giao thông đi lại từ trung tâm thành phố vô cùng thuận tiện, thế nhưng khuôn viên trường đại học này lại rất yên tĩnh và mang bầu không khí thanh bình.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3469,7 +3469,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 失業者が <b>[大量に生み出される(2)] [構造を(4)] [改めない限り(3)] [★ 社会の活力は(1)]</b> 取り戻せないだろう。<br><b>Cấu trúc:</b> ～ない限り (chừng nào chưa cải cách cơ cấu tạo ra lượng lớn người thất nghiệp thì sức sống xã hội không thể hồi phục).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 失業者が <b>[大量に生み出される(2)] [構造を(4)] [改めない限り(3)] [★ 社会の活力は(1)]</b> 取り戻せないだろう。<br><b>Cấu trúc:</b> ～ない限り (chừng nào chưa cải cách cơ cấu tạo ra lượng lớn người thất nghiệp thì sức sống xã hội không thể hồi phục).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Chừng nào chúng ta chưa cải cách được cơ cấu đang làm sản sinh ra hàng loạt người thất nghiệp, thì chừng đó sức sống và sự năng động của xã hội sẽ không thể hồi phục được.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3504,7 +3504,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 就職が <b>[なかなか(4)] [決まらないのを(2)] [★ 景気や大学名(1)] [だけのせいにしては(3)]</b> いけません。<br><b>Cấu trúc:</b> ～のせいにしてはいけない (không được đổ lỗi cho kinh tế và danh tiếng trường).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 就職が <b>[なかなか(4)] [決まらないのを(2)] [★ 景気や大学名(1)] [だけのせいにしては(3)]</b> いけません。<br><b>Cấu trúc:</b> ～のせいにしてはいけない (không được đổ lỗi cho kinh tế và danh tiếng trường).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Việc mãi mà vẫn chưa tìm được việc làm, nếu chỉ biết đổ hết mọi lỗi lầm lên đầu tình hình kinh tế ảm đạm hay danh tiếng của trường đại học thì thật không nên chút nào.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3539,7 +3539,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいうものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 9月に入り、<b>[暑さは(3)] [峠を(4)] [越えた(2)] [★ とはいうものの(1)]</b> やはりまだまだ暑い。<br><b>Cấu trúc:</b> 峠を越える (vượt qua đỉnh điểm) + とはいえものの (dẫu nói là vậy).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Đã bước sang tháng 9, dẫu nói rằng cái nắng gay gắt đỉnh điểm đã qua đi rồi thế nhưng thời tiết trên thực tế vẫn còn oi bức lắm.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3574,7 +3574,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> レオナルド・ダ・ヴィンチの描いた <b>[「モナリザ」という絵の(3)] [すばらしさのために(2)] [世界中から(4)] [★ 観光客が訪れる(1)]</b> という。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: Du khách từ khắp thế giới kéo đến vì vẻ đẹp của bức tranh Mona Lisa.<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> レオナルド・ダ・ヴィンチの描いた <b>[「モナリザ」という絵の(3)] [すばらしさのために(2)] [世界中から(4)] [★ 観光客が訪れる(1)]</b> という。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: Du khách từ khắp thế giới kéo đến vì vẻ đẹp của bức tranh Mona Lisa.<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Chính bởi vẻ đẹp tuyệt mỹ của bức tranh mang tên 'Nàng Mona Lisa' do Leonardo da Vinci vẽ nên, rất đông du khách từ khắp nơi trên thế giới đã tìm đến bảo tàng Louvre.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3609,7 +3609,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 彼は、<b>[元新聞記者(1)] [というより(2)] [作家として(4)] [★ 人々に知られて(3)]</b> いる。<br><b>Cấu trúc:</b> AというよりB (được biết đến như một nhà văn hơn là cựu phóng viên báo).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự đúng:</b> 彼は、<b>[元新聞記者(1)] [というより(2)] [作家として(4)] [★ 人々に知られて(3)]</b> いる。<br><b>Cấu trúc:</b> AというよりB (được biết đến như một nhà văn hơn là cựu phóng viên báo).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Anh ấy được công chúng biết đến với tư cách là một nhà văn hơn là một cựu phóng viên báo chí.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3644,7 +3644,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 食べる <b>[話ばかり(3)] [で恐縮だが(2)] [これが一番(1)] [★ 無難(4)]</b> な話題なのである。<br><b>Cấu trúc:</b> 無難な話題 (chủ đề an toàn nhất trong giao tiếp).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> 食べる <b>[話ばかり(3)] [で恐縮だが(2)] [これが一番(1)] [★ 無難(4)]</b> な話題なのである。<br><b>Cấu trúc:</b> 無難な話題 (chủ đề an toàn nhất trong giao tiếp).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Tuy có phần hơi ngại ngùng khi toàn nói về chuyện ăn uống, thế nhưng đây lại là chủ đề trò chuyện an toàn và dễ hòa nhập nhất.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3679,7 +3679,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự đúng:</b> 芸術にしても学問にしても、<b>[歴史に(4)] [かかわる(2)] [ものを正しく(1)] [★ 評価するのは(3)]</b> 難しい。<br><b>Cấu trúc:</b> 歴史にかかわるものを正しく評価する (đánh giá đúng đắn những thứ liên quan tới lịch sử là rất khó).<br><b>Đáp án chọn:</b> 3",
+          "explanation": "<b>Thứ tự đúng:</b> 芸術にしても学問にしても、<b>[歴史に(4)] [かかわる(2)] [ものを正しく(1)] [★ 評価するのは(3)]</b> 難しい。<br><b>Cấu trúc:</b> 歴史にかかわるものを正しく評価する (đánh giá đúng đắn những thứ liên quan tới lịch sử là rất khó).<br><b>Đáp án chọn:</b> 3<br><b>Dịch nghĩa:</b> Dù là trong nghệ thuật hay trong học thuật, việc đưa ra đánh giá đúng đắn về những gì liên quan đến lịch sử là một điều vô cùng khó khăn.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3714,7 +3714,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> だれもがそのメロディは <b>[知って(4)] [いながら(1)] [正しい題名は(3)] [★ 知られていない(2)]</b> 歌がある。<br><b>Cấu trúc:</b> ～ていながら (ai cũng biết giai điệu thế mà tựa đề chính xác lại không được biết tới).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> だれもがそのメロディは <b>[知って(4)] [いながら(1)] [正しい題名は(3)] [★ 知られていない(2)]</b> 歌がある。<br><b>Cấu trúc:</b> ～ていながら (ai cũng biết giai điệu thế mà tựa đề chính xác lại không được biết tới).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Ai ai cũng đều biết rõ giai điệu của bản nhạc đó, thế nhưng trớ trêu thay tựa đề chính xác của bài hát thì hầu như chẳng có ai hay biết.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3749,7 +3749,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> ダンスでなければ、<b>[自分を表現できない(2)] [と思った(3)] [からこそ(1)] [★ 彼はその道に(4)]</b> 進んだのだ。<br><b>Cấu trúc:</b> ～からこそ (chính vì nghĩ nếu không phải khiêu vũ thì không thể bộc lộ bản thân nên anh ấy mới bước vào con đường đó).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> ダンスでなければ、<b>[自分を表現できない(2)] [と思った(3)] [からこそ(1)] [★ 彼はその道に(4)]</b> 進んだのだ。<br><b>Cấu trúc:</b> ～からこそ (chính vì nghĩ nếu không phải khiêu vũ thì không thể bộc lộ bản thân nên anh ấy mới bước vào con đường đó).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Chính bởi vì anh ấy nghĩ rằng nếu không phải là vũ đạo thì bản thân không thể bộc lộ hết cảm xúc, nên anh ấy mới quyết tâm dấn thân vào con đường đó.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3784,7 +3784,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự đúng:</b> 彼女の <b>[意見(3)] [について(4)] [部分的には賛同できる(2)] [★ 点(1)]</b> も少なくない。<br><b>Cấu trúc:</b> 賛同できる点も少なくない (có không ít điểm có thể đồng tình trong ý kiến của cô ấy).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "<b>Thứ tự đúng:</b> 彼女の <b>[意見(3)] [について(4)] [部分的には賛同できる(2)] [★ 点(1)]</b> も少なくない。<br><b>Cấu trúc:</b> 賛同できる点も少なくない (có không ít điểm có thể đồng tình trong ý kiến của cô ấy).<br><b>Đáp án chọn:</b> 1<br><b>Dịch nghĩa:</b> Đối với quan điểm và ý kiến của cô ấy, có không ít điểm mà đứng ở một góc độ nhất định tôi cũng hoàn toàn có thể đồng tình chia sẻ.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3819,7 +3819,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 親が子どもを <b>[どれだけ(1)] [深く(4)] [愛していても(3)] [★ 子どもに(2)]</b> 伝わらないこともある。<br><b>Cấu trúc:</b> どれだけ～ても (cho dù cha mẹ có yêu thương con cái sâu sắc đến nhường nào thì cũng có lúc tình cảm không truyền đạt được tới con).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> 親が子どもを <b>[どれだけ(1)] [深く(4)] [愛していても(3)] [★ 子どもに(2)]</b> 伝わらないこともある。<br><b>Cấu trúc:</b> どれだけ～ても (cho dù cha mẹ có yêu thương con cái sâu sắc đến nhường nào thì cũng có lúc tình cảm không truyền đạt được tới con).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Cha mẹ dù có yêu thương con cái sâu sắc đến nhường nào đi chăng nữa, nếu tình cảm đó không được truyền tải tới con trẻ thì cũng trở nên vô nghĩa.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3854,7 +3854,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 我が社は、従業員を <b>[現在の(2)] [3分の2に(3)] [減らさなければ(1)] [★ 倒産(4)]</b> を避けられない。<br><b>Cấu trúc:</b> ～なければ倒産を避けられない (nếu không cắt giảm 2/3 nhân viên hiện tại thì không thể tránh khỏi phá sản).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> 我が社は、従業員を <b>[現在の(2)] [3分の2に(3)] [減らさなければ(1)] [★ 倒産(4)]</b> を避けられない。<br><b>Cấu trúc:</b> ～なければ倒産を避けられない (nếu không cắt giảm 2/3 nhân viên hiện tại thì không thể tránh khỏi phá sản).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Công ty chúng tôi nếu không cắt giảm số lượng nhân viên xuống còn hai phần ba so với hiện tại thì nguy cơ phá sản là điều khó tránh khỏi.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3889,7 +3889,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> この試験は、英語に <b>[ついての(3)] [能力の測定(4)] [のみならず(1)] [★ 就職や昇進(2)]</b> にも活用されるようになった。<br><b>Cấu trúc:</b> AのみならずB (không chỉ đánh giá năng lực tiếng Anh mà còn ứng dụng vào tuyển dụng thăng tiến).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> この試験は、英語に <b>[ついての(3)] [能力の測定(4)] [のみならず(1)] [★ 就職や昇進(2)]</b> にも活用されるようになった。<br><b>Cấu trúc:</b> AのみならずB (không chỉ đánh giá năng lực tiếng Anh mà còn ứng dụng vào tuyển dụng thăng tiến).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Kỳ thi đánh giá năng lực tiếng Anh này không chỉ đo lường trình độ ngôn ngữ, mà kết quả của nó còn được sử dụng rộng rãi cho việc tuyển dụng và xét thăng tiến trong công việc.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3924,7 +3924,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> 最初にシンガポール <b>[を例にして(3)] [現代の(1)] [都市国家の成り立ち(2)] [★ を見ていく(4)]</b> ことにしましょう。<br><b>Cấu trúc:</b> ～を例にして...を見ていく (lấy Singapore làm ví dụ để tìm hiểu về sự hình thành quốc gia đô thị hiện đại).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> 最初にシンガポール <b>[を例にして(3)] [現代の(1)] [都市国家の成り立ち(2)] [★ を見ていく(4)]</b> ことにしましょう。<br><b>Cấu trúc:</b> ～を例にして...を見ていく (lấy Singapore làm ví dụ để tìm hiểu về sự hình thành quốc gia đô thị hiện đại).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Trước tiên, chúng ta hãy cùng lấy ví dụ từ đất nước Singapore để xem xét quá trình hình thành và phát triển của một quốc gia đô thị hiện đại.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3959,7 +3959,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự đúng:</b> 彼にとって <b>[ビジネスは(3)] [生きがい(1)] [ではなく(4)] [★ 単なるゲーム(2)]</b> にすぎない。<br><b>Cấu trúc:</b> AではなくBにすぎない (kinh doanh đối với anh ta không phải lẽ sống mà chỉ đơn thuần là một trò chơi).<br><b>Đáp án chọn:</b> 2",
+          "explanation": "<b>Thứ tự đúng:</b> 彼にとって <b>[ビジネスは(3)] [生きがい(1)] [ではなく(4)] [★ 単なるゲーム(2)]</b> にすぎない。<br><b>Cấu trúc:</b> AではなくBにすぎない (kinh doanh đối với anh ta không phải lẽ sống mà chỉ đơn thuần là một trò chơi).<br><b>Đáp án chọn:</b> 2<br><b>Dịch nghĩa:</b> Đối với anh ấy, công việc kinh doanh thương trường chẳng phải là lẽ sống cuộc đời gì to tát, mà chẳng qua chỉ là một trò chơi thử thách trí tuệ mà thôi.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3994,7 +3994,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> すべての <b>[ひらがなは(2)] [漢字を(1)] [もとにして(3)] [★ 生まれて(4)]</b> います。<br><b>Cấu trúc:</b> ～をもとにして生まれる (tất cả chữ hiragana đều được sinh ra dựa trên nền tảng chữ Hán).<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> すべての <b>[ひらがなは(2)] [漢字を(1)] [もとにして(3)] [★ 生まれて(4)]</b> います。<br><b>Cấu trúc:</b> ～をもとにして生まれる (tất cả chữ hiragana đều được sinh ra dựa trên nền tảng chữ Hán).<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> Toàn bộ hệ thống chữ viết Hiragana của tiếng Nhật ngày nay đều được sáng tạo và bắt nguồn từ nền tảng của các chữ Hán Kanji cổ.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -4029,7 +4029,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự đúng:</b> A「この『若干』という言葉の意味がわからないんですが。」<br>B「『少しだけ』<b>[という(2)] [ような(3)] [意味だった(1)] [★ と思う(4)]</b> んですけど。」<br><b>Cấu trúc:</b> ～という意味だったと思う (Tôi nhớ mang máng nó có nghĩa kiểu như là 'một chút/một ít').<br><b>Đáp án chọn:</b> 4",
+          "explanation": "<b>Thứ tự đúng:</b> A「この『若干』という言葉の意味がわからないんですが。」<br>B「『少しだけ』<b>[という(2)] [ような(3)] [意味だった(1)] [★ と思う(4)]</b> んですけど。」<br><b>Cấu trúc:</b> ～という意味だったと思う (Tôi nhớ mang máng nó có nghĩa kiểu như là 'một chút/một ít').<br><b>Đáp án chọn:</b> 4<br><b>Dịch nghĩa:</b> A: 'Cháu không hiểu từ \"若干\" (nhược can) này nghĩa là gì ạ.' - B: 'Nó mang nghĩa tương tự như từ \"một chút ít\", là một cách nói trang trọng đấy cháu ạ.'",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
