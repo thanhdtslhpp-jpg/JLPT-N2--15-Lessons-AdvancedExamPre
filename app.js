@@ -5508,6 +5508,23 @@ class JLPTApp {
     }
   }
 
+  scrollToElementBelowHeader(el) {
+    if (!el) return;
+    const headerEl = document.querySelector(".app-header");
+    const headerHeight = headerEl ? headerEl.offsetHeight : 65;
+    const extraPadding = 16; // 16px khoảng đệm thẩm mỹ để thấy rõ toàn bộ viền trên và tiêu đề câu hỏi
+    const totalOffset = headerHeight + extraPadding;
+
+    const rect = el.getBoundingClientRect();
+    const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const targetScrollY = rect.top + currentScrollY - totalOffset;
+
+    window.scrollTo({
+      top: Math.max(0, targetScrollY),
+      behavior: "smooth"
+    });
+  }
+
   setActiveQuestion(qId, shouldScroll = false) {
     if (!qId) return;
     this.activeQuestionId = qId;
@@ -5517,7 +5534,7 @@ class JLPTApp {
     if (shouldScroll) {
       const el = document.getElementById(`q-card-${qId}`);
       if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
+        this.scrollToElementBelowHeader(el);
       }
     }
     this.scrollPalletToQuestion(qId, shouldScroll ? "smooth" : "auto");
@@ -5525,25 +5542,7 @@ class JLPTApp {
   }
 
   scrollToQuestionTop(qId) {
-    if (!qId) return;
-    this.isProgrammaticScrolling = true;
-    this.activeQuestionId = qId;
-
-    document.querySelectorAll(".question-card").forEach((card) => {
-      card.classList.toggle("active-target", card.id === `q-card-${qId}`);
-    });
-
-    const el = document.getElementById(`q-card-${qId}`);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-    this.scrollPalletToQuestion(qId, "smooth");
-    this.updateMobileBar();
-
-    clearTimeout(this.programmaticScrollTimer);
-    this.programmaticScrollTimer = setTimeout(() => {
-      this.isProgrammaticScrolling = false;
-    }, 1000);
+    this.scrollToQuestion(qId);
   }
 
   scrollToQuestion(qId) {
@@ -5553,7 +5552,7 @@ class JLPTApp {
     clearTimeout(this.programmaticScrollTimer);
     this.programmaticScrollTimer = setTimeout(() => {
       this.isProgrammaticScrolling = false;
-    }, 700);
+    }, 800);
   }
 
   scrollPalletToQuestion(qId, behavior = "smooth") {
@@ -5606,8 +5605,9 @@ class JLPTApp {
     const cards = document.querySelectorAll(".question-card");
     if (!cards || cards.length === 0) return;
 
-    // Đường quan sát chuẩn: ngay dưới thanh header dính (header ~65px + khoảng lề 55px = 120px)
-    const readingLine = 120;
+    const headerEl = document.querySelector(".app-header");
+    const headerHeight = headerEl ? headerEl.offsetHeight : 65;
+    const readingLine = headerHeight + 45;
     let closestQId = null;
 
     // 1. Tìm câu hỏi đang trực tiếp bao trùm đường quan sát này
