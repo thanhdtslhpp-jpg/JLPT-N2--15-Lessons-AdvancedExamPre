@@ -1683,10 +1683,8 @@ body {
 
 
   box-shadow: var(--shadow);
-
-
-
   transition: border-color 0.2s;
+  scroll-margin-top: 80px;
 
 
 

@@ -5313,7 +5313,7 @@ class JLPTApp {
     this.renderSingleQuestion(qId);
     this.updatePallet();
     if (typeof this.renderFilterTabs === "function") this.renderFilterTabs();
-    this.setActiveQuestion(qId, false);
+    this.scrollToQuestionTop(qId);
   }
 
   // Hỗ trợ cảm ứng kéo thả trên Mobile & Tablet (Touch Drag & Drop)
@@ -5522,6 +5522,28 @@ class JLPTApp {
     }
     this.scrollPalletToQuestion(qId, shouldScroll ? "smooth" : "auto");
     this.updateMobileBar();
+  }
+
+  scrollToQuestionTop(qId) {
+    if (!qId) return;
+    this.isProgrammaticScrolling = true;
+    this.setActiveQuestion(qId, false);
+    const el = document.getElementById(`q-card-${qId}`);
+    if (el) {
+      const headerOffset = 75; // Khoảng cách an toàn dưới thanh header dính
+      const rect = el.getBoundingClientRect();
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      const targetScroll = rect.top + scrollTop - headerOffset;
+      window.scrollTo({
+        top: Math.max(0, targetScroll),
+        behavior: "smooth"
+      });
+    }
+    this.scrollPalletToQuestion(qId, "smooth");
+    clearTimeout(this.programmaticScrollTimer);
+    this.programmaticScrollTimer = setTimeout(() => {
+      this.isProgrammaticScrolling = false;
+    }, 700);
   }
 
   scrollToQuestion(qId) {
