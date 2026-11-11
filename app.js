@@ -452,6 +452,7 @@ class JLPTApp {
   }
 
   bindEvents() {
+    this.initScrollSpy();
     document.getElementById("btn-dashboard").addEventListener("click", () => this.showDashboard());
     const btnBack = document.getElementById("btn-back-dashboard");
     if (btnBack) {
@@ -1101,7 +1102,8 @@ class JLPTApp {
 
     this.activeFilter = "all";
     this.starredReviewIds = undefined;
-    this.activeQuestionId = null;
+    const initialFiltered = this.getFilteredQuestions();
+    this.activeQuestionId = initialFiltered.length > 0 ? initialFiltered[0].id : null;
 
     this.renderFilterTabs();
     this.renderQuestions();
@@ -4888,10 +4890,8 @@ class JLPTApp {
 
     const starChosenId = currentSlots[starPos - 1]; // id của mảnh nằm ở vị trí sao
     const targetCorrectStar = q.correctStarOption || q.correctAnswer;
-    const userSelected = this.userAnswers[q.id];
-    const isDirectAnswered = userSelected !== undefined;
-    const isCorrect = isDirectAnswered ? (userSelected === targetCorrectStar) : (starChosenId === targetCorrectStar);
-    const showFeedback = this.currentMode === "practice" && (isComplete || isDirectAnswered);
+    const isCorrect = (starChosenId === targetCorrectStar);
+    const showFeedback = this.currentMode === "practice" && isComplete;
     const isBookmarked = this.isQuestionBookmarked(q.id);
 
     // 4 Slots - Kéo thả vào bất kỳ ô nào, hoặc click để gỡ / chọn ô
@@ -4996,30 +4996,6 @@ class JLPTApp {
       helperText = `👉 <b>Kéo thả</b> đáp án vào <b>bất kì ô nào</b> (Ô số <b>${starPos}</b> là dấu ★), hoặc bấm từ để điền. Bấm vào ô đã điền để gỡ ra:`;
     }
 
-      // Tạo lưới 4 nút chọn nhanh trắc nghiệm cho vị trí Dấu Sao ★
-      let directOptionsHTML = "";
-      const isLockedInPractice = this.currentMode === "practice" && isDirectAnswered;
-
-      fragments.forEach((frag) => {
-        const optNum = frag.id;
-        let optClass = "opt-btn";
-
-        if (isDirectAnswered) {
-          if (userSelected === optNum) optClass += " selected";
-          if (showFeedback) {
-            if (optNum === targetCorrectStar) optClass += " correct";
-            else if (userSelected === optNum) optClass += " incorrect";
-          }
-        }
-
-        directOptionsHTML += `
-          <button class="${optClass}" ${isLockedInPractice ? "disabled" : ""} onclick="app.selectStarDirectOption(${q.id}, ${optNum})">
-            <span class="opt-num">${optNum}</span>
-            <span>${frag.text}</span>
-          </button>
-        `;
-      });
-
       return `
       <div class="q-header">
         <span class="q-mondai-badge">${q.mondaiName || "Mondai 8 (Dấu Sao ★)"}</span>
@@ -5063,16 +5039,6 @@ class JLPTApp {
           <i class="fas fa-undo"></i> Xếp lại từ đầu
         </button>
         ${placedCount > 0 ? `<span style="font-size: 0.78rem; color: var(--text-sub);">Đã xếp: ${placedCount}/4 từ</span>` : ""}
-      </div>
-
-      <!-- CHỌN TRỰC TIẾP ĐÁP ÁN CHO VỊ TRÍ DẤU SAO -->
-      <div style="margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px dashed var(--border);">
-        <div style="font-size: 0.86rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
-          <i class="fas fa-check-circle" style="color: var(--primary);"></i> Hoặc chọn nhanh đáp án trắc nghiệm cho vị trí [★]:
-        </div>
-        <div class="options-grid">
-          ${directOptionsHTML}
-        </div>
       </div>
 
       ${explanationHTML}
@@ -5543,6 +5509,7 @@ class JLPTApp {
   }
 
   setActiveQuestion(qId, shouldScroll = false) {
+    if (!qId) return;
     this.activeQuestionId = qId;
     document.querySelectorAll(".question-card").forEach((card) => {
       card.classList.toggle("active-target", card.id === `q-card-${qId}`);
@@ -5553,13 +5520,100 @@ class JLPTApp {
         el.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     }
+    this.scrollPalletToQuestion(qId, shouldScroll ? "smooth" : "auto");
     this.updateMobileBar();
   }
 
   scrollToQuestion(qId) {
     if (!qId) return;
+    this.isProgrammaticScrolling = true;
     this.setActiveQuestion(qId, true);
+    clearTimeout(this.programmaticScrollTimer);
+    this.programmaticScrollTimer = setTimeout(() => {
+      this.isProgrammaticScrolling = false;
+    }, 700);
   }
+
+  scrollPalletToQuestion(qId, behavior = "smooth") {
+    if (!qId) return;
+    const grid = document.getElementById("pallet-grid");
+    if (!grid) return;
+    const item = document.getElementById(`pallet-item-${qId}`);
+    if (!item) return;
+
+    grid.querySelectorAll(".pallet-item.active").forEach((el) => {
+      if (el.id !== `pallet-item-${qId}`) el.classList.remove("active");
+    });
+    item.classList.add("active");
+
+    // Tính toán khoảng cách tuyệt đối chuẩn xác CHỈ trong phạm vi grid
+    // Tuyệt đối không dùng scrollIntoView() vì scrollIntoView sẽ làm nhảy cả cửa sổ/sidebar (kéo lung tung)
+    const gridRect = grid.getBoundingClientRect();
+    const itemRect = item.getBoundingClientRect();
+    const relativeTop = itemRect.top - gridRect.top + grid.scrollTop;
+    const targetScrollTop = relativeTop - (grid.clientHeight / 2) + (item.clientHeight / 2);
+
+    grid.scrollTo({
+      top: Math.max(0, targetScrollTop),
+      behavior: behavior
+    });
+  }
+
+  initScrollSpy() {
+    if (this._scrollSpyAttached) return;
+    this._scrollSpyAttached = true;
+
+    let ticking = false;
+    const onScroll = () => {
+      if (this.isProgrammaticScrolling || this.isHoveringPallet) return;
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          this.updateActiveQuestionFromScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    document.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  updateActiveQuestionFromScroll() {
+    if (this.isProgrammaticScrolling || this.isHoveringPallet) return;
+    const cards = document.querySelectorAll(".question-card");
+    if (!cards || cards.length === 0) return;
+
+    const targetY = window.innerHeight * 0.35;
+    let closestQId = null;
+    let minDistance = Infinity;
+
+    cards.forEach((card) => {
+      const rect = card.getBoundingClientRect();
+      if (rect.bottom >= 70 && rect.top <= window.innerHeight) {
+        const center = (rect.top + rect.bottom) / 2;
+        const distance = Math.abs(center - targetY);
+        if (distance < minDistance) {
+          minDistance = distance;
+          const idStr = card.id;
+          if (idStr && idStr.startsWith("q-card-")) {
+            closestQId = parseInt(idStr.replace("q-card-", ""), 10);
+          }
+        }
+      }
+    });
+
+    if (closestQId && closestQId !== this.activeQuestionId) {
+      this.activeQuestionId = closestQId;
+      cards.forEach((c) => {
+        c.classList.toggle("active-target", c.id === `q-card-${closestQId}`);
+      });
+      this.scrollPalletToQuestion(closestQId, "smooth");
+      this.updateMobileBar();
+    }
+  }
+
+  
 
   // TÍNH NĂNG MỚI: Xử lý phím tắt 1, 2, 3, 4 chuẩn xác, không crash
   handleKeyboardSelect(optNum) {
@@ -5597,8 +5651,8 @@ class JLPTApp {
       this.setActiveQuestion(targetQ.id, false);
 
       if (targetQ.isStarQuestion) {
-        // Với câu dấu sao: phím 1..4 tương ứng với fragment id 1..4
-        this.selectStarDirectOption(targetQ.id, optNum);
+        // Với câu dấu sao: phím 1..4 tương ứng với chọn/gỡ mảnh ghép 1..4
+        this.clickStarFragment(targetQ.id, optNum);
       } else {
         // Với câu trắc nghiệm: phím 1..4 tương ứng với đáp án 1..4
         this.selectOption(targetQ.id, optNum);
@@ -5649,6 +5703,18 @@ class JLPTApp {
   // NÂNG CẤP PALLET: Phân nhóm theo Section và cập nhật thanh tiến độ %
   updatePallet() {
     const grid = document.getElementById("pallet-grid");
+    if (!grid) return;
+
+    if (!grid.dataset.scrollBound) {
+      grid.dataset.scrollBound = "true";
+      grid.addEventListener("mouseenter", () => { this.isHoveringPallet = true; });
+      grid.addEventListener("mouseleave", () => { this.isHoveringPallet = false; });
+      grid.addEventListener("touchstart", () => { this.isHoveringPallet = true; }, { passive: true });
+      grid.addEventListener("touchend", () => {
+        setTimeout(() => { this.isHoveringPallet = false; }, 1200);
+      }, { passive: true });
+    }
+
     grid.innerHTML = "";
 
     const all = this.getAllQuestions();
@@ -5725,7 +5791,11 @@ class JLPTApp {
         } else {
           if (answered) itemClass += " answered";
         }
+        if (q.id === this.activeQuestionId) {
+          itemClass += " active";
+        }
         const div = document.createElement("div");
+        div.id = `pallet-item-${q.id}`;
         div.className = itemClass;
         div.textContent = q.id;
         div.title = `Câu ${q.id} - ${q.mondaiName || ""}`;
@@ -5784,12 +5854,15 @@ class JLPTApp {
           if (answered) itemClass += " answered";
         }
 
+        if (q.id === this.activeQuestionId) {
+          itemClass += " active";
+        }
         const div = document.createElement("div");
+        div.id = `pallet-item-${q.id}`;
         div.className = itemClass;
         div.textContent = q.id;
         div.title = `Câu ${q.id} - ${q.mondaiName || ""}`;
         div.onclick = () => {
-          // Nếu câu hỏi này đang bị ẩn do filter, chuyển về 'all'
           if (this.activeFilter !== "all" && this.activeFilter !== sec.id) {
             this.setFilter("all");
           }
@@ -5798,6 +5871,9 @@ class JLPTApp {
         grid.appendChild(div);
       });
     });
+    if (this.activeQuestionId) {
+      this.scrollPalletToQuestion(this.activeQuestionId, "auto");
+    }
     this.updateMobileBar();
     this.updateFloatingPalletBtn();
     const modal = document.getElementById("mobile-pallet-modal");

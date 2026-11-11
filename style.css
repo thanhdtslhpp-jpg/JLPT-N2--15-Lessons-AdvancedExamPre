@@ -3839,33 +3839,23 @@ ruby rt {
 
 
 .pallet-grid {
-
-
-
   display: grid;
-
-
-
   grid-template-columns: repeat(5, 1fr);
-
-
-
   gap: 0.5rem;
-
-
-
   max-height: 380px;
-
-
-
   overflow-y: auto;
-
-
-
   padding-right: 0.25rem;
+  position: relative;
+  scroll-behavior: smooth;
+}
 
-
-
+.pallet-item.active {
+  outline: 2.5px solid var(--primary, #4f46e5) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.35) !important;
+  font-weight: 800 !important;
+  transform: scale(1.08);
+  z-index: 5;
 }
 
 
