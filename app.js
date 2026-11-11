@@ -515,10 +515,18 @@ class JLPTApp {
         const passInput = document.getElementById("cloud-input-pass");
         const icon = document.getElementById("icon-toggle-pass");
         if (passInput) {
-          const isPass = passInput.type === "password";
-          passInput.type = isPass ? "text" : "password";
-          if (icon) {
-            icon.className = isPass ? "far fa-eye-slash" : "far fa-eye";
+          const isMasked = passInput.classList.contains("is-masked") || passInput.style.webkitTextSecurity === "disc" || passInput.type === "password";
+          if (isMasked) {
+            passInput.classList.remove("is-masked");
+            passInput.style.webkitTextSecurity = "none";
+            passInput.style.textSecurity = "none";
+            if (passInput.type === "password") passInput.type = "text";
+            if (icon) icon.className = "far fa-eye-slash";
+          } else {
+            passInput.classList.add("is-masked");
+            passInput.style.webkitTextSecurity = "disc";
+            passInput.style.textSecurity = "disc";
+            if (icon) icon.className = "far fa-eye";
           }
         }
       });

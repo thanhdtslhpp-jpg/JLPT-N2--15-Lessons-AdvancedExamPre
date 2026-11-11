@@ -11047,6 +11047,14 @@ button,
   align-items: center;
 }
 
+.lock-input.is-masked,
+.cloud-pass-input.is-masked,
+#lock-password-input.is-masked,
+#cloud-input-pass.is-masked {
+  -webkit-text-security: disc !important;
+  text-security: disc !important;
+}
+
 .lock-input {
   width: 100%;
   padding: 0.75rem 2.85rem 0.75rem 1rem;

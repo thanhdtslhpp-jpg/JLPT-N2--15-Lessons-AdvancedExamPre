@@ -60,6 +60,10 @@
     setupDOM() {
       const pwdInput = document.getElementById("lock-password-input");
       if (pwdInput) {
+        if (window.CSS && !CSS.supports("-webkit-text-security", "disc") && !CSS.supports("text-security", "disc")) {
+          pwdInput.type = "password";
+        }
+
         pwdInput.addEventListener("keydown", (e) => {
           if (e.key === "Enter") {
             e.preventDefault();
@@ -114,6 +118,8 @@
 
       if (hash === PASSWORD_HASH) {
         if (errMsg) errMsg.style.display = "none";
+        pwdInput.value = "";
+        pwdInput.blur();
         this.hideLockScreen();
 
         if (window.app && typeof window.app.showToast === "function") {
@@ -175,11 +181,17 @@
       const inp = document.getElementById(inputId);
       const icon = document.getElementById(iconId);
       if (inp && icon) {
-        if (inp.type === "password") {
-          inp.type = "text";
+        const isMasked = inp.classList.contains("is-masked") || inp.style.webkitTextSecurity === "disc" || inp.type === "password";
+        if (isMasked) {
+          inp.classList.remove("is-masked");
+          inp.style.webkitTextSecurity = "none";
+          inp.style.textSecurity = "none";
+          if (inp.type === "password") inp.type = "text";
           icon.className = "fas fa-eye-slash";
         } else {
-          inp.type = "password";
+          inp.classList.add("is-masked");
+          inp.style.webkitTextSecurity = "disc";
+          inp.style.textSecurity = "disc";
           icon.className = "fas fa-eye";
         }
       }
