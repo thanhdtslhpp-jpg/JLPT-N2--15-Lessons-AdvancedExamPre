@@ -4890,7 +4890,15 @@ class JLPTApp {
 
     const starChosenId = currentSlots[starPos - 1]; // id của mảnh nằm ở vị trí sao
     const targetCorrectStar = q.correctStarOption || q.correctAnswer;
-    const isCorrect = (starChosenId === targetCorrectStar);
+    const isStarCorrect = (starChosenId === targetCorrectStar);
+    const isCorrect = isStarCorrect;
+
+    const correctOrder = q.correctOrder || q.sentenceOrder;
+    let isFullOrderCorrect = true;
+    if (Array.isArray(correctOrder) && correctOrder.length === 4) {
+      isFullOrderCorrect = correctOrder.every((fragId, idx) => currentSlots[idx] === fragId);
+    }
+
     const showFeedback = this.currentMode === "practice" && isComplete;
     const isBookmarked = this.isQuestionBookmarked(q.id);
 
@@ -4949,17 +4957,48 @@ class JLPTApp {
 
     let explanationHTML = "";
     if (showFeedback && q.explanation) {
-      const statusText = isCorrect 
-        ? (isBookmarked ? "✓ Đúng vị trí dấu ★ (Đã tự động bỏ dấu sao ⭐)" : "✓ Đúng vị trí dấu ★") 
-        : "✗ Chưa đúng vị trí dấu ★ (Đã tự động lưu ⭐)";
+      let statusText = "";
+      let statusColor = "";
+      let orderWarningHTML = "";
+
+      if (isStarCorrect && isFullOrderCorrect) {
+        statusText = isBookmarked ? "✓ Đúng vị trí dấu ★ & Đúng cả câu (Đã bỏ dấu sao ⭐)" : "✓ Đúng vị trí dấu ★ & Đúng cả câu";
+        statusColor = "var(--success)";
+      } else if (isStarCorrect && !isFullOrderCorrect) {
+        statusText = "⚠️ Đúng dấu ★ nhưng sai thứ tự câu (Đã lưu ⭐)";
+        statusColor = "#f59e0b"; // Màu cảnh báo cam/hổ phách
+
+        // Xây dựng chuỗi thứ tự người học và thứ tự đúng
+        const userOrderStr = currentSlots.map((id, idx) => (idx + 1 === starPos ? `★ (${id})` : `(${id})`)).join(" - ");
+        const correctOrderStr = correctOrder ? correctOrder.map((id, idx) => (idx + 1 === starPos ? `★ (${id})` : `(${id})`)).join(" - ") : "";
+
+        orderWarningHTML = `
+          <div style="background: rgba(245, 158, 11, 0.12); border: 1.5px solid #f59e0b; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.85rem; color: #b45309; font-size: 0.88rem; line-height: 1.55;">
+            <div style="font-weight: 700; display: flex; align-items: center; gap: 0.4rem; font-size: 0.95rem; margin-bottom: 0.35rem; color: #b45309;">
+              <i class="fas fa-exclamation-triangle" style="color: #f59e0b;"></i> Cảnh báo: Vị trí dấu ★ đã đúng, nhưng thứ tự ghép câu chưa chuẩn xác!
+            </div>
+            <div>
+              • <b>Thứ tự bạn đã xếp:</b> <span style="font-family: monospace; font-weight: 700;">${userOrderStr}</span><br>
+              • <b>Thứ tự câu đúng:</b> <span style="font-family: monospace; font-weight: 700; color: var(--success);">${correctOrderStr}</span><br>
+              • Từ ở vị trí dấu <b>[ ★ ]</b> của bạn đạt điểm thi, nhưng ngữ pháp câu thực tế cần ghép theo đúng trật tự chuẩn.<br>
+              👉 <i>Hệ thống đã <b>tự động lưu dấu sao ⭐</b> câu này vào danh sách ôn tập. Hãy bấm nút <b>"Xếp lại câu này"</b> bên dưới để luyện xếp lại cho thật chuẩn nhé!</i>
+            </div>
+          </div>
+        `;
+      } else {
+        statusText = "✗ Chưa đúng vị trí dấu ★ (Đã tự động lưu ⭐)";
+        statusColor = "var(--error)";
+      }
+
       explanationHTML = `
         <div class="explanation-box">
           <div class="explanation-title">
             <span>💡 Giải thích chi tiết sắp xếp câu:</span>
-            <span style="margin-left: auto; font-weight: 700; color: ${isCorrect ? "var(--success)" : "var(--error)"};">
+            <span style="margin-left: auto; font-weight: 700; color: ${statusColor};">
               ${statusText}
             </span>
           </div>
+          ${orderWarningHTML}
           <div>${this.formatStarExplanationHTML(q)}</div>
           <div style="margin-top: 0.6rem; display: flex; justify-content: flex-end;">
             <button class="btn btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" onclick="app.resetStarQuestion(${q.id})">
@@ -5160,11 +5199,19 @@ class JLPTApp {
 
       if (q && this.currentMode === "practice") {
         const targetAns = q.correctStarOption || q.correctAnswer;
-        const isCorrect = (starFragId === targetAns);
-        if (isCorrect) {
+        const isStarCorrect = (starFragId === targetAns);
+        const correctOrder = q.correctOrder || q.sentenceOrder;
+        let isFullOrderCorrect = true;
+        if (Array.isArray(correctOrder) && correctOrder.length === 4) {
+          isFullOrderCorrect = correctOrder.every((fragId, idx) => slots[idx] === fragId);
+        }
+
+        // Chỉ khi đúng cả vị trí dấu sao VÀ đúng thứ tự ghép câu trọn vẹn thì mới xóa bookmark
+        if (isStarCorrect && isFullOrderCorrect) {
           this.removeBookmark(qId, false);
           this.removeWrongQuestion(qId);
         } else {
+          // Đúng dấu sao nhưng sai thứ tự các vị trí khác HOẶC sai dấu sao -> Đều lưu lại dấu sao ⭐
           this.addBookmark(qId, false);
           this.addWrongQuestion(qId);
         }
@@ -5875,7 +5922,7 @@ class JLPTApp {
 
         if (this.currentMode === "practice") {
           if (isCorrect) {
-            itemClass += " answered correct";
+            itemClass += " answered correct" + (isStarred ? " has-star" : "");
           } else if (isWrong) {
             // Câu đã làm và làm sai: Vừa đánh dấu sao vừa bôi đỏ
             itemClass += " answered wrong has-star";
