@@ -5517,7 +5517,7 @@ class JLPTApp {
     if (shouldScroll) {
       const el = document.getElementById(`q-card-${qId}`);
       if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
     this.scrollPalletToQuestion(qId, shouldScroll ? "smooth" : "auto");
@@ -5527,23 +5527,23 @@ class JLPTApp {
   scrollToQuestionTop(qId) {
     if (!qId) return;
     this.isProgrammaticScrolling = true;
-    this.setActiveQuestion(qId, false);
+    this.activeQuestionId = qId;
+
+    document.querySelectorAll(".question-card").forEach((card) => {
+      card.classList.toggle("active-target", card.id === `q-card-${qId}`);
+    });
+
     const el = document.getElementById(`q-card-${qId}`);
     if (el) {
-      const headerOffset = 75; // Khoảng cách an toàn dưới thanh header dính
-      const rect = el.getBoundingClientRect();
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-      const targetScroll = rect.top + scrollTop - headerOffset;
-      window.scrollTo({
-        top: Math.max(0, targetScroll),
-        behavior: "smooth"
-      });
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
     this.scrollPalletToQuestion(qId, "smooth");
+    this.updateMobileBar();
+
     clearTimeout(this.programmaticScrollTimer);
     this.programmaticScrollTimer = setTimeout(() => {
       this.isProgrammaticScrolling = false;
-    }, 700);
+    }, 1000);
   }
 
   scrollToQuestion(qId) {
@@ -5606,24 +5606,37 @@ class JLPTApp {
     const cards = document.querySelectorAll(".question-card");
     if (!cards || cards.length === 0) return;
 
-    const targetY = window.innerHeight * 0.35;
+    // Đường quan sát chuẩn: ngay dưới thanh header dính (header ~65px + khoảng lề 55px = 120px)
+    const readingLine = 120;
     let closestQId = null;
-    let minDistance = Infinity;
 
-    cards.forEach((card) => {
+    // 1. Tìm câu hỏi đang trực tiếp bao trùm đường quan sát này
+    for (const card of cards) {
       const rect = card.getBoundingClientRect();
-      if (rect.bottom >= 70 && rect.top <= window.innerHeight) {
-        const center = (rect.top + rect.bottom) / 2;
-        const distance = Math.abs(center - targetY);
-        if (distance < minDistance) {
-          minDistance = distance;
+      if (rect.top <= readingLine && rect.bottom >= readingLine) {
+        const idStr = card.id;
+        if (idStr && idStr.startsWith("q-card-")) {
+          closestQId = parseInt(idStr.replace("q-card-", ""), 10);
+          break;
+        }
+      }
+    }
+
+    // 2. Nếu nằm ở khoảng trống giữa 2 câu hoặc đầu trang, chọn câu gần đường quan sát nhất
+    if (!closestQId) {
+      let minDistance = Infinity;
+      cards.forEach((card) => {
+        const rect = card.getBoundingClientRect();
+        const dist = Math.min(Math.abs(rect.top - readingLine), Math.abs(rect.bottom - readingLine));
+        if (dist < minDistance) {
+          minDistance = dist;
           const idStr = card.id;
           if (idStr && idStr.startsWith("q-card-")) {
             closestQId = parseInt(idStr.replace("q-card-", ""), 10);
           }
         }
-      }
-    });
+      });
+    }
 
     if (closestQId && closestQId !== this.activeQuestionId) {
       this.activeQuestionId = closestQId;
