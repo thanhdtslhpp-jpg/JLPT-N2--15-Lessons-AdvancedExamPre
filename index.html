@@ -12,7 +12,7 @@
     <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="images/icon-192.png">
-  <link rel="stylesheet" href="style.css?v=20261112_2345">
+  <link rel="stylesheet" href="style.css?v=20261113_0005">
   <!-- Font Awesome Icons for clean UI -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="security.js?v=20261106_1_0"></script>
@@ -272,6 +272,42 @@
           <button id="btn-reset-session" class="btn btn-outline" style="font-size: 0.8rem; padding: 0.45rem 0.6rem; width: 100%; margin-top: 0.75rem; justify-content: center;">
             <i class="fas fa-undo"></i> Xóa Làm Lại Buổi Này
           </button>
+
+          <!-- Phím Tắt Nhanh (Sticky Guide - Luôn nhìn thấy khi cuộn câu hỏi) -->
+          <div class="sidebar-shortcuts-panel" id="sidebar-shortcuts-panel">
+            <div class="shortcuts-panel-header" onclick="app.toggleShortcutsGuide()" title="Bấm để ẩn / hiện hướng dẫn phím tắt">
+              <span class="shortcuts-title"><i class="fas fa-keyboard" style="color: var(--primary);"></i> Phím Tắt Nhanh</span>
+              <button type="button" class="btn-toggle-shortcuts" id="btn-toggle-shortcuts" aria-label="Thu gọn / Mở rộng">
+                <i class="fas fa-chevron-up" id="icon-toggle-shortcuts"></i>
+              </button>
+            </div>
+            <div class="shortcuts-panel-body" id="shortcuts-panel-body">
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>→</kbd> <kbd>↓</kbd></span>
+                <span class="sc-desc">Câu tiếp</span>
+              </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>←</kbd> <kbd>↑</kbd></span>
+                <span class="sc-desc">Câu trước</span>
+              </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd></span>
+                <span class="sc-desc">Chọn đáp án</span>
+              </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>R</kbd></span>
+                <span class="sc-desc">Làm lại câu</span>
+              </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>S</kbd></span>
+                <span class="sc-desc">Lưu ⭐ câu này</span>
+              </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>Space</kbd></span>
+                <span class="sc-desc">Bật/Tắt Audio</span>
+              </div>
+            </div>
+          </div>
           <!-- Dedicated Dokkai Tools Box (Pinned at Image 1 position) -->
           <div class="sidebar-dokkai-panel" id="sidebar-dokkai-panel">
             <div class="dokkai-panel-title">
@@ -714,6 +750,6 @@
   <script src="data/chuyende_ngu_phap_n3.js?v=20261104_1_0"></script>
   <script src="user_data.js?v=20261103_1_0"></script>
   <script src="cloud_sync.js?v=20261103_1_0"></script>
-  <script src="app.js?v=20261112_2355"></script>
+  <script src="app.js?v=20261113_0005"></script>
 </body>
 </html>

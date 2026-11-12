@@ -794,7 +794,13 @@ class JLPTApp {
         if (e.key === "r" || e.key === "R") {
           if (this.activeQuestionId) {
             e.preventDefault();
-            this.resetQuestion(this.activeQuestionId);
+            const allQ = this.getAllQuestions();
+            const currQ = allQ.find(x => x.id === this.activeQuestionId);
+            if (currQ && currQ.isStarQuestion) {
+              this.resetStarQuestion(this.activeQuestionId);
+            } else {
+              this.resetQuestion(this.activeQuestionId);
+            }
           }
           return;
         }
@@ -4768,7 +4774,7 @@ class JLPTApp {
           ${translationHTML}
           <div style="margin-top: 0.6rem; display: flex; justify-content: flex-end;">
             <button class="btn btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" onclick="app.resetQuestion(${q.id})">
-              <i class="fas fa-redo"></i> Làm lại câu này
+              <i class="fas fa-redo"></i> Làm lại câu này <kbd class="nav-kbd">R</kbd>
             </button>
           </div>
         </div>
@@ -4787,11 +4793,11 @@ class JLPTApp {
       navHTML = `
         <div class="q-nav-bar">
           <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${prevId}, event)" ${!hasPrev ? "disabled" : ""}>
-            <i class="fas fa-arrow-left"></i> Câu trước
+            <i class="fas fa-arrow-left"></i> Câu trước <kbd class="nav-kbd">← / ↑</kbd>
           </button>
           <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
           <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${nextId}, event)" ${!hasNext ? "disabled" : ""}>
-            Câu tiếp <i class="fas fa-arrow-right"></i>
+            Câu tiếp <kbd class="nav-kbd">→ / ↓</kbd> <i class="fas fa-arrow-right"></i>
           </button>
         </div>
       `;
@@ -5162,7 +5168,7 @@ class JLPTApp {
           <div>${this.formatStarExplanationHTML(q)}</div>
           <div style="margin-top: 0.6rem; display: flex; justify-content: flex-end;">
             <button class="btn btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" onclick="app.resetStarQuestion(${q.id})">
-              <i class="fas fa-redo"></i> Xếp lại câu này
+              <i class="fas fa-redo"></i> Xếp lại câu này <kbd class="nav-kbd">R</kbd>
             </button>
           </div>
         </div>
@@ -5178,11 +5184,11 @@ class JLPTApp {
     const navHTML = `
       <div class="q-nav-bar">
         <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${prevId}, event)" ${!hasPrev ? "disabled" : ""}>
-          <i class="fas fa-arrow-left"></i> Câu trước
+          <i class="fas fa-arrow-left"></i> Câu trước <kbd class="nav-kbd">← / ↑</kbd>
         </button>
         <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
         <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${nextId}, event)" ${!hasNext ? "disabled" : ""}>
-          Câu tiếp <i class="fas fa-arrow-right"></i>
+          Câu tiếp <kbd class="nav-kbd">→ / ↓</kbd> <i class="fas fa-arrow-right"></i>
         </button>
       </div>
     `;
@@ -5235,7 +5241,7 @@ class JLPTApp {
 
       <div style="margin: 0.4rem 0 0.8rem 0; display: flex; gap: 0.5rem; align-items: center;">
         <button class="btn btn-outline" style="font-size: 0.78rem; padding: 0.3rem 0.65rem;" onclick="app.resetStarQuestion(${q.id})">
-          <i class="fas fa-undo"></i> Xếp lại từ đầu
+          <i class="fas fa-undo"></i> Xếp lại từ đầu <kbd class="nav-kbd">R</kbd>
         </button>
         ${placedCount > 0 ? `<span style="font-size: 0.78rem; color: var(--text-sub);">Đã xếp: ${placedCount}/4 từ</span>` : ""}
       </div>
@@ -6405,6 +6411,17 @@ class JLPTApp {
         if (card) card.classList.remove("target-wrong-pulse");
       }, 3000);
     }
+  }
+
+  toggleShortcutsGuide() {
+    const body = document.getElementById("shortcuts-panel-body");
+    const icon = document.getElementById("icon-toggle-shortcuts");
+    if (!body || !icon) return;
+    const isCollapsed = body.classList.toggle("is-collapsed");
+    icon.className = isCollapsed ? "fas fa-chevron-down" : "fas fa-chevron-up";
+    try {
+      localStorage.setItem("jlpt_shortcuts_guide_collapsed", isCollapsed ? "true" : "false");
+    } catch (e) {}
   }
 }
 

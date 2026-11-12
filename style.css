@@ -11214,3 +11214,125 @@ body.app-locked {
   overflow: hidden !important;
   background: #0f172a !important;
 }
+
+/* ==========================================================================
+   KEYBOARD SHORTCUTS HINT & BADGES (Always Visible)
+   ========================================================================== */
+
+.nav-kbd {
+  display: inline-block;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.72rem;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--text-sub);
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+[data-theme="dark"] .nav-kbd {
+  background: rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-shortcuts-panel {
+  margin-top: 0.75rem;
+  background: var(--bg-main, #f8fafc);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.78rem;
+}
+
+[data-theme="dark"] .sidebar-shortcuts-panel {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.shortcuts-panel-header {
+  padding: 0.45rem 0.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: rgba(79, 70, 229, 0.04);
+  border-bottom: 1px solid var(--border);
+  user-select: none;
+}
+
+.shortcuts-panel-header:hover {
+  background: rgba(79, 70, 229, 0.08);
+}
+
+.shortcuts-title {
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.btn-toggle-shortcuts {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-sub);
+  font-size: 0.75rem;
+  padding: 0.15rem 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.shortcuts-panel-body {
+  padding: 0.4rem 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.shortcuts-panel-body.is-collapsed {
+  display: none !important;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--text);
+}
+
+.sc-keys {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.sc-keys kbd {
+  display: inline-block;
+  padding: 0.08rem 0.32rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .sc-keys kbd {
+  background: #334155;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+.sc-desc {
+  color: var(--text-sub);
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
