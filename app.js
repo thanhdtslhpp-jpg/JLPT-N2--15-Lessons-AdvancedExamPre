@@ -753,11 +753,12 @@ class JLPTApp {
         return;
       }
 
-      // Check if any modal is currently visible
-      const csModal = document.getElementById("cheatsheet-modal");
-      if (csModal && csModal.style.display !== "none") return;
-      const resModal = document.getElementById("result-modal");
-      if (resModal && resModal.style.display !== "none") return;
+      // Check if any modal is currently visible (only block if actually open as flex or block)
+      const isModalOpen = (id) => {
+        const el = document.getElementById(id);
+        return el && (el.style.display === "flex" || el.style.display === "block");
+      };
+      if (isModalOpen("cheatsheet-modal") || isModalOpen("result-modal") || isModalOpen("sync-modal")) return;
 
       // Practice mode navigation & answer shortcuts
       const isPracticeView = (this.currentView === "session") || (document.getElementById("view-practice") && document.getElementById("view-practice").style.display !== "none");
