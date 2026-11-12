@@ -648,7 +648,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "その歌手は、来月",
             "afterText": "サイン会を行った。",
-            "starPositionIndex": 2,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -679,9 +679,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   1
             ],
-            "correctStarOption": 2,
-            "correctAnswer": 2,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - ⭐ (2) - (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> その歌手は、来月 [CDを(3)] ⭐ [発売する(2)] [のに(4)] [先立って(1)] サイン会を行った。<br>\n<b>Cấu trúc ngữ pháp:</b> ～に先立って (Trước khi... / Chuẩn bị trước sự kiện...)<br>\n<b>Dịch nghĩa:</b> Ca sĩ đó đã tổ chức buổi ký tặng người hâm mộ trước khi phát hành CD vào tháng tới.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
+            "correctStarOption": 4,
+            "correctAnswer": 4,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> その歌手は、来月 [CDを(3)] [発売する(2)] ⭐ [のに(4)] [先立って(1)] サイン会を行った。<br>\n<b>Cấu trúc ngữ pháp:</b> ～に先立って (Trước khi... / Chuẩn bị trước sự kiện...)<br>\n<b>Dịch nghĩa:</b> Ca sĩ đó đã tổ chức buổi ký tặng người hâm mộ trước khi phát hành CD vào tháng tới.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
       },
       {
             "id": 17,
@@ -816,7 +816,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "留学生には、",
             "afterText": "親しんでほしいものだ。",
-            "starPositionIndex": 2,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -847,9 +847,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   2,
                   3
             ],
-            "correctStarOption": 1,
-            "correctAnswer": 1,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - ⭐ (1) - (2) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 留学生には、 [日本人との(4)] ⭐ [交流を(1)] [通じて(2)] [日本文化に(3)] 親しんでほしいものだ。<br>\n<b>Cấu trúc ngữ pháp:</b> ～を通じて (Thông qua...)<br>\n<b>Dịch nghĩa:</b> Tôi rất mong các bạn du học sinh thông qua giao lưu với người Nhật sẽ trở nên gần gũi và yêu thích văn hóa Nhật Bản hơn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
+            "correctStarOption": 2,
+            "correctAnswer": 2,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - (1) - ⭐ (2) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 留学生には、 [日本人との(4)] [交流を(1)] ⭐ [通じて(2)] [日本文化に(3)] 親しんでほしいものだ。<br>\n<b>Cấu trúc ngữ pháp:</b> ～を通じて (Thông qua...)<br>\n<b>Dịch nghĩa:</b> Tôi rất mong các bạn du học sinh thông qua giao lưu với người Nhật sẽ trở nên gần gũi và yêu thích văn hóa Nhật Bản hơn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
       },
       {
             "id": 21,
