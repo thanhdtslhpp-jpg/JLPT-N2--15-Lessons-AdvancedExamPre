@@ -1700,6 +1700,8 @@ body {
 
   border-color: var(--primary);
 
+  box-shadow: 0 4px 16px rgba(79, 70, 229, 0.12);
+
 }
 
 
@@ -3854,6 +3856,23 @@ ruby rt {
   font-weight: 800 !important;
   transform: scale(1.08);
   z-index: 5;
+}
+
+/* Trạng thái chờ: Khi câu hỏi đang active nhưng chưa trả lời */
+.pallet-item.active:not(.answered) {
+  background: var(--primary-light, rgba(79, 70, 229, 0.12)) !important;
+  color: var(--primary, #4f46e5) !important;
+  border-color: var(--primary, #4f46e5) !important;
+  animation: pallet-waiting-pulse 1.8s infinite ease-in-out;
+}
+
+@keyframes pallet-waiting-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.55);
+  }
 }
 
 

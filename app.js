@@ -788,10 +788,14 @@ class JLPTApp {
 
     // Track active question on click
     document.addEventListener("click", (e) => {
+      // Bổ qua nếu click vào các nú́t điều hướng chuyển câu hoặc bảng chọn câu hỏi
+      if (e.target.closest(".q-nav-bar, .q-nav-btn, .btn-nav-wrong, .pallet-item, .mob-tab-chip, .btn-speed, .audio-player-wrapper")) {
+        return;
+      }
       const card = e.target.closest(".question-card");
       if (card && card.id) {
         const qId = parseInt(card.id.replace("q-card-", ""));
-        if (!isNaN(qId)) {
+        if (!isNaN(qId) && this.activeQuestionId !== qId) {
           this.setActiveQuestion(qId, false);
         }
       }
@@ -4634,11 +4638,11 @@ class JLPTApp {
 
       navHTML = `
         <div class="q-nav-bar">
-          <button class="q-nav-btn" onclick="app.scrollToQuestion(${prevId})" ${!hasPrev ? "disabled" : ""}>
+          <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${prevId}, event)" ${!hasPrev ? "disabled" : ""}>
             <i class="fas fa-arrow-left"></i> Câu trước
           </button>
           <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
-          <button class="q-nav-btn" onclick="app.scrollToQuestion(${nextId})" ${!hasNext ? "disabled" : ""}>
+          <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${nextId}, event)" ${!hasNext ? "disabled" : ""}>
             Câu tiếp <i class="fas fa-arrow-right"></i>
           </button>
         </div>
@@ -5025,11 +5029,11 @@ class JLPTApp {
 
     const navHTML = `
       <div class="q-nav-bar">
-        <button class="q-nav-btn" onclick="app.scrollToQuestion(${prevId})" ${!hasPrev ? "disabled" : ""}>
+        <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${prevId}, event)" ${!hasPrev ? "disabled" : ""}>
           <i class="fas fa-arrow-left"></i> Câu trước
         </button>
         <span style="font-size: 0.8rem; color: var(--text-sub);">Câu ${indexInFiltered + 1} / ${filteredList.length}</span>
-        <button class="q-nav-btn" onclick="app.scrollToQuestion(${nextId})" ${!hasNext ? "disabled" : ""}>
+        <button class="q-nav-btn" onclick="event.stopPropagation(); app.scrollToQuestion(${nextId}, event)" ${!hasNext ? "disabled" : ""}>
           Câu tiếp <i class="fas fa-arrow-right"></i>
         </button>
       </div>
@@ -5594,20 +5598,29 @@ class JLPTApp {
     }
     this.scrollPalletToQuestion(qId, shouldScroll ? "smooth" : "auto");
     this.updateMobileBar();
+    this.updateFloatingPalletBtn();
+    const modal = document.getElementById("mobile-pallet-modal");
+    if (modal && modal.style.display !== "none") {
+      this.renderMobilePallet();
+    }
   }
 
   scrollToQuestionTop(qId) {
     this.scrollToQuestion(qId);
   }
 
-  scrollToQuestion(qId) {
+  scrollToQuestion(qId, evt = null) {
+    if (evt && typeof evt.stopPropagation === "function") {
+      evt.stopPropagation();
+    }
     if (!qId) return;
     this.isProgrammaticScrolling = true;
     this.setActiveQuestion(qId, true);
     clearTimeout(this.programmaticScrollTimer);
     this.programmaticScrollTimer = setTimeout(() => {
       this.isProgrammaticScrolling = false;
-    }, 800);
+      this.setActiveQuestion(qId, false);
+    }, 850);
   }
 
   scrollPalletToQuestion(qId, behavior = "smooth") {
