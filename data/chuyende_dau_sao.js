@@ -186,7 +186,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "彼らは二人の意志だけで結婚するつもりのようだが、親の",
             "afterText": "難しいだろう。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -217,9 +217,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   2,
                   3
             ],
-            "correctStarOption": 2,
-            "correctAnswer": 2,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - (1) - ⭐ (2) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 彼らは二人の意志だけで結婚するつもりのようだが、親の [同意(4)] [ぬきで(1)] ⭐ [結婚する(2)] [のは(3)] 難しいだろう。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ぬきで (Không có / Bỏ qua...)<br>\n<b>Dịch nghĩa:</b> Có vẻ họ định kết hôn chỉ bằng ý chí của hai người, nhưng nếu không có sự đồng ý của cha mẹ thì việc kết hôn hẳn là khó khăn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - ⭐ (1) - (2) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 彼らは二人の意志だけで結婚するつもりのようだが、親の [同意(4)] ⭐ [ぬきで(1)] [結婚する(2)] [のは(3)] 難しいだろう。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ぬきで (Không có... / Thiếu...)<br>\n<b>Dịch nghĩa:</b> Họ định kết hôn chỉ bằng ý chí của hai người, nhưng nếu không có sự đồng ý của cha mẹ thì việc kết hôn là khó thành。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 6,
@@ -354,7 +354,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "私たちがこうして無事に暮らしていけるのは、みなさんが",
             "afterText": "なりません。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -385,9 +385,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   3
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (1) - ⭐ (4) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 私たちがこうして無事に暮らしていけるのは、みなさんが [支えて(2)] [くださる(1)] ⭐ [からに(4)] [ほか(3)] なりません。<br>\n<b>Cấu trúc ngữ pháp:</b> ～からにほかならない (Chính là nhờ / Không gì khác ngoài...)<br>\n<b>Dịch nghĩa:</b> Chúng tôi có thể sống bình yên như thế này chính là nhờ mọi người đã luôn ủng hộ, giúp đỡ.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - ⭐ (1) - (4) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 私たちがこうして無事に暮らしていけるのは、みなさんが [支えて(2)] ⭐ [くださる(1)] [からに(4)] [ほか(3)] なりません。<br>\n<b>Cấu trúc ngữ pháp:</b> ～からにほかならない (Chính là vì...)<br>\n<b>Dịch nghĩa:</b> Việc chúng tôi có thể sống bình an vô sự như thế này chính là nhờ mọi người đã luôn ủng hộ, giúp đỡ。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 10,
@@ -606,7 +606,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "たった1日で1000字もの漢字を",
             "afterText": "でしょう。",
-            "starPositionIndex": 4,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -637,9 +637,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   3,
                   4
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (1) - (3) - ⭐ (4)<br>\n<b>Câu hoàn chỉnh:</b> たった1日で1000字もの漢字を [覚える(2)] [なんて(1)] [できる(3)] ⭐ [わけがない(4)] でしょう。<br>\n<b>Cấu trúc ngữ pháp:</b> ～わけがない (Làm sao mà... được / Tuyệt đối không thể...)<br>\n<b>Dịch nghĩa:</b> Chỉ trong 1 ngày mà nhớ được tới 1000 chữ Hán thì làm sao mà có thể làm được chứ.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 3,
+            "correctAnswer": 3,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (1) - ⭐ (3) - (4)<br>\n<b>Câu hoàn chỉnh:</b> たった1日で1000字もの漢字を [覚える(2)] [なんて(1)] ⭐ [できる(3)] [わけがない(4)] でしょう。<br>\n<b>Cấu trúc ngữ pháp:</b> ～わけがない (Tuyệt đối không thể nào...)<br>\n<b>Dịch nghĩa:</b> Chỉ trong vòng 1 ngày mà nhớ được tới 1000 chữ Hán thì làm sao mà có thể làm được chứ。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 3"
       },
       {
             "id": 16,
@@ -1306,12 +1306,12 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "correctOrder": [
                   3,
                   2,
-                  4,
-                  1
+                  1,
+                  4
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> 私が [遅刻した(3)] [せいで(2)] ⭐ [出発できなくなり(4)] [予定どおりに(1)] 、本当に申し訳ありません。<br>\n<b>Cấu trúc ngữ pháp:</b> ～せいで (Tại vì / Do... [kết quả xấu])<br>\n<b>Dịch nghĩa:</b> Chỉ vì tôi đến muộn mà chuyến đi không thể xuất phát đúng kế hoạch, tôi thực sự vô cùng xin lỗi.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (1) - (4)<br>\n<b>Câu hoàn chỉnh:</b> 私が [遅刻した(3)] [せいで(2)] ⭐ [予定どおりに(1)] [出発できなくなり(4)]、本当に申し訳ありません。<br>\n<b>Cấu trúc ngữ pháp:</b> ～せいで (Tại vì... dẫn đến kết quả xấu)<br>\n<b>Dịch nghĩa:</b> Vì tôi đến muộn nên mọi người không thể khởi hành đúng theo kế hoạch được, tôi thật lòng xin lỗi。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 32,
@@ -1446,7 +1446,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "環境悪化が急速に進む今、我々は力を",
             "afterText": "か。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -1477,9 +1477,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   1
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> 環境悪化が急速に進む今、我々は力を [合わせて(3)] [この地球を(2)] ⭐ [救おう(4)] [ではありません(1)] か。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ようではありませんか (Chúng ta hãy cùng nhau... đi nào!)<br>\n<b>Dịch nghĩa:</b> Hiện nay khi môi trường đang xấu đi nhanh chóng, chúng ta hãy cùng nhau chung sức cứu lấy Trái Đất này đi nào!<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 2,
+            "correctAnswer": 2,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - ⭐ (2) - (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> 環境悪化が急速に進む今、我々は力を [合わせて(3)] ⭐ [この地球を(2)] [救おう(4)] [ではありません(1)] か。<br>\n<b>Cấu trúc ngữ pháp:</b> ～（よ）うではないか (Chúng ta hãy cùng nhau làm gì đó...)<br>\n<b>Dịch nghĩa:</b> Hiện nay khi môi trường đang xấu đi nhanh chóng, chúng ta hãy cùng chung sức cứu lấy trái đất này chẳng phải tốt hơn sao。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
       },
       {
             "id": 36,
@@ -2286,7 +2286,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "この町にある建物が",
             "afterText": "、町全体を観光地にしようという動きがある。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -2317,9 +2317,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   1,
                   3
             ],
-            "correctStarOption": 1,
-            "correctAnswer": 1,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - (2) - ⭐ (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> この町にある建物が [世界遺産に(4)] [登録された(2)] ⭐ [のを(1)] [契機に(3)] 、町全体を観光地にしようという動きがある。<br>\n<b>Cấu trúc ngữ pháp:</b> ～を契機に (Nhân cơ hội / Lấy mốc sự kiện... làm bước ngoặt)<br>\n<b>Dịch nghĩa:</b> Nhân dịp công trình kiến trúc ở thị trấn này được công nhận là di sản thế giới, đang có phong trào biến toàn bộ thị trấn thành điểm du lịch.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
+            "correctStarOption": 2,
+            "correctAnswer": 2,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (4) - ⭐ (2) - (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> この町にある建物が [世界遺産に(4)] ⭐ [登録された(2)] [のを(1)] [契機に(3)]、町全体を観光地にしようという動きがある。<br>\n<b>Cấu trúc ngữ pháp:</b> ～を契機に (Nhân dịp / Lấy cơ hội... làm động lực thay đổi)<br>\n<b>Dịch nghĩa:</b> Nhân dịp công trình kiến trúc trong thị trấn được công nhận là Di sản Thế giới, đang có phong trào muốn biến toàn bộ thị trấn thành khu du lịch。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
       },
       {
             "id": 56,
@@ -2370,7 +2370,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "手術の直後はまったく動けなかったが、",
             "afterText": "回復してきた。",
-            "starPositionIndex": 2,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -2401,9 +2401,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   1
             ],
-            "correctStarOption": 2,
-            "correctAnswer": 2,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - ⭐ (2) - (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> 手術の直後はまったく動けなかったが、 [時間が(3)] ⭐ [たつに(2)] [したがって(4)] [体力が(1)] 回復してきた。<br>\n<b>Cấu trúc ngữ pháp:</b> ～にしたがって (Cùng với... thì dần biến đổi theo)<br>\n<b>Dịch nghĩa:</b> Ngay sau ca phẫu thuật tôi hoàn toàn không thể cử động, nhưng cùng với thời gian trôi qua, thể lực đã dần hồi phục.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
+            "correctStarOption": 4,
+            "correctAnswer": 4,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> 手術の直後はまったく動けなかったが、[時間が(3)] [たつに(2)] ⭐ [したがって(4)] [体力が(1)] 回復してきた。<br>\n<b>Cấu trúc ngữ pháp:</b> ～にしたがって (Cùng với... thì dần dần kéo theo...)<br>\n<b>Dịch nghĩa:</b> Ngay sau phẫu thuật tôi hoàn toàn không thể cử động được, nhưng cùng với thời gian trôi qua, thể lực đã dần hồi phục。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
       },
       {
             "id": 58,
@@ -2454,7 +2454,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "景気が悪くて就職が難しいといっても、いつまでも",
             "afterText": "ので、友人の店でアルバイトを始めた。",
-            "starPositionIndex": 4,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -2485,9 +2485,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   1,
                   3
             ],
-            "correctStarOption": 3,
-            "correctAnswer": 3,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (4) - (1) - ⭐ (3)<br>\n<b>Câu hoàn chỉnh:</b> 景気が悪くて就職が難しいといっても、いつまでも [働かずに(2)] [遊んでいる(4)] [わけには(1)] ⭐ [いかない(3)] ので、友人の店でアルバイトを始めた。<br>\n<b>Cấu trúc ngữ pháp:</b> V-ているわけにはいかない (Không thể cứ mãi tiếp tục...)<br>\n<b>Dịch nghĩa:</b> Dù kinh tế khó khăn và xin việc không dễ, nhưng không thể cứ ở không lông bông mãi được nên tôi đã bắt đầu làm thêm ở quán của bạn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 3"
+            "correctStarOption": 4,
+            "correctAnswer": 4,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - ⭐ (4) - (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 景気が悪くて就職が難しいといっても、いつまでも [働かずに(2)] ⭐ [遊んでいる(4)] [わけには(1)] [いかない(3)] ので、友人の店でアルバイトを始めた。<br>\n<b>Cấu trúc ngữ pháp:</b> ～わけにはいかない (Không thể nào cứ tiếp tục... vì lý do đạo đức/hoàn cảnh)<br>\n<b>Dịch nghĩa:</b> Dù kinh tế khó khăn tìm việc không dễ, nhưng cũng không thể cứ lông bông chơi bời mãi không đi làm, nên tôi đã bắt đầu đi làm thêm ở quán của bạn。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
       },
       {
             "id": 60,
@@ -2580,7 +2580,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "最近は",
             "afterText": "食事のカロリーを気にするようになっている。",
-            "starPositionIndex": 2,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -2611,9 +2611,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   1,
                   3
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - ⭐ (4) - (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 最近は [大人(2)] ⭐ [ばかりでなく(4)] [子ども(1)] [までも(3)] 食事のカロリーを気にするようになっている。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ばかりでなく～までも (Không chỉ... mà đến cả... cũng)<br>\n<b>Dịch nghĩa:</b> Gần đây không chỉ người lớn mà ngay cả trẻ con cũng bắt đầu để tâm đến lượng calo trong bữa ăn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (4) - ⭐ (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> 最近は [大人(2)] [ばかりでなく(4)] ⭐ [子ども(1)] [までも(3)] 食事のカロリーを気にするようになっている。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ばかりでなく～までも (Không chỉ... mà ngay cả... cũng)<br>\n<b>Dịch nghĩa:</b> Dạo gần đây, không chỉ người lớn mà ngay cả trẻ em cũng để ý đến lượng calo trong bữa ăn。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 63,
@@ -2649,13 +2649,13 @@ window.JLPT_DATA["drill_dau_sao"] = {
             ],
             "correctOrder": [
                   2,
-                  1,
                   4,
+                  1,
                   3
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (1) - ⭐ (4) - (3)<br>\n<b>Câu hoàn chỉnh:</b> ずっと連絡を待っていたのだろう。彼女は、呼び出し音が [鳴るか(2)] [かの(1)] ⭐ [鳴らない(4)] [うちに(3)] 電話に出た。<br>\n<b>Cấu trúc ngữ pháp:</b> ～か～ないかのうちに (Vừa mới... đã ngay lập tức)<br>\n<b>Dịch nghĩa:</b> Hẳn là cô ấy đã mong chờ liên lạc suốt bấy lâu. Chuông vừa mới reo dứt tiếng thứ nhất cô ấy đã nhấc máy ngay.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (4) - ⭐ (1) - (3)<br>\n<b>Câu hoàn chỉnh:</b> ずっと連絡を待っていたのだろう。彼女は、呼び出し音が [鳴るか(2)] [鳴らない(4)] ⭐ [かの(1)] [うちに(3)] 電話に出た。<br>\n<b>Cấu trúc ngữ pháp:</b> ～か～ないかのうちに (Ngay khi vừa... thì lập tức...)<br>\n<b>Dịch nghĩa:</b> Chắc hẳn cô ấy đã chờ liên lạc suốt bấy lâu. Chuông điện thoại vừa mới reo một tiếng là cô ấy đã nhấc máy ngay lập tức。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 64,
@@ -2874,7 +2874,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "インターネット・ショッピングの最も良い点は、店に",
             "afterText": "ことだ。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -2905,9 +2905,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   1
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (2) - ⭐ (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> インターネット・ショッピングの最も良い点は、店に [足を運ぶ(3)] [ことなく(2)] ⭐ [品物が(4)] [手に入れられる(1)] ことだ。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ことなく (Mà không cần phải...)<br>\n<b>Dịch nghĩa:</b> Ưu điểm lớn nhất của mua sắm qua mạng là người ta có thể mua được món hàng mà không cần phải cất công đến tận cửa hàng.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 2,
+            "correctAnswer": 2,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - ⭐ (2) - (4) - (1)<br>\n<b>Câu hoàn chỉnh:</b> インターネット・ショッピングの最も良い点は、店に [足を運ぶ(3)] ⭐ [ことなく(2)] [品物が(4)] [手に入れられる(1)] ことだ。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ことなく (Không cần làm gì đó mà vẫn...)<br>\n<b>Dịch nghĩa:</b> Điểm tuyệt vời nhất của mua sắm trực tuyến là không cần phải cất công đến tận cửa hàng mà vẫn mua được món đồ mình cần。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 2"
       },
       {
             "id": 70,
@@ -2916,7 +2916,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "いつもお世話になっている人ですから、その人に",
             "afterText": "んですが。",
-            "starPositionIndex": 3,
+            "starPositionIndex": 2,
             "fragments": [
                   {
                         "id": 1,
@@ -2947,9 +2947,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   3
             ],
-            "correctStarOption": 4,
-            "correctAnswer": 4,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - (1) - ⭐ (4) - (3)<br>\n<b>Câu hoàn chỉnh:</b> いつもお世話になっている人ですから、その人に [どうしてもと(2)] [言われれば(1)] ⭐ [やらない(4)] [こともない(3)] んですが。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ないこともない (Không phải là không thể...)<br>\n<b>Dịch nghĩa:</b> Vì là người luôn giúp đỡ mình, nên nếu người ấy tha thiết nài nỉ thì tôi cũng không phải là không thể nhận lời làm giúp.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
+            "correctStarOption": 1,
+            "correctAnswer": 1,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (2) - ⭐ (1) - (4) - (3)<br>\n<b>Câu hoàn chỉnh:</b> いつもお世話になっている人ですから、その人に [どうしてもと(2)] ⭐ [言われれば(1)] [やらない(4)] [こともない(3)] んですが。<br>\n<b>Cấu trúc ngữ pháp:</b> ～ないこともない (Không hẳn là không... / Cũng có thể xem xét...)<br>\n<b>Dịch nghĩa:</b> Vì là người luôn giúp đỡ mình bấy lâu nay, nên nếu được người đó thiết tha nhờ vả thì không hẳn là tôi không thể nhận lời。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
       },
       {
             "id": 71,
@@ -3084,7 +3084,7 @@ window.JLPT_DATA["drill_dau_sao"] = {
             "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
             "beforeText": "歌手に",
             "afterText": "が、子供には安定した職業について貰いたいと思っています。",
-            "starPositionIndex": 2,
+            "starPositionIndex": 3,
             "fragments": [
                   {
                         "id": 1,
@@ -3115,9 +3115,9 @@ window.JLPT_DATA["drill_dau_sao"] = {
                   4,
                   2
             ],
-            "correctStarOption": 1,
-            "correctAnswer": 1,
-            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - ⭐ (1) - (4) - (2)<br>\n<b>Câu hoàn chỉnh:</b> 歌手に [なりたい(3)] ⭐ [という気持ちが(1)] [理解できない(4)] [わけではない(2)] が、子供には安定した職業について貰いたいと思っています。<br>\n<b>Cấu trúc ngữ pháp:</b> ～わけではない (Không hẳn là không hiểu, nhưng...)<br>\n<b>Dịch nghĩa:</b> Không hẳn là tôi không hiểu được mong ước muốn trở thành ca sĩ của con, nhưng tôi vẫn muốn con có một công việc ổn định hơn.<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 1"
+            "correctStarOption": 4,
+            "correctAnswer": 4,
+            "explanation": "<b>Thứ tự sắp xếp:</b> (3) - (1) - ⭐ (4) - (2)<br>\n<b>Câu hoàn chỉnh:</b> 歌手に [なりたい(3)] [という気持ちが(1)] ⭐ [理解できない(4)] [わけではない(2)] が、子供には安定した職業について貰いたいと思っています。<br>\n<b>Cấu trúc ngữ pháp:</b> ～わけではない (Không hẳn là... / Không phải là không...)<br>\n<b>Dịch nghĩa:</b> Không hẳn là tôi không thấu hiểu được mong ước muốn trở thành ca sĩ của con, nhưng tôi vẫn mong con có một công việc ổn định hơn。<br>\n<b>Đáp án đúng vào vị trí dấu sao (★):</b> Phương án 4"
       },
       {
             "id": 75,
