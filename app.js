@@ -1249,6 +1249,7 @@ class JLPTApp {
       } catch (e) {}
 
       const draftPct = totalQ > 0 ? Math.round((draftAnswered / totalQ) * 100) : 0;
+      const isDraftCompleted = hasDraft && draftAnswered >= totalQ;
 
       let actionButtons = "";
       if (!isReady) {
@@ -1256,6 +1257,18 @@ class JLPTApp {
           <button class="btn btn-outline" style="width: 100%; justify-content: center; opacity: 0.6; cursor: not-allowed;" disabled>
             <i class="fas fa-spinner fa-spin" style="margin-right: 0.4rem;"></i> Đang xử lý tài liệu
           </button>
+        `;
+      } else if (isDraftCompleted) {
+        actionButtons = `
+          <div style="display: flex; gap: 0.5rem; align-items: center; width: 100%;">
+            <button class="btn btn-primary" style="flex: 1; justify-content: center; background: linear-gradient(135deg, #10b981, #059669);" onclick="app.loadSession(${item.id})">
+              <i class="fas fa-eye"></i> Xem Lại Bài Làm (${draftAnswered}/${totalQ})
+            </button>
+            <button class="btn btn-outline" style="color: var(--error); border-color: var(--border); padding: 0.55rem 0.75rem;" 
+                    title="Xóa làm lại từ đầu" onclick="event.stopPropagation(); app.clearDraft(${item.id})">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </div>
         `;
       } else if (hasDraft) {
         actionButtons = `
@@ -1295,10 +1308,16 @@ class JLPTApp {
           </div>
           ${hasDraft ? `
             <div class="draft-badge-row">
-              <span class="badge-draft"><i class="fas fa-edit"></i> Đang làm dở: <b>${draftAnswered}/${totalQ} câu</b> (${draftPct}%)</span>
+              ${isDraftCompleted ? `
+                <span class="badge-draft" style="background: rgba(16, 185, 129, 0.12); color: #059669; border: 1px solid rgba(16, 185, 129, 0.35); font-weight: 700;">
+                  <i class="fas fa-check-circle"></i> Đã hoàn thành: <b>${draftAnswered}/${totalQ} câu</b> (100%)
+                </span>
+              ` : `
+                <span class="badge-draft"><i class="fas fa-edit"></i> Đang làm dở: <b>${draftAnswered}/${totalQ} câu</b> (${draftPct}%)</span>
+              `}
             </div>
             <div class="card-progress-track">
-              <div class="card-progress-fill" style="width: ${draftPct}%;"></div>
+              <div class="card-progress-fill" style="width: ${draftPct}%; ${isDraftCompleted ? 'background: linear-gradient(90deg, #10b981, #059669);' : ''}"></div>
             </div>
           ` : ""}
         </div>
@@ -1361,6 +1380,7 @@ class JLPTApp {
       } catch (e) {}
 
       const draftPct = totalQ > 0 ? Math.round((draftAnswered / totalQ) * 100) : 0;
+      const isDraftCompleted = hasDraft && draftAnswered >= totalQ;
 
       let actionButtons = "";
       if (!isReady) {
@@ -1368,6 +1388,18 @@ class JLPTApp {
           <button class="btn btn-outline" style="width: 100%; justify-content: center; opacity: 0.6; cursor: not-allowed;" disabled>
             <i class="fas fa-spinner fa-spin" style="margin-right: 0.4rem;"></i> Đang chuẩn bị dữ liệu
           </button>
+        `;
+      } else if (isDraftCompleted) {
+        actionButtons = `
+          <div style="display: flex; gap: 0.5rem; align-items: center; width: 100%;">
+            <button class="btn btn-primary" style="flex: 1; justify-content: center; background: linear-gradient(135deg, #10b981, #059669);" onclick="app.loadSession('${item.id}')">
+              <i class="fas fa-eye"></i> Xem Lại Bài Làm (${draftAnswered}/${totalQ})
+            </button>
+            <button class="btn btn-outline" style="color: var(--error); border-color: var(--border); padding: 0.55rem 0.75rem;" 
+                    title="Xóa làm lại từ đầu" onclick="event.stopPropagation(); app.clearDraft('${item.id}')">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </div>
         `;
       } else if (hasDraft) {
         actionButtons = `
@@ -1407,10 +1439,16 @@ class JLPTApp {
           </div>
           ${hasDraft ? `
             <div class="draft-badge-row">
-              <span class="badge-draft"><i class="fas fa-edit"></i> Đang làm dở: <b>${draftAnswered}/${totalQ} câu</b> (${draftPct}%)</span>
+              ${isDraftCompleted ? `
+                <span class="badge-draft" style="background: rgba(16, 185, 129, 0.12); color: #059669; border: 1px solid rgba(16, 185, 129, 0.35); font-weight: 700;">
+                  <i class="fas fa-check-circle"></i> Đã hoàn thành: <b>${draftAnswered}/${totalQ} câu</b> (100%)
+                </span>
+              ` : `
+                <span class="badge-draft"><i class="fas fa-edit"></i> Đang làm dở: <b>${draftAnswered}/${totalQ} câu</b> (${draftPct}%)</span>
+              `}
             </div>
             <div class="card-progress-track">
-              <div class="card-progress-fill" style="width: ${draftPct}%;"></div>
+              <div class="card-progress-fill" style="width: ${draftPct}%; ${isDraftCompleted ? 'background: linear-gradient(90deg, #10b981, #059669);' : ''}"></div>
             </div>
           ` : ""}
         </div>
