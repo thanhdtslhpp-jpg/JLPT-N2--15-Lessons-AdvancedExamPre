@@ -730,22 +730,13 @@ class JLPTApp {
     const btnFilterWrong = document.getElementById("btn-filter-wrong");
     if (btnFilterWrong) btnFilterWrong.addEventListener("click", () => this.filterWrongQuestions());
 
-    // Keyboard shortcuts: 1, 2, 3, 4 for options | J / K for navigation | H for highlight | Escape for modal
+    // Keyboard shortcuts: 1, 2, 3, 4 for options | Arrows / J / K for navigation | R for retry | S for bookmark | Space for audio | H for highlight | Escape for modal
     window.addEventListener("keydown", (e) => {
-      // Ignore if typing in an input
-      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+      // Ignore if typing in an input, textarea or editable element
+      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.isContentEditable) return;
 
-      if (["1", "2", "3", "4"].includes(e.key)) {
-        this.handleKeyboardSelect(parseInt(e.key));
-      } else if (e.key === "j" || e.key === "ArrowDown") {
-        this.navigateQuestion(1);
-      } else if (e.key === "k" || e.key === "ArrowUp") {
-        this.navigateQuestion(-1);
-      } else if (e.key === "h" || e.key === "H") {
-        this.highlightSelectedText();
-      } else if (e.key === "Home") {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      } else if (e.key === "Escape") {
+      // Escape always works for closing modals / popups
+      if (e.key === "Escape") {
         const popup = document.getElementById("dict-popup");
         if (popup && popup.style.display !== "none") {
           this.hideDictPopup();
@@ -759,6 +750,84 @@ class JLPTApp {
         if (csModal && csModal.style.display !== "none") {
           this.closeCheatsheet();
         }
+        return;
+      }
+
+      // Check if any modal is currently visible
+      const csModal = document.getElementById("cheatsheet-modal");
+      if (csModal && csModal.style.display !== "none") return;
+      const resModal = document.getElementById("result-modal");
+      if (resModal && resModal.style.display !== "none") return;
+
+      // Practice mode navigation & answer shortcuts
+      const isPracticeView = (this.currentView === "session") || (document.getElementById("view-practice") && document.getElementById("view-practice").style.display !== "none");
+      if (isPracticeView) {
+        // 1. Phím Mũi tên Phải / Xuống (hoặc phím J): Câu tiếp theo
+        if (e.key === "ArrowRight" || e.key === "ArrowDown" || e.key === "j" || e.key === "J") {
+          e.preventDefault();
+          this.navigateQuestion(1);
+          return;
+        }
+
+        // 2. Phím Mũi tên Trái / Lên (hoặc phím K): Câu trước đó
+        if (e.key === "ArrowLeft" || e.key === "ArrowUp" || e.key === "k" || e.key === "K") {
+          e.preventDefault();
+          this.navigateQuestion(-1);
+          return;
+        }
+
+        // 3. Phím số 1, 2, 3, 4 (hàng phím số trên và cụm phím số phụ Numpad): Chọn đáp án
+        let num = null;
+        if (["1", "2", "3", "4"].includes(e.key)) {
+          num = parseInt(e.key, 10);
+        } else if (["Numpad1", "Numpad2", "Numpad3", "Numpad4"].includes(e.code)) {
+          num = parseInt(e.code.replace("Numpad", ""), 10);
+        }
+        if (num !== null) {
+          e.preventDefault();
+          this.handleKeyboardSelect(num);
+          return;
+        }
+
+        // 4. Phím R: Làm lại câu này (Reset câu đang làm)
+        if (e.key === "r" || e.key === "R") {
+          if (this.activeQuestionId) {
+            e.preventDefault();
+            this.resetQuestion(this.activeQuestionId);
+          }
+          return;
+        }
+
+        // 5. Phím S: Đánh dấu sao ⭐ / Bỏ lưu câu này
+        if (e.key === "s" || e.key === "S") {
+          if (this.activeQuestionId) {
+            e.preventDefault();
+            this.toggleBookmark(this.activeQuestionId);
+          }
+          return;
+        }
+
+        // 6. Phím Space: Phát / Tạm dừng audio câu Nghe hiểu (Choukai)
+        if (e.key === " " || e.code === "Space") {
+          if (this.activeQuestionId) {
+            const audioEl = document.getElementById(`audio-${this.activeQuestionId}`);
+            if (audioEl) {
+              e.preventDefault();
+              if (audioEl.paused) {
+                audioEl.play();
+              } else {
+                audioEl.pause();
+              }
+              return;
+            }
+          }
+        }
+      }
+
+      if (e.key === "h" || e.key === "H") {
+        this.highlightSelectedText();
+      } else if (e.key === "Home") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
     });
 
