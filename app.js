@@ -5577,7 +5577,8 @@ class JLPTApp {
       }
     }
     this.updatePallet();
-    this.setActiveQuestion(qId, false);
+    if (typeof this.renderFilterTabs === "function") this.renderFilterTabs();
+    this.scrollToQuestionTop(qId);
   }
 
   toggleChoukaiPeek(qId) {
