@@ -1134,6 +1134,19 @@ class JLPTApp {
         const draft = JSON.parse(raw);
         this.userAnswers = draft.userAnswers || {};
         this.starAnswers = draft.starAnswers || {};
+
+        // Tự động đồng bộ lại đáp án dấu sao theo đúng vị trí mảnh ghép thực tế người dùng đã xếp:
+        const all = this.getAllQuestions();
+        all.forEach((q) => {
+          if (q.isStarQuestion && this.starAnswers[q.id]) {
+            const slots = this.starAnswers[q.id];
+            if (Array.isArray(slots) && slots.length === 4 && slots.every(s => s !== null)) {
+              const starPos = this.getStarPosition(q);
+              const actualStarFragId = slots[starPos - 1];
+              this.userAnswers[q.id] = actualStarFragId;
+            }
+          }
+        });
         return;
       }
     } catch (e) {
