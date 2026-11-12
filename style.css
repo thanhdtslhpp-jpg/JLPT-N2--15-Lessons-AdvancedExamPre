@@ -3441,27 +3441,18 @@ ruby rt {
 
 
 .sidebar-pallet {
-
   position: sticky;
-
-  top: calc(58px + 125px + 0.75rem);
-
-  max-height: calc(100vh - 200px);
-
+  top: 75px;
+  max-height: calc(100vh - 90px);
   overflow-y: auto;
-
   background: var(--card-bg);
-
   border: 1.5px solid var(--border);
-
   border-radius: var(--radius);
-
-  padding: 1.15rem;
-
+  padding: 1rem 1rem 0.85rem 1rem;
   box-shadow: var(--shadow);
-
   scrollbar-width: thin;
-
+  scroll-behavior: smooth;
+  z-index: 10;
 }
 
 
@@ -3841,8 +3832,9 @@ ruby rt {
 .pallet-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0.5rem;
-  max-height: 380px;
+  gap: 0.45rem;
+  max-height: 270px;
+  min-height: 140px;
   overflow-y: auto;
   padding-right: 0.25rem;
   position: relative;

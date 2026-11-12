@@ -1117,14 +1117,26 @@ class JLPTApp {
     const initialFiltered = this.getFilteredQuestions();
     this.activeQuestionId = initialFiltered.length > 0 ? initialFiltered[0].id : null;
 
+    // Chặn ScrollSpy trong lúc khởi tạo view và chuyển câu đầu tiên để không bị bắt sai vị trí cuộn
+    this.isProgrammaticScrolling = true;
+    window.scrollTo({ top: 0, behavior: "instant" });
+
     this.renderFilterTabs();
     this.renderQuestions();
     this.updatePallet();
     this.updateFloatingPalletBtn();
 
-    // Exam mode removed - always practice mode
+    if (this.activeQuestionId) {
+      this.scrollPalletToQuestion(this.activeQuestionId, "force");
+    }
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    clearTimeout(this.programmaticScrollTimer);
+    this.programmaticScrollTimer = setTimeout(() => {
+      this.isProgrammaticScrolling = false;
+      if (this.activeQuestionId) {
+        this.scrollPalletToQuestion(this.activeQuestionId, "auto");
+      }
+    }, 350);
   }
 
   loadDraftAnswers(sessionId) {
@@ -4087,11 +4099,26 @@ class JLPTApp {
     if (filtered.length > 0) {
       this.activeQuestionId = filtered[0].id;
     }
+    this.isProgrammaticScrolling = true;
+    window.scrollTo({ top: 0, behavior: "instant" });
+
     this.renderFilterTabs();
     this.renderQuestions();
     this.updatePallet();
     this.updateMobileBar();
     this.updateFloatingPalletBtn();
+
+    if (this.activeQuestionId) {
+      this.scrollPalletToQuestion(this.activeQuestionId, "force");
+    }
+
+    clearTimeout(this.programmaticScrollTimer);
+    this.programmaticScrollTimer = setTimeout(() => {
+      this.isProgrammaticScrolling = false;
+      if (this.activeQuestionId) {
+        this.scrollPalletToQuestion(this.activeQuestionId, "auto");
+      }
+    }, 300);
   }
 
   getAllQuestions() {
@@ -5679,6 +5706,13 @@ class JLPTApp {
     if (!qId) return;
     const grid = document.getElementById("pallet-grid");
     if (!grid) return;
+
+    // Đảm bảo sidebar container bên ngoài luôn giữ scrollTop = 0 để không bị che mất tiêu đề Tiến Độ và các câu hỏi phía trên
+    const sidebar = document.querySelector(".sidebar-pallet");
+    if (sidebar && sidebar.scrollTop > 0) {
+      sidebar.scrollTop = 0;
+    }
+
     const item = document.getElementById(`pallet-item-${qId}`);
     if (!item) return;
 
@@ -5687,16 +5721,30 @@ class JLPTApp {
     });
     item.classList.add("active");
 
-    // Tính toán khoảng cách tuyệt đối chuẩn xác CHỈ trong phạm vi grid
-    // Tuyệt đối không dùng scrollIntoView() vì scrollIntoView sẽ làm nhảy cả cửa sổ/sidebar (kéo lung tung)
-    const gridRect = grid.getBoundingClientRect();
-    const itemRect = item.getBoundingClientRect();
-    const relativeTop = itemRect.top - gridRect.top + grid.scrollTop;
-    const targetScrollTop = relativeTop - (grid.clientHeight / 2) + (item.clientHeight / 2);
+    // Lấy vị trí tương đối chính xác tuyệt đối của item trong grid
+    const itemOffsetTop = item.offsetTop;
+    const itemHeight = item.offsetHeight || 36;
+    const gridHeight = grid.clientHeight || 270;
+
+    // Kiểm tra xem item đã nằm trọn vẹn trong vùng hiển thị an toàn của grid chưa (có lề đệm an toàn 6px)
+    const isVisibleInGrid = (itemOffsetTop >= grid.scrollTop + 6) &&
+                            ((itemOffsetTop + itemHeight) <= (grid.scrollTop + gridHeight - 6));
+
+    // Nếu câu hỏi đã đang hiển thị rõ ràng trước mắt người dùng và không bị che khuất thì giữ nguyên, tránh giật cuộn
+    if (isVisibleInGrid && behavior !== "force") {
+      return;
+    }
+
+    // Với các câu hỏi ở phần đầu (khoảng 15 câu đầu hoặc nằm trong 1/3 grid trên cùng), luôn cuộn về đỉnh (top = 0)
+    // để người dùng nhìn thấy trọn vẹn từ Câu 1 cùng tiêu đề section mà không bị che khuất
+    let targetScrollTop = 0;
+    if (itemOffsetTop > (gridHeight / 3)) {
+      targetScrollTop = itemOffsetTop - (gridHeight / 2) + (itemHeight / 2);
+    }
 
     grid.scrollTo({
-      top: Math.max(0, targetScrollTop),
-      behavior: behavior
+      top: Math.max(0, Math.round(targetScrollTop)),
+      behavior: (behavior === "auto" || behavior === "force") ? "auto" : behavior
     });
   }
 
@@ -5725,9 +5773,28 @@ class JLPTApp {
     const cards = document.querySelectorAll(".question-card");
     if (!cards || cards.length === 0) return;
 
+    // ĐẶC BIỆT: Nếu người dùng đang ở đầu trang (scrollY < 90px):
+    // Câu đang làm chắc chắn là câu đầu tiên của danh sách, không bao giờ bắt sai sang các câu ở giữa
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (scrollY < 90) {
+      const firstCard = cards[0];
+      if (firstCard && firstCard.id && firstCard.id.startsWith("q-card-")) {
+        const firstId = parseInt(firstCard.id.replace("q-card-", ""), 10);
+        if (firstId && firstId !== this.activeQuestionId) {
+          this.activeQuestionId = firstId;
+          cards.forEach((c) => {
+            c.classList.toggle("active-target", c.id === `q-card-${firstId}`);
+          });
+          this.scrollPalletToQuestion(firstId, "auto");
+          this.updateMobileBar();
+        }
+        return;
+      }
+    }
+
     const headerEl = document.querySelector(".app-header");
     const headerHeight = headerEl ? headerEl.offsetHeight : 65;
-    const readingLine = headerHeight + 45;
+    const readingLine = headerHeight + 50;
     let closestQId = null;
 
     // 1. Tìm câu hỏi đang trực tiếp bao trùm đường quan sát này
