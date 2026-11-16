@@ -103,7 +103,7 @@ window.JLPT_DATA["drill_ngu_phap_n2"] = {
       "ことなく",
       "わけはなく",
       "ばかりでなく",
-      "までもneg"
+      "までもなく"
     ],
     "correctAnswer": 1,
     "explanation": "<b>Đáp án đúng: 1 (ことなく)</b><br><b>Cấu trúc:</b> V-る + ことなく (Không làm A mà đã làm B = V-ないで).<br><b>Dịch câu:</b> Người sinh viên đó đã về nước mất mà thậm chí không thèm chào hỏi người thầy đã từng giúp đỡ mình."
