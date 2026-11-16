@@ -218,7 +218,7 @@ window.JLPT_DATA["drill_ngu_phap_n2"] = {
       "からには"
     ],
     "correctAnswer": 4,
-    "explanation": "<b>Đáp án đúng: 4 (からには)</b><br><b>Cấu trúc:</b> V + からには (Một khi đã... thì phải chịu trách nhiệm đến cùng = 以上は).<br><b>Dịch câu:</b> Một khi đã nhận lời thì tôi dự định sẽ làm với tinh thần trách nhiệm đến cùng."
+    "explanation": "<b>Đáp án đúng: 4 (からには)</b><br><b>Cấu trúc:</b> Thể thông thường (Vる / Vた / Vない / Aい / Aな・N + である) + <b>からには</b> (Một khi đã... thì đương nhiên phải / nhất định sẽ... = ～以上は).<br><b>Lưu ý ngữ pháp:</b> Vế sau của 「からには」 luôn mang sắc thái ý chí, quyết tâm, nghĩa vụ, lời khuyên hoặc yêu cầu (như ～つもりだ, ～なければならない, ～べきだ, ～たい...).<br><b>Dịch câu:</b> Một khi đã nhận lời thì tôi dự định sẽ làm với tinh thần trách nhiệm đến cùng.<br><i>Phân tích các phương án còn lại:</i><br>• <b>1. からして</b> (N + からして): Ngay từ... đã... (đưa ra ví dụ tiêu biểu để đánh giá toàn thể; không nối trực tiếp sau động từ 引き受けた).<br>• <b>2. あまり</b> (Vる / Vた / Nの + あまり): Vì quá... đến mức (thường dẫn đến kết quả thái quá/tiêu cực, không hợp vế sau mang ý chí).<br>• <b>3. ことから</b> (Thể thông thường + ことから): Từ việc... nên... (nêu căn cứ/nguyên nhân khách quan cho một tên gọi hoặc hiện tượng, không mang nghĩa quyết tâm)."
   },
   {
     "id": 16,
