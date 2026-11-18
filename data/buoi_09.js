@@ -1451,7 +1451,7 @@ window.JLPT_DATA[9] = {
             "じっくり"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>かすかな：</b>Thoang thoảng, le lói, mờ nhạt (mùi hương, âm thanh, ánh sáng rất nhỏ vừa đủ cảm nhận).<br><b>Dịch nghĩa:</b> Khi bước vào phòng, tôi ngửi thấy một mùi hương hoa thoang thoảng thoảng qua.<br><i>Phân tích các phương án:</i><br>• 1. わずかな (chỉ một chút, ít ỏi về số lượng tiền nong/thời gian)<br>• 2. おおまかな (đại khái, sơ lược nét chính)<br>• <b>3. かすかな (thoang thoảng, mờ nhạt, le lói: かすかな匂い) [Đúng]</b><br>• 4. ほのかな (cũng là thoang thoảng nhưng かすか nhấn mạnh vào độ yếu ớt của tín hiệu)"
+          "explanation": "<b>じっくり：</b>Kỹ lưỡng, chín chắn, dành nhiều thời gian suy nghĩ/làm việc gì.<br><b>Dịch nghĩa:</b> Cần có thời gian để suy nghĩ thật kỹ lưỡng về kế hoạch tương lai.<br><i>Phân tích các phương án:</i><br>• 1. びっしょり: Ướt sũng (mồ hôi, nước mưa)<br>• 2. ぐっすり: Ngủ say giấc<br>• 3. うっかり: Lơ đãng, vô ý<br>• <b>4. じっくり: [Đúng] Suy nghĩ kỹ càng, thấu đáo (じっくり考える)</b>"
         },
         {
           "id": 92,
@@ -1465,7 +1465,7 @@ window.JLPT_DATA[9] = {
             "しょんぼり"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>なだらかな：</b>Thoai thoải, dốc lài, thoai thoải không dốc đứng (con đường dốc, sườn đồi núi).<br><b>Dịch nghĩa:</b> Đi bộ trên con đường dốc thoai thoải này thì không thấy mệt mỏi chút nào.<br><i>Phân tích các phương án:</i><br>• <b>1. なだらかな (thoai thoải, thoai thoải dốc không hiểm trở: なだらかな坂道) [Đúng]</b><br>• 2. おだやかな (ôn hòa, điềm đạm về tính cách/thời tiết êm ả)<br>• 3. しなやかな (dẻo dai, uyển chuyển về cơ thể/động tác)<br>• 4. さわやかな (sảng khoái, tươi mát dễ chịu)"
+          "explanation": "<b>ばったり：</b>Đột ngột dừng hẳn, cắt đứt hẳn (cũng có nghĩa tình cờ gặp mặt).<br><b>Dịch nghĩa:</b> Cho đến tuần trước Yamada vẫn liên lạc rất nhiều lần, vậy mà sang tuần này thì bỗng dưng bặt vô âm tín.<br><i>Phân tích các phương án:</i><br>• 1. ばっさり: Cắt phăng, dứt khoát (tóc, cây cối, từ chối thẳng)<br>• <b>2. ばったり: [Đúng] Đột ngột ngưng bặt (ばったり連絡が来なくなる)</b><br>• 3. きっちり: Vừa khít, chính xác, chỉn chu<br>• 4. しょんぼり: Ủ rũ, buồn bã"
         },
         {
           "id": 93,
@@ -1479,7 +1479,7 @@ window.JLPT_DATA[9] = {
             "ばっちり"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>身近な（みぢかな）：</b>Gần gũi, quen thuộc xung quanh cuộc sống đời thường của bản thân.<br><b>Dịch nghĩa:</b> Để bảo vệ môi trường, trước tiên chúng ta hãy bắt tay hành động từ những việc quen thuộc gần gũi ngay xung quanh mình.<br><i>Phân tích các phương án:</i><br>• 1. 手近な (てぢかな: trong tầm tay, sẵn có cạnh chỗ ngồi)<br>• <b>2. 身近な (gần gũi, quen thuộc gắn liền đời sống thường nhật: 身近なこと) [Đúng]</b><br>• 3. 間近な (まぢかな: sát nút, cận kề về thời gian diễn ra sự kiện)<br>• 4. 身元な (みもとな: không có tính từ này, 身元 là danh từ căn cước/lai lịch)"
+          "explanation": "<b>ばっちり：</b>Hoàn hảo, mỹ mãn, chắc chắn ổn thỏa.<br><b>Dịch nghĩa:</b> Vì đã ôn tập đi ôn tập lại nhiều lần rồi nên bài kiểm tra ngày mai chắc chắn sẽ làm ngon lành.<br><i>Phân tích các phương án:</i><br>• 1. ぎっしり: Chật ních, ken đặc<br>• 2. すっかり: Hoàn toàn (thay đổi, quên sạch)<br>• 3. ぐったり: Mệt rũ người, kiệt sức<br>• <b>4. ばっちり: [Đúng] Hoàn hảo, ngon lành, chuẩn chỉnh</b>"
         },
         {
           "id": 94,
@@ -1493,7 +1493,7 @@ window.JLPT_DATA[9] = {
             "バランス"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>ベテラン (veteran)：</b>Người kỳ cựu, lão làng, có tay nghề và kinh nghiệm dày dặn nhiều năm trong nghề.<br><b>Dịch nghĩa:</b> Nhờ có người hướng dẫn giàu kinh nghiệm lão làng chỉ bảo nên công việc đã tiến triển một cách an toàn thuận lợi.<br><i>Phân tích các phương án:</i><br>• <b>1. ベテラン (veteran: người dày dạn kinh nghiệm, kỳ cựu) [Đúng]</b><br>• 2. キャプテン (captain: đội trưởng, thuyền trưởng)<br>• 3. プラス (plus: điểm cộng, mặt lợi thế)<br>• 4. バランス (balance: sự cân bằng)"
+          "explanation": "<b>ボリューム（volume）：</b>Âm lượng (tiếng TV, loa). Cụm từ: ボリュームを下げる (giảm âm lượng).<br><b>Dịch nghĩa:</b> Xin lỗi, tôi đang gọi điện thoại nên có thể giảm âm lượng TV giúp tôi được không?<br><i>Phân tích các phương án:</i><br>• <b>1. ボリューム: [Đúng] Âm lượng (テレビのボリュームを下げる)</b><br>• 2. エネルギー: Năng lượng<br>• 3. コーラス: Điệp khúc, hợp xướng<br>• 4. バランス: Sự cân bằng"
         },
         {
           "id": 95,

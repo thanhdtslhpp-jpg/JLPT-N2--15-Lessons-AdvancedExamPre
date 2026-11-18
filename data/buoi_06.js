@@ -760,7 +760,7 @@ window.JLPT_DATA[6] = {
             "もうすぐ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>張り切って（はりきって）：</b>Hăng hái, tràn đầy nhiệt huyết (＝やる気を持って).<br><b>Dịch nghĩa:</b> Anh ấy đang hăng hái bắt tay vào dự án mới với đầy quyết tâm.<br><i>Phân tích các phương án:</i><br>• 1. あわてて: Hốt hoảng, vội vã luống cuống<br>• <b>2. やる気を持って: Đầy nhiệt huyết, hăng hái [Đúng đồng nghĩa với 張り切って]</b><br>• 3. 慎重に: Thận trọng, dè dặt<br>• 4. 楽しそうに: Trông có vẻ vui tươi",
+          "explanation": "<b>至急（しきゅう）：</b>Khẩn cấp, ngay lập tức (＝すぐに).<br><b>Dịch nghĩa:</b> Xin lỗi, nhưng hãy gửi tài liệu ngay lập tức giúp tôi.<br><i>Phân tích các phương án:</i><br>• 1. 急に（きゅうに）: Đột nhiên, bất ngờ<br>• <b>2. すぐに: [Đúng] Ngay lập tức (đồng nghĩa với 至急)</b><br>• 3. 今にも（いまにも）: Sắp sửa (dường như sắp xảy ra ngay)<br>• 4. もうすぐ: Sắp tới, chẳng mấy chốc",
           "id": 52
         },
         {
@@ -790,7 +790,7 @@ window.JLPT_DATA[6] = {
             "ゆっくり"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>見当がつかない（けんとうがつかない）：</b>Không thể dự đoán, không thể ước lượng được (＝予測できない).<br><b>Dịch nghĩa:</b> Về việc mất bao nhiêu tiền thì hiện tại tôi hoàn toàn không thể đoán biết được.<br><i>Phân tích các phương án:</i><br>• 1. 決定できない: Không thể quyết định<br>• 2. 理解できない: Không thể thấu hiểu<br>• <b>3. 予測できない: Không thể dự đoán, ước tính [Đúng đồng nghĩa với 見当がつかない]</b><br>• 4. 解決できない: Không thể giải quyết",
+          "explanation": "<b>ぱっと：</b>Bỗng chốc, vụt sáng, đột ngột (＝急に).<br><b>Dịch nghĩa:</b> Bầu trời đột nhiên sáng bừng lên.<br><i>Phân tích các phương án:</i><br>• <b>1. 急に（きゅうに）: [Đúng] Đột ngột, bất chợt (đồng nghĩa với ぱっと trong ngữ cảnh chuyển biến nhanh)</b><br>• 2. 少し（すこし）: Một chút<br>• 3. だんだん: Dần dần<br>• 4. ゆっくり: Chậm rãi, từ từ",
           "id": 54
         },
         {
@@ -1893,7 +1893,7 @@ window.JLPT_DATA[6] = {
             "食料をつくる場所としての役割と気温を下げる役割"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tại sao trong thành phố lại có hiện tượng nhiệt độ tăng cao (đảo nhiệt đô thị)?<br><b>Phân tích bài đọc:</b> Đoạn văn phân tích mặt đường nhựa và bê tông hấp thụ nhiệt mặt trời mạnh mẽ, đồng thời thiếu cây xanh và mặt nước làm mát khiến nhiệt lượng bị giữ lại trong đô thị.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không chỉ do lượng xe cộ qua lại.<br>• <b>2. アスファルトやコンクリートが熱を蓄え、緑地や水面が減少したため: Do đường nhựa và bê tông tích trữ nhiệt lượng, còn mảng xanh và mặt nước bị suy giảm [Đúng]</b><br>• 3. Sai vì bài không nói đến việc sử dụng điều hòa là nguyên nhân duy nhất.<br>• 4. Sai vì gió biển không phải yếu tố gây tăng nhiệt."
+          "explanation": "<b>Dịch câu hỏi:</b> ②「さまざまな役割」(những vai trò đa dạng) chỉ điều gì?<br><b>Phân tích bài đọc:</b> Đoạn 1 nêu rõ ruộng lúa nuôi dưỡng nhiều loài sinh vật nhỏ và yếu (生き物のくらす場所). Đoạn 2 nêu gió thổi qua mặt nước ruộng lúa giúp làm mát, hạ nhiệt độ xung quanh (気温を下げる). Đoạn 3 tổng kết ngoài vai trò sản xuất gạo (lương thực), ruộng lúa còn có hai vai trò kể trên.<br><i>Phân tích các phương án:</i><br>• <b>1. 生き物のくらす場所としての役割と気温を下げる役割: [Đúng] Vai trò làm nơi sinh sống cho sinh vật và vai trò hạ nhiệt độ</b><br>• 2. Sai vì bài không nói đến việc bảo quản lương thực (食料を保存する)<br>• 3. Sai vì ngoài sản xuất lương thực (食料をつくる) mới là ②さまざまな役割<br>• 4. Sai vì lặp lại 'sản xuất lương thực' vốn đã được tách ra trước đó"
         },
         {
           "id": 116,
@@ -1908,7 +1908,7 @@ window.JLPT_DATA[6] = {
             "お金とまったく同じ使われ方をしているから。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Bài viết đề xuất giải pháp nào để hạ nhiệt cho các khu đô thị?<br><b>Phân tích bài đọc:</b> Tác giả đề xuất việc bảo tồn và tái tạo các hành lang xanh, hồ nước và luồng gió tự nhiên từ ngoại ô thổi vào thành phố để giải nhiệt.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì xây dựng thêm nhà cao tầng chắn gió càng làm nhiệt độ tăng cao.<br>• 2. Sai vì phun nước nhân tạo liên tục trên diện rộng là bất khả thi và tốn kém.<br>• <b>3. 風の通り道を確保し、緑地や水辺の環境を都市計画に取り入れること: Bảo đảm luồng gió lưu thông và đưa môi trường cây xanh, mặt nước vào quy hoạch đô thị [Đúng]</b><br>• 4. Sai vì chuyển toàn bộ cư dân ra ngoại ô là phi thực tế."
+          "explanation": "<b>Dịch câu hỏi:</b> Tại sao có thể nói con tem ①「お金の代わり」(thay thế cho tiền)?<br><b>Phân tích bài đọc:</b> Đoạn 2 viết: 「切手は料金を払った証拠として郵便物に貼りつけるものです。つまり、①お金の代わりです。」(Con tem là thứ dán lên bưu phẩm như một bằng chứng đã trả cước phí. Nói cách khác, nó thay thế cho tiền).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì kỹ thuật in đặc biệt là để chống làm giả, không phải lý do gọi là thay thế tiền<br>• <b>2. 料金を払ったことを証明するものだから: [Đúng] Vì nó là thứ chứng minh đã thanh toán cước phí</b><br>• 3. Sai vì bài không nói tem được tạo ra theo quy định chung toàn cầu<br>• 4. Sai vì tem không được dùng giống hệt tiền trong mọi giao dịch"
         },
         {
           "id": 117,
@@ -1923,7 +1923,7 @@ window.JLPT_DATA[6] = {
             "郵便物を集めた日時や郵便局名を明らかにすることと、切手が再び使われることを防ぐこと。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Ý tưởng chủ đạo xuyên suốt của toàn bộ bài viết này là gì?<br><b>Phân tích bài đọc:</b> Con người hiện đại cần nhận thức được giá trị làm mát tự nhiên của thiên nhiên (như cánh đồng, mặt nước, rừng cây) để ứng dụng vào việc xây dựng đô thị bền vững.<br><i>Phân tích các phương án:</i><br>• <b>1. 自然の冷却機能を理解し、それを都市づくりに生かすことの重要性: Tầm quan trọng của việc hiểu cơ chế làm mát tự nhiên và vận dụng vào quy hoạch đô thị [Đúng]</b><br>• 2. Sai vì không chỉ đơn thuần kêu gọi trồng lúa nước.<br>• 3. Sai vì bài không khuyên từ bỏ cuộc sống tiện nghi ở thành phố.<br>• 4. Sai vì không so sánh sự vất vả giữa nông thôn và thành thị."
+          "explanation": "<b>Dịch câu hỏi:</b> ②「二つの目的」(hai mục đích của việc đóng dấu bưu điện 消印) là gì?<br><b>Phân tích bài đọc:</b> Đoạn 3 giải thích dấu 消印 có ghi tên bưu cục và ngày giờ thu nhận bưu phẩm, và có hai mục đích: xác định thời điểm/nơi tiếp nhận bưu phẩm và ngăn không cho con tem đó bị tái sử dụng.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải để ngăn bưu phẩm bị thất lạc<br>• 2. Sai vì không phải để tăng tốc độ thu gom hay làm vui lòng người sưu tầm<br>• 3. Sai vì dấu ghi ngày giờ thu nhận (集めた), không phải ngày phát (配達)<br>• <b>4. 郵便物を集めた日時や郵便局名を明らかにすることと、切手が再び使われることを防ぐこと: [Đúng] Làm rõ ngày giờ/tên bưu cục thu nhận và ngăn việc tái sử dụng tem</b>"
         },
         {
           "id": 118,
@@ -1938,7 +1938,7 @@ window.JLPT_DATA[6] = {
             "映画は映画館以外で見ることをすすめる。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trong bài 【A】, tác giả có quan điểm như thế nào về việc đọc sách giấy?<br><b>Phân tích bài đọc:</b> Tác giả bài A nhấn mạnh cảm giác xúc giác khi lật từng trang giấy, mùi thơm của mực in giúp khắc sâu trải nghiệm đọc và tăng cường khả năng ghi nhớ nội dung.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì bài A không nói sách giấy hoàn toàn vượt trội sách điện tử về mặt giá cả.<br>• <b>2. 紙の手触りや質感を通じた体験が、記憶の定着や深い理解を助ける: Trải nghiệm thông qua cảm giác xúc giác và chất liệu giấy giúp khắc sâu trí nhớ và hiểu sâu hơn [Đúng]</b><br>• 3. Sai vì bài A không khuyên chỉ nên đọc sách giấy ở thư viện.<br>• 4. Sai vì không bảo sách giấy sẽ sớm biến mất."
+          "explanation": "<b>Dịch câu hỏi:</b> Điểm chung được nêu ở cả hai bài A và B là gì?<br><b>Phân tích bài đọc:</b> Bài A nói xem ở rạp giúp tập trung từ đầu đến cuối (最初から最後まで集中して楽しめる). Bài B cũng nói xem ở rạp thì không làm việc khác được nên đắm chìm và tập trung vào thế giới của bộ phim (ほかのことができず、その世界に入り込んで夢中になれる).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tác giả B thích cả xem ở ngoài rạp<br>• 2. Sai vì tác giả B vẫn thích xem qua dịch vụ phát trực tuyến ngoài rạp<br>• <b>3. 映画は映画館で見ると集中できる: [Đúng] Xem phim ở rạp chiếu phim thì có thể tập trung được</b><br>• 4. Sai vì cả hai bài đều không khuyên người đọc chỉ nên xem ngoài rạp"
         },
         {
           "id": 119,

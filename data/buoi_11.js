@@ -975,7 +975,7 @@ window.JLPT_DATA[11] = {
             "社会的な成功によって証明されるもの"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch bài trích:</b> 'Cá tính thực sự không phải thứ khoác lên mình từ bên ngoài, mà là thứ tự nhiên bộc lộ toát ra khi ta nghiêm túc đối mặt và hết mình với công việc, cuộc sống hàng ngày.'<br><b>Dịch câu hỏi:</b> Theo tác giả, 'cá tính thực sự' là thứ như thế nào?<br><i>Phân tích các phương án:</i><br>• 1. 他人と異なる服装や髪型をすること: Mặc quần áo kiểu tóc khác người<br>• 2. 誰も思いつかない突飛な意見を主張すること: Đưa ra ý kiến kỳ quặc không ai nghĩ tới<br>• 3. 生まれつき持っている特別な才能のこと: Tài năng đặc biệt bẩm sinh<br>• <b>4. 自分の仕事や生き方に真剣に向き合う中で自然とにじみ出るもの: [Đúng] Căn cứ câu: '真剣に向き合っているうちに自然とにじみ出てくるもの'</b>",
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, 「本来の個性」(cá tính thực sự/vốn có) là thứ như thế nào?<br><b>Phân tích bài đọc:</b> Câu cuối đoạn văn nêu rõ: 「しかし、本来の個性とは外見の奇抜さではなく、その人の内面的な思考や価値観、生き方に表れるもののはずです。」(Tuy nhiên, cá tính thực sự không phải sự kỳ quặc bề ngoài, mà hẳn phải là thứ thể hiện qua suy nghĩ nội tâm, giá trị quan và cách sống của người đó).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì bài phủ nhận việc mặc trang phục kỳ quặc khác người<br>• 2. Sai vì bài không nói đến thái độ cứng rắn không đồng tình với người khác<br>• <b>3. その人の内面や生き方に自然と表れるもの: [Đúng] Thứ tự nhiên bộc lộ qua nội tâm và cách sống của người đó</b><br>• 4. Sai vì bài không nói cá tính được chứng minh bằng thành công xã hội",
           "passage": "【個性についての考察】\n日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような奇抜なスタイル」であることが多いでしょう。しかし、本来の個性とは外見の奇抜さではなく、その人の内面的な思考や価値観、生き方に表れるもののはずです。"
         },
         {
@@ -991,7 +991,7 @@ window.JLPT_DATA[11] = {
             "日本のファッションは世界で最も個性的である"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch tổng quát:</b> Bài viết khẳng định cá tính không phải là cố gồng mình hay khoác lên vẻ ngoài dị biệt để gây chú ý, mà cá tính đích thực được hình thành từ quá trình sống chân thực và nghiêm túc.<br><b>Dịch câu hỏi:</b> Ý chính nào tóm lược đúng nhất nội dung văn bản?<br><i>Phân tích các phương án:</i><br>• 1. 個性を発揮するためにはまず外見を変えるべきだ: Muốn phát huy cá tính trước hết phải đổi ngoại hình<br>• <b>2. 個性は無理に演じるものではなく、日々の真摯な行動の積み重ねから現れるものである: [Đúng] Tóm tắt chuẩn xác toàn bộ thông điệp của bài viết</b><br>• 3. 若者はもっと社会のルールに従って個性を抑えるべきだ: Giới trẻ nên kìm nén cá tính<br>• 4. 個性的な人ほど仕事で成功しやすい: Người có cá tính càng dễ thành công",
+          "explanation": "<b>Dịch câu hỏi:</b> Đâu là chủ trương/thông điệp phù hợp nhất của toàn bài viết?<br><b>Phân tích bài đọc:</b> Tác giả cho rằng những lời kêu gọi 'phải thể hiện cá tính' theo kiểu bề ngoài là không có nhiều ý nghĩa, vì cá tính thực sự nằm ở nội tâm và cách sống chứ không phải cố tạo vẻ ngoài gây chú ý.<br><i>Phân tích các phương án:</i><br>• <b>1. 無理に人目を引く個性を作ろうとする必要はない: [Đúng] Không cần phải cố gồng mình tạo ra cá tính để thu hút sự chú ý của người khác</b><br>• 2. Sai vì tác giả phê phán việc chỉ chú trọng ngoại hình<br>• 3. Sai vì bài không khuyên giới trẻ kìm nén cá tính<br>• 4. Sai vì bài không so sánh thời trang Nhật Bản với thế giới",
           "passage": "【個性についての考察】\n日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような奇抜なスタイル」であることが多いでしょう。しかし、本来の個性とは外見の奇抜さではなく、その人の内面的な思考や価値観、生き方に表れるもののはずです。"
         },
         {
@@ -1007,7 +1007,7 @@ window.JLPT_DATA[11] = {
             "データの処理能力において人間と大差ない"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch bài trích:</b> 'AI có thể xử lý dữ liệu khổng lồ và vẽ tranh, viết văn theo yêu cầu. Thế nhưng, con người sáng tạo nghệ thuật là xuất phát từ những trải nghiệm buồn vui, nỗi đau và cảm xúc chân thật trong cuộc đời. AI không có cảm xúc hay nỗi đau ấy.'<br><b>Dịch câu hỏi:</b> Điểm khác biệt lớn nhất giữa AI và con người mà tác giả nêu ra là gì?<br><i>Phân tích các phương án:</i><br>• 1. 情報処理の速度と正確さ: Tốc độ và độ chuẩn xác xử lý thông tin (AI hơn con người)<br>• 2. 過去のデータを学習する能力: Năng lực học dữ liệu quá khứ<br>• <b>3. 人間は個人的な経験や感情、苦悩から動機や意味を生み出す点: [Đúng] Căn cứ dòng: '人間は自らの感情や個人的な葛藤から意味を生み出す'</b><br>• 4. 複雑な計算を瞬時に実行できる点: Tính toán phức tạp trong chớp mắt",
+          "explanation": "<b>Dịch câu hỏi:</b> Cách nhìn nhận của tác giả đối với sự tiến hóa của AI là gì?<br><b>Phân tích bài đọc:</b> Bài viết nêu: 「私はむしろ人間がより創造的な活動に集中できる好機だと捉えている。」(Tôi lại xem đó là cơ hội tốt để con người có thể tập trung hơn vào các hoạt động sáng tạo, sau khi tự động hóa các công việc rập khuôn).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì đó chỉ là lo ngại của xã hội, không phải quan điểm của tác giả<br>• <b>2. 定型業務を任せ、人間が創造的な仕事に専念できる機会である: [Đúng] Là cơ hội để giao việc rập khuôn cho AI và con người chuyên tâm vào việc sáng tạo</b><br>• 3. Sai vì tác giả không xem AI chỉ là trào lưu nhất thời<br>• 4. Sai vì bài nói AI vượt trội về xử lý dữ liệu tốc độ cao",
           "passage": "【AIと人間の共存】\n人工知能（AI）の急速な進化により、多くの定型的な業務が自動化されつつある。これによって人間の仕事が奪われるという懸念が広がっているが、私はむしろ人間がより創造的な活動に集中できる好機だと捉えている。AIが得意とする膨大なデータの高速処理と、人間にしかできない共感や直感的なひらめきを組み合わせることで、これまで解決できなかった複雑な社会問題に挑むことができるのである。"
         },
         {
@@ -1023,7 +1023,7 @@ window.JLPT_DATA[11] = {
             "24時間連続での労働"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch bài trích:</b> 'Dù công nghệ phát triển đến đâu, AI cũng chỉ là công cụ tính toán mô phỏng dựa trên xác suất. Nó không thể thay thế con người trong những sáng tạo mang tính đột phá và chạm tới trái tim vì nó thiếu đi trải nghiệm sống và tâm hồn rung động.'<br><b>Dịch câu hỏi:</b> Vì sao tác giả cho rằng 'AI sẽ không thể thay thế con người'?<br><i>Phân tích các phương án:</i><br>• 1. AIの開発には多額の費用がかかりすぎるから: Do phát triển AI tốn quá nhiều chi phí<br>• <b>2. 創造の原動力となる感情や生きる実感がAIにはないから: [Đúng] AI không có cảm xúc và cảm nhận chân thật về sự sống vốn là gốc rễ của sáng tạo</b><br>• 3. 人間のほうが計算能力で勝っているから: Con người tính toán giỏi hơn AI (sai thực tế)<br>• 4. 法律によってAIの利用が厳しく制限されるから: Luật pháp hạn chế nghiêm ngặt AI",
+          "explanation": "<b>Dịch câu hỏi:</b> Năng lực nào được tác giả nêu ra là chỉ con người mới có thể làm được?<br><b>Phân tích bài đọc:</b> Câu cuối bài viết rõ: 「人間にしかできない共感や直感的なひらめき」(Sự đồng cảm và những tia sáng lóe lên mang tính trực giác mà chỉ con người mới làm được).<br><i>Phân tích các phương án:</i><br>• <b>1. 共感や直感的なひらめき: [Đúng] Sự đồng cảm và trực giác lóe sáng</b><br>• 2. Sai vì ghi nhớ dữ liệu khổng lồ là thế mạnh của AI<br>• 3. Sai vì xử lý tính toán tốc độ cao là thế mạnh của AI<br>• 4. Sai vì bài không nhắc đến lao động liên tục 24 giờ",
           "passage": "【AIと人間の共存】\n人工知能（AI）の急速な進化により、多くの定型的な業務が自動化されつつある。これによって人間の仕事が奪われるという懸念が広がっているが、私はむしろ人間がより創造的な活動に集中できる好機だと捉えている。AIが得意とする膨大なデータの高速処理と、人間にしかできない共感や直感的なひらめきを組み合わせることで、これまで解決できなかった複雑な社会問題に挑むことができるのである。"
         },
         {
@@ -1039,7 +1039,7 @@ window.JLPT_DATA[11] = {
             "技術開発を制限して現状を維持する社会"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch bài trích:</b> 'Trong kỷ nguyên AI, con người không cần phải cạnh tranh với máy móc về tốc độ ghi nhớ hay tính toán. Điều quan trọng là chúng ta biết nuôi dưỡng cảm xúc, giữ vững nhân sinh quan và sử dụng AI như một người bạn đồng hành để đặt ra những câu hỏi mới mẻ.'<br><b>Dịch câu hỏi:</b> Tác giả nghĩ gì về 'vai trò của con người trong thời đại AI'?<br><i>Phân tích các phương án:</i><br>• 1. AIに頼らず全ての仕事を自力で行うこと: Tự làm mọi việc không cần AI<br>• 2. AIのプログラミング技術を全員が習得すること: Tất cả mọi người phải học lập trình AI<br>• 3. 効率性においてAIに勝つために努力すること: Nỗ lực thắng AI về mặt hiệu suất<br>• <b>4. 自らの感性や価値観を大切にし、AIを活用しながら新たな問いを立てること: [Đúng] Nuôi dưỡng cảm tính, giá trị riêng và tận dụng AI để mở ra những vấn đề mới</b>",
+          "explanation": "<b>Dịch câu hỏi:</b> Hình ảnh xã hội tương lai mà tác giả kỳ vọng là phương án nào?<br><b>Phân tích bài đọc:</b> Tác giả kỳ vọng kết hợp thế mạnh xử lý dữ liệu tốc độ cao của AI với sự đồng cảm, trực giác của con người để cùng giải quyết các vấn đề xã hội phức tạp.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tác giả không chủ trương loại bỏ hoàn toàn AI<br>• <b>2. AIと人間が互いの強みを活かして協力する社会: [Đúng] Xã hội mà AI và con người phát huy thế mạnh của nhau để hợp tác</b><br>• 3. Sai vì không giao toàn bộ quyết định cho AI<br>• 4. Sai vì không hạn chế phát triển công nghệ",
           "passage": "【AIと人間の共存】\n人工知能（AI）の急速な進化により、多くの定型的な業務が自動化されつつある。これによって人間の仕事が奪われるという懸念が広がっているが、私はむしろ人間がより創造的な活動に集中できる好機だと捉えている。AIが得意とする膨大なデータの高速処理と、人間にしかできない共感や直感的なひらめきを組み合わせることで、これまで解決できなかった複雑な社会問題に挑むことができるのである。"
         },
         {
@@ -2118,7 +2118,7 @@ window.JLPT_DATA[11] = {
             "着いたおりに"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Khoảng thời gian ＋ 前後（ぜんご）：</b>Khoảng chừng, xấp xỉ trước sau mốc giờ đã định.<br><b>Dịch nghĩa:</b> Tôi chưa rõ giờ giấc chính xác, nhưng tôi nghĩ sẽ đến nơi vào khoảng tầm 12 giờ.<br><i>Phân tích các phương án:</i><br>• 1. 左右: Khoảng chừng về số lượng tiền bạc/tuổi tác (không dùng 12時左右)<br>• <b>2. 前後: [Đúng] 12時前後 (khoảng trước sau 12 giờ)</b><br>• 3. 上下: Lên xuống, dao động<br>• 4. 内外: Trong ngoài (10人内外)"
+          "explanation": "<b>V-masu + 次第（しだい）：</b>Ngay sau khi V thì sẽ lập tức làm... (空港に着き次第: ngay sau khi tới sân bay).<br><b>Dịch nghĩa:</b> Tôi không biết chính xác giờ, nhưng theo lịch là ngay sau khi tới sân bay thì anh ấy/cô ấy sẽ gọi điện cho tôi.<br><i>Phân tích các phương án:</i><br>• 1. 着かないうちに: Trong lúc chưa tới<br>• <b>2. 着き次第: [Đúng] Ngay sau khi tới nơi (thường đi với hành động tiếp theo ở thì tương lai/dự định)</b><br>• 3. 着いた末に: Sau bao nhiêu gian nan cuối cùng cũng tới (không hợp ngữ cảnh)<br>• 4. 着いたおりに: Nhân dịp đã tới (không tự nhiên ở đây)"
         },
         {
           "id": 136,

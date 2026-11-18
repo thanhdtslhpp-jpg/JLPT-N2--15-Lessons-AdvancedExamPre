@@ -244,7 +244,7 @@ window.JLPT_DATA[2] = window.JLPT_DATA["buoi_02"] = {
             "報道"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>そっと</b>: Nhẹ nhàng, khẽ khàng, không gây tiếng động hoặc để yên không quấy rầy.<br>\n<b>Dịch nghĩa:</b> Tôi đã đặt chiếc cốc thủy tinh lên bàn một cách thật nhẹ nhàng.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>そっと (Đúng)</b>: そっと置く (đặt nhẹ nhàng, khẽ khàng).<br>\n• 2. ほっと: Thở phào nhẹ nhõm (ほっと安心する).<br>\n• 3. じっと: Nhìn chăm chú, chịu đựng bất động (じっと見る, じっと我慢する).<br>\n• 4. ざっと: Sơ qua, đại khái, thoáng qua (ざっと読む)."
+          "explanation": "<b>報道（ほうどう）：</b>Đưa tin, tường thuật (báo chí, truyền hình). Cụm từ: テレビで報道される (được đưa tin trên TV).<br><b>Dịch nghĩa:</b> Việc vận động viên địa phương giành huy chương tại Olympic đã được đưa tin trên truyền hình.<br><i>Phân tích các phương án:</i><br>• 1. 通信（つうしん）: Liên lạc, thông tin liên lạc (qua mạng, bưu chính)<br>• 2. 普及（ふきゅう）: Phổ cập, lan rộng<br>• 3. 伝言（でんごん）: Nhắn lại, lời nhắn<br>• <b>4. 報道（ほうどう）: [Đúng] Đưa tin, phát sóng tin tức trên truyền thông</b>"
         },
         {
           "id": 18,
@@ -258,7 +258,7 @@ window.JLPT_DATA[2] = window.JLPT_DATA["buoi_02"] = {
             "多大な"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>保って (たもって)</b>: Duy trì, giữ gìn ở trạng thái tốt/ổn định (động từ: 保つ, Hán Việt: BẢO).<br>\n<b>Dịch nghĩa:</b> Bác sĩ dặn rằng hãy cố gắng giữ gìn tư thế đúng.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 補って: Bổ sung, bù đắp phần thiếu hụt (補う - おぎなう).<br>\n• 2. <b>保って (Đúng)</b>: 姿勢を保つ (duy trì tư thế tốt/chuẩn).<br>\n• 3. 構って: Bận tâm, để ý, chăm sóc (構う - かまう).<br>\n• 4. 救って: Cứu vớt, giải cứu (救う - すくう)."
+          "explanation": "<b>多大な（ただいな）：</b>To lớn, rất lớn (thường đi với ảnh hưởng, thiệt hại, công lao: 多大な影響を与える).<br><b>Dịch nghĩa:</b> Do bão nên tàu điện bị ngừng chạy, gây ảnh hưởng to lớn đến những người đi làm và đi học.<br><i>Phân tích các phương án:</i><br>• 1. 大まかな（おおまかな）: Đại khái, sơ lược<br>• 2. 偉大な（いだいな）: Vĩ đại (dùng cho nhân vật, thành tựu)<br>• 3. 大げさな（おおげさな）: Khoa trương, phóng đại<br>• <b>4. 多大な（ただいな）: [Đúng] To lớn, nặng nề (cụm cố định: 多大な影響)</b>"
         },
         {
           "id": 19,
