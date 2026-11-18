@@ -183,8 +183,8 @@ window.JLPT_DATA[11] = {
             "最先端",
             "最新"
           ],
-          "correctAnswer": 3,
-          "explanation": "<b>最先端（さいせんたん）：</b>Đi đầu, tiên tiến nhất, hiện đại nhất.<br><b>Dịch nghĩa:</b> Tại đây, người bệnh có thể tiếp nhận nền y tế tiên tiến và hiện đại nhất.<br><i>Phân tích các phương án:</i><br>• 1. 最高: 最高水準 (mức cao nhất, nhưng đi với y tế công nghệ cao thường dùng 最先端水準/最高水準, tuy nhiên trong cụm y tế công nghệ cao thì 最先端 là chuẩn nhất)<br>• 2. 最前: 最前線 (tiền tuyến, tuyến đầu)<br>• <b>3. 最先端: [Đúng] 最先端の医療 (y tế công nghệ cao tiên tiến nhất)</b><br>• 4. 最新: 最新 (mới nhất, dùng 最新の医療 chứ không ghép ghép trực tiếp 最新水準 thông dụng bằng 最先端)"
+          "correctAnswer": 1,
+          "explanation": "<b>最高水準（さいこうすいじゅん）：</b>Tiêu chuẩn/trình độ cao nhất.<br><b>Dịch nghĩa:</b> Tại đây, người bệnh có thể tiếp nhận nền y tế ở trình độ cao nhất.<br><i>Phân tích các phương án:</i><br>• <b>1. 最高: [Đúng] ghép với 水準 thành 最高水準 (mức/trình độ cao nhất), rất tự nhiên trong cụm 最高水準の医療</b><br>• 2. 最前: thường ghép 最前線 (tiền tuyến, tuyến đầu), 最前列 (hàng đầu), không ghép 最前水準<br>• 3. 最先端: thường dùng 最先端の医療 hoặc 最先端技術, không ghép trực tiếp thành 最先端水準<br>• 4. 最新: thường dùng 最新の医療, không ghép thành 最新水準"
         },
         {
           "id": 13,
