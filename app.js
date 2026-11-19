@@ -829,6 +829,13 @@ class JLPTApp {
             }
           }
         }
+
+        // 7. Phím G hoặc /: Mở nhanh ô nhập số câu để nhảy tới câu (gõ số + Enter)
+        if ((e.key === "g" || e.key === "G" || e.key === "/") && !e.ctrlKey && !e.metaKey && !e.altKey) {
+          e.preventDefault();
+          this.openQuickJump();
+          return;
+        }
       }
 
       if (e.key === "h" || e.key === "H") {
@@ -839,6 +846,7 @@ class JLPTApp {
     });
 
     this.setupCheatsheetModal();
+    this.setupQuickJump();
 
     // Khi bôi đen văn bản trên PC / Điện thoại: KHÔNG tự ý hiện ngay bảng nghĩa từ điển
     // Mà chỉ hiển thị thanh tác vụ gọn gàng [Đọc | Tra từ | Sao chép]. Người dùng bấm 'Tra từ' mới mở bảng nghĩa.
@@ -1118,6 +1126,7 @@ class JLPTApp {
 
   showDashboard(pushHistory = true) {
     this.stopTimer();
+    this.closeQuickJump();
     this.saveDraftAnswers();
     this.currentView = "dashboard";
 
@@ -5974,6 +5983,126 @@ class JLPTApp {
     if (nextQ) {
       this.scrollToQuestion(nextQ.id);
     }
+  }
+
+  // TÍNH NĂNG MỚI: Nhảy nhanh tới câu hỏi theo số (gõ số + Enter)
+  setupQuickJump() {
+    const palletInput = document.getElementById("pallet-jump-input");
+    const palletBtn = document.getElementById("btn-pallet-jump");
+    const quickBar = document.getElementById("quick-jump-bar");
+    const quickInput = document.getElementById("quick-jump-input");
+    const quickGo = document.getElementById("btn-quick-jump-go");
+    const quickClose = document.getElementById("btn-quick-jump-close");
+
+    const submitPalletJump = () => {
+      if (!palletInput) return;
+      if (this.jumpToQuestionNumber(palletInput.value)) {
+        palletInput.value = "";
+        palletInput.blur();
+      }
+    };
+
+    if (palletInput) {
+      palletInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          submitPalletJump();
+        } else if (e.key === "Escape") {
+          palletInput.blur();
+        }
+      });
+    }
+    if (palletBtn) {
+      palletBtn.addEventListener("click", submitPalletJump);
+    }
+
+    const submitQuickJump = () => {
+      if (!quickInput) return;
+      if (this.jumpToQuestionNumber(quickInput.value)) {
+        this.closeQuickJump();
+      } else {
+        quickInput.select();
+      }
+    };
+
+    if (quickInput) {
+      quickInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          submitQuickJump();
+        } else if (e.key === "Escape") {
+          e.preventDefault();
+          this.closeQuickJump();
+        }
+      });
+    }
+    if (quickGo) {
+      quickGo.addEventListener("click", submitQuickJump);
+    }
+    if (quickClose) {
+      quickClose.addEventListener("click", () => this.closeQuickJump());
+    }
+
+    document.addEventListener("mousedown", (e) => {
+      if (quickBar && quickBar.style.display !== "none" && !quickBar.contains(e.target)) {
+        this.closeQuickJump();
+      }
+    });
+  }
+
+  openQuickJump() {
+    const bar = document.getElementById("quick-jump-bar");
+    const input = document.getElementById("quick-jump-input");
+    if (!bar || !input) return;
+
+    const all = this.getAllQuestions();
+    if (all.length === 0) return;
+
+    input.max = String(all.length);
+    input.placeholder = `1 - ${all.length}`;
+    input.value = "";
+    bar.style.display = "flex";
+    setTimeout(() => {
+      input.focus();
+      input.select();
+    }, 10);
+  }
+
+  closeQuickJump() {
+    const bar = document.getElementById("quick-jump-bar");
+    const input = document.getElementById("quick-jump-input");
+    if (bar) bar.style.display = "none";
+    if (input) input.blur();
+  }
+
+  jumpToQuestionNumber(rawVal) {
+    const all = this.getAllQuestions();
+    if (all.length === 0) return false;
+
+    const num = parseInt(String(rawVal || "").trim(), 10);
+    if (Number.isNaN(num) || num < 1) {
+      this.showToast(`Vui lòng nhập số câu hợp lệ (1–${all.length})`, "error");
+      return false;
+    }
+
+    let targetQ = all.find((q) => q.id === num);
+    if (!targetQ && num <= all.length) {
+      targetQ = all[num - 1];
+    }
+
+    if (!targetQ) {
+      this.showToast(`Không tìm thấy câu ${num} (1–${all.length})`, "error");
+      return false;
+    }
+
+    // Nếu câu mục tiêu đang bị ẩn bởi bộ lọc (ví dụ đang lọc phần Đọc hiểu), tự động chuyển về "Tất cả"
+    const filtered = this.getFilteredQuestions();
+    if (!filtered.some((q) => q.id === targetQ.id)) {
+      this.setFilter("all");
+    }
+
+    this.scrollToQuestion(targetQ.id);
+    return true;
   }
 
   renderSingleQuestion(qId) {

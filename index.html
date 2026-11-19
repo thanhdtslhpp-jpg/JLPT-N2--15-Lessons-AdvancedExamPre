@@ -244,6 +244,12 @@
           <div class="progress-container">
             <div class="progress-bar" id="pallet-progress-bar"></div>
           </div>
+          <div class="pallet-jump-box">
+            <input type="number" id="pallet-jump-input" min="1" inputmode="numeric" placeholder="Nhập số câu + Enter..." aria-label="Nhập số câu để chuyển nhanh" />
+            <button type="button" id="btn-pallet-jump" class="pallet-jump-btn" title="Đi tới câu (phím tắt G hoặc /)">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
           <div class="pallet-grid" id="pallet-grid">
             <!-- Rendered by app.js -->
           </div>
@@ -306,6 +312,10 @@
                 <span class="sc-keys"><kbd>Space</kbd></span>
                 <span class="sc-desc">Bật/Tắt Audio</span>
               </div>
+              <div class="shortcut-item">
+                <span class="sc-keys"><kbd>G</kbd> <kbd>/</kbd></span>
+                <span class="sc-desc">Nhảy tới câu</span>
+              </div>
             </div>
           </div>
           <!-- Dedicated Dokkai Tools Box (Pinned at Image 1 position) -->
@@ -357,6 +367,15 @@
     <span>Đầu trang</span>
   </button>
   </main>
+
+  <!-- Floating Quick-Jump Bar (G / / + số + Enter) -->
+  <div id="quick-jump-bar" class="quick-jump-bar" style="display: none;" role="dialog" aria-label="Đi tới câu hỏi">
+    <i class="fas fa-crosshairs quick-jump-icon"></i>
+    <label for="quick-jump-input" class="quick-jump-label">Câu:</label>
+    <input type="number" id="quick-jump-input" min="1" inputmode="numeric" placeholder="Nhập số..." autocomplete="off" />
+    <button type="button" id="btn-quick-jump-go" class="quick-jump-go">Enter ↵</button>
+    <button type="button" id="btn-quick-jump-close" class="quick-jump-close" title="Đóng (Esc)" aria-label="Đóng">&times;</button>
+  </div>
 
   <!-- 3. Result Modal (Bảng điểm sau khi nộp bài) -->
   <div class="modal-overlay" id="result-modal" style="display: none;">
