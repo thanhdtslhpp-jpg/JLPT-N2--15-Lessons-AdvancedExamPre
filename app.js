@@ -2963,7 +2963,7 @@ class JLPTApp {
         <div style="display: flex; flex-direction: column; gap: 2rem;">
           <div>
             <h3 style="font-size: calc(1.2rem * var(--cs-scale)); font-weight: 800; color: #f59e0b; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="fas fa-exclamation-triangle"></i> Cẩm Nang 5 Bẫy Đọc Hiểu Kinh Điển JLPT N2
+              <i class="fas fa-exclamation-triangle"></i> Cẩm Nang 7 Bẫy Đọc Hiểu Kinh Điển JLPT N2
             </h3>
             <div class="cs-card-grid">
               ${traps.map((t, idx) => `

@@ -1479,51 +1479,61 @@ window.JLPT_CHEATSHEETS_DATA = {
   "cs_dokkai_choukai": {
     "dokkai_traps": [
       {
-        "trap_name": "Bẫy 1: Từ khóa xuất hiện y nguyên văn bản (文字通りの罠)",
-        "desc": "Phương án sai thường copy 100% cụm từ trong bài đọc để đánh lừa mắt thí sinh. Phương án đúng hầu như LUÔN được paraphrase (diễn đạt lại bằng từ đồng nghĩa hoặc cấu trúc đảo ngược).",
-        "solution": "Thấy phương án giống y sì đúc từng chữ trong bài đọc &rarr; Hãy đặt nghi vấn lớn! Tìm phương án đồng nghĩa (言い換え)."
+        "trap_name": "Bẫy 1: Đáp án chứa từ xuất hiện nguyên văn trong bài (文字通りの罠)",
+        "desc": "Phương án sai thường chứa rất nhiều từ khóa giống y nguyên văn trong bài đọc (80–90%), chỉ đúng một phần hoặc bỏ sót điều kiện/kết luận để đánh lừa thí sinh. Trong khi đó, đáp án đúng thường được diễn đạt lại bằng từ đồng nghĩa (言い換え), tóm tắt ý chính hoặc suy luận từ nhiều câu.",
+        "solution": "Nếu một phương án giống bài đọc tới 80–90%, hãy đọc lại thật kỹ vì đó rất có thể là bẫy! Tìm phương án diễn đạt lại bằng từ đồng nghĩa và kiểm tra đủ điều kiện/kết luận."
       },
       {
-        "trap_name": "Bẫy 2: Đánh tráo phạm vi và tần suất (範囲・頻度のすり替え)",
-        "desc": "Trong bài: 'Một số nhà khoa học (一部の学者)' &rarr; Phương án bẫy: 'Tất cả mọi người (全員 / すべての科学者)'. Hoặc trong bài: 'Thỉnh thoảng (たまに)' &rarr; Đáp án bẫy: 'Luôn luôn (常に / いつも)'.",
-        "solution": "Soi kỹ các lượng từ chỉ mức độ: すべて, 必ず, 誰でも, 絶対 vs 一部, 多くの場合, 傾向がある."
+        "trap_name": "Bẫy 2: Đúng nội dung bài đọc nhưng KHÔNG trả lời câu hỏi",
+        "desc": "Phương án đưa ra một thông tin hoàn toàn có thật và đúng trong bài đọc, nhưng câu hỏi lại đang hỏi về: Ý kiến của tác giả, Mục đích của người viết, Điều quan trọng nhất hoặc Kết luận cuối cùng. Đúng nội dung bài ≠ Đúng đáp án.",
+        "solution": "Tuân thủ nguyên tắc 3 bước: Đọc kỹ câu hỏi &rarr; Khoanh vùng đoạn chứa thông tin trả lời &rarr; So khớp 4 phương án với đúng trọng tâm câu hỏi ở Bước 1."
       },
       {
-        "trap_name": "Bẫy 3: Đảo ngược quan hệ Nguyên nhân - Hệ quả (因果関係の逆転)",
-        "desc": "Bài viết nói A dẫn đến B (AからBが生じる), nhưng câu hỏi lừa thành B là nguyên nhân sinh ra A.",
-        "solution": "Xác định rõ mũi tên logic: Căn cứ vào các từ nối から, ため, によって, 結果."
+        "trap_name": "Bẫy 3: Đánh tráo phạm vi và mức độ tuyệt đối (範囲のすり替え)",
+        "desc": "Trong bài viết: 'Một số người (一部)' / 'Thường xảy ra (多く・時々)' &rarr; Đáp án bẫy đánh tráo thành 'Tất cả mọi người (全員・全て)' / 'Luôn luôn (いつも・常に)'. Chỉ cần đổi phạm vi 一部 &rarr; 全部, 時々 &rarr; いつも là đáp án đã sai.",
+        "solution": "Đặc biệt cảnh giác với các từ diễn tả sự tuyệt đối: 必ず, 絶対に, 常に, 全て, 全員, 完全に. Chỉ chọn khi trong bài có khẳng định chắc chắn tương ứng."
       },
       {
-        "trap_name": "Bẫy 4: Suy diễn quá đà không có trong bài (常識による飛躍)",
-        "desc": "Phương án đọc nghe rất đúng đạo lý và kiến thức xã hội đời thường, nhưng TÁC GIẢ KHÔNG HỀ ĐỀ CẬP trong bài văn.",
-        "solution": "Nguyên tắc vàng: Chỉ chọn những gì CÓ CHỨNG CỨ TRONG BÀI VĂN, không chọn theo cảm tính hay kiến thức ngoài đời."
+        "trap_name": "Bẫy 4: Lấy ý phụ / ví dụ minh họa làm ý chính",
+        "desc": "Bài đọc thường gồm: Ý chính + Ví dụ minh họa + Dẫn chứng. Nhiều thí sinh nhớ rõ ví dụ cụ thể nhưng quên mất kết luận của tác giả, và người ra đề thường đưa ví dụ phụ vào làm đáp án nhiễu.",
+        "solution": "Ghi nhớ nguyên tắc: Ví dụ chỉ là phương tiện làm rõ. Kết luận của tác giả mới là đáp án!"
       },
       {
-        "trap_name": "Bẫy 5: Câu chốt ý của tác giả nằm sau từ nối tương phản (しかし・だが・つまり)",
-        "desc": "Đoạn đầu tác giả thường nêu quan điểm của số đông (一般論) để rồi lật ngược lại ở cuối đoạn sau các liên từ しかし, だが, ところが, 実は.",
-        "solution": "Ý kiến cốt lõi của tác giả luôn nằm ở cuối bài, sau các từ chốt hạ: ～ではないだろうか / ～と私は考える / つまり."
+        "trap_name": "Bẫy 5: Đảo ngược quan hệ Nguyên nhân – Kết quả (因果関係の逆転)",
+        "desc": "Trong bài: A &rarr; B (A là nguyên nhân dẫn đến B), nhưng đáp án bẫy đảo ngược thành B &rarr; A. Do từ vựng giống hệt nhau nên rất dễ bị chọn nhầm.",
+        "solution": "Khi gặp các từ nối chỉ nhân quả như ため, ので, から, その結果, そのため, にともなって, hãy xác định thật rõ vế nào là Nguyên nhân, vế nào là Kết quả."
+      },
+      {
+        "trap_name": "Bẫy 6: Hỏi điều tác giả thực sự muốn nói (筆者の考え・最も言いたいこと)",
+        "desc": "Xu hướng đề N2 rất hay hỏi 筆者の考え, 筆者が最も言いたいこと, この文章で述べたいこと. Tác giả thường đưa ra quan điểm số đông trước rồi mới lật ngược bằng từ nối tương phản ở cuối bài. Đọc từng câu rời rạc mà không nắm mạch văn sẽ dễ mất ý chính.",
+        "solution": "Ưu tiên đọc kỹ và hiểu sâu: Câu đầu đoạn, Câu cuối đoạn và Đoạn kết — đặc biệt sau các từ chốt ý しかし, だが, ところが, つまり, ～ではないだろうか."
+      },
+      {
+        "trap_name": "Bẫy 7: Các đáp án đều có vẻ đúng một phần",
+        "desc": "Đây là dạng gây phân vân nhất khi cả 3–4 phương án đều có vẻ hợp lý. Sự khác biệt nằm ở chỗ: đáp án sai chỉ đúng với một chi tiết/đoạn nhỏ, còn đáp án đúng bao quát được toàn bài.",
+        "solution": "Chọn đáp án bao quát nhất ý toàn bài nhưng tuyệt đối không được suy diễn vượt quá phạm vi nội dung bài đọc."
       }
     ],
     "choukai_formulas": [
       {
         "mondai": "Mondai 1: 課題理解 (Xử lý tình huống)",
-        "tip": "Đọc câu hỏi trước &rarr; Tập trung nghe hành động NGAY SAU ĐÓ (まず何をしますか / このあとすぐ). Khi có nhiều chỉ dẫn, chú ý thứ tự ưu tiên hoặc lời hủy bỏ (～の前に, ～は後にして)."
+        "tip": "1) Tranh thủ lúc đọc hướng dẫn & ví dụ để đọc trước 4 phương án. 2) Không hoảng khi gặp từ lạ/katakana mà nhẩm cách đọc. 3) Tập trung nghe hành động NGAY SAU ĐÓ (まず何をしますか / このあとすぐ) và chú ý thứ tự ưu tiên hoặc lời hủy bỏ (～の前に, ～は後にして). 4) Các phương án sai thường cũng được nhắc tới trong bài nên phải loại trừ cẩn thận."
       },
       {
         "mondai": "Mondai 2: ポイント理解 (Nắm bắt điểm then chốt)",
-        "tip": "Có 20 giây đọc trước 4 đáp án &rarr; Gạch chân từ khóa khác biệt giữa 4 đáp án. Lắng nghe lý do thật sự (理由), thường xuất hiện sau từ chuyển ý: でも, 実は, それより."
+        "tip": "Thường hỏi 5W1H (いつ・どこで・だれが・何を・なぜ・どのように) kèm điều kiện chốt như 最も・一番・どんな. Có 20 giây đọc trước 4 đáp án &rarr; Gạch chân từ khóa khác biệt giữa 4 lựa chọn. Lắng nghe lý do thật sự, thường xuất hiện sau từ chuyển ý: でも, 実は, それより."
       },
       {
         "mondai": "Mondai 3: 概要理解 (Nắm bắt chủ đề khái quát)",
-        "tip": "Không có câu hỏi in sẵn, không được đọc trước &rarr; Nghe liền mạch toàn bộ mạch văn. Tuyệt đối KHÔNG sa đà ghi chú tiểu tiết. Tự hỏi: 'Người nói đang muốn truyền tải thông điệp gì nhất?'"
+        "tip": "Không có câu hỏi và đáp án in sẵn &rarr; phải vừa nghe, vừa nghĩ, vừa memo ý chính (không sa đà ghi tiểu tiết). Nắm chắc mạch văn tổng thể và tự hỏi: 'Chủ đề chính là gì? Người nói đang muốn truyền tải thông điệp gì nhất?'"
       },
       {
         "mondai": "Mondai 4: 即時応答 (Phản xạ tức thì)",
-        "tip": "Mỗi câu chỉ phát trong 3-5 giây. Nắm vững: Kính ngữ (ai làm hành động?), mẫu câu mời mọc/nhờ vả (～てくれない / ～てもいい？) và các phó từ đối đáp thường nhật."
+        "tip": "Câu phát nhanh trong 3–5 giây với 3 dạng chính: (1) Câu hỏi/nhờ vả/đề xuất/xin phép, (2) Đưa ý kiến/cảm nghĩ, (3) Cảm ơn/xin lỗi/khen ngợi. Chốt hạ bằng cách xác định ĐÚNG CHỦ NGỮ hành động (AI LÀM? Vさせてください / Vてもいいですか vs Vましょうか / Vてください / Vたらどう？) và nắm chắc Kính ngữ."
       },
       {
         "mondai": "Mondai 5: 統合理解 (Nghe hiểu tổng hợp dài)",
-        "tip": "Vẽ ma trận chia cột (Người A, Người B, 4 Phương án 1-2-3-4). Ghi chép điểm cộng (+) và điểm trừ (-) của từng lựa chọn khi 2 nhân vật thảo luận và đưa ra quyết định chốt."
+        "tip": "Chia 2 dạng: Dạng 1 (1 câu chuyện dài, không có đáp án sẵn) & Dạng 2 (1 tình huống có 2 câu hỏi). Câu hỏi nằm ở cuối đoạn &rarr; vẽ ma trận chia cột (Người A, Người B, các phương án 1–2–3–4), ghi chú nhanh điểm cộng (+) và điểm trừ (-) của từng lựa chọn khi các nhân vật thảo luận để chốt đáp án cuối."
       }
     ]
   },
