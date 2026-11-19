@@ -1633,132 +1633,132 @@ window.JLPT_DATA[14] = {
       "name": "Phần 4: Chuyên Đề Đoản Văn Đọc Hiểu Nâng Cao (8 câu)",
       "questions": [
         {
-          "id": 102,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者によると、プロフェッショナルの最も重要な特徴は何か。",
-          "options": [
-            "常に高いモチベーションを維持して情熱的に仕事をすること。",
-            "気分の良し悪しに関わらず、常に一定水準以上の成果を安定して出し続けること。",
-            "他の追随を許さない圧倒的な才能とひらめきを持っていること。",
-            "体調を崩すことなく、毎日休まず長時間労働をこなすこと。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, đặc trưng quan trọng nhất của một người làm việc chuyên nghiệp (pro) là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Đoạn văn nêu rõ: 「真のプロフェッショナルとは、自らの体調や感情に左右されることなく、いかなる状況下でも常に一定水準以上の成果（クオリティ）を安定して提供し続けられる人を指す。」 (Người chuyên nghiệp thực thụ là người không bị cảm xúc hay thể trạng cá nhân chi phối, trong bất kỳ hoàn cảnh nào cũng luôn cung cấp ổn định thành quả từ mức chuẩn trở lên).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai thông tin: Bài viết khẳng định điểm khác biệt không chỉ nằm ở kiến thức hay kỹ thuật (技術や知識の差だけではない).<br>\n• <b>2. 感情や体調に左右されず、常に高い品質の成果を出し続けること: [Đúng] Khớp hoàn toàn với định nghĩa trong bài văn.</b><br>\n• 3. Trái ngược bài viết: Tác giả nhấn mạnh \"気分が乗らないからといって質を落とすことは決して許されない\" (tuyệt đối không được giảm chất lượng vì tụt cảm xúc).<br>\n• 4. Không có trong bài: Bài viết không hề đề cập đến việc phớt lờ ý kiến người khác.",
-          "passage": "【短文 1：プロフェッショナルの条件】\n一流と呼ばれるプロフェッショナルとアマチュアの決定的な違いは、「気分の浮き沈み」に仕事を左右されるか否かにある。アマチュアは気分が乗った時にだけ素晴らしいパフォーマンスを発揮するが、プロはモチベーションが上がらない日や体調が万全でない時であっても、常に一定基準以上の成果を淡々と出し続ける。感情をコントロールし、再現性のある仕事を持続することこそが、プロたる所以なのである。"
+                  "id": 102,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "筆者が「負けずぎらい」という言葉は不思議だと言っているのはなぜか。",
+                  "options": [
+                            "江戸時代にできたとされる古い言葉だから",
+                            "人々の誤用や混同によってできた言葉だから",
+                            "文字通りの意味と全く逆の意味の言葉だから",
+                            "つい口に出したくなってしまう言葉だから"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Câu thứ 2 giải thích ngay: nếu đọc nguyên văn thì là «ghét việc không thua» (như thể mong mình thua), nhưng thực tế nghĩa lại hoàn toàn trái ngược (không chịu thua).<br><b>Đáp án 3:</b> Vì đó là từ có nghĩa hoàn toàn ngược lại với nghĩa đen theo từng chữ.",
+                  "passage": "「負けずぎらい」という言葉は不思議だ。そのまま読めば、「負けないことがきらい」なのだから負けることを望んでいるみたいだが、もちろん意味は正反対。（注１）江戸時代に「負けぎらい」と言っていたのが誤用や「（注２）負けじ魂」との混同で「負けずぎらい」に変化したという説があるそうだ。\n口に出すと「負けぎらい」よりも「負けずぎらい」の方がきっぱりと否定する「負けず」がある分、決意や意地を感じる。負けない。それを強調するあまり、言葉としてはおかしい「負けずぎらい」に変化したのかもしれない。\n（東京新聞Web <https://www.tokyo-np.co.jp/article/52206?rct=hissen> 2020年8月31日による）\n\n（注１）江戸時代：西暦1603年〜1868年\n（注２）負けじ魂：他の人に負けないようにがんばろうという精神"
         },
         {
-          "id": 103,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者がこの文章で最も主張したいことは何か。",
-          "options": [
-            "時間を無駄にしないよう、毎日綿密にスケジュールを組むべきだ。",
-            "空き時間があるときは、趣味や副業などの有益な活動に充てるべきだ。",
-            "意識的に何もしない余白の時間を持つことが、創造性や人生の豊かさにつながる。",
-            "スケジュール帳を使わずに、その日の気分次第で行動するのが理想的だ。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điều mà tác giả muốn chủ trương mạnh mẽ nhất trong đoạn văn này là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Tác giả kết luận: 「何もしない『余白（空白）の時間』を意図的に確保することこそが、脳をリフレッシュさせ、創造的なひらめきを育む土壌となるのである。」 (Chính việc chủ động dành ra những khoảng thời gian trống không làm gì mới giúp não bộ thư giãn và tạo mảnh đất màu mỡ nuôi dưỡng cảm hứng sáng tạo).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Trái ngược bài viết: Tác giả phê phán quan niệm sai lầm lấp kín lịch trình (スケジュール帳を予定で埋め尽くすことが充実だと錯覚されがち).<br>\n• 2. Sai trọng tâm: Tác giả khuyên có thời gian \"không làm gì cả\" (何もしない時間), không phải tiếp tục lấp đầy bằng việc phụ hay sở thích.<br>\n• <b>3. 意識的に何もしない余白の時間を持つことが、創造性や人生の豊かさにつながる: [Đúng] Trùng khớp chính xác với luận điểm cốt lõi của tác giả.</b><br>\n• 4. Sai lệch cực đoan: Tác giả không hề khuyên vứt bỏ lịch trình hay hành động tùy tiện theo tâm trạng.",
-          "passage": "【短文 2：時間の使い方と『余白』】\n現代人は手帳やカレンダーアプリに予定をびっしりと詰め込みがちである。空き時間があると「無駄に過ごしてしまった」と罪悪感を覚える人さえいる。しかし、真の創造性や新しいアイデアは、何もしない「余白」の時間からこそ生まれる。スケジュールを予定で埋め尽くすのではなく、意識的に空白の時間を確保することこそが、豊かな人生を送るための知恵なのである。"
+                  "id": 103,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "このメールは何を伝えているか。",
+                  "options": [
+                            "ノートパソコンのセール開催について",
+                            "周辺機器のセール開催について",
+                            "ノートパソコンの修理・点検について",
+                            "周辺機器の修理・点検について"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Phần đầu cảm ơn việc mua laptop trước đây, rồi vào chủ đề chính («さて、この度…») thông báo tổ chức hội chợ bán giảm giá 30%–50% các thiết bị ngoại vi như máy in, máy chiếu.<br><b>Đáp án 2:</b> Về việc tổ chức bán giảm giá thiết bị ngoại vi.",
+                  "passage": "以下は、ある家電量販店から来たメールである。\n\nFrom: nishino@sakuraden.co.jp\nTo: miyashita@xxxmail.com\n件名：さくら電器からお客様へのお知らせ\n\n宮下様\n\nさくら電器の西野でございます。\n先日は当店にてノートパソコン「MM21」をご購入いただき、ありがとうございました。何かお困りのことがございましたら、お気軽にサービスセンターまで修理・点検をご依頼ください。\nさて、この度、当店をご利用くださっているお客様を対象に、プリンターやプロジェクターなど周辺機器の販売会を行うことになりました。\n各メーカーの商品を取り揃え、30%から50%の割引価格で販売いたします。この機会にぜひご購入を検討されてはいかがでしょうか。\nご来店をお待ちしております。\n\n・開催期間：10月12日（火）〜10月15日（金）\n・時間：10:00〜20:00\n・場所：さくら電器本店 6階イベントスペース\n\nさくら電器 西野\n03-1234-5678"
         },
         {
-          "id": 104,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】本文の内容と最もよく一致するものはどれか。",
-          "options": [
-            "失敗を避けるためには、他人の成功事例だけを真似することが望ましい。",
-            "失敗は挑戦した証であり、その原因を分析して次に活かすことが成長につながる。",
-            "一度でも失敗した人は、同じ分野での挑戦を直ちに見合わせるべきだ。",
-            "大きな成功を収めるためには、事前の失敗対策にすべての時間を費やすべきだ。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Phương án nào sau đây phù hợp nhất với nội dung của bài văn?<br>\n<b>Vị trí thông tin & Phân tích:</b> Bài viết chỉ rõ: 「重要なのは...その失敗から何を学び、どのように改善して次の一歩を踏み出すかという姿勢である。失敗の積み重ねこそが成功への唯一の道なのだ。」 (Điều quan trọng là học được gì từ thất bại và cải thiện để bước tiếp ra sao. Sự tích lũy thất bại chính là con đường duy nhất dẫn tới thành công).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Không có trong bài: Tác giả không khuyên sao chép thành công của người khác để né tránh thất bại.<br>\n• <b>2. 失敗は挑戦した証であり、その原因を分析して次に活かすことが成長につながる: [Đúng] Khớp chính xác với tư tưởng rút bài học từ thất bại để bước tiếp.</b><br>\n• 3. Trái ngược bài viết: Tác giả khuyến khích tiếp tục dấn thân cải thiện chứ không phải từ bỏ.<br>\n• 4. Không có trong bài: Tác giả không khuyên dành toàn bộ thời gian chỉ để lo đối phó thất bại.",
-          "passage": "【短文 3：失敗の捉え方と成長】\n挑戦を重ねる人ほど、多くの失敗に直面する。重要なのは、失敗そのものを恥じるのではなく、「なぜうまくいかなかったのか」を客観的に分析し、次の試みの糧とすることだ。失敗を経験していない人は、単に安全な道しか歩んでこなかったにすぎない。失敗とは成功へのプロセスにおける通過点であり、挑戦したこと自体の尊い証拠なのである。"
+                  "id": 104,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文章の内容に合うのはどれか。",
+                  "options": [
+                            "就職に強い大学に通うことこそが、いい会社に就職する方法である。",
+                            "就職率が高ければ高いほど、大学の人気は上がっていくものである。",
+                            "就職ができない人は途中で進路を変えることが多いので、就職率は下がらない。",
+                            "就職率が高いからといって、就職に強い大学であるとは言い切れない。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Tác giả chỉ ra chỉ số «tỷ lệ có việc làm» (tổng người có việc / tổng người muốn xin việc cuối kỳ) thiếu độ tin cậy vì những người đổi hướng giữa chừng đã bị loại khỏi mẫu số.<br><b>Đáp án 4:</b> Không thể khẳng định một trường đại học mạnh về tìm việc chỉ vì tỷ lệ có việc làm cao.",
+                  "passage": "大学の就職率重視の傾向を（注１）象徴する言葉として、「就職に強い大学」という言葉もよく聞く。だが、「就職に強い」とはいったいどういう意味なのであろうか。この言葉は、実は奇妙なものである。一般的に、就職率が高いということを想像するであろうが、そもそも「就職率」という（注２）指標は、最終的な就職決定者を最終的な就職希望者で割ったものであり、途中で進路変更した人が抜けていくので、指標としてやや信頼性に欠けるものである。\n（常見陽平『「就活」と日本社会 平等幻想を超えて』NHK出版による）\n\n（注１）象徴する：具体的に表現する\n（注２）指標：何かを判断したり、評価したりするための基準となるもの"
         },
         {
-          "id": 105,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】この案内から分かる研修の参加手続きとして正しいものはどれか。",
-          "options": [
-            "テキストは研修初日に研修センターの受付で配布される。",
-            "欠席する場合は、初日の朝8時までに人事部へ連絡すればよい。",
-            "参加者は筆記用具とテキストを持参し、初日午前9時までに集合する。",
-            "研修はすべてオンライン形式で自宅から参加する。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo thông báo này, thủ tục tham gia khóa đào tạo tân binh nào sau đây là đúng?<br>\n<b>Vị trí thông tin & Phân tích:</b> Đoạn thông báo ghi rõ ràng: 「初日の午前9時までに筆記用具持参の上、集合してください。」 và 「参加者は事前に配布された研修テキストを熟読し」 (Người tham gia tập trung trước 9h sáng ngày đầu tiên mang theo đồ dùng viết, tài liệu đào tạo đã được phát trước đó để đọc kỹ).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai thông tin: Tài liệu được phát từ trước (事前に配布された), không phải phát tại quầy vào ngày đầu tiên.<br>\n• 2. Sai mốc thời gian: Nếu vắng mặt phải báo trước 17h ngày hôm trước (前日17時までに), không phải sáng 8h ngày đầu.<br>\n• <b>3. 参加者は筆記用具とテキストを持参し、初日午前9時までに集合する: [Đúng] Khớp hoàn toàn thông tin trong văn bản hướng dẫn.</b><br>\n• 4. Sai hình thức: Tổ chức trực tiếp tại trung tâm đào tạo của trụ sở chính (本社研修センターにて実施), không phải online tại nhà.",
-          "passage": "【短文 4：新入社員研修のご案内】\n本年度の新入社員研修は、来月15日より5日間の日程で本社研修センターにて実施されます。ビジネスマナー、コンプライアンス教育、グループワークを通じた課題解決演習など多岐にわたるプログラムを用意しております。参加者は初日午前9時までに筆記用具および指定のテキストを持参の上、第3会議室へお集まりください。なお、体調不良等で欠席する場合は、前日午後5時までに人事部へご連絡願います。"
+                  "id": 105,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文章で筆者が最も言いたいことは何か。",
+                  "options": [
+                            "駅の中のトイレをきれいに使うよう、心がけてほしい。",
+                            "人に何かを頼むときは、直接的に指示したほうがいい。",
+                            "人から指示をされた場合、まずは素直に従わなければならない。",
+                            "普段から、人に何か伝えるときは言葉選びに注意すべきだ。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Câu cuối: cùng một nội dung nhưng chỉ cần khác cách nói là ấn tượng của người nhận thay đổi; hàng ngày nên để tâm đến cách diễn đạt khi truyền đạt cho đối phương.<br><b>Đáp án 4:</b> Hàng ngày khi truyền đạt điều gì cho người khác cần chú ý lựa chọn từ ngữ.",
+                  "passage": "駅の中などのトイレで「いつもきれいに使っていただき、ありがとうございます」という張り紙をよく見かける。トイレをきれいに使うように、ということを言っているのだが、「トイレをきれいに使ってください」と直接的に指示されるよりも、すんなりと受け入れられる気がする。このように同じ内容を伝えたい場合でも、言い方ひとつで受け手の印象は変わるのだ。日頃から、相手に自分の言いたいことをどのように伝えていくのか、言い回しには気を配りたいものだ。"
         },
         {
-          "id": 106,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が考える「良好な人間関係を保つコツ」はどれか。",
-          "options": [
-            "相手と常に感情を共有し、隠し事のない関係を築くこと。",
-            "親しい関係であっても適度な心理的距離を保ち、互いの自立を尊重すること。",
-            "相手の個人的な問題には一切関わらず、形式的な付き合いに留めること。",
-            "自分の意見を主張せず、常に相手の要求を優先して受け入れること。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, bí quyết để duy trì mối quan hệ tốt đẹp lâu dài giữa con người với nhau là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Tác giả khẳng định: 「親しい間柄であっても適度な『心理的距離（境界線）』を保つことが不可欠である。...互いを一個の自立した人間として尊重し、適度な境界線を引くことこそが、長続きする健全な信頼関係の基盤となる。」 (Dù thân thiết đến đâu cũng cần duy trì ranh giới tâm lý thích hợp và tôn trọng nhau như những cá nhân độc lập tự chủ).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai cảnh báo: Tác giả cảnh báo nếu quá cuốn vào cảm xúc của đối phương sẽ dẫn đến kiệt sức và phụ thuộc lẫn nhau (共依存や疲弊を招く).<br>\n• <b>2. 親しい関係であっても適度な心理的距離を保ち、互いの自立を尊重すること: [Đúng] Khớp chính xác với thông điệp về ranh giới tâm lý và sự tự lập.</b><br>\n• 3. Sai lệch tiêu cực: Tác giả không bảo tuyệt đối không quan tâm hay chỉ giao tiếp hình thức lạnh lùng.<br>\n• 4. Không có trong bài: Tác giả không hề khuyên luôn nhẫn nhịn hay ưu tiên đòi hỏi của đối phương.",
-          "passage": "【短文 5：人間関係における『境界線』】\n良好な人間関係を維持するためには、親しい間柄であっても適度な「心理的距離（境界線）」を保つことが不可欠である。相手を思いやるあまり、過度に相手のプライベートに踏み込んだり、相手の感情に巻き込まれすぎたりすると、やがて共依存や疲弊を招く。互いを一個の自立した人間として尊重し、適度な境界線を引くことこそが、長続きする健全な信頼関係の基盤となる。"
+                  "id": 106,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "クジャクの目玉模様について、内容に合うのはどれか。",
+                  "options": [
+                            "羽の音を出すためには目玉模様が必要である。",
+                            "羽毛をこすることで目玉模様は大きくなっていく。",
+                            "いい声で鳴く雄は目玉模様もきれいである。",
+                            "生命力が強い雄ほど羽に目玉模様が多い。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Bài viết nêu số lượng họa tiết mắt trên lông chim công nhiều chứng tỏ con chim đó đã vượt qua được sự tấn công của kẻ săn mồi và ký sinh trùng để sống sót.<br><b>Đáp án 4:</b> Con đực có sức sống càng mạnh thì trên lông càng có nhiều họa tiết mắt.",
+                  "passage": "以下は、クジャクという鳥について書かれた文章である。\n\nクジャクの（注１）雄は（注２）上尾筒を持ち上げて、（注３）雌の周りをゆっくり回りながら、時々広げた羽を揺さぶり、羽毛のこすれる音を出して求愛する。宝石をちりばめたような飾り羽と、きらびやかな目玉模様が広がっている。雌はその目玉模様の数の多さと、魅力的な鳴き声で雄を選ぶという。毎年（注４）換羽するたびに扇状に広げる羽は大きくなるので、目玉模様の数はそれだけ（注５）捕食者や（注６）寄生虫の攻撃を切り抜けてきたことを示す。目玉模様が多いということは、その鳥が生き延びてきた証である。\n（浅間茂『虫や鳥が見ている世界―紫外線写真が明かす生存戦略』中央公論新社による）\n\n（注１）雄：男。動物の性別を表す際に使われる\n（注２）上尾筒：鳥の尾羽の付け根の上面をおおっている羽\n（注３）雌：女。動物の性別を表す際に使われる\n（注４）換羽する：鳥の羽毛が抜け変わること\n（注５）捕食者：他の動物をえさとして食べる動物\n（注６）寄生虫：動物の体表や体内から栄養をとって生活する生物"
         },
         {
-          "id": 107,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が推奨する集中力向上のアプローチはどれか。",
-          "options": [
-            "強い意志を持って、何時間でも休憩を取らずに机に向かい続ける。",
-            "周囲の誘惑を排除し、ストレッチを取り入れるなど作業環境を整える。",
-            "集中力を高めるために、スマートフォンで音楽を常に聴きながら作業する。",
-            "作業スペースにはできるだけ多くの参考資料を手の届く範囲に広げておく。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cách tiếp cận nâng cao khả năng tập trung mà tác giả khuyến nghị là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Đoạn văn khuyên: 「意志の力に頼るよりも『環境』を整えることが効果的である。机の上に余計な書類やスマートフォンを置かない、一定時間ごとに立ち上がって軽くストレッチをするなど、集中を妨げる要因を物理的に排除することが重要だ。」 (Thay vì dựa vào ý chí, hãy dọn dẹp môi trường: cất tài liệu thừa và điện thoại, đứng dậy giãn cơ định kỳ).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai lời khuyên: Tác giả khuyên đừng chỉ trông cậy vào ý chí (意志の力に頼るよりも) và cần đứng dậy nghỉ ngơi giãn cơ.<br>\n• <b>2. 周囲の誘惑を排除し、ストレッチを取り入れるなど作業環境を整える: [Đúng] Khớp chính xác với giải pháp loại bỏ cám dỗ và điều chỉnh môi trường.</b><br>\n• 3. Trái ngược bài viết: Không được để điện thoại trên bàn làm việc (スマートフォンを置かない).<br>\n• 4. Trái ngược bài viết: Tránh bày bừa tài liệu thừa thãi trên bàn (余計な書類を置かない).",
-          "passage": "【短文 6：集中力を保つ環境づくり】\n長時間のデスクワークにおいて集中力を維持するためには、意志の力に頼るよりも「環境」を整えることが効果的である。机の上に余計な書類やスマートフォンを置かない、一定時間ごとに立ち上がって軽くストレッチをするなど、集中を妨げる要因を物理的に排除することが重要だ。集中できない自分を責める前に、まず作業環境を見直すことから始めよう。"
+                  "id": 107,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "東日本大震災の津波でこの小中学校の児童・生徒が助かったのはなぜか。",
+                  "options": [
+                            "逃げる道が決められ、逃げ方を教育されていたから",
+                            "自分のことだけ考えず、みんなで協力して逃げたから",
+                            "それぞれが自分で判断して逃げることができたから",
+                            "それぞれが大人の言うことを聞いて逃げたから"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Giáo dục «Tsunami Tendenko» dạy rằng khi có sóng thần không bận tâm đến người khác mà mỗi người tự chạy thoát và hẹn gặp ở vùng đất cao; những đứa trẻ đã thể hiện năng lực tự suy nghĩ đó.<br><b>Đáp án 3:</b> Vì mỗi em đã có thể tự mình phán đoán và chạy thoát.",
+                  "passage": "2011年3月11日に発生した東日本大震災による津波は多くの犠牲者を出した。そんな中、登校児童・生徒全員が無事だった小中学校が岩手県釜石市にある。昔から津波の被害があったこの地域では、「津波てんでんこ」という教育がなされている。「てんでんこ」とは「それぞれ」や「各自」を意味する「てんでん」に東北方言の「こ」が付いた言葉で、「津波のときは人にかまわず、てんでんに逃げ、高台で会おう」という教えである。てんでんがてんでんの逃げる力を信じ逃げろというのだ。震災から10年、てんでんに考える力を見せた子どもたちは、頼もしい大人になっているに違いない。"
         },
         {
-          "id": 108,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者によると、美術鑑賞で最も重視されるべきものは何か。",
-          "options": [
-            "専門書を熟読して美術史の知識を完璧に予習しておくこと。",
-            "専門家の解説通りに作品の意図を正確に読み解くこと。",
-            "作品を前にした時に抱く、自分自身の素直な感情や自由な感性。",
-            "絵画の市場価値やオークションでの評価額を把握すること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, điều nên được coi trọng nhất khi thưởng ngoạn nghệ thuật hội họa là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Tác giả nhấn mạnh: 「アートの鑑賞において最も大切なのは、作品を前にした時に自分自身の心がどう動いたかという素直な感性である。...自分なりの自由な視点で美を感じ取ることが鑑賞の真髄なのである。」 (Điều quan trọng nhất là cảm xúc chân thực của trái tim mình khi đứng trước tác phẩm, cảm nhận vẻ đẹp bằng góc nhìn tự do của riêng mình).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Quan niệm sai lầm mà bài viết nêu: Nhiều người lầm tưởng phải học thuộc sử nghệ thuật mới xem tranh được.<br>\n• 2. Sai quan điểm: Tác giả đề cao cảm nhận tự do của bản thân chứ không phải rập khuôn theo lời chuyên gia.<br>\n• <b>3. 作品を前にした時に抱く、自分自身の素直な感情や自由な感性: [Đúng] Khớp hoàn toàn với câu đúc kết cốt lõi của tác giả.</b><br>\n• 4. Không có trong bài: Giá trị tiền bạc hay đấu giá tranh không phải mục đích thưởng thức nghệ thuật.",
-          "passage": "【短文 7：アート鑑賞と個人の感性】\n美術館で絵画を見る際、「正しい鑑賞法」や「歴史的背景の知識」がなければ理解できないと思い込んでいる人が多い。しかし、アートの鑑賞において最も大切なのは、作品を前にした時に自分自身の心がどう動いたかという素直な感性である。知識は作品を深める助けにはなるが、まずは固定観念にとらわれず、自分なりの自由な視点で美を感じ取ることが鑑賞の真髄なのである。"
+                  "id": 108,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "後期健康診断について、正しいものはどれか。",
+                  "options": [
+                            "後期健康診断の対象者は必ず期間内に受診しなければならない。",
+                            "新入社員は全員、前期健康診断を受けているので、対象ではない。",
+                            "希望日に受診したい人は9月15日までに申込用紙を出さなければならない。",
+                            "都合が悪い人は9月10日まで中央診療所に連絡をしなければならない。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Thông báo ghi rõ nếu không nộp phiếu đăng ký trước hạn 15/9 (thứ Tư) thì có khả năng không được khám vào ngày mong muốn.<br><b>Đáp án 3:</b> Người muốn khám vào ngày mong muốn phải nộp phiếu đăng ký trước ngày 15/9.",
+                  "passage": "以下は、ある会社の社内文書である。\n\n2021年9月1日\n社員各位\n管理部 安田光\n\n後期健康診断実施のお知らせ\n\n今年度の後期健康診断を、下記の通り実施いたします。対象者は受診申込用紙に氏名、生年月日、受診希望日を記入の上、9月15日（水）までに管理部の安田まで提出してください。\nなお、出張などの都合で期間内に受診できない社員は9月10日（金）までにご連絡ください。こちらで受診日を調整します。期限までに受診申込用紙を提出しない場合は希望日に受けられない可能性がありますので、ご注意ください。\n\n記\n期間：10月1日（金）から10月15日（金）\n場所：中央診療所\n対象者：前期健康診断を受診しなかった全社員\nただし、新入社員は入社前に健康診断を受けているので、除きます。\n以上"
         },
         {
-          "id": 109,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が考える「地域コミュニティの緩やかなつながり」の意義は何か。",
-          "options": [
-            "個人の自由を制限し、地域の厳しい掟に従わせること。",
-            "災害時や困難な状況における安心や相互支援のセーフティネットとなること。",
-            "隣人のプライベートを詳細に把握して防犯に役立てること。",
-            "地域の経済活動を活性化させて観光客を呼び込むこと。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, ý nghĩa của \"sự gắn kết lỏng lẻo trong cộng đồng địa phương\" là gì?<br>\n<b>Vị trí thông tin & Phân tích:</b> Đoạn văn nêu bật: 「日常的な挨拶やちょっとした立ち話など、緩やかなつながりを維持しておくことは、いざという時の安心と相互支援のセーフティネットとなる。人と人とのつながりは、目に見えない社会のインフラなのである。」 (Những câu chào hỏi thường nhật chính là chiếc lưới an toàn vô giá để an tâm và tương trợ lẫn nhau khi biến cố, thiên tai xảy ra).<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai lệch hoàn toàn: Gắn kết lỏng lẻo không hề gò bó ép buộc hay hạn chế tự do cá nhân.<br>\n• <b>2. 災害時や困難な状況における安心や相互支援のセーフティネットとなること: [Đúng] Khớp chính xác với cụm từ \"いざという時の安心と相互支援のセーフティネットとなる\".</b><br>\n• 3. Sai mục đích: Không phải là tò mò săm soi đời tư của hàng xóm láng giềng.<br>\n• 4. Không có trong bài: Bài viết nói về an sinh và sự tương trợ giữa người với người, không nói về du lịch kinh tế.",
-          "passage": "【短文 8：コミュニティの役割】\n地域社会におけるコミュニティの希薄化が叫ばれて久しい。隣人の顔すら知らない都市生活は気楽である一方、災害時や孤立といった危機に対して脆弱である。日常的な挨拶やちょっとした立ち話など、緩やかなつながりを維持しておくことは、いざという時の安心と相互支援のセーフティネットとなる。人と人とのつながりは、目に見えない社会のインフラなのである。"
+                  "id": 109,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "筆者によると、少数派とはどのような人間か。",
+                  "options": [
+                            "自分とは異なる意見を持っている人を敵と思っている人",
+                            "議論は喧嘩ではなく良い結果を生むための過程だと考える人",
+                            "自分の意見が正当だと信じ、意見を変えようとしない人",
+                            "多数派の意見を尊重し、自分の意見を多数派に寄せようとする人"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Người thuộc nhóm thiểu số hiểu rằng khác biệt là tự nhiên, chính nhờ khác biệt mới tranh luận được, và va chạm ý kiến khác nhau sẽ dẫn đến kết quả tốt hơn.<br><b>Đáp án 2:</b> Người coi tranh luận không phải cãi vã mà là quá trình để tạo ra kết quả tốt.",
+                  "passage": "自分が意見が多数とは違うと認識している少数派の人間は、意見が違っても敵だとは考えない。意見が違うことが自然であり、違うからこそ議論ができる、と考える。違う意見をぶつけることで、もっと良い結果になると知っている。議論をするのは、意見は違っても相手を尊重するという姿勢を持っているからだ。多数派は、自分の意見に反対されると、それはもう喧嘩だ、と捉えがちだし、なんとか相手を説得しようとするだろう。少数派は、反対することは、協力の一種だと考えているし、説得は難しいけれど、お互いに歩み寄ろうとする。\n（森博嗣『集中力はいらない』SBクリエイティブ）"
         }
       ]
     },
