@@ -2989,6 +2989,1223 @@ window.JLPT_DATA[7] = {
       ]
     },
     {
+      "id": "de_t7_2026",
+      "name": "Đề Thi Thử N2 T7/2026 (Full Đọc - Viết) - 71 Câu",
+      "icon": "fa-file-alt",
+      "questions": [
+        {
+          "id": 272,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (N2 T7-2026)",
+          "sentence": "祖父は<ruby>濃<rt>______</rt></ruby>い味のものを好む。",
+          "targetWord": "濃い",
+          "options": [
+            "からい",
+            "うすい",
+            "あまい",
+            "こい"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>濃い（こい）</b>: đậm đà (vị), đặc, sẫm.<br><b>Dịch:</b> Ông tôi thích những món có vị đậm."
+        },
+        {
+          "id": 273,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (N2 T7-2026)",
+          "sentence": "次の<ruby>競技<rt>______</rt></ruby>に出場する人は、あちらに集まってください。",
+          "targetWord": "競技",
+          "options": [
+            "きょうぎ",
+            "きゅうぎ",
+            "きょうじ",
+            "きゅうじ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>競技（きょうぎ）</b>: thi đấu, môn thi đấu.<br><b>Dịch:</b> Những người tham gia môn thi đấu tiếp theo xin hãy tập trung ở đằng kia."
+        },
+        {
+          "id": 274,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (N2 T7-2026)",
+          "sentence": "傷口を洗ったら、この薬で<ruby>消毒<rt>______</rt></ruby>してください。",
+          "targetWord": "消毒",
+          "options": [
+            "しょうどく",
+            "しょうとく",
+            "しょどく",
+            "しょとく"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>消毒（しょうどく）</b>: khử trùng, sát trùng.<br><b>Dịch:</b> Sau khi rửa vết thương xong, hãy sát trùng bằng thuốc này."
+        },
+        {
+          "id": 275,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (N2 T7-2026)",
+          "sentence": "彼のことは、もう<ruby>構<rt>______</rt></ruby>わないことにした。",
+          "targetWord": "構わない",
+          "options": [
+            "かばわない",
+            "かまわない",
+            "きらわない",
+            "さそわない"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>構う（かまう）</b>: bận tâm, quan tâm, để ý.<br><b>Dịch:</b> Tôi đã quyết định không bận tâm đến anh ta nữa."
+        },
+        {
+          "id": 276,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (N2 T7-2026)",
+          "sentence": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、父の古くからの<ruby>知人<rt>______</rt></ruby>です。",
+          "targetWord": "知人",
+          "options": [
+            "ちにん",
+            "しじん",
+            "ちじん",
+            "しにん"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>知人（ちじん）</b>: người quen.<br><b>Dịch:</b> Ông Suzuki là người quen lâu năm của bố tôi."
+        },
+        {
+          "id": 277,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (N2 T7-2026)",
+          "sentence": "十分な<u>すいみん</u>を確保する。",
+          "targetWord": "すいみん",
+          "options": [
+            "垂眼",
+            "垂眠",
+            "睡眼",
+            "睡眠"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>睡眠（すいみん）</b>: giấc ngủ.<br><b>Dịch:</b> Đảm bảo giấc ngủ đầy đủ."
+        },
+        {
+          "id": 278,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (N2 T7-2026)",
+          "sentence": "未来のために、<u>しげん</u>を大切にしよう。",
+          "targetWord": "しげん",
+          "options": [
+            "資源",
+            "自然",
+            "資然",
+            "自源"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>資源（しげん）</b>: tài nguyên.<br><b>Dịch:</b> Hãy trân trọng tài nguyên vì tương lai."
+        },
+        {
+          "id": 279,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (N2 T7-2026)",
+          "sentence": "野菜ジュースを飲んで<ruby>栄養<rt>えいよう</rt></ruby>を<u>おぎなう</u>。",
+          "targetWord": "おぎなう",
+          "options": [
+            "哺う",
+            "捕う",
+            "補う",
+            "浦う"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>補う（おぎなう）</b>: bổ sung, bù đắp.<br><b>Dịch:</b> Uống nước ép rau củ để bổ sung dinh dưỡng."
+        },
+        {
+          "id": 280,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (N2 T7-2026)",
+          "sentence": "<ruby>親戚<rt>しんせき</rt></ruby>のおじさんに<u>せっきょう</u>された。",
+          "targetWord": "せっきょう",
+          "options": [
+            "説教",
+            "説強",
+            "節教",
+            "節強"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>説教（せっきょう）</b>: thuyết giáo, răn dạy, mắng.<br><b>Dịch:</b> Tôi bị ông chú họ hàng lên lớp cho một trận."
+        },
+        {
+          "id": 281,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (N2 T7-2026)",
+          "sentence": "<ruby>佐藤<rt>さとう</rt></ruby>さんは<u>あざやか</u>な色のシャツを着ていた。",
+          "targetWord": "あざやか",
+          "options": [
+            "明やか",
+            "鮮やか",
+            "照やか",
+            "清やか"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>鮮やか（あざやか）</b>: rực rỡ, tươi tắn.<br><b>Dịch:</b> Anh Sato mặc chiếc áo sơ mi màu sắc rực rỡ."
+        },
+        {
+          "id": 282,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (N2 T7-2026)",
+          "sentence": "（　　）グループから代表者1名を選出してください。",
+          "options": [
+            "部",
+            "毎",
+            "個",
+            "各"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>各（かく）</b>: mỗi, từng (各グループ: từng nhóm).<br><b>Dịch:</b> Hãy bầu chọn 1 người đại diện từ mỗi nhóm."
+        },
+        {
+          "id": 283,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (N2 T7-2026)",
+          "sentence": "私の国は大統領（　　）を採用している。",
+          "options": [
+            "法",
+            "制",
+            "則",
+            "律"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>大統領制（だいとうりょうせい）</b>: chế độ tổng thống.<br><b>Dịch:</b> Nước tôi áp dụng chế độ tổng thống."
+        },
+        {
+          "id": 284,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (N2 T7-2026)",
+          "sentence": "<ruby>卵<rt>たまご</rt></ruby>（　　）のきれいな石を見つけました。",
+          "options": [
+            "感",
+            "同",
+            "大",
+            "近"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>卵大（らんだい）</b>: to cỡ quả trứng.<br><b>Dịch:</b> Tôi đã tìm thấy viên đá đẹp to bằng quả trứng."
+        },
+        {
+          "id": 285,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "明日の天気によって、イベントを行うかどうか（　　）する予定です。",
+          "options": [
+            "判断",
+            "確信",
+            "特定",
+            "評価"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>判断（はんだん）</b>: phán đoán, quyết định.<br><b>Dịch:</b> Dự kiến sẽ quyết định có tổ chức sự kiện hay không tùy thuộc vào thời tiết ngày mai."
+        },
+        {
+          "id": 286,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "<ruby>山本<rt>やまもと</rt></ruby>氏は、今は作家として有名だが、（　　）は俳優をしていたのだそうだ。",
+          "options": [
+            "もともと",
+            "生まれつき",
+            "先ほど",
+            "あらかじめ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>もともと</b>: vốn dĩ, ban đầu.<br><b>Dịch:</b> Ông Yamamoto hiện nổi tiếng với tư cách nhà văn, nhưng nghe nói vốn dĩ trước kia là diễn viên."
+        },
+        {
+          "id": 287,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "会議に参加するメンバーの都合を聞いて、日程の（　　）を行った。",
+          "options": [
+            "改定",
+            "整備",
+            "改正",
+            "調整"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>調整（ちょうせい）</b>: điều chỉnh, sắp xếp lại.<br><b>Dịch:</b> Hỏi lịch thuận tiện của các thành viên tham gia họp rồi tiến hành điều chỉnh lịch trình."
+        },
+        {
+          "id": 288,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "お金をかけて開発した商品が売れず、A社は今年、大きな（　　）を出した。",
+          "options": [
+            "不良",
+            "赤字",
+            "消失",
+            "欠点"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>赤字（あかじ）</b>: thâm hụt, thua lỗ.<br><b>Dịch:</b> Sản phẩm đầu tư phát triển tốn kém không bán được, năm nay công ty A bị lỗ lớn."
+        },
+        {
+          "id": 289,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "<ruby>中村<rt>なかむら</rt></ruby>さんは（　　）性格だから、そういう細かいことは気にしないだろう。",
+          "options": [
+            "なまいきな",
+            "おおざっぱな",
+            "わがままな",
+            "いじわるな"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>おおざっぱな</b>: xuề xòa, đại khái, không để ý tiểu tiết.<br><b>Dịch:</b> Anh Nakamura tính cách xuề xòa nên chắc không để ý những chuyện nhỏ nhặt thế đâu."
+        },
+        {
+          "id": 290,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "彼は今までどんな苦労にも負けずに、一人で（　　）生きてきた。",
+          "options": [
+            "いちじるしく",
+            "痛ましく",
+            "たくましく",
+            "恐ろしく"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>たくましく</b>: mạnh mẽ, kiên cường.<br><b>Dịch:</b> Anh ấy từ trước đến nay không chịu thua bất kỳ gian khổ nào, một mình sống kiên cường."
+        },
+        {
+          "id": 291,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (N2 T7-2026)",
+          "sentence": "仕事の話をしていたのに、いつのまにか話が（　　）、家族の話をしていた。",
+          "options": [
+            "<ruby>反<rt>はん</rt></ruby>して",
+            "<ruby>狂<rt>くる</rt></ruby>って",
+            "それて",
+            "<ruby>偏<rt>かたよ</rt></ruby>って"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>話がそれる</b>: câu chuyện bị lạc đề, chệch hướng.<br><b>Dịch:</b> Đang nói chuyện công việc mà lúc nào không hay câu chuyện đã lạc sang chuyện gia đình."
+        },
+        {
+          "id": 292,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (N2 T7-2026)",
+          "sentence": "質問があったので、<u>メーカー</u>に問い合わせた。",
+          "targetWord": "メーカー",
+          "options": [
+            "製品を輸入した会社",
+            "製品を売った店",
+            "製品を修理した店",
+            "製品を作った会社"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>メーカー ＝ 製品を作った会社</b>: nhà sản xuất.<br><b>Dịch:</b> Vì có thắc mắc nên tôi đã liên hệ hỏi nhà sản xuất."
+        },
+        {
+          "id": 293,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (N2 T7-2026)",
+          "sentence": "今あなたの国で、<u>はやっている</u>ものは何ですか。",
+          "targetWord": "はやっている",
+          "options": [
+            "制限して",
+            "増加して",
+            "流行して",
+            "発展して"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>はやる ＝ 流行する（りゅうこうする）</b>: thịnh hành, đang mốt.<br><b>Dịch:</b> Hiện nay ở nước bạn thứ gì đang thịnh hành vậy?"
+        },
+        {
+          "id": 294,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (N2 T7-2026)",
+          "sentence": "ここでは、商品を<u><ruby>一括<rt>いっかつ</rt></ruby>して</u>管理している。",
+          "targetWord": "一括して",
+          "options": [
+            "細かく分けて",
+            "箱に入れて",
+            "しばらくの間",
+            "全部いっしょにして"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>一括して ＝ 全部いっしょにして</b>: gộp chung lại toàn bộ.<br><b>Dịch:</b> Ở đây quản lý gộp chung toàn bộ hàng hóa."
+        },
+        {
+          "id": 295,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (N2 T7-2026)",
+          "sentence": "先週、<u>思いがけない</u>出来事があった。",
+          "targetWord": "思いがけない",
+          "options": [
+            "信じられない",
+            "予想していなかった",
+            "忘れられない",
+            "経験したことがない"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>思いがけない ＝ 予想していなかった</b>: bất ngờ, không ngờ tới.<br><b>Dịch:</b> Tuần trước có một sự việc bất ngờ xảy ra."
+        },
+        {
+          "id": 296,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (N2 T7-2026)",
+          "sentence": "次の目標に向かって、これから<u>いっそう</u>努力しようと思います。",
+          "targetWord": "いっそう",
+          "options": [
+            "もっと",
+            "できるだけ",
+            "しっかり",
+            "いつも"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>いっそう ＝ もっと</b>: càng thêm, hơn nữa.<br><b>Dịch:</b> Hướng tới mục tiêu tiếp theo, từ nay tôi sẽ nỗ lực hơn nữa."
+        },
+        {
+          "id": 297,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (N2 T7-2026)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>要点</b>",
+          "targetWord": "要点",
+          "options": [
+            "彼は今、成功するかどうかの要点にいる。",
+            "人間にとっての要点は、心臓と<ruby>脳<rt>のう</rt></ruby>である。",
+            "あまり時間がなかったので、計画の要点だけを説明した。",
+            "卒業式の日に先生にいただいた言葉は私の要点です。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>要点（ようてん）</b>: điểm chính, trọng tâm.<br><b>Dịch câu đúng (3):</b> Vì không có nhiều thời gian nên tôi chỉ giải thích những điểm chính của kế hoạch."
+        },
+        {
+          "id": 298,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (N2 T7-2026)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b><ruby>裂<rt>さ</rt></ruby>ける</b>",
+          "targetWord": "裂ける",
+          "options": [
+            "壁から飛び出していたくぎに引っかかって、スカートが裂けてしまった。",
+            "ズボンのポケットに<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>を入れていたら、画面が裂けてしまった。",
+            "硬い肉を切ろうとして力を入れたら、<ruby>箸<rt>はし</rt></ruby>が裂けてしまった。",
+            "冷蔵庫を開けたときに<ruby>卵<rt>たまご</rt></ruby>が落ちて裂けてしまった。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>裂ける（さける）</b>: bị rách toạc (vải, giấy...).<br><b>Dịch câu đúng (1):</b> Bị mắc vào chiếc đinh nhô ra từ tường nên chiếc váy bị rách toạc mất."
+        },
+        {
+          "id": 299,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (N2 T7-2026)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>経過</b>",
+          "targetWord": "経過",
+          "options": [
+            "うっかりして、降りる駅を経過してしまった。",
+            "忙しすぎて、季節が経過するのに気づけなかった。",
+            "たくさんの失敗を経過して、<ruby>立派<rt>りっぱ</rt></ruby>な大人になった。",
+            "<ruby>就職<rt>しゅうしょく</rt></ruby>して1年が経過し、新しい生活にも慣れてきた。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>経過（けいか）</b>: trôi qua (thời gian).<br><b>Dịch câu đúng (4):</b> Đi làm được 1 năm trôi qua, tôi cũng đã quen với cuộc sống mới."
+        },
+        {
+          "id": 300,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (N2 T7-2026)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>打ち消す</b>",
+          "targetWord": "打ち消す",
+          "options": [
+            "用事ができて旅行に行けなくなったので、ホテルの予約を打ち消した。",
+            "その選手は記者会見で引退のうわさを打ち消した。",
+            "答えを書く場所を間違えたので、全部打ち消して書き直した。",
+            "仕事内容を見直し、残業を先月より50パーセント打ち消した。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>打ち消す（うちけす）</b>: phủ nhận, bác bỏ (tin đồn, nghi ngờ...).<br><b>Dịch câu đúng (2):</b> Vận động viên đó đã bác bỏ tin đồn giải nghệ tại buổi họp báo."
+        },
+        {
+          "id": 301,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (N2 T7-2026)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>さっと</b>",
+          "targetWord": "さっと",
+          "options": [
+            "東京は電車の数が多いので、乗り遅れても次の電車がさっと来ます。",
+            "朝は涼しかったが、昼になるとさっと暑くなって気温が30度を<ruby>超<rt>こ</rt></ruby>えた。",
+            "刑事がうそを指摘すると、犯人の顔色がさっと変わった。",
+            "<ruby>山口<rt>やまぐち</rt></ruby>さんに、戻ったらさっと電話をしてほしいと伝えてください。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>さっと</b>: thoắt cái, vụt (biến sắc nhanh).<br><b>Dịch câu đúng (3):</b> Khi cảnh sát chỉ ra lời nói dối, sắc mặt hung thủ thoắt biến đổi."
+        },
+        {
+          "id": 302,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "<ruby>年賀状<rt>ねんがじょう</rt></ruby>（　　）、新年を祝う言葉を書いて送るはがきや手紙のことだ。",
+          "options": [
+            "には",
+            "とは",
+            "としては",
+            "によっては"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～とは</b>: định nghĩa (...là...).<br><b>Dịch:</b> Thiệp chúc Tết là bưu thiếp hoặc thư viết lời chúc năm mới để gửi."
+        },
+        {
+          "id": 303,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "父の若いころのアルバムを見た。写真に写る父が（　　）私に似ていて、自分の写真かと思ってしまった。",
+          "options": [
+            "つい",
+            "ちっとも",
+            "それほど",
+            "あまりにも"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>あまりにも～て</b>: quá mức... đến nỗi...<br><b>Dịch:</b> Bố trong ảnh giống tôi quá mức đến nỗi tôi tưởng nhầm là ảnh của chính mình."
+        },
+        {
+          "id": 304,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "昨日、きゅうりを<ruby>炒<rt>いた</rt></ruby>めて食べてみた。今まできゅうりは<ruby>生<rt>なま</rt></ruby>（　　）食べたことがなかったが、<ruby>炒<rt>いた</rt></ruby>めてもおいしかった。",
+          "options": [
+            "でしか",
+            "にしか",
+            "でばかり",
+            "にばかり"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>～でしか～ない</b>: chỉ ăn bằng cách/ở trạng thái... thôi.<br><b>Dịch:</b> Trước nay tôi chỉ mới ăn dưa chuột sống thôi, nhưng xào lên cũng ngon."
+        },
+        {
+          "id": 305,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "熱を出してつらそうにしている息子を見て、代われる（　　）代わってやりたいと思った。",
+          "options": [
+            "までは",
+            "だけで",
+            "ものなら",
+            "からには"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>V-れる + ものなら</b>: nếu có thể... thì...<br><b>Dịch:</b> Nhìn con trai sốt mệt mỏi, tôi nghĩ nếu thay thế được cho con thì tôi muốn chịu thay cho con."
+        },
+        {
+          "id": 306,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "（教室で）<br>教師「この授業では、各自が自分で選んだテーマ（　　）資料を集めてレポートにまとめます。」",
+          "options": [
+            "に比べて",
+            "に際して",
+            "に伴って",
+            "に沿って"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>～に沿って</b>: bám sát theo, dựa theo.<br><b>Dịch:</b> Trong giờ học này, mỗi người thu thập tài liệu theo chủ đề tự chọn và tổng hợp thành báo cáo."
+        },
+        {
+          "id": 307,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "先生に、次の授業までに教科書の30ページまで（　　）言われた。",
+          "options": [
+            "読んでくるか",
+            "読んでこい",
+            "読んでおくように",
+            "読んでおきなさい"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>～ように言われる</b>: được dặn/bảo là hãy làm gì.<br><b>Dịch:</b> Tôi được thầy giáo dặn đọc trước đến trang 30 sách giáo khoa trước buổi học tới."
+        },
+        {
+          "id": 308,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "娘は1年前から水泳を習っている。水泳を始めてから体が丈夫に（　　）、精神的にも強くなったと思う。",
+          "options": [
+            "なっただけだとすると",
+            "なっただけでなく",
+            "しただけだとすると",
+            "しただけでなく"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～だけでなく</b>: không chỉ... mà còn... (tự động từ 丈夫になる).<br><b>Dịch:</b> Từ khi học bơi, con gái không chỉ khỏe mạnh về thể chất mà tinh thần cũng mạnh mẽ hơn."
+        },
+        {
+          "id": 309,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "ボクシングには、背中を<ruby>攻撃<rt>こうげき</rt></ruby>（　　）というルールがある。",
+          "options": [
+            "しきれない",
+            "しかねない",
+            "しょうがない",
+            "してはならない"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>～てはならない</b>: không được phép... (quy tắc, đạo lý).<br><b>Dịch:</b> Quyền anh có luật không được phép tấn công vào lưng."
+        },
+        {
+          "id": 310,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "（電話で）<br>A「お電話ありがとうございます。さくらホテルでございます。」<br>B「すみません、再来年の予約をしたいんですけど、今できますか。」<br>A「はい、（　　）。」",
+          "options": [
+            "なさいます",
+            "差し上げます",
+            "<ruby>承<rt>うけたまわ</rt></ruby>ります",
+            "お越しになります"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>承ります（うけたまわります）</b>: khiêm nhường ngữ của 引き受ける/聞く (vâng, tôi xin tiếp nhận).<br><b>Dịch:</b> Vâng, chúng tôi xin tiếp nhận ạ."
+        },
+        {
+          "id": 311,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "イメージに合うテーブルがどこにも売っていなくてあきらめかけていたが、あるとき、「ないんだったら自分で（　　）んじゃないか」と気づいて、作ることにした。",
+          "options": [
+            "作っていてもいい",
+            "作ってしまえばいい",
+            "作ってあるといい",
+            "作ってみるならいい"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～てしまえばいい</b>: cứ làm luôn đi là được chứ sao.<br><b>Dịch:</b> Không có bán thì tự mình làm luôn là được chứ sao."
+        },
+        {
+          "id": 312,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "私は、本を読んでいて気になることがあると（　　）。だから、1冊読み終わるのにどうしても時間がかかる。",
+          "options": [
+            "調べずにはいられない",
+            "調べないに違いない",
+            "調べそうにない",
+            "調べても始まらない"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>～ずにはいられない</b>: không thể nhịn được việc..., hễ thấy là phải...<br><b>Dịch:</b> Hễ đọc sách mà thấy điều gì băn khoăn là tôi không thể không tra cứu ngay."
+        },
+        {
+          "id": 313,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (N2 T7-2026)",
+          "sentence": "A「キャッシュカードの暗証番号を忘れちゃったんだけど、銀行に電話して聞けばわかるよね。」<br>B「え、そんな大事な情報、忘れちゃったの？電話で聞いても絶対（　　）よ。」",
+          "options": [
+            "教えてくれるはずがない",
+            "教えてもらうはずがない",
+            "教えてくれたことがない",
+            "教えてもらったことがない"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>～はずがない</b>: chắc chắn không đời nào... (ngân hàng không đời nào nói qua điện thoại đâu).<br><b>Dịch:</b> Có gọi điện hỏi thì tuyệt đối không đời nào họ nói cho biết đâu."
+        },
+        {
+          "id": 314,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (N2 T7-2026)",
+          "beforeText": "水は蒸発するときに周囲の<ruby>熱<rt>ねつ</rt></ruby>を<ruby>奪<rt>うば</rt></ruby>うという性質を持っています。汗をかく",
+          "afterText": "ものです。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "と"
+            },
+            {
+              "id": 2,
+              "text": "のも"
+            },
+            {
+              "id": 3,
+              "text": "体温が下がる"
+            },
+            {
+              "id": 4,
+              "text": "その性質による"
+            }
+          ],
+          "correctOrder": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "correctStarOption": 2,
+          "explanation": "Thứ tự: 汗をかく <b>と(1) 体温が下がる(3) ★のも(2) その性質による(4)</b> ものです。Chọn 2."
+        },
+        {
+          "id": 315,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (N2 T7-2026)",
+          "beforeText": "朝ご飯はなるべく",
+          "afterText": "済ませてしまうこともある。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "食べるようにしているが"
+            },
+            {
+              "id": 2,
+              "text": "牛乳だけで"
+            },
+            {
+              "id": 3,
+              "text": "時間がなくて"
+            },
+            {
+              "id": 4,
+              "text": "きちんと"
+            }
+          ],
+          "correctOrder": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự: なるべく <b>きちんと(4) 食べるようにしているが(1) ★時間がなくて(3) 牛乳だけで(2)</b> 済ませて... Chọn 3."
+        },
+        {
+          "id": 316,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (N2 T7-2026)",
+          "beforeText": "<ruby>慌<rt>あわ</rt></ruby>てた様子で部長と課長が",
+          "afterText": "たとうとしている。何があったのだろうか。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "会議室に"
+            },
+            {
+              "id": 2,
+              "text": "一度も出てこないまま"
+            },
+            {
+              "id": 3,
+              "text": "2時間が"
+            },
+            {
+              "id": 4,
+              "text": "入っていったきり"
+            }
+          ],
+          "correctOrder": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "correctStarOption": 2,
+          "explanation": "Thứ tự: <b>会議室に(1) 入っていったきり(4) ★一度も出てこないまま(2) 2時間が(3)</b> たとうとしている。Chọn 2."
+        },
+        {
+          "id": 317,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (N2 T7-2026)",
+          "beforeText": "私がお昼によく行く定食屋は、全部でいくつ",
+          "afterText": "あって、いつも迷う。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "たくさんの種類の"
+            },
+            {
+              "id": 2,
+              "text": "定食が"
+            },
+            {
+              "id": 3,
+              "text": "あるか"
+            },
+            {
+              "id": 4,
+              "text": "わからないぐらい"
+            }
+          ],
+          "correctOrder": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "correctStarOption": 1,
+          "explanation": "Thứ tự: いくつ <b>あるか(3) わからないぐらい(4) ★たくさんの種類の(1) 定食が(2)</b> あって... Chọn 1."
+        },
+        {
+          "id": 318,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (N2 T7-2026)",
+          "beforeText": "私の部屋のたんすには、いつかまた",
+          "afterText": "たくさんしまってある。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "と思って"
+            },
+            {
+              "id": 2,
+              "text": "着るかもしれない"
+            },
+            {
+              "id": 3,
+              "text": "古い服が"
+            },
+            {
+              "id": 4,
+              "text": "捨てられずにいる"
+            }
+          ],
+          "correctOrder": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "correctStarOption": 4,
+          "explanation": "Thứ tự: いつかまた <b>着るかもしれない(2) と思って(1) ★捨てられずにいる(4) 古い服が(3)</b> たくさん... Chọn 4."
+        },
+        {
+          "id": 319,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (N2 T7-2026)",
+          "passage": "<b><ruby>漫画<rt>まんが</rt></ruby>で学ぶビジネス書</b><br>近年、社会人の学びを目的としたビジネス書の分野で、<ruby>漫画<rt>まんが</rt></ruby>形式のものが多く<ruby>出版<rt>しゅっぱん</rt></ruby>されるようになった。経済、経営、IT、法律、心理学、<ruby>哲学<rt>てつがく</rt></ruby>など、様々な分野のものがあり、入門者にもわかりやすいと人気だ。難しい専門的な内容も、<ruby>漫画<rt>まんが</rt></ruby>だとわかりやすいと感じる。これはなぜか。<br><ruby>漫画<rt>まんが</rt></ruby>の特徴は文字と絵によって内容が語られることだ。文字数の少なさから、情報も少ないと思うかもしれないが、<b>[ 48 ]</b>研究によると、<ruby>漫画<rt>まんが</rt></ruby>は文字だけの文章と比べて、1分間に<ruby>脳<rt>のう</rt></ruby>に伝える情報量が約2倍になるという。「<ruby>漫画<rt>まんが</rt></ruby>を読む」と言ったとき、読むのは文字だけではなく、絵その対象なのだ。<br><ruby>脳<rt>のう</rt></ruby>の働きの点からいうと、実は<ruby>漫画<rt>まんが</rt></ruby>と日本語は似ている。人間の<ruby>脳<rt>のう</rt></ruby>は機能が右と左で分かれており、絵は「<ruby>右脳<rt>うのう</rt></ruby>」で、音声は「<ruby>左脳<rt>さのう</rt></ruby>」で処理される。日本語の文字には、ひらがな、カタカナ、漢字があるが、音を表すひらがなとカタカナを読むときは、<ruby>左脳<rt>さのう</rt></ruby>がよく働く。<b>[ 49 ]</b>漢字は意味を表すものだ。漢字を見ると意味やイメージが連想されるが、私たちの<ruby>脳<rt>のう</rt></ruby>は、漢字を絵として<ruby>右脳<rt>うのう</rt></ruby>で処理している。<ruby>漫画<rt>まんが</rt></ruby>で読むほうがわかりやすい<b>[ 50 ]</b>、ひらがなやカタカナだけの文よりも漢字も使われた文のほうが、内容を理解しやすいというのと同じ理由だ。<br>入門者にとって、わかりやすさは<ruby>魅力<rt>みりょく</rt></ruby>だ。<ruby>漫画<rt>まんが</rt></ruby>形式のビジネス書をまだ読んだことがない人、難しそうでなかなか勉強が始められない分野があるという人は、一度読んでみてはいかがだろうか。新しい学びの体験と<b>[ 51 ]</b>。",
+          "questionText": "空欄 [ 48 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "この",
+            "その",
+            "ある",
+            "以下の"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>ある研究によると</b>: theo một nghiên cứu nọ (giới thiệu nghiên cứu lần đầu).<br><b>Đáp án:</b> 3"
+        },
+        {
+          "id": 320,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (N2 T7-2026)",
+          "passage": "（上の「漫画で学ぶビジネス書」を参照）",
+          "questionText": "空欄 [ 49 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "一方",
+            "あるいは",
+            "要するに",
+            "ただし"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>一方（いっぽう）</b>: mặt khác (đối chiếu hiragana/katakana xử lý bằng não trái, còn Kanji xử lý bằng não phải).<br><b>Đáp án:</b> 1"
+        },
+        {
+          "id": 321,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (N2 T7-2026)",
+          "passage": "（上の「漫画で学ぶビジネス書」を参照）",
+          "questionText": "空欄 [ 50 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "としたら",
+            "としても",
+            "というなら",
+            "というのは"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>～というのは、～と同じ理由だ</b>: sở dĩ dễ hiểu hơn là bởi cùng một lý do với...<br><b>Đáp án:</b> 4"
+        },
+        {
+          "id": 322,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (N2 T7-2026)",
+          "passage": "（上の「漫画で学ぶビジネス書」を参照）",
+          "questionText": "空欄 [ 51 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "なるわけだ",
+            "なるはずだ",
+            "なるほどだ",
+            "なるようだ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～となるはずだ</b>: chắc chắn sẽ trở thành (một trải nghiệm học tập mới).<br><b>Đáp án:</b> 2"
+        },
+        {
+          "id": 323,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (N2 T7-2026)",
+          "passage": "名文(注1)を書くためには豊富な<ruby>語彙<rt>ごい</rt></ruby>(注2)があったほうがいいかといえば、そうでもありません。あまり聞かない言葉をわざわざ使わなくても、自分の気持ちや考え、<ruby>状況<rt>じょうきょう</rt></ruby>を読み手に伝えることは十分にできます。変に<ruby>凝<rt>こ</rt></ruby>った言葉を使うと、かえって伝わりません。<br>たとえば、「悲しい」を表す二字<ruby>熟語<rt>じゅくご</rt></ruby>には「悲痛」「<ruby>哀痛<rt>あいつう</rt></ruby>」「<ruby>痛惜<rt>つうせき</rt></ruby>」などがあります。でも、ことさら(注3)に「悲痛の思い」などと言わなくても、「本当に悲しい」で通じるなら、それで十分です。<br><br>(注1) 名文：優れた文章　(注2) 語彙：ここでは、言葉　(注3) ことさら：わざわざ",
+          "questionText": "優れた文章を書くときの言葉について、筆者はどのように考えているか。",
+          "options": [
+            "気持ちや考えを伝えるときに使える言葉をたくさん知っていたほうがいい。",
+            "伝えたい内容に応じて、異なる種類の言葉を使い分けたほうがいい。",
+            "難しい言葉を無理に使うのではなく、日常でよく使われる言葉を使えばいい。",
+            "二字熟語は完全に避けるのではなく、必要に応じて使えばいい。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Không cần cố dùng từ khó hay từ cầu kỳ, chỉ cần dùng những từ thông dụng hàng ngày mà người đọc hiểu được là đủ &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 324,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (N2 T7-2026)",
+          "passage": "以下は、ある引っ越しセンターに届いたメールである。<br><br>やまの引っ越しセンター<br>東地区ご担当 水川様<br><br>先日お願いした引っ越しについてご相談があります。<br>実は友人からテレビを<ruby>譲<rt>ゆず</rt></ruby>ってもらえることになりました。<br>引っ越しの日に、引っ越し先と同じ町にある友人宅に寄ってもらい、そこからテレビを引っ越し先に運んでもらいたいと思っています。その場合、料金はどうなりますでしょうか。<br>なお、テレビのチャンネルの設定などは不要です。<br>再度見積もりを作成していただけないでしょうか。<br><br>お返事お待ちしています。よろしくお願いします。<br>森村正太",
+          "questionText": "このメールで伝えたいことは何か。",
+          "options": [
+            "今使っているテレビを友人の家に運んでほしいので、見積もりを作り直してほしい。",
+            "友人の家にあるテレビを運んでほしいので、見積もりを作り直してほしい。",
+            "友人の家にあるテレビを運び、チャンネルの設定もしてほしいので、見積もりを作り直してほしい。",
+            "テレビのチャンネルの設定は頼まないことにしたので、見積もりも作り直してほしい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Nhờ ghé nhà bạn lấy tivi chở tới nhà mới (không cần cài kênh), và nhờ làm lại báo giá &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 325,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (N2 T7-2026)",
+          "passage": "人は、目の前の人が、<ruby>嬉<rt>うれ</rt></ruby>しそうな表情をしていると、ついその表情を写し取ってしまう。<br>表情というのは不思議なもので、出力にも入力にも使える。つまり、<ruby>嬉<rt>うれ</rt></ruby>しいから<ruby>嬉<rt>うれ</rt></ruby>しい表情をするわけだが、<ruby>嬉<rt>うれ</rt></ruby>しい表情になってしまうと、<ruby>嬉<rt>うれ</rt></ruby>しい時に<ruby>脳<rt>のう</rt></ruby>に起こる神経信号(注1)が<ruby>誘発<rt>ゆうはつ</rt></ruby>される(注2)のである。目の前の人の笑顔につられて(注3)、つい笑ってしまうと、<ruby>脳<rt>のう</rt></ruby>の<ruby>緊張<rt>きんちょう</rt></ruby>も解ける。人間なら、そんな経験、山ほどしているはずだ。<br><br>(注1) 神経信号：神経細胞が刺激を受けると発生する電気信号　(注2) 誘発される：ここでは、生じる　(注3) つられる：ここでは、誘われる",
+          "questionText": "筆者によると、人は相手の嬉しそうな表情を見るとどうなるか。",
+          "options": [
+            "相手の表情から嬉しい感情を読み取り、同じ感情が起きる。",
+            "相手の表情によって脳の緊張が解かれ、自然に笑顔になる。",
+            "無意識に相手と同じ表情になり、嬉しい感情を共有しようとする。",
+            "無意識に嬉しい表情になり、その結果として嬉しい感情が起きる。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Khi thấy người đối diện vui, ta vô thức bắt chước biểu cảm đó (ついその表情を写し取ってしまう), và khi đã có biểu cảm vui thì tín hiệu thần kinh vui vẻ trong não được kích hoạt &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 326,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (N2 T7-2026)",
+          "passage": "北川農業大学 応用生命科学部<br>教授 青山友菜先生<br><br>先日は、来月<ruby>出版<rt>しゅっぱん</rt></ruby>予定の『果物の不思議』に<ruby>掲載<rt>けいさい</rt></ruby>する図表20点についてご意見をいただき、ありがとうございました。<br>ご指示のあった追加のグラフ1点が<ruby>出来上<rt>できあ</rt></ruby>がりましたので、<ruby>添付<rt>てんぷ</rt></ruby>いたします。ご<ruby>確認<rt>かくにん</rt></ruby>をお願いします。<br>また、誤りのあった図表5点は現在修正中です。今週中にお送りする予定ですので、ご<ruby>確認<rt>かくにん</rt></ruby>いただき、再度修正の必要なところがありましたらご連絡ください。<br><br>以上、よろしくお願い申し上げます。<br>AGR<ruby>出版<rt>しゅっぱん</rt></ruby>編集部 川波敬一",
+          "questionText": "このメールを受け取ったあとで、青山さんがまずしなければならないことは何か。",
+          "options": [
+            "新しいグラフを作成する。",
+            "新しく作成されたグラフを確認する。",
+            "誤りのあった図表の修正を確認する。",
+            "誤りのあった図表を再度修正する。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Biểu đồ mới làm xong đã đính kèm trong email này để xác nhận trước (5 bảng lỗi đang sửa, cuối tuần mới gửi) &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 327,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (N2 T7-2026)",
+          "passage": "私たちには、責任を果たすために、他者を頼らなければならないときがある。そしてそれは責任から<ruby>逃<rt>のが</rt></ruby>れる(注)ことではない。仕事・家事・育児を抱え込み、<ruby>壊<rt>こわ</rt></ruby>れそうになりながら日々を生き抜いている人は、その責任を果たすために、他者の手を借りるべきなのだ。それは恥ずかしいことではない。責任の主体として、<ruby>誇<rt>ほこ</rt></ruby>り高く、<ruby>胸<rt>むね</rt></ruby>を張って生きるべきである。<br><br>(注) 逃れる：逃げる",
+          "questionText": "筆者が言いたいことは何か。",
+          "options": [
+            "自分の責任を果たすために他者を頼ることを、恥ずかしいと思う必要はない。",
+            "多くのことを抱え込んでいるときは、他者に責任を果たしてもらえばいい。",
+            "他者を頼ることより、自分の責任が果たせないことのほうが恥ずかしいことである。",
+            "他者に頼らず自分の責任を果たすことができたら、誇りを持つべきである。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Tác giả khẳng định việc nhờ cậy người khác để hoàn thành trách nhiệm của mình không phải trốn tránh và không có gì đáng xấu hổ &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 328,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（１）<ruby>誰<rt>だれ</rt></ruby>への贈り物を選ぶとき、それをほんとうに相手がほしいと思ってくれるかどうかは、はっきりしません。ぼくらは、よくわからないなりに相手のことを想像し、思いをめぐらせて、贈り物を選びます。<br>以前、小さなお子さんのいる家庭を訪ねたとき、絵本を三冊ほどプレゼントとしてもっていったことがあります。ところが、その人は、どの本もすでにお持ちでした。贈り物には<u>そんなこと</u>がよく起こるのです。でもそれはかならずしも「失敗」とはいえません。<br>贈り物の意義は、モノではなく、贈り物を渡そうとした思いのほうにあるからです。もちろん、相手がほしいと指定する物を贈ることもあります。それは、どちらかといえば代わりに支払いをする、といった意味になって、商品の交換に似てきます。<br>どのくらいの金額のものが適切なのか、どんなものだったら喜んでくれるのか、不確定なままであることが、贈り物に特別な意味を<ruby>付与<rt>ふよ</rt></ruby>(注1)している面があるのです。<br>（中略）<br>たとえ欲しかったものとは違っていても、相手が自分のことをじっくり考えて選んでくれたものには、相手を<ruby>想起<rt>そうき</rt></ruby>(注2)させ、その人との関係をつくりだし、感情を<ruby>喚起<rt>かんき</rt></ruby>(注3)する可能性があります。<br>相手のなかに目に見えない何かを生み出すこと。それができるかどうかわからないまま、でもそれを目指して贈ること。そこに、モノの効用以上の何かが生じる<ruby>余地<rt>よち</rt></ruby>(注4)が生まれます。<br><br>(注1) 付与する：与える　(注2) 想起する：思い出す　(注3) 喚起する：ここでは、呼び起こす　(注4) 余地：ここでは、可能性",
+          "questionText": "「そんなこと」とは、どのようなことか。",
+          "options": [
+            "以前相手に贈ったものなのに、また同じものを贈ること",
+            "自分が贈ったものが、相手が欲しかったものと一致すること",
+            "ほかの人が贈ったものと知らないで、それと同じものを贈ること",
+            "相手が欲しいものだろうと思ったのに、そうではなかったものを贈ること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Mang 3 cuốn sách tranh tặng nhưng nhà đó đã có cả 3 cuốn rồi (tưởng họ muốn nhưng hóa ra không phải) &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 329,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（上の（１）の文章を参照）",
+          "questionText": "筆者が言いたいことは何か。",
+          "options": [
+            "どんなものでも相手のことを考えて選んだ贈り物は、相手の心を動かせる。",
+            "贈り物の金額によっても、相手のことをどのくらい思っているかが示せる。",
+            "相手の心に残る贈り物をすれば、よい関係がつくりだせる。",
+            "相手が欲しいものを贈れば、どんなものでも強い印象が与えられる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Dù không đúng thứ người nhận muốn, món quà được chọn bằng cả tấm lòng suy nghĩ cho đối phương vẫn có thể gợi nhớ và khơi dậy cảm xúc nơi họ &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 330,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（２）地球全体に<ruby>棲<rt>す</rt></ruby>んでいるクモを全部集めて体重計に乗せてやれば、<ruby>目盛<rt>めも</rt></ruby>り(注1)はおおよそ2500万トンほどのところをさすことでしょう。地球に棲む、人と<ruby>家畜<rt>かちく</rt></ruby>(注2)を除いたすべての野生ほ乳動物(注3)の全体重が4700万トンほどですから、クモはその約半分に相当するほどたくさんいるのです。またこれは、すべての鳥の体重2700万トンとほぼ同じです。<br>クモが一番たくさん棲んでいるのは森林で、草原や<ruby>灌木林<rt>かんぼくりん</rt></ruby>(注4)にはその半分ほどの密度で、農地や<ruby>砂漠<rt>さばく</rt></ruby>地帯にも1桁少ないとはいえ全体の3パーセントほどが暮らしています。<br>これだけの(注5)クモがエサを必要とします。その量を1年間積み上げていくと、その総量は<ruby>莫大<rt>ばくだい</rt></ruby>で、クモは世界中で4億トンから8億トンのエサを食べていると見積もられています。<br>（中略）<br>実際は、クモが食べているのはほとんどが<ruby>昆虫<rt>こんちゅう</rt></ruby>(注6)です。昆虫の量は全体で13億トンと見積もられているので、その3割から6割がクモによって食べられていることになります。<br>ということはつまり、もしクモがいなくなれば、<ruby>捕食者<rt>ほしょくしゃ</rt></ruby>(注7)から自由になった昆虫が大幅に数を増やすことでしょう。その多くは植物を食べます。ですから、森林や草原では緑が失われ、農地では収穫できる作物の量が減るかもしれません。<br>実際、農地では、クモがたくさんいると、農作物をエサとする昆虫が数を増やすスピードを<ruby>抑<rt>おさ</rt></ruby>えることができます。このおかげで収穫量を高く保つことができるのです。<br><br>(注1) 目盛り：ここでは、重さの数値　(注2) 家畜：人間が生活に利用するために飼う動物　(注3) 野生ほ乳動物：自然の中で生きている乳で子供を育てる動物　(注4) 灌木林：ここでは、低い木の林　(注5) これだけの：こんなに多くの　(注6) 昆虫：ここでは、クモ以外の虫　(注7) 捕食者：ここでは、食べようと襲ってくる敵",
+          "questionText": "地球全体に棲んでいるクモについて、筆者が述べていることに合っているのはどれか。",
+          "options": [
+            "体重の合計がすべての人と家畜の体重の合計の約半分に相当するほど、数が多い。",
+            "非常に数が多く、体重の合計はすべての鳥の体重の合計と同じくらいである。",
+            "森林に棲むものの数が最も多く、全体の半分を占める。",
+            "森林より、草原や低い木の林に棲む密度のほうが高い。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 1: Tổng trọng lượng nhện (~25 triệu tấn) gần bằng tổng trọng lượng của tất cả các loài chim (27 triệu tấn) &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 331,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（上の（２）の文章を参照）",
+          "questionText": "筆者によると、クモがいなくなるとどのような影響があるか。",
+          "options": [
+            "クモが食べていた農作物を昆虫が食べることができ、昆虫の数が増える。",
+            "クモを食べていた昆虫が農作物を食べるようになり、収穫量が減る。",
+            "クモに食べられていた昆虫が農作物の成長を助けて、収穫量が増える。",
+            "クモに食べられていた昆虫が農作物を食べるので、収穫量が減る。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Nếu nhện biến mất, côn trùng vốn bị nhện ăn thịt sẽ sinh sôi mạnh và ăn cây trồng, khiến sản lượng thu hoạch giảm &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 332,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（３）以下は、仕事で部下がミスをしたときの、上司の対応のしかたについて書かれた文章である。<br><br>小さなミスでも、その場できちんと指摘してやることが仕事の能率を高めることは、実験のうえでも確かめられています。マクファーソンという心理学者が、単純作業のミスについて調べた研究ですが、それによると、0.7秒おきに押されるキーの正誤を、結果を知らせながら行なった場合と知らせずに行なった場合とでは、知らせながらのほうが正答率の上がることが確かめられています。「<ruby>即時確認<rt>そくじかくにん</rt></ruby>」の効果ですが、この効果は、小さなミスをくり返しやすい新入社員を教育するときに有効だとされています。<br>そのうちに注意しておこうと考え、その場は<ruby>黙<rt>だま</rt></ruby>って見すごした(注1)りすると、のちに(注2)<ruby>叱<rt>しか</rt></ruby>ったときは当人は小さなミスだから、自分のしたことを忘れています。そのうえ、なんのことをぶつぶついってるんだと反発したり、あんなことをまだ根に持って(注3)いたのかと思って、しつこく<ruby>険悪<rt>けんあく</rt></ruby>な(注4)上司だというイメージを与えてしまったりすることになります。<br>（中略）<br>大きなミスの場合、とりあえず<ruby>叱<rt>しか</rt></ruby>るのはあとまわしになります。何より、事後対策を急がなければならないからです。ミスをした当人は、もちろん叱られるまでもなく(注5)、ショックで打ちひしがれて(注6)いるはずです。だから、当人も含め、ほかの部下も<ruby>督励<rt>とくれい</rt></ruby>し(注7)ながら、先頭に立って事に当たらなければならないのです。大切なのは、その処理が終わってから、じっくりと注意し、ミスの原因をつかむことです。<br>大きなミス、小さなミスには、こうした心理の違いがあります。<br><br>(注1) 見すごす：ここでは、そのままにする　(注2) のちに：あとで　(注3) 根に持つ：ここでは、覚えている　(注4) 険悪な：ここでは、意地悪な　(注5) 叱られるまでもなく：叱られなくても　(注6) 打ちひしがれる：落ち込む　(注7) 督励する：ここでは、元気づける",
+          "questionText": "筆者によると、上司が部下の小さなミスをあとになって指摘すると、部下はどうなるか。",
+          "options": [
+            "なぜ指摘されたのかが分からず、指摘されたことを不満に思う。",
+            "指摘されても思い出せず、ミスはしていないと主張する。",
+            "指摘されたことに反発して反省せず、より深刻なミスをしてしまう。",
+            "指摘されてはじめて気づき、なぜその場で指摘してくれなかったのかと思う。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Đoạn 2: Để sau mới mắng thì đương sự đã quên mình làm gì, phản ứng lại kiểu 'lầm bầm chuyện gì thế' &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 333,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（上の（３）の文章を参照）",
+          "questionText": "筆者によると、大きなミスをした部下に対して上司はどうすればいいか。",
+          "options": [
+            "部下にミスの対処はさせずに、注意して反省させる。",
+            "部下がショックから回復するまで、注意しないようにする。",
+            "ほかの部下も含め一緒にミスに対処してから、丁寧に注意する。",
+            "ほかの部下も含め一緒にミスの原因を考えたうえで、責任を持って対処させる。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn 3: Với lỗi lớn, việc mắng để sau; trước hết động viên cả đương sự và cấp dưới khác cùng xử lý sự cố, xong xuôi rồi mới nhắc nhở kỹ và tìm nguyên nhân &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 334,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（４）以下は、<ruby>孤独<rt>こどく</rt></ruby>に対処する手段について書かれた文章である。<br><br>小説を読めば物語の世界に<ruby>没頭<rt>ぼっとう</rt></ruby>する(注1)ことができるし、政治や経済、<ruby>哲学<rt>てつがく</rt></ruby>などの思想書を読めば著者の意見に賛成したり反対したりして、いろいろと自分の頭で考えることができる。<ruby>脳<rt>のう</rt></ruby>に刺激が入り、それによっていろいろ思考がめぐっているということは、<ruby>脳<rt>のう</rt></ruby>は<ruby>孤独<rt>こどく</rt></ruby>を感じている<ruby>暇<rt>ひま</rt></ruby>がないってことだ。<br>「だったらテレビでもいいじゃないか」って思うかもしれないけど、実はテレビは読書ほど<ruby>孤独<rt>こどく</rt></ruby>を<ruby>癒<rt>いや</rt></ruby>し(注2)てはくれない。なぜかというとテレビは一方的な情報の押し付けであって、コミュニケーションにはならないのだ。<br>映像の力というのはすごくて、みている人間の頭にいろいろな情報が入ってくる。たとえばバラエティ(注3)番組などでも、出演している人たちの表情や<ruby>喋<rt>しゃべ</rt></ruby>り方、そこでどんなムードで話をしているのかななどといったたくさんの情報が同時に頭に飛び込んでくる。しかも、印象的な発言はテロップ(注4)などで大きく表示される。<br>しかし、その情報について考えをめぐらせようとしても、映像がどんどん流れていって次の展開になるので、立ち止まって思考をめぐらせている<ruby>暇<rt>ひま</rt></ruby>がない。（中略）<br>一人暮らしの高齢者が朝から晩までテレビをつけっぱなしにしているということは<ruby>珍<rt>めずら</rt></ruby>しくないが、あまり<ruby>孤独<rt>こどく</rt></ruby>は<ruby>癒<rt>いや</rt></ruby>されない。常に人の話し声が聞こえてくるので、<ruby>寂<rt>さび</rt></ruby>しさを<ruby>紛<rt>まぎ</rt></ruby>らわす(注5)ことができる部分もあるかもしれないけれど、テレビを消した<ruby>瞬間<rt>しゅんかん</rt></ruby>に、急に<ruby>孤独<rt>こどく</rt></ruby>に<ruby>襲<rt>おそ</rt></ruby>われてしまうということになりがちだ。<br>それならば、<ruby>脳内<rt>のうない</rt></ruby>コミュニケーションができる読書のほうが<u>おすすめだ</u>。<br><br>(注1) 没頭する：夢中になる　(注2) ～を癒す：ここでは、～の気持ちを軽くする　(注3) バラエティ番組：ここでは、娯楽のための番組　(注4) テロップ：ここでは、テレビ画面に映し出される文　(注5) 紛らわす：ここでは、忘れる",
+          "questionText": "テレビの問題点について、筆者はどのように述べているか。",
+          "options": [
+            "映像の印象が強すぎて、何かを自分で考えようという気が起こらない。",
+            "映像の展開が早すぎて、印象的なことしか頭に残らない。",
+            "多量の情報を次々与えられるので、それについて自分で考える時間がない。",
+            "いろいろな情報が与えられるので、どれに価値があるのか分からない。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn 3–4: Quá nhiều thông tin ập vào cùng lúc và hình ảnh trôi đi liên tục nên không có thời gian dừng lại để suy nghĩ &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 335,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (N2 T7-2026)",
+          "passage": "（上の（４）の文章を参照）",
+          "questionText": "「おすすめだ」とあるが、なぜか。",
+          "options": [
+            "さまざまな情報が入り、孤独から逃げられるから",
+            "刺激を受け思考することになり、孤独を感じにくくなるから",
+            "筆者と同じ気持ちだと分かり、孤独が慰められるから",
+            "好きなときに自分のペースで読め、孤独を感じないから"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 1: Đọc sách giúp não nhận kích thích và suy nghĩ liên tục, nhờ đó không có thời gian để cảm thấy cô đơn &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 336,
+          "mondai": 12,
+          "mondaiName": "問題12：統合理解 (N2 T7-2026)",
+          "passage": "<b>【文章 A】</b><br>資格試験のための勉強を習慣にするのは難しいと考えている人が多い。確かに、ただ時間が空いているときに勉強しようと思っていてもうまくいかないことが多い。勉強を習慣にするには、いつ、どこで勉強するのかを決めておくことが効果的だ。さらに言うと、日常的な<ruby>行為<rt>こうい</rt></ruby>とセットにして行うことにするといい。例えば、夕食後すぐに居間で勉強する、出勤前にカフェで勉強する、などだ。毎回時間や場所を決めなくていいので勉強に取りかかりやすくなる。<br>仕事で疲れているときなど、一時的にやる気が出ないこともある。しかし、勉強が習慣になれば、そんなときも勉強を無理なく進めていくことができる。そして、勉強を続けていることが自信にもなり、よい結果を出せる可能性も高まるだろう。<br><br><b>【文章 B】</b><br>資格試験のための勉強は習慣にするのがよい。勉強はつらくて大変だと感じがちだが、習慣として行えるようになれば、勉強が苦痛だと感じなくなる。また、やる気がわいてこない日が時々あっても、ふだん通り勉強を行うことができる。<br>勉強を習慣にする方法としてお勧めしたいのは、一日の目標を小さくすることだ。毎日5分だけ参考書を読む、毎日1ページだけ問題集をやる、など少しの努力でできることにするのだ。そうすれば、負担を感じずに勉強が始められるので勉強が続けやすくなる。勉強する量が少なくて不安になるかもしれないが、勉強の習慣がついてきたら、時間の長さや取り組む内容を少しずつ変えていけばいい。とにかく毎日勉強することが大切だ。",
+          "questionText": "勉強を習慣にするための方法について、AとBはどのように述べているか。",
+          "options": [
+            "AもBも、毎日決まった時間に決まった行動をしたほうがいいと述べている。",
+            "AもBも、毎日勉強する量を一定にしたほうがいいと述べている。",
+            "Aはほかの行為とセットで行ったほうがいいと述べ、Bは時間の長さや取り組む内容を固定したほうがいいと述べている。",
+            "Aは勉強する時間と場所を決めたほうがいいと述べ、Bは簡単に達成できる目標を立てたほうがいいと述べている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Bài A khuyên quyết định trước thời gian và địa điểm học; Bài B khuyên đặt mục tiêu nhỏ dễ đạt được (như 5 phút, 1 trang) &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 337,
+          "mondai": 12,
+          "mondaiName": "問題12：統合理解 (N2 T7-2026)",
+          "passage": "（上の文章A・Bを参照）",
+          "questionText": "勉強を習慣にすることの利点について、AとBが共通して述べていることは何か。",
+          "options": [
+            "やる気が出なくても取り組めるようになる。",
+            "自分に自信が持てるようになる。",
+            "勉強する量が少なくても成果が出やすくなる。",
+            "勉強に対して不安を感じなくなる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Bài A: 「やる気が出ないこともある。しかし、勉強が習慣になれば、そんなときも勉強を無理なく進めていくことができる」; Bài B: 「やる気がわいてこない日が時々あっても、ふだん通り勉強を行うことができる」 &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 338,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (N2 T7-2026)",
+          "passage": "目標を持つことは大事ですが、しかし達成されたからといって人生が終わるわけではない。生きていく過程の一つということで、目標は一つの道しるべ(注1)にすぎないのです。<br>人間はいつか必ず死ぬということは、<ruby>誰<rt>だれ</rt></ruby>もが知っていることです。まさか自分は300年生きるだろうと思っている人は一人もいないでしょうし、大体の平均<ruby>寿命<rt>じゅみょう</rt></ruby>である80歳前後とか、そのあたりを人生の最終ゴール地点において生きているのではないでしょうか。<br>その間、なんの道しるべもなく歩くには長い道のり(注2)なわけで、方向を見失わない(注3)ためにも目標という存在が必要なのです。<br>（中略）<br>そして目標は<u>自分の前に置くのではなく、横に置く</u>ことが<ruby>肝心<rt>かんじん</rt></ruby>(注4)です。<br>目標というと、<ruby>はるか<rt>はるか</rt></ruby>(注5)先に置いて追いかけていく感覚でとらえる人も多いのですが、目標を遠くに置きすぎると、ただの「期待」で終わってしまう。期待がいつしか、「<ruby>妄想<rt>もうそう</rt></ruby>」(注6)になってしまう。それではせっかくの道しるべが、逆に道に迷う原因になってしまいます。<br>だから目標はあんまり遠くに持たず、いつも<ruby>両脇<rt>りょうわき</rt></ruby>に置いているくらいの感覚がいいでしょう。ふと自分の横を見ると目標がある、それくらいの感覚がいいのです。<br><ruby>両脇<rt>りょうわき</rt></ruby>に目標があれば、いつも目標と<ruby>一緒<rt>いっしょ</rt></ruby>にいることになりますから、常に目標の中で生きていることになります。必要以上に重荷になることもないし、とらわれ(注7)すぎることもない。<br>私の場合は先どころか、目標を後ろに置きたくなることもあります。<br>後ろというのは自分が歩いてきた過去であり、<ruby>振<rt>ふ</rt></ruby>り返ってみるということです。そしてこのどんどん便利になっていく時代の中で、あえてアナログに生きるということでもあります。<br>ときどき自分の来た道を<ruby>振<rt>ふ</rt></ruby>り返って確かめるということは大事なことですし、あまりに世間のみなさんが「先へ、先へ」となっているのを見ると、あえて「私は後ろに行ってみようかな」という気になってしまうのです。<br>今、時代はちょっと恐ろしいほどに、みんなが「便利」という方向に向かっている。だからこそ、なるべく前に行きたくないというのが気分としてあるのでしょう。<br>アナログなものが私を「危ない、危ない」と、呼び止めるのです。それが「後ろへ来いよ、来いよ」と言ってるような気がするのです。<br><br>(注1) 道しるべ：ここでは、方向を示す標識　(注2) 道のり：距離　(注3) ～を見失う：～が分からなくなる　(注4) 肝心：大事　(注5) はるか：ここでは、ずっと　(注6) 妄想：現実的ではない想像　(注7) とらわれる：ここでは、縛られる",
+          "questionText": "目標について、筆者はどのように述べているか。",
+          "options": [
+            "一つ達成したあとで、次の目標を持ったほうがいい。",
+            "生きていく過程で、進む道に迷わないように助けてくれる。",
+            "人生の最終ゴール地点で、その意義が分かる。",
+            "人生に迷わないように、自分が達成できるものにすべきだ。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 1–3: Mục tiêu là cột mốc chỉ đường (道しるべ) giúp ta không lạc hướng trên chặng đường dài của cuộc đời &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 339,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (N2 T7-2026)",
+          "passage": "（上の長文を参照）",
+          "questionText": "「自分の前に置くのではなく、横に置く」とあるが、横に置くのがいいのはなぜか。",
+          "options": [
+            "目標が達成できたかどうかがすぐに分かるから",
+            "目標に縛られすぎずに、意識し続けることもできるから",
+            "目標をいつも目にすることで、達成できると思えるから",
+            "目標を重荷に感じたら、いつでも変えられるから"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đặt mục tiêu hai bên mình giúp luôn sống cùng mục tiêu (ý thức được), mà không bị trở thành gánh nặng hay bị trói buộc quá mức &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 340,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (N2 T7-2026)",
+          "passage": "（上の長文を参照）",
+          "questionText": "自身の生き方について、筆者はどのように考えているか。",
+          "options": [
+            "世間の人々のように、便利さに流されてしまいたくない。",
+            "便利さを捨てて、他人とは違う生き方がしてみたい。",
+            "便利な生活をしていても、自分の来た道は忘れたくない。",
+            "便利な生活は危険でもあるので、以前の生活に戻りたい。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Hai đoạn cuối: Thời đại quá hướng về 'tiện lợi', tác giả cố tình không muốn chạy theo phía trước mà muốn sống analog, không bị cuốn theo sự tiện lợi như số đông &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 341,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (N2 T7-2026)",
+          "passage": "<b>青原市 レシピコンテスト</b><br>青原市で多く生産されている農産物を使ったレシピを募集します。受賞したレシピはホームページで公開し、受賞者には賞品を差し上げます。<br><br><b>1. 募集条件</b><br>・以下の材料を2種類以上使用すること。それ以外の材料は自由です。<br>　[ トマト、きゅうり、たまねぎ、なず、たまご、とり肉、米 ]<br>・分量は二人分で、調理時間は30分以内、材料費は1,000円以内であること。<br>・応募者自身が考えたレシピで、未発表のもの。<br><br><b>2. 募集部門と応募資格</b><br>・中学・高校生の部：市内在住の中学・高校生、または市内の中学校か高等学校に通う生徒<br>・一般の部：市内在住の方（高校生以下を除く）、または市内で働いている方か、市内の大学に通う学生<br><br><b>3. 応募方法</b><br>・応募用紙に、【氏名、住所、料理名、材料、作り方の詳細】を記入のうえ、料理の写真を添付して、提出してください。<br>・応募は一人3品まで可能です。応募用紙1枚あたり1品のレシピを記入してください。<br><br><b>4. 応募締め切りと提出方法</b><br>・6月24日（金）必着で青原市役所農業課に郵送してください。<br>※ 青原市内の学校（中学校・高等学校）に通う生徒は、6月20日（月）までに在籍する学校に提出してください。",
+          "questionText": "次の4人は、レシピコンテストに応募したいと考えている。この中で、応募可能なのは誰か。<br>・ハオさん：青原市 / 青原市内の会社 / たまねぎ、なす、とり肉 / 40分 / 720円<br>・中村さん：青原市 / 青原市内の中学校 / 米、くり、にんじん / 20分 / 510円<br>・マットさん：木山市 / 青原市内の会社 / トマト、きゅうり、じゃがいも / 15分 / 350円<br>・西田さん：青原市 / 木山市内の大学 / トマト、たまご、とり肉 / 25分 / 1,290円",
+          "options": [
+            "ハオさん",
+            "中村さん",
+            "マットさん",
+            "西田さん"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Điều kiện: dùng >=2 nguyên liệu trong danh sách, <=30 phút, <=1,000 yên, sống/làm việc/học tại thành phố.<br>- Hao: 40 phút ❌<br>- Nakamura: chỉ 1 nguyên liệu trong danh sách (米) ❌<br>- Matt: làm việc tại Aohara, dùng トマト・きゅうり (2 loại), 15 phút, 350 yên ⭕<br>- Nishida: 1,290 yên ❌<br>Vậy chọn <b>マットさん (Đáp án 3)</b>."
+        },
+        {
+          "id": 342,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (N2 T7-2026)",
+          "passage": "（上の「青原市 レシピコンテスト」の案内を参照）",
+          "questionText": "高校生の林さんは、レシピコンテストに応募しようと思っている。考えたレシピは2品である。林さんは青原市内の高校に通っている。林さんはどうすればいいか。",
+          "options": [
+            "1枚の応募用紙に2品のレシピを書いて、6月20日までに学校に提出する",
+            "1枚の応募用紙に2品のレシピを書いて、6月24日必着で農業課に郵送する",
+            "2枚の応募用紙に1品ずつレシピを書いて、6月20日までに学校に提出する",
+            "2枚の応募用紙に1品ずつレシピを書いて、6月24日必着で農業課に郵送する"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Mỗi tờ phiếu đăng ký chỉ ghi 1 món (応募用紙1枚あたり1品) -> cần 2 tờ cho 2 món. Học sinh cấp 3 học tại trường trong thành phố Aohara nộp tại trường trước ngày 20/6 &rarr; <b>Đáp án 3</b>."
+        }
+      ]
+    },
+    {
+      "id": "duc_lo_12_2025",
+      "name": "Chuyên Đề Đục Lỗ Mondai 9 (12/2025) - 4 Câu",
+      "icon": "fa-pencil-alt",
+      "questions": [
+        {
+          "id": 343,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (12.2025 Đục lỗ)",
+          "passage": "<b>目で味わう</b><br>「目で味わう」という言葉があります。もちろん、目で食べ物を食べるという意味ではありません。食べる前に目で見て料理の見た目を楽しむという意味です。しかし、「味わう」という言葉は普通、舌で料理の味を楽しむことを指します。目でも味を感じることはできるのでしょうか。<br>色使いや<ruby>盛<rt>も</rt></ruby>り方など、料理の見た目がきれいだと食事の楽しみが増すという人も<b>[ 48 ]</b>。料理人たちも、塩や酢などを使って野菜の色を鮮やかに保ったり、料理に合う色や形の器を選んだりと、見た目を大切にしています。同じ料理でも、見た目がより良いもののほうがおいしそうに感じられます。<br>では、単に料理を見ておいしそうだと思うことを「味わう」と表現しているのでしょうか。<b>[ 49 ]</b>近年、料理の見た目が<ruby>影響<rt>えいきょう</rt></ruby>するのは食べる前だけではないことがわかってきました。ある研究で、食べ物の味は変えずに、色や器の種類などを変えて<ruby>提供<rt>ていきょう</rt></ruby>し、それぞれどんな味か評価させる実験が行われました。すると、全く同じ味のものを食べたにもかかわらず、味が異なると評価した人が多かったそうです。目から入る情報は、食べたときの味の感じ方<b>[ 50 ]</b><ruby>影響<rt>えいきょう</rt></ruby>していたのです。このように科学的にも、実際に目で味わっているということが証明されつつあります。<br>味を感じる仕組みは複雑で、見た目も大切な要素の一つです。それが感覚的に理解されていたからこそ、「目で味わう」と表現されるように<b>[ 51 ]</b>。",
+          "questionText": "空欄 [ 48 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "多いとします",
+            "多かったとします",
+            "多いでしょう",
+            "多かったでしょう"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Nhận định chung ở hiện tại: 「...という人も多いでしょう」 (Chắc hẳn cũng có nhiều người cho rằng...) &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 344,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (12.2025 Đục lỗ)",
+          "passage": "（上の「目で味わう」を参照）",
+          "questionText": "空欄 [ 49 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "実は",
+            "確かに",
+            "しかも",
+            "ところが"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Ngay sau câu hỏi tu từ, tác giả đưa ra sự thật ít người ngờ tới: 「実は近年...」 (Thực ra, gần đây người ta đã phát hiện ra...) &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 345,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (12.2025 Đục lỗ)",
+          "passage": "（上の「目で味わう」を参照）",
+          "questionText": "空欄 [ 50 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "にのみ",
+            "にまで",
+            "に限らず",
+            "に比べて"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Cấu trúc:</b> ～にまで影響する: ảnh hưởng đến cả... (không chỉ trước khi ăn mà ảnh hưởng tới tận cảm nhận vị giác khi ăn) &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 346,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (12.2025 Đục lỗ)",
+          "passage": "（上の「目で味わう」を参照）",
+          "questionText": "空欄 [ 51 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "なったにすぎません",
+            "なったはずがありません",
+            "なったとはいえません",
+            "なったのかもしれません"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> ～のかもしれません: có lẽ là đã trở thành... (đưa ra suy đoán nhẹ nhàng cho kết luận) &rarr; <b>Đáp án 4</b>."
+        }
+      ]
+    },
+    {
       "id": "choukai",
       "name": "聴解 (Nghe hiểu - Mondai 1 đến 5)",
       "icon": "fa-headphones",

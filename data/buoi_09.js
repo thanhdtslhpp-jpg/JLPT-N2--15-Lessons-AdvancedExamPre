@@ -2011,6 +2011,1121 @@ window.JLPT_DATA[9] = {
       ]
     },
     {
+      "id": "tu_vung_5",
+      "name": "文字・語彙：Từ vựng 5 (Luyện tập 32 câu)",
+      "icon": "fa-book",
+      "questions": [
+        {
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "警察は第一発見者の彼が犯人ではないかと<ruby>疑<rt>______</rt></ruby>っているようだ。",
+          "targetWord": "疑",
+          "options": [
+            "おっている",
+            "こっている",
+            "せまっている",
+            "うたがっている"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>疑う（うたがう）：</b> Nghi ngờ.<br><b>Dịch nghĩa:</b> Cảnh sát có vẻ đang nghi ngờ người phát hiện đầu tiên chính là thủ phạm.",
+          "id": 155
+        },
+        {
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "入社から１か月が過ぎ、やっと新しい<ruby>職場<rt>______</rt></ruby>に慣れてきた。",
+          "targetWord": "職場",
+          "options": [
+            "しきば",
+            "しきじょう",
+            "しょくば",
+            "しょくじょう"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>職場（しょくば）：</b> Nơi làm việc, công sở.<br><b>Dịch nghĩa:</b> Đã qua 1 tháng kể từ khi vào công ty, cuối cùng tôi cũng quen với nơi làm việc mới.",
+          "id": 156
+        },
+        {
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "長い休みのときは、<ruby>地元<rt>______</rt></ruby>に帰って友達に会うのを楽しみにしている。",
+          "targetWord": "地元",
+          "options": [
+            "じもと",
+            "ちもと",
+            "じげん",
+            "ちげん"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>地元（じもと）：</b> Địa phương, quê nhà.<br><b>Dịch nghĩa:</b> Vào những kỳ nghỉ dài, tôi luôn mong chờ được về quê gặp bạn bè.",
+          "id": 157
+        },
+        {
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "これは水をきれいにする<ruby>装置<rt>______</rt></ruby>です。",
+          "targetWord": "装置",
+          "options": [
+            "そち",
+            "そうち",
+            "しょち",
+            "しょうち"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>装置（そうち）：</b> Thiết bị, máy móc.<br><b>Dịch nghĩa:</b> Đây là thiết bị làm sạch nước.",
+          "id": 158
+        },
+        {
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "アルバイトの応募書類は<ruby>返却<rt>______</rt></ruby>しませんので、ご注意ください。",
+          "targetWord": "返却",
+          "options": [
+            "へんきょ",
+            "へんきゃ",
+            "へんきょく",
+            "へんきゃく"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>返却（へんきゃく）：</b> Hoàn trả, trả lại.<br><b>Dịch nghĩa:</b> Hồ sơ ứng tuyển làm thêm sẽ không được hoàn trả, xin vui lòng lưu ý.",
+          "id": 159
+        },
+        {
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "仕事の<u>のうりつ</u>を上げるためには、適度な休憩を取ることが重要だ。",
+          "targetWord": "のうりつ",
+          "options": [
+            "能率",
+            "能卒",
+            "態率",
+            "態卒"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>能率（のうりつ）：</b> Hiệu suất, năng suất.<br><b>Dịch nghĩa:</b> Để nâng cao hiệu suất công việc, việc nghỉ ngơi điều độ rất quan trọng.",
+          "id": 160
+        },
+        {
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "彼は国の代表として、この大会で<u>すぐれた</u>成績をおさめた。",
+          "targetWord": "すぐれた",
+          "options": [
+            "栄れた",
+            "選れた",
+            "優れた",
+            "勇れた"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>優れる（すぐれる）：</b> Ưu tú, xuất sắc.<br><b>Dịch nghĩa:</b> Với tư cách đại diện quốc gia, anh ấy đã đạt được thành tích xuất sắc tại đại hội này.",
+          "id": 161
+        },
+        {
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "母にひどいことを言ってしまって、<u>はんせい</u>している。",
+          "targetWord": "はんせい",
+          "options": [
+            "半省",
+            "半生",
+            "反省",
+            "反生"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>反省（はんせい）：</b> Tự kiểm điểm, hối lỗi.<br><b>Dịch nghĩa:</b> Tôi đang tự kiểm điểm vì đã nói những lời quá đáng với mẹ.",
+          "id": 162
+        },
+        {
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "いくら仕事ができても、会社の<u>ほうしん</u>に従わない者は評価されないことがある。",
+          "targetWord": "ほうしん",
+          "options": [
+            "放信",
+            "方針",
+            "法真",
+            "報進"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>方針（ほうしん）：</b> Phương châm, đường lối.<br><b>Dịch nghĩa:</b> Dù làm việc giỏi đến đâu, người không tuân theo phương châm của công ty có khi cũng không được đánh giá cao.",
+          "id": 163
+        },
+        {
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "重いものを持って、<u>こし</u>を痛めてしまった。",
+          "targetWord": "こし",
+          "options": [
+            "腰",
+            "肩",
+            "腹",
+            "腕"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>腰（こし）：</b> Eo, thắt lưng. (肩: vai, 腹: bụng, 腕: cánh tay).<br><b>Dịch nghĩa:</b> Vì mang vác vật nặng nên tôi đã bị đau lưng.",
+          "id": 164
+        },
+        {
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "面接では、相手に（　）印象を与えることが大切だ。",
+          "options": [
+            "高",
+            "好",
+            "優",
+            "上"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>好印象（こういんしょう）：</b> Ấn tượng tốt.<br><b>Dịch nghĩa:</b> Trong buổi phỏng vấn, việc tạo ấn tượng tốt cho đối phương rất quan trọng.",
+          "id": 165
+        },
+        {
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "自宅から会社までの交通（　）は会社が払うことになっています。",
+          "options": [
+            "財",
+            "料",
+            "賃",
+            "費"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>交通費（こうつうひ）：</b> Chi phí đi lại.<br><b>Dịch nghĩa:</b> Chi phí đi lại từ nhà riêng đến công ty theo quy định do công ty chi trả.",
+          "id": 166
+        },
+        {
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "夜になるとこの辺りは人気もないし、なんとなく（　）気味だ。",
+          "options": [
+            "不",
+            "有",
+            "悪",
+            "暗"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>不気味（ぶきみ）：</b> Rùng rợn, ghê rợn, kỳ quái.<br><b>Dịch nghĩa:</b> Về đêm khu vực này không có bóng người, tự nhiên thấy hơi rờn rợn.",
+          "id": 167
+        },
+        {
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "アルバイトをしていた会社で、来月から（　）社員として働くことになった。",
+          "options": [
+            "本",
+            "真",
+            "正",
+            "実"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>正社員（せいしゃいん）：</b> Nhân viên chính thức.<br><b>Dịch nghĩa:</b> Tại công ty từng làm thêm, từ tháng sau tôi sẽ làm việc với tư cách nhân viên chính thức.",
+          "id": 168
+        },
+        {
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "面接（　）の顔を見た瞬間、頭が真っ白になってうまく答えられなかった。",
+          "options": [
+            "長",
+            "人",
+            "官",
+            "士"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>面接官（めんせつかん）：</b> Người phỏng vấn, giám khảo phỏng vấn.<br><b>Dịch nghĩa:</b> Khoảnh khắc nhìn thấy mặt người phỏng vấn, đầu óc tôi trống rỗng không trả lời trôi chảy được.",
+          "id": 169
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "関東と関西では同じ言葉でも（　）がかなり違うことがある。",
+          "options": [
+            "パターン",
+            "アクセント",
+            "サイン",
+            "シリーズ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>アクセント：</b> Trọng âm, ngữ điệu. (パターン: mẫu, kiểu; サイン: ký hiệu/chữ ký; シリーズ: chuỗi, sê-ri).<br><b>Dịch nghĩa:</b> Ở Kanto và Kansai, cùng một từ nhưng ngữ điệu (trọng âm) có khi khác nhau rất nhiều.",
+          "id": 170
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "レポートが（　）ならないようにホッチキスで止めておいた。",
+          "options": [
+            "ばらばらに",
+            "ひらひらに",
+            "ふらふらに",
+            "ぺらぺらに"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>ばらばらに：</b> Rời rạc, tung tóe, tách rời nhau. (ひらひら: phất phơ; ふらふら: loạng choạng; ぺらぺら: trôi chảy/mỏng dính).<br><b>Dịch nghĩa:</b> Để bài báo cáo không bị rơi rạc từng tờ, tôi đã bấm ghim lại.",
+          "id": 171
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "野菜が嫌いな子どもでも、細かく（　）スープに入れると食べられる。",
+          "options": [
+            "けずって",
+            "しぼって",
+            "きざんで",
+            "こすって"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>刻む（きざむ）：</b> Băm nhỏ, thái nhỏ. (削る: gọt, bào; 絞る: vắt; 擦る: chà xát).<br><b>Dịch nghĩa:</b> Ngay cả trẻ ghét rau, nếu băm nhỏ cho vào súp thì vẫn ăn được.",
+          "id": 172
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "彼は人の悪口や仕事の（　）を一切言わないので皆から尊敬されている。",
+          "options": [
+            "勝手",
+            "非難",
+            "愚痴",
+            "誤解"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>愚痴（ぐち）：</b> Lời than vãn, cằn nhằn (愚痴を言う). (勝手: tùy tiện; 非難: chỉ trích; 誤解: hiểu lầm).<br><b>Dịch nghĩa:</b> Anh ấy tuyệt đối không bao giờ nói xấu người khác hay than vãn về công việc nên được mọi người kính trọng.",
+          "id": 173
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "最近のスマートフォンはいろいろな（　）がありすぎて、私には難しい。",
+          "options": [
+            "機能",
+            "効能",
+            "可能",
+            "才能"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>機能（きのう）：</b> Chức năng, tính năng. (効能: công hiệu của thuốc/suối nước nóng; 可能: khả năng; 才能: tài năng).<br><b>Dịch nghĩa:</b> Điện thoại thông minh gần đây có quá nhiều chức năng nên đối với tôi hơi khó dùng.",
+          "id": 174
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "首相が新たな取り組みにおける決意を（　）した。",
+          "options": [
+            "解決",
+            "表明",
+            "解消",
+            "表現"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>表明（ひょうめい）：</b> Bày tỏ, tuyên bố rõ ràng (決意を表明する). (解決: giải quyết; 解消: xóa bỏ/giải tỏa; 表現: biểu hiện).<br><b>Dịch nghĩa:</b> Thủ tướng đã tuyên bố quyết tâm trong sáng kiến mới.",
+          "id": 175
+        },
+        {
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "合宿について、いつ、どこに集まるかなど（　）なことは、来週お知らせします。",
+          "options": [
+            "消極的",
+            "抽象的",
+            "積極的",
+            "具体的"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>具体的（ぐたいてき）：</b> Cụ thể. (消極的: tiêu cực; 抽象的: trừu tượng; 積極的: tích cực).<br><b>Dịch nghĩa:</b> Về buổi tập huấn, những thông tin cụ thể như khi nào, tập trung ở đâu sẽ được thông báo vào tuần tới.",
+          "id": 176
+        },
+        {
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "たくさんあった夏休みの宿題が<u>ほぼ</u>終わった。",
+          "targetWord": "ほぼ",
+          "options": [
+            "だいたい",
+            "ちょうど",
+            "すっかり",
+            "やっと"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>ほぼ ≒ だいたい：</b> Hầu như, đại khái, gần hết. (ちょうど: vừa đúng; すっかり: hoàn toàn; やっと: cuối cùng cũng).<br><b>Dịch nghĩa:</b> Bài tập nghỉ hè rất nhiều nhưng hầu như đã làm xong.",
+          "id": 177
+        },
+        {
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "トイレは常に<u>清潔に</u>しておきたい。",
+          "targetWord": "清潔に",
+          "options": [
+            "あかるく",
+            "あたたかく",
+            "きれいに",
+            "おしゃれに"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>清潔（せいけつ） ≒ きれい：</b> Sạch sẽ, vệ sinh.<br><b>Dịch nghĩa:</b> Tôi luôn muốn giữ nhà vệ sinh sạch sẽ.",
+          "id": 178
+        },
+        {
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "学校の隣にあるあの家はいつも<u>留守</u>のようだ。",
+          "targetWord": "留守",
+          "options": [
+            "誰かいる",
+            "誰もいない",
+            "誰か来る",
+            "誰も来ない"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>留守（るす） ≒ 誰もいない：</b> Vắng nhà, không có ai ở nhà.<br><b>Dịch nghĩa:</b> Ngôi nhà bên cạnh trường học lúc nào cũng có vẻ vắng người.",
+          "id": 179
+        },
+        {
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "あのときどうして彼女が泣いたのか、あとから事情を聞いて<u>納得した</u>。",
+          "targetWord": "納得した",
+          "options": [
+            "評価した",
+            "考えた",
+            "わかった",
+            "想像した"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>納得する（なっとくする） ≒ わかる：</b> Thông hiểu, hiểu ra và chấp nhận.<br><b>Dịch nghĩa:</b> Sau đó nghe kể đầu đuôi câu chuyện, tôi đã hiểu vì sao lúc ấy cô ấy khóc.",
+          "id": 180
+        },
+        {
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "（電話で）「<u>担当者</u>とかわりますので少々お待ちください。」",
+          "targetWord": "担当者",
+          "options": [
+            "社員",
+            "部員",
+            "教師",
+            "係の人"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>担当者（たんとうしゃ） ≒ 係の人（かかりのひと）：</b> Người phụ trách.<br><b>Dịch nghĩa:</b> (Qua điện thoại) 'Tôi sẽ chuyển máy cho người phụ trách nên xin vui lòng đợi một chút.'",
+          "id": 181
+        },
+        {
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "<b>せっせと</b>",
+          "options": [
+            "父はもう10年も<u>せっせと</u>テニスをしている。",
+            "<u>せっせと</u>バイト代を貯めて新しいバイクを買った。",
+            "試合ではあきらめずに<u>せっせと</u>戦うつもりだ。",
+            "今日は<u>せっせと</u>試験を受けたので、明日はゆっくりしよう。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>せっせと：</b> Chăm chỉ, cần mẫn, cặm cụi làm việc gì đó lặp đi lặp lại để đạt mục tiêu (như tích góp tiền, làm việc). Câu 2 'chăm chỉ dành dụm tiền làm thêm để mua xe máy mới' là chuẩn xác nhất.",
+          "id": 182
+        },
+        {
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "<b>うろうろ</b>",
+          "options": [
+            "熱が出たせいか、頭が<u>うろうろ</u>する。",
+            "道がわからず駅の周りを<u>うろうろ</u>していたら、交番を見つけた。",
+            "あの映画を見たとき、感動で目が<u>うろうろ</u>した。",
+            "明日から夏休みだと考えただけで<u>うろうろ</u>してくる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>うろうろ：</b> Đi đi lại lại, lảng vảng, lang thang không mục đích rõ ràng (do lạc đường hoặc chờ đợi). (Câu 1 đúng là くらくら; câu 3 là うるうる; câu 4 là わくわく).",
+          "id": 183
+        },
+        {
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "<b>はずす</b>",
+          "options": [
+            "この作品は触ってもいいですが、触るときは、指輪や腕時計は<u>はずして</u>ください。",
+            "あの２匹の猿は仲が良く、互いに体についているゴミや虫を<u>はずして</u>いる。",
+            "店員は食事が終わったお皿をテーブルから<u>はずした</u>。",
+            "母に玄関で靴の汚れをよく<u>はずして</u>から家に入るように言われた。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>はずす（外す）：</b> Tháo ra, cởi ra (nhẫn, đồng hồ, kính...). (Câu 2: 取っている; câu 3: 下げた/片付けた; câu 4: 落として).",
+          "id": 184
+        },
+        {
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "<b>工夫</b>",
+          "options": [
+            "明日は大事な試験だから、今日は一日中<u>工夫</u>ばかりしていた。",
+            "森本さんは何年も<u>工夫</u>して、ラグビーの日本代表に選ばれた。",
+            "いつも日本にある食材で<u>工夫</u>しながら、自分の国の料理を作っている。",
+            "京都に住んでいる彼女の<u>工夫</u>は去年から東京で働いている。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>工夫（くふう）：</b> Sáng tạo, nghĩ cách xoay xở/cải tiến. Câu 3 'vừa nghĩ cách xoay xở bằng nguyên liệu có ở Nhật vừa nấu món ăn nước mình' là dùng đúng.",
+          "id": 185
+        },
+        {
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "<b>みっともない</b>",
+          "options": [
+            "私は細かい作業は<u>みっともない</u>ので、得意な人に任せよう。",
+            "兄は本当にきれい好きで、部屋には要らない物が<u>みっともない</u>。",
+            "あと１分という<u>みっともない</u>ところで、点を入れられて負けた。",
+            "子どもの前では、父親として<u>みっともない</u>ところは見せられない。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>みっともない：</b> Xấu hổ, khó coi, không ra thể thống gì. Câu 4 'Trước mặt con cái, với tư cách người cha thì không thể để lộ bộ dạng đáng xấu hổ được' là chính xác.",
+          "id": 186
+        }
+      ]
+    },
+    {
+      "id": "np_4",
+      "name": "文法：Ngữ pháp 4 (M7-M9, 22 câu)",
+      "icon": "fa-pencil-alt",
+      "questions": [
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "合格したいなら復習（　）予習もしなければならない。",
+          "options": [
+            "にしろ",
+            "はもとより",
+            "といえば",
+            "のもとで"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～はもとより：</b> Không chỉ... mà còn... / ...là đương nhiên, ngay cả... cũng...<br><b>Dịch nghĩa:</b> Nếu muốn đỗ thì ôn tập là đương nhiên, chuẩn bị bài trước cũng phải làm.",
+          "id": 187
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "先日泊まったホテルは、古くて高かった。（　）サービスが悪かったので、もう二度と行かない。",
+          "options": [
+            "あるいは",
+            "しかも",
+            "ちなみに",
+            "なお"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>しかも：</b> Hơn nữa, thêm vào đó (bổ sung thông tin cùng chiều).<br><b>Dịch nghĩa:</b> Khách sạn tôi ở hôm trước vừa cũ vừa đắt. Hơn nữa dịch vụ lại tệ nên tôi sẽ không bao giờ quay lại lần hai.",
+          "id": 188
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "ありがたい（　）、病気が再発することもなく、無事に10年が過ぎた。",
+          "options": [
+            "ことに",
+            "ことは",
+            "ことが",
+            "ことと"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>ありがたいことに：</b> Thật đáng biết ơn là / May mắn thay là (Tính từ biểu thị cảm xúc + ことに).<br><b>Dịch nghĩa:</b> May mắn thay, bệnh không tái phát và 10 năm đã trôi qua bình an.",
+          "id": 189
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "息子「富士山？　無理無理、絶対登れるわけないよ。」<br>父「やってみる前から無理（　）言うもんじゃない。」",
+          "options": [
+            "だったなら",
+            "だなんて",
+            "だとしても",
+            "だからって"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～なんて / ～だなんて：</b> (Nói những điều) như là... (mang sắc thái ngạc nhiên, trách móc nhẹ).<br><b>Dịch nghĩa:</b> Con: 'Núi Phú Sĩ á? Không thể nào, chắc chắn không leo nổi đâu.' / Bố: 'Chưa thử mà đã nói là không thể thì không nên đâu.'",
+          "id": 190
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "彼から謝らない（　）、仲直りする気はない。",
+          "options": [
+            "あげく",
+            "わけで",
+            "まま",
+            "限り"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>V-ない限り：</b> Trừ khi..., nếu không... thì...<br><b>Dịch nghĩa:</b> Nếu anh ta không chịu xin lỗi trước thì tôi không có ý định làm hòa.",
+          "id": 191
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "京都には清水寺（　）、古いお寺がたくさんある。",
+          "options": [
+            "からして",
+            "にしても",
+            "の上に",
+            "をはじめ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>N + をはじめ（として）：</b> Trước hết phải kể đến..., tiêu biểu là...<br><b>Dịch nghĩa:</b> Ở Kyoto có rất nhiều ngôi chùa cổ, tiêu biểu là chùa Kiyomizu.",
+          "id": 192
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "勉強もしないであの大学に合格できる（　）よ。",
+          "options": [
+            "わけではない",
+            "までもない",
+            "はずがない",
+            "しかない"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>～はずがない：</b> Chắc chắn không thể nào, làm gì có chuyện...<br><b>Dịch nghĩa:</b> Không học hành gì mà đòi đỗ vào trường đại học đó thì làm gì có chuyện đó chứ!",
+          "id": 193
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "雨はやむどころか、ますます激しくなる（　）。",
+          "options": [
+            "一方だ",
+            "次第だ",
+            "最中だ",
+            "ほどだ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>V-る一方だ：</b> Ngày càng..., cứ thế... (biến đổi theo một chiều hướng).<br><b>Dịch nghĩa:</b> Mưa chẳng những không tạnh mà ngày càng nặng hạt hơn.",
+          "id": 194
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "私が間違った電話番号を教えた（　）、取引先に迷惑をかけてしまった。",
+          "options": [
+            "にしては",
+            "くせに",
+            "だけに",
+            "ばかりに"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>～ばかりに：</b> Chỉ vì... mà (dẫn đến kết quả xấu ngoài ý muốn).<br><b>Dịch nghĩa:</b> Chỉ vì tôi báo nhầm số điện thoại mà đã gây phiền phức cho đối tác.",
+          "id": 195
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "最近忙しいが、来週は演奏会があるのでピアノの練習を（　）。",
+          "options": [
+            "休まないこともない",
+            "休まないでいられない",
+            "休んでばかりもいられない",
+            "休んでかまわない"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>～てばかりもいられない：</b> Không thể cứ mãi... được.<br><b>Dịch nghĩa:</b> Gần đây bận rộn thật nhưng tuần sau có buổi hòa nhạc nên không thể cứ nghỉ tập piano mãi được.",
+          "id": 196
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "あのマンションは駅から遠いし古い（　）家賃が高い。",
+          "options": [
+            "としても",
+            "からこそ",
+            "わりに",
+            "だけあって"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>～わりに：</b> Tuy... nhưng lại... / So với... thì... (kết quả trái với dự đoán thông thường).<br><b>Dịch nghĩa:</b> Chung cư kia vừa xa ga vừa cũ vậy mà tiền thuê nhà lại đắt.",
+          "id": 197
+        },
+        {
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn)",
+          "sentence": "卒業しても、先生が今（　）ことを忘れずに、毎日努力していこうと思います。",
+          "options": [
+            "申した",
+            "おっしゃった",
+            "おかけになった",
+            "存じた"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>おっしゃる：</b> Tôn kính ngữ của 言う (nói). (申す・存じる là khiêm nhường ngữ).<br><b>Dịch nghĩa:</b> Dù tốt nghiệp rồi, em vẫn sẽ không quên những điều thầy vừa dạy và cố gắng mỗi ngày.",
+          "id": 198
+        },
+        {
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
+          "beforeText": "母の",
+          "afterText": "、私にはとてもできないだろう。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "ことは"
+            },
+            {
+              "id": 2,
+              "text": "毎朝お弁当を作る"
+            },
+            {
+              "id": 3,
+              "text": "ように"
+            },
+            {
+              "id": 4,
+              "text": "1日も欠かさず"
+            }
+          ],
+          "correctOrder": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "correctStarOption": 2,
+          "explanation": "Thứ tự đúng: 母の <b>[ように(3)] [1日も欠かさず(4)] [★ 毎朝お弁当を作る(2)] [ことは(1)]</b>、私にはとてもできないだろう。<br><b>Dịch nghĩa:</b> Việc sáng nào cũng làm cơm hộp không nghỉ một ngày nào như mẹ thì tôi chắc chắn không thể làm nổi.",
+          "id": 199
+        },
+        {
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
+          "beforeText": "仕事がうまくいっているのは、",
+          "afterText": "、僕一人の力ではない。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "仲間の"
+            },
+            {
+              "id": 2,
+              "text": "いつも"
+            },
+            {
+              "id": 3,
+              "text": "おかげで"
+            },
+            {
+              "id": 4,
+              "text": "協力してくれる"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "correctStarOption": 1,
+          "explanation": "Thứ tự đúng: 仕事がうまくいっているのは、<b>[いつも(2)] [協力してくれる(4)] [★ 仲間の(1)] [おかげで(3)]</b>、僕一人の力ではない。<br>Wait — hoặc [いつも(2)] [協力してくれる(4)] [仲間の(1)] [おかげで(3)]: 'Nhờ vào những người đồng nghiệp luôn giúp đỡ'. Chuẩn xác!",
+          "id": 200
+        },
+        {
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
+          "beforeText": "彼女に本当のことを言って",
+          "afterText": "しまった。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "ましだと思って"
+            },
+            {
+              "id": 2,
+              "text": "悲しませるより"
+            },
+            {
+              "id": 3,
+              "text": "嘘をついて"
+            },
+            {
+              "id": 4,
+              "text": "つい"
+            }
+          ],
+          "correctOrder": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "correctStarOption": 4,
+          "explanation": "Thứ tự đúng: 彼女に本当のことを言って <b>[悲しませるより(2)] [ましだと思って(1)] [★ つい(4)] [嘘をついて(3)]</b> しまった。<br><b>Dịch nghĩa:</b> Nghĩ rằng nói dối còn hơn là nói thật khiến cô ấy buồn nên tôi đã lỡ nói dối mất rồi.",
+          "id": 201
+        },
+        {
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
+          "beforeText": "私の名字は読み方が難しく、",
+          "afterText": "初めて会う人には「どう読むんですか。」と聞かれる。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "ほど"
+            },
+            {
+              "id": 2,
+              "text": "必ず"
+            },
+            {
+              "id": 3,
+              "text": "いい"
+            },
+            {
+              "id": 4,
+              "text": "といって"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: <b>[必ず(2)] [といって(4)] [★ いい(3)] [ほど(1)]</b> (～といってもいいほど: đến mức có thể nói là chắc chắn...).<br><b>Dịch nghĩa:</b> Họ của tôi khó đọc đến mức có thể nói là hễ gặp người mới lần đầu là chắc chắn bị hỏi 'Đọc thế nào vậy ạ?'.",
+          "id": 202
+        },
+        {
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
+          "beforeText": "全然問題ないとは言ったものの、",
+          "afterText": "高まってくる。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "次第に緊張が"
+            },
+            {
+              "id": 2,
+              "text": "近づく"
+            },
+            {
+              "id": 3,
+              "text": "につれて"
+            },
+            {
+              "id": 4,
+              "text": "試合の開始時間が"
+            }
+          ],
+          "correctOrder": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: <b>[試合の開始時間が(4)] [近づく(2)] [★ につれて(3)] [次第に緊張が(1)]</b> 高まってくる。<br><b>Cấu trúc:</b> V-るにつれて (càng... càng...).<br><b>Dịch nghĩa:</b> Tuy đã nói là hoàn toàn không sao nhưng khi giờ bắt đầu trận đấu càng đến gần, sự căng thẳng dần tăng lên.",
+          "id": 203
+        },
+        {
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp trong đoạn văn)",
+          "passage": "（留学生の作文）「人生の友だち」<br><br>\n小学生のころ、学校が終わると真っ先に向かう場所は、近所の商店街にある小さな本屋だった。昼間でも薄暗く、いつも機嫌が悪そうな怖い顔をしたおじさんがいて、お客さんは一人か二人ぐらいしかいない、そんな古い書店である。でもそこはいつでもどこでも好きなところへ行くことができ、どんなスターにもなれるぼく【 18 】特別な場所だった。毎日何時間もその本屋で過ごしながら、お気に入りの一冊を手にして、開けたり閉じたり、ぼんやり眺めたりして想像の世界に入っていった。そこでは目を閉じればどこにでも行ける。あるときは宝を求めて深い山の中へ、またあるときは宇宙旅行に、【 19 】500年前の王様にだって会いに行けるのである。そうやって何時間も店の隅で過ごす少年を、そのまま好きなだけそこにいさせてくれた本屋のおじさんに【 20 】。<br><br>\n本と過ごす日々は、幼かったぼくに勇気と希望を【 21 】。しかし、そんな少年もおじさんも年を取り、いつの間にか大好きだったあの店もなくなってしまった。だが、今でもよく似た小さな書店を見つけると、あのころのわくわくした気分を思い出してうれしくなる。<br><br>\nぼくには【 22 】は友人のようなものだ。一緒に同じ時間を過ごし、泣いたり笑ったりして気持ちを理解する。時には二度と会いたくないと思うこともあるが、何年か経ってからまた会ってみると、前とは違う気持ちで接することができることもある。これからも人生でどんな友人に出会えるか楽しみにしている。",
+          "questionText": "空欄【 18 】に入る最もよいものはどれか。",
+          "options": [
+            "に対して",
+            "について",
+            "にとって",
+            "によって"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>～にとって：</b> Đối với (ai đó). 'ぼくにとって特別な場所だった' = Đối với tôi, đó là một nơi đặc biệt.",
+          "id": 204
+        },
+        {
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp trong đoạn văn)",
+          "questionText": "空欄【 19 】に入る最もよいものはどれか。",
+          "options": [
+            "それなのに",
+            "そればかりか",
+            "そのせいで",
+            "それでも"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>そればかりか：</b> Không chỉ vậy mà còn... (bổ sung cấp độ cao hơn: đi tìm kho báu, du hành vũ trụ, không chỉ thế còn gặp cả quốc vương 500 năm trước).",
+          "id": 205
+        },
+        {
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp trong đoạn văn)",
+          "questionText": "空欄【 20 】に入る最もよいものはどれか。",
+          "options": [
+            "感謝してはいけない",
+            "感謝せずにはいられない",
+            "感謝しようがない",
+            "感謝するわけにはいかない"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>～ずにはいられない：</b> Không thể không... (cảm xúc tự nhiên trào dâng: không thể không biết ơn bác chủ hiệu sách).",
+          "id": 206
+        },
+        {
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp trong đoạn văn)",
+          "questionText": "空欄【 21 】に入る最もよいものはどれか。",
+          "options": [
+            "与えてもらった",
+            "与えさせた",
+            "与えられた",
+            "与えてくれた"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>～てくれた：</b> Chủ ngữ là '本と過ごす日々' (Những ngày tháng bên sách) đã ban tặng dũng khí và hy vọng cho tôi (ぼくに) -> dùng くれた.",
+          "id": 207
+        },
+        {
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp trong đoạn văn)",
+          "questionText": "空欄【 22 】に入る最もよいものはどれか。",
+          "options": [
+            "少年",
+            "おじさん",
+            "書店",
+            "本"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Xuyên suốt bài văn nói về việc đọc sách và phần cuối nói 'cùng khóc cùng cười, thấu hiểu cảm xúc, sau nhiều năm đọc lại thấy khác, mong chờ gặp được những người bạn mới trong đời' -> chính là <b>本 (Sách)</b>.",
+          "id": 208
+        }
+      ]
+    },
+    {
+      "id": "doan_van_4",
+      "name": "読解：Đoản văn 4 (5 câu)",
+      "icon": "fa-file-alt",
+      "questions": [
+        {
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đoản văn)",
+          "passage": "（1）<br>私は、ロボットの研究に携われてかなり幸運だったと思っている。むろん他の仕事に就いていても、人間理解を基本問題にすえた活動をしていた可能性は非常に高い。しかしロボットがいいのは、分かりやすい形で、自分の研究成果を世の中に出せることである。その分かりやすさゆえに誤解を生むこともあるが、それでも、他の分野に比べて、純粋に「人間を理解したい」という気持ちを持ちながら、研究に取り組むことができる。<br>（石黒浩『ロボットとは何か―人の心を映す鏡』講談社現代新書による）",
+          "questionText": "筆者がロボットの研究に携われて幸運だったと思っている理由について、合っているものはどれか。",
+          "options": [
+            "研究成果を目に見える形で社会に出せるから",
+            "他の仕事ではまったく人間理解について研究ができないから",
+            "誤解を解くことにやりがいを感じるから",
+            "ロボットの研究は他の分野の人にとって分かりやすいから"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Đoạn văn nêu rõ 'しかしロボットがいいのは、分かりやすい形で、自分の研究成果を世の中に出せることである' (Điểm hay của robot là có thể đưa thành quả nghiên cứu của mình ra xã hội dưới hình thức dễ hiểu / trực quan). Đáp án đúng là <b>1</b>.",
+          "id": 209
+        },
+        {
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đoản văn)",
+          "passage": "（2）<br>日本人が英語を苦手とすることは相変わらずである。私も、指導している大学院生に英語の論文を書かせるときに、いつも苦労している。せっかく学力があるのに、国際舞台に立つ際に英語力がハンディキャップになっている。文部科学省から企業、家庭のお父さん、お母さんまで、自分や他人の英語力を何とかしたい！　と願っている人は多いのではないか。<br>最初から自分でしゃべろうとすると、つたなくなってしまう。それで、ついおっくうになる。ならば、熟練した人々が、目の前で流暢な会話を交わしているところを、ライヴで見るのがよい。そのような<u>「劇場効果」</u>による学習効果は、きわめて高い。実際、私たちは、大人たちの交わす言葉のドラマを聞きながら、母国語を学んできたのである。<br>（茂木健一郎『脳の中の人生』中公新書ラクレによる）",
+          "questionText": "「劇場効果」とあるが、その学習方法とはどのようなものか。",
+          "options": [
+            "海外で実際に英語をどんどん使って話してみること",
+            "英語が上手な人同士が会話しているのをその場で見ること",
+            "英語のドラマや映画を見て勉強すること",
+            "子どもの時から大人に英語をきちんと学ぶこと"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Ngay trước cụm 「劇場効果」, tác giả viết: '熟練した人々が、目の前で流暢な会話を交わしているところを、ライヴで見るのがよい' (Nên xem trực tiếp cảnh những người thành thạo trò chuyện lưu loát ngay trước mắt). Khớp với phương án <b>2</b>.",
+          "id": 210
+        },
+        {
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đoản văn)",
+          "passage": "（3）<br>現在は、モノと情報があふれかえっている時代だ。少し前には、テレビやラジオで確認するしかなかったプロ野球のリアルタイムな試合経過も、今では、ネットさえつながれば携帯やスマホでどこにいても知ることができる。<br>商品やサービスについての情報も大量に流通しているので、まったく目にしたことも、耳にしたこともない商品やサービスなどはそうそうない。<br>こうした状況で、顧客に、「あっ、これは面白そう」「他とちょっと違うな」「なんだ、これは!?」という驚きや感動を与えられなければ、勝ち残ることができないわけだから、ビジネスのハードルは以前に比べて相当に高くなっている。いかにユニークな価値を持つ発想ができるかで勝敗は決まってくる。<br>（理央周『ひつまぶしとスマホは、同じ原理でできている』日経プレミアシリーズによる）",
+          "questionText": "筆者の考えに合うものはどれか。",
+          "options": [
+            "現在は情報があふれかえっている時代なので、何が本当かを見極める目が大切だ。",
+            "情報を得る手段としてネットに頼りすぎており、ネットがないと何もできない。",
+            "他と同じことをしていては、お客様の目を引くことはできない。",
+            "以前と比べるとユニークな発想を持つ会社が増えてきた。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Tác giả cho rằng cần tạo cho khách hàng cảm giác 'hơi khác biệt so với chỗ khác' và 'ý tưởng mang giá trị độc đáo' mới thắng được -> làm giống người khác thì không thu hút được khách hàng (<b>3</b>).",
+          "id": 211
+        },
+        {
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đoản văn)",
+          "passage": "（4）<br>いけづくり【生け作り】<br>刺身の食べ方のひとつで、珍重される。ぴくぴく動いているのがいいのであって、動かないでいるのには、わざとお酒をかけたり、つついたりして、跳ねるのを見ておもしろがっている。味はこの際どうでもいい。生きているのなら新鮮だ。新鮮だからおいしいに違いないという、論理にならない論理によって、おいしがられる。<br>数年前、イギリスの権威ある科学雑誌に、魚には痛覚があるという論文が発表された。以来、私は、生け作りがおいしいと思えなくなってしまった。世の中には、知らないでいるほうがずっと幸せであることが、たくさんある。読まなきゃよかった。<br>（金田一秀穂『お食辞解』文春文庫による）<br>(注1) 珍重する：珍しいものとして大切にする<br>(注2) 痛覚：痛いと感じる感覚",
+          "questionText": "筆者がイギリスの雑誌を読まなきゃよかったと思っているのはなぜか。",
+          "options": [
+            "新鮮だからおいしいということに、根拠がないと書いてあったから",
+            "動いている魚を見ているだけでおいしさを感じるのは勘違いだとわかったから",
+            "魚が痛みを感じていることを知り、生け作りのおいしさを感じなくなったから",
+            "動かないものを動かそうとしてつついたりすると、魚が嫌がると知ったから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Sau khi đọc bài báo khoa học nói cá có cảm giác đau (痛覚がある), tác giả không còn thấy món cá sống ikizukuri ngon nữa -> đáp án <b>3</b>.",
+          "id": 212
+        },
+        {
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đoản văn)",
+          "passage": "（5）以下は、ある会社が出したメールの内容である。<br><br>\n毎日の業務お疲れさまです。今夏の夏季一斉休暇について下記のとおり決定しましたのでお知らせいたします。<br><br>\n1．期間：8月12日（土）から8月17日（木）までの6日間<br>\n2．注意事項：休暇期間中は、原則として本社事務所及び工場への立入りができません。立入りの必要がある場合には、あらかじめ各課の課長の許可を得て入場許可証を受領し、総務部長に提出してください。<br>\n3．その他：8月18日（金）から平常勤務とします。<br>\n当日から速やかに平常業務が再開できるよう、各自事前の清掃等を実施してください。<br>\nなお、この件に関してご質問のある場合は、総務部・石田までメールをお送りください。<br><br>\n以上よろしくお願いします。",
+          "questionText": "休暇中に工場に入りたい社員は、まず何をしなければならないか。",
+          "options": [
+            "課長に立入りを申請する。",
+            "総務部長に入場許可証を提出する。",
+            "清掃等を実施する。",
+            "総務の石田さんにメールする。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Mục 2 ghi: '立入りの必要がある場合には、あらかじめ各課の課長の許可を得て入場許可証を受領し、総務部長に提出してください' -> Trước tiên phải xin phép trưởng phòng (<b>1</b>).",
+          "id": 213
+        }
+      ]
+    },
+    {
+      "id": "trung_van_4",
+      "name": "読解：Trung văn 4 (9 câu)",
+      "icon": "fa-file-alt",
+      "questions": [
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（1）<br>悩むのは、悩む時間があるからである。確かに、本当に大変な人もいる。しかし、大きな歴史の中での比較をすれば、我々は時間が余って仕方がない。食材はスーパーに行けばすぐに手に入るし、洗濯も機械がやってくれる。<br>\nそして、余った時間をどう使おうかと悩む。そう、我々がいる社会は、<u>①「時間消費社会」</u>である。（中略）<br>\n時間消費社会と言うと、勤勉、成長、規律などを重んじる価値観でモノゴトを考える人たちにとっては、なんとも不謹慎に響くかもしれない。しかし、人類の歴史はヒマ、あるいは余裕の追求であった。そして、その過程で生まれたヒマを埋め合わせるためのものを求めてきた。<br>\n人間は脳が発達したおかげで、刺激がないとおかしくなってしまう。刺激にはすぐ慣れてしまう。だから、さらに新しいものを求めていくのである。<br>\nあらゆる人が時間つぶしの材料を求めている。時間つぶしだから楽しくなければならない。何が楽しいかは人それぞれだし、どんなに新しくてもそのうち飽きられる。（中略）その時間つぶしの材料は、企業が提供している。そして、あくなき個人の欲求に応えつづけるのは本当に難しい。<br>\nそう、時間消費社会で企業を運営するということ、そしてそこで仕事する我々には、<u>②本当に高いレベルが求められている</u>のだ。<br>\n（山崎将志『仕事オンチな働き者』日経プレミアシリーズによる）<br>\n(注) あくなき：決して満足することがない",
+          "questionText": "筆者の言う①「時間消費社会」では何を考えなければならないか。",
+          "options": [
+            "短い時間の中でいかに効率よく物事を進めるかを考える。",
+            "刺激的で新しいものをいかに使うかを考える。",
+            "空いている時間をいかに埋めるかを考える。",
+            "与えられた時間の中でいかに勤勉に過ごすかを考える。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn 2 viết: '余った時間をどう使おうかと悩む。そう、我々がいる社会は、「時間消費社会」である' (Băn khoăn xem nên dùng thời gian dư thừa như thế nào) và 'ヒマを埋め合わせる' -> suy nghĩ làm thế nào để lấp đầy thời gian rảnh (<b>3</b>).",
+          "id": 214
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（1）<br>悩むのは、悩む時間があるからである。確かに、本当に大変な人もいる。しかし、大きな歴史の中での比較をすれば、我々は時間が余って仕方がない。食材はスーパーに行けばすぐに手に入るし、洗濯も機械がやってくれる。<br>\nそして、余った時間をどう使おうかと悩む。そう、我々がいる社会は、<u>①「時間消費社会」</u>である。（中略）<br>\n時間消費社会と言うと、勤勉、成長、規律などを重んじる価値観でモノゴトを考える人たちにとっては、なんとも不謹慎に響くかもしれない。しかし、人類の歴史はヒマ、あるいは余裕の追求であった。そして、その過程で生まれたヒマを埋め合わせるためのものを求めてきた。<br>\n人間は脳が発達したおかげで、刺激がないとおかしくなってしまう。刺激にはすぐ慣れてしまう。だから、さらに新しいものを求めていくのである。<br>\nあらゆる人が時間つぶしの材料を求めている。時間つぶしだから楽しくなければならない。何が楽しいかは人それぞれだし、どんなに新しくてもそのうち飽きられる。（中略）その時間つぶしの材料は、企業が提供している。そして、あくなき個人の欲求に応えつづけるのは本当に難しい。<br>\nそう、時間消費社会で企業を運営するということ、そしてそこで仕事する我々には、<u>②本当に高いレベルが求められている</u>のだ。<br>\n（山崎将志『仕事オンチな働き者』日経プレミアシリーズによる）<br>\n(注) あくなき：決して満足することがない",
+          "questionText": "②「本当に高いレベルが求められている」とあるが、それはどうしてか。正しいものを選べ。",
+          "options": [
+            "悩む時間をできるだけ少なくするものを売り出さないといけないから",
+            "どんな人にも絶対に飽きられないものを作成しないといけないから",
+            "全ての消費者が余裕を追求でき、満足できるものを考えて製品化しないといけないから",
+            "ヒマを埋め合わせられ、あくなき個人の欲求に合うものを作らないといけないから"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Đoạn 5 giải thích: người ta tìm kiếm thứ để giết thời gian, mau chán, và doanh nghiệp phải cung cấp những thứ đáp ứng dục vọng không ngừng (あくなき個人の欲求) của mỗi cá nhân -> <b>4</b>.",
+          "id": 215
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（1）<br>悩むのは、悩む時間があるからである。確かに、本当に大変な人もいる。しかし、大きな歴史の中での比較をすれば、我々は時間が余って仕方がない。食材はスーパーに行けばすぐに手に入るし、洗濯も機械がやってくれる。<br>\nそして、余った時間をどう使おうかと悩む。そう、我々がいる社会は、<u>①「時間消費社会」</u>である。（中略）<br>\n時間消費社会と言うと、勤勉、成長、規律などを重んじる価値観でモノゴトを考える人たちにとっては、なんとも不謹慎に響くかもしれない。しかし、人類の歴史はヒマ、あるいは余裕の追求であった。そして、その過程で生まれたヒマを埋め合わせるためのものを求めてきた。<br>\n人間は脳が発達したおかげで、刺激がないとおかしくなってしまう。刺激にはすぐ慣れてしまう。だから、さらに新しいものを求めていくのである。<br>\nあらゆる人が時間つぶしの材料を求めている。時間つぶしだから楽しくなければならない。何が楽しいかは人それぞれだし、どんなに新しくてもそのうち飽きられる。（中略）その時間つぶしの材料は、企業が提供している。そして、あくなき個人の欲求に応えつづけるのは本当に難しい。<br>\nそう、時間消費社会で企業を運営するということ、そしてそこで仕事する我々には、<u>②本当に高いレベルが求められている</u>のだ。<br>\n（山崎将志『仕事オンチな働き者』日経プレミアシリーズによる）<br>\n(注) あくなき：決して満足することがない",
+          "questionText": "本文の内容に合うものはどれか。",
+          "options": [
+            "時代とともに「時間消費社会」は不謹慎だと考えられるようになるだろう。",
+            "時間つぶしの材料を求めている人に、企業が応えていくのは困難である。",
+            "時代が変わっても、余った時間にすることは変わっていない。",
+            "現代人は刺激的で楽しい時間を求めつづけることに飽きてきた。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 5 viết rõ: 'あくなき個人の欲求に応えつづけるのは本当に難しい' (Thật sự rất khó để tiếp tục đáp ứng nhu cầu không ngừng của cá nhân đang tìm thứ giết thời gian) -> <b>2</b>.",
+          "id": 216
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（2）<br>「なにがなんでも成功したい」<br>\n「絶対ライバルに勝ちたい」<br>\nこのような意識が過剰になってしまうと、過度の緊張感や意気込みでガチガチに凝り固まって柔軟な発想や行動ができなくなり、かえって自分が持っている実力を発揮できなくなってしまうものです。<br>\n叶えたいことに対して、<u>①あまり意識過剰にならないほうがいい</u>でしょう。<br>\n「意識しない」ということではありません。<br>\nただ、<u>②そのこと</u>で頭をいっぱいにするのをやめるということです。<br>\n「成功したい。だから、負けるわけにはいかない。ライバルは何をしているんだろう？　上司にもアピールしなきゃ」<br>\nなどと、気ぜわしく日々を過ごすより、<br>\n「成功したい。よし。今日も仕事を心から楽しもう」<br>\nと気張りすぎず、当たり前のことをきちんとするほうが一つひとつ丁寧に取り組むことができるため、持っている力をしっかり発揮できます。<br>\n「自然に、ありのままに」を意識するほうが、望みが叶う可能性が高いのです。<br>\n心がおだやかで平常心であるほうが自分の持つ力を発揮できることは、脳科学の視点からもわかっています。<br>\n目標に対して肩に力が入りすぎている、心が苦しくなってきたというときは、「もっと自然な気持ちで自然にやっていこう」と自分に言い聞かせましょう。<br>\n目標や意識に縛られすぎず、目の前の日々を楽しむことが大切です。<br>\n（植西聰『悩みごとの9割は捨てられる』あさ出版による）<br>\n(注) 気ぜわしい：気持ちが忙しく落ち着かない",
+          "questionText": "①「あまり意識過剰にならないほうがいい」とあるが、なぜか。",
+          "options": [
+            "仕事が忙しいと心が苦しくなるから",
+            "あまり気にしないほうがライバルに勝てるから",
+            "緊張すると自分の力が出せなくなるから",
+            "目的にまっすぐ向かったほうが望みが叶いやすいから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn đầu nêu rõ nếu ý thức quá mức sẽ bị căng thẳng quá độ (過度の緊張感) dẫn đến không phát huy được thực lực vốn có -> <b>3</b>.",
+          "id": 217
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（2）<br>「なにがなんでも成功したい」<br>\n「絶対ライバルに勝ちたい」<br>\nこのような意識が過剰になってしまうと、過度の緊張感や意気込みでガチガチに凝り固まって柔軟な発想や行動ができなくなり、かえって自分が持っている実力を発揮できなくなってしまうものです。<br>\n叶えたいことに対して、<u>①あまり意識過剰にならないほうがいい</u>でしょう。<br>\n「意識しない」ということではありません。<br>\nただ、<u>②そのこと</u>で頭をいっぱいにするのをやめるということです。<br>\n「成功したい。だから、負けるわけにはいかない。ライバルは何をしているんだろう？　上司にもアピールしなきゃ」<br>\nなどと、気ぜわしく日々を過ごすより、<br>\n「成功したい。よし。今日も仕事を心から楽しもう」<br>\nと気張りすぎず、当たり前のことをきちんとするほうが一つひとつ丁寧に取り組むことができるため、持っている力をしっかり発揮できます。<br>\n「自然に、ありのままに」を意識するほうが、望みが叶う可能性が高いのです。<br>\n心がおだやかで平常心であるほうが自分の持つ力を発揮できることは、脳科学の視点からもわかっています。<br>\n目標に対して肩に力が入りすぎている、心が苦しくなってきたというときは、「もっと自然な気持ちで自然にやっていこう」と自分に言い聞かせましょう。<br>\n目標や意識に縛られすぎず、目の前の日々を楽しむことが大切です。<br>\n（植西聰『悩みごとの9割は捨てられる』あさ出版による）<br>\n(注) 気ぜわしい：気持ちが忙しく落ち着かない",
+          "questionText": "②「そのこと」とは何か。",
+          "options": [
+            "目標",
+            "平常心",
+            "悩み",
+            "柔軟な発想"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Câu trước đó nói '叶えたいことに対して、あまり意識過剰にならないほうがいい' (Đối với điều muốn đạt được/mục tiêu, đừng quá bận tâm thái quá; không phải không ý thức, mà chỉ là ngừng việc để đầu óc chứa đầy 'điều đó' = <b>目標</b>).",
+          "id": 218
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（2）<br>「なにがなんでも成功したい」<br>\n「絶対ライバルに勝ちたい」<br>\nこのような意識が過剰になってしまうと、過度の緊張感や意気込みでガチガチに凝り固まって柔軟な発想や行動ができなくなり、かえって自分が持っている実力を発揮できなくなってしまうものです。<br>\n叶えたいことに対して、<u>①あまり意識過剰にならないほうがいい</u>でしょう。<br>\n「意識しない」ということではありません。<br>\nただ、<u>②そのこと</u>で頭をいっぱいにするのをやめるということです。<br>\n「成功したい。だから、負けるわけにはいかない。ライバルは何をしているんだろう？　上司にもアピールしなきゃ」<br>\nなどと、気ぜわしく日々を過ごすより、<br>\n「成功したい。よし。今日も仕事を心から楽しもう」<br>\nと気張りすぎず、当たり前のことをきちんとするほうが一つひとつ丁寧に取り組むことができるため、持っている力をしっかり発揮できます。<br>\n「自然に、ありのままに」を意識するほうが、望みが叶う可能性が高いのです。<br>\n心がおだやかで平常心であるほうが自分の持つ力を発揮できることは、脳科学の視点からもわかっています。<br>\n目標に対して肩に力が入りすぎている、心が苦しくなってきたというときは、「もっと自然な気持ちで自然にやっていこう」と自分に言い聞かせましょう。<br>\n目標や意識に縛られすぎず、目の前の日々を楽しむことが大切です。<br>\n（植西聰『悩みごとの9割は捨てられる』あさ出版による）<br>\n(注) 気ぜわしい：気持ちが忙しく落ち着かない",
+          "questionText": "筆者の考えに合うものはどれか。",
+          "options": [
+            "「楽しい」だけでは成功できない。",
+            "ライバルがいたほうが目標達成に近づける。",
+            "肩の力をぬいたとき、本当の力が発揮できる。",
+            "「自然に」と意識しすぎると、かえって緊張してしまう。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Tác giả khuyên đừng quá gồng mình (肩に力が入りすぎている), giữ tâm bình thản tự nhiên sẽ phát huy được sức mạnh thực sự -> thả lỏng vai (肩の力をぬいたとき) sẽ phát huy được thực lực (<b>3</b>).",
+          "id": 219
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（3）<br>現代の美術館では、<u>①作品を鑑賞するときの身体</u>は、まるでそこに存在しないものであるかのように扱われています。多くの場合、作品には「お手を触れないでください」という注意書きが付され、身体性を伴ったお芝居やダンスパフォーマンスでも、観客は大人しく見る、あるいは聞くということしか許されていません。鑑賞するときに触れることを必然的に伴うような「触覚のアート」は、まだ存在していないのです。<br>\nそれでも、一部のアーティストは、「場」そのものを設計し、その場所に鑑賞者が身をおくことによって全身を通じて作品を感じ取るような作品を先駆的につくってきました。（中略）<br>\nどのような形になるのかはわかりませんが、触れることを主軸としたアートが生まれるのも、もうまもなくのことではないかと私たちは思っています。<u>②それ</u>をサポートする、触覚を表現するためのテクノロジーがいよいよ普及してきたからです。比較的廉価なレーザーカッターや3Dプリンタが登場し、だれもが気軽にものづくりに手が出せる環境が整ってきました。<br>\n（テクタイル 仲谷正史ほか『触楽入門 はじめて世界に触れるときのように』朝日出版による）<br>\n(注) 廉価：値段が安い",
+          "questionText": "①「作品を鑑賞するときの身体」について、現代の美術館ではどうしなければならないと言っているか。",
+          "options": [
+            "自分の存在感を見せつけるようにする。",
+            "全身を通じて作品を感じ取るようにする。",
+            "作品に触れることをせずに見たり聞いたりする。",
+            "気軽に鑑賞するためにテクノロジーを利用する。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn 1 viết: tác phẩm thường ghi 'Xin đừng chạm tay', khán giả chỉ được phép ngoan ngoãn nhìn hoặc nghe -> <b>3</b>.",
+          "id": 220
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（3）<br>現代の美術館では、<u>①作品を鑑賞するときの身体</u>は、まるでそこに存在しないものであるかのように扱われています。多くの場合、作品には「お手を触れないでください」という注意書きが付され、身体性を伴ったお芝居やダンスパフォーマンスでも、観客は大人しく見る、あるいは聞くということしか許されていません。鑑賞するときに触れることを必然的に伴うような「触覚のアート」は、まだ存在していないのです。<br>\nそれでも、一部のアーティストは、「場」そのものを設計し、その場所に鑑賞者が身をおくことによって全身を通じて作品を感じ取るような作品を先駆的につくってきました。（中略）<br>\nどのような形になるのかはわかりませんが、触れることを主軸としたアートが生まれるのも、もうまもなくのことではないかと私たちは思っています。<u>②それ</u>をサポートする、触覚を表現するためのテクノロジーがいよいよ普及してきたからです。比較的廉価なレーザーカッターや3Dプリンタが登場し、だれもが気軽にものづくりに手が出せる環境が整ってきました。<br>\n（テクタイル 仲谷正史ほか『触楽入門 はじめて世界に触れるときのように』朝日出版による）<br>\n(注) 廉価：値段が安い",
+          "questionText": "②「それ」とは何か。",
+          "options": [
+            "作品を鑑賞できる身体をつくること",
+            "作品を鑑賞できる「場」をつくること",
+            "触れる環境をつくること",
+            "触れる作品をつくること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Câu trước đó viết: '触れることを主軸としたアートが生まれるのも、もうまもなくのことではないか。それをサポートする...' -> 'それ' chỉ việc tạo ra nghệ thuật/tác phẩm lấy việc chạm làm trục chính (<b>4</b>).",
+          "id": 221
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Trung văn)",
+          "passage": "（3）<br>現代の美術館では、<u>①作品を鑑賞するときの身体</u>は、まるでそこに存在しないものであるかのように扱われています。多くの場合、作品には「お手を触れないでください」という注意書きが付され、身体性を伴ったお芝居やダンスパフォーマンスでも、観客は大人しく見る、あるいは聞くということしか許されていません。鑑賞するときに触れることを必然的に伴うような「触覚のアート」は、まだ存在していないのです。<br>\nそれでも、一部のアーティストは、「場」そのものを設計し、その場所に鑑賞者が身をおくことによって全身を通じて作品を感じ取るような作品を先駆的につくってきました。（中略）<br>\nどのような形になるのかはわかりませんが、触れることを主軸としたアートが生まれるのも、もうまもなくのことではないかと私たちは思っています。<u>②それ</u>をサポートする、触覚を表現するためのテクノロジーがいよいよ普及してきたからです。比較的廉価なレーザーカッターや3Dプリンタが登場し、だれもが気軽にものづくりに手が出せる環境が整ってきました。<br>\n（テクタイル 仲谷正史ほか『触楽入門 はじめて世界に触れるときのように』朝日出版による）<br>\n(注) 廉価：値段が安い",
+          "questionText": "この文章で筆者の言いたいことは何か。",
+          "options": [
+            "作品やパフォーマンスを気軽に鑑賞することは難しくなるだろう。",
+            "誰でも新しいテクノロジーを簡単に使えるようになってきた。",
+            "「触れるアート」が安く手に入れられるようになってきた。",
+            "テクノロジーの進化によって「触れるアート」が身近になりつつある。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Nhờ công nghệ biểu đạt xúc giác (laser cutter, máy in 3D giá rẻ) phổ cập nên nghệ thuật chạm (触れるアート) sắp ra đời và trở nên gần gũi với mọi người -> <b>4</b>.",
+          "id": 222
+        }
+      ]
+    },
+    {
       "id": "choukai",
       "name": "聴解 (Nghe hiểu - Mondai 1 đến 5)",
       "questions": [

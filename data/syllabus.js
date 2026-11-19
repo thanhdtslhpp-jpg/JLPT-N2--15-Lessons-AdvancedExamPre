@@ -75,11 +75,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2018, Chuyên đề Tính từ N2, Mondai 6 Cách dùng từ và Chuyên đề Dấu sao ★.",
     "ready": true,
     "stats": {
-      "totalQuestions": 251,
+      "totalQuestions": 260,
       "kanji": 32,
       "vocab": 81,
       "grammar": 79,
-      "reading": 18,
+      "reading": 27,
       "listening": 41
     }
   },
@@ -89,11 +89,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử N2 Mô Phỏng 1, Chuyên đề Phó từ trọng điểm, Ngữ pháp Shinkanzen Master 1.",
     "ready": true,
     "stats": {
-      "totalQuestions": 271,
-      "kanji": 10,
-      "vocab": 102,
-      "grammar": 44,
-      "reading": 21,
+      "totalQuestions": 346,
+      "kanji": 20,
+      "vocab": 122,
+      "grammar": 69,
+      "reading": 41,
       "listening": 94
     }
   },
@@ -103,11 +103,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử N2 Mô Phỏng 2, Chuyên đề Động từ ghép N2, Ngữ pháp chuyên sâu Super 3, Nghe hiểu Choukai Mondai 1 & 2.",
     "ready": true,
     "stats": {
-      "totalQuestions": 156,
-      "kanji": 20,
-      "vocab": 44,
-      "grammar": 39,
-      "reading": 21,
+      "totalQuestions": 253,
+      "kanji": 30,
+      "vocab": 66,
+      "grammar": 91,
+      "reading": 34,
       "listening": 32
     }
   },
@@ -117,11 +117,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử N2 Mô Phỏng 4, Chuyên đề Phó từ toàn diện N2, Đọc hiểu Shinkanzen Dokkai 1, Nghe hiểu Choukai Mondai 1 & 2.",
     "ready": true,
     "stats": {
-      "totalQuestions": 154,
-      "kanji": 10,
-      "vocab": 49,
-      "grammar": 42,
-      "reading": 21,
+      "totalQuestions": 222,
+      "kanji": 20,
+      "vocab": 71,
+      "grammar": 64,
+      "reading": 35,
       "listening": 32
     }
   },
@@ -131,11 +131,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2025, Chuyên đề Phân biệt Động từ, Tính từ N2 và Đề Chokuzen 9.",
     "ready": true,
     "stats": {
-      "totalQuestions": 202,
-      "kanji": 20,
-      "vocab": 89,
-      "grammar": 43,
-      "reading": 20,
+      "totalQuestions": 363,
+      "kanji": 50,
+      "vocab": 155,
+      "grammar": 87,
+      "reading": 41,
       "listening": 30
     }
   },
