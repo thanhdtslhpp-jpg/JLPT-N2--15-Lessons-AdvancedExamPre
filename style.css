@@ -9354,13 +9354,71 @@ button,
 
 
 .q-header.q-sub-header {
-
   margin-bottom: 0.75rem;
-
   padding-bottom: 0.4rem;
-
   border-bottom: 1px dotted var(--border);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
 
+.q-sub-left,
+.q-sub-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-jump-passage {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: rgba(79, 70, 229, 0.08);
+  border: 1px solid rgba(79, 70, 229, 0.28);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.btn-jump-passage:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.25);
+}
+
+[data-theme="dark"] .btn-jump-passage {
+  background: rgba(129, 140, 248, 0.14);
+  border-color: rgba(129, 140, 248, 0.35);
+  color: #a5b4fc;
+}
+
+[data-theme="dark"] .btn-jump-passage:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.dokkai-box.passage-focus-pulse {
+  animation: passageFocusPulse 1.3s ease;
+}
+
+@keyframes passageFocusPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.45);
+  }
+  40% {
+    box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.18);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(79, 70, 229, 0);
+  }
 }
 
 

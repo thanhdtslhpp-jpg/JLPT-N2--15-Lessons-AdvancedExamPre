@@ -880,7 +880,7 @@ class JLPTApp {
     // Track active question on click
     document.addEventListener("click", (e) => {
       // Bổ qua nếu click vào các nú́t điều hướng chuyển câu hoặc bảng chọn câu hỏi
-      if (e.target.closest(".q-nav-bar, .q-nav-btn, .btn-nav-wrong, .pallet-item, .mob-tab-chip, .btn-speed, .audio-player-wrapper")) {
+      if (e.target.closest(".q-nav-bar, .q-nav-btn, .btn-nav-wrong, .pallet-item, .mob-tab-chip, .btn-speed, .audio-player-wrapper, .btn-jump-passage")) {
         return;
       }
       const card = e.target.closest(".question-card");
@@ -4586,7 +4586,7 @@ class JLPTApp {
         : `Văn bản đọc hiểu`;
 
       dokkaiHTML = `
-        <div class="dokkai-box ${splitClass}">
+        <div class="dokkai-box ${splitClass}" data-passage-group="${firstGroupId}">
           <div class="dokkai-box-header">
             <div class="dokkai-badge ${isMultiQuestionPassage ? "shared" : ""}">
               <i class="fas fa-book-open"></i> 
@@ -4839,14 +4839,21 @@ class JLPTApp {
     // Header của từng câu hỏi (luôn hiển thị BÊN DƯỚI đoạn văn cho cả Câu đầu và các Câu tiếp theo)
     const questionHeaderHTML = hasPassage ? `
       <div class="q-header q-sub-header">
-        <span class="q-sub-badge">
-          <i class="fas fa-pen-alt"></i>
-          ${isMultiQuestionPassage ? `Câu hỏi ${posInGroup}/${passageGroup.length}` : `Câu hỏi đọc hiểu`}
-        </span>
-        <span class="q-index">Câu ${q.id}</span>
-        <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
-          <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
-        </button>
+        <div class="q-sub-left">
+          <span class="q-sub-badge">
+            <i class="fas fa-pen-alt"></i>
+            ${isMultiQuestionPassage ? `Câu hỏi ${posInGroup}/${passageGroup.length}` : `Câu hỏi đọc hiểu`}
+          </span>
+          <button type="button" class="btn-jump-passage" onclick="event.stopPropagation(); app.scrollToPassage(${firstGroupId}, ${q.id})" title="Cuộn lên đọc đoạn văn liên quan">
+            <i class="fas fa-book-open"></i> Đọc đoạn văn
+          </button>
+        </div>
+        <div class="q-sub-right">
+          <span class="q-index">Câu ${q.id}</span>
+          <button class="btn-bookmark ${isBookmarked ? "active" : ""}" onclick="app.toggleBookmark(${q.id})" title="${isBookmarked ? "Bỏ đánh dấu" : "Đánh dấu câu này"}">
+            <i class="${isBookmarked ? "fas" : "far"} fa-star"></i>
+          </button>
+        </div>
       </div>
     ` : `
       <div class="q-header">
@@ -5762,7 +5769,7 @@ class JLPTApp {
       card.classList.toggle("active-target", card.id === `q-card-${qId}`);
     });
     if (shouldScroll) {
-      const el = document.getElementById(`q-card-${qId}`);
+      const el = document.getElementById(`q-subitem-${qId}`) || document.getElementById(`q-card-${qId}`);
       if (el) {
         this.scrollToElementBelowHeader(el);
       }
@@ -5791,6 +5798,55 @@ class JLPTApp {
     this.programmaticScrollTimer = setTimeout(() => {
       this.isProgrammaticScrolling = false;
       this.setActiveQuestion(qId, false);
+    }, 850);
+  }
+
+  scrollToPassage(firstGroupId, fromQId = null) {
+    let targetEl = null;
+
+    // 1. Kiểm tra ngay trong card hiện tại (câu đầu nhóm hoặc khi đang lọc chỉ hiện câu này)
+    if (fromQId) {
+      const currentCard = document.getElementById(`q-card-${fromQId}`);
+      if (currentCard) {
+        targetEl = currentCard.querySelector(".dokkai-box");
+      }
+    }
+
+    // 2. Nếu đoạn văn nằm ở card phía trên trong cùng nhóm, duyệt ngược các card trước đó
+    if (!targetEl && fromQId) {
+      const currentCard = document.getElementById(`q-card-${fromQId}`);
+      let prev = currentCard ? currentCard.previousElementSibling : null;
+      while (prev) {
+        const box = prev.querySelector(`.dokkai-box[data-passage-group="${firstGroupId}"]`);
+        if (box) {
+          targetEl = box;
+          break;
+        }
+        prev = prev.previousElementSibling;
+      }
+    }
+
+    // 3. Fallback theo data-passage-group hoặc card đầu nhóm
+    if (!targetEl && firstGroupId) {
+      targetEl = document.querySelector(`.dokkai-box[data-passage-group="${firstGroupId}"]`)
+        || document.getElementById(`q-card-${firstGroupId}`);
+    }
+
+    if (!targetEl) return;
+
+    this.isProgrammaticScrolling = true;
+    this.scrollToElementBelowHeader(targetEl);
+
+    targetEl.classList.remove("passage-focus-pulse");
+    void targetEl.offsetWidth;
+    targetEl.classList.add("passage-focus-pulse");
+    setTimeout(() => {
+      if (targetEl) targetEl.classList.remove("passage-focus-pulse");
+    }, 1400);
+
+    clearTimeout(this.programmaticScrollTimer);
+    this.programmaticScrollTimer = setTimeout(() => {
+      this.isProgrammaticScrolling = false;
     }, 850);
   }
 
