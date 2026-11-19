@@ -2015,180 +2015,180 @@ window.JLPT_DATA[13] = {
       "name": "Phần 5: Chuyên Đề Đọc Hiểu Đoản Văn & Trung Văn (11 câu)",
       "questions": [
         {
-          "id": 130,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が望ましいと考える「褒められたときの対応」はどれか。",
-          "options": [
-            "自分の未熟さを強調し、相手の言葉を強く否定する。",
-            "相手を喜ばせるために、相手のことも同じように大げさに褒め返す。",
-            "相手の好意を素直に受け止め、感謝の気持ちを伝える。",
-            "自分の実力を誇らしげに語り、当然の評価だと認める。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Hành động ứng xử nào khi được người khác khen ngợi mà tác giả cho là đáng mong đợi nhất?<br>\n<b>Căn cứ trong bài:</b> Đoạn văn nêu rõ: Nếu từ chối thẳng thừng lời khen thì có thể bị xem là phủ nhận con mắt thẩm mỹ và thiện chí của đối phương. Do đó, thay vì hạ mình quá mức, việc tự nhiên đón nhận với lòng biết ơn 「ありがとうございます、励みになります」 (Cảm ơn bạn, đây sẽ là nguồn động viên to lớn cho tôi) mới xây dựng mối quan hệ tốt đẹp cho cả đôi bên.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả phê phán việc nhấn mạnh sự non nớt của mình và cự tuyệt lời khen (過度にへりくだる / 否定する).<br>\n• 2. Sai vì bài viết không hề đề cập đến việc phải khen trả lại đối phương một cách thổi phồng, phóng đại.<br>\n• 3. Đúng vì đón nhận thiện ý và gửi lời cảm ơn chân thành chính là thông điệp cốt lõi của tác giả [Đúng]<br>\n• 4. Sai vì tự phụ khoe khoang thực lực là thái độ bất lịch sự, trái ngược với tinh thần bài viết.",
-          "passage": "【短文 1：褒め言葉の受け止め方】\n人から「素晴らしいですね」と褒められたとき、日本人は謙遜して「いえ、私なんてまだまだです」と否定することが美徳とされてきた。しかし、相手の褒め言葉を真っ向から否定することは、見方を変えれば、相手の審美眼や好意を否定することにもなりかねない。褒められたときは、過度にへりくだるよりも「ありがとうございます、励みになります」と素直に感謝を受け止めるほうが、双方にとって心地よい関係を築けるのである。"
+                  "id": 130,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "筆者はどんな人が一人前だと考えているか。",
+                  "options": [
+                            "一定時間沈黙を守ったあとに、相手を立てた会話ができる人",
+                            "きちんとした思想を持って、沈黙を守り続けられる人",
+                            "あたりの空気を重くしないように、相手を立てながら会話をし続けられる人",
+                            "会話を続ける技術があるだけでなく、一定時間沈黙を守れる人"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Tác giả nêu 2 điều kiện song song («それと同時に»): vừa phải biết giữ im lặng một khoảng thời gian nhất định, vừa phải có kỹ năng duy trì hội thoại và tôn trọng đối phương khi cần thiết.<br><b>Đáp án 4:</b> Người không chỉ có kỹ thuật duy trì cuộc trò chuyện mà còn giữ được im lặng trong một khoảng thời gian nhất định.",
+                  "passage": "人間は一定時間、沈黙していることができなければならない。それと同時に、喋りたくない時でも、あたりの空気を重くしないために、適当な会話を続ける必要のある時もある。沈黙を守れない人で、きちんとした思想のある人物は見たことがない。それと同時に、会食の席などでは、相手を立てながら、会話を続ける技術もなくて一人前とは言いがたい。\n（曽野綾子『自分をまげない勇気と信念のことば』ワックによる）"
         },
         {
-          "id": 131,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者の考えに合致するものはどれか。",
-          "options": [
-            "電子書籍は紙の本に比べて内容の理解が浅くなるため避けるべきだ。",
-            "読書の本質を理解した上で、紙とデジタルの長所を状況に応じて使い分けるのがよい。",
-            "現代人は利便性のみを優先し、紙の本の持つ価値を忘れてしまっている。",
-            "本棚に本を並べることこそが読書の真の喜びであり、電子書籍では得られない。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Ý kiến nào sau đây phù hợp với quan điểm của tác giả?<br>\n<b>Căn cứ trong bài:</b> Câu kết của đoạn văn khẳng định: Dù đọc trên nền tảng số hay sách giấy, bản chất của việc đọc là đối thoại với câu chữ để bồi đắp tâm hồn, vì vậy điều cần thiết là vận dụng thông minh thế mạnh của cả hai tùy theo từng hoàn cảnh cụ thể: 「両者の特性を場面に応じて賢く使い分けることが求められている」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả không bảo né tránh sách điện tử do hiểu nông, mà trái lại còn ca ngợi sự tiện lợi của ebook.<br>\n• 2. Đúng vì hiểu bản chất việc đọc và linh hoạt kết hợp ưu điểm của cả sách giấy lẫn kỹ thuật số tùy hoàn cảnh [Đúng]<br>\n• 3. Sai vì tác giả ghi nhận nhiều người hiện nay vẫn rất yêu quý và hoài niệm sách giấy chứ không hề lãng quên.<br>\n• 4. Sai vì niềm vui sắp sách lên giá chỉ là một cảm xúc hoài niệm, không phải là chân lý duy nhất của việc đọc.",
-          "passage": "【短文 2：読書の目的と電子書籍】\n電子書籍の普及により、何百冊もの本を手軽に持ち歩ける時代になった。移動時間や旅行先でも読書が容易になった恩恵は計り知れない。一方で、紙の本特有の「手触り」や「ページをめくる感覚」、書棚に並んだ背表紙を眺める喜びを懐かしむ声も根強い。媒体がデジタルであれ紙であれ、読書の本質はテキストとの対話を通じて自己の内面を深めることにあるのだから、両者の特性を場面に応じて賢く使い分けることが求められている。"
+                  "id": 131,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "「病気は体ののぞき穴」とはどういうことか。",
+                  "options": [
+                            "病気になると、自分の体のどこが健康かわかるようになる。",
+                            "病気になると、健康は空気みたいなものだと意識されるようになる。",
+                            "病気になると、ふつうは意識しない体の秘密が見えるようになる。",
+                            "病気になると、人間の体の構造が理解できるようになる。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Câu ngay trước «病気は体ののぞき穴だ»: 「ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。」<br><b>Đáp án 3:</b> Khi bị bệnh, ta mới nhìn thấy những bí mật của cơ thể mà bình thường không để ý.",
+                  "passage": "健康第一というのは、健康なときにはわからない。健康はふつうのときには当たり前のことだからだ。体をこわしてやっと、健康第一なんだとつくづく思う。だから健康とは、空気みたいなものだといえる。あって当たり前で、ふつうは意識もされない。だから健康の中には、いろんなものが隠されている。ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。病気は体ののぞき穴だ。\n（赤瀬川原平『増補健康半分』デコによる）"
         },
         {
-          "id": 132,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】本文の内容と合致するものはどれか。",
-          "options": [
-            "試験前日は徹夜で覚えたほうが、翌朝の記憶が鮮明に残りやすい。",
-            "睡眠中に脳が記憶を整理して定着させるため、十分な睡眠を取ることが学習に効果的だ。",
-            "大脳皮質に蓄えられた記憶は、日中の活動中に海馬へと送られて強化される。",
-            "長時間の睡眠は脳の活動を鈍らせるため、勉強期間中は短時間睡眠が推奨される。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nội dung nào sau đây trùng khớp với nội dung bài văn?<br>\n<b>Căn cứ trong bài:</b> Đoạn văn phân tích: Trong giấc ngủ sâu ban đêm, thông tin nạp vào ban ngày sẽ được chuyển từ hồi hải mã (hippocampus) sang vỏ não lớn (cerebral cortex) để củng cố thành trí nhớ dài hạn. Do đó ngủ đủ giấc mang lại hiệu suất tiếp thu vượt trội so với thức đêm nhồi nhét: 「適度な学習の後にしっかりと良質な睡眠を取るほうが、結果として知識の定着率は遥かに高くなる」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì bài viết khẳng định thức đêm nhồi nhét là cực kỳ phi hiệu quả (極めて非効率).<br>\n• 2. Đúng vì giấc ngủ giúp não bộ sắp xếp và cố định tri thức, nên ngủ đủ giấc mang lại hiệu quả học tập cao [Đúng]<br>\n• 3. Sai vì chiều truyền thông tin diễn ra trong giấc ngủ là từ hải mã sang vỏ đại não, không phải ngược lại trong ngày.<br>\n• 4. Sai vì tác giả không hề khuyên ngủ ngắn trong giai đoạn ôn thi mà khuyến khích giấc ngủ chất lượng.",
-          "passage": "【短文 3：睡眠と記憶の定着】\n試験勉強などで徹夜をして知識を詰め込もうとする人がいるが、脳科学の観点からは極めて非効率である。日中にインプットされた情報は、夜間の深い睡眠中に脳の海馬から大脳皮質へと送られ、長期記憶として整理・定着するからだ。睡眠時間を削って暗記を繰り返すよりも、適度な学習の後にしっかりと良質な睡眠を取るほうが、結果として知識の定着率は遥かに高くなるのである。"
+                  "id": 132,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "筆者は、若い世代とつきあうためには、どうすればいいと考えているか。",
+                  "options": [
+                            "ついていけないと思っても、つきあい続ければ必ず共通項が見出せるはずである。",
+                            "あまりあれこれ考えないで、ありのままの自分で若者と対すればいい。",
+                            "想像力をたくましくさせ、若者が好きそうな話をすればいい。",
+                            "自分が若かった頃を思い出し、自分が年上の人にしていたようにすればいい。"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết rõ: 「意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。」(Nếu gồng mình hay để ý quá thì đối phương nhận ra ngay, tốt nhất là đối diện một cách tự nhiên).<br><b>Đáp án 2:</b> Không cần suy nghĩ quá nhiều, hãy đối diện với người trẻ bằng chính con người tự nhiên của mình.",
+                  "passage": "（若い世代に）自分の思いをまっすぐにぶつければ、必ずや共通項を見出すことができるだろう。\n若い世代とつきあうからといって、意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。\nとても理解できない、ついていけないと思ったら、想像力をたくましくすること。自分がこのくらいの年代のときはどうだっただろうか、自分の若い頃、年上の人をどう見ていただろうかと考えてみる。\nそこから答えが出てくるかもしれない。\n（下重暁子『女50代美しさの極意』大和出版による）"
         },
         {
-          "id": 133,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】このお知らせから分かる利用上の注意点はどれか。",
-          "options": [
-            "予約できる本の冊数が来月から5冊に制限される。",
-            "今月28日からの休館期間中は、一切の本の返却が受け付けられない。",
-            "休館期間中であっても、返却ポストを利用して本を返すことができる。",
-            "貸出延長の手続きは、図書館の窓口でのみ受け付ける。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điểm lưu ý khi sử dụng thư viện được rút ra từ thông báo này là gì?<br>\n<b>Căn cứ trong bài:</b> Thông báo chỉ rõ: Do chuyển đổi hệ thống, thư viện sẽ đóng cửa tạm thời trong 3 ngày cuối tháng (từ ngày 28 đến hết tháng), và trong thời gian này bạn đọc trả sách bằng hòm trả sách đặt cạnh cửa chính: 「期間中の図書のご返却は正面玄関横の返却ポストをご利用ください」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì số sách được mượn tăng từ 5 cuốn lên tối đa 10 cuốn, chứ không bị giới hạn 5 cuốn.<br>\n• 2. Sai vì bạn đọc vẫn có thể trả sách qua hòm trả sách bên ngoài sảnh.<br>\n• 3. Đúng vì ngay cả trong thời gian tạm nghỉ đóng cửa, bạn đọc vẫn có thể dùng hòm trả sách để trả sách [Đúng]<br>\n• 4. Sai vì việc gia hạn mượn sách có thể thực hiện 24/24 qua ứng dụng điện thoại thông minh.",
-          "passage": "【短文 4：図書館利用に関するお知らせ】\n来月1日より、当館の図書予約システムがリニューアルされます。これまで1人最大5冊までだった予約可能数が最大10冊へと拡大されるほか、スマートフォンのアプリを通じて貸出延長の手続きが24時間可能になります。なお、システム移行作業に伴い、今月28日から末日までの3日間は全館臨時休館となりますので、期間中の図書のご返却は正面玄関横の返却ポストをご利用ください。"
+                  "id": 133,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文書を書いた、一番の目的は何か。",
+                  "options": [
+                            "10周年記念の案内",
+                            "レッスン参加のお礼",
+                            "消費税増税の報告",
+                            "料金の改定のお知らせ"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Văn bản nêu do thuế tiêu thụ tăng từ tháng 10 nên lớp học buộc phải xem xét lại học phí và thông báo thực hiện điều chỉnh mức phí.<br><b>Đáp án 4:</b> Thông báo về việc điều chỉnh học phí.",
+                  "passage": "いつもピアノレッスンにご参加頂き、御礼申し上げます。おかげさまで、当教室は、5月で10周年を迎えることとなりました。これもひとえにご参加くださる皆様のおかげであると心より感謝しております。\nさて10月から消費税の増税が決定いたしました。今までレッスン料金を値上げせずにやってまいりましたが、今回の増税に伴いまして、ついに料金の見直しをせざるを得なくなりました。そのため、下記の通り料金の改定を実施させていただくこととなりましたのでお知らせいたします。\n皆様にご迷惑をおかけするのは心苦しい限りでございますが、ご理解くださいますよう、よろしくお願い申し上げます。"
         },
         {
-          "id": 134,
-          "mondai": 10,
-          "mondaiName": "読解特訓: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者がこの文章で最も伝えたいことは何か。",
-          "options": [
-            "大量生産された安価な道具はすぐに壊れるので購入すべきではない。",
-            "道具を修理しながら長く大切に使い続けることが、心の豊かさや持続可能性につながる。",
-            "職人の手作りによる道具は高価であるため、大切に保管して飾るべきだ。",
-            "道具は古くなると使いにくくなるため、定期的に最新のものへ買い替えるのがよい。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điều tác giả muốn truyền tải nhất qua đoạn văn này là gì?<br>\n<b>Căn cứ trong bài:</b> Đoạn văn so sánh: Trong thời đại sản xuất hàng loạt, đồ hỏng là vứt bỏ mua mới, nhưng việc sửa chữa và trân trọng sử dụng một món đồ lâu năm chứa đựng sự ấm áp tâm hồn, đó mới là khởi nguồn đích thực của lối sống phong phú bền vững: 「職人の心を込めて作られた道具を直しながら使い続けることこそが、持続可能で豊かな暮らしの原点と言えよう」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì bài viết không ca ngợi tính kinh tế của việc hỏng là vứt đi mua đồ mới.<br>\n• 2. Đúng vì biết sửa chữa và gắn bó trân trọng đồ dùng thủ công là gốc rễ của lối sống bền vững, đủ đầy [Đúng]<br>\n• 3. Sai vì tác giả không kêu gọi trở về thời kỳ xưa cũ bài xích hoàn toàn công nghệ hiện đại.<br>\n• 4. Sai vì giá cả đắt đỏ của đồ thủ công không phải là thông điệp tác giả muốn nhấn mạnh.",
-          "passage": "【短文 5：ものづくりの原点】\n道具というものは、使っていくうちに手に馴染み、使う人の癖や生活の歴史を映し出すようになる。大量生産・大量消費の時代になり、壊れたらすぐに捨てて買い替えることが当たり前になったが、手入れをしながら一つの道具を長く大切に使い続ける行為には、物を愛しみ心を豊かにする力がある。職人が心を込めて作った道具を直しながら使い続けることこそ、持続可能な豊かな暮らしの原点と言えよう。"
+                  "id": 134,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "ここでいう「何か」とは、どんなことを指しているか。",
+                  "options": [
+                            "仕組みが複雑すぎて理解できないもの",
+                            "壊れてしまったら二度と直せないもの",
+                            "手で触れると壊れてしまうほど繊細なもの",
+                            "最先端技術によって修理しなくてもよくなったもの"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Tác giả đối chiếu đồng hồ cơ xưa người thường còn tự sửa được với đồng hồ quartz/sóng radio ngày nay dùng công nghệ tối tân khiến người thường không hình dung nổi bên trong là gì.<br><b>Đáp án 1:</b> Thứ có cấu tạo quá phức tạp đến mức không thể hiểu nổi.",
+                  "passage": "現代社会は物理学がないと何もできません。たとえば時計にしても、昔は機械仕掛けの世界でしたが、ちょっと時計が趣味の人は簡単な修理くらいはできた。ある程度手で触れることができたのですね。しかし、科学技術は細分化の果てに、普通の人には触れられない「何か」に変貌を遂げました。時計でいうと、今はクオーツ時計や電波時計があります。でも、そういった最先端技術を駆使した時計の中身について、ふつうの人はほとんど何もイメージできないし、触ることもできません。\n（竹内薫『科学予測は8割はずれる』東京書籍による）"
         },
         {
-          "id": 135,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い1】「事前に完璧にスケジュールを組む旅」について、筆者はどう考えているか。",
-          "options": [
-            "失敗がなく絶対に後悔しない、最も理想的な旅の形である。",
-            "合理的ではあるが、予定を確認するだけの作業になりがちだと指摘している。",
-            "地元の人と深く交流するために最も推奨される旅の手法である。",
-            "予算を抑えて効率よく移動するために全員が実践すべきである。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Đối với \"chuyến du lịch lên lịch trình chuẩn xác từng phút từ trước\", tác giả có suy nghĩ như thế nào?<br>\n<b>Căn cứ trong bài:</b> Đoạn 1 viết: Việc tra cứu hoàn hảo trên mạng và lên lịch trình sít sao từng phút tuy có tính hợp lý (du lịch hiệu quả không lo thất bại), nhưng liệu nơi đó có thực sự ẩn chứa phong vị cốt lõi của chuyến đi hay không: 「失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか」 -> tác giả băn khoăn, cho rằng chuyến đi kiểu đó tuy hiệu quả nhưng thiếu đi thi vị bất ngờ.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả không khẳng định đó là phương pháp du lịch lý tưởng nhất.<br>\n• 2. Đúng vì tác giả nhìn nhận nó tiện lợi hiệu quả nhưng lại làm mất đi thi vị bất ngờ vốn có của chuyến đi [Đúng]<br>\n• 3. Sai vì tác giả không coi đó là hành vi nguy hiểm dẫn tới sự cố.<br>\n• 4. Sai vì bài viết không hề bàn tới việc chuyến đi đó gây lãng phí chi phí du lịch.",
-          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
+                  "id": 135,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "筆者はなぜ①<u>心強く思っている</u>のか。",
+                  "options": [
+                            "独身の人のことを丁寧に呼ぶ言い方が、やっと広まってきたから。",
+                            "周りのカップルや家族が、あまりレストランで食事をすることがなくなったから。",
+                            "以前は一人で外で食事をする人がいなかったが、最近はそうする人が増えたから。",
+                            "昔の飲食店には一人で入ることができなかったが、今は自由にできるようになったから。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: trước đây đi ăn nhà hàng một mình bị vây quanh bởi cặp đôi/gia đình nên thấy ngại, nhưng nay đồng đội («おひとりさま») tăng lên nhiều nên thấy rất vững tâm.<br><b>Đáp án 3:</b> Vì trước đây ít người đi ăn ngoài một mình, nay người như vậy đã tăng lên.",
+                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-          "id": 136,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い2】筆者が考える「旅の本来の醍醐味」とは何か。",
-          "options": [
-            "有名な観光スポットをすべて計画通りに制覇すること。",
-            "最高級のホテルに泊まり、評判の料理を堪能すること。",
-            "予定外の出来事や偶然の出会いの中にこそある新鮮な感動。",
-            "旅行の費用をできる限り節約して安く済ませること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, \"phong vị đích thực của chuyến du lịch\" là gì?<br>\n<b>Căn cứ trong bài:</b> Đoạn 2 nhấn mạnh: Sức hút lớn nhất của du lịch nằm ở những cuộc gặp gỡ tình cờ không theo kế hoạch (偶然の出会い): món ăn tình cờ tìm thấy trong ngõ hẻm, lời chào hỏi của người dân khi lạc đường; những sự cố ngoài dự liệu ấy mới trở thành kỷ niệm sâu sắc khó phai.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì check-in đầy đủ tất cả danh lam thắng cảnh nổi tiếng chỉ là việc xác nhận lại thông tin dự kiến.<br>\n• 2. Sai vì nghỉ ở khách sạn cao cấp ăn đồ sang không phải là điều tác giả nhắc tới.<br>\n• 3. Đúng vì những sự việc bất ngờ ngoài dự tính và cuộc gặp gỡ tình cờ mới đem lại cảm xúc tươi mới sâu sắc [Đúng]<br>\n• 4. Sai vì tiết kiệm chi phí tối đa không phải là phong vị cốt lõi của du lịch.",
-          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
+                  "id": 136,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "②<u>良い例</u>とあるが、何の良い例と言っているのか。",
+                  "options": [
+                            "結婚しても自分が働いたお金で自分の時間を楽しんでいる女性",
+                            "ずっと結婚せずにおひとりさまの生活を楽しんでいる女性",
+                            "結婚しても子供を持たずにそれぞれが経済的に独立している夫婦",
+                            "結婚後、子供の手が離れてから充実した日々を送っている夫婦"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Câu ngay trước «私の姉が良い例で»: 「経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。」<br><b>Đáp án 1:</b> Phụ nữ dù đã kết hôn vẫn dùng tiền mình tự kiếm để tận hưởng thời gian riêng.",
+                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-          "id": 137,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い3】この文章を通じて筆者が主張したいことは何か。",
-          "options": [
-            "旅に出るときはインターネットの情報を一切見るべきではない。",
-            "旅行の計画には余白を残し、予期せぬ偶然を楽しむ余裕を持つべきだ。",
-            "一人旅ではなく、常にツアー旅行に参加してハプニングを防ぐべきだ。",
-            "旅先では地元の人と会話を交わすことを義務づけるべきだ。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Thông qua bài văn này, tác giả muốn khẳng định điều gì?<br>\n<b>Căn cứ trong bài:</b> Câu kết của bài viết đúc kết rõ ràng: Chuyến du lịch bị trói buộc cứng nhắc chỉ là sự kiểm chứng lại dự báo. Chính việc để lại những khoảng trống trong lịch trình và có một tâm hồn rộng mở sẵn sàng đón nhận những điều ngoài dự liệu mới làm phong phú thêm tầm nhìn cuộc đời con người: 「計画に余白を残し、予定外のハプニングを楽しむ心のゆとりを持ってこそ、旅は人の視野を広げてくれる」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả không cực đoan cấm đoán việc tra cứu thông tin mạng trước chuyến đi.<br>\n• 2. Đúng vì cần chừa lại khoảng trống trong kế hoạch và giữ tâm thế thảnh thơi đón nhận những bất ngờ thú vị [Đúng]<br>\n• 3. Sai vì tác giả không hề khuyên phải đi tour du lịch để ngăn ngừa sự cố ngoài ý muốn.<br>\n• 4. Sai vì bài viết không bắt buộc hay ép việc nói chuyện với người địa phương thành nghĩa vụ.",
-          "passage": "【中文 1：旅の醍醐味と偶然性】\n事前にインターネットで名所や評判のレストランを完璧に調べ上げ、分刻みのスケジュールを組んで出かける旅が増えている。失敗のない効率的な観光ができるという意味では合理的だが、そこに旅本来の醍醐味があるだろうか。\n旅の最大の魅力は、計画通りにいかない「偶然の出会い」にある。ふらりと迷い込んだ路地で見つけた名もなき食堂の味、道に迷って途方に暮れていたときに地元の人から掛けられた温かい言葉など、予定外のハプニングこそが後々まで心に残る鮮烈な思い出となるのだ。情報で固められた旅は、予定を確認する作業にすぎない。あえて余白を残し、予期せぬ出来事を楽しむ心のゆとりを持ってこそ、旅は人生の視野を広げてくれるのである。"
+                  "id": 137,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "おひとりさまについて筆者の考えに合うのはどれか。",
+                  "options": [
+                            "おひとりさまに対応した商品やサービスはまだ充実していない。",
+                            "おひとりさまに対する社会の変化は興味深い。",
+                            "自分のようなおひとりさまがもっと増えてほしい。",
+                            "おひとりさまという言葉の意味が、これからも変化していくだろう。"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Đoạn 3 mô tả các sản phẩm và dịch vụ cho người đi một mình ngày càng phong phú (nồi cơm đơn, tour một mình, quầy yakiniku một mình) và tác giả háo hức chờ xem sắp tới sẽ có thêm dịch vụ gì.<br><b>Đáp án 2:</b> Những thay đổi của xã hội đối với «ohitorisama» thật thú vị.",
+                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-          "id": 138,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い1】本文における「批判的思考（クリティカル・シンキング）」の定義として適切なものはどれか。",
-          "options": [
-            "相手の意見の間違いを厳しく見つけ出し、論破すること。",
-            "情報の発信者の素性を疑い、すべてのニュースを信用しないこと。",
-            "情報の根拠や多様な視点を問い直し、自ら論理的に判断する姿勢。",
-            "専門家の意見だけを無条件に信じること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Định nghĩa nào sau đây là phù hợp nhất về \"Tư duy phản biện (Critical Thinking)\" trong bài văn?<br>\n<b>Căn cứ trong bài:</b> Đoạn 2 nêu rõ: Tư duy phản biện không đơn thuần là bài bác ý kiến của người khác, mà là thái độ không ngừng đặt câu hỏi đa chiều: \"Căn cứ của thông tin này là gì?\", \"Nếu nhìn từ góc độ khác thì sẽ ra sao?\" và tự mình dùng lý trí để phán đoán logic: 「多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả nêu rõ tư duy phản biện không phải là soi mói lỗi sai để bác bỏ đè bẹp đối phương.<br>\n• 2. Sai vì không phải là nghi ngờ tất cả mọi tin tức và bài xích mù quáng.<br>\n• 3. Đúng vì truy tìm căn cứ thông tin, nhìn nhận đa chiều và tự mình phân tích phán đoán logic [Đúng]<br>\n• 4. Sai vì tin tưởng vô điều kiện vào chuyên gia là biểu hiện ngược lại hoàn toàn với tư duy phản biện.",
-          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
+                  "id": 138,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "①<u>その結果がこれなのだ</u>とはどういうことか。",
+                  "options": [
+                            "欧米のものをどんどん取り入れた結果、日本のものにふれる機会が減少していった。",
+                            "欧米のものが身近に溢れた結果、さらに日本の美にふれられるようになった。",
+                            "日本のものが後方に押しやられた結果、日本文化を素直に吸収していった。",
+                            "日本全体が欧米のものをいいと考えた結果、何でも人のせいにするようになった。"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: đồ Âu Mỹ tràn ngập xung quanh, đồ Nhật bị đẩy lùi về phía sau; thế hệ tác giả tiếp thu văn hóa Âu Mỹ gần gũi hơn nên kết quả là ít cơ hội tiếp xúc với cái đẹp và tâm hồn Nhật Bản.<br><b>Đáp án 1:</b> Kết quả của việc tiếp nhận ồ ạt đồ Âu Mỹ là cơ hội tiếp xúc với văn hóa Nhật bị giảm đi.",
+                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         },
         {
-          "id": 139,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い2】「確証バイアス」について、本文でどのように説明されているか。",
-          "options": [
-            "自分の信じたい情報ばかりを集め、都合の悪い情報を無視してしまう人間の傾向。",
-            "科学的な証拠がないにもかかわらず、直感だけで物事を決定すること。",
-            "他人の意見に同調しすぎて、自分の本音を言えなくなってしまう心理。",
-            "古い伝統や慣習を絶対に正しいと思い込んでしまう偏見。"
-          ],
-          "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Khái niệm \"Thiên kiến xác nhận (Confirmation Bias)\" được giải thích như thế nào trong bài văn?<br>\n<b>Căn cứ trong bài:</b> Đoạn 2 định nghĩa rất cụ thể: Con người trong vô thức có xu hướng chỉ thu thập những thông tin bản thân muốn tin và loại bỏ, phớt lờ đi những thông tin bất lợi trái chiều: 「人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Đúng vì đó là xu hướng chỉ gom nhặt điều mình muốn tin và phớt lờ thông tin bất lợi trái ý [Đúng]<br>\n• 2. Sai vì quyết định dựa trên trực giác không có bằng chứng khoa học không phải là định nghĩa bài nêu.<br>\n• 3. Sai vì tâm lý hùa theo số đông giấu đi tiếng lòng không phải là thiên kiến xác nhận.<br>\n• 4. Sai vì định kiến tuyệt đối hóa truyền thống tập tục cổ xưa không phải là nội dung giải thích trong bài.",
-          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
+                  "id": 139,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "②<u>その感覚</u>とはどのような感覚か。",
+                  "options": [
+                            "欧米のものを追いかける感覚",
+                            "新しいことを始める感覚",
+                            "昔やったことがあることを思い出す感覚",
+                            "自分が日本人であると再認識する感覚"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Câu ngay trước «その感覚»: 「私は、やっぱり、日本人なのだ。」(Cảm giác nhận ra mình quả nhiên là người Nhật).<br><b>Đáp án 4:</b> Cảm giác tái nhận thức mình là người Nhật Bản.",
+                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         },
         {
-          "id": 140,
-          "mondai": 11,
-          "mondaiName": "読解特訓: 中文読解",
-          "type": "reading",
-          "question": "【問い3】情報化社会を生きる私たちに求められる姿勢として、筆者は何を挙げているか。",
-          "options": [
-            "情報を発信する頻度を減らし、インターネットの利用を制限すること。",
-            "自分と同じ意見を持つ人々とのみ交流を深めること。",
-            "健全な疑問を持ち、多角的に物事を見極めようとする知的な姿勢。",
-            "最新のAIツールを駆使して、すべての情報を自動で真偽判定させること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Thái độ nào được tác giả nêu ra như một phẩm chất cần có đối với chúng ta khi sống trong xã hội thông tin?<br>\n<b>Căn cứ trong bài:</b> Câu kết của đoạn văn nhấn mạnh: Để không bị cuốn trôi theo làn sóng thông tin tràn ngập và nhìn thấu được chân tướng sự thật, sự trung thực trí tuệ trong việc luôn duy trì một sự hoài nghi lành mạnh là điều không thể thiếu: 「常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである」.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì tác giả không khuyên giảm tần suất phát ngôn hay hạn chế dùng Internet.<br>\n• 2. Sai vì chỉ giao lưu với những người cùng quan điểm sẽ càng làm trầm trọng thêm thiên kiến xác nhận.<br>\n• 3. Đúng vì luôn duy trì sự hoài nghi lành mạnh và thái độ trí tuệ sáng suốt để nhìn nhận thấu đáo bản chất sự việc [Đúng]<br>\n• 4. Sai vì không thể ỷ lại phó mặc hoàn toàn cho công cụ AI tự động phân định đúng sai.",
-          "passage": "【中文 2：批判的思考と情報リテラシー】\n現代は情報が過剰に溢れる情報化社会である。SNSや動画サイトを開けば、刺激的な見出しとともに膨大な主張が飛び込んでくる。その中で私たちが身につけるべき最も重要なスキルが「クリティカル・シンキング（批判的思考）」である。\n批判的思考とは、他人の意見を単に否定することではない。「この情報の根拠は何か」「別の視点から見たらどうなるか」と多角的に問い直し、自らの頭で論理的に判断する姿勢のことだ。人は無意識のうちに、自分の信じたい情報ばかりを集め、都合の悪い情報を排除してしまう傾向（確証バイアス）がある。溢れる情報の波に流されず、真実を見極めるためには、常に健全な疑問を持ち続ける知的な誠実さが不可欠なのである。"
+                  "id": 140,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "筆者がこの文章でいちばん言いたいことは何か。",
+                  "options": [
+                            "欧米文化が生活の中心になっていることは不自然なので、欧米のものをできる限り遠ざけて、日本のものを積極的に取り入れたほうがいい。",
+                            "欧米のものに囲まれた生活が当たり前になってしまったので、日本人にお茶などを特別に教える機会を作るべきだ。",
+                            "日本のものにふれる機会が減ったとしても、それにふれる機会さえあれば、いつでも日本人の心を取り戻すことができる。",
+                            "日本のものが特別なものになってしまった以上、日本人はもっと素直に欧米文化を吸収し、さらに文化を発展させていかなければならない。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Dù lớn lên trong môi trường Âu Mỹ hóa, khi có cơ hội tiếp xúc lại với trà đạo, tác giả thấy hoài niệm và nhận ra tâm hồn Nhật Bản vẫn nằm sâu bên trong mình.<br><b>Đáp án 3:</b> Dù cơ hội tiếp xúc với văn hóa Nhật giảm đi, chỉ cần có dịp chạm vào nó thì bất cứ lúc nào cũng có thể tìm lại tâm hồn người Nhật.",
+                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         }
       ]
     },
