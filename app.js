@@ -763,17 +763,24 @@ class JLPTApp {
       // Practice mode navigation & answer shortcuts
       const isPracticeView = (this.currentView === "session") || (document.getElementById("view-practice") && document.getElementById("view-practice").style.display !== "none");
       if (isPracticeView) {
-        // 1. Phím Mũi tên Phải / Xuống (hoặc phím J): Câu tiếp theo
-        if (e.key === "ArrowRight" || e.key === "ArrowDown" || e.key === "j" || e.key === "J") {
+        // 1. Phím Mũi tên Phải (hoặc phím J): Câu tiếp theo
+        if (e.key === "ArrowRight" || e.key === "j" || e.key === "J") {
           e.preventDefault();
           this.navigateQuestion(1);
           return;
         }
 
-        // 2. Phím Mũi tên Trái / Lên (hoặc phím K): Câu trước đó
-        if (e.key === "ArrowLeft" || e.key === "ArrowUp" || e.key === "k" || e.key === "K") {
+        // 2. Phím Mũi tên Trái (hoặc phím K): Câu trước đó
+        if (e.key === "ArrowLeft" || e.key === "k" || e.key === "K") {
           e.preventDefault();
           this.navigateQuestion(-1);
+          return;
+        }
+
+        // 2b. Phím Mũi tên Lên / Xuống: Cuộn đoạn văn (nếu đang đọc bài dài) hoặc cuộn màn hình
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          e.preventDefault();
+          this.handleArrowScroll(e.key === "ArrowDown" ? 1 : -1);
           return;
         }
 
@@ -5983,6 +5990,55 @@ class JLPTApp {
     if (nextQ) {
       this.scrollToQuestion(nextQ.id);
     }
+  }
+
+  // Cuộn thông minh bằng phím ↑ / ↓: ưu tiên cuộn đoạn văn Đọc hiểu đang hiển thị, đến đầu/cuối đoạn thì cuộn màn hình
+  handleArrowScroll(direction) {
+    const step = 120;
+    const headerOffset = 80;
+    const viewportH = window.innerHeight;
+
+    const findVisibleScrollablePassage = () => {
+      const boxes = Array.from(document.querySelectorAll("#questions-container .dokkai-box"));
+      let bestBox = null;
+      let bestScore = -1;
+
+      for (const box of boxes) {
+        if (box.scrollHeight <= box.clientHeight + 2) continue;
+        const rect = box.getBoundingClientRect();
+        const visibleTop = Math.max(rect.top, headerOffset);
+        const visibleBottom = Math.min(rect.bottom, viewportH);
+        const visibleHeight = visibleBottom - visibleTop;
+        if (visibleHeight <= 40) continue;
+
+        const isInActiveCard = this.activeQuestionId && box.closest(`#q-card-${this.activeQuestionId}`);
+        const score = visibleHeight + (isInActiveCard ? 10000 : 0);
+        if (score > bestScore) {
+          bestScore = score;
+          bestBox = box;
+        }
+      }
+      return bestBox;
+    };
+
+    const passageBox = findVisibleScrollablePassage();
+    if (passageBox) {
+      if (direction > 0) {
+        const atBottom = passageBox.scrollTop + passageBox.clientHeight >= passageBox.scrollHeight - 2;
+        if (!atBottom) {
+          passageBox.scrollTop += step;
+          return;
+        }
+      } else {
+        const atTop = passageBox.scrollTop <= 2;
+        if (!atTop) {
+          passageBox.scrollTop -= step;
+          return;
+        }
+      }
+    }
+
+    window.scrollBy(0, direction * step);
   }
 
   // TÍNH NĂNG MỚI: Nhảy nhanh tới câu hỏi theo số (gõ số + Enter)
