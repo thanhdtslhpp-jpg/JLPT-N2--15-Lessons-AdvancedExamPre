@@ -1,146 +1,166 @@
 // Danh mục các Chuyên Đề Luyện Cấp Tốc & Thư Viện Bí Kíp N2
 window.JLPT_DRILLS = [
   {
-    id: "drill_dau_sao",
-    title: "Chuyên Đề 1: Sát Thủ Hái Sao ★ (Mondai 8)",
-    badge: "Mondai 8",
-    badgeColor: "#8b5cf6",
-    description: "Tuyển tập toàn diện các câu hỏi Dấu sao ★ từ Drill & Drill N2, Shinkanzen Master và Best Sougou. Luyện phản xạ ghép câu và cấu trúc ngữ pháp chốt hạ.",
-    ready: true,
-    file: "data/chuyende_dau_sao.js",
-    stats: {
-      totalQuestions: 75,
-      type: "star"
+    "id": "drill_dau_sao",
+    "title": "Chuyên Đề 1: Sát Thủ Hái Sao ★ (Mondai 8)",
+    "badge": "Mondai 8",
+    "badgeColor": "#8b5cf6",
+    "description": "Tuyển tập toàn diện các câu hỏi Dấu sao ★ từ Drill & Drill N2, Shinkanzen Master và Best Sougou. Luyện phản xạ ghép câu và cấu trúc ngữ pháp chốt hạ.",
+    "ready": true,
+    "file": "data/chuyende_dau_sao.js",
+    "stats": {
+      "totalQuestions": 75,
+      "type": "star"
     }
   },
   {
-    id: "drill_cach_dung_tu",
-    title: "Chuyên Đề 2: Chinh Phục Cách Dùng Từ (Mondai 6)",
-    badge: "Mondai 6",
-    badgeColor: "#ec4899",
-    description: "Bộ câu hỏi phân tích ngữ cảnh sử dụng từ chuẩn xác từ Drill, Best Sougou và Yosou. Khắc phục triệt để nguy cơ mất điểm ở dạng bài khó nhất phần Từ vựng.",
-    ready: true,
-    file: "data/chuyende_cach_dung_tu.js",
-    stats: {
-      totalQuestions: 60,
-      type: "usage"
+    "id": "drill_cach_dung_tu",
+    "title": "Chuyên Đề 2: Chinh Phục Cách Dùng Từ (Mondai 6)",
+    "badge": "Mondai 6",
+    "badgeColor": "#ec4899",
+    "description": "Bộ câu hỏi phân tích ngữ cảnh sử dụng từ chuẩn xác từ Drill, Best Sougou và Yosou. Khắc phục triệt để nguy cơ mất điểm ở dạng bài khó nhất phần Từ vựng.",
+    "ready": true,
+    "file": "data/chuyende_cach_dung_tu.js",
+    "stats": {
+      "totalQuestions": 60,
+      "type": "usage"
     }
   },
   {
-    id: "drill_tien_to_hau_to",
-    title: "Chuyên Đề 3: Tiền Tố - Hậu Tố & Động Từ Phức (Mondai 3)",
-    badge: "Mondai 3",
-    badgeColor: "#0ea5e9",
-    description: "Bộ 101 câu bài tập cấu tạo từ ghép, tiền tố, hậu tố và động từ phức sát đề thi thật JLPT N2 kèm phân tích nghĩa và cách ghép chi tiết.",
-    ready: true,
-    file: "data/chuyende_tien_to_hau_to.js",
-    stats: {
-      totalQuestions: 101,
-      type: "vocab"
+    "id": "drill_tien_to_hau_to",
+    "title": "Chuyên Đề 3: Tiền Tố - Hậu Tố & Động Từ Phức (Mondai 3)",
+    "badge": "Mondai 3",
+    "badgeColor": "#0ea5e9",
+    "description": "Bộ 101 câu bài tập cấu tạo từ ghép, tiền tố, hậu tố và động từ phức sát đề thi thật JLPT N2 kèm phân tích nghĩa và cách ghép chi tiết.",
+    "ready": true,
+    "file": "data/chuyende_tien_to_hau_to.js",
+    "stats": {
+      "totalQuestions": 101,
+      "type": "vocab"
     }
   },
   {
-    id: "drill_tu_dong_nghia",
-    title: "Chuyên Đề 4: Từ Gần Nghĩa & Thay Thế (Mondai 5)",
-    badge: "Mondai 5",
-    badgeColor: "#10b981",
-    description: "Tuyển chọn 75 câu từ đồng nghĩa N2 trọng điểm và Best Sougou có giải nghĩa cặn kẽ từng sắc thái và ngữ cảnh thay thế từ.",
-    ready: true,
-    file: "data/chuyende_tu_dong_nghia.js",
-    stats: {
-      totalQuestions: 75,
-      type: "synonym"
+    "id": "drill_tu_dong_nghia",
+    "title": "Chuyên Đề 4: Từ Gần Nghĩa & Thay Thế (Mondai 5)",
+    "badge": "Mondai 5",
+    "badgeColor": "#10b981",
+    "description": "Tuyển chọn 75 câu từ đồng nghĩa N2 trọng điểm và Best Sougou có giải nghĩa cặn kẽ từng sắc thái và ngữ cảnh thay thế từ.",
+    "ready": true,
+    "file": "data/chuyende_tu_dong_nghia.js",
+    "stats": {
+      "totalQuestions": 75,
+      "type": "synonym"
     }
   },
   {
-    id: "drill_duc_lo",
-    title: "Chuyên Đề 5: Ngữ Pháp Đục Lỗ Đoạn Văn (Mondai 9)",
-    badge: "Mondai 9",
-    badgeColor: "#f59e0b",
-    description: "Bộ 9 bài đọc đục lỗ chuyên sâu (37 câu hỏi) từ Power Drill và Sou Matome giúp rèn luyện tư duy mạch văn, liên từ và cấu trúc ngữ pháp toàn bài.",
-    ready: true,
-    file: "data/chuyende_duc_lo.js",
-    stats: {
-      totalQuestions: 37,
-      type: "cloze"
+    "id": "drill_duc_lo",
+    "title": "Chuyên Đề 5: Ngữ Pháp Đục Lỗ Đoạn Văn (Mondai 9)",
+    "badge": "Mondai 9",
+    "badgeColor": "#f59e0b",
+    "description": "Bộ 9 bài đọc đục lỗ chuyên sâu (37 câu hỏi) từ Power Drill và Sou Matome giúp rèn luyện tư duy mạch văn, liên từ và cấu trúc ngữ pháp toàn bài.",
+    "ready": true,
+    "file": "data/chuyende_duc_lo.js",
+    "stats": {
+      "totalQuestions": 37,
+      "type": "cloze"
     }
   },
   {
-    id: "drill_ngu_phap_n2",
-    title: "Chuyên Đề 6: Cày Nát Ngữ Pháp Drill & Drill N2 (Mondai 7)",
-    badge: "Mondai 7",
-    badgeColor: "#3b82f6",
-    description: "Trọn bộ 120 câu hỏi ngữ pháp thực chiến kinh điển từ giáo trình Drill & Drill N2 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu.",
-    ready: true,
-    file: "data/chuyende_ngu_phap_n2.js",
-    stats: {
-      totalQuestions: 120,
-      type: "grammar"
+    "id": "drill_ngu_phap_n2",
+    "title": "Chuyên Đề 6: Cày Nát Ngữ Pháp Drill & Drill N2 (Mondai 7)",
+    "badge": "Mondai 7",
+    "badgeColor": "#3b82f6",
+    "description": "Trọn bộ 120 câu hỏi ngữ pháp thực chiến kinh điển từ giáo trình Drill & Drill N2 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu.",
+    "ready": true,
+    "file": "data/chuyende_ngu_phap_n2.js",
+    "stats": {
+      "totalQuestions": 120,
+      "type": "grammar"
     }
   },
   {
-    id: "drill_ngu_phap_n3",
-    title: "Chuyên Đề 7: 300 Câu Ngữ Pháp N3 Nền Tảng (Chống Liệt)",
-    badge: "Củng Cố N3",
-    badgeColor: "#14b8a6",
-    description: "Trọn bộ 300 câu hỏi ngữ pháp N3 nền tảng (23 Tests) từ giáo trình Drill & Drill N3 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu, củng cố vững chắc điểm số.",
-    ready: true,
-    file: "data/chuyende_ngu_phap_n3.js",
-    stats: {
-      totalQuestions: 300,
-      type: "grammar"
+    "id": "drill_ngu_phap_n3",
+    "title": "Chuyên Đề 7: 300 Câu Ngữ Pháp N3 Nền Tảng (Chống Liệt)",
+    "badge": "Củng Cố N3",
+    "badgeColor": "#14b8a6",
+    "description": "Trọn bộ 300 câu hỏi ngữ pháp N3 nền tảng (23 Tests) từ giáo trình Drill & Drill N3 kèm giải thích chi tiết cấu trúc và dịch nghĩa toàn câu, củng cố vững chắc điểm số.",
+    "ready": true,
+    "file": "data/chuyende_ngu_phap_n3.js",
+    "stats": {
+      "totalQuestions": 300,
+      "type": "grammar"
+    }
+  },
+  {
+    "id": "drill_nghe_hieu",
+    "title": "Chuyên Đề 8: Luyện Nghe Hiểu N2 Toàn Diện (Mondai 1-5)",
+    "badge": "Choukai 160",
+    "badgeColor": "#06b6d4",
+    "description": "Trọn bộ 4 tuần (160 câu hỏi, 155 track audio chuẩn) từ giáo trình The Best Complete Workbook for JLPT N2 kèm Script Nhật-Việt và phân tích chi tiết.",
+    "ready": true,
+    "file": "data/chuyende_nghe_hieu.js",
+    "stats": {
+      "totalQuestions": 160,
+      "type": "listening"
     }
   }
 ];
 
 window.JLPT_CHEATSHEETS = [
   {
-    id: "cs_dau_hieu_mau_cau",
-    title: "Dấu Hiệu Mẫu Câu Ngữ Pháp N2 (18 Trang)",
-    subtitle: "Tuyệt chiêu nhận diện phản xạ nhanh từ khóa biến đổi, thể kết hợp & mẹo dấu sao ★",
-    icon: "fa-bolt",
-    color: "#f59e0b"
+    "id": "cs_dau_hieu_mau_cau",
+    "title": "Dấu Hiệu Mẫu Câu Ngữ Pháp N2 (18 Trang)",
+    "subtitle": "Tuyệt chiêu nhận diện phản xạ nhanh từ khóa biến đổi, thể kết hợp & mẹo dấu sao ★",
+    "icon": "fa-bolt",
+    "color": "#f59e0b"
   },
   {
-    id: "cs_pho_tu",
-    title: "Phó Từ Đi Với Mẫu Câu Đặc Định (13 Trang)",
-    subtitle: "Trọn bộ 3 phần: Đuôi câu cố định, Cụm động từ cố định & Phó từ láy tượng thanh tượng hình",
-    icon: "fa-link",
-    color: "#6366f1"
+    "id": "cs_pho_tu",
+    "title": "Phó Từ Đi Với Mẫu Câu Đặc Định (13 Trang)",
+    "subtitle": "Trọn bộ 3 phần: Đuôi câu cố định, Cụm động từ cố định & Phó từ láy tượng thanh tượng hình",
+    "icon": "fa-link",
+    "color": "#6366f1"
   },
   {
-    id: "cs_dong_tu",
-    title: "Động Từ Đa Nghĩa N2 (16 Trang Gốc)",
-    subtitle: "Trọn bộ 17 động từ đa nghĩa then chốt (訴える, 押さえる, 傾く, 刻む, 稼ぐ, つぶれる, 扱う...) kèm ví dụ song ngữ",
-    icon: "fa-book-open",
-    color: "#ec4899"
+    "id": "cs_dong_tu",
+    "title": "Động Từ Đa Nghĩa N2 (16 Trang Gốc)",
+    "subtitle": "Trọn bộ 17 động từ đa nghĩa then chốt (訴える, 押さえる, 傾く, 刻む, 稼ぐ, つぶれる, 扱う...) kèm ví dụ song ngữ",
+    "icon": "fa-book-open",
+    "color": "#ec4899"
   },
   {
-    id: "cs_kosei_np",
-    title: "Bí Kíp Ngữ Pháp Theo Gốc Hán Tự (75 Trang)",
-    subtitle: "Nhớ cấu trúc nhanh qua gốc từ: Đối, Thông, Liên, Bì...",
-    icon: "fa-graduation-cap",
-    color: "#8b5cf6"
+    "id": "cs_kosei_np",
+    "title": "Bí Kíp Ngữ Pháp Theo Gốc Hán Tự (75 Trang)",
+    "subtitle": "Nhớ cấu trúc nhanh qua gốc từ: Đối, Thông, Liên, Bì...",
+    "icon": "fa-graduation-cap",
+    "color": "#8b5cf6"
   },
   {
-    id: "cs_mono_koto",
-    title: "Trọn Bộ Cấu Trúc もの & こと (16 Trang Gốc)",
-    subtitle: "4 nhóm cấu trúc kinh điển: こと (15 mẫu), もの (10 mẫu), 上 (4 mẫu) & ところ (5 mẫu) kèm ví dụ song ngữ",
-    icon: "fa-layer-group",
-    color: "#10b981"
+    "id": "cs_mono_koto",
+    "title": "Trọn Bộ Cấu Trúc もの & こと (16 Trang Gốc)",
+    "subtitle": "4 nhóm cấu trúc kinh điển: こと (15 mẫu), もの (10 mẫu), 上 (4 mẫu) & ところ (5 mẫu) kèm ví dụ song ngữ",
+    "icon": "fa-layer-group",
+    "color": "#10b981"
   },
   {
-    id: "cs_kinh_ngu",
-    title: "Sổ Tay Kính Ngữ N2 - N3 Cấp Tốc (27 Trang)",
-    subtitle: "Bảng tra cứu tôn kính ngữ & khiêm nhường ngữ",
-    icon: "fa-user-tie",
-    color: "#f59e0b"
+    "id": "cs_kinh_ngu",
+    "title": "Sổ Tay Kính Ngữ N2 - N3 Cấp Tốc (27 Trang)",
+    "subtitle": "Bảng tra cứu tôn kính ngữ & khiêm nhường ngữ",
+    "icon": "fa-user-tie",
+    "color": "#f59e0b"
   },
   {
-    id: "cs_dokkai_choukai",
-    title: "Bẫy Đọc Hiểu & Công Thức Nghe Hiểu 5 Mondai",
-    subtitle: "7 chiến thuật đọc hiểu & bí quyết ăn điểm Choukai",
-    icon: "fa-headphones-alt",
-    color: "#06b6d4"
+    "id": "cs_dokkai_choukai",
+    "title": "Bẫy Đọc Hiểu & Công Thức Nghe Hiểu 5 Mondai",
+    "subtitle": "7 chiến thuật đọc hiểu & bí quyết ăn điểm Choukai",
+    "icon": "fa-headphones-alt",
+    "color": "#06b6d4"
+  },
+  {
+    "id": "cs_but_pha_doc_hieu",
+    "title": "Bứt Phá Đọc Hiểu N2 (9 Trang Cô Mai Lan)",
+    "subtitle": "Phân bổ 60 phút, thứ tự làm bài & chiến thuật giải nhanh 5 dạng bài Đọc hiểu",
+    "icon": "fa-book-reader",
+    "color": "#10b981"
   }
 ];

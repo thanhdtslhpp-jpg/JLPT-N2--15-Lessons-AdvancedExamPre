@@ -3292,5 +3292,102 @@ window.JLPT_CHEATSHEETS_DATA = {
         "example": "電気がついて、部屋の中がぱっと明るくなった。(Bật đèn lên một cái là cả căn phòng bừng sáng ngay tức thì)."
       }
     ]
+  },
+  "cs_but_pha_doc_hieu": {
+    "id": "cs_but_pha_doc_hieu",
+    "title": "Bứt Phá Đọc Hiểu JLPT N2 (Mai Lan 先生 - Trọn Bộ 9 Trang)",
+    "subtitle": "Chiến thuật phân bổ 60-65 phút, thứ tự làm bài & bí kíp giải nhanh 5 dạng bài Đọc hiểu",
+    "source": "BỨT PHÁ ĐỌC HIỂU.pdf (9 trang)",
+    "icon": "fa-book-reader",
+    "color": "#10b981",
+    "sections": [
+      {
+        "title": "1. Bố Cục Đề Thi & Đặc Điểm Đọc Hiểu N2",
+        "badge": "Tổng 20 câu / 65 phút",
+        "color": "#0ea5e9",
+        "summary": "Tách riêng 2 phần trong 105 phút: Moji-Goi + Ngữ pháp (~40 phút) và Đọc hiểu (~65 phút).",
+        "points": [
+          "<b>Đoản văn (Mondai 10):</b> 5 câu.",
+          "<b>Trung văn (Mondai 11):</b> 8 câu (4 bài, 2 câu/bài; một số đề 3 bài x 3 câu).",
+          "<b>So sánh A - B (Mondai 12):</b> 2 câu.",
+          "<b>Trường văn (Mondai 13):</b> 3 câu.",
+          "<b>Tìm kiếm thông tin (Mondai 14):</b> 2 câu.",
+          "<b>Đặc điểm văn bản N2:</b> Nội dung thiên về suy nghĩ, quan điểm, đánh giá; văn phong trang trọng, bay bổng, lắt léo — thường phải nắm mạch tổng thể mới hiểu chính xác."
+        ]
+      },
+      {
+        "title": "2. Chiến Thuật Quản Lý Thời Gian & Thứ Tự Làm Bài (60 Phút)",
+        "badge": "Tối ưu 60 phút",
+        "color": "#8b5cf6",
+        "summary": "2 vấn đề cốt lõi cần giải quyết: (1) Kiểm soát thời gian và (2) Cách làm nâng cao tỉ lệ chọn đúng - trúng - nhanh.",
+        "points": [
+          "<b>Từ vựng - Ngữ pháp (hết Mondai 9):</b> Làm tối đa trong <b>45 phút</b> để giữ tối thiểu <b>60 phút</b> cho Đọc hiểu.",
+          "<b>Bước 1 — Tìm kiếm thông tin (Mondai 14):</b> Làm TRƯỚC tiên lúc đầu óc còn tỉnh táo. Tối đa <b>7 phút</b>.",
+          "<b>Bước 2 — 5 bài Đoản văn (Mondai 10):</b> Ưu tiên làm dạng thư, mail, thông báo trước. Tối đa <b>12 phút</b> cho 5 câu.",
+          "<b>Bước 3 — Bài So sánh A - B (Mondai 12):</b> Tối đa <b>8 phút</b>.",
+          "<b>Bước 4 — 4 bài Trung văn (Mondai 11):</b> Mỗi bài không quá 6 phút (Tổng tối đa <b>25 phút</b>).",
+          "<b>Bước 5 — Bài Trường văn (Mondai 13):</b> Không quá <b>10 phút</b>."
+        ]
+      },
+      {
+        "title": "3. Bí Kíp Làm 5 Bài Đoản Văn (Mondai 10)",
+        "badge": "Tối đa 12 phút",
+        "color": "#10b981",
+        "summary": "Phân loại dạng bài để xử lý nhanh và né bẫy từ ngữ tuyệt đối.",
+        "points": [
+          "<b>Dạng thư / mail / thông báo:</b> Chú ý các cụm chuyển ý <code>さて / つきまして / この度</code>. Yêu cầu chính thường nằm ở đuôi câu <code>～ください / お願いいたします...</code>.",
+          "<b>Dạng hỏi ý kiến tác giả:</b> Cố gắng đọc kỹ đoạn đầu và đoạn cuối để nắm bắt chủ đề & quan điểm cốt lõi.",
+          "<b>Dạng hỏi keyword trong bài:</b> Đọc lướt nhanh cả bài, thấy vị trí chứa keyword thì đọc chậm - kỹ - chính xác và ưu tiên đáp án nằm trong đoạn/câu văn đó.",
+          "<b>Cảnh giác khái niệm tuyệt đối:</b> <code>全部 / すべて / 最も / 一番大切 / 必ず / ～なければならない</code> — nếu trong bài không nêu rõ thì tuyệt đối KHÔNG chọn."
+        ]
+      },
+      {
+        "title": "4. Chiến Thuật Bài So Sánh A - B (Mondai 12)",
+        "badge": "Tối đa 8 phút",
+        "color": "#f59e0b",
+        "summary": "Tránh đọc lần lượt cả A và B gây mất thời gian và nhiễu thông tin.",
+        "points": [
+          "<b>Bước 1:</b> Đọc cả 2 câu hỏi trước. Thường 1 câu hỏi điểm chung của cả A & B, 1 câu hỏi điểm riêng.",
+          "<b>Bước 2:</b> Ưu tiên làm câu hỏi về điểm riêng (hoặc lọc theo từng bài) trước.",
+          "<b>Bước 3:</b> Đọc 4 phương án (chỉ đọc phần nội dung nói về A) &rarr; Đọc đoạn văn A &rarr; Loại bỏ ngay các phương án không đúng với A.",
+          "<b>Bước 4:</b> Đọc tiếp đoạn văn B &rarr; Đối chiếu các phương án còn lại để chốt đáp án nhanh, không bị lẫn."
+        ]
+      },
+      {
+        "title": "5. Chiến Thuật 4 Bài Trung Văn (Mondai 11)",
+        "badge": "Tối đa 25 phút",
+        "color": "#ec4899",
+        "summary": "Khoanh vùng chính xác phạm vi chứa đáp án, không sa đà dịch từng chữ cả bài.",
+        "points": [
+          "<b>Câu hỏi có GẠCH CHÂN / TỪ CHỈ THỊ:</b> Tìm ngay đoạn/câu văn chứa phần gạch chân hoặc từ chỉ thị đó &rarr; Dịch thật kỹ và đối chiếu 4 phương án.",
+          "<b>Nguyên tắc vàng:</b> ƯU TIÊN những đáp án thuộc phần đã khoanh vùng.",
+          "<b>Câu hỏi KHÔNG có gạch chân:</b> Tự gạch chân <b>KEYWORD</b> ngay trong lúc đọc câu hỏi để khoanh vùng phạm vi đáp án trong bài rồi xử lý tương tự."
+        ]
+      },
+      {
+        "title": "6. Chiến Thuật Bài Trường Văn (Mondai 13)",
+        "badge": "Tối đa 10 phút",
+        "color": "#6366f1",
+        "summary": "Bài trường văn đánh gục tâm lý vì DÀI chứ chưa chắc đã KHÓ.",
+        "points": [
+          "<b>Đọc kỹ đoạn đầu tiên:</b> Để nắm hướng triển khai của cả bài (văn nghị luận thường viết theo lối tổng - phân - hợp hoặc quy nạp - diễn giải; mẹo này áp dụng cho cả Trung văn).",
+          "<b>Quy trình chuẩn:</b> Đọc câu hỏi &rarr; Khoanh vùng đoạn chứa đáp án &rarr; Đối chiếu 4 phương án.",
+          "<b>KHÔNG đọc hết cả bài:</b> Đọc hết từ đầu đến cuối chắc chắn không đủ thời gian và còn làm loãng thông tin, khó chọn đáp án chính xác."
+        ]
+      },
+      {
+        "title": "7. Bí Kíp Bài Tìm Kiếm Thông Tin (Mondai 14)",
+        "badge": "Tối đa 7 phút",
+        "color": "#14b8a6",
+        "summary": "Đọc kỹ 'hồ sơ đối tượng' và cảnh giác các cụm từ bẫy số lượng, thời gian, điều kiện.",
+        "points": [
+          "<b>Đọc kỹ thông tin nhân vật:</b> TÊN, TUỔI, NGHỀ NGHIỆP, NƠI SINH SỐNG, NGUYỆN VỌNG, YÊU CẦU... Mọi chi tiết đều dùng để đối chiếu với bảng biểu.",
+          "<code>しか～ない</code>: Chỉ có thể... (loại trừ các trường hợp khác).",
+          "<code>対象以外</code>: Không thuộc đối tượng được áp dụng (ví dụ ưu đãi, giảm giá &rarr; không được tính).",
+          "<code>～以降</code>: Kể từ thời điểm đó trở đi (ví dụ <code>9月以降</code> nghĩa là tham gia được từ tháng 9 trở đi, không phải tháng 10).",
+          "<code>～三人で</code> vs <code>～三人と</code>: <b>三人で</b> = Tổng cộng 3 người; <b>三人と</b> = Đi cùng 3 người khác &rarr; Tổng là <b>4 người</b> (cẩn thận khi tính tổng tiền!)."
+        ]
+      }
+    ]
   }
 };

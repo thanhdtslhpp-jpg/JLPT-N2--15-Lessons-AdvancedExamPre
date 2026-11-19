@@ -3007,6 +3007,40 @@ class JLPTApp {
       `;
       return;
     }
+
+    if (csId === "cs_but_pha_doc_hieu") {
+      const data = allData.cs_but_pha_doc_hieu || {};
+      const sections = (data.sections || []).filter(sec => {
+        if (!query) return true;
+        const t = (sec.title || "").toLowerCase();
+        const s = (sec.summary || "").toLowerCase();
+        const pts = (sec.points || []).join(" ").toLowerCase();
+        return t.includes(qLower) || s.includes(qLower) || pts.includes(qLower);
+      });
+      if (sections.length === 0 && query) {
+        body.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-sub);"><i class="fas fa-search" style="font-size:2.5rem;margin-bottom:0.85rem;display:block;opacity:0.6;"></i>Không tìm thấy chiến thuật đọc hiểu nào khớp với "${query}"</div>`;
+        return;
+      }
+      body.innerHTML = `
+        <div class="cs-card-grid">
+          ${sections.map(sec => `
+            <div class="cs-grammar-card" style="border-left-color: ${sec.color || '#10b981'};">
+              <div class="cs-pattern-head">
+                <span class="cs-pattern-title" style="color: ${sec.color || '#059669'};">
+                  ${hl(sec.title)}
+                </span>
+                ${sec.badge ? `<span style="background:rgba(16,185,129,0.12);color:${sec.color || '#059669'};padding:0.2rem 0.6rem;border-radius:999px;font-size:0.8rem;font-weight:700;">${hl(sec.badge)}</span>` : ""}
+              </div>
+              ${sec.summary ? `<div class="cs-meaning-text">${hl(sec.summary)}</div>` : ""}
+              <ul style="margin:0.5rem 0 0 1.2rem;padding:0;display:flex;flex-direction:column;gap:0.45rem;font-size:calc(0.95rem * var(--cs-scale));line-height:1.6;">
+                ${(sec.points || []).map(pt => `<li>${hl(pt)}</li>`).join("")}
+              </ul>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      return;
+    }
   }
 
   selectKeigoOption(exId, chosenOpt) {
