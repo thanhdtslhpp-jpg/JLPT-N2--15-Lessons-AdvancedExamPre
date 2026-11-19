@@ -145,11 +145,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử N2 Đề Số 5 (75 câu), Chuyên đề Danh từ trọng điểm (36 câu), Quán dụng ngữ, Ngữ pháp Hàn và Shinkanzen 2.",
     "ready": true,
     "stats": {
-      "totalQuestions": 265,
-      "kanji": 10,
-      "vocab": 68,
-      "grammar": 80,
-      "reading": 21,
+      "totalQuestions": 477,
+      "kanji": 40,
+      "vocab": 134,
+      "grammar": 146,
+      "reading": 71,
       "listening": 86
     }
   },
@@ -159,11 +159,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2021 (72 câu), Chuyên đề Mondai 6 Cách dùng từ (12 câu), Ngữ pháp N2 Shinkanzen (22 câu), và Từ vựng trọng điểm (32 câu).",
     "ready": true,
     "stats": {
-      "totalQuestions": 168,
+      "totalQuestions": 170,
       "kanji": 20,
       "vocab": 54,
       "grammar": 43,
-      "reading": 21,
+      "reading": 23,
       "listening": 30
     }
   },
@@ -173,11 +173,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử Goukaku Moshi Đề 2 (54 câu chuẩn xác), Siêu chuyên đề Kính ngữ N2 toàn diện (30 câu), Từ đồng nghĩa (25 câu), Mondai 4 Ngữ cảnh (20 câu) và Đọc hiểu Đoản - Trung văn (11 câu).",
     "ready": true,
     "stats": {
-      "totalQuestions": 152,
+      "totalQuestions": 155,
       "kanji": 10,
       "vocab": 67,
       "grammar": 52,
-      "reading": 11,
+      "reading": 14,
       "listening": 12
     }
   },
@@ -187,11 +187,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử JLPT N2 HQ Đề 1 (47 câu chuẩn xác), Chuyên đề Từ vựng trọng điểm 10 (32 câu), Ngữ pháp chuyên sâu 10 (22 câu), và Đoản văn đọc hiểu nâng cao (8 câu).",
     "ready": true,
     "stats": {
-      "totalQuestions": 150,
-      "kanji": 20,
-      "vocab": 42,
-      "grammar": 39,
-      "reading": 8,
+      "totalQuestions": 395,
+      "kanji": 50,
+      "vocab": 144,
+      "grammar": 105,
+      "reading": 55,
       "listening": 41
     }
   },
@@ -201,11 +201,11 @@ window.JLPT_SYLLABUS = [
     "description": "Đề thi thử Kanzen Moshi N2 (54 câu chuẩn xác), Chuyên đề Đọc hiểu tổng ôn toàn diện Mondai 10-14 (21 câu), và Siêu Tổng Ôn 35 câu bẫy từ vựng - ngữ pháp kinh điển N2.",
     "ready": true,
     "stats": {
-      "totalQuestions": 142,
-      "kanji": 10,
-      "vocab": 37,
-      "grammar": 42,
-      "reading": 21,
+      "totalQuestions": 428,
+      "kanji": 60,
+      "vocab": 147,
+      "grammar": 147,
+      "reading": 42,
       "listening": 32
     }
   }

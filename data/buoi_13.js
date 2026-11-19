@@ -2189,6 +2189,49 @@ window.JLPT_DATA[13] = {
           "correctAnswer": 3,
           "explanation": "<b>Phân tích:</b> Tác giả lớn lên trong môi trường Âu Mỹ hóa, ít cơ hội tiếp xúc văn hóa Nhật; nhưng khi có dịp (học trà đạo sau khi tốt nghiệp đại học), tác giả thấy hoài niệm và nhận ra tâm hồn người Nhật vẫn nằm sâu bên trong mình.<br><br><b>Dịch câu hỏi:</b> Điều tác giả muốn nói nhất trong bài văn này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Văn hóa Âu Mỹ thành trung tâm là bất tự nhiên nên cần tránh xa đồ Âu Mỹ hết mức có thể: Sai, tác giả không kêu gọi bài trừ văn hóa Âu Mỹ.<br>• 2. Vì sống kiểu Âu Mỹ đã thành đương nhiên nên cần tạo cơ hội dạy riêng trà đạo cho người Nhật: Sai, trà đạo chỉ là trải nghiệm cá nhân của tác giả, không đề xuất bắt buộc dạy cho mọi người.<br>• 3. Dù cơ hội tiếp xúc với văn hóa Nhật giảm đi, chỉ cần có dịp chạm vào nó thì bất cứ lúc nào cũng có thể tìm lại tâm hồn người Nhật: <b>(Đúng)</b> Khớp với thông điệp xuyên suốt từ đoạn 3 đến đoạn kết.<br>• 4. Một khi đồ Nhật đã thành thứ đặc biệt thì người Nhật cần tiếp thu văn hóa Âu Mỹ hơn nữa: Sai, ngược với trọng tâm bài viết.",
           "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đọc hiểu trung văn)",
+          "passage": "日本には科学館・博物館・プラネタリウム・天文台など科学に関わる展示や講演会などを行いつつ、訪問者が実験や観測に参加できるような施設が多く存在する（欧米に比べても遜色ないどころか、その数は上回っている）。そこには当然学芸員がいて、展示物の解説をしたり、それに関する質問に答えたりしてくれる。学芸員がいわば<u>①科学ソムリエ</u>の役割を果たしているのである。私が教えた大学院生が学芸員として就職し、時折その苦労話を聞くが並大抵な仕事ではないことがよくわかる。\n第一は、毎月のように出し物の中身を変え、新しいトピックに敏感に反応しないとすぐに飽きられてしまうから、先を読んで展示物を工夫することが絶えず求められる点だろう。予算の関係もあって年度当初に展示計画を組んでいるのだが、日本人のノーベル賞受賞のような想定していなかった事態が生じると急遽それに変えねばならない。\nそれに伴って、どんな分野についても専門家並みの知識を身に付ける必要があるのも苦労することらしい。学芸員それぞれは一つの分野の専門家ではあるけれど、それでカバーできる範囲は狭く、数少ない人数でどんどん専門分化する科学の全領域をカバーしなければならない。そのためインターネットで知識を得ただけであっても、<u>②いかにもその専門家であるかのように振る舞うことになる</u>。\n（池内了『現代科学の歩きかた』河出書房新社による）\n（注）ソムリエ：ワインの専門知識をもち、レストランで客がワインを選ぶ手助けをする人",
+          "questionText": "<u>①科学ソムリエ</u>とはどんな人のことを指しているか。",
+          "options": [
+            "科学に関わる新しいトピックに敏感に反応できる人",
+            "科学についてわかりやすく説明してくれる人",
+            "科学の全領域をどんどん専門分化できる人",
+            "科学研究でノーベル賞を受賞する人"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Giống như sommelier giúp khách chọn rượu vang với kiến thức chuyên môn, người phụ trách bảo tàng (学芸員) giải thích vật trưng bày và trả lời câu hỏi cho khách tham quan.<br><b>Đáp án:</b> 2",
+          "id": 153
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đọc hiểu trung văn)",
+          "questionText": "<u>② いかにもその専門家であるかのように振る舞うことになるとあるが</u>、それはなぜか。",
+          "options": [
+            "訪問者は学芸員を専門家であると思っているので、知らないといういいわけはできないから。",
+            "専門家としてプライドが高いので、知識がなくてもわからないとは言いたくないから。",
+            "専門家のように振る舞えば、あまり知識がなくても上手くごまかせるから。",
+            "インターネットさえあれば、すぐに専門家並みの知識を身に付けることができるから。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tuy mỗi người chỉ chuyên 1 lĩnh vực hẹp, nhưng với số nhân sự ít ỏi phải phụ trách toàn bộ lĩnh vực khoa học để trả lời khách tham quan nên dù chỉ mới tìm hiểu qua mạng cũng phải ứng xử như thể là chuyên gia thực thụ.<br><b>Đáp án:</b> 1",
+          "id": 154
+        },
+        {
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đọc hiểu trung văn)",
+          "questionText": "筆者は学芸員についてどのように述べているか。",
+          "options": [
+            "日本の科学に関わる展示は、欧米よりも数が多く、すばらしいので、もっと自信を持つべきだ。",
+            "科学の知識があまりなくてもインターネットを利用して調べれば、だれにでもできる仕事だ。",
+            "新しい企画を次々考えなければならないので、アイディアをたくさん持っている人が向いている。",
+            "展示の企画だけではなく、科学のどの分野についても豊富な知識を身につけなければならない大変な仕事だ。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Tác giả khẳng định đây là công việc không hề đơn giản (並大抵な仕事ではない): vừa phải liên tục đổi mới nội dung trưng bày, vừa phải trang bị kiến thức sâu rộng ở mọi lĩnh vực khoa học.<br><b>Đáp án:</b> 4",
+          "id": 155
         }
       ]
     },
