@@ -2191,7 +2191,7 @@ window.JLPT_DATA[12] = {
     },
     {
       "id": "choukai",
-      "name": "Phần 5: 聴解 - Luyện Nghe Đề Thi Thật N2 07/2021 (11 câu)",
+      "name": "聴解 (Nghe hiểu - Mondai 1 đến 5)",
       "questions": [
         {
           "id": 139,
@@ -2379,6 +2379,337 @@ window.JLPT_DATA[12] = {
           ],
           "correctAnswer": 4,
           "explanation": "<b>❓ Dịch câu hỏi:</b> Tại hiện trường vụ hỏa hoạn, phát thanh viên đang đưa tin. Nguyên nhân hỏa hoạn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 2階でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở tầng 2<br>2. 台所でストーブの火が燃え出したこと: Lò sưởi bốc cháy ở nhà bếp<br>3. 台所のカーテンにストーブの火が燃え移ったこと: Lửa lò sưởi bén vào rèm ở nhà bếp<br>4. 居間のカーテンにストーブの火が燃え移ったこと: Lửa từ lò sưởi bén vào rèm cửa ở phòng khách<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：こちら、昨夜火事がありました現場です。台所の窓が黒く焦げていますが、<b>1階の居間と台所のうち、特に居間が一番ひどく燃えています。警察の調べによりますと、居間に置いてあったストーブにカーテンが触れ、火が燃え移ったものと見られています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bản tin nêu nguyên nhân chính xác: rèm phòng khách chạm vào lò sưởi khiến ngọn lửa bùng phát lan sang (居間に置いてあったストーブにカーテンが触れ、火が燃え移った).<br>&rarr; <b>Đáp án đúng là 4 (居間のカーテンにストーブの火が燃え移ったこと)</b>."
+        },
+        {
+          "id": 150,
+          "mondai": 3,
+          "mondaiName": "聴解 問題３：概要理解 (Nắm bắt khái quát/chủ đề)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m3_01.mp3",
+          "audioSrc": "audio/buoi_12/m3_01.mp3",
+          "questionText": "男の人はどのように思っていますか。",
+          "options": [
+            "歌が上手で、印象に残る",
+            "歌は上手だが、印象が薄い",
+            "歌はまぁまぁだが、印象が強くていい",
+            "歌が下手で、印象が薄い"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông nghĩ như thế nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 歌が上手で、印象に残る: Hát hay và đọng lại ấn tượng<br>\n2. 歌は上手だが、印象が薄い: Hát hay nhưng ấn tượng mờ nhạt<br>\n3. 歌はまぁまぁだが、印象が強くていい: Hát bình thường nhưng ấn tượng mạnh nên tốt<br>\n4. 歌が下手で、印象が薄い: Hát dở và ấn tượng mờ nhạt<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビ番組で歌を聞いた後、司会の女の人が男の人に感想を聞いています。<br>\n女：ありがとうございました。田中先生、感想をお願いします。<br>\n男：はい。<b>歌うことには慣れているみたいだね。</b>なんて言うか、学校の発表会で歌の上手な子が歌ってるって感じ。<b>でも、それ以上じゃないんだよね。心に残る人の歌っていうのは、やっぱりこう、印象に残る何か強いものを感じるんだよねぇ。うまい人はいくらでもいるんだから、うまいっていうだけじゃあ。</b><br>\n男の人はどのように思っていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nSau khi nghe hát trên chương trình TV, nữ MC hỏi cảm nhận của giám khảo Tanaka: \"Cậu ấy có vẻ quen hát rồi, kiểu học sinh hát giỏi trong buổi văn nghệ ở trường. Nhưng chỉ dừng lại ở mức đó thôi. Người hát hay ngoài kia nhiều vô kể, nên chỉ hát giỏi thôi thì chưa đủ để lại ấn tượng mạnh mẽ đọng lại trong tim.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Nhận xét rằng thí sinh hát giỏi/quen thuộc nhưng thiếu chiều sâu ấn tượng đọng lại trong lòng &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 151,
+          "mondai": 3,
+          "mondaiName": "聴解 問題３：概要理解 (Nắm bắt khái quát/chủ đề)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m3_02.mp3",
+          "audioSrc": "audio/buoi_12/m3_02.mp3",
+          "questionText": "男の人は主に何について話していますか。",
+          "options": [
+            "年金だけで生活することの難しさ",
+            "働いている妻への感謝の気持ち",
+            "思う存分趣味を楽しめる喜び",
+            "家事をすることの面白さ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông chủ yếu đang nói về điều gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 年金だけで生活することの難しさ: Sự khó khăn khi sống chỉ bằng lương hưu<br>\n2. 働いている妻への感謝の気持ち: Lòng biết ơn đối với người vợ đang đi làm<br>\n3. 思う存分趣味を楽しめる喜び: Niềm vui được tận hưởng sở thích thỏa thích<br>\n4. 家事をすることの面白さ: Sự thú vị của việc làm việc nhà<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビで男の人が話しています。<br>\n男：私も65歳を過ぎて、定年を迎え、年金をいただく歳になりました。妻はまだ働いてるんですけどね。昔は定年になったら大好きな趣味、あ、釣りなんですが、釣りを思う存分楽しみたいと思ってたんです。ところが、ある日、仕事で忙しい妻のために夕飯を作ったら思った以上に喜んでもらえて。<b>やりがいを感じて色々作るようになりました。自分なりに色んな工夫ができますし、掃除や洗濯だってそうなんですよ。ちょっとした気付きや発見もあって、妻に代わって張り切ってやってます。</b>今では釣りに出かけても、釣った魚を見て、今晩は何にしようかなと考えるようになりました。<br>\n男の人は主に何について話していますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười đàn ông chia sẻ trên TV: Sau khi nghỉ hưu ở tuổi 65, ban đầu ông định đi câu cá thỏa thích. Nhưng một hôm nấu cơm tối cho vợ đang bận đi làm, thấy vợ vui mừng ngoài mong đợi nên ông thấy có ý nghĩa, bắt đầu sáng tạo nhiều món ăn, dọn dẹp, giặt giũ đầy hứng khởi và khám phá ra nhiều điều mới mẻ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Trọng tâm bài nói là niềm vui, sự sáng tạo và thú vị khi làm việc nhà (nấu ăn, dọn dẹp, giặt giũ) &rarr; <b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 152,
+          "mondai": 3,
+          "mondaiName": "聴解 問題３：概要理解 (Nắm bắt khái quát/chủ đề)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m3_03.mp3",
+          "audioSrc": "audio/buoi_12/m3_03.mp3",
+          "questionText": "女の人は何について話していますか。",
+          "options": [
+            "人気があるペットの種類",
+            "ペットの健康の維持",
+            "犬を飼う人が減っている理由",
+            "一人暮らしの人が飼いやすい犬"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ đang nói về điều gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 人気があるペットの種類: Các loại thú cưng được ưa chuộng<br>\n2. ペットの健康の維持: Duy trì sức khỏe cho thú cưng<br>\n3. 犬を飼う人が減っている理由: Lý do số người nuôi chó đang giảm đi<br>\n4. 一人暮らしの人が飼いやすい犬: Loài chó dễ nuôi cho người sống một mình<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nラジオで女の人が話しています。<br>\n女：以前は代表的なペットといえば、犬でしたが、最近発表されたペットに関する調査によると<b>犬を飼う人が減ってきているそうです。これには家庭環境の変化や経済事情が関わっているみたいです。</b>共働きの家庭が増えて、散歩に連れて行く時間が取りにくいとか、医療費などお金が掛かるといったことから、飼いたくても飼えないという人が増えているんだそうです。私自身も可愛い小型の犬を飼いたいと思うこともありますが、一人暮らしで出張が多いことを考えると、なかなか決心がつきません。<br>\n女の人は何について話していますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ chia sẻ trên radio về khảo sát thú cưng: Số người nuôi chó đang giảm do thay đổi môi trường gia đình (vợ chồng đều đi làm không có thời gian dắt đi dạo) và vấn đề kinh tế (chi phí y tế tốn kém). Bản thân cô cũng hay đi công tác nên chưa dám nuôi.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Toàn bài giải thích các nguyên nhân khiến người nuôi chó giảm xuống &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 153,
+          "mondai": 3,
+          "mondaiName": "聴解 問題３：概要理解 (Nắm bắt khái quát/chủ đề)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m3_04.mp3",
+          "audioSrc": "audio/buoi_12/m3_04.mp3",
+          "questionText": "この話のテーマは何ですか。",
+          "options": [
+            "植物の種の運ばれ方",
+            "植物の種に含まれる成分",
+            "タンポポの種の飛び方",
+            "蟻が植物の種を運ぶ理由"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Chủ đề của câu chuyện này là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 植物の種の運ばれ方: Cách thức hạt giống thực vật được phát tán/vận chuyển<br>\n2. 植物の種に含まれる成分: Thành phần có trong hạt thực vật<br>\n3. タンポポの種の飛び方: Cách bay của hạt hoa bồ công anh<br>\n4. 蟻が植物の種を運ぶ理由: Lý do kiến tha hạt thực vật<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビの子供向けの番組でアナウンサーが話しています。<br>\nアナウンサー：春に野原や公園で咲く、タンポポの花、可愛いですよね。咲き終わると真っ白な綿毛になって、種をつけてふわふわ飛んでいきます。軽いので、風に乗って遠くまで運ばれます。<b>植物は動物のように歩けないので、いろいろな方法で仲間を増やすんです。</b>他にも種に甘い塊がついていて、つられてやってきた蟻に運んでもらう植物。あるいは身に棘があり、動物の体にくっ付きやすくなっていて、種の移動を助けてもらうものなどもあります。<br>\nこの話のテーマは何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nPhát thanh viên chương trình thiếu nhi giải thích: Vì thực vật không thể đi lại như động vật, nên chúng có nhiều cách để phát tán hạt giống đi xa (bồ công anh nhờ gió thổi, có loài nhờ kiến tha vì có cục đường ngọt, có loài có gai bám vào lông động vật).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chủ đề bao trùm cả 3 ví dụ (gió, kiến, động vật) là cách hạt thực vật được vận chuyển đi nơi khác &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 154,
+          "mondai": 3,
+          "mondaiName": "聴解 問題３：概要理解 (Nắm bắt khái quát/chủ đề)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m3_05.mp3",
+          "audioSrc": "audio/buoi_12/m3_05.mp3",
+          "questionText": "議員が言いたいことは何ですか。",
+          "options": [
+            "競技場を建て替えるべきだ",
+            "選手の宿泊施設を作るべきだ",
+            "古い道路や橋を整備すべきだ",
+            "別の自治体で大会を行うべきだ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Điều vị nghị sĩ muốn nói là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 競技場を建て替えるべきだ: Nên xây lại sân vận động<br>\n2. 選手の宿泊施設を作るべきだ: Nên xây cơ sở lưu trú cho vận động viên<br>\n3. 古い道路や橋を整備すべきだ: Nên tu sửa đường sá và cầu cống cũ kỹ<br>\n4. 別の自治体で大会を行うべきだ: Nên tổ chức giải đấu ở địa phương khác<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nある市の議会で議員が話しています。<br>\n議員：えぇ、5年後にこの山川市で陸上競技の全国大会を開催することが決まっていますが、そのために新しい競技場や選手の宿泊施設を作ろうという意見が出ています。そういった声も理解できますが、<b>市内には古くなってきた道路や橋があり、以前から危険が指摘されています。歩行者や車がスムーズに通れず事故を招く恐れがあり、早期の整備が必要です。</b>競技場は予定されている施設で対応できるはずですし、宿泊施設は足りなければ、周辺の自治体に協力依頼するなど、他の手段があります。歩行者や車両の安全の確保を急ぐべきだと考えます。<br>\n議員が言いたいことは何ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNghị sĩ phát biểu tại hội đồng thành phố: Trước ý kiến xây sân vận động và chỗ ở mới cho giải điền kinh 5 năm tới, ông cho rằng sân hiện tại vẫn đáp ứng được và chỗ ở có thể nhờ địa phương lân cận; điều cấp bách hơn là phải sớm tu sửa đường và cầu cũ đang gây nguy hiểm tai nạn cho người đi bộ và xe cộ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Lập luận chính là ưu tiên tu sửa đường và cầu cũ để đảm bảo an toàn &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 155,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_01.mp3",
+          "audioSrc": "audio/buoi_12/m4_01.mp3",
+          "questionText": "女：あのう、もう少し音、小さくしていただけると助かるんですが。",
+          "options": [
+            "あ、すみません。気がつかなくて。",
+            "そうしていただけますか。",
+            "おかげさまで助かりました。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Xin lỗi, nếu anh vặn nhỏ âm thanh xuống một chút thì tốt quá ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. あ、すみません。気がつかなくて。 (À xin lỗi, tại tôi không để ý.)<br>\n2. そうしていただけますか。 (Anh làm giúp tôi như vậy được không?)<br>\n3. おかげさまで助かりました。 (Nhờ ơn anh mà tôi đỡ quá.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女：あのう、もう少し音、<b>小さくしていただけると助かるんですが</b>。<br>\n男：<b>1. あ、すみません。気がつかなくて。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Xin lỗi, nhờ anh chỉnh nhỏ tiếng xuống một chút được không ạ.\"<br>\nNam: \"À xin lỗi, tôi sơ ý không để ý.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi bị nhắc nhở làm ồn, phản hồi lịch sự là xin lỗi vì đã không để ý &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 156,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_02.mp3",
+          "audioSrc": "audio/buoi_12/m4_02.mp3",
+          "questionText": "女：さっき見た映画、いまいちだったね。",
+          "options": [
+            "最近では一番よかったね。",
+            "本当、期待してたのにね。",
+            "もう一回見たいってこと。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Bộ phim lúc nãy xem chán phèo (không hay lắm) nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 最近では一番よかったね。 (Gần đây thì phim đó hay nhất nhỉ.)<br>\n2. 本当、期待してたのにね。 (Thật đấy, thế mà mình đã kỳ vọng rất nhiều.)<br>\n3. もう一回見たいってこと。 (Nghĩa là muốn xem thêm lần nữa à.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女：さっき見た映画、<b>いまいちだったね</b>。<br>\n男：<b>2. 本当、期待してたのにね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Phim vừa xem lúc nãy hơi dở nhỉ.\"<br>\nNam: \"Công nhận, thế mà mình đã mong chờ lắm luôn.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「いまいち」 = chưa đạt, không hay lắm. Đồng tình thất vọng bằng 「本当、期待してたのにね」 &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 157,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_03.mp3",
+          "audioSrc": "audio/buoi_12/m4_03.mp3",
+          "questionText": "男：どうも、ご迷惑をおかけしました。",
+          "options": [
+            "はい、おかげさまで。",
+            "いいえ、とんでもない。",
+            "そうですか。よかったですね。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Thật sự xin lỗi vì đã làm phiền anh/chị ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. はい、おかげさまで。 (Vâng, nhờ ơn anh chị.)<br>\n2. いいえ、とんでもない。 (Không có gì đâu ạ / Đâu có sao đâu.)<br>\n3. そうですか。よかったですね。 (Vậy à. Tốt quá nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男：どうも、<b>ご迷惑をおかけしました</b>。<br>\n女：<b>2. いいえ、とんでもない。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Rất xin lỗi đã gây phiền phức cho chị.\"<br>\nNữ: \"Không, có gì đâu mà.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Đáp lại lời xin lỗi/cảm ơn trang trọng một cách khiêm nhường là 「いいえ、とんでもない」 &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 158,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_04.mp3",
+          "audioSrc": "audio/buoi_12/m4_04.mp3",
+          "questionText": "男：あれ、ここにあったノートパソコン、知らない？",
+          "options": [
+            "あぁ、あれはいいパソコンです。",
+            "あ、会議室で見ましたよ。",
+            "私には難しくて使えません。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Ủa, cái laptop để ở đây, cậu có biết ở đâu không?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. あぁ、あれはいいパソコンです。 (À, cái đó là máy tính tốt đấy.)<br>\n2. あ、会議室で見ましたよ。 (À, tôi thấy ở trong phòng họp đấy ạ.)<br>\n3. 私には難しくて使えません。 (Khó quá tôi không dùng được.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男：あれ、ここにあったノートパソコン、<b>知らない？</b><br>\n女：<b>2. あ、会議室で見ましたよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Ơ, cái laptop để đây đâu rồi, em có biết không?\"<br>\nNữ: \"À, em thấy ở phòng họp đấy ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hỏi tìm đồ vật thất lạc, trả lời nơi đã nhìn thấy &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 159,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_05.mp3",
+          "audioSrc": "audio/buoi_12/m4_05.mp3",
+          "questionText": "高木さん、今度のスピーチ大会、学校の代表に選ばれたからには、がんばってくださいね。",
+          "options": [
+            "次は選ばれるようにがんばります。",
+            "選ばれるかどうか分かりません。",
+            "精一杯やろうと思います。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Takagi à, một khi đã được chọn làm đại diện trường thi hùng biện lần này thì hãy cố gắng lên nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 次は選ばれるようにがんばります。 (Lần sau em sẽ cố gắng để được chọn.)<br>\n2. 選ばれるかどうか分かりません。 (Không biết có được chọn hay không.)<br>\n3. 精一杯やろうと思います。 (Em sẽ cố gắng hết sức mình ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n高木さん、今度のスピーチ大会、学校の代表に<b>選ばれたからには</b>、がんばってくださいね。<br>\n<b>3. 精一杯やろうと思います。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Takagi, đã được chọn đại diện trường dự thi hùng biện rồi thì cố gắng nhé.\"<br>\nB: \"Vâng, em sẽ nỗ lực hết sức ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～からには」 = một khi đã... (sự việc đã được chọn rồi), nên đáp lại lời khích lệ bằng 「精一杯やろうと思います」 &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 160,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_06.mp3",
+          "audioSrc": "audio/buoi_12/m4_06.mp3",
+          "questionText": "約束の時間を過ぎたのに、森君はまだ来ないね。森君が遅刻なんて、ありえないよね。",
+          "options": [
+            "森君、よく遅れるもんね。",
+            "森君、遅れるって言ってたの？",
+            "森君、いつも時間守るのにね。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Quá giờ hẹn rồi mà Mori vẫn chưa tới nhỉ. Chuyện Mori đi muộn thật khó tin (không thể nào) nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 森君、よく遅れるもんね。 (Mori hay đi muộn lắm mà - trái với 「ありえない」.)<br>\n2. 森君、遅れるって言ってたの？ (Mori bảo là sẽ đến muộn à?)<br>\n3. 森君、いつも時間守るのにね。 (Thế mà Mori lúc nào cũng đúng giờ nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n約束の時間を過ぎたのに、森君はまだ来ないね。森君が遅刻なんて、<b>ありえないよね</b>。<br>\n<b>3. 森君、いつも時間守るのにね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Quá giờ rồi mà Mori chưa tới, bình thường cậu ấy chẳng bao giờ đi muộn cả.\"<br>\nB: \"Ừ, cậu ấy lúc nào cũng đúng giờ thế mà.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「ありえない」 thể hiện sự ngạc nhiên vì bình thường Mori rất đúng giờ &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 161,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_07.mp3",
+          "audioSrc": "audio/buoi_12/m4_07.mp3",
+          "questionText": "松井さん、そのデータの入力が終わり次第、会議の資料を印刷してくれる？",
+          "options": [
+            "終わったんですね、ありがとうございます。",
+            "入力は途中まででいいんですね。",
+            "あ、終わったらすぐやります。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Matsui à, ngay sau khi nhập xong dữ liệu đó thì in giúp tôi tài liệu cuộc họp nhé?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 終わったんですね、ありがとうございます。 (Xong rồi ạ, cảm ơn anh.)<br>\n2. 入力は途中まででいいんですね。 (Chỉ cần nhập dở thôi đúng không ạ?)<br>\n3. あ、終わったらすぐやります。 (À vâng, xong là em làm ngay ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n松井さん、そのデータの入力が<b>終わり次第</b>、会議の資料を印刷してくれる？<br>\n<b>3. あ、終わったらすぐやります。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Matsui, nhập xong dữ liệu thì in ngay tài liệu họp giúp tôi nhé.\"<br>\nB: \"Vâng, nhập xong em in liền ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～次第」 = ngay sau khi... (làm xong A thì lập tức làm B) &rarr; <b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 162,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_08.mp3",
+          "audioSrc": "audio/buoi_12/m4_08.mp3",
+          "questionText": "次の試合の相手、去年優勝した選手なんだ。負けるに決まってるよ。",
+          "options": [
+            "勝つ自信があるんだね。",
+            "やってみなきゃ分からないよ。",
+            "負けちゃったの、残念だね。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Đối thủ trận tới là nhà vô địch năm ngoái đấy. Chắc chắn thua rồi.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 勝つ自信があるんだね。 (Cậu tự tin thắng nhỉ.)<br>\n2. やってみなきゃ分からないよ。 (Phải đấu thử mới biết được chứ.)<br>\n3. 負けちゃったの、残念だね。 (Thua mất rồi à, tiếc nhỉ - chưa đấu.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n次の試合の相手、去年優勝した選手なんだ。<b>負けるに決まってるよ</b>。<br>\n<b>2. やってみなきゃ分からないよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Đối thủ trận tới là đương kim vô địch năm ngoái, chắc chắn thua rồi.\"<br>\nB: \"Chưa đấu thì chưa biết được đâu.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Động viên người đang bi quan trước trận đấu bằng 「やってみなきゃ分からないよ」 &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 163,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_09.mp3",
+          "audioSrc": "audio/buoi_12/m4_09.mp3",
+          "questionText": "全員が揃ったところで始めることにしましょうか。",
+          "options": [
+            "はい、あと5人ですね。",
+            "はい、会議室にしましょう。",
+            "はい、二時間ですね。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Khi nào mọi người có mặt đông đủ thì chúng ta bắt đầu nhé?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. はい、あと5人ですね。 (Vâng, còn thiếu 5 người nữa ạ.)<br>\n2. はい、会議室にしましょう。 (Vâng, chọn phòng họp nhé.)<br>\n3. はい、二時間ですね。 (Vâng, 2 tiếng ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n<b>全員が揃ったところで</b>始めることにしましょうか。<br>\n<b>1. はい、あと5人ですね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Đợi mọi người đến đủ rồi mình bắt đầu nhé?\"<br>\nB: \"Vâng, còn 5 người nữa là đủ ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～たところで」 = ngay sau khi mọi người tụ họp đủ -> báo cáo hiện còn thiếu 5 người &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 164,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_10.mp3",
+          "audioSrc": "audio/buoi_12/m4_10.mp3",
+          "questionText": "駅前にできたレストラン、行ったことある？",
+          "options": [
+            "あぁ、あそこまぁまぁですね。",
+            "えぇ、新しくできるようですね。",
+            "いいえ、まだだそうですよ。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Nhà hàng mới mở trước nhà ga ấy, cậu đã từng đi chưa?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. あぁ、あそこまぁまぁですね。 (À, chỗ đó cũng tạm ổn / bình thường.)<br>\n2. えぇ、新しくできるようですね。 (Vâng, hình như sắp mở mới đấy.)<br>\n3. いいえ、まだだそうですよ。 (Không, nghe nói là chưa ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n駅前にできたレストラン、<b>行ったことある？</b><br>\n<b>1. あぁ、あそこまぁまぁですね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Quán mới mở trước ga cậu đi thử chưa?\"<br>\nB: \"À, quán đó cũng tàm tạm đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hỏi cảm nhận/kinh nghiệm đã từng đi quán đã mở (できた), trả lời nhận xét về quán đó &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 165,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ tức thì)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m4_11.mp3",
+          "audioSrc": "audio/buoi_12/m4_11.mp3",
+          "questionText": "うわぁ、見て、この北海道ツアー、安い。休みさえあれば絶対行くのにね。",
+          "options": [
+            "今休むのは難しいよね。",
+            "いいなぁ、旅行に行くんだね。",
+            "本当、料金が安ければね。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Oa nhìn này, tour Hokkaido này rẻ quá. Chỉ cần có kỳ nghỉ là nhất định tớ đi ngay đấy.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 今休むのは難しいよね。 (Bây giờ mà xin nghỉ phép thì khó thật nhỉ.)<br>\n2. いいなぁ、旅行に行くんだね。 (Thích thế, cậu sắp đi du lịch à - hiểu sai ý giả định 「のに」.)<br>\n3. 本当、料金が安ければね。 (Thật, giá mà rẻ hơn nhỉ - tour vốn đã rẻ rồi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nうわぁ、見て、この北海道ツアー、安い。<b>休みさえあれば絶対行くのにね</b>。<br>\n<b>1. 今休むのは難しいよね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Nhìn tour Hokkaido này rẻ quá, giá mà được nghỉ phép là đi liền.\"<br>\nB: \"Đúng là tầm này khó xin nghỉ thật nhỉ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「休みさえあれば～のに」 = giá mà có ngày nghỉ (nhưng thực tế không nghỉ được), nên đồng cảm 「今休むのは難しいよね」 &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 166,
+          "mondai": 5,
+          "mondaiName": "聴解 問題５：統合理解 (Nghe hiểu tổng hợp)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m5_01.mp3",
+          "audioSrc": "audio/buoi_12/m5_01.mp3",
+          "questionText": "新商品がもっと売れるように、どうすることにしましたか。",
+          "options": [
+            "店内に宣伝の貼紙を貼る。",
+            "包装のデザインをかえる。",
+            "近所の家にチラシを配る。",
+            "もっと目立つ場所に置く。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Để sản phẩm mới bán chạy hơn, họ quyết định làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 店内に宣伝の貼紙を貼る: Dán áp phích quảng cáo trong cửa hàng<br>\n2. 包装のデザインをかえる: Thay đổi thiết kế bao bì (tốn tiền)<br>\n3. 近所の家にチラシを配る: Phát tờ rơi tới nhà dân quanh vùng (vất vả dịp cuối năm bận rộn)<br>\n4. もっと目立つ場所に置く: Đặt ở vị trí nổi bật hơn (chỗ hiện tại đã tốt nhất rồi)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n和菓子の店で店長と店員二人が話しています。<br>\n男店員：…店内に「帰省のお土産にどうぞ」って貼紙をしてみてはどうでしょうか。<br>\n店長：確かに。そういう時期ですね。貼紙ならすぐにできそうですし。<br>\n(Đổi bao bì -> tốn tiền; Phát tờ rơi -> bận rộn không kịp làm; Đổi chỗ bày -> chỗ hiện tại tốt nhất rồi)<br>\n店長：…<b>お金と手間をかけずにできることをやりましょう。</b><br>\n新商品がもっと売れるように、どうすることにしましたか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCửa hàng bánh kẹo truyền thống bàn cách tăng doanh số set bánh mới. Các phương án đổi bao bì (tốn kém), phát tờ rơi (tốn công), chuyển chỗ bày (chỗ cũ đã tốt nhất) đều bị loại. Cuối cùng cửa hàng trưởng chọn làm việc không tốn tiền và công sức: dán giấy quảng cáo trong tiệm.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chọn dán tờ quảng cáo ngay trong cửa hàng &rarr; <b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 167,
+          "mondai": 5,
+          "mondaiName": "聴解 問題５：統合理解 (Nghe hiểu tổng hợp)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m5_02.mp3",
+          "audioSrc": "audio/buoi_12/m5_02.mp3",
+          "questionText": "質問1：女の人は小学生の甥と一緒にどこへ行く予定ですか。",
+          "options": [
+            "子ども未来館",
+            "南大学",
+            "ちゅうおう図書館",
+            "自然科学館"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người phụ nữ dự định đi đâu cùng đứa cháu trai học tiểu học?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 子ども未来館 (Bảo tàng Tương lai Trẻ em: giới thiệu robot hình người - không khớp lịch)<br>\n2. 南大学 (Đại học Minami: chương trình trải nghiệm quan sát thời tiết)<br>\n3. ちゅうおう図書館 (Thư viện Trung tâm: hội thảo lịch sử ngắm sao)<br>\n4. 自然科学館 (Bảo tàng Khoa học Tự nhiên: tour quan sát cây thuốc)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nラジオでイベントの紹介を聞いて、女の人と男の人が話しています。<br>\n女：<b>夏休みに小学生の甥が遊びに来るから、今言ってた天気予報のプログラム、一緒に参加するんだ。</b><br>\n男：へぇそうなんだ。<br>\n女：ロボットのも喜びそうだと思ったんだけど、調べたら予定が合わなくて。<br>\n質問1：女の人は小学生の甥と一緒にどこへ行く予定ですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ cho biết dịp nghỉ hè cháu trai tiểu học đến chơi nên sẽ cùng cháu tham gia chương trình trải nghiệm dự báo/quan sát thời tiết (tại Đại học Minami); chương trình robot thì không khớp lịch.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chương trình quan sát khí tượng/dự báo thời tiết tổ chức tại 南大学 &rarr; <b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 168,
+          "mondai": 5,
+          "mondaiName": "聴解 問題５：統合理解 (Nghe hiểu tổng hợp)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_12/m5_02.mp3",
+          "audioSrc": "audio/buoi_12/m5_02.mp3",
+          "questionText": "質問2：二人は一緒にどこへ行こうと言っていますか。",
+          "options": [
+            "子ども未来館",
+            "南大学",
+            "ちゅうおう図書館",
+            "自然科学館"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Hai người nói sẽ cùng nhau đi đâu?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 子ども未来館<br>\n2. 南大学<br>\n3. ちゅうおう図書館<br>\n4. 自然科学館<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n(Nghe chung đoạn hội thoại ở câu trên)<br>\n男：そっか。星空のゼミナーとか薬の植物のツアーも面白そうだよね。今度一緒に行かない。<br>\n女：うん。いいよ。植物の観察も面白そうだけど、<b>昔の人が夜空を見て何を考えてたのか、っていうのに興味ある。</b><br>\n男：<b>じゃあ、それにしよう。</b>いつやってるのか調べてみるよ。<br>\n質問2：二人は一緒にどこへ行こうと言っていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBạn nam rủ đi chung hội thảo ngắm sao hoặc tour cây thuốc. Bạn nữ thấy thích tìm hiểu xem người xưa nghĩ gì khi ngắm bầu trời đêm, nên cả hai chốt đi hội thảo về lịch sử quan sát sao.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hội thảo lịch sử quan sát sao tổ chức tại Thư viện Trung tâm (ちゅうおう図書館) &rarr; <b>Đáp án đúng là 3</b>."
         }
       ]
     }
