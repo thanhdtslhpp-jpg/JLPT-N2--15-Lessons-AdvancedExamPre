@@ -767,304 +767,304 @@ window.JLPT_DATA[2] = window.JLPT_DATA["buoi_02"] = {
           "passage": "<b>【紅葉の異変】</b><br><br>私には日本の秋の景色が好きです。秋になって紅葉が始まり、緑だった葉が黄色やオレンジ、赤に変わると、とてもきれいです。秋の紅葉は、日本の四季の変化を感じさせてくれるものです。<br><br>【 48 】ですが、先日テレビで、紅葉がピークを迎える時期が年々遅くなっているというニュースを見ました。私は、夏が過ぎて気温が下がってくれば、必ず紅葉が始まると思っていました【 49 】そうではありませんでした。紅葉には、条件となる気温の変化がありました。<br><br>秋になっても、最低気温が一定の気温まで下がらなければ、紅葉は【 50 】。その後、さらに寒くなり、5〜6度まで下がると、紅葉は一気に進みます。紅葉を通して、温暖化が身近な問題であることをより強く【 51 】。"
         },
         {
-                  "id": 52,
-                  "mondai": 10,
-                  "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
-                  "question": "筆者によると、論理的な会話をするのに必要なことは何か。",
-                  "options": [
-                            "抽象的な言葉をできるだけ使用しないようにする。",
-                            "抽象的な言葉を、正しい意味かどうかを確認してから使用する。",
-                            "同じ言葉を、相手と自分が同じ意味で使用しているかを確認する。",
-                            "相手の知らない言葉は、自分がどういう意味で使用しているかを説明する。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch bài:</b> Từ ngữ của mình chỉ nằm trong đầu mình, từ ngữ của đối phương chỉ nằm trong đầu đối phương. Với các từ trừu tượng, ít khi hai bên dùng hoàn toàn cùng một nghĩa. Vì vậy khi tranh luận, việc định nghĩa từ ngữ rất quan trọng — xác nhận xem đối phương dùng với nghĩa gì và có cùng nghĩa với mình không là tiền đề lớn để trò chuyện logic.<br><b>Đáp án 3:</b> Xác nhận xem đối phương và mình có đang dùng cùng một từ với cùng một nghĩa hay không.",
-                  "passage": "自分の言葉は自分の頭の中にしかなく、相手の言葉は相手の頭の中にしかありません。抽象的な言葉の場合には、まったく同じ意味で使用していることのほうが少ないと言えるでしょう。\nしたがって、議論をする際には、言葉の定義づけ（注）が重要になってきます。相手がどう意味でその言葉を使用しているのか、自分と同じ意味で使用しているのかを確認することは大切なことです。これは、論理的に会話をするうえでの大前提となるものです。\n\n（注）定義づけ：ここでは、意味を決めること"
+          "id": 52,
+          "mondai": 10,
+          "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
+          "question": "筆者によると、論理的な会話をするのに必要なことは何か。",
+          "options": [
+            "抽象的な言葉をできるだけ使用しないようにする。",
+            "抽象的な言葉を、正しい意味かどうかを確認してから使用する。",
+            "同じ言葉を、相手と自分が同じ意味で使用しているかを確認する。",
+            "相手の知らない言葉は、自分がどういう意味で使用しているかを説明する。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Từ ngữ của mình chỉ nằm trong đầu mình, từ ngữ của đối phương chỉ nằm trong đầu đối phương. Với các từ trừu tượng, ít khi hai bên dùng hoàn toàn cùng một nghĩa. Vì vậy khi tranh luận, việc định nghĩa từ ngữ trở nên rất quan trọng — xác nhận xem đối phương dùng từ với nghĩa gì và có cùng nghĩa với mình không là tiền đề lớn để trò chuyện một cách logic.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, điều cần thiết để trò chuyện một cách logic là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cố gắng hết sức không sử dụng các từ trừu tượng: Sai. Bài viết không khuyên tránh dùng từ trừu tượng mà nhấn mạnh cần định nghĩa và xác nhận nghĩa khi dùng chúng.<br>• 2. Kiểm tra xem từ trừu tượng có đúng nghĩa hay không rồi mới sử dụng: Sai. Vấn đề không phải là nghĩa «đúng hay sai» theo từ điển, mà là đối phương và mình có đang hiểu cùng một nghĩa hay không.<br>• 3. Xác nhận xem đối phương và mình có đang sử dụng cùng một từ với cùng một nghĩa hay không: <b>(Đúng)</b>. Khớp với câu chốt trong bài: 「相手がどう意味でその言葉を使用しているのか、自分と同じ意味で使用しているのかを確認することは大切なことです。」<br>• 4. Với những từ đối phương không biết, giải thích mình đang dùng với nghĩa gì: Sai. Bài viết nói về trường hợp hai bên dùng cùng một từ (đặc biệt là từ trừu tượng) nhưng dễ hiểu khác nghĩa nhau, chứ không nói về từ đối phương chưa biết.",
+          "passage": "自分の言葉は自分の頭の中にしかなく、相手の言葉は相手の頭の中にしかありません。抽象的な言葉の場合には、まったく同じ意味で使用していることのほうが少ないと言えるでしょう。\nしたがって、議論をする際には、言葉の定義づけ（注）が重要になってきます。相手がどう意味でその言葉を使用しているのか、自分と同じ意味で使用しているのかを確認することは大切なことです。これは、論理的に会話をするうえでの大前提となるものです。\n\n（注）定義づけ：ここでは、意味を決めること"
         },
         {
-                  "id": 53,
-                  "mondai": 10,
-                  "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
-                  "question": "このお知らせで伝えたいことは何か。",
-                  "options": [
-                            "６月２３日の午前２時から４時までは、インターネットで特急券が予約できない。",
-                            "６月２３日の午前２時から４時までは、ホームページで時刻表や運賃表が見られない。",
-                            "６月２３日の午前４時以降、インターネットで特急券が予約できるようになる。",
-                            "６月２３日の午前４時以降、ホームページで時刻表や運賃表が見られるようになる。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch bài:</b> Thông báo bảo trì hệ thống định kỳ tháng 6 của Đường sắt Kitasaka: Từ 2:00 đến 4:00 sáng thứ Bảy ngày 23/6 sẽ tạm dừng hệ thống đặt vé, không thể đặt vé tàu tốc hành qua mạng. Bảng giờ tàu và bảng giá vé vẫn xem bình thường.<br><b>Đáp án 1:</b> Từ 2h đến 4h sáng ngày 23/6 không thể đặt vé tàu tốc hành trên internet.",
-                  "passage": "以下は、ある鉄道会社がホームページに掲載したお知らせである。\n\nトップ ＞ お知らせ ＞ 定期システム点検実施のお知らせ\n\n６月の定期システム点検実施のお知らせ\n\nいつも北坂鉄道をご利用いただきまして、ありがとうございます。\n当社では情報管理システムの安全性向上のため、第４土曜日の夜間にシステム点検を実施しております。\n今月の作業は６月２３日（土）午前２時から４時までとなります。この間は、予約システムを休止いたします。インターネットでの特急券予約がご利用いただけなくなりますのでご注意ください。なお、ホームページ内の時刻表や運賃表は通常どおり閲覧が可能です。\nご不便をおかけいたしますが、ご理解くださいますようお願い申し上げます。\n北坂鉄道株式会社"
+          "id": 53,
+          "mondai": 10,
+          "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
+          "question": "このお知らせで伝えたいことは何か。",
+          "options": [
+            "６月２３日の午前２時から４時までは、インターネットで特急券が予約できない。",
+            "６月２３日の午前２時から４時までは、ホームページで時刻表や運賃表が見られない。",
+            "６月２３日の午前４時以降、インターネットで特急券が予約できるようになる。",
+            "６月２３日の午前４時以降、ホームページで時刻表や運賃表が見られるようになる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch bài:</b> Thông báo bảo trì hệ thống định kỳ tháng 6 của Đường sắt Kitasaka: Để nâng cao tính an toàn cho hệ thống quản lý thông tin, công ty tiến hành bảo trì vào ban đêm thứ Bảy tuần thứ 4. Tháng này thực hiện vào thứ Bảy ngày 23/6 từ 2:00 đến 4:00 sáng. Trong thời gian này hệ thống đặt vé tạm ngưng, không thể đặt vé tàu tốc hành qua internet. Tuy nhiên, bảng giờ tàu và bảng giá vé trên trang chủ vẫn xem được bình thường.<br><br><b>Dịch câu hỏi:</b> Thông báo này muốn truyền đạt điều gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Từ 2h đến 4h sáng ngày 23/6 không thể đặt vé tàu tốc hành qua internet: <b>(Đúng)</b>. Khớp hoàn toàn với thông báo: 「６月２３日（土）午前２時から４時までとなります。この間は、予約システムを休止いたします。インターネットでの特急券予約がご利用いただけなくなります」.<br>• 2. Từ 2h đến 4h sáng ngày 23/6 không xem được bảng giờ tàu và bảng giá vé trên trang chủ: Sai. Thông báo ghi rõ vẫn xem được bình thường (「通常どおり閲覧が可能です」).<br>• 3. Sau 4h sáng ngày 23/6 sẽ bắt đầu đặt được vé tàu tốc hành qua internet: Sai. Đây không phải thông báo mở tính năng mới mà là thông báo tạm ngưng bảo trì trong khung 2h–4h.<br>• 4. Sau 4h sáng ngày 23/6 sẽ xem được bảng giờ tàu và bảng giá vé trên trang chủ: Sai. Bảng giờ tàu và bảng giá vé vốn vẫn xem bình thường kể cả trong lúc bảo trì.",
+          "passage": "以下は、ある鉄道会社がホームページに掲載したお知らせである。\n\nトップ ＞ お知らせ ＞ 定期システム点検実施のお知らせ\n\n６月の定期システム点検実施のお知らせ\n\nいつも北坂鉄道をご利用いただきまして、ありがとうございます。\n当社では情報管理システムの安全性向上のため、第４土曜日の夜間にシステム点検を実施しております。\n今月の作業は６月２３日（土）午前２時から４時までとなります。この間は、予約システムを休止いたします。インターネットでの特急券予約がご利用いただけなくなりますのでご注意ください。なお、ホームページ内の時刻表や運賃表は通常どおり閲覧が可能です。\nご不便をおかけいたしますが、ご理解くださいますようお願い申し上げます。\n北坂鉄道株式会社"
         },
         {
-                  "id": 54,
-                  "mondai": 10,
-                  "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
-                  "question": "オトシブミという虫について、筆者はどのように述べているか。",
-                  "options": [
-                            "食料を木の葉で包んで落とし、幼虫はそれを見つけて食べる。",
-                            "木の葉と卵を落とし、生まれた幼虫は食料をその葉で巻いて隠す。",
-                            "卵を木の葉で包んで落とし、生まれた幼虫はその中でその葉を食べる。",
-                            "落ちている木の葉に卵を産んで包み、幼虫はその中で生まれて育つ。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch bài:</b> Con cái của loài bọ cánh cứng nhỏ tên Otoshibumi có tập tính gói trứng mình đẻ trong lá cây rồi thả xuống đất. Ấu trùng nở bên trong sẽ ăn chiếc lá cuộn đó từ phía trong để lớn lên.<br><b>Đáp án 3:</b> Gói trứng bằng lá cây rồi thả xuống, ấu trùng nở ra sẽ ăn chính chiếc lá đó ở bên trong.",
-                  "passage": "新緑の時期に森を歩くと、地面に小さなロールキャベツ（注１）状の物体が落ちているのを見かけます。しばしば一か所に大量に落ちていて、とてもよく目立ちます。これはオトシブミという小さな甲虫（注２）の仲間が、自分の幼虫のためににつくったものです。この虫のメスは、自分の産んだ卵を木の葉で丁寧に包んでから地面に落とす習性（注３）をもちます。中で孵った（注４）幼虫は、内側からこの巻いた葉を食べて成長します。幼虫にとっては、この葉巻きは隠れ家であるとともに食料なわけです。\n\n（注１）ロールキャベツ：キャベツで肉を包んだ料理\n（注２）甲虫：虫の一種\n（注３）習性：ここでは、特徴的な性質\n（注４）孵った：ここでは、卵から生まれた"
+          "id": 54,
+          "mondai": 10,
+          "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
+          "question": "オトシブミという虫について、筆者はどのように述べているか。",
+          "options": [
+            "食料を木の葉で包んで落とし、幼虫はそれを見つけて食べる。",
+            "木の葉と卵を落とし、生まれた幼虫は食料をその葉で巻いて隠す。",
+            "卵を木の葉で包んで落とし、生まれた幼虫はその中でその葉を食べる。",
+            "落ちている木の葉に卵を産んで包み、幼虫はその中で生まれて育つ。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Vào mùa lá non khi đi dạo trong rừng, ta thường thấy những vật nhỏ giống món bắp cải cuộn rơi trên mặt đất. Đó là thứ do con cái của loài bọ cánh cứng nhỏ tên Otoshibumi tạo ra cho ấu trùng. Con cái có tập tính gói kỹ trứng mình đẻ bằng lá cây rồi thả xuống đất. Ấu trùng nở bên trong sẽ ăn chính chiếc lá cuộn đó từ phía trong để lớn lên; chiếc lá vừa là nơi ẩn náu vừa là thức ăn.<br><br><b>Dịch câu hỏi:</b> Tác giả đã trình bày như thế nào về loài côn trùng tên Otoshibumi?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Gói thức ăn bằng lá cây rồi thả xuống, ấu trùng tìm thấy thứ đó và ăn: Sai. Bọ mẹ gói trứng (卵), không phải gói thức ăn.<br>• 2. Thả lá cây và trứng xuống, ấu trùng nở ra tự cuộn thức ăn vào chiếc lá đó để giấu: Sai. Bọ mẹ gói trứng bằng lá trước khi thả xuống đất.<br>• 3. Gói trứng bằng lá cây rồi thả xuống, ấu trùng nở ra sẽ ăn chính chiếc lá đó ở bên trong: <b>(Đúng)</b>. Khớp chính xác với bài: 「自分の産んだ卵を木の葉で丁寧に包んでから地面に落とす」「中で孵った幼虫は、内側からこの巻いた葉を食べて成長します」.<br>• 4. Đẻ trứng lên chiếc lá cây đang rơi dưới đất rồi gói lại, ấu trùng sinh ra và lớn lên bên trong: Sai. Bọ mẹ gói trứng bằng lá rồi mới thả xuống đất (「包んでから地面に落とす」).",
+          "passage": "新緑の時期に森を歩くと、地面に小さなロールキャベツ（注１）状の物体が落ちているのを見かけます。しばしば一か所に大量に落ちていて、とてもよく目立ちます。これはオトシブミという小さな甲虫（注２）の仲間が、自分の幼虫のためににつくったものです。この虫のメスは、自分の産んだ卵を木の葉で丁寧に包んでから地面に落とす習性（注３）をもちます。中で孵った（注４）幼虫は、内側からこの巻いた葉を食べて成長します。幼虫にとっては、この葉巻きは隠れ家であるとともに食料なわけです。\n\n（注１）ロールキャベツ：キャベツで肉を包んだ料理\n（注２）甲虫：虫の一種\n（注３）習性：ここでは、特徴的な性質\n（注４）孵った：ここでは、卵から生まれた"
         },
         {
-                  "id": 55,
-                  "mondai": 10,
-                  "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
-                  "question": "このメールの用件は何か。",
-                  "options": [
-                            "見本として５色すべての商品を送ってほしい。",
-                            "見本として新色の３個を追加で送ってほしい。",
-                            "見本の代金としていくら支払えばいいか教えてほしい。",
-                            "商品５色を２０個ずつ注文できるかどうか教えてほしい。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch bài:</b> Thư của Ikenishi (JC Văn phòng phẩm): Hôm qua đã nhận 2 mẫu bấm kim nhẹ cx35. Theo catalogue mới, tháng sau có thêm 3 màu mới thành tổng cộng 5 màu, nên mong công ty gửi thêm mẫu của các màu mới (nếu cần trả tiền sẽ thanh toán).<br><b>Đáp án 2:</b> Mong gửi thêm 3 mẫu màu mới làm hàng mẫu.",
-                  "passage": "以下は、ある会社に届いたメールである。\n\nコイノ株式会社\n営業部 島川英一様\n\nお世話になっております。JC文具の池西です。\n昨日、商品「軽量ホチキス cx35」の見本が２個届きました。機能性とシンプルなデザインは社内で評価が高く、取り扱い商品に加える方向で検討を進めております。\n同封されていた最新のカタログによると、来月から新色として３色が追加で発売され、全部で５色になるとのことですので、新色の見本も送付していただけないでしょうか。代金が必要な場合は、お支払いします。\n取り扱うことが正式に決定しましたら、まずは５色を２０個ずつ注文する予定です。\nよろしくお願いいたします。\n\nJC文具\n池西秋子 ikenshi_a@jcbungu.yuukibui.co.jp"
+          "id": 55,
+          "mondai": 10,
+          "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
+          "question": "このメールの用件は何か。",
+          "options": [
+            "見本として５色すべての商品を送ってほしい。",
+            "見本として新色の３個を追加で送ってほしい。",
+            "見本の代金としていくら支払えばいいか教えてほしい。",
+            "商品５色を２０個ずつ注文できるかどうか教えてほしい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> Email của chị Ikenishi (JC Văn phòng phẩm) gửi anh Shimakawa (Công ty Koino): Hôm qua đã nhận được 2 mẫu sản phẩm «Bấm kim nhẹ cx35», đánh giá nội bộ rất cao và đang xem xét đưa vào danh mục hàng bán. Theo catalogue mới nhất gửi kèm, tháng sau sẽ ra thêm 3 màu mới thành tổng cộng 5 màu, nên mong quý công ty gửi thêm mẫu của các màu mới này (nếu có chi phí sẽ thanh toán). Nếu quyết định chính thức, dự kiến sẽ đặt trước mỗi màu 20 chiếc.<br><br><b>Dịch câu hỏi:</b> Nội dung công việc chính (yêu cầu) của email này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Muốn gửi toàn bộ sản phẩm đủ 5 màu làm hàng mẫu: Sai. Đã nhận 2 mẫu rồi, chỉ xin gửi thêm mẫu của 3 màu mới.<br>• 2. Muốn gửi bổ sung 3 chiếc (màu mới) làm hàng mẫu: <b>(Đúng)</b>. Khớp với câu yêu cầu: 「来月から新色として３色が追加で発売され…新色の見本も送付していただけないでしょうか」.<br>• 3. Muốn cho biết phải trả bao nhiêu tiền cho hàng mẫu: Sai. Người viết chỉ nói «nếu cần tiền thì sẽ trả» (「代金が必要な場合は、お支払いします」), không hỏi giá.<br>• 4. Muốn hỏi xem có thể đặt 5 màu mỗi màu 20 chiếc không: Sai. Đó chỉ là dự kiến sau khi quyết định chính thức, chưa phải nội dung hỏi/yêu cầu ở hiện tại.",
+          "passage": "以下は、ある会社に届いたメールである。\n\nコイノ株式会社\n営業部 島川英一様\n\nお世話になっております。JC文具の池西です。\n昨日、商品「軽量ホチキス cx35」の見本が２個届きました。機能性とシンプルなデザインは社内で評価が高く、取り扱い商品に加える方向で検討を進めております。\n同封されていた最新のカタログによると、来月から新色として３色が追加で発売され、全部で５色になるとのことですので、新色の見本も送付していただけないでしょうか。代金が必要な場合は、お支払いします。\n取り扱うことが正式に決定しましたら、まずは５色を２０個ずつ注文する予定です。\nよろしくお願いいたします。\n\nJC文具\n池西秋子 ikenshi_a@jcbungu.yuukibui.co.jp"
         },
         {
-                  "id": 56,
-                  "mondai": 10,
-                  "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
-                  "question": "筆者の考えに合うのはどれか。",
-                  "options": [
-                            "他人と競争せずに、自分の生き方を見つければいい。",
-                            "人生の選択肢は多様であり、生き方は一つではない。",
-                            "人生の選択肢が多ければ多いほど、世界が広がっていく。",
-                            "仕事や趣味を通して、さまざまな生き方を知ることができる。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch bài:</b> Có người tìm thấy niềm vui ở công việc hỗ trợ/nuôi dưỡng người khác, có người làm việc vừa phải để tận hưởng sở thích. Dù có thất bại trong cuộc đua thi cử, xin việc hay thăng tiến, lựa chọn cuộc đời không chỉ có thế. Đổi góc nhìn sẽ thấy xã hội hiện đại có vô vàn cách sống.<br><b>Đáp án 2:</b> Lựa chọn cuộc đời rất đa dạng, không chỉ có một cách sống.",
-                  "passage": "競争や出世にはあまり関係のない、たとえばだれかを支えたり育んだり（注１）する仕事に喜びを感じる人もいるでしょう。仕事はそこそこに（注２）、趣味に生きることを楽しむ人もいるでしょう。たとえ、受験や就職、あるいは出世などの過酷な（注３）競争ゲームのただ中（注４）にあったとしても、そしてそれにある時、敗れてしまったとしても、わたしたちの人生の選択肢はそれだけではないし、「それで終わり」というわけでもありません。視点を変えれば、現代社会にはさまざまな生き方の世界が広がっているのです。\n\n（注１）育む：育てる\n（注２）そこそこに：適度に\n（注３）過酷な：非常に厳しい\n（注４）ただ中：最中"
+          "id": 56,
+          "mondai": 10,
+          "mondaiName": "Mondai 10: Đọc hiểu đoản văn",
+          "question": "筆者の考えに合うのはどれか。",
+          "options": [
+            "他人と競争せずに、自分の生き方を見つければいい。",
+            "人生の選択肢は多様であり、生き方は一つではない。",
+            "人生の選択肢が多ければ多いほど、世界が広がっていく。",
+            "仕事や趣味を通して、さまざまな生き方を知ることができる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> Có người tìm thấy niềm vui ở công việc không liên quan nhiều đến cạnh tranh hay thăng tiến, như hỗ trợ hay nuôi dưỡng người khác; cũng có người làm việc vừa phải để tận hưởng sở thích. Dù đang ở giữa cuộc đua khốc liệt như thi cử, xin việc hay thăng tiến và có lúc thất bại, lựa chọn cuộc đời của chúng ta không chỉ có thế và cũng không phải «thế là hết». Nếu đổi góc nhìn, xã hội hiện đại mở ra rất nhiều cách sống khác nhau.<br><br><b>Dịch câu hỏi:</b> Phương án nào phù hợp với suy nghĩ của tác giả?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Không cạnh tranh với người khác mà tự tìm cách sống của mình là được: Sai. Tác giả không phủ nhận hoàn toàn việc cạnh tranh, mà nói ngay cả khi thất bại trong cạnh tranh thì vẫn còn nhiều lựa chọn khác.<br>• 2. Lựa chọn của cuộc đời rất đa dạng, không chỉ có một cách sống: <b>(Đúng)</b>. Khớp với ý chính cuối bài: 「わたしたちの人生の選択肢はそれだけではない」「現代社会にはさまざまな生き方の世界が広がっている」.<br>• 3. Lựa chọn cuộc đời càng nhiều thì thế giới càng mở rộng: Sai. Bài viết nói «nếu đổi góc nhìn thì thấy thế giới cách sống đa dạng đang mở ra», không nói về quan hệ tỷ lệ thuận «càng nhiều lựa chọn thì...».<br>• 4. Thông qua công việc và sở thích có thể biết được nhiều cách sống khác nhau: Sai. Công việc và sở thích chỉ là ví dụ về các cách sống khác nhau, không phải phương tiện để «biết thêm cách sống».",
+          "passage": "競争や出世にはあまり関係のない、たとえばだれかを支えたり育んだり（注１）する仕事に喜びを感じる人もいるでしょう。仕事はそこそこに（注２）、趣味に生きることを楽しむ人もいるでしょう。たとえ、受験や就職、あるいは出世などの過酷な（注３）競争ゲームのただ中（注４）にあったとしても、そしてそれにある時、敗れてしまったとしても、わたしたちの人生の選択肢はそれだけではないし、「それで終わり」というわけでもありません。視点を変えれば、現代社会にはさまざまな生き方の世界が広がっているのです。\n\n（注１）育む：育てる\n（注２）そこそこに：適度に\n（注３）過酷な：非常に厳しい\n（注４）ただ中：最中"
         },
         {
-                  "id": 57,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "このような工夫とは、どのようなことか。",
-                  "options": [
-                            "情報を要約して、短時間で大量に見られるようにすること。",
-                            "多くの人が関心を持っている情報を優先的に流すこと。",
-                            "見る人が自分では探せない情報を選んで、提供すること。",
-                            "見る人の興味の傾向に合わせて、情報を提供すること。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu ngay trước phần gạch chân viết: 「SNSやネットニュースでは、その人の履歴から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています。」<br><b>Đáp án 4:</b> Cung cấp thông tin phù hợp với khuynh hướng quan tâm của người xem.",
-                  "passage": "ほとんどの人が、スマホやタブレット（注１）を通して、大量のSNSやネットニュース（注２）を毎日見ていることでしょう。多くの人がその膨大な情報を読むことあるいは見ることに、かなりの時間を費やして（注３）いて、ネット上の情報に追われている印象すら受けます。その結果、じっくり考える時間がどんどん少なくなっているようにも感じられます。\nまた、大量の情報がネット上に流されるようになった結果、自分に都合の良い情報にしか接しない人が増えてきています。技術革新（注４）のおかげではあるのですが、SNSやネットニュースでは、その人の履歴（注５）から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています。\n<u>このような工夫</u>はとても便利なことで、それによって時間が節約できたりする面は確かにあります。（中略）\nしかし、人々が見たいものだけを見て、信じている情報だけに接すると、発想が固定化してしまい、新しい進化が生まれにくくなってしまいます。また、思想的にも偏りのある考えが生まれやすくなってしまいます。\nそう考えると、この大量情報社会においては、いかに（注６）うまく情報を処理していくかがとても大事なことがわかります。また、大量情報を、一部だけ最初から抜き出して把握する（注７）のではなく、偏りがない形で、大量に処理することも必要です。\n\n（注１）スマホやタブレット：コンピューターの機能を持った小型の電子機器類\n（注２）SNSやネットニュース：ここでは、インターネット上でやり取りされる情報やニュース\n（注３）費やす：使う\n（注４）技術革新：技術の進歩\n（注５）履歴：ここでは、インターネット上の情報の閲覧の記録\n（注６）いかに：どのように\n（注７）把握する：理解する"
+          "id": 57,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "このような工夫とは、どのようなことか。",
+          "options": [
+            "情報を要約して、短時間で大量に見られるようにすること。",
+            "多くの人が関心を持っている情報を優先的に流すこと。",
+            "見る人が自分では探せない情報を選んで、提供すること。",
+            "見る人の興味の傾向に合わせて、情報を提供すること。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Trong xã hội thông tin lớn, SNS và tin tức mạng dựa vào lịch sử truy cập của người dùng để đưa những thông tin mà hệ thống phán đoán họ quan tâm lên vị trí dễ thấy. Cách làm này tiện lợi và tiết kiệm thời gian, nhưng nếu chỉ xem những gì mình muốn xem sẽ làm tư duy bị cố định và dễ thiên lệch.<br><br><b>Dịch câu hỏi:</b> «Sự khéo léo/cách sắp xếp như thế này (このような工夫)» chỉ điều gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Tóm tắt thông tin để có thể xem lượng lớn trong thời gian ngắn: Sai. Bài không nói đến việc tóm tắt thông tin.<br>• 2. Ưu tiên đưa những thông tin mà nhiều người quan tâm: Sai. Không phải theo số đông («nhiều người»), mà theo từng cá nhân (「その人が関心を持っていると思われる情報」).<br>• 3. Chọn lọc và cung cấp những thông tin mà người xem không thể tự tìm: Sai. Không phải thông tin không tự tìm được, mà là thông tin suy ra từ lịch sử xem.<br>• 4. Cung cấp thông tin phù hợp với khuynh hướng quan tâm của người xem: <b>(Đúng)</b>. Khớp trực tiếp với câu ngay trước phần gạch chân: 「その人の履歴から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています」.",
+          "passage": "ほとんどの人が、スマホやタブレット（注１）を通して、大量のSNSやネットニュース（注２）を毎日見ていることでしょう。多くの人がその膨大な情報を読むことあるいは見ることに、かなりの時間を費やして（注３）いて、ネット上の情報に追われている印象すら受けます。その結果、じっくり考える時間がどんどん少なくなっているようにも感じられます。\nまた、大量の情報がネット上に流されるようになった結果、自分に都合の良い情報にしか接しない人が増えてきています。技術革新（注４）のおかげではあるのですが、SNSやネットニュースでは、その人の履歴（注５）から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています。\n<u>このような工夫</u>はとても便利なことで、それによって時間が節約できたりする面は確かにあります。（中略）\nしかし、人々が見たいものだけを見て、信じている情報だけに接すると、発想が固定化してしまい、新しい進化が生まれにくくなってしまいます。また、思想的にも偏りのある考えが生まれやすくなってしまいます。\nそう考えると、この大量情報社会においては、いかに（注６）うまく情報を処理していくかがとても大事なことがわかります。また、大量情報を、一部だけ最初から抜き出して把握する（注７）のではなく、偏りがない形で、大量に処理することも必要です。\n\n（注１）スマホやタブレット：コンピューターの機能を持った小型の電子機器類\n（注２）SNSやネットニュース：ここでは、インターネット上でやり取りされる情報やニュース\n（注３）費やす：使う\n（注４）技術革新：技術の進歩\n（注５）履歴：ここでは、インターネット上の情報の閲覧の記録\n（注６）いかに：どのように\n（注７）把握する：理解する"
         },
         {
-                  "id": 58,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "大量情報社会について、筆者の考えに合うのはどれか。",
-                  "options": [
-                            "発想が固定化しないように、大量の情報を工夫して処理しなければならない。",
-                            "思想的に偏りのある考えでも、工夫してうまく処理しなければならない。",
-                            "必要な情報を選ぶために、大量の情報をうまく処理しなければならない。",
-                            "時間がかかっても、偏りなく大量の情報を処理しなければならない。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Đoạn cuối viết rõ: không nên chỉ trích xuất một phần ngay từ đầu để nắm bắt, mà cần xử lý lượng thông tin lớn một cách không thiên lệch (偏りがない形で、大量に処理することも必要です).<br><b>Đáp án 4:</b> Dù mất thời gian cũng phải xử lý lượng thông tin lớn một cách không thiên lệch.",
-                  "passage": "ほとんどの人が、スマホやタブレット（注１）を通して、大量のSNSやネットニュース（注２）を毎日見ていることでしょう。多くの人がその膨大な情報を読むことあるいは見ることに、かなりの時間を費やして（注３）いて、ネット上の情報に追われている印象すら受けます。その結果、じっくり考える時間がどんどん少なくなっているようにも感じられます。\nまた、大量の情報がネット上に流されるようになった結果、自分に都合の良い情報にしか接しない人が増えてきています。技術革新（注４）のおかげではあるのですが、SNSやネットニュースでは、その人の履歴（注５）から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています。\n<u>このような工夫</u>はとても便利なことで、それによって時間が節約できたりする面は確かにあります。（中略）\nしかし、人々が見たいものだけを見て、信じている情報だけに接すると、発想が固定化してしまい、新しい進化が生まれにくくなってしまいます。また、思想的にも偏りのある考えが生まれやすくなってしまいます。\nそう考えると、この大量情報社会においては、いかに（注６）うまく情報を処理していくかがとても大事なことがわかります。また、大量情報を、一部だけ最初から抜き出して把握する（注７）のではなく、偏りがない形で、大量に処理することも必要です。\n\n（注１）スマホやタブレット：コンピューターの機能を持った小型の電子機器類\n（注２）SNSやネットニュース：ここでは、インターネット上でやり取りされる情報やニュース\n（注３）費やす：使う\n（注４）技術革新：技術の進歩\n（注５）履歴：ここでは、インターネット上の情報の閲覧の記録\n（注６）いかに：どのように\n（注７）把握する：理解する"
+          "id": 58,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "大量情報社会について、筆者の考えに合うのはどれか。",
+          "options": [
+            "発想が固定化しないように、大量の情報を工夫して処理しなければならない。",
+            "思想的に偏りのある考えでも、工夫してうまく処理しなければならない。",
+            "必要な情報を選ぶために、大量の情報をうまく処理しなければならない。",
+            "時間がかかっても、偏りなく大量の情報を処理しなければならない。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn cuối kết luận về xã hội nhiều thông tin: cần biết xử lý thông tin một cách khéo léo; thay vì ngay từ đầu chỉ trích xuất một phần để nắm bắt, cần xử lý một lượng lớn thông tin theo hình thức không bị thiên lệch (「偏りがない形で、大量に処理することも必要です」).<br><br><b>Dịch câu hỏi:</b> Về xã hội thông tin lớn, phương án nào phù hợp với suy nghĩ của tác giả?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Để tư duy không bị cố định, phải khéo léo xử lý lượng thông tin lớn: Sai. Phương án này quá chung chung («khéo léo xử lý») và bỏ sót ý cốt lõi là «không thiên lệch» (偏りがない形で).<br>• 2. Ngay cả những suy nghĩ bị thiên lệch về tư tưởng cũng phải khéo léo xử lý cho tốt: Sai. Bài viết cảnh báo việc dễ sinh ra tư tưởng thiên lệch chứ không bảo «xử lý suy nghĩ thiên lệch».<br>• 3. Để chọn ra thông tin cần thiết, phải xử lý khéo léo lượng thông tin lớn: Sai. Bài viết phê phán việc chỉ trích xuất một phần ngay từ đầu.<br>• 4. Dù mất thời gian cũng phải xử lý lượng thông tin lớn một cách không thiên lệch: <b>(Đúng)</b>. Khớp với câu cuối đoạn: 「一部だけ最初から抜き出して把握するのではなく、偏りがない形で、大量に処理することも必要です」 (cùng ý đoạn đầu nói người ta tiết kiệm thời gian nên mới chỉ đọc tin hợp ý).",
+          "passage": "ほとんどの人が、スマホやタブレット（注１）を通して、大量のSNSやネットニュース（注２）を毎日見ていることでしょう。多くの人がその膨大な情報を読むことあるいは見ることに、かなりの時間を費やして（注３）いて、ネット上の情報に追われている印象すら受けます。その結果、じっくり考える時間がどんどん少なくなっているようにも感じられます。\nまた、大量の情報がネット上に流されるようになった結果、自分に都合の良い情報にしか接しない人が増えてきています。技術革新（注４）のおかげではあるのですが、SNSやネットニュースでは、その人の履歴（注５）から判断して、その人が関心を持っていると思われる情報やニュースが目につくところに流れるような工夫がされています。\n<u>このような工夫</u>はとても便利なことで、それによって時間が節約できたりする面は確かにあります。（中略）\nしかし、人々が見たいものだけを見て、信じている情報だけに接すると、発想が固定化してしまい、新しい進化が生まれにくくなってしまいます。また、思想的にも偏りのある考えが生まれやすくなってしまいます。\nそう考えると、この大量情報社会においては、いかに（注６）うまく情報を処理していくかがとても大事なことがわかります。また、大量情報を、一部だけ最初から抜き出して把握する（注７）のではなく、偏りがない形で、大量に処理することも必要です。\n\n（注１）スマホやタブレット：コンピューターの機能を持った小型の電子機器類\n（注２）SNSやネットニュース：ここでは、インターネット上でやり取りされる情報やニュース\n（注３）費やす：使う\n（注４）技術革新：技術の進歩\n（注５）履歴：ここでは、インターネット上の情報の閲覧の記録\n（注６）いかに：どのように\n（注７）把握する：理解する"
         },
         {
-                  "id": 59,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "筆者によると、スケジュールを立てる際の注意点は何か。",
-                  "options": [
-                            "脳の調子がいいときを基準にしない。",
-                            "いつも脳が同じ調子で、はたらけるようにする。",
-                            "能率の変化を考えすぎない。",
-                            "能率が悪くなったときに変更できるようにしておく。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: nếu lấy hiệu suất lúc não hoạt động sung sức nhất làm chuẩn để lập lịch trình thì chắc chắn không thể chạy theo kịp, chỉ toàn thất vọng; cần lấy hiệu suất ở mức trung bình làm chuẩn.<br><b>Đáp án 1:</b> Không lấy lúc trạng thái não tốt nhất làm tiêu chuẩn.",
-                  "passage": "勉強にしても、仕事にしても、その能率には必ず波があり、それがないようにみえても、波が小さいだけである。つまり、人間は機械のようにいつも同じ調子ではたらいてはいないから、１時間に５０個の製品がつくれるから１０時間で５００個がつくれる、という具合いには計算できない。従って、脳が最も快調にはたらいているときを基準にすると、たいていのときは不調ということになってしまう。\nそれでも、全く無計画に勉強や仕事をするわけにもゆかないので、一応はスケジュールを立てる。その際に、快調に脳がはたらいているときの能率を基準にしてスケジュールを立てれば、そのスケジュールの通りにことが進行することは絶対にないといってもいい。その度に自分の才能に失望していれば、失望しつづけることになる。さし迫った（注１）状態では、どうしても脳がフル回転して（注２）いるときを基準にスケジュールを組むので、たいていは不完全な形で終わってしまう。スケジュールをつくるときには、せめて中等度に脳がはたらいているときの能率を基準にする必要がある。スケジュール以上にはかどっても（注３）誰もこまる人はいない。\nそして、スケジュールにこだわるよりは、脳の変動の波をできるだけ感じとり、能率が悪くても悲観せずに（注４）、必ず上げ潮のとき（注５）がくることを期待すればいい。そして、上げ潮のときには自分でもおどろくほどに能率が上がるので、そのときに一気に遅れをとり戻せばいいのである。\n\n（注１）さし迫った：ここでは、時間に余裕がない\n（注２）フル回転する：ここでは、最もはたらく\n（注３）はかどる：順調に進む\n（注４）悲観する：悲しむ\n（注５）上げ潮のとき：調子が上向きになるとき"
+          "id": 59,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "筆者によると、スケジュールを立てる際の注意点は何か。",
+          "options": [
+            "脳の調子がいいときを基準にしない。",
+            "いつも脳が同じ調子で、はたらけるようにする。",
+            "能率の変化を考えすぎない。",
+            "能率が悪くなったときに変更できるようにしておく。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Con người không phải máy móc nên hiệu suất học tập và làm việc luôn có lúc lên lúc xuống. Khi lập lịch trình, nếu lấy hiệu suất lúc não hoạt động sung sức nhất làm chuẩn thì chắc chắn không thể chạy theo đúng kế hoạch và sẽ liên tục thất vọng. Vì vậy, ít nhất cần lấy hiệu suất lúc não hoạt động ở mức trung bình làm chuẩn (「せめて中等度に脳がはたらいているときの能率を基準にする必要がある」).<br><br><b>Dịch câu hỏi:</b> Theo tác giả, điểm cần lưu ý khi lập lịch trình là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Không lấy lúc trạng thái của não tốt nhất làm tiêu chuẩn: <b>(Đúng)</b>. Khớp với phân tích ở đoạn 2: không lấy lúc快調 (sung sức nhất) hay フル回転 (hoạt động hết công suất) làm chuẩn, mà lấy mức trung bình (中等度).<br>• 2. Làm sao để não luôn hoạt động với cùng một phong độ: Sai. Đoạn 1 khẳng định con người không giống máy móc, hiệu suất luôn có sóng lên xuống.<br>• 3. Không suy nghĩ quá nhiều về sự thay đổi của hiệu suất: Sai. Đoạn 3 khuyên nên cố gắng cảm nhận sóng biến động của não.<br>• 4. Lập kế hoạch sao cho có thể thay đổi khi hiệu suất trở nên kém đi: Sai. Bài viết không đề cập việc thiết kế lịch để chỉnh sửa, mà nói về tiêu chuẩn khi lập lịch từ đầu.",
+          "passage": "勉強にしても、仕事にしても、その能率には必ず波があり、それがないようにみえても、波が小さいだけである。つまり、人間は機械のようにいつも同じ調子ではたらいてはいないから、１時間に５０個の製品がつくれるから１０時間で５００個がつくれる、という具合いには計算できない。従って、脳が最も快調にはたらいているときを基準にすると、たいていのときは不調ということになってしまう。\nそれでも、全く無計画に勉強や仕事をするわけにもゆかないので、一応はスケジュールを立てる。その際に、快調に脳がはたらいているときの能率を基準にしてスケジュールを立てれば、そのスケジュールの通りにことが進行することは絶対にないといってもいい。その度に自分の才能に失望していれば、失望しつづけることになる。さし迫った（注１）状態では、どうしても脳がフル回転して（注２）いるときを基準にスケジュールを組むので、たいていは不完全な形で終わってしまう。スケジュールをつくるときには、せめて中等度に脳がはたらいているときの能率を基準にする必要がある。スケジュール以上にはかどっても（注３）誰もこまる人はいない。\nそして、スケジュールにこだわるよりは、脳の変動の波をできるだけ感じとり、能率が悪くても悲観せずに（注４）、必ず上げ潮のとき（注５）がくることを期待すればいい。そして、上げ潮のときには自分でもおどろくほどに能率が上がるので、そのときに一気に遅れをとり戻せばいいのである。\n\n（注１）さし迫った：ここでは、時間に余裕がない\n（注２）フル回転する：ここでは、最もはたらく\n（注３）はかどる：順調に進む\n（注４）悲観する：悲しむ\n（注５）上げ潮のとき：調子が上向きになるとき"
         },
         {
-                  "id": 60,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "筆者の考えに合うのはどれか。",
-                  "options": [
-                            "能率を上げるためには、脳の状態をコントロールするといい。",
-                            "脳の変動の波に合わせて勉強や仕事を進められる方法を探すといい。",
-                            "計画の通りに行かなくても失望せずに、脳の調子が上がるのを待てばいい。",
-                            "計画の通りに勉強や仕事を進めるためには、脳の変動の波を小さくすればいい。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn 3 viết: đừng quá câu nệ lịch trình, dù hiệu suất kém cũng đừng bi quan, cứ chờ đợi thời điểm «thủy triều lên» (上げ潮のとき) rồi bứt tốc bù lại.<br><b>Đáp án 3:</b> Dù không đúng kế hoạch cũng đừng thất vọng, chỉ cần đợi lúc trạng thái não đi lên.",
-                  "passage": "勉強にしても、仕事にしても、その能率には必ず波があり、それがないようにみえても、波が小さいだけである。つまり、人間は機械のようにいつも同じ調子ではたらいてはいないから、１時間に５０個の製品がつくれるから１０時間で５００個がつくれる、という具合いには計算できない。従って、脳が最も快調にはたらいているときを基準にすると、たいていのときは不調ということになってしまう。\nそれでも、全く無計画に勉強や仕事をするわけにもゆかないので、一応はスケジュールを立てる。その際に、快調に脳がはたらいているときの能率を基準にしてスケジュールを立てれば、そのスケジュールの通りにことが進行することは絶対にないといってもいい。その度に自分の才能に失望していれば、失望しつづけることになる。さし迫った（注１）状態では、どうしても脳がフル回転して（注２）いるときを基準にスケジュールを組むので、たいていは不完全な形で終わってしまう。スケジュールをつくるときには、せめて中等度に脳がはたらいているときの能率を基準にする必要がある。スケジュール以上にはかどっても（注３）誰もこまる人はいない。\nそして、スケジュールにこだわるよりは、脳の変動の波をできるだけ感じとり、能率が悪くても悲観せずに（注４）、必ず上げ潮のとき（注５）がくることを期待すればいい。そして、上げ潮のときには自分でもおどろくほどに能率が上がるので、そのときに一気に遅れをとり戻せばいいのである。\n\n（注１）さし迫った：ここでは、時間に余裕がない\n（注２）フル回転する：ここでは、最もはたらく\n（注３）はかどる：順調に進む\n（注４）悲観する：悲しむ\n（注５）上げ潮のとき：調子が上向きになるとき"
+          "id": 60,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "筆者の考えに合うのはどれか。",
+          "options": [
+            "能率を上げるためには、脳の状態をコントロールするといい。",
+            "脳の変動の波に合わせて勉強や仕事を進められる方法を探すといい。",
+            "計画の通りに行かなくても失望せずに、脳の調子が上がるのを待てばいい。",
+            "計画の通りに勉強や仕事を進めるためには、脳の変動の波を小さくすればいい。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn cuối khuyên rằng thay vì quá câu nệ vào lịch trình, hãy cố gắng cảm nhận sự biến động của não; dù hiệu suất kém cũng đừng bi quan mà cứ kỳ vọng thời điểm «thủy triều lên» (上げ潮のとき) chắc chắn sẽ tới, và khi đó hãy tăng tốc bù lại phần bị chậm.<br><br><b>Dịch câu hỏi:</b> Phương án nào phù hợp với suy nghĩ của tác giả?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Để nâng cao hiệu suất, nên kiểm soát trạng thái của não: Sai. Tác giả coi sóng lên xuống là tự nhiên, không nói có thể kiểm soát trạng thái não.<br>• 2. Nên tìm cách có thể tiến hành việc học hay công việc khớp với sóng biến động của não: Sai. Không phải tìm phương pháp mới để khớp sóng, mà là giữ tâm lý bình tĩnh chờ lúc phong độ lên.<br>• 3. Dù không đi đúng kế hoạch cũng đừng thất vọng, chỉ cần đợi lúc trạng thái não đi lên là được: <b>(Đúng)</b>. Khớp với ý đoạn 3: 「能率が悪くても悲観せずに、必ず上げ潮のときがくることを期待すればいい…そのときに一気に遅れをとり戻せばいい」.<br>• 4. Để tiến hành việc học và công việc đúng kế hoạch, nên làm nhỏ sóng biến động của não: Sai. Sóng biến động nhỏ hay lớn không phải thứ tác giả khuyên tác động vào.",
+          "passage": "勉強にしても、仕事にしても、その能率には必ず波があり、それがないようにみえても、波が小さいだけである。つまり、人間は機械のようにいつも同じ調子ではたらいてはいないから、１時間に５０個の製品がつくれるから１０時間で５００個がつくれる、という具合いには計算できない。従って、脳が最も快調にはたらいているときを基準にすると、たいていのときは不調ということになってしまう。\nそれでも、全く無計画に勉強や仕事をするわけにもゆかないので、一応はスケジュールを立てる。その際に、快調に脳がはたらいているときの能率を基準にしてスケジュールを立てれば、そのスケジュールの通りにことが進行することは絶対にないといってもいい。その度に自分の才能に失望していれば、失望しつづけることになる。さし迫った（注１）状態では、どうしても脳がフル回転して（注２）いるときを基準にスケジュールを組むので、たいていは不完全な形で終わってしまう。スケジュールをつくるときには、せめて中等度に脳がはたらいているときの能率を基準にする必要がある。スケジュール以上にはかどっても（注３）誰もこまる人はいない。\nそして、スケジュールにこだわるよりは、脳の変動の波をできるだけ感じとり、能率が悪くても悲観せずに（注４）、必ず上げ潮のとき（注５）がくることを期待すればいい。そして、上げ潮のときには自分でもおどろくほどに能率が上がるので、そのときに一気に遅れをとり戻せばいいのである。\n\n（注１）さし迫った：ここでは、時間に余裕がない\n（注２）フル回転する：ここでは、最もはたらく\n（注３）はかどる：順調に進む\n（注４）悲観する：悲しむ\n（注５）上げ潮のとき：調子が上向きになるとき"
         },
         {
-                  "id": 61,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "写真として内容のあるものとはどのようなものか。",
-                  "options": [
-                            "祭りの風景から町の人の様子が分かるような写真。",
-                            "祭りに対する撮る人自身の見方が感じられる写真。",
-                            "見る人にとって祭り独特の魅力が感じられる写真。",
-                            "撮る人自身の祭りに対する情熱が伝わってくる写真。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: nếu chụp được bức ảnh khiến người xem thốt lên «ồ, hóa ra cũng có góc nhìn lễ hội như thế này», thì đó mới là bức ảnh có nội dung.<br><b>Đáp án 2:</b> Bức ảnh cho thấy góc nhìn của chính người chụp đối với lễ hội.",
-                  "passage": "お祭りの日は町の雰囲気が一変（注１）して、ふだんひっそりとしている町並み（注２）がいきいきとしています。そんな町の様子を「祭りがある町」として撮る。神社の境内（注３）で行われるような祭りであれば、「神社」の風景として撮る。というふうに少し視点を周辺にずらしてみると単なる祭り写真ではない写真に出会えます。祭りの中から自分だけの祭りを探し出すことができるかどうか。写真を見た人から、こんな祭りの見方もあるんだねと言われるような写真が撮れたら「祭りの写真」ではなく写真として内容のあるものになると思います。\n（中略）\n「もう何年もかけて撮ってるんだけど、いい写真が撮れなくてね」とぼやく（注４）人がいますが、そういう人は頭の中で思い描いた「上手い写真」の構図（注５）から離れることができずにいて、すでにいろいろと見慣れている同じような画像を撮らされるだけだからなのです。\nねらった被写体（注６）を自分のものにするのだと独占する強引さがないと、被写体が刺激的であるほどその場にふりまわされてしまいます。祭りなら激しい動きに、絶景（注７）なら色彩にのみこまれて被写体に撮らされているみたいになる。\n被写体に撮らされてしまうような写真は、結局その場の説明でしかない。表現としての写真は自分だけの写真を撮ることになるわけで、それはフィクションでもあるのですから、つねに「私はこう見た」「私はこう撮った」を撮るのです。\n\n（注１）一変する：すっかり変わる\n（注２）町並み：ここでは、町の様子\n（注３）境内：ここでは、敷地内\n（注４）ぼやく：不満を言う\n（注５）構図：画面の構成\n（注６）被写体：写真に撮る対象\n（注７）絶景：素晴らしい景色"
+          "id": 61,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "写真として内容のあるものとはどのようなものか。",
+          "options": [
+            "祭りの風景から町の人の様子が分かるような写真。",
+            "祭りに対する撮る人自身の見方が感じられる写真。",
+            "見る人にとって祭り独特の魅力が感じられる写真。",
+            "撮る人自身の祭りに対する情熱が伝わってくる写真。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Nếu dịch góc nhìn ra xung quanh một chút — chẳng hạn chụp không khí thị trấn có lễ hội hay phong cảnh ngôi đền nơi diễn ra lễ hội — ta sẽ có bức ảnh lễ hội của riêng mình. Nếu người xem thốt lên «ồ, hóa ra cũng có góc nhìn lễ hội như thế này» (こんな祭りの見方もあるんだね), thì bức ảnh đó mới có nội dung thực sự (写真として内容のあるもの).<br><br><b>Dịch câu hỏi:</b> «Bức ảnh có nội dung (写真として内容のあるもの)» là bức ảnh như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Bức ảnh cho thấy dáng vẻ của người dân thị trấn qua phong cảnh lễ hội: Sai. «Thị trấn có lễ hội» chỉ là một ví dụ về việc dịch chuyển góc nhìn, không phải định nghĩa chung.<br>• 2. Bức ảnh có thể cảm nhận được góc nhìn của chính người chụp đối với lễ hội: <b>(Đúng)</b>. Khớp với câu: 「自分だけの祭りを探し出すことができるかどうか。写真を見た人から、こんな祭りの見方もあるんだねと言われるような写真が撮れたら…内容のあるものになる」.<br>• 3. Bức ảnh khiến người xem cảm nhận được sức hấp dẫn độc đáo của lễ hội: Sai. Trọng tâm là góc nhìn riêng của người chụp, không phải sức hấp dẫn chung của lễ hội.<br>• 4. Bức ảnh truyền tải được niềm đam mê của bản thân người chụp đối với lễ hội: Sai. Bài viết không nói về «niềm đam mê» (情熱).",
+          "passage": "お祭りの日は町の雰囲気が一変（注１）して、ふだんひっそりとしている町並み（注２）がいきいきとしています。そんな町の様子を「祭りがある町」として撮る。神社の境内（注３）で行われるような祭りであれば、「神社」の風景として撮る。というふうに少し視点を周辺にずらしてみると単なる祭り写真ではない写真に出会えます。祭りの中から自分だけの祭りを探し出すことができるかどうか。写真を見た人から、こんな祭りの見方もあるんだねと言われるような写真が撮れたら「祭りの写真」ではなく写真として内容のあるものになると思います。\n（中略）\n「もう何年もかけて撮ってるんだけど、いい写真が撮れなくてね」とぼやく（注４）人がいますが、そういう人は頭の中で思い描いた「上手い写真」の構図（注５）から離れることができずにいて、すでにいろいろと見慣れている同じような画像を撮らされるだけだからなのです。\nねらった被写体（注６）を自分のものにするのだと独占する強引さがないと、被写体が刺激的であるほどその場にふりまわされてしまいます。祭りなら激しい動きに、絶景（注７）なら色彩にのみこまれて被写体に撮らされているみたいになる。\n被写体に撮らされてしまうような写真は、結局その場の説明でしかない。表現としての写真は自分だけの写真を撮ることになるわけで、それはフィクションでもあるのですから、つねに「私はこう見た」「私はこう撮った」を撮るのです。\n\n（注１）一変する：すっかり変わる\n（注２）町並み：ここでは、町の様子\n（注３）境内：ここでは、敷地内\n（注４）ぼやく：不満を言う\n（注５）構図：画面の構成\n（注６）被写体：写真に撮る対象\n（注７）絶景：素晴らしい景色"
         },
         {
-                  "id": 62,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "写真を撮ることについて、筆者が言いたいことは何か。",
-                  "options": [
-                            "上手い写真を撮ろうと思っても撮れるものではない。",
-                            "上手い写真が撮れるまで、自分の撮り方を続けるべきだ。",
-                            "自分だけの写真を撮るには、刺激的な対象を探し出すべきだ。",
-                            "自分にしか表現できないものを撮るという気持ちで撮るべきだ。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu cuối bài: chụp ảnh như một sự biểu đạt là chụp bức ảnh của riêng mình — luôn chụp với tinh thần «tôi nhìn thế này», «tôi chụp thế này».<br><b>Đáp án 4:</b> Nên chụp với tâm thế chụp những gì chỉ bản thân mình mới thể hiện được.",
-                  "passage": "お祭りの日は町の雰囲気が一変（注１）して、ふだんひっそりとしている町並み（注２）がいきいきとしています。そんな町の様子を「祭りがある町」として撮る。神社の境内（注３）で行われるような祭りであれば、「神社」の風景として撮る。というふうに少し視点を周辺にずらしてみると単なる祭り写真ではない写真に出会えます。祭りの中から自分だけの祭りを探し出すことができるかどうか。写真を見た人から、こんな祭りの見方もあるんだねと言われるような写真が撮れたら「祭りの写真」ではなく写真として内容のあるものになると思います。\n（中略）\n「もう何年もかけて撮ってるんだけど、いい写真が撮れなくてね」とぼやく（注４）人がいますが、そういう人は頭の中で思い描いた「上手い写真」の構図（注５）から離れることができずにいて、すでにいろいろと見慣れている同じような画像を撮らされるだけだからなのです。\nねらった被写体（注６）を自分のものにするのだと独占する強引さがないと、被写体が刺激的であるほどその場にふりまわされてしまいます。祭りなら激しい動きに、絶景（注７）なら色彩にのみこまれて被写体に撮らされているみたいになる。\n被写体に撮らされてしまうような写真は、結局その場の説明でしかない。表現としての写真は自分だけの写真を撮ることになるわけで、それはフィクションでもあるのですから、つねに「私はこう見た」「私はこう撮った」を撮るのです。\n\n（注１）一変する：すっかり変わる\n（注２）町並み：ここでは、町の様子\n（注３）境内：ここでは、敷地内\n（注４）ぼやく：不満を言う\n（注５）構図：画面の構成\n（注６）被写体：写真に撮る対象\n（注７）絶景：素晴らしい景色"
+          "id": 62,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "写真を撮ることについて、筆者が言いたいことは何か。",
+          "options": [
+            "上手い写真を撮ろうと思っても撮れるものではない。",
+            "上手い写真が撮れるまで、自分の撮り方を続けるべきだ。",
+            "自分だけの写真を撮るには、刺激的な対象を探し出すべきだ。",
+            "自分にしか表現できないものを撮るという気持ちで撮るべきだ。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Tác giả phê phán việc bị cuốn theo bố cục «ảnh đẹp» quen thuộc hoặc bị đối tượng chụp (sự náo nhiệt của lễ hội, sắc màu cảnh đẹp) dẫn dắt khiến bức ảnh chỉ còn là sự mô tả hiện trường. Chụp ảnh như một sự biểu đạt là chụp bức ảnh của riêng mình — luôn giữ tinh thần «tôi đã nhìn thế này», «tôi đã chụp thế này».<br><br><b>Dịch câu hỏi:</b> Về việc chụp ảnh, điều tác giả muốn nói là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Dù có định chụp ảnh đẹp/giỏi thì cũng không phải muốn là chụp được: Sai. Đây không phải thông điệp chính; tác giả giải thích lý do nhiều người không chụp được ảnh hay là vì mắc kẹt trong khuôn mẫu.<br>• 2. Nên tiếp tục cách chụp của mình cho đến khi chụp được ảnh đẹp: Sai. Ngược lại, tác giả nói nếu giữ mãi khuôn mẫu cũ trong đầu thì chỉ chụp ra ảnh giống nhau.<br>• 3. Để chụp được bức ảnh của riêng mình, nên tìm kiếm đối tượng chụp mang tính kích thích: Sai. Bài viết cảnh báo đối tượng càng kích thích càng dễ làm người chụp bị cuốn theo.<br>• 4. Nên chụp với tâm thế chụp những thứ mà chỉ bản thân mình mới thể hiện được: <b>(Đúng)</b>. Khớp với câu kết: 「自分だけの写真を撮ることになるわけで…つねに『私はこう見た』『私はこう撮った』を撮るのです。」",
+          "passage": "お祭りの日は町の雰囲気が一変（注１）して、ふだんひっそりとしている町並み（注２）がいきいきとしています。そんな町の様子を「祭りがある町」として撮る。神社の境内（注３）で行われるような祭りであれば、「神社」の風景として撮る。というふうに少し視点を周辺にずらしてみると単なる祭り写真ではない写真に出会えます。祭りの中から自分だけの祭りを探し出すことができるかどうか。写真を見た人から、こんな祭りの見方もあるんだねと言われるような写真が撮れたら「祭りの写真」ではなく写真として内容のあるものになると思います。\n（中略）\n「もう何年もかけて撮ってるんだけど、いい写真が撮れなくてね」とぼやく（注４）人がいますが、そういう人は頭の中で思い描いた「上手い写真」の構図（注５）から離れることができずにいて、すでにいろいろと見慣れている同じような画像を撮らされるだけだからなのです。\nねらった被写体（注６）を自分のものにするのだと独占する強引さがないと、被写体が刺激的であるほどその場にふりまわされてしまいます。祭りなら激しい動きに、絶景（注７）なら色彩にのみこまれて被写体に撮らされているみたいになる。\n被写体に撮らされてしまうような写真は、結局その場の説明でしかない。表現としての写真は自分だけの写真を撮ることになるわけで、それはフィクションでもあるのですから、つねに「私はこう見た」「私はこう撮った」を撮るのです。\n\n（注１）一変する：すっかり変わる\n（注２）町並み：ここでは、町の様子\n（注３）境内：ここでは、敷地内\n（注４）ぼやく：不満を言う\n（注５）構図：画面の構成\n（注６）被写体：写真に撮る対象\n（注７）絶景：素晴らしい景色"
         },
         {
-                  "id": 63,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "筆者によると、「できる人」とはどのような人か。",
-                  "options": [
-                            "マニュアルの問題点を見つけて改善できる人。",
-                            "マニュアルをよく理解し、マニュアルどおりに対応できる人。",
-                            "マニュアルをよく理解したうえで、自分が置かれた状況に対応できる人。",
-                            "マニュアルがなくても、自分のやり方で状況に対応できる人。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: 「『できる人』は、それぞれの仕事にあるマニュアル的なものを咀嚼して状況に対応します。」(Nghiền ngẫm/hiểu thấu quy trình rồi ứng biến theo tình huống).<br><b>Đáp án 3:</b> Người hiểu rõ quy trình rồi ứng phó được với tình huống mình đang gặp.",
-                  "passage": "何事もそうですが、「できる人」は応用がききます。接客が完全にマニュアル化されているファーストフード店に行っても、やはりスタッフの差は出ます。たまたま時間のかかるメニューを頼んでしまった際の事前説明、セットメニューに関する質問への対応など、ちょっと注意して観察してみると、頭の回転と表現力の差は随所（注１）に表れてきます。\n（中略）\nもっと高度な判断を求められる仕事の現場はどうでしょう。どんな仕事にも、マニュアルもしくは（注２）マニュアルに類するような規準があります。その中で「できる人」は、それぞれの仕事にあるマニュアル的なものを咀嚼（注３）して状況に対応します。これがまさに「仕事力の差」につながります。\n簡単に言えば、「できる人」は勝手に自分で応用してしまうのです。それは本人にとっては良いことであり、暴走（注４）による失敗は別として、お客にとっても会社や店にとってもプラスに作用することが多いと思います。\nしかし今度は人を率いる（注５）立場になり、多くの人を育てる番になったとき、今まで意識しなかった壁に突き当たることがあります。\n自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチ（注６）できません。そのため部下への指導が、「マニュアルを越えたものが見えている人の世界」で行われてしまうのです。ところが指導される側は「見えていない世界」の住人ですから、うまく受け取ることができないのは当然です。\n\n（注１）随所：いろいろなところ\n（注２）もしくは：または\n（注３）咀嚼する：十分に理解する\n（注４）暴走：ここでは、周囲の状況を考えないでやる\n（注５）率いる：ここでは、指導する\n（注６）キャッチする：受け取る"
+          "id": 63,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "筆者によると、「できる人」とはどのような人か。",
+          "options": [
+            "マニュアルの問題点を見つけて改善できる人。",
+            "マニュアルをよく理解し、マニュアルどおりに対応できる人。",
+            "マニュアルをよく理解したうえで、自分が置かれた状況に対応できる人。",
+            "マニュアルがなくても、自分のやり方で状況に対応できる人。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Dù ở cửa hàng thức ăn nhanh có quy trình hóa hoàn toàn hay ở công việc đòi hỏi phán đoán cao hơn, bất kỳ công việc nào cũng có quy trình (manual) hoặc tiêu chuẩn tương tự. Trong đó, «người làm được việc» (できる人) là người nghiền ngẫm/hiểu thấu những thứ mang tính quy trình đó rồi ứng biến phù hợp với tình huống.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, «người làm được việc (できる人)» là người như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người tìm ra điểm bất cập của quy trình và cải thiện được nó: Sai. Bài viết nói về việc ứng dụng quy trình vào tình huống thực tế, không nói về sửa quy trình.<br>• 2. Người hiểu rõ quy trình và ứng xử đúng theo quy trình: Sai. Ngược lại, họ không chỉ làm máy móc theo quy trình mà còn «ứng dụng» (応用がききます).<br>• 3. Người trên cơ sở hiểu rõ quy trình có thể ứng phó với tình huống mình đang gặp: <b>(Đúng)</b>. Khớp chính xác với câu: 「それぞれの仕事にあるマニュアル的なものを咀嚼（十分に理解）して状況に対応します」.<br>• 4. Người dù không có quy trình vẫn có thể ứng phó bằng cách riêng của mình: Sai. Họ vẫn dựa trên nền tảng hiểu thấu quy trình/tiêu chuẩn sẵn có rồi mới ứng dụng.",
+          "passage": "何事もそうですが、「できる人」は応用がききます。接客が完全にマニュアル化されているファーストフード店に行っても、やはりスタッフの差は出ます。たまたま時間のかかるメニューを頼んでしまった際の事前説明、セットメニューに関する質問への対応など、ちょっと注意して観察してみると、頭の回転と表現力の差は随所（注１）に表れてきます。\n（中略）\nもっと高度な判断を求められる仕事の現場はどうでしょう。どんな仕事にも、マニュアルもしくは（注２）マニュアルに類するような規準があります。その中で「できる人」は、それぞれの仕事にあるマニュアル的なものを咀嚼（注３）して状況に対応します。これがまさに「仕事力の差」につながります。\n簡単に言えば、「できる人」は勝手に自分で応用してしまうのです。それは本人にとっては良いことであり、暴走（注４）による失敗は別として、お客にとっても会社や店にとってもプラスに作用することが多いと思います。\nしかし今度は人を率いる（注５）立場になり、多くの人を育てる番になったとき、今まで意識しなかった壁に突き当たることがあります。\n自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチ（注６）できません。そのため部下への指導が、「マニュアルを越えたものが見えている人の世界」で行われてしまうのです。ところが指導される側は「見えていない世界」の住人ですから、うまく受け取ることができないのは当然です。\n\n（注１）随所：いろいろなところ\n（注２）もしくは：または\n（注３）咀嚼する：十分に理解する\n（注４）暴走：ここでは、周囲の状況を考えないでやる\n（注５）率いる：ここでは、指導する\n（注６）キャッチする：受け取る"
         },
         {
-                  "id": 64,
-                  "mondai": 11,
-                  "mondaiName": "Mondai 11: Đọc hiểu trung văn",
-                  "question": "筆者によると、「できる人」が人を育てるときに問題になることは何か。",
-                  "options": [
-                            "マニュアルを使わないで、自分の好きなように説明してしまうこと。",
-                            "自分ができることは説明できても、できないことはうまく説明できないこと。",
-                            "自分ができることだけでなく、できないことまで、相手に期待してしまうこと。",
-                            "自分にはできることでも、それをできない人もいることが実感できないこと。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Đoạn cuối viết: 「自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチできません。」<br><b>Đáp án 4:</b> Không cảm nhận được thực tế rằng việc mình làm được vẫn có những người không làm được.",
-                  "passage": "何事もそうですが、「できる人」は応用がききます。接客が完全にマニュアル化されているファーストフード店に行っても、やはりスタッフの差は出ます。たまたま時間のかかるメニューを頼んでしまった際の事前説明、セットメニューに関する質問への対応など、ちょっと注意して観察してみると、頭の回転と表現力の差は随所（注１）に表れてきます。\n（中略）\nもっと高度な判断を求められる仕事の現場はどうでしょう。どんな仕事にも、マニュアルもしくは（注２）マニュアルに類するような規準があります。その中で「できる人」は、それぞれの仕事にあるマニュアル的なものを咀嚼（注３）して状況に対応します。これがまさに「仕事力の差」につながります。\n簡単に言えば、「できる人」は勝手に自分で応用してしまうのです。それは本人にとっては良いことであり、暴走（注４）による失敗は別として、お客にとっても会社や店にとってもプラスに作用することが多いと思います。\nしかし今度は人を率いる（注５）立場になり、多くの人を育てる番になったとき、今まで意識しなかった壁に突き当たることがあります。\n自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチ（注６）できません。そのため部下への指導が、「マニュアルを越えたものが見えている人の世界」で行われてしまうのです。ところが指導される側は「見えていない世界」の住人ですから、うまく受け取ることができないのは当然です。\n\n（注１）随所：いろいろなところ\n（注２）もしくは：または\n（注３）咀嚼する：十分に理解する\n（注４）暴走：ここでは、周囲の状況を考えないでやる\n（注５）率いる：ここでは、指導する\n（注６）キャッチする：受け取る"
+          "id": 64,
+          "mondai": 11,
+          "mondaiName": "Mondai 11: Đọc hiểu trung văn",
+          "question": "筆者によると、「できる人」が人を育てるときに問題になることは何か。",
+          "options": [
+            "マニュアルを使わないで、自分の好きなように説明してしまうこと。",
+            "自分ができることは説明できても、できないことはうまく説明できないこと。",
+            "自分ができることだけでなく、できないことまで、相手に期待してしまうこと。",
+            "自分にはできることでも、それをできない人もいることが実感できないこと。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Khi người «làm được việc» bước lên vị trí dẫn dắt, đào tạo người khác, họ vấp phải bức tường: dù hiểu bằng lý trí nhưng họ khó cảm nhận được bằng trực giác thực tế rằng «có rất nhiều người không thể làm được những việc mà bản thân mình làm một cách tự nhiên». Vì thế họ giảng dạy ở «thế giới vượt ra ngoài quy trình» khiến cấp dưới không tiếp thu nổi.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, điều trở thành vấn đề khi «người làm được việc» đào tạo người khác là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Không sử dụng quy trình mà giải thích theo ý thích của bản thân: Sai. Vấn đề là họ dạy ở tầm «vượt qua quy trình» mà người mới chưa nhìn thấy, không phải cố tình bỏ quy trình để nói theo ý thích.<br>• 2. Việc mình làm được thì giải thích được, nhưng việc không làm được lại giải thích không khéo: Sai. Trái lại, chính những việc họ làm được một cách tự nhiên mới là thứ họ không hiểu tại sao người khác không làm được.<br>• 3. Không chỉ việc mình làm được mà còn kỳ vọng đối phương làm được cả việc mình không làm được: Sai. Bài không nói họ kỳ vọng việc bản thân họ không làm được.<br>• 4. Không thực sự cảm nhận được rằng ngay cả việc bản thân mình làm được cũng có người không làm được: <b>(Đúng)</b>. Khớp hoàn toàn với câu: 「自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチできません。」",
+          "passage": "何事もそうですが、「できる人」は応用がききます。接客が完全にマニュアル化されているファーストフード店に行っても、やはりスタッフの差は出ます。たまたま時間のかかるメニューを頼んでしまった際の事前説明、セットメニューに関する質問への対応など、ちょっと注意して観察してみると、頭の回転と表現力の差は随所（注１）に表れてきます。\n（中略）\nもっと高度な判断を求められる仕事の現場はどうでしょう。どんな仕事にも、マニュアルもしくは（注２）マニュアルに類するような規準があります。その中で「できる人」は、それぞれの仕事にあるマニュアル的なものを咀嚼（注３）して状況に対応します。これがまさに「仕事力の差」につながります。\n簡単に言えば、「できる人」は勝手に自分で応用してしまうのです。それは本人にとっては良いことであり、暴走（注４）による失敗は別として、お客にとっても会社や店にとってもプラスに作用することが多いと思います。\nしかし今度は人を率いる（注５）立場になり、多くの人を育てる番になったとき、今まで意識しなかった壁に突き当たることがあります。\n自分が自然とやってきたことを、なかなかできない人がたくさんいるという事実。これを頭では理解しても、なかなか感覚でキャッチ（注６）できません。そのため部下への指導が、「マニュアルを越えたものが見えている人の世界」で行われてしまうのです。ところが指導される側は「見えていない世界」の住人ですから、うまく受け取ることができないのは当然です。\n\n（注１）随所：いろいろなところ\n（注２）もしくは：または\n（注３）咀嚼する：十分に理解する\n（注４）暴走：ここでは、周囲の状況を考えないでやる\n（注５）率いる：ここでは、指導する\n（注６）キャッチする：受け取る"
         },
         {
-                  "id": 65,
-                  "mondai": 12,
-                  "mondaiName": "Mondai 12: Đọc hiểu so sánh",
-                  "question": "アイデアを生み出すことについて、ＡとＢが共通して述べていることは何か。",
-                  "options": [
-                            "アイデアの生み出し方は、簡単に身につけることができる。",
-                            "多くの情報を得ることで、アイデアを生み出しやすくなる。",
-                            "特別な能力がなくても、アイデアを生み出すことができる。",
-                            "発想のしかたを大きく変えなければ、アイデアは生み出せない。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn A nói ý tưởng không liên quan đến năng lực bẩm sinh, tùy nỗ lực mà ai cũng tạo ra được; Đoạn B nói không phải chỉ người có tài năng mới tạo ra được, đừng bỏ cuộc vì nghĩ mình không có tài.<br><b>Đáp án 3:</b> Dù không có năng lực đặc biệt vẫn có thể tạo ra ý tưởng.",
-                  "passage": "Ａ\n新しい商品を企画するとき、いいアイデアがなかなか思いつかないことがある。そんなとき、自分には才能がないからだと思い込み、自信をなくしてしまうのはよくない。アイデアは生まれつきの能力に関係なく、努力次第で誰でも生み出すことができる。\nアイデアは、情報の組み合わせによって生まれることがほとんどだ。そのため、日ごろから情報を集めておくことが有効だ。担当する商品に関連する情報だけを集めていると、似たようなアイデアばかりになってしまう。発想の幅を広げるには、関連する分野だけでなく、それ以外の情報も頭に入れておくほうがいい。ふだんから視野を広げてさまざまな情報を蓄積しておけば、必ずアイデアの役に立つはずだ。\n\nＢ\n新しい商品を企画するには、これまでとは異なるアイデアが必要だ。現在流行している商品の情報を集めるだけでは、他社に勝つことはできないだろう。私はアイデアを生み出すために、一般的に考えられていることとは逆の発想をするようにしている。現在流行している商品が若者向けの物なら高齢者向けにできないかと考えたり、多機能の物なら機能の一つに絞れないかと考えたりするのである。\nアイデアは一部の才能がある人しか生み出せないものだという印象があるせいか、生み出し方を知ろうとしない人が多いと思う。才能がないからといってあきらめるのではなく、思い切って発想を転換してみれば、いいアイデアにつながっていく。"
+          "id": 65,
+          "mondai": 12,
+          "mondaiName": "Mondai 12: Đọc hiểu so sánh",
+          "question": "アイデアを生み出すことについて、ＡとＢが共通して述べていることは何か。",
+          "options": [
+            "アイデアの生み出し方は、簡単に身につけることができる。",
+            "多くの情報を得ることで、アイデアを生み出しやすくなる。",
+            "特別な能力がなくても、アイデアを生み出すことができる。",
+            "発想のしかたを大きく変えなければ、アイデアは生み出せない。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b><br>• Đoạn A: Ý tưởng không liên quan đến năng lực bẩm sinh, tùy vào nỗ lực mà ai cũng có thể tạo ra được (「アイデアは生まれつきの能力に関係なく、努力次第で誰でも生み出すことができる」).<br>• Đoạn B: Nhiều người tưởng chỉ người có tài năng mới nghĩ ra được ý tưởng nên không chịu tìm cách; đừng bỏ cuộc vì nghĩ mình không có tài, cứ thử đảo ngược tư duy sẽ có ý tưởng hay.<br><br><b>Dịch câu hỏi:</b> Về việc tạo ra ý tưởng, điều mà cả A và B cùng đề cập là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cách tạo ra ý tưởng có thể dễ dàng nắm bắt/thành thạo được: Sai. Cả hai đều không nói việc này «dễ dàng» (A nhấn mạnh phải nỗ lực hàng ngày).<br>• 2. Thu thập nhiều thông tin sẽ giúp dễ tạo ra ý tưởng hơn: Sai. Đây là quan điểm của A; ngược lại B nói chỉ thu thập thông tin sản phẩm đang thịnh hành thì không thắng được đối thủ.<br>• 3. Dù không có năng lực đặc biệt vẫn có thể tạo ra ý tưởng: <b>(Đúng)</b>. Cả A («không liên quan năng lực bẩm sinh, ai cũng tạo ra được») và B («đừng bỏ cuộc vì nghĩ mình không có tài») đều khẳng định điều này.<br>• 4. Nếu không thay đổi mạnh mẽ cách tư duy thì không thể tạo ra ý tưởng: Sai. Đây là ý của riêng B («思い切って発想を転換してみれば»), A không nhấn mạnh điều này.",
+          "passage": "Ａ\n新しい商品を企画するとき、いいアイデアがなかなか思いつかないことがある。そんなとき、自分には才能がないからだと思い込み、自信をなくしてしまうのはよくない。アイデアは生まれつきの能力に関係なく、努力次第で誰でも生み出すことができる。\nアイデアは、情報の組み合わせによって生まれることがほとんどだ。そのため、日ごろから情報を集めておくことが有効だ。担当する商品に関連する情報だけを集めていると、似たようなアイデアばかりになってしまう。発想の幅を広げるには、関連する分野だけでなく、それ以外の情報も頭に入れておくほうがいい。ふだんから視野を広げてさまざまな情報を蓄積しておけば、必ずアイデアの役に立つはずだ。\n\nＢ\n新しい商品を企画するには、これまでとは異なるアイデアが必要だ。現在流行している商品の情報を集めるだけでは、他社に勝つことはできないだろう。私はアイデアを生み出すために、一般的に考えられていることとは逆の発想をするようにしている。現在流行している商品が若者向けの物なら高齢者向けにできないかと考えたり、多機能の物なら機能の一つに絞れないかと考えたりするのである。\nアイデアは一部の才能がある人しか生み出せないものだという印象があるせいか、生み出し方を知ろうとしない人が多いと思う。才能がないからといってあきらめるのではなく、思い切って発想を転換してみれば、いいアイデアにつながっていく。"
         },
         {
-                  "id": 66,
-                  "mondai": 12,
-                  "mondaiName": "Mondai 12: Đọc hiểu so sánh",
-                  "question": "新しい商品を企画することについて、ＡとＢはどのようなアドバイスをしているか。",
-                  "options": [
-                            "ＡもＢも、いろいろな分野の情報をできるだけ多く集めるといいと述べている。",
-                            "ＡもＢも、流行している商品について詳しく調べるといいと述べている。",
-                            "Ａは関連する分野の他社の商品の情報を集めるといいと述べ、Ｂは流行に逆らった考え方をするといいと述べている。",
-                            "Ａは関連する分野だけでなく、ほかの分野の情報も得るといいと述べ、Ｂは普通とは反対のことを考えるといいと述べている。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Đoạn A khuyên ngoài lĩnh vực phụ trách nên nạp thêm thông tin các lĩnh vực khác; Đoạn B khuyên hãy thử tư duy ngược lại với điều thông thường.<br><b>Đáp án 4:</b> A khuyên nên thu thập cả thông tin lĩnh vực khác, B khuyên nên nghĩ ngược lại với thông thường.",
-                  "passage": "Ａ\n新しい商品を企画するとき、いいアイデアがなかなか思いつかないことがある。そんなとき、自分には才能がないからだと思い込み、自信をなくしてしまうのはよくない。アイデアは生まれつきの能力に関係なく、努力次第で誰でも生み出すことができる。\nアイデアは、情報の組み合わせによって生まれることがほとんどだ。そのため、日ごろから情報を集めておくことが有効だ。担当する商品に関連する情報だけを集めていると、似たようなアイデアばかりになってしまう。発想の幅を広げるには、関連する分野だけでなく、それ以外の情報も頭に入れておくほうがいい。ふだんから視野を広げてさまざまな情報を蓄積しておけば、必ずアイデアの役に立つはずだ。\n\nＢ\n新しい商品を企画するには、これまでとは異なるアイデアが必要だ。現在流行している商品の情報を集めるだけでは、他社に勝つことはできないだろう。私はアイデアを生み出すために、一般的に考えられていることとは逆の発想をするようにしている。現在流行している商品が若者向けの物なら高齢者向けにできないかと考えたり、多機能の物なら機能の一つに絞れないかと考えたりするのである。\nアイデアは一部の才能がある人しか生み出せないものだという印象があるせいか、生み出し方を知ろうとしない人が多いと思う。才能がないからといってあきらめるのではなく、思い切って発想を転換してみれば、いいアイデアにつながっていく。"
+          "id": 66,
+          "mondai": 12,
+          "mondaiName": "Mondai 12: Đọc hiểu so sánh",
+          "question": "新しい商品を企画することについて、ＡとＢはどのようなアドバイスをしているか。",
+          "options": [
+            "ＡもＢも、いろいろな分野の情報をできるだけ多く集めるといいと述べている。",
+            "ＡもＢも、流行している商品について詳しく調べるといいと述べている。",
+            "Ａは関連する分野の他社の商品の情報を集めるといいと述べ、Ｂは流行に逆らった考え方をするといいと述べている。",
+            "Ａは関連する分野だけでなく、ほかの分野の情報も得るといいと述べ、Ｂは普通とは反対のことを考えるといいと述べている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b><br>• Đoạn A khuyên: để mở rộng biên độ ý tưởng, không chỉ thu thập thông tin liên quan đến sản phẩm phụ trách mà nên nạp thêm thông tin các lĩnh vực ngoài liên quan.<br>• Đoạn B khuyên: để có ý tưởng khác biệt, nên thử tư duy ngược lại với những gì người ta thường nghĩ (ví dụ đồ cho giới trẻ thì thử nghĩ làm cho người cao tuổi, đồ đa năng thì rút gọn còn 1 chức năng).<br><br><b>Dịch câu hỏi:</b> Về việc lập kế hoạch sản phẩm mới, A và B đã đưa ra lời khuyên như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cả A và B đều nói nên thu thập càng nhiều thông tin ở nhiều lĩnh vực càng tốt: Sai. Chỉ A khuyên thu thập thông tin đa lĩnh vực, B không khuyên vậy.<br>• 2. Cả A và B đều nói nên tìm hiểu kỹ về các sản phẩm đang thịnh hành: Sai. B nói chỉ thu thập thông tin sản phẩm đang thịnh hành thì không thắng được đối thủ.<br>• 3. A nói nên thu thập thông tin sản phẩm công ty khác trong lĩnh vực liên quan, B nói nên nghĩ ngược với xu hướng thịnh hành: Sai. A khuyên thu thập thông tin ngoài lĩnh vực liên quan (「関連する分野だけでなく、それ以外の情報も」), không nói «sản phẩm công ty khác trong lĩnh vực liên quan».<br>• 4. A nói không chỉ lĩnh vực liên quan mà nên có thêm thông tin lĩnh vực khác, B nói nên nghĩ ngược lại với điều thông thường: <b>(Đúng)</b>. Khớp chính xác với lời khuyên của cả A (「関連する分野だけでなく、それ以外の情報も」) và B (「一般的に考えられていることとは逆の発想をする」).",
+          "passage": "Ａ\n新しい商品を企画するとき、いいアイデアがなかなか思いつかないことがある。そんなとき、自分には才能がないからだと思い込み、自信をなくしてしまうのはよくない。アイデアは生まれつきの能力に関係なく、努力次第で誰でも生み出すことができる。\nアイデアは、情報の組み合わせによって生まれることがほとんどだ。そのため、日ごろから情報を集めておくことが有効だ。担当する商品に関連する情報だけを集めていると、似たようなアイデアばかりになってしまう。発想の幅を広げるには、関連する分野だけでなく、それ以外の情報も頭に入れておくほうがいい。ふだんから視野を広げてさまざまな情報を蓄積しておけば、必ずアイデアの役に立つはずだ。\n\nＢ\n新しい商品を企画するには、これまでとは異なるアイデアが必要だ。現在流行している商品の情報を集めるだけでは、他社に勝つことはできないだろう。私はアイデアを生み出すために、一般的に考えられていることとは逆の発想をするようにしている。現在流行している商品が若者向けの物なら高齢者向けにできないかと考えたり、多機能の物なら機能の一つに絞れないかと考えたりするのである。\nアイデアは一部の才能がある人しか生み出せないものだという印象があるせいか、生み出し方を知ろうとしない人が多いと思う。才能がないからといってあきらめるのではなく、思い切って発想を転換してみれば、いいアイデアにつながっていく。"
         },
         {
-                  "id": 67,
-                  "mondai": 13,
-                  "mondaiName": "Mondai 13: Đọc hiểu trường văn",
-                  "question": "①<u>この行為</u>とはどういうことか。",
-                  "options": [
-                            "実際に、主人公が食べていた食べものを味わってみること。",
-                            "食べたことのないものを主人公と一緒に食べているところを想像すること。",
-                            "主人公がどんな食べものが好きかを想像してみること。",
-                            "主人公になりきって、食べたことのないものを想像して味わうこと。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu ngay trước ①: 「食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。」(Nhập vai sở hữu chiếc lưỡi của nhân vật chính để tưởng tượng và nếm thứ chưa từng ăn).<br><b>Đáp án 4:</b> Hóa thân thành nhân vật chính, tưởng tượng và thưởng thức món chưa từng ăn.",
-                  "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
+          "id": 67,
+          "mondai": 13,
+          "mondaiName": "Mondai 13: Đọc hiểu trường văn",
+          "question": "①<u>この行為</u>とはどういうことか。",
+          "options": [
+            "実際に、主人公が食べていた食べものを味わってみること。",
+            "食べたことのないものを主人公と一緒に食べているところを想像すること。",
+            "主人公がどんな食べものが好きかを想像してみること。",
+            "主人公になりきって、食べたことのないものを想像して味わうこと。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 2 kể về việc hồi nhỏ đọc tác phẩm nước ngoài gặp tên món ăn chưa từng nghe (bánh lý chua đen, bánh quy gừng...). Người đọc cố gắng tưởng tượng và nếm thử thứ chưa từng ăn đó, tức là có được «chiếc lưỡi của nhân vật chính đang ăn món đó» (「食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである」).<br><br><b>Dịch câu hỏi:</b> ① «Hành vi này (この行為)» là việc như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Thực tế nếm thử món ăn mà nhân vật chính đã ăn: Sai. Trong bài là đọc sách lúc nhỏ và tưởng tượng trong đầu, không phải ăn thật lúc đó (khi lớn lên ăn thật thì lại thấy «khác»).<br>• 2. Tưởng tượng cảnh mình đang cùng ăn với nhân vật chính món chưa từng ăn: Sai. Không phải «ăn cùng» mà là mượn chính «chiếc lưỡi của nhân vật chính» để nếm.<br>• 3. Thử tưởng tượng xem nhân vật chính thích món ăn nào: Sai. Bài viết nói tưởng tượng để nếm món ăn xuất hiện trong truyện.<br>• 4. Hóa thân thành nhân vật chính, tưởng tượng và thưởng thức món chưa từng ăn: <b>(Đúng)</b>. Khớp chính xác với hình ảnh «sở hữu chiếc lưỡi của nhân vật chính để hết sức tưởng tượng và nếm thứ chưa từng ăn».",
+          "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
         },
         {
-                  "id": 68,
-                  "mondai": 13,
-                  "mondaiName": "Mondai 13: Đọc hiểu trường văn",
-                  "question": "②<u>つまらない本</u>について、筆者はどのように述べているか。",
-                  "options": [
-                            "つまらなく感じた点についていろいろ考えていると、おもしろくなる。",
-                            "つまらなく感じた理由を考えていると、自分の好みがよく分かってくる。",
-                            "つまらないと思っても、いつか必ず相性がよくなる日がくる。",
-                            "つまらないと思っても、人にあらすじを話すと面白いところが見つけられる。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 3 viết: khi suy nghĩ xem chỗ nào chán thế nào, triển khai ra sao thì hay hơn, hợp/khắc với phần nào của mình... thì cuốn sách chán sẽ trở nên thú vị (つまらない本はおもしろくなる).<br><b>Đáp án 1:</b> Khi suy nghĩ nhiều về những điểm thấy chán, nó sẽ trở nên thú vị.",
-                  "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
+          "id": 68,
+          "mondai": 13,
+          "mondaiName": "Mondai 13: Đọc hiểu trường văn",
+          "question": "②<u>つまらない本</u>について、筆者はどのように述べているか。",
+          "options": [
+            "つまらなく感じた点についていろいろ考えていると、おもしろくなる。",
+            "つまらなく感じた理由を考えていると、自分の好みがよく分かってくる。",
+            "つまらないと思っても、いつか必ず相性がよくなる日がくる。",
+            "つまらないと思っても、人にあらすじを話すと面白いところが見つけられる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 3 viết: tất nhiên có những cuốn sách chán (②つまらない本) hoặc không hợp gu. Nhưng nếu suy nghĩ xem chỗ nào chán ra sao, triển khai thế nào thì hay hơn, không hợp với phần nào của bản thân... thì cuốn sách chán sẽ trở nên thú vị (「つまらない本はおもしろくなる」).<br><br><b>Dịch câu hỏi:</b> Về ② «cuốn sách chán (つまらない本)», tác giả đã trình bày như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Khi suy nghĩ nhiều về những điểm thấy chán, nó sẽ trở nên thú vị: <b>(Đúng)</b>. Khớp trực tiếp với câu: 「どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか…そんなことを考えていると、つまらない本はおもしろくなる」.<br>• 2. Khi suy nghĩ lý do thấy chán, sẽ hiểu rõ sở thích của bản thân: Sai. Bài viết nói suy nghĩ xem mình không hợp ở điểm nào, nhưng kết quả là khiến sách trở nên thú vị chứ không nói «hiểu rõ sở thích bản thân».<br>• 3. Dù thấy chán nhưng chắc chắn sẽ có ngày trở nên hợp gu: Sai. Ý «đợi ngày hợp gu» áp dụng cho «sách không hợp» (相性が悪い本), và cũng không nói «chắc chắn» (必ず).<br>• 4. Dù thấy chán nhưng khi kể tóm tắt cho người khác sẽ tìm thấy điểm thú vị: Sai. Tác giả thích kể về sách chán vì thấy có nhiều dư địa sáng tạo để phân tích chỗ chán, không nói kể ra sẽ thấy điểm hay sẵn có.",
+          "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
         },
         {
-                  "id": 69,
-                  "mondai": 13,
-                  "mondaiName": "Mondai 13: Đọc hiểu trường văn",
-                  "question": "本を読むことについて、筆者はどのように考えているか。",
-                  "options": [
-                            "本を読むことは、料理や絵画より創ることの喜びが大きい。",
-                            "本を読むことは、自由に想像を膨らませる楽しい創造の作業だ。",
-                            "本を読んでたくさん知ることができれば、創ることの喜びも増す。",
-                            "本を読んで想像力を身につければ、生活のなかでも自由に創造が楽しめる。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Toàn bài khẳng định đọc sách không phải tiếp nhận thụ động mà là «創る»作業 (công việc sáng tạo), và câu kết nói niềm vui của việc đọc là sự tự do sáng tạo.<br><b>Đáp án 2:</b> Đọc sách là công việc sáng tạo thú vị, tự do mở rộng trí tưởng tượng.",
-                  "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
+          "id": 69,
+          "mondai": 13,
+          "mondaiName": "Mondai 13: Đọc hiểu trường văn",
+          "question": "本を読むことについて、筆者はどのように考えているか。",
+          "options": [
+            "本を読むことは、料理や絵画より創ることの喜びが大きい。",
+            "本を読むことは、自由に想像を膨らませる楽しい創造の作業だ。",
+            "本を読んでたくさん知ることができれば、創ることの喜びも増す。",
+            "本を読んで想像力を身につければ、生活のなかでも自由に創造が楽しめる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Toàn bài phản bác quan niệm đọc sách chỉ là tiếp nhận thụ động (input). Từ việc tưởng tượng món ăn đến việc phân tích sách chán, tác giả khẳng định đọc cũng là «công việc sáng tạo» (「創る」作業) và kết luận: niềm vui của việc đọc là sự tự do sáng tạo (「創ることの自由さ」).<br><br><b>Dịch câu hỏi:</b> Về việc đọc sách, tác giả suy nghĩ như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Đọc sách mang lại niềm vui sáng tạo lớn hơn nấu ăn hay hội họa: Sai. Tác giả chỉ liệt kê nấu ăn, hội họa, việc nhà cùng chung một ý là khi biết niềm vui sáng tạo thì khó dứt ra, không so sánh hơn kém.<br>• 2. Đọc sách là công việc sáng tạo thú vị, tự do mở rộng trí tưởng tượng: <b>(Đúng)</b>. Khớp hoàn toàn với luận điểm xuyên suốt bài: đọc là quá trình chủ động sáng tạo trong tâm trí và niềm vui nằm ở sự tự do sáng tạo.<br>• 3. Nếu đọc sách và biết được nhiều điều, niềm vui sáng tạo cũng tăng lên: Sai. Tác giả không nhấn mạnh «biết nhiều kiến thức», mà nhấn mạnh bản thân hành động đọc đã là sáng tạo.<br>• 4. Nếu rèn được trí tưởng tượng qua đọc sách, trong đời sống cũng có thể tự do sáng tạo: Sai. Đây không phải điều bài viết lập luận.",
+          "passage": "読むことは、受動的な（注１）作業だと思っている人は意外に多い。（中略）読んでインプットして、書いてアウトプットする。そうではなくて、両方アウトプットなのだというのが、私の持論（注２）である。\nそこにある言葉を読む。すると心には、文字以上のものが広がる。たとえば、こどものころ読んだ海外作品に、聞いたこともない料理名が出てくるということが、よくあった。クロスグリのパイだとか、ジンジャークッキーだとか。食べたことのないものを、懸命に想像して味わう。それを食べる主人公の舌を、獲得するわけである。①<u>この行為</u>は、受動ではなく能動（注３）である。「創る」作業である。本でしか読んだことのない食べものを、大人になってから実際に食べ、「違う」と思った経験を持つ人は、意外に多いのではないだろうか。もちろん違うのは私たちの想像なのだが、しかし自分の頭のなかで創った料理のほうが、断然（注４）おいしかった、ということは、よくある。\n本を読まない、というのは、だから、私にとって創造の放棄（注５）である。②<u>つまらない本</u>、相性が悪い本というのはもちろんある。しかしそこで、どこがどんなふうにつまらないのか、どう展開したらおもしろかったのか、自分のどの部分と相性が悪いのか、そんなことを考えていると、つまらない本はおもしろくなるし、相性が悪い本はいつか相性がよくなる日を待とうと思うことができる。私は、おもしろかった本よりつまらなかった本のあらすじを人に話すほうが、ずっと好きだ。どこがどんなふうにつまらなく感じたかを話すのは、それだけ創造の余地（注６）があるからだろう。\n料理でも、絵画でも、あるいは家事の手順でも、創ることの喜びを知ってしまうと、なかなかそれから離れることができない。読むことの楽しみは、と訊かれれば（注７）、創ることの自由さだと私は答える。\n\n（注１）受動的な：ここでは、受け取るだけの\n（注２）持論：いつも持っている考え\n（注３）能動：自ら進んで行うこと\n（注４）断然：ずっと\n（注５）〜の放棄：〜を捨てること\n（注６）余地：ここでは、可能性\n（注７）訊く：「聞く」と同じ"
         },
         {
-                  "id": 70,
-                  "mondai": 14,
-                  "mondaiName": "Mondai 14: Tìm kiếm thông tin",
-                  "question": "以下の４人は、動画コンテストに応募しようと考えている。現段階で応募条件を満たしているのは誰か。\n<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em; margin-top:0.5rem;\">\n<tr><th>名前</th><th>職業</th><th>作品の内容</th><th>応募動画の長さ</th><th>応募動画の発表歴</th></tr>\n<tr><td>ヤンさん</td><td>高校生</td><td>春口市の自然の魅力</td><td>25秒</td><td>なし</td></tr>\n<tr><td>村木さん</td><td>塾講師</td><td>春口市の緑茶の魅力</td><td>28秒</td><td>なし</td></tr>\n<tr><td>長島さん</td><td>会社員</td><td>春口市の歴史的な建物</td><td>3分45秒</td><td>あり</td></tr>\n<tr><td>原田さん</td><td>中学生</td><td>春口市の祭りの文化</td><td>2分15秒</td><td>なし</td></tr>\n</table>",
-                  "options": [
-                            "ヤンさん",
-                            "村木さん",
-                            "長島さん",
-                            "原田さん"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích từng người:</b><br>• ヤンさん (Học sinh THPT): chủ đề «春口市の自然の魅力» thuộc ②観光部門 (yêu cầu 2–5 phút), nhưng video chỉ dài 25 giây → Loại.<br>• <b>村木さん (Giảng viên lớp học thêm): chủ đề «春口市の緑茶の魅力» thuộc ①緑茶部門 (yêu cầu 20–30 giây), dài 28 giây, chưa công bố → Đạt đủ điều kiện (Đáp án 2).</b><br>• 長島さん: đã công bố trước đó (あり) → Loại (yêu cầu 未発表).<br>• 原田さん: học sinh THCS (中学生) → Loại (yêu cầu từ THPT trở lên 高校生以上).",
-                  "passage": "春口市「動画コンテスト」 動画作品募集のご案内\n春口市の魅力をアピールする動画を募集します。受賞した作品は、春口市のホームページで公開し、市の魅力を伝える活動に使用させていただきます。\n\n１．募集する作品\n以下の①か②のどちらかの部門に応募してください。応募できるのは、一人１作品で、未発表の作品に限ります。\n①緑茶部門：春口市の緑茶をアピールする、２０秒から３０秒の作品\n②観光部門：春口市の歴史、文化、自然に関する、２分から５分の作品\n\n２．応募資格\n高校生以上の方であれば、どなたでも応募可能です。\n\n３．選考方法と賞品\n選考は、春口市出身の映像作家である花山洋子氏を委員長とする選考委員会が行います。賞品として、最優秀賞受賞者（①②各１名）に商品券３万円分を、優秀賞受賞者（①②２名）に商品券１万円分を、応募者全員に記念品を差し上げます。\n\n４．応募方法\n４月１５日（月）から５月１０日（金）までの間に、春口市広報課ホームページの応募用ページから必要な情報を送信してください。その後、動画を以下の（１）か（２）のどちらかの方法で送ってください。\n（１）ＤＶＤに記録して郵送する場合\n作品をＤＶＤに記録して、５月１７日（金）必着で郵送してください。なお、提出されたＤＶＤは返却いたしません。\n（２）インターネットで送信する場合\n応募の受付後１週間以内に動画送信用ページの情報をお知らせするので、５月２４日（金）までに送信してください。\n\n５．応募および問い合わせ先\n春口市役所広報課（市役所３階）\n〒129-9988 春口市東町1丁目1番\n電話・FAX 032-451-6879\nホームページ https://www.facebook.com/bui.yuuki.9"
+          "id": 70,
+          "mondai": 14,
+          "mondaiName": "Mondai 14: Tìm kiếm thông tin",
+          "question": "以下の４人は、動画コンテストに応募しようと考えている。現段階で応募条件を満たしているのは誰か。\n<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em; margin-top:0.5rem;\">\n<tr><th>名前</th><th>職業</th><th>作品の内容</th><th>応募動画の長さ</th><th>応募動画の発表歴</th></tr>\n<tr><td>ヤンさん</td><td>高校生</td><td>春口市の自然の魅力</td><td>25秒</td><td>なし</td></tr>\n<tr><td>村木さん</td><td>塾講師</td><td>春口市の緑茶の魅力</td><td>28秒</td><td>なし</td></tr>\n<tr><td>長島さん</td><td>会社員</td><td>春口市の歴史的な建物</td><td>3分45秒</td><td>あり</td></tr>\n<tr><td>原田さん</td><td>中学生</td><td>春口市の祭りの文化</td><td>2分15秒</td><td>なし</td></tr>\n</table>",
+          "options": [
+            "ヤンさん",
+            "村木さん",
+            "長島さん",
+            "原田さん"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích yêu cầu bài đọc:</b><br>• Hạng mục ① Trà xanh (緑茶部門): quảng bá trà xanh thành phố Haruguchi, dài 20–30 giây.<br>• Hạng mục ② Du lịch (観光部門): về lịch sử, văn hóa, thiên nhiên thành phố, dài 2–5 phút.<br>• Điều kiện chung: Học sinh THPT trở lên (高校生以上), mỗi người 1 tác phẩm chưa từng công bố (未発表).<br><br><b>Dịch câu hỏi:</b> 4 người dưới đây đang định tham gia cuộc thi video. Ở giai đoạn hiện tại, ai đáp ứng đủ điều kiện dự thi?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Anh/chị Yan (ヤンさん): Sai. Học sinh THPT (đạt tuổi), chưa công bố (đạt), nhưng chủ đề «sức hấp dẫn thiên nhiên» thuộc ② Du lịch (yêu cầu 2–5 phút), trong khi video chỉ dài 25 giây.<br>• 2. Anh/chị Muraki (村木さん): <b>(Đúng)</b>. Là giảng viên lớp học thêm (đạt điều kiện THPT trở lên), chủ đề «trà xanh» thuộc ① Trà xanh (yêu cầu 20–30 giây), video dài 28 giây và chưa từng công bố.<br>• 3. Anh/chị Nagashima (長島さん): Sai. Đã từng công bố video trước đây (発表歴：あり), vi phạm điều kiện chưa công bố (未発表の作品に限ります).<br>• 4. Em Harada (原田さん): Sai. Là học sinh THCS (中学生), chưa đủ điều kiện từ THPT trở lên (高校生以上).",
+          "passage": "春口市「動画コンテスト」 動画作品募集のご案内\n春口市の魅力をアピールする動画を募集します。受賞した作品は、春口市のホームページで公開し、市の魅力を伝える活動に使用させていただきます。\n\n１．募集する作品\n以下の①か②のどちらかの部門に応募してください。応募できるのは、一人１作品で、未発表の作品に限ります。\n①緑茶部門：春口市の緑茶をアピールする、２０秒から３０秒の作品\n②観光部門：春口市の歴史、文化、自然に関する、２分から５分の作品\n\n２．応募資格\n高校生以上の方であれば、どなたでも応募可能です。\n\n３．選考方法と賞品\n選考は、春口市出身の映像作家である花山洋子氏を委員長とする選考委員会が行います。賞品として、最優秀賞受賞者（①②各１名）に商品券３万円分を、優秀賞受賞者（①②２名）に商品券１万円分を、応募者全員に記念品を差し上げます。\n\n４．応募方法\n４月１５日（月）から５月１０日（金）までの間に、春口市広報課ホームページの応募用ページから必要な情報を送信してください。その後、動画を以下の（１）か（２）のどちらかの方法で送ってください。\n（１）ＤＶＤに記録して郵送する場合\n作品をＤＶＤに記録して、５月１７日（金）必着で郵送してください。なお、提出されたＤＶＤは返却いたしません。\n（２）インターネットで送信する場合\n応募の受付後１週間以内に動画送信用ページの情報をお知らせするので、５月２４日（金）までに送信してください。\n\n５．応募および問い合わせ先\n春口市役所広報課（市役所３階）\n〒129-9988 春口市東町1丁目1番\n電話・FAX 032-451-6879\nホームページ https://www.facebook.com/bui.yuuki.9"
         },
         {
-                  "id": 71,
-                  "mondai": 14,
-                  "mondaiName": "Mondai 14: Tìm kiếm thông tin",
-                  "question": "ローズさんは、動画コンテストに応募しようと考えている。動画は、インターネットで送りたい。ローズさんは、どうしなければならないか。",
-                  "options": [
-                            "５月１０日までに応募情報を送信し、１７日までに動画を送信する。",
-                            "５月１０日までに応募情報を送信し、２４日までに動画を送信する。",
-                            "５月１０日までに応募情報と動画を送信する。",
-                            "５月２４日までに応募情報と動画を送信する。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích mục 4 (応募方法):</b><br>• Gửi thông tin đăng ký qua trang web từ 15/4 đến hết <b>10/5 (金)</b>.<br>• Gửi video qua internet (mục 4-(2)): gửi chậm nhất đến hết <b>24/5 (金)</b>.<br><b>Đáp án 2:</b> Gửi thông tin đăng ký trước 10/5 và gửi video trước 24/5.",
-                  "passage": "春口市「動画コンテスト」 動画作品募集のご案内\n春口市の魅力をアピールする動画を募集します。受賞した作品は、春口市のホームページで公開し、市の魅力を伝える活動に使用させていただきます。\n\n１．募集する作品\n以下の①か②のどちらかの部門に応募してください。応募できるのは、一人１作品で、未発表の作品に限ります。\n①緑茶部門：春口市の緑茶をアピールする、２０秒から３０秒の作品\n②観光部門：春口市の歴史、文化、自然に関する、２分から５分の作品\n\n２．応募資格\n高校生以上の方であれば、どなたでも応募可能です。\n\n３．選考方法と賞品\n選考は、春口市出身の映像作家である花山洋子氏を委員長とする選考委員会が行います。賞品として、最優秀賞受賞者（①②各１名）に商品券３万円分を、優秀賞受賞者（①②２名）に商品券１万円分を、応募者全員に記念品を差し上げます。\n\n４．応募方法\n４月１５日（月）から５月１０日（金）までの間に、春口市広報課ホームページの応募用ページから必要な情報を送信してください。その後、動画を以下の（１）か（２）のどちらかの方法で送ってください。\n（１）ＤＶＤに記録して郵送する場合\n作品をＤＶＤに記録して、５月１７日（金）必着で郵送してください。なお、提出されたＤＶＤは返却いたしません。\n（２）インターネットで送信する場合\n応募の受付後１週間以内に動画送信用ページの情報をお知らせするので、５月２４日（金）までに送信してください。\n\n５．応募および問い合わせ先\n春口市役所広報課（市役所３階）\n〒129-9988 春口市東町1丁目1番\n電話・FAX 032-451-6879\nホームページ https://www.facebook.com/bui.yuuki.9"
+          "id": 71,
+          "mondai": 14,
+          "mondaiName": "Mondai 14: Tìm kiếm thông tin",
+          "question": "ローズさんは、動画コンテストに応募しようと考えている。動画は、インターネットで送りたい。ローズさんは、どうしなければならないか。",
+          "options": [
+            "５月１０日までに応募情報を送信し、１７日までに動画を送信する。",
+            "５月１０日までに応募情報を送信し、２４日までに動画を送信する。",
+            "５月１０日までに応募情報と動画を送信する。",
+            "５月２４日までに応募情報と動画を送信する。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích yêu cầu mục 4 (応募方法):</b><br>• Bước 1: Từ ngày 15/4 (Thứ Hai) đến hết ngày 10/5 (Thứ Sáu), gửi thông tin cần thiết qua trang đăng ký trên website phòng Quan hệ công chúng.<br>• Bước 2: Sau đó gửi video. Vì chị Rose muốn gửi qua internet nên áp dụng mục (2): trong vòng 1 tuần sau khi tiếp nhận đăng ký sẽ được thông báo trang gửi video, và phải gửi trước hết ngày 24/5 (Thứ Sáu).<br><br><b>Dịch câu hỏi:</b> Chị Rose đang định tham gia cuộc thi video và muốn gửi video qua internet. Chị Rose phải làm như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Gửi thông tin đăng ký trước ngày 10/5, và gửi video trước ngày 17/5: Sai. Hạn 17/5 là dành cho trường hợp ghi ra đĩa DVD gửi qua bưu điện (mục 4-(1)).<br>• 2. Gửi thông tin đăng ký trước ngày 10/5, và gửi video trước ngày 24/5: <b>(Đúng)</b>. Khớp chính xác hạn nộp thông tin đăng ký (10/5) và hạn gửi video qua internet (24/5) ở mục 4-(2).<br>• 3. Gửi cả thông tin đăng ký và video trước ngày 10/5: Sai. Video được gửi sau khi đã gửi thông tin đăng ký và nhận được hướng dẫn trang tải lên.<br>• 4. Gửi cả thông tin đăng ký và video trước ngày 24/5: Sai. Thông tin đăng ký phải gửi muộn nhất vào ngày 10/5.",
+          "passage": "春口市「動画コンテスト」 動画作品募集のご案内\n春口市の魅力をアピールする動画を募集します。受賞した作品は、春口市のホームページで公開し、市の魅力を伝える活動に使用させていただきます。\n\n１．募集する作品\n以下の①か②のどちらかの部門に応募してください。応募できるのは、一人１作品で、未発表の作品に限ります。\n①緑茶部門：春口市の緑茶をアピールする、２０秒から３０秒の作品\n②観光部門：春口市の歴史、文化、自然に関する、２分から５分の作品\n\n２．応募資格\n高校生以上の方であれば、どなたでも応募可能です。\n\n３．選考方法と賞品\n選考は、春口市出身の映像作家である花山洋子氏を委員長とする選考委員会が行います。賞品として、最優秀賞受賞者（①②各１名）に商品券３万円分を、優秀賞受賞者（①②２名）に商品券１万円分を、応募者全員に記念品を差し上げます。\n\n４．応募方法\n４月１５日（月）から５月１０日（金）までの間に、春口市広報課ホームページの応募用ページから必要な情報を送信してください。その後、動画を以下の（１）か（２）のどちらかの方法で送ってください。\n（１）ＤＶＤに記録して郵送する場合\n作品をＤＶＤに記録して、５月１７日（金）必着で郵送してください。なお、提出されたＤＶＤは返却いたしません。\n（２）インターネットで送信する場合\n応募の受付後１週間以内に動画送信用ページの情報をお知らせするので、５月２４日（金）までに送信してください。\n\n５．応募および問い合わせ先\n春口市役所広報課（市役所３階）\n〒129-9988 春口市東町1丁目1番\n電話・FAX 032-451-6879\nホームページ https://www.facebook.com/bui.yuuki.9"
         }
       ]
     },

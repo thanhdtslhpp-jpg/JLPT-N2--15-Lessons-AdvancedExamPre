@@ -2015,180 +2015,180 @@ window.JLPT_DATA[13] = {
       "name": "Phần 5: Chuyên Đề Đọc Hiểu Đoản Văn & Trung Văn (11 câu)",
       "questions": [
         {
-                  "id": 130,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者はどんな人が一人前だと考えているか。",
-                  "options": [
-                            "一定時間沈黙を守ったあとに、相手を立てた会話ができる人",
-                            "きちんとした思想を持って、沈黙を守り続けられる人",
-                            "あたりの空気を重くしないように、相手を立てながら会話をし続けられる人",
-                            "会話を続ける技術があるだけでなく、一定時間沈黙を守れる人"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Tác giả nêu 2 điều kiện song song («それと同時に»): vừa phải biết giữ im lặng một khoảng thời gian nhất định, vừa phải có kỹ năng duy trì hội thoại và tôn trọng đối phương khi cần thiết.<br><b>Đáp án 4:</b> Người không chỉ có kỹ thuật duy trì cuộc trò chuyện mà còn giữ được im lặng trong một khoảng thời gian nhất định.",
-                  "passage": "人間は一定時間、沈黙していることができなければならない。それと同時に、喋りたくない時でも、あたりの空気を重くしないために、適当な会話を続ける必要のある時もある。沈黙を守れない人で、きちんとした思想のある人物は見たことがない。それと同時に、会食の席などでは、相手を立てながら、会話を続ける技術もなくて一人前とは言いがたい。\n（曽野綾子『自分をまげない勇気と信念のことば』ワックによる）"
+          "id": 130,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者はどんな人が一人前だと考えているか。",
+          "options": [
+            "一定時間沈黙を守ったあとに、相手を立てた会話ができる人",
+            "きちんとした思想を持って、沈黙を守り続けられる人",
+            "あたりの空気を重くしないように、相手を立てながら会話をし続けられる人",
+            "会話を続ける技術があるだけでなく、一定時間沈黙を守れる人"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Tác giả nêu 2 điều kiện song song («それと同時に»): con người vừa phải biết giữ im lặng trong một khoảng thời gian nhất định, vừa phải có kỹ năng duy trì hội thoại và tôn trọng đối phương khi cần thiết (như trong tiệc ăn uống) thì mới được coi là người trưởng thành/chững chạc (一人前).<br><br><b>Dịch câu hỏi:</b> Tác giả cho rằng người như thế nào mới là người trưởng thành (一人前)?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người sau khi giữ im lặng một khoảng thời gian nhất định thì có thể trò chuyện tôn trọng đối phương: Sai, không phải trình tự «sau khi im lặng rồi mới nói», mà là hai năng lực song song cần có tùy hoàn cảnh.<br>• 2. Người có tư tưởng chín chắn và có thể tiếp tục giữ im lặng: Sai, thiếu vế thứ hai là kỹ năng giao tiếp/giữ không khí trong bữa tiệc.<br>• 3. Người biết tiếp tục trò chuyện và tôn trọng đối phương để không khí xung quanh không bị nặng nề: Sai, thiếu vế đầu tiên là khả năng giữ im lặng.<br>• 4. Người không chỉ có kỹ thuật duy trì cuộc trò chuyện mà còn giữ được im lặng trong một khoảng thời gian nhất định: <b>(Đúng)</b> Bao quát đầy đủ cả hai điều kiện song song mà tác giả đặt ra.",
+          "passage": "人間は一定時間、沈黙していることができなければならない。それと同時に、喋りたくない時でも、あたりの空気を重くしないために、適当な会話を続ける必要のある時もある。沈黙を守れない人で、きちんとした思想のある人物は見たことがない。それと同時に、会食の席などでは、相手を立てながら、会話を続ける技術もなくて一人前とは言いがたい。\n（曽野綾子『自分をまげない勇気と信念のことば』ワックによる）"
         },
         {
-                  "id": 131,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "「病気は体ののぞき穴」とはどういうことか。",
-                  "options": [
-                            "病気になると、自分の体のどこが健康かわかるようになる。",
-                            "病気になると、健康は空気みたいなものだと意識されるようになる。",
-                            "病気になると、ふつうは意識しない体の秘密が見えるようになる。",
-                            "病気になると、人間の体の構造が理解できるようになる。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Câu ngay trước «病気は体ののぞき穴だ»: 「ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。」<br><b>Đáp án 3:</b> Khi bị bệnh, ta mới nhìn thấy những bí mật của cơ thể mà bình thường không để ý.",
-                  "passage": "健康第一というのは、健康なときにはわからない。健康はふつうのときには当たり前のことだからだ。体をこわしてやっと、健康第一なんだとつくづく思う。だから健康とは、空気みたいなものだといえる。あって当たり前で、ふつうは意識もされない。だから健康の中には、いろんなものが隠されている。ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。病気は体ののぞき穴だ。\n（赤瀬川原平『増補健康半分』デコによる）"
+          "id": 131,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "「病気は体ののぞき穴」とはどういうことか。",
+          "options": [
+            "病気になると、自分の体のどこが健康かわかるようになる。",
+            "病気になると、健康は空気みたいなものだと意識されるようになる。",
+            "病気になると、ふつうは意識しない体の秘密が見えるようになる。",
+            "病気になると、人間の体の構造が理解できるようになる。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Câu ngay trước «病気は体ののぞき穴だ» viết: 「ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。」 (Những bí mật của cơ thể mà bình thường không nhìn thấy, chỉ đến khi sức khỏe bị tổn hại mới lần lượt hiện ra).<br><br><b>Dịch câu hỏi:</b> «Bệnh tật là lỗ nhòm vào cơ thể» có nghĩa là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Khi bị bệnh, ta hiểu được bộ phận nào trên cơ thể mình đang khỏe mạnh: Sai, bài nói thấy được bí mật của cơ thể nói chung khi mất sức khỏe, không phải biết chỗ nào khỏe.<br>• 2. Khi bị bệnh, ta mới ý thức được sức khỏe giống như không khí: Sai, sức khỏe giống không khí ở chỗ bình thường không ý thức tới, nhưng câu ví «lỗ nhòm» giải thích trực tiếp cho việc nhìn thấy bí mật cơ thể.<br>• 3. Khi bị bệnh, ta mới nhìn thấy những bí mật của cơ thể mà bình thường không để ý: <b>(Đúng)</b> Khớp trực tiếp với câu 「ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる」.<br>• 4. Khi bị bệnh, ta có thể hiểu được cấu trúc cơ thể con người: Sai, từ «体の秘密» không đồng nghĩa với kiến thức giải phẫu cấu trúc cơ thể.",
+          "passage": "健康第一というのは、健康なときにはわからない。健康はふつうのときには当たり前のことだからだ。体をこわしてやっと、健康第一なんだとつくづく思う。だから健康とは、空気みたいなものだといえる。あって当たり前で、ふつうは意識もされない。だから健康の中には、いろんなものが隠されている。ふだんは見えない体の秘密が、健康を害したときにはじめていろいろ見えてくる。病気は体ののぞき穴だ。\n（赤瀬川原平『増補健康半分』デコによる）"
         },
         {
-                  "id": 132,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者は、若い世代とつきあうためには、どうすればいいと考えているか。",
-                  "options": [
-                            "ついていけないと思っても、つきあい続ければ必ず共通項が見出せるはずである。",
-                            "あまりあれこれ考えないで、ありのままの自分で若者と対すればいい。",
-                            "想像力をたくましくさせ、若者が好きそうな話をすればいい。",
-                            "自分が若かった頃を思い出し、自分が年上の人にしていたようにすればいい。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết rõ: 「意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。」(Nếu gồng mình hay để ý quá thì đối phương nhận ra ngay, tốt nhất là đối diện một cách tự nhiên).<br><b>Đáp án 2:</b> Không cần suy nghĩ quá nhiều, hãy đối diện với người trẻ bằng chính con người tự nhiên của mình.",
-                  "passage": "（若い世代に）自分の思いをまっすぐにぶつければ、必ずや共通項を見出すことができるだろう。\n若い世代とつきあうからといって、意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。\nとても理解できない、ついていけないと思ったら、想像力をたくましくすること。自分がこのくらいの年代のときはどうだっただろうか、自分の若い頃、年上の人をどう見ていただろうかと考えてみる。\nそこから答えが出てくるかもしれない。\n（下重暁子『女50代美しさの極意』大和出版による）"
+          "id": 132,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者は、若い世代とつきあうためには、どうすればいいと考えているか。",
+          "options": [
+            "ついていけないと思っても、つきあい続ければ必ず共通項が見出せるはずである。",
+            "あまりあれこれ考えないで、ありのままの自分で若者と対すればいい。",
+            "想像力をたくましくさせ、若者が好きそうな話をすればいい。",
+            "自分が若かった頃を思い出し、自分が年上の人にしていたようにすればいい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 2 viết rõ: 「若い世代とつきあうからといって、意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。」 (Nếu vì giao tiếp với thế hệ trẻ mà quá để tâm hay gồng mình lên thì điều đó sẽ truyền thẳng sang họ, nên tốt nhất là đối diện một cách tự nhiên).<br><br><b>Dịch câu hỏi:</b> Tác giả cho rằng để giao tiếp với thế hệ trẻ thì nên làm thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Dù thấy không theo kịp nhưng nếu cứ tiếp tục giao tiếp thì chắc chắn sẽ tìm ra điểm chung: Sai, đoạn 1 nói «nếu thẳng thắn bày tỏ suy nghĩ của mình» (自分の思いをまっすぐにぶつければ), không phải «cứ tiếp tục giao tiếp dù không theo kịp».<br>• 2. Không cần suy nghĩ gò bó quá nhiều, hãy đối diện với người trẻ bằng chính con người tự nhiên của mình: <b>(Đúng)</b> Diễn đạt lại chính xác ý 「意識したり、かまえたりせず、自然体で対するに限る」.<br>• 3. Phát huy trí tưởng tượng và nói những chuyện mà người trẻ có vẻ thích: Sai, trí tưởng tượng được dùng để hồi tưởng xem hồi trẻ mình nghĩ gì về người lớn tuổi.<br>• 4. Nhớ lại hồi mình còn trẻ và đối xử giống như cách mình từng làm với người lớn tuổi: Sai, bài khuyên thử nghĩ xem hồi đó mình nhìn người lớn tuổi thế nào để tìm câu trả lời/sự thấu hiểu, không phải bắt chước cách hành xử hồi đó.",
+          "passage": "（若い世代に）自分の思いをまっすぐにぶつければ、必ずや共通項を見出すことができるだろう。\n若い世代とつきあうからといって、意識したり、かまえたりすると、それはそのまま伝わってしまうから、自然体で対するに限る。\nとても理解できない、ついていけないと思ったら、想像力をたくましくすること。自分がこのくらいの年代のときはどうだっただろうか、自分の若い頃、年上の人をどう見ていただろうかと考えてみる。\nそこから答えが出てくるかもしれない。\n（下重暁子『女50代美しさの極意』大和出版による）"
         },
         {
-                  "id": 133,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "この文書を書いた、一番の目的は何か。",
-                  "options": [
-                            "10周年記念の案内",
-                            "レッスン参加のお礼",
-                            "消費税増税の報告",
-                            "料金の改定のお知らせ"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Văn bản nêu do thuế tiêu thụ tăng từ tháng 10 nên lớp học buộc phải xem xét lại học phí và thông báo thực hiện điều chỉnh mức phí.<br><b>Đáp án 4:</b> Thông báo về việc điều chỉnh học phí.",
-                  "passage": "いつもピアノレッスンにご参加頂き、御礼申し上げます。おかげさまで、当教室は、5月で10周年を迎えることとなりました。これもひとえにご参加くださる皆様のおかげであると心より感謝しております。\nさて10月から消費税の増税が決定いたしました。今までレッスン料金を値上げせずにやってまいりましたが、今回の増税に伴いまして、ついに料金の見直しをせざるを得なくなりました。そのため、下記の通り料金の改定を実施させていただくこととなりましたのでお知らせいたします。\n皆様にご迷惑をおかけするのは心苦しい限りでございますが、ご理解くださいますよう、よろしくお願い申し上げます。"
+          "id": 133,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "この文書を書いた、一番の目的は何か。",
+          "options": [
+            "10周年記念の案内",
+            "レッスン参加のお礼",
+            "消費税増税の報告",
+            "料金の改定のお知らせ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Thông báo mở đầu bằng lời cảm ơn nhân dịp kỷ niệm 10 năm, sau đó chuyển sang nội dung chính («さて…»): do thuế tiêu thụ tăng từ tháng 10 nên lớp học piano buộc phải xem xét lại học phí và thông báo thực hiện điều chỉnh mức phí.<br><br><b>Dịch câu hỏi:</b> Mục đích lớn nhất khi viết văn bản này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Mời/hướng dẫn sự kiện kỷ niệm 10 năm: Sai, chỉ nhắc thoáng qua mốc 10 năm để cảm ơn ở đoạn mở đầu.<br>• 2. Cảm ơn vì đã tham gia lớp học: Sai, đây chỉ là lời chào xã giao mở đầu thư.<br>• 3. Báo cáo về việc tăng thuế tiêu thụ: Sai, tăng thuế chỉ là nguyên nhân dẫn đến thông báo tăng học phí.<br>• 4. Thông báo về việc điều chỉnh học phí: <b>(Đúng)</b> Khớp với câu chốt mục đích 「下記の通り料金の改定を実施させていただくこととなりましたのでお知らせいたします。」",
+          "passage": "いつもピアノレッスンにご参加頂き、御礼申し上げます。おかげさまで、当教室は、5月で10周年を迎えることとなりました。これもひとえにご参加くださる皆様のおかげであると心より感謝しております。\nさて10月から消費税の増税が決定いたしました。今までレッスン料金を値上げせずにやってまいりましたが、今回の増税に伴いまして、ついに料金の見直しをせざるを得なくなりました。そのため、下記の通り料金の改定を実施させていただくこととなりましたのでお知らせいたします。\n皆様にご迷惑をおかけするのは心苦しい限りでございますが、ご理解くださいますよう、よろしくお願い申し上げます。"
         },
         {
-                  "id": 134,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "ここでいう「何か」とは、どんなことを指しているか。",
-                  "options": [
-                            "仕組みが複雑すぎて理解できないもの",
-                            "壊れてしまったら二度と直せないもの",
-                            "手で触れると壊れてしまうほど繊細なもの",
-                            "最先端技術によって修理しなくてもよくなったもの"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Tác giả đối chiếu đồng hồ cơ xưa người thường còn tự sửa được với đồng hồ quartz/sóng radio ngày nay dùng công nghệ tối tân khiến người thường không hình dung nổi bên trong là gì.<br><b>Đáp án 1:</b> Thứ có cấu tạo quá phức tạp đến mức không thể hiểu nổi.",
-                  "passage": "現代社会は物理学がないと何もできません。たとえば時計にしても、昔は機械仕掛けの世界でしたが、ちょっと時計が趣味の人は簡単な修理くらいはできた。ある程度手で触れることができたのですね。しかし、科学技術は細分化の果てに、普通の人には触れられない「何か」に変貌を遂げました。時計でいうと、今はクオーツ時計や電波時計があります。でも、そういった最先端技術を駆使した時計の中身について、ふつうの人はほとんど何もイメージできないし、触ることもできません。\n（竹内薫『科学予測は8割はずれる』東京書籍による）"
+          "id": 134,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "ここでいう「何か」とは、どんなことを指しているか。",
+          "options": [
+            "仕組みが複雑すぎて理解できないもの",
+            "壊れてしまったら二度と直せないもの",
+            "手で触れると壊れてしまうほど繊細なもの",
+            "最先端技術によって修理しなくてもよくなったもの"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Tác giả đối chiếu đồng hồ cơ ngày xưa (người có sở thích còn tự sửa đơn giản được, chạm tay vào được) với đồng hồ quartz hay đồng hồ sóng radio ngày nay: khoa học kỹ thuật phân hóa quá sâu khiến bên trong trở thành «một thứ gì đó» mà người bình thường hầu như không hình dung nổi và cũng không chạm vào được.<br><br><b>Dịch câu hỏi:</b> «Thứ gì đó» (何か) được nhắc đến ở đây chỉ điều gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Thứ có cấu tạo quá phức tạp đến mức không thể hiểu nổi: <b>(Đúng)</b> Khớp với câu 「最先端技術を駆使した時計の中身について、ふつうの人はほとんど何もイメージできない」.<br>• 2. Thứ một khi đã hỏng thì không thể sửa lại được nữa: Sai, bài nói người bình thường không hình dung/chạm vào được chứ không nói không sửa lại được nữa.<br>• 3. Thứ tinh xảo đến mức chạm tay vào là sẽ bị hỏng: Sai, không có ý chạm vào là hỏng.<br>• 4. Thứ nhờ công nghệ tối tân nên không cần phải sửa nữa: Sai, bài không hề đề cập đến việc không cần sửa chữa.",
+          "passage": "現代社会は物理学がないと何もできません。たとえば時計にしても、昔は機械仕掛けの世界でしたが、ちょっと時計が趣味の人は簡単な修理くらいはできた。ある程度手で触れることができたのですね。しかし、科学技術は細分化の果てに、普通の人には触れられない「何か」に変貌を遂げました。時計でいうと、今はクオーツ時計や電波時計があります。でも、そういった最先端技術を駆使した時計の中身について、ふつうの人はほとんど何もイメージできないし、触ることもできません。\n（竹内薫『科学予測は8割はずれる』東京書籍による）"
         },
         {
-                  "id": 135,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者はなぜ①<u>心強く思っている</u>のか。",
-                  "options": [
-                            "独身の人のことを丁寧に呼ぶ言い方が、やっと広まってきたから。",
-                            "周りのカップルや家族が、あまりレストランで食事をすることがなくなったから。",
-                            "以前は一人で外で食事をする人がいなかったが、最近はそうする人が増えたから。",
-                            "昔の飲食店には一人で入ることができなかったが、今は自由にできるようになったから。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: trước đây đi ăn nhà hàng một mình bị vây quanh bởi cặp đôi/gia đình nên thấy ngại, nhưng nay đồng đội («おひとりさま») tăng lên nhiều nên thấy rất vững tâm.<br><b>Đáp án 3:</b> Vì trước đây ít người đi ăn ngoài một mình, nay người như vậy đã tăng lên.",
-                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
+          "id": 135,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者はなぜ①<u>心強く思っている</u>のか。",
+          "options": [
+            "独身の人のことを丁寧に呼ぶ言い方が、やっと広まってきたから。",
+            "周りのカップルや家族が、あまりレストランで食事をすることがなくなったから。",
+            "以前は一人で外で食事をする人がいなかったが、最近はそうする人が増えたから。",
+            "昔の飲食店には一人で入ることができなかったが、今は自由にできるようになったから。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Đoạn 1 viết: trước đây tác giả luôn là «ohitorisama» (đi ăn/du lịch một mình), khi đi nhà hàng một mình bị vây quanh bởi các cặp đôi và gia đình nên cảm thấy ngại ngùng (肩身が狭い思い), nhưng nay đồng đội/những người giống mình tăng lên nhiều nên tác giả thấy rất vững tâm (大変心強く思っている).<br><br><b>Dịch câu hỏi:</b> Tại sao tác giả lại ①«cảm thấy rất vững tâm»?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì cách gọi lịch sự dành cho người độc thân cuối cùng cũng đã phổ biến: Sai, «vững tâm» là nhờ số lượng người đi một mình tăng lên, không phải vì tên gọi phổ biến.<br>• 2. Vì các cặp đôi và gia đình xung quanh ít đi ăn nhà hàng hơn trước: Sai, bài không nói nhóm này giảm đi.<br>• 3. Vì trước đây ít người đi ăn ngoài một mình, nay người như vậy đã tăng lên: <b>(Đúng)</b> Khớp với bối cảnh bạn đồng hành (仲間が増え) tăng lên so với trước đây.<br>• 4. Vì ngày xưa không được vào quán ăn một mình, nay đã có thể tự do vào: Sai, ngày xưa vẫn vào được nhưng cảm thấy ngại ngùng (肩身が狭い) chứ không phải bị cấm.",
+          "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-                  "id": 136,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "②<u>良い例</u>とあるが、何の良い例と言っているのか。",
-                  "options": [
-                            "結婚しても自分が働いたお金で自分の時間を楽しんでいる女性",
-                            "ずっと結婚せずにおひとりさまの生活を楽しんでいる女性",
-                            "結婚しても子供を持たずにそれぞれが経済的に独立している夫婦",
-                            "結婚後、子供の手が離れてから充実した日々を送っている夫婦"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Câu ngay trước «私の姉が良い例で»: 「経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。」<br><b>Đáp án 1:</b> Phụ nữ dù đã kết hôn vẫn dùng tiền mình tự kiếm để tận hưởng thời gian riêng.",
-                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
+          "id": 136,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "②<u>良い例</u>とあるが、何の良い例と言っているのか。",
+          "options": [
+            "結婚しても自分が働いたお金で自分の時間を楽しんでいる女性",
+            "ずっと結婚せずにおひとりさまの生活を楽しんでいる女性",
+            "結婚しても子供を持たずにそれぞれが経済的に独立している夫婦",
+            "結婚後、子供の手が離れてから充実した日々を送っている夫婦"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Câu ngay trước cụm 「私の姉が良い例で」 viết: 「経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。」 (Ngày càng nhiều phụ nữ tự chủ tài chính, ngay cả sau khi kết hôn vẫn dùng tiền tự kiếm để tận hưởng thời gian của riêng mình).<br><br><b>Dịch câu hỏi:</b> Bài viết nói ②«ví dụ điển hình», vậy đó là ví dụ điển hình cho điều gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Phụ nữ dù đã kết hôn vẫn dùng tiền mình tự kiếm để tận hưởng thời gian riêng: <b>(Đúng)</b> Khớp nguyên văn với câu đứng ngay trước đó.<br>• 2. Phụ nữ cả đời không kết hôn và tận hưởng cuộc sống một mình: Sai, chị gái tác giả đã kết hôn và có con (子供の目が/手が離れた).<br>• 3. Cặp vợ chồng dù kết hôn vẫn không sinh con và độc lập tài chính: Sai, chị gái tác giả có con (đã lớn và không cần chăm bẵm nữa).<br>• 4. Cặp vợ chồng sau khi kết hôn, đợi con cái lớn rồi cùng nhau sống viên mãn: Sai, là người vợ tận hưởng thời gian riêng một mình (一人で登山や海外旅行), không phải cặp vợ chồng cùng hưởng.",
+          "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-                  "id": 137,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "おひとりさまについて筆者の考えに合うのはどれか。",
-                  "options": [
-                            "おひとりさまに対応した商品やサービスはまだ充実していない。",
-                            "おひとりさまに対する社会の変化は興味深い。",
-                            "自分のようなおひとりさまがもっと増えてほしい。",
-                            "おひとりさまという言葉の意味が、これからも変化していくだろう。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đoạn 3 mô tả các sản phẩm và dịch vụ cho người đi một mình ngày càng phong phú (nồi cơm đơn, tour một mình, quầy yakiniku một mình) và tác giả háo hức chờ xem sắp tới sẽ có thêm dịch vụ gì.<br><b>Đáp án 2:</b> Những thay đổi của xã hội đối với «ohitorisama» thật thú vị.",
-                  "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
+          "id": 137,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "おひとりさまについて筆者の考えに合うのはどれか。",
+          "options": [
+            "おひとりさまに対応した商品やサービスはまだ充実していない。",
+            "おひとりさまに対する社会の変化は興味深い。",
+            "自分のようなおひとりさまがもっと増えてほしい。",
+            "おひとりさまという言葉の意味が、これからも変化していくだろう。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Đoạn 3 mô tả hàng loạt sản phẩm và dịch vụ mới dành cho người một mình (nồi cơm đơn, ấm điện đơn, tour du lịch một mình, quầy nướng yakiniku một mình) và tác giả bày tỏ sự háo hức chờ đợi xem sắp tới sẽ còn có thêm dịch vụ thú vị nào xuất hiện nữa.<br><br><b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về «ohitorisama»?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Các sản phẩm và dịch vụ dành cho ohitorisama vẫn chưa phong phú: Sai, bài viết nói rõ 「一人客をターゲットにしたサービスも充実してきている」 (đang ngày càng phong phú).<br>• 2. Những thay đổi của xã hội đối với ohitorisama thật thú vị / đáng mong chờ: <b>(Đúng)</b> Khớp với thái độ hào hứng ở đoạn 3: 「これからどんなサービスが増えていくか、楽しみである。」<br>• 3. Mong muốn những ohitorisama giống như mình sẽ tăng thêm nữa: Sai, tác giả không kêu gọi hay mong muốn số lượng tăng thêm, chỉ hào hứng với các dịch vụ mới.<br>• 4. Ý nghĩa của từ ohitorisama từ nay về sau cũng sẽ tiếp tục thay đổi: Sai, bài chỉ nêu ý nghĩa từ này đã mở rộng từ trước đến nay, không dự đoán nó sẽ tiếp tục đổi nghĩa.",
+          "passage": "「おひとりさま」の数が急増している。「おひとりさま」とは、本来「一人」をていねいにいう言葉で、飲食店などの一人客を指すが、最近では独身の男女という意味から、一人で食事や旅行、趣味を楽しむなど一人の時間を（注１）謳歌している人たちのことまで幅広く意味するようになった。かくいう私もずっとおひとりさまで、以前はレストランに一人で行くと、周りのカップルや家族に囲まれて（注２）肩身が狭い思いをすることがあったが、仲間が増え、大変①<u>心強く思っている</u>。\nおひとりさまが増えた背景には、独身女性の増加だけでなく、働く女性が増えたことも大きい理由にあげられる。経済的に自立した女性が、結婚後も自分で稼いだお金で自分だけの時間を楽しむことが増えたのだ。私の姉が②<u>良い例</u>で、子供の（注３）手が離れたことを良いことに、一人で登山や海外旅行に行くなど、充実した毎日を送っている。\nまた、おひとりさま増加に伴い、それに対応した商品やサービスも広がりを見せている。ひとり用の炊飯器や電気ポットなどが店頭に並ぶようになった。旅行会社のひとり旅プランや、焼き肉屋のひとり焼き肉用カウンター席の設置など、一人客をターゲットにしたサービスも充実してきている。おひとりさま（注４）まっしぐらの私にとっては、これからどんなサービスが増えていくか、楽しみである。\n\n（注１）謳歌する：十分に楽しむ\n（注２）肩身が狭い：世間に対して申し訳なく感じる\n（注３）手が離れる：子供が成長して、世話が必要でなくなる\n（注４）まっしぐら：勢いよく進む様子"
         },
         {
-                  "id": 138,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "①<u>その結果がこれなのだ</u>とはどういうことか。",
-                  "options": [
-                            "欧米のものをどんどん取り入れた結果、日本のものにふれる機会が減少していった。",
-                            "欧米のものが身近に溢れた結果、さらに日本の美にふれられるようになった。",
-                            "日本のものが後方に押しやられた結果、日本文化を素直に吸収していった。",
-                            "日本全体が欧米のものをいいと考えた結果、何でも人のせいにするようになった。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: đồ Âu Mỹ tràn ngập xung quanh, đồ Nhật bị đẩy lùi về phía sau; thế hệ tác giả tiếp thu văn hóa Âu Mỹ gần gũi hơn nên kết quả là ít cơ hội tiếp xúc với cái đẹp và tâm hồn Nhật Bản.<br><b>Đáp án 1:</b> Kết quả của việc tiếp nhận ồ ạt đồ Âu Mỹ là cơ hội tiếp xúc với văn hóa Nhật bị giảm đi.",
-                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
+          "id": 138,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "①<u>その結果がこれなのだ</u>とはどういうことか。",
+          "options": [
+            "欧米のものをどんどん取り入れた結果、日本のものにふれる機会が減少していった。",
+            "欧米のものが身近に溢れた結果、さらに日本の美にふれられるようになった。",
+            "日本のものが後方に押しやられた結果、日本文化を素直に吸収していった。",
+            "日本全体が欧米のものをいいと考えた結果、何でも人のせいにするようになった。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> Đoạn 2 viết: đồ Âu Mỹ tràn ngập xung quanh, đồ Nhật bị đẩy lùi về phía sau; thế hệ tác giả cảm thấy văn hóa Âu Mỹ gần gũi hơn văn hóa Nhật và tiếp thu một cách tự nhiên, nên ①«kết quả là như thế này» (làm sao tiếp xúc được với vẻ đẹp và tâm hồn Nhật Bản đây).<br><br><b>Dịch câu hỏi:</b> ①«Kết quả của việc đó là thế này» có nghĩa là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Kết quả của việc tiếp nhận ồ ạt đồ Âu Mỹ là cơ hội tiếp xúc với văn hóa Nhật bị giảm đi: <b>(Đúng)</b> Khớp với toàn bộ mạch văn đoạn 2.<br>• 2. Kết quả của việc đồ Âu Mỹ tràn ngập là càng tiếp xúc được nhiều với cái đẹp Nhật Bản: Sai, ngược nghĩa hoàn toàn.<br>• 3. Kết quả của việc đồ Nhật bị đẩy lùi là tiếp thu văn hóa Nhật một cách ngoan ngoãn: Sai, thứ được tiếp thu tự nhiên là văn hóa Âu Mỹ.<br>• 4. Kết quả của việc cả nước Nhật coi trọng đồ Âu Mỹ là cái gì cũng đổ lỗi cho người khác: Sai, bài viết nói rõ 「人のせいにするわけではないが」 (không phải đổ lỗi cho ai).",
+          "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         },
         {
-                  "id": 139,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "②<u>その感覚</u>とはどのような感覚か。",
-                  "options": [
-                            "欧米のものを追いかける感覚",
-                            "新しいことを始める感覚",
-                            "昔やったことがあることを思い出す感覚",
-                            "自分が日本人であると再認識する感覚"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu ngay trước «その感覚»: 「私は、やっぱり、日本人なのだ。」(Cảm giác nhận ra mình quả nhiên là người Nhật).<br><b>Đáp án 4:</b> Cảm giác tái nhận thức mình là người Nhật Bản.",
-                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
+          "id": 139,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "②<u>その感覚</u>とはどのような感覚か。",
+          "options": [
+            "欧米のものを追いかける感覚",
+            "新しいことを始める感覚",
+            "昔やったことがあることを思い出す感覚",
+            "自分が日本人であると再認識する感覚"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Câu ngay trước cụm 「そしてその感覚が快いから」 viết: 「私は、やっぱり、日本人なのだ。」 (Tôi quả nhiên vẫn là người Nhật Bản — cảm giác sâu thẳm bên trong mình được chạm tới khi học trà đạo).<br><br><b>Dịch câu hỏi:</b> ②«Cảm giác đó» là cảm giác như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cảm giác chạy theo những thứ của Âu Mỹ: Sai.<br>• 2. Cảm giác bắt đầu một điều mới mẻ: Sai, tác giả thấy nó hoài niệm như đã biết từ trước chứ không phải cảm giác bắt đầu cái mới.<br>• 3. Cảm giác nhớ lại việc mình từng làm ngày xưa: Sai, tác giả nói rõ 「知らないはずなのに…知っているような気がする」 (lẽ ra không biết nhưng lại thấy như đã biết), không phải nhớ lại việc mình từng làm.<br>• 4. Cảm giác tái nhận thức mình là người Nhật Bản: <b>(Đúng)</b> Khớp trực tiếp với câu 「私は、やっぱり、日本人なのだ。」",
+          "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         },
         {
-                  "id": 140,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者がこの文章でいちばん言いたいことは何か。",
-                  "options": [
-                            "欧米文化が生活の中心になっていることは不自然なので、欧米のものをできる限り遠ざけて、日本のものを積極的に取り入れたほうがいい。",
-                            "欧米のものに囲まれた生活が当たり前になってしまったので、日本人にお茶などを特別に教える機会を作るべきだ。",
-                            "日本のものにふれる機会が減ったとしても、それにふれる機会さえあれば、いつでも日本人の心を取り戻すことができる。",
-                            "日本のものが特別なものになってしまった以上、日本人はもっと素直に欧米文化を吸収し、さらに文化を発展させていかなければならない。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Dù lớn lên trong môi trường Âu Mỹ hóa, khi có cơ hội tiếp xúc lại với trà đạo, tác giả thấy hoài niệm và nhận ra tâm hồn Nhật Bản vẫn nằm sâu bên trong mình.<br><b>Đáp án 3:</b> Dù cơ hội tiếp xúc với văn hóa Nhật giảm đi, chỉ cần có dịp chạm vào nó thì bất cứ lúc nào cũng có thể tìm lại tâm hồn người Nhật.",
-                  "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
+          "id": 140,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者がこの文章でいちばん言いたいことは何か。",
+          "options": [
+            "欧米文化が生活の中心になっていることは不自然なので、欧米のものをできる限り遠ざけて、日本のものを積極的に取り入れたほうがいい。",
+            "欧米のものに囲まれた生活が当たり前になってしまったので、日本人にお茶などを特別に教える機会を作るべきだ。",
+            "日本のものにふれる機会が減ったとしても、それにふれる機会さえあれば、いつでも日本人の心を取り戻すことができる。",
+            "日本のものが特別なものになってしまった以上、日本人はもっと素直に欧米文化を吸収し、さらに文化を発展させていかなければならない。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Tác giả lớn lên trong môi trường Âu Mỹ hóa, ít cơ hội tiếp xúc văn hóa Nhật; nhưng khi có dịp (học trà đạo sau khi tốt nghiệp đại học), tác giả thấy hoài niệm và nhận ra tâm hồn người Nhật vẫn nằm sâu bên trong mình.<br><br><b>Dịch câu hỏi:</b> Điều tác giả muốn nói nhất trong bài văn này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Văn hóa Âu Mỹ thành trung tâm là bất tự nhiên nên cần tránh xa đồ Âu Mỹ hết mức có thể: Sai, tác giả không kêu gọi bài trừ văn hóa Âu Mỹ.<br>• 2. Vì sống kiểu Âu Mỹ đã thành đương nhiên nên cần tạo cơ hội dạy riêng trà đạo cho người Nhật: Sai, trà đạo chỉ là trải nghiệm cá nhân của tác giả, không đề xuất bắt buộc dạy cho mọi người.<br>• 3. Dù cơ hội tiếp xúc với văn hóa Nhật giảm đi, chỉ cần có dịp chạm vào nó thì bất cứ lúc nào cũng có thể tìm lại tâm hồn người Nhật: <b>(Đúng)</b> Khớp với thông điệp xuyên suốt từ đoạn 3 đến đoạn kết.<br>• 4. Một khi đồ Nhật đã thành thứ đặc biệt thì người Nhật cần tiếp thu văn hóa Âu Mỹ hơn nữa: Sai, ngược với trọng tâm bài viết.",
+          "passage": "私がものごころついた頃は、もう日本は日本でなくなりはじめていた。着物を着ている人もいたにはいたが、洋服が主流になっていた。畳の間はまだあったけれど人々は椅子の暮らしの方が楽だと思いはじめていた。人々あるいは日本全体が、欧米のものをよしとしてそれを追っていた。\n身近に欧米のものが溢れだし、日本のものはだんだんと後方に押しやられてゆく。そんな中で、われわれは育った。人のせいにするわけではないが、そこでどうやって日本の美にふれられようか。日本の心にふれて、日本人になれようか。われわれは日本よりも欧米文化を身近に感じ、それを素直に吸収していったのであって①<u>その結果がこれなのだ</u>。\nでも何かがきっかけで、日本のものにふれることがある。あるいは、何かを機に日本のものを、ということになるのかもしれない。それだけ日本のものが特別なものになっているということなのだが、私もまた大学卒業を機に、一念発起してお茶を始めた。（中略）\nそのはずなのだが、いつか、こうした感覚が懐かしいものに思えてきたのはどうしたことか。知らないはずなのに、新しいと思っていたはずなのに、知っているような気がする。自分の奥底の何かが触れた、そんな感じ。私は、やっぱり、日本人なのだ。そして②<u>その感覚</u>が快いから、こうしてお茶も続いているのだろう。\n（有吉玉青『心を包む』平凡社による）"
         }
       ]
     },

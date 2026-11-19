@@ -819,319 +819,319 @@ window.JLPT_DATA[12] = {
           "passage": "【文章：天気予報を活用した食品ロス削減】\n毎日の生活の中で、天気予報は欠かせない情報の一つだ。着る服装を選ぶときも、休日の予定を立てる時も、天気はいつも［　48　］だ。毎朝天気予報をチェックしている人も多いだろう。\n\n食品の中には、天候や気温に需要が大きく左右されるものも多い。需要予測を誤り、過剰に生産してしまうと、それだけ多くの食品ロスが生じてしまう。\n［　49　］、まず、長期保存が出来ず気象状況が売り上げに大きく影響する「豆腐」と、特定の季節に需要が集中する「麺つゆ」に絞って実験が行われた。\n\n政府は気象データとPOSデータから需要予測を行い、各社に提供する取り組みを始めた。［　50　］、食品ロスを減らせるばかりではない。その処理の過程で発生する二酸化炭素を減らすこともできる。\n\n現在、対象商品を拡大しながら人工知能も取り入れ、さらに高度な需要予測が可能になってきているという。今後、より大きな成果が［　51　］。"
         },
         {
-                  "id": 52,
-                  "mondai": 10,
-                  "mondaiName": "問題10：短文読解",
-                  "question": "筆者の考えに合うのはどれか。",
-                  "options": [
-                            "大人は子供の好き嫌いを気にしすぎない方が良い。",
-                            "大人の食べ物に対する態度が、子供の好き嫌いに影響する。",
-                            "子供の頃の好き嫌いは、大人になってからも変わらない。",
-                            "子供の好き嫌いを無くすより、食事を楽しむことの方が大切だ。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Người lớn chê «dở, ghét» thì trẻ cũng không thể thích; ngược lại nếu thấy người lớn ăn ngon miệng, cười vui thì trẻ có thể nảy sinh hứng thú và ăn được.<br><b>Đáp án 2:</b> Thái độ của người lớn đối với đồ ăn ảnh hưởng đến sự kén ăn/thích ghét của trẻ.",
-                  "passage": "以下は保護者に向けて書かれた文書である。\n\n最初に知っておきたいのは、保護者が嫌いなものは、子供も好きになれないということです。普段から「まずい、嫌い」と聞かされているものを美味しいと思えないのは当然です。また嫌がるものを無理に食べさせても、嫌な思い出が残るばかりで、良い結果は出ません。\nそれに対して、最初は苦手だった食べ物でも、周囲の大人たちが「美味しいね」と笑顔で食べている姿を見て興味が湧き、食べられるようになることがあります。つまり、偏食をなくすには、「親子で一緒に楽しみながら」がコツなのだ。"
+          "id": 52,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解",
+          "question": "筆者の考えに合うのはどれか。",
+          "options": [
+            "大人は子供の好き嫌いを気にしすぎない方が良い。",
+            "大人の食べ物に対する態度が、子供の好き嫌いに影響する。",
+            "子供の頃の好き嫌いは、大人になってからも変わらない。",
+            "子供の好き嫌いを無くすより、食事を楽しむことの方が大切だ。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Người lớn thường xuyên chê «dở, ghét» thì trẻ cũng không thể thích được; ép ăn thứ trẻ ghét cũng chỉ để lại kỷ niệm xấu. Ngược lại, nếu thấy người lớn ăn ngon miệng, cười vui thì trẻ có thể nảy sinh hứng thú và ăn được. Bí quyết hết kén ăn là «cha mẹ và con cái cùng vui vẻ ăn».<br><br><b>Dịch câu hỏi:</b> Điều nào phù hợp với suy nghĩ của tác giả?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người lớn không nên quá bận tâm đến việc thích hay ghét đồ ăn của trẻ: Sai vì bài viết không khuyên bỏ mặc, mà khuyên cha mẹ làm gương và cùng vui vẻ ăn để giúp trẻ bỏ kén ăn.<br>• 2. Thái độ của người lớn đối với đồ ăn ảnh hưởng đến sự thích ghét của trẻ: <b>(Đúng)</b> Khớp với nội dung chính: cha mẹ chê dở thì trẻ không thích, người lớn ăn ngon miệng cười vui thì trẻ có hứng thú ăn theo.<br>• 3. Sở thích/kén ăn thời thơ ấu khi lớn lên cũng không thay đổi: Sai vì bài có nêu trẻ ban đầu không thích nhưng nhờ thấy người lớn ăn vui vẻ mà có thể ăn được.<br>• 4. Hơn việc làm mất tính kén ăn của trẻ, việc tận hưởng bữa ăn quan trọng hơn: Sai vì bài nói «cùng vui vẻ ăn» là bí quyết để xóa bỏ tính kén ăn, không đối lập hai việc này.",
+          "passage": "以下は保護者に向けて書かれた文書である。\n\n最初に知っておきたいのは、保護者が嫌いなものは、子供も好きになれないということです。普段から「まずい、嫌い」と聞かされているものを美味しいと思えないのは当然です。また嫌がるものを無理に食べさせても、嫌な思い出が残るばかりで、良い結果は出ません。\nそれに対して、最初は苦手だった食べ物でも、周囲の大人たちが「美味しいね」と笑顔で食べている姿を見て興味が湧き、食べられるようになることがあります。つまり、偏食をなくすには、「親子で一緒に楽しみながら」がコツなのだ。"
         },
         {
-                  "id": 53,
-                  "mondai": 10,
-                  "mondaiName": "問題10：短文読解",
-                  "question": "このメールで伝えたいことは何か。",
-                  "options": [
-                            "誰でも駐車場を利用できるようにしてほしい。",
-                            "自転車を止めるスペースを広げてほしい。",
-                            "駐車場をしっかり管理してほしい。",
-                            "管理人の人数を増やしてほしい。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Người gửi phản ánh nhiều xe không dán tem vẫn đỗ bừa làm người trả tiền không có chỗ; đề nghị quản lý đi tuần dọn xe và nhắc nhở, xử lý phù hợp.<br><b>Đáp án 3:</b> Mong quản lý bãi đỗ xe thật chặt chẽ.",
-                  "passage": "以下はある市に届いたメールである。\n\n花丸市道路交通部 ご担当者様\n\n花丸駅前の有料駐車場を利用している者です。\n最近、利用許可のシールが貼られていない自転車を多く見ます。この駐車場は、利用料金を払った際にもらう利用許可シールを貼らなければ利用できないはずなので、これらは無断で止められているのではないでしょうか。止めるスペースがない日もあり、とても迷惑しています。管理人が見回って、これらの自転車を片付けたり、無断で止めている人に注意したりするべきだと思います。料金を払って利用している人がきちんと止められるように適切な対応をお願いします。\nご検討をよろしくお願いいたします。\n\n北山進一"
+          "id": 53,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解",
+          "question": "このメールで伝えたいことは何か。",
+          "options": [
+            "誰でも駐車場を利用できるようにしてほしい。",
+            "自転車を止めるスペースを広げてほしい。",
+            "駐車場をしっかり管理してほしい。",
+            "管理人の人数を増やしてほしい。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Người gửi (anh Kitayama) phản ánh rằng bãi đỗ xe có thu phí trước ga Hanamaru gần đây có nhiều xe đạp không dán tem cho phép đỗ bừa bãi, khiến người trả tiền nhiều hôm không có chỗ đỗ. Anh đề nghị người quản lý đi tuần dọn xe và nhắc nhở người đỗ trái phép để người trả phí đỗ được đàng hoàng.<br><br><b>Dịch câu hỏi:</b> Điều muốn truyền đạt trong email này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Mong hãy cho bất kỳ ai cũng có thể sử dụng bãi đỗ xe: Sai vì đây là bãi đỗ có thu phí, chỉ người trả phí và dán tem mới được dùng.<br>• 2. Mong hãy mở rộng không gian đỗ xe đạp: Sai vì vấn đề không phải bãi chật mà là xe đỗ trái phép chiếm chỗ.<br>• 3. Mong hãy quản lý bãi đỗ xe thật chặt chẽ: <b>(Đúng)</b> Khớp với đề nghị người quản lý đi tuần, dọn xe không tem, nhắc nhở người đỗ chui và có biện pháp xử lý phù hợp.<br>• 4. Mong hãy tăng số lượng người quản lý: Sai vì email không hề đề cập đến việc tăng nhân sự quản lý.",
+          "passage": "以下はある市に届いたメールである。\n\n花丸市道路交通部 ご担当者様\n\n花丸駅前の有料駐車場を利用している者です。\n最近、利用許可のシールが貼られていない自転車を多く見ます。この駐車場は、利用料金を払った際にもらう利用許可シールを貼らなければ利用できないはずなので、これらは無断で止められているのではないでしょうか。止めるスペースがない日もあり、とても迷惑しています。管理人が見回って、これらの自転車を片付けたり、無断で止めている人に注意したりするべきだと思います。料金を払って利用している人がきちんと止められるように適切な対応をお願いします。\nご検討をよろしくお願いいたします。\n\n北山進一"
         },
         {
-                  "id": 54,
-                  "mondai": 10,
-                  "mondaiName": "問題10：短文読解",
-                  "question": "この人がコンビニで売られている飲みものを見て気づいたことは何か。",
-                  "options": [
-                            "飲み物が売れる理由には、持ち運びしやすいかどうかも関係すること。",
-                            "量がすくなくなっても値段の安い物の方が売れるようになったこと。",
-                            "ペットボトルの飲み物で減量する女性が昨年辺りから増えていること。",
-                            "どのような飲み物が流行るかは、人気のある雑誌の影響を受けること。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Chai giảm dung tích còn khoảng 400cc nhưng giá giữ nguyên, tuy hơi đắt nhưng lại rất hút khách vì phụ nữ dễ bỏ vừa túi xách.<br><b>Đáp án 1:</b> Lý do đồ uống bán chạy còn liên quan đến việc có dễ mang theo hay không.",
-                  "passage": "私は毎日、自宅の周りを散歩する。運動、気分転換など色々な理由はありますが、コンビニに立ち寄ることも目的の一つだ。\nそこでいろいろな売り物を見て、雑誌を眺めて、飲み物を買う。この飲み物一つとっても、世の中の様々な流れが凝縮されている（注１）。\n例えば、大きさ。ペットボトルと言えば500ccと思い込んでいるかもしれないが、昨年辺りから変化がある。400cc前後に減量しているものがあるのだ。でも、値段は同じ。\n割高（注２）なようだが、結構人気がある。理由は簡単。女性がバッグに入れやすいのだ。\n\n（注１）凝縮されている：たくさんのものが一つのところにぎゅっと詰まっている。\n（注２）割高：分量に対して値段が高いこと。"
+          "id": 54,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解",
+          "question": "この人がコンビニで売られている飲みものを見て気づいたことは何か。",
+          "options": [
+            "飲み物が売れる理由には、持ち運びしやすいかどうかも関係すること。",
+            "量がすくなくなっても値段の安い物の方が売れるようになったこと。",
+            "ペットボトルの飲み物で減量する女性が昨年辺りから増えていること。",
+            "どのような飲み物が流行るかは、人気のある雑誌の影響を受けること。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Tác giả nhận thấy chỉ từ một chai nước ở cửa hàng tiện lợi cũng thấy rõ dòng chảy xã hội: chai PET vốn quen dung tích 500cc nhưng từ khoảng năm ngoái có loại giảm xuống còn khoảng 400cc với giá giữ nguyên. Tuy hơi đắt so với lượng nhưng lại rất hút khách vì phụ nữ dễ bỏ vừa túi xách.<br><br><b>Dịch câu hỏi:</b> Người này đã nhận ra điều gì khi nhìn đồ uống bán ở cửa hàng tiện lợi?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Lý do đồ uống bán chạy còn liên quan đến việc có dễ mang theo hay không: <b>(Đúng)</b> Dù giá đắt hơn theo dung tích nhưng vẫn bán chạy vì lý do đơn giản là phụ nữ dễ cho vào túi xách mang theo.<br>• 2. Dù lượng ít đi nhưng đồ giá rẻ hơn mới bán chạy: Sai vì bài nói rõ giá vẫn giữ nguyên (割高 - đắt hơn xét trên lượng).<br>• 3. Số phụ nữ giảm cân bằng đồ uống chai PET tăng lên từ năm ngoái: Sai vì 「減量」 trong bài chỉ việc giảm dung tích chai nước, không phải phụ nữ giảm cân (bẫy đồng âm).<br>• 4. Đồ uống nào thịnh hành chịu ảnh hưởng từ tạp chí nổi tiếng: Sai vì tác giả chỉ nhắc việc đứng ngắm tạp chí ở cửa hàng tiện lợi, không liên quan đến xu hướng đồ uống.",
+          "passage": "私は毎日、自宅の周りを散歩する。運動、気分転換など色々な理由はありますが、コンビニに立ち寄ることも目的の一つだ。\nそこでいろいろな売り物を見て、雑誌を眺めて、飲み物を買う。この飲み物一つとっても、世の中の様々な流れが凝縮されている（注１）。\n例えば、大きさ。ペットボトルと言えば500ccと思い込んでいるかもしれないが、昨年辺りから変化がある。400cc前後に減量しているものがあるのだ。でも、値段は同じ。\n割高（注２）なようだが、結構人気がある。理由は簡単。女性がバッグに入れやすいのだ。\n\n（注１）凝縮されている：たくさんのものが一つのところにぎゅっと詰まっている。\n（注２）割高：分量に対して値段が高いこと。"
         },
         {
-                  "id": 55,
-                  "mondai": 10,
-                  "mondaiName": "問題10：短文読解",
-                  "question": "このメールの用件は何か。",
-                  "options": [
-                            "注文した商品の数を、10台に変更できるかどうか教えてほしい。",
-                            "注文した商品の一部を、19日までに納品できるかどうか教えてほしい。",
-                            "注文した商品のすべてを、19日までに納品できるかどうか教えてほしい。",
-                            "注文した商品のすべてを、キャンセルできるかどうか教えてほしい。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đợt sale bắt đầu từ ngày 20, nên hỏi trước ngày hôm trước (tức 19) có thể giao ít nhất 10 máy (một phần đơn hàng) được không.<br><b>Đáp án 2:</b> Mong cho biết có thể giao một phần hàng đã đặt trước ngày 19 không.",
-                  "passage": "以下は商品を注文した会社がメーカーに送ったメールである。\n\n株式会社カケイ電機\n販売部 西山光一様\n\nお世話になっております。ヒラノ商会の本田です。\n今朝メールを確認いたしました。\n納品が予定より遅れるということですが、注文の際にご説明したとおり、今回注文した商品は今月20日から始まるセールで販売を予定しているものです。\nそのため、セールが始まる前日までに、少なくとも10台は納品していただけないでしょうか。\n間に合わない場合は、全ての注文をキャンセルすることも考えております。\n至急ご回答いただきたくて宜しくお願い致します。\n\nヒラノ商会\n営業部 本田美知子\nMichiko_honda@hiranoteikyo.co.jp"
+          "id": 55,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解",
+          "question": "このメールの用件は何か。",
+          "options": [
+            "注文した商品の数を、10台に変更できるかどうか教えてほしい。",
+            "注文した商品の一部を、19日までに納品できるかどうか教えてほしい。",
+            "注文した商品のすべてを、19日までに納品できるかどうか教えてほしい。",
+            "注文した商品のすべてを、キャンセルできるかどうか教えてほしい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Công ty Hirano gửi email cho nhà sản xuất Kakei về việc giao hàng bị trễ so với dự kiến. Vì hàng đặt dùng để bán trong đợt giảm giá bắt đầu từ ngày 20 tháng này, nên công ty đề nghị giao trước ít nhất 10 chiếc chậm nhất vào ngày hôm trước khi đợt sale bắt đầu (tức ngày 19); nếu không kịp thì cân nhắc hủy toàn bộ đơn.<br><br><b>Dịch câu hỏi:</b> Nội dung công việc chính của email này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Mong cho biết có thể đổi số lượng hàng đặt thành 10 chiếc không: Sai vì 10 chiếc là mức tối thiểu cần giao trước ngày sale, không phải đổi tổng đơn thành 10 chiếc.<br>• 2. Mong cho biết có thể giao một phần hàng đã đặt trước ngày 19 không: <b>(Đúng)</b> Đợt sale bắt đầu ngày 20 nên 「セールが始まる前日まで」 là ngày 19, và 「少なくとも10台」 là một phần của đơn hàng.<br>• 3. Mong cho biết có thể giao toàn bộ hàng đã đặt trước ngày 19 không: Sai vì email chỉ yêu cầu giao tối thiểu 10 chiếc trước, không đòi hỏi toàn bộ.<br>• 4. Mong cho biết có thể hủy toàn bộ hàng đã đặt không: Sai vì việc hủy đơn chỉ là phương án nếu không giao kịp, không phải mục đích hỏi chính.",
+          "passage": "以下は商品を注文した会社がメーカーに送ったメールである。\n\n株式会社カケイ電機\n販売部 西山光一様\n\nお世話になっております。ヒラノ商会の本田です。\n今朝メールを確認いたしました。\n納品が予定より遅れるということですが、注文の際にご説明したとおり、今回注文した商品は今月20日から始まるセールで販売を予定しているものです。\nそのため、セールが始まる前日までに、少なくとも10台は納品していただけないでしょうか。\n間に合わない場合は、全ての注文をキャンセルすることも考えております。\n至急ご回答いただきたくて宜しくお願い致します。\n\nヒラノ商会\n営業部 本田美知子\nMichiko_honda@hiranoteikyo.co.jp"
         },
         {
-                  "id": 56,
-                  "mondai": 10,
-                  "mondaiName": "問題10：短文読解",
-                  "question": "この調査結果では、就職先を決めるとき最も多くの学生が重視していた点は何か。",
-                  "options": [
-                            "働いている人たちやその職場の印象がいいこと。",
-                            "自分が希望している職種に就くことができること。",
-                            "将来その企業が発展する可能性を持っていること。",
-                            "勤務地が選択でき、転勤の可能性が少ないこと。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đứng đầu (54.3%) là 「社員の魅力や社内の雰囲気」(sức hút của nhân viên và bầu không khí trong công ty).<br><b>Đáp án 1:</b> Ấn tượng về những người đang làm việc và môi trường nơi làm việc đó tốt.",
-                  "passage": "以下の文章は、就職に対する学生の意識調査の結果について書かれたものである。\n\n今回の調査では、入社する企業を決めるうえで重視する点を最大三つ挙げてもらった。企業の規模や将来性、希望職種に就ける可能性などを抑えてトップになったのは「社員の魅力や社内の雰囲気」（54.3%）。「勤務地や転勤の有無」も22.1%あった。良好な人間関係や居心地の良さを求める学生が増えているようだ。"
+          "id": 56,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解",
+          "question": "この調査結果では、就職先を決めるとき最も多くの学生が重視していた点は何か。",
+          "options": [
+            "働いている人たちやその職場の印象がいいこと。",
+            "自分が希望している職種に就くことができること。",
+            "将来その企業が発展する可能性を持っていること。",
+            "勤務地が選択でき、転勤の可能性が少ないこと。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Kết quả khảo sát ý thức xin việc của sinh viên (chọn tối đa 3 điểm coi trọng khi chọn công ty): vượt qua quy mô, triển vọng tương lai hay cơ hội vào đúng vị trí mong muốn, đứng đầu là «sức hút của nhân viên và bầu không khí trong công ty» (54,3%), tiếp theo có «nơi làm việc và việc chuyển công tác» (22,1%). Có vẻ ngày càng nhiều sinh viên tìm kiếm quan hệ tốt và môi trường dễ chịu.<br><br><b>Dịch câu hỏi:</b> Theo kết quả khảo sát này, điểm mà nhiều sinh viên coi trọng nhất khi quyết định nơi làm việc là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Ấn tượng về những người đang làm việc và nơi làm việc đó tốt: <b>(Đúng)</b> Diễn đạt lại cụm 「社員の魅力や社内の雰囲気」 chiếm tỷ lệ cao nhất (54,3%).<br>• 2. Có thể vào làm ở ngành nghề/vị trí mình mong muốn: Sai vì đây chỉ là một trong các yếu tố xếp sau vị trí đứng đầu.<br>• 3. Doanh nghiệp đó có khả năng phát triển trong tương lai: Sai vì 「将来性」 cũng xếp sau yếu tố đứng đầu.<br>• 4. Có thể chọn nơi làm việc và ít khả năng bị điều chuyển công tác: Sai vì yếu tố này chỉ chiếm 22,1%, không phải nhiều nhất.",
+          "passage": "以下の文章は、就職に対する学生の意識調査の結果について書かれたものである。\n\n今回の調査では、入社する企業を決めるうえで重視する点を最大三つ挙げてもらった。企業の規模や将来性、希望職種に就ける可能性などを抑えてトップになったのは「社員の魅力や社内の雰囲気」（54.3%）。「勤務地や転勤の有無」も22.1%あった。良好な人間関係や居心地の良さを求める学生が増えているようだ。"
         },
         {
-                  "id": 57,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "筆者が編集者の仕事を重要だと考えるのはなぜか。",
-                  "options": [
-                            "編集者は読者の求めているものがわかるから。",
-                            "編集者は具体的なアドバイスをくれるから。",
-                            "編集者の反応次第で意欲が変わるから。",
-                            "編集者の反応から面白い考えを思いつくから。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết rõ: nếu biên tập viên tỏ phản ứng chán thì động lực viết của tác giả cũng tụt theo, ngược lại nói biên tập viên là công việc quan trọng đến thế.<br><b>Đáp án 3:</b> Vì tùy vào phản ứng của biên tập viên mà động lực/hứng thú viết thay đổi.",
-                  "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
+          "id": 57,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "筆者が編集者の仕事を重要だと考えるのはなぜか。",
+          "options": [
+            "編集者は読者の求めているものがわかるから。",
+            "編集者は具体的なアドバイスをくれるから。",
+            "編集者の反応次第で意欲が変わるから。",
+            "編集者の反応から面白い考えを思いつくから。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Dù viết lách hướng tới đông đảo độc giả, nhưng trong quá trình viết tác giả luôn hướng tới một người đọc cụ thể đầu tiên là biên tập viên phụ trách. Nếu biên tập viên có vẻ phản ứng chán thì động lực viết cũng giảm theo; ngược lại, tác giả cho rằng biên tập viên là công việc quan trọng đến nhường ấy.<br><br><b>Dịch câu hỏi:</b> Tại sao tác giả cho rằng công việc của biên tập viên là quan trọng?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì biên tập viên hiểu được điều mà độc giả đang tìm kiếm: Sai vì bài không nói đến việc biên tập viên nắm bắt nhu cầu độc giả.<br>• 2. Vì biên tập viên đưa ra những lời khuyên cụ thể: Sai vì bài không đề cập đến lời khuyên cụ thể của biên tập viên.<br>• 3. Vì tùy vào phản ứng của biên tập viên mà động lực viết thay đổi: <b>(Đúng)</b> Khớp với câu: nếu biên tập viên phản ứng chán thì động lực viết (やる気) của tác giả cũng tụt xuống.<br>• 4. Vì từ phản ứng của biên tập viên mà nảy ra được những ý tưởng thú vị: Sai vì bài chỉ nói đến sự thay đổi về động lực, không nói về việc nảy ra ý tưởng từ phản ứng đó.",
+          "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
         },
         {
-                  "id": 58,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "筆者によると、学生のレポートがつまらなかったのはなぜか。",
-                  "options": [
-                            "よいレポートを書かなければいけないと思い込んで書いたから。",
-                            "教師の反応を気にして、頭が固くなってしまったから。",
-                            "授業でした質問の答えを生かして書かなかったから。",
-                            "具体的な相手を意識して書かなかったから。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Khi hỏi bài trên lớp sinh viên nói chuyện hướng tới một người cụ thể (giảng viên) nên tư duy rất sắc; đến khi viết báo cáo lại mang tâm thế phải viết kiểu lý luận chung chung, không hướng tới người đối thoại cụ thể.<br><b>Đáp án 4:</b> Vì không ý thức viết cho một đối tượng cụ thể.",
-                  "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
+          "id": 58,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "筆者によると、学生のレポートがつまらなかったのはなぜか。",
+          "options": [
+            "よいレポートを書かなければいけないと思い込んで書いたから。",
+            "教師の反応を気にして、頭が固くなってしまったから。",
+            "授業でした質問の答えを生かして書かなかったから。",
+            "具体的な相手を意識して書かなかったから。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Tác giả kể về một sinh viên hay đặt câu hỏi rất thú vị trên lớp vì lúc đó sinh viên đang nói chuyện hướng tới một người cụ thể (tác giả), nhờ vậy tư duy được kích thích. Nhưng khi viết báo cáo cuối kỳ, sinh viên lại mang tâm thế phải viết theo kiểu lý luận chung chung (không hướng tới người đối thoại cụ thể), nên đầu óc bỗng trở nên cứng nhắc và bài viết rất chán.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, tại sao bài báo cáo của sinh viên lại nhàm chán?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì viết với suy nghĩ bắt buộc phải viết một bài báo cáo thật hay: Sai vì bài nói sinh viên nghĩ phải viết như lý luận chung chung (一般論みたいに), không phải cố viết cho hay.<br>• 2. Vì để ý phản ứng của giáo viên nên đầu óc trở nên cứng nhắc: Sai vì chính khi hướng tới giáo viên (lúc hỏi bài) sinh viên mới thú vị; lúc viết báo cáo mới mất đi sự đối thoại đó.<br>• 3. Vì không vận dụng câu trả lời cho những câu hỏi đã đặt trên lớp: Sai vì bài không đề cập đến việc dùng lại câu trả lời trên lớp.<br>• 4. Vì đã viết mà không ý thức đến một đối tượng cụ thể: <b>(Đúng)</b> Khi viết báo cáo, sinh viên chuyển sang viết kiểu lý luận chung chung thay vì hướng tới một người cụ thể như lúc hỏi bài.",
+          "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
         },
         {
-                  "id": 59,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "筆者によると、本や論文を書くうえで大切なことは何か。",
-                  "options": [
-                            "語りかけるようなスタイルで書く。",
-                            "書きたいと思うことだけを書く。",
-                            "読み手にとって意味のあることを書く。",
-                            "読み手に向かって語りたいことを書く。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu cuối bài: 「そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。」<br><b>Đáp án 4:</b> Viết những điều mình muốn kể hướng tới người đọc.",
-                  "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
+          "id": 59,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "筆者によると、本や論文を書くうえで大切なことは何か。",
+          "options": [
+            "語りかけるようなスタイルで書く。",
+            "書きたいと思うことだけを書く。",
+            "読み手にとって意味のあることを書く。",
+            "読み手に向かって語りたいことを書く。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn cuối kết luận: Sách và luận văn thường được viết theo văn phong như không rõ đang nói với ai, nhưng trong đó nhất thiết phải có sự đối thoại. Tóm lại, tác giả cho rằng nếu không phải điều mình muốn kể cho người khác nghe thì viết ra cũng vô nghĩa.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, điều quan trọng khi viết sách hoặc luận văn là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Viết bằng văn phong như đang trò chuyện: Sai vì bài nói thực tế sách/luận văn thường viết kiểu không rõ nói với ai, cái cần là tinh thần «đối thoại» bên trong (điều muốn kể cho người đọc), không phải hình thức văn phong.<br>• 2. Chỉ viết những điều bản thân muốn viết: Sai vì thiếu yếu tố «hướng tới người đọc» / «muốn kể cho người khác nghe».<br>• 3. Viết những điều có ý nghĩa đối với người đọc: Sai vì ý tác giả là nếu không phải điều mình muốn nói với người ta thì viết cũng vô nghĩa (từ phía người viết muốn chia sẻ).<br>• 4. Viết những điều muốn kể hướng tới người đọc: <b>(Đúng)</b> Diễn đạt chính xác ý 「そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がない」.",
+          "passage": "書くという行為は、最終的には、不特定多数の読者に向けられている。しかし、そのプロセスにおいては、実は、かなり具体的な相手に向かって書いているところがあるのだ。\n実際に書き進める際には、私の場合、その原稿を読む最初の読者、すなわち担当編集者を念頭（注１）に置きながら書いている。ある意味で、その人に向けて書いている部分もかなりあるのだ。編集者がつまらない反応をしそうだと、こちらのやる気も落ちてくるというようなことが実際にはある。逆に言うと、編集者とはそれくらい重要な仕事だと私は思う。\n（中略）\n大学で教えていたときにこんなことがあった。よく質問してくる学生がいて、それがいつもたいへんおもしろい質問なのだ。だんだん「この学生はなかなか可能性がある」と思うようになって、その学生が期末にどんなレポートを書いてくるか楽しみにしていたら、レポートがすごくつまらなかったのである。なぜか、おそらくはこうだ。その学生は、質問している時には具体的な他者、すなわち私に向かってしゃべっている。そのときの方が思考が刺激されておもしろい論点に自分で気がつくのだが、いざ（注２）レポートを書く際には一般論みたいに書かなければいけないという構え（注３）になり、そうなったとたんに、急に頭が固くなってしまったのだろう。\n本や論文は、最終的には誰に向かって語っているかわからないようなスタイルで書かれることが普通だけれども、そこには対話がないといけない。要するに、人に話したくなるようなことじゃないと書いても意味がないと思うのだ。\n\n（注１）念頭に置く：ここでは、意識する\n（注２）いざ：ここでは、実際に\n（注３）構え：ここでは、気持ち"
         },
         {
-                  "id": 60,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "<u>好きなことしかやりたがらない子供をつくってしまった</u>とあるが、筆者はどこにその原因があると考えているか。",
-                  "options": [
-                            "個性の重視ということが間違って解釈されている点。",
-                            "個性の重視ということが注目されている点。",
-                            "個性の意味についての解釈が定まっていない点。",
-                            "教師が社会生活上のルールを教えていない点。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 nêu rõ cách hiểu sai rằng «coi trọng cá tính là cứ để trẻ thích làm gì thì làm nấy».<br><b>Đáp án 1:</b> Ở chỗ việc «coi trọng cá tính» bị hiểu sai lệch.",
-                  "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
+          "id": 60,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "<u>好きなことしかやりたがらない子供をつくってしまった</u>とあるが、筆者はどこにその原因があると考えているか。",
+          "options": [
+            "個性の重視ということが間違って解釈されている点。",
+            "個性の重視ということが注目されている点。",
+            "個性の意味についての解釈が定まっていない点。",
+            "教師が社会生活上のルールを教えていない点。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Từ khi «coi trọng cá tính» được chú ý, cách hiểu «tôn trọng sở thích của trẻ, để trẻ thích gì làm nấy là coi trọng cá tính» lan rộng. Hệ quả là giáo viên mất cơ hội dạy phép tắc xã hội và tạo ra những đứa trẻ chỉ muốn làm việc mình thích. Thực chất coi trọng cá tính là khẳng định mỗi người là một cá thể khác nhau nên có sở thích, giá trị quan khác nhau là điều tự nhiên.<br><br><b>Dịch câu hỏi:</b> Có câu «đã tạo ra những đứa trẻ chỉ muốn làm điều mình thích», tác giả cho rằng nguyên nhân nằm ở đâu?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Ở điểm việc «coi trọng cá tính» bị hiểu sai lệch: <b>(Đúng)</b> Cách diễn giải sai rằng cứ để trẻ thích gì làm nấy chính là nguyên nhân dẫn đến hệ quả đó.<br>• 2. Ở điểm việc «coi trọng cá tính» đang được chú ý: Sai vì bản thân việc chú ý đến cá tính không phải nguyên nhân, mà là sự hiểu sai về nó.<br>• 3. Ở điểm cách hiểu về ý nghĩa của cá tính chưa được thống nhất: Sai vì tác giả chỉ rõ sự hiểu sai phổ biến chứ không nói do chưa thống nhất định nghĩa.<br>• 4. Ở điểm giáo viên không dạy các quy tắc đời sống xã hội: Sai vì việc giáo viên mất cơ hội dạy quy tắc cũng là một hệ quả cùng với việc trẻ chỉ làm điều mình thích, không phải nguyên nhân gốc.",
+          "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
         },
         {
-                  "id": 61,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "筆者は子供の個性を重視するとはどのようなことだと言っているか。",
-                  "options": [
-                            "それぞれの望むことを自由にさせる。",
-                            "それぞれの興味や価値観を重視する。",
-                            "他人より優れた点を高く評価する。",
-                            "他人との違いが大きいほうが良いとする。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: coi trọng cá tính là nhân sinh quan khẳng định rằng mỗi người là một cá thể khác biệt, nên việc mỗi người có sở thích và giá trị quan khác nhau là điều đương nhiên.<br><b>Đáp án 2:</b> Coi trọng sở thích và giá trị quan riêng của mỗi em.",
-                  "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
+          "id": 61,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "筆者は子供の個性を重視するとはどのようなことだと言っているか。",
+          "options": [
+            "それぞれの望むことを自由にさせる。",
+            "それぞれの興味や価値観を重視する。",
+            "他人より優れた点を高く評価する。",
+            "他人との違いが大きいほうが良いとする。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Tác giả định nghĩa: «Coi trọng cá tính» mang ý nghĩa một nhân sinh quan khẳng định rằng «không có hai người nào giống hệt nhau, tức mỗi người là một tồn tại khác biệt, vì vậy mỗi người có hứng thú và giá trị quan khác nhau là điều đương nhiên».<br><br><b>Dịch câu hỏi:</b> Tác giả nói việc coi trọng cá tính của trẻ là như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Để mỗi trẻ tự do làm điều mình mong muốn: Sai vì đây chính là cách hiểu sai lệch bị tác giả phê phán ở đầu bài.<br>• 2. Coi trọng sở thích và giá trị quan riêng của mỗi em: <b>(Đúng)</b> Khớp với định nghĩa khẳng định mỗi người có hứng thú và giá trị quan khác nhau.<br>• 3. Đánh giá cao những điểm vượt trội hơn người khác: Sai vì bài nói về sự khác biệt, không nói về sự hơn thua.<br>• 4. Cho rằng sự khác biệt với người khác càng lớn càng tốt: Sai vì bài chỉ nói mỗi người khác nhau là điều đương nhiên, không nói càng khác càng tốt.",
+          "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
         },
         {
-                  "id": 62,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "子供の教育について、筆者が言いたいことは何か。",
-                  "options": [
-                            "子供の興味や関心は変わりやすいので注意深く観察することが必要だ。",
-                            "子供の興味や関心が広がるように、多様な体験の機会を与えることが重要だ。",
-                            "子供の自主性を尊重し、自身で新しい興味や関心を見つけ出すのを待つべきだ。",
-                            "子供も自身が見つけた興味や関心に注目し、それを集中して経験させた方がよい。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Câu cuối bài: không nên chỉ ngồi chờ trẻ tự có hứng thú mà cần tạo cơ hội cho trẻ trải nghiệm đa dạng.<br><b>Đáp án 2:</b> Quan trọng là trao cho trẻ cơ hội trải nghiệm đa dạng để mở rộng hứng thú và sự quan tâm.",
-                  "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
+          "id": 62,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "子供の教育について、筆者が言いたいことは何か。",
+          "options": [
+            "子供の興味や関心は変わりやすいので注意深く観察することが必要だ。",
+            "子供の興味や関心が広がるように、多様な体験の機会を与えることが重要だ。",
+            "子供の自主性を尊重し、自身で新しい興味や関心を見つけ出すのを待つべきだ。",
+            "子供も自身が見つけた興味や関心に注目し、それを集中して経験させた方がよい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 2 chỉ ra rằng sở thích của trẻ có thể thay đổi từng ngày, nhưng nếu không có cơ hội biết đến đối tượng đó thì trẻ cũng không thể nảy sinh hứng thú. Học sinh tiểu học vốn ít trải nghiệm nên phạm vi quan tâm hẹp. Do đó, thay vì chỉ ngồi chờ trẻ tự thích, cần tạo cơ hội để trẻ có thể trải nghiệm đa dạng.<br><br><b>Dịch câu hỏi:</b> Về việc giáo dục trẻ em, điều tác giả muốn nói là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì sở thích và mối quan tâm của trẻ dễ thay đổi nên cần quan sát cẩn thận: Sai vì bài không nhấn mạnh việc quan sát sự thay đổi.<br>• 2. Quan trọng là trao cho trẻ cơ hội trải nghiệm đa dạng để mở rộng hứng thú và sự quan tâm: <b>(Đúng)</b> Khớp với câu kết: không chỉ chờ trẻ có hứng thú mà phải tạo điều kiện cho trẻ trải nghiệm nhiều điều khác nhau.<br>• 3. Tôn trọng tính tự chủ của trẻ, nên chờ trẻ tự tìm ra hứng thú mới: Sai vì bài viết rõ 「待つばかりでなく」 (đừng chỉ ngồi chờ).<br>• 4. Chú ý vào hứng thú trẻ tự tìm thấy và cho trẻ tập trung trải nghiệm điều đó: Sai vì bài khuyên mở rộng trải nghiệm đa dạng, không phải bó hẹp vào một thứ.",
+          "passage": "個性の重視ということが注目されるようになって以来、「子供の興味を尊重し、一人一人の子供が興味を持つこと、『やってみたい』ということを好きにやらせることが、個性の重視である。」という解釈が広がりました。しかしその結果、社会生活上のしきたり（注１）や習慣を教える機会を失ったと悩む教師と、好きなことしかやりたがらない子供をつくってしまったということはないでしょうか。個性の重視とは、「二人と同じ人間はいない、つまり一人一人異なる存在である。だから、一人一人が異なった興味や価値観を持つのは当然である。」という考え方を肯定する人間観を意味しているのです。\n（中略）\n子供の興味や関心は日々変化する可能性があります。しかし、何らか（注２）の形でその対象を知る機会がなかったなら、興味を持つこともないのです。小学生はまだまだ経験の幅が狭いものです。ですから、おのずと（注３）興味や関心を持つ対象も、非常に限られた範囲のものになります。さまざまなものに興味を持つのを待つばかりでなく、興味が持てるようにさまざまな体験ができるようにすることが大切です。\n\n（注１）しきたり：昔からの決まり\n（注２）何らかの：何かの\n（注３）おのずと：自然と"
         },
         {
-                  "id": 63,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "この文章によると、挨拶をしない、またはできないイヌはどれか。",
-                  "options": [
-                            "子イヌと成犬を区別できないイヌ。",
-                            "挨拶をしない親イヌに育てられた子イヌ。",
-                            "他のイヌと一緒に生活をしたことがあるイヌ。",
-                            "イヌ社会の経験も飼い主による教育もないイヌ。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: những chú chó không có kinh nghiệm sống tập thể và ở nhà cũng được chiều chuộng (thiếu giáo dục của chủ) thì có vẻ không biết chào hỏi.<br><b>Đáp án 4:</b> Chó không có kinh nghiệm xã hội loài chó cũng không được chủ giáo dục.",
-                  "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
+          "id": 63,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "この文章によると、挨拶をしない、またはできないイヌはどれか。",
+          "options": [
+            "子イヌと成犬を区別できないイヌ。",
+            "挨拶をしない親イヌに育てられた子イヌ。",
+            "他のイヌと一緒に生活をしたことがあるイヌ。",
+            "イヌ社会の経験も飼い主による教育もないイヌ。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Chó từng trải nghiệm hoạt động tập thể hoặc được chủ giáo dục kiểu loài chó (biết tôn ti trật tự) thì khi gặp chó khác trên đường sẽ chào hỏi. Ngược lại, những con chó không có kinh nghiệm sống tập thể mà ở nhà lại được chiều chuộng thì trông có vẻ không biết chào hỏi.<br><br><b>Dịch câu hỏi:</b> Theo bài viết này, con chó không chào hỏi hoặc không thể chào hỏi là con nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Chó không phân biệt được chó con và chó trưởng thành: Sai vì đặc điểm phân biệt chó con/chó trưởng thành là của «chó biết chào hỏi».<br>• 2. Chó con được nuôi bởi chó bố mẹ không biết chào hỏi: Sai vì bài không hề nhắc đến chó bố mẹ.<br>• 3. Chó từng sống chung với những con chó khác: Sai vì chó từng sinh hoạt tập thể với chó khác mới biết chào hỏi.<br>• 4. Chó không có kinh nghiệm xã hội loài chó cũng không được chủ giáo dục: <b>(Đúng)</b> Khớp với câu 「集団行動の経験もなく、家でも甘やかされて育ったイヌ」.",
+          "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
         },
         {
-                  "id": 64,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "この文章によると、どんなイヌがどんなイヌにほえて、怖がらせるか。",
-                  "options": [
-                            "挨拶できるイヌが挨拶しない成犬に",
-                            "挨拶できるイヌが挨拶しない子イヌに",
-                            "挨拶できないイヌが挨拶する成犬に",
-                            "挨拶できないイヌが挨拶する子イヌに"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 1 viết: chó biết chào sẽ sủa đe dọa chó không chào, nhưng nếu gặp chó con (子イヌ) thì thường không đe dọa; tức nó phân biệt chó con và chó trưởng thành (成犬).<br><b>Đáp án 1:</b> Chó biết chào sủa đe dọa chó trưởng thành không biết chào.",
-                  "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
+          "id": 64,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "この文章によると、どんなイヌがどんなイヌにほえて、怖がらせるか。",
+          "options": [
+            "挨拶できるイヌが挨拶しない成犬に",
+            "挨拶できるイヌが挨拶しない子イヌに",
+            "挨拶できないイヌが挨拶する成犬に",
+            "挨拶できないイヌが挨拶する子イヌに"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Chó biết chào hỏi thường sủa đe dọa những con chó không chào hỏi. Tuy nhiên, khi gặp chó con (子イヌ), dù chó con không chào được thì chó biết chào cũng thường không sủa đe dọa; tức là nó phân biệt giữa chó con và chó trưởng thành (成犬) rồi mới phán xét việc có chào hay không.<br><br><b>Dịch câu hỏi:</b> Theo bài viết này, con chó như thế nào sẽ sủa để dọa con chó như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Chó biết chào sủa chó trưởng thành không biết chào: <b>(Đúng)</b> Chó biết chào sủa đe dọa chó không chào, nhưng trừ chó con ra, tức là nhắm vào chó trưởng thành không biết chào.<br>• 2. Chó biết chào sủa chó con không biết chào: Sai vì bài nói rõ gặp chó con thì thường không đe dọa.<br>• 3. Chó không biết chào sủa chó trưởng thành biết chào: Sai ngược đối tượng.<br>• 4. Chó không biết chào sủa chó con biết chào: Sai hoàn toàn.",
+          "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
         },
         {
-                  "id": 65,
-                  "mondai": 11,
-                  "mondaiName": "問題11：中文読解",
-                  "question": "筆者は、イヌの挨拶行動についてどのように述べているか。",
-                  "options": [
-                            "イヌ社会での経験よりも飼い主の教育があったほうが、スムーズにできる。",
-                            "イヌ社会での経験は必ずしも必要ではないが、あればスムーズにできる。",
-                            "イヌ社会での集団生活と飼い主の教育によって初めて習得できるものだ。",
-                            "イヌ社会での集団生活を経験することによって初めて習得できるものだ。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: dù không có kinh nghiệm xã hội loài chó vẫn chào ở mức độ nhất định (bẩm sinh), nhưng để chào hỏi nghi thức trôi chảy hơn thì có sống tập thể với chó khác vẫn tốt hơn.<br><b>Đáp án 2:</b> Kinh nghiệm xã hội loài chó không nhất thiết bắt buộc, nhưng có thì sẽ thực hiện trôi chảy hơn.",
-                  "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
+          "id": 65,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解",
+          "question": "筆者は、イヌの挨拶行動についてどのように述べているか。",
+          "options": [
+            "イヌ社会での経験よりも飼い主の教育があったほうが、スムーズにできる。",
+            "イヌ社会での経験は必ずしも必要ではないが、あればスムーズにできる。",
+            "イヌ社会での集団生活と飼い主の教育によって初めて習得できるものだ。",
+            "イヌ社会での集団生活を経験することによって初めて習得できるものだ。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 2 bàn về tính bẩm sinh hay học tập của hành vi chào hỏi: Chó biết tuân theo thứ bậc dù chưa từng trải nghiệm xã hội loài chó vẫn chào được ở mức độ nhất định (mang tính bẩm sinh). Tuy nhiên, để việc chào hỏi mang tính nghi thức diễn ra trôi chảy hơn thì có đời sống tập thể với các con chó khác vẫn tốt hơn (có phần học tập/lĩnh hội).<br><br><b>Dịch câu hỏi:</b> Tác giả đã trình bày như thế nào về hành vi chào hỏi của loài chó?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Có sự giáo dục của chủ hơn là kinh nghiệm xã hội loài chó thì sẽ làm trôi chảy hơn: Sai vì bài nói để nghi thức chào hỏi trôi chảy (円滑に) thì sống tập thể với chó khác vẫn tốt hơn.<br>• 2. Kinh nghiệm trong xã hội loài chó không nhất thiết phải có, nhưng nếu có thì làm trôi chảy hơn: <b>(Đúng)</b> Không có kinh nghiệm xã hội chó vẫn chào được phần nào (bẩm sinh), nhưng có đời sống tập thể sẽ trôi chảy hơn.<br>• 3. Lần đầu tiên có thể học được nhờ cả sống tập thể lẫn giáo dục của chủ: Sai vì bài nói dù thiếu kinh nghiệm xã hội chó vẫn làm được ở mức độ nhất định (bẩm sinh).<br>• 4. Lần đầu tiên có thể học được nhờ trải nghiệm sống tập thể trong xã hội loài chó: Sai tương tự phương án 3.",
+          "passage": "イヌの散歩をしていると、最近ではイヌも挨拶の仕方を忘れてしまったのではないかと思ってしまいます。集団行動を経験したことがあるイヌ、もしくは（注１）、飼い主からイヌらしい教育を受けて順位制（注２）を感じることができるようになったイヌは、道でほかのイヌにすれ違い近づいたときには挨拶らしいことをします。ところが、集団行動の経験もなく、家でも甘やかされて育ったイヌは、現代のヒト社会のように挨拶をしないように見えます。挨拶をするイヌが、ほかの挨拶なしのイヌに対して威嚇する（注３）ことが観察されます。ところが、この挨拶犬が子イヌと遭遇したときには、子イヌが挨拶をできなくても威嚇をしないことが多いのです。挨拶犬にとって子イヌであるというシグナルがなんなのかわかりませんが、とにかく子イヌと成犬とを区別したうえで、挨拶のあるなしを判断しているようです。\nイヌの挨拶行動は、生得的（注４）あるいは習得的（学習的）のどちらでしょうか？ 順位制にしたがった行動ができるようになったイヌでは、イヌ社会での経験がなくてもある程度の挨拶行動ができることから、生得的であるといえます。また、より儀式的な挨拶行動が円滑に（注５）実行されるためには、ほかのイヌとの集団生活があったほうがよいことから、習得的な部分もあるといえるでしょう。\n\n（注１）もしくは：または\n（注２）順位制：上下関係にもとづいてできた順序の決まり\n（注３）威嚇する：ここでは、ほえて相手を怖がらせる\n（注４）生得的：生まれたときから持っている\n（注５）円滑に：スムーズに、滑らかに"
         },
         {
-                  "id": 66,
-                  "mondai": 12,
-                  "mondaiName": "問題12：比較読解",
-                  "question": "幼い子供に特定のスポーツを習わせることについて、ＡとＢはどのように述べているか。",
-                  "options": [
-                            "ＡもＢも、子供の才能を伸ばすことができるので賛成だと述べている。",
-                            "ＡもＢも、子供の希望ではないことが多いため反対だと述べている。",
-                            "Ａは子供の健康に悪影響を与えるので反対だと述べ、Ｂは体力が向上するので賛成だと述べている。",
-                            "Ａはけがにつながる恐れがあるので反対だと述べ、Ｂはスポーツがいやになる可能性があるので反対だと述べている。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> A lo ngại lặp lại cùng một động tác dễ dẫn đến chấn thương; B lo ngại trẻ không hứng thú sẽ bỏ dở hoặc ghét thể thao.<br><b>Đáp án 4:</b> A phản đối vì lo dễ chấn thương, B phản đối vì có khả năng khiến trẻ chán ghét thể thao.",
-                  "passage": "Ａ\n子供に特定のスポーツを習わせる家庭が多い。早くから一つのスポーツを集中的に練習させることで、子供の才能を伸ばしたいという親の気持ちは理解できるが、子供の体への負担が大きいことが心配だ。同じ動きを繰り返し練習することになり、けがをしやすくなるからだ。まだ成長の途中の子どもにとってまず必要なのは、さまざまなスポーツを通して、多様な動きを身につけることではないだろうか。得意な動きも苦手な動きも行うことによって、全身の運動能力をバランスよく向上させられる。専門的な技術の習得は、その後でも遅くはないのだ。\n\nＢ\n体力をつけるために、子供にスポーツを習わせるのはいいことだ。ただ、幼いうちから特定のスポーツだけを習わせることには問題があると思う。幼い子供は、何が好きか、何がしたいのか、わからないことが多いので、親の決めたスポーツを習い始めることになる。その結果、興味が持てなくてすぐにやめたり、いやいや練習を続けることになって、スポーツが嫌いになってしまったりすることがあるのだ。そのため、幼いうちは一つのスポーツに絞るのではなく、多くのスポーツを経験させて、スポーツの楽しさを教えることが大切だ。さらにいろいろなスポーツをすることで、全身を動かし、基礎的な運動能力を身につけることができる。これは、将来本格的にスポーツをしようと思ったときに必ず役立つはずだ。"
+          "id": 66,
+          "mondai": 12,
+          "mondaiName": "問題12：比較読解",
+          "question": "幼い子供に特定のスポーツを習わせることについて、ＡとＢはどのように述べているか。",
+          "options": [
+            "ＡもＢも、子供の才能を伸ばすことができるので賛成だと述べている。",
+            "ＡもＢも、子供の希望ではないことが多いため反対だと述べている。",
+            "Ａは子供の健康に悪影響を与えるので反対だと述べ、Ｂは体力が向上するので賛成だと述べている。",
+            "Ａはけがにつながる恐れがあるので反対だと述べ、Ｂはスポーツがいやになる可能性があるので反対だと述べている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn A lo ngại cho trẻ nhỏ tập trung một môn thể thao từ sớm sẽ gây gánh nặng lên cơ thể vì lặp đi lặp lại cùng một động tác, dễ bị chấn thương. Đoạn B cho rằng trẻ nhỏ chưa biết mình thích gì nên tập theo ý cha mẹ, dễ dẫn đến không hứng thú rồi bỏ dở hoặc miễn cưỡng tập khiến ghét thể thao luôn.<br><br><b>Dịch câu hỏi:</b> Về việc cho trẻ nhỏ học một môn thể thao cố định, A và B đã nêu ý kiến như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cả A và B đều tán thành vì có thể phát triển tài năng của trẻ: Sai vì cả A và B đều phản đối việc chỉ tập trung một môn từ sớm.<br>• 2. Cả A và B đều phản đối vì thường không phải mong muốn của trẻ: Sai vì đây chỉ là ý của B, không phải lý do của A.<br>• 3. A phản đối vì ảnh hưởng xấu sức khỏe, B tán thành vì tăng thể lực: Sai vì B chỉ tán thành cho trẻ học thể thao nói chung, nhưng phản đối việc chỉ học một môn cố định từ nhỏ.<br>• 4. A phản đối vì lo có nguy cơ dẫn đến chấn thương, B phản đối vì có khả năng khiến trẻ chán ghét thể thao: <b>(Đúng)</b> Phản ánh chính xác quan điểm của cả hai đoạn.",
+          "passage": "Ａ\n子供に特定のスポーツを習わせる家庭が多い。早くから一つのスポーツを集中的に練習させることで、子供の才能を伸ばしたいという親の気持ちは理解できるが、子供の体への負担が大きいことが心配だ。同じ動きを繰り返し練習することになり、けがをしやすくなるからだ。まだ成長の途中の子どもにとってまず必要なのは、さまざまなスポーツを通して、多様な動きを身につけることではないだろうか。得意な動きも苦手な動きも行うことによって、全身の運動能力をバランスよく向上させられる。専門的な技術の習得は、その後でも遅くはないのだ。\n\nＢ\n体力をつけるために、子供にスポーツを習わせるのはいいことだ。ただ、幼いうちから特定のスポーツだけを習わせることには問題があると思う。幼い子供は、何が好きか、何がしたいのか、わからないことが多いので、親の決めたスポーツを習い始めることになる。その結果、興味が持てなくてすぐにやめたり、いやいや練習を続けることになって、スポーツが嫌いになってしまったりすることがあるのだ。そのため、幼いうちは一つのスポーツに絞るのではなく、多くのスポーツを経験させて、スポーツの楽しさを教えることが大切だ。さらにいろいろなスポーツをすることで、全身を動かし、基礎的な運動能力を身につけることができる。これは、将来本格的にスポーツをしようと思ったときに必ず役立つはずだ。"
         },
         {
-                  "id": 67,
-                  "mondai": 12,
-                  "mondaiName": "問題12：比較読解",
-                  "question": "子供にスポーツを習わせるときに、ＡとＢが共通して大切だと述べていることは何か。",
-                  "options": [
-                            "成長にあったスポーツにさせること。",
-                            "子供の好きなスポーツをさせること。",
-                            "全身の運動能力を高めさせること。",
-                            "苦手意識を持たせないこと。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> A viết 「全身の運動能力をバランスよく向上させられる」; B viết 「全身を動かし、基礎的な運動能力を身につけることができる」.<br><b>Đáp án 3:</b> Nâng cao năng lực vận động toàn thân.",
-                  "passage": "Ａ\n子供に特定のスポーツを習わせる家庭が多い。早くから一つのスポーツを集中的に練習させることで、子供の才能を伸ばしたいという親の気持ちは理解できるが、子供の体への負担が大きいことが心配だ。同じ動きを繰り返し練習することになり、けがをしやすくなるからだ。まだ成長の途中の子どもにとってまず必要なのは、さまざまなスポーツを通して、多様な動きを身につけることではないだろうか。得意な動きも苦手な動きも行うことによって、全身の運動能力をバランスよく向上させられる。専門的な技術の習得は、その後でも遅くはないのだ。\n\nＢ\n体力をつけるために、子供にスポーツを習わせるのはいいことだ。ただ、幼いうちから特定のスポーツだけを習わせることには問題があると思う。幼い子供は、何が好きか、何がしたいのか、わからないことが多いので、親の決めたスポーツを習い始めることになる。その結果、興味が持てなくてすぐにやめたり、いやいや練習を続けることになって、スポーツが嫌いになってしまったりすることがあるのだ。そのため、幼いうちは一つのスポーツに絞るのではなく、多くのスポーツを経験させて、スポーツの楽しさを教えることが大切だ。さらにいろいろなスポーツをすることで、全身を動かし、基礎的な運動能力を身につけることができる。これは、将来本格的にスポーツをしようと思ったときに必ず役立つはずだ。"
+          "id": 67,
+          "mondai": 12,
+          "mondaiName": "問題12：比較読解",
+          "question": "子供にスポーツを習わせるときに、ＡとＢが共通して大切だと述べていることは何か。",
+          "options": [
+            "成長にあったスポーツにさせること。",
+            "子供の好きなスポーツをさせること。",
+            "全身の運動能力を高めさせること。",
+            "苦手意識を持たせないこと。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn A viết: qua nhiều môn thể thao sẽ học được các động tác đa dạng, giúp nâng cao năng lực vận động toàn thân một cách cân bằng (全身の運動能力をバランスよく向上させられる). Đoạn B viết: chơi nhiều môn thể thao giúp vận động toàn thân và rèn luyện năng lực vận động cơ bản (全身を動かし、基礎的な運動能力を身につけることができる).<br><br><b>Dịch câu hỏi:</b> Khi cho trẻ học thể thao, điểm chung mà A và B đều cho là quan trọng là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cho chơi môn thể thao phù hợp với sự phát triển: Sai vì cả hai đoạn đều nhấn mạnh cho trải nghiệm đa dạng nhiều môn, không nói chọn môn hợp tuổi.<br>• 2. Cho chơi môn thể thao trẻ thích: Sai vì B nói trẻ nhỏ nhiều khi chưa biết mình thích gì, cần cho trải nghiệm nhiều môn để thấy niềm vui.<br>• 3. Giúp nâng cao năng lực vận động toàn thân: <b>(Đúng)</b> Cả A và B đều trực tiếp đề cập đến việc nâng cao năng lực vận động toàn thân.<br>• 4. Không để trẻ mang tâm lý e ngại/kém cỏi: Sai vì không được đề cập ở cả hai đoạn.",
+          "passage": "Ａ\n子供に特定のスポーツを習わせる家庭が多い。早くから一つのスポーツを集中的に練習させることで、子供の才能を伸ばしたいという親の気持ちは理解できるが、子供の体への負担が大きいことが心配だ。同じ動きを繰り返し練習することになり、けがをしやすくなるからだ。まだ成長の途中の子どもにとってまず必要なのは、さまざまなスポーツを通して、多様な動きを身につけることではないだろうか。得意な動きも苦手な動きも行うことによって、全身の運動能力をバランスよく向上させられる。専門的な技術の習得は、その後でも遅くはないのだ。\n\nＢ\n体力をつけるために、子供にスポーツを習わせるのはいいことだ。ただ、幼いうちから特定のスポーツだけを習わせることには問題があると思う。幼い子供は、何が好きか、何がしたいのか、わからないことが多いので、親の決めたスポーツを習い始めることになる。その結果、興味が持てなくてすぐにやめたり、いやいや練習を続けることになって、スポーツが嫌いになってしまったりすることがあるのだ。そのため、幼いうちは一つのスポーツに絞るのではなく、多くのスポーツを経験させて、スポーツの楽しさを教えることが大切だ。さらにいろいろなスポーツをすることで、全身を動かし、基礎的な運動能力を身につけることができる。これは、将来本格的にスポーツをしようと思ったときに必ず役立つはずだ。"
         },
         {
-                  "id": 68,
-                  "mondai": 13,
-                  "mondaiName": "問題13：長文読解",
-                  "question": "①<u>退屈する前に、時間は過ぎた</u>とはどういうことか。",
-                  "options": [
-                            "漬物を漬ける季節はその準備がとても忙しかったので、退屈するような暇はなかったということ。",
-                            "自動車や飛行機がなかった頃に比べると、今は退屈する前に目的地につくことができるということ。",
-                            "90年前は何をするにも非常に長い時間が必要だったので、人生で退屈する時間はなかったということ。",
-                            "かつて人々は時間のかかることをあえてしていたから、退屈するのは当たり前のことだったということ。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn 2 viết: thời xưa đời người ngắn (50 năm) mà làm gì cũng mất rất nhiều thời gian, nên chưa kịp chán thì thời gian đã trôi qua mất rồi.<br><b>Đáp án 3:</b> 90 năm trước làm gì cũng cần thời gian rất dài nên trong đời không có thời gian để thấy chán.",
-                  "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
+          "id": 68,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解",
+          "question": "①<u>退屈する前に、時間は過ぎた</u>とはどういうことか。",
+          "options": [
+            "漬物を漬ける季節はその準備がとても忙しかったので、退屈するような暇はなかったということ。",
+            "自動車や飛行機がなかった頃に比べると、今は退屈する前に目的地につくことができるということ。",
+            "90年前は何をするにも非常に長い時間が必要だったので、人生で退屈する時間はなかったということ。",
+            "かつて人々は時間のかかることをあえてしていたから、退屈するのは当たり前のことだったということ。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 2 kể về thời 90 năm trước khi tuổi thọ chỉ khoảng 50 năm: chưa có ô tô, máy bay, làm bất cứ việc gì hay đi đâu cũng tốn rất nhiều thời gian (ví dụ muối dưa cần cả một mùa). Vì đời người ngắn mà làm gì cũng mất thời gian dài như thế, nên «chưa kịp thấy chán thì thời gian đã trôi qua mất rồi».<br><br><b>Dịch câu hỏi:</b> «Chưa kịp thấy chán thì thời gian đã trôi qua» có nghĩa là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Mùa muối dưa chuẩn bị rất bận rộn nên không có lúc nào rảnh để chán: Sai vì muối dưa chỉ là một ví dụ cho việc mọi thứ tốn nhiều thời gian, không phải nói bận làm dưa.<br>• 2. So với thời chưa có ô tô máy bay, nay đến đích trước khi kịp chán: Sai vì câu gạch chân đang nói về thời xưa.<br>• 3. 90 năm trước làm gì cũng cần thời gian rất dài nên trong đời không có thời gian để thấy chán: <b>(Đúng)</b> Tuổi thọ ngắn mà mọi việc đều tốn nhiều thời gian nên không có khoảng thời gian dư thừa để chán.<br>• 4. Xưa người ta cố tình làm việc tốn thời gian nên thấy chán là chuyện đương nhiên: Sai nghĩa hoàn toàn.",
+          "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
         },
         {
-                  "id": 69,
-                  "mondai": 13,
-                  "mondaiName": "問題13：長文読解",
-                  "question": "②<u>時間がむしろ負担になってくる</u>のはなぜか。",
-                  "options": [
-                            "物事が便利になり、寿命も延びて、使い方がわからない時間が増えるから。",
-                            "若いうちから30年も40年も先の人生の過ごし方を考えなければならないから。",
-                            "時間のかかることをあえてすることで、結果としてあわただしい人生になるから。",
-                            "ひとつのことを済ませるのに時間がかからなくなった分、することが増えるから。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Phân tích:</b> Đoạn 3 viết: tiện lợi giúp tiết kiệm thời gian nhưng tuổi thọ lại kéo dài, thành ra thời gian thừa thãi chẳng biết làm gì cứ tăng lên.<br><b>Đáp án 1:</b> Vì mọi thứ tiện lợi hơn, tuổi thọ tăng lên, làm tăng khoảng thời gian không biết dùng vào việc gì.",
-                  "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
+          "id": 69,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解",
+          "question": "②<u>時間がむしろ負担になってくる</u>のはなぜか。",
+          "options": [
+            "物事が便利になり、寿命も延びて、使い方がわからない時間が増えるから。",
+            "若いうちから30年も40年も先の人生の過ごし方を考えなければならないから。",
+            "時間のかかることをあえてすることで、結果としてあわただしい人生になるから。",
+            "ひとつのことを済ませるのに時間がかからなくなった分、することが増えるから。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn 3 phân tích: hiện đại ngày càng tiện lợi giúp tiết kiệm thời gian rất nhiều (nơi xưa đi 1-2 đêm nay đi về trong ngày), nhưng ngược lại thời gian một đời người lại kéo dài gấp đôi (gần 80 năm sau khi ra trường). Kết quả là thời gian không dùng đến, thời gian thừa thãi chẳng biết làm gì cứ tăng lên, khiến thời gian trở thành gánh nặng.<br><br><b>Dịch câu hỏi:</b> Tại sao «thời gian ngược lại trở thành gánh nặng»?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì mọi thứ tiện lợi hơn, tuổi thọ cũng kéo dài, làm tăng khoảng thời gian không biết dùng vào việc gì: <b>(Đúng)</b> Khớp hoàn toàn với logic đoạn 3.<br>• 2. Vì từ khi còn trẻ phải nghĩ cách sống cho 30-40 năm tới: Sai vì 30-40 năm là chuyện ngày xưa; nay là 80 năm.<br>• 3. Vì cố tình làm những việc tốn thời gian nên kết quả cuộc đời trở nên vội vã: Sai vì ngày nay người ta tiết kiệm thời gian, không phải cố làm việc tốn thời gian.<br>• 4. Vì một việc tốn ít thời gian hơn nên số việc phải làm tăng lên: Sai vì bài nói thời gian nhàn rỗi không làm gì tăng lên, không phải việc phải làm tăng lên.",
+          "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
         },
         {
-                  "id": 70,
-                  "mondai": 13,
-                  "mondaiName": "問題13：長文読解",
-                  "question": "この文章で筆者が一番主張したいことは何か。",
-                  "options": [
-                            "昔と比べて現在は何をするにも時間がかからなくなり、人生の時間が余って人々の負担になっている。",
-                            "現在は人生そのものも長くなり、物事をするのにかかる時間も節約されている。これは素晴らしいことだ。",
-                            "現代の長い人生を過ごす上で読書の果たす役割は大きく、本だけがそのような長い時間に耐えられる。",
-                            "科学の進歩も素晴らしいが、そんなに急いで物をしても、人生において何の意味もないのではないか。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Đoạn cuối khẳng định vai trò của sách: chỉ có sách mới có đủ «phần mềm» được tích lũy 2000–3000 năm để chịu đựng được quãng đời dài đằng đẵng hiện đại.<br><b>Đáp án 3:</b> Trong việc sống cuộc đời dài hiện đại, vai trò của đọc sách rất lớn và chỉ sách mới chịu nổi quãng thời gian dài đó.",
-                  "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
+          "id": 70,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解",
+          "question": "この文章で筆者が一番主張したいことは何か。",
+          "options": [
+            "昔と比べて現在は何をするにも時間がかからなくなり、人生の時間が余って人々の負担になっている。",
+            "現在は人生そのものも長くなり、物事をするのにかかる時間も節約されている。これは素晴らしいことだ。",
+            "現代の長い人生を過ごす上で読書の果たす役割は大きく、本だけがそのような長い時間に耐えられる。",
+            "科学の進歩も素晴らしいが、そんなに急いで物をしても、人生において何の意味もないのではないか。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Đoạn cuối tác giả nêu giải pháp cho cuộc đời quá dài phía trước: thứ ngày càng quan trọng chính là «sách». Chỉ có sách mới chứa đựng lượng «phần mềm» (tri thức) được tích lũy suốt 2000–3000 năm, đủ sức chống chọi với quãng thời gian dài đằng đẵng của đời người mà dùng cả đời cũng không hết.<br><br><b>Dịch câu hỏi:</b> Điều tác giả muốn khẳng định nhất trong bài viết này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. So với xưa nay làm gì cũng nhanh nên thừa thời gian thành gánh nặng: Sai vì đây chỉ là phần đặt vấn đề ở đoạn 3, chưa phải kết luận chủ đạo ở đoạn 4.<br>• 2. Hiện nay đời người dài ra và thời gian làm việc được tiết kiệm, đây là điều tuyệt vời: Sai vì tác giả nhìn nhận đó là một thách thức/gánh nặng cần có sách để lấp đầy.<br>• 3. Trong việc sống cuộc đời dài hiện đại, vai trò của đọc sách rất lớn và chỉ sách mới chịu nổi quãng thời gian dài đó: <b>(Đúng)</b> Tóm tắt đúng luận điểm trung tâm ở đoạn kết.<br>• 4. Tiến bộ khoa học tuyệt vời nhưng vội vã làm mọi thứ thì cuộc đời chẳng có ý nghĩa gì: Sai vì tác giả không kết luận cuộc đời vô nghĩa.",
+          "passage": "かつては学校を卒業したら、それから30年か40年の人生を考えればよかったのです。今は学校を出ても、これから後80年近い人生を考えなければいけないかもしれません。私達を待ち伏せ（注１）している人生の時間が、とんでもなく長くなっています。うかつに（注２）、歳もとれなくなっているのです。\n90年前、人生50年と言われた時代には、どんなことをするのにもとんでもない時間がもったいないぐらいかかってしまいました。自動車がなかった。飛行機がなかった。どこへゆくのにも、今から考えればとんでもない時間がかかっています。それがあっという間にどんどん遠くなった。新幹線ができた。かつては動くことだけではなくて、何をするのにも、どこへ行くのにも時間を考えなければならなかったのです。いろいろなことをするというのは、時間のかかることをあえてすることでした。漬物には季節が一つ必要でした。人生は短かった時に、何かするのに、それだけ長い時間が必要でした。ですから、①<u>退屈する前に、時間は過ぎた</u>のです。\n昔から一泊か二泊を要したところへ、今は日帰りで行って帰ってくるということをしている。そんなに時間を惜しんで、物事を急いでして、しかも昔の人の生きたのよりもその二倍に近いような、長い長い人生を送らなければいけないとしたら、②<u>時間がむしろ負担になってくる</u>かもしれません。便利になって時間がどんどん節約されてきた。ところが、一生の時間の方はどんどんと長くなった。そうすると、どういうことになるでしょうか。使わない時間、もてあます時間、何もしない時間、極端に言うと、何をしていいのかわからない時間がどんどん増えてくる、ということです。\n私たちの人生は、先に途方もない時間が待っているのです。そうしたことを考えるときに、ますます重要になってくるのが、私の考えでは本です。私たちの人生に否応なく割り込んで来てしまう、この途方もない長さの時間に十分に耐えられるだけのソフトウェア（注３）を持っている、それどころか、一生ぜんぶを使っても絶対に使い切れないほどソフトウェアを持っているのは本しかないからです。何しろ本というソフトウェアは20年や30年の産物ではないのです。少なく見積もっても、2、3000年かけて作られつづけているのです。\n\n（注１）待ち伏せする：かくれて待つ\n（注２）うかつに：うっかり\n（注３）ソフトウェア：ここでは知識などの内容を指す"
         },
         {
-                  "id": 71,
-                  "mondai": 14,
-                  "mondaiName": "問題14：情報検索",
-                  "question": "ソンミンさんは地形・地質学講座に参加したいと考えている。申し込みの際に気をつけなければならないことはどれか。",
-                  "options": [
-                            "申し込みは、はがきまたは電話でする。",
-                            "2回の講座のうち、どちらか一方にしか参加できない。",
-                            "受付は先着順のため、できるだけ早く申し込む。",
-                            "申し込みの結果の問い合わせは、締め切り日から7日以内にする。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích mục 【注意】:</b><br>• 1. Sai vì chỉ đăng ký bằng 往復はがき.<br>• <b>2. Đúng: 「2回の講座の内容は同じです。両方に申し込みはできますが、参加できるのはどちらか一方のみです。」</b><br>• 3. Sai vì bốc thăm (抽選) nếu đông.<br>• 4. Sai vì sau 7 ngày kể từ hạn chót mà chưa nhận hồi âm mới gọi hỏi.",
-                  "passage": "地形・地質学講座\n\n・講座名：岩波市の地形・地質\n・内容：岩波市には魅力的な景色が見られる場所が数多くあります。これらを生み出している岩波市の多様な地形・地質について学びます。\n・開催日時：① 4月17日（土）10時〜15時　／　② 5月1日（土）10時〜15時\n・申し込み締め切り日：① 4月2日（金）　／　② 4月16日（金）\n・場所：岩波市立博物館 実習実験室\n・対象：高校生以上　・定員：各回30人　・参加費：無料\n\n【申し込み方法】\n往復はがきに、以下の4点を明記し、岩波市立博物館イベント係宛てにお送りください（申し込み締め切り日必着）。グループで参加をご希望の場合、代表の方が全員分を記入し、1枚のはがきで申し込んでください。\n1. 講座名・開催日\n2. 氏名\n3. 住所・電話番号\n4. キャンセル待ちの希望の有無\n\n【注意】\n・2回の講座の内容は同じです。両方に申し込みはできますが、参加できるのはどちらか一方のみです。両方に申し込む場合は、1枚のはがきに開催日を二つ書き、第1希望の開催日に丸をつけてください。\n・応募多数の場合は抽選となります。結果は返信はがきでお送りします。\n・締め切り日から7日たっても結果連絡の返信はがきが届かない場合は、博物館までお電話でご連絡ください。\n・キャンセルする場合は、講座当日の5日前までにお電話でご連絡ください。\n・講座当日の5日前までにキャンセルが出た場合は、キャンセル待ちを希望した方を対象に、再度、抽選を行います。再度の抽選で当選された方には、講座当日の4日前までに電話で当選の連絡をいたします。落選された方には連絡いたしません。\n\n岩波市立博物館 イベント係\n〒008-6325 岩波市北川222　電話：005-258-7411"
+          "id": 71,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索",
+          "question": "ソンミンさんは地形・地質学講座に参加したいと考えている。申し込みの際に気をつけなければならないことはどれか。",
+          "options": [
+            "申し込みは、はがきまたは電話でする。",
+            "2回の講座のうち、どちらか一方にしか参加できない。",
+            "受付は先着順のため、できるだけ早く申し込む。",
+            "申し込みの結果の問い合わせは、締め切り日から7日以内にする。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Mục 【申し込み方法】 và 【注意】 quy định: đăng ký bằng bưu thiếp hai chiều (往復はがき); hai buổi có nội dung giống nhau, có thể đăng ký cả hai nhưng chỉ được tham gia 1 trong 2 buổi; nếu đông người sẽ bốc thăm (抽選); sau 7 ngày kể từ hạn chót chưa thấy hồi âm mới gọi điện hỏi.<br><br><b>Dịch câu hỏi:</b> Bạn Songmin muốn tham gia khóa học Địa hình - Địa chất học. Điều nào phải chú ý khi đăng ký?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Đăng ký bằng bưu thiếp hoặc điện thoại: Sai vì chỉ đăng ký bằng bưu thiếp hai chiều (往復はがき), không nhận đăng ký qua điện thoại.<br>• 2. Trong 2 buổi học chỉ có thể tham gia 1 trong 2 buổi: <b>(Đúng)</b> Mục 【注意】 ghi rõ: 「両方に申し込みはできますが、参加できるのはどちらか一方のみです。」<br>• 3. Tiếp nhận theo thứ tự đến trước nên cần đăng ký càng sớm càng tốt: Sai vì quy định nêu rõ nếu đông sẽ bốc thăm (抽選).<br>• 4. Hỏi kết quả đăng ký trong vòng 7 ngày kể từ hạn chót: Sai vì phải đợi qua 7 ngày (7日たっても) chưa thấy bưu thiếp trả lời mới gọi hỏi.",
+          "passage": "地形・地質学講座\n\n・講座名：岩波市の地形・地質\n・内容：岩波市には魅力的な景色が見られる場所が数多くあります。これらを生み出している岩波市の多様な地形・地質について学びます。\n・開催日時：① 4月17日（土）10時〜15時　／　② 5月1日（土）10時〜15時\n・申し込み締め切り日：① 4月2日（金）　／　② 4月16日（金）\n・場所：岩波市立博物館 実習実験室\n・対象：高校生以上　・定員：各回30人　・参加費：無料\n\n【申し込み方法】\n往復はがきに、以下の4点を明記し、岩波市立博物館イベント係宛てにお送りください（申し込み締め切り日必着）。グループで参加をご希望の場合、代表の方が全員分を記入し、1枚のはがきで申し込んでください。\n1. 講座名・開催日\n2. 氏名\n3. 住所・電話番号\n4. キャンセル待ちの希望の有無\n\n【注意】\n・2回の講座の内容は同じです。両方に申し込みはできますが、参加できるのはどちらか一方のみです。両方に申し込む場合は、1枚のはがきに開催日を二つ書き、第1希望の開催日に丸をつけてください。\n・応募多数の場合は抽選となります。結果は返信はがきでお送りします。\n・締め切り日から7日たっても結果連絡の返信はがきが届かない場合は、博物館までお電話でご連絡ください。\n・キャンセルする場合は、講座当日の5日前までにお電話でご連絡ください。\n・講座当日の5日前までにキャンセルが出た場合は、キャンセル待ちを希望した方を対象に、再度、抽選を行います。再度の抽選で当選された方には、講座当日の4日前までに電話で当選の連絡をいたします。落選された方には連絡いたしません。\n\n岩波市立博物館 イベント係\n〒008-6325 岩波市北川222　電話：005-258-7411"
         },
         {
-                  "id": 72,
-                  "mondai": 14,
-                  "mondaiName": "問題14：情報検索",
-                  "question": "イーサさんは4月17日の講座に申し込んだ。キャンセル待ちになった場合、結果の連絡はいつまで待たなければならないか。",
-                  "options": [
-                            "4月2日",
-                            "4月9日",
-                            "4月13日",
-                            "4月16日"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b><br>• Khóa học diễn ra ngày <b>4月17日</b>.<br>• Quy định chờ hủy: nếu có người hủy đến trước ngày học 5 ngày thì bốc thăm lại, và báo trúng tuyển bằng điện thoại chậm nhất <b>4 ngày trước ngày học</b> (講座当日の4日前まで).<br>• 17 - 4 = <b>4月13日</b>.<br><b>Đáp án 3:</b> 4月13日.",
-                  "passage": "地形・地質学講座\n\n・講座名：岩波市の地形・地質\n・内容：岩波市には魅力的な景色が見られる場所が数多くあります。これらを生み出している岩波市の多様な地形・地質について学びます。\n・開催日時：① 4月17日（土）10時〜15時　／　② 5月1日（土）10時〜15時\n・申し込み締め切り日：① 4月2日（金）　／　② 4月16日（金）\n・場所：岩波市立博物館 実習実験室\n・対象：高校生以上　・定員：各回30人　・参加費：無料\n\n【申し込み方法】\n往復はがきに、以下の4点を明記し、岩波市立博物館イベント係宛てにお送りください（申し込み締め切り日必着）。グループで参加をご希望の場合、代表の方が全員分を記入し、1枚のはがきで申し込んでください。\n1. 講座名・開催日\n2. 氏名\n3. 住所・電話番号\n4. キャンセル待ちの希望の有無\n\n【注意】\n・2回の講座の内容は同じです。両方に申し込みはできますが、参加できるのはどちらか一方のみです。両方に申し込む場合は、1枚のはがきに開催日を二つ書き、第1希望の開催日に丸をつけてください。\n・応募多数の場合は抽選となります。結果は返信はがきでお送りします。\n・締め切り日から7日たっても結果連絡の返信はがきが届かない場合は、博物館までお電話でご連絡ください。\n・キャンセルする場合は、講座当日の5日前までにお電話でご連絡ください。\n・講座当日の5日前までにキャンセルが出た場合は、キャンセル待ちを希望した方を対象に、再度、抽選を行います。再度の抽選で当選された方には、講座当日の4日前までに電話で当選の連絡をいたします。落選された方には連絡いたしません。\n\n岩波市立博物館 イベント係\n〒008-6325 岩波市北川222　電話：005-258-7411"
+          "id": 72,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索",
+          "question": "イーサさんは4月17日の講座に申し込んだ。キャンセル待ちになった場合、結果の連絡はいつまで待たなければならないか。",
+          "options": [
+            "4月2日",
+            "4月9日",
+            "4月13日",
+            "4月16日"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Bạn Isa đăng ký buổi học ngày 17/4 (4月17日). Theo mục 【注意】: nếu có người hủy trước ngày học 5 ngày, ban tổ chức sẽ bốc thăm lại cho những người chọn chờ hủy (キャンセル待ち). Người trúng tuyển sẽ được gọi điện báo chậm nhất trước ngày học 4 ngày (講座当日の4日前まで). Người trượt sẽ không được liên hệ.<br><br><b>Dịch câu hỏi:</b> Bạn Isa đăng ký khóa học ngày 17/4. Trường hợp bị đưa vào danh sách chờ hủy, bạn ấy phải đợi liên lạc kết quả đến khi nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Ngày 2/4: Sai vì 2/4 là hạn chót nộp đơn của buổi 17/4.<br>• 2. Ngày 9/4: Sai (không khớp mốc 4 ngày trước ngày học).<br>• 3. Ngày 13/4: <b>(Đúng)</b> Ngày học là 17/4, trước đó 4 ngày là 17 - 4 = 13/4 (4月13日).<br>• 4. Ngày 16/4: Sai vì 16/4 là hạn chót nộp đơn của buổi 1/5.",
+          "passage": "地形・地質学講座\n\n・講座名：岩波市の地形・地質\n・内容：岩波市には魅力的な景色が見られる場所が数多くあります。これらを生み出している岩波市の多様な地形・地質について学びます。\n・開催日時：① 4月17日（土）10時〜15時　／　② 5月1日（土）10時〜15時\n・申し込み締め切り日：① 4月2日（金）　／　② 4月16日（金）\n・場所：岩波市立博物館 実習実験室\n・対象：高校生以上　・定員：各回30人　・参加費：無料\n\n【申し込み方法】\n往復はがきに、以下の4点を明記し、岩波市立博物館イベント係宛てにお送りください（申し込み締め切り日必着）。グループで参加をご希望の場合、代表の方が全員分を記入し、1枚のはがきで申し込んでください。\n1. 講座名・開催日\n2. 氏名\n3. 住所・電話番号\n4. キャンセル待ちの希望の有無\n\n【注意】\n・2回の講座の内容は同じです。両方に申し込みはできますが、参加できるのはどちらか一方のみです。両方に申し込む場合は、1枚のはがきに開催日を二つ書き、第1希望の開催日に丸をつけてください。\n・応募多数の場合は抽選となります。結果は返信はがきでお送りします。\n・締め切り日から7日たっても結果連絡の返信はがきが届かない場合は、博物館までお電話でご連絡ください。\n・キャンセルする場合は、講座当日の5日前までにお電話でご連絡ください。\n・講座当日の5日前までにキャンセルが出た場合は、キャンセル待ちを希望した方を対象に、再度、抽選を行います。再度の抽選で当選された方には、講座当日の4日前までに電話で当選の連絡をいたします。落選された方には連絡いたしません。\n\n岩波市立博物館 イベント係\n〒008-6325 岩波市北川222　電話：005-258-7411"
         }
       ]
     },

@@ -1633,132 +1633,132 @@ window.JLPT_DATA[14] = {
       "name": "Phần 4: Chuyên Đề Đoản Văn Đọc Hiểu Nâng Cao (8 câu)",
       "questions": [
         {
-                  "id": 102,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者が「負けずぎらい」という言葉は不思議だと言っているのはなぜか。",
-                  "options": [
-                            "江戸時代にできたとされる古い言葉だから",
-                            "人々の誤用や混同によってできた言葉だから",
-                            "文字通りの意味と全く逆の意味の言葉だから",
-                            "つい口に出したくなってしまう言葉だから"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Câu thứ 2 giải thích ngay: nếu đọc nguyên văn thì là «ghét việc không thua» (như thể mong mình thua), nhưng thực tế nghĩa lại hoàn toàn trái ngược (không chịu thua).<br><b>Đáp án 3:</b> Vì đó là từ có nghĩa hoàn toàn ngược lại với nghĩa đen theo từng chữ.",
-                  "passage": "「負けずぎらい」という言葉は不思議だ。そのまま読めば、「負けないことがきらい」なのだから負けることを望んでいるみたいだが、もちろん意味は正反対。（注１）江戸時代に「負けぎらい」と言っていたのが誤用や「（注２）負けじ魂」との混同で「負けずぎらい」に変化したという説があるそうだ。\n口に出すと「負けぎらい」よりも「負けずぎらい」の方がきっぱりと否定する「負けず」がある分、決意や意地を感じる。負けない。それを強調するあまり、言葉としてはおかしい「負けずぎらい」に変化したのかもしれない。\n（東京新聞Web <https://www.tokyo-np.co.jp/article/52206?rct=hissen> 2020年8月31日による）\n\n（注１）江戸時代：西暦1603年〜1868年\n（注２）負けじ魂：他の人に負けないようにがんばろうという精神"
+          "id": 102,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者が「負けずぎらい」という言葉は不思議だと言っているのはなぜか。",
+          "options": [
+            "江戸時代にできたとされる古い言葉だから",
+            "人々の誤用や混同によってできた言葉だから",
+            "文字通りの意味と全く逆の意味の言葉だから",
+            "つい口に出したくなってしまう言葉だから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Từ «Makezugirai» (không chịu thua) thật kỳ lạ. Nếu đọc nguyên văn từng chữ là «make-nai koto ga kirai» (ghét việc không thua), nghe như thể mong muốn mình thua, nhưng tất nhiên nghĩa lại hoàn toàn trái ngược. Có thuyết cho rằng thời Edo người ta nói «makegirai», rồi do dùng nhầm hoặc lẫn lộn với «makeji-damashii» (tinh thần không chịu thua) nên biến thành «makezugirai». Khi phát âm, có thêm chữ «zu» phủ định dứt khoát nên cảm nhận được quyết tâm và sự ngoan cường hơn.<br><br><b>Dịch câu hỏi:</b> Tại sao tác giả lại nói từ «Makezugirai» là một từ kỳ lạ?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì đó là từ cổ được cho là ra đời từ thời Edo: Sai. Nguồn gốc thời Edo chỉ được nêu như một giả thuyết giải thích sự biến đổi của từ, không phải lý do khiến tác giả thấy kỳ lạ.<br>• 2. Vì đó là từ được tạo ra do sự dùng nhầm và lẫn lộn của mọi người: Sai. Đây là giả thuyết giải thích nguyên nhân biến đổi hình thái từ, không phải lý do trực tiếp được nêu ngay sau câu «thật kỳ lạ».<br>• 3. Vì đó là từ có nghĩa hoàn toàn trái ngược với nghĩa đen theo từng chữ: <b>(Đúng)</b>. Khớp trực tiếp với câu thứ 2 giải thích cho sự kỳ lạ: 「そのまま読めば、『負けないことがきらい』なのだから負けることを望んでいるみたいだが、もちろん意味は正反対。」<br>• 4. Vì đó là từ khiến người ta bất giác muốn nói thành tiếng: Sai. Bài viết chỉ nói khi nói thành tiếng thì cảm nhận rõ quyết tâm hơn, không nói «bất giác muốn nói thành tiếng».",
+          "passage": "「負けずぎらい」という言葉は不思議だ。そのまま読めば、「負けないことがきらい」なのだから負けることを望んでいるみたいだが、もちろん意味は正反対。（注１）江戸時代に「負けぎらい」と言っていたのが誤用や「（注２）負けじ魂」との混同で「負けずぎらい」に変化したという説があるそうだ。\n口に出すと「負けぎらい」よりも「負けずぎらい」の方がきっぱりと否定する「負けず」がある分、決意や意地を感じる。負けない。それを強調するあまり、言葉としてはおかしい「負けずぎらい」に変化したのかもしれない。\n（東京新聞Web <https://www.tokyo-np.co.jp/article/52206?rct=hissen> 2020年8月31日による）\n\n（注１）江戸時代：西暦1603年〜1868年\n（注２）負けじ魂：他の人に負けないようにがんばろうという精神"
         },
         {
-                  "id": 103,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "このメールは何を伝えているか。",
-                  "options": [
-                            "ノートパソコンのセール開催について",
-                            "周辺機器のセール開催について",
-                            "ノートパソコンの修理・点検について",
-                            "周辺機器の修理・点検について"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Phần đầu cảm ơn việc mua laptop trước đây, rồi vào chủ đề chính («さて、この度…») thông báo tổ chức hội chợ bán giảm giá 30%–50% các thiết bị ngoại vi như máy in, máy chiếu.<br><b>Đáp án 2:</b> Về việc tổ chức bán giảm giá thiết bị ngoại vi.",
-                  "passage": "以下は、ある家電量販店から来たメールである。\n\nFrom: nishino@sakuraden.co.jp\nTo: miyashita@xxxmail.com\n件名：さくら電器からお客様へのお知らせ\n\n宮下様\n\nさくら電器の西野でございます。\n先日は当店にてノートパソコン「MM21」をご購入いただき、ありがとうございました。何かお困りのことがございましたら、お気軽にサービスセンターまで修理・点検をご依頼ください。\nさて、この度、当店をご利用くださっているお客様を対象に、プリンターやプロジェクターなど周辺機器の販売会を行うことになりました。\n各メーカーの商品を取り揃え、30%から50%の割引価格で販売いたします。この機会にぜひご購入を検討されてはいかがでしょうか。\nご来店をお待ちしております。\n\n・開催期間：10月12日（火）〜10月15日（金）\n・時間：10:00〜20:00\n・場所：さくら電器本店 6階イベントスペース\n\nさくら電器 西野\n03-1234-5678"
+          "id": 103,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "このメールは何を伝えているか。",
+          "options": [
+            "ノートパソコンのセール開催について",
+            "周辺機器のセール開催について",
+            "ノートパソコンの修理・点検について",
+            "周辺機器の修理・点検について"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> Email từ nhân viên Nishino (Điện máy Sakura) gửi anh/chị Miyashita: Cảm ơn quý khách vừa qua đã mua laptop «MM21» tại cửa hàng. Nếu có vấn đề gì xin liên hệ trung tâm dịch vụ để sửa chữa/kiểm tra. Nhân đây («さて、この度…»), cửa hàng sẽ tổ chức hội chợ bán các thiết bị ngoại vi như máy in, máy chiếu dành cho khách hàng của cửa hàng với mức giảm giá từ 30% đến 50% từ ngày 12/10 đến 15/10.<br><br><b>Dịch câu hỏi:</b> Email này thông báo về việc gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Về việc tổ chức giảm giá laptop: Sai. Laptop «MM21» là món khách đã mua trước đó, không phải mặt hàng trong đợt giảm giá này.<br>• 2. Về việc tổ chức giảm giá các thiết bị ngoại vi: <b>(Đúng)</b>. Khớp với nội dung trọng tâm của thư sau từ chuyển ý 「さて、この度」: tổ chức bán giảm giá 30%–50% các thiết bị ngoại vi (プリンターやプロジェクターなど周辺機器の販売会).<br>• 3. Về việc sửa chữa, kiểm tra laptop: Sai. Phần sửa chữa, kiểm tra chỉ là câu xã giao nhắc nhở hỗ trợ sau khi cảm ơn khách đã mua laptop.<br>• 4. Về việc sửa chữa, kiểm tra các thiết bị ngoại vi: Sai. Thư không hề đề cập đến việc sửa chữa hay kiểm tra thiết bị ngoại vi.",
+          "passage": "以下は、ある家電量販店から来たメールである。\n\nFrom: nishino@sakuraden.co.jp\nTo: miyashita@xxxmail.com\n件名：さくら電器からお客様へのお知らせ\n\n宮下様\n\nさくら電器の西野でございます。\n先日は当店にてノートパソコン「MM21」をご購入いただき、ありがとうございました。何かお困りのことがございましたら、お気軽にサービスセンターまで修理・点検をご依頼ください。\nさて、この度、当店をご利用くださっているお客様を対象に、プリンターやプロジェクターなど周辺機器の販売会を行うことになりました。\n各メーカーの商品を取り揃え、30%から50%の割引価格で販売いたします。この機会にぜひご購入を検討されてはいかがでしょうか。\nご来店をお待ちしております。\n\n・開催期間：10月12日（火）〜10月15日（金）\n・時間：10:00〜20:00\n・場所：さくら電器本店 6階イベントスペース\n\nさくら電器 西野\n03-1234-5678"
         },
         {
-                  "id": 104,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "この文章の内容に合うのはどれか。",
-                  "options": [
-                            "就職に強い大学に通うことこそが、いい会社に就職する方法である。",
-                            "就職率が高ければ高いほど、大学の人気は上がっていくものである。",
-                            "就職ができない人は途中で進路を変えることが多いので、就職率は下がらない。",
-                            "就職率が高いからといって、就職に強い大学であるとは言い切れない。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Tác giả chỉ ra chỉ số «tỷ lệ có việc làm» (tổng người có việc / tổng người muốn xin việc cuối kỳ) thiếu độ tin cậy vì những người đổi hướng giữa chừng đã bị loại khỏi mẫu số.<br><b>Đáp án 4:</b> Không thể khẳng định một trường đại học mạnh về tìm việc chỉ vì tỷ lệ có việc làm cao.",
-                  "passage": "大学の就職率重視の傾向を（注１）象徴する言葉として、「就職に強い大学」という言葉もよく聞く。だが、「就職に強い」とはいったいどういう意味なのであろうか。この言葉は、実は奇妙なものである。一般的に、就職率が高いということを想像するであろうが、そもそも「就職率」という（注２）指標は、最終的な就職決定者を最終的な就職希望者で割ったものであり、途中で進路変更した人が抜けていくので、指標としてやや信頼性に欠けるものである。\n（常見陽平『「就活」と日本社会 平等幻想を超えて』NHK出版による）\n\n（注１）象徴する：具体的に表現する\n（注２）指標：何かを判断したり、評価したりするための基準となるもの"
+          "id": 104,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "この文章の内容に合うのはどれか。",
+          "options": [
+            "就職に強い大学に通うことこそが、いい会社に就職する方法である。",
+            "就職率が高ければ高いほど、大学の人気は上がっていくものである。",
+            "就職ができない人は途中で進路を変えることが多いので、就職率は下がらない。",
+            "就職率が高いからといって、就職に強い大学であるとは言い切れない。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Người ta hay nghe cụm từ «trường đại học mạnh về tìm việc» (就職に強い大学) và thường hình dung đó là trường có tỷ lệ có việc làm cao. Tuy nhiên, tác giả chỉ ra cụm từ này thực chất rất kỳ lạ, vì chỉ số «tỷ lệ có việc làm» được tính bằng số người có quyết định việc làm cuối cùng chia cho số người có nguyện vọng xin việc cuối cùng; những người đổi hướng giữa chừng bị loại ra khỏi mẫu số nên chỉ số này hơi thiếu độ tin cậy.<br><br><b>Dịch câu hỏi:</b> Phương án nào phù hợp với nội dung bài viết?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Theo học trường đại học mạnh về tìm việc chính là cách để vào được công ty tốt: Sai. Bài viết không bàn về việc vào công ty tốt hay khuyên chọn trường nào.<br>• 2. Tỷ lệ có việc làm càng cao thì mức độ được ưa chuộng của trường đại học càng tăng: Sai. Bài không đề cập đến độ nổi tiếng hay mức độ được ưa chuộng của trường.<br>• 3. Người không xin được việc thường đổi hướng giữa chừng nên tỷ lệ có việc làm không giảm: Sai. Bài nói «những người đổi hướng giữa chừng sẽ rơi ra khỏi mẫu số», không khẳng định họ là «những người không xin được việc» hay tỷ lệ không giảm.<br>• 4. Không thể khẳng định một trường đại học mạnh về tìm việc chỉ vì tỷ lệ có việc làm cao: <b>(Đúng)</b>. Khớp với lập luận của tác giả: chỉ số tỷ lệ có việc làm thiếu độ tin cậy nên không thể đánh đồng tỷ lệ cao với việc trường đó «mạnh về tìm việc».",
+          "passage": "大学の就職率重視の傾向を（注１）象徴する言葉として、「就職に強い大学」という言葉もよく聞く。だが、「就職に強い」とはいったいどういう意味なのであろうか。この言葉は、実は奇妙なものである。一般的に、就職率が高いということを想像するであろうが、そもそも「就職率」という（注２）指標は、最終的な就職決定者を最終的な就職希望者で割ったものであり、途中で進路変更した人が抜けていくので、指標としてやや信頼性に欠けるものである。\n（常見陽平『「就活」と日本社会 平等幻想を超えて』NHK出版による）\n\n（注１）象徴する：具体的に表現する\n（注２）指標：何かを判断したり、評価したりするための基準となるもの"
         },
         {
-                  "id": 105,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "この文章で筆者が最も言いたいことは何か。",
-                  "options": [
-                            "駅の中のトイレをきれいに使うよう、心がけてほしい。",
-                            "人に何かを頼むときは、直接的に指示したほうがいい。",
-                            "人から指示をされた場合、まずは素直に従わなければならない。",
-                            "普段から、人に何か伝えるときは言葉選びに注意すべきだ。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Câu cuối: cùng một nội dung nhưng chỉ cần khác cách nói là ấn tượng của người nhận thay đổi; hàng ngày nên để tâm đến cách diễn đạt khi truyền đạt cho đối phương.<br><b>Đáp án 4:</b> Hàng ngày khi truyền đạt điều gì cho người khác cần chú ý lựa chọn từ ngữ.",
-                  "passage": "駅の中などのトイレで「いつもきれいに使っていただき、ありがとうございます」という張り紙をよく見かける。トイレをきれいに使うように、ということを言っているのだが、「トイレをきれいに使ってください」と直接的に指示されるよりも、すんなりと受け入れられる気がする。このように同じ内容を伝えたい場合でも、言い方ひとつで受け手の印象は変わるのだ。日頃から、相手に自分の言いたいことをどのように伝えていくのか、言い回しには気を配りたいものだ。"
+          "id": 105,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "この文章で筆者が最も言いたいことは何か。",
+          "options": [
+            "駅の中のトイレをきれいに使うよう、心がけてほしい。",
+            "人に何かを頼むときは、直接的に指示したほうがいい。",
+            "人から指示をされた場合、まずは素直に従わなければならない。",
+            "普段から、人に何か伝えるときは言葉選びに注意すべきだ。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Ở nhà vệ sinh trong ga tàu thường thấy biển ghi «Cảm ơn quý khách đã luôn sử dụng sạch sẽ». Dù cùng muốn nói hãy giữ vệ sinh, cách nói này dễ được tiếp nhận nhẹ nhàng hơn là bị chỉ thị trực tiếp «Hãy giữ vệ sinh». Tác giả kết luận: dù muốn truyền đạt cùng một nội dung, chỉ một cách nói cũng làm thay đổi ấn tượng của người nhận, nên hàng ngày cần chú ý đến cách diễn đạt khi nói với người khác.<br><br><b>Dịch câu hỏi:</b> Điều tác giả muốn nói nhất trong bài viết này là gì?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Mong mọi người lưu tâm sử dụng nhà vệ sinh trong ga tàu cho sạch sẽ: Sai. Nhà vệ sinh trong ga tàu chỉ là ví dụ minh họa mở đầu cho vấn đề cách diễn đạt.<br>• 2. Khi nhờ vả ai điều gì, nên chỉ thị một cách trực tiếp: Sai. Ngược lại hoàn toàn với bài viết (bài viết cho thấy chỉ thị trực tiếp khó tiếp nhận hơn).<br>• 3. Khi được người khác chỉ thị, trước hết phải ngoan ngoãn nghe theo: Sai. Bài viết nói về cách người truyền đạt lựa chọn từ ngữ, không nói về thái độ tuân thủ của người nghe.<br>• 4. Hàng ngày, khi truyền đạt điều gì cho người khác nên chú ý lựa chọn từ ngữ: <b>(Đúng)</b>. Khớp chính xác với câu kết bài: 「日頃から、相手に自分の言いたいことをどのように伝えていくのか、言い回しには気を配りたいものだ。」",
+          "passage": "駅の中などのトイレで「いつもきれいに使っていただき、ありがとうございます」という張り紙をよく見かける。トイレをきれいに使うように、ということを言っているのだが、「トイレをきれいに使ってください」と直接的に指示されるよりも、すんなりと受け入れられる気がする。このように同じ内容を伝えたい場合でも、言い方ひとつで受け手の印象は変わるのだ。日頃から、相手に自分の言いたいことをどのように伝えていくのか、言い回しには気を配りたいものだ。"
         },
         {
-                  "id": 106,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "クジャクの目玉模様について、内容に合うのはどれか。",
-                  "options": [
-                            "羽の音を出すためには目玉模様が必要である。",
-                            "羽毛をこすることで目玉模様は大きくなっていく。",
-                            "いい声で鳴く雄は目玉模様もきれいである。",
-                            "生命力が強い雄ほど羽に目玉模様が多い。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Phân tích:</b> Bài viết nêu số lượng họa tiết mắt trên lông chim công nhiều chứng tỏ con chim đó đã vượt qua được sự tấn công của kẻ săn mồi và ký sinh trùng để sống sót.<br><b>Đáp án 4:</b> Con đực có sức sống càng mạnh thì trên lông càng có nhiều họa tiết mắt.",
-                  "passage": "以下は、クジャクという鳥について書かれた文章である。\n\nクジャクの（注１）雄は（注２）上尾筒を持ち上げて、（注３）雌の周りをゆっくり回りながら、時々広げた羽を揺さぶり、羽毛のこすれる音を出して求愛する。宝石をちりばめたような飾り羽と、きらびやかな目玉模様が広がっている。雌はその目玉模様の数の多さと、魅力的な鳴き声で雄を選ぶという。毎年（注４）換羽するたびに扇状に広げる羽は大きくなるので、目玉模様の数はそれだけ（注５）捕食者や（注６）寄生虫の攻撃を切り抜けてきたことを示す。目玉模様が多いということは、その鳥が生き延びてきた証である。\n（浅間茂『虫や鳥が見ている世界―紫外線写真が明かす生存戦略』中央公論新社による）\n\n（注１）雄：男。動物の性別を表す際に使われる\n（注２）上尾筒：鳥の尾羽の付け根の上面をおおっている羽\n（注３）雌：女。動物の性別を表す際に使われる\n（注４）換羽する：鳥の羽毛が抜け変わること\n（注５）捕食者：他の動物をえさとして食べる動物\n（注６）寄生虫：動物の体表や体内から栄養をとって生活する生物"
+          "id": 106,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "クジャクの目玉模様について、内容に合うのはどれか。",
+          "options": [
+            "羽の音を出すためには目玉模様が必要である。",
+            "羽毛をこすることで目玉模様は大きくなっていく。",
+            "いい声で鳴く雄は目玉模様もきれいである。",
+            "生命力が強い雄ほど羽に目玉模様が多い。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích bài đọc:</b> Chim công đực xòe đuôi, rung lông phát ra tiếng để cầu hôn. Chim cái chọn con đực dựa trên số lượng họa tiết mắt (目玉模様) và tiếng hót. Mỗi năm thay lông, chiếc quạt lông xòe ra lại lớn hơn, nên số lượng họa tiết mắt nhiều cho thấy con chim đó đã vượt qua được sự tấn công của kẻ săn mồi và ký sinh trùng để sống sót lâu dài.<br><br><b>Dịch câu hỏi:</b> Về họa tiết mắt của chim công, phương án nào phù hợp với nội dung bài viết?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Để phát ra tiếng của lông cánh thì cần phải có họa tiết mắt: Sai. Tiếng kêu phát ra do sự cọ xát của lông vũ (羽毛のこすれる音), không liên quan đến họa tiết mắt.<br>• 2. Nhờ việc cọ xát lông vũ mà họa tiết mắt ngày càng lớn lên: Sai. Chiếc quạt lông lớn lên theo mỗi lần thay lông (換羽), không phải do cọ xát lông.<br>• 3. Con đực hót hay thì họa tiết mắt cũng đẹp: Sai. Bài viết nói chim cái chọn bạn đời dựa trên 2 tiêu chí độc lập là số lượng họa tiết mắt và giọng hót, không nói chúng tỷ lệ thuận hay đẹp hơn.<br>• 4. Con đực có sức sống càng mạnh thì trên lông càng có nhiều họa tiết mắt: <b>(Đúng)</b>. Khớp trực tiếp với câu cuối: 「目玉模様が多いということは、その鳥が生き延びてきた証である。」",
+          "passage": "以下は、クジャクという鳥について書かれた文章である。\n\nクジャクの（注１）雄は（注２）上尾筒を持ち上げて、（注３）雌の周りをゆっくり回りながら、時々広げた羽を揺さぶり、羽毛のこすれる音を出して求愛する。宝石をちりばめたような飾り羽と、きらびやかな目玉模様が広がっている。雌はその目玉模様の数の多さと、魅力的な鳴き声で雄を選ぶという。毎年（注４）換羽するたびに扇状に広げる羽は大きくなるので、目玉模様の数はそれだけ（注５）捕食者や（注６）寄生虫の攻撃を切り抜けてきたことを示す。目玉模様が多いということは、その鳥が生き延びてきた証である。\n（浅間茂『虫や鳥が見ている世界―紫外線写真が明かす生存戦略』中央公論新社による）\n\n（注１）雄：男。動物の性別を表す際に使われる\n（注２）上尾筒：鳥の尾羽の付け根の上面をおおっている羽\n（注３）雌：女。動物の性別を表す際に使われる\n（注４）換羽する：鳥の羽毛が抜け変わること\n（注５）捕食者：他の動物をえさとして食べる動物\n（注６）寄生虫：動物の体表や体内から栄養をとって生活する生物"
         },
         {
-                  "id": 107,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "東日本大震災の津波でこの小中学校の児童・生徒が助かったのはなぜか。",
-                  "options": [
-                            "逃げる道が決められ、逃げ方を教育されていたから",
-                            "自分のことだけ考えず、みんなで協力して逃げたから",
-                            "それぞれが自分で判断して逃げることができたから",
-                            "それぞれが大人の言うことを聞いて逃げたから"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Giáo dục «Tsunami Tendenko» dạy rằng khi có sóng thần không bận tâm đến người khác mà mỗi người tự chạy thoát và hẹn gặp ở vùng đất cao; những đứa trẻ đã thể hiện năng lực tự suy nghĩ đó.<br><b>Đáp án 3:</b> Vì mỗi em đã có thể tự mình phán đoán và chạy thoát.",
-                  "passage": "2011年3月11日に発生した東日本大震災による津波は多くの犠牲者を出した。そんな中、登校児童・生徒全員が無事だった小中学校が岩手県釜石市にある。昔から津波の被害があったこの地域では、「津波てんでんこ」という教育がなされている。「てんでんこ」とは「それぞれ」や「各自」を意味する「てんでん」に東北方言の「こ」が付いた言葉で、「津波のときは人にかまわず、てんでんに逃げ、高台で会おう」という教えである。てんでんがてんでんの逃げる力を信じ逃げろというのだ。震災から10年、てんでんに考える力を見せた子どもたちは、頼もしい大人になっているに違いない。"
+          "id": 107,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "東日本大震災の津波でこの小中学校の児童・生徒が助かったのはなぜか。",
+          "options": [
+            "逃げる道が決められ、逃げ方を教育されていたから",
+            "自分のことだけ考えず、みんなで協力して逃げたから",
+            "それぞれが自分で判断して逃げることができたから",
+            "それぞれが大人の言うことを聞いて逃げたから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích bài đọc:</b> Trong trận sóng thần ngày 11/3/2011, toàn bộ học sinh đi học tại một trường tiểu học và THCS ở thành phố Kamaishi đều bình an. Ở vùng này có giáo dục «Tsunami Tendenko»: khi có sóng thần không bận tâm đến người khác mà mỗi người tự mình chạy thoát, hẹn gặp nhau ở vùng đất cao. Những đứa trẻ đã thể hiện được năng lực tự suy nghĩ đó.<br><br><b>Dịch câu hỏi:</b> Tại sao học sinh trường tiểu học và THCS này đã được cứu sống trong trận sóng thần Đông Nhật Bản?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Vì đường chạy thoát đã được quy định sẵn và các em được giáo dục cách chạy: Sai. Giáo dục «Tsunami Tendenko» nhấn mạnh tinh thần mỗi người tự tin vào khả năng tự chạy thoát và tự suy nghĩ, không nói về việc quy định sẵn tuyến đường.<br>• 2. Vì không chỉ nghĩ cho bản thân mà mọi người cùng hợp sức chạy thoát: Sai. Ngược lại, lời dạy là «人にかまわず、てんでんに逃げ» (không bận tâm đến người khác, mỗi người tự chạy).<br>• 3. Vì mỗi em đã có thể tự mình phán đoán và chạy thoát: <b>(Đúng)</b>. Khớp với nội dung 「てんでんがてんでんの逃げる力を信じ逃げろ」「てんでんに考える力を見せた子どもたち」.<br>• 4. Vì mỗi em đều nghe theo lời người lớn rồi chạy thoát: Sai. Các em hành động dựa trên khả năng tự suy nghĩ, tự phán đoán đã được rèn luyện, không phải chờ nghe lời người lớn lúc đó.",
+          "passage": "2011年3月11日に発生した東日本大震災による津波は多くの犠牲者を出した。そんな中、登校児童・生徒全員が無事だった小中学校が岩手県釜石市にある。昔から津波の被害があったこの地域では、「津波てんでんこ」という教育がなされている。「てんでんこ」とは「それぞれ」や「各自」を意味する「てんでん」に東北方言の「こ」が付いた言葉で、「津波のときは人にかまわず、てんでんに逃げ、高台で会おう」という教えである。てんでんがてんでんの逃げる力を信じ逃げろというのだ。震災から10年、てんでんに考える力を見せた子どもたちは、頼もしい大人になっているに違いない。"
         },
         {
-                  "id": 108,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "後期健康診断について、正しいものはどれか。",
-                  "options": [
-                            "後期健康診断の対象者は必ず期間内に受診しなければならない。",
-                            "新入社員は全員、前期健康診断を受けているので、対象ではない。",
-                            "希望日に受診したい人は9月15日までに申込用紙を出さなければならない。",
-                            "都合が悪い人は9月10日まで中央診療所に連絡をしなければならない。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Phân tích:</b> Thông báo ghi rõ nếu không nộp phiếu đăng ký trước hạn 15/9 (thứ Tư) thì có khả năng không được khám vào ngày mong muốn.<br><b>Đáp án 3:</b> Người muốn khám vào ngày mong muốn phải nộp phiếu đăng ký trước ngày 15/9.",
-                  "passage": "以下は、ある会社の社内文書である。\n\n2021年9月1日\n社員各位\n管理部 安田光\n\n後期健康診断実施のお知らせ\n\n今年度の後期健康診断を、下記の通り実施いたします。対象者は受診申込用紙に氏名、生年月日、受診希望日を記入の上、9月15日（水）までに管理部の安田まで提出してください。\nなお、出張などの都合で期間内に受診できない社員は9月10日（金）までにご連絡ください。こちらで受診日を調整します。期限までに受診申込用紙を提出しない場合は希望日に受けられない可能性がありますので、ご注意ください。\n\n記\n期間：10月1日（金）から10月15日（金）\n場所：中央診療所\n対象者：前期健康診断を受診しなかった全社員\nただし、新入社員は入社前に健康診断を受けているので、除きます。\n以上"
+          "id": 108,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "後期健康診断について、正しいものはどれか。",
+          "options": [
+            "後期健康診断の対象者は必ず期間内に受診しなければならない。",
+            "新入社員は全員、前期健康診断を受けているので、対象ではない。",
+            "希望日に受診したい人は9月15日までに申込用紙を出さなければならない。",
+            "都合が悪い人は9月10日まで中央診療所に連絡をしなければならない。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích thông báo nội bộ:</b> Thông báo khám sức khỏe kỳ sau: Thời gian khám 1/10–15/10 tại Phòng khám Chuo. Đối tượng là toàn bộ nhân viên chưa khám kỳ trước (trừ nhân viên mới vì đã khám trước khi vào công ty). Người thuộc đối tượng điền phiếu gửi anh Yasuda (Phòng Quản lý) trước 15/9. Nếu bận công tác không khám được trong kỳ thì liên hệ anh Yasuda trước 10/9 để điều chỉnh ngày. Nếu không nộp phiếu trước hạn 15/9, có khả năng không khám được vào ngày mong muốn.<br><br><b>Dịch câu hỏi:</b> Về đợt khám sức khỏe kỳ sau, điều nào đúng?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người thuộc đối tượng khám sức khỏe kỳ sau bắt buộc phải khám trong khoảng thời gian quy định: Sai. Nếu có lý do như công tác không khám được trong kỳ thì vẫn có thể liên hệ trước 10/9 để điều chỉnh ngày khác.<br>• 2. Nhân viên mới toàn bộ đã khám sức khỏe kỳ trước rồi nên không thuộc đối tượng: Sai. Nhân viên mới không thuộc đối tượng là vì «đã khám trước khi vào công ty» (入社前に健康診断を受けている), không phải khám ở kỳ trước.<br>• 3. Người muốn khám vào ngày mong muốn phải nộp phiếu đăng ký trước ngày 15/9: <b>(Đúng)</b>. Khớp chính xác với lưu ý: 「期限（9月15日）までに受診申込用紙を提出しない場合は希望日に受けられない可能性があります」.<br>• 4. Người không thuận tiện thời gian phải liên hệ tới Phòng khám Chuo trước ngày 10/9: Sai. Phải liên hệ tới người phụ trách ở Phòng Quản lý (anh Yasuda), không phải liên hệ Phòng khám Chuo.",
+          "passage": "以下は、ある会社の社内文書である。\n\n2021年9月1日\n社員各位\n管理部 安田光\n\n後期健康診断実施のお知らせ\n\n今年度の後期健康診断を、下記の通り実施いたします。対象者は受診申込用紙に氏名、生年月日、受診希望日を記入の上、9月15日（水）までに管理部の安田まで提出してください。\nなお、出張などの都合で期間内に受診できない社員は9月10日（金）までにご連絡ください。こちらで受診日を調整します。期限までに受診申込用紙を提出しない場合は希望日に受けられない可能性がありますので、ご注意ください。\n\n記\n期間：10月1日（金）から10月15日（金）\n場所：中央診療所\n対象者：前期健康診断を受診しなかった全社員\nただし、新入社員は入社前に健康診断を受けているので、除きます。\n以上"
         },
         {
-                  "id": 109,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者によると、少数派とはどのような人間か。",
-                  "options": [
-                            "自分とは異なる意見を持っている人を敵と思っている人",
-                            "議論は喧嘩ではなく良い結果を生むための過程だと考える人",
-                            "自分の意見が正当だと信じ、意見を変えようとしない人",
-                            "多数派の意見を尊重し、自分の意見を多数派に寄せようとする人"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Phân tích:</b> Người thuộc nhóm thiểu số hiểu rằng khác biệt là tự nhiên, chính nhờ khác biệt mới tranh luận được, và va chạm ý kiến khác nhau sẽ dẫn đến kết quả tốt hơn.<br><b>Đáp án 2:</b> Người coi tranh luận không phải cãi vã mà là quá trình để tạo ra kết quả tốt.",
-                  "passage": "自分が意見が多数とは違うと認識している少数派の人間は、意見が違っても敵だとは考えない。意見が違うことが自然であり、違うからこそ議論ができる、と考える。違う意見をぶつけることで、もっと良い結果になると知っている。議論をするのは、意見は違っても相手を尊重するという姿勢を持っているからだ。多数派は、自分の意見に反対されると、それはもう喧嘩だ、と捉えがちだし、なんとか相手を説得しようとするだろう。少数派は、反対することは、協力の一種だと考えているし、説得は難しいけれど、お互いに歩み寄ろうとする。\n（森博嗣『集中力はいらない』SBクリエイティブ）"
+          "id": 109,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者によると、少数派とはどのような人間か。",
+          "options": [
+            "自分とは異なる意見を持っている人を敵と思っている人",
+            "議論は喧嘩ではなく良い結果を生むための過程だと考える人",
+            "自分の意見が正当だと信じ、意見を変えようとしない人",
+            "多数派の意見を尊重し、自分の意見を多数派に寄せようとする人"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích bài đọc:</b> Người thuộc nhóm thiểu số nhận thức ý kiến mình khác số đông sẽ không coi người khác ý kiến là kẻ thù. Họ cho rằng khác biệt là tự nhiên, chính nhờ khác biệt mới tranh luận được, và va chạm các ý kiến khác nhau sẽ tạo ra kết quả tốt hơn. Trong khi nhóm đa số dễ coi phản đối là cãi vã, nhóm thiểu số coi phản đối là một dạng hợp tác.<br><br><b>Dịch câu hỏi:</b> Theo tác giả, người thuộc nhóm thiểu số là người như thế nào?<br><br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người coi những người có ý kiến khác mình là kẻ thù: Sai. Bài viết nói rõ nhóm thiểu số «không coi đó là kẻ thù» (敵だとは考えない).<br>• 2. Người coi tranh luận không phải cãi vã mà là quá trình để tạo ra kết quả tốt: <b>(Đúng)</b>. Khớp chính xác với nội dung bài: 「違う意見をぶつけることで、もっと良い結果になると知っている」「少数派は、反対することは、協力の一種だと考えている」（nhóm đa số mới coi là 喧嘩 - cãi vã).<br>• 3. Người tin rằng ý kiến của mình chính đáng và không chịu thay đổi ý kiến: Sai. Bài viết nói họ cố gắng xích lại gần nhau (お互いに歩み寄ろうとする), không bảo thủ giữ nguyên ý kiến.<br>• 4. Người tôn trọng ý kiến của nhóm đa số và cố gắng hướng ý kiến mình theo nhóm đa số: Sai. Họ tôn trọng đối phương nhưng mục đích là trao đổi ý kiến khác biệt để ra kết quả tốt hơn, không phải hùa theo số đông.",
+          "passage": "自分が意見が多数とは違うと認識している少数派の人間は、意見が違っても敵だとは考えない。意見が違うことが自然であり、違うからこそ議論ができる、と考える。違う意見をぶつけることで、もっと良い結果になると知っている。議論をするのは、意見は違っても相手を尊重するという姿勢を持っているからだ。多数派は、自分の意見に反対されると、それはもう喧嘩だ、と捉えがちだし、なんとか相手を説得しようとするだろう。少数派は、反対することは、協力の一種だと考えているし、説得は難しいけれど、お互いに歩み寄ろうとする。\n（森博嗣『集中力はいらない』SBクリエイティブ）"
         }
       ]
     },

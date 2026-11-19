@@ -867,340 +867,340 @@ window.JLPT_DATA[11] = {
           "passage": "【日本発のトイレマーク】\n公衆トイレの入り口に描かれている男女の絵のマーク。そのマークがあれば、文字で「トイレ」と書かれていなくても、そこがトイレであることがわかる。世界のあちこちで使われているこのトイレマークが実は日本で生まれたものだということを【 50 】。\nトイレマークが生まれたのは、1964年の東京オリンピックがきっかけだ。この東京オリンピックは、アルファベットを使わない国での初めての開催であったため、特に問題になったのが、言葉の壁だった。当時、日本国内の案内板は「お手洗い」などと日本語で書かれているものがほとんどだった。【 51 】、それでは世界90数か国から来日する選手たちに理解してもらえない。かといって、参加国すべての国の言葉で書くわけにもいかない。そこで、案内板作成者たちは、あらゆる国の選手が理解できるよう、絵で表すことを考え【 52 】トイレマークなのだ。\nそのほかにも、食堂、シャワー、公衆電話等の施設や設備を表すマークや、水泳、バレーボール等の競技を表すマークも作られた。競技を表すマークは、この東京オリンピックで初めて全面的に導入され、高い評価を受けた。そして、その後のオリンピックでもデザインを変えながら毎回【 53 】。\nトイレマークに代表されるように、東京オリンピックをきっかけに日本で生まれたマークが、言葉の壁を越え、今や新たなコミュニケーション手段として、世界に広がっている。それは、あらゆる人にわかりやすくという思いが世界に届いた【 54 】。"
         },
         {
-                  "id": 55,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者の考えに合うのはどれか。",
-                  "options": [
-                            "ルールのないスポーツにも価値がある。",
-                            "ルールはスポーツで楽しむためのものだ。",
-                            "スポーツはルールを理解してから始めるべきだ。",
-                            "スポーツを通して、ルールの重要さが理解できる。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch bài:</b> 'Để hiểu về thể thao, trước hết xin khẳng định rằng thể thao là thứ để con người tận hưởng niềm vui. Đây là điểm xuất phát. Nó tuyệt nhiên không phải thứ không thể thiếu trên đời, cũng không phải thứ thiết yếu để sinh tồn, nhưng là thứ để tận hưởng, và «luật chơi» tồn tại là để ta tận hưởng môn thể thao đó. Và ta thi đấu thắng thua dưới luật chơi đó, nhưng nếu điều này không vui thì việc chơi thể thao chẳng còn giá trị gì.'<br><b>Dịch câu hỏi:</b> Ý kiến nào phù hợp với suy nghĩ của tác giả?<br><i>Phân tích:</i><br>• 1. Thể thao không có luật cũng có giá trị (bài không nói vậy).<br>• <b>2. Luật chơi là thứ để tận hưởng thể thao: [Đúng] Khớp nguyên văn: 「そのスポーツで楽しむために『ルール』があるのです」.</b><br>• 3. Nên hiểu luật rồi mới bắt đầu chơi thể thao (bài không nói).<br>• 4. Qua thể thao có thể hiểu tầm quan trọng của luật (sai trọng tâm).",
-                  "passage": "「ルール」はなぜあるのでしょうか？\nスポーツを理解するために最初に確認しておきますが、スポーツは人間が楽しむためのものです。これが出発点です。決して「世の中に無ければならないモノ」でもなければ、生きるためにどうしても「必要なモノ」でもありませんが、楽しむためのモノであり、そのスポーツで楽しむために「ルール」があるのです。\nそして、ルールのもとで勝敗を競いますが、このことが楽しくないのであれば、スポーツをする価値はありません。\n（高峰修『スポーツ教養入門』岩波書店による）"
+          "id": 55,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者の考えに合うのはどれか。",
+          "options": [
+            "ルールのないスポーツにも価値がある。",
+            "ルールはスポーツで楽しむためのものだ。",
+            "スポーツはルールを理解してから始めるべきだ。",
+            "スポーツを通して、ルールの重要さが理解できる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> 'Để hiểu về thể thao, trước hết xin khẳng định rằng thể thao là thứ để con người tận hưởng niềm vui. Đây là điểm xuất phát. Nó tuyệt nhiên không phải thứ không thể thiếu trên đời, cũng không phải thứ thiết yếu để sinh tồn, nhưng là thứ để tận hưởng, và «luật chơi» tồn tại là để ta tận hưởng môn thể thao đó. Và ta thi đấu thắng thua dưới luật chơi đó, nhưng nếu điều này không vui thì việc chơi thể thao chẳng còn giá trị gì.'<br><b>Dịch câu hỏi:</b> Ý kiến nào phù hợp với suy nghĩ của tác giả?<br><i>Phân tích:</i><br>• 1. Thể thao không có luật cũng có giá trị (bài không nói vậy).<br>• <b>2. Luật chơi là thứ để tận hưởng thể thao: [Đúng] Khớp nguyên văn: 「そのスポーツで楽しむために『ルール』があるのです」.</b><br>• 3. Nên hiểu luật rồi mới bắt đầu chơi thể thao (bài không nói).<br>• 4. Qua thể thao có thể hiểu tầm quan trọng của luật (sai trọng tâm).",
+          "passage": "「ルール」はなぜあるのでしょうか？\nスポーツを理解するために最初に確認しておきますが、スポーツは人間が楽しむためのものです。これが出発点です。決して「世の中に無ければならないモノ」でもなければ、生きるためにどうしても「必要なモノ」でもありませんが、楽しむためのモノであり、そのスポーツで楽しむために「ルール」があるのです。\nそして、ルールのもとで勝敗を競いますが、このことが楽しくないのであれば、スポーツをする価値はありません。\n（高峰修『スポーツ教養入門』岩波書店による）"
         },
         {
-                  "id": 56,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "この文書を書いた、一番の目的は何か。",
-                  "options": [
-                            "暖房の使用を減らす工夫について意見を求める。",
-                            "暖房を使用せず、服装で調整することを求める。",
-                            "暖房を無駄に使用しないことを求める。",
-                            "暖房の温度を変更しないことを求める。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch bài:</b> 'Thông báo về việc sử dụng máy sưởi: Tiền điện tháng 12 tăng khoảng 30% so với tháng trước. Để tiết kiệm điện, đề nghị triệt để cài đặt nhiệt độ phòng từ 22 độ trở xuống, tắt sưởi ở nơi không dùng, không quên tắt khi tan làm, và tự điều chỉnh bằng trang phục để không phụ thuộc quá nhiều vào máy sưởi.'<br><b>Dịch câu hỏi:</b> Mục đích chính nhất của văn bản này là gì?<br><i>Phân tích:</i><br>• 1. Xin ý kiến về cách giảm dùng sưởi (sai).<br>• 2. Yêu cầu không dùng sưởi mà chỉ chỉnh bằng trang phục (sai, chỉ bảo không phụ thuộc quá mức).<br>• <b>3. Yêu cầu không sử dụng máy sưởi lãng phí: [Đúng] Tóm trọn các yêu cầu tắt nơi không dùng, tắt khi về, giữ nhiệt độ ≤ 22°C để tiết kiệm điện.</b><br>• 4. Yêu cầu không thay đổi nhiệt độ sưởi (sai, yêu cầu đặt ≤ 22°C).",
-                  "passage": "以下は、ある会社の社内文書である。\n\n平成２８年１月１２日\n社員各位\n総務課長\n\n暖房使用についてのお願い\n\n本格的な冬を迎え、暖房の使用が増加しており、１２月の電気代は前月に比べて約３０％増となりました。節電のため、室内温度は２２度以下に設定するとともに、使用していない場所の暖房を切ること、退社時の切り忘れをなくすことなどを徹底してください。\nまた、服装で調整するなど各自で工夫し、暖房に頼りすぎないようご協力をお願いいたします。"
+          "id": 56,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "この文書を書いた、一番の目的は何か。",
+          "options": [
+            "暖房の使用を減らす工夫について意見を求める。",
+            "暖房を使用せず、服装で調整することを求める。",
+            "暖房を無駄に使用しないことを求める。",
+            "暖房の温度を変更しないことを求める。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> 'Thông báo về việc sử dụng máy sưởi: Tiền điện tháng 12 tăng khoảng 30% so với tháng trước. Để tiết kiệm điện, đề nghị triệt để cài đặt nhiệt độ phòng từ 22 độ trở xuống, tắt sưởi ở nơi không dùng, không quên tắt khi tan làm, và tự điều chỉnh bằng trang phục để không phụ thuộc quá nhiều vào máy sưởi.'<br><b>Dịch câu hỏi:</b> Mục đích chính nhất của văn bản này là gì?<br><i>Phân tích:</i><br>• 1. Xin ý kiến về cách giảm dùng sưởi (sai).<br>• 2. Yêu cầu không dùng sưởi mà chỉ chỉnh bằng trang phục (sai, chỉ bảo không phụ thuộc quá mức).<br>• <b>3. Yêu cầu không sử dụng máy sưởi lãng phí: [Đúng] Tóm trọn các yêu cầu tắt nơi không dùng, tắt khi về, giữ nhiệt độ ≤ 22°C để tiết kiệm điện.</b><br>• 4. Yêu cầu không thay đổi nhiệt độ sưởi (sai, yêu cầu đặt ≤ 22°C).",
+          "passage": "以下は、ある会社の社内文書である。\n\n平成２８年１月１２日\n社員各位\n総務課長\n\n暖房使用についてのお願い\n\n本格的な冬を迎え、暖房の使用が増加しており、１２月の電気代は前月に比べて約３０％増となりました。節電のため、室内温度は２２度以下に設定するとともに、使用していない場所の暖房を切ること、退社時の切り忘れをなくすことなどを徹底してください。\nまた、服装で調整するなど各自で工夫し、暖房に頼りすぎないようご協力をお願いいたします。"
         },
         {
-                  "id": 57,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者の考えに合うのはどれか。",
-                  "options": [
-                            "「やりたいことをやる」には、大きな目標を立てることが大切だ。",
-                            "「自分の望んでいること」を知れば、今何をすべきかがわかるようになる。",
-                            "「自分のやっていること」が「自分の望んでいること」だと気づくことが大切だ。",
-                            "「目の前のやりたいこと」を続ければ、それが「自分の望んでいること」になり得る。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Dịch bài:</b> 'Thực ra để «làm điều mình muốn», chỉ cần đơn giản hoàn thành từng mục tiêu ngay trước mắt là đủ. Dù có nghĩ muốn đạt được việc lớn lao nào đó trong tương lai, ta cũng không thể biết nó ra sao và thực sự mình mong muốn gì. Thay vào đó, tìm ra «điều muốn làm ngay trước mắt» và lập kế hoạch để tập trung vào nó thì khả năng cao là «việc mình đang làm» sẽ tự nhiên tiến gần tới «điều mình mong muốn».'<br><b>Dịch câu hỏi:</b> Ý kiến nào phù hợp với quan điểm của tác giả?<br><i>Phân tích:</i><br>• 1, 2, 3 đều trái với lập luận của tác giả.<br>• <b>4. Nếu tiếp tục «điều muốn làm trước mắt», nó có thể trở thành «điều mình mong muốn»: [Đúng] Khớp ý cuối đoạn văn.</b>",
-                  "passage": "実は「やりたいことをやる」ためには、シンプルに間近の目標を達成していくだけで十分だと思います。「いつか大きな仕事を（注）成し遂げたい」と思っていても、実際にそれがどんなものかはわかりようがないし、本当に自分が望んでいるものが何なのかもわかりません。\nそれより「目の前のやりたいこと」を見つけ、それに集中できるようなプログラムを組んでいけば、自然に「自分のやっていること」が「自分の望んでいること」に近づいていく可能性が高いような気がします。\n（榊原英資『榊原式スピード思考力』幻冬舎による）\n\n（注）成し遂げる：達成する"
+          "id": 57,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者の考えに合うのはどれか。",
+          "options": [
+            "「やりたいことをやる」には、大きな目標を立てることが大切だ。",
+            "「自分の望んでいること」を知れば、今何をすべきかがわかるようになる。",
+            "「自分のやっていること」が「自分の望んでいること」だと気づくことが大切だ。",
+            "「目の前のやりたいこと」を続ければ、それが「自分の望んでいること」になり得る。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch bài:</b> 'Thực ra để «làm điều mình muốn», chỉ cần đơn giản hoàn thành từng mục tiêu ngay trước mắt là đủ. Dù có nghĩ muốn đạt được việc lớn lao nào đó trong tương lai, ta cũng không thể biết nó ra sao và thực sự mình mong muốn gì. Thay vào đó, tìm ra «điều muốn làm ngay trước mắt» và lập kế hoạch để tập trung vào nó thì khả năng cao là «việc mình đang làm» sẽ tự nhiên tiến gần tới «điều mình mong muốn».'<br><b>Dịch câu hỏi:</b> Ý kiến nào phù hợp với quan điểm của tác giả?<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Để «làm điều mình muốn», việc đặt ra mục tiêu lớn là quan trọng: Sai, tác giả cho rằng chỉ cần hoàn thành mục tiêu ngay trước mắt là đủ, còn việc lớn tương lai thì không thể biết nó ra sao.<br>• 2. Nếu biết «điều mình mong muốn», sẽ hiểu bây giờ nên làm gì: Sai, tác giả nói thực sự mình mong muốn gì cũng không thể biết rõ được.<br>• 3. Điều quan trọng là nhận ra «việc mình đang làm» chính là «điều mình mong muốn»: Sai, bài nói *tiếp tục tập trung vào việc trước mắt* thì nó sẽ tự nhiên *tiến gần tới* điều mình mong muốn, không phải chỉ nhận ra.<br>• 4. Nếu tiếp tục «điều muốn làm trước mắt», nó có thể trở thành «điều mình mong muốn»: Khớp hoàn toàn với ý cuối đoạn văn («自然に『自分のやっていること』が『自分の望んでいること』に近づいていく可能性が高い»). <b>(Đúng)</b>",
+          "passage": "実は「やりたいことをやる」ためには、シンプルに間近の目標を達成していくだけで十分だと思います。「いつか大きな仕事を（注）成し遂げたい」と思っていても、実際にそれがどんなものかはわかりようがないし、本当に自分が望んでいるものが何なのかもわかりません。\nそれより「目の前のやりたいこと」を見つけ、それに集中できるようなプログラムを組んでいけば、自然に「自分のやっていること」が「自分の望んでいること」に近づいていく可能性が高いような気がします。\n（榊原英資『榊原式スピード思考力』幻冬舎による）\n\n（注）成し遂げる：達成する"
         },
         {
-                  "id": 58,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "このはがきで紹介されている割引サービスについて正しいものはどれか。",
-                  "options": [
-                            "コーヒー豆を定期購入している人は、１０月中だけ「冬の味わい」を１０％割引で買うことができる。",
-                            "コーヒー豆を定期購入している人が１０月中に「冬の味わい」を予約すれば、１５％割引で買うことができる。",
-                            "「冬の味わい」を１０月中に予約すれば、その他の商品をすべて１５％割引で買うことができる。",
-                            "「冬の味わい」を買った人は、１０月中だけその他の商品をすべて１０％割引で買うことができる。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch bài:</b> 'Thông báo hội chợ giảm giá cho khách hàng mua cà phê hạt định kỳ: Mùa đông này công ty ra mắt sản phẩm mới «Hương vị mùa đông». Khách hàng mua định kỳ sẽ được mua sản phẩm này với giá đặc biệt giảm 15%. Quý khách muốn mua vui lòng đặt trước trong tháng 10. Ngoài ra, khách hàng mua định kỳ luôn được giảm 10% cho toàn bộ các sản phẩm khác bất cứ lúc nào.'<br><b>Dịch câu hỏi:</b> Điều nào đúng về dịch vụ giảm giá được giới thiệu trong bưu thiếp?<br><i>Phân tích:</i><br>• <b>2. Khách mua định kỳ đặt trước «冬の味わい» trong tháng 10 sẽ được mua giảm 15%: [Đúng].</b>",
-                  "passage": "以下は、コーヒー豆の販売会社から届いたはがきである。\n\n〒189-6715\n東京都橋谷市南3-15-8-302\nマリア・スミス様\n\n―――――――― 割引フェアのご案内 ――――――――\n\nいつも「野田コーヒー」をご愛飲くださいまして、ありがとうございます。\nコーヒー豆を定期購入されているお客様に、お得な割引フェアについてご案内いたします。\n当社ではこの冬、新商品「冬の味わい」を発売します。定期購入をされているお客様には、この商品を１５％割引の特別価格でご提供いたします。購入を希望される方は、１０月中にご予約ください。\nなお、すでにご案内しておりますとおり、定期購入をされているお客様は、その他の全商品がいつでも１０％割引でお求めいただけます。あわせてご利用ください。\n\n商品の詳細・ご注文方法につきましては、裏面をご覧ください。"
+          "id": 58,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "このはがきで紹介されている割引サービスについて正しいものはどれか。",
+          "options": [
+            "コーヒー豆を定期購入している人は、１０月中だけ「冬の味わい」を１０％割引で買うことができる。",
+            "コーヒー豆を定期購入している人が１０月中に「冬の味わい」を予約すれば、１５％割引で買うことができる。",
+            "「冬の味わい」を１０月中に予約すれば、その他の商品をすべて１５％割引で買うことができる。",
+            "「冬の味わい」を買った人は、１０月中だけその他の商品をすべて１０％割引で買うことができる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> 'Thông báo hội chợ giảm giá cho khách hàng mua cà phê hạt định kỳ: Mùa đông này công ty ra mắt sản phẩm mới «Hương vị mùa đông». Khách hàng mua định kỳ sẽ được mua sản phẩm này với giá đặc biệt giảm 15%. Quý khách muốn mua vui lòng đặt trước trong tháng 10. Ngoài ra, khách hàng mua định kỳ luôn được giảm 10% cho toàn bộ các sản phẩm khác bất cứ lúc nào.'<br><b>Dịch câu hỏi:</b> Điều nào đúng về dịch vụ giảm giá được giới thiệu trong bưu thiếp?<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Người mua định kỳ hạt cà phê chỉ trong tháng 10 mới mua được «Hương vị mùa đông» giảm 10%: Sai mức giảm (giảm 15%, không phải 10%) và tháng 10 là thời hạn *đặt trước*.<br>• 2. Khách mua định kỳ đặt trước «Hương vị mùa đông» trong tháng 10 sẽ được mua giảm 15%: Khớp hoàn toàn với thông báo dành cho khách hàng mua định kỳ đặt trước trong tháng 10. <b>(Đúng)</b><br>• 3. Nếu đặt trước «Hương vị mùa đông» trong tháng 10 thì sẽ mua được toàn bộ các sản phẩm khác giảm 15%: Sai, mức giảm 15% chỉ áp dụng cho «Hương vị mùa đông», các sản phẩm khác giảm 10%.<br>• 4. Người đã mua «Hương vị mùa đông» chỉ trong tháng 10 mới mua được toàn bộ các sản phẩm khác giảm 10%: Sai điều kiện và thời gian, vì ưu đãi giảm 10% áp dụng *bất cứ lúc nào* («いつでも») cho *khách mua định kỳ*.",
+          "passage": "以下は、コーヒー豆の販売会社から届いたはがきである。\n\n〒189-6715\n東京都橋谷市南3-15-8-302\nマリア・スミス様\n\n―――――――― 割引フェアのご案内 ――――――――\n\nいつも「野田コーヒー」をご愛飲くださいまして、ありがとうございます。\nコーヒー豆を定期購入されているお客様に、お得な割引フェアについてご案内いたします。\n当社ではこの冬、新商品「冬の味わい」を発売します。定期購入をされているお客様には、この商品を１５％割引の特別価格でご提供いたします。購入を希望される方は、１０月中にご予約ください。\nなお、すでにご案内しておりますとおり、定期購入をされているお客様は、その他の全商品がいつでも１０％割引でお求めいただけます。あわせてご利用ください。\n\n商品の詳細・ご注文方法につきましては、裏面をご覧ください。"
         },
         {
-                  "id": 59,
-                  "mondai": 10,
-                  "mondaiName": "問題10: 短文読解",
-                  "type": "reading",
-                  "question": "筆者によると、日記を書き続けるとどうなるか。",
-                  "options": [
-                            "毎日を「いい一日」にしようとするようになる。",
-                            "毎日が「いい一日」だと思えるようになる。",
-                            "「いい一日」が訪れるのを楽しみにするようになる。",
-                            "「いい一日」をいつまでも忘れないようになる。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch bài:</b> 'Một ngày thế nào là «ngày tốt lành» thì tùy mỗi người, nhưng nhờ tiếp tục viết nhật ký, ta sẽ hiểu ra các yếu tố cấu thành «ngày tốt lành» của riêng mình... Khi đó, thay vì chỉ ngồi chờ «ngày tốt lành» tình cờ đến, ta sẽ chủ động hành động để «hôm nay» trở thành «ngày tốt lành», để có thể viết vào nhật ký rằng «hôm nay là một ngày tốt lành».'<br><b>Dịch câu hỏi:</b> Theo tác giả, nếu tiếp tục viết nhật ký thì sẽ thế nào?<br><i>Phân tích:</i><br>• <b>1. Trở nên cố gắng biến mỗi ngày thành «một ngày tốt lành»: [Đúng] Khớp ý 「主体的に行動するようになる」.</b>",
-                  "passage": "どういう日が「いい一日」であるかは人によって異なるだろうが、日記を書き続けることで、自分にとっての「いい一日」というものの（注）構成要件がわかってくる。どうすれば「いい一日」になるかがわかってくるということだ。そうなれば「いい一日」がたまたま訪れるのをただ待つのではなく、「今日」が「いい一日」になるように、「今日はいい一日だった」と日記に書けるように、主体的に行動するようになるだろう。\n（大久保孝治『日常生活の探究―ライフスタイルの社会学』左右社による）\n\n（注）構成要件：構成するのに必要な条件"
+          "id": 59,
+          "mondai": 10,
+          "mondaiName": "問題10: 短文読解",
+          "type": "reading",
+          "question": "筆者によると、日記を書き続けるとどうなるか。",
+          "options": [
+            "毎日を「いい一日」にしようとするようになる。",
+            "毎日が「いい一日」だと思えるようになる。",
+            "「いい一日」が訪れるのを楽しみにするようになる。",
+            "「いい一日」をいつまでも忘れないようになる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch bài:</b> 'Một ngày thế nào là «ngày tốt lành» thì tùy mỗi người, nhưng nhờ tiếp tục viết nhật ký, ta sẽ hiểu ra các yếu tố cấu thành «ngày tốt lành» của riêng mình... Khi đó, thay vì chỉ ngồi chờ «ngày tốt lành» tình cờ đến, ta sẽ chủ động hành động để «hôm nay» trở thành «ngày tốt lành», để có thể viết vào nhật ký rằng «hôm nay là một ngày tốt lành».'<br><b>Dịch câu hỏi:</b> Theo tác giả, nếu tiếp tục viết nhật ký thì sẽ thế nào?<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Trở nên cố gắng biến mỗi ngày thành «một ngày tốt lành»: Khớp ý «『今日』が『いい一日』になるように…主体的に行動するようになるだろう». <b>(Đúng)</b><br>• 2. Trở nên có thể nghĩ rằng mỗi ngày đều là «một ngày tốt lành»: Sai, bài nói *chủ động hành động để biến hôm nay thành ngày tốt lành*, không phải chỉ tự nghĩ vậy.<br>• 3. Trở nên mong chờ «một ngày tốt lành» ghé đến: Sai, tác giả viết rõ *thay vì chỉ ngồi chờ* nó tình cờ đến («訪れるのをただ待つのではなく»).<br>• 4. Trở nên mãi không quên «một ngày tốt lành»: Sai, bài không đề cập đến việc ghi nhớ hay không quên.",
+          "passage": "どういう日が「いい一日」であるかは人によって異なるだろうが、日記を書き続けることで、自分にとっての「いい一日」というものの（注）構成要件がわかってくる。どうすれば「いい一日」になるかがわかってくるということだ。そうなれば「いい一日」がたまたま訪れるのをただ待つのではなく、「今日」が「いい一日」になるように、「今日はいい一日だった」と日記に書けるように、主体的に行動するようになるだろう。\n（大久保孝治『日常生活の探究―ライフスタイルの社会学』左右社による）\n\n（注）構成要件：構成するのに必要な条件"
         },
         {
-                  "id": 60,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "日本人が使う「個性」という言葉について、筆者はどのように述べているか。",
-                  "options": [
-                            "本来の意味とは違う使い方がされている。",
-                            "意味がないと思っている人が多い。",
-                            "主に若者に対して使われている。",
-                            "人によって使い方がさまざまだ。"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch câu hỏi:</b> Tác giả nhận xét thế nào về từ 「個性」 mà người Nhật hay dùng?<br><b>Phân tích:</b> Đoạn 2 và 3 nêu rõ: ở Nhật từ 「個性」 chủ yếu bị dùng cho vẻ bề ngoài kỳ dị (奇抜なスタイル), khiến nhiều người hiểu lầm 「個性＝人より目立つこと」(cá tính = nổi bật hơn người), khác với bản chất thật của cá tính.<br>• <b>1. Đang được dùng khác với ý nghĩa vốn có: [Đúng].</b>",
-                  "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
+          "id": 60,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "日本人が使う「個性」という言葉について、筆者はどのように述べているか。",
+          "options": [
+            "本来の意味とは違う使い方がされている。",
+            "意味がないと思っている人が多い。",
+            "主に若者に対して使われている。",
+            "人によって使い方がさまざまだ。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch câu hỏi:</b> Tác giả nhận xét thế nào về từ 「個性」 mà người Nhật hay dùng?<br><b>Phân tích:</b> Đoạn 2 và 3 nêu rõ: ở Nhật từ 「個性」 chủ yếu bị dùng cho vẻ bề ngoài kỳ dị (奇抜なスタイル), khiến nhiều người hiểu lầm 「個性＝人より目立つこと」(cá tính = nổi bật hơn người), khác với bản chất thật của cá tính.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Đang được dùng khác với ý nghĩa vốn có: Khớp với việc tác giả cảm thấy gợn (違和感) khi từ này bị dùng cho vẻ bề ngoài và bị hiểu nhầm thành «nổi bật hơn người». <b>(Đúng)</b><br>• 2. Có nhiều người nghĩ rằng từ này không có ý nghĩa: Sai, chính tác giả nói lời khuyên «hãy mài giũa cá tính» không có nhiều ý nghĩa, chứ không phải nhiều người nghĩ từ này vô nghĩa.<br>• 3. Chủ yếu đang được dùng đối với giới trẻ: Sai, bài chỉ nêu ví dụ câu hay nói với giới trẻ ở đoạn 1, còn cách dùng bị phê phán là dùng cho vẻ bề ngoài.<br>• 4. Tùy từng người mà cách dùng rất đa dạng: Sai, bài không nói cách dùng đa dạng tùy người mà chỉ ra sự hiểu lầm phổ biến.",
+          "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
         },
         {
-                  "id": 61,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "個性について、筆者の考えに合うものはどれか。",
-                  "options": [
-                            "他人には理解できないものである。",
-                            "人より目立つことで発揮できるものである。",
-                            "人間なら誰でも持っているものである。",
-                            "ファッションを通して主張できるものである。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về cá tính?<br><b>Phân tích:</b> Đoạn 4 viết nguyên văn: 「この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。」(Tất cả mọi con người sinh ra trên đời này, không sót một ai, đều có cá tính riêng của mình).<br>• <b>3. Là thứ hễ là con người thì ai cũng có: [Đúng].</b>",
-                  "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
+          "id": 61,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "個性について、筆者の考えに合うものはどれか。",
+          "options": [
+            "他人には理解できないものである。",
+            "人より目立つことで発揮できるものである。",
+            "人間なら誰でも持っているものである。",
+            "ファッションを通して主張できるものである。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về cá tính?<br><b>Phân tích:</b> Đoạn 4 viết nguyên văn: 「この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。」(Tất cả mọi con người sinh ra trên đời này, không sót một ai, đều có cá tính riêng của mình).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Là thứ người khác không thể hiểu được: Sai, bài chỉ nói là thứ của riêng mình và người khác không thể bắt chước, không nói người khác không hiểu được.<br>• 2. Là thứ có thể phát huy bằng cách nổi bật hơn người khác: Sai, đây là quan niệm sai lầm («錯覚») mà tác giả phê phán.<br>• 3. Là thứ hễ là con người thì ai cũng có: Khớp nguyên văn «この世に生まれた人間は一人残らず全員、それぞれの個性を持っています». <b>(Đúng)</b><br>• 4. Là thứ có thể khẳng định thông qua thời trang: Sai, tác giả không đồng tình với việc gắn cá tính chủ yếu vào thời trang hay kiểu tóc kỳ dị.",
+          "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
         },
         {
-                  "id": 62,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者によると、本当の意味で「個性を磨く」とはどのようなことか。",
-                  "options": [
-                            "自分の心に従って、関心があることを追い求めること",
-                            "自分が好きかどうかより、個性的に見られるかどうかを優先すること",
-                            "周囲の意見を参考に、無理なく自分の世界を広げること",
-                            "どんな物事にも、楽しさや面白さを見つける努力をすること"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, «mài giũa cá tính» theo đúng nghĩa thực sự là việc như thế nào?<br><b>Phân tích:</b> Đoạn cuối viết: hãy ưu tiên điều trái tim mình thực sự khao khát (thấy vui, thú vị, hồi hộp); hướng tâm trí vào thứ mình thực sự thích và quan tâm thì thế giới của bản thân sẽ tự mở rộng — đó mới là «個性を磨く» thực sự.<br>• <b>1. Làm theo trái tim mình, theo đuổi điều mình quan tâm: [Đúng].</b>",
-                  "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
+          "id": 62,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者によると、本当の意味で「個性を磨く」とはどのようなことか。",
+          "options": [
+            "自分の心に従って、関心があることを追い求めること",
+            "自分が好きかどうかより、個性的に見られるかどうかを優先すること",
+            "周囲の意見を参考に、無理なく自分の世界を広げること",
+            "どんな物事にも、楽しさや面白さを見つける努力をすること"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, «mài giũa cá tính» theo đúng nghĩa thực sự là việc như thế nào?<br><b>Phân tích:</b> Đoạn cuối viết: hãy ưu tiên điều trái tim mình thực sự khao khát (thấy vui, thú vị, hồi hộp); hướng tâm trí vào thứ mình thực sự thích và quan tâm thì thế giới của bản thân sẽ tự mở rộng — đó mới là «個性を磨く» thực sự.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Làm theo trái tim mình, theo đuổi điều mình quan tâm: Khớp ý «心から求めているものを優先すれば…自分が本当に好きなもの、興味があることに気持ちが向かっていけば…». <b>(Đúng)</b><br>• 2. Ưu tiên việc có được nhìn nhận là cá tính hay không hơn là mình có thích hay không: Sai, trái ngược hoàn toàn với lời khuyên ưu tiên điều bản thân thực sự thích.<br>• 3. Tham khảo ý kiến xung quanh để mở rộng thế giới của bản thân một cách thoải mái: Sai, bài nói không cần ngó nghiêng xem người khác thế nào hay bắt chước ai.<br>• 4. Nỗ lực tìm ra niềm vui và sự thú vị ở bất kỳ sự việc nào: Sai, bài khuyên hướng vào thứ mình *thực sự* thích và quan tâm, không phải cố tìm niềm vui ở mọi việc.",
+          "passage": "日本ではよく、「若者はもっと個性を発揮すべきだ」とか、「個性を磨くべきだ」などと言われます。けれど私は、そういう言葉にはあまり意味がないと思っています。\nまた、日本では「個性」という言葉が主に人の外観に関して使われることにも、私は（注１）違和感を持っています。たとえば、「個性的なファッション、個性的なヘアスタイル」は、「人がアッと驚くような（注２）奇抜なスタイル」であることが多いでしょう。\n（中略）\nこのように考えると、「個性＝人より目立つこと」と、多くの人が（注３）錯覚しているのではないかと思います。\nでも、根本的なことを言ってしまえば、この世に生まれた人間は一人残らず全員、それぞれの個性を持っています。だから、誰かに「磨きなさい」と命令されて、義務のように磨く必要などないのです。\nあなたが生まれ持った個性は、明らかにあなただけのものです。世界中に、あなたと同じ個性を持つ人など誰一人としていないのですから、「他の人はどうかな？」とキョロキョロすることは不必要だし、他人の真似をする必要もありません。真似しようとしても真似できないのが、個性というものなのです。\nあなた自身が「楽しい、面白い、不思議だ、ワクワクする、ドキドキする」と感じ、心から求めているものを優先すれば、それでいいのです。「磨く」とか「発揮する」などと意識しなくても、自分が本当に好きなもの、興味があることに気持ちが向かっていけば、自分の世界がどんどん広がっていく。それが本当の意味で「個性を磨く」ということです。\n（今北純一『自分力を高める』岩波書店による）\n\n（注１）違和感：ここでは、なにか違うという感じ\n（注２）奇抜な：珍しくて目立っている\n（注３）錯覚する：勘違いする"
         },
         {
-                  "id": 63,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者によると、「話し言葉」の重要な特徴とは何か。",
-                  "options": [
-                            "話し手と聞き手が声を使って情報を共有するところ",
-                            "話し手と聞き手の関係が多様であるところ",
-                            "話し手が聞き手との親しさによって表現を使い分けるところ",
-                            "話し手が聞き手と場面を共有するところ"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, đặc trưng quan trọng của «văn nói» (話し言葉) là gì?<br><b>Phân tích:</b> Câu đầu đoạn 1: 「『話し言葉』の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。」(Không phải ở chỗ dùng giọng nói, mà ở chỗ người nghe đang ở ngay trước mắt; cả hai có nhận thức chung về nơi chốn và tình huống).<br>• <b>4. Chỗ người nói và người nghe cùng chia sẻ bối cảnh/tình huống: [Đúng].</b>",
-                  "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
+          "id": 63,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者によると、「話し言葉」の重要な特徴とは何か。",
+          "options": [
+            "話し手と聞き手が声を使って情報を共有するところ",
+            "話し手と聞き手の関係が多様であるところ",
+            "話し手が聞き手との親しさによって表現を使い分けるところ",
+            "話し手が聞き手と場面を共有するところ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, đặc trưng quan trọng của «văn nói» (話し言葉) là gì?<br><b>Phân tích:</b> Câu đầu đoạn 1: 「『話し言葉』の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。」(Không phải ở chỗ dùng giọng nói, mà ở chỗ người nghe đang ở ngay trước mắt; cả hai có nhận thức chung về nơi chốn và tình huống).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Chỗ người nói và người nghe dùng giọng nói để chia sẻ thông tin: Sai, câu đầu phủ định rõ không phải ở chỗ dùng giọng nói («声を使うところにあるのではなく»).<br>• 2. Chỗ mối quan hệ giữa người nói và người nghe rất đa dạng: Sai, bài chỉ nêu ví dụ quan hệ đa dạng nhưng đặc trưng quan trọng nhất là cùng chia sẻ tình huống trước mắt.<br>• 3. Chỗ người nói phân chia cách diễn đạt tùy theo mức độ thân thiết với người nghe: Sai, bài không nêu điểm này.<br>• 4. Chỗ người nói và người nghe cùng chia sẻ bối cảnh/tình huống: Khớp ý người nghe ở ngay trước mắt và cả hai có nhận thức chung về nơi chốn, tình huống («一定の共通認識を持っています»). <b>(Đúng)</b>",
+          "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
         },
         {
-                  "id": 64,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "誤解が生じてとあるが、どのような時に誤解が生じるのか。",
-                  "options": [
-                            "読み手に必要な情報を十分に説明していない時",
-                            "読み手が理解していることを再び説明してしまった時",
-                            "自分のために書いたものを相手に送ってしまった時",
-                            "気を悪くした相手にきちんと謝らなかった時"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch câu hỏi:</b> Bài viết có nói «nảy sinh hiểu lầm» (誤解が生じて), vậy hiểu lầm xảy ra khi nào?<br><b>Phân tích:</b> Đoạn 2 nói rằng khi viết phải giải thích thành lời những điều bình thường không cần nói; nếu làm việc giải thích đó không chu đáo (そこがきちんとできていないと) thì sẽ nảy sinh hiểu lầm.<br>• <b>1. Khi không giải thích đầy đủ thông tin cần thiết cho người đọc: [Đúng].</b>",
-                  "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
+          "id": 64,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "誤解が生じてとあるが、どのような時に誤解が生じるのか。",
+          "options": [
+            "読み手に必要な情報を十分に説明していない時",
+            "読み手が理解していることを再び説明してしまった時",
+            "自分のために書いたものを相手に送ってしまった時",
+            "気を悪くした相手にきちんと謝らなかった時"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch câu hỏi:</b> Bài viết có nói «nảy sinh hiểu lầm» (誤解が生じて), vậy hiểu lầm xảy ra khi nào?<br><b>Phân tích:</b> Đoạn 2 nói rằng khi viết phải giải thích thành lời những điều bình thường không cần nói; nếu làm việc giải thích đó không chu đáo (そこがきちんとできていないと) thì sẽ nảy sinh hiểu lầm.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Khi không giải thích đầy đủ thông tin cần thiết cho người đọc: Khớp ý phải diễn đạt thành lời những điều ngầm hiểu; nếu không làm tốt khâu giải thích đó («そこがきちんとできていないと») sẽ gây hiểu lầm. <b>(Đúng)</b><br>• 2. Khi giải thích lại những điều mà người đọc đã hiểu rồi: Sai, hiểu lầm sinh ra do *thiếu* giải thích những điều cần thiết, không phải do giải thích lại.<br>• 3. Khi gửi cho đối phương thứ mình viết cho chính mình: Sai, ghi chú cho bản thân chỉ là ví dụ cho thấy ngay cả khi tự đọc lại sau này cũng cần chú thích bối cảnh.<br>• 4. Khi không xin lỗi đàng hoàng đối phương đã phật ý: Sai, đó là hậu quả ở văn viết khi không nhận ra đối phương giận, không phải nguyên nhân ban đầu gây ra hiểu lầm.",
+          "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
         },
         {
-                  "id": 65,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "「書き言葉」について、筆者の考えに合うのはどれか。",
-                  "options": [
-                            "相手がどのような情報を必要としているのかを調べることが大切だ。",
-                            "何をどのように書けば相手が理解できるかを考えることが大切だ。",
-                            "言い方や順序よりも文字と言葉の正確さを優先させたほうがいい。",
-                            "読み書きの知識よりも書く内容を重視したほうがいい。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về «văn viết» (書き言葉)?<br><b>Phân tích:</b> Đoạn cuối nhấn mạnh cần năng lực suy đoán người đọc cần thông tin gì, và suy nghĩ cách diễn đạt, trình tự trình bày thế nào để người đọc dễ hiểu và ít hiểu lầm.<br>• <b>2. Điều quan trọng là suy nghĩ nên viết cái gì và viết như thế nào để đối phương hiểu được: [Đúng].</b>",
-                  "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
+          "id": 65,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "「書き言葉」について、筆者の考えに合うのはどれか。",
+          "options": [
+            "相手がどのような情報を必要としているのかを調べることが大切だ。",
+            "何をどのように書けば相手が理解できるかを考えることが大切だ。",
+            "言い方や順序よりも文字と言葉の正確さを優先させたほうがいい。",
+            "読み書きの知識よりも書く内容を重視したほうがいい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về «văn viết» (書き言葉)?<br><b>Phân tích:</b> Đoạn cuối nhấn mạnh cần năng lực suy đoán người đọc cần thông tin gì, và suy nghĩ cách diễn đạt, trình tự trình bày thế nào để người đọc dễ hiểu và ít hiểu lầm.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Điều quan trọng là tìm hiểu xem đối phương đang cần những thông tin nào: Sai, không phải đi điều tra/tìm hiểu mà là *suy đoán* («推測する力»).<br>• 2. Điều quan trọng là suy nghĩ nên viết cái gì và viết như thế nào để đối phương hiểu được: Khớp ý cuối bài về việc suy đoán thông tin người đọc cần, cũng như cách diễn đạt và trình tự trình bày để dễ hiểu, ít hiểu lầm. <b>(Đúng)</b><br>• 3. Nên ưu tiên sự chính xác của chữ viết và từ ngữ hơn là cách nói hay trình tự: Sai, tác giả nhấn mạnh vai trò to lớn của cách nói và trình tự bên cạnh kiến thức đọc viết.<br>• 4. Nên coi trọng nội dung viết hơn là kiến thức đọc viết: Sai, bài nói *cộng thêm* vào kiến thức đọc viết, chứ không hạ thấp nó.",
+          "passage": "「話し言葉」の最も重要な特徴は、声を使うところにあるのではなく、聞き手が目の前にいるというところにあります。話し手と聞き手は、親しい関係の場合もあれば、初対面の人、（注１）行きずりの人の場合もありますが、少なくとも両者は、そこがどんな場所で、どんな状況であるかについて、一定の共通（注２）認識を持っています。同時に、相手がどういう人であるかについても、ある程度はわかります。\n（中略）\nところが「書き言葉」になると、たとえ親しい相手への手紙でも、あちこちで説明が必要になります。自分しか読まないはずの覚え書きでも、時間がたつと書かれた状況がわからなくなりますから、「あとで読み返すかもしれない自分」への最低限の（注３）配慮はしておかなくてはなりません。説明するというのは、「自分には言葉にしなくてもわかっていること」を、わざわざ言葉にする作業ですから、とてもやっかいです。でも、そこがきちんとできていないと、誤解が生じて（注４）取り返しのつかない結果になることもありえます。（注５）面とむかっての話なら、相手が気を悪くすれば急いで謝ることもできますが、手紙だと、怒らせたことに気づかないまま関係が切れる恐れすらあるのです。\nですから、「書き言葉」においては、文字の読み書きという知識に加えて、自分が書いたものを読む相手がどんな情報を必要としているかを（注６）推測する力、そして、その情報を、どんな言い方、どんな順序で提供すれば、わかってもらいやすく、誤解が生じにくいかを考える力が、（注７）いかに大きな意味を持つかがわかっていただけると思います。\n（脇明子『読む力が未来をひらく 小学生への読書支援』岩波書店による）\n\n（注１）行きずりの人：たまたま出会った人\n（注２）認識：理解\n（注３）配慮：気配り\n（注４）取り返しのつかない：もとに戻せず大変な\n（注５）面とむかって：対面して\n（注６）推測する：ここでは、想像する\n（注７）いかに：どんなに"
         },
         {
-                  "id": 66,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者によると、これまでの旅はどのようなものだったか。",
-                  "options": [
-                            "高くても遠い場所でのんびり過ごせればよかった。",
-                            "経験したことのないことができればよかった。",
-                            "気に入った場所に繰り返し行ければよかった。",
-                            "近くて安い場所に短期間行ければよかった。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, du lịch từ trước đến nay là như thế nào?<br><b>Phân tích:</b> Đoạn 1 viết: nhu cầu chính trước đây là muốn đến nơi chưa từng đến, xem thứ chưa từng thấy, ăn món chưa từng ăn — chỉ cần tới đó tham quan vừa phải là đủ hài lòng.<br>• <b>2. Chỉ cần làm được những việc chưa từng trải nghiệm là được: [Đúng].</b>",
-                  "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
+          "id": 66,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者によると、これまでの旅はどのようなものだったか。",
+          "options": [
+            "高くても遠い場所でのんびり過ごせればよかった。",
+            "経験したことのないことができればよかった。",
+            "気に入った場所に繰り返し行ければよかった。",
+            "近くて安い場所に短期間行ければよかった。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, du lịch từ trước đến nay là như thế nào?<br><b>Phân tích:</b> Đoạn 1 viết: nhu cầu chính trước đây là muốn đến nơi chưa từng đến, xem thứ chưa từng thấy, ăn món chưa từng ăn — chỉ cần tới đó tham quan vừa phải là đủ hài lòng.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Dù đắt nhưng chỉ cần nghỉ ngơi thư thả ở nơi xa là được: Sai, công ty du lịch giữ giá rẻ («価格を抑えるために») bằng cách đưa lượng lớn khách đi.<br>• 2. Chỉ cần làm được những việc chưa từng trải nghiệm là được: Khớp ý muốn đến nơi chưa từng đến, xem thứ chưa từng thấy, ăn món chưa từng ăn. <b>(Đúng)</b><br>• 3. Chỉ cần có thể đi lặp đi lặp lại đến nơi yêu thích là được: Sai, nhu cầu là đi nơi *chưa từng đến*.<br>• 4. Chỉ cần có thể đi trong thời gian ngắn đến nơi gần và rẻ là được: Sai, bài nhắc đến kỳ nghỉ dài («長い休み») và các địa điểm như Hokkaido, Okinawa, Guam, Hawaii.",
+          "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
         },
         {
-                  "id": 67,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者によると、客は旅で何を重視するようになってきたか。",
-                  "options": [
-                            "一回の旅行でさまざまな場所へ行けるかどうか",
-                            "観光するだけで満足できるかどうか",
-                            "行ってしたいことができるかどうか",
-                            "新しい場所へ行けるかどうか"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, khách hàng đã bắt đầu coi trọng điều gì trong chuyến du lịch?<br><b>Phân tích:</b> Đoạn 2 viết: 「今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。」<br>• <b>3. Có làm được điều mình muốn làm khi đến nơi hay không: [Đúng].</b>",
-                  "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
+          "id": 67,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者によると、客は旅で何を重視するようになってきたか。",
+          "options": [
+            "一回の旅行でさまざまな場所へ行けるかどうか",
+            "観光するだけで満足できるかどうか",
+            "行ってしたいことができるかどうか",
+            "新しい場所へ行けるかどうか"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, khách hàng đã bắt đầu coi trọng điều gì trong chuyến du lịch?<br><b>Phân tích:</b> Đoạn 2 viết: 「今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。」<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Liệu trong một chuyến đi có thể đến được nhiều nơi đa dạng hay không: Sai, trọng tâm là *mục đích* đến đó làm gì, không phải đi nhiều nơi.<br>• 2. Liệu chỉ tham quan thôi có thể hài lòng được hay không: Sai, bây giờ *chỉ đi tham quan thôi* không còn làm khách hài lòng nữa.<br>• 3. Liệu khi đến nơi có làm được điều mình muốn làm hay không: Khớp nguyên văn «行ってどうするのか、何ができるのかという目的が重要になる». <b>(Đúng)</b><br>• 4. Liệu có thể đi đến một địa điểm mới hay không: Sai, đây là nhu cầu của du lịch *trước đây*.",
+          "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
         },
         {
-                  "id": 68,
-                  "mondai": 11,
-                  "mondaiName": "問題11: 中文読解",
-                  "type": "reading",
-                  "question": "筆者によると、旅行会社が難しいと感じている点は何か。",
-                  "options": [
-                            "個々のニーズに合った団体旅行を考え出すこと",
-                            "魅力を感じてもらえる場所を探し続けること",
-                            "旅行に行こうという気持ちにさせること",
-                            "価格を抑えた団体旅行を企画すること"
-                  ],
-                  "correctAnswer": 1,
-                  "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, điểm mà các công ty du lịch đang cảm thấy khó khăn là gì?<br><b>Phân tích:</b> Đoạn cuối viết: 「個々の目的を一つに束ねてマスの企画にすることが難しいのだ。」(Rất khó để gom các mục đích cá nhân lại thành một kế hoạch cho số đông/đoàn thể).<br>• <b>1. Nghĩ ra các tour đoàn thể phù hợp với từng nhu cầu cá nhân: [Đúng].</b>",
-                  "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
+          "id": 68,
+          "mondai": 11,
+          "mondaiName": "問題11: 中文読解",
+          "type": "reading",
+          "question": "筆者によると、旅行会社が難しいと感じている点は何か。",
+          "options": [
+            "個々のニーズに合った団体旅行を考え出すこと",
+            "魅力を感じてもらえる場所を探し続けること",
+            "旅行に行こうという気持ちにさせること",
+            "価格を抑えた団体旅行を企画すること"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch câu hỏi:</b> Theo tác giả, điểm mà các công ty du lịch đang cảm thấy khó khăn là gì?<br><b>Phân tích:</b> Đoạn cuối viết: 「個々の目的を一つに束ねてマスの企画にすることが難しいのだ。」(Rất khó để gom các mục đích cá nhân lại thành một kế hoạch cho số đông/đoàn thể).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Nghĩ ra các tour đoàn thể phù hợp với từng nhu cầu cá nhân: Khớp ý «個々の目的を一つに束ねてマスの企画にすることが難しいのだ». <b>(Đúng)</b><br>• 2. Tiếp tục tìm kiếm những địa điểm khiến khách cảm thấy hấp dẫn: Sai, quảng bá địa điểm hấp dẫn là cách làm *trước đây*.<br>• 3. Khiến khách nảy sinh tâm lý muốn đi du lịch: Sai, khó khăn là gom các mục đích đa dạng thành tour chung cho số đông.<br>• 4. Lên kế hoạch các tour đoàn thể giữ mức giá thấp: Sai, giữ giá thấp bằng cách đưa khách số lượng lớn là cách làm *trước đây*.",
+          "passage": "（注１）従来、旅行業にとって（注２）顧客を喜ばせることは難しくなかった。自分の行ったことがないところに行きたい、見たことがないものを見たい、食べたことのないものを食べたいというのが主なニーズであったし、長い休みの存在自体が旅行の動機になり得たからだ。だから参加者の多くは、そこに行って、（注３）そこそこの観光ができれば、十分に満足した。旅行会社は、価格を抑えるために人々を大量に（注４）効率良く送客すればよかった。北海道や沖縄、グアムやハワイ、アジアのリゾート地……場所の魅力を繰り返し伝えて刺激し続ければそれでよかった。\nしかし、そうして多くの人がさまざまな場所に出掛けるようになると、今度はただ行くだけでは満足しなくなる。目的が必要になる。行ってどうするのか、何ができるのかという目的が重要になる。（中略）\nこの流れは現在も続いており、旅の動機づけとしては重要な視点となっている。ただ、残念ながらそういうことを（注５）マスとしてとらえることが、価値観の多様化のなかで難しくなってきている。個々の目的を一つに束ねてマスの企画にすることが難しいのだ。ブームが発生しづらくなっている状況と原因は同じであろう。\n（近藤康生『なぜ、人は旅に出るのか』ダイヤモンド社による）\n\n（注１）従来：これまで\n（注２）顧客：客\n（注３）そこそこの：まあまあの\n（注４）効率良く：ここでは、経費や時間をかけずに\n（注５）マス：集団"
         },
         {
-                  "id": 69,
-                  "mondai": 12,
-                  "mondaiName": "問題12: 比較読解",
-                  "type": "reading",
-                  "question": "公立図書館が人気のある本を複数冊置くことについて、ＡとＢはどのように述べているか。",
-                  "options": [
-                            "ＡもＢも、利用者の希望を重視しすぎていると述べている。",
-                            "ＡもＢも、利用者へのサービス向上につながると述べている。",
-                            "Ａは予算が足りなくなると述べ、Ｂは図書館の存在意義が失われると述べている。",
-                            "Ａは利用者の満足度が高くなると述べ、Ｂは予算の使い方として適切でないと述べている。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Dịch câu hỏi:</b> Về việc thư viện công lập đặt nhiều bản của những cuốn sách nổi tiếng, A và B nói như thế nào?<br><b>Phân tích:</b><br>• Đoạn A: nếu sách muốn mượn mà mãi không mượn được thì người dùng sẽ không hài lòng; đặt nhiều bản giúp cho mượn nhiều người, rút ngắn thời gian chờ (tăng sự hài lòng).<br>• Đoạn B: ai muốn đọc gấp thì tự mua, thư viện không cần dùng nhiều ngân sách vào việc đó.<br>• <b>4. A nói sẽ nâng cao sự hài lòng của người dùng, B nói đó không phải cách dùng ngân sách phù hợp: [Đúng].</b>",
-                  "passage": "Ａ\n公立の図書館では、利用者へのサービス向上のために、人気の高い本を複数冊置くことが増えている。本が複数冊あれば、同時に多くの利用者に貸し出せて、予約待ちの期間も短くできる。\nこのような図書館の姿勢に対して、予算は限られているのだから買える本の種類が少なくなってしまうのではないかと心配する声もある。しかし、借りたい本がなかなか借りられない図書館では利用者は満足しないだろう。公立の図書館は、多くの人々に読書のきっかけを与え、本を読む楽しさや喜びを感じてもらうようにする役割を持っている。図書館に同じ本を複数冊置くことは、その役割を果たすための一つの方法だといえる。\n\nＢ\n最近公立の図書館では人気の高い本を複数購入しているそうだ。有名な作家の小説などが対象らしい。流行の本を早く読みたいという利用者の希望に応えようとする図書館の気持ちは理解できる。しかし、どうしても早く読みたければ自分で買えばいいのだから、図書館がそのために多くの予算を使う必要はない。\n税金で運営されている公立図書館の存在意義は、学問的に価値のある本や手に入りにくい本など、さまざまな種類の本を一冊でも多くそろえていることだ。書店にない本でも図書館に行けば読めるというのが本来の姿だろう。同じ本を多く買うことによってその役割が果たせなくなったら、利用者に対するサービスの低下につながるといえる。"
+          "id": 69,
+          "mondai": 12,
+          "mondaiName": "問題12: 比較読解",
+          "type": "reading",
+          "question": "公立図書館が人気のある本を複数冊置くことについて、ＡとＢはどのように述べているか。",
+          "options": [
+            "ＡもＢも、利用者の希望を重視しすぎていると述べている。",
+            "ＡもＢも、利用者へのサービス向上につながると述べている。",
+            "Ａは予算が足りなくなると述べ、Ｂは図書館の存在意義が失われると述べている。",
+            "Ａは利用者の満足度が高くなると述べ、Ｂは予算の使い方として適切でないと述べている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch câu hỏi:</b> Về việc thư viện công lập đặt nhiều bản của những cuốn sách nổi tiếng, A và B nói như thế nào?<br><b>Phân tích:</b><br>• Đoạn A: nếu sách muốn mượn mà mãi không mượn được thì người dùng sẽ không hài lòng; đặt nhiều bản giúp cho mượn nhiều người, rút ngắn thời gian chờ (tăng sự hài lòng).<br>• Đoạn B: ai muốn đọc gấp thì tự mua, thư viện không cần dùng nhiều ngân sách vào việc đó.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cả A và B đều nói đang coi trọng quá mức nguyện vọng của người dùng: Sai, A ủng hộ việc đáp ứng nguyện vọng mượn sách nhanh của người dùng.<br>• 2. Cả A và B đều nói dẫn đến việc nâng cao dịch vụ cho người dùng: Sai, B cho rằng làm vậy dẫn đến *suy giảm* dịch vụ («サービスの低下につながる»).<br>• 3. A nói ngân sách sẽ bị thiếu hụt, B nói ý nghĩa tồn tại của thư viện sẽ mất đi: Sai ở A (A chỉ nhắc có ý kiến lo ngại về chủng loại sách do ngân sách hạn chế rồi phản bác lại).<br>• 4. A nói mức độ hài lòng của người dùng sẽ cao lên, B nói đó không phải cách dùng ngân sách phù hợp: Khớp quan điểm của A (tránh việc người dùng không hài lòng vì phải chờ lâu) và B (không cần dùng nhiều ngân sách vào sách bán chạy). <b>(Đúng)</b>",
+          "passage": "Ａ\n公立の図書館では、利用者へのサービス向上のために、人気の高い本を複数冊置くことが増えている。本が複数冊あれば、同時に多くの利用者に貸し出せて、予約待ちの期間も短くできる。\nこのような図書館の姿勢に対して、予算は限られているのだから買える本の種類が少なくなってしまうのではないかと心配する声もある。しかし、借りたい本がなかなか借りられない図書館では利用者は満足しないだろう。公立の図書館は、多くの人々に読書のきっかけを与え、本を読む楽しさや喜びを感じてもらうようにする役割を持っている。図書館に同じ本を複数冊置くことは、その役割を果たすための一つの方法だといえる。\n\nＢ\n最近公立の図書館では人気の高い本を複数購入しているそうだ。有名な作家の小説などが対象らしい。流行の本を早く読みたいという利用者の希望に応えようとする図書館の気持ちは理解できる。しかし、どうしても早く読みたければ自分で買えばいいのだから、図書館がそのために多くの予算を使う必要はない。\n税金で運営されている公立図書館の存在意義は、学問的に価値のある本や手に入りにくい本など、さまざまな種類の本を一冊でも多くそろえていることだ。書店にない本でも図書館に行けば読めるというのが本来の姿だろう。同じ本を多く買うことによってその役割が果たせなくなったら、利用者に対するサービスの低下につながるといえる。"
         },
         {
-                  "id": 70,
-                  "mondai": 12,
-                  "mondaiName": "問題12: 比較読解",
-                  "type": "reading",
-                  "question": "公立図書館の役割について、ＡとＢはどのように述べているか。",
-                  "options": [
-                            "ＡもＢも、利用者の教養を高めることだと述べている。",
-                            "ＡもＢも、読書が好きな人を増やすことだと述べている。",
-                            "Ａは利用者に読書に親しんでもらうことだと述べ、Ｂは貸し出す本の多様性を確保することだと述べている。",
-                            "Ａは利用者が読書を楽しめる環境を作ることだと述べ、Ｂは書店よりも新しい本をそろえることだと述べている。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch câu hỏi:</b> Về vai trò của thư viện công lập, A và B nói như thế nào?<br><b>Phân tích:</b><br>• Đoạn A: vai trò là trao cơ hội đọc sách, giúp nhiều người cảm nhận được niềm vui thích đọc sách.<br>• Đoạn B: ý nghĩa tồn tại là chuẩn bị càng nhiều đầu sách đa dạng càng tốt (sách giá trị học thuật, sách khó tìm ở hiệu sách...).<br>• <b>3. A nói là giúp người dùng làm quen/gắn bó với việc đọc sách, B nói là đảm bảo tính đa dạng của sách cho mượn: [Đúng].</b>",
-                  "passage": "Ａ\n公立の図書館では、利用者へのサービス向上のために、人気の高い本を複数冊置くことが増えている。本が複数冊あれば、同時に多くの利用者に貸し出せて、予約待ちの期間も短くできる。\nこのような図書館の姿勢に対して、予算は限られているのだから買える本の種類が少なくなってしまうのではないかと心配する声もある。しかし、借りたい本がなかなか借りられない図書館では利用者は満足しないだろう。公立の図書館は、多くの人々に読書のきっかけを与え、本を読む楽しさや喜びを感じてもらうようにする役割を持っている。図書館に同じ本を複数冊置くことは、その役割を果たすための一つの方法だといえる。\n\nＢ\n最近公立の図書館では人気の高い本を複数購入しているそうだ。有名な作家の小説などが対象らしい。流行の本を早く読みたいという利用者の希望に応えようとする図書館の気持ちは理解できる。しかし、どうしても早く読みたければ自分で買えばいいのだから、図書館がそのために多くの予算を使う必要はない。\n税金で運営されている公立図書館の存在意義は、学問的に価値のある本や手に入りにくい本など、さまざまな種類の本を一冊でも多くそろえていることだ。書店にない本でも図書館に行けば読めるというのが本来の姿だろう。同じ本を多く買うことによってその役割が果たせなくなったら、利用者に対するサービスの低下につながるといえる。"
+          "id": 70,
+          "mondai": 12,
+          "mondaiName": "問題12: 比較読解",
+          "type": "reading",
+          "question": "公立図書館の役割について、ＡとＢはどのように述べているか。",
+          "options": [
+            "ＡもＢも、利用者の教養を高めることだと述べている。",
+            "ＡもＢも、読書が好きな人を増やすことだと述べている。",
+            "Ａは利用者に読書に親しんでもらうことだと述べ、Ｂは貸し出す本の多様性を確保することだと述べている。",
+            "Ａは利用者が読書を楽しめる環境を作ることだと述べ、Ｂは書店よりも新しい本をそろえることだと述べている。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Về vai trò của thư viện công lập, A và B nói như thế nào?<br><b>Phân tích:</b><br>• Đoạn A: vai trò là trao cơ hội đọc sách, giúp nhiều người cảm nhận được niềm vui thích đọc sách.<br>• Đoạn B: ý nghĩa tồn tại là chuẩn bị càng nhiều đầu sách đa dạng càng tốt (sách giá trị học thuật, sách khó tìm ở hiệu sách...).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Cả A và B đều nói là nâng cao trình độ văn hóa/tri thức của người dùng: Sai, không phải nội dung chung được cả hai đề cập.<br>• 2. Cả A và B đều nói là tăng số người thích đọc sách: Sai, B không nói về việc tăng số người thích đọc sách mà nói về sự đa dạng đầu sách.<br>• 3. A nói là giúp người dùng làm quen/gắn bó với việc đọc sách, B nói là đảm bảo tính đa dạng của sách cho mượn: Khớp ý A («多くの人々に読書のきっかけを与え、本を読む楽しさや喜びを感じてもらう») và ý B («さまざまな種類の本を一冊でも多くそろえていること»). <b>(Đúng)</b><br>• 4. A nói là tạo môi trường để người dùng tận hưởng việc đọc sách, B nói là chuẩn bị sách mới hơn cả hiệu sách: Sai ở B (B nói sách giá trị học thuật, sách khó tìm mà *hiệu sách không có*, không phải sách mới hơn hiệu sách).",
+          "passage": "Ａ\n公立の図書館では、利用者へのサービス向上のために、人気の高い本を複数冊置くことが増えている。本が複数冊あれば、同時に多くの利用者に貸し出せて、予約待ちの期間も短くできる。\nこのような図書館の姿勢に対して、予算は限られているのだから買える本の種類が少なくなってしまうのではないかと心配する声もある。しかし、借りたい本がなかなか借りられない図書館では利用者は満足しないだろう。公立の図書館は、多くの人々に読書のきっかけを与え、本を読む楽しさや喜びを感じてもらうようにする役割を持っている。図書館に同じ本を複数冊置くことは、その役割を果たすための一つの方法だといえる。\n\nＢ\n最近公立の図書館では人気の高い本を複数購入しているそうだ。有名な作家の小説などが対象らしい。流行の本を早く読みたいという利用者の希望に応えようとする図書館の気持ちは理解できる。しかし、どうしても早く読みたければ自分で買えばいいのだから、図書館がそのために多くの予算を使う必要はない。\n税金で運営されている公立図書館の存在意義は、学問的に価値のある本や手に入りにくい本など、さまざまな種類の本を一冊でも多くそろえていることだ。書店にない本でも図書館に行けば読めるというのが本来の姿だろう。同じ本を多く買うことによってその役割が果たせなくなったら、利用者に対するサービスの低下につながるといえる。"
         },
         {
-                  "id": 71,
-                  "mondai": 13,
-                  "mondaiName": "問題13: 長文読解",
-                  "type": "reading",
-                  "question": "感動したことを現代に持ち帰ってくるとは、どのようなことか。",
-                  "options": [
-                            "感動したシーンを人に語る。",
-                            "感動した記憶をデザインに生かす。",
-                            "過去に流行したデザインをコピーする。",
-                            "人が感動したことからデザインのヒントをもらう。"
-                  ],
-                  "correctAnswer": 2,
-                  "explanation": "<b>Dịch câu hỏi:</b> «Mang những điều đã từng làm mình rung động về với hiện tại» nghĩa là gì?<br><b>Phân tích:</b> Đoạn 1 viết: 「いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。」(Sao chép lại điều đã khiến mình rung động trong quá khứ rồi đưa vào thiết kế).<br>• <b>2. Vận dụng ký ức từng rung động vào việc thiết kế: [Đúng].</b>",
-                  "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
+          "id": 71,
+          "mondai": 13,
+          "mondaiName": "問題13: 長文読解",
+          "type": "reading",
+          "question": "感動したことを現代に持ち帰ってくるとは、どのようなことか。",
+          "options": [
+            "感動したシーンを人に語る。",
+            "感動した記憶をデザインに生かす。",
+            "過去に流行したデザインをコピーする。",
+            "人が感動したことからデザインのヒントをもらう。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch câu hỏi:</b> «Mang những điều đã từng làm mình rung động về với hiện tại» nghĩa là gì?<br><b>Phân tích:</b> Đoạn 1 viết: 「いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。」(Sao chép lại điều đã khiến mình rung động trong quá khứ rồi đưa vào thiết kế).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Kể lại cho người khác cảnh tượng đã làm mình rung động: Sai, không phải kể lại mà là đưa vào thiết kế.<br>• 2. Vận dụng ký ức từng rung động vào việc thiết kế: Khớp nguyên văn «過去の中で感動したことをコピーして、それをデザインしているのです». <b>(Đúng)</b><br>• 3. Sao chép lại các thiết kế từng thịnh hành trong quá khứ: Sai, thứ được sao chép là *ký ức rung động của bản thân*, không phải thiết kế thịnh hành.<br>• 4. Nhận gợi ý thiết kế từ những điều khiến người khác rung động: Sai, nguồn cảm hứng là những điều khiến *chính tác giả* rung động trong đời mình.",
+          "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
         },
         {
-                  "id": 72,
-                  "mondai": 13,
-                  "mondaiName": "問題13: 長文読解",
-                  "type": "reading",
-                  "question": "感動について、筆者の考えに合うのはどれか。",
-                  "options": [
-                            "感動は周囲の力でしかつくられない。",
-                            "感動したことは年を取るにつれて思い出せなくなる。",
-                            "周囲の力でつくられた感動は記憶に残りやすい。",
-                            "心の底から感動したことは鮮明な思い出となる。"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về sự rung động (感動)?<br><b>Phân tích:</b> Đoạn 2 nói khi rung động, màu sắc, mùi hương, ánh sáng, cảnh vật đều khắc sâu rõ nét (鮮明に刻み込まれています). Đoạn 4 nói nếu chỉ mơ hồ (もやーっと) là do chưa rung động từ tận đáy lòng.<br>• <b>4. Những điều khiến ta rung động từ tận đáy lòng sẽ trở thành ký ức rõ nét: [Đúng].</b>",
-                  "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
+          "id": 72,
+          "mondai": 13,
+          "mondaiName": "問題13: 長文読解",
+          "type": "reading",
+          "question": "感動について、筆者の考えに合うのはどれか。",
+          "options": [
+            "感動は周囲の力でしかつくられない。",
+            "感動したことは年を取るにつれて思い出せなくなる。",
+            "周囲の力でつくられた感動は記憶に残りやすい。",
+            "心の底から感動したことは鮮明な思い出となる。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch câu hỏi:</b> Ý nào phù hợp với suy nghĩ của tác giả về sự rung động (感動)?<br><b>Phân tích:</b> Đoạn 2 nói khi rung động, màu sắc, mùi hương, ánh sáng, cảnh vật đều khắc sâu rõ nét (鮮明に刻み込まれています). Đoạn 4 nói nếu chỉ mơ hồ (もやーっと) là do chưa rung động từ tận đáy lòng.<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Sự rung động chỉ được tạo nên bởi sức mạnh của người xung quanh: Sai, đoạn 5 viết không chỉ sức mình mà *còn* nhờ sức của cha mẹ, bạn bè, người xung quanh («自分の力だけでなく…ほかの人の力によってもつくられています»).<br>• 2. Những điều từng rung động sẽ dần không nhớ nổi theo tuổi tác: Sai, tác giả vẫn nhớ rõ và quay ngược thời gian cắt lấy cảnh tượng đó.<br>• 3. Sự rung động được tạo nên bởi sức mạnh xung quanh thì dễ lưu lại trong ký ức: Sai, bài không so sánh mức độ nhớ giữa rung động do mình hay do xung quanh tạo ra.<br>• 4. Những điều khiến ta rung động từ tận đáy lòng sẽ trở thành ký ức rõ nét: Khớp ý đoạn 2 (ký ức khắc sâu rõ nét) và đoạn 4 (nếu mơ hồ không cắt lấy được là vì chưa rung động từ tận đáy lòng). <b>(Đúng)</b>",
+          "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
         },
         {
-                  "id": 73,
-                  "mondai": 13,
-                  "mondaiName": "問題13: 長文読解",
-                  "type": "reading",
-                  "question": "アイディアについて、筆者はどのように考えているか。",
-                  "options": [
-                            "記憶力が強いほど、アイディアが生まれやすくなる。",
-                            "他人の力を上手に利用することで、アイディアが商品につながる。",
-                            "感動した思い出が豊富であるほど、多くのアイディアが生まれる。",
-                            "感動をヒト・コト・モノに分けて考えると、いいアイディアが生まれる。"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch câu hỏi:</b> Tác giả nghĩ như thế nào về ý tưởng (アイディア)?<br><b>Phân tích:</b> Câu cuối bài: 「そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの湧き出る量は変わるのです。」(Lượng ý tưởng tuôn trào nhiều hay ít tùy thuộc vào việc ta có bao nhiêu ngăn kéo ký ức đẹp).<br>• <b>3. Ký ức rung động càng phong phú thì càng nảy sinh nhiều ý tưởng: [Đúng].</b>",
-                  "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
+          "id": 73,
+          "mondai": 13,
+          "mondaiName": "問題13: 長文読解",
+          "type": "reading",
+          "question": "アイディアについて、筆者はどのように考えているか。",
+          "options": [
+            "記憶力が強いほど、アイディアが生まれやすくなる。",
+            "他人の力を上手に利用することで、アイディアが商品につながる。",
+            "感動した思い出が豊富であるほど、多くのアイディアが生まれる。",
+            "感動をヒト・コト・モノに分けて考えると、いいアイディアが生まれる。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Tác giả nghĩ như thế nào về ý tưởng (アイディア)?<br><b>Phân tích:</b> Câu cuối bài: 「そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの湧き出る量は変わるのです。」(Lượng ý tưởng tuôn trào nhiều hay ít tùy thuộc vào việc ta có bao nhiêu ngăn kéo ký ức đẹp).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Trí nhớ càng tốt thì ý tưởng càng dễ nảy sinh: Sai, không phải khả năng ghi nhớ nói chung mà là số lượng *ký ức đẹp về sự rung động*.<br>• 2. Nhờ khéo léo tận dụng sức mạnh của người khác mà ý tưởng gắn với sản phẩm: Sai, sản phẩm mới ra đời nhờ kết hợp ký ức rung động của bản thân với thứ hiện có.<br>• 3. Ký ức rung động càng phong phú thì càng nảy sinh nhiều ý tưởng: Khớp hoàn toàn với câu kết bài («よき思い出の引き出しをどれだけ持っているかによって、アイディアの湧き出る量は変わる»). <b>(Đúng)</b><br>• 4. Nếu chia sự rung động thành người-việc-vật để suy nghĩ thì sẽ nảy sinh ý tưởng hay: Sai, bài nói sở hữu nhiều ngăn kéo ký ức tốt đẹp với người-việc-vật, không phải chia nhỏ để suy nghĩ.",
+          "passage": "以下は、あるデザイナーの書いた文章である。\n\n私のアイディアのもとは、自分の生きてきた道の中にすべて詰まっているのだ、というふうに思っています。いままで生きてきた中で、感動したことを現代に持ち帰ってくる。過去の中で感動したことをコピーして、それをデザインしているのです。アイディアはいつも人から、時代からもらう。自分で考え出すことは少ないのです。\n私は、感動したときのシーンはよく覚えています。色も匂いも形も光も季節も、そのときの景色も、そのときその場に誰がいたかも、何を食べたかも、思い出の中に鮮明に刻み込まれています。感動すると、それくらい記憶装置が自動的に働いて、すべてを映し込んでいるのです。\n（中略）\n中学の頃のこと、高校のあのとき、社会人になったときのこと、妻と旅をしたときの情景などいろいろなシーンが思い出されて、それを遡って切り取りにいくわけです。\nけれどもそれが、（注１）もやーっとしたものだと切り取れない。なぜ、もやーっとするかと言えば、心の底から感動していないからです。しっかり感動していないと、持ち帰れないのです。\n感動は、自分の力だけでなく、親の力だったり、友だちの力だったり、ほかの人の力によってもつくられています。子どものときから大事に育てられたとか、自分を包んでくれる街がきちっと大人たちによって美しく保たれていたとか、そういう周囲の力でつくられている場合もあるわけです。\nそうした感動の思い出を大切に持ち帰ってきて、いまあるものと（注２）コラボレーションすると、新商品が生まれます。そういう意味では、（注３）まるっきりの新商品なんてあり得ません。\nアイディアはいつも、そんな過去の「感動の森」の中から探し出してくるものなのです。\nいい思い出がたくさんあるかどうか、いい人に会ったかどうか、美味しいものを食べたかどうか。そういうヒト・コト・モノとのよき思い出の引き出しをどれだけ持っているかによって、アイディアの（注４）湧き出る量は変わるのです。\n（水戸岡鋭治『あと１％だけ、やってみよう 私の仕事哲学』集英社インターナショナルによる）\n\n（注１）もやーっとした：はっきりしない\n（注２）コラボレーションする：ここでは、組み合わせる\n（注３）まるっきりの：全くの\n（注４）湧き出る：ここでは、生まれてくる"
         },
         {
-                  "id": 74,
-                  "mondai": 14,
-                  "mondaiName": "問題14: 情報検索",
-                  "type": "reading",
-                  "question": "ユンさんは、来週ミハマホテルのビュッフェに行きたいと考えている。金曜か土曜の１２時から１７時の間で、２時間いられるものがいい。ユンさんの希望に合うビュッフェはどれか。",
-                  "options": [
-                            "「ベルン」のランチビュッフェ",
-                            "「ベルン」のデザートビュッフェ",
-                            "「ベルン」の夕食ビュッフェ",
-                            "「みよし」のランチビュッフェ"
-                  ],
-                  "correctAnswer": 4,
-                  "explanation": "<b>Dịch câu hỏi:</b> Bạn Yun muốn đi buffet tuần sau, thứ Sáu hoặc thứ Bảy trong khoảng 12:00–17:00, và muốn ở lại được 2 tiếng. Buffet nào hợp với mong muốn của Yun?<br><b>Phân tích điều kiện:</b><br>• 1. ベルン ランチ: 11:30～14:00 nhưng giới hạn 90 phút (không đủ 2 tiếng).<br>• 2. ベルン デザート: 15:00～17:00 nhưng giới hạn 60 phút (không đủ 2 tiếng).<br>• 3. ベルン 夕食: 18:00～21:00 (ngoài khung 12:00–17:00).<br>• <b>4. みよし ランチ: 11:00～16:00, giới hạn 2 tiếng, mở cuối tuần (thứ Bảy đi được) → [Đúng].</b>",
-                  "passage": "ミハマホテル ビュッフェのご案内\nレストラン「ベルン」および「みよし」では、以下のビュッフェをご用意しております。\nお好みの料理を食べ放題でお楽しみください。\n\n【ベルン（洋食）】\n◆ランチ 11:30～14:00（制限時間90分）\n料金：（平日）おとな 3,300円 / シニア 3,000円 / こども 1,700円\n　　　（土日・祝日）おとな 4,000円 / シニア 3,700円 / こども 2,000円\n\n◆デザート 15:00～17:00（制限時間60分）\n料金：（平日）おとな 2,500円 / シニア 2,200円 / こども 1,500円\n　　　（土日・祝日）おとな 3,000円 / シニア 2,700円 / こども 1,800円\n\n◆夕食 18:00～21:00（制限時間2時間）\n料金：（平日）おとな 5,500円 / シニア 5,000円 / こども 2,000円\n　　　（土日・祝日）おとな 6,000円 / シニア 5,500円 / こども 2,500円\n\n“窓際特別テーブル”のご案内\nレストラン「ベルン」では、海が見渡せる窓際の特別席をご用意しております。最高の眺めとともにビュッフェをお楽しみください。ビュッフェ料金に、1テーブル（2～4名様）1,000円の追加料金でご利用いただけます。\n\n【みよし（和食）】\n◆ランチ 11:00～16:00（制限時間2時間）土日・祝日のみ\n料金：おとな 4,500円 / シニア 4,200円 / こども 2,200円\n\n※ビュッフェ料金の区分について（ベルン・みよし共通）\nおとな…中学生から64歳までのお客様\nシニア…65歳以上のお客様\nこども…4歳から小学生までのお子様（3歳以下のお子様は無料です。）\n\nご予約・お問い合わせ\nベルン 03-1277-1116（直通）／ みよし 03-1277-1119（直通）"
+          "id": 74,
+          "mondai": 14,
+          "mondaiName": "問題14: 情報検索",
+          "type": "reading",
+          "question": "ユンさんは、来週ミハマホテルのビュッフェに行きたいと考えている。金曜か土曜の１２時から１７時の間で、２時間いられるものがいい。ユンさんの希望に合うビュッフェはどれか。",
+          "options": [
+            "「ベルン」のランチビュッフェ",
+            "「ベルン」のデザートビュッフェ",
+            "「ベルン」の夕食ビュッフェ",
+            "「みよし」のランチビュッフェ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch câu hỏi:</b> Bạn Yun muốn đi buffet tuần sau, thứ Sáu hoặc thứ Bảy trong khoảng 12:00–17:00, và muốn ở lại được 2 tiếng. Buffet nào hợp với mong muốn của Yun?<br><b>Phân tích điều kiện:</b><br>• 1. ベルン ランチ: 11:30～14:00 nhưng giới hạn 90 phút (không đủ 2 tiếng).<br>• 2. ベルン デザート: 15:00～17:00 nhưng giới hạn 60 phút (không đủ 2 tiếng).<br>• 3. ベルン 夕食: 18:00～21:00 (ngoài khung 12:00–17:00).<br>• <b>4. みよし ランチ: 11:00～16:00, giới hạn 2 tiếng, mở cuối tuần (thứ Bảy đi được) → [Đúng].</b>",
+          "passage": "ミハマホテル ビュッフェのご案内\nレストラン「ベルン」および「みよし」では、以下のビュッフェをご用意しております。\nお好みの料理を食べ放題でお楽しみください。\n\n【ベルン（洋食）】\n◆ランチ 11:30～14:00（制限時間90分）\n料金：（平日）おとな 3,300円 / シニア 3,000円 / こども 1,700円\n　　　（土日・祝日）おとな 4,000円 / シニア 3,700円 / こども 2,000円\n\n◆デザート 15:00～17:00（制限時間60分）\n料金：（平日）おとな 2,500円 / シニア 2,200円 / こども 1,500円\n　　　（土日・祝日）おとな 3,000円 / シニア 2,700円 / こども 1,800円\n\n◆夕食 18:00～21:00（制限時間2時間）\n料金：（平日）おとな 5,500円 / シニア 5,000円 / こども 2,000円\n　　　（土日・祝日）おとな 6,000円 / シニア 5,500円 / こども 2,500円\n\n“窓際特別テーブル”のご案内\nレストラン「ベルン」では、海が見渡せる窓際の特別席をご用意しております。最高の眺めとともにビュッフェをお楽しみください。ビュッフェ料金に、1テーブル（2～4名様）1,000円の追加料金でご利用いただけます。\n\n【みよし（和食）】\n◆ランチ 11:00～16:00（制限時間2時間）土日・祝日のみ\n料金：おとな 4,500円 / シニア 4,200円 / こども 2,200円\n\n※ビュッフェ料金の区分について（ベルン・みよし共通）\nおとな…中学生から64歳までのお客様\nシニア…65歳以上のお客様\nこども…4歳から小学生までのお子様（3歳以下のお子様は無料です。）\n\nご予約・お問い合わせ\nベルン 03-1277-1116（直通）／ みよし 03-1277-1119（直通）"
         },
         {
-                  "id": 75,
-                  "mondai": 14,
-                  "mondaiName": "問題14: 情報検索",
-                  "type": "reading",
-                  "question": "エンリケさんは、今度の土曜日に妻と一緒にレストラン「ベルン」の夕食ビュッフェに行き、「窓際特別テーブル」を利用したい。エンリケさんは６３歳、妻は６６歳である。エンリケさんたちの料金はどのようになるか。",
-                  "options": [
-                            "エンリケさん６,０００円、妻６,０００円のみ",
-                            "エンリケさん６,０００円、妻６,０００円、テーブル料金１,０００円",
-                            "エンリケさん６,０００円、妻５,５００円、テーブル料金１,０００円",
-                            "エンリケさん５,５００円、妻５,０００円、テーブル料金１,０００円"
-                  ],
-                  "correctAnswer": 3,
-                  "explanation": "<b>Dịch câu hỏi:</b> Anh Enrique thứ Bảy tới đi cùng vợ ăn buffet tối tại nhà hàng «ベルン» và dùng «bàn đặc biệt cạnh cửa sổ». Anh Enrique 63 tuổi, vợ 66 tuổi. Chi phí của hai người thế nào?<br><b>Phân tích:</b><br>• Phân loại tuổi: おとな (cấp 2 đến 64 tuổi) → Anh Enrique 63 tuổi là おとな; シニア (từ 65 tuổi trở lên) → Vợ 66 tuổi là シニア.<br>• Giá buffet tối thứ Bảy (土日・祝日) của ベルン: おとな 6,000円, シニア 5,500円.<br>• Phí bàn đặc biệt cạnh cửa sổ: thêm 1,000円 cho 1 bàn (2–4 người).<br>• <b>3. Enrique 6,000円, vợ 5,500円, phí bàn 1,000円 → [Đúng].</b>",
-                  "passage": "ミハマホテル ビュッフェのご案内\nレストラン「ベルン」および「みよし」では、以下のビュッフェをご用意しております。\nお好みの料理を食べ放題でお楽しみください。\n\n【ベルン（洋食）】\n◆ランチ 11:30～14:00（制限時間90分）\n料金：（平日）おとな 3,300円 / シニア 3,000円 / こども 1,700円\n　　　（土日・祝日）おとな 4,000円 / シニア 3,700円 / こども 2,000円\n\n◆デザート 15:00～17:00（制限時間60分）\n料金：（平日）おとな 2,500円 / シニア 2,200円 / こども 1,500円\n　　　（土日・祝日）おとな 3,000円 / シニア 2,700円 / こども 1,800円\n\n◆夕食 18:00～21:00（制限時間2時間）\n料金：（平日）おとな 5,500円 / シニア 5,000円 / こども 2,000円\n　　　（土日・祝日）おとな 6,000円 / シニア 5,500円 / こども 2,500円\n\n“窓際特別テーブル”のご案内\nレストラン「ベルン」では、海が見渡せる窓際の特別席をご用意しております。最高の眺めとともにビュッフェをお楽しみください。ビュッフェ料金に、1テーブル（2～4名様）1,000円の追加料金でご利用いただけます。\n\n【みよし（和食）】\n◆ランチ 11:00～16:00（制限時間2時間）土日・祝日のみ\n料金：おとな 4,500円 / シニア 4,200円 / こども 2,200円\n\n※ビュッフェ料金の区分について（ベルン・みよし共通）\nおとな…中学生から64歳までのお客様\nシニア…65歳以上のお客様\nこども…4歳から小学生までのお子様（3歳以下のお子様は無料です。）\n\nご予約・お問い合わせ\nベルン 03-1277-1116（直通）／ みよし 03-1277-1119（直通）"
+          "id": 75,
+          "mondai": 14,
+          "mondaiName": "問題14: 情報検索",
+          "type": "reading",
+          "question": "エンリケさんは、今度の土曜日に妻と一緒にレストラン「ベルン」の夕食ビュッフェに行き、「窓際特別テーブル」を利用したい。エンリケさんは６３歳、妻は６６歳である。エンリケさんたちの料金はどのようになるか。",
+          "options": [
+            "エンリケさん６,０００円、妻６,０００円のみ",
+            "エンリケさん６,０００円、妻６,０００円、テーブル料金１,０００円",
+            "エンリケさん６,０００円、妻５,５００円、テーブル料金１,０００円",
+            "エンリケさん５,５００円、妻５,０００円、テーブル料金１,０００円"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Anh Enrique thứ Bảy tới đi cùng vợ ăn buffet tối tại nhà hàng «ベルン» và dùng «bàn đặc biệt cạnh cửa sổ». Anh Enrique 63 tuổi, vợ 66 tuổi. Chi phí của hai người thế nào?<br><b>Phân tích:</b><br>• Phân loại tuổi: おとな (cấp 2 đến 64 tuổi) → Anh Enrique 63 tuổi là おとな; シニア (từ 65 tuổi trở lên) → Vợ 66 tuổi là シニア.<br>• Giá buffet tối thứ Bảy (土日・祝日) của ベルン: おとな 6,000円, シニア 5,500円.<br>• Phí bàn đặc biệt cạnh cửa sổ: thêm 1,000円 cho 1 bàn (2–4 người).<br><b>Phân tích chi tiết 4 phương án:</b><br>• 1. Anh Enrique 6,000 yên, vợ 6,000 yên thôi: Sai vì vợ 66 tuổi áp dụng giá シニア (5,500 yên) và thiếu phí bàn 1,000 yên.<br>• 2. Anh Enrique 6,000 yên, vợ 6,000 yên, phí bàn 1,000 yên: Sai vì vợ 66 tuổi thuộc nhóm シニア (5,500 yên), không phải おとな (6,000 yên).<br>• 3. Anh Enrique 6,000 yên, vợ 5,500 yên, phí bàn 1,000 yên: Khớp hoàn toàn giá cuối tuần của ベルン (おとな 6,000円 + シニア 5,500円 + phí bàn 1,000円). <b>(Đúng)</b><br>• 4. Anh Enrique 5,500 yên, vợ 5,000 yên, phí bàn 1,000 yên: Sai vì đây là bảng giá ngày thường (平日), còn anh đi vào thứ Bảy (土日・祝日).",
+          "passage": "ミハマホテル ビュッフェのご案内\nレストラン「ベルン」および「みよし」では、以下のビュッフェをご用意しております。\nお好みの料理を食べ放題でお楽しみください。\n\n【ベルン（洋食）】\n◆ランチ 11:30～14:00（制限時間90分）\n料金：（平日）おとな 3,300円 / シニア 3,000円 / こども 1,700円\n　　　（土日・祝日）おとな 4,000円 / シニア 3,700円 / こども 2,000円\n\n◆デザート 15:00～17:00（制限時間60分）\n料金：（平日）おとな 2,500円 / シニア 2,200円 / こども 1,500円\n　　　（土日・祝日）おとな 3,000円 / シニア 2,700円 / こども 1,800円\n\n◆夕食 18:00～21:00（制限時間2時間）\n料金：（平日）おとな 5,500円 / シニア 5,000円 / こども 2,000円\n　　　（土日・祝日）おとな 6,000円 / シニア 5,500円 / こども 2,500円\n\n“窓際特別テーブル”のご案内\nレストラン「ベルン」では、海が見渡せる窓際の特別席をご用意しております。最高の眺めとともにビュッフェをお楽しみください。ビュッフェ料金に、1テーブル（2～4名様）1,000円の追加料金でご利用いただけます。\n\n【みよし（和食）】\n◆ランチ 11:00～16:00（制限時間2時間）土日・祝日のみ\n料金：おとな 4,500円 / シニア 4,200円 / こども 2,200円\n\n※ビュッフェ料金の区分について（ベルン・みよし共通）\nおとな…中学生から64歳までのお客様\nシニア…65歳以上のお客様\nこども…4歳から小学生までのお子様（3歳以下のお子様は無料です。）\n\nご予約・お問い合わせ\nベルン 03-1277-1116（直通）／ みよし 03-1277-1119（直通）"
         }
       ]
     },
