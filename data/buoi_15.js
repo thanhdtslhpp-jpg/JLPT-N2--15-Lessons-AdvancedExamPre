@@ -870,340 +870,339 @@ window.JLPT_DATA[15] = {
       "name": "Phần 2: Chuyên Đề Đọc Hiểu Tổng Ôn Toàn Diện Mondai 10-14 (21 câu)",
       "questions": [
         {
-          "id": 55,
-          "mondai": 10,
-          "mondaiName": "問題10: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者によると、継続的な成果を出すために最も重要なことは何か。",
-          "options": [
-            "強い意志を持って高いモチベーションを保ち続けること。",
-            "日々の生活の中で仕組み化された習慣を淡々と実践すること。",
-            "生まれつきの優れた才能を見出して集中すること。",
-            "目標を達成するまで睡眠時間を削って努力すること。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, điều quan trọng nhất để tạo ra thành quả mang tính liên tục và bền vững là gì?\n<br><br><b>Giải thích:</b> Trong đoạn văn tác giả chỉ rõ: 「偉大な成果を収める人々に共通しているのは、並外れた才能よりも『日々のルーティン（習慣）』の強さである」(Điểm chung ở những người gặt hái thành tựu vĩ đại chính là sức mạnh của thói quen hàng ngày chứ không phải tài năng xuất chúng). Vì thế, việc xây dựng và duy trì thói quen được cơ chế hóa đều đặn là nhân tố cốt lõi.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tác giả phân tích rằng ý chí và động lực cao trào nhất thời rất dễ cạn kiệt, không phải là yếu tố then chốt.<br>• 2. <b>Đúng:</b> 「日々の生活の中で仕組み化された習慣を淡々と実践すること」(Thực hành đều đặn những thói quen đã được quy chuẩn hóa trong sinh hoạt mỗi ngày).<br>• 3. <b>Sai:</b> Tác giả khẳng định thói quen quan trọng hơn nhiều so với tài năng bẩm sinh.<br>• 4. <b>Sai:</b> Bài đọc hoàn toàn không đề cập đến việc cắt giảm giấc ngủ để nỗ lực.",
-          "passage": "【短文 1：習慣の力】\n偉大な成果を収める人々に共通しているのは、並外れた才能よりも「日々のルーティン（習慣）」の強さである。どんなに意欲が高くても、モチベーションに頼った行動は長続きしない。毎日決まった時間に机に向かい、たとえわずか15分でも作業を進めるという仕組みを作ってしまえば、意志の力を消耗することなく自然と前進できる。習慣こそが、凡人を非凡へと導く最大のエンジンなのである。"
+                  "id": 55,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文章の内容に合うものはどれか。",
+                  "options": [
+                            "現代人はあまり働かなくなったうえに、食べすぎるようになった。",
+                            "日本人は、米を中心とする食事から、肉を中心とする食事に変えていった。",
+                            "食事で取るエネルギーより使うエネルギーのほうが多いと、体内の脂肪が増える。",
+                            "カロリーのとりすぎや運動不足の生活は、健康に良くない。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Bài viết nêu do ăn quá nhiều calo (món nhiều chất béo) và ít lao động chân tay (giảm calo tiêu thụ), lượng calo dư thừa tích thành mỡ gây nhiều hại cho sức khỏe.<br><b>Đáp án 4:</b> Cuộc sống nạp quá nhiều calo và thiếu vận động không tốt cho sức khỏe.",
+                  "passage": "日本人の生活習慣は戦後大きく変わった。最も大きな変化の一つは食生活だろう。もともと日本人は、米を中心とするカロリーの少ない食事をしていた。しかし、肉をはじめとする（注１）脂肪の多い料理をよく食べるようになり、必要以上のカロリーを（注２）摂取するようになってしまった。さらに、現代人は体を使う労働が少なくなり、消費カロリーが減少した。このような生活によって余ったカロリーは、体内に脂肪として蓄えられ、健康にさまざまな害を及ぼすことがわかっている。\n\n（注１）脂肪：動物や植物に含まれている油\n（注２）摂取：体の中に栄養を取り入れること"
         },
         {
-          "id": 56,
-          "mondai": 10,
-          "mondaiName": "問題10: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が推奨する美術館での鑑賞順序はどれか。",
-          "options": [
-            "解説文を完全に無視して、絵画だけを見ること。",
-            "解説パネルを熟読してから、指示通りに絵画を細かく観察すること。",
-            "まず自分の目で作品と向き合って感情を味わい、その後に解説を読むこと。",
-            "専門の学芸員によるツアー解説を聴きながら作品を巡ること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trình tự thưởng thức nghệ thuật tại bảo tàng mỹ thuật mà tác giả khuyến khích là trình tự nào?\n<br><br><b>Giải thích:</b> Tác giả đưa ra lời khuyên: 「まずは何も読まずに、自分の目と心で作品と対峙し、湧き上がる感情を味わう。その上で、答え合わせのように解説文を読むのが望ましい」(Trước tiên hãy đối diện với tác phẩm bằng chính đôi mắt và trái tim mình khi chưa đọc gì cả để cảm nhận cảm xúc dâng trào, sau đó mới đọc bảng thuyết minh như một bước đối chiếu mở rộng).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tác giả không bảo phớt lờ hoàn toàn bản thuyết minh mà khuyên đọc nó sau khi đã tự mình cảm thụ.<br>• 2. <b>Sai:</b> Đọc kỹ thuyết minh trước sẽ làm mất đi cảm xúc nguyên bản tự nhiên của người xem.<br>• 3. <b>Đúng:</b> 「まず自分の目で作品と向き合って感情を味わい、その後に解説を読むこと」(Trước hết tự mình đối diện tác phẩm để thưởng thức cảm xúc, sau đó mới đọc phần giải thích).<br>• 4. <b>Sai:</b> Bài viết không đề cập đến việc phải đi theo tour có hướng dẫn viên chuyên nghiệp.",
-          "passage": "【短文 2：美術館の展示解説】\n作品の横に添えられた解説パネルは、鑑賞者の理解を大いに助ける親切な案内役である。しかし、絵を見る前にまず解説文を熟読してしまうと、その先入観によって自分自身の自由な感覚が縛られてしまう弊害もある。まずは文字情報から離れ、自分の目だけでじっくりと作品と対峙し、湧き上がる感情を味わった上で、最後に答え合わせのように解説を読むのが理想的なアートとの向き合い方と言えよう。"
+                  "id": 56,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "今回の発表はどのような内容か。",
+                  "options": [
+                            "フランス産ワインの販売方法について、日本のやり方を受け入れる。",
+                            "フランス産ワインの検査方法について、今までの否定的な立場を改める。",
+                            "フランス産ワインの販売方法の変更によって、売上の増加が予測される。",
+                            "フランス産ワインの販売先を日本でも広げていくことを決定した。"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Một hiệp hội sản xuất rượu vang Pháp công bố chấp nhận bán rượu vang xuất sang Nhật trong chai nhựa PET (trước đây từng giữ thái độ phủ định).<br><b>Đáp án 1:</b> Chấp nhận cách bán (bằng chai nhựa PET) tại Nhật đối với rượu vang Pháp.",
+                  "passage": "フランスのワイン生産者団体の一つが、日本に輸出されるワインについて、ペットボトルに入れて販売することを認めることを発表した。それまでは、ワインはガラス製のびんに入れて販売することが望まれるとして否定的な立場だったが、検査の結果、ペットボトルでも中身に問題は生じないことがはっきりしたという。ペットボトル入りのものは、軽い分、輸送費が抑えられるため、数年前から販売されてきた。今回の発表で、それがさらに拡大し、売上が伸びそうだ。"
         },
         {
-          "id": 57,
-          "mondai": 10,
-          "mondaiName": "問題10: 短文読解",
-          "type": "reading",
-          "question": "【問い】本文の内容と最もよく合致するものはどれか。",
-          "options": [
-            "常にスマートフォンを携帯し、最新の情報を逃さないことが現代人の義務だ。",
-            "電子機器から一定時間離れることで、脳の疲労を回復させ心の平穏を取り戻せる。",
-            "デジタル機器を一切使わない生活へと完全に移行するべきだ。",
-            "スマートフォンの長時間利用は、身体の疲労よりも視力の低下のみを引き起こす。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nội dung nào sau đây phù hợp nhất với những gì được trình bày trong bài đọc?\n<br><br><b>Giải thích:</b> Đoạn văn bàn về lợi ích của \"cai nghiện kỹ thuật số\" (Digital Detox): việc chủ động rời xa điện thoại thông minh và thiết bị điện tử trong một khoảng thời gian nhất định sẽ giúp não bộ giải tỏa sự quá tải thông tin và tìm lại sự bình yên trong tâm hồn.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Trái ngược với quan điểm của tác giả; việc ôm điện thoại liên tục là nguyên nhân gây căng thẳng.<br>• 2. <b>Đúng:</b> 「電子機器から一定時間離れることで、脳の疲労を回復させ心の平穏を取り戻せる」(Tạm rời xa thiết bị điện tử trong một thời gian nhất định giúp hồi phục sự mệt mỏi của não bộ và lấy lại sự bình an nội tâm).<br>• 3. <b>Sai:</b> Tác giả chỉ khuyên tách rời có thời hạn (一定時間), không khuyên từ bỏ hoàn toàn 100% cuộc sống số.<br>• 4. <b>Sai:</b> Bài viết nhấn mạnh sự mệt mỏi tinh thần và quá tải não bộ chứ không nói là chỉ ảnh hưởng đến thị lực.",
-          "passage": "【短文 3：デジタルデトックスの効用】\n朝起きてから夜眠る直前までスマートフォンを手放せない生活は、知らず知らずのうちに脳を情報過多の疲弊状態へと追い込んでいる。週末の半日だけでも電子機器の電源を切り、自然の中を散歩したり本を読んだりする「デジタルデトックス」を取り入れると、驚くほど頭が冴え渡り、心に深い落ち着きが戻ってくる。脳にも定期的な休息とリセットが必要なのだ。"
+                  "id": 57,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文章の内容に合うものはどれか。",
+                  "options": [
+                            "森林の減少を防ぐために、商業的な伐採は法律で禁止されている。",
+                            "高く売れる木材だけを選んで伐採する方法は能率がよいので、よく行われる。",
+                            "対象とする範囲の木を区別なく全部伐採する方法は都合がよく、今も無くなっていない。",
+                            "森に生えている木をすべて伐採することを規制する法律は、まだ多く残っている。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Vì lý do hiệu suất, khai thác thương mại thường chặt hết mọi cây trong phạm vi rộng bất kể cây đắt hay không; dù luật siết chặt hơn nhưng khai thác trái phép vẫn tiếp diễn.<br><b>Đáp án 3:</b> Phương pháp chặt toàn bộ cây không phân biệt trong khu vực rất tiện lợi và đến nay vẫn chưa biến mất.",
+                  "passage": "世界の森林は減少し続けている。その理由の一つに商業用木材を得るための（注）伐採がある。自然の森の中では、多くの場合、高価な木材として売れる木とそうではない木が一緒になって生えている。それにもかかわらず、商業的な伐採では、効率上の理由から、広範囲にわたってそこに生えている木をすべて切ってしまうことがある。近年、このような伐採に対する法による規制が強まっているが、違法伐採は依然として続いているという。\n\n（注）伐採：木を切ること"
         },
         {
-          "id": 58,
-          "mondai": 10,
-          "mondaiName": "問題10: 短文読解",
-          "type": "reading",
-          "question": "【問い】筆者が新入社員に最も伝えたい心構えはどれか。",
-          "options": [
-            "ミスをしても怒られないよう、自分一人で速やかに解決すること。",
-            "失敗したときは直ちに報告し、原因と防止策を誠実に提示すること。",
-            "周囲に迷惑をかけないよう、責任を認める前に十分な言い訳を用意すること。",
-            "ミスを完全に防ぐため、リスクのある仕事には決して手を出さないこと。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tâm thế mà tác giả muốn nhắn nhủ nhất tới các nhân viên mới là gì?\n<br><br><b>Giải thích:</b> Trong bài viết, tác giả khẳng định người mới đi làm mắc sai lầm là điều khó tránh khỏi, nhưng điều quan trọng nhất là: 「ミスを隠さず迅速に報告し、なぜそれが起きたのかという原因の分析と、今後の再発防止策を誠実に提示する姿勢である」(Không giấu giếm mà phải lập tức báo cáo, đồng thời phân tích nguyên nhân và đưa ra giải pháp phòng ngừa tái diễn một cách chân thành).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tự mình âm thầm giải quyết mà không báo cáo cấp trên là điều tối kỵ trong môi trường doanh nghiệp.<br>• 2. <b>Đúng:</b> 「失敗したときは直ちに報告し、原因と防止策を誠実に提示すること」(Khi thất bại/mắc lỗi phải lập tức báo cáo, trình bày chân thành nguyên nhân và phương án phòng ngừa).<br>• 3. <b>Sai:</b> Tìm cớ ngụy biện trước khi nhận trách nhiệm là hành vi thiếu chuyên nghiệp.<br>• 4. <b>Sai:</b> Không dám nhận việc có rủi ro sẽ triệt tiêu cơ hội phát triển bản thân.",
-          "passage": "【短文 4：新入社員へのアドバイス】\n仕事でミスをした時、最もやってはならないのは「隠すこと」と「言い訳を探すこと」である。ミスそのものよりも、その後の初動対応の誠実さによって、周囲からの信頼は決まる。失敗に気づいたら直ちに上司へ報告し、原因と再発防止策を真摯に提示すること。ピンチの時こそ、その人の本質的な人間性と職業人としての誠実さが試されるのである。"
+                  "id": 58,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "この文章の内容に合うものはどれか。",
+                  "options": [
+                            "科学者という職業は、天才がなるものである。",
+                            "科学者を多く育てることが、科学の進歩につながる。",
+                            "昔の科学者は天才だったが、今はそうとは限らない。",
+                            "科学者に対する評価は、徐々に下がってきている。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Trước đây nhà khoa học là những thiên tài hiếm có tự chế công cụ tìm chân lý mới; ngày nay có hệ thống đào tạo ngắn hạn nên nhà khoa học trở thành một nghề phổ thông.<br><b>Đáp án 3:</b> Nhà khoa học ngày xưa là thiên tài, nhưng ngày nay không hẳn như vậy.",
+                  "passage": "かつて、科学者とは、だれも考えつかなかったものを発見したり発明したりする人のことでした。だれも持っていない道具を自分で作り、それを使って研究を進め、新しい真実を発見する人、つまり、めったにいない天才でした。ところが、科学の進歩にともない、一定の技術を持ったさらに多くの科学者が必要になりました。そこで、科学者を短期間で育てるための制度ができ、多くの科学者が生まれ、必要とされる職場に送られるようになりました。科学者は一般的な職業になったのです。"
         },
         {
-          "id": 59,
-          "mondai": 10,
-          "mondaiName": "問題10: 短文読解",
-          "type": "reading",
-          "question": "【問い】本文で述べられている都市公園の重要な役割は何か。",
-          "options": [
-            "市民がスポーツやレクリエーションを楽しむための専用施設であること。",
-            "都市の不動産開発を促進し、経済価値を高めること。",
-            "野鳥や昆虫などの野生生物の命をつなぎ、都市の生態系を維持すること。",
-            "災害時の避難場所としてコンクリート広場を確保すること。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Vai trò quan trọng của công viên đô thị được đề cập trong bài viết là gì?\n<br><br><b>Giải thích:</b> Bài đọc phân tích rằng bên cạnh nơi vui chơi cho con người, các công viên cây xanh trong lòng thành phố đóng vai trò như những \"ốc đảo sinh thái\" kết nối mạng lưới thiên nhiên: duy trì môi trường sống cho các loài chim muông hoang dã, côn trùng và cân bằng hệ sinh thái đô thị.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài viết nhấn mạnh công viên không chỉ dành riêng cho việc giải trí thể thao của con người.<br>• 2. <b>Sai:</b> Không hề đề cập đến việc kích thích phát triển bất động sản.<br>• 3. <b>Đúng:</b> 「野鳥や昆虫などの野生生物の命をつなぎ、都市の生態系を維持すること」(Duy trì sự sống cho chim muông, côn trùng hoang dã và bảo tồn hệ sinh thái của đô thị).<br>• 4. <b>Sai:</b> Bài đọc nói về không gian xanh cây cối chứ không phải bảo đảm quảng trường bê tông.",
-          "passage": "【短文 5：都市の公園と生態系】\nコンクリートに囲まれた大都市において、街角の小さな公園や街路樹は、単なる人間の憩いの場にとどまらず、都市に暮らす野鳥や昆虫にとって命をつなぐ貴重な「緑の回廊」の役割を果たしている。近代都市計画では、これらの緑地を孤立させず、川沿いの遊歩道などと連続的につなぎ合わせることで、都市全体の生物多様性を保全する試みが注目を集めている。"
+                  "id": 59,
+                  "mondai": 10,
+                  "mondaiName": "問題10: 短文読解",
+                  "type": "reading",
+                  "question": "筆者は、現代の日本について、どのような意見を述べているか。",
+                  "options": [
+                            "現代の日本にも、伝統的な産業や祭りが必要だ。",
+                            "現代の日本にも、地方によって異なる文化がある。",
+                            "現代の日本では、地方による文化の差が失われてしまった。",
+                            "現代の日本には、平均化された町と独自の文化を守る町が共存している。"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Ai nói đâu cũng giống nhau là chỉ nhìn bề ngoài tòa nhà; nếu đi sâu vào đời sống và trò chuyện với người dân bản địa sẽ thấy rất nhiều nét văn hóa, lễ hội truyền thống khác biệt.<br><b>Đáp án 2:</b> Ở Nhật Bản hiện đại vẫn có những nền văn hóa khác nhau tùy theo từng địa phương.",
+                  "passage": "「日本全国どこも似たような町になってしまった」と言う人がいる。地方へ行っても、都会と同じような姿の駅、都会にもあるような名前のスーパーやコンビニ、ホテルばかりで、つまらないと言うのだ。しかし、こういうことを言う人は建物しか見ていないのかもしれない。実際は、そこに住む人々の生活の中に入り込んでみると、異なる点がたくさん見えてくる。その土地にずっと住んでいる人と一緒に食事でもしながら話してみるといい。「戦前、この村はこんな産業が盛んで、その影響がこんなふうに残っている」「この村の祭りには、伝統的にこんな役割がある」といったような話がいろいろ聞けるだろう。"
         },
         {
-          "id": 60,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い1】本文における「真の会話上手」の条件は何か。",
-          "options": [
-            "ユーモアを交えて自分の意見を巧みに淀みなく話すこと。",
-            "相手の話を途中で遮らず、真摯に耳を傾けて聴くこと。",
-            "相手の弱点を見つけて的確にアドバイスすること。",
-            "常に相手を褒め続け、場の雰囲気を盛り上げること。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điều kiện của \"người thực sự giỏi giao tiếp\" theo bài viết này là gì?\n<br><br><b>Giải thích:</b> Tác giả viết: 「多くの人は饒舌に話す人が会話の達人だと思いがちだが、真の会話上手とは、相手の言葉に真摯に耳を傾け、遮ることなく最後まで聴ける人である」(Nhiều người thường lầm tưởng người nói năng lưu loát là bậc thầy giao tiếp, nhưng người thực sự giỏi đối thoại lại là người biết chân thành lắng nghe và không bao giờ ngắt lời đối phương).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Nói năng hoạt bát, thao thao bất tuyệt chỉ là vẻ bề ngoài, không phải điều tác giả định nghĩa.<br>• 2. <b>Đúng:</b> 「相手の話を途中で遮らず、真摯に耳を傾けて聴くこと」(Không ngắt lời đối phương giữa chừng, chân thành lắng nghe câu chuyện của họ).<br>• 3. <b>Sai:</b> Tìm điểm yếu của người khác để chỉ trích/khuyên bảo sẽ tạo ra sự căng thẳng trong giao tiếp.<br>• 4. <b>Sai:</b> Luôn khen ngợi một cách xã giao không tạo nên sự lắng nghe thấu cảm chân thực.",
-          "passage": "【本文 1：コミュニケーションと『傾聴』】\n多くの人は「会話上手」というと、ユーモアに富んだ巧みな話術を持つ人を連想する。しかし、対人関係の心理学において真に人を動かし、深い信頼を築くのは「話す力」ではなく「聴く力（傾聴）」である。相手の目を見て相づちを打ち、途中で口を挟まずに最後まで耳を傾ける姿勢は、「あなたを大切に思っています」という強力な無言のメッセージとなる。"
+                  "id": 60,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "①<u>ふだんは気がついていなくても</u>とは、何に気がついていないのか。",
+                  "options": [
+                            "毎日の生活の中の平凡な出来事",
+                            "子供のころの平凡な出来事",
+                            "子供時代は黄金時代だということ",
+                            "平凡な毎日が黄金のような価値を持つということ"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Câu đầu đoạn 1: thời thơ ấu là thời đại hoàng kim; những chuyện bình thường lúc đó qua thời gian đều hóa thành vàng — bình thường không để ý nhưng khi hướng tâm trí về thuở ấy thì đâu cũng là vàng.<br><b>Đáp án 3:</b> Không để ý rằng thời thơ ấu chính là thời đại hoàng kim.",
+                  "passage": "でも子供の時というのは黄金時代なのである。その時には何も感じないような平凡な出来事でも、時をへてみると、（注１）いつしか黄金に変わっている。①<u>ふだんは気がついていなくても</u>、あの時にへと（注２）想いを馳せれば、（注３）そこいら中、黄金でないものはない。\n子供の頃の雑誌かなにかの（注４）教材で、点がばらばらに投げ出されていて、その点に番号が打ってある。その番号順に点を結んでいけば、ライオンやゾウの姿が浮かんでくる。これは数字を学習するための教材なのであるが、私は幼い頃の記憶もこれに似ていると思う。散らばった点は無数にあり、②<u>星のように光っているものも、燃え尽きて消え入ろうとするものもある</u>のだが、点と点とを結んでいくと記憶がありありと（注５）甦ってくる。消えそうな点も、もう一度輝き出すのである。\nそうやって現れてくるものは、結んでいく点の順番によって、どのようにでも変わっていく。（中略）\n昔はみんな子供だったのである。誰もが記憶の中に黄金を（注６）埋蔵させている。問題はそれを掘り起こすかどうかであって、掘ろうという意志を持ったとたん、地下（注７）鉱脈を掘りあてたかのように③<u>黄金はあふれ出してくる</u>。\n（立松和平『いい人生』野草社による）\n\n（注１）いつしか：いつの間にか\n（注２）想いを馳せる：遠く離れている人や物事のことを思う\n（注３）そこいら中：そこも、ここも、全部\n（注４）教材：教えるための材料や道具\n（注５）甦る：死にそうだったり、消えそうだったりしたものが、もう一度元気になる\n（注６）埋蔵させている：土の中に埋めてかくしてある\n（注７）鉱脈：役に立つ鉱物が埋まっているところ"
         },
         {
-          "id": 61,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い2】相手の話に最後まで耳を傾ける姿勢がもたらす効果として、本文で述べられているものはどれか。",
-          "options": [
-            "会話の主導権を握り、自分の思い通りに議論を誘導できる。",
-            "相手に対して「あなたを大切に思っている」という敬意のメッセージを伝えられる。",
-            "相手の知識の誤りを論理的に正すことができる。",
-            "無駄な時間を省き、効率的に要点だけを抽出できる。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tác dụng của thái độ lắng nghe đối phương đến cùng được bài viết đề cập là gì?\n<br><br><b>Giải thích:</b> Theo bài viết, việc kiên nhẫn lắng nghe trọn vẹn câu chuyện của người khác chính là một thông điệp vô ngôn mạnh mẽ: truyền tải sự tôn trọng và khẳng định với đối phương rằng \"Tôi thực sự coi trọng bạn và những gì bạn nói\".\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Mục đích của việc lắng nghe không phải là để nắm quyền kiểm soát hay dẫn dắt cuộc thảo luận theo ý mình.<br>• 2. <b>Đúng:</b> 「相手に対して『あなたを大切に思っている』という敬意のメッセージを伝えられる」(Truyền tải được thông điệp tôn trọng rằng \"Tôi thực sự coi trọng bạn\" tới đối phương).<br>• 3. <b>Sai:</b> Lắng nghe không nhằm mục đích bắt bẻ hay sửa sai logic của người nói.<br>• 4. <b>Sai:</b> Bài viết không bàn về việc tiết kiệm thời gian hay rút gọn ý chính.",
-          "passage": "【本文 1：コミュニケーションと『傾聴』】\n多くの人は「会話上手」というと、ユーモアに富んだ巧みな話術を持つ人を連想する。しかし、対人関係の心理学において真に人を動かし、深い信頼を築くのは「話す力」ではなく「聴く力（傾聴）」である。相手の目を見て相づちを打ち、途中で口を挟まずに最後まで耳を傾ける姿勢は、「あなたを大切に思っています」という強力な無言のメッセージとなる。"
+                  "id": 61,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "②<u>星のように光っているものも、燃え尽きて消え入ろうとするものもある</u>とは、ここではどのような内容を指すか。",
+                  "options": [
+                            "りっぱなライオンやゾウもいるが、年をとって元気がないライオンやゾウもいる。",
+                            "はっきり覚えている出来事もあるが、ほとんど忘れてしまった出来事もる。",
+                            "美しくくっきり見える点もあるが、はっきり見えない点もある。",
+                            "点と点をきれいに結んで書けた線もあるが、うまく書けなくて消えそうな線もある。"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Tác giả ví ký ức tuổi thơ như những điểm nối hình: có những điểm sáng như sao (nhớ rõ) và có những điểm sắp tắt lịm (gần như quên mất), nhưng khi nối lại thì ký ức sống dậy.<br><b>Đáp án 2:</b> Có những chuyện nhớ rất rõ, nhưng cũng có những chuyện gần như đã quên mất.",
+                  "passage": "でも子供の時というのは黄金時代なのである。その時には何も感じないような平凡な出来事でも、時をへてみると、（注１）いつしか黄金に変わっている。①<u>ふだんは気がついていなくても</u>、あの時にへと（注２）想いを馳せれば、（注３）そこいら中、黄金でないものはない。\n子供の頃の雑誌かなにかの（注４）教材で、点がばらばらに投げ出されていて、その点に番号が打ってある。その番号順に点を結んでいけば、ライオンやゾウの姿が浮かんでくる。これは数字を学習するための教材なのであるが、私は幼い頃の記憶もこれに似ていると思う。散らばった点は無数にあり、②<u>星のように光っているものも、燃え尽きて消え入ろうとするものもある</u>のだが、点と点とを結んでいくと記憶がありありと（注５）甦ってくる。消えそうな点も、もう一度輝き出すのである。\nそうやって現れてくるものは、結んでいく点の順番によって、どのようにでも変わっていく。（中略）\n昔はみんな子供だったのである。誰もが記憶の中に黄金を（注６）埋蔵させている。問題はそれを掘り起こすかどうかであって、掘ろうという意志を持ったとたん、地下（注７）鉱脈を掘りあてたかのように③<u>黄金はあふれ出してくる</u>。\n（立松和平『いい人生』野草社による）\n\n（注１）いつしか：いつの間にか\n（注２）想いを馳せる：遠く離れている人や物事のことを思う\n（注３）そこいら中：そこも、ここも、全部\n（注４）教材：教えるための材料や道具\n（注５）甦る：死にそうだったり、消えそうだったりしたものが、もう一度元気になる\n（注６）埋蔵させている：土の中に埋めてかくしてある\n（注７）鉱脈：役に立つ鉱物が埋まっているところ"
         },
         {
-          "id": 62,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い3】この文章のテーマとして最も適切なものはどれか。",
-          "options": [
-            "ビジネスにおけるプレゼンテーション技術の磨き方",
-            "信頼関係を深めるための傾聴の重要性",
-            "ユーモアを交えた会話術のトレーニング法",
-            "沈黙を恐れずに自己主張を貫く心構え"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Chủ đề phù hợp nhất của đoạn văn này là gì?\n<br><br><b>Giải thích:</b> Toàn bộ bài văn xoay quanh nghệ thuật \"傾聴\" (lắng nghe tích cực/thấu cảm) và khẳng định rằng lắng nghe chính là chìa khóa then chốt để xây dựng mối quan hệ tin cậy sâu sắc giữa người với người.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài không dạy về kỹ năng thuyết trình trong kinh doanh.<br>• 2. <b>Đúng:</b> 「信頼関係を深めるための傾聴の重要性」(Tầm quan trọng của việc lắng nghe để làm sâu sắc thêm mối quan hệ tin cậy).<br>• 3. <b>Sai:</b> Bài không hướng dẫn phương pháp rèn luyện nói chuyện hài hước.<br>• 4. <b>Sai:</b> Tác giả bàn về việc lắng nghe người khác chứ không phải giữ vững sự khẳng định bản thân.",
-          "passage": "【本文 1：コミュニケーションと『傾聴』】\n多くの人は「会話上手」というと、ユーモアに富んだ巧みな話術を持つ人を連想する。しかし、対人関係の心理学において真に人を動かし、深い信頼を築くのは「話す力」ではなく「聴く力（傾聴）」である。相手の目を見て相づちを打ち、途中で口を挟まずに最後まで耳を傾ける姿勢は、「あなたを大切に思っています」という強力な無言のメッセージとなる。"
+                  "id": 62,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "question": "③<u>黄金はあふれ出してくる</u>の「黄金」とは何か。なぜあふれ出してくるのか。",
+                  "options": [
+                            "「黄金」とは美しい心のことで、それは子供の中に隠れているからである。",
+                            "「黄金」とは努力する力のことで、それはみんなが持っているからである。",
+                            "「黄金」とは美しい思い出で、それを思い出そうとしたからである。",
+                            "「黄金」とは子供のときの才能で、それを伸ばそうと努力したからである。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Đoạn cuối viết: ai cũng chôn giấu «vàng» (những kỷ niệm tuổi thơ) trong ký ức; vấn đề chỉ là có muốn đào lên hay không.<br><b>Đáp án 3:</b> «Vàng» là những kỷ niệm đẹp, và nó tuôn trào vì ta có ý chí muốn nhớ lại.",
+                  "passage": "でも子供の時というのは黄金時代なのである。その時には何も感じないような平凡な出来事でも、時をへてみると、（注１）いつしか黄金に変わっている。①<u>ふだんは気がついていなくても</u>、あの時にへと（注２）想いを馳せれば、（注３）そこいら中、黄金でないものはない。\n子供の頃の雑誌かなにかの（注４）教材で、点がばらばらに投げ出されていて、その点に番号が打ってある。その番号順に点を結んでいけば、ライオンやゾウの姿が浮かんでくる。これは数字を学習するための教材なのであるが、私は幼い頃の記憶もこれに似ていると思う。散らばった点は無数にあり、②<u>星のように光っているものも、燃え尽きて消え入ろうとするものもある</u>のだが、点と点とを結んでいくと記憶がありありと（注５）甦ってくる。消えそうな点も、もう一度輝き出すのである。\nそうやって現れてくるものは、結んでいく点の順番によって、どのようにでも変わっていく。（中略）\n昔はみんな子供だったのである。誰もが記憶の中に黄金を（注６）埋蔵させている。問題はそれを掘り起こすかどうかであって、掘ろうという意志を持ったとたん、地下（注７）鉱脈を掘りあてたかのように③<u>黄金はあふれ出してくる</u>。\n（立松和平『いい人生』野草社による）\n\n（注１）いつしか：いつの間にか\n（注２）想いを馳せる：遠く離れている人や物事のことを思う\n（注３）そこいら中：そこも、ここも、全部\n（注４）教材：教えるための材料や道具\n（注５）甦る：死にそうだったり、消えそうだったりしたものが、もう一度元気になる\n（注６）埋蔵させている：土の中に埋めてかくしてある\n（注７）鉱脈：役に立つ鉱物が埋まっているところ"
         },
         {
-          "id": 63,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い1】工業製品の長所として本文で述べられているものはどれか。",
-          "options": [
-            "職人の個性が色濃く反映され、一点物としての価値があること。",
-            "寸法に狂いがなく均一で、機能的に優れていること。",
-            "長年使い込むほどに味わい深い歪みが出ること。",
-            "壊れた時に自分で簡単に直して使い続けられること。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Ưu điểm của các sản phẩm công nghiệp được nêu trong bài viết là gì?\n<br><br><b>Giải thích:</b> Tác giả ghi nhận thế mạnh vượt bậc của sản xuất công nghiệp hiện đại: 「均質な品質を持つ製品を、低コストかつ安定して大量に社会へ供給できる点にある」(Nằm ở khả năng cung cấp một lượng lớn sản phẩm có chất lượng đồng đều với giá thành thấp và ổn định cho toàn xã hội).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Phản ánh cá tính nghệ nhân và tính độc bản là đặc trưng của đồ thủ công, không phải đồ công nghiệp.<br>• 2. <b>Đúng:</b> 「均一な品質の製品を安価で安定して大量に供給できること」(Cung cấp lượng lớn sản phẩm chất lượng đồng đều với giá rẻ và ổn định).<br>• 3. <b>Sai:</b> Đồ dùng càng lâu càng tăng giá trị là phẩm chất của hàng thủ công mỹ nghệ cổ truyền.<br>• 4. <b>Sai:</b> Sản phẩm công nghiệp không nhấn mạnh vào sự khác biệt độc nhất của từng món hàng.",
-          "passage": "【本文 2：手仕事の温もりと工業製品】\nボタン一つで均一で完璧な製品が大量生産される現代において、陶芸や木工などの伝統的な「手仕事」が改めて見直されている。機械製品は寸法に狂いがなく機能的だが、そこには人間の手の温もりや個性が入り込む余地はない。一方、職人が土をこね、木を削って作った器には、わずかな歪みや色むらがあり、それが唯一無二の味わいとなる。"
+                  "id": 63,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "①<u>ある哲学者</u>が話した内容として、正しいものはどれか。",
+                  "options": [
+                            "彼は、学生時代に勉強の成績もよかったから、陸上競技の選手にもなった。",
+                            "彼は、学生時代に陸上競技の選手だったから、勉強の成績が下がってしまった。",
+                            "彼は、学生時代に勉強の成績が下がってしまったから、陸上競技をやめた。",
+                            "彼は、学生時代に陸上競技をやめたら、勉強の成績が下がってしまった。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Thời sinh viên ông nghĩ vừa chạy điền kinh vừa học thì bận quá nên bỏ điền kinh để nâng điểm, ngờ đâu điểm lại tụt xuống.<br><b>Đáp án 4:</b> Thời sinh viên khi ông bỏ môn điền kinh thì thành tích học tập lại đi xuống.",
+                  "passage": "ある哲学者が、こんな（注１）打ち明け話をした。\n学生のころ、陸上競技の選手をしていたこの人は、運動と勉強の両方をするのは、忙しい。充分な勉強もできない。こう考えて、思い切って、陸上競技の練習をやめてしまった。それで勉強の成績は上がるだろうと考えたが、実際には、逆に成績が下がってしまった。おかしいと反省して、やはり、忙しくなくなったことで、勉強の能率が悪くなり、手早くしていた勉強が時間の増えた分、のろくなったということがわかった。運動と勉強の両方をしていたときの集中がゆるんでしまったのは失敗だったと、この哲学者は若き日を（注２）回顧した。（注３）なまじ時間があると、仕事の能率が悪くなる。忙しい方がよく仕事ができる、というのは、ヒマな人には想定外のことである。\n仕事が多くなれば、仕事が早くなり、案外時間があまる。時間があると思うと、仕事がのろくなり、のんびりするから、時間内に仕上げることもできなくなったりする。（中略）\n予定表をそばに置いて、予定と競争して勉強すると、どんどんすすみ、とても無理だと思ったことが予定の時間内にできてしまい時間があまることもある。②<u>忙しくしたから、ヒマが生まれた</u>のである。ヒマな人がたくさんの仕事を予定して時間内に（注４）こなすようにすれば、つまらぬことに時間を（注５）空費することはなくなる気づいたという。\n（外山滋比古『傷のあるリンゴ』東京書籍による）\n\n（注１）打ち明け話をする：言わないでかくしていたことを話す\n（注２）回顧する：昔のことを思い出す\n（注３）なまじ時間があると：十分ではなくても時間に余裕があると\n（注４）こなす：やるべきことを処理する\n（注５）空費する：むだに使う"
         },
         {
-          "id": 64,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い2】手作りの器に見られる「わずかな歪みや色むら」を、筆者はどのように評価しているか。",
-          "options": [
-            "技術の未熟さを示す欠陥であり、改善されるべき点だ。",
-            "機械製品に劣る点だが、安価であるため許容されるべきだ。",
-            "職人の手の温もりが宿った、唯一無二の魅力的な味わいである。",
-            "長期間保存する上で強度が低下する原因となる。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tác giả đã trình bày như thế nào về giá trị độc đáo mà các tác phẩm thủ công mỹ nghệ mang lại?\n<br><br><b>Giải thích:</b> Tác giả nhấn mạnh: đồ thủ công hàm chứa tâm huyết, hơi thở của người thợ thủ công cùng nét đặc trưng riêng biệt của từng thớ gỗ/nguyên liệu tự nhiên, khiến người dùng càng sử dụng lâu thì càng cảm nhận được sự ấm áp và gắn bó sâu sắc.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tác phẩm thủ công không bảo đảm được độ chính xác tuyệt đối không tì vết như máy móc.<br>• 2. <b>Đúng:</b> 「作り手の息づかいや素材の個性が宿り、使うほどに愛着が湧くこと」(Chứa đựng hơi thở của người chế tác và cá tính của chất liệu, càng sử dụng lại càng sinh lòng gắn bó).<br>• 3. <b>Sai:</b> Bài viết không tập trung vào giá trị đầu tư tài chính để bán lại kiếm lời.<br>• 4. <b>Sai:</b> Đồ thủ công đòi hỏi bảo quản kỹ lưỡng chứ không phải tiện dụng dễ bảo quản hơn đồ nhựa/kim loại công nghiệp.",
-          "passage": "【本文 2：手仕事の温もりと工業製品】\nボタン一つで均一で完璧な製品が大量生産される現代において、陶芸や木工などの伝統的な「手仕事」が改めて見直されている。機械製品は寸法に狂いがなく機能的だが、そこには人間の手の温もりや個性が入り込む余地はない。一方、職人が土をこね、木を削って作った器には、わずかな歪みや色むらがあり、それが唯一無二の味わいとなる。"
+                  "id": 64,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "②<u>忙しくしたから、ヒマが生まれた</u>とは、どういう意味か。",
+                  "options": [
+                            "忙しい人は、ヒマをつくろうとがんばるから、ヒマができる。",
+                            "忙しい人は、能率よく仕事をしようとするから、ヒマができる。",
+                            "忙しい人は、ヒマをつくることに慣れているから、ヒマができる。",
+                            "忙しい人は、のんびりするときにも集中できるから、ヒマができる。"
+                  ],
+                  "correctAnswer": 2,
+                  "explanation": "<b>Phân tích:</b> Khi đặt lịch dày và chạy đua với lịch trình, ta làm việc tập trung và hiệu suất cao nên hoàn thành sớm hơn dự kiến và dư ra thời gian rảnh.<br><b>Đáp án 2:</b> Người bận rộn cố gắng làm việc có hiệu suất cao nên mới có thời gian rảnh.",
+                  "passage": "ある哲学者が、こんな（注１）打ち明け話をした。\n学生のころ、陸上競技の選手をしていたこの人は、運動と勉強の両方をするのは、忙しい。充分な勉強もできない。こう考えて、思い切って、陸上競技の練習をやめてしまった。それで勉強の成績は上がるだろうと考えたが、実際には、逆に成績が下がってしまった。おかしいと反省して、やはり、忙しくなくなったことで、勉強の能率が悪くなり、手早くしていた勉強が時間の増えた分、のろくなったということがわかった。運動と勉強の両方をしていたときの集中がゆるんでしまったのは失敗だったと、この哲学者は若き日を（注２）回顧した。（注３）なまじ時間があると、仕事の能率が悪くなる。忙しい方がよく仕事ができる、というのは、ヒマな人には想定外のことである。\n仕事が多くなれば、仕事が早くなり、案外時間があまる。時間があると思うと、仕事がのろくなり、のんびりするから、時間内に仕上げることもできなくなったりする。（中略）\n予定表をそばに置いて、予定と競争して勉強すると、どんどんすすみ、とても無理だと思ったことが予定の時間内にできてしまい時間があまることもある。②<u>忙しくしたから、ヒマが生まれた</u>のである。ヒマな人がたくさんの仕事を予定して時間内に（注４）こなすようにすれば、つまらぬことに時間を（注５）空費することはなくなる気づいたという。\n（外山滋比古『傷のあるリンゴ』東京書籍による）\n\n（注１）打ち明け話をする：言わないでかくしていたことを話す\n（注２）回顧する：昔のことを思い出す\n（注３）なまじ時間があると：十分ではなくても時間に余裕があると\n（注４）こなす：やるべきことを処理する\n（注５）空費する：むだに使う"
         },
         {
-          "id": 65,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い3】本文の結論として最もふさわしいものはどれか。",
-          "options": [
-            "工業化を完全に否定し、すべての生活用品を手作りに戻すべきだ。",
-            "均一な工業製品の利便性と、手仕事が持つ精神的な温もりの双方を愛好すべきだ。",
-            "手作りの工芸品は高価すぎるため、博物館での保存に限定すべきだ。",
-            "機械のプログラミングによって、手仕事の歪みを完全に模倣すべきだ。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Thái độ đối với việc sản xuất đồ vật (Monozukuri) mà tác giả kỳ vọng ở xã hội hiện đại là thái độ nào?\n<br><br><b>Giải thích:</b> Trong phần kết luận, tác giả không bài xích công nghiệp hóa mà kêu gọi sự hòa hợp: vừa tận hưởng sự tiện ích to lớn của các sản phẩm công nghiệp đại trà, vừa phải biết trân trọng và bảo tồn giá trị tinh thần ấm áp của các làng nghề thủ công truyền thống.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Từ bỏ sản xuất công nghiệp để quay về thủ công 100% là điều không tưởng và cực đoan.<br>• 2. <b>Sai:</b> Xem đồ thủ công là lỗi thời và loại bỏ hoàn toàn là quan điểm trái ngược với tác giả.<br>• 3. <b>Đúng:</b> 「工業製品の利便性を享受しつつも、手仕事の温もりや伝統の価値を再評価し共存させること」(Vừa hưởng thụ sự tiện lợi của sản phẩm công nghiệp, vừa tái đánh giá và cho cùng tồn tại sự ấm áp cùng giá trị truyền thống của thủ công).<br>• 4. <b>Sai:</b> Tác giả không ủng hộ việc máy móc hóa hoàn toàn để thay thế đôi tay nghệ nhân.",
-          "passage": "【本文 2：手仕事の温もりと工業製品】\nボタン一つで均一で完璧な製品が大量生産される現代において、陶芸や木工などの伝統的な「手仕事」が改めて見直されている。機械製品は寸法に狂いがなく機能的だが、そこには人間の手の温もりや個性が入り込む余地はない。一方、職人が土をこね、木を削って作った器には、わずかな歪みや色むらがあり、それが唯一無二の味わいとなる。"
+                  "id": 65,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "筆者が述べたいことは何か。",
+                  "options": [
+                            "忙しい人ほど、ヒマができる。",
+                            "ヒマな人ほど、ヒマを上手に使える。",
+                            "忙しい人はいつも忙しく、ヒマな人はいつもヒマである。",
+                            "ヒマになれば、時間をむだにすることはなくなるだろう。"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Toàn bài xoay quanh nghịch lý: người rảnh rỗi hay làm chậm và lãng phí thời gian, còn người bận rộn làm việc hiệu suất cao nên lại tạo ra được thời gian rảnh.<br><b>Đáp án 1:</b> Người càng bận rộn lại càng có được thời gian rảnh.",
+                  "passage": "ある哲学者が、こんな（注１）打ち明け話をした。\n学生のころ、陸上競技の選手をしていたこの人は、運動と勉強の両方をするのは、忙しい。充分な勉強もできない。こう考えて、思い切って、陸上競技の練習をやめてしまった。それで勉強の成績は上がるだろうと考えたが、実際には、逆に成績が下がってしまった。おかしいと反省して、やはり、忙しくなくなったことで、勉強の能率が悪くなり、手早くしていた勉強が時間の増えた分、のろくなったということがわかった。運動と勉強の両方をしていたときの集中がゆるんでしまったのは失敗だったと、この哲学者は若き日を（注２）回顧した。（注３）なまじ時間があると、仕事の能率が悪くなる。忙しい方がよく仕事ができる、というのは、ヒマな人には想定外のことである。\n仕事が多くなれば、仕事が早くなり、案外時間があまる。時間があると思うと、仕事がのろくなり、のんびりするから、時間内に仕上げることもできなくなったりする。（中略）\n予定表をそばに置いて、予定と競争して勉強すると、どんどんすすみ、とても無理だと思ったことが予定の時間内にできてしまい時間があまることもある。②<u>忙しくしたから、ヒマが生まれた</u>のである。ヒマな人がたくさんの仕事を予定して時間内に（注４）こなすようにすれば、つまらぬことに時間を（注５）空費することはなくなる気づいたという。\n（外山滋比古『傷のあるリンゴ』東京書籍による）\n\n（注１）打ち明け話をする：言わないでかくしていたことを話す\n（注２）回顧する：昔のことを思い出す\n（注３）なまじ時間があると：十分ではなくても時間に余裕があると\n（注４）こなす：やるべきことを処理する\n（注５）空費する：むだに使う"
         },
         {
-          "id": 66,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い1】集中できないとき、多くの人が陥りがちな誤解は何か。",
-          "options": [
-            "作業部屋の照明が暗すぎるせいだと思うこと。",
-            "自分自身の意志の弱さのせいだと自分を責めてしまうこと。",
-            "参考資料の量が少なすぎることが原因だと考えること。",
-            "十分な休憩を取っていないせいだと諦めてしまうこと。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Đâu là hiểu lầm mà nhiều người thường mắc phải khi nhận thấy bản thân không thể duy trì được sự tập trung?\n<br><br><b>Giải thích:</b> Tác giả chỉ ra rằng khi bị phân tâm bởi điện thoại hay mạng xã hội, đa số mọi người thường rơi vào cái bẫy tự trách: 「自分の意志の力が弱いからだと自分を責めてしまう」(Tự dằn vặt trách cứ bản thân rằng tại ý chí của mình quá yếu ớt). Trong khi thực tế, ý chí vốn dĩ là nguồn năng lượng hữu hạn.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Không phải do đánh giá sai độ khó của công việc.<br>• 2. <b>Đúng:</b> 「自分自身の意志の弱さのせいだと自分を責めてしまうこと」(Tự trách bản thân là do ý chí của chính mình quá yếu kém).<br>• 3. <b>Sai:</b> Bài không nói người ta lầm tưởng do thiếu ngủ.<br>• 4. <b>Sai:</b> Bài không nói người ta nghĩ do người xung quanh quấy rầy.",
-          "passage": "【本文 3：集中力と環境設定】\n作業に集中できない時、多くの人は自分の意志の弱さを責める。しかし脳科学の研究によれば、人間の意志の力は極めて限られた消耗品である。真に高い集中力を発揮し続ける人は、意志に頼るのではなく「誘惑を物理的に排除した環境」を作る達人なのだ。スマートフォンを別の部屋に置く、作業机には今使う書類以外を置かないといった環境の工夫こそが、集中を持続させる秘訣である。"
+                  "id": 66,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "「百年に一度」や「千人に一人」という言い方は、なぜ①<u>人々を安心させる</u>のか。",
+                  "options": [
+                            "そのような言い方は、起こる確率が低いことを示すから",
+                            "そのような言い方は、よく使われていてめずらしくないから",
+                            "そのような言い方は、困ったことが起こらないようにするために使われるから",
+                            "そのような言い方は、人々に困ったことがあっても仕方ないと思わせるから"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Đoạn 3 viết: cách nói đó hàm ý rằng thực tế con người hiếm khi gặp phải tình huống rắc rối như vậy (xác suất rất thấp), nên khiến mọi người yên tâm.<br><b>Đáp án 1:</b> Vì cách nói đó cho thấy xác suất xảy ra rất thấp.",
+                  "passage": "「一度」とか「一人」とかいう言葉は数を示すものであり、それ自体には良いも悪いもない。しかし昨今、それらの言葉がとりわけ騒々しく（注１）耳を打ち目にとまるのは、「百年に一度」とか「千人に一人」といった言い回しが多用されているためである。\nつまりこの「一度」や「一人」における「一」は、百年とか千人といった（注２）遥かに大きな数に対応する「一」であり、確率を表す数字ということになるのだろう。\nたとえば百年に一度の（注３）大災害に見舞われるとか、千人に一人の割合で発生する事故の（注４）犠牲者になるとかいったような形でこの数字は使われる。そして多くの場合、この数量表現は、だから実際には人は滅多にそんな困った事態にぶつかるものではありませんよ、と①<u>人々を安心させる</u>働きを担っているような気がしてならぬ。\n別の見方をすれば、本人がその確率を承知して暮らしている以上、もし天災に出会っても、天から降って来る（注５）人工衛星のかけらに当っても、医療面でのトラブルに巻き込まれても、誰も責任を問われることはなくなるのかもしれない。\n確率を示す数字が全く必要ないなどとは思わない。少なくともそれは、ごく（注６）大雑把な見当をつける上では役に立つことも多いだろう。\nただ②<u>忘れてはならぬ</u>のは、もし何かが起った際には、その当事者は（注７）分母の数字に関係なく、（注８）分子の「一」である点だ。その時には自分にとって分母と分子は同じ数となる。つまり、一分の一になってしまう。\nだから「一度」や「一人」を気軽に扱って欲しくない。分母は数字でも分子は数字ではないのだから。\n（黒井千次『大きな分母』『ベスト・エッセイ2011』光村図書による）\n\n（注１）耳を打ち目にとまる：聞いたり見たりして気にかかる\n（注２）遥かに：ずっと\n（注３）大災害に見舞われる：台風、地震、事故など、とても大変なことにあう\n（注４）犠牲者：被害にあった人\n（注５）人工衛星のかけら：主に地球の周りを回っている人工物がこわれて小さくなったもの\n（注６）大雑把な見当をつける：だいたいこのぐらいだろうと予想する\n（注７）分母：b/a の a\n（注８）分子：b/a の b"
         },
         {
-          "id": 67,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い2】集中力を高く保てる人の特徴として、本文で挙げられているものはどれか。",
-          "options": [
-            "どんな誘惑があっても強靭な精神力で跳ね返すこと。",
-            "誘惑を物理的に遠ざけるなど、作業環境を巧みに整えていること。",
-            "徹夜をしても集中が途切れない特別な体質を持っていること。",
-            "複数の作業を同時に並行して処理するマルチタスクが得意なこと。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Đặc điểm của những người có thể duy trì được khả năng tập trung cao độ được nêu trong bài là gì?\n<br><br><b>Giải thích:</b> Nghiên cứu và quan sát trong bài chỉ ra: những người có hiệu suất tập trung cao không phải là những người gồng mình chống lại cám dỗ bằng tinh thần thép, mà là những người biết cách thiết kế môi trường: chủ động để điện thoại ở phòng khác, tắt thông báo, dọn dẹp bàn làm việc ngăn nắp để triệt tiêu cám dỗ về mặt vật lý.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tác giả khẳng định dựa vào tinh thần thép để gồng mình chống cám dỗ chắc chắn sẽ thất bại.<br>• 2. <b>Đúng:</b> 「誘惑を物理的に遠ざけるなど、作業環境を巧みに整えていること」(Khéo léo bố trí môi trường làm việc như cách ly các cám dỗ về mặt vật lý).<br>• 3. <b>Sai:</b> Bài viết không hề nói về thể chất đặc biệt có thể thức trắng đêm.<br>• 4. <b>Sai:</b> Làm việc đa nhiệm (multitasking) thực chất phá hủy sự tập trung, không phải là đặc điểm tốt.",
-          "passage": "【本文 3：集中力と環境設定】\n作業に集中できない時、多くの人は自分の意志の弱さを責める。しかし脳科学の研究によれば、人間の意志の力は極めて限られた消耗品である。真に高い集中力を発揮し続ける人は、意志に頼るのではなく「誘惑を物理的に排除した環境」を作る達人なのだ。スマートフォンを別の部屋に置く、作業机には今使う書類以外を置かないといった環境の工夫こそが、集中を持続させる秘訣である。"
+                  "id": 67,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "②<u>忘れてはならぬ</u>とは、だれが「忘れてはならぬ」のか。",
+                  "options": [
+                            "この文章の筆者",
+                            "確率を示す数字が役に立つと考える人",
+                            "何かが起った際の当事者",
+                            "すべての人々"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Tác giả nhắc nhở chung cho tất cả mọi người không được quên rằng khi sự việc xảy ra với người trong cuộc thì với họ tỷ lệ là 1/1.<br><b>Đáp án 4:</b> Tất cả mọi người.",
+                  "passage": "「一度」とか「一人」とかいう言葉は数を示すものであり、それ自体には良いも悪いもない。しかし昨今、それらの言葉がとりわけ騒々しく（注１）耳を打ち目にとまるのは、「百年に一度」とか「千人に一人」といった言い回しが多用されているためである。\nつまりこの「一度」や「一人」における「一」は、百年とか千人といった（注２）遥かに大きな数に対応する「一」であり、確率を表す数字ということになるのだろう。\nたとえば百年に一度の（注３）大災害に見舞われるとか、千人に一人の割合で発生する事故の（注４）犠牲者になるとかいったような形でこの数字は使われる。そして多くの場合、この数量表現は、だから実際には人は滅多にそんな困った事態にぶつかるものではありませんよ、と①<u>人々を安心させる</u>働きを担っているような気がしてならぬ。\n別の見方をすれば、本人がその確率を承知して暮らしている以上、もし天災に出会っても、天から降って来る（注５）人工衛星のかけらに当っても、医療面でのトラブルに巻き込まれても、誰も責任を問われることはなくなるのかもしれない。\n確率を示す数字が全く必要ないなどとは思わない。少なくともそれは、ごく（注６）大雑把な見当をつける上では役に立つことも多いだろう。\nただ②<u>忘れてはならぬ</u>のは、もし何かが起った際には、その当事者は（注７）分母の数字に関係なく、（注８）分子の「一」である点だ。その時には自分にとって分母と分子は同じ数となる。つまり、一分の一になってしまう。\nだから「一度」や「一人」を気軽に扱って欲しくない。分母は数字でも分子は数字ではないのだから。\n（黒井千次『大きな分母』『ベスト・エッセイ2011』光村図書による）\n\n（注１）耳を打ち目にとまる：聞いたり見たりして気にかかる\n（注２）遥かに：ずっと\n（注３）大災害に見舞われる：台風、地震、事故など、とても大変なことにあう\n（注４）犠牲者：被害にあった人\n（注５）人工衛星のかけら：主に地球の周りを回っている人工物がこわれて小さくなったもの\n（注６）大雑把な見当をつける：だいたいこのぐらいだろうと予想する\n（注７）分母：b/a の a\n（注８）分子：b/a の b"
         },
         {
-          "id": 68,
-          "mondai": 11,
-          "mondaiName": "問題11: 中文読解",
-          "type": "reading",
-          "question": "【問い3】この文章の要約として最も適切なものはどれか。",
-          "options": [
-            "集中力を高めるためには、意志の力を鍛える精神修養が必要である。",
-            "集中できない時は直ちに作業を中断し、別の趣味に切り替えるべきだ。",
-            "意志の力には限界があるため、物理的な環境づくりによって集中を維持すべきだ。",
-            "スマートフォンをスマートに使いこなすことこそが現代の集中術である。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Câu tóm tắt nào sau đây là phù hợp nhất với toàn bộ bài viết?\n<br><br><b>Giải thích:</b> Trọng tâm cốt lõi của bài đọc: Năng lượng ý chí của con người luôn có giới hạn, do đó thay vì trông chờ vào sự nỗ lực tinh thần mơ hồ, chúng ta phải xây dựng và thiết kế môi trường vật lý xung quanh sao cho loại bỏ các yếu tố gây xao nhãng để duy trì sự tập trung dài lâu.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài viết khẳng định rèn luyện ý chí đơn thuần không giải quyết được vấn đề tập trung.<br>• 2. <b>Sai:</b> Tác giả không khuyên bỏ dở công việc để đi làm sở thích khác khi mất tập trung.<br>• 3. <b>Đúng:</b> 「意志の力には限界があるため、物理的な環境づくりによって集中を維持すべきだ」(Ý chí có giới hạn nên cần phải duy trì sự tập trung thông qua việc kiến tạo môi trường vật lý).<br>• 4. <b>Sai:</b> Sử dụng smartphone sành điệu không phải là giải pháp được bài viết đề xuất.",
-          "passage": "【本文 3：集中力と環境設定】\n作業に集中できない時、多くの人は自分の意志の弱さを責める。しかし脳科学の研究によれば、人間の意志の力は極めて限られた消耗品である。真に高い集中力を発揮し続ける人は、意志に頼るのではなく「誘惑を物理的に排除した環境」を作る達人なのだ。スマートフォンを別の部屋に置く、作業机には今使う書類以外を置かないといった環境の工夫こそが、集中を持続させる秘訣である。"
+                  "id": 68,
+                  "mondai": 11,
+                  "mondaiName": "問題11: 中文読解",
+                  "type": "reading",
+                  "question": "筆者が主張したいことは何か。",
+                  "options": [
+                            "災害の起きる確率を数字で表すことはやめたほうがいい。",
+                            "「百年に一度」「千人に一人」などの表現を使う人は、根拠をはっきり示すべきだ。",
+                            "災害の起きる確率を数字で表すなら、人々を安心させる数字を使ってほしい。",
+                            "「百年に一度」「千人に一人」などの表現は、当事者の現実の姿を表すものではない。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Đoạn cuối viết: mẫu số là con số nhưng tử số («một người/một lần») không phải là con số suông — với người trong cuộc thì thành 1/1.<br><b>Đáp án 4:</b> Những cách diễn đạt như «100 năm 1 lần» hay «1000 người 1 người» không phản ánh thực tế của người trong cuộc.",
+                  "passage": "「一度」とか「一人」とかいう言葉は数を示すものであり、それ自体には良いも悪いもない。しかし昨今、それらの言葉がとりわけ騒々しく（注１）耳を打ち目にとまるのは、「百年に一度」とか「千人に一人」といった言い回しが多用されているためである。\nつまりこの「一度」や「一人」における「一」は、百年とか千人といった（注２）遥かに大きな数に対応する「一」であり、確率を表す数字ということになるのだろう。\nたとえば百年に一度の（注３）大災害に見舞われるとか、千人に一人の割合で発生する事故の（注４）犠牲者になるとかいったような形でこの数字は使われる。そして多くの場合、この数量表現は、だから実際には人は滅多にそんな困った事態にぶつかるものではありませんよ、と①<u>人々を安心させる</u>働きを担っているような気がしてならぬ。\n別の見方をすれば、本人がその確率を承知して暮らしている以上、もし天災に出会っても、天から降って来る（注５）人工衛星のかけらに当っても、医療面でのトラブルに巻き込まれても、誰も責任を問われることはなくなるのかもしれない。\n確率を示す数字が全く必要ないなどとは思わない。少なくともそれは、ごく（注６）大雑把な見当をつける上では役に立つことも多いだろう。\nただ②<u>忘れてはならぬ</u>のは、もし何かが起った際には、その当事者は（注７）分母の数字に関係なく、（注８）分子の「一」である点だ。その時には自分にとって分母と分子は同じ数となる。つまり、一分の一になってしまう。\nだから「一度」や「一人」を気軽に扱って欲しくない。分母は数字でも分子は数字ではないのだから。\n（黒井千次『大きな分母』『ベスト・エッセイ2011』光村図書による）\n\n（注１）耳を打ち目にとまる：聞いたり見たりして気にかかる\n（注２）遥かに：ずっと\n（注３）大災害に見舞われる：台風、地震、事故など、とても大変なことにあう\n（注４）犠牲者：被害にあった人\n（注５）人工衛星のかけら：主に地球の周りを回っている人工物がこわれて小さくなったもの\n（注６）大雑把な見当をつける：だいたいこのぐらいだろうと予想する\n（注７）分母：b/a の a\n（注８）分子：b/a の b"
         },
         {
-          "id": 69,
-          "mondai": 12,
-          "mondaiName": "問題12: 比較読解",
-          "type": "reading",
-          "question": "【問い1】AとBの文章の共通点は何か。",
-          "options": [
-            "文法規則の丸暗記を激しく批判している点。",
-            "効果的な外国語の習得アプローチについて論じている点。",
-            "日常会話よりも学術論文の作成能力を重視している点。",
-            "外国へ留学することの必要性を説いている点。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điểm chung giữa hai bài văn A và B là gì?\n<br><br><b>Giải thích:</b> Cả hai đoạn văn A và B đều bàn luận về phương pháp và con đường tiếp cận hiệu quả trong việc học một ngoại ngữ mới (外国語の効果的な学習法／アプローチ). Đoạn A phân tích vai trò của ngữ pháp có hệ thống, trong khi đoạn B nhấn mạnh tầm quan trọng của việc giao tiếp thực tế không sợ sai.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài A đề cao cấu trúc ngữ pháp chứ không hề chỉ trích kịch liệt việc học ngữ pháp.<br>• 2. <b>Đúng:</b> 「効果的な外国語の習得アプローチについて論じている点」(Điểm chung là cả hai đều bàn luận về phương thức tiếp cận hiệu quả để tiếp thu ngoại ngữ).<br>• 3. <b>Sai:</b> Cả hai bài đều không so sánh giữa đàm thoại hàng ngày và viết luận văn học thuật.<br>• 4. <b>Sai:</b> Không có bài nào khẳng định bắt buộc phải đi du học nước ngoài mới giỏi tiếng.",
-          "passage": "【A】\n新しい外国語を学ぶ際、文法を論理的に体系立てて理解することが最も確実な近道である。文法の骨組みがしっかりしていれば、文章の構造を正確に把握でき、応用力のある正確な表現を組み立てることができる。\n\n【B】\n言語習得において最も大切なのは、間違いを恐れずにたくさん声に出して使うことだ。文法の正しさにこだわりすぎると、発話へのハードルが高くなり口ごもってしまう。実戦の対話の中で感覚を掴むことこそが重要である。"
+                  "id": 69,
+                  "mondai": 12,
+                  "mondaiName": "問題12: 比較読解",
+                  "type": "reading",
+                  "question": "AとBのどちらの文章にも触れられている点は何か。",
+                  "options": [
+                            "話し手にとって好ましい、聞き手の態度",
+                            "話をするときに、相手に良い印象を与える方法",
+                            "話を聞くときの、あいづちの重要性",
+                            "自分の意見を軽々しく言わないことの重要性"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Cả A (thái độ lắng nghe đồng cảm/gật gù) và B (thái độ lắng nghe chăm chú, biểu cảm phong phú khiến người nói thấy an tâm) đều đề cập đến thái độ người nghe mà người nói ưa thích.<br><b>Đáp án 1:</b> Thái độ của người nghe khiến người nói thấy dễ chịu/ưa thích.",
+                  "passage": "Ａ\n最近「傾聴」という言葉をよく聞く。話を聞くときに、相手が話したいこと、伝えたいことを、受容的・共感的な態度で聞くことで、もともとはカウンセリングなどで使われる手法である。学校で教えられたり企業の研修でも取り上げられたりするからであろうか、話をしているときに「なるほど」「そうですね」「たしかに」などとあいづちを打ちながら話を聞いてくれる人が、若い人を中心に増えたような気がする。それはたいへんに結構なことではある。聞いているのかいないのか、わからないように無反応であるよりは、ずっとよいだろう。しかし、これも度が過ぎれば、「この人はいつも聞いてはくれるが、自分の意見は言わない人だ」と思われてしまう危険性もある。相手が何を求めているのかを注意深く考慮し、時と場合に応じて、聞く態度を調整する必要があるのではないだろうか。\n\nＢ\n世の中には、人の話を聞くのが実にうまい人がいます。そういう人は、話す人を見つめながら表情豊かに興味深そうに反応しながら聞いてくれるので、話す方も、自分が受け入れられているという安心感を覚え、その人の方をじっと見つめて話し続けたくなるものです。自分にとって好ましい感じの人だったり、より親しい人であったりすれば、なおさらでしょう。しかし、数人で会話をしているときは、注意しなければなりません。自分にとって好ましいある特定の人ばかりを見ながら話を続ければ、それ以外の人は自分が軽視されているような気になり、いい気分ではないでしょう。等しい割合で視線を送ることが、グループで話すときには大切なのです。"
         },
         {
-          "id": 70,
-          "mondai": 12,
-          "mondaiName": "問題12: 比較読解",
-          "type": "reading",
-          "question": "【問い2】文法学習の役割について、AとBの立場の相違はどれか。",
-          "options": [
-            "Aは文法を不要とし、Bは文法こそが基礎だと述べている。",
-            "Aは文法を正確な運用の土台として重視し、Bは文法へのこだわりが発話を妨げると指摘している。",
-            "Aは文法よりも単語力を優先し、Bは文法と単語の両方を否定している。",
-            "AもBも、大人の学習者に文法は一切役に立たないと合意している。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về vai trò của việc học ngữ pháp, lập trường của tác giả bài A và bài B có sự khác biệt như thế nào?\n<br><br><b>Giải thích:</b> Tác giả A cho rằng người lớn học ngoại ngữ cần có bộ khung ngữ pháp làm nền tảng vững chắc để xây dựng câu chính xác. Ngược lại, tác giả B cho rằng việc quá câu nệ quy tắc ngữ pháp sẽ tạo ra tâm lý sợ sai, làm tắc nghẽn sự phản xạ và ngăn cản việc phát ngôn tự nhiên.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài B không hoàn toàn phủ nhận ngữ pháp vô dụng mà chỉ cảnh báo việc quá câu nệ làm cản trở nói.<br>• 2. <b>Đúng:</b> 「Aは文法を正確な運用の土台として重視し、Bは文法へのこだわりが発話を妨げると指摘している」(A coi trọng ngữ pháp như nền tảng vận dụng chính xác, còn B chỉ ra sự câu nệ ngữ pháp sẽ cản trở việc phát ngôn).<br>• 3. <b>Sai:</b> B không hề phủ định cả từ vựng lẫn ngữ pháp.<br>• 4. <b>Sai:</b> Cả hai không hề đồng ý rằng ngữ pháp hoàn toàn vô ích với người lớn.",
-          "passage": "【A】\n新しい外国語を学ぶ際、文法を論理的に体系立てて理解することが最も確実な近道である。文法の骨組みがしっかりしていれば、文章の構造を正確に把握でき、応用力のある正確な表現を組み立てることができる。\n\n【B】\n言語習得において最も大切なのは、間違いを恐れずにたくさん声に出して使うことだ。文法の正しさにこだわりすぎると、発話へのハードルが高くなり口ごもってしまう。実戦の対話の中で感覚を掴むことこそが重要である。"
+                  "id": 70,
+                  "mondai": 12,
+                  "mondaiName": "問題12: 比較読解",
+                  "type": "reading",
+                  "question": "AとBについて、正しいものはどれか。",
+                  "options": [
+                            "Aは話をするときの視線の重要性、Bは話を聞くときの共感の重要性を主張している。",
+                            "AもBも傾聴の重要性について主張している。",
+                            "Aはグループで会話しているときの聞く態度について、Bは二人で話をしているときの聞く態度について述べている。",
+                            "Aは話を聞くときに気を付けるべき点について、Bは話を聞くとき（およびグループ会話）に気を付けるべき点について述べている。"
+                  ],
+                  "correctAnswer": 4,
+                  "explanation": "<b>Phân tích:</b> Lưu ý: A nói về điểm cần chú ý khi lắng nghe (điều chỉnh thái độ nghe tùy lúc kẻo bị nghĩ không có chính kiến); B nói về điểm cần chú ý khi nghe trong nhóm (chia đều ánh mắt cho mọi người).<br><b>Đáp án 4:</b> (Theo đáp án đề gốc: A và B nêu các điểm cần lưu ý khi giao tiếp/lắng nghe).",
+                  "passage": "Ａ\n最近「傾聴」という言葉をよく聞く。話を聞くときに、相手が話したいこと、伝えたいことを、受容的・共感的な態度で聞くことで、もともとはカウンセリングなどで使われる手法である。学校で教えられたり企業の研修でも取り上げられたりするからであろうか、話をしているときに「なるほど」「そうですね」「たしかに」などとあいづちを打ちながら話を聞いてくれる人が、若い人を中心に増えたような気がする。それはたいへんに結構なことではある。聞いているのかいないのか、わからないように無反応であるよりは、ずっとよいだろう。しかし、これも度が過ぎれば、「この人はいつも聞いてはくれるが、自分の意見は言わない人だ」と思われてしまう危険性もある。相手が何を求めているのかを注意深く考慮し、時と場合に応じて、聞く態度を調整する必要があるのではないだろうか。\n\nＢ\n世の中には、人の話を聞くのが実にうまい人がいます。そういう人は、話す人を見つめながら表情豊かに興味深そうに反応しながら聞いてくれるので、話す方も、自分が受け入れられているという安心感を覚え、その人の方をじっと見つめて話し続けたくなるものです。自分にとって好ましい感じの人だったり、より親しい人であったりすれば、なおさらでしょう。しかし、数人で会話をしているときは、注意しなければなりません。自分にとって好ましいある特定の人ばかりを見ながら話を続ければ、それ以外の人は自分が軽視されているような気になり、いい気分ではないでしょう。等しい割合で視線を送ることが、グループで話すときには大切なのです。"
         },
         {
-          "id": 71,
-          "mondai": 13,
-          "mondaiName": "問題13: 長文読解",
-          "type": "reading",
-          "question": "【問い1】筆者が考える「自己効力感」とはどのようなものか。",
-          "options": [
-            "何もしなくても自分には価値があると思い込むこと。",
-            "失敗や挫折を自らの工夫と努力で乗り越えた経験から生まれる確信。",
-            "他人に頼ることなく一人で完璧に生きられるというプライド。",
-            "一度も失敗したことがないという完璧な経歴への誇り。"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Khái niệm \"tự tin vào năng lực bản thân\" (Self-efficacy / 自己効力感) theo tác giả là gì?\n<br><br><b>Giải thích:</b> Trong bài đọc dài, tác giả phân biệt rõ lòng tự tôn mơ hồ với năng lực tự tin đích thực: 「真の自己効力感とは、自らの力で失敗や壁にぶつかり、それを試行錯誤しながら乗り越えたという生きた経験からしか育まれない確信である」(Năng lực tự tin đích thực là niềm tin vững chắc chỉ được nuôi dưỡng từ trải nghiệm sống động khi chính mình đối mặt thất bại và vượt qua nó bằng nỗ lực thử sai).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Tự huyễn hoặc bản thân có giá trị dù không làm gì chỉ là ảo tưởng, không phải năng lực thực sự.<br>• 2. <b>Đúng:</b> 「失敗や挫折を自らの工夫と努力で乗り越えた経験から生まれる確信」(Niềm tin chắc chắn được sinh ra từ trải nghiệm tự mình nỗ lực và tìm cách vượt qua thất bại, trở ngại).<br>• 3. <b>Sai:</b> Sự kiêu ngạo muốn sống cô độc hoàn hảo không phải là ý của bài.<br>• 4. <b>Sai:</b> Một hồ sơ hoàn hảo chưa từng vấp ngã là điều tác giả xem là nguy hiểm, thiếu sức chống chịu.",
-          "passage": "【長文：失敗への耐性と自己効力感】\n現代社会において「自己肯定感」の大切さが広く語られている。しかし、単に自分を無条件に肯定するだけでは、人生の激しい逆風に直面したときに脆く崩れ去ってしまう。真に人を強くするのは、失敗や挫折を経験し、それを自らの工夫と努力で乗り越えたという「自己効力感」である。\n幼少期から過保護に育てられ、失敗の芽をすべて周囲の大人に摘み取られてきた子供は、大人になって小さなつまずきを経験しただけで激しい無力感に襲われる。安全な環境の中で適度な失敗を経験させ、「転んでも自分で起き上がれる」という確信を育むことこそが、激動の時代をしなやかに生き抜くレジリエンス（精神的回復力）の源泉なのである。"
+                  "id": 71,
+                  "mondai": 13,
+                  "mondaiName": "問題13: 長文読解",
+                  "type": "reading",
+                  "question": "①<u>説得力がない</u>のは、なぜか。",
+                  "options": [
+                            "発言内容が理解しにくいから",
+                            "発言のしかたに問題があるから",
+                            "発言する人が信頼されていないから",
+                            "発言を聞く人に予備知識がないから"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích:</b> Đoạn 1–2 giải thích người nghe đánh giá bằng «phần tỏa ra từ toàn bộ con người bạn» cộng với nội dung phát ngôn; anh Yamada đang rối rắm ôm việc thì không có uy tín/sự tin cậy về «cách làm mới».<br><b>Đáp án 3:</b> Vì người phát ngôn không được tin cậy.",
+                  "passage": "私たちは、何かを伝えようとするとき、伝える内容の方に一生懸命になる。しかし聞く方は、予備知識も含め、あなたというメディア（注１）全体が放っているものと、発言内容の「足し算」で聞いている。\n「仕事を抱え込んでしまって困っている山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言ったって、①<u>説得力がない</u>。\nしかし、「新しいものづくりをしていると評判の山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言えば、みんな「いいことを言うぞ」と聞き耳を立てる（注２）だろう。そういう状況の中で話し始めれば、同じことを言っても、よく理解され、発言は通りやすくなる。発言が通れば、信頼感が増し、さらに発言が通りやすくなると、いいスパイラル（注３）になっていく。\nどうしたら、あなたが口を開く前に、周囲の人から、あなたの話を聞こうという気持ちを引き出せるのか？どうしたら、クライアント（注４）が、あなたの企画書の表紙を開く前に、「あの人の企画なら間違いない」と思ってもらえるのか？\n自分の聞いてもらいたいことを聞いてもらえるメディアになる。「メディア力を高める」とは、そういう意味だ。少し引いた目で、外から観た自分をとらえ、それを「こう見てほしい」という自分の実像に近づけていくことだ。\n自分以上に見られたい、という人もいると思うが、私はその必要はないし、戦略としてうまくないと思う。考えてみてほしい。外から見て人があなたに期待する、その「期待値」に、常に自分の内面がともなわないのだ。②<u>コミュニケーションの入り口はよくても</u>、関わるごとに相手は、期待以下の実感をもつ。コミュニケーションの出口には、「幻滅」（注５）が待っている。\nそうではなく、自分の偽らざる内面のうち、どの面を見せ、謳って（注６）いくかだと思う。\n「メディア力」をつくるものは何だろう？（中略）\n自分の営みによって、結果的に形成されていく部分が大きいと私は思う。日ごろの、立ち居振る舞い・ファッション・表情。人への接し方、周囲への貢献度、実績。何をめざし、どう生きているか、それをどう伝えているか？それら全ての積み重ねが、周囲の人の中にあなたの印象を形づくり、評判をつくり、ふたたび、「メディア力」として、あなたに舞いもどってくる（注７）。動きやすくするのも、動きにくくするのも、自分次第だ。\n（山田ズーニー『あなたの話はなぜ「通じない」のか』筑摩書房による）\n\n（注１）メディア：情報を伝える手段\n（注２）聞き耳を立てる：注意を集中させて聞く\n（注３）スパイラル：効果を増しながらくり返していくこと\n（注４）クライアント：仕事を依頼してきた人\n（注５）幻滅：期待を裏切られてがっかりすること\n（注６）謳う：表現し、主張する\n（注７）舞いもどってくる：もとのところに戻ってくる"
         },
         {
-          "id": 72,
-          "mondai": 13,
-          "mondaiName": "問題13: 長文読解",
-          "type": "reading",
-          "question": "【問い2】過保護に育てられた子供が抱えるリスクとして、本文で指摘されているものはどれか。",
-          "options": [
-            "学業成績が伸び悩み、大学進学を諦めてしまうこと。",
-            "周囲への依存心が強すぎて、友人関係をうまく築けないこと。",
-            "大人になって小さな失敗に直面したとき、激しい無力感に打ちのめされてしまうこと。",
-            "健康管理ができず、すぐに体調を崩してしまうこと。"
-          ],
-          "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nguy cơ tiềm ẩn đối với những đứa trẻ được nuôi dạy quá bao bọc được bài viết chỉ ra là gì?\n<br><br><b>Giải thích:</b> Tác giả chỉ rõ: khi cha mẹ dọn sẵn mọi chướng ngại vật để con cái không bao giờ nếm mùi thất bại, đứa trẻ lớn lên sẽ thiếu đi \"hệ miễn dịch tâm lý\": 「大人になって社会に出たとき、初めて直面する些細な挫折に対して耐性がなく、深い無力感に襲われて立ち直れなくなるリスクがある」(Khi trưởng thành ra xã hội, đứng trước một vấp ngã nhỏ bé cũng không có sức đề kháng, dễ bị cảm giác bất lực bao trùm và không thể gượng dậy).\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Sai:</b> Bài không nói việc này dẫn đến bỏ học đại học.<br>• 2. <b>Sai:</b> Bài không bàn về vấn đề phụ thuộc làm hỏng quan hệ bạn bè.<br>• 3. <b>Đúng:</b> 「大人になって小さな失敗に直面したとき、激しい無力感に打ちのめされてしまうこと」(Khi thành người lớn, đối mặt với thất bại nhỏ cũng bị cảm giác bất lực sâu sắc đánh gục).<br>• 4. <b>Sai:</b> Không liên quan tới vấn đề quản lý sức khỏe thể chất.",
-          "passage": "【長文：失敗への耐性と自己効力感】\n現代社会において「自己肯定感」の大切さが広く語られている。しかし、単に自分を無条件に肯定するだけでは、人生の激しい逆風に直面したときに脆く崩れ去ってしまう。真に人を強くするのは、失敗や挫折を経験し、それを自らの工夫と努力で乗り越えたという「自己効力感」である。\n幼少期から過保護に育てられ、失敗の芽をすべて周囲の大人に摘み取られてきた子供は、大人になって小さなつまずきを経験しただけで激しい無力感に襲われる。安全な環境の中で適度な失敗を経験させ、「転んでも自分で起き上がれる」という確信を育むことこそが、激動の時代をしなやかに生き抜くレジリエンス（精神的回復力）の源泉なのである。"
+                  "id": 72,
+                  "mondai": 13,
+                  "mondaiName": "問題13: 長文読解",
+                  "type": "reading",
+                  "question": "②<u>コミュニケーションの入り口はよくても</u>とは、どういう意味か。",
+                  "options": [
+                            "実際に話す前には、周囲から「あの人の言うことなら間違いない」と思われても",
+                            "実際に話す前には、周囲の人とうまくコミュニケーションすることができても",
+                            "実際に話し始めたときには、その内容がすばらしいと思われても",
+                            "実際に話し始めたときには、スピーチの方法がすばらしいと思われても"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Nếu cố tỏ ra hơn thực lực để tạo ấn tượng ban đầu tốt («入り口はよくても»), càng tiếp xúc đối phương càng nhận ra nội tâm không tương xứng với «giá trị kỳ vọng» đó.<br><b>Đáp án 1:</b> Dù trước khi thực sự nói chuyện được xung quanh nghĩ rằng «lời người này chắc chắn đúng».",
+                  "passage": "私たちは、何かを伝えようとするとき、伝える内容の方に一生懸命になる。しかし聞く方は、予備知識も含め、あなたというメディア（注１）全体が放っているものと、発言内容の「足し算」で聞いている。\n「仕事を抱え込んでしまって困っている山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言ったって、①<u>説得力がない</u>。\nしかし、「新しいものづくりをしていると評判の山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言えば、みんな「いいことを言うぞ」と聞き耳を立てる（注２）だろう。そういう状況の中で話し始めれば、同じことを言っても、よく理解され、発言は通りやすくなる。発言が通れば、信頼感が増し、さらに発言が通りやすくなると、いいスパイラル（注３）になっていく。\nどうしたら、あなたが口を開く前に、周囲の人から、あなたの話を聞こうという気持ちを引き出せるのか？どうしたら、クライアント（注４）が、あなたの企画書の表紙を開く前に、「あの人の企画なら間違いない」と思ってもらえるのか？\n自分の聞いてもらいたいことを聞いてもらえるメディアになる。「メディア力を高める」とは、そういう意味だ。少し引いた目で、外から観た自分をとらえ、それを「こう見てほしい」という自分の実像に近づけていくことだ。\n自分以上に見られたい、という人もいると思うが、私はその必要はないし、戦略としてうまくないと思う。考えてみてほしい。外から見て人があなたに期待する、その「期待値」に、常に自分の内面がともなわないのだ。②<u>コミュニケーションの入り口はよくても</u>、関わるごとに相手は、期待以下の実感をもつ。コミュニケーションの出口には、「幻滅」（注５）が待っている。\nそうではなく、自分の偽らざる内面のうち、どの面を見せ、謳って（注６）いくかだと思う。\n「メディア力」をつくるものは何だろう？（中略）\n自分の営みによって、結果的に形成されていく部分が大きいと私は思う。日ごろの、立ち居振る舞い・ファッション・表情。人への接し方、周囲への貢献度、実績。何をめざし、どう生きているか、それをどう伝えているか？それら全ての積み重ねが、周囲の人の中にあなたの印象を形づくり、評判をつくり、ふたたび、「メディア力」として、あなたに舞いもどってくる（注７）。動きやすくするのも、動きにくくするのも、自分次第だ。\n（山田ズーニー『あなたの話はなぜ「通じない」のか』筑摩書房による）\n\n（注１）メディア：情報を伝える手段\n（注２）聞き耳を立てる：注意を集中させて聞く\n（注３）スパイラル：効果を増しながらくり返していくこと\n（注４）クライアント：仕事を依頼してきた人\n（注５）幻滅：期待を裏切られてがっかりすること\n（注６）謳う：表現し、主張する\n（注７）舞いもどってくる：もとのところに戻ってくる"
         },
         {
-          "id": 73,
-          "mondai": 13,
-          "mondaiName": "問題13: 長文読解",
-          "type": "reading",
-          "question": "【問い3】この文章を通じて筆者が最も訴えたいことは何か。",
-          "options": [
-            "失敗を極端に避けるのではなく、適度な失敗を通じて立ち直る力を育むことが大切だ。",
-            "教育の場では一切の失敗を許さず、常に完璧な指導を行うべきだ。",
-            "自己肯定感さえ高ければ、どんな困難も自然と解決する。",
-            "大人は子供の行動に一切干渉せず、完全に放任するべきだ。"
-          ],
-          "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Thông qua bài văn này, điều mà tác giả muốn gửi gắm mạnh mẽ nhất là gì?\n<br><br><b>Giải thích:</b> Kết luận toàn bài văn, tác giả kêu gọi các bậc phụ huynh và nhà giáo dục: Đừng cố tạo ra một môi trường hoàn toàn vô trùng không tì vết cho con trẻ, mà hãy cho phép chúng trải nghiệm những thất bại ở mức độ vừa phải để rèn luyện bản lĩnh và khả năng hồi phục (Resilience) trước sóng gió cuộc đời.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>Đúng:</b> 「失敗を極端に避けるのではなく、適度な失敗を通じて立ち直る力を育むことが大切だ」(Thay vì né tránh thất bại một cách cực đoan, điều quan trọng là nuôi dưỡng sức mạnh gượng dậy thông qua những vấp ngã vừa phải).<br>• 2. <b>Sai:</b> Hoàn toàn trái ngược với tinh thần của bài (bài phản đối sự giáo dục cầu toàn, không cho phép sai lầm).<br>• 3. <b>Sai:</b> Tự tôn đơn thuần không thể tự động giải quyết khó khăn nếu thiếu kinh nghiệm vượt khó thực tế.<br>• 4. <b>Sai:</b> Tác giả không khuyên người lớn buông xuôi bỏ mặc hoàn toàn con cái.",
-          "passage": "【長文：失敗への耐性と自己効力感】\n現代社会において「自己肯定感」の大切さが広く語られている。しかし、単に自分を無条件に肯定するだけでは、人生の激しい逆風に直面したときに脆く崩れ去ってしまう。真に人を強くするのは、失敗や挫折を経験し、それを自らの工夫と努力で乗り越えたという「自己効力感」である。\n幼少期から過保護に育てられ、失敗の芽をすべて周囲の大人に摘み取られてきた子供は、大人になって小さなつまずきを経験しただけで激しい無力感に襲われる。安全な環境の中で適度な失敗を経験させ、「転んでも自分で起き上がれる」という確信を育むことこそが、激動の時代をしなやかに生き抜くレジリエンス（精神的回復力）の源泉なのである。"
+                  "id": 73,
+                  "mondai": 13,
+                  "mondaiName": "問題13: 長文読解",
+                  "type": "reading",
+                  "question": "筆者は、人に何かを伝える場合に大切なのは、どんなことだと言っているか。",
+                  "options": [
+                            "「この人の話なら聞こう」と周囲に思わせる評判をつくること",
+                            "「この人はコミュニケーションが上手だ」と周囲に思わせる印象をつくること",
+                            "どのようなメディアを使って伝えたら効果が高いかを考えること",
+                            "伝える内容を考える前に、周囲の人といい人間関係を作り上げておくこと"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích:</b> Toàn bài nhấn mạnh tích lũy hành động, thành tích, cách sống hàng ngày để tạo dựng uy tín/danh tiếng («評判») khiến người khác muốn nghe bạn trước cả khi bạn mở lời.<br><b>Đáp án 1:</b> Tạo dựng danh tiếng khiến xung quanh nghĩ «nếu là lời người này thì sẽ nghe».",
+                  "passage": "私たちは、何かを伝えようとするとき、伝える内容の方に一生懸命になる。しかし聞く方は、予備知識も含め、あなたというメディア（注１）全体が放っているものと、発言内容の「足し算」で聞いている。\n「仕事を抱え込んでしまって困っている山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言ったって、①<u>説得力がない</u>。\nしかし、「新しいものづくりをしていると評判の山田さん」が、「新商品は、何をつくるかよりも、いかに新しいつくり方をするかです」と言えば、みんな「いいことを言うぞ」と聞き耳を立てる（注２）だろう。そういう状況の中で話し始めれば、同じことを言っても、よく理解され、発言は通りやすくなる。発言が通れば、信頼感が増し、さらに発言が通りやすくなると、いいスパイラル（注３）になっていく。\nどうしたら、あなたが口を開く前に、周囲の人から、あなたの話を聞こうという気持ちを引き出せるのか？どうしたら、クライアント（注４）が、あなたの企画書の表紙を開く前に、「あの人の企画なら間違いない」と思ってもらえるのか？\n自分の聞いてもらいたいことを聞いてもらえるメディアになる。「メディア力を高める」とは、そういう意味だ。少し引いた目で、外から観た自分をとらえ、それを「こう見てほしい」という自分の実像に近づけていくことだ。\n自分以上に見られたい、という人もいると思うが、私はその必要はないし、戦略としてうまくないと思う。考えてみてほしい。外から見て人があなたに期待する、その「期待値」に、常に自分の内面がともなわないのだ。②<u>コミュニケーションの入り口はよくても</u>、関わるごとに相手は、期待以下の実感をもつ。コミュニケーションの出口には、「幻滅」（注５）が待っている。\nそうではなく、自分の偽らざる内面のうち、どの面を見せ、謳って（注６）いくかだと思う。\n「メディア力」をつくるものは何だろう？（中略）\n自分の営みによって、結果的に形成されていく部分が大きいと私は思う。日ごろの、立ち居振る舞い・ファッション・表情。人への接し方、周囲への貢献度、実績。何をめざし、どう生きているか、それをどう伝えているか？それら全ての積み重ねが、周囲の人の中にあなたの印象を形づくり、評判をつくり、ふたたび、「メディア力」として、あなたに舞いもどってくる（注７）。動きやすくするのも、動きにくくするのも、自分次第だ。\n（山田ズーニー『あなたの話はなぜ「通じない」のか』筑摩書房による）\n\n（注１）メディア：情報を伝える手段\n（注２）聞き耳を立てる：注意を集中させて聞く\n（注３）スパイラル：効果を増しながらくり返していくこと\n（注４）クライアント：仕事を依頼してきた人\n（注５）幻滅：期待を裏切られてがっかりすること\n（注６）謳う：表現し、主張する\n（注７）舞いもどってくる：もとのところに戻ってくる"
         },
         {
-          "id": 74,
-          "mondai": 14,
-          "mondaiName": "問題14: 情報検索",
-          "type": "reading",
-          "question": "【問い1】前月末までに早期申し込みを行い、語学講座のみを新しく受講する場合、初月に支払う合計金額はいくらか。",
-          "options": [
-            "6,000円",
-            "8,000円",
-            "10,000円",
-            "12,000円"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nếu đăng ký sớm trước cuối tháng trước và chỉ tham gia học khóa học Ngoại ngữ (語学講座), thì tổng số tiền phải thanh toán trong tháng đầu tiên là bao nhiêu?\n<br><br><b>Giải thích:</b> Căn cứ vào bảng thông tin:\n<br>- Học phí hàng tháng của khóa Ngoại ngữ: <b>8,000 yên</b>.\n<br>- Tiền giáo trình đóng riêng: <b>2,000 yên</b> (không nằm trong danh mục được giảm giá).\n<br>- Ưu đãi đăng ký sớm (早期申込割引): Giảm <b>2,000 yên</b> vào tiền học phí của tháng đầu tiên &rarr; Học phí tháng đầu còn: 8,000 - 2,000 = 6,000 yên.\n<br>- Tổng số tiền phải nộp trong tháng đầu tiên = Học phí sau giảm (6,000 yên) + Tiền giáo trình (2,000 yên) = <b>8,000 yên</b>.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>6,000円</b>: Sai vì quên cộng tiền giáo trình bắt buộc riêng (2,000円).<br>• 2. <b>8,000円</b>: Đúng, 6,000 yên học phí + 2,000 yên giáo trình = 8,000 yên.<br>• 3. <b>10,000円</b>: Sai vì chưa trừ 2,000 yên giảm giá đăng ký sớm.<br>• 4. <b>12,000円</b>: Tính sai hoàn toàn các khoản tiền.",
-          "passage": "【市民カルチャーセンター受講案内】\n・語学講座：週1回（月4回）、月謝8,000円（教材費別途2,000円）\n・パソコン講座：週1回（月4回）、月謝10,000円（教材費込）\n・絵画講座：隔週1回（月2回）、月謝5,000円（画材費自己負担）\n【割引特典】\n1. 早期申込割引：開講初月の前月末までに申し込むと、初月月謝が2,000円引き。\n2. 複数受講割引：2講座以上同時に受講する場合、2講座目以降の月謝が毎月1,000円引き。"
+                  "id": 74,
+                  "mondai": 14,
+                  "mondaiName": "問題14: 情報検索",
+                  "type": "reading",
+                  "question": "上野さんは、「無料お試し」を利用してから、プランBを利用しようと考えている。どのように手続きをしたらいいか。",
+                  "options": [
+                            "会員登録し、プランBを選択する。次に希望のDVDを注文リストに登録する。",
+                            "会員登録し、さらにプランBの無料お試しに登録する。無料お試し期間中にプランBを申し込む。",
+                            "会員登録し、さらにプランBの無料お試しに登録する。そのままプランBの利用を続ける。",
+                            "会員登録し、プランBを選択する。希望のDVDを注文リストに登録し、DVDを送る。"
+                  ],
+                  "correctAnswer": 3,
+                  "explanation": "<b>Phân tích mục 「無料お試し」とは？:</b><br>• Bước 1: Đăng ký hội viên và chọn gói (プランB).<br>• Bước 2: Đăng ký «無料お試し».<br>• Ghi chú thứ 3: 「無料お試し期間終了後、手続きなしで自動的に選択されたプランをご利用いただけます。」 (Sau khi hết dùng thử miễn phí, không cần làm thủ tục gì mà tự động dùng tiếp gói đã chọn).<br><b>Đáp án 3:</b> Đăng ký hội viên, đăng ký dùng thử miễn phí gói B rồi cứ thế tiếp tục sử dụng gói B.",
+                  "passage": "DULA ネットDVDレンタルサービス\n\n● ネットDVDレンタルサービスとは？\nDULA ネットDVDレンタルサービスは、観たいDVDをお客様のご希望の住所まですぐお届けします。「入会金無料、送料無料、貸出期間は自由」のDULAレンタルサービスにぜひご入会ください！\n\n● 利用のしかた\n1 ホームページで会員登録し、入会（その際にプランを選択）\n2 ご希望のDVDを注文リストに登録\n3 DVDを郵送\n4 ご視聴されたDVDをポストに返却\n\n● 使い方に合わせて選べる3つのプラン\n・プランA：利用料金(1か月) 1940円 ／ 無料お試し期間 入会日から1か月 ／ レンタル枚数(1か月) 借り放題\n・プランB：利用料金(1か月) 1600円 ／ 無料お試し期間 入会日から1か月 ／ レンタル枚数(1か月) 10枚まで\n・プランC：利用料金(1か月) 1000円 ／ 無料お試し期間 なし ／ レンタル枚数(1か月) 5枚まで\n\n● 「無料お試し」とは？\n次の手順で無料お試しがご利用可能です。（登録はインターネットでその場ですぐ完了します）\n1 ホームページで会員登録し、入会（その際にプランを選択）\n2 「無料お試し」登録\n3 「無料お試し」スタート\n\n＊無料お試しが必要ない方は、プラン選択をしたのち、無料お試し登録をせずに、ご希望のDVDを注文してください。\n＊無料お試し期間中に退会手続きをされた場合は、料金はかかりません。\n＊無料お試し期間終了後、手続きなしで自動的に選択されたプランをご利用いただけます。\n＊レンタルプランCの場合は、無料お試しなしで、登録完了後、有料にてレンタル開始となります。\n＊無料お試しのご利用は1回に限らせていただきます（再度入会されても、以前に無料お試しをご利用されたことがある場合は、再度無料お試しを利用することはできません）。"
         },
         {
-          "id": 75,
-          "mondai": 14,
-          "mondaiName": "問題14: 情報検索",
-          "type": "reading",
-          "question": "【問い2】通常期にパソコン講座と絵画講座の2つを同時に受講する場合、毎月支払う月謝の合計はいくらになるか。",
-          "options": [
-            "13,000円",
-            "14,000円",
-            "15,000円",
-            "16,000円"
-          ],
-          "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trong trường hợp đăng ký vào thời gian thông thường và học đồng thời cả 2 khóa: Khóa Tin học (パソコン講座) và Khóa Hội họa (絵画講座), thì tổng số tiền học phí phải thanh toán đều đặn mỗi tháng là bao nhiêu?\n<br><br><b>Giải thích:</b> Căn cứ vào bảng thông tin và chính sách ưu đãi:\n<br>- Học phí khóa Tin học: <b>10,000 yên/tháng</b> (đã bao gồm giáo trình).\n<br>- Học phí khóa Hội họa: <b>5,000 yên/tháng</b>.\n<br>- Ưu đãi học nhiều khóa (複数受講割引): Khi đăng ký từ 2 khóa trở lên cùng lúc, khóa học thứ 2 trở đi sẽ được giảm <b>1,000 yên mỗi tháng</b> &rarr; Học phí khóa thứ hai (Hội họa) còn: 5,000 - 1,000 = 4,000 yên/tháng.\n<br>- Tổng số tiền học phí mỗi tháng = 10,000 yên + 4,000 yên = <b>14,000 yên</b>.\n<br><br><i>Phân tích các phương án:</i><br>• 1. <b>13,000円</b>: Trừ giảm giá quá mức (trừ 2,000 yên).<br>• 2. <b>14,000円</b>: Đúng, 10,000 + (5,000 - 1,000) = 14,000 yên.<br>• 3. <b>15,000円</b>: Sai vì chưa tính khoản giảm giá 1,000 yên cho khóa học thứ hai (10,000 + 5,000 = 15,000).<br>• 4. <b>16,000円</b>: Tính sai cộng thừa tiền.",
-          "passage": "【市民カルチャーセンター受講案内】\n・語学講座：週1回（月4回）、月謝8,000円（教材費別途2,000円）\n・パソコン講座：週1回（月4回）、月謝10,000円（教材費込）\n・絵画講座：隔週1回（月2回）、月謝5,000円（画材費自己負担）\n【割引特典】\n1. 早期申込割引：開講初月の前月末までに申し込むと、初月月謝が2,000円引き。\n2. 複数受講割引：2講座以上同時に受講する場合、2講座目以降の月謝が毎月1,000円引き。"
+                  "id": 75,
+                  "mondai": 14,
+                  "mondaiName": "問題14: 情報検索",
+                  "type": "reading",
+                  "question": "入会後2か月の間で、レンタル1枚の費用が一番安いのはだれか。",
+                  "options": [
+                            "春子さん（プランAの「無料お試し」を利用してから、プランAを申し込んで、計20枚借りた。）",
+                            "夏子さん（プランBの「無料お試し」を利用してから、プランBを申し込んで、計16枚借りた。）",
+                            "秋子さん（最初からプランCを申し込んで、計10枚借りた。）",
+                            "冬子さん（プランAの「無料お試し」を利用してから、プランCを申し込んで、計20枚借りた。）"
+                  ],
+                  "correctAnswer": 1,
+                  "explanation": "<b>Phân tích chi phí trong 2 tháng (tháng 1 dùng thử = 0円 nếu chọn A hoặc B):</b><br>• 1. 春子さん: Tháng 1 dùng thử A (0円) + Tháng 2 gói A (1,940円) = 1,940円 / 20 đĩa = <b>97円/đĩa</b>.<br>• 2. 夏子さん: Tháng 1 dùng thử B (0円) + Tháng 2 gói B (1,600円) = 1,600円 / 16 đĩa = <b>100円/đĩa</b>.<br>• 3. 秋子さん: C không có dùng thử → 2 tháng × 1,000円 = 2,000円 / 10 đĩa = <b>200円/đĩa</b>.<br>• 4. 冬子さん: Đổi sang C (tối đa 5 đĩa/tháng).<br><b>Đáp án 1:</b> 春子さん (97円/đĩa, rẻ nhất).",
+                  "passage": "DULA ネットDVDレンタルサービス\n\n● ネットDVDレンタルサービスとは？\nDULA ネットDVDレンタルサービスは、観たいDVDをお客様のご希望の住所まですぐお届けします。「入会金無料、送料無料、貸出期間は自由」のDULAレンタルサービスにぜひご入会ください！\n\n● 利用のしかた\n1 ホームページで会員登録し、入会（その際にプランを選択）\n2 ご希望のDVDを注文リストに登録\n3 DVDを郵送\n4 ご視聴されたDVDをポストに返却\n\n● 使い方に合わせて選べる3つのプラン\n・プランA：利用料金(1か月) 1940円 ／ 無料お試し期間 入会日から1か月 ／ レンタル枚数(1か月) 借り放題\n・プランB：利用料金(1か月) 1600円 ／ 無料お試し期間 入会日から1か月 ／ レンタル枚数(1か月) 10枚まで\n・プランC：利用料金(1か月) 1000円 ／ 無料お試し期間 なし ／ レンタル枚数(1か月) 5枚まで\n\n● 「無料お試し」とは？\n次の手順で無料お試しがご利用可能です。（登録はインターネットでその場ですぐ完了します）\n1 ホームページで会員登録し、入会（その際にプランを選択）\n2 「無料お試し」登録\n3 「無料お試し」スタート\n\n＊無料お試しが必要ない方は、プラン選択をしたのち、無料お試し登録をせずに、ご希望のDVDを注文してください。\n＊無料お試し期間中に退会手続きをされた場合は、料金はかかりません。\n＊無料お試し期間終了後、手続きなしで自動的に選択されたプランをご利用いただけます。\n＊レンタルプランCの場合は、無料お試しなしで、登録完了後、有料にてレンタル開始となります。\n＊無料お試しのご利用は1回に限らせていただきます（再度入会されても、以前に無料お試しをご利用されたことがある場合は、再度無料お試しを利用することはできません）。"
         }
       ]
     },
