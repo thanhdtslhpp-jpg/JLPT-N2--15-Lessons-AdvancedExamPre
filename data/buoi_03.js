@@ -1198,6 +1198,728 @@ window.JLPT_DATA[3] = {
       ]
     },
     {
+      "id": "super_tv",
+      "name": "Chuyên Đề Super Từ Vựng N2 (Đề Số 1) - 32 Câu",
+      "icon": "fa-book",
+      "questions": [
+        {
+          "id": 87,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "この<ruby>事故<rt>じこ</rt></ruby>は、会社の信用に<ruby>係<rt>______</rt></ruby>わる問題だ。",
+          "targetWord": "係わる",
+          "options": [
+            "そなわる",
+            "かかわる",
+            "たずさわる",
+            "つたわる"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>係わる（かかわる）</b>: liên quan đến, ảnh hưởng đến.<br><b>Dịch nghĩa:</b> Sự cố này là vấn đề liên quan đến uy tín của công ty."
+        },
+        {
+          "id": 88,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "この本を読んだ感想を、簡単に<ruby>述<rt>______</rt></ruby>べなさい。",
+          "targetWord": "述べる",
+          "options": [
+            "くらべなさい",
+            "しらべなさい",
+            "のべなさい",
+            "むべなさい"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>述べる（のべる）</b>: trình bày, phát biểu, nêu lên.<br><b>Dịch nghĩa:</b> Hãy trình bày ngắn gọn cảm tưởng sau khi đọc cuốn sách này."
+        },
+        {
+          "id": 89,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "雨が急に強くなってきた。<ruby>大型<rt>______</rt></ruby>の台風が近づいているそうだ。",
+          "targetWord": "大型",
+          "options": [
+            "おうけい",
+            "おがた",
+            "おおかた",
+            "おおがた"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>大型（おおがた）</b>: cỡ lớn, quy mô lớn.<br><b>Dịch nghĩa:</b> Mưa đột nhiên nặng hạt lên. Nghe nói một cơn bão lớn đang tiến gần."
+        },
+        {
+          "id": 90,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "<ruby>郊外<rt>______</rt></ruby>に住んでいるので、毎日５時に起きて通勤している。",
+          "targetWord": "郊外",
+          "options": [
+            "いなか",
+            "かいがい",
+            "こうがい",
+            "とがい"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>郊外（こうがい）</b>: ngoại ô, vùng ven thành phố.<br><b>Dịch nghĩa:</b> Vì sống ở ngoại ô nên mỗi ngày tôi đều dậy lúc 5 giờ để đi làm."
+        },
+        {
+          "id": 91,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
+          "sentence": "日曜日のスーパーは、いつも買い物客で<ruby>混雑<rt>______</rt></ruby>している。",
+          "targetWord": "混雑",
+          "options": [
+            "こんざつ",
+            "こんわく",
+            "こんらん",
+            "ふくざつ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>混雑（こんざつ）</b>: đông đúc, chen chúc, tắc nghẽn.<br><b>Dịch nghĩa:</b> Siêu thị vào Chủ nhật lúc nào cũng đông nghẹt khách mua sắm."
+        },
+        {
+          "id": 92,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "今回の会議では、日本経済の現状と<u>しょうらい</u>について考えたい。",
+          "targetWord": "しょうらい",
+          "options": [
+            "奨来",
+            "将来",
+            "未来",
+            "生来"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>将来（しょうらい）</b>: tương lai (thường nói về tương lai gần, gắn với hiện tại).<br><b>Dịch nghĩa:</b> Trong cuộc họp lần này, tôi muốn suy nghĩ về hiện trạng và tương lai của kinh tế Nhật Bản."
+        },
+        {
+          "id": 93,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "日本に留学して１年<u>たち</u>、やっと日本の気候に慣れてきた。",
+          "targetWord": "たち",
+          "options": [
+            "立ち",
+            "達ち",
+            "経ち",
+            "発ち"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>経つ（たつ）</b>: (thời gian) trôi qua.<br><b>Dịch nghĩa:</b> Du học ở Nhật được 1 năm trôi qua, cuối cùng tôi cũng đã quen với khí hậu Nhật Bản."
+        },
+        {
+          "id": 94,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "先生に<u>おこられた</u>のが刺激になり、その後、彼はまじめに勉強している。",
+          "targetWord": "おこられた",
+          "options": [
+            "怒られた",
+            "叱られた",
+            "起られた",
+            "測られた"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>怒る（おこる）</b>: tức giận, nổi giận (bị động: 怒られた). Lưu ý 叱る đọc là しかる.<br><b>Dịch nghĩa:</b> Việc bị thầy giáo nổi giận đã trở thành động lực, sau đó cậu ấy học hành nghiêm túc hẳn."
+        },
+        {
+          "id": 95,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "インターネットを使うと、多くの<u>じょうほう</u>を集めることができる。",
+          "targetWord": "じょうほう",
+          "options": [
+            "状況",
+            "条報",
+            "情況",
+            "情報"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>情報（じょうほう）</b>: thông tin.<br><b>Dịch nghĩa:</b> Nếu sử dụng Internet, có thể thu thập được nhiều thông tin."
+        },
+        {
+          "id": 96,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
+          "sentence": "物と物を交換することが、後のお金による<u>ばいばい</u>につながった。",
+          "targetWord": "ばいばい",
+          "options": [
+            "売買",
+            "買売",
+            "販売",
+            "購買"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>売買（ばいばい）</b>: việc mua bán.<br><b>Dịch nghĩa:</b> Việc trao đổi hàng hóa với nhau đã dẫn đến việc mua bán bằng tiền bạc sau này."
+        },
+        {
+          "id": 97,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "飲み終わったジュースの缶を、車の窓から投げ（　　）はいけない。",
+          "options": [
+            "返して",
+            "かけて",
+            "すてて",
+            "あたえて"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>投げ捨てる（なげすてる）</b>: ném bỏ, vứt bừa bãi.<br><b>Dịch nghĩa:</b> Không được vứt lon nước ngọt đã uống hết ra ngoài cửa sổ ô tô."
+        },
+        {
+          "id": 98,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "たまごに牛乳とさとうを加えて、よくかき（　　）からフライパンで焼いてください。",
+          "options": [
+            "まぜて",
+            "あわせて",
+            "きって",
+            "こんで"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>かき混ぜる（かきまぜる）</b>: khuấy đều, trộn đều.<br><b>Dịch nghĩa:</b> Hãy cho sữa và đường vào trứng, khuấy đều rồi rán trên chảo."
+        },
+        {
+          "id": 99,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "この仕事は、責任（　　）のある田中さんに頼もうと思っている。",
+          "options": [
+            "性",
+            "的",
+            "心",
+            "感"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>責任感（せきにんかん）</b>: tinh thần trách nhiệm.<br><b>Dịch nghĩa:</b> Công việc này tôi định nhờ anh Tanaka, người có tinh thần trách nhiệm."
+        },
+        {
+          "id": 100,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "彼は、私が電車に置き忘れたかさを持って、追い（　　）きてくれた。",
+          "options": [
+            "かけて",
+            "こして",
+            "だして",
+            "はらって"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>追いかける（おいかける）</b>: đuổi theo, chạy theo.<br><b>Dịch nghĩa:</b> Anh ấy đã cầm chiếc ô tôi để quên trên tàu chạy đuổi theo đưa cho tôi."
+        },
+        {
+          "id": 101,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Cấu tạo từ)",
+          "sentence": "日本では、20歳になっていない（　　）青年は、お酒を飲んではいけないことになっている。",
+          "options": [
+            "不",
+            "未",
+            "非",
+            "前"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>未成年（みせいねん）</b>: vị thành niên (chưa đủ tuổi trưởng thành).<br><b>Dịch nghĩa:</b> Ở Nhật Bản, người vị thành niên chưa đủ 20 tuổi thì quy định không được uống rượu."
+        },
+        {
+          "id": 102,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "彼は私たちの<ruby>敵<rt>てき</rt></ruby>なのか（　　）なのか、まだよくわからない。",
+          "options": [
+            "協力",
+            "味方",
+            "同様",
+            "助手"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>味方（みかた）</b>: đồng minh, phe ta (trái nghĩa với 敵: kẻ thù).<br><b>Dịch nghĩa:</b> Vẫn chưa rõ anh ta là kẻ thù hay là đồng minh của chúng ta."
+        },
+        {
+          "id": 103,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "彼は、親の期待に（　　）学者になった。",
+          "options": [
+            "あわせて",
+            "そなえて",
+            "こたえて",
+            "きいて"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>期待に応える（きたいにこたえる）</b>: đáp lại sự kỳ vọng.<br><b>Dịch nghĩa:</b> Anh ấy đã đáp lại sự kỳ vọng của bố mẹ và trở thành học giả."
+        },
+        {
+          "id": 104,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "箱の中には、おいしそうなチョコレートが（　　）つまっていた。",
+          "options": [
+            "ぎっしり",
+            "さっぱり",
+            "きっぱり",
+            "きっかり"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>ぎっしり</b>: chật ních, đầy ắp.<br><b>Dịch nghĩa:</b> Trong hộp chất đầy sô-cô-la trông rất ngon."
+        },
+        {
+          "id": 105,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "休日にボランティア活動をすることで、少しでも社会（　　）したいと考えている。",
+          "options": [
+            "貢献",
+            "効果",
+            "工夫",
+            "支障"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>社会貢献（しゃかいこうけん）</b>: cống hiến cho xã hội.<br><b>Dịch nghĩa:</b> Tôi nghĩ rằng bằng việc hoạt động tình nguyện vào ngày nghỉ, mình muốn cống hiến dù chỉ một chút cho xã hội."
+        },
+        {
+          "id": 106,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "駅からうちまでの道は、（　　）坂になっている。",
+          "options": [
+            "おだやかな",
+            "なだらかな",
+            "だらしない",
+            "くだらない"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>なだらかな</b>: thoai thoải, dốc nhẹ.<br><b>Dịch nghĩa:</b> Con đường từ ga về đến nhà tôi là một con dốc thoai thoải."
+        },
+        {
+          "id": 107,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "ほかのものと（　　）するために、田中さんへのプレゼントには赤いリボンがつけてあります。",
+          "options": [
+            "差別",
+            "種別",
+            "分別",
+            "区別"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>区別する（くべつする）</b>: phân biệt.<br><b>Dịch nghĩa:</b> Để phân biệt với những món khác, trên món quà tặng anh Tanaka có gắn ruy-băng đỏ."
+        },
+        {
+          "id": 108,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Chọn từ theo ngữ cảnh)",
+          "sentence": "毎日（　　）風景が、今日はなぜか<ruby>新鮮<rt>しんせん</rt></ruby>に見える。",
+          "options": [
+            "みつめた",
+            "みつけた",
+            "みとめた",
+            "みなれた"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>見慣れる（みなれる）</b>: nhìn quen mắt.<br><b>Dịch nghĩa:</b> Khung cảnh quen thuộc nhìn mỗi ngày, hôm nay không hiểu sao lại trông thật tươi mới."
+        },
+        {
+          "id": 109,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "警官は、<u>ただちに</u>自動車事故の現場にかけつけた。",
+          "targetWord": "ただちに",
+          "options": [
+            "あとで",
+            "おそく",
+            "まえに",
+            "すぐに"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>ただちに ＝ すぐに</b>: ngay lập tức.<br><b>Dịch nghĩa:</b> Cảnh sát đã lập tức chạy đến hiện trường vụ tai nạn ô tô."
+        },
+        {
+          "id": 110,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "新しい機械を<u>用いて</u>、仕事の<ruby>効率<rt>こうりつ</rt></ruby>をあげよう。",
+          "targetWord": "用いて",
+          "options": [
+            "使って",
+            "買って",
+            "借りて",
+            "作って"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>用いる（もちいる） ＝ 使う（つかう）</b>: sử dụng, dùng.<br><b>Dịch nghĩa:</b> Hãy sử dụng máy móc mới để nâng cao hiệu suất công việc."
+        },
+        {
+          "id": 111,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "留学をしようと思っているのだが、まだいくつかの理由で<u>ためらっている</u>。",
+          "targetWord": "ためらっている",
+          "options": [
+            "断って",
+            "迷って",
+            "数えて",
+            "あげて"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>ためらう ＝ 迷う（まよう）</b>: do dự, lưỡng lự.<br><b>Dịch nghĩa:</b> Tôi đang nghĩ đến việc đi du học nhưng vẫn còn đang do dự vì một vài lý do."
+        },
+        {
+          "id": 112,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "駅へ行く途中で、<u>ばったり</u>先生と会った。",
+          "targetWord": "ばったり",
+          "options": [
+            "急に",
+            "つい",
+            "ふと",
+            "偶然"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>ばったり ＝ 偶然（ぐうぜん）</b>: tình cờ, bất ngờ gặp.<br><b>Dịch nghĩa:</b> Trên đường ra ga, tôi tình cờ gặp thầy giáo."
+        },
+        {
+          "id": 113,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Từ đồng nghĩa)",
+          "sentence": "一目会いたくて急いでかけつけたが、彼女の乗った飛行機は、<u>すでに</u><ruby>離陸<rt>りりく</rt></ruby>していた。",
+          "targetWord": "すでに",
+          "options": [
+            "まだ",
+            "すぐ",
+            "もう",
+            "もうすぐ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>すでに ＝ もう</b>: đã rồi.<br><b>Dịch nghĩa:</b> Vì muốn gặp mặt một lần nên tôi vội vã chạy đến, nhưng chiếc máy bay cô ấy đi đã cất cánh mất rồi."
+        },
+        {
+          "id": 114,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>こっそり</b>",
+          "targetWord": "こっそり",
+          "options": [
+            "言いたいことは大きな声でこっそり言わないと、分からないよ。",
+            "テニスをして汗をかいたので、シャワーを浴びてこっそりした。",
+            "素敵な色のくつですね。その色は、あなたにこっそりですね。",
+            "遅刻してしまったので、教室の後ろのドアからこっそり中に入った。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>こっそり</b>: lén lút, nhẹ nhàng không để ai biết.<br><b>Dịch câu đúng (4):</b> Vì bị trễ giờ nên tôi đã lén đi vào từ cửa sau của lớp học."
+        },
+        {
+          "id": 115,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>せまる</b>",
+          "targetWord": "せまる",
+          "options": [
+            "線路にせまってずっと行くと、右側に大きな図書館が見えてきます。",
+            "試験が１週間後にせまったので、毎日遅くまで勉強している。",
+            "がまんも限界にせまったので、とうとう怒りが爆発してしまった。",
+            "今日は一人も休まずせまって参加できたので、よかったと思う。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>迫る（せまる）</b>: đến gần, cận kề (thời hạn, kỳ thi...). Lưu ý câu 3 dùng 限界に達する/限界に来る mới tự nhiên.<br><b>Dịch câu đúng (2):</b> Vì kỳ thi chỉ còn cách 1 tuần nữa nên mỗi ngày tôi đều học đến khuya."
+        },
+        {
+          "id": 116,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>ざっと</b>",
+          "targetWord": "ざっと",
+          "options": [
+            "毎朝、コーヒーを飲みながら、新聞にざっと目を通す。",
+            "カギがかかっていなかったので、ドアをざっと押してみた。",
+            "本の発売と同時にざっと注文がきたため、社内は大忙しだ。",
+            "昨日の授業中、初めて、となりの人にざっと話しかけてみた。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>ざっと</b>: qua loa, sơ qua (ざっと目を通す: đọc lướt qua).<br><b>Dịch câu đúng (1):</b> Mỗi sáng vừa uống cà phê tôi vừa đọc lướt qua tờ báo."
+        },
+        {
+          "id": 117,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b><ruby>普及<rt>ふきゅう</rt></ruby></b>",
+          "targetWord": "普及",
+          "options": [
+            "普及の力を出せば、この試合には必ず勝てるだろう。",
+            "現在、車は一家に１台に近い割合で普及している。",
+            "時間はたくさんあるから、普及によく考えてください。",
+            "テレビやゲームが子供に与える普及は、はかりしれない。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>普及（ふきゅう）</b>: phổ cập, phổ biến rộng rãi.<br><b>Dịch câu đúng (2):</b> Hiện nay, ô tô đang phổ biến với tỷ lệ gần như mỗi nhà một chiếc."
+        },
+        {
+          "id": 118,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Cách dùng từ)",
+          "sentence": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。<br><b>なんとなく</b>",
+          "targetWord": "なんとなく",
+          "options": [
+            "なんとなく外の空気が吸いたくなって、散歩に出た。",
+            "合格かどうかはまだなんとなく言えないのは、残念だ。",
+            "できるかどうかわからないが、なんとなくやってみよう。",
+            "なんとなく困った事態を招いてしまったが、どうしよう。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>なんとなく</b>: chẳng hiểu sao, mơ hồ cảm thấy, tự nhiên thấy.<br><b>Dịch câu đúng (1):</b> Tự nhiên tôi thấy muốn hít thở không khí bên ngoài nên đã đi dạo."
+        }
+      ]
+    },
+    {
+      "id": "thumail_practice",
+      "name": "Chuyên Đề Thư, Mail, Thông Báo & TKTT (2023–2025) - 16 Câu",
+      "icon": "fa-envelope-open-text",
+      "questions": [
+        {
+          "id": 119,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Tìm kiếm thông tin - 12.2023)",
+          "passage": "<b>着物レンタル はなかわ — 着物レンタルのご案内</b><br>着物を着て水森市を観光しませんか。「はなかわ」では、山林店、古寺店、森島店の三つの店で、レンタルの着物をご用意しております。<br><br><b>＜着物レンタルの流れ＞</b><br>① ご利用になりたい店に電話でご予約ください。<br>② ご予約の日時にご来店になり、お好きな着物にお着替えください。必要な方には無料でお手伝いいたします。<br>③ お支払いのあと、着物で観光をお楽しみください。<br>④ 各店の最終返却時間までに借りた店に戻り、当日中に着物をご返却ください（翌日返却も可能です。ご希望の方は、＜翌日返却について＞をお読みください）。<br><br><b>＜料金（1名様）＞</b><br>基本料金：3,500円<br><br><b>＜割引について＞</b><br>・早期予約割引：1週間前までのご予約で基本料金から300円割引します。<br>・学生割引：学生の方は基本料金から200円割引します。<br>※早期予約割引を使う場合は、学生割引は使えません。<br><br><b>＜お持ちになる物＞</b><br>特にありません。はき物などもセットでお貸しします。<br><br><b>＜翌日返却について＞</b><br>▶ ご予約時の申し込み：1,200円の翌日返却料金で、返却時間を翌日の正午までに延長できます。<br>▶ ご来店時の申し込み、またはお出かけ後の変更：翌日返却料金は1,500円になります。お出かけ後の変更の場合は、借りた日の最終返却時間までに借りた店にお電話ください。翌日返却料金は、返却の際にお支払いください。<br>※返却が翌日の正午を過ぎる場合、追加料金1,000円をいただきます。その後は、1日遅れるごとに3,000円を請求いたします。<br><br><b>＜各店の営業・返却時間＞</b><br>・山林店、古寺店：営業開始 9時 ／ 最終返却時間 18時30分<br>・森島店：営業開始 9時 ／ 最終返却時間 18時",
+          "questionText": "大学生のリンさんは、2週間後の日曜日に山林店で着物をレンタルしたいと思っている。着物は当日中に返却する予定だ。今日、予約をする場合、料金はいくらになるか。",
+          "options": [
+            "3,500円",
+            "3,500円から200円が割引された金額",
+            "3,500円から300円が割引された金額",
+            "3,500円から200円と300円が割引された金額"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch câu hỏi:</b> Bạn Rin là sinh viên đại học, muốn thuê kimono ở tiệm Sanrin vào Chủ nhật 2 tuần sau và trả trong ngày. Nếu đặt hôm nay thì giá sẽ là bao nhiêu?<br><b>Phân tích:</b> Đặt trước 2 tuần (trước hơn 1 tuần) nên được áp dụng 早期予約割引 (giảm 300 yên). Tuy nhiên, mục lưu ý ghi rõ: <i>「※早期予約割引を使う場合は、学生割引は使えません。」</i> (Khi dùng giảm giá đặt sớm thì không được dùng giảm giá sinh viên). Vậy chỉ được giảm 300 yên &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 120,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Tìm kiếm thông tin - 12.2023)",
+          "passage": "（上の「着物レンタル はなかわ」の案内を参照）",
+          "questionText": "ローザさんは、今日、森島店で着物を借りた。当日中に返却する予定だったが、店を出たあとで翌日返却に変更したくなった。今は14時である。明日の午前中に返却する場合、どうすればいいか。",
+          "options": [
+            "今日の18時までに森島店に電話をして、返却の際に1,200円を支払う。",
+            "今日の18時までに森島店に電話をして、返却の際に1,500円を支払う。",
+            "今日の18時までに森島店に電話をして、返却の際に1,500円と1,000円を支払う。",
+            "今日の18時30分までに森島店に電話をして、返却の際に1,500円を支払う。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch câu hỏi:</b> Chị Rosa hôm nay thuê kimono tại tiệm Morishima. Dự định trả trong ngày nhưng sau khi ra khỏi tiệm lại muốn đổi sang trả ngày hôm sau (buổi sáng). Giờ là 14h, chị ấy cần làm gì?<br><b>Phân tích:</b> Đổi sau khi rời tiệm thuộc mục 「お出かけ後の変更」: phí trả hôm sau là 1,500 yên (trả khi hoàn trả đồ), và phải gọi điện báo cho tiệm đã thuê trước giờ trả cuối cùng trong ngày. Giờ trả cuối của tiệm Morishima là 18時. Trả vào buổi sáng hôm sau (trước 12h trưa) nên không mất phí phạt 1,000 yên &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 121,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・メール (Thư, Mail - 12.2023)",
+          "passage": "以下は、ある会社で全社員に送られたメールである。<br><br>社員各位<br><br>わが社の人気商品「緑山牧場チーズ詰め合わせ」を、定価の30%引き（割引後3,500円）で社員向けに特別販売します。<br>購入希望者は、添付の申込書にお名前と購入数をご記入のうえ、3月9日までに営業課までメールでお申し込みください。通常、社内販売の支払いと商品のお渡しは経理課で行っていますが、今回は営業課で行います。代金と引き換えに、その場で商品をお渡しします。お渡し期間は3月16日から19日の間です。<br>以上、よろしくお願いします。<br><br>添付ファイル：3月1日「緑山牧場チーズ詰め合わせ」申込書<br>営業課 安井",
+          "questionText": "「緑山牧場チーズ詰め合わせ」を社内販売で購入したい社員は、期日までに営業課にメールで申し込んだあと、どうすればいいか。",
+          "options": [
+            "経理課で支払いをして受け取る。",
+            "経理課で支払いをして、営業課で受け取る。",
+            "営業課で支払いをして受け取る。",
+            "営業課で支払いをして、経理課で受け取る。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Thông báo bán ưu đãi cho nhân viên set phô mai. Bình thường việc thanh toán và giao hàng do phòng Kế toán (経理課) phụ trách, nhưng lần này sẽ thực hiện tại phòng Kinh doanh (営業課). Giao hàng tại chỗ ngay khi thanh toán.<br><b>Phân tích:</b> Vậy sau khi đăng ký qua email, nhân viên sẽ thanh toán và nhận hàng tại 営業課 &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 122,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・お知らせ (Thông báo - 12.2023)",
+          "passage": "以下は、ある町の掲示板に貼られていた文書である。<br><br>10月5日<br>住民の皆様へ<br><b>ごみに関するお願い</b><br><br>最近、「可燃ごみ」の回収日に衣類・布類が多く出されています。しかし、市の規則では、衣類・布類は毎週火曜日の「資源ごみ」の回収日に出すことになっています。資源を有効に活用するため、決められた回収日に出してください。<br>衣類・布類は、市内8か所の公共施設に設置してある回収ボックスでも回収しています。回収後は、中古の衣類として再使用したり、工場で再利用したりします。ご協力をよろしくお願いします。<br><br>竹川市役所 市民生活課",
+          "questionText": "この文書で最も伝えたいことは何か。",
+          "options": [
+            "「資源ごみ」として出す衣類・布類の量を減らしてほしい。",
+            "「資源ごみ」の回収日に「可燃ごみ」を出さないでほしい。",
+            "衣類・布類は、「資源ごみ」の回収日に出してほしい。",
+            "衣類・布類は、新しく設置した回収ボックスに出してほしい。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Gần đây quần áo, vải vóc hay bị vứt vào ngày thu gom rác cháy được (可燃ごみ). Tuy nhiên theo quy định của thành phố, quần áo và vải vóc phải vứt vào ngày thu gom rác tài nguyên (資源ごみ) thứ Ba hàng tuần.<br><b>Phân tích:</b> Nội dung trọng tâm văn bản muốn truyền đạt là hãy bỏ quần áo, vải vóc vào đúng ngày thu gom rác tài nguyên &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 123,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・メール (Thư, Mail - 12.2024)",
+          "passage": "以下は、ある不動産管理会社に届いたメールである。<br><br>らくらくルーム社 青寺店<br>森田様<br><br>花西マンション302号室に入居予定の木村です。<br>引っ越し当日の3月20日の金曜日、午前中に貴店で新居の鍵を受け取る約束でしたが、荷物が10時に到着することになりました。そのため、前日19日の午後に鍵を受け取りたいと思いホームページを確認したところ、貴店は木曜日が定休日でした。<br>鍵の受け取り日が定休日の場合は、ほかの支店で受け取れると書いてありましたので、仕事の帰りに中央駅前店に寄りたいと思いますが、鍵を受け取ることは可能でしょうか。<br>お返事をお待ちしております。<br><br>木村ゆり",
+          "questionText": "新居の鍵について、木村さんが問い合わせていることは何か。",
+          "options": [
+            "3月19日の午後に青寺店で受け取れるか。",
+            "3月19日の午後に中央駅前店で受け取れるか。",
+            "3月20日の午前中に青寺店で受け取れるか。",
+            "3月20日の午前中に中央駅前店で受け取れるか。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> Chị Kimura hẹn nhận chìa khóa sáng 20/3 (thứ 6) tại chi nhánh Aodera, nhưng đồ đạc đến lúc 10h nên muốn nhận trước vào chiều ngày 19/3 (thứ 5). Vì chi nhánh Aodera nghỉ thứ 5 nên chị hỏi xem chiều 19/3 có thể nhận chìa khóa ở chi nhánh Chuo Ekimae trên đường đi làm về được không.<br><b>Phân tích:</b> Câu hỏi trọng tâm của email là liệu có thể nhận ở chi nhánh Chuo Ekimae vào chiều 19/3 hay không &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 124,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・社内文書 (Văn bản nội bộ - 12.2024)",
+          "passage": "以下は、ある会社の社内文書である。<br><br>10月15日<br>担当者各位<br>商品管理部長<br><br><b>納品時の確認について</b><br><br>先週千川営業所で、注文とは違う商品を納品するというミスが発生しました。原因を調査したところ、当日、納品が重なったため、商品配送時の最終確認をしていなかったとのことです。<br>最終確認では、倉庫から商品を取り出した人とは別の人が、注文書と商品の内容・個数に間違いがないか確認することになっています。<br>どんな状況でもミスが起こらないように確認を徹底してください。<br>よろしくお願いします。<br>以上",
+          "questionText": "社員が求められていることは何か。",
+          "options": [
+            "ミスが起きた原因を調べ直すこと",
+            "最終確認をする人数を増やすこと",
+            "今までの最終確認の方法を見直すこと",
+            "決められている最終確認の方法を守ること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch bài:</b> Tuần trước xảy ra lỗi giao nhầm hàng do không thực hiện kiểm tra cuối cùng (最終確認). Theo quy định, người kiểm tra cuối phải là người khác với người lấy hàng từ kho, đối chiếu đơn hàng với nội dung/số lượng. Hãy thực hiện triệt để việc kiểm tra để không xảy ra lỗi trong bất kỳ tình huống nào.<br><b>Phân tích:</b> Nhân viên được yêu cầu tuân thủ đúng phương pháp kiểm tra cuối đã được quy định sẵn &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 125,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・お知らせ (Thông báo - 12.2025)",
+          "passage": "以下は、マンションの駐輪場に貼られていたお知らせである。<br><br>9月1日<br>マンション森村ご入居の皆様<br>マンション森村管理会社<br><br><b>自転車の移動について</b><br><br>現在、長期間使われていない自転車が多く、駐輪場が使いにくくなっております。そのため、これらの自転車を市の不要自転車置き場に移動することにします。<br>9月8日から駐輪場のすべての自転車に目印の紙をつけておきますので、ご使用中のものは、30日までにご自身でその紙を外してください。10月1日以降に紙が残っているものは、移動します。<br>移動後の自転車の返却には対応できません。ご理解をお願いいたします。<br>どうぞよろしくお願いいたします。<br><br>問い合わせ先：038-359-8688（担当：黒田）<br>島本洋太",
+          "questionText": "このお知らせで伝えたいことは何か。",
+          "options": [
+            "自転車がまだ使用中であれば、9月30日までに紙の印を外してほしい。",
+            "自転車がまだ使用中であれば、10月1日以降に紙の印を外してほしい。",
+            "捨ててもいい自転車であれば、9月30日までに紙の印をつけてほしい。",
+            "捨ててもいい自転車であれば、9月30日までに紙の印を外してほしい。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch bài:</b> Từ 8/9 sẽ dán giấy đánh dấu lên tất cả xe đạp ở bãi đỗ. Xe nào đang sử dụng thì tự gỡ giấy ra trước ngày 30/9. Xe nào từ 1/10 trở đi vẫn còn giấy sẽ bị di dời.<br><b>Phân tích:</b> Điều thông báo muốn truyền đạt là nếu xe vẫn đang dùng thì hãy gỡ giấy đánh dấu trước ngày 30/9 &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 126,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・メール (Thư, Mail - 12.2025)",
+          "passage": "以下は、ある会社の販売担当者に届いたメールである。<br><br>セカノ株式会社<br>販売課 若村健次様<br><br>いつもお世話になっております。<br>11月10日に納品していただくコピー機の見積もり書を受け取りました。<br>内容を確認しましたところ、商品代金とは別に設置費用が含まれています。<br>11月中は設置費用が無料となるサービス期間のため、支払いは必要なかったのではないでしょうか。ご確認のうえ電話かメールで至急ご連絡いただきたく、お願いいたします。<br>コピー機の納品は予定どおりお願いいたします。<br><br>春下商事<br>営業課 月島良子<br>ryoko_tsukishimayuukibui@harushita.co.jp",
+          "questionText": "このメールで問い合わせていることは何か。",
+          "options": [
+            "11月10日にコピー機を納品できるかどうか。",
+            "サービス期間はいつ終了するのか。",
+            "設置費用を支払う必要があるかどうか。",
+            "商品代金について、いつ連絡をもらえるのか。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Dịch bài:</b> Tôi đã nhận báo giá máy photocopy giao ngày 10/11. Trong báo giá thấy có tính thêm phí lắp đặt (設置費用) ngoài tiền hàng. Vì trong tháng 11 đang là thời gian miễn phí lắp đặt nên chẳng phải không cần trả khoản này hay sao?<br><b>Phân tích:</b> Email hỏi xem có cần phải trả phí lắp đặt hay không &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 127,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・お知らせ (Thông báo - 07.2024)",
+          "passage": "以下は、ある鉄道会社がホームページに掲載したお知らせである。<br><br>トップ＞お知らせ＞定期システム点検実施のお知らせ<br><b>6月の定期システム点検実施のお知らせ</b><br><br>いつも北坂鉄道をご利用いただきまして、ありがとうございます。<br>当社では情報管理システムの安全性向上のため、第4土曜日の夜間にシステム点検を実施しております。<br>今月の作業は6月23日（土）午前2時から4時までとなります。この間は、予約システムを休止いたします。インターネットでの特急券予約がご利用いただけなくなりますのでご注意ください。なお、ホームページ内の時刻表や運賃表は通常どおり閲覧が可能です。<br>ご不便をおかけいたしますが、ご理解くださいますようお願い申し上げます。<br><br>北坂鉄道株式会社",
+          "questionText": "このお知らせで伝えたいことは何か。",
+          "options": [
+            "6月23日の午前2時から4時までは、インターネットで特急券が予約できない。",
+            "6月23日の午前2時から4時までは、ホームページで時刻表や運賃表が見られない。",
+            "6月23日の午前4時以降 インターネットで特急券が予約できるようになる。",
+            "6月23日の午前4時以降、ホームページで時刻表や運賃表が見られるようになる。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Dịch bài:</b> Từ 2h đến 4h sáng thứ Bảy 23/6 sẽ bảo trì hệ thống. Trong khoảng thời gian này sẽ tạm ngưng hệ thống đặt vé tàu tốc hành qua mạng. Bảng giờ tàu và bảng giá vé vẫn xem bình thường.<br><b>Phân tích:</b> Điều thông báo muốn truyền đạt là từ 2h–4h sáng ngày 23/6 không thể đặt vé tàu tốc hành qua mạng &rarr; <b>Đáp án 1</b>."
+        },
+        {
+          "id": 128,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・メール (Thư, Mail - 07.2024)",
+          "passage": "以下は、ある会社に届いたメールである。<br><br>コイノ株式会社<br>営業部 島川英一様<br><br>お世話になっております。JC文具の池西です。<br>昨日、商品「軽量ホチキス cx35」の見本が2個届きました。機能性とシンプルなデザインは社内で評価が高く、取り扱い商品に加える方向で検討を進めております。<br>同封されていた最新のカタログによると、来月から新色として3色が追加で発売され、全部で5色になるとのことですので、新色の見本も送付していただけないでしょうか。代金が必要な場合は、お支払いします。<br>取り扱うことが正式に決定しましたら、まずは5色を20個ずつ注文する予定です。<br>よろしくお願いいたします。<br><br>JC文具<br>池西秋子 ikenshi_a@jcbungu.yuukibui.co.jp",
+          "questionText": "このメールの用件は何か。",
+          "options": [
+            "見本として5色すべての商品を送ってほしい。",
+            "見本として新色の3個を追加で送ってほしい。",
+            "見本の代金としていくら支払えばいいか教えてほしい。",
+            "商品5色を20個ずつ注文できるかどうか教えてほしい。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Dịch bài:</b> Hôm qua tôi đã nhận 2 mẫu dập ghim. Theo catalog mới nhất, từ tháng sau sẽ ra mắt thêm 3 màu mới (tổng thành 5 màu), nên xin hãy gửi thêm cho tôi mẫu của 3 màu mới đó nữa.<br><b>Phân tích:</b> Mục đích chính của email là nhờ gửi bổ sung 3 mẫu màu mới &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 129,
+          "mondai": 12,
+          "mondaiName": "問題12：統合理解 (Đọc hiểu so sánh A - B - 07.2025)",
+          "passage": "<b>【文章 A】</b><br>私はスポーツを観戦するのが好きだ。レベルの高いプレーが見られるのも魅力の一つだが、選手と感情を共有できるというのが最大の魅力だ。応援したチームや選手が勝てばうれしいと感じ、選手がミスをしたときは悔しいと感じる。必死に戦う選手の姿を見ていると、まるで自分が選手と一緒にその場にいてプレーしているかのような感覚になるのだ。<br>スポーツ観戦に興味がないと言う人の中には、ルールを知らないから試合が理解できず楽しめないと思い込んでいる人もいるようだ。しかし、私は、知らなくても十分楽しめると思う。ルールのことは気にせず、気軽にスポーツ観戦を楽しんでほしい。<br><br><b>【文章 B】</b><br>スポーツを観戦する魅力とは何だろうか。試合の結果がどうなるかわからない状況を見ていて味わう緊張感だと言う人がいる。確かに試合中は予期しないことが起こるので、最後まで勝敗が予想できず、はらはらどきどきするというのも魅力の一つだ。だが、私が感じる魅力は、選手と同じように喜んだり悔しく思ったりできることだ。点が入ったり奪われたりするシーンだけでなく、試合を見ていると、選手と同様の心理や感情になってくる。このような体験をするには、ルールを理解しておくといい。チームや選手の戦略が分かるからだ。細かいルールをすべて知っている必要はないが、試合が理解できる程度の知識があれば、スポーツ観戦の魅力が分かるだろう。",
+          "questionText": "スポーツ観戦の魅力について、AとBが共通して述べていることはどれか。",
+          "options": [
+            "選手の高度なプレーが見られること。",
+            "選手と同じ気持ちになれること。",
+            "応援したチームや選手が勝つこと。",
+            "緊張感が味わえること。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Phân tích:</b> Bài A viết: 「選手と感情を共有できるというのが最大の魅力だ」 (có thể chia sẻ cảm xúc cùng vận động viên). Bài B viết: 「私が感じる魅力は、選手と同じように喜んだり悔しく思ったりできることだ」 (vui buồn cùng với vận động viên). Cả hai đều đồng tình sức hấp dẫn là có thể cùng chung cảm xúc với vận động viên &rarr; <b>Đáp án 2</b>."
+        },
+        {
+          "id": 130,
+          "mondai": 12,
+          "mondaiName": "問題12：統合理解 (Đọc hiểu so sánh A - B - 07.2025)",
+          "passage": "（上の文章A・Bを参照）",
+          "questionText": "スポーツ観戦でその競技のルールを知っているかどうかについて、AとBはどのように述べているか。",
+          "options": [
+            "AもBも、ルールを全く知らなくても楽しめると述べている。",
+            "AもBも、できるだけ多くのルールを理解しておくほうがいいと述べている。",
+            "Aは必ずしもルールを知らなくてもいいと述べ、Bはルールの基本を理解しておくほうがいいと述べている。",
+            "Aは知らなくても、観戦しながらルールを学べると述べ、Bは細かいルールまで知っているほうがいいと述べている。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Bài A nói 「知らなくても十分楽しめると思う」 (không biết luật cũng có thể thưởng thức trọn vẹn). Bài B nói 「細かいルールをすべて知っている必要はないが、試合が理解できる程度の知識があれば...」 (không cần biết hết luật chi tiết nhưng nên hiểu ở mức nắm được trận đấu) &rarr; <b>Đáp án 3</b>."
+        },
+        {
+          "id": 131,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Tìm kiếm thông tin - 07.2025)",
+          "passage": "<b>野村農業大学 公開講座「自然に親しむ課題」</b><br>野村農業大学では、自然への理解を深めるための講座を実施します。<br><br>① <b>秋の花に親しむ</b>：秋の花の育て方を学び、実習で鉢に花を植えます。／ 10/8(日) 14時〜16時 ／ 3,000円<br>② <b>森の木を守る</b>：日本の森の現状を知り、森の木を守り、育てる方法を学びます。／ 10/14(土) 9時〜11時 ／ 2,000円<br>③ <b>身近な花を撮る</b>：身近に咲いている花の種類について学び、実習で大学周辺での撮影を行います。／ 12/2(土) 9時〜11時 ／ 2,500円<br>④ <b>野菜を知る</b>：家庭で簡単に育てられる野菜を知り、実習でホウレンソウを収穫します。／ 12/10(日) 14時〜16時 ／ 3,000円<br>⑤ <b>木の香りを楽しむ</b>：木の香りとその効果を学び、実習で香水を作ります。／ 12/16(土) 9時〜11時 ／ 5,000円<br><br><b>講座について</b><br>・定員：各講座25名<br>・②以外の講座では、講義のほかに実習も行います。実習にかかる材料費等は受講料に含まれています。<br><br><b>受講手続きについて</b><br>・申込み受付期間：①・② 9月1日(金)〜9月15日(金) ／ ③・④・⑤ 11月1日(水)〜11月15日(水)<br>・申込み方法：ホームページまたは電話で申込みをしてください。申し込み多数の場合は抽選となります。<br>・受講が決定した方には、しめ切り後10日以内にふり込み用紙を送ります。講座開始の5日前までに受講料のふり込みをお願いします。<br>・申し込み受付期間が過ぎている場合でも、定員に達していなければ講座開始の3日前までなら申し込み可能です。電話でご確認ください。その際にふり込み先をお伝えしますので、講座開始の2日前までに受講料をふり込んでください。",
+          "questionText": "前田さんは、花か木について学べる講座を受けたいと思っている。午前に行われる講座で、講義だけではなく実習もある講座がいい。前田さんの希望に合う講座はどれか。",
+          "options": [
+            "①と③と⑤",
+            "②と③",
+            "③と⑤",
+            "③のみ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Phân tích:</b> Điều kiện của Maeda: (1) Học về hoa hoặc cây, (2) Buổi sáng (9h–11h), (3) Có cả thực hành (実習).<br>- ① Hoa nhưng 14h–16h (chiều) ❌<br>- ② Cây, buổi sáng, nhưng 「②以外の講座では実習も行います」 tức là ② KHÔNG có thực hành ❌<br>- ③ Hoa, 9h–11h, có thực hành ⭕<br>- ④ Rau, buổi chiều ❌<br>- ⑤ Cây, 9h–11h, có thực hành ⭕<br>Vậy chọn <b>③と⑤ (Đáp án 3)</b>."
+        },
+        {
+          "id": 132,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Tìm kiếm thông tin - 07.2025)",
+          "passage": "（上の「野村農業大学 公開講座」の案内を参照）",
+          "questionText": "ユーキさんは公開講座の案内を見て、④の講座を受けたいと思った。今日は12月3日である。ユーキさんはどのように申し込まなければならないか。",
+          "options": [
+            "12月5日までにホームページか電話で空きを確認し申し込む。",
+            "12月5日までに電話で空きを確認し申し込む。",
+            "12月7日までにホームページか電話で空きを確認し申し込む。",
+            "12月7日までに電話で空きを確認し申し込む。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Phân tích:</b> Khóa ④ diễn ra ngày 12/10. Hạn đăng ký thông thường (11/1–11/15) đã qua (hôm nay 12/3). Quy định ghi: nếu quá hạn mà chưa đủ chỗ thì vẫn đăng ký được chậm nhất trước ngày khai giảng 3 ngày (12/10 - 3 = 12/7), và phải xác nhận qua <b>điện thoại (電話でご確認ください)</b> &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 133,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・メール (Thư, Mail - 07.2025)",
+          "passage": "水石食品 商品開発部<br>田中由夏様<br><br>昨日は「水石りんごジャム」のサンプルをお届けいただき、ありがとうございました。本日試食をし、予定どおり来月から朝食で提供することにいたしました。<br>また、お客様から名産のりんごを使ったお土産がないかたびたびご質問を受けますので、このジャムを売店でも販売したいと考えております。同じ時期に販売を開始したいと思っておりますが、ご対応いただけるでしょうか。<br>ご検討いただきたく、どうぞよろしくお願いいたします。<br><br>水石温泉ホテル営業部<br>島本洋太",
+          "questionText": "このメールで問い合わせていることは何か。",
+          "options": [
+            "来月から「水石りんごジャム」をホテルの朝食で提供できるか。",
+            "来月から販売予定の「水石りんごジャム」は、名産のりんごを使っているか。",
+            "来月までに名産のりんごを使った新しい土産品が作れるか。",
+            "売店で販売するための「水石りんごジャム」を、来月から納品できるか。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch bài:</b> Cảm ơn đã gửi mẫu mứt táo. Theo kế hoạch từ tháng sau sẽ phục vụ trong bữa sáng. Ngoài ra, chúng tôi muốn bán loại mứt này tại quầy lưu niệm (売店) vào cùng thời điểm (tháng sau), không biết quý công ty có thể đáp ứng giao hàng được không?<br><b>Phân tích:</b> Email hỏi liệu có thể cung cấp/giao mứt táo để bán ở quầy hàng từ tháng sau không &rarr; <b>Đáp án 4</b>."
+        },
+        {
+          "id": 134,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解・お知らせ (Thông báo - 07.2025)",
+          "passage": "以下は、あるガス会社からのお知らせである。<br><br>6月10日<br>坂元ガスをご利用のお客様へ<br>坂元ガス株式会社<br><br><b>使用量および料金の通知について</b><br><br>いつも坂元ガスをご利用いただき、ありがとうございます。<br>これまで月々のガスの使用量と料金は、紙の通知書でお伝えしていましたが、資源節約のため8月末で廃止いたします。<br>9月以降、使用量と料金の確認は、ウェブ会員サービス「サカモト・ガスネット」をご利用ください。引き続き通知書をご希望のお客様には郵送でお届けいたしますが、手数料180円／月をご負担いただきます。<br>なお、「サカモト・ガスネット」のご利用方法、および通知書を希望される場合のお申し込み方法は、7月中にお知らせいたします。<br>ご理解、ご協力をお願い申し上げます。",
+          "questionText": "ガスの使用量と料金の通知について、このお知らせで伝えたいことは何か。",
+          "options": [
+            "7月中にウェブ会員サービスの申し込みを始めるので、登録してほしい。",
+            "8月まで使用量と料金の通知を終了するので、知りたい場合は連絡してほしい。",
+            "9月から新しい形式の紙の通知書を郵送するので、手数料を負担してほしい。",
+            "9月から紙の通知書を有料にするので、無料で確認したい場合はウェブで確認してほしい。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Dịch bài:</b> Thông báo giấy sẽ bãi bỏ vào cuối tháng 8. Từ tháng 9 trở đi hãy kiểm tra trên web miễn phí; nếu vẫn muốn nhận bản giấy qua bưu điện thì phải chịu phí 180 yên/tháng.<br><b>Phân tích:</b> Nội dung chính là từ tháng 9 bản giấy sẽ tính phí, nên ai muốn xem miễn phí thì hãy kiểm tra trên web &rarr; <b>Đáp án 4</b>."
+        }
+      ]
+    },
+    {
       "id": "choukai",
       "name": "聴解 (Nghe hiểu - Mondai 2)",
       "icon": "fa-headphones",

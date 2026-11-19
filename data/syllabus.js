@@ -5,11 +5,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 12/2024 (Moji-Goi, Bunpou, Dokkai) và Trọn bộ Nghe hiểu Choukai Mondai 1 đến 5.",
     "ready": true,
     "stats": {
-      "totalQuestions": 101,
-      "kanji": 10,
-      "vocab": 20,
-      "grammar": 21,
-      "reading": 20,
+      "totalQuestions": 250,
+      "kanji": 63,
+      "vocab": 51,
+      "grammar": 65,
+      "reading": 41,
       "listening": 30
     }
   },
@@ -19,11 +19,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2024, Chuyên đề Mondai 4 Dự đoán, So sánh Đọc hiểu, Đề Chokuzen 8 và Trọn bộ Nghe hiểu Choukai Mondai 1 đến 5.",
     "ready": true,
     "stats": {
-      "totalQuestions": 191,
-      "kanji": 20,
-      "vocab": 68,
+      "totalQuestions": 203,
+      "kanji": 28,
+      "vocab": 60,
       "grammar": 43,
-      "reading": 30,
+      "reading": 42,
       "listening": 30
     }
   },
@@ -33,11 +33,11 @@ window.JLPT_SYLLABUS = [
     "description": "Chuyên đề Mondai 6 Cách dùng từ, Chuyên đề Tiền tố - Hậu tố, Super Ngữ pháp và Thư - Thông báo.",
     "ready": true,
     "stats": {
-      "totalQuestions": 86,
-      "kanji": 20,
-      "vocab": 34,
+      "totalQuestions": 134,
+      "kanji": 45,
+      "vocab": 41,
       "grammar": 17,
-      "reading": 9,
+      "reading": 25,
       "listening": 6
     }
   },
@@ -47,10 +47,10 @@ window.JLPT_SYLLABUS = [
     "description": "Đề Thi Thật N2 Tháng 12/2023, Đề thi thử Goukaku Moshi 1, Chuyên đề Dấu sao ★, Shinkanzen 13 và Trường văn.",
     "ready": true,
     "stats": {
-      "totalQuestions": 185,
-      "kanji": 20,
-      "vocab": 58,
-      "grammar": 67,
+      "totalQuestions": 207,
+      "kanji": 30,
+      "vocab": 48,
+      "grammar": 89,
       "reading": 23,
       "listening": 17
     }
@@ -61,11 +61,11 @@ window.JLPT_SYLLABUS = [
     "description": "Toàn bộ Đề Thi Thật N2 Tháng 07/2016, Chuyên đề Điền đoạn văn N2, Đọc hiểu Trung văn và Nghe hiểu Choukai Mondai 2 & 3.",
     "ready": true,
     "stats": {
-      "totalQuestions": 165,
-      "kanji": 20,
-      "vocab": 44,
-      "grammar": 50,
-      "reading": 9,
+      "totalQuestions": 264,
+      "kanji": 38,
+      "vocab": 58,
+      "grammar": 105,
+      "reading": 21,
       "listening": 42
     }
   },

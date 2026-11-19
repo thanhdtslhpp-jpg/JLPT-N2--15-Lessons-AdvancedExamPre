@@ -1,5 +1,5 @@
 window.JLPT_DATA = window.JLPT_DATA || {};
-window.JLPT_DATA[1] = window.JLPT_DATA["buoi_01"] = {
+window.JLPT_DATA[1] = {
   "id": 1,
   "title": "BUỔI 1: Đề Thi Thật N2 (12/2024) - Chuẩn 100% Gốc",
   "durationMinutes": 105,
@@ -1147,6 +1147,2394 @@ window.JLPT_DATA[1] = window.JLPT_DATA["buoi_01"] = {
           ],
           "correctAnswer": 3,
           "explanation": "<b>Chủ đề: Thủ tục và chi phí bổ sung dịch vụ ăn uống khách sạn</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Chị Nadia ở một mình vào ngày 8/4 đã đặt gói kèm bữa sáng, nay ngày 4/4 muốn bổ sung thêm suất ăn tối đặc biệt. Mức phí phụ thu là bao nhiêu và hạn chót liên hệ là khi nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai mức giá (1.000 yên là giá bữa sáng tăng thêm, không phải bữa tối đặc biệt).<br>\n• 2. Sai cả mức giá lẫn hạn chót liên hệ.<br>\n• 3. <b>追加料金は4,000円で、4月6日の午後5時までに連絡する (Đúng)</b>: Bảng quy định ghi rõ: Khách đã đặt phòng muốn bổ sung suất ăn tối đặc biệt (特別和食膳) thì phí thêm là <b>4.000 yên</b>. Hạn chót liên hệ là <b>2 ngày trước ngày lưu trú trước 17:00</b> (lưu trú ngày 8/4 &rarr; 2 ngày trước là ngày 6/4 lúc 5 giờ chiều).<br>\n• 4. Sai hạn chót (ngày 7/4 chỉ cách 1 ngày, trong khi quy định suất tối đặc biệt yêu cầu báo trước 2 ngày)."
+        }
+      ]
+    },
+    {
+      "id": "m2_practice",
+      "name": "問題２ 表記 練習①② (Mondai 2 Bổ trợ)",
+      "icon": "fa-pen",
+      "questions": [
+        {
+          "id": 102,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "夏はたくさん汗をかくので、水分の<u>ほきゅう</u>を忘れないようにしましょう。",
+          "targetWord": "ほきゅう",
+          "options": [
+            "守給",
+            "補給",
+            "保吸",
+            "補吸"
+          ],
+          "correctAnswer": 2,
+          "explanation": "補給（ほきゅう）：Bổ sung, tiếp tế.<br><b>Dịch nghĩa:</b> Mùa hè ra nhiều mồ hôi nên đừng quên bổ sung nước nhé."
+        },
+        {
+          "id": 103,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "学校で<u>れいぎ</u>について学びました。",
+          "targetWord": "れいぎ",
+          "options": [
+            "例儀",
+            "例義",
+            "礼儀",
+            "礼義"
+          ],
+          "correctAnswer": 3,
+          "explanation": "礼儀（れいぎ）：Lễ nghi, phép lịch sự.<br><b>Dịch nghĩa:</b> Tôi đã học về lễ nghi ở trường."
+        },
+        {
+          "id": 104,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "彼はこれまであったことを<u>そっちょく</u>に話してくれた。",
+          "targetWord": "そっちょく",
+          "options": [
+            "正直",
+            "即直",
+            "率直",
+            "速直"
+          ],
+          "correctAnswer": 3,
+          "explanation": "率直（そっちょく）：Thẳng thắn, bộc trực.<br><b>Dịch nghĩa:</b> Anh ấy đã kể thẳng thắn những chuyện xảy ra từ trước đến nay."
+        },
+        {
+          "id": 105,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "いつまでも親に<u>たよって</u>はいけない。",
+          "targetWord": "たよって",
+          "options": [
+            "渡って",
+            "譲って",
+            "頼って",
+            "黙って"
+          ],
+          "correctAnswer": 3,
+          "explanation": "頼る（たよる）：Dựa dẫm, ỷ lại.<br><b>Dịch nghĩa:</b> Không nên mãi dựa dẫm vào bố mẹ."
+        },
+        {
+          "id": 106,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "忙しそうだから田中さんは<u>さそわなかった</u>。",
+          "targetWord": "さそわなかった",
+          "options": [
+            "誘わなかった",
+            "養わなかった",
+            "装わなかった",
+            "疑わなかった"
+          ],
+          "correctAnswer": 1,
+          "explanation": "誘う（さそう）：Rủ rê, mời mọc.<br><b>Dịch nghĩa:</b> Vì trông anh Tanaka có vẻ bận nên tôi đã không rủ."
+        },
+        {
+          "id": 107,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "環境は生活に大きな影響を<u>あたえる</u>。",
+          "targetWord": "あたえる",
+          "options": [
+            "投える",
+            "与える",
+            "給える",
+            "届える"
+          ],
+          "correctAnswer": 2,
+          "explanation": "与える（あたえる）：Gây ra, mang lại (ảnh hưởng).<br><b>Dịch nghĩa:</b> Môi trường gây ảnh hưởng lớn tới cuộc sống."
+        },
+        {
+          "id": 108,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "友人たちが<u>せっきょくてき</u>に協力してくれた。",
+          "targetWord": "せっきょくてき",
+          "options": [
+            "債朽的",
+            "債極的",
+            "積朽的",
+            "積極的"
+          ],
+          "correctAnswer": 4,
+          "explanation": "積極的（せっきょくてき）：Tích cực.<br><b>Dịch nghĩa:</b> Bạn bè đã hợp tác một cách tích cực giúp tôi."
+        },
+        {
+          "id": 109,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "優勝した選手は<u>いたるところ</u>で歓迎を受けた。",
+          "targetWord": "いたるところ",
+          "options": [
+            "倒るところ",
+            "毎るところ",
+            "至るところ",
+            "訪るところ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "至るところ（いたるところ）：Khắp mọi nơi.<br><b>Dịch nghĩa:</b> Tuyển thủ vô địch được chào đón ở khắp mọi nơi."
+        },
+        {
+          "id": 110,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "10年前の約束をようやく<u>はたす</u>ことができた。",
+          "targetWord": "はたす",
+          "options": [
+            "果たす",
+            "課たす",
+            "貼たす",
+            "達たす"
+          ],
+          "correctAnswer": 1,
+          "explanation": "果たす（はたす）：Thực hiện, hoàn thành (lời hứa, trách nhiệm).<br><b>Dịch nghĩa:</b> Cuối cùng tôi đã có thể thực hiện lời hứa 10 năm trước."
+        },
+        {
+          "id": 111,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習① (Mondai 2 - Buổi 1)",
+          "sentence": "今度のことはいくら<u>せめられ</u>てもしかたがない。",
+          "targetWord": "せめられ",
+          "options": [
+            "責められ",
+            "慰められ",
+            "縮められ",
+            "辞められ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "責める（せめる）：Trách móc, khiển trách.<br><b>Dịch nghĩa:</b> Chuyện lần này dù có bị trách móc bao nhiêu cũng đành chịu thôi."
+        },
+        {
+          "id": 112,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "学生は先生に<u>さからう</u>ことはできなかった。",
+          "targetWord": "さからう",
+          "options": [
+            "反らう",
+            "断らう",
+            "抗らう",
+            "逆らう"
+          ],
+          "correctAnswer": 4,
+          "explanation": "逆らう（さからう）：Chống đối, làm trái ý.<br><b>Dịch nghĩa:</b> Học sinh không thể làm trái ý thầy giáo."
+        },
+        {
+          "id": 113,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "パソコンのことはあまり<u>くわしく</u>ありません。",
+          "targetWord": "くわしく",
+          "options": [
+            "識しく",
+            "詳しく",
+            "賢しく",
+            "博しく"
+          ],
+          "correctAnswer": 2,
+          "explanation": "詳しい（くわしい）：Am hiểu tường tận, chi tiết.<br><b>Dịch nghĩa:</b> Tôi không am hiểu rõ lắm về máy tính."
+        },
+        {
+          "id": 114,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "森の中で栗をたくさん<u>ひろいました</u>。",
+          "targetWord": "ひろいました",
+          "options": [
+            "拾いました",
+            "収いました",
+            "捨いました",
+            "摂いました"
+          ],
+          "correctAnswer": 1,
+          "explanation": "拾う（ひろう）：Nhặt, lượm.<br><b>Dịch nghĩa:</b> Tôi đã nhặt được rất nhiều hạt dẻ trong rừng."
+        },
+        {
+          "id": 115,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "歩いていたら急に車が現れて<u>おどろいた</u>。",
+          "targetWord": "おどろいた",
+          "options": [
+            "騒いた",
+            "嘆いた",
+            "躓いた",
+            "驚いた"
+          ],
+          "correctAnswer": 4,
+          "explanation": "驚く（おどろく）：Giật mình, kinh ngạc.<br><b>Dịch nghĩa:</b> Đang đi bộ thì đột nhiên có xe xuất hiện làm tôi giật mình."
+        },
+        {
+          "id": 116,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "ボールは<u>うで</u>の力ではなく肩を使って投げる。",
+          "targetWord": "うで",
+          "options": [
+            "椀",
+            "婉",
+            "腕",
+            "銃"
+          ],
+          "correctAnswer": 3,
+          "explanation": "腕（うで）：Cánh tay.<br><b>Dịch nghĩa:</b> Ném bóng không phải bằng lực cánh tay mà dùng vai."
+        },
+        {
+          "id": 117,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "手術のあと<u>じゅんちょう</u>に回復しています。",
+          "targetWord": "じゅんちょう",
+          "options": [
+            "純調に",
+            "順調に",
+            "純凋に",
+            "順凋に"
+          ],
+          "correctAnswer": 2,
+          "explanation": "順調（じゅんちょう）：Thuận lợi, suôn sẻ.<br><b>Dịch nghĩa:</b> Sau phẫu thuật đang hồi phục thuận lợi."
+        },
+        {
+          "id": 118,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "先生は複雑な問題でも<u>かんけつ</u>に答えてくれます。",
+          "targetWord": "かんけつ",
+          "options": [
+            "間結に",
+            "間潔に",
+            "簡結に",
+            "簡潔に"
+          ],
+          "correctAnswer": 4,
+          "explanation": "簡潔（かんけつ）：Ngắn gọn, súc tích.<br><b>Dịch nghĩa:</b> Thầy giáo trả lời ngắn gọn súc tích ngay cả những câu hỏi phức tạp."
+        },
+        {
+          "id": 119,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "無理なお願いだったが<u>こころよく</u>引き受けてくれた。",
+          "targetWord": "こころよく",
+          "options": [
+            "快く",
+            "決く",
+            "嬉く",
+            "輝く"
+          ],
+          "correctAnswer": 1,
+          "explanation": "快く（こころよく）：Vui vẻ, sẵn lòng.<br><b>Dịch nghĩa:</b> Dù là lời nhờ vả quá sức nhưng anh ấy đã vui vẻ nhận lời."
+        },
+        {
+          "id": 120,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "この貯金箱には五百円<u>こうか</u>だけ入れます。",
+          "targetWord": "こうか",
+          "options": [
+            "購貨",
+            "硬貨",
+            "購貸",
+            "硬貸"
+          ],
+          "correctAnswer": 2,
+          "explanation": "硬貨（こうか）：Tiền xu.<br><b>Dịch nghĩa:</b> Tôi chỉ bỏ đồng xu 500 yên vào ống tiết kiệm này."
+        },
+        {
+          "id": 121,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 練習② (Mondai 2 - Buổi 1)",
+          "sentence": "太陽も<u>えいきゅう</u>に輝き続けることはない。",
+          "targetWord": "えいきゅう",
+          "options": [
+            "常球に",
+            "永球に",
+            "常久に",
+            "永久に"
+          ],
+          "correctAnswer": 4,
+          "explanation": "永久（えいきゅう）：Vĩnh cửu, mãi mãi.<br><b>Dịch nghĩa:</b> Mặt trời cũng không thể chiếu sáng vĩnh cửu."
+        }
+      ]
+    },
+    {
+      "id": "sougou_practice",
+      "name": "総合模擬試験 (Từ vựng & Ngữ pháp - Sougou)",
+      "icon": "fa-book-open",
+      "questions": [
+        {
+          "id": 122,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Sougou - Buổi 1)",
+          "sentence": "子供たちが棒を持って<ruby>暴<rt>______</rt></ruby>れていたので、注意した。",
+          "targetWord": "暴れて",
+          "options": [
+            "あぼれて",
+            "あばれて",
+            "ぼうれて",
+            "ほうれて"
+          ],
+          "correctAnswer": 2,
+          "explanation": "暴れる（あばれる）：Quậy phá, làm loạn.<br><b>Dịch nghĩa:</b> Lũ trẻ cầm gậy quậy phá nên tôi đã nhắc nhở."
+        },
+        {
+          "id": 123,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Sougou - Buổi 1)",
+          "sentence": "事故の映像を見て、<ruby>恐怖<rt>______</rt></ruby>を感じた。",
+          "targetWord": "恐怖",
+          "options": [
+            "きょうふ",
+            "きょうふう",
+            "きょふ",
+            "きょうふう"
+          ],
+          "correctAnswer": 1,
+          "explanation": "恐怖（きょうふ）：Nỗi kinh hãi, sợ hãi.<br><b>Dịch nghĩa:</b> Xem đoạn phim tai nạn mà tôi cảm thấy kinh hãi."
+        },
+        {
+          "id": 124,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Sougou - Buổi 1)",
+          "sentence": "この道は<ruby>狭<rt>______</rt></ruby>いので、車で通る時は注意が必要だ。",
+          "targetWord": "狭い",
+          "options": [
+            "かたい",
+            "くらい",
+            "せまい",
+            "ほそい"
+          ],
+          "correctAnswer": 3,
+          "explanation": "狭い（せまい）：Chật hẹp.<br><b>Dịch nghĩa:</b> Con đường này hẹp nên khi đi ô tô cần chú ý."
+        },
+        {
+          "id": 125,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Sougou - Buổi 1)",
+          "sentence": "この店は、夏の間、営業時間を<ruby>延長<rt>______</rt></ruby>する。",
+          "targetWord": "延長",
+          "options": [
+            "えんちょう",
+            "えんちょ",
+            "てんちょう",
+            "てんちょ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "延長（えんちょう）：Kéo dài, gia hạn.<br><b>Dịch nghĩa:</b> Cửa hàng này kéo dài giờ mở cửa trong mùa hè."
+        },
+        {
+          "id": 126,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Sougou - Buổi 1)",
+          "sentence": "このフリーペーパーには、さまざまなお店のお<ruby>得<rt>______</rt></ruby>な情報がたくさん載っている。",
+          "targetWord": "得な",
+          "options": [
+            "どっくな",
+            "とっくな",
+            "どくな",
+            "とくな"
+          ],
+          "correctAnswer": 4,
+          "explanation": "お得（おとく）：Có lợi, hời.<br><b>Dịch nghĩa:</b> Tờ báo miễn phí này đăng rất nhiều thông tin ưu đãi của các cửa hàng."
+        },
+        {
+          "id": 127,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Sougou - Buổi 1)",
+          "sentence": "今の平和な状態が<u>えいえん</u>に続くとは限らない。",
+          "targetWord": "えいえん",
+          "options": [
+            "栄遠",
+            "栄延",
+            "永遠",
+            "永延"
+          ],
+          "correctAnswer": 3,
+          "explanation": "永遠（えいえん）：Vĩnh viễn.<br><b>Dịch nghĩa:</b> Trạng thái hòa bình hiện tại chưa chắc đã kéo dài vĩnh viễn."
+        },
+        {
+          "id": 128,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Sougou - Buổi 1)",
+          "sentence": "この本は内容が<u>かたくて</u>、ちょっと読みにくい。",
+          "targetWord": "かたくて",
+          "options": [
+            "回くて",
+            "図くて",
+            "困くて",
+            "固くて"
+          ],
+          "correctAnswer": 4,
+          "explanation": "固い（かたい）：Cứng nhắc, khô khan (nội dung).<br><b>Dịch nghĩa:</b> Cuốn sách này nội dung khô khan nên hơi khó đọc."
+        },
+        {
+          "id": 129,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Sougou - Buổi 1)",
+          "sentence": "子供たちが近づくと、小鳥たちが<u>にげて</u>しまった。",
+          "targetWord": "にげて",
+          "options": [
+            "送げて",
+            "逃げて",
+            "退げて",
+            "迷げて"
+          ],
+          "correctAnswer": 2,
+          "explanation": "逃げる（にげる）：Chạy trốn, bay mất.<br><b>Dịch nghĩa:</b> Khi lũ trẻ lại gần thì đàn chim nhỏ đã bay mất."
+        },
+        {
+          "id": 130,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Sougou - Buổi 1)",
+          "sentence": "帰りの電車の時刻を<u>しらべて</u>おいたが、忘れてしまった。",
+          "targetWord": "しらべて",
+          "options": [
+            "周べて",
+            "彫べて",
+            "週べて",
+            "調べて"
+          ],
+          "correctAnswer": 4,
+          "explanation": "調べる（しらべる）：Tra cứu, tìm hiểu.<br><b>Dịch nghĩa:</b> Tôi đã tra sẵn giờ tàu về nhưng lại quên mất."
+        },
+        {
+          "id": 131,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Sougou - Buổi 1)",
+          "sentence": "彼の意見を<u>しじ</u>する人は、あまりいない。",
+          "targetWord": "しじ",
+          "options": [
+            "技持",
+            "技示",
+            "支持",
+            "支示"
+          ],
+          "correctAnswer": 3,
+          "explanation": "支持（しじ）：Ủng hộ.<br><b>Dịch nghĩa:</b> Không có nhiều người ủng hộ ý kiến của anh ấy."
+        },
+        {
+          "id": 132,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Sougou - Buổi 1)",
+          "sentence": "将来は看護（　　）の仕事に就きたい。",
+          "options": [
+            "員",
+            "人",
+            "師",
+            "者"
+          ],
+          "correctAnswer": 3,
+          "explanation": "看護師（かんごし）：Y tá, điều dưỡng viên.<br><b>Dịch nghĩa:</b> Tương lai tôi muốn làm nghề điều dưỡng."
+        },
+        {
+          "id": 133,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Sougou - Buổi 1)",
+          "sentence": "それはまだ（　　）確認の情報とのことだ。",
+          "options": [
+            "未",
+            "無",
+            "非",
+            "不"
+          ],
+          "correctAnswer": 1,
+          "explanation": "未確認（みかくにん）：Chưa được xác nhận.<br><b>Dịch nghĩa:</b> Nghe nói đó vẫn là thông tin chưa được xác nhận."
+        },
+        {
+          "id": 134,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Sougou - Buổi 1)",
+          "sentence": "電話やインターネットの通信（　　）を節約するために、契約プランを変更した。",
+          "options": [
+            "額",
+            "賃",
+            "費",
+            "金"
+          ],
+          "correctAnswer": 3,
+          "explanation": "通信費（つうしんひ）：Chi phí liên lạc/viễn thông.<br><b>Dịch nghĩa:</b> Tôi đã đổi gói cước để tiết kiệm chi phí điện thoại và internet."
+        },
+        {
+          "id": 135,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Sougou - Buổi 1)",
+          "sentence": "牛乳パックなどの紙の容器は、（　　）利用されて、また別の製品の原料になる。",
+          "options": [
+            "現",
+            "再",
+            "新",
+            "全"
+          ],
+          "correctAnswer": 2,
+          "explanation": "再利用（さいりよう）：Tái sử dụng.<br><b>Dịch nghĩa:</b> Hộp giấy như hộp sữa được tái sử dụng làm nguyên liệu cho sản phẩm khác."
+        },
+        {
+          "id": 136,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Sougou - Buổi 1)",
+          "sentence": "彼の説明を聞いたけど、担当者としての責任（　　）がまるで感じられなかった。",
+          "options": [
+            "性",
+            "心",
+            "力",
+            "感"
+          ],
+          "correctAnswer": 4,
+          "explanation": "責任感（せきにんかん）：Tinh thần trách nhiệm.<br><b>Dịch nghĩa:</b> Nghe anh ta giải thích nhưng chẳng cảm nhận được chút tinh thần trách nhiệm nào của người phụ trách."
+        },
+        {
+          "id": 137,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "この説明書には何度も同じことが書いてあり、ちょっと（　　）。",
+          "options": [
+            "器用だ",
+            "嫌味だ",
+            "やばい",
+            "くどい"
+          ],
+          "correctAnswer": 4,
+          "explanation": "くどい：Dài dòng, lằng nhằng, lặp đi lặp lại gây chán.<br><b>Dịch nghĩa:</b> Tờ hướng dẫn này viết lặp đi lặp lại cùng một nội dung, hơi dài dòng."
+        },
+        {
+          "id": 138,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "病院や電車の中では、携帯電話の使用を（　　）べきだ。",
+          "options": [
+            "欠ける",
+            "除く",
+            "劣る",
+            "控える"
+          ],
+          "correctAnswer": 4,
+          "explanation": "控える（ひかえる）：Kiềm chế, hạn chế làm gì.<br><b>Dịch nghĩa:</b> Trong bệnh viện và tàu điện nên hạn chế sử dụng điện thoại."
+        },
+        {
+          "id": 139,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "その化粧品を使って肌が荒れたと、化粧品会社にたくさんの（　　）が来た。",
+          "options": [
+            "ウイルス",
+            "クレーム",
+            "トラブル",
+            "ダメージ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "クレーム：Lời phàn nàn, khiếu nại.<br><b>Dịch nghĩa:</b> Công ty mỹ phẩm nhận được rất nhiều khiếu nại rằng dùng mỹ phẩm đó bị kích ứng da."
+        },
+        {
+          "id": 140,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "全国のコンビニで、明日から（　　）このサービスが始まります。",
+          "options": [
+            "実に",
+            "大いに",
+            "いっせいに",
+            "わりに"
+          ],
+          "correctAnswer": 3,
+          "explanation": "一斉に（いっせいに）：Đồng loạt, cùng lúc.<br><b>Dịch nghĩa:</b> Từ ngày mai dịch vụ này sẽ đồng loạt bắt đầu tại các cửa hàng tiện lợi toàn quốc."
+        },
+        {
+          "id": 141,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "このケーキは（　　）していて柔らかそうだ。",
+          "options": [
+            "ふわふわ",
+            "ごろごろ",
+            "ぐんぐん",
+            "うろうろ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "ふわふわ：Mềm xốp, bồng bềnh.<br><b>Dịch nghĩa:</b> Chiếc bánh này trông mềm xốp và êm ái quá."
+        },
+        {
+          "id": 142,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "子供のころから海外生活に（　　）を持っており、将来は外交官を目指しています。",
+          "options": [
+            "頼み",
+            "憧れ",
+            "祝い",
+            "望み"
+          ],
+          "correctAnswer": 2,
+          "explanation": "憧れ（あこがれ）：Niềm ngưỡng mộ, khao khát.<br><b>Dịch nghĩa:</b> Từ nhỏ tôi đã ngưỡng mộ cuộc sống nước ngoài và hướng tới làm nhà ngoại giao."
+        },
+        {
+          "id": 143,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Sougou - Buổi 1)",
+          "sentence": "仕事中におしゃべりしている同僚に、気が（　　）から小さい声で話すように言った。",
+          "options": [
+            "散る",
+            "進まない",
+            "する",
+            "早い"
+          ],
+          "correctAnswer": 1,
+          "explanation": "気が散る（きがちる）：Bị phân tán tư tưởng, mất tập trung.<br><b>Dịch nghĩa:</b> Tôi nhắc đồng nghiệp đang nói chuyện trong giờ làm hãy nói nhỏ lại vì làm tôi mất tập trung."
+        },
+        {
+          "id": 144,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Sougou - Buổi 1)",
+          "sentence": "彼女はこの仕事の担当者に<u>ふさわしい</u>。",
+          "options": [
+            "合っている",
+            "希望している",
+            "無理だ",
+            "いやだ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "ふさわしい ＝ 合っている：Phù hợp, xứng đáng.<br><b>Dịch nghĩa:</b> Cô ấy rất phù hợp làm người phụ trách công việc này."
+        },
+        {
+          "id": 145,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Sougou - Buổi 1)",
+          "sentence": "向こうから太った猫が<u>のろのろと</u>歩いてきた。",
+          "options": [
+            "まっすぐ",
+            "嬉しそうに",
+            "力強く",
+            "ゆっくり"
+          ],
+          "correctAnswer": 4,
+          "explanation": "のろのろと ＝ ゆっくり：Chậm chạp, lề mề.<br><b>Dịch nghĩa:</b> Từ đằng kia một chú mèo béo chậm chạp bước tới."
+        },
+        {
+          "id": 146,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Sougou - Buổi 1)",
+          "sentence": "来年3月の完成を目指して、新空港建設の工事は<u>着々と</u>進められている。",
+          "options": [
+            "少しずつ",
+            "順調に",
+            "苦労して",
+            "ゆっくりと"
+          ],
+          "correctAnswer": 2,
+          "explanation": "着々と（ちゃくちゃくと）＝ 順調に：Thuận lợi, đều đặn từng bước vững chắc.<br><b>Dịch nghĩa:</b> Hướng tới hoàn thành tháng 3 năm sau, công trình sân bay mới đang được tiến hành thuận lợi."
+        },
+        {
+          "id": 147,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Sougou - Buổi 1)",
+          "sentence": "講演会の最後に、先生が質問に答える時間が<u>設けて</u>あった。",
+          "options": [
+            "短縮して",
+            "頼んで",
+            "なくなって",
+            "用意して"
+          ],
+          "correctAnswer": 4,
+          "explanation": "設ける（もうける）＝ 用意する：Thiết lập, bố trí, chuẩn bị sẵn.<br><b>Dịch nghĩa:</b> Cuối buổi diễn thuyết có bố trí sẵn thời gian để thầy giáo trả lời câu hỏi."
+        },
+        {
+          "id": 148,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Sougou - Buổi 1)",
+          "sentence": "全員で助け合って、人手不足を<u>カバーする</u>しかない。",
+          "options": [
+            "頼む",
+            "補う",
+            "増やす",
+            "任せる"
+          ],
+          "correctAnswer": 2,
+          "explanation": "カバーする ＝ 補う（おぎなう）：Bù đắp, bổ sung.<br><b>Dịch nghĩa:</b> Mọi người chỉ còn cách giúp đỡ nhau để bù đắp sự thiếu hụt nhân lực."
+        },
+        {
+          "id": 149,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Sougou - Buổi 1)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>姿勢</b>",
+          "options": [
+            "彼女は笑うとてもかわいい姿勢になる。",
+            "このいすを使うと、正しい姿勢で座ることができる。",
+            "大きな鏡で全身の姿勢を映してみた。",
+            "今この会社は、IT業界の中で姿勢を伸ばしている。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "姿勢（しせい）：Tư thế (ngồi, đứng) hoặc thái độ. Câu 2 'ngồi đúng tư thế' là chuẩn xác.<br><b>Dịch câu đúng:</b> Dùng chiếc ghế này thì có thể ngồi đúng tư thế."
+        },
+        {
+          "id": 150,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Sougou - Buổi 1)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>余計な</b>",
+          "options": [
+            "欠席者が多かったので、パーティーの料理が余計になってしまった。",
+            "私一人でできるのだから、余計なことをしないでほしい。",
+            "さっき会議で配ったお茶、1本余計だからどうぞ。",
+            "パソコンが壊れたが、会社に余計なパソコンがあったので今はそれを使っている。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "余計な（よけいな）：Thừa thãi, không cần thiết (mang nghĩa tiêu cực, xen vào chuyện người khác).<br><b>Dịch câu đúng:</b> Một mình tôi làm được rồi nên mong đừng làm chuyện thừa thãi."
+        },
+        {
+          "id": 151,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Sougou - Buổi 1)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>口がうまい</b>",
+          "options": [
+            "アナウンサーだけあって、あの人の話し方は口がうまい。",
+            "彼はいつも高級料理を食べているので、口がうまい。",
+            "口がうまいという理由で、彼女に結婚式のスピーチをお願いした。",
+            "あの男は口がうまく、今までにいろんな人がだまされている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "口がうまい：Khéo miệng, dẻo mỏ (thường mang sắc thái dối trá, nịnh hót để lừa hoặc lấy lòng).<br><b>Dịch câu đúng:</b> Gã đàn ông đó rất dẻo miệng, đến nay đã có nhiều người bị lừa."
+        },
+        {
+          "id": 152,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Sougou - Buổi 1)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>非難する</b>",
+          "options": [
+            "大事な試合にまた負けてしまい、監督を非難する声が強まっている。",
+            "地震が起こったときにすぐに高い場所に逃げたので、非難できた。",
+            "難しい問題だが、家族みんなで話し合って非難する方法を考えよう。",
+            "渋滞を非難するために、別の道を通った。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "非難する（ひなんする）：Chỉ trích, phê phán (khác với 避難する: lánh nạn).<br><b>Dịch câu đúng:</b> Lại thua trận quan trọng nên tiếng nói chỉ trích HLV đang mạnh lên."
+        },
+        {
+          "id": 153,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Sougou - Buổi 1)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>やや</b>",
+          "options": [
+            "5年におよぶ駅前の開発工事は、来月やや終了するらしい。",
+            "この店のそばはややおいしくて、毎日店の前に行列ができる。",
+            "朝からずっと天気が良かったが、やや曇ってきた。",
+            "1年ぶりに友人に会ったら、別人に見えるほどやや太っていた。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "やや：Hơi hơi, một chút (dùng cho mức độ vừa phải, không đi với 'kết thúc' hay 'như người khác').<br><b>Dịch câu đúng:</b> Từ sáng trời đẹp suốt nhưng giờ đã hơi âm u một chút."
+        },
+        {
+          "id": 154,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "道に迷ったので、近くにいた人に聞いた（　　）、まっすぐ行けばいいということだった。",
+          "options": [
+            "とたん",
+            "ところ",
+            "おかげで",
+            "ばかりに"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vた + ところ：Sau khi làm V1 thì nhận được kết quả/phát hiện V2.<br><b>Dịch nghĩa:</b> Vì lạc đường nên tôi hỏi người gần đó thì được biết cứ đi thẳng là được."
+        },
+        {
+          "id": 155,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "話し方や表情（　　）、先生は怒っているようだった。",
+          "options": [
+            "からして",
+            "ことだから",
+            "といえば",
+            "からには"
+          ],
+          "correctAnswer": 1,
+          "explanation": "N + からして：Nhìn từ ngay cả N... (cũng thấy rõ).<br><b>Dịch nghĩa:</b> Nhìn từ cách nói chuyện và nét mặt là thấy thầy giáo có vẻ đang giận."
+        },
+        {
+          "id": 156,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "お金がなくて、外食（　　）、弁当を買うことさえできない。",
+          "options": [
+            "なんて",
+            "にしろ",
+            "はさておき",
+            "どころか"
+          ],
+          "correctAnswer": 4,
+          "explanation": "N + どころか：Nói gì đến A, ngay cả B cũng không...<br><b>Dịch nghĩa:</b> Không có tiền nên nói gì đến ăn ngoài, ngay cả mua cơm hộp cũng chẳng mua nổi."
+        },
+        {
+          "id": 157,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "この会社は給料はいい（　　）、休日出勤が多くて大変だ。",
+          "options": [
+            "ものの",
+            "とともに",
+            "のみならず",
+            "となると"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～ものの：Tuy rằng... nhưng mà... (nghịch lý).<br><b>Dịch nghĩa:</b> Công ty này tuy lương cao nhưng làm ngày nghỉ nhiều nên vất vả."
+        },
+        {
+          "id": 158,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "医者からアルコールを止められている間は、どんなにビールが飲みたくても（　　）。",
+          "options": [
+            "飲むべきだ",
+            "飲みかけだ",
+            "飲まずじまいだ",
+            "飲むまい"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Vる + まい：Quyết không làm V.<br><b>Dịch nghĩa:</b> Trong thời gian bị bác sĩ cấm rượu, dù thèm bia đến mấy cũng quyết không uống."
+        },
+        {
+          "id": 159,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "アパートを借りるなら、駅に近いところに（　　）。",
+          "options": [
+            "すぎない",
+            "違いない",
+            "こしたことはない",
+            "は及ばない"
+          ],
+          "correctAnswer": 3,
+          "explanation": "～にこしたことはない：Không gì tốt bằng... / Nếu được thì tốt nhất.<br><b>Dịch nghĩa:</b> Nếu thuê căn hộ thì gần nhà ga là tốt nhất."
+        },
+        {
+          "id": 160,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "医者になると決めた（　　）、必死で勉強するつもりだ。",
+          "options": [
+            "からといって",
+            "ばかりに",
+            "うえは",
+            "とおりに"
+          ],
+          "correctAnswer": 3,
+          "explanation": "～うえは：Một khi đã... thì phải (thể hiện quyết tâm).<br><b>Dịch nghĩa:</b> Một khi đã quyết định trở thành bác sĩ thì tôi định sẽ học hết mình."
+        },
+        {
+          "id": 161,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "詳しく知っている人がいないのだから、自分で調べる（　　）。",
+          "options": [
+            "わけがない",
+            "ほかない",
+            "ものではない",
+            "というものだ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vる + ほかない：Không còn cách nào khác ngoài...<br><b>Dịch nghĩa:</b> Vì không có ai biết rõ nên chỉ còn cách tự mình điều tra."
+        },
+        {
+          "id": 162,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "お世話になった人の送別会だから、行かない（　　）。",
+          "options": [
+            "わけにはいかない",
+            "わけだ",
+            "ことになっている",
+            "ものだ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vない + わけにはいかない：Không thể không làm V (về mặt đạo lý/tình cảm).<br><b>Dịch nghĩa:</b> Là tiệc chia tay người đã giúp đỡ mình nên không thể không đi."
+        },
+        {
+          "id": 163,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "仕事が見つかった（　　）、大学で勉強した専門とは関係のない仕事だ。",
+          "options": [
+            "といっても",
+            "というより",
+            "としたら",
+            "ということは"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～といっても：Tuy nói là A nhưng thực tế chỉ/lại là B.<br><b>Dịch nghĩa:</b> Tuy nói là tìm được việc rồi nhưng lại là việc chẳng liên quan tới chuyên ngành đại học."
+        },
+        {
+          "id": 164,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "祖母の家に遊びに行く（　　）、祖母はおいしい料理をたくさん作ってくれる。",
+          "options": [
+            "ついでに",
+            "たびに",
+            "折に",
+            "だけに"
+          ],
+          "correctAnswer": 2,
+          "explanation": "～たびに：Cứ mỗi lần... thì lại...<br><b>Dịch nghĩa:</b> Cứ mỗi lần sang nhà bà chơi là bà lại nấu thật nhiều món ngon."
+        },
+        {
+          "id": 165,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Sougou - Buổi 1)",
+          "sentence": "留学生に（　　）、勉強とアルバイトの両立は大変なことだ。",
+          "options": [
+            "関して",
+            "対して",
+            "ついて",
+            "とって"
+          ],
+          "correctAnswer": 4,
+          "explanation": "N + にとって：Đối với N (đứng từ lập trường của N đánh giá).<br><b>Dịch nghĩa:</b> Đối với du học sinh, việc cân bằng giữa học tập và làm thêm là điều vất vả."
+        },
+        {
+          "id": 166,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Sougou - Buổi 1)",
+          "beforeText": "そのかばんを",
+          "afterText": "、結局、買わないことにした。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "買うまいか"
+            },
+            {
+              "id": 2,
+              "text": "悩んだ"
+            },
+            {
+              "id": 3,
+              "text": "買おうか"
+            },
+            {
+              "id": 4,
+              "text": "あげく"
+            }
+          ],
+          "correctOrder": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "correctStarOption": 2,
+          "explanation": "Thứ tự đúng: そのかばんを <b>[買おうか(3)] [買うまいか(1)] [★ 悩んだ(2)] [あげく(4)]</b>、結局、買わないことにした。<br><b>Cấu trúc:</b> VようかVまいか (nên làm hay không), Vたあげく (sau hồi lâu cân nhắc cuối cùng thì...).<br><b>Đáp án chọn:</b> 2"
+        },
+        {
+          "id": 167,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Sougou - Buổi 1)",
+          "beforeText": "",
+          "afterText": "がその国際会議に参加している。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "はじめ"
+            },
+            {
+              "id": 2,
+              "text": "を"
+            },
+            {
+              "id": 3,
+              "text": "世界の国々"
+            },
+            {
+              "id": 4,
+              "text": "アメリカ"
+            }
+          ],
+          "correctOrder": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "correctStarOption": 1,
+          "explanation": "Thứ tự đúng: <b>[アメリカ(4)] [を(2)] [★ はじめ(1)] [世界の国々(3)]</b> がその国際会議に参加している。<br><b>Cấu trúc:</b> N1をはじめN2 (tiêu biểu là Mỹ cùng các nước trên thế giới).<br><b>Đáp án chọn:</b> 1"
+        },
+        {
+          "id": 168,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Sougou - Buổi 1)",
+          "beforeText": "この製品は田中部長",
+          "afterText": "で開発されました。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "を"
+            },
+            {
+              "id": 2,
+              "text": "プロジェクトチーム"
+            },
+            {
+              "id": 3,
+              "text": "リーダー"
+            },
+            {
+              "id": 4,
+              "text": "とした"
+            }
+          ],
+          "correctOrder": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "correctStarOption": 4,
+          "explanation": "Thứ tự đúng: この製品は田中部長 <b>[を(1)] [リーダー(3)] [★ とした(4)] [プロジェクトチーム(2)]</b> で開発されました。<br><b>Cấu trúc:</b> AをBとしたC (nhóm dự án với trưởng nhóm là trưởng phòng Tanaka).<br><b>Đáp án chọn:</b> 4"
+        },
+        {
+          "id": 169,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Sougou - Buổi 1)",
+          "beforeText": "林先生の本は難しすぎて、",
+          "afterText": "が大変だ。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "理解するの"
+            },
+            {
+              "id": 2,
+              "text": "大学院生"
+            },
+            {
+              "id": 3,
+              "text": "さえ"
+            },
+            {
+              "id": 4,
+              "text": "で"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 林先生の本は難しすぎて、<b>[大学院生(2)] [で(4)] [★ さえ(3)] [理解するの(1)]</b> が大変だ。<br><b>Cấu trúc:</b> Nでさえ (ngay cả nghiên cứu sinh cao học cũng khó hiểu nổi).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 170,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Sougou - Buổi 1)",
+          "beforeText": "友達にお金を",
+          "afterText": "はない。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "必要"
+            },
+            {
+              "id": 2,
+              "text": "借りて"
+            },
+            {
+              "id": 3,
+              "text": "まで"
+            },
+            {
+              "id": 4,
+              "text": "車を買う"
+            }
+          ],
+          "correctOrder": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "correctStarOption": 4,
+          "explanation": "Thứ tự đúng: 友達にお金を <b>[借りて(2)] [まで(3)] [★ 車を買う(4)] [必要(1)]</b> はない。<br><b>Cấu trúc:</b> Vてまで (đến mức phải vay tiền bạn để mua xe thì không cần thiết).<br><b>Đáp án chọn:</b> 4"
+        },
+        {
+          "id": 171,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Sougou - Buổi 1)",
+          "passage": "最近、急病で救急車を呼んで運ばれても受け入れてくれる病院が見つからず、長時間救急車の中で待たされて、結局助からなかったり病状が悪くなったりすることがある。その患者を受け入れられる設備や医者がいる（　50　）、受け入れを断る病院もあるらしい。受け入れたあとで、治療の（　51　）患者が亡くなってしまった場合、病院が責任を取らなければならず、そのリスクを回避したいという理由のようだ。そのような病院には失望する限りだが、実際に受け入れが困難な病院も少なくない。軽い病気でも大きな病院に行く人は多い。救急指定の大きな病院はいつも患者でいっぱいで、救急患者を受け入れる余裕がない。\nこのような状況を改善するためには、「かかりつけ医」を決めるという方法がある。「かかりつけ医」とは、地域の個人病院や診療所で、具合が悪くなったときに、いつでも診てもらえる病院だ。病気になったらまずかかりつけ医に行き、専門的な治療が必要と判断された（　52　）、大きな病院や専門医に紹介状を書いてもらう。このようにすれば、救急指定の病院の患者は減り、いつでも救急患者が受け入れられるようになる。政府はこれを徹底するために、紹介状がない患者には初診料を高くする制度を検討している。\nかかりつけ医を決めることは、救急患者以外にもメリットがある。かかりつけ医を決めておくと、自分の過去の病気や今の健康状態を知ってもらっているという安心感がある。信頼できる町のお医者さんがいるということは、病気になった（　53　）、健康な時でも安心して生活することができる。\n大きな病院とかかりつけ医の役割分担をしっかりして、必要（　54　）必要な医療が受けられるようにすることは、高齢化が進む日本の医療を充実させるために有効な方法であろう。",
+          "sentence": "（　50　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "にかぎらず",
+            "にもかかわらず",
+            "のみならず",
+            "反面"
+          ],
+          "correctAnswer": 2,
+          "explanation": "～にもかかわらず：Mặc dù có đầy đủ thiết bị và bác sĩ tiếp nhận, nhưng vẫn có bệnh viện từ chối.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 172,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Sougou - Buổi 1)",
+          "passage": "最近、急病で救急車を呼んで運ばれても受け入れてくれる病院が見つからず、長時間救急車の中で待たされて、結局助からなかったり病状が悪くなったりすることがある。その患者を受け入れられる設備や医者がいる（　50　）、受け入れを断る病院もあるらしい。受け入れたあとで、治療の（　51　）患者が亡くなってしまった場合、病院が責任を取らなければならず、そのリスクを回避したいという理由のようだ。そのような病院には失望する限りだが、実際に受け入れが困難な病院も少なくない。軽い病気でも大きな病院に行く人は多い。救急指定の大きな病院はいつも患者でいっぱいで、救急患者を受け入れる余裕がない。\nこのような状況を改善するためには、「かかりつけ医」を決めるという方法がある。「かかりつけ医」とは、地域の個人病院や診療所で、具合が悪くなったときに、いつでも診てもらえる病院だ。病気になったらまずかかりつけ医に行き、専門的な治療が必要と判断された（　52　）、大きな病院や専門医に紹介状を書いてもらう。このようにすれば、救急指定の病院の患者は減り、いつでも救急患者が受け入れられるようになる。政府はこれを徹底するために、紹介状がない患者には初診料を高くする制度を検討している。\nかかりつけ医を決めることは、救急患者以外にもメリットがある。かかりつけ医を決めておくと、自分の過去の病気や今の健康状態を知ってもらっているという安心感がある。信頼できる町のお医者さんがいるということは、病気になった（　53　）、健康な時でも安心して生活することができる。\n大きな病院とかかりつけ医の役割分担をしっかりして、必要（　54　）必要な医療が受けられるようにすることは、高齢化が進む日本の医療を充実させるために有効な方法であろう。",
+          "sentence": "（　51　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "上で",
+            "かいもなく",
+            "ことから",
+            "かわりに"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nの / Vた + かいもなく：Uổng công, mất công (đã điều trị mà bệnh nhân vẫn qua đời).<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 173,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Sougou - Buổi 1)",
+          "passage": "最近、急病で救急車を呼んで運ばれても受け入れてくれる病院が見つからず、長時間救急車の中で待たされて、結局助からなかったり病状が悪くなったりすることがある。その患者を受け入れられる設備や医者がいる（　50　）、受け入れを断る病院もあるらしい。受け入れたあとで、治療の（　51　）患者が亡くなってしまった場合、病院が責任を取らなければならず、そのリスクを回避したいという理由のようだ。そのような病院には失望する限りだが、実際に受け入れが困難な病院も少なくない。軽い病気でも大きな病院に行く人は多い。救急指定の大きな病院はいつも患者でいっぱいで、救急患者を受け入れる余裕がない。\nこのような状況を改善するためには、「かかりつけ医」を決めるという方法がある。「かかりつけ医」とは、地域の個人病院や診療所で、具合が悪くなったときに、いつでも診てもらえる病院だ。病気になったらまずかかりつけ医に行き、専門的な治療が必要と判断された（　52　）、大きな病院や専門医に紹介状を書いてもらう。このようにすれば、救急指定の病院の患者は減り、いつでも救急患者が受け入れられるようになる。政府はこれを徹底するために、紹介状がない患者には初診料を高くする制度を検討している。\nかかりつけ医を決めることは、救急患者以外にもメリットがある。かかりつけ医を決めておくと、自分の過去の病気や今の健康状態を知ってもらっているという安心感がある。信頼できる町のお医者さんがいるということは、病気になった（　53　）、健康な時でも安心して生活することができる。\n大きな病院とかかりつけ医の役割分担をしっかりして、必要（　54　）必要な医療が受けられるようにすることは、高齢化が進む日本の医療を充実させるために有効な方法であろう。",
+          "sentence": "（　52　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "場合に限り",
+            "ことをきっかけに",
+            "人に加えて",
+            "医者を通じて"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～場合に限り：Chỉ trong trường hợp được chẩn đoán là cần điều trị chuyên khoa mới viết giấy giới thiệu lên tuyến trên.<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 174,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Sougou - Buổi 1)",
+          "passage": "最近、急病で救急車を呼んで運ばれても受け入れてくれる病院が見つからず、長時間救急車の中で待たされて、結局助からなかったり病状が悪くなったりすることがある。その患者を受け入れられる設備や医者がいる（　50　）、受け入れを断る病院もあるらしい。受け入れたあとで、治療の（　51　）患者が亡くなってしまった場合、病院が責任を取らなければならず、そのリスクを回避したいという理由のようだ。そのような病院には失望する限りだが、実際に受け入れが困難な病院も少なくない。軽い病気でも大きな病院に行く人は多い。救急指定の大きな病院はいつも患者でいっぱいで、救急患者を受け入れる余裕がない。\nこのような状況を改善するためには、「かかりつけ医」を決めるという方法がある。「かかりつけ医」とは、地域の個人病院や診療所で、具合が悪くなったときに、いつでも診てもらえる病院だ。病気になったらまずかかりつけ医に行き、専門的な治療が必要と判断された（　52　）、大きな病院や専門医に紹介状を書いてもらう。このようにすれば、救急指定の病院の患者は減り、いつでも救急患者が受け入れられるようになる。政府はこれを徹底するために、紹介状がない患者には初診料を高くする制度を検討している。\nかかりつけ医を決めることは、救急患者以外にもメリットがある。かかりつけ医を決めておくと、自分の過去の病気や今の健康状態を知ってもらっているという安心感がある。信頼できる町のお医者さんがいるということは、病気になった（　53　）、健康な時でも安心して生活することができる。\n大きな病院とかかりつけ医の役割分担をしっかりして、必要（　54　）必要な医療が受けられるようにすることは、高齢化が進む日本の医療を充実させるために有効な方法であろう。",
+          "sentence": "（　53　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "からこそ",
+            "時はともかく",
+            "場合に伴って",
+            "際はもちろん"
+          ],
+          "correctAnswer": 4,
+          "explanation": "A際はもちろん、Bでも：Khi bị bệnh đương nhiên là an tâm, ngay cả lúc khỏe mạnh cũng sống an tâm.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 175,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Sougou - Buổi 1)",
+          "passage": "最近、急病で救急車を呼んで運ばれても受け入れてくれる病院が見つからず、長時間救急車の中で待たされて、結局助からなかったり病状が悪くなったりすることがある。その患者を受け入れられる設備や医者がいる（　50　）、受け入れを断る病院もあるらしい。受け入れたあとで、治療の（　51　）患者が亡くなってしまった場合、病院が責任を取らなければならず、そのリスクを回避したいという理由のようだ。そのような病院には失望する限りだが、実際に受け入れが困難な病院も少なくない。軽い病気でも大きな病院に行く人は多い。救急指定の大きな病院はいつも患者でいっぱいで、救急患者を受け入れる余裕がない。\nこのような状況を改善するためには、「かかりつけ医」を決めるという方法がある。「かかりつけ医」とは、地域の個人病院や診療所で、具合が悪くなったときに、いつでも診てもらえる病院だ。病気になったらまずかかりつけ医に行き、専門的な治療が必要と判断された（　52　）、大きな病院や専門医に紹介状を書いてもらう。このようにすれば、救急指定の病院の患者は減り、いつでも救急患者が受け入れられるようになる。政府はこれを徹底するために、紹介状がない患者には初診料を高くする制度を検討している。\nかかりつけ医を決めることは、救急患者以外にもメリットがある。かかりつけ医を決めておくと、自分の過去の病気や今の健康状態を知ってもらっているという安心感がある。信頼できる町のお医者さんがいるということは、病気になった（　53　）、健康な時でも安心して生活することができる。\n大きな病院とかかりつけ医の役割分担をしっかりして、必要（　54　）必要な医療が受けられるようにすることは、高齢化が進む日本の医療を充実させるために有効な方法であろう。",
+          "sentence": "（　54　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "になりつつ",
+            "なうちに",
+            "に応じて",
+            "性からして"
+          ],
+          "correctAnswer": 3,
+          "explanation": "N + に応じて：Tùy theo, tương ứng với nhu cầu cần thiết.<br><b>Đáp án đúng là 3</b>."
+        }
+      ]
+    },
+    {
+      "id": "de_12_2015",
+      "name": "Đề Thi Thật N2 (12/2015) - Full 75 câu",
+      "icon": "fa-file-alt",
+      "questions": [
+        {
+          "id": 176,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Đề 12/2015)",
+          "sentence": "迷惑なメールの受信を<ruby>拒否<rt>______</rt></ruby>したい。",
+          "targetWord": "拒否",
+          "options": [
+            "きょうひ",
+            "きょうふ",
+            "きょひ",
+            "きょふ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "拒否（きょひ）：Từ chối, cự tuyệt.<br><b>Dịch nghĩa:</b> Tôi muốn từ chối nhận các email làm phiền."
+        },
+        {
+          "id": 177,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Đề 12/2015)",
+          "sentence": "鈴木選手は試合の後、多くの記者に<ruby>囲<rt>______</rt></ruby>まれて質問を受けていた。",
+          "targetWord": "囲まれて",
+          "options": [
+            "かこまれて",
+            "つつまれて",
+            "はさまれて",
+            "つかまれて"
+          ],
+          "correctAnswer": 1,
+          "explanation": "囲まれる（かこまれる）：Bị vây quanh.<br><b>Dịch nghĩa:</b> Tuyển thủ Suzuki sau trận đấu đã bị nhiều phóng viên vây quanh đặt câu hỏi."
+        },
+        {
+          "id": 178,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Đề 12/2015)",
+          "sentence": "何とか<ruby>損害<rt>______</rt></ruby>を最小限に抑えることができた。",
+          "targetWord": "損害",
+          "options": [
+            "さいかい",
+            "さいがい",
+            "そんかい",
+            "そんがい"
+          ],
+          "correctAnswer": 4,
+          "explanation": "損害（そんがい）：Thiệt hại, tổn thất.<br><b>Dịch nghĩa:</b> Cuối cùng cũng đã kìm được thiệt hại ở mức tối thiểu."
+        },
+        {
+          "id": 179,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Đề 12/2015)",
+          "sentence": "この<ruby>現象<rt>______</rt></ruby>は、これまでの理論では説明ができない。",
+          "targetWord": "現象",
+          "options": [
+            "げんそう",
+            "げんしょう",
+            "げんぞう",
+            "げんじょう"
+          ],
+          "correctAnswer": 2,
+          "explanation": "現象（げんしょう）：Hiện tượng.<br><b>Dịch nghĩa:</b> Hiện tượng này không thể giải thích bằng các lý thuyết từ trước đến nay."
+        },
+        {
+          "id": 180,
+          "mondai": 1,
+          "mondaiName": "問題１：言葉の読み方 (Đề 12/2015)",
+          "sentence": "私は今まで人を<ruby>憎<rt>______</rt></ruby>いと思ったことがない。",
+          "targetWord": "憎い",
+          "options": [
+            "こわい",
+            "ひどい",
+            "にくい",
+            "ずるい"
+          ],
+          "correctAnswer": 3,
+          "explanation": "憎い（にくい）：Đáng ghét, căm ghét.<br><b>Dịch nghĩa:</b> Từ trước đến nay tôi chưa từng thấy ghét ai cả."
+        },
+        {
+          "id": 181,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Đề 12/2015)",
+          "sentence": "多くの人が集まったため、会場の中は<u>こんらん</u>していた。",
+          "targetWord": "こんらん",
+          "options": [
+            "混乱",
+            "混雑",
+            "困乱",
+            "困雑"
+          ],
+          "correctAnswer": 1,
+          "explanation": "混乱（こんらん）：Hỗn loạn.<br><b>Dịch nghĩa:</b> Vì đông người tụ tập nên bên trong hội trường rất hỗn loạn."
+        },
+        {
+          "id": 182,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Đề 12/2015)",
+          "sentence": "この計画は<u>じゅんちょう</u>に進んでいる。",
+          "targetWord": "じゅんちょう",
+          "options": [
+            "準長",
+            "準調",
+            "順長",
+            "順調"
+          ],
+          "correctAnswer": 4,
+          "explanation": "順調（じゅんちょう）：Thuận lợi, suôn sẻ.<br><b>Dịch nghĩa:</b> Kế hoạch này đang tiến triển thuận lợi."
+        },
+        {
+          "id": 183,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Đề 12/2015)",
+          "sentence": "新製品の販売権に関し、A社とB社が<u>あらそって</u>いる。",
+          "targetWord": "あらそって",
+          "options": [
+            "争って",
+            "戦って",
+            "競って",
+            "抗って"
+          ],
+          "correctAnswer": 1,
+          "explanation": "争う（あらそう）：Tranh giành, tranh chấp.<br><b>Dịch nghĩa:</b> Công ty A và B đang tranh giành quyền bán sản phẩm mới."
+        },
+        {
+          "id": 184,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Đề 12/2015)",
+          "sentence": "先生に<u>してき</u>された部分を直して、レポートを再提出した。",
+          "targetWord": "してき",
+          "options": [
+            "指的",
+            "指摘",
+            "支的",
+            "支摘"
+          ],
+          "correctAnswer": 2,
+          "explanation": "指摘（してき）：Chỉ ra (lỗi sai, điểm cần sửa).<br><b>Dịch nghĩa:</b> Tôi đã sửa chỗ được thầy chỉ ra và nộp lại báo cáo."
+        },
+        {
+          "id": 185,
+          "mondai": 2,
+          "mondaiName": "問題２：漢字表記 (Đề 12/2015)",
+          "sentence": "この絵は空の色がとても<u>あざやか</u>だ。",
+          "targetWord": "あざやか",
+          "options": [
+            "照やか",
+            "晴やか",
+            "鮮やか",
+            "濃やか"
+          ],
+          "correctAnswer": 3,
+          "explanation": "鮮やか（あざやか）：Rực rỡ, tươi sáng.<br><b>Dịch nghĩa:</b> Bức tranh này có màu bầu trời rất rực rỡ."
+        },
+        {
+          "id": 186,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Đề 12/2015)",
+          "sentence": "試合会場には、各チームの応援（　　）も来ている。",
+          "options": [
+            "党",
+            "団",
+            "集",
+            "族"
+          ],
+          "correctAnswer": 2,
+          "explanation": "応援団（おうえんだん）：Đội cổ vũ.<br><b>Dịch nghĩa:</b> Tại sân thi đấu còn có đội cổ vũ của các đội tới."
+        },
+        {
+          "id": 187,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Đề 12/2015)",
+          "sentence": "その計画は自然環境に（　　）影響を与えかねない。",
+          "options": [
+            "陰",
+            "劣",
+            "危",
+            "悪"
+          ],
+          "correctAnswer": 4,
+          "explanation": "悪影響（あくえいきょう）：Ảnh hưởng xấu.<br><b>Dịch nghĩa:</b> Kế hoạch đó có nguy cơ gây ảnh hưởng xấu tới môi trường tự nhiên."
+        },
+        {
+          "id": 188,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Đề 12/2015)",
+          "sentence": "今回の実験の成功（　　）は高いと言われている。",
+          "options": [
+            "倍",
+            "割",
+            "比",
+            "率"
+          ],
+          "correctAnswer": 4,
+          "explanation": "成功率（せいこうりつ）：Tỷ lệ thành công.<br><b>Dịch nghĩa:</b> Nghe nói tỷ lệ thành công của thí nghiệm lần này rất cao."
+        },
+        {
+          "id": 189,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Đề 12/2015)",
+          "sentence": "彼の話はあまりに現実（　　）していて、誰も同意しなかった。",
+          "options": [
+            "抜け",
+            "落ち",
+            "離れ",
+            "逃げ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "現実離れ（げんじつばなれ）：Xa rời thực tế, phi thực tế.<br><b>Dịch nghĩa:</b> Câu chuyện của anh ta quá xa rời thực tế nên chẳng ai đồng tình."
+        },
+        {
+          "id": 190,
+          "mondai": 3,
+          "mondaiName": "問題３：語形成 (Đề 12/2015)",
+          "sentence": "この辺りはヨーロッパ（　　）の家が多くて、日本だとは思えない。",
+          "options": [
+            "風",
+            "状",
+            "態",
+            "類"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～風（ふう）：Phong cách, kiểu... (phong cách châu Âu).<br><b>Dịch nghĩa:</b> Quanh đây nhiều nhà kiểu châu Âu đến mức không nghĩ là ở Nhật."
+        },
+        {
+          "id": 191,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "日本の10年後の人口を、様々なデータから（　　）した。",
+          "options": [
+            "予測",
+            "予報",
+            "予感",
+            "予習"
+          ],
+          "correctAnswer": 1,
+          "explanation": "予測（よそく）：Dự đoán, ước tính dựa trên dữ liệu.<br><b>Dịch nghĩa:</b> Dự đoán dân số Nhật Bản 10 năm sau từ nhiều dữ liệu khác nhau."
+        },
+        {
+          "id": 192,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "川の水が茶色く（　　）いて、底の方が見えない。",
+          "options": [
+            "くもって",
+            "かくれて",
+            "にごって",
+            "くずれて"
+          ],
+          "correctAnswer": 3,
+          "explanation": "濁る（にごる）：Vẩn đục.<br><b>Dịch nghĩa:</b> Nước sông bị đục màu nâu nên không nhìn thấy đáy."
+        },
+        {
+          "id": 193,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "この書類に必要なことを記入して窓口に提出すれば、手続きは（　　）します。",
+          "options": [
+            "完了",
+            "決定",
+            "実現",
+            "達成"
+          ],
+          "correctAnswer": 1,
+          "explanation": "完了（かんりょう）：Hoàn tất, hoàn thành (thủ tục).<br><b>Dịch nghĩa:</b> Điền đủ thông tin vào giấy này rồi nộp ở quầy là thủ tục hoàn tất."
+        },
+        {
+          "id": 194,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "栄養の（　　）を考えて、いろいろなものを食べましょう。",
+          "options": [
+            "ストレス",
+            "バランス",
+            "チェンジ",
+            "ステップ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "バランス：Sự cân bằng (dinh dưỡng).<br><b>Dịch nghĩa:</b> Hãy nghĩ đến cân bằng dinh dưỡng và ăn đa dạng các món."
+        },
+        {
+          "id": 195,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "この店の料理は、量が（　　）あるので、たくさん食べる人に人気があります。",
+          "options": [
+            "ふんわり",
+            "すっきり",
+            "たっぷり",
+            "ぼんやり"
+          ],
+          "correctAnswer": 3,
+          "explanation": "たっぷり：Đầy ắp, dồi dào, nhiều.<br><b>Dịch nghĩa:</b> Món ăn quán này lượng rất nhiều nên được người ăn khỏe ưa chuộng."
+        },
+        {
+          "id": 196,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "二人の間には意見の（　　）があり、なかなか議論が進まない。",
+          "options": [
+            "対比",
+            "間隔",
+            "大別",
+            "相違"
+          ],
+          "correctAnswer": 4,
+          "explanation": "相違（そうい）：Sự khác biệt, bất đồng.<br><b>Dịch nghĩa:</b> Giữa hai người có sự khác biệt ý kiến nên thảo luận mãi không tiến triển."
+        },
+        {
+          "id": 197,
+          "mondai": 4,
+          "mondaiName": "問題４：文脈規定 (Đề 12/2015)",
+          "sentence": "約束の時間より早く来てしまったので、喫茶店に入って時間を（　　）。",
+          "options": [
+            "やぶった",
+            "つぶした",
+            "こわした",
+            "はずった"
+          ],
+          "correctAnswer": 2,
+          "explanation": "時間をつぶす：Giết thời gian.<br><b>Dịch nghĩa:</b> Vì đến sớm hơn giờ hẹn nên tôi vào quán cà phê giết thời gian."
+        },
+        {
+          "id": 198,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Đề 12/2015)",
+          "sentence": "明日は今日より<u>やや</u>涼しくなると思います。",
+          "options": [
+            "絶対",
+            "もっと",
+            "たぶん",
+            "少し"
+          ],
+          "correctAnswer": 4,
+          "explanation": "やや ＝ 少し：Hơi, một chút.<br><b>Dịch nghĩa:</b> Tôi nghĩ ngày mai sẽ mát hơn hôm nay một chút."
+        },
+        {
+          "id": 199,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Đề 12/2015)",
+          "sentence": "私はこれくらいの<u>テンポ</u>の曲が歌いやすいと思う。",
+          "options": [
+            "速さ",
+            "長さ",
+            "高さ",
+            "明るさ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "テンポ ＝ 速さ：Nhịp độ, tốc độ bài hát.<br><b>Dịch nghĩa:</b> Tôi thấy bài hát có tốc độ cỡ này rất dễ hát."
+        },
+        {
+          "id": 200,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Đề 12/2015)",
+          "sentence": "昨日、<u>妙な</u>話を聞いた。",
+          "options": [
+            "うれしい",
+            "変な",
+            "なつかしい",
+            "嫌な"
+          ],
+          "correctAnswer": 2,
+          "explanation": "妙な（みょうな）＝ 変な：Kỳ lạ, kỳ quặc.<br><b>Dịch nghĩa:</b> Hôm qua tôi nghe được một chuyện kỳ lạ."
+        },
+        {
+          "id": 201,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Đề 12/2015)",
+          "sentence": "高橋さんは、<u>ささやく</u>ように話した。",
+          "options": [
+            "急いで",
+            "ゆっくり",
+            "大声で",
+            "小声で"
+          ],
+          "correctAnswer": 4,
+          "explanation": "ささやく ＝ 小声で話す：Thì thầm, nói nhỏ.<br><b>Dịch nghĩa:</b> Anh/chị Takahashi nói như thì thầm."
+        },
+        {
+          "id": 202,
+          "mondai": 5,
+          "mondaiName": "問題５：言い換え類義 (Đề 12/2015)",
+          "sentence": "鈴木氏は、<u>かつて</u>フランスに住んでいた。",
+          "options": [
+            "確か",
+            "主に",
+            "以前",
+            "しばらく"
+          ],
+          "correctAnswer": 3,
+          "explanation": "かつて ＝ 以前：Trước đây, từng.<br><b>Dịch nghĩa:</b> Ông Suzuki trước đây từng sống ở Pháp."
+        },
+        {
+          "id": 203,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Đề 12/2015)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>作成</b>",
+          "options": [
+            "外国語の練習のために、話す機会を多く作成している。",
+            "今週中に会議の資料を作成しておいてください。",
+            "この地域で作成された果物はとてもおいしい。",
+            "友人と共同で新しい会社を作成することにした。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "作成（さくせい）：Soạn thảo, lập (tài liệu, báo cáo).<br><b>Dịch câu đúng:</b> Trong tuần này hãy soạn sẵn tài liệu cuộc họp nhé."
+        },
+        {
+          "id": 204,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Đề 12/2015)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>いったん</b>",
+          "options": [
+            "私はまだ海外にいったんも行ったことがないので、いつか行きたいと思っている。",
+            "彼とはずいぶん前にいったんしか会っていないが、顔も名前もよく覚えている。",
+            "部長は外出先から会社にいったん戻ったが、すぐにまた出かけた。",
+            "学生のころは、友人と1週間にいったん映画を見に行った。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "いったん（一旦）：Tạm thời một chốc, một lát rồi lại làm việc khác.<br><b>Dịch câu đúng:</b> Trưởng phòng từ ngoài về tạm công ty một lát rồi lại đi ngay."
+        },
+        {
+          "id": 205,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Đề 12/2015)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>思いつく</b>",
+          "options": [
+            "今は大変だが、将来成功している自分の姿を思いつくと、頑張ろうと思える。",
+            "このアイディアは仕事中ではなく、散歩しているときに思いついた。",
+            "佐藤さんに初めて会ったとき、この人とは親友になれそうだと思いついた。",
+            "この写真を見ると、いつも学生時代のことを思いついて、同級生に会いたくなる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "思いつく：Nảy ra (ý tưởng, sáng kiến).<br><b>Dịch câu đúng:</b> Ý tưởng này không phải lúc làm việc mà tôi nảy ra khi đang đi dạo."
+        },
+        {
+          "id": 206,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Đề 12/2015)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>中断</b>",
+          "options": [
+            "参加の希望者が集まらないので、来週のイベントは中断されることになった。",
+            "この山には、曲がって枯れた木や中断した木がたくさんある。",
+            "林さんは今勤めている会社を中断して、別の会社に転職するらしい。",
+            "雨が強くなって試合が中断されているが、恐らく再開は難しいだろう。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "中断（ちゅうだん）：Bị gián đoạn, tạm dừng giữa chừng.<br><b>Dịch câu đúng:</b> Mưa lớn nên trận đấu đang bị gián đoạn, có lẽ khó mà tiếp tục lại."
+        },
+        {
+          "id": 207,
+          "mondai": 6,
+          "mondaiName": "問題６：用法 (Đề 12/2015)",
+          "sentence": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。<br><b>たくましい</b>",
+          "options": [
+            "両親は今までどんな苦労にも負けずに、たくましく生きてきた。",
+            "このひもは細くてすぐ切れそうなので、もっとたくましいのが欲しい。",
+            "森さんは仕事の経験がたくましいので、上司から信頼されている。",
+            "昼になって急に日ざしがたくましくなったので、帽子をかぶった。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "たくましい：Mạnh mẽ, kiên cường, vạm vỡ.<br><b>Dịch câu đúng:</b> Bố mẹ tôi từ trước đến nay không thua bất kỳ gian khổ nào, đã sống rất kiên cường."
+        },
+        {
+          "id": 208,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "この花は、毎日水をやる必要はありません。大体2日（　　）やってください。",
+          "options": [
+            "おきに",
+            "ぶりに",
+            "うちに",
+            "たびに"
+          ],
+          "correctAnswer": 1,
+          "explanation": "N + おきに：Cứ cách mỗi N (2 ngày tưới 1 lần).<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 209,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "ジョギングは健康にいいが、正しく行わないと、（　　）ひざや腰を痛めてしまう場合もある。",
+          "options": [
+            "かりに",
+            "せっかく",
+            "いまにも",
+            "かえって"
+          ],
+          "correctAnswer": 4,
+          "explanation": "かえって：Ngược lại (phản tác dụng).<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 210,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "駅前のパン屋の主人は、商売はあまり上手ではないが、おいしいパンを作ること（　　）一流の技術を持っている。",
+          "options": [
+            "によっては",
+            "を前にして",
+            "にかけては",
+            "を基にして"
+          ],
+          "correctAnswer": 3,
+          "explanation": "N + にかけては：Riêng về mặt N thì (không ai bằng / hàng đầu).<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 211,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "ABC美術館はとても広くて、たった3時間では全部の作品を（　　）。",
+          "options": [
+            "見たきりだった",
+            "見きれなかった",
+            "見ないで済んだ",
+            "見ないでもなかった"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vます + きれない：Không thể làm hết được.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 212,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "夫は何でも捨てないで取っておくので、家の中は物が増える（　　）。",
+          "options": [
+            "ためだ",
+            "ほどだ",
+            "一方だ",
+            "最中だ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vる + 一方だ：Càng ngày càng... (tăng mãi).<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 213,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "パソコンの画面が映らなくなってしまった。いろいろ試してみたがうまくいかず、もう自分ではどうしようもないので、修理に（　　）。",
+          "options": [
+            "出しがちだ",
+            "出すほかない",
+            "出したおかげだ",
+            "出すことがある"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vる + ほかない：Không còn cách nào khác ngoài...<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 214,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "テニスコートの入り口の看板に「コート内では必ずテニスシューズを履く（　　）。」と書いてあるのに、守らない人がいるので困る。",
+          "options": [
+            "こと",
+            "はず",
+            "など",
+            "のみ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vる + こと：Quy định, mệnh lệnh trên biển báo (Phải mang giày tennis).<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 215,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "A「最近、いつも眠そうだね。毎晩、寝るの遅いの？」　B「うん。早く（　　）思ってるんだけど。」",
+          "options": [
+            "寝なきゃって",
+            "寝ちゃったと",
+            "寝たいのは",
+            "寝られないとか"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～なきゃって思ってるんだけど：Nghĩ là phải ngủ sớm đấy nhưng mà...<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 216,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "私は歯医者が苦手だ。歯の痛みがひどいときには行くが、少し（　　）我慢してしまう。",
+          "options": [
+            "痛くなる前に",
+            "痛そうなときは",
+            "痛いぐらいなら",
+            "痛くないのだから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "～ぐらいなら：Nếu chỉ ở mức độ hơi đau thì còn chịu được.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 217,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "私が風邪で学校を休んだ日、心配して電話をかけて（　　）友達がたくさんいて、うれしかった。",
+          "options": [
+            "きてくれた",
+            "きてあげた",
+            "みることができた",
+            "みることにした"
+          ],
+          "correctAnswer": 1,
+          "explanation": "～てくれる：Ai đó làm gì cho mình.<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 218,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "A「最近、天気悪いよね。明日は晴れるかなあ。」　B「いや、予報だと、今週は晴れる日が（　　）。」　A「じゃあ、明日も天気悪いのかあ。」",
+          "options": [
+            "一日もないからだよ",
+            "一日もないみたいだよ",
+            "一日じゃないからだよ",
+            "一日じゃないみたいだよ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dựa vào dự báo thời tiết nên dùng 「～みたいだよ」 (Hình như tuần này chẳng có ngày nào nắng cả).<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 219,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Đề 12/2015)",
+          "sentence": "彼からよく相談を受けるが、何に困っているのかわからないことが多い。私にどういうアドバイスを（　　）。",
+          "options": [
+            "してもいいようだ",
+            "したがるのだろうか",
+            "したほうがいいようだ",
+            "してほしいのだろうか"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Vてほしいのだろうか：Không biết anh ta muốn tôi khuyên thế nào đây.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 220,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Đề 12/2015)",
+          "beforeText": "狭い部屋でもテーブルの上に物を置かない",
+          "afterText": "に本に書いてあった。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "だけで"
+            },
+            {
+              "id": 2,
+              "text": "ようになると"
+            },
+            {
+              "id": 3,
+              "text": "ようにする"
+            },
+            {
+              "id": 4,
+              "text": "広く感じられる"
+            }
+          ],
+          "correctOrder": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "correctStarOption": 4,
+          "explanation": "Thứ tự đúng: 物を置かない <b>[ようにする(3)] [だけで(1)] [★ 広く感じられる(4)] [ようになると(2)]</b> 本に書いてあった。<br><b>Đáp án chọn:</b> 4"
+        },
+        {
+          "id": 221,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Đề 12/2015)",
+          "beforeText": "レストランでアルバイトを始めてから",
+          "afterText": "ミスまでしてしまった。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "今日で1年たつのに"
+            },
+            {
+              "id": 2,
+              "text": "皿を割るという"
+            },
+            {
+              "id": 3,
+              "text": "うえに"
+            },
+            {
+              "id": 4,
+              "text": "客の注文を間違えた"
+            }
+          ],
+          "correctOrder": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 始めてから <b>[今日で1年たつのに(1)] [客の注文を間違えた(4)] [★ うえに(3)] [皿を割るという(2)]</b> ミスまでしてしまった。<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 222,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Đề 12/2015)",
+          "beforeText": "大雨の中を傘を差さずに",
+          "afterText": "今朝からずっと鼻水が止まらない。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "風邪が"
+            },
+            {
+              "id": 2,
+              "text": "治りかけていた"
+            },
+            {
+              "id": 3,
+              "text": "またひどくなって"
+            },
+            {
+              "id": 4,
+              "text": "帰ったせいか"
+            }
+          ],
+          "correctOrder": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "correctStarOption": 1,
+          "explanation": "Thứ tự đúng: 差さずに <b>[帰ったせいか(4)] [治りかけていた(2)] [★ 風邪が(1)] [またひどくなって(3)]</b> 今朝からずっと鼻水が止まらない。<br><b>Đáp án chọn:</b> 1"
+        },
+        {
+          "id": 223,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Đề 12/2015)",
+          "beforeText": "",
+          "afterText": "ものが思い浮かぶと思いますが、大豆にもたくさん含まれています。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "肉や魚や卵といった"
+            },
+            {
+              "id": 2,
+              "text": "たんぱく質が"
+            },
+            {
+              "id": 3,
+              "text": "食べ物というと"
+            },
+            {
+              "id": 4,
+              "text": "多く含まれる"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: <b>[たんぱく質が(2)] [★ 多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)]</b> ものが思い浮かぶと思いますが... (Hoặc [2][4][3][1], sao là vị trí 2 -> 4? Wait: trong ảnh đề, dấu sao ở vị trí 2: `____ ★ ____ ____ ものが思い浮かぶ` -> [たんぱく質が(2)] [多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)] -> star=4! Khoan: trong ảnh đáp án khoanh đỏ số 3 `食べ物というと` ở vị trí 2? Kiểm tra lại: `たんぱく質が 多く含まれる 食べ物というと 肉や魚や卵といった ものが...` vs `たんぱく質が多く含まれる 食べ物というと` -> nếu vị trí 2 là `食べ物というと(3)` thì `[2][3][1][4]` -> `たんぱく質が 食べ物というと 肉や魚や卵といった 多く含まれる ものが` -> SAI ngữ pháp! Vì `もの` cần bổ ngữ `多く含まれる` đứng ngay trước, nhưng `肉や魚や卵といった` mới bổ nghĩa cho `もの`! Đúng hơn: `[たんぱく質が(2)] [多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)]` -> vị trí 3 là `3`! Kiểm tra ảnh `d2015_p05.png`: câu 48 là `____ ____ ★ ____ ものが思い浮かぶ` -> dấu sao ở VỊ TRÍ 3!! Đúng rồi!! `starPositionIndex: 3`, `correctOrder: [2, 4, 3, 1]`, `correctStarOption: 3`!).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 224,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て ★ (Đề 12/2015)",
+          "beforeText": "イベントの準備には",
+          "afterText": "スケジュールに余裕ができた。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "二日はかかるだろうと思われたが"
+            },
+            {
+              "id": 2,
+              "text": "多くのボランティアの方の協力で"
+            },
+            {
+              "id": 3,
+              "text": "最低でも"
+            },
+            {
+              "id": 4,
+              "text": "一日で終わったので"
+            }
+          ],
+          "correctOrder": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "correctStarOption": 2,
+          "explanation": "Thứ tự đúng: 準備には <b>[最低でも(3)] [二日はかかるだろうと思われたが(1)] [★ 多くのボランティアの方の協力で(2)] [一日で終わったので(4)]</b> スケジュールに余裕ができた。<br><b>Đáp án chọn:</b> 2"
+        },
+        {
+          "id": 225,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Đề 12/2015)",
+          "passage": "すしを載せた皿が、客席沿いに設置された台の上を通って次々に流れていく。回転ずしの店で、目の前を通り過ぎるおいしそうなすしを見ていると、どれも食べたくなる。つい食べ過ぎてしまうという人も（　50　）。回転ずしで1回に食べる量の平均は一人約10皿だという。すし1つのご飯の量が約20グラムで、普通、回転ずしでは1皿にすしが2つ載っているから、約400グラムもご飯を食べていることになる。茶わん1杯分のご飯の量が約150グラムだとすると、（　51　）。回転ずしでたくさん食べてしまうのはなぜなのか。\nこんな（　52　）。すしが好きな人たちにすしを食べてもらう。まずは、すしの皿を台に載せて流さず、1皿ずつ注文してすしを食べる。別の日に今度は、流れているすしの皿を取ってすしを食べる。（　53　）、流れているときに食べた量は、そうでないときの約1.5倍になったという。\n心理学の専門家によると、これは「目の前に流れてくる」ことの効果らしい。すしが目の前に流れてくると、意識しなくても目に入り、あれもこれも食べたいと思ってしまう。また、人間は、目の前で動いている食べ物を見ると目で追って手に入れようとする性質を持っており、それも思わず皿を取ってしまう原因の一つだということだ。\n回転ずしでたくさん食べてしまうのには、納得の理由があったのだ。回転ずしの店に行ったとき、食べ過ぎてしまうのは（　54　）。",
+          "sentence": "（　50　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "多かったのか",
+            "多いのではないか",
+            "多ければいい",
+            "多くてよかった"
+          ],
+          "correctAnswer": 2,
+          "explanation": "～のではないか：Chẳng phải là có nhiều người như vậy sao.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 226,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Đề 12/2015)",
+          "passage": "すしを載せた皿が、客席沿いに設置された台の上を通って次々に流れていく。回転ずしの店で、目の前を通り過ぎるおいしそうなすしを見ていると、どれも食べたくなる。つい食べ過ぎてしまうという人も（　50　）。回転ずしで1回に食べる量の平均は一人約10皿だという。すし1つのご飯の量が約20グラムで、普通、回転ずしでは1皿にすしが2つ載っているから、約400グラムもご飯を食べていることになる。茶わん1杯分のご飯の量が約150グラムだとすると、（　51　）。回転ずしでたくさん食べてしまうのはなぜなのか。\nこんな（　52　）。すしが好きな人たちにすしを食べてもらう。まずは、すしの皿を台に載せて流さず、1皿ずつ注文してすしを食べる。別の日に今度は、流れているすしの皿を取ってすしを食べる。（　53　）、流れているときに食べた量は、そうでないときの約1.5倍になったという。\n心理学の専門家によると、これは「目の前に流れてくる」ことの効果らしい。すしが目の前に流れてくると、意識しなくても目に入り、あれもこれも食べたいと思ってしまう。また、人間は、目の前で動いている食べ物を見ると目で追って手に入れようとする性質を持っており、それも思わず皿を取ってしまう原因の一つだということだ。\n回転ずしでたくさん食べてしまうのには、納得の理由があったのだ。回転ずしの店に行ったとき、食べ過ぎてしまうのは（　54　）。",
+          "sentence": "（　51　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "2杯分以上だ",
+            "2杯分以上でもおかしくない",
+            "2杯分以上だからだ",
+            "2杯分以上でなければいけない"
+          ],
+          "correctAnswer": 1,
+          "explanation": "400g so với 150g/bát thì là hơn 2 bát cơm (2杯分以上だ).<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 227,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Đề 12/2015)",
+          "passage": "すしを載せた皿が、客席沿いに設置された台の上を通って次々に流れていく。回転ずしの店で、目の前を通り過ぎるおいしそうなすしを見ていると、どれも食べたくなる。つい食べ過ぎてしまうという人も（　50　）。回転ずしで1回に食べる量の平均は一人約10皿だという。すし1つのご飯の量が約20グラムで、普通、回転ずしでは1皿にすしが2つ載っているから、約400グラムもご飯を食べていることになる。茶わん1杯分のご飯の量が約150グラムだとすると、（　51　）。回転ずしでたくさん食べてしまうのはなぜなのか。\nこんな（　52　）。すしが好きな人たちにすしを食べてもらう。まずは、すしの皿を台に載せて流さず、1皿ずつ注文してすしを食べる。別の日に今度は、流れているすしの皿を取ってすしを食べる。（　53　）、流れているときに食べた量は、そうでないときの約1.5倍になったという。\n心理学の専門家によると、これは「目の前に流れてくる」ことの効果らしい。すしが目の前に流れてくると、意識しなくても目に入り、あれもこれも食べたいと思ってしまう。また、人間は、目の前で動いている食べ物を見ると目で追って手に入れようとする性質を持っており、それも思わず皿を取ってしまう原因の一つだということだ。\n回転ずしでたくさん食べてしまうのには、納得の理由があったのだ。回転ずしの店に行ったとき、食べ過ぎてしまうのは（　54　）。",
+          "sentence": "（　52　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "実験だといえる",
+            "実験だとしている",
+            "実験がある",
+            "実験になる"
+          ],
+          "correctAnswer": 3,
+          "explanation": "こんな実験がある：Có một thí nghiệm như thế này.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 228,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Đề 12/2015)",
+          "passage": "すしを載せた皿が、客席沿いに設置された台の上を通って次々に流れていく。回転ずしの店で、目の前を通り過ぎるおいしそうなすしを見ていると、どれも食べたくなる。つい食べ過ぎてしまうという人も（　50　）。回転ずしで1回に食べる量の平均は一人約10皿だという。すし1つのご飯の量が約20グラムで、普通、回転ずしでは1皿にすしが2つ載っているから、約400グラムもご飯を食べていることになる。茶わん1杯分のご飯の量が約150グラムだとすると、（　51　）。回転ずしでたくさん食べてしまうのはなぜなのか。\nこんな（　52　）。すしが好きな人たちにすしを食べてもらう。まずは、すしの皿を台に載せて流さず、1皿ずつ注文してすしを食べる。別の日に今度は、流れているすしの皿を取ってすしを食べる。（　53　）、流れているときに食べた量は、そうでないときの約1.5倍になったという。\n心理学の専門家によると、これは「目の前に流れてくる」ことの効果らしい。すしが目の前に流れてくると、意識しなくても目に入り、あれもこれも食べたいと思ってしまう。また、人間は、目の前で動いている食べ物を見ると目で追って手に入れようとする性質を持っており、それも思わず皿を取ってしまう原因の一つだということだ。\n回転ずしでたくさん食べてしまうのには、納得の理由があったのだ。回転ずしの店に行ったとき、食べ過ぎてしまうのは（　54　）。",
+          "sentence": "（　53　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "つまり",
+            "すると",
+            "ところが",
+            "一方で"
+          ],
+          "correctAnswer": 2,
+          "explanation": "すると：Thế rồi, kết quả là (dùng khi kể kết quả thí nghiệm).<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 229,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Đề 12/2015)",
+          "passage": "すしを載せた皿が、客席沿いに設置された台の上を通って次々に流れていく。回転ずしの店で、目の前を通り過ぎるおいしそうなすしを見ていると、どれも食べたくなる。つい食べ過ぎてしまうという人も（　50　）。回転ずしで1回に食べる量の平均は一人約10皿だという。すし1つのご飯の量が約20グラムで、普通、回転ずしでは1皿にすしが2つ載っているから、約400グラムもご飯を食べていることになる。茶わん1杯分のご飯の量が約150グラムだとすると、（　51　）。回転ずしでたくさん食べてしまうのはなぜなのか。\nこんな（　52　）。すしが好きな人たちにすしを食べてもらう。まずは、すしの皿を台に載せて流さず、1皿ずつ注文してすしを食べる。別の日に今度は、流れているすしの皿を取ってすしを食べる。（　53　）、流れているときに食べた量は、そうでないときの約1.5倍になったという。\n心理学の専門家によると、これは「目の前に流れてくる」ことの効果らしい。すしが目の前に流れてくると、意識しなくても目に入り、あれもこれも食べたいと思ってしまう。また、人間は、目の前で動いている食べ物を見ると目で追って手に入れようとする性質を持っており、それも思わず皿を取ってしまう原因の一つだということだ。\n回転ずしでたくさん食べてしまうのには、納得の理由があったのだ。回転ずしの店に行ったとき、食べ過ぎてしまうのは（　54　）。",
+          "sentence": "（　54　）に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "options": [
+            "避けたいに決まっている",
+            "避けるべきだった",
+            "避けられたかもしれない",
+            "避けられないのだろう"
+          ],
+          "correctAnswer": 4,
+          "explanation": "避けられないのだろう：Có lẽ là không thể tránh khỏi được.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 230,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đề 12/2015)",
+          "passage": "今の子どもたちは、先生に問題を出され、先生から答えを教えてもらうことに慣れてしまい、答えばかりか疑問さえも見つけることをしなくなってしまったのではないか。知っていることが重要だと勘違いし、問題と答えを覚え、知識を得たことで満足してしまっている。それでは疑問を解く過程で味わう楽しみや、何日もかかって答えにたどり着いた時の喜びを味わうことができない。なんだか、かわいそうな気がする。",
+          "questionText": "今の子どもたちについて、筆者はどのように考えているか。",
+          "options": [
+            "知識を得るための努力をしない。",
+            "知識が豊富なので疑問を感じにくい。",
+            "疑問を解く楽しみや喜びを知らない。",
+            "疑問があっても答えが見つけられない。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tác giả tiếc rằng trẻ em ngày nay quen được dạy sẵn đáp án nên không biết được niềm vui khi tự mình giải quyết thắc mắc.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 231,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đề 12/2015)",
+          "passage": "＜工場見学受け入れ準備＞\n見学日時：12月18日（金）10時～12時\n見学者：池内日本語学校（20名）\n●12月10日（木）までに見学当日使用の会議室Aの予約\n●12月11日（金）池内日本語学校（関口先生）との事前打ち合わせ\n　時間：11時～12時　場所：会議室B（予約不要）\n　確認すること：・見学者の日本語レベル　・会社案内パンフレットの言語（日本語か英語か）\n●12月17日（木）までに会社案内パンフレットの準備（20部）\n●12月18日（金）9時半までに会議室Aの準備（テーブル、いす、会社案内パンフレット）",
+          "questionText": "中島さんが準備すべきこととして、合っているのはどれか。",
+          "options": [
+            "12月10日に見学者の日本語レベルを確認する。",
+            "12月11日までに会議室Aを予約する。",
+            "12月17日までに会社案内パンフレットを準備する。",
+            "12月18日に会議室Bのテーブルやいすなどを準備する。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Theo lịch: họp trước vào 12/11 để xác nhận trình độ tiếng Nhật; đặt phòng A hạn 12/10; chuẩn bị phòng A (không phải B) vào 12/18; chuẩn bị 20 tờ giới thiệu công ty hạn 12/17.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 232,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đề 12/2015)",
+          "passage": "動物は、ふつう常温のものを食べています。ところが、ヒトは冷めた料理はおいしくないというように、常温の料理を好みません。むしろ、熱くした料理や、冷たくした料理を好みます。ヒトは、辛い味、強烈なにおい、熱い、冷たいなど、あらゆる手段を使って、食欲を刺激する工夫をしてきたのです。こうした言い方は、ヒトと動物のちがいを強調したものですが、べつの言い方をすれば、<u>これ</u>が人の食文化をつくってきたのです。",
+          "questionText": "<u>これ</u>とは何か。",
+          "options": [
+            "常温の料理を好んで食べたこと",
+            "食べたいと思えるように工夫をしてきたこと",
+            "一人一人の好みに合わせて料理してきたこと",
+            "ヒトと動物とのちがいを意識して料理してきたこと"
+          ],
+          "correctAnswer": 2,
+          "explanation": "「これ」 chỉ việc con người đã dùng mọi cách (gia vị, mùi hương, nóng lạnh) để kích thích sự thèm ăn.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 233,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đề 12/2015)",
+          "passage": "会社を大きくしていくためには、私自身、やはり自分ができないことがたくさんあるのは分かっていますから、いろいろとスタッフに要求していかなければ達成できないんです。自分じゃ到底できないことも、「できるはずです」と要求していかないと、私の能力が組織の能力の天井（能力の限界）になってしまいます。ですから、私がすべてのマネージャーに伝えているのは、「自分のことを棚に上げて（自分ができるかどうかに関係なく）、スタッフに要求すべきことは要求してください」ということです。",
+          "questionText": "筆者がマネージャーに言いたいことは何か。",
+          "options": [
+            "マネージャーの能力を超えている仕事もスタッフにさせるべきだ。",
+            "マネージャーより能力の高いスタッフを集めるべきだ。",
+            "スタッフの能力に合わせて達成できることを要求すべきだ。",
+            "スタッフの能力の限界まで仕事をさせるべきだ。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tác giả khuyên quản lý hãy gạt giới hạn bản thân sang một bên để yêu cầu nhân viên làm cả những việc mà chính quản lý cũng không làm được.<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 234,
+          "mondai": 10,
+          "mondaiName": "問題10：短文読解 (Đề 12/2015)",
+          "passage": "人を不愉快な気持ちにさせないように、反論もせず、自分の不快な気持ちも伝えないで黙っていると、相手はあなたを理解するチャンスを失い、互いに自分らしくつきあうことができなくなるでしょう。\nもちろん、相手も自分の気持ちや考えを表現してよいので、そこで葛藤（対立）が起こることもあります。\nただ、葛藤や違いが明らかになることを避けて、親、上司、先生に意見を言わなかったり、支援を頼めなかったりすると、その場は何事もなく進むかもしれませんが、誤解のうえに人間関係がつくられていくことになります。",
+          "questionText": "人間関係について、筆者が言いたいことは何か。",
+          "options": [
+            "人を不愉快にさせないような表現をするべきだ。",
+            "相手の気持ちを理解しなくてはならない。",
+            "自分の気持ちをきちんと伝えるべきだ。",
+            "不満があっても我慢したほうがいい。"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Nếu cứ im lặng không nói ra suy nghĩ thì quan hệ sẽ xây dựng trên sự hiểu lầm; cần truyền đạt rõ cảm xúc của bản thân.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 235,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "人間というのは、自分でわかっていることに関しては手早くポイントだけを取り出して相手に教えて、たくさんの説明をつい省略してしまいがちだ。そのせいで、教わる側が理解しにくくなってしまうこともある。人に教える時には、自分が理解した時点まで戻ってていねいに相手に伝えないと、うまく理解してもらえないのではないか。\nまた、そのプロセスのなかで、教わる側が積極的に質問することがとても重要だと思う。質問をすれば、何を理解していないのか、何を誤解しているのかが、教える側にとてもよくわかるからだ。それに、同じことでも繰り返し説明されることによって、理解が深まるケースも多い。\n個人的には、一回だけの説明で理解してもらえるケースというのは、実はとても少ないのではないかと思っている。\nまた、すべてを教えるのではなく大部分を伝え、最後の部分は自分で考えて理解させるようにするのが、理想的な教え方ではないかと考えている。\n一方的に入ってきた知識は、一方的に出て行きやすい。しかし、自分で体得（身につける）したものは出て行きにくい。\n小学生に大学の講義を聞かせてもチンプンカンプンな（全くわからない）ように、相手のレベルに合わせて、相手が必要としていることを教えなければ意味はない。それは、非常に微妙な調整を必要とする、<u>ある種の職人技</u>だ。そんなところが、教える側の大きなやり甲斐ではないかと考えている。",
+          "questionText": "教える側がよくしてしまうことは何か。",
+          "options": [
+            "自分がわかっていることは相手にすべて教える。",
+            "自分がわかっていることは簡単な説明で済ませる。",
+            "自分がよく理解していないことは説明を省略する。",
+            "自分が理解したのと同じやり方で相手に理解させる。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đoạn 1: Người dạy hay tóm gọn nhanh những điểm mình đã hiểu và lược bỏ nhiều giải thích.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 236,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "人間というのは、自分でわかっていることに関しては手早くポイントだけを取り出して相手に教えて、たくさんの説明をつい省略してしまいがちだ。そのせいで、教わる側が理解しにくくなってしまうこともある。人に教える時には、自分が理解した時点まで戻ってていねいに相手に伝えないと、うまく理解してもらえないのではないか。\nまた、そのプロセスのなかで、教わる側が積極的に質問することがとても重要だと思う。質問をすれば、何を理解していないのか、何を誤解しているのかが、教える側にとてもよくわかるからだ。それに、同じことでも繰り返し説明されることによって、理解が深まるケースも多い。\n個人的には、一回だけの説明で理解してもらえるケースというのは、実はとても少ないのではないかと思っている。\nまた、すべてを教えるのではなく大部分を伝え、最後の部分は自分で考えて理解させるようにするのが、理想的な教え方ではないかと考えている。\n一方的に入ってきた知識は、一方的に出て行きやすい。しかし、自分で体得（身につける）したものは出て行きにくい。\n小学生に大学の講義を聞かせてもチンプンカンプンな（全くわからない）ように、相手のレベルに合わせて、相手が必要としていることを教えなければ意味はない。それは、非常に微妙な調整を必要とする、<u>ある種の職人技</u>だ。そんなところが、教える側の大きなやり甲斐ではないかと考えている。",
+          "questionText": "理想的な教え方とはどのようにすることか。",
+          "options": [
+            "教わる側に質問をして、理解できたかを確認すること",
+            "教わる側と一緒に考えながら、理解させるようにすること",
+            "最後にそれまでの内容をまとめて説明し、理解を深めさせること",
+            "最後の部分は、教わる側に自分で考えて理解させるようにすること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Đoạn 4: Truyền đạt phần lớn, còn phần cuối để người học tự suy nghĩ để hiểu ra.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 237,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "人間というのは、自分でわかっていることに関しては手早くポイントだけを取り出して相手に教えて、たくさんの説明をつい省略してしまいがちだ。そのせいで、教わる側が理解しにくくなってしまうこともある。人に教える時には、自分が理解した時点まで戻ってていねいに相手に伝えないと、うまく理解してもらえないのではないか。\nまた、そのプロセスのなかで、教わる側が積極的に質問することがとても重要だと思う。質問をすれば、何を理解していないのか、何を誤解しているのかが、教える側にとてもよくわかるからだ。それに、同じことでも繰り返し説明されることによって、理解が深まるケースも多い。\n個人的には、一回だけの説明で理解してもらえるケースというのは、実はとても少ないのではないかと思っている。\nまた、すべてを教えるのではなく大部分を伝え、最後の部分は自分で考えて理解させるようにするのが、理想的な教え方ではないかと考えている。\n一方的に入ってきた知識は、一方的に出て行きやすい。しかし、自分で体得（身につける）したものは出て行きにくい。\n小学生に大学の講義を聞かせてもチンプンカンプンな（全くわからない）ように、相手のレベルに合わせて、相手が必要としていることを教えなければ意味はない。それは、非常に微妙な調整を必要とする、<u>ある種の職人技</u>だ。そんなところが、教える側の大きなやり甲斐ではないかと考えている。",
+          "questionText": "<u>ある種の職人技</u>とあるが、どのようなことか。",
+          "options": [
+            "相手が覚えるまで繰り返し教えられること",
+            "相手のレベルを超えた内容も教えられること",
+            "内容や教え方を相手に応じて変えられること",
+            "誰でも理解できるような知識だけを選べること"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đoạn cuối: Điều chỉnh tinh tế nội dung và cách dạy sao cho phù hợp với trình độ và nhu cầu của đối phương.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 238,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "近年、おもちゃメーカーが大人に向けたおもちゃに力を入れ、売り上げを伸ばしている。少子化に伴い、マーケットを大人にまで広げる必要性が出てきたという事情もあるが、この売り上げの伸び方はそれだけでは説明できない。その裏には、大人に「おもちゃを買いたい」と思わせたおもちゃメーカーの戦略がある。\n子供の時に欲しいおもちゃをすべて買ってもらえたという人はいないだろう。買ってもらいたかったのにという思いを忘れられず、今でもおもちゃに思いを寄せる大人は意外と多い。おもちゃメーカーは<u>そこに注目した</u>。しかし、大人が子供向けのおもちゃを買うことには抵抗があると同時に、物足りなさも感じる。大人向けのおもちゃには、大人が買いたくなる工夫が必要だ。例えば、鉄道模型には特殊な素材を使用し、完成後にインテリアとして飾ることができる。組み立て式のミニギターは組み立て後に本格的な演奏も楽しめるし、色使いが落ち着いたカードのゲームは気持ちをリラックスさせる。このように、大人向けのおもちゃには単におもちゃとして遊ぶだけではない他の魅力がある。\nまた、大人向けのおもちゃは高いものが多い。高くしたほうが価値があると考えられて人気が出ることさえある。一般的にメーカーは商品価格をあまり高く設定できないものだが、大人向けのおもちゃならできる。おもちゃメーカーにとっては魅力的なマーケットである。",
+          "questionText": "<u>そこに注目した</u>とあるが、何に注目したのか。",
+          "options": [
+            "子供の時にあまりおもちゃで遊ばなかった大人が多くいること",
+            "子供の時に遊んでいたおもちゃを大人が欲しがっていること",
+            "おもちゃへの思いを持ち続けている大人が多くいること",
+            "おもちゃの中には大人でも楽しめるものがあること"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đoạn 2: Nhiều người lớn vẫn giữ nguyên nỗi niềm/tình cảm với đồ chơi từ hồi nhỏ.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 239,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "近年、おもちゃメーカーが大人に向けたおもちゃに力を入れ、売り上げを伸ばしている。少子化に伴い、マーケットを大人にまで広げる必要性が出てきたという事情もあるが、この売り上げの伸び方はそれだけでは説明できない。その裏には、大人に「おもちゃを買いたい」と思わせたおもちゃメーカーの戦略がある。\n子供の時に欲しいおもちゃをすべて買ってもらえたという人はいないだろう。買ってもらいたかったのにという思いを忘れられず、今でもおもちゃに思いを寄せる大人は意外と多い。おもちゃメーカーは<u>そこに注目した</u>。しかし、大人が子供向けのおもちゃを買うことには抵抗があると同時に、物足りなさも感じる。大人向けのおもちゃには、大人が買いたくなる工夫が必要だ。例えば、鉄道模型には特殊な素材を使用し、完成後にインテリアとして飾ることができる。組み立て式のミニギターは組み立て後に本格的な演奏も楽しめるし、色使いが落ち着いたカードのゲームは気持ちをリラックスさせる。このように、大人向けのおもちゃには単におもちゃとして遊ぶだけではない他の魅力がある。\nまた、大人向けのおもちゃは高いものが多い。高くしたほうが価値があると考えられて人気が出ることさえある。一般的にメーカーは商品価格をあまり高く設定できないものだが、大人向けのおもちゃならできる。おもちゃメーカーにとっては魅力的なマーケットである。",
+          "questionText": "大人向けのおもちゃには、どのような工夫があるか。",
+          "options": [
+            "遊ぶ目的以外の違ったよさが感じられるようにしてある。",
+            "大人に合わせた高度な遊びができるようにしてある。",
+            "二つ以上の遊び方ができるようにしてある。",
+            "何度でも飽きずに遊べるようにしてある。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Ngoài việc để chơi, đồ chơi cho người lớn còn có sức hút khác như làm đồ trang trí nội thất, giúp thư giãn...<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 240,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "近年、おもちゃメーカーが大人に向けたおもちゃに力を入れ、売り上げを伸ばしている。少子化に伴い、マーケットを大人にまで広げる必要性が出てきたという事情もあるが、この売り上げの伸び方はそれだけでは説明できない。その裏には、大人に「おもちゃを買いたい」と思わせたおもちゃメーカーの戦略がある。\n子供の時に欲しいおもちゃをすべて買ってもらえたという人はいないだろう。買ってもらいたかったのにという思いを忘れられず、今でもおもちゃに思いを寄せる大人は意外と多い。おもちゃメーカーは<u>そこに注目した</u>。しかし、大人が子供向けのおもちゃを買うことには抵抗があると同時に、物足りなさも感じる。大人向けのおもちゃには、大人が買いたくなる工夫が必要だ。例えば、鉄道模型には特殊な素材を使用し、完成後にインテリアとして飾ることができる。組み立て式のミニギターは組み立て後に本格的な演奏も楽しめるし、色使いが落ち着いたカードのゲームは気持ちをリラックスさせる。このように、大人向けのおもちゃには単におもちゃとして遊ぶだけではない他の魅力がある。\nまた、大人向けのおもちゃは高いものが多い。高くしたほうが価値があると考えられて人気が出ることさえある。一般的にメーカーは商品価格をあまり高く設定できないものだが、大人向けのおもちゃならできる。おもちゃメーカーにとっては魅力的なマーケットである。",
+          "questionText": "メーカーにとって大人向けのおもちゃマーケットの何が魅力的なのか。",
+          "options": [
+            "子供向けのおもちゃと同様に多く売れる点",
+            "昔と同じおもちゃを作れば売れる点",
+            "工夫が多ければ多いほど売れる点",
+            "価格を高くしても売れる点"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Đoạn 3: Thông thường khó đặt giá cao nhưng đồ chơi cho người lớn giá cao vẫn bán chạy.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 241,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "今の若い人は、ある程度完備した科学社会に生まれている。携帯電話もカーナビも当たり前になった社会である。発展の過程を見ていない彼らは、どういった原理でそれらが機能しているのかを知らない。知らなくても、その恩恵を受けることができる。充電さえしていれば、誰とでもいつでも連絡がつくと信じている。電波がどんなもので、どのような設備によって成り立っているのかを知らない人が多い。十数メートルしか離れていない場所なのに、携帯電話が通じなくなることがあるなんて、考えてもいないだろう。\nこういった「科学離れ」については、昔から問題意識はあった。だから、子供たち向けに科学を教育するシステムをいろいろな形で模索してきた。けれども、<u>僕が感じることが一つある</u>。そういう教育をしているのは、科学が好きな人たちだ。だから、口を揃えてこう言う、「科学の楽しさを子供たちに知ってもらいたい」と。この言葉を聞くたびに、「楽しさ」を押しつけている姿勢を感じずにはいられない。読書の楽しみを知ってもらいたい。スポーツの楽しさを感じてもらいたい。ほかの分野でも、こういった姿勢は根強い。しかし、科学の場合は、そんな悠長な問題ではない、と思うのだ。読書やスポーツが嫌いな人は、それをしなくても良いだろう。楽しみは、ほかにいくらでもある。しかし、科学を避けることは、この現代に生きていくうえではほとんど無理なのである。（中略）もはや、好きとか嫌いで片づけられるものではない、ということだ。",
+          "questionText": "筆者は、今の若者をどのように見ているか。",
+          "options": [
+            "科学が発展した社会に生まれたので、携帯電話などの機器のない不便さを知らない。",
+            "科学社会で育っていても、携帯電話などの機器の原理を知らないで使っている。",
+            "科学の発展過程を知らないため、携帯電話などの機器の進歩が実感できない。",
+            "科学に関心がないので、携帯電話などの機器を十分に活用していない。"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đoạn 1: Không biết nguyên lý hoạt động nhưng vẫn được hưởng lợi và sử dụng hàng ngày.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 242,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "今の若い人は、ある程度完備した科学社会に生まれている。携帯電話もカーナビも当たり前になった社会である。発展の過程を見ていない彼らは、どういった原理でそれらが機能しているのかを知らない。知らなくても、その恩恵を受けることができる。充電さえしていれば、誰とでもいつでも連絡がつくと信じている。電波がどんなもので、どのような設備によって成り立っているのかを知らない人が多い。十数メートルしか離れていない場所なのに、携帯電話が通じなくなることがあるなんて、考えてもいないだろう。\nこういった「科学離れ」については、昔から問題意識はあった。だから、子供たち向けに科学を教育するシステムをいろいろな形で模索してきた。けれども、<u>僕が感じることが一つある</u>。そういう教育をしているのは、科学が好きな人たちだ。だから、口を揃えてこう言う、「科学の楽しさを子供たちに知ってもらいたい」と。この言葉を聞くたびに、「楽しさ」を押しつけている姿勢を感じずにはいられない。読書の楽しみを知ってもらいたい。スポーツの楽しさを感じてもらいたい。ほかの分野でも、こういった姿勢は根強い。しかし、科学の場合は、そんな悠長な問題ではない、と思うのだ。読書やスポーツが嫌いな人は、それをしなくても良いだろう。楽しみは、ほかにいくらでもある。しかし、科学を避けることは、この現代に生きていくうえではほとんど無理なのである。（中略）もはや、好きとか嫌いで片づけられるものではない、ということだ。",
+          "questionText": "<u>僕が感じることが一つある</u>とあるが、何を感じているのか。",
+          "options": [
+            "科学が好きな人たちだけが、科学の楽しさを教えられるわけではない。",
+            "「科学離れ」を防ぐには、科学の楽しさを教えることが大切だ。",
+            "科学の楽しさは、子供が簡単に理解できるものではない。",
+            "科学教育は、科学の楽しさばかりを強調している。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Đoạn 2: Giáo dục khoa học cứ lặp đi lặp lại thái độ áp đặt 'niềm vui của khoa học'.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 243,
+          "mondai": 11,
+          "mondaiName": "問題11：中文読解 (Đề 12/2015)",
+          "passage": "今の若い人は、ある程度完備した科学社会に生まれている。携帯電話もカーナビも当たり前になった社会である。発展の過程を見ていない彼らは、どういった原理でそれらが機能しているのかを知らない。知らなくても、その恩恵を受けることができる。充電さえしていれば、誰とでもいつでも連絡がつくと信じている。電波がどんなもので、どのような設備によって成り立っているのかを知らない人が多い。十数メートルしか離れていない場所なのに、携帯電話が通じなくなることがあるなんて、考えてもいないだろう。\nこういった「科学離れ」については、昔から問題意識はあった。だから、子供たち向けに科学を教育するシステムをいろいろな形で模索してきた。けれども、<u>僕が感じることが一つある</u>。そういう教育をしているのは、科学が好きな人たちだ。だから、口を揃えてこう言う、「科学の楽しさを子供たちに知ってもらいたい」と。この言葉を聞くたびに、「楽しさ」を押しつけている姿勢を感じずにはいられない。読書の楽しみを知ってもらいたい。スポーツの楽しさを感じてもらいたい。ほかの分野でも、こういった姿勢は根強い。しかし、科学の場合は、そんな悠長な問題ではない、と思うのだ。読書やスポーツが嫌いな人は、それをしなくても良いだろう。楽しみは、ほかにいくらでもある。しかし、科学を避けることは、この現代に生きていくうえではほとんど無理なのである。（中略）もはや、好きとか嫌いで片づけられるものではない、ということだ。",
+          "questionText": "筆者の考えに合っているのはどれか。",
+          "options": [
+            "現代は科学とかかわわらずに生きていくことはできない。",
+            "現代は科学を無理に好きになる必要はない。",
+            "科学が読書やスポーツより楽しくないのは当然だ。",
+            "これからは科学嫌いをなくさなければならない。"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đoạn cuối: Trong thời đại ngày nay hầu như không thể tránh né khoa học mà sống được.<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 244,
+          "mondai": 12,
+          "mondaiName": "問題12：総合理解 A-B (Đề 12/2015)",
+          "passage": "【A】\n仕事で成果を出すにはノートの活用がお勧めです。ノートにはスケジュール管理や収集した情報の記録だけでなく、日々の仕事に関する気づきや考えをいつでもどこでも書くことが可能だからです。毎日仕事で忙しいときちんと記録することが面倒になりがちですが、メモのように書くことなら気楽にできます。また、ノートに書いておけば、自分の考えを後から見直すこともできます。\nでは、どのように書いたらいいのでしょうか。テーマ別に分類したり、整理して書こうとすると負担となり続けられないので、日付の順で構いません。仕事に関することは何でも一冊のノートに書き込んでいくのがいいでしょう。\n\n【B】\nノートとは新しい情報を記録するためのものだ。必死にノートに書いて覚えたという学生時代の記憶からか、そんな思い込みがあるかもしれない。\nしかしノートの利用法はそれだけではない。ノートをうまく利用すれば、自身の考えを改めて検討することができる。仕事では、新しいアイデアを提示したり、困難な課題を解決したりする能力が求められる。そのような力を養うために、ノートには情報を記録するだけでなく、自身の気づきや考えを書いて整理するという方法が有効だ。情報のメモと考えはノートを別にするのがよいだろう。そうすることで集めた情報の中におぼれず、どう考えるかを自身に問いかける姿勢が身についていく。",
+          "questionText": "ノートに書く利点について、AとBの考え方で共通していることは何か。",
+          "options": [
+            "自分の考えを後から振り返ることができること",
+            "時間や場所を問わず気軽に書けること",
+            "新しいアイデアを見つけ出せること",
+            "情報をうまく整理できること"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cả A (自分の考えを後から見直す) và B (自身の考えを改めて検討する) đều chung ý có thể xem lại suy nghĩ của bản thân.<br><b>Đáp án đúng là 1</b>."
+        },
+        {
+          "id": 245,
+          "mondai": 12,
+          "mondaiName": "問題12：総合理解 A-B (Đề 12/2015)",
+          "passage": "【A】\n仕事で成果を出すにはノートの活用がお勧めです。ノートにはスケジュール管理や収集した情報の記録だけでなく、日々の仕事に関する気づきや考えをいつでもどこでも書くことが可能だからです。毎日仕事で忙しいときちんと記録することが面倒になりがちですが、メモのように書くことなら気楽にできます。また、ノートに書いておけば、自分の考えを後から見直すこともできます。\nでは、どのように書いたらいいのでしょうか。テーマ別に分類したり、整理して書こうとすると負担となり続けられないので、日付の順で構いません。仕事に関することは何でも一冊のノートに書き込んでいくのがいいでしょう。\n\n【B】\nノートとは新しい情報を記録するためのものだ。必死にノートに書いて覚えたという学生時代の記憶からか、そんな思い込みがあるかもしれない。\nしかしノートの利用法はそれだけではない。ノートをうまく利用すれば、自身の考えを改めて検討することができる。仕事では、新しいアイデアを提示したり、困難な課題を解決したりする能力が求められる。そのような力を養うために、ノートには情報を記録するだけでなく、自身の気づきや考えを書いて整理するという方法が有効だ。情報のメモと考えはノートを別にするのがよいだろう。そうすることで集めた情報の中におぼれず、どう考えるかを自身に問いかける姿勢が身についていく。",
+          "questionText": "ノートの書き方について、AとBはどのように述べているか。",
+          "options": [
+            "AもBも、気づいたことをどんどん書いていくといいと述べている。",
+            "AもBも、情報と自身の考えを整理しながら書くといいと述べている。",
+            "Aはテーマ別に一冊のノートに書くといいと述べ、Bは情報を何冊かのノートに分けて書くといいと述べている。",
+            "Aは何でも一冊のノートに書くといいと述べ、Bは情報と自身の考えはノートを分けて書くといいと述べている。"
+          ],
+          "correctAnswer": 4,
+          "explanation": "A khuyên viết tất cả vào một cuốn theo thứ tự ngày; B khuyên tách riêng sổ ghi thông tin và sổ ghi suy nghĩ cá nhân.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 246,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (Đề 12/2015)",
+          "passage": "小説家になりたい人には「好きな作家のものを全部読む」という読書法をすすめる。好きな、というのは、自分に合っている気がして読みやすく、しかも楽しいというものだ。いろんな作家をちょっとずつ読む、というのでは、あまり身につくものがたい。ベストセラーになっている話題作をせっせと追いかける、というのは<u>①もっとよくない</u>。\nベストセラーになる小説は、とりあえず何かいいところがあって売れているのだから、読めば参考になるのではないかと言うかもしれないが、それを読んで参考にしている人がたくさんいる、ということなのだ。みんなが狙っている方向で、自分もやってみるというのでは、目立つこともないわけである。\n（中略）\nひとりの作家（あなたにとって、不思議に肌合いがよくて楽しめる小説を書く人）の全小説を読んでみるのは、知らず知らずのうちに、その作家の「小説作法」を感じ取ることである。この人は小説を、このように構成するのだ、そこが心地いいのだ、とわかることである。この人は人間心理を、このように描写する、この人の社会観はこうである、なんてこともわかる。\n<u>②それ</u>がわかれば、似たようなものを書くところまであと一歩、なのである。特別にマネして書こうと思っていなかったとしても、書くものは自然と、その作家の作風と似たものになり、初心者が書いたにしては完成度が高いものになるだろう。\nこう反論する人がいるかもしれない。小説を書いて世に発表したいという願望は、自分というものを世間に知らしめたいということであって、つまりは自己表現欲から出てくるものだ。それなのに、他人の作品をマネているのでは、自分の表現にはならないのではないか。\n自己表現欲のことは、確かにその通りである。しかし、慌てないで順に段取りを踏んでいこうではないか。いきなり自分らしさを出したいと考えるのではなく、まずは世間が振り向いてくれるレベルのものが書けるよう、上達する必要があるのだ。\n私の書くものには価値があるのだから、世間は注目しなければならない、と思い込んでしまう人が案外いるのだが、それではなかなか読んでもらえない。\nだから、まずはうまく書けるようにならなければいけない。\nそのための訓練として、ある作家を熟読しているというのは、大変に有効なのである。",
+          "questionText": "<u>①もっとよくない</u>とあるが、なぜか。",
+          "options": [
+            "話題作は次々と変わるので、共通の特徴がつかめないから",
+            "話題作となる理由はさまざまなので、参考にならないから",
+            "話題作を参考にしても、他者と似た作品にしかならないから",
+            "話題作ばかり読んでも、作品の本当のよさがわからないから"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vì có quá nhiều người đọc và tham khảo sách bán chạy, nên làm theo hướng đó cũng không thể nổi bật được.<br><b>Đáp án đúng là 3</b>."
+        },
+        {
+          "id": 247,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (Đề 12/2015)",
+          "passage": "小説家になりたい人には「好きな作家のものを全部読む」という読書法をすすめる。好きな、というのは、自分に合っている気がして読みやすく、しかも楽しいというものだ。いろんな作家をちょっとずつ読む、というのでは、あまり身につくものがたい。ベストセラーになっている話題作をせっせと追いかける、というのは<u>①もっとよくない</u>。\nベストセラーになる小説は、とりあえず何かいいところがあって売れているのだから、読めば参考になるのではないかと言うかもしれないが、それを読んで参考にしている人がたくさんいる、ということなのだ。みんなが狙っている方向で、自分もやってみるというのでは、目立つこともないわけである。\n（中略）\nひとりの作家（あなたにとって、不思議に肌合いがよくて楽しめる小説を書く人）の全小説を読んでみるのは、知らず知らずのうちに、その作家の「小説作法」を感じ取ることである。この人は小説を、このように構成するのだ、そこが心地いいのだ、とわかることである。この人は人間心理を、このように描写する、この人の社会観はこうである、なんてこともわかる。\n<u>②それ</u>がわかれば、似たようなものを書くところまであと一歩、なのである。特別にマネして書こうと思っていなかったとしても、書くものは自然と、その作家の作風と似たものになり、初心者が書いたにしては完成度が高いものになるだろう。\nこう反論する人がいるかもしれない。小説を書いて世に発表したいという願望は、自分というものを世間に知らしめたいということであって、つまりは自己表現欲から出てくるものだ。それなのに、他人の作品をマネているのでは、自分の表現にはならないのではないか。\n自己表現欲のことは、確かにその通りである。しかし、慌てないで順に段取りを踏んでいこうではないか。いきなり自分らしさを出したいと考えるのではなく、まずは世間が振り向いてくれるレベルのものが書けるよう、上達する必要があるのだ。\n私の書くものには価値があるのだから、世間は注目しなければならない、と思い込んでしまう人が案外いるのだが、それではなかなか読んでもらえない。\nだから、まずはうまく書けるようにならなければいけない。\nそのための訓練として、ある作家を熟読しているというのは、大変に有効なのである。",
+          "questionText": "<u>②それ</u>とは何か。",
+          "options": [
+            "自分の好きな多くの作家の小説作法",
+            "自分の好きなひとりの作家の小説作法",
+            "話題作を書いたいろいろな作家の小説作法",
+            "話題作をたくさん書いたひとりの作家の小説作法"
+          ],
+          "correctAnswer": 2,
+          "explanation": "「それ」 chỉ phương pháp viết tiểu thuyết (小説作法) của một tác giả duy nhất mà mình yêu thích.<br><b>Đáp án đúng là 2</b>."
+        },
+        {
+          "id": 248,
+          "mondai": 13,
+          "mondaiName": "問題13：長文読解 (Đề 12/2015)",
+          "passage": "小説家になりたい人には「好きな作家のものを全部読む」という読書法をすすめる。好きな、というのは、自分に合っている気がして読みやすく、しかも楽しいというものだ。いろんな作家をちょっとずつ読む、というのでは、あまり身につくものがたい。ベストセラーになっている話題作をせっせと追いかける、というのは<u>①もっとよくない</u>。\nベストセラーになる小説は、とりあえず何かいいところがあって売れているのだから、読めば参考になるのではないかと言うかもしれないが、それを読んで参考にしている人がたくさんいる、ということなのだ。みんなが狙っている方向で、自分もやってみるというのでは、目立つこともないわけである。\n（中略）\nひとりの作家（あなたにとって、不思議に肌合いがよくて楽しめる小説を書く人）の全小説を読んでみるのは、知らず知らずのうちに、その作家の「小説作法」を感じ取ることである。この人は小説を、このように構成するのだ、そこが心地いいのだ、とわかることである。この人は人間心理を、このように描写する、この人の社会観はこうである、なんてこともわかる。\n<u>②それ</u>がわかれば、似たようなものを書くところまであと一歩、なのである。特別にマネして書こうと思っていなかったとしても、書くものは自然と、その作家の作風と似たものになり、初心者が書いたにしては完成度が高いものになるだろう。\nこう反論する人がいるかもしれない。小説を書いて世に発表したいという願望は、自分というものを世間に知らしめたいということであって、つまりは自己表現欲から出てくるものだ。それなのに、他人の作品をマネているのでは、自分の表現にはならないのではないか。\n自己表現欲のことは、確かにその通りである。しかし、慌てないで順に段取りを踏んでいこうではないか。いきなり自分らしさを出したいと考えるのではなく、まずは世間が振り向いてくれるレベルのものが書けるよう、上達する必要があるのだ。\n私の書くものには価値があるのだから、世間は注目しなければならない、と思い込んでしまう人が案外いるのだが、それではなかなか読んでもらえない。\nだから、まずはうまく書けるようにならなければいけない。\nそのための訓練として、ある作家を熟読しているというのは、大変に有効なのである。",
+          "questionText": "筆者によると、小説家になりたい人がまず目指すべきことは何か。",
+          "options": [
+            "自己表現欲に従って、完成度の高いものを書くこと",
+            "自分が書いた作品に自信を持って、世に発表すること",
+            "自分らしさが伝えられるようにうまく書くこと",
+            "世の中の人に読んでもらえる段階まで上達すること"
+          ],
+          "correctAnswer": 4,
+          "explanation": "Đoạn cuối: Đừng vội thể hiện cái tôi ngay, trước hết cần tiến bộ đến mức viết được tác phẩm khiến xã hội ngoái nhìn và đọc.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 249,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Đề 12/2015)",
+          "passage": "南原ガラス美術館 体験教室のご案内（A〜Dの4コース、毎日2回ずつ開催）\n【A：コップに絵をつけよう（60分）】費用：1,200円 / 対象年齢：5歳以上 / 予約：不要 / 時間：①11:45～12:45 ②15:00～16:00\n【B：ペンダントを作ろう（60分）】費用：1,600円 / 対象年齢：10歳以上 / 予約：不要 / 時間：①11:15～12:15 ②15:00～16:00 ※待ち時間：1時間\n【C：キーホルダーを作ろう（30分）】費用：1,400円 / 対象年齢：5歳以上 / 予約：必要 / 時間：①11:00～11:30 ②14:00～14:30 ※待ち時間：2時間\n【D：お皿を作ろう（30分）】費用：2,000円 / 対象年齢：8歳以上 / 予約：必要 / 時間：①10:15～10:45 ②13:30～14:00 ※待ち時間：2時間\n【参加方法】\n●予約が必要なコースは、3日前までにご予約ください。予約不要のコースは、当日、教室開始の5分前までにお集まりください。\n●参加費は、開始前に教室でお支払いいただきます。\n●小学生以下のお子様は保護者の方とご一緒にご参加ください。\n【注意】※待ち時間について\nB～Dのコースで製作した作品は、教室終了後、完全に冷めるまでお持ち帰りいただけません。当日のお持ち帰りをご希望の場合は、それぞれの待ち時間の間、館内を鑑賞しながらお待ちになることをお勧めします。翌日以降の受け取り、郵送も可能です。",
+          "questionText": "マルコさんは、一週間後、10歳の子供と一緒に体験教室に参加したいと考えている。都合で午後1時までには美術館を出なければならないが、作った作品は当日持ち帰りたい。マルコさんが選べる教室はどれか。",
+          "options": [
+            "Aのみ",
+            "AとBとC",
+            "AとCとD",
+            "AとD"
+          ],
+          "correctAnswer": 4,
+          "explanation": "1 tuần sau (đặt trước được C, D), trẻ 10 tuổi (A,B,C,D đều được), phải rời đi trước 13:00 và mang đồ về trong ngày: A kết thúc 12:45 không cần đợi (OK); B 11:15-12:15 + đợi 1h = 13:15 (lố giờ); C 11:00-11:30 + đợi 2h = 13:30 (lố giờ); D 10:15-10:45 + đợi 2h = 12:45 (OK!). Vậy chọn A và D.<br><b>Đáp án đúng là 4</b>."
+        },
+        {
+          "id": 250,
+          "mondai": 14,
+          "mondaiName": "問題14：情報検索 (Đề 12/2015)",
+          "passage": "南原ガラス美術館 体験教室のご案内（A〜Dの4コース、毎日2回ずつ開催）\n【A：コップに絵をつけよう（60分）】費用：1,200円 / 対象年齢：5歳以上 / 予約：不要 / 時間：①11:45～12:45 ②15:00～16:00\n【B：ペンダントを作ろう（60分）】費用：1,600円 / 対象年齢：10歳以上 / 予約：不要 / 時間：①11:15～12:15 ②15:00～16:00 ※待ち時間：1時間\n【C：キーホルダーを作ろう（30分）】費用：1,400円 / 対象年齢：5歳以上 / 予約：必要 / 時間：①11:00～11:30 ②14:00～14:30 ※待ち時間：2時間\n【D：お皿を作ろう（30分）】費用：2,000円 / 対象年齢：8歳以上 / 予約：必要 / 時間：①10:15～10:45 ②13:30～14:00 ※待ち時間：2時間\n【参加方法】\n●予約が必要なコースは、3日前までにご予約ください。予約不要のコースは、当日、教室開始の5分前までにお集まりください。\n●参加費は、開始前に教室でお支払いいただきます。\n●小学生以下のお子様は保護者の方とご一緒にご参加ください。\n【注意】※待ち時間について\nB～Dのコースで製作した作品は、教室終了後、完全に冷めるまでお持ち帰りいただけません。当日のお持ち帰りをご希望の場合は、それぞれの待ち時間の間、館内を鑑賞しながらお待ちになることをお勧めします。翌日以降の受け取り、郵送も可能です。",
+          "questionText": "大学生のユウさんは、明日の体験教室に参加したいと考えている。作る物は食器以外がいい。ユウさんの希望に合っていて、参加できる可能性がある教室はどれか。",
+          "options": [
+            "Aのみ",
+            "Bのみ",
+            "AとD",
+            "BとC"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tham gia vào ngày mai -> chỉ chọn được khóa không cần đặt trước (A, B). Không muốn làm đồ đựng thức ăn (loại A: cốc, D: đĩa). Vậy chỉ còn B (mặt dây chuyền).<br><b>Đáp án đúng là 2</b>."
         }
       ]
     },

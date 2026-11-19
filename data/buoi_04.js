@@ -2724,6 +2724,431 @@ window.JLPT_DATA[4] = {
       ]
     },
     {
+      "id": "gm2_bunpou",
+      "name": "Chuyên Đề Ngữ Pháp (Goukaku Moshi Đề 2) - 22 Câu",
+      "icon": "fa-pencil-alt",
+      "questions": [
+        {
+          "id": 186,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "<ruby>井上<rt>いのうえ</rt></ruby>「明日のパーティー、一緒に参加しませんか。」<br><ruby>坂井<rt>さかい</rt></ruby>「行ける（　　）行きたいんですけど、明日は重要な会議があるので行けないんです。」",
+          "options": [
+            "ものなら",
+            "あげくに",
+            "として",
+            "ところが"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Cấu trúc:</b> V-れる (thể khả năng) + ものなら (nếu có thể... thì...).<br><b>Dịch nghĩa:</b> Inoue: 'Ngày mai cùng tham gia tiệc nhé?' — Sakai: 'Nếu đi được thì tôi cũng muốn đi lắm, nhưng ngày mai có cuộc họp quan trọng nên không đi được.'"
+        },
+        {
+          "id": 187,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "言ってはいけないと思い（　　）だまっていられず、彼の<ruby>秘密<rt>ひみつ</rt></ruby>をみんなにしゃべってしまった。",
+          "options": [
+            "きり",
+            "はじめ",
+            "こみ",
+            "つつ"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> V-ます + つつ（も）: tuy... nhưng vẫn... (diễn tả sự mâu thuẫn giữa suy nghĩ và hành động).<br><b>Dịch nghĩa:</b> Tuy nghĩ rằng không được nói nhưng tôi không thể im lặng được, nên đã lỡ kể bí mật của anh ấy cho mọi người."
+        },
+        {
+          "id": 188,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "友達のあの表情（　　）、試験の結果は悪かったようだ。",
+          "options": [
+            "かのように",
+            "からには",
+            "からして",
+            "からでないと"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Cấu trúc:</b> N + からして: chỉ xét riêng từ... thôi cũng đủ thấy...<br><b>Dịch nghĩa:</b> Chỉ nhìn nét mặt kia của bạn tôi thôi là thấy kết quả kỳ thi có vẻ không tốt rồi."
+        },
+        {
+          "id": 189,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "山の木々を無計画に切った（　　）、<ruby>洪水<rt>こうずい</rt></ruby>などの<ruby>災害<rt>さいがい</rt></ruby>が増えている。",
+          "options": [
+            "ばかりに",
+            "ばかりか",
+            "うえに",
+            "うえで"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Cấu trúc:</b> V-た + ばかりに: chỉ vì... mà dẫn đến hậu quả xấu.<br><b>Dịch nghĩa:</b> Chỉ vì chặt cây trên núi một cách thiếu kế hoạch mà các thiên tai như lũ lụt đang gia tăng."
+        },
+        {
+          "id": 190,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "A「<ruby>田中<rt>たなか</rt></ruby>さん、いないね。遊びに行っちゃったのかな。」<br>B「家族が事故にあったって言っていたから、遊びに行く（　　）と思うよ。」",
+          "options": [
+            "はずだ",
+            "しかない",
+            "ところだ",
+            "どころじゃない"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> V-る / N + どころではない: không phải lúc để... (bận rộn hoặc hoàn cảnh không cho phép).<br><b>Dịch nghĩa:</b> A: 'Tanaka không có ở đây nhỉ. Đi chơi rồi sao?' — B: 'Cậu ấy nói gia đình gặp tai nạn nên tôi nghĩ không phải lúc để đi chơi đâu.'"
+        },
+        {
+          "id": 191,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "私の家から会社までは、遠い（　　）、実はそれほど遠くはない。",
+          "options": [
+            "かと思うと",
+            "ようで",
+            "とは限らず",
+            "らしく"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Cấu trúc:</b> ～ようで、実は～: tưởng chừng như... nhưng thực ra lại...<br><b>Dịch nghĩa:</b> Từ nhà tôi đến công ty trông có vẻ xa, nhưng thực ra lại không xa đến thế."
+        },
+        {
+          "id": 192,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "朝寝坊のまりさんの（　　）、まだ寝ているに違いない。",
+          "options": [
+            "せいで",
+            "ことで",
+            "せいだから",
+            "ことだから"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> N + のことだから: vì là (người có tính cách/đặc điểm như vậy) nên chắc chắn là...<br><b>Dịch nghĩa:</b> Vì là Mari hay ngủ nướng nên chắc chắn giờ vẫn còn đang ngủ."
+        },
+        {
+          "id": 193,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "こちらの人気のセーター、本日（　　）、半額で販売いたします。",
+          "options": [
+            "によると",
+            "に際して",
+            "に<ruby>沿<rt>そ</rt></ruby>って",
+            "に限り"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> N + に限り: chỉ giới hạn trong... (ngày hôm nay, đối tượng này...).<br><b>Dịch nghĩa:</b> Chiếc áo len được ưa chuộng này, chỉ duy nhất hôm nay sẽ được bán với giá giảm một nửa."
+        },
+        {
+          "id": 194,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "彼はぜんぜん仕事をしない（　　）、いつも<ruby>文句<rt>もんく</rt></ruby>ばかり言っている。困ったものだ。",
+          "options": [
+            "くせに",
+            "ことに",
+            "ものに",
+            "うちに"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Cấu trúc:</b> V-る + くせに: thế mà, vậy mà (mang sắc thái chê trách, phàn nàn).<br><b>Dịch nghĩa:</b> Anh ta chẳng làm việc gì cả thế mà lúc nào cũng chỉ kêu ca phàn nàn. Thật hết biết."
+        },
+        {
+          "id": 195,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "運動しようと思って（　　）とたん、転んでけがをしてしまった。",
+          "options": [
+            "走り出して",
+            "走り出した",
+            "走り出す",
+            "走り出そう"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Cấu trúc:</b> V-た + とたん（に）: vừa mới... thì ngay lập tức...<br><b>Dịch nghĩa:</b> Định tập thể dục nên vừa mới bắt đầu chạy thì tôi bị ngã và bị thương."
+        },
+        {
+          "id": 196,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "台風の接近（　　）、本日は<ruby>臨時<rt>りんじ</rt></ruby>休業といたします。",
+          "options": [
+            "に関して",
+            "にかけては",
+            "において",
+            "にともない"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> N + に伴い（にともない）: cùng với, do (sự biến đổi/sự việc nào đó kéo theo).<br><b>Dịch nghĩa:</b> Do bão đang tiến gần, hôm nay chúng tôi xin phép tạm nghỉ đột xuất."
+        },
+        {
+          "id": 197,
+          "mondai": 7,
+          "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - Goukaku Moshi 2)",
+          "sentence": "兄は映画を（　　）、テレビドラマ、演劇の仕事もしている。",
+          "options": [
+            "おわり",
+            "はじめ",
+            "たとえ",
+            "すえに"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Cấu trúc:</b> N + をはじめ（として）: trước hết là..., tiêu biểu là..., ngoài ra còn...<br><b>Dịch nghĩa:</b> Anh trai tôi trước hết là điện ảnh, ngoài ra còn làm các công việc về phim truyền hình và kịch nói."
+        },
+        {
+          "id": 198,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Goukaku Moshi 2)",
+          "beforeText": "姉は細かいことが気になる性格で、子供のころから何か",
+          "afterText": "を言う。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "<ruby>文句<rt>もんく</rt></ruby>"
+            },
+            {
+              "id": 2,
+              "text": "につけ"
+            },
+            {
+              "id": 3,
+              "text": "に対して"
+            },
+            {
+              "id": 4,
+              "text": "私"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 何か <b>[につけ(2)] [私(4)] [★ に対して(3)] [文句(1)]</b> を言う。<br><b>Cấu trúc:</b> 何かにつけ (hễ có chuyện gì là lại...), ～に対して文句を言う (phàn nàn đối với ai).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 199,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Goukaku Moshi 2)",
+          "beforeText": "服を買いに行ったが、",
+          "afterText": "何も買わなかった。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "迷った"
+            },
+            {
+              "id": 2,
+              "text": "どれに"
+            },
+            {
+              "id": 3,
+              "text": "あげく"
+            },
+            {
+              "id": 4,
+              "text": "しようか"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "correctStarOption": 1,
+          "explanation": "Thứ tự đúng: <b>[どれに(2)] [しようか(4)] [★ 迷った(1)] [あげく(3)]</b> 何も買わなかった。<br><b>Cấu trúc:</b> V-た + あげく (sau một hồi... thì cuối cùng...).<br><b>Đáp án chọn:</b> 1"
+        },
+        {
+          "id": 200,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Goukaku Moshi 2)",
+          "beforeText": "やっと梅雨が明けて、ようやく外で運動できると",
+          "afterText": "なくなった。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "暑すぎて"
+            },
+            {
+              "id": 2,
+              "text": "どころじゃ"
+            },
+            {
+              "id": 3,
+              "text": "ランニング"
+            },
+            {
+              "id": 4,
+              "text": "思ったら"
+            }
+          ],
+          "correctOrder": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 運動できると <b>[思ったら(4)] [暑すぎて(1)] [★ ランニング(3)] [どころじゃ(2)]</b> なくなった。<br><b>Cấu trúc:</b> ～と思ったら (vừa mới nghĩ rằng... thì...), N + どころじゃなくなる (không còn tâm trí/điều kiện để...).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 201,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Goukaku Moshi 2)",
+          "beforeText": "結婚して自分が<ruby>稼<rt>かせ</rt></ruby>いだお金を自由に使えなくなる",
+          "afterText": "がましだ。",
+          "starPositionIndex": 3,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "いたほう"
+            },
+            {
+              "id": 2,
+              "text": "なら"
+            },
+            {
+              "id": 3,
+              "text": "独身で"
+            },
+            {
+              "id": 4,
+              "text": "くらい"
+            }
+          ],
+          "correctOrder": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 使えなくなる <b>[くらい(4)] [なら(2)] [★ 独身で(3)] [いたほう(1)]</b> がましだ。<br><b>Cấu trúc:</b> V-る + くらいなら、～ほうがましだ (thà... còn hơn là...).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 202,
+          "mondai": 8,
+          "isStarQuestion": true,
+          "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★ - Goukaku Moshi 2)",
+          "beforeText": "山を",
+          "afterText": "見え、感動のあまり涙が出ました。",
+          "starPositionIndex": 2,
+          "fragments": [
+            {
+              "id": 1,
+              "text": "言葉にできないほど"
+            },
+            {
+              "id": 2,
+              "text": "のぼりきった"
+            },
+            {
+              "id": 3,
+              "text": "ところで"
+            },
+            {
+              "id": 4,
+              "text": "美しい景色が"
+            }
+          ],
+          "correctOrder": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "correctStarOption": 3,
+          "explanation": "Thứ tự đúng: 山を <b>[のぼりきった(2)] [★ ところで(3)] [言葉にできないほど(1)] [美しい景色が(4)]</b> 見え...<br><b>Cấu trúc:</b> V-きったところで (đúng lúc leo lên hết đỉnh núi thì...).<br><b>Đáp án chọn:</b> 3"
+        },
+        {
+          "id": 203,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp đoạn văn - Goukaku Moshi 2)",
+          "passage": "まだ食べられるのに捨てられてしまう「食品ロス」を減らすために、「フードドライブ」という活動が行われている。「フードドライブ」とは、家庭で余っている食品を集めて、食べ物に困っている人たちや<ruby>施設<rt>しせつ</rt></ruby>に寄付する活動のことだ。スーパーやジム、市民センターなどに一定期間、回収場所が作られ、買い物客や利用者が家庭から食品を持ち寄る。また、「フードバンク」という活動もある。「フードドライブ」が個人からのみ、食品を回収<b>[ 50 ]</b>、「フードバンク」では企業からの食品も回収する。企業から回収される食品は、製造過程で出る、食べられるものの商品として販売できないものや、スーパーなどで売れ残った賞味期限内の食品などで、安全上は問題が<b>[ 51 ]</b><ruby>廃棄<rt>はいき</rt></ruby>されてしまう食品である。<br><br>「フードドライブ」で回収できる食品は、賞味期限が1か月以上あり、未開封の食品である。回収された食品は、「フードバンク」を通じて、食べ物が必要な人々のために寄付される。日本<b>[ 52 ]</b>豊かな国で、食べ物に困っている人がいるのだろうかと思う人もいるかもしれないが、日本の子供の7人に1人が<ruby>貧困<rt>ひんこん</rt></ruby>とも言われている。また、<ruby>児童養護施設<rt>じどうようごしせつ</rt></ruby>や社会福祉<ruby>施設<rt>しせつ</rt></ruby>などで提供される食事は、栄養より金銭面を優先<b>[ 53 ]</b>状況もある。<br><br>日本で行われている「フードドライブ」は、一定の期間のみ行われることが多く、いつでもどこでもできる<b>[ 54 ]</b>。このような活動を通して、ひとりひとりが食品ロスや<ruby>貧困<rt>ひんこん</rt></ruby>という問題に目を向ける社会になってほしい。",
+          "questionText": "空欄 [ 50 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "するのに対して",
+            "するに伴って",
+            "するといっても",
+            "するとともに"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Cấu trúc:</b> ～のに対して: trong khi... (đối lập giữa Food Drive chỉ thu gom từ cá nhân với Food Bank thu gom cả từ doanh nghiệp).<br><b>Đáp án:</b> 1"
+        },
+        {
+          "id": 204,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp đoạn văn - Goukaku Moshi 2)",
+          "passage": "（上の文章を参照）",
+          "questionText": "空欄 [ 51 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "ないからといって",
+            "ないばかりか",
+            "ないにもかかわらず",
+            "ない限り"
+          ],
+          "correctAnswer": 3,
+          "explanation": "<b>Cấu trúc:</b> ～にもかかわらず: mặc dù... nhưng vẫn... (mặc dù về mặt an toàn không có vấn đề gì nhưng vẫn bị bỏ đi).<br><b>Đáp án:</b> 3"
+        },
+        {
+          "id": 205,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp đoạn văn - Goukaku Moshi 2)",
+          "passage": "（上の文章を参照）",
+          "questionText": "空欄 [ 52 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "なんて",
+            "ゆえに",
+            "さえ",
+            "ほど"
+          ],
+          "correctAnswer": 4,
+          "explanation": "<b>Cấu trúc:</b> N + ほど: đến mức như... (ở một đất nước giàu có đến mức như Nhật Bản mà lại có người thiếu ăn sao?).<br><b>Đáp án:</b> 4"
+        },
+        {
+          "id": 206,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp đoạn văn - Goukaku Moshi 2)",
+          "passage": "（上の文章を参照）",
+          "questionText": "空欄 [ 53 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "しないという",
+            "せざるを得ない",
+            "してしょうがない",
+            "しつつある"
+          ],
+          "correctAnswer": 2,
+          "explanation": "<b>Cấu trúc:</b> V-ざるを得ない (する -> せざるを得ない): đành phải, buộc phải (buộc phải ưu tiên mặt tiền bạc hơn dinh dưỡng).<br><b>Đáp án:</b> 2"
+        },
+        {
+          "id": 207,
+          "mondai": 9,
+          "mondaiName": "問題９：文章の文法 (Ngữ pháp đoạn văn - Goukaku Moshi 2)",
+          "passage": "（上の文章を参照）",
+          "questionText": "空欄 [ 54 ] に入る最もよいものを一つ選びなさい。",
+          "options": [
+            "わけではない",
+            "ものである",
+            "どころではない",
+            "に決まっている"
+          ],
+          "correctAnswer": 1,
+          "explanation": "<b>Cấu trúc:</b> ～わけではない: không hẳn là... (thường chỉ diễn ra trong thời gian nhất định, không phải lúc nào ở đâu cũng làm được).<br><b>Đáp án:</b> 1"
+        }
+      ]
+    },
+    {
       "id": "choukai",
       "name": "聴解 (Nghe hiểu - Mondai 3 & 4)",
       "icon": "fa-headphones",
