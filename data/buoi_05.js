@@ -4209,11 +4209,11 @@ window.JLPT_DATA[5] = {
           "options": [
             "初めて会ったから",
             "服の模様が怖いから",
-            "囚人服を着ているから",
+            "しゅうじんふくを着ているから",
             "女の人の方が好きだから"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Tại sao con chó lại không chịu làm quen/thân thiện với người đàn ông?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 初めて会ったから: Vì là lần đầu tiên gặp mặt<br>\n2. 服の模様が怖いから: Vì hoạ tiết trang phục khiến nó sợ hãi<br>\n3. 囚人服を着ているから: Vì đang mặc quần áo tù nhân<br>\n4. 女の人の方が好きだから: Vì nó thích phụ nữ hơn<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。犬が男の人に馴れないのはなぜですか。<br>\nM: あれ、この犬、松田さんの方ばかり行くね。僕の方には全然来ない。僕、犬には好かれる方なんだけど変だなあ。この犬、女好きってことないだろうし。<br>\nF: 当たり前でしょう。この犬、嫌がっているわよ。<b>木村君が着てきた服が悪いのよ</b>。<br>\nM: 服が? まさか横縞のシャツが囚人服みたいで嫌ってことないよね。犬にそんなことわかるわけないし。<br>\nF: <b>そのまさかなのよ。犬は横縞に警戒心を持つんだって</b>。<br>\nM: え〜え。初めて聞いた。どうして?<br>\nF: <b>自然界には横縞ってほとんどないからなんだって</b>。<br>\nM: へえ、松田さんって物知りなんだね。<br>\n犬が男の人に馴れないのはなぜですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Tại sao chú chó không chịu gần gũi với người đàn ông?<br>\nNam: \"Kìa, con chó này cứ quấn lấy cô Matsuda suốt nhỉ. Chẳng thèm lại gần tôi chút nào. Tôi vốn là người rất được chó yêu mến cơ mà, lạ thật đấy. Chắc không phải con chó này chỉ thích phụ nữ đâu nhỉ.\"<br>\nNữ: \"Dĩ nhiên rồi. Con chó đang thấy khó chịu đấy. Là tại bộ quần áo anh mặc hôm nay đấy Kimura.\"<br>\nNam: \"Tại quần áo ư? Chẳng lẽ chiếc áo sơ mi sọc ngang trông giống quần áo tù nhân nên nó ghét à? Chó làm sao hiểu được chuyện đó chứ.\"<br>\nNữ: \"Đúng cái 'chẳng lẽ' đó đấy! Nghe nói loài chó luôn cảnh giác cao độ với hoạ tiết sọc ngang đấy.\"<br>\nNam: \"Ủa? Lần đầu tiên tôi nghe chuyện này đấy. Vì sao thế?\"<br>\nNữ: \"Vì trong tự nhiên hầu như không tồn tại các đường kẻ ngang.\"<br>\nNam: \"Chà, cô Matsuda hiểu biết sâu rộng thật đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người phụ nữ giải thích nguyên nhân là do chiếc áo anh nam mặc: \"犬は横縞に警戒心を持つ\" (loài chó luôn có tâm lý cảnh giác, đề phòng trước hoạ tiết sọc ngang) vì trong tự nhiên hiếm có sọc ngang.<br>\n- Phương án 3 gây bẫy (\"囚人服を着ているから\" - đang mặc quần áo tù), nhưng anh nam chỉ ví von chiếc áo sơ mi sọc ngang của mình trông giống đồ tù nhân chứ không phải là đồ tù nhân thật.<br>\n&rarr; Con chó sợ hoạ tiết kẻ sọc trên áo &rarr; <b>Đáp án đúng là 2</b>.",
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Tại sao con chó lại không chịu làm quen/thân thiện với người đàn ông?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 初めて会ったから: Vì là lần đầu tiên gặp mặt<br>\n2. 服の模様が怖いから: Vì hoạ tiết trang phục khiến nó sợ hãi<br>\n3. しゅうじんふくを着ているから: Vì đang mặc quần áo tù nhân<br>\n4. 女の人の方が好きだから: Vì nó thích phụ nữ hơn<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。犬が男の人に馴れないのはなぜですか。<br>\nM: あれ、この犬、松田さんの方ばかり行くね。僕の方には全然来ない。僕、犬には好かれる方なんだけど変だなあ。この犬、女好きってことないだろうし。<br>\nF: 当たり前でしょう。この犬、嫌がっているわよ。<b>木村君が着てきた服が悪いのよ</b>。<br>\nM: 服が? まさか横縞のシャツが囚人服みたいで嫌ってことないよね。犬にそんなことわかるわけないし。<br>\nF: <b>そのまさかなのよ。犬は横縞に警戒心を持つんだって</b>。<br>\nM: え〜え。初めて聞いた。どうして?<br>\nF: <b>自然界には横縞ってほとんどないからなんだって</b>。<br>\nM: へえ、松田さんって物知りなんだね。<br>\n犬が男の人に馴れないのはなぜですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Tại sao chú chó không chịu gần gũi với người đàn ông?<br>\nNam: \"Kìa, con chó này cứ quấn lấy cô Matsuda suốt nhỉ. Chẳng thèm lại gần tôi chút nào. Tôi vốn là người rất được chó yêu mến cơ mà, lạ thật đấy. Chắc không phải con chó này chỉ thích phụ nữ đâu nhỉ.\"<br>\nNữ: \"Dĩ nhiên rồi. Con chó đang thấy khó chịu đấy. Là tại bộ quần áo anh mặc hôm nay đấy Kimura.\"<br>\nNam: \"Tại quần áo ư? Chẳng lẽ chiếc áo sơ mi sọc ngang trông giống quần áo tù nhân nên nó ghét à? Chó làm sao hiểu được chuyện đó chứ.\"<br>\nNữ: \"Đúng cái 'chẳng lẽ' đó đấy! Nghe nói loài chó luôn cảnh giác cao độ với hoạ tiết sọc ngang đấy.\"<br>\nNam: \"Ủa? Lần đầu tiên tôi nghe chuyện này đấy. Vì sao thế?\"<br>\nNữ: \"Vì trong tự nhiên hầu như không tồn tại các đường kẻ ngang.\"<br>\nNam: \"Chà, cô Matsuda hiểu biết sâu rộng thật đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người phụ nữ giải thích nguyên nhân là do chiếc áo anh nam mặc: \"犬は横縞に警戒心を持つ\" (loài chó luôn có tâm lý cảnh giác, đề phòng trước hoạ tiết sọc ngang) vì trong tự nhiên hiếm có sọc ngang.<br>\n- Phương án 3 gây bẫy (\"しゅうじんふくを着ているから\" - đang mặc quần áo tù), nhưng anh nam chỉ ví von chiếc áo sơ mi sọc ngang của mình trông giống đồ tù nhân chứ không phải là đồ tù nhân thật.<br>\n&rarr; Con chó sợ hoạ tiết kẻ sọc trên áo &rarr; <b>Đáp án đúng là 2</b>.",
           "questionText": "女の人と男の人が話しています。犬が男の人に馴れないのはなぜですか。"
         },
         {
@@ -4224,13 +4224,13 @@ window.JLPT_DATA[5] = {
           "isChoukai": true,
           "question": "女の人と男の人が話しています。女の人はどうして「笑顔カレンダー」が買いたいのですか。",
           "options": [
-            "被災地の寄付になるから",
+            "ひさいちの寄付になるから",
             "笑顔を見るのがうれしいから",
             "ボランティアが作っているから",
             "この運動を応援したいから"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Tại sao người phụ nữ lại muốn mua \"Lịch Nụ Cười\" (笑顔カレンダー)?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 被災地の寄付になるから: Vì có thể quyên góp ủng hộ cho vùng chịu thảm hoạ thiên tai<br>\n2. 笑顔を見るのがうれしいから: Vì cảm thấy vui sướng khi ngắm nhìn những nụ cười<br>\n3. ボランティアが作っているから: Vì lịch này do các tình nguyện viên thực hiện<br>\n4. この運動を応援したいから: Vì muốn cổ vũ, ủng hộ phong trào/hoạt động ý nghĩa này<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。女の人はどうして「笑顔カレンダー」が買いたいのですか。<br>\nF: 来年のカレンダー、「笑顔カレンダー」にしましょうよ。<br>\nM: 笑顔カレンダーって?<br>\nF: 365人の「最近一番笑顔になった時」の写真が載っているのよ。みんなが「子供が生まれた時」とか「プレゼントをもらった時」とか書いた紙を持って笑っているのよ。<br>\nM: 毎日誰かの笑顔を見るのもいいと思うけど、笑顔の写真は他にもいいのがあるでしょう。<br>\nF: それはそうだけど、「笑顔カレンダー」は特別なのよ。2011年の大地震の被災地に売り上げの一部を寄付しているし。<br>\nM: 売り上げを寄付できるカレンダーは他にもあるでしょ。<br>\nF: <b>そうだけど、でも、このカレンダーを応援したいのよ。被災した人に何とか笑顔になってもらいたいとボランティアで始めたんだって。毎年作っているから今は少しは有名になったらしいけど、これからも彼らにずっと続けてもらいたいと思って</b>。<br>\nM: じゃ、いいよ。<br>\n女の人はどうして「笑顔カレンダー」が買いたいのですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Tại sao người phụ nữ lại muốn mua cuốn Lịch Nụ Cười?<br>\nNữ: \"Lịch năm tới, chúng ta chọn cuốn 'Lịch Nụ Cười' đi anh!\"<br>\nNam: \"'Lịch Nụ Cười' là gì thế?\"<br>\nNữ: \"Là cuốn lịch in ảnh của 365 người vào 'khoảnh khắc họ cười rạng rỡ nhất gần đây' đấy. Mọi người cầm tờ giấy ghi lại dịp như 'Khi con tôi chào đời' hay 'Khi được nhận quà' rồi mỉm cười.\"<br>\nNam: \"Mỗi ngày ngắm nhìn nụ cười của ai đó cũng hay, nhưng ảnh nụ cười thì còn nhiều loại lịch khác cũng đẹp mà.\"<br>\nNữ: \"Đúng là vậy, nhưng 'Lịch Nụ Cười' này đặc biệt lắm. Một phần doanh thu sẽ được quyên góp cho vùng bị thảm hoạ động đất năm 2011 nữa.\"<br>\nNam: \"Lịch trích doanh thu từ thiện thì cũng đâu thiếu gì cuốn khác.\"<br>\nNữ: \"Đúng là thế, nhưng mà <b>em muốn ủng hộ phong trào này! Nhóm thiện nguyện bắt đầu làm với mong muốn bà con vùng thảm hoạ có thể tìm lại nụ cười. Năm nào họ cũng làm nên giờ đã có tiếng tăm hơn một chút, em mong họ sẽ có thể tiếp tục duy trì hoạt động ý nghĩa này lâu dài</b>.\"<br>\nNam: \"Thế thì được, duyệt nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chàng trai liên tục phản bác rằng các loại lịch quyên góp hoặc có ảnh nụ cười khác đều có rất nhiều.<br>\n- Lý do then chốt mà cô gái thuyết phục anh mua là: \"このカレンダー（運動）を応援したいのよ... これからも彼らにずっと続けてもらいたい\" (Em muốn ủng hộ phong trào này và mong các bạn tình nguyện viên tiếp tục duy trì được hoạt động đó).<br>\n&rarr; <b>Đáp án đúng là 4 (この運動を応援したいから)</b>.",
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ và người đàn ông đang nói chuyện. Tại sao người phụ nữ lại muốn mua \"Lịch Nụ Cười\" (笑顔カレンダー)?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ひさいちの寄付になるから: Vì có thể quyên góp ủng hộ cho vùng chịu thảm hoạ thiên tai<br>\n2. 笑顔を見るのがうれしいから: Vì cảm thấy vui sướng khi ngắm nhìn những nụ cười<br>\n3. ボランティアが作っているから: Vì lịch này do các tình nguyện viên thực hiện<br>\n4. この運動を応援したいから: Vì muốn cổ vũ, ủng hộ phong trào/hoạt động ý nghĩa này<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。女の人はどうして「笑顔カレンダー」が買いたいのですか。<br>\nF: 来年のカレンダー、「笑顔カレンダー」にしましょうよ。<br>\nM: 笑顔カレンダーって?<br>\nF: 365人の「最近一番笑顔になった時」の写真が載っているのよ。みんなが「子供が生まれた時」とか「プレゼントをもらった時」とか書いた紙を持って笑っているのよ。<br>\nM: 毎日誰かの笑顔を見るのもいいと思うけど、笑顔の写真は他にもいいのがあるでしょう。<br>\nF: それはそうだけど、「笑顔カレンダー」は特別なのよ。2011年の大地震の被災地に売り上げの一部を寄付しているし。<br>\nM: 売り上げを寄付できるカレンダーは他にもあるでしょ。<br>\nF: <b>そうだけど、でも、このカレンダーを応援したいのよ。被災した人に何とか笑顔になってもらいたいとボランティアで始めたんだって。毎年作っているから今は少しは有名になったらしいけど、これからも彼らにずっと続けてもらいたいと思って</b>。<br>\nM: じゃ、いいよ。<br>\n女の人はどうして「笑顔カレンダー」が買いたいのですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang nói chuyện. Tại sao người phụ nữ lại muốn mua cuốn Lịch Nụ Cười?<br>\nNữ: \"Lịch năm tới, chúng ta chọn cuốn 'Lịch Nụ Cười' đi anh!\"<br>\nNam: \"'Lịch Nụ Cười' là gì thế?\"<br>\nNữ: \"Là cuốn lịch in ảnh của 365 người vào 'khoảnh khắc họ cười rạng rỡ nhất gần đây' đấy. Mọi người cầm tờ giấy ghi lại dịp như 'Khi con tôi chào đời' hay 'Khi được nhận quà' rồi mỉm cười.\"<br>\nNam: \"Mỗi ngày ngắm nhìn nụ cười của ai đó cũng hay, nhưng ảnh nụ cười thì còn nhiều loại lịch khác cũng đẹp mà.\"<br>\nNữ: \"Đúng là vậy, nhưng 'Lịch Nụ Cười' này đặc biệt lắm. Một phần doanh thu sẽ được quyên góp cho vùng bị thảm hoạ động đất năm 2011 nữa.\"<br>\nNam: \"Lịch trích doanh thu từ thiện thì cũng đâu thiếu gì cuốn khác.\"<br>\nNữ: \"Đúng là thế, nhưng mà <b>em muốn ủng hộ phong trào này! Nhóm thiện nguyện bắt đầu làm với mong muốn bà con vùng thảm hoạ có thể tìm lại nụ cười. Năm nào họ cũng làm nên giờ đã có tiếng tăm hơn một chút, em mong họ sẽ có thể tiếp tục duy trì hoạt động ý nghĩa này lâu dài</b>.\"<br>\nNam: \"Thế thì được, duyệt nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chàng trai liên tục phản bác rằng các loại lịch quyên góp hoặc có ảnh nụ cười khác đều có rất nhiều.<br>\n- Lý do then chốt mà cô gái thuyết phục anh mua là: \"このカレンダー（運動）を応援したいのよ... これからも彼らにずっと続けてもらいたい\" (Em muốn ủng hộ phong trào này và mong các bạn tình nguyện viên tiếp tục duy trì được hoạt động đó).<br>\n&rarr; <b>Đáp án đúng là 4 (この運動を応援したいから)</b>.",
           "questionText": "女の人と男の人が話しています。女の人はどうして「笑顔カレンダー」が買いたいのですか。"
         },
         {
@@ -4379,13 +4379,13 @@ window.JLPT_DATA[5] = {
           "audioSrc": "audio/buoi_05/real_m1_01.mp3",
           "questionText": "男の人はこのあとすぐ何をしますか。",
           "options": [
-            "資料を修正する",
-            "修正してある資料を送る",
+            "しりょうをしゅうせいする",
+            "しゅうせいしてあるしりょうを送る",
             "打ち合わせの日を決める",
-            "資料について相談する"
+            "しりょうについて相談する"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 資料を修正する: Sửa lại tài liệu<br>\n2. 修正してある資料を送る: Gửi tài liệu đã được sửa<br>\n3. 打ち合わせの日を決める: Quyết định ngày họp bàn<br>\n4. 資料について相談する: Bàn bạc về tài liệu<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n電話で男の人と女の人が話しています。<br>\n女：…拝見したところ、どうもこちらでお願いしたものと内容が違うようで。確か、資料を修正していただくようお願いしたと思うんですけど。<br>\n男：えっ、変更されていませんでしたか。大変失礼いたしました。<b>間違って修正前のファイルを添付してしまったんだと思います。</b><br>\n女：では、すみませんが、新しいものを。<br>\n男：<b>はい、直ちに。</b><br>\n女：次回以降の打ち合わせの日程については、資料を確認したあと、改めてご相談させてください。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nQua điện thoại, khách hàng nữ báo tài liệu nhận được qua email chưa sửa. Người đàn ông xin lỗi vì đã đính kèm nhầm file trước khi sửa, và hứa gửi lại ngay lập tức (直ちに) bản mới đã sửa.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bản đã sửa có sẵn rồi, chỉ là đính kèm nhầm file cũ nên việc làm ngay lập tức là gửi bản đã sửa &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. しりょうをしゅうせいする: Sửa lại tài liệu<br>\n2. しゅうせいしてあるしりょうを送る: Gửi tài liệu đã được sửa<br>\n3. 打ち合わせの日を決める: Quyết định ngày họp bàn<br>\n4. しりょうについて相談する: Bàn bạc về tài liệu<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n電話で男の人と女の人が話しています。<br>\n女：…拝見したところ、どうもこちらでお願いしたものと内容が違うようで。確か、資料を修正していただくようお願いしたと思うんですけど。<br>\n男：えっ、変更されていませんでしたか。大変失礼いたしました。<b>間違って修正前のファイルを添付してしまったんだと思います。</b><br>\n女：では、すみませんが、新しいものを。<br>\n男：<b>はい、直ちに。</b><br>\n女：次回以降の打ち合わせの日程については、資料を確認したあと、改めてご相談させてください。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nQua điện thoại, khách hàng nữ báo tài liệu nhận được qua email chưa sửa. Người đàn ông xin lỗi vì đã đính kèm nhầm file trước khi sửa, và hứa gửi lại ngay lập tức (直ちに) bản mới đã sửa.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bản đã sửa có sẵn rồi, chỉ là đính kèm nhầm file cũ nên việc làm ngay lập tức là gửi bản đã sửa &rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 412,
@@ -4400,10 +4400,10 @@ window.JLPT_DATA[5] = {
             "個人情報を引き出しにしまう",
             "パソコンに貼ってあるメモを取る",
             "古い書類を整理する",
-            "棚のファイルにラベルをつける"
+            "たなのファイルにラベルをつける"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhân viên sau đây phải làm thêm việc gì mới?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 個人情報を引き出しにしまう: Cất thông tin cá nhân vào ngăn kéo (đã thực hiện triệt để rồi)<br>\n2. パソコンに貼ってあるメモを取る: Gỡ giấy nhớ dán trên máy tính (gần đây không còn nữa)<br>\n3. 古い書類を整理する: Sắp xếp lại các tài liệu cũ<br>\n4. 棚のファイルにラベルをつける: Dán nhãn vào hồ sơ trên kệ (đã làm gọn gàng rồi)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nオフィスで係長が話しています。<br>\n係長：…机の上に個人情報を出したままにしないというのは徹底してくれているようですね。以前はメモがたくさん貼ってあるパソコンをよく見ましたが、最近はなくなりました。えー、<b>今は使わない昔の書類ですが、ダンボール箱に入ったままになっていますね。年度ごとにファイルにまとめるなどしておいてください。</b>あっ、ファイルといえば、棚の中のものは、ラベルが付いて整理され、見違えるようになりましたね。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nTổ trưởng kiểm tra việc cải thiện môi trường văn phòng: việc cất thông tin cá nhân, bỏ giấy nhớ trên máy tính, dán nhãn file trên kệ đều đã làm tốt; chỉ còn tài liệu cũ không dùng vẫn để nguyên trong thùng carton nên yêu cầu sắp xếp đóng tập theo từng năm.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc mới cần làm là sắp xếp lại tài liệu cũ &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhân viên sau đây phải làm thêm việc gì mới?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 個人情報を引き出しにしまう: Cất thông tin cá nhân vào ngăn kéo (đã thực hiện triệt để rồi)<br>\n2. パソコンに貼ってあるメモを取る: Gỡ giấy nhớ dán trên máy tính (gần đây không còn nữa)<br>\n3. 古い書類を整理する: Sắp xếp lại các tài liệu cũ<br>\n4. たなのファイルにラベルをつける: Dán nhãn vào hồ sơ trên kệ (đã làm gọn gàng rồi)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nオフィスで係長が話しています。<br>\n係長：…机の上に個人情報を出したままにしないというのは徹底してくれているようですね。以前はメモがたくさん貼ってあるパソコンをよく見ましたが、最近はなくなりました。えー、<b>今は使わない昔の書類ですが、ダンボール箱に入ったままになっていますね。年度ごとにファイルにまとめるなどしておいてください。</b>あっ、ファイルといえば、棚の中のものは、ラベルが付いて整理され、見違えるようになりましたね。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nTổ trưởng kiểm tra việc cải thiện môi trường văn phòng: việc cất thông tin cá nhân, bỏ giấy nhớ trên máy tính, dán nhãn file trên kệ đều đã làm tốt; chỉ còn tài liệu cũ không dùng vẫn để nguyên trong thùng carton nên yêu cầu sắp xếp đóng tập theo từng năm.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc mới cần làm là sắp xếp lại tài liệu cũ &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 413,
@@ -4416,12 +4416,12 @@ window.JLPT_DATA[5] = {
           "questionText": "女の先生はこのあとまず何をしますか。",
           "options": [
             "声の出し方の練習を強化する",
-            "曲を変更する",
-            "生徒に歌の意味を考えさせる",
+            "曲をへんこうする",
+            "せいとに歌の意味を考えさせる",
             "体力トレーニングを増やす"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Cô giáo sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 声の出し方の練習を強化する: Tăng cường luyện cách phát âm<br>\n2. 曲を変更する: Đổi bài hát<br>\n3. 生徒に歌の意味を考えさせる: Cho học sinh suy nghĩ về ý nghĩa của bài hát<br>\n4. 体力トレーニングを増やす: Tăng cường tập thể lực (làm sau khi xem xét tình hình)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n学校でコーラス部の女の先生と校長先生が話しています。<br>\n女：…生徒たちの声、今ひとつ表現力が乏しくて。声の出し方など、基礎的な練習を強化したほうがいいんでしょうか。<br>\n男：うん、そういう時は、曲全体を見したほうがいいんじゃないかな。<br>\n女：えっ、曲を変更するんですか。<br>\n男：<b>いや、みんなで歌詞を読んで、意味を深く理解する時間を取るっていう意味ですよ。</b>…そうすれば、曲の捉え方が変わって、感情の込め方もよくなると思いますよ。…<b>その後様子を見て、必要だったら、体力トレーニングを増やしたりしてもいいと思います。</b><br>\n女：ありがとうございます。早速やってみます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCô giáo phụ trách CLB hợp xướng hỏi ý kiến thầy hiệu trưởng vì học sinh hát thiếu biểu cảm. Thầy khuyên không cần tăng luyện cơ bản hay đổi bài, mà hãy cho cả nhóm đọc lời bài hát để hiểu sâu ý nghĩa; sau đó mới tính đến tập thể lực nếu cần.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc làm đầu tiên là cho học sinh đọc và suy nghĩ sâu về ý nghĩa lời bài hát &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Cô giáo sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 声の出し方の練習を強化する: Tăng cường luyện cách phát âm<br>\n2. 曲をへんこうする: Đổi bài hát<br>\n3. せいとに歌の意味を考えさせる: Cho học sinh suy nghĩ về ý nghĩa của bài hát<br>\n4. 体力トレーニングを増やす: Tăng cường tập thể lực (làm sau khi xem xét tình hình)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n学校でコーラス部の女の先生と校長先生が話しています。<br>\n女：…生徒たちの声、今ひとつ表現力が乏しくて。声の出し方など、基礎的な練習を強化したほうがいいんでしょうか。<br>\n男：うん、そういう時は、曲全体を見したほうがいいんじゃないかな。<br>\n女：えっ、曲をへんこうするんですか。<br>\n男：<b>いや、みんなで歌詞を読んで、意味を深く理解する時間を取るっていう意味ですよ。</b>…そうすれば、曲の捉え方が変わって、感情の込め方もよくなると思いますよ。…<b>その後様子を見て、必要だったら、体力トレーニングを増やしたりしてもいいと思います。</b><br>\n女：ありがとうございます。早速やってみます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCô giáo phụ trách CLB hợp xướng hỏi ý kiến thầy hiệu trưởng vì học sinh hát thiếu biểu cảm. Thầy khuyên không cần tăng luyện cơ bản hay đổi bài, mà hãy cho cả nhóm đọc lời bài hát để hiểu sâu ý nghĩa; sau đó mới tính đến tập thể lực nếu cần.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc làm đầu tiên là cho học sinh đọc và suy nghĩ sâu về ý nghĩa lời bài hát &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 414,
@@ -4435,11 +4435,11 @@ window.JLPT_DATA[5] = {
           "options": [
             "一日体験教室に申し込む",
             "家具の写真を用意する",
-            "会員登録をする",
+            "会員とうろくをする",
             "道具を買う"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ trước khi đến cửa hàng đồ gia dụng (Home Center) phải làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 一日体験教室に申し込む: Đăng ký lớp trải nghiệm 1 ngày (nhầm lớp)<br>\n2. 家具の写真を用意する: Chuẩn bị ảnh món đồ nội thất muốn làm<br>\n3. 会員登録をする: Đăng ký hội viên (làm sau khi quyết định tham gia lâu dài)<br>\n4. 道具を買う: Mua dụng cụ (buổi đầu dùng đồ của cửa hàng)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n電話でホームセンターの店員と女の人が話しています。<br>\n男：ああ、それなら、毎週日曜の午後にやってます。インストラクターが一人いますから、初心者の方でも大丈夫ですよ。<b>作りたい家具の写真を持ってきてください。</b>あくまで、参考にする程度ですが。<br>\n女：わかりました。あっ、ホームページに、会員登録が必要だって書いてありましたが。<br>\n男：それは一度参加されてから、継続すると決められた時で結構です。<br>\n女：そうですか。それから、道具は。<br>\n男：初回は、ここのを使っていただけます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ gọi điện hỏi lớp học đóng đồ gỗ định kỳ vào chiều Chủ nhật. Nhân viên dặn mang theo ảnh món đồ muốn làm; đăng ký hội viên thì để sau khi tham gia thử, dụng cụ buổi đầu dùng tại chỗ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cần chuẩn bị ảnh món đồ muốn làm trước khi tới &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ trước khi đến cửa hàng đồ gia dụng (Home Center) phải làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 一日体験教室に申し込む: Đăng ký lớp trải nghiệm 1 ngày (nhầm lớp)<br>\n2. 家具の写真を用意する: Chuẩn bị ảnh món đồ nội thất muốn làm<br>\n3. 会員とうろくをする: Đăng ký hội viên (làm sau khi quyết định tham gia lâu dài)<br>\n4. 道具を買う: Mua dụng cụ (buổi đầu dùng đồ của cửa hàng)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n電話でホームセンターの店員と女の人が話しています。<br>\n男：ああ、それなら、毎週日曜の午後にやってます。インストラクターが一人いますから、初心者の方でも大丈夫ですよ。<b>作りたい家具の写真を持ってきてください。</b>あくまで、参考にする程度ですが。<br>\n女：わかりました。あっ、ホームページに、会員登録が必要だって書いてありましたが。<br>\n男：それは一度参加されてから、継続すると決められた時で結構です。<br>\n女：そうですか。それから、道具は。<br>\n男：初回は、ここのを使っていただけます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ gọi điện hỏi lớp học đóng đồ gỗ định kỳ vào chiều Chủ nhật. Nhân viên dặn mang theo ảnh món đồ muốn làm; đăng ký hội viên thì để sau khi tham gia thử, dụng cụ buổi đầu dùng tại chỗ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cần chuẩn bị ảnh món đồ muốn làm trước khi tới &rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 415,
@@ -4451,13 +4451,13 @@ window.JLPT_DATA[5] = {
           "audioSrc": "audio/buoi_05/real_m1_05.mp3",
           "questionText": "女の人はこのあとまず何をしますか。",
           "options": [
-            "資料を会場に運ぶ",
+            "しりょうを会場に運ぶ",
             "手伝ってくれる人をさがす",
-            "招待客の席を確保する",
-            "弁当を注文する"
+            "しょうたい客の席をかくほする",
+            "べんとうを注文する"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 資料を会場に運ぶ: Chuyển tài liệu ra hội trường<br>\n2. 手伝ってくれる人をさがす: Tìm người giúp đỡ (đã nhờ 3 người sáng nay rồi)<br>\n3. 招待客の席を確保する: Giữ chỗ cho khách mời (sếp bảo tự làm giấy dán trong lúc cô chuyển tài liệu)<br>\n4. 弁当を注文する: Đặt cơm hộp (đã đặt rồi, sáng mai mới xác nhận giao)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学の事務室で男の人と女の人が話しています。<br>\n女：はい。配る資料は、すべて印刷が終わっています。<br>\n男：<b>では早速会場に運んでください。</b>…椅子に張る紙は<b>山本さんたちが資料を運んでる間に、私が作っておきますから、後で取りに来てくれますか。</b><br>\n女：お弁当の予約は済んでるんですが、配達の確認は当日の朝することになっているので、必ずやっておきます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nSếp hỏi tiến độ chuẩn bị hội thảo ngày mai: tài liệu đã in xong nên bảo cô mang ngay ra hội trường (đã có 3 người phụ); trong lúc cô mang tài liệu, sếp sẽ làm giấy dán ghế mời rồi cô quay lại lấy sau; cơm hộp đã đặt sẵn.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc làm đầu tiên ngay bây giờ là mang tài liệu ra hội trường &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. しりょうを会場に運ぶ: Chuyển tài liệu ra hội trường<br>\n2. 手伝ってくれる人をさがす: Tìm người giúp đỡ (đã nhờ 3 người sáng nay rồi)<br>\n3. しょうたい客の席をかくほする: Giữ chỗ cho khách mời (sếp bảo tự làm giấy dán trong lúc cô chuyển tài liệu)<br>\n4. べんとうを注文する: Đặt cơm hộp (đã đặt rồi, sáng mai mới xác nhận giao)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学の事務室で男の人と女の人が話しています。<br>\n女：はい。配る資料は、すべて印刷が終わっています。<br>\n男：<b>では早速会場に運んでください。</b>…椅子に張る紙は<b>山本さんたちが資料を運んでる間に、私が作っておきますから、後で取りに来てくれますか。</b><br>\n女：お弁当の予約は済んでるんですが、配達の確認は当日の朝することになっているので、必ずやっておきます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nSếp hỏi tiến độ chuẩn bị hội thảo ngày mai: tài liệu đã in xong nên bảo cô mang ngay ra hội trường (đã có 3 người phụ); trong lúc cô mang tài liệu, sếp sẽ làm giấy dán ghế mời rồi cô quay lại lấy sau; cơm hộp đã đặt sẵn.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Việc làm đầu tiên ngay bây giờ là mang tài liệu ra hội trường &rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 416,
@@ -4472,10 +4472,10 @@ window.JLPT_DATA[5] = {
             "気温が低すぎたから",
             "水をやりすぎたから",
             "日光を当てすぎたから",
-            "鉢を大きいものに変えたから"
+            "はちを大きいものに変えたから"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhân viên nói tại sao cái cây lại yếu đi?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 気温が低すぎたから: Vì nhiệt độ quá thấp<br>\n2. 水をやりすぎたから: Vì tưới quá nhiều nước<br>\n3. 日光を当てすぎたから: Vì phơi nắng trực tiếp quá nhiều<br>\n4. 鉢を大きいものに変えたから: Vì đã đổi sang chậu lớn hơn<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n花屋で女の人と店員が話しています。<br>\n女：…水はやり過ぎないように注意していましたし、日当たりのいいベランダに常に置くようにしていたんですけど。<br>\n男：ああ、おそらくそれですね。<b>この木は暖かい場所を好むんですが、直接日光を長く浴びてしまうと、枯れてしまうこともあるんですよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nKhách nữ mang cây ra hỏi tại sao bị héo dù không tưới quá nhiều nước và luôn đặt ở ban công nhiều nắng. Nhân viên giải thích loại cây này thích chỗ ấm nhưng nếu phơi nắng trực tiếp lâu sẽ bị héo.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Nguyên nhân là để cây tiếp xúc ánh nắng trực tiếp quá nhiều &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhân viên nói tại sao cái cây lại yếu đi?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 気温が低すぎたから: Vì nhiệt độ quá thấp<br>\n2. 水をやりすぎたから: Vì tưới quá nhiều nước<br>\n3. 日光を当てすぎたから: Vì phơi nắng trực tiếp quá nhiều<br>\n4. はちを大きいものに変えたから: Vì đã đổi sang chậu lớn hơn<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n花屋で女の人と店員が話しています。<br>\n女：…水はやり過ぎないように注意していましたし、日当たりのいいベランダに常に置くようにしていたんですけど。<br>\n男：ああ、おそらくそれですね。<b>この木は暖かい場所を好むんですが、直接日光を長く浴びてしまうと、枯れてしまうこともあるんですよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nKhách nữ mang cây ra hỏi tại sao bị héo dù không tưới quá nhiều nước và luôn đặt ở ban công nhiều nắng. Nhân viên giải thích loại cây này thích chỗ ấm nhưng nếu phơi nắng trực tiếp lâu sẽ bị héo.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Nguyên nhân là để cây tiếp xúc ánh nắng trực tiếp quá nhiều &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 417,
@@ -4489,11 +4489,11 @@ window.JLPT_DATA[5] = {
           "options": [
             "味があっさりしすぎているところ",
             "値段が高いところ",
-            "インテリアが派手なところ",
+            "インテリアがはでなところ",
             "サービスが良くないところ"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ nói điểm nào ở nhà hàng khiến cô ấy bận tâm (không ưng ý)?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 味があっさりしすぎているところ: Vị thanh đạm quá<br>\n2. 値段が高いところ: Giá đắt (cô bảo với vị đó thì giá hợp lý)<br>\n3. インテリアが派手なところ: Nội thất lòe loẹt, sặc sỡ<br>\n4. サービスが良くないところ: Dịch vụ không tốt (cô khen phục vụ chu đáo)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。<br>\n男：そうか。じゃ、インテリア？外から覗いただけだけど、色使いが独特だよね。<br>\n女：<b>うん、雰囲気を出そうとしているのはわかるんだけど、実際中に入ってみると、ちょっと派手すぎて、落ち着かないんだ。</b>店の人の気配りや対応なんかは、さすがだなと思ったけど。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ kể mới đi ăn quán pasta mới mở: đồ ăn ngon, giá hợp lý, phục vụ tốt, nhưng nội thất bên trong hơi sặc sỡ quá khiến cô thấy không thư thái được.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm cô ấy thấy bận tâm là nội thất hơi sặc sỡ (派手すぎて) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ nói điểm nào ở nhà hàng khiến cô ấy bận tâm (không ưng ý)?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 味があっさりしすぎているところ: Vị thanh đạm quá<br>\n2. 値段が高いところ: Giá đắt (cô bảo với vị đó thì giá hợp lý)<br>\n3. インテリアがはでなところ: Nội thất lòe loẹt, sặc sỡ<br>\n4. サービスが良くないところ: Dịch vụ không tốt (cô khen phục vụ chu đáo)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が話しています。<br>\n男：そうか。じゃ、インテリア？外から覗いただけだけど、色使いが独特だよね。<br>\n女：<b>うん、雰囲気を出そうとしているのはわかるんだけど、実際中に入ってみると、ちょっと派手すぎて、落ち着かないんだ。</b>店の人の気配りや対応なんかは、さすがだなと思ったけど。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ kể mới đi ăn quán pasta mới mở: đồ ăn ngon, giá hợp lý, phục vụ tốt, nhưng nội thất bên trong hơi sặc sỡ quá khiến cô thấy không thư thái được.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm cô ấy thấy bận tâm là nội thất hơi sặc sỡ (派手すぎて) &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 418,
@@ -4506,12 +4506,12 @@ window.JLPT_DATA[5] = {
           "questionText": "男の学生はどうしてクラブの部長になるのを断りたいと言っていますか。",
           "options": [
             "みんなをまとめていくのが苦手だから",
-            "就職のための準備が大変だから",
+            "しゅうしょくのためのじゅんびが大変だから",
             "卒業前に留学したいから",
             "クラブをやめようと思っているから"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao nam sinh viên muốn từ chối làm trưởng CLB?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. みんなをまとめていくのが苦手だから: Vì kém việc dẫn dắt mọi người (cậu ấy bảo có hứng thú)<br>\n2. 就職のための準備が大変だから: Vì chuẩn bị xin việc vất vả<br>\n3. 卒業前に留学したいから: Vì muốn đi du học trước khi tốt nghiệp<br>\n4. クラブをやめようと思っているから: Vì định nghỉ CLB<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で男の学生と女の学生が話しています。<br>\n男：…実は卒業前にやりたいことがあって。<br>\n女：あ、確か<b>留学したいんだっけ</b>。<br>\n男：<b>はい、それさえなければ、引き受けたかったんですが。</b>途中で部長をやめることになっても、申し訳ありませんし。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam sinh từ chối lời mời làm trưởng CLB năm sau của đàn chị. Không phải vì ngại xin việc hay không thích dẫn dắt nhóm, mà vì cậu dự định đi du học trước khi tốt nghiệp, sợ phải nghỉ giữa chừng.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Lý do từ chối là muốn đi du học trước tốt nghiệp &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sao nam sinh viên muốn từ chối làm trưởng CLB?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. みんなをまとめていくのが苦手だから: Vì kém việc dẫn dắt mọi người (cậu ấy bảo có hứng thú)<br>\n2. しゅうしょくのためのじゅんびが大変だから: Vì chuẩn bị xin việc vất vả<br>\n3. 卒業前に留学したいから: Vì muốn đi du học trước khi tốt nghiệp<br>\n4. クラブをやめようと思っているから: Vì định nghỉ CLB<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で男の学生と女の学生が話しています。<br>\n男：…実は卒業前にやりたいことがあって。<br>\n女：あ、確か<b>留学したいんだっけ</b>。<br>\n男：<b>はい、それさえなければ、引き受けたかったんですが。</b>途中で部長をやめることになっても、申し訳ありませんし。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam sinh từ chối lời mời làm trưởng CLB năm sau của đàn chị. Không phải vì ngại xin việc hay không thích dẫn dắt nhóm, mà vì cậu dự định đi du học trước khi tốt nghiệp, sợ phải nghỉ giữa chừng.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Lý do từ chối là muốn đi du học trước tốt nghiệp &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 419,
@@ -4523,13 +4523,13 @@ window.JLPT_DATA[5] = {
           "audioSrc": "audio/buoi_05/real_m2_04.mp3",
           "questionText": "女の人は今回どんな点を重視した弁当をつくろうと考えていますか。",
           "options": [
-            "全体の量は少ないが、野菜がたっぷりの弁当",
-            "全体の量が少なく、見た目の良い弁当",
-            "全体の量が多く、野菜もたっぷりの弁当",
-            "全体の量が多く、見た目の良い弁当"
+            "全体の量は少ないが、野菜がたっぷりのべんとう",
+            "全体の量が少なく、見た目の良いべんとう",
+            "全体の量が多く、野菜もたっぷりのべんとう",
+            "全体の量が多く、見た目の良いべんとう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ lần này định làm hộp cơm chú trọng điểm nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 全体の量は少ないが、野菜がたっぷりの弁当: Tổng lượng ít nhưng nhiều rau (của đợt trước cho người già)<br>\n2. 全体の量が少なく、見た目の良い弁当: Tổng lượng ít, hình thức đẹp<br>\n3. 全体の量が多く、野菜もたっぷりの弁当: Tổng lượng nhiều, nhiều rau<br>\n4. 全体の量が多く、見た目の良い弁当: Tổng lượng nhiều (đầy đặn) và hình thức bắt mắt<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n会社で男の人と女の人が話しています。<br>\n女：はい、でも今回私が考えてるのは、野菜よりむしろ、肉とか魚とかのタンパク質を多めにした、<b>全体的にボリュームたっぷりの和風弁当なんです。</b>…それに、和食は目で食べるって言うから、<b>ぱっと見た感じも大事ですよね。今回は、この2点を重視したお弁当にしたいんです。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ nhân viên trình bày ý tưởng hộp cơm kiểu Nhật mới nhắm vào người trẻ: nhiều đạm (thịt, cá) hơn là rau, tổng thể đầy đặn (ボリュームたっぷり) và chú trọng hình thức nhìn vào bắt mắt (ぱっと見た感じ).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hai điểm được nhấn mạnh là lượng nhiều (ボリュームたっぷり) và vẻ ngoài đẹp (見た目) &rarr; <b>Đáp án đúng là 4</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ lần này định làm hộp cơm chú trọng điểm nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 全体の量は少ないが、野菜がたっぷりのべんとう: Tổng lượng ít nhưng nhiều rau (của đợt trước cho người già)<br>\n2. 全体の量が少なく、見た目の良いべんとう: Tổng lượng ít, hình thức đẹp<br>\n3. 全体の量が多く、野菜もたっぷりのべんとう: Tổng lượng nhiều, nhiều rau<br>\n4. 全体の量が多く、見た目の良いべんとう: Tổng lượng nhiều (đầy đặn) và hình thức bắt mắt<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n会社で男の人と女の人が話しています。<br>\n女：はい、でも今回私が考えてるのは、野菜よりむしろ、肉とか魚とかのタンパク質を多めにした、<b>全体的にボリュームたっぷりの和風弁当なんです。</b>…それに、和食は目で食べるって言うから、<b>ぱっと見た感じも大事ですよね。今回は、この2点を重視したお弁当にしたいんです。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ nhân viên trình bày ý tưởng hộp cơm kiểu Nhật mới nhắm vào người trẻ: nhiều đạm (thịt, cá) hơn là rau, tổng thể đầy đặn (ボリュームたっぷり) và chú trọng hình thức nhìn vào bắt mắt (ぱっと見た感じ).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hai điểm được nhấn mạnh là lượng nhiều (ボリュームたっぷり) và vẻ ngoài đẹp (見た目) &rarr; <b>Đáp án đúng là 4</b>."
         },
         {
           "id": 420,
@@ -4541,13 +4541,13 @@ window.JLPT_DATA[5] = {
           "audioSrc": "audio/buoi_05/real_m2_05.mp3",
           "questionText": "緑町を訪れる外国人が満足していないことはなんだと言っていますか。",
           "options": [
-            "看板や地図が外国語で書かれていないこと",
+            "かんばんや地図が外国語で書かれていないこと",
             "インターネットに接続できる場所が少ないこと",
             "交通機関のシステムが複雑で分かりにくいこと",
             "祭りの回数が少なく、見る機会が少ないこと"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Điều gì được nói là du khách nước ngoài đến thị trấn Midori không hài lòng?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 看板や地図が外国語で書かれていないこと: Biển hiệu, bản đồ không viết tiếng nước ngoài (thực tế đã viết rồi)<br>\n2. インターネットに接続できる場所が少ないこと: Ít nơi kết nối internet (thực tế được đánh giá cao vì có wifi)<br>\n3. 交通機関のシステムが複雑で分かりにくいこと: Hệ thống giao thông phức tạp, khó hiểu<br>\n4. 祭りの回数が少なく、見る機会が少ないこと: Ít dịp xem lễ hội (thông tin phụ: lễ hội 5 năm 1 lần)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビのニュースでアナウンサーが話しています。<br>\n…看板や地図が外国語で書かれている。無線でインターネットに接続できる場所がある、などの点では、評価を得た一方、<b>電車の乗り換えが複雑であるなど、交通機関のシステムがわかりにくいという否定的な声も聞かれました。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBản tin công bố khảo sát du khách nước ngoài tại thị trấn Midori: được khen về biển chỉ dẫn ngoại ngữ và wifi, nhưng bị phàn nàn rằng việc đổi tàu phức tạp, hệ thống giao thông khó hiểu.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm chưa hài lòng là hệ thống giao thông phức tạp, khó hiểu &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Điều gì được nói là du khách nước ngoài đến thị trấn Midori không hài lòng?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. かんばんや地図が外国語で書かれていないこと: Biển hiệu, bản đồ không viết tiếng nước ngoài (thực tế đã viết rồi)<br>\n2. インターネットに接続できる場所が少ないこと: Ít nơi kết nối internet (thực tế được đánh giá cao vì có wifi)<br>\n3. 交通機関のシステムが複雑で分かりにくいこと: Hệ thống giao thông phức tạp, khó hiểu<br>\n4. 祭りの回数が少なく、見る機会が少ないこと: Ít dịp xem lễ hội (thông tin phụ: lễ hội 5 năm 1 lần)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビのニュースでアナウンサーが話しています。<br>\n…看板や地図が外国語で書かれている。無線でインターネットに接続できる場所がある、などの点では、評価を得た一方、<b>電車の乗り換えが複雑であるなど、交通機関のシステムがわかりにくいという否定的な声も聞かれました。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBản tin công bố khảo sát du khách nước ngoài tại thị trấn Midori: được khen về biển chỉ dẫn ngoại ngữ và wifi, nhưng bị phàn nàn rằng việc đổi tàu phức tạp, hệ thống giao thông khó hiểu.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm chưa hài lòng là hệ thống giao thông phức tạp, khó hiểu &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 421,
@@ -4559,13 +4559,13 @@ window.JLPT_DATA[5] = {
           "audioSrc": "audio/buoi_05/real_m2_06.mp3",
           "questionText": "この会社の野菜ジュースの売り上げが伸びた理由はなんですか。",
           "options": [
-            "全国の大型スーパーで販売を始めた",
-            "特定の地域で、商品を売る店を増やした",
-            "特定の地域向けに新商品を開発した",
+            "全国の大型スーパーではんばいを始めた",
+            "特定のちいきで、商品を売る店を増やした",
+            "特定のちいき向けに新商品を開発した",
             "特定の期間、商品の値段を下げた"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do doanh số nước ép rau củ của công ty này tăng lên là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 全国の大型スーパーで販売を始めた: Bắt đầu bán ở siêu thị lớn toàn quốc (cách làm cũ không hiệu quả)<br>\n2. 特定の地域で、商品を売る店を増やした: Tăng số cửa hàng bán sản phẩm tại khu vực nhất định<br>\n3. 特定の地域向けに新商品を開発した: Phát triển sản phẩm mới cho khu vực nhất định<br>\n4. 特定の期間、商品の値段を下げた: Giảm giá trong thời gian nhất định<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で先生がある食品会社について話しています。<br>\n…数年前まで、野菜ジュースを大型スーパーなどを中心に、全国的に販売していたんですが、売り上げがなかなか伸びなかったんです。<b>そこで、売り上げが好調な地域にターゲットを絞り、商品を販売する店の数を増やしたところ、売り上げが倍近く増加したそうです。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nThầy giáo giảng về chiến lược của một hãng thực phẩm: Trước đây bán toàn quốc ở siêu thị lớn nhưng doanh số không tăng. Sau đó họ khoanh vùng khu vực bán chạy và tăng số lượng điểm bán ở đó, giúp doanh số tăng gần gấp đôi.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chiến lược giúp tăng doanh số là tăng số cửa hàng bán tại khu vực mục tiêu &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do doanh số nước ép rau củ của công ty này tăng lên là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 全国の大型スーパーではんばいを始めた: Bắt đầu bán ở siêu thị lớn toàn quốc (cách làm cũ không hiệu quả)<br>\n2. 特定のちいきで、商品を売る店を増やした: Tăng số cửa hàng bán sản phẩm tại khu vực nhất định<br>\n3. 特定のちいき向けに新商品を開発した: Phát triển sản phẩm mới cho khu vực nhất định<br>\n4. 特定の期間、商品の値段を下げた: Giảm giá trong thời gian nhất định<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学で先生がある食品会社について話しています。<br>\n…数年前まで、野菜ジュースを大型スーパーなどを中心に、全国的に販売していたんですが、売り上げがなかなか伸びなかったんです。<b>そこで、売り上げが好調な地域にターゲットを絞り、商品を販売する店の数を増やしたところ、売り上げが倍近く増加したそうです。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nThầy giáo giảng về chiến lược của một hãng thực phẩm: Trước đây bán toàn quốc ở siêu thị lớn nhưng doanh số không tăng. Sau đó họ khoanh vùng khu vực bán chạy và tăng số lượng điểm bán ở đó, giúp doanh số tăng gần gấp đôi.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chiến lược giúp tăng doanh số là tăng số cửa hàng bán tại khu vực mục tiêu &rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 422,

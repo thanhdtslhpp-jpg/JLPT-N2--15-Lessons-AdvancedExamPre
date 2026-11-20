@@ -6961,10 +6961,10 @@ window.JLPT_DATA[11] = {
             "敬語が間違っているから",
             "会議に遅れたから",
             "謝り方が悪いから",
-            "資料の準備が遅いから"
+            "しりようの準備が遅いから"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người chồng nói tại sao anh ấy lại tức giận với cấp dưới?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 敬語が間違っているから: Vì dùng sai kính ngữ<br>\n2. 会議に遅れたから: Vì đi họp muộn<br>\n3. 謝り方が悪いから: Vì cách xin lỗi tệ/không biết cách xin lỗi<br>\n4. 資料の準備が遅いから: Vì chuẩn bị tài liệu chậm<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n夫：まあ、敬語とかの間違いはもう諦めてる。<b>でも、会議に遅刻しておいて、謝り方も知らないというのはどうかと思う。</b>「資料の準備が大変だったから仕方がない」っていう言い方なんだよ。全然自分に責任がないような言い方をすることはないだろう。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nChuyện dùng sai kính ngữ chồng đã bỏ qua. Điều khiến chồng tức giận là cấp dưới đi họp muộn mà <b>không biết cách xin lỗi</b>, lại đổ lỗi do chuẩn bị tài liệu vất vả như thể mình vô can.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Tức vì cách xin lỗi (謝り方) thiếu trách nhiệm &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người chồng nói tại sao anh ấy lại tức giận với cấp dưới?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 敬語が間違っているから: Vì dùng sai kính ngữ<br>\n2. 会議に遅れたから: Vì đi họp muộn<br>\n3. 謝り方が悪いから: Vì cách xin lỗi tệ/không biết cách xin lỗi<br>\n4. しりようの準備が遅いから: Vì chuẩn bị tài liệu chậm<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n夫：まあ、敬語とかの間違いはもう諦めてる。<b>でも、会議に遅刻しておいて、謝り方も知らないというのはどうかと思う。</b>「資料の準備が大変だったから仕方がない」っていう言い方なんだよ。全然自分に責任がないような言い方をすることはないだろう。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nChuyện dùng sai kính ngữ chồng đã bỏ qua. Điều khiến chồng tức giận là cấp dưới đi họp muộn mà <b>không biết cách xin lỗi</b>, lại đổ lỗi do chuẩn bị tài liệu vất vả như thể mình vô can.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Tức vì cách xin lỗi (謝り方) thiếu trách nhiệm &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 222,

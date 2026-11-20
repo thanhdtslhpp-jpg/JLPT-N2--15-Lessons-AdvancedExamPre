@@ -2238,13 +2238,13 @@ window.JLPT_DATA[12] = {
           "audio": "audio/buoi_12/m1_01.mp3",
           "questionText": "大学でダンスサークルの男の学生と女の学生が話しています。男の学生は今日何をしますか。",
           "options": [
-            "ポスターを掲示板に貼る",
-            "ポスターを貼る許可をもらう",
-            "チラシを作る",
-            "チラシを配る"
+            "ポスターをけいじばんにはる",
+            "ポスターをはるきょかをもらう",
+            "ちらしを作る",
+            "ちらしを配る"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nam sinh và một nữ sinh thuộc câu lạc bộ khiêu vũ đang nói chuyện. Nam sinh hôm nay sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ポスターを掲示板に貼る: Dán poster lên bảng thông báo<br>2. ポスターを貼る許可をもらう: Xin phép dán poster<br>3. チラシを作る: Làm tờ rơi<br>4. チラシを配る: Phát tờ rơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：おはよう。ちょうどよかった。頼みたいことがあるんだけど。<br>男：おはようございます。<br>女：あー、そのポスター、来週のサークルの紹介でやるダンスのお知らせですね。新入生勧誘のための。掲示板に貼るんですか。<br>男：うん。その前に学生課で掲示の許可をもらわないといけないから。今から行くんだ。<br>女：そうなんですか。後で貼るのを手伝いましょうか？<br>男：これは一人で大丈夫。<b>別にチラシも作ってあるんだけど、それを今日、大学の中で配る予定なんだ。その時何人か必要だから、手伝ってくれる？</b><br>女：<b>はい、分かりました。</b>僕たちのダンスを見て、新入生がたくさん入ってくれるといいですね。<br>男：そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh hỏi có cần giúp dán poster không, nam sinh bảo: \"Đây thì một mình anh làm được. Ngoài ra anh đã làm sẵn tờ rơi, hôm nay dự định phát trong trường. Lúc đó cần vài người, em giúp anh nhé?\" &rarr; Nữ sinh đồng ý.<br>- Nam sinh nhờ nữ sinh giúp phát tờ rơi, vậy việc nam sinh làm hôm nay cùng nữ sinh là đi phát tờ rơi.<br>&rarr; <b>Đáp án đúng là 4 (チラシを配る)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nam sinh và một nữ sinh thuộc câu lạc bộ khiêu vũ đang nói chuyện. Nam sinh hôm nay sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ポスターをけいじばんにはる: Dán poster lên bảng thông báo<br>2. ポスターをはるきょかをもらう: Xin phép dán poster<br>3. ちらしを作る: Làm tờ rơi<br>4. ちらしを配る: Phát tờ rơi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：おはよう。ちょうどよかった。頼みたいことがあるんだけど。<br>男：おはようございます。<br>女：あー、そのポスター、来週のサークルの紹介でやるダンスのお知らせですね。新入生勧誘のための。掲示板に貼るんですか。<br>男：うん。その前に学生課で掲示の許可をもらわないといけないから。今から行くんだ。<br>女：そうなんですか。後で貼るのを手伝いましょうか？<br>男：これは一人で大丈夫。<b>別にチラシも作ってあるんだけど、それを今日、大学の中で配る予定なんだ。その時何人か必要だから、手伝ってくれる？</b><br>女：<b>はい、分かりました。</b>僕たちのダンスを見て、新入生がたくさん入ってくれるといいですね。<br>男：そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh hỏi có cần giúp dán poster không, nam sinh bảo: \"Đây thì một mình anh làm được. Ngoài ra anh đã làm sẵn tờ rơi, hôm nay dự định phát trong trường. Lúc đó cần vài người, em giúp anh nhé?\" &rarr; Nữ sinh đồng ý.<br>- Nam sinh nhờ nữ sinh giúp phát tờ rơi, vậy việc nam sinh làm hôm nay cùng nữ sinh là đi phát tờ rơi.<br>&rarr; <b>Đáp án đúng là 4 (ちらしを配る)</b>."
         },
         {
           "id": 140,
@@ -2272,13 +2272,13 @@ window.JLPT_DATA[12] = {
           "audio": "audio/buoi_12/m1_03.mp3",
           "questionText": "会社で男の人と女の人が話しています。女の人はこの後まず何をしますか。",
           "options": [
-            "鍋を買う",
+            "なべを買う",
             "田中さんと話す",
             "お金を集める",
             "花を買う"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, một người nam và một người nữ đang nói chuyện. Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 鍋を買う: Mua nồi<br>2. 田中さんと話す: Nói chuyện với Tanaka-san<br>3. お金を集める: Thu tiền mọi người<br>4. 花を買う: Mua hoa<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんが今月いっぱいで退職ですから、みんなで何かプレゼントしようと思っているんだけど。<br>女：ああ、いいですね。何がいいかなあ。<br>男：何かリクエストがあるか聞いてみようと思ってるんだけど。<br>女：田中さんって、何かほしいものないって直接聞いても、いいですって言いそうですし。<br>男：あ、そうそう。この前、鍋のいいのがほしいとか言ってなかったっけ。料理教室に通い始めたからって。<br>女：そうでしたね。<br>男：<b>ああ、でも、もう買っちゃったってこともあるから、それとなく本人に探ってみてよ。それでまだだったら、鍋にしようよ。</b><br>女：<b>そうですね。今日のランチの時にでも。</b><br>男：うん。頼んだよ。プレゼント代はそのあとでみんなから集めて、余れば当日花を買おう。<br>女：はい。花の注文は私の方でします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tanaka sắp nghỉ việc, mọi người tính tặng quà là chiếc nồi nấu ăn. Tuy nhiên sợ Tanaka đã tự mua rồi nên người nam bảo người nữ: \"Em hãy kín đáo dò hỏi xem sao (探ってみて)\".<br>- Người nữ đồng ý sẽ hỏi chuyện Tanaka vào bữa trưa hôm nay (今日のランチの時にでも). Sau đó mới thu tiền và đặt hoa.<br>&rarr; <b>Đáp án đúng là 2 (田中さんと話す)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, một người nam và một người nữ đang nói chuyện. Người phụ nữ sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. なべを買う: Mua nồi<br>2. 田中さんと話す: Nói chuyện với Tanaka-san<br>3. お金を集める: Thu tiền mọi người<br>4. 花を買う: Mua hoa<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：田中さんが今月いっぱいで退職ですから、みんなで何かプレゼントしようと思っているんだけど。<br>女：ああ、いいですね。何がいいかなあ。<br>男：何かリクエストがあるか聞いてみようと思ってるんだけど。<br>女：田中さんって、何かほしいものないって直接聞いても、いいですって言いそうですし。<br>男：あ、そうそう。この前、鍋のいいのがほしいとか言ってなかったっけ。料理教室に通い始めたからって。<br>女：そうでしたね。<br>男：<b>ああ、でも、もう買っちゃったってこともあるから、それとなく本人に探ってみてよ。それでまだだったら、鍋にしようよ。</b><br>女：<b>そうですね。今日のランチの時にでも。</b><br>男：うん。頼んだよ。プレゼント代はそのあとでみんなから集めて、余れば当日花を買おう。<br>女：はい。花の注文は私の方でします。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Tanaka sắp nghỉ việc, mọi người tính tặng quà là chiếc nồi nấu ăn. Tuy nhiên sợ Tanaka đã tự mua rồi nên người nam bảo người nữ: \"Em hãy kín đáo dò hỏi xem sao (探ってみて)\".<br>- Người nữ đồng ý sẽ hỏi chuyện Tanaka vào bữa trưa hôm nay (今日のランチの時にでも). Sau đó mới thu tiền và đặt hoa.<br>&rarr; <b>Đáp án đúng là 2 (田中さんと話す)</b>."
         },
         {
           "id": 142,
@@ -2289,13 +2289,13 @@ window.JLPT_DATA[12] = {
           "audio": "audio/buoi_12/m1_04.mp3",
           "questionText": "女の人が新しい商品の紹介をしています。よく頭が痛くなる人は、どの商品を選びますか。",
           "options": [
-            "月のお茶",
-            "星のお茶",
-            "虹のお茶",
-            "空のお茶"
+            "つきのお茶",
+            "ほしのお茶",
+            "にじのお茶",
+            "そらのお茶"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ đang giới thiệu dòng sản phẩm trà mới. Người hay bị đau đầu nên chọn sản phẩm nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 月のお茶: Trà Mặt Trăng (ấm người, người hay lạnh chân tay)<br>2. 星のお茶: Trà Ngôi Sao (người mỏi mắt do máy tính)<br>3. 虹のお茶: Trà Cầu Vồng (người bị đau đầu)<br>4. 空のお茶: Trà Bầu Trời (người khó ngủ)<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：こちら、新発売の中国茶をご案内します。今回皆様にご紹介いたしますのは、月・星・虹・空のお茶の4種類でございます。さあ、どうぞ召し上がってください。えー、月のお茶は体を温めてくれます。体が冷えやすい方に向いています。星のお茶はパソコン等の見すぎで目が疲れている方。<b>虹のお茶は頭痛でお悩みの方に最適です。</b>なかなか眠れない方には空のお茶がお勧めです。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bài nói nêu rõ công dụng từng loại:<br>  + 月のお茶: Làm ấm cơ thể, hợp người hay bị lạnh.<br>  + 星のお茶: Người nhìn màn hình nhiều mỏi mắt.<br>  + <b>虹のお茶: Tối ưu cho người đau đầu (頭痛でお悩みの方に最適)</b>.<br>  + 空のお茶: Dành cho người khó ngủ.<br>&rarr; <b>Đáp án đúng là 3 (虹のお茶)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ đang giới thiệu dòng sản phẩm trà mới. Người hay bị đau đầu nên chọn sản phẩm nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. つきのお茶: Trà Mặt Trăng (ấm người, người hay lạnh chân tay)<br>2. ほしのお茶: Trà Ngôi Sao (người mỏi mắt do máy tính)<br>3. にじのお茶: Trà Cầu Vồng (người bị đau đầu)<br>4. そらのお茶: Trà Bầu Trời (người khó ngủ)<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：こちら、新発売の中国茶をご案内します。今回皆様にご紹介いたしますのは、月・星・虹・そらのお茶の4種類でございます。さあ、どうぞ召し上がってください。えー、つきのお茶は体を温めてくれます。体が冷えやすい方に向いています。ほしのお茶はパソコン等の見すぎで目が疲れている方。<b>にじのお茶は頭痛でお悩みの方に最適です。</b>なかなか眠れない方にはそらのお茶がお勧めです。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bài nói nêu rõ công dụng từng loại:<br>  + つきのお茶: Làm ấm cơ thể, hợp người hay bị lạnh.<br>  + ほしのお茶: Người nhìn màn hình nhiều mỏi mắt.<br>  + <b>にじのお茶: Tối ưu cho người đau đầu (頭痛でお悩みの方に最適)</b>.<br>  + そらのお茶: Dành cho người khó ngủ.<br>&rarr; <b>Đáp án đúng là 3 (にじのお茶)</b>."
         },
         {
           "id": 143,
@@ -2308,11 +2308,11 @@ window.JLPT_DATA[12] = {
           "options": [
             "手数料を払う",
             "写真を持ってくる",
-            "再発行の申込書を書く",
-            "連絡先を変更する"
+            "さいはっこうの申込書を書く",
+            "れんらくさきをへんこうする"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại văn phòng đại học, một nam sinh và một nhân viên đang nói chuyện. Nam sinh sau đây trước tiên phải làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 手数料を払う: Nộp lệ phí<br>2. 写真を持ってくる: Mang ảnh đến<br>3. 再発行の申込書を書く: Viết đơn xin cấp lại thẻ<br>4. 連絡先を変更する: Thay đổi địa chỉ liên lạc<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、学生証をなくしたんですが、再発行をお願いできますか。<br>職員：再発行には手数料が900円かかります。あと、写真が1枚必要です。えー、それから、再発行するとこれまでのものはもし見つかっても使えませんので。<br>男：はい。手数料、今払います。写真も持ってきました。<br>職員：<b>じゃ、先に写真、いただきます。それから、こちらの再発行の申込書を書いてもらえますか。</b><br>男：はい。<br>職員：あ、住所や電話番号は変わってませんか。変更がある場合は先にその変更届を出してもらわなくちゃいけないんで。<br>男：入学した時から変わってません。<br>職員：分かりました。ええ、手数料はここではなく、会計課で払ってもらいます。<b>申込書の記入が済んだらコピーをお渡しするので、それを会計課に持っていって手数料を払ってください。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã mang ảnh theo và nộp ảnh cho nhân viên rồi. Địa chỉ không thay đổi nên không cần làm đơn đổi.<br>- Bước tiếp theo nhân viên yêu cầu: \"Em hãy điền đơn xin cấp lại thẻ (再発行の申込書を書いてもらえますか)\". Sau khi điền xong mới cầm bản sao qua phòng kế toán nộp tiền.<br>&rarr; <b>Đáp án đúng là 3 (再発行の申込書を書く)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại văn phòng đại học, một nam sinh và một nhân viên đang nói chuyện. Nam sinh sau đây trước tiên phải làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 手数料を払う: Nộp lệ phí<br>2. 写真を持ってくる: Mang ảnh đến<br>3. さいはっこうの申込書を書く: Viết đơn xin cấp lại thẻ<br>4. れんらくさきをへんこうする: Thay đổi địa chỉ liên lạc<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、学生証をなくしたんですが、再発行をお願いできますか。<br>職員：再発行には手数料が900円かかります。あと、写真が1枚必要です。えー、それから、再発行するとこれまでのものはもし見つかっても使えませんので。<br>男：はい。手数料、今払います。写真も持ってきました。<br>職員：<b>じゃ、先に写真、いただきます。それから、こちらの再発行の申込書を書いてもらえますか。</b><br>男：はい。<br>職員：あ、住所や電話番号は変わってませんか。変更がある場合は先にその変更届を出してもらわなくちゃいけないんで。<br>男：入学した時から変わってません。<br>職員：分かりました。ええ、手数料はここではなく、会計課で払ってもらいます。<b>申込書の記入が済んだらコピーをお渡しするので、それを会計課に持っていって手数料を払ってください。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh đã mang ảnh theo và nộp ảnh cho nhân viên rồi. Địa chỉ không thay đổi nên không cần làm đơn đổi.<br>- Bước tiếp theo nhân viên yêu cầu: \"Em hãy điền đơn xin cấp lại thẻ (再発行の申込書を書いてもらえますか)\". Sau khi điền xong mới cầm bản sao qua phòng kế toán nộp tiền.<br>&rarr; <b>Đáp án đúng là 3 (さいはっこうの申込書を書く)</b>."
         },
         {
           "id": 144,
@@ -2323,13 +2323,13 @@ window.JLPT_DATA[12] = {
           "audio": "audio/buoi_12/m2_01.mp3",
           "questionText": "郵便局で女の人が荷物を送ろうとしています。荷物はいつ届く予定ですか。",
           "options": [
-            "明日の午前中",
-            "明日の夜",
+            "あしたの午前中",
+            "あしたの夜",
             "明後日の午前中",
             "明後日の夜"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bưu điện, người phụ nữ đang định gửi bưu kiện. Bưu kiện dự kiến bao giờ sẽ tới nơi?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 明日の午前中: Sáng mai<br>2. 明日の夜: Tối mai<br>3. 明後日の午前中: Sáng ngày kia<br>4. 明後日の夜: Tối ngày kia<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：これ明日までに届きますか？<br>男：ちょっとお待ちください。ああ、明日は無理ですね。<br>女：じゃあ、明後日になるの？食べ物が入っているんだけど、困ったなあ。仕方がないわね。<br>男：すみません。あの、時間の指定はできますか。一番早いのは午前中ですけど。<br>女：じゃあ、早いほうがいいんで、それでお願いします。<br>男：はい。午前中ですね。<br>女：<b>あ、待って。留守にしているかもしれない、やっぱり夜8時以降で。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bưu điện báo ngày mai không kịp, chỉ có thể đến vào ngày kia (明後日).<br>- Ban đầu phụ nữ chọn sáng sớm ngày kia, nhưng sau đó nhớ ra người nhận có thể vắng nhà nên đổi lại sang buổi tối sau 8 giờ (やっぱり夜8時以降で).<br>&rarr; <b>Đáp án đúng là 4 (明後日の夜)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại bưu điện, người phụ nữ đang định gửi bưu kiện. Bưu kiện dự kiến bao giờ sẽ tới nơi?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. あしたの午前中: Sáng mai<br>2. あしたの夜: Tối mai<br>3. 明後日の午前中: Sáng ngày kia<br>4. 明後日の夜: Tối ngày kia<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：これ明日までに届きますか？<br>男：ちょっとお待ちください。ああ、明日は無理ですね。<br>女：じゃあ、明後日になるの？食べ物が入っているんだけど、困ったなあ。仕方がないわね。<br>男：すみません。あの、時間の指定はできますか。一番早いのは午前中ですけど。<br>女：じゃあ、早いほうがいいんで、それでお願いします。<br>男：はい。午前中ですね。<br>女：<b>あ、待って。留守にしているかもしれない、やっぱり夜8時以降で。</b><br>男：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bưu điện báo ngày mai không kịp, chỉ có thể đến vào ngày kia (明後日).<br>- Ban đầu phụ nữ chọn sáng sớm ngày kia, nhưng sau đó nhớ ra người nhận có thể vắng nhà nên đổi lại sang buổi tối sau 8 giờ (やっぱり夜8時以降で).<br>&rarr; <b>Đáp án đúng là 4 (明後日の夜)</b>."
         },
         {
           "id": 145,
@@ -2340,13 +2340,13 @@ window.JLPT_DATA[12] = {
           "audio": "audio/buoi_12/m2_02.mp3",
           "questionText": "サッカーの試合の後、アナウンサーが解説の人に話を聞いています。チームブルーが勝った理由は何だと言っていますか。",
           "options": [
-            "監督の指示が的確だったから",
-            "新しい戦術が成功したから",
-            "選手一人ひとりの体力があったから",
-            "相手チームにミスが多かったから"
+            "ぎじゅつてきにすぐれた選手が多かったから",
+            "選手の体力が上回っていたから",
+            "選手がかんとくの指示をよく聞いたから",
+            "かんとくのはんだんが適切だったから"
           ],
-          "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Blue giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 監督の指示が的確だったから: Chỉ đạo của huấn luyện viên chuẩn xác<br>2. 新しい戦術が成功したから: Chiến thuật mới thành công<br>3. 選手一人ひとりの体力があったから: Từng cầu thủ đều có thể lực dồi dào, bền bỉ<br>4. 相手チームにミスが多かったから: Đội đối phương mắc nhiều lỗi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日の試合、チームブルーが見事な勝利でしたね。<br>男：ええ、今日は蒸し暑くて、相手チームは後半足が止まってしまいましたが、<b>チームブルーは最後までよく走っていましたね。選手一人ひとりの体力の差が出ましたね。</b><br>アナウンサー：なるほど。監督のベンチからの指示も盛んでしたが。<br>男：いえ、試合中は選手の判断がすべてです。やはり日頃の走り込みによるスタミナの勝利でしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đối thủ đuối sức, trong khi đội Blue chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 3 (選手一人ひとりの体力があったから)</b>."
+          "correctAnswer": 2,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Blue giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 監督の指示が的確だったから: Chỉ đạo của huấn luyện viên chuẩn xác<br>2. 新しい戦術が成功したから: Chiến thuật mới thành công<br>3. 選手一人ひとりの体力があったから: Từng cầu thủ đều có thể lực dồi dào, bền bỉ<br>4. 相手チームにミスが多かったから: Đội đối phương mắc nhiều lỗi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>アナウンサー：今日の試合、チームブルーが見事な勝利でしたね。<br>男：ええ、今日は蒸し暑くて、相手チームは後半足が止まってしまいましたが、<b>チームブルーは最後までよく走っていましたね。選手一人ひとりの体力の差が出ましたね。</b><br>アナウンサー：なるほど。監督のベンチからの指示も盛んでしたが。<br>男：いえ、試合中は選手の判断がすべてです。やはり日頃の走り込みによるスタミナの勝利でしょう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đối thủ đuối sức, trong khi đội Blue chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 2 (選手の体力が上回っていたから)</b>."
         },
         {
           "id": 146,
@@ -2705,11 +2705,11 @@ window.JLPT_DATA[12] = {
           "options": [
             "店内に宣伝の貼紙を貼る。",
             "包装のデザインをかえる。",
-            "近所の家にチラシを配る。",
+            "近所の家にちらしを配る。",
             "もっと目立つ場所に置く。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Để sản phẩm mới bán chạy hơn, họ quyết định làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 店内に宣伝の貼紙を貼る: Dán áp phích quảng cáo trong cửa hàng<br>\n2. 包装のデザインをかえる: Thay đổi thiết kế bao bì (tốn tiền)<br>\n3. 近所の家にチラシを配る: Phát tờ rơi tới nhà dân quanh vùng (vất vả dịp cuối năm bận rộn)<br>\n4. もっと目立つ場所に置く: Đặt ở vị trí nổi bật hơn (chỗ hiện tại đã tốt nhất rồi)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n和菓子の店で店長と店員二人が話しています。<br>\n男店員：…店内に「帰省のお土産にどうぞ」って貼紙をしてみてはどうでしょうか。<br>\n店長：確かに。そういう時期ですね。貼紙ならすぐにできそうですし。<br>\n(Đổi bao bì -> tốn tiền; Phát tờ rơi -> bận rộn không kịp làm; Đổi chỗ bày -> chỗ hiện tại tốt nhất rồi)<br>\n店長：…<b>お金と手間をかけずにできることをやりましょう。</b><br>\n新商品がもっと売れるように、どうすることにしましたか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCửa hàng bánh kẹo truyền thống bàn cách tăng doanh số set bánh mới. Các phương án đổi bao bì (tốn kém), phát tờ rơi (tốn công), chuyển chỗ bày (chỗ cũ đã tốt nhất) đều bị loại. Cuối cùng cửa hàng trưởng chọn làm việc không tốn tiền và công sức: dán giấy quảng cáo trong tiệm.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chọn dán tờ quảng cáo ngay trong cửa hàng &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Để sản phẩm mới bán chạy hơn, họ quyết định làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 店内に宣伝の貼紙を貼る: Dán áp phích quảng cáo trong cửa hàng<br>\n2. 包装のデザインをかえる: Thay đổi thiết kế bao bì (tốn tiền)<br>\n3. 近所の家にちらしを配る: Phát tờ rơi tới nhà dân quanh vùng (vất vả dịp cuối năm bận rộn)<br>\n4. もっと目立つ場所に置く: Đặt ở vị trí nổi bật hơn (chỗ hiện tại đã tốt nhất rồi)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n和菓子の店で店長と店員二人が話しています。<br>\n男店員：…店内に「帰省のお土産にどうぞ」って貼紙をしてみてはどうでしょうか。<br>\n店長：確かに。そういう時期ですね。貼紙ならすぐにできそうですし。<br>\n(Đổi bao bì -> tốn tiền; Phát tờ rơi -> bận rộn không kịp làm; Đổi chỗ bày -> chỗ hiện tại tốt nhất rồi)<br>\n店長：…<b>お金と手間をかけずにできることをやりましょう。</b><br>\n新商品がもっと売れるように、どうすることにしましたか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCửa hàng bánh kẹo truyền thống bàn cách tăng doanh số set bánh mới. Các phương án đổi bao bì (tốn kém), phát tờ rơi (tốn công), chuyển chỗ bày (chỗ cũ đã tốt nhất) đều bị loại. Cuối cùng cửa hàng trưởng chọn làm việc không tốn tiền và công sức: dán giấy quảng cáo trong tiệm.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chọn dán tờ quảng cáo ngay trong cửa hàng &rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 167,

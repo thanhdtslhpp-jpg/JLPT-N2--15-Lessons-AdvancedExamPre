@@ -6584,11 +6584,11 @@ window.JLPT_DATA[15] = {
           "options": [
             "リラックスするため",
             "肩こりを楽にするため",
-            "姿勢をよくするため",
-            "痩せるため"
+            "マッサージより経済的だから",
+            "腰が痛いのを治すため"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. 姿勢をよくするため: Để cải thiện tư thế đứng ngồi<br>4. 痩せるため: Để giảm cân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：ねえ、何してるの？<br>妻：これ、猫のポーズ。ヨガ体操だよ。<br>夫：へえ、どういう効果があるの？リラックスできるの？<br>妻：もちろんリラックスもできるけど、<b>最近パソコン作業が多くて、肩がガチガチに凝っちゃって痛くてね。このポーズをすると肩甲骨がほぐれて、肩こりがすごく楽になるのよ。</b>だから毎日やってるの。<br>夫：へえ、僕もやってみようかな。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. マッサージより経済的だから: Vì tiết kiệm chi phí hơn đi massage<br>4. 腰が痛いのを治すため: Để chữa đau lưng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：ねえ、何してるの？<br>妻：これ、猫のポーズ。ヨガ体操だよ。<br>夫：へえ、どういう効果があるの？リラックスできるの？<br>妻：もちろんリラックスもできるけど、<b>最近パソコン作業が多くて、肩がガチガチに凝っちゃって痛くてね。このポーズをすると肩甲骨がほぐれて、肩こりがすごく楽になるのよ。</b>だから毎日やってるの。<br>夫：へえ、僕もやってみようかな。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>."
         },
         {
           "id": 408,

@@ -2599,13 +2599,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m1_01.mp3",
           "questionText": "大学で女の学生と男の学生が話しています。男の学生はこの後まず、何をしますか。",
           "options": [
-            "会場の準備をする",
-            "スタッフ用のスケジュール表を作る",
-            "当日配る資料をコピーする",
-            "発表者に連絡する"
+            "シンポジウムのポスターをはる",
+            "スタッフの当日の予定表を作る",
+            "当日配るしりようをコピーする",
+            "発表者にれんらくする"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nam sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 会場の準備をする: Chuẩn bị hội trường<br>2. スタッフ用のスケジュール表を作る: Lập bảng lịch trình cho nhân viên trong ngày<br>3. 当日配る資料をコピーする: Photo tài liệu phát vào ngày diễn ra<br>4. 発表者に連絡する: Liên lạc với người thuyết trình<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：中村くん。シンポジウムのポスター、掲示板に貼ってくれたんだね。ありがとう。<br>\n男：えぇ、他に僕がやっておくことってありますか？<br>\n女：マイクとか会場の準備は前日にすればいいし、当日のスタッフ用のスケジュール表、これないから欲しいな。今週中にお願いしていい？<br>\n男：あ、はい。<br>\n女：それから１番大事な当日配る資料、コピーまだなんじゃない？100部だよね？<br>\n男：あ、それなんですけど、発表者の方からの資料まだ全部集まってないんですよ。<br>\n女：そう、みなさんお忙しい方ばかりだから・・・<b>私から発表者に資料を送ってもらうようにすぐに連絡をするから、集まり次第コピーしよう。</b>週明けには出してもらうようにするね。<br>\n男：はい、わかりました。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh phân công: Việc photo tài liệu phải đợi người thuyết trình gửi (nữ sinh sẽ liên hệ và photo sau khi gom đủ vào đầu tuần tới). Việc chuẩn bị mic và hội trường thì làm trước 1 ngày.<br>- Nam sinh được giao làm ngay bảng lịch trình cho nhân viên: \"当日のスタッフ用のスケジュール表、これないから欲しいな。今週中にお願いしていい？\" &rarr; Nam sinh đồng ý làm ngay.<br>&rarr; <b>Đáp án đúng là 2 (スケジュール表を作る)</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nam sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. シンポジウムのポスターをはる: Chuẩn bị hội trường<br>2. スタッフの当日の予定表を作る: Lập bảng lịch trình cho nhân viên trong ngày<br>3. 当日配るしりようをコピーする: Photo tài liệu phát vào ngày diễn ra<br>4. 発表者にれんらくする: Liên lạc với người thuyết trình<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：中村くん。シンポジウムのポスター、掲示板に貼ってくれたんだね。ありがとう。<br>\n男：えぇ、他に僕がやっておくことってありますか？<br>\n女：マイクとか会場の準備は前日にすればいいし、当日のスタッフ用のスケジュール表、これないから欲しいな。今週中にお願いしていい？<br>\n男：あ、はい。<br>\n女：それから１番大事な当日配る資料、コピーまだなんじゃない？100部だよね？<br>\n男：あ、それなんですけど、発表者の方からの資料まだ全部集まってないんですよ。<br>\n女：そう、みなさんお忙しい方ばかりだから・・・<b>私から発表者に資料を送ってもらうようにすぐに連絡をするから、集まり次第コピーしよう。</b>週明けには出してもらうようにするね。<br>\n男：はい、わかりました。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh phân công: Việc photo tài liệu phải đợi người thuyết trình gửi (nữ sinh sẽ liên hệ và photo sau khi gom đủ vào đầu tuần tới). Việc chuẩn bị mic và hội trường thì làm trước 1 ngày.<br>- Nam sinh được giao làm ngay bảng lịch trình cho nhân viên: \"当日のスタッフ用のスケジュール表、これないから欲しいな。今週中にお願いしていい？\" &rarr; Nam sinh đồng ý làm ngay.<br>&rarr; <b>Đáp án đúng là 2 (スケジュール表を作る)</b>."
         },
         {
           "id": 163,
@@ -2616,13 +2616,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m1_02.mp3",
           "questionText": "スーパーで男の店長と女の店員が話しています。女の店員はこの後まず、何をしますか。",
           "options": [
-            "商品に値引シールを付ける",
-            "コーヒー豆の数を数える",
-            "レジを手伝う",
-            "商品をレジ横の棚に並べる"
+            "商品に値引きシールをはる",
+            "そうこで南コーヒーの数を数える",
+            "レジの手伝いをする",
+            "商品をレジの横のたなにならべる"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại siêu thị, cửa hàng trưởng nam và nữ nhân viên đang nói chuyện. Nữ nhân viên sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 商品に値引シールを付ける: Dán tem giảm giá lên sản phẩm<br>2. コーヒー豆の数を数える: Đếm số lượng bao cà phê trong kho<br>3. レジを手伝う: Phụ thu ngân tại quầy tính tiền<br>4. 商品をレジ横の棚に並べる: Xếp sản phẩm lên kệ cạnh quầy thu ngân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：おはようございます、森田さん。今日は一部の商品に値引シールを付ける作業をやってくれることになってたね。<br>\n女：あ、はい。準備してます。<br>\n男：えっと、忙しい時に悪いんだけど、倉庫に行って南コーヒーの豆、何袋あるか数えてきてくれる？数が少なかったら今日中に注文しないといけないんだ。<br>\n女：あ、わかりました。急ぎですか？<br>\n男：<b>あー、そのシールを貼る作業が終わってからでいいから。</b>袋の数を数えたらメモを私の机の上に置いといて。<br>\n女：わかりました。<br>\n男：お客さんがレジにたくさん並んでるから、私もすぐレジを手伝わなきゃいけなくて。値引シールを付けた商品をレジの横の棚に並べるのは明日の開店前にみんなですればいいから。じゃ、よろしくね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Cửa hàng trưởng nhắc việc dán tem giảm giá, sau đó nhờ thêm việc đếm cà phê. Khi nữ hỏi có gấp không, cửa hàng trưởng nói rõ: \"シールを貼る作業が終わってからでいいから\" (Làm xong việc dán tem giảm giá rồi đếm cà phê sau cũng được). Việc xếp hàng lên kệ thì để sáng mai.<br>- Do đó hành động nữ nhân viên làm trước tiên sau cuộc nói chuyện là dán tem giảm giá &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại siêu thị, cửa hàng trưởng nam và nữ nhân viên đang nói chuyện. Nữ nhân viên sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 商品に値引きシールをはる: Dán tem giảm giá lên sản phẩm<br>2. そうこで南コーヒーの数を数える: Đếm số lượng bao cà phê trong kho<br>3. レジの手伝いをする: Phụ thu ngân tại quầy tính tiền<br>4. 商品をレジの横のたなにならべる: Xếp sản phẩm lên kệ cạnh quầy thu ngân<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：おはようございます、森田さん。今日は一部の商品に値引きシールをはる作業をやってくれることになってたね。<br>\n女：あ、はい。準備してます。<br>\n男：えっと、忙しい時に悪いんだけど、倉庫に行って南コーヒーの豆、何袋あるか数えてきてくれる？数が少なかったら今日中に注文しないといけないんだ。<br>\n女：あ、わかりました。急ぎですか？<br>\n男：<b>あー、そのシールを貼る作業が終わってからでいいから。</b>袋の数を数えたらメモを私の机の上に置いといて。<br>\n女：わかりました。<br>\n男：お客さんがレジにたくさん並んでるから、私もすぐレジを手伝わなきゃいけなくて。値引シールを付けた商品をレジの横の棚に並べるのは明日の開店前にみんなですればいいから。じゃ、よろしくね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Cửa hàng trưởng nhắc việc dán tem giảm giá, sau đó nhờ thêm việc đếm cà phê. Khi nữ hỏi có gấp không, cửa hàng trưởng nói rõ: \"シールを貼る作業が終わってからでいいから\" (Làm xong việc dán tem giảm giá rồi đếm cà phê sau cũng được). Việc xếp hàng lên kệ thì để sáng mai.<br>- Do đó hành động nữ nhân viên làm trước tiên sau cuộc nói chuyện là dán tem giảm giá &rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 164,
@@ -2633,13 +2633,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m1_03.mp3",
           "questionText": "出版社で女の人と男の人が話しています。男の人は何の写真を撮らなければなりませんか。",
           "options": [
-            "お店で１番人気の料理",
-            "店内の様子",
-            "厨房で調理する人",
-            "外から見たお店の入口"
+            "店で一番の人気料理",
+            "店の中の様子",
+            "店の調理人の様子",
+            "店の入り口の様子"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà xuất bản, người phụ nữ và người đàn ông đang nói chuyện. Người đàn ông phải chụp bức ảnh về cái gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. お店で１番人気の料理: Món ăn được yêu thích nhất quán<br>2. 店内の様子: Khung cảnh bên trong quán ăn<br>3. 厨房で調理する人: Người đầu bếp đang nấu ăn<br>4. 外から見たお店の入口: Lối vào quán nhìn từ bên ngoài<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：すみません、雑誌に載せる蕎麦屋の写真を私の代わりに撮りに行ってくれるそうでありがとうございます。<br>\n男：あ、はい。緑駅前の蕎麦屋さんですよね？<br>\n女：はい。えっと、説明しますね。この雑誌では通常はお店で１番の人気料理の写真を撮らせてもらうんですが、今回この写真はお店から提供していただくことになっています。<br>\n男：はい、わかりました。<br>\n女：<b>それから店内の様子の撮影についてはお店に許可をいただいています。お客様が写り込まないように撮影をお願いしますね。</b>調理する人の写真は店によっては掲載しますが、こちらは掲載不可とのことです。<br>\n男：はい。<br>\n女：外から見た入口の写真は天候に左右されるから先日、天気が良い日に済ませてきましたので結構です。よろしくお願いします。<br>\n男：わかりました。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Món ăn: Quán tự cung cấp ảnh.<br>- Người nấu ăn: Quán không cho phép chụp.<br>- Lối vào ngoài cửa: Nữ đã chụp xong từ hôm trước.<br>- Chỉ duy nhất cảnh trong quán (店内の様子) là cần nam tới chụp và lưu ý không chụp dính mặt khách hàng &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà xuất bản, người phụ nữ và người đàn ông đang nói chuyện. Người đàn ông phải chụp bức ảnh về cái gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 店で一番の人気料理: Món ăn được yêu thích nhất quán<br>2. 店の中の様子: Khung cảnh bên trong quán ăn<br>3. 店の調理人の様子: Người đầu bếp đang nấu ăn<br>4. 店の入り口の様子: Lối vào quán nhìn từ bên ngoài<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：すみません、雑誌に載せる蕎麦屋の写真を私の代わりに撮りに行ってくれるそうでありがとうございます。<br>\n男：あ、はい。緑駅前の蕎麦屋さんですよね？<br>\n女：はい。えっと、説明しますね。この雑誌では通常はお店で１番の人気料理の写真を撮らせてもらうんですが、今回この写真はお店から提供していただくことになっています。<br>\n男：はい、わかりました。<br>\n女：<b>それから店の中の様子の撮影についてはお店に許可をいただいています。お客様が写り込まないように撮影をお願いしますね。</b>調理する人の写真は店によっては掲載しますが、こちらは掲載不可とのことです。<br>\n男：はい。<br>\n女：外から見た入口の写真は天候に左右されるから先日、天気が良い日に済ませてきましたので結構です。よろしくお願いします。<br>\n男：わかりました。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Món ăn: Quán tự cung cấp ảnh.<br>- Người nấu ăn: Quán không cho phép chụp.<br>- Lối vào ngoài cửa: Nữ đã chụp xong từ hôm trước.<br>- Chỉ duy nhất cảnh trong quán (店の中の様子) là cần nam tới chụp và lưu ý không chụp dính mặt khách hàng &rarr; <b>Đáp án đúng là 2</b>."
         },
         {
           "id": 165,
@@ -2650,13 +2650,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m1_04.mp3",
           "questionText": "日本語学校で女の職員と男の課長が話しています。女の職員はこの後まず、何をしますか。",
           "options": [
-            "記念品を袋に入れる",
-            "花瓶をステージの上に運ぶ",
-            "出席者の名前を書いた紙を椅子に貼る",
-            "卒業生代表と挨拶のリハーサルをする"
+            "記念品をふくろに入れる",
+            "かびんをステージの上に運ぶ",
+            "いすに出席者の名前の紙をはる",
+            "代表者とあいさつの練習をする"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường Nhật ngữ, nữ nhân viên và nam trưởng bộ phận đang nói chuyện. Nữ nhân viên sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 記念品を袋に入れる: Bỏ kỷ niệm phẩm vào túi quà<br>2. 花瓶をステージの上に運ぶ: Khiêng bình hoa lên sân khấu<br>3. 出席者の名前を書いた紙を椅子に貼る: Dán giấy ghi tên người tham dự lên ghế<br>4. 卒業生代表と挨拶のリハーサルをする: Tập dượt chào hỏi cùng đại diện học viên tốt nghiệp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：課長、明日の卒業パーティについてですけど、あとは何をしましょうか。<br>\n男：卒業生の皆さんに渡す記念品は袋に入れてくれた？<br>\n女：まだ届いていないんですよ。<br>\n男：あ、記念品の納品は３時だったね。あと１時間か・・・それじゃ、会場の入り口の花瓶、あれをステージの上に運んでくれる？<br>\n女：はい、花瓶ですね。<br>\n男：<b>それと記念品の到着を待ってる間、出席者の名前を書いた紙を椅子に貼ってくれない？</b>そうだ、忘れないうちに言っとくけど明日の朝一番に卒業生代表のグエンさんと挨拶のリハーサルをお願いね。<br>\n女：はい、わかりました。<br>\n男：あ、花瓶の移動なんだけど、落とすといけないから記念品の準備の後で私と一緒にやりましょうか。<br>\n女：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Kỷ niệm phẩm 1 tiếng nữa mới tới.<br>- Bình hoa: Trưởng phòng dặn lại là để sau khi làm xong kỷ niệm phẩm thì hai người cùng khiêng tránh rơi vỡ.<br>- Tập dượt chào hỏi: Sáng mai mới làm.<br>- Trong lúc chờ kỷ niệm phẩm, việc làm ngay bây giờ là dán giấy ghi tên người tham dự lên ghế (\"記念品の到着を待ってる間、出席者の名前を書いた紙を椅子に貼ってくれない？\") &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường Nhật ngữ, nữ nhân viên và nam trưởng bộ phận đang nói chuyện. Nữ nhân viên sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 記念品をふくろに入れる: Bỏ kỷ niệm phẩm vào túi quà<br>2. かびんをステージの上に運ぶ: Khiêng bình hoa lên sân khấu<br>3. いすに出席者の名前の紙をはる: Dán giấy ghi tên người tham dự lên ghế<br>4. 代表者とあいさつの練習をする: Tập dượt chào hỏi cùng đại diện học viên tốt nghiệp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：課長、明日の卒業パーティについてですけど、あとは何をしましょうか。<br>\n男：卒業生の皆さんに渡す記念品は袋に入れてくれた？<br>\n女：まだ届いていないんですよ。<br>\n男：あ、記念品の納品は３時だったね。あと１時間か・・・それじゃ、会場の入り口の花瓶、あれをステージの上に運んでくれる？<br>\n女：はい、花瓶ですね。<br>\n男：<b>それと記念品の到着を待ってる間、出席者の名前を書いた紙を椅子に貼ってくれない？</b>そうだ、忘れないうちに言っとくけど明日の朝一番に卒業生代表のグエンさんと挨拶のリハーサルをお願いね。<br>\n女：はい、わかりました。<br>\n男：あ、花瓶の移動なんだけど、落とすといけないから記念品の準備の後で私と一緒にやりましょうか。<br>\n女：はい。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Kỷ niệm phẩm 1 tiếng nữa mới tới.<br>- Bình hoa: Trưởng phòng dặn lại là để sau khi làm xong kỷ niệm phẩm thì hai người cùng khiêng tránh rơi vỡ.<br>- Tập dượt chào hỏi: Sáng mai mới làm.<br>- Trong lúc chờ kỷ niệm phẩm, việc làm ngay bây giờ là dán giấy ghi tên người tham dự lên ghế (\"記念品の到着を待ってる間、出席者の名前を書いた紙を椅子に貼ってくれない？\") &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 166,
@@ -2667,13 +2667,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m1_05.mp3",
           "questionText": "大学で女の学生と男の学生が話しています。女の学生はこの後、何をしますか。",
           "options": [
-            "駅前の駐輪場を探す",
-            "警察署に行って自転車を探す",
-            "市役所のホームページで自転車の預かり場所を確認する",
-            "保管料を払うために銀行に行く"
+            "駅前で自転車をさがす",
+            "市役所へ自転車を取りに行く",
+            "自転車の預かり場所を調べる",
+            "けいさつでお金を払う"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 駅前の駐輪場を探す: Tìm bãi đỗ xe đạp trước ga<br>2. 警察署に行って自転車を探す: Đến đồn cảnh sát tìm xe đạp<br>3. 市役所のホームページで自転車の預かり場所を確認する: Lên website của toà thị chính kiểm tra nơi lưu trữ giữ xe đạp<br>4. 保管料を払うために銀行に行く: Đến ngân hàng nộp tiền phí lưu giữ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：田中くん、聞いて。昨日自転車、駅前に止めてたんだけど、乗って帰ろうとしたら自転車がなくて・・・。置いといた場所の地面に「駐輪禁止区域のため移動しました」って紙が貼られてたんだよ。<br>\n男：駅前は駐輪場以外には停めちゃいけないんだよ。<br>\n女：そうなんだ。どうすればいいの？自転車、警察に取りに行くの？<br>\n男：警察じゃないと思うけど・・・貼られてた紙に預かり場所、書いてなかった？<br>\n女：よく読まなかった。<br>\n男：<b>えーっと、そしたら市役所のホームページに書いてあるから確認して。取りに行くならそれからだよ。</b><br>\n女：わかった。<br>\n男：確か身分証明書がいるよ。あ、あとお金もいる。自転車受け取る時払うよ。<br>\n女：お金払うの？<br>\n男：うん、自転車の預かり料だよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh hướng dẫn: Trước tiên phải lên website của ủy ban nhân dân/tòa thị chính kiểm tra xem bãi giữ xe vi phạm nằm ở đâu rồi mới đi lấy được (市役所のホームページに書いてあるから確認して) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 駅前で自転車をさがす: Tìm bãi đỗ xe đạp trước ga<br>2. 市役所へ自転車を取りに行く: Đến đồn cảnh sát tìm xe đạp<br>3. 自転車の預かり場所を調べる: Lên website của toà thị chính kiểm tra nơi lưu trữ giữ xe đạp<br>4. けいさつでお金を払う: Đến ngân hàng nộp tiền phí lưu giữ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：田中くん、聞いて。昨日自転車、駅前に止めてたんだけど、乗って帰ろうとしたら自転車がなくて・・・。置いといた場所の地面に「駐輪禁止区域のため移動しました」って紙が貼られてたんだよ。<br>\n男：駅前は駐輪場以外には停めちゃいけないんだよ。<br>\n女：そうなんだ。どうすればいいの？自転車、警察に取りに行くの？<br>\n男：警察じゃないと思うけど・・・貼られてた紙に預かり場所、書いてなかった？<br>\n女：よく読まなかった。<br>\n男：<b>えーっと、そしたら市役所のホームページに書いてあるから確認して。取りに行くならそれからだよ。</b><br>\n女：わかった。<br>\n男：確か身分証明書がいるよ。あ、あとお金もいる。自転車受け取る時払うよ。<br>\n女：お金払うの？<br>\n男：うん、自転車の預かり料だよ。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh hướng dẫn: Trước tiên phải lên website của ủy ban nhân dân/tòa thị chính kiểm tra xem bãi giữ xe vi phạm nằm ở đâu rồi mới đi lấy được (市役所のホームページに書いてあるから確認して) &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 167,
@@ -2684,13 +2684,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_01.mp3",
           "questionText": "テレビでアナウンサーの女の人がパン屋の店長にインタビューをしています。店長はどうしてパン屋を始めたと言っていますか。",
           "options": [
-            "以前からパン作りが大好きだったから",
-            "病気になった母親の夢を代わりに実現させたかったから",
-            "専門学校でパン作りの才能を認められたから",
-            "地元の人からパン屋を開いてほしいと頼まれたから"
+            "母といっしょにパン屋をやりたかったから",
+            "母にたのまれたから",
+            "母のゆめをかなえたかったから",
+            "母のパンの味を残したかったから"
           ],
-          "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên truyền hình, nữ phát thanh viên đang phỏng vấn chủ tiệm bánh mì. Chủ tiệm nói lý do tại sao anh bắt đầu mở tiệm bánh mì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì từ xưa bản thân đã rất thích làm bánh<br>2. Vì muốn thay người mẹ bị bệnh biến giấc mơ mở tiệm thành hiện thực<br>3. Vì được công nhận tài năng làm bánh khi học ở trường nghề<br>4. Vì được người dân địa phương thỉnh cầu mở quán<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：店長の山本さんです。こちらのお店の手作りのパン、大変人気ですが山本さんご自身は以前、会社員をなされていたんですよね？<br>\n男：はい。この店はもともとパン作りが好きな母がやる予定だったんですが、店を出す準備をしている途中で母が病気になってしまいました。<b>母はずっと会社勤めをしていて定年退職したら店をやるのが夢だったんです。それで私が母の代わりにパン屋をやろうと思って会社を辞めました。</b><br>\n女：そうだったんですか。でも今までパン作りの経験はなかったんですよね？<br>\n男：ええ、ですから専門学校に通って勉強しました。母のレベルにはまだまだなんですが、おいしいパンを地元の方に食べてもらえるように頑張っています。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bản thân người nam ban đầu không biết làm bánh. Tiệm vốn do mẹ định mở nhưng mẹ bị bệnh phải bỏ dở, anh không đành lòng nhìn mẹ tiếc nuối nên quyết tâm thay mẹ hiện thực hóa giấc mơ mở tiệm bánh &rarr; <b>Đáp án đúng là 2</b>."
+          "correctAnswer": 3,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên truyền hình, nữ phát thanh viên đang phỏng vấn chủ tiệm bánh mì. Chủ tiệm nói lý do tại sao anh bắt đầu mở tiệm bánh mì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì từ xưa bản thân đã rất thích làm bánh<br>2. Vì muốn thay người mẹ bị bệnh biến giấc mơ mở tiệm thành hiện thực<br>3. Vì được công nhận tài năng làm bánh khi học ở trường nghề<br>4. Vì được người dân địa phương thỉnh cầu mở quán<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：店長の山本さんです。こちらのお店の手作りのパン、大変人気ですが山本さんご自身は以前、会社員をなされていたんですよね？<br>\n男：はい。この店はもともとパン作りが好きな母がやる予定だったんですが、店を出す準備をしている途中で母が病気になってしまいました。<b>母はずっと会社勤めをしていて定年退職したら店をやるのが夢だったんです。それで私が母の代わりにパン屋をやろうと思って会社を辞めました。</b><br>\n女：そうだったんですか。でも今までパン作りの経験はなかったんですよね？<br>\n男：ええ、ですから専門学校に通って勉強しました。母のレベルにはまだまだなんですが、おいしいパンを地元の方に食べてもらえるように頑張っています。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Bản thân người nam ban đầu không biết làm bánh. Tiệm vốn do mẹ định mở nhưng mẹ bị bệnh phải bỏ dở, anh không đành lòng nhìn mẹ tiếc nuối nên quyết tâm thay mẹ hiện thực hóa giấc mơ mở tiệm bánh &rarr; <b>Đáp án đúng là 3</b>."
         },
         {
           "id": 168,
@@ -2701,13 +2701,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_02.mp3",
           "questionText": "うちで女の人と男の人が話しています。２人は引っ越しの値段を安くするため、どうすることにしましたか。",
           "options": [
-            "本棚を分解してコンパクトにする",
-            "使っていない大きい家具を人に譲る",
-            "古い冷蔵庫をリサイクルショップに売る",
-            "親戚のトラックを借りて自分たちで運ぶ"
+            "ソファーをもらってくれる人をさがす",
+            "れいぞうこを売る",
+            "親戚にひっこしを手伝ってもらう",
+            "安いひっこし会社をさがす"
           ],
-          "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định làm thế nào để giảm chi phí dọn nhà?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Tháo dỡ giá sách cho gọn lại<br>2. Cho/tặng người khác món đồ gỗ lớn không dùng tới<br>3. Bán tủ lạnh cũ cho tiệm đồ cũ<br>4. Mượn xe tải của người quen tự chở đồ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：引っ越し会社に引越しの見積もりを出してもらったけど予算よりかなり高かったよ。今の時期はどこの会社も高いんだね。荷物の量と移動距離で料金を計算するから荷物を減らせば安くなるって。<br>\n男：そう、んー。大きい荷物を減らそうか。えーっと、大きいものって言ったらソファー、冷蔵庫、本棚だね。<br>\n女：本棚は分解できるよ。ソファーはあまり使ってないし、欲しい人にあげてもいいかもしれないね。<br>\n男：それもそうだね。あ、冷蔵庫は古いし、この際、売って向こうで新しいの買う？<br>\n女：えー？冷蔵庫はまだ使うよ！あ、そうだ。親戚のおじさんがトラックを持ってるからおじさんに手伝ってもらって、自分たちで荷物を運ぶ？<br>\n男：荷物の積み降ろしって結構大変だよ。やっぱり引っ越し会社に頼んだ方がいいんじゃないかな？<br>\n女：<b>うーん、そうだね。安い引っ越し会社は見つからないだろうし、費用を抑えられるようにあんまり使ってない大きい家具のもらい手を探そうか。</b><br>\n男：うん、そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Cả hai thống nhất không tự chở bằng xe tải vì quá mệt mỏi, tủ lạnh vẫn muốn giữ dùng tiếp. Giải pháp chốt lại là tìm người nhận chiếc ghế sofa lớn ít dùng để giảm cước phí chuyển nhà &rarr; <b>Đáp án đúng là 2</b>."
+          "correctAnswer": 1,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định làm thế nào để giảm chi phí dọn nhà?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Tháo dỡ giá sách cho gọn lại<br>2. Cho/tặng người khác món đồ gỗ lớn không dùng tới<br>3. Bán tủ lạnh cũ cho tiệm đồ cũ<br>4. Mượn xe tải của người quen tự chở đồ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：引っ越し会社に引越しの見積もりを出してもらったけど予算よりかなり高かったよ。今の時期はどこの会社も高いんだね。荷物の量と移動距離で料金を計算するから荷物を減らせば安くなるって。<br>\n男：そう、んー。大きい荷物を減らそうか。えーっと、大きいものって言ったらソファー、冷蔵庫、本棚だね。<br>\n女：本棚は分解できるよ。ソファーはあまり使ってないし、欲しい人にあげてもいいかもしれないね。<br>\n男：それもそうだね。あ、冷蔵庫は古いし、この際、売って向こうで新しいの買う？<br>\n女：えー？冷蔵庫はまだ使うよ！あ、そうだ。親戚のおじさんがトラックを持ってるからおじさんに手伝ってもらって、自分たちで荷物を運ぶ？<br>\n男：荷物の積み降ろしって結構大変だよ。やっぱり引っ越し会社に頼んだ方がいいんじゃないかな？<br>\n女：<b>うーん、そうだね。安い引っ越し会社は見つからないだろうし、費用を抑えられるようにあんまり使ってない大きい家具のもらい手を探そうか。</b><br>\n男：うん、そうだね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Cả hai thống nhất không tự chở bằng xe tải vì quá mệt mỏi, tủ lạnh vẫn muốn giữ dùng tiếp. Giải pháp chốt lại là tìm người nhận chiếc ghế sofa lớn ít dùng để giảm cước phí chuyển nhà &rarr; <b>Đáp án đúng là 1</b>."
         },
         {
           "id": 169,
@@ -2718,10 +2718,10 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_03.mp3",
           "questionText": "会社で男の人と女の人がアンケートについて話しています。女の人はアンケートに何を書くと言っていますか。",
           "options": [
-            "残業代をもっと引き上げてほしいこと",
-            "有給休暇の取得申請をもっと簡単にできるようにすること",
-            "在宅勤務ができる日数を増やしてほしいこと",
-            "社内の古いパソコンを最新のものに買い換えてほしいこと"
+            "残業代のきんがくをもっと上げてほしい",
+            "休暇の申請方法を簡単にしてほしい",
+            "在宅でのきんむを増やしてほしい",
+            "パソコンを新しくしてほしい"
           ],
           "correctAnswer": 2,
           "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, người đàn ông và người phụ nữ đang nói về phiếu khảo sát nội bộ. Người phụ nữ nói sẽ viết ý kiến gì vào phiếu khảo sát?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Tăng thêm tiền làm thêm giờ (ot)<br>2. Cải thiện thủ tục xin nghỉ phép cho dễ dàng và thuận tiện hơn<br>3. Tăng số ngày được làm việc tại nhà (remote)<br>4. Thay mới hệ thống máy tính cũ trong công ty<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：働き方の改善の社内アンケート調査、もう書いた？「改善すべきことがあるか」って聞かれてもすぐ思い浮かばなくて・・・。<br>\n女：そう、残業代のアップも私たち社員が声を上げたから実現したし、言うべきことは言ったほうがいいんじゃない？<b>私は有給とかの休暇の取得申請、もっと簡単に申請できるように改善してほしいんだよね。</b><br>\n男：あー、そういうことを書けばいいんだね。<br>\n女：そうそう。私はそうしようと思ってる。あ、そういえば、この間、在宅での勤務を今、週２日可能だけどもっと増やしてほしいって言ってなかった？<br>\n男：そうだ、それを書こう。あと社内のパソコンを新しくしてほしいんだよね。今の古くって。<br>\n女：パソコン、今年度中には買い換えるって聞いたよ。<br>\n男：あ、じゃ、いいね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nam sinh viết ý kiến về làm việc tại nhà (remote). Nữ sinh nói rõ ý kiến của mình là muốn đơn giản hóa thủ tục xin nghỉ phép có lương (休暇の取得申請をもっと簡単に申請できるように改善してほしい) &rarr; <b>Đáp án đúng là 2</b>."
@@ -2735,10 +2735,10 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_04.mp3",
           "questionText": "女の学生と男の学生が毎日着る服について話しています。男の学生は女の学生にどうしたら１番いいと言っていますか。",
           "options": [
-            "毎月プロが服を選んで送ってくれるサービスを利用する",
-            "ファッション雑誌を見て自分に似合うスタイルを研究する",
-            "白いシャツに黒いズボンなどの定番の服に小物を合わせる",
-            "リサイクルショップに行って安くて個性的な服を探す"
+            "ファッション雑誌を参考にする",
+            "ファッションのプロに服を選んでもらう",
+            "毎日シンプルな服を着る",
+            "リサイクルショップで服を買う"
           ],
           "correctAnswer": 3,
           "explanation": "<b>❓ Dịch câu hỏi:</b> Nữ sinh và nam sinh đang nói về trang phục mặc hằng ngày. Nam sinh khuyên nữ sinh cách tốt nhất nên làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Đăng ký dịch vụ chuyên gia chọn và gửi quần áo hằng tháng<br>2. Xem tạp chí thời trang để nghiên cứu phong cách<br>3. Đơn giản hóa trang phục như áo sơ mi trắng, quần đen và kết hợp phụ kiện<br>4. Đến cửa hàng đồ cũ tìm quần áo đa dạng giá rẻ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：岡田くん、ファッションの勉強をしているから教えてほしいんだけど・・・私、毎日どんな服を着たらいいのかわからなくて・・・。ファッション雑誌を見ても自分に似合うかわからないし。<br>\n男：雑誌は参考になると思うけど、そうだね・・・あ、インターネットで毎月、洋服を送ってくれるサービスって知ってる？プロがその人に似合いそうな服を選んで送ってくれるんだよ。気に入ればそのまま買い取れるし、気に入らなければ返せばいいし。<br>\n女：あぁ、それ友達がやってた。でも私は送り返すのも面倒だなと思って。<br>\n男：うーん、僕は毎日シンプルな服を着てるよ。制服化って言うの？白いシャツに黒いズボンっていうスタイル。<br>\n女：そういえば岡田くんって大体いつもそうだね。でも学校の制服みたいに単調にならないのは小物を上手く取り入れてるからなんだね。<br>\n男：そうかな。あ、佐藤さん、リサイクルショップに行ったことある？種類がたくさんあってデザインもいろいろ選べるし、気に入るものがあるかもしれないよ。<br>\n女：中古か・・・ちょっと抵抗あるなぁ。<br>\n男：<b>そう。じゃ、佐藤さんにはやっぱり僕と同じ方法がお勧めだね。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Sau khi các phương án khác bị nữ từ chối (dịch vụ thuê gửi đồ phiền phức, đồ cũ thì ngại mặc), nam sinh khuyên nữ sinh nên áp dụng phong cách 'đồng phục hóa' như mình: mặc đồ đơn giản cố định (áo trắng, quần đen) và phối thêm phụ kiện &rarr; <b>Đáp án đúng là 3</b>."
@@ -2752,13 +2752,13 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_05.mp3",
           "questionText": "テレビでアナウンサーの男の人が女の人にインタビューしています。女の人が今の会社に転職した理由は何ですか。",
           "options": [
-            "より高い給料を得るため",
-            "前の会社の人間関係に不満があったため",
-            "新しい未知の分野に挑戦してみたかったため",
-            "友人に頼まれて断れなかったため"
+            "これまでの経験を生かせそうだったから",
+            "給料などよいじょうけんがそろっていたから",
+            "前のしょくばに不満があったから",
+            "新しい分野の仕事をしてみたかったから"
           ],
-          "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Phóng viên truyền hình đang phỏng vấn một người phụ nữ về việc chuyển việc. Lý do người phụ nữ chuyển sang công ty hiện tại là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì muốn nhận mức lương cao hơn<br>2. Vì không hài lòng với quan hệ đồng nghiệp ở công ty cũ<br>3. Vì muốn thử sức, trải nghiệm một lĩnh vực/thế giới mới mẻ<br>4. Vì được bạn nhờ vả không nỡ từ chối<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：今日は転職を経験されている会社員の内田さんにお話を伺います。<br>\n女：あ、はい。私は２回転職経験があります。転職というと経験を積んでそれを活かし、より給料の良いところに移っていく人もいますけど、どちらかというと現状に不満や不足を感じて居心地のいい場所を求める人が多いように感じます。私の最初の転職がそうでした。<br>\n男：そうですか。<br>\n女：<b>現在は友人が新しく作った会社に入れてもらったんです。前に勤めてた会社に何か不満があったわけじゃなく、新たな世界を見てみたいと思っていた時だったので。分野は全然違うんですけど、やり甲斐があります。</b><br>\n男：そういう理由もあるんですね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Lần chuyển việc đầu tiên là vì bất mãn chỗ cũ. Nhưng lần chuyển việc sang công ty HIỆN TẠI (今の会社) là do cô muốn trải nghiệm chân trời mới (\"新たな世界を見てみたいと思っていた時だったので\") dù lĩnh vực hoàn toàn khác biệt &rarr; <b>Đáp án đúng là 3</b>."
+          "correctAnswer": 4,
+          "explanation": "<b>❓ Dịch câu hỏi:</b> Phóng viên truyền hình đang phỏng vấn một người phụ nữ về việc chuyển việc. Lý do người phụ nữ chuyển sang công ty hiện tại là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì muốn nhận mức lương cao hơn<br>2. Vì không hài lòng với quan hệ đồng nghiệp ở công ty cũ<br>3. Vì muốn thử sức, trải nghiệm một lĩnh vực/thế giới mới mẻ<br>4. Vì được bạn nhờ vả không nỡ từ chối<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：今日は転職を経験されている会社員の内田さんにお話を伺います。<br>\n女：あ、はい。私は２回転職経験があります。転職というと経験を積んでそれを活かし、より給料の良いところに移っていく人もいますけど、どちらかというと現状に不満や不足を感じて居心地のいい場所を求める人が多いように感じます。私の最初の転職がそうでした。<br>\n男：そうですか。<br>\n女：<b>現在は友人が新しく作った会社に入れてもらったんです。前に勤めてた会社に何か不満があったわけじゃなく、新たな世界を見てみたいと思っていた時だったので。分野は全然違うんですけど、やり甲斐があります。</b><br>\n男：そういう理由もあるんですね。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Lần chuyển việc đầu tiên là vì bất mãn chỗ cũ. Nhưng lần chuyển việc sang công ty HIỆN TẠI (今の会社) là do cô muốn trải nghiệm chân trời mới (\"新たな世界を見てみたいと思っていた時だったので\") dù lĩnh vực hoàn toàn khác biệt &rarr; <b>Đáp án đúng là 4</b>."
         },
         {
           "id": 172,
@@ -2769,10 +2769,10 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m2_06.mp3",
           "questionText": "子供のサッカークラブのコーチがクラブの紹介をしています。コーチはこのサッカークラブでは特にどのような力を持った選手に育てたいと言っていますか。",
           "options": [
-            "ボールを正確に蹴る高い技術力",
-            "最後まで走り抜くスピードと身体能力",
-            "ピンチでもあきらめない強い精神力",
-            "状況に応じて適切なプレーを選択する判断力"
+            "高いぎじゅつ力",
+            "高い身体能力",
+            "強いせいしん力",
+            "すぐれたはんだん力"
           ],
           "correctAnswer": 4,
           "explanation": "<b>❓ Dịch câu hỏi:</b> Huấn luyện viên câu lạc bộ bóng đá thiếu nhi đang giới thiệu về CLB. HLV nói câu lạc bộ đặc biệt chú trọng bồi dưỡng cầu thủ có năng lực gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Kỹ thuật cá nhân sút bóng chuẩn xác<br>2. Thể lực và tốc độ bứt phá<br>3. Tinh thần kiên cường không bỏ cuộc<br>4. Khả năng phán đoán đưa ra lựa chọn lối chơi phù hợp theo tình huống<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：サッカーで勝つためには、ボールを正確に蹴る高い技術力や足の速さなどの高い身体能力はもちろん、精神力の強さも求められます。<b>また、いつ、どのようにプレーするかを正しく選択する判断力も不可欠です。個人個人に高い技術力や身体能力、精神力があっても適切な判断ができないとチームの勝ちには繋がりません。ですから、このクラブでは特に、この力が身に付くよう選手を育てることに力を入れています。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- HLV nhấn mạnh kỹ thuật, thể lực và tinh thần ai cũng cần, nhưng nếu thiếu khả năng phán đoán (判断力) khi nào và chơi bóng ra sao thì đội bóng không thể chiến thắng. Vì vậy CLB đặt trọng tâm rèn luyện khả năng phán đoán (適切な判断 / 正しく選択する判断力) &rarr; <b>Đáp án đúng là 4</b>."
@@ -3064,7 +3064,7 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m5_02.mp3",
           "questionText": "質問１：２人は最初にどの会場に行きますか。",
           "options": [
-            "中央会場（朝捕れた魚・貝の炭火焼き）",
+            "ちゅうおう会場（朝捕れた魚・貝の炭火焼き）",
             "南会場（初心者向け釣り教室）",
             "東会場（海の生き物観察）",
             "西会場（新鮮な魚介類の販売）"
@@ -3081,7 +3081,7 @@ window.JLPT_DATA[2] = {
           "audio": "audio/buoi_02/m5_02.mp3",
           "questionText": "質問２：２人は２番目にどの会場に行きますか。",
           "options": [
-            "中央会場（朝捕れた魚・貝の炭火焼き）",
+            "ちゅうおう会場（朝捕れた魚・貝の炭火焼き）",
             "南会場（初心者向け釣り教室）",
             "東会場（海の生き物観察）",
             "西会場（新鮮な魚介類の販売）"
