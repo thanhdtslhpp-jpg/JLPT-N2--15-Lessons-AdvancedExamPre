@@ -3831,12 +3831,14 @@ ruby rt {
 
 .pallet-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-content: start;
   gap: 0.45rem;
   max-height: 270px;
   min-height: 140px;
   overflow-y: auto;
-  padding-right: 0.25rem;
+  overflow-x: hidden;
+  padding: 5px 0.35rem 5px 5px;
   position: relative;
   scroll-behavior: smooth;
 }
@@ -3874,53 +3876,19 @@ ruby rt {
 
 
 .pallet-item {
-
-
-
+  width: 100%;
+  box-sizing: border-box;
   aspect-ratio: 1;
-
-
-
   display: flex;
-
-
-
   align-items: center;
-
-
-
   justify-content: center;
-
-
-
   background: var(--bg-main);
-
-
-
   border: 1px solid var(--border);
-
-
-
   border-radius: 6px;
-
-
-
   font-size: 0.85rem;
-
-
-
   font-weight: 700;
-
-
-
   cursor: pointer;
-
-
-
   transition: all 0.15s;
-
-
-
 }
 
 
@@ -8272,9 +8240,7 @@ body.hide-furigana ruby:hover rt {
 
 
   .pallet-grid {
-
-    grid-template-columns: repeat(5, 1fr);
-
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
 
@@ -11544,3 +11510,81 @@ body.app-locked {
 .quick-jump-close:hover {
   color: var(--error);
 }
+
+/* In-Passage Quick-Jump Question Pills */
+.dokkai-jump-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(79, 70, 229, 0.05);
+  border: 1px solid rgba(79, 70, 229, 0.16);
+  border-radius: 8px;
+}
+
+[data-theme="dark"] .dokkai-jump-bar {
+  background: rgba(99, 102, 241, 0.12);
+  border-color: rgba(99, 102, 241, 0.28);
+}
+
+.dokkai-jump-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-sub);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 0.2rem;
+}
+
+.dokkai-jump-label i {
+  color: var(--primary);
+}
+
+.dokkai-jump-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.dokkai-jump-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 999px;
+  border: 1.5px solid var(--primary);
+  background: var(--card-bg);
+  color: var(--primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.dokkai-jump-pill:hover {
+  background: var(--primary);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.25);
+}
+
+.dokkai-jump-pill.active {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.dokkai-jump-pill.answered {
+  border-color: var(--success);
+  color: var(--success);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.dokkai-jump-pill.answered:hover,
+.dokkai-jump-pill.answered.active {
+  background: var(--success);
+  color: #ffffff;
+}
+

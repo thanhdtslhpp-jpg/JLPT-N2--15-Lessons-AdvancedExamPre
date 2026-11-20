@@ -4619,6 +4619,12 @@ class JLPTApp {
         ? `Văn bản dùng chung cho ${passageGroup.length} câu hỏi (Câu ${firstGroupId} – Câu ${lastGroupId})`
         : `Văn bản đọc hiểu`;
 
+      const dokkaiJumpPillsHTML = passageGroup.map((pq) => {
+        const isAns = this.userAnswers[pq.id] !== undefined;
+        const isAct = pq.id === this.activeQuestionId;
+        return `<button type="button" class="dokkai-jump-pill ${isAns ? "answered" : ""} ${isAct ? "active" : ""}" data-qid="${pq.id}" onclick="event.stopPropagation(); app.scrollToQuestion(${pq.id}, event)" title="Xuống Câu ${pq.id}">Câu ${pq.id}</button>`;
+      }).join("");
+
       dokkaiHTML = `
         <div class="dokkai-box ${splitClass}" data-passage-group="${firstGroupId}">
           <div class="dokkai-box-header">
@@ -4637,6 +4643,10 @@ class JLPTApp {
                 <i class="fas fa-font" style="font-size:0.95rem;"></i>+
               </button>
             </div>
+          </div>
+          <div class="dokkai-jump-bar">
+            <span class="dokkai-jump-label"><i class="fas fa-arrow-down"></i> Đi tới câu hỏi:</span>
+            <div class="dokkai-jump-pills">${dokkaiJumpPillsHTML}</div>
           </div>
           <div class="dokkai-content ${fontClass}" data-passage-key="${passageKey}">${passageBody}</div>
         </div>
@@ -5802,6 +5812,9 @@ class JLPTApp {
     document.querySelectorAll(".question-card").forEach((card) => {
       card.classList.toggle("active-target", card.id === `q-card-${qId}`);
     });
+    document.querySelectorAll(".dokkai-jump-pill").forEach((pill) => {
+      pill.classList.toggle("active", Number(pill.dataset.qid) === qId);
+    });
     if (shouldScroll) {
       const el = document.getElementById(`q-subitem-${qId}`) || document.getElementById(`q-card-${qId}`);
       if (el) {
@@ -6447,6 +6460,10 @@ class JLPTApp {
     if (this.activeQuestionId) {
       this.scrollPalletToQuestion(this.activeQuestionId, "auto");
     }
+    document.querySelectorAll(".dokkai-jump-pill").forEach((pill) => {
+      const pqId = Number(pill.dataset.qid);
+      pill.classList.toggle("answered", this.userAnswers[pqId] !== undefined);
+    });
     this.updateMobileBar();
     this.updateFloatingPalletBtn();
     const modal = document.getElementById("mobile-pallet-modal");
