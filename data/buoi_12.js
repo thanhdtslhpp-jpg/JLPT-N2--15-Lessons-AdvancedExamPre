@@ -231,7 +231,7 @@ window.JLPT_DATA[12] = {
             "アクション"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa:</b> Vì vết thương đã lành hoàn toàn nên bây giờ tôi có thể vận động bình thường trở lại rồi.<br><b>Từ vựng:</b> 「すっかり」 nghĩa là hoàn toàn, toàn bộ, dứt điểm (thường đi với thể quá khứ hoặc biểu thị sự biến đổi triệt để: すっかり治った).<br><i>Phân tích các phương án:</i><br>• 1. しっかり: Chắc chắn, vững vàng, nghiêm chỉnh (vd: しっかり立つ).<br>• 2. ぎっしり: Chật ních, lèn chặt khít khao (vd: 予定がぎっしり詰まっている).<br>• 3. ぴったり: Vừa khít, trùng khớp hoàn toàn (vd: サイズがぴったり).<br>• 4. <b>すっかり: [Đúng]</b> Hoàn toàn, dứt điểm (すっかり治った: đã khỏi hẳn, lành hẳn)."
+          "explanation": "<b>Dịch nghĩa:</b> Đúng lúc thích hợp thì cảnh sát đi ngang qua nên tôi đã được cứu.<br><b>Từ vựng:</b> 「タイミング」(timing) nghĩa là thời điểm thích hợp, đúng lúc.<br><i>Phân tích các phương án:</i><br>• 1. タイマー: Đồng hồ hẹn giờ.<br>• 2. アクシデント: Tai nạn, sự cố bất ngờ.<br>• 3. <b>タイミング: [Đúng]</b> ちょうどいいタイミングで (vào đúng thời điểm thích hợp).<br>• 4. アクション: Hành động, cử động."
         },
         {
           "id": 16,
@@ -246,7 +246,7 @@ window.JLPT_DATA[12] = {
             "うっかり"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa:</b> Dự án này chúng tôi đã thực hiện bằng cách chia sẻ, phân chia công việc trong toàn thể nhóm.<br><b>Từ vựng:</b> 「分担する」（ぶんたん）nghĩa là phân chia, gánh vác từng phần công việc, trách nhiệm.<br><i>Phân tích các phương án:</i><br>• 1. 分類: ぶんるい (phân loại đồ vật, tài liệu theo chủng loại).<br>• 2. 分解: ぶんかい (tháo rời linh kiện máy móc, phân giải chất hóa học).<br>• 3. 分散: ぶんさん (phân tán rải rác ra nhiều nơi).<br>• 4. <b>分担: [Đúng]</b> 仕事・役目を分担する (chia sẻ, phân công đảm nhận công việc)."
+          "explanation": "<b>Dịch nghĩa:</b> Không nên nhìn chằm chằm vào người khác như thế đâu.<br><b>Từ vựng:</b> 「じろじろ」 là phó từ miêu tả hành động nhìn chằm chằm, soi mói khiến người khác khó chịu.<br><i>Phân tích các phương án:</i><br>• 1. <b>じろじろ: [Đúng]</b> じろじろ見る (nhìn chằm chằm, soi mói).<br>• 2. たまたま: Tình cờ, ngẫu nhiên.<br>• 3. さっさと: Nhanh chóng, mau lẹ.<br>• 4. うっかり: Lơ đễnh, vô tình sơ suất."
         },
         {
           "id": 17,
@@ -261,7 +261,7 @@ window.JLPT_DATA[12] = {
             "添付"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa:</b> Người này có quan hệ thân thiết với các chính trị gia và có sức ảnh hưởng mạnh mẽ trong giới chính trị.<br><b>Từ vựng:</b> 「有力」（ゆうりょく）nghĩa là có tầm ảnh hưởng lớn, thế lực mạnh mẽ, triển vọng cao (有力な政治家: chính khách có thế lực).<br><i>Phân tích các phương án:</i><br>• 1. 利口: りこう (lanh lợi, khôn ngoan, ngoan ngoãn).<br>• 2. 有能: ゆうのう (có năng lực, tài giỏi trong công việc).<br>• 3. <b>有力: [Đúng]</b> 有力な人・有力者 (người có quyền thế, có sức ảnh hưởng sâu rộng).<br>• 4. 利便: りべん (tiện lợi, thường dùng trong 利便性)."
+          "explanation": "<b>Dịch nghĩa:</b> Không thể mở được tệp tin đính kèm trong email.<br><b>Từ vựng:</b> 「添付」（てんぷ）nghĩa là đính kèm (tài liệu, file).<br><i>Phân tích các phương án:</i><br>• 1. 輸送: ゆそう (vận tải, vận chuyển hàng hóa).<br>• 2. 付属: ふぞく (trực thuộc, đi kèm theo).<br>• 3. 郵送: ゆうそう (gửi qua đường bưu điện).<br>• 4. <b>添付: [Đúng]</b> メールに添付されたファイル (tệp tin được đính kèm vào email)."
         },
         {
           "id": 18,
@@ -276,7 +276,7 @@ window.JLPT_DATA[12] = {
             "器用に"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa:</b> Khi được yêu cầu tự giới thiệu bản thân trong cuộc phỏng vấn, tôi đã trở nên vô cùng căng thẳng, bối rối.<br><b>Từ vựng:</b> 「あせる」（焦る）nghĩa là cuống cuồng, hấp tấp, luống cuống mất bình tĩnh.<br><i>Phân tích các phương án:</i><br>• 1. くずれた: 崩れた (sụp đổ, đổ nhào, vỡ vụn).<br>• 2. あれた: 荒れた (thời tiết giông bão, da nứt nẻ, hoang tàn).<br>• 3. <b>あせった: [Đúng]</b> Quá khứ của 焦る (cuống cuồng, hoảng hốt, bối rối lúng túng).<br>• 4. こわれた: 壊れた (hư hỏng, vỡ vụn đồ vật)."
+          "explanation": "<b>Dịch nghĩa:</b> Không cần phải ngại đâu, bất cứ lúc nào cũng hãy thoải mái gọi cho tôi nhé.<br><b>Từ vựng:</b> 「気軽に」（きがるに）nghĩa là thoải mái, nhẹ nhàng, không ngại ngần.<br><i>Phân tích các phương án:</i><br>• 1. 無事に: ぶじに (bình an vô sự).<br>• 2. <b>気軽に: [Đúng]</b> 気軽に声をかける (thoải mái bắt chuyện, gọi nhờ vả không ngại ngần).<br>• 3. 素直に: すなおに (ngoan ngoãn, thẳng thắn nghe lời).<br>• 4. 器用に: きように (khéo léo tay chân)."
         },
         {
           "id": 19,
@@ -291,7 +291,7 @@ window.JLPT_DATA[12] = {
             "合わせた"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa:</b> Không được tự tiện bước vào cơ sở này mà không có sự cho phép.<br><b>Từ vựng:</b> 「みだりに」（妄りに / 濫りに）nghĩa là tự tiện, bừa bãi, không có lý do chính đáng (văn phong pháp lý, quy định: みだりに立ち入ってはならない).<br><i>Phân tích các phương án:</i><br>• 1. むやみに: Ứng xử thiếu suy nghĩ, liều lĩnh, mù quáng.<br>• 2. やたらに: Quá mức, bừa bãi, liên tục không ngừng.<br>• 3. <b>みだりに: [Đúng]</b> Tự tiện, tùy tiện xâm nhập không phép (cụm quy định thông báo: みだりに立ち入る).<br>• 4. ろくに: Thường đi với phủ định mang nghĩa chẳng... ra hồn, chẳng được tử tế."
+          "explanation": "<b>Dịch nghĩa:</b> Lấy sự việc đó làm bước ngoặt, anh ấy đã hạ quyết tâm trở thành bác sĩ.<br><b>Từ vựng:</b> Cụm cố định 「決意を固める」（けついをかためる）nghĩa là củng cố quyết tâm, hạ quyết tâm vững chắc.<br><i>Phân tích các phương án:</i><br>• 1. <b>固めた: [Đúng]</b> 決意を固める (hạ quyết tâm).<br>• 2. まとめた: Tổng hợp, thu gọn lại (意見をまとめる).<br>• 3. 仕上げた: Hoàn thiện khâu cuối cùng.<br>• 4. 合わせた: Ghép lại, điều chỉnh cho khớp."
         },
         {
           "id": 20,
@@ -306,7 +306,7 @@ window.JLPT_DATA[12] = {
             "境目"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa:</b> Dù giải thích nhiều lần nhưng anh ấy vẫn không chịu thông hiểu nên tôi đành bó tay từ bỏ.<br><b>Từ vựng:</b> 「納得する」（なっとく）nghĩa là hiểu thấu đáo, đồng ý tâm phục khẩu phục.<br><i>Phân tích các phương án:</i><br>• 1. 満足: まんぞく (hài lòng, thỏa mãn về một điều kiện/nhu cầu).<br>• 2. <b>納得: [Đúng]</b> 納得する (thông suốt, hiểu và chấp nhận lý lẽ).<br>• 3. 了解: りょうかい (tiếp nhận thông tin, hiểu rõ mệnh lệnh/yêu cầu).<br>• 4. 承知: しょうち (biết rõ, nhận thức rõ sự việc)."
+          "explanation": "<b>Dịch nghĩa:</b> Tuyển thủ đó đã tiếp tục chạy cho đến giới hạn cực độ của thể lực.<br><b>Từ vựng:</b> 「限界」（げんかい）nghĩa là giới hạn, mức chịu đựng tối đa.<br><i>Phân tích các phương án:</i><br>• 1. 制限: せいげん (hạn chế, quy định giới hạn do con người đặt ra như 速度制限).<br>• 2. <b>限界: [Đúng]</b> 体力の限界 (giới hạn cực độ của thể lực).<br>• 3. 境界: きょうかい (ranh giới địa lý/lĩnh vực).<br>• 4. 境目: さかいめ (đường phân giới, chỗ tiếp giáp)."
         },
         {
           "id": 21,
@@ -621,7 +621,7 @@ window.JLPT_DATA[12] = {
             "させてもらうことになった"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa:</b> Khi tôi bày tỏ với công ty đã trúng tuyển rằng 'Tôi muốn bắt đầu làm việc sớm', sau đó họ đã liên lạc lại và tôi được tạo điều kiện cho làm thêm từ tháng sau dù chưa tốt nghiệp.<br><b>Ngữ pháp:</b> Dạng sai khiến - nhận ân huệ 「〜（さ）せてもらえる」（〜させてもらう）nghĩa là 'được người khác cho phép, tạo điều kiện cho mình làm gì'. Ở đây công ty cho phép người nói làm việc trước khi tốt nghiệp -> 働かせてもらえる.<br><i>Phân tích các phương án:</i><br>• 1. 働いてもらう: Nhờ vả người khác làm việc cho mình (ngược chủ thể hành động).<br>• 2. <b>働かせてもらえる: [Đúng]</b> Được cấp trên/công ty cho phép mình làm việc (thể sai khiến kết hợp てもらえる).<br>• 3. 働かせてあげる: Mình cho phép người khác làm việc (thể hiện sự ban ơn, sai vai vế).<br>• 4. 働いてあげる: Mình làm việc giúp cho ai đó (hạ thấp đối phương, sai ngữ cảnh)."
+          "explanation": "<b>Dịch nghĩa:</b> Khi tôi nói với công ty đã nhận việc rằng \"Tôi muốn đi làm sớm\", sau đó họ đã liên lạc lại và quyết định cho tôi làm thêm (part-time) trong thời gian chờ chính thức vào làm.<br><b>Ngữ pháp:</b> 「〜させてもらうことになった」 diễn tả việc mình được đối phương (công ty) cho phép/tạo điều kiện làm gì.<br><i>Phân tích các phương án:</i><br>• 1. してあげることになった: Làm giúp cho công ty (sai vai vế).<br>• 2. してもらうことにした: Nhờ công ty làm giúp (sai nghĩa).<br>• 3. させてあげることにした: Cho phép công ty làm (sai chủ thể).<br>• 4. <b>させてもらうことになった: [Đúng]</b> Được công ty cho phép làm thêm trước khi vào chính thức."
         },
         {
           "id": 42,
@@ -636,7 +636,7 @@ window.JLPT_DATA[12] = {
             "断りたいだけでしょう"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa:</b> Ông tôi dạo gần đây chuyện gì cũng trở nên hay quên, và bắt đầu lặp đi lặp lại một câu chuyện nhiều lần.<br><b>Ngữ pháp:</b> Hậu tố 「〜っぽい」 gắn vào thân động từ hoặc danh từ mang nghĩa 'hay có xu hướng, dễ bị...' (thường mang nét nghĩa tiêu cực hoặc chỉ tính chất tự nhiên): 「忘れっぽい」（わすれっぽい: hay quên, đãng trí).<br><i>Phân tích các phương án:</i><br>• 1. 忘れたく: Dạng muốn quên (tai biến âm), không phù hợp.<br>• 2. 忘れやすく: Dễ quên (thường dùng cho đồ đạc dễ quên, còn chỉ đặc tính tính cách người già đãng trí thì dùng 忘れっぽい chuẩn xác hơn).<br>• 3. <b>忘れっぽく: [Đúng]</b> 忘れっぽくなる: trở nên hay quên, đãng trí ở người già.<br>• 4. 忘れたそうに: Có vẻ muốn quên, sai ngữ nghĩa."
+          "explanation": "<b>Dịch nghĩa:</b> A: \"Tớ bị đàn anh rủ đi ăn. Phải làm sao đây, tớ không muốn đi chút nào.\" - B: \"Sao phải băn khoăn chứ? Nếu không thích thì chỉ cần từ chối là được mà.\" - A: \"Thì đúng là thế, nhưng đó là đàn anh nên khó từ chối lắm chứ bộ.\"<br><b>Ngữ pháp:</b> 「Vば + いいだけでしょう」: Chỉ cần làm V là xong thôi mà (dùng để khuyên hoặc thắc mắc nhẹ nhàng).<br><i>Phân tích các phương án:</i><br>• 1. 断ればいいだけなの: Đuôi の mang sắc thái giải thích, không hợp ngữ khí hỏi/khuyên của B.<br>• 2. 断りたいだけなの: Chỉ muốn từ chối (sai nghĩa).<br>• 3. <b>断ればいいだけでしょう: [Đúng]</b> Chỉ cần từ chối là xong thôi chứ sao.<br>• 4. 断りたいだけでしょう: Chỉ là muốn từ chối thôi đúng không (sai ngữ cảnh)."
         },
         {
           "id": 43,
@@ -1930,7 +1930,7 @@ window.JLPT_DATA[12] = {
             "再"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa:</b> Trước phát ngôn vô trách nhiệm của cô ta, tất cả mọi người ai nấy đều vô cùng tức giận.<br><b>Tiền tố:</b> Tiền tố 「無〜」（む - VÔ) gắn trước danh từ biểu thị sự không có, thiếu vắng phẩm chất đó (無責任: vô trách nhiệm; 無意味: vô nghĩa).<br><i>Phân tích các phương án:</i><br>• 1. <b>無: [Đúng]</b> 無責任な発言（むせきにん: phát ngôn vô trách nhiệm).<br>• 2. 不: 不〜 ghép trong 不親切, 不安, 不公平, không ghép 不責任.<br>• 3. 非: 非〜 ghép trong 非常識, 非公式, không ghép 非責任.<br>• 4. 未: 未〜 chỉ việc chưa đạt đến như 未完成, 未成年, không ghép 未責任."
+          "explanation": "<b>Dịch nghĩa:</b> Hiện nay, rạp chiếu phim này đang trình chiếu thước phim đặc biệt tập hợp toàn những cảnh quay kinh điển của các bộ phim nổi tiếng.<br><b>Tiền tố:</b> 「名〜」（めい）gắn trước danh từ chỉ sự xuất sắc, nổi tiếng, kinh điển (名場面: cảnh quay kinh điển, 名作: kiệt tác).<br><i>Phân tích các phương án:</i><br>• 1. <b>名: [Đúng]</b> 名場面（めいばめん: cảnh quay kinh điển, đắt giá).<br>• 2. 有: Không ghép thành 有場面.<br>• 3. 高: Không ghép thành 高場面.<br>• 4. 再: Không ghép thành 再場面."
         },
         {
           "id": 122,
@@ -1945,7 +1945,7 @@ window.JLPT_DATA[12] = {
             "ぶらぶら"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa:</b> Anh ấy dù có mệt mỏi đến đâu chăng nữa cũng tuyệt đối không bao giờ buông lời than thở yếu đuối.<br><b>Từ vựng:</b> Cụm quán dụng ngữ 「弱音を吐く」（よわねをはく）nghĩa là buông lời than thở yếu đuối, than vãn nản lòng khi gặp gian nan.<br><i>Phân tích các phương án:</i><br>• 1. 弱気: よわき (tính rụt rè, thiếu tự tin, đi với cụm 弱気になる).<br>• 2. <b>弱音: [Đúng]</b> 弱音を吐く（よわねをはく: buông lời than vãn, nản chí).<br>• 3. 弱点: じゃくてん (nhược điểm, điểm yếu).<br>• 4. 弱者: じゃくしゃ (kẻ yếu, người yếu thế trong xã hội)."
+          "explanation": "<b>Dịch nghĩa:</b> Do vụ tai nạn gây ùn tắc giao thông nên xe cộ chỉ có thể nhích từng chút một chậm chạp.<br><b>Từ vựng:</b> 「のろのろ」 là phó từ miêu tả sự di chuyển chậm chạp, ì ạch.<br><i>Phân tích các phương án:</i><br>• 1. すらすら: Trôi chảy, lưu loát.<br>• 2. <b>のろのろ: [Đúng]</b> のろのろと進む (di chuyển chậm chạp, ì ạch).<br>• 3. うろうろ: Đi đi lại lại, lảng vảng mất phương hướng.<br>• 4. ぶらぶら: Đi dạo thong dong không mục đích."
         },
         {
           "id": 123,
@@ -1960,7 +1960,7 @@ window.JLPT_DATA[12] = {
             "カット"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa:</b> Dù là công việc khó khăn đến mấy, cô ấy lúc nào cũng xử lý một cách nhanh nhẹn, tháo vát và gọn gàng.<br><b>Từ vựng:</b> Phó từ tượng hình 「てきぱき」 nghĩa là nhanh nhẹn, tháo vát, dứt khoát và hiệu quả (てきぱきとこなす: giải quyết công việc nhanh gọn).<br><i>Phân tích các phương án:</i><br>• 1. <b>てきぱき: [Đúng]</b> Nhanh nhẹn, tháo vát, xử lý việc đâu ra đấy.<br>• 2. ぶつぶつ: Lẩm bẩm, cằn nhằn phàn nàn trong miệng.<br>• 3. うろうろ: Đi loanh quanh lảng vảng, lúng túng mất phương hướng.<br>• 4. のろのろ: Chậm chạp, lề mề như sên bò."
+          "explanation": "<b>Dịch nghĩa:</b> Vì đột ngột có chuyến công tác nên tôi đã hủy đặt phòng khách sạn.<br><b>Từ vựng:</b> 「キャンセル」（cancel）nghĩa là hủy bỏ (đặt chỗ, lịch hẹn).<br><i>Phân tích các phương án:</i><br>• 1. リセット: Cài đặt lại từ đầu (reset).<br>• 2. ストップ: Dừng lại (stop).<br>• 3. <b>キャンセル: [Đúng]</b> 予約をキャンセルする (hủy đặt phòng).<br>• 4. カット: Cắt giảm, cắt bỏ (cut)."
         },
         {
           "id": 124,
@@ -1975,7 +1975,7 @@ window.JLPT_DATA[12] = {
             "実況"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa:</b> Căn phòng quá chật hẹp nên không có đủ chỗ trống, khoảng dư để kê thêm một chiếc giường.<br><b>Từ vựng:</b> 「余裕」（よゆう）nghĩa là phần dư ra, khoảng trống thong thả về không gian, thời gian hoặc tiền bạc (部屋に余裕がない, 時間に余裕がある).<br><i>Phân tích các phương án:</i><br>• 1. 余分: よぶん (phần thừa ra, dư dôi quá mức cần thiết).<br>• 2. 余地: よち (khoảng không gian/đất trừu tượng cho tranh luận, cải thiện như 改善の余地).<br>• 3. <b>余裕: [Đúng]</b> 余裕がない (không có chỗ trống thong dong để kê thêm giường).<br>• 4. 余白: よはく (khoảng lề trắng của trang giấy in sách)."
+          "explanation": "<b>Dịch nghĩa:</b> Dù có lập ra kế hoạch tuyệt vời đến đâu, nếu không đưa vào thực hiện thì cũng vô nghĩa.<br><b>Từ vựng:</b> Cụm cố định 「実行に移す」（じっこうにうつす）nghĩa là bắt tay vào thực hiện, hiện thực hóa kế hoạch.<br><i>Phân tích các phương án:</i><br>• 1. <b>実行: [Đúng]</b> 実行に移す (đưa vào thực hiện).<br>• 2. 行事: ぎょうじ (sự kiện, nghi lễ thường niên).<br>• 3. 行為: こうい (hành vi, hành động cụ thể của con người).<br>• 4. 実況: じっきょう (tường thuật trực tiếp)."
         },
         {
           "id": 125,
@@ -1990,7 +1990,7 @@ window.JLPT_DATA[12] = {
             "入れ替える"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa:</b> Để nâng cao năng suất hiệu quả làm việc, anh ấy đã đưa phần mềm máy tính mới vào ứng dụng.<br><b>Từ vựng:</b> 「能率」（のうりつ）nghĩa là năng suất, tỷ lệ hiệu quả công việc tính theo đơn vị thời gian (能率を上げる, 仕事の能率).<br><i>Phân tích các phương án:</i><br>• 1. <b>能率: [Đúng]</b> 仕事の能率を上げる (nâng cao năng suất, hiệu suất công việc).<br>• 2. 性能: せいのう (tính năng, hiệu năng kỹ thuật của máy móc thiết bị).<br>• 3. 能力: のうりょく (năng lực, tài năng của con người).<br>• 4. 効力: こうりょく (hiệu lực pháp lý của hợp đồng, quy định)."
+          "explanation": "<b>Dịch nghĩa:</b> Mở rộng cửa sổ ra để thay đổi (lưu thông) bầu không khí bí bách trong phòng.<br><b>Từ vựng:</b> 「入れ替える」（いれかえる）nghĩa là thay thế cái cũ bằng cái mới (空気を入れ替える: lưu thông, thay mới không khí).<br><i>Phân tích các phương án:</i><br>• 1. 取り替える: Thay thế đồ vật/linh kiện hỏng.<br>• 2. 引き換える: Đổi phiếu lấy quà/tiền.<br>• 3. 見合わせる: Tạm hoãn, nhìn nhau cân nhắc.<br>• 4. <b>入れ替える: [Đúng]</b> 空気を入れ替える (thông gió, đổi mới không khí trong phòng)."
         },
         {
           "id": 126,
@@ -2005,7 +2005,7 @@ window.JLPT_DATA[12] = {
             "根"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa:</b> Nói một cách đại khái sơ bộ, thì kế hoạch này sẽ cần thêm khoảng 3 tháng nữa.<br><b>Từ vựng:</b> 「大まか」（おおまか）nghĩa là đại khái, khái quát, sơ bộ, không đi vào chi tiết vụn vặt (大まかに言うと: nói một cách đại thể).<br><i>Phân tích các phương án:</i><br>• 1. まれ: Hiếm có, hiếm thấy.<br>• 2. ひそか: Kín đáo, lén lút, bí mật giấu giếm.<br>• 3. はるか: Xa xăm, xa vời vợi về không gian hoặc thời gian.<br>• 4. <b>大まか: [Đúng]</b> 大まかに言うと (nói một cách đại khái, ước chừng tổng thể)."
+          "explanation": "<b>Dịch nghĩa:</b> Nỗ lực bền bỉ suốt nhiều năm cuối cùng đã đơm hoa kết trái, giúp tôi giành giải nhất trong cuộc thi lớn.<br><b>Từ vựng:</b> Quán dụng ngữ 「実を結ぶ」（みをむすぶ）nghĩa là đơm hoa kết trái, gặt hái thành quả.<br><i>Phân tích các phương án:</i><br>• 1. 花: Không dùng 花を結ぶ (dùng 花が咲く).<br>• 2. <b>実: [Đúng]</b> 実を結ぶ (kết trái, đạt thành quả xứng đáng).<br>• 3. 芽: Dùng trong 芽が出る (nảy mầm).<br>• 4. 根: Dùng trong 根を張る (bám rễ)."
         },
         {
           "id": 127,
@@ -2020,7 +2020,7 @@ window.JLPT_DATA[12] = {
             "冷徹"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa:</b> Nhờ chạy bộ mỗi sáng nên dù có leo cầu thang tôi cũng không hề bị đứt hơi, thở dốc.<br><b>Từ vựng:</b> Cụm cố định 「息が切れる」（いきがきれる）nghĩa là đứt hơi, hụt hơi, thở không ra hơi do vận động gắng sức. Dạng phủ định: 息が切れない.<br><i>Phân tích các phương án:</i><br>• 1. 落ちない: 息が落ちない không tạo thành ngữ nghĩa đúng.<br>• 2. <b>切れない: [Đúng]</b> 息が切れない (không bị đứt hơi, không thở dốc hụt hơi).<br>• 3. 減らない: Giảm sút số lượng, không đi với 息.<br>• 4. 止まらない: Ngưng thở, đứng tim (mang nghĩa tiêu cực đe dọa sinh mạng)."
+          "explanation": "<b>Dịch nghĩa:</b> Trước những rắc rối bất ngờ cũng cần phải không hoảng loạn mà xử lý một cách bình tĩnh.<br><b>Từ vựng:</b> 「冷静」（れいせい）nghĩa là bình tĩnh, điềm tĩnh sáng suốt.<br><i>Phân tích các phương án:</i><br>• 1. 冷酷: れいこく (tàn nhẫn, máu lạnh).<br>• 2. 冷淡: れいたん (lãnh đạm, thờ ơ).<br>• 3. <b>冷静: [Đúng]</b> 冷静に対処する (bình tĩnh xử lý).<br>• 4. 冷徹: れいてつ (lạnh lùng lý trí, vô cảm)."
         },
         {
           "id": 128,
@@ -2035,7 +2035,7 @@ window.JLPT_DATA[12] = {
             "監視"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa:</b> Khi đang dọn dẹp lại những bức ảnh cũ, tôi bất giác nhớ lại khuôn mặt đầy hoài niệm của những người bạn xưa.<br><b>Từ vựng:</b> 「懐かしい」（なつかしい）nghĩa là hoài niệm, thân thương, gợi nhớ lại những ký ức xưa cũ đẹp đẽ.<br><i>Phân tích các phương án:</i><br>• 1. 慌ただしい: あわただしい (bận rộn tất bật, gấp gáp cuốn cuồng).<br>• 2. 騒々しい: そうぞうしい (ồn ào, huyên náo náo nhiệt).<br>• 3. <b>懐かしい: [Đúng]</b> Hoài niệm, thân thương nhớ về người bạn cũ.<br>• 4. 厚かましい: あつかましい (mặt dày, trơ trẽn, không biết ngượng)."
+          "explanation": "<b>Dịch nghĩa:</b> Để máy móc không bị hỏng hóc, chúng tôi tiến hành kiểm tra định kỳ các linh kiện.<br><b>Từ vựng:</b> 「点検」（てんけん）nghĩa là kiểm tra kỹ lưỡng từng chi tiết để bảo trì/phát hiện lỗi.<br><i>Phân tích các phương án:</i><br>• 1. <b>点検: [Đúng]</b> 部品の点検 (kiểm tra bảo trì linh kiện).<br>• 2. 実験: じっけん (thí nghiệm khoa học).<br>• 3. 視察: しさつ (thị sát, đi khảo sát thực tế).<br>• 4. 監視: かんし (giám sát, theo dõi chặt chẽ)."
         },
         {
           "id": 129,
@@ -2050,7 +2050,7 @@ window.JLPT_DATA[12] = {
             "突然"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa:</b> Tôi tình cờ bắt gặp người bạn cùng lớp thời xưa ngay trước cửa ga.<br><b>Từ vựng đồng nghĩa:</b> 「ばったり」 là phó từ tượng thanh tượng hình miêu tả sự tình cờ, ngẫu nhiên chạm mặt bất ngờ mà không hề hẹn trước, đồng nghĩa với 「偶然」（ぐうぜん）.<br><i>Phân tích các phương án:</i><br>• 1. さっさと: Nhanh chóng, khẩn trương làm ngay việc gì.<br>• 2. <b>偶然: [Đúng]</b> Tình cờ, ngẫu nhiên gặp nhau (đồng nghĩa với ばったり会った).<br>• 3. ずっと: Suốt cả thời gian dài, hoặc hơn hẳn.<br>• 4. やっと: Cuối cùng thì (sau bao nỗ lực)."
+          "explanation": "<b>Dịch nghĩa:</b> Tôi tình cờ nhìn thấy người bạn học cũ trên phố.<br><b>Từ vựng đồng nghĩa:</b> 「たまたま」nghĩa là tình cờ, ngẫu nhiên, đồng nghĩa với 「偶然」（ぐうぜん）.<br><i>Phân tích các phương án:</i><br>• 1. わざわざ: Cất công, cố tình.<br>• 2. <b>偶然: [Đúng]</b> Tình cờ, ngẫu nhiên (= たまたま).<br>• 3. 久しぶりに: Lâu ngày mới gặp lại.<br>• 4. 突然: Đột nhiên, thình lình."
         },
         {
           "id": 130,

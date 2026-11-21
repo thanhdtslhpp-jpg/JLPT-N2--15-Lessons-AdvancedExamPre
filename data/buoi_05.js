@@ -22,7 +22,7 @@ window.JLPT_DATA[5] = {
             "ちりょう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>治療（ちりょう）</b>: Trị liệu, chữa trị (bệnh tật, thương tổn).<br><b>Dịch nghĩa:</b> Tôi đã đi nha sĩ để chữa răng sâu.<br><br><i>Phân tích các phương án:</i><br>• 1. じりょ: Sai âm đọc của cả hai chữ Hán.<br>• 2. ちりょ: Thiếu trường âm ở chữ 療 (りょう).<br>• 3. じりょう: Sai âm của chữ 治 (âm đúng là ち hoặc じ trong một số từ đặc biệt, nhưng ở đây 治療 đọc là ちりょう).<br>• 4. <b>ちりょう (Đúng)</b>: 治 (ち) + 療 (りょう) &rarr; 治療 (ちりょう)."
+          "explanation": "<b>競っていた（あらそっていた / きそっていた）</b>: Đua tranh, cạnh tranh, ganh đua.<br><b>Dịch nghĩa:</b> Mỗi lần kiểm tra, chúng tôi lại ganh đua nhau để giành vị trí dẫn đầu toàn khối.<br><i>Phân tích các phương án:</i><br>• 1. きそっと: Chia sai thể て (đúng phải là きそって).<br>• 2. ねらって: Nhắm tới, hướng tới (động từ 狙う - ねらう).<br>• 3. <b>あらそって (Đúng)</b>: 競う cũng có cách đọc là あらそう (cạnh tranh, tranh giành).<br>• 4. うばって: Cướp đoạt, giật lấy (động từ 奪う - うばう)."
         },
         {
           "id": 2,
@@ -37,7 +37,7 @@ window.JLPT_DATA[5] = {
             "うばって"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>競っていた（きそっていた）</b>: Đua tranh, cạnh tranh, ganh đua (động từ 競う - きそう).<br><b>Dịch nghĩa:</b> Mỗi lần kiểm tra, chúng tôi lại ganh đua nhau để giành vị trí dẫn đầu toàn khối.<br><br><i>Phân tích các phương án:</i><br>• 1. きそっと: Dạng chia sai (phải là きそって).<br>• 2. ねらって: Nhắm tới, hướng tới (động từ 狙う - ねらう).<br>• 3. <b>あらそって (Sai) / Lưu ý</b>: Đề bài yêu cầu cách đọc của 競っていた. Chữ 競う đọc là きそう (khi chia quá khứ là きそっていた), tuy nhiên trong đề thi chính thức tháng 07/2016: 競う đọc là きそう (đáp án 1 sai thể, đáp án 3 あらそって là của 争う, ở đây từ là 競う &rarr; きそっていた hoặc あらそっていた). Trong đề gốc JLPT 07/2016 câu này đáp án chính thức là 3 (あらそう cũng viết bằng chữ 競う/争う).<br>• 3. <b>あらそって (Đúng theo đáp án chính thức JLPT)</b>: 競う có thể đọc là あらそう với nghĩa tranh giành, cạnh tranh.<br>• 4. うばって: Cướp đoạt, giật lấy (động từ 奪う - うばう)."
+          "explanation": "<b>競っていた（あらそっていた / きそっていた）</b>: Đua tranh, cạnh tranh, ganh đua.<br><b>Dịch nghĩa:</b> Mỗi lần kiểm tra, chúng tôi lại ganh đua nhau để giành vị trí dẫn đầu toàn khối.<br><i>Phân tích các phương án:</i><br>• 1. きそっと: Chia sai thể て (đúng phải là きそって).<br>• 2. ねらって: Nhắm tới, hướng tới (động từ 狙う - ねらう).<br>• 3. <b>あらそって (Đúng)</b>: 競う cũng có cách đọc là あらそう (cạnh tranh, tranh giành).<br>• 4. うばって: Cướp đoạt, giật lấy (động từ 奪う - うばう)."
         },
         {
           "id": 3,

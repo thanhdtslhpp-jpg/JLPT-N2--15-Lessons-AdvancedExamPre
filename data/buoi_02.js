@@ -258,7 +258,7 @@ window.JLPT_DATA[2] = {
             "多大な"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>多大な（ただいな）：</b>To lớn, rất lớn (thường đi với ảnh hưởng, thiệt hại, công lao: 多大な影響を与える).<br><b>Dịch nghĩa:</b> Do bão nên tàu điện bị ngừng chạy, gây ảnh hưởng to lớn đến những người đi làm và đi học.<br><i>Phân tích các phương án:</i><br>• 1. 大まかな（おおまかな）: Đại khái, sơ lược<br>• 2. 偉大な（いだいな）: Vĩ đại (dùng cho nhân vật, thành tựu)<br>• 3. 大げさな（おおげさな）: Khoa trương, phóng đại<br>• <b>4. 多大な（ただいな）: [Đúng] To lớn, nặng nề (cụm cố định: 多大な影響)</b>"
+          "explanation": "<b>溶け込んで (とけこんで)</b>: Hòa nhập, hòa mình trọn vẹn vào môi trường mới (động từ: 溶け込む).<br><b>Dịch nghĩa:</b> Anh Nishikawa vừa mới chuyển trường đến, nhưng đã kết bạn được và hoàn toàn hòa nhập vào lớp học.<br><i>Phân tích các phương án:</i><br>• 1. 当てはまって: Phù hợp, áp dụng đúng vào khuôn khổ/quy tắc.<br>• 2. <b>溶け込んで (Đúng)</b>: クラスに溶け込む mang nghĩa hòa nhập, làm quen nhanh với bạn bè trong lớp.<br>• 3. 結びついて: Ràng buộc, kết nối gắn liền với nhau.<br>• 4. 触れ合って: Tiếp xúc, giao lưu tình cảm thân mật."
         },
         {
           "id": 19,
@@ -272,7 +272,7 @@ window.JLPT_DATA[2] = {
             "触れ合って"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>溶け込んで (とけこんで)</b>: Hòa nhập, hòa mình trọn vẹn vào môi trường mới (động từ: 溶け込む).<br>\n<b>Dịch nghĩa:</b> Em gái tôi đã nhanh chóng hòa nhập vào lớp học mới.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 浸透して: Thấm sâu, lan tỏa rộng rãi vào nhận thức xã hội.<br>\n• 2. <b>溶け込んで (Đúng)</b>: クラスに溶け込む mang nghĩa hòa nhập, làm quen nhanh với bạn bè trong lớp.<br>\n• 3. 結びついて: Ràng buộc, kết nối gắn liền với nhau.<br>\n• 4. 触れ合って: Tiếp xúc, giao lưu tình cảm thân mật."
+          "explanation": "<b>溶け込んで (とけこんで)</b>: Hòa nhập, hòa mình trọn vẹn vào môi trường mới (động từ: 溶け込む).<br><b>Dịch nghĩa:</b> Anh Nishikawa vừa mới chuyển trường đến, nhưng đã kết bạn được và hoàn toàn hòa nhập vào lớp học.<br><i>Phân tích các phương án:</i><br>• 1. 当てはまって: Phù hợp, áp dụng đúng vào khuôn khổ/quy tắc.<br>• 2. <b>溶け込んで (Đúng)</b>: クラスに溶け込む mang nghĩa hòa nhập, làm quen nhanh với bạn bè trong lớp.<br>• 3. 結びついて: Ràng buộc, kết nối gắn liền với nhau.<br>• 4. 触れ合って: Tiếp xúc, giao lưu tình cảm thân mật."
         },
         {
           "id": 20,
@@ -704,7 +704,7 @@ window.JLPT_DATA[2] = {
           ],
           "correctStarOption": 3,
           "correctAnswer": 3,
-          "explanation": "<b>Cấu trúc câu Dấu sao: N + からすると (Đứng trên lập trường / góc nhìn của ai đó mà nói)</b><br>\n<b>Thứ tự sắp xếp đúng:</b> 1 - 4 - 3 - 2 (新人で &rarr; わからないことばかりの &rarr; ★ わたしからすると &rarr; 何でも完璧にできている)<br>\n<b>Câu hoàn chỉnh:</b> 会社の今井先輩は、自分はミスが多いといつも言っているが、<b>新人でわからないことばかりのわたしからすると、何でも完璧にできている</b>ように見える。<br>\n<b>Dịch nghĩa:</b> Tiền bối Imai ở công ty lúc nào cũng tự nhận mình hay mắc lỗi, nhưng đứng từ góc nhìn của một người mới vào nghề còn đầy bỡ ngỡ như tôi thì thấy anh ấy làm việc gì cũng vô cùng hoàn hảo.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 新人で: Danh từ chỉ thân phận người mới (xếp ở vị trí thứ 1).<br>\n• 2. 何でも完璧にできている: Mệnh đề vị ngữ đi với ように見える (xếp ở vị trí thứ 4).<br>\n• 3. <b>わたしからすると (Đúng)</b>: Cấu trúc biểu thị góc nhìn chủ quan (đối với tôi), rơi vào vị trí dấu sao ★ (vị trí thứ 3).<br>\n• 4. わからないことばかりの: Cụm bổ nghĩa cho わたし (người toàn những điều chưa biết) (xếp ở vị trí thứ 2)."
+          "explanation": "<b>Chỉ từ đoạn văn: そんな紅葉 (Cảnh lá đỏ như vậy)</b>: Dùng chỉ từ そんな để liên kết và quy chiếu lại vẻ đẹp của lá đỏ mùa thu vừa được miêu tả ở đoạn văn trước.<br><b>Dịch nghĩa:</b> Lá đỏ mùa thu đẹp như vậy đấy, thế nhưng hôm trước trên TV tôi lại xem được bản tin thời điểm lá đỏ rực nhất đang ngày càng muộn dần qua từng năm.<br><i>Phân tích các phương án:</i><br>• 1. 紅葉: Thiếu từ liên kết mạch văn với đoạn miêu tả phía trước.<br>• 2. <b>そんな紅葉 (Đúng)</b>: Quy chiếu trạng thái cảnh sắc lá đỏ vừa được miêu tả ở đoạn trên.<br>• 3. そこの紅葉: Lá đỏ ở chỗ đó (chỉ địa điểm cụ thể, không phù hợp).<br>• 4. そちらの紅葉: Lá đỏ ở phía đó (chỉ phương hướng/phía người nghe, sai ngữ cảnh)."
         },
         {
           "id": 48,
@@ -718,7 +718,7 @@ window.JLPT_DATA[2] = {
             "そちらの紅葉"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Chỉ từ đoạn văn: そんな紅葉 (Cảnh lá đỏ như vậy)</b>: Dùng chỉ từ そんな để liên kết và quy chiếu lại toàn bộ hiện tượng lá đỏ vừa được miêu tả ở đoạn văn trước.<br>\n<b>Dịch nghĩa:</b> Cảnh sắc lá mùa thu rực rỡ như thế thực chất bắt nguồn từ cơ chế bảo vệ lá của cây cối trước cái lạnh mùa đông.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. この紅葉: Cảnh lá đỏ này (mang tính gần gũi vật lý trước mắt).<br>\n• 2. <b>そんな紅葉 (Đúng)</b>: Quy chiếu trạng thái/tính chất cảnh sắc vừa được thuyết minh ở đoạn trên: そんな紅葉.<br>\n• 3. どんな紅葉: Cảnh lá đỏ nào (từ nghi vấn).<br>\n• 4. あんな紅葉: Cảnh lá đỏ đằng kia (khoảng cách xa cả người nói lẫn người nghe).",
+          "explanation": "<b>Liên từ đoạn văn: しかし (Tuy nhiên, thế nhưng)</b>: Biểu thị mối quan hệ tương phản giữa suy nghĩ trước đây của tác giả và thực tế.<br><b>Dịch nghĩa:</b> Tôi từng nghĩ hễ qua mùa hè, nhiệt độ giảm xuống thì lá đỏ chắc chắn sẽ bắt đầu. Thế nhưng, sự thật không phải như vậy.<br><i>Phân tích các phương án:</i><br>• 1. 確かに: Quả thực là, đúng là (xác nhận lại ý trước, không hợp với vế phủ định そうではありませんでした).<br>• 2. 結局: Kết cục là, rốt cuộc là.<br>• 3. <b>しかし (Đúng)</b>: Biểu thị sự tương phản rõ rệt với suy nghĩ trước đó của tác giả.<br>• 4. つまり: Tóm lại là, tức là (giải thích tương đương).",
           "passage": "<b>【紅葉の異変】</b><br><br>私には日本の秋の景色が好きです。秋になって紅葉が始まり、緑だった葉が黄色やオレンジ、赤に変わると、とてもきれいです。秋の紅葉は、日本の四季の変化を感じさせてくれるものです。<br><br>【 48 】ですが、先日テレビで、紅葉がピークを迎える時期が年々遅くなっているというニュースを見ました。私は、夏が過ぎて気温が下がってくれば、必ず紅葉が始まると思っていました【 49 】そうではありませんでした。紅葉には、条件となる気温の変化がありました。<br><br>秋になっても、最低気温が一定の気温まで下がらなければ、紅葉は【 50 】。その後、さらに寒くなり、5〜6度まで下がると、紅葉は一気に進みます。紅葉を通して、温暖化が身近な問題であることをより強く【 51 】。"
         },
         {
@@ -733,7 +733,7 @@ window.JLPT_DATA[2] = {
             "つまり"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Liên từ đoạn văn: しかし (Tuy nhiên, thế nhưng)</b>: Biểu thị mối quan hệ tương phản, chuyển tiếp ý từ thực tế hiển nhiên sang một khám phá bất ngờ.<br>\n<b>Dịch nghĩa:</b> Nhiều người ngỡ rằng lá chuyển đỏ là để chào đón mùa đông. Thế nhưng, mục đích thực sự của nó lại hoàn toàn khác biệt.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. だから: Vì vậy (chỉ kết quả nhân quả cùng chiều).<br>\n• 2. つまり: Tóm lại là, tức là (giải thích tương đương).<br>\n• 3. <b>しかし (Đúng)</b>: Biểu thị sự tương phản rõ rệt với định kiến thông thường của con người.<br>\n• 4. そのうえ: Hơn nữa (bổ sung thông tin tăng tiến).",
+          "explanation": "<b>Cấu trúc đoạn văn: ～始まらないのです (vẫn chưa bắt đầu)</b>: Giải thích cơ chế tự nhiên, lá đỏ chỉ bắt đầu khi nhiệt độ tối thiểu hạ xuống mức nhất định.<br><b>Dịch nghĩa:</b> Dù đã sang thu, nếu nhiệt độ thấp nhất không giảm xuống một mức nhất định thì lá đỏ vẫn không bắt đầu.<br><i>Phân tích các phương án:</i><br>• 1. <b>始まらないのです (Đúng)</b>: Khẳng định hiện thực kèm đuôi giải thích ～のです.<br>• 2. 始まらないためです: Vì lý do không bắt đầu (sai cấu trúc nhân quả của câu điều kiện ～なければ).<br>• 3. 始まらないのでしょうか: Liệu có phải không bắt đầu không? (câu nghi vấn, không hợp ngữ cảnh giải thích).<br>• 4. 始まらないためでしょうか: Có phải vì không bắt đầu không? (sai ngữ nghĩa).",
           "passage": "<b>【紅葉の異変】</b><br><br>私には日本の秋の景色が好きです。秋になって紅葉が始まり、緑だった葉が黄色やオレンジ、赤に変わると、とてもきれいです。秋の紅葉は、日本の四季の変化を感じさせてくれるものです。<br><br>【 48 】ですが、先日テレビで、紅葉がピークを迎える時期が年々遅くなっているというニュースを見ました。私は、夏が過ぎて気温が下がってくれば、必ず紅葉が始まると思っていました【 49 】そうではありませんでした。紅葉には、条件となる気温の変化がありました。<br><br>秋になっても、最低気温が一定の気温まで下がらなければ、紅葉は【 50 】。その後、さらに寒くなり、5〜6度まで下がると、紅葉は一気に進みます。紅葉を通して、温暖化が身近な問題であることをより強く【 51 】。"
         },
         {
@@ -748,7 +748,7 @@ window.JLPT_DATA[2] = {
             "始まらないためでしょうか"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc đoạn văn: ～始まらないのです (vẫn chưa thực sự bắt đầu)</b>: Diễn tả một hiện tượng sinh học chỉ thực sự khởi động khi hội tụ đủ điều kiện nhiệt độ.<br>\n<b>Dịch nghĩa:</b> Nếu nhiệt độ ban đêm chưa hạ xuống dưới 8 độ C thì quá trình phân giải chất diệp lục vẫn chưa thể bắt đầu.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>始まらないのです (Đúng)</b>: Biểu thị sự việc chưa xảy ra kèm đuôi giải thích chân lý のです.<br>\n• 2. 始まってしまうのです: Lỡ bắt đầu mất rồi.<br>\n• 3. 始まったばかりなのです: Vừa mới bắt đầu xong.<br>\n• 4. 始めるはずなのです: Đáng lẽ phải bắt đầu (chỉ ý chí con người).",
+          "explanation": "<b>Diễn đạt đoạn văn: 感じるようになりました (đã dần cảm nhận được...)</b>: Diễn tả sự biến chuyển trong nhận thức của tác giả về vấn đề nóng lên toàn cầu.<br><b>Dịch nghĩa:</b> Thông qua hiện tượng lá đỏ, tôi đã dần cảm nhận mạnh mẽ hơn rằng sự nóng lên toàn cầu là một vấn đề rất gần gũi quanh mình.<br><i>Phân tích các phương án:</i><br>• 1. 感じているからだと思います: Tôi nghĩ là vì đang cảm thấy (thừa から, sai cấu trúc kết câu).<br>• 2. 感じられるところだと思います: Tôi nghĩ là chỗ có thể cảm nhận (không tự nhiên).<br>• 3. 感じさせることができました: Đã có thể khiến ai đó cảm nhận (sai thể sai khiến).<br>• 4. <b>感じるようになりました (Đúng)</b>: V-るようになる biểu thị sự thay đổi trong nhận thức theo thời gian.",
           "passage": "<b>【紅葉の異変】</b><br><br>私には日本の秋の景色が好きです。秋になって紅葉が始まり、緑だった葉が黄色やオレンジ、赤に変わると、とてもきれいです。秋の紅葉は、日本の四季の変化を感じさせてくれるものです。<br><br>【 48 】ですが、先日テレビで、紅葉がピークを迎える時期が年々遅くなっているというニュースを見ました。私は、夏が過ぎて気温が下がってくれば、必ず紅葉が始まると思っていました【 49 】そうではありませんでした。紅葉には、条件となる気温の変化がありました。<br><br>秋になっても、最低気温が一定の気温まで下がらなければ、紅葉は【 50 】。その後、さらに寒くなり、5〜6度まで下がると、紅葉は一気に進みます。紅葉を通して、温暖化が身近な問題であることをより強く【 51 】。"
         },
         {
@@ -763,7 +763,7 @@ window.JLPT_DATA[2] = {
             "感じるようになりました"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Diễn đạt đoạn văn: 感じるようになりました (đã dần cảm nhận được...)</b>: Diễn tả sự biến chuyển trong nhận thức và tình cảm của tác giả sau khi thấu hiểu cơ chế tự nhiên.<br>\n<b>Dịch nghĩa:</b> Kể từ khi biết được điều đó, mỗi khi ngắm nhìn lá đỏ, tôi lại dần cảm nhận được sức sống bền bỉ và sự nỗ lực kỳ diệu của cỏ cây hoa lá.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 感じるはずです: Chắc hẳn là cảm thấy (phán đoán).<br>\n• 2. 感じるわけです: Đương nhiên cảm thấy.<br>\n• 3. 感じるべきです: Cần phải cảm nhận (mệnh lệnh đạo đức).<br>\n• 4. <b>感じるようになりました (Đúng)</b>: V-るようになる biểu thị sự thay đổi trong thói quen, nhận thức theo thời gian.",
+          "explanation": "<b>Diễn đạt đoạn văn: 感じるようになりました (đã dần cảm nhận được...)</b>: Diễn tả sự biến chuyển trong nhận thức của tác giả về vấn đề nóng lên toàn cầu.<br><b>Dịch nghĩa:</b> Thông qua hiện tượng lá đỏ, tôi đã dần cảm nhận mạnh mẽ hơn rằng sự nóng lên toàn cầu là một vấn đề rất gần gũi quanh mình.<br><i>Phân tích các phương án:</i><br>• 1. 感じているからだと思います: Tôi nghĩ là vì đang cảm thấy (thừa から, sai cấu trúc kết câu).<br>• 2. 感じられるところだと思います: Tôi nghĩ là chỗ có thể cảm nhận (không tự nhiên).<br>• 3. 感じさせることができました: Đã có thể khiến ai đó cảm nhận (sai thể sai khiến).<br>• 4. <b>感じるようになりました (Đúng)</b>: V-るようになる biểu thị sự thay đổi trong nhận thức theo thời gian.",
           "passage": "<b>【紅葉の異変】</b><br><br>私には日本の秋の景色が好きです。秋になって紅葉が始まり、緑だった葉が黄色やオレンジ、赤に変わると、とてもきれいです。秋の紅葉は、日本の四季の変化を感じさせてくれるものです。<br><br>【 48 】ですが、先日テレビで、紅葉がピークを迎える時期が年々遅くなっているというニュースを見ました。私は、夏が過ぎて気温が下がってくれば、必ず紅葉が始まると思っていました【 49 】そうではありませんでした。紅葉には、条件となる気温の変化がありました。<br><br>秋になっても、最低気温が一定の気温まで下がらなければ、紅葉は【 50 】。その後、さらに寒くなり、5〜6度まで下がると、紅葉は一気に進みます。紅葉を通して、温暖化が身近な問題であることをより強く【 51 】。"
         },
         {

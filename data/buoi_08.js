@@ -215,7 +215,7 @@ window.JLPT_DATA[8] = {
             "的"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>世界的（せかいてき）：</b>Mang tính toàn cầu, tầm cỡ thế giới. Đi kèm: 世界的に知られている (nổi tiếng trên toàn thế giới). Hậu tố 〜的 biến danh từ thành tính từ đuôi な.<br><b>Dịch nghĩa:</b> Tiểu thuyết của tác giả đó đã được dịch sang nhiều thứ tiếng và nổi tiếng trên toàn thế giới.<br><i>Phân tích các phương án:</i><br>• 1. 状: 〜状 (hình dạng/thư tín: 招待状, クリーム状), không ghép với 世界.<br>• 2. 風: 〜風 (phong cách, kiểu: 和風, ヨーロッパ風), không dùng 世界風.<br>• 3. 性: 〜性 (tính chất: 可能性, 危険性), 世界性 không dùng trong ngữ cảnh này.<br>• <b>4. 的: [Đúng] 世界的 (mang tầm quốc tế, tầm cỡ thế giới).</b>",
+          "explanation": "<b>世界的（せかいてき）：</b>Mang tính toàn cầu, tầm cỡ thế giới.「世界的に知られている」= được thế giới biết đến.<br><b>Dịch nghĩa:</b> Đạo diễn phim nổi tiếng tầm cỡ thế giới đã đến Nhật để quảng bá cho bộ phim.<br><i>Phân tích 4 đáp án:</i><br>• 1. 間: Khoảng cách, giữa (世界間 không tồn tại).<br>• 2. 級: Cấp bậc (thường đi với 世界最高級).<br>• 3. 化: Biến đổi (thường là 世界化, không đi với に知られている).<br>• <b>4. 的: [Đúng] 世界的に (mang tầm cỡ thế giới).</b>",
           "id": 14
         },
         {
@@ -1823,7 +1823,7 @@ window.JLPT_DATA[8] = {
             "わけではない"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>普通形 + わけがない：</b>Tuyệt đối không thể nào có chuyện... Khẳng định chắc nịch 100% dựa trên căn cứ rõ ràng và nỗ lực thực tế. Câu phủ định kép: 合格できないわけがない = Chắc chắn sẽ đỗ.<br><b>Dịch nghĩa:</b> Được thầy giáo tận tình chỉ bảo lại nỗ lực luyện tập hết mình như thế thì tuyệt đối không thể nào có chuyện trượt được!<br><i>Phân tích các phương án:</i><br>• 1. わけではない: Không hẳn là không thể đỗ (phủ định một phần, giảm độ tự tin, mâu thuẫn với sự nỗ lực hết mình).<br>• 2. わけにはいかない: Không thể đỗ được vì lý do đạo đức/xã hội (sai hoàn toàn logic).<br>• <b>3. わけがない: [Đúng] 合格できないわけがない = Tuyệt đối chắc chắn đỗ, không thể nào có chuyện trượt.</b><br>• 4. わけだ: Thảo nào / thì ra là vậy (giải thích lý do tự nhiên của kết quả đã xảy ra).",
+          "explanation": "<b>普通形 + わけがない：</b>Tuyệt đối không thể nào có chuyện... (phủ định chắc nịch dựa trên tính cách, căn cứ rõ ràng).<br><b>Dịch nghĩa:</b> Một người lúc nào cũng nghiêm túc gương mẫu như Yamashita thì tuyệt đối không thể nào có chuyện ngủ gật trong giờ học được, có lẽ cậu ấy đang bị ốm cũng nên.<br><i>Phân tích các phương án:</i><br>• 1. わけだ: Thảo nào, thì ra là vậy (sai logic câu).<br>• 2. わけにはいかない: Không thể làm vì lý do đạo đức/quy định.<br>• <b>3. わけがない: [Đúng] 寝るわけがない (tuyệt đối không có chuyện ngủ gật).</b><br>• 4. わけではない: Không hẳn là... (phủ định một phần).",
           "id": 116
         },
         {

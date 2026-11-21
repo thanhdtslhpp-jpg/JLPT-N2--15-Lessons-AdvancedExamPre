@@ -2261,7 +2261,7 @@ window.JLPT_DATA[10] = {
             "人の秘密を推定するのはやめなさい。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>推定（すいてい）：</b>Suy đoán, ước định dựa trên căn cứ, dữ liệu hiện có (Hán tự: SUY ĐỊNH). Cụm từ: 声から推定すると (dựa trên giọng nói mà suy đoán).<br><b>Dịch nghĩa:</b> Nếu suy đoán dựa trên giọng nói nghe được qua điện thoại thì thủ phạm là một người đàn ông trẻ tuổi.<br><i>Phân tích các phương án:</i><br>• 1. Sai ngữ cảnh: Nỗi đau mất con không thể tưởng tượng/đo lường hết phải dùng 計り知れない (はかりしれない) hoặc 想像できない<br>• 2. Sai ngữ cảnh: Đo huyết áp tại bệnh viện phải dùng 測定する (そくてい) hoặc 測る (はかる)<br>• <b>3. 電話の声から推定すると、犯人は若い男性だ: Dựa trên giọng nói để suy đoán thủ phạm [Đúng]</b><br>• 4. Sai ngữ cảnh: Bí mật đời tư của người khác thì không được dò xét/hỏi han dùng 探る (さぐる) hoặc 詮索する (せんさく)"
+          "explanation": "<b>ご無沙汰（ごぶさた）：</b>Lâu ngày không liên lạc, lâu rồi không tới thăm hỏi.<br><i>Phân tích các phương án:</i><br>• 1. Sai: \"Muộn rồi nên xin phép về trước\" phải dùng 失礼します / お先に失礼します.<br>• 2. Sai: \"Vì bị bệnh nên xin phép vắng mặt cuộc họp\" phải dùng 欠席させてもらう.<br>• 3. Sai: \"Hôm trước đột nhiên ghé thăm nhà...\" phải dùng お邪魔し.<br>• <b>4. 大学を卒業以来、先生にはすっかりごぶさたしている: Kể từ khi tốt nghiệp đại học, tôi đã lâu lắm không liên lạc thăm hỏi thầy [Đúng]</b>"
         },
         {
           "id": 147,
@@ -2276,7 +2276,7 @@ window.JLPT_DATA[10] = {
             "大学を卒業以来、先生にはすっかりごぶさたしている。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>ご無沙汰（ごぶさた）：</b>Lâu ngày không tới thăm, lâu rồi không liên lạc (lời chào hỏi lịch sự: ご無沙汰しております).<br><b>Dịch nghĩa:</b> Thưa thầy Tanaka, đã lâu lắm rồi em không tới thăm thầy, em vô cùng xin lỗi thầy ạ.<br><i>Phân tích các phương án:</i><br>• 1. Sai ngữ cảnh: Nghỉ làm do bị cảm sốt phải dùng 会社を休んだ (やすんだ) hoặc 欠勤した<br>• 2. Sai ngữ cảnh: Không viết thư hồi âm phải dùng 返事を書かなかった (へんじ)<br>• 3. Sai ngữ cảnh: Cửa hàng ngừng kinh doanh phải dùng 閉店した (へいてん) hoặc 休業した<br>• <b>4. 田中先生、長いことごぶさたしておりまして、申し訳ありません: Cách nói trang trọng xin lỗi vì lâu ngày không liên lạc thăm hỏi [Đúng]</b>"
+          "explanation": "<b>単純（たんじゅん）：</b>Đơn giản, đơn thuần (tính cách, cấu tạo, suy nghĩ).<br><i>Phân tích các phương án:</i><br>• 1. Sai: Bữa ăn đạm bạc, đơn giản dùng 質素な食事 / 簡単な食事.<br>• 2. Sai: Thi đỗ bằng lái xe dễ dàng hơn tưởng tượng dùng 簡単に.<br>• <b>3. 彼は単純な性格だから、細かいことは気にしないと思う: Anh ấy tính tình đơn giản, nghĩ gì nói nấy nên chắc không để bụng chuyện nhỏ nhặt [Đúng]</b><br>• 4. Sai: Thua dễ dàng/chóng vánh ở vòng 1 dùng あっさり / 簡単に."
         },
         {
           "id": 148,
@@ -2291,7 +2291,7 @@ window.JLPT_DATA[10] = {
             "まさか1回戦で単純に負けてしまうとはだれも思わなかった。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>単純（たんじゅん）：</b>Đơn thuần, ngớ ngẩn sơ đẳng, giản đơn không phức tạp. Cụm từ: 単純な思い違い (sự nhầm lẫn sơ đẳng ngớ ngẩn).<br><b>Dịch nghĩa:</b> Sai lầm lần này xảy ra xuất phát từ sự nhầm lẫn vô cùng đơn thuần và ngớ ngẩn của bản thân tôi.<br><i>Phân tích các phương án:</i><br>• 1. Sai ngữ cảnh: Bài phát biểu dễ hiểu, gãy gọn phải dùng 分かりやすい (わかりやすい)<br>• 2. Sai ngữ cảnh: Máy móc thao tác dễ dàng phải dùng 簡単な操作 (かんたん)<br>• <b>3. 今回のミスは、私の単純な思い違いから起きてしまったものだ: Nhầm lẫn đơn thuần, sơ đẳng ngớ ngẩn [Đúng]</b><br>• 4. Sai ngữ cảnh: Món ăn chế biến đơn giản, tiện lợi phải dùng 手軽な (てがるな)"
+          "explanation": "<b>足元（あしもと）：</b>Dưới chân, bước chân (hoặc điểm yếu sơ hở sát sườn).<br><i>Phân tích các phương án:</i><br>• 1. Sai: \"Không ngờ lại sống gần nhau thế này\" dùng 近くに / ご近所に.<br>• <b>2. お酒を飲みすぎて足元がふらつき、ひとりで歩けない: Uống quá nhiều rượu nên bước chân loạng choạng, không thể tự đi một mình [Đúng]</b><br>• 3. Sai: \"Rời xa vòng tay cha mẹ\" dùng 親元を離れる (おやもと).<br>• 4. Sai: \"Mua sắm ở cửa hàng gần nhà\" dùng 近所の店 / 近くの店."
         },
         {
           "id": 149,

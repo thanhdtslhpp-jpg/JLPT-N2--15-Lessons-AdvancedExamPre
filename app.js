@@ -4648,7 +4648,7 @@ class JLPTApp {
             <span class="dokkai-jump-label"><i class="fas fa-arrow-down"></i> Đi tới câu hỏi:</span>
             <div class="dokkai-jump-pills">${dokkaiJumpPillsHTML}</div>
           </div>
-          <div class="dokkai-content ${fontClass}" data-passage-key="${passageKey}">${passageBody}</div>
+          <div class="dokkai-content ${fontClass}" lang="ja" data-passage-key="${passageKey}">${passageBody}</div>
         </div>
         ${isMultiQuestionPassage ? `
           <div class="passage-group-sub-banner">
@@ -4668,7 +4668,7 @@ class JLPTApp {
         choukaiHeaderHTML = `
           <div class="choukai-revealed-header">
             <div class="choukai-q-tag"><i class="fas fa-question-circle"></i> Câu hỏi trong bài nghe (Đã mở khóa):</div>
-            <div class="choukai-q-text">${choukaiQText}</div>
+            <div class="choukai-q-text" lang="ja">${choukaiQText}</div>
           </div>
         `;
       } else {
@@ -4689,7 +4689,7 @@ class JLPTApp {
             ${isPeeking ? `
               <div class="choukai-peek-box" style="margin-top: 0.6rem; padding: 0.6rem 0.85rem; background: var(--bg-card); border-radius: 6px; border: 1px dashed var(--primary); font-size: 0.95rem; color: var(--text);">
                 <span style="font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; display: block; margin-bottom: 0.2rem;">👁️ Xem trước câu hỏi trong băng:</span>
-                <b>${choukaiQText}</b>
+                <b lang="ja">${choukaiQText}</b>
               </div>
             ` : ''}
           </div>
@@ -4758,7 +4758,7 @@ class JLPTApp {
       optionsHTML += `
         <button class="${optClass}" ${isLockedInPractice ? "disabled" : ""} onclick="app.selectOption(${q.id}, ${optNum})">
           <span class="opt-num">${optNum}</span>
-          <span>${optText}</span>
+          <span lang="ja">${optText}</span>
         </button>
       `;
     });
@@ -4823,7 +4823,7 @@ class JLPTApp {
       }
 
       explanationHTML = `
-        <div class="explanation-box">
+        <div class="explanation-box" lang="ja">
           <div class="explanation-title">
             <span>💡 Giải thích chi tiết${isChoukai ? " & Script hội thoại" : ""}:</span>
             <span style="margin-left: auto; font-weight: 700; color: ${isCorrect ? "var(--success)" : "var(--error)"};">
@@ -4922,7 +4922,7 @@ class JLPTApp {
       ${imageHTML}
       ${!isChoukai ? `
         <div class="q-sentence-row">
-          <div class="q-sentence">${formattedSentence}</div>
+          <div class="q-sentence" lang="ja">${formattedSentence}</div>
         </div>
       ` : ""}
       <div class="options-grid">${optionsHTML}</div>
@@ -5173,6 +5173,7 @@ class JLPTApp {
       const isUsed = currentSlots.includes(frag.id);
       chipsHTML += `
         <button class="star-fragment-chip ${isUsed ? "used" : ""}" 
+                lang="ja"
                 data-qid="${q.id}"
                 data-fragid="${frag.id}"
                 data-source="pool"
@@ -5224,7 +5225,7 @@ class JLPTApp {
       }
 
       explanationHTML = `
-        <div class="explanation-box">
+        <div class="explanation-box" lang="ja">
           <div class="explanation-title">
             <span>💡 Giải thích chi tiết sắp xếp câu:</span>
             <span style="margin-left: auto; font-weight: 700; color: ${statusColor};">
@@ -5277,7 +5278,7 @@ class JLPTApp {
         </button>
       </div>
 
-      <div class="star-sentence-box">
+      <div class="star-sentence-box" lang="ja">
         <span class="star-text-before">${beforeText || ""}</span>
         <span class="star-slots">${slotsHTML}</span>
         <span class="star-text-after">${afterText || ""}</span>

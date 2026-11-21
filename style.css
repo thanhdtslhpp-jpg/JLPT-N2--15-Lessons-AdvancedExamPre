@@ -8986,31 +8986,31 @@ button,
 
 
 .question-text,
-
 .reading-passage,
-
 .reading-box,
-
 .option-text,
-
 .furigana-text,
-
 .dokkai-content,
-
 .dokkai-lead,
-
 .star-sentence-box,
-
 .grammar-meaning,
-
 .explanation-box {
-
   -webkit-touch-callout: none !important;
-
   -webkit-user-select: text !important;
-
   user-select: text !important;
+}
 
+:lang(ja),
+.q-sentence,
+.opt-btn,
+.dokkai-content,
+.star-sentence-box,
+.star-fragment-chip,
+.choukai-q-text,
+.choukai-peek-box,
+.explanation-box,
+ruby {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 

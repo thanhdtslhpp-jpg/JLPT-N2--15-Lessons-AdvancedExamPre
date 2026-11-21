@@ -141,7 +141,7 @@ window.JLPT_DATA[6] = {
             "きっちょう"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>貴重（きちょう）：</b>Quý giá, quý báu (kinh nghiệm, cơ hội, ý kiến).<br><b>Dịch nghĩa:</b> Tôi đã nhận được những lời khuyên vô cùng quý giá từ tiền bối.<br><i>Phân tích các phương án:</i><br>• 1. 貴長: Sai chữ Hán thứ hai<br>• <b>2. 貴重: 貴 (き) + 重 (ちょう: quý trọng) [Đúng]</b><br>• 3. 記重: Chữ 記 là ghi nhớ, sai nghĩa<br>• 4. 記長: Sai cả 2 chữ Hán",
+          "explanation": "<b>貴重（きちょう）：</b>Quý giá, quý báu (kinh nghiệm, cơ hội, lời khuyên).<br><b>Dịch nghĩa:</b> Tôi đã nhận được những lời khuyên quý báu từ cửa hàng trưởng.<br><i>Phân tích các phương án:</i><br>• 1. きじゅう: Sai âm ghép của 重 (đọc đúng là ちょう).<br>• <b>2. きちょう: 貴 (き) + 重 (ちょう) &rarr; [Đúng]</b><br>• 3. きっじゅう: Sai cả âm ngắt và âm đục.<br>• 4. きっちょう: Dư âm ngắt っ, sai cách đọc.",
           "id": 9
         },
         {
@@ -171,7 +171,7 @@ window.JLPT_DATA[6] = {
             "しょうさく"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>操作（そうさ）：</b>Thao tác, vận hành (máy móc, thiết bị điện tử).<br><b>Dịch nghĩa:</b> Chiếc máy này thao tác đơn giản nên ai cũng dùng được.<br><i>Phân tích các phương án:</i><br>• 1. 操 (そう) + 作 (さ) -> [Đúng]<br>• 2. しょうさ: Sai âm chữ 操<br>• 3. そうざ: Biến âm đục sai<br>• 4. しょうざ: Sai hoàn toàn",
+          "explanation": "<b>操作（そうさ）：</b>Thao tác, vận hành (máy móc, điện thoại, thiết bị điện tử).<br><b>Dịch nghĩa:</b> Chiếc điện thoại di động này rất khó thao tác.<br><i>Phân tích các phương án:</i><br>• <b>1. そうさ: 操 (そう) + 作 (さ) &rarr; [Đúng]</b><br>• 2. そうさく: Nhầm âm 作 sang さく (như trong 創作).<br>• 3. しょうさ: Sai âm đầu chữ 操 (đọc là そう, không phải しょう).<br>• 4. しょうさく: Sai hoàn toàn cả 2 âm.",
           "id": 11
         },
         {
@@ -261,7 +261,7 @@ window.JLPT_DATA[6] = {
             "郊菓"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>効果（こうか）：</b>Hiệu quả, tác dụng của thuốc/biện pháp.<br><b>Dịch nghĩa:</b> Thuốc này rất có hiệu quả trong việc giảm đau đầu.<br><i>Phân tích các chữ Hán:</i><br>• <b>1. 効果: 効 (hiệu) + 果 (quả: kết quả) [Đúng]</b><br>• 2. 効科: 科 là khoa (khoa mục)<br>• 3. 効課: 課 là bài học, phòng ban<br>• 4. 効過: 過 là quá (vượt quá, quá mức)",
+          "explanation": "<b>効果（こうか）：</b>Hiệu quả, tác dụng của thuốc hay biện pháp.<br><b>Dịch nghĩa:</b> Loại thuốc này nếu không uống ngay sau bữa ăn thì sẽ không có hiệu quả.<br><i>Phân tích các chữ Hán:</i><br>• <b>1. 効果: 効 (hiệu) + 果 (quả) [Đúng]</b><br>• 2. 効菓: Chữ 菓 (quả) dùng trong bánh kẹo (菓子), sai nghĩa.<br>• 3. 郊果: Chữ 郊 (giao) nghĩa là ngoại ô (郊外), sai chữ Hán đầu.<br>• 4. 郊菓: Sai cả hai chữ Hán.",
           "id": 17
         },
         {
@@ -321,7 +321,7 @@ window.JLPT_DATA[6] = {
             "誰誌"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>雑誌（ざっし）：</b>Tạp chí.<br><b>Dịch nghĩa:</b> Tôi đã mua một cuốn tạp chí ở quầy sách nhà ga.<br><i>Phân tích các phương án:</i><br>• 1. 雑記: Sổ tay ghi chép linh tinh<br>• <b>2. 雑誌: 雑 (tạp) + 誌 (chí: tạp chí) [Đúng]</b><br>• 3. 難記: Sai chữ Hán<br>• 4. 難誌: Sai chữ 難 (khó khăn)",
+          "explanation": "<b>雑誌（ざっし）：</b>Tạp chí.<br><b>Dịch nghĩa:</b> Tôi đã mua một cuốn tạp chí ở quầy bán hàng trong nhà ga.<br><i>Phân tích các phương án:</i><br>• 1. 雑紙: Chữ 紙 (tờ giấy), không dùng trong 雑誌.<br>• <b>2. 雑誌: 雑 (tạp) + 誌 (chí: ghi chép, tạp chí) [Đúng]</b><br>• 3. 誰紙: Sai hoàn toàn cả 2 chữ Hán (誰 là ai).<br>• 4. 誰誌: Sai chữ 誰 (ai).",
           "id": 21
         },
         {
@@ -1938,7 +1938,7 @@ window.JLPT_DATA[6] = {
             "映画は映画館以外で見ることをすすめる。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch câu hỏi:</b> Điểm chung được nêu ở cả hai bài A và B là gì?<br><b>Phân tích bài đọc:</b> Bài A nói xem ở rạp giúp tập trung từ đầu đến cuối (最初から最後まで集中して楽しめる). Bài B cũng nói xem ở rạp thì không làm việc khác được nên đắm chìm và tập trung vào thế giới của bộ phim (ほかのことができず、その世界に入り込んで夢中になれる).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tác giả B thích cả xem ở ngoài rạp<br>• 2. Sai vì tác giả B vẫn thích xem qua dịch vụ phát trực tuyến ngoài rạp<br>• <b>3. 映画は映画館で見ると集中できる: [Đúng] Xem phim ở rạp chiếu phim thì có thể tập trung được</b><br>• 4. Sai vì cả hai bài đều không khuyên người đọc chỉ nên xem ngoài rạp"
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc xem phim, tác giả A và B đã trình bày như thế nào?<br><b>Phân tích bài đọc:</b> Tác giả A nhấn mạnh xem ở rạp giúp tập trung từ đầu đến cuối và nhớ kỹ nội dung (「映画館で見ると、最初から最後まで集中して…内容はよく覚えている」). Tác giả B cho rằng xem ở rạp cũng thích, nhưng xem qua dịch vụ phát video ở nơi khác theo nhịp độ riêng cũng rất tiện (「映画館で見るのも…映画館以外の場所で見るのも好きだ」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không chỉ khuyên xem ở rạp.<br>• 2. Sai vì A thích xem ở rạp hơn ở nhà.<br>• <b>3. A cho rằng xem ở rạp tập trung và nhớ rõ nội dung; B cho rằng xem ở rạp cũng hay nhưng xem ở nơi khác cũng tốt [Đúng]</b><br>• 4. Sai vì A nói xem ngoài rạp dễ mất tập trung và hay quên nội dung."
         },
         {
           "id": 119,
@@ -1953,7 +1953,7 @@ window.JLPT_DATA[6] = {
             "Aは映画館以外で見ると集中が続かないが、内容もよく分かるからいいと述べ、Bは映画館で見るのも、それ以外の方法で見るも好きだと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Trong bài 【B】, ưu điểm lớn nhất của sách điện tử được nêu ra là gì?<br><b>Phân tích bài đọc:</b> Tác giả bài B đề cao tính tiện lợi trong việc mang theo hàng ngàn cuốn sách trong một thiết bị nhỏ gọn, khả năng tra cứu từ điển tức thì và điều chỉnh kích thước chữ linh hoạt.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải lúc nào sách điện tử cũng rẻ hơn sách giấy.<br>• 2. Sai vì đọc nhiều trên màn hình điện tử vẫn có thể mỏi mắt.<br>• <b>3. 持ち運びの利便性や検索性、文字サイズの変更など柔軟な読書環境: Môi trường đọc linh hoạt như tính tiện lợi khi mang theo, khả năng tra cứu và đổi cỡ chữ [Đúng]</b><br>• 4. Sai vì không đề cập việc đọc sách điện tử giúp kết nối mạng xã hội."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc hiểu lời bài hát trước khi hát, A và B suy nghĩ như thế nào?<br><b>Phân tích bài đọc:</b> Cả hai tác giả đều khẳng định việc hiểu rõ lời bài hát trước khi hát là rất cần thiết/quan trọng: Tác giả A viết 「まず歌詞を理解して曲を覚えることが必要だ」; Tác giả B viết 「それには歌詞を深く理解することが大切だ」.<br><i>Phân tích các phương án:</i><br>• <b>1. AもBも、必要だと述べている: Cả A và B đều cho rằng điều đó là cần thiết [Đúng]</b><br>• 2, 3, 4. Sai vì trái với quan điểm đồng thuận của cả A và B trong bài."
         },
         {
           "id": 120,
@@ -1968,7 +1968,7 @@ window.JLPT_DATA[6] = {
             "Aはあまり必要ではないと述べ、Bは必要だと述べている。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điểm chung mà cả hai tác giả bài A và bài B đều thừa nhận là gì?<br><b>Phân tích bài đọc:</b> Cả hai tác giả đều thống nhất rằng bản chất cốt lõi của việc đọc sách là tiếp thu tri thức và bồi đắp tâm hồn, hình thức giấy hay điện tử chỉ là phương tiện hỗ trợ tùy hoàn cảnh.<br><i>Phân tích các phương án:</i><br>• <b>1. 媒体の違いにかかわらず、本から知識や感動を得る読書の本質は変わらない: Bất kể sự khác biệt về phương tiện, bản chất của việc đọc sách để thu nhận tri thức và cảm xúc không hề thay đổi [Đúng sự đồng thuận của A và B]</b><br>• 2. Sai vì bài B không coi sách giấy là lạc hậu.<br>• 3. Sai vì bài A không phản đối hoàn toàn sách điện tử.<br>• 4. Sai vì cả hai không kêu gọi chính phủ trợ cấp ngành in ấn."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> A và B cho rằng để hát hay thì điều gì là quan trọng?<br><b>Phân tích bài đọc:</b> Tác giả A khuyên nên đọc hiểu lời, nghe đi nghe lại để nhớ chính xác giai điệu rồi hát tự tin như ca sĩ (「歌詞と曲をしっかり覚えたら…」). Ngược lại, tác giả B nhấn mạnh bài hát hay là bài hát truyền tải được cảm xúc chân thành đến người nghe (「歌う人の気持ちが伝わってくる歌」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không thích việc chỉ bắt chước ca sĩ.<br>• 2. Sai vì A không nhấn mạnh chỗ nhấn nhá cảm xúc.<br>• <b>3. A cho rằng cần nhớ chính xác bài hát rồi mới hát; B cho rằng cần hát sao cho truyền tải được cảm xúc [Đúng]</b><br>• 4. Sai vì B không hề nói ngược lại việc tự tin."
         },
         {
           "id": 121,
@@ -3184,7 +3184,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [わけではない(1)] [★ ことだけは(2)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないことだけは (chỉ riêng việc không phải cô ấy có ác ý thì tôi đã hiểu rõ).<br><b>Dịch nghĩa:</b> Đã có nhiều người tham dự buổi họp mặt hơn dự kiến, kết quả là phòng hội nghị bị quá tải.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. わけではない: Mảnh ghép liên kết trong câu<br>• <b>2. ことだけは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 悪気があった: Mảnh ghép liên kết trong câu<br>• 4. 彼女に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (ことだけは)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> あなたの説明のおかげで <b>[彼女に(4)] [悪気があった(3)] [わけではない(1)] [★ ことだけは(2)]</b> よくわかりました。<br><b>Cấu trúc:</b> 悪気があったわけではないことだけは (chỉ riêng việc không phải cô ấy có ác ý thì tôi đã hiểu rõ).<br><b>Dịch nghĩa:</b> Nhờ lời giải thích của bạn mà tôi đã hiểu rõ được ít nhất là chuyện cô ấy không hề có ác ý.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. わけではない: Mảnh ghép liên kết trong câu<br>• <b>2. ことだけは: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 悪気があった: Mảnh ghép liên kết trong câu<br>• 4. 彼女に: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (ことだけは)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3219,7 +3219,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> その湖から見た <b>[山は(2)] [言いようがない(4)] [★ ほど美しい(3)] [光景(1)]</b> だった。<br><b>Cấu trúc:</b> 言いようがないほど A (đẹp đến mức không thốt nên lời).<br><b>Dịch nghĩa:</b> Trang phục màu trắng hay màu đen trông đơn giản thế thôi nhưng tùy vào người mặc mà có thể toát lên vẻ đẹp xuất sắc hoặc rất bình thường.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 光景: Mảnh ghép liên kết trong câu<br>• 2. 山は: Mảnh ghép liên kết trong câu<br>• <b>3. ほど美しい: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 言いようがない: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ほど美しい)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> その湖から見た <b>[山は(2)] [言いようがない(4)] [★ ほど美しい(3)] [光景(1)]</b> だった。<br><b>Cấu trúc:</b> 言いようがないほど美しい (đẹp đến mức không lời nào diễn tả nổi).<br><b>Dịch nghĩa:</b> Ngọn núi nhìn từ hồ nước đó là một quang cảnh đẹp đến mức không thốt nên lời.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 光景: Mảnh ghép liên kết trong câu<br>• 2. 山は: Mảnh ghép liên kết trong câu<br>• <b>3. ほど美しい: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. 言いようがない: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (ほど美しい)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3254,7 +3254,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> テーブルの上にある携帯電話は <b>[私のすぐ(3)] [後ろに(2)] [座っている(4)] [★ 女の人の(1)]</b> ものです。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: 私のすぐ後ろに座っている女の人のもの.<br><b>Dịch nghĩa:</b> Dù bạn có thích món ăn đó đến mấy, nhưng nếu ngày nào cũng phải ăn thì sẽ thấy ngán ngẩm ngay.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 女の人の: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 後ろに: Mảnh ghép liên kết trong câu<br>• 3. 私のすぐ: Mảnh ghép liên kết trong câu<br>• 4. 座っている: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (女の人の)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> テーブルの上にある携帯電話は <b>[私のすぐ(3)] [後ろに(2)] [座っている(4)] [★ 女の人の(1)]</b> ものです。<br><b>Cấu trúc:</b> Bổ nghĩa danh từ: 私のすぐ後ろに座っている女の人のもの.<br><b>Dịch nghĩa:</b> Chiếc điện thoại di động ở trên bàn là của người phụ nữ đang ngồi ngay phía sau tôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 女の人の: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 後ろに: Mảnh ghép liên kết trong câu<br>• 3. 私のすぐ: Mảnh ghép liên kết trong câu<br>• 4. 座っている: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (女の人の)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3289,7 +3289,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> どうして <b>[田中くんが(4)] [欠席しているのか(2)] [★ だれか(1)] [聞いて(3)]</b> いますか。<br><b>Cấu trúc:</b> ～のか、だれか聞いていますか (Đã có ai hỏi vì sao bạn Tanaka vắng mặt chưa?).<br><b>Dịch nghĩa:</b> Vì đó là cuốn tiểu thuyết được đánh giá rất cao nên tôi đã đọc với nhiều kỳ vọng, thế nhưng nội dung lại không hấp dẫn như mong đợi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. だれか: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 欠席しているのか: Mảnh ghép liên kết trong câu<br>• 3. 聞いて: Mảnh ghép liên kết trong câu<br>• 4. 田中くんが: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (だれか)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> どうして <b>[田中くんが(4)] [欠席しているのか(2)] [★ だれか(1)] [聞いて(3)]</b> いますか。<br><b>Cấu trúc:</b> どうして～のか、だれか聞いていますか (Đã có ai hỏi thăm lý do bạn Tanaka vắng mặt chưa?).<br><b>Dịch nghĩa:</b> Đã có ai hỏi xem tại sao bạn Tanaka lại vắng mặt chưa?<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. だれか: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 欠席しているのか: Mảnh ghép liên kết trong câu<br>• 3. 聞いて: Mảnh ghép liên kết trong câu<br>• 4. 田中くんが: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>1 (だれか)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3324,7 +3324,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> あの人の <b>[話し方には(3)] [どこか(1)] [★ 人を(4)] [いらいらさせる(2)]</b> ものがある。<br><b>Cấu trúc:</b> ～ものがある (có cảm giác gì đó, có nét gì đó).<br><b>Dịch nghĩa:</b> Chính vì công việc này đòi hỏi sự chính xác cao độ nên một lỗi nhỏ cũng tuyệt đối không được phép xảy ra.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どこか: Mảnh ghép liên kết trong câu<br>• 2. いらいらさせる: Mảnh ghép liên kết trong câu<br>• 3. 話し方には: Mảnh ghép liên kết trong câu<br>• <b>4. 人を: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (人を)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> あの人の <b>[話し方には(3)] [どこか(1)] [★ 人を(4)] [いらいらさせる(2)]</b> ものがある。<br><b>Cấu trúc:</b> ～ものがある (có cảm giác gì đó, có nét gì đó).<br><b>Dịch nghĩa:</b> Cách nói chuyện của người đó có nét gì đó khiến người ta cảm thấy bực mình sốt ruột.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. どこか: Mảnh ghép liên kết trong câu<br>• 2. いらいらさせる: Mảnh ghép liên kết trong câu<br>• 3. 話し方には: Mảnh ghép liên kết trong câu<br>• <b>4. 人を: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>4 (人を)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3359,7 +3359,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất nhanh nhạy khéo léo).<br><b>Dịch nghĩa:</b> Nếu thời tiết ngày mai tiếp tục xấu như hôm nay thì chuyến leo núi có lẽ đành phải hủy bỏ.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 要領が: Mảnh ghép liên kết trong câu<br>• 2. 一方のよう: Mảnh ghép liên kết trong câu<br>• <b>3. 意外と: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. に見えて: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (意外と)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 彼女はまじめ <b>[一方のよう(2)] [に見えて(4)] [★ 意外と(3)] [要領が(1)]</b> いい。<br><b>Cấu trúc:</b> まじめ一方のように見えて、意外と要領がいい (trông có vẻ chỉ biết nghiêm túc chăm chỉ một chiều thế nhưng thực tế lại nắm bắt rất khéo léo).<br><b>Dịch nghĩa:</b> Cô ấy trông có vẻ chỉ biết nghiêm túc cứng nhắc nhưng thực ra lại rất khéo léo, nhanh nhẹn.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 要領が: Mảnh ghép liên kết trong câu<br>• 2. 一方のよう: Mảnh ghép liên kết trong câu<br>• <b>3. 意外と: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. に見えて: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>2 - 4 - 3 - 1</b>. Vị trí ngôi sao ★ (vị trí 3) là phương án <b>3 (意外と)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3394,7 +3394,7 @@ window.JLPT_DATA[6] = {
             3
           ],
           "correctStarOption": 3,
-          "explanation": "<b>Thứ tự câu đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Dịch nghĩa:</b> Tuyển thủ đó dù tuổi đời còn rất trẻ nhưng đã thể hiện bản lĩnh thi đấu không hề thua kém các vận động viên kỳ cựu.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. でさえ: Mảnh ghép liên kết trong câu<br>• 2. 友人たち: Mảnh ghép liên kết trong câu<br>• <b>3. 今回の田中氏の発言: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. の味方をする: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>3 (今回の田中氏の発言)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> いつもは田中氏 <b>[の味方をする(4)] [友人たち(2)] [でさえ(1)] [★ 今回の田中氏の発言(3)]</b> については批判的だ。<br><b>Cấu trúc:</b> Nでさえ～批判的だ (Ngay cả những người bạn luôn bênh vực ông Tanaka lần này cũng chỉ trích phát ngôn của ông).<br><b>Dịch nghĩa:</b> Ngay cả những người bạn bình thường luôn đứng về phía ông Tanaka cũng tỏ ra chỉ trích phát ngôn lần này của ông ấy.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. でさえ: Mảnh ghép liên kết trong câu<br>• 2. 友人たち: Mảnh ghép liên kết trong câu<br>• <b>3. 今回の田中氏の発言: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 4. の味方をする: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 2 - 1 - 3</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>3 (今回の田中氏の発言)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3429,7 +3429,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> その2つの作品はとてもよく <b>[似ているため(3)] [私のような(2)] [素人には(4)] [★ 区別が(1)]</b> つきかねる。<br><b>Cấu trúc:</b> 区別がつきかねる (khó mà phân biệt được).<br><b>Dịch nghĩa:</b> Dù tôi đã giải thích cặn kẽ nhiều lần nhưng dường như anh ấy vẫn chưa hoàn toàn hiểu được ý tôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 区別が: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 私のような: Mảnh ghép liên kết trong câu<br>• 3. 似ているため: Mảnh ghép liên kết trong câu<br>• 4. 素人には: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (区別が)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> その2つの作品はとてもよく <b>[似ているため(3)] [私のような(2)] [素人には(4)] [★ 区別が(1)]</b> つきかねる。<br><b>Cấu trúc:</b> 区別がつきかねる (khó mà phân biệt được).<br><b>Dịch nghĩa:</b> Hai tác phẩm đó quá giống nhau nên đối với người ngoại đạo như tôi thì rất khó lòng phân biệt.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 区別が: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. 私のような: Mảnh ghép liên kết trong câu<br>• 3. 似ているため: Mảnh ghép liên kết trong câu<br>• 4. 素人には: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 4 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (区別が)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3464,7 +3464,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> コロンブスは、<b>[アメリカ大陸(4)] [の発見者として(3)] [歴史に(1)] [★ 名を残した(2)]</b> 人物だ。<br><b>Cấu trúc:</b> 歴史に名を残す (lưu danh sử sách).<br><b>Dịch nghĩa:</b> Kể từ khi nhà máy mới đi vào hoạt động, năng suất sản xuất của công ty đã tăng lên gấp đôi.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 歴史に: Mảnh ghép liên kết trong câu<br>• <b>2. 名を残した: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. の発見者として: Mảnh ghép liên kết trong câu<br>• 4. アメリカ大陸: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (名を残した)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> コロンブスは、<b>[アメリカ大陸(4)] [の発見者として(3)] [歴史に(1)] [★ 名を残した(2)]</b> 人物だ。<br><b>Cấu trúc:</b> 歴史に名を残す (lưu danh sử sách).<br><b>Dịch nghĩa:</b> Columbus là nhân vật đã lưu danh sử sách với tư cách là người phát hiện ra châu Mỹ.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 歴史に: Mảnh ghép liên kết trong câu<br>• <b>2. 名を残した: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. の発見者として: Mảnh ghép liên kết trong câu<br>• 4. アメリカ大陸: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 1 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (名を残した)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3499,7 +3499,7 @@ window.JLPT_DATA[6] = {
             2
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự câu đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Dịch nghĩa:</b> Không chỉ riêng gì giới trẻ mà ngay cả người cao tuổi dạo gần đây cũng sử dụng điện thoại thông minh rất thành thạo.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. ことはないが: Mảnh ghép liên kết trong câu<br>• <b>2. 安すぎるのも: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 安いに越した: Mảnh ghép liên kết trong câu<br>• 4. あまり: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (安すぎるのも)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 何でも <b>[安いに越した(3)] [ことはないが(1)] [あまり(4)] [★ 安すぎるのも(2)]</b> 心配だ。<br><b>Cấu trúc:</b> ～に越したことはないが (Rẻ thì tốt thật đấy nhưng rẻ quá cũng đáng lo).<br><b>Dịch nghĩa:</b> Cái gì cũng vậy, rẻ hơn thì tất nhiên là tốt nhưng rẻ quá mức cũng khiến người ta lo lắng.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. ことはないが: Mảnh ghép liên kết trong câu<br>• <b>2. 安すぎるのも: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 3. 安いに越した: Mảnh ghép liên kết trong câu<br>• 4. あまり: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 1 - 4 - 2</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>2 (安すぎるのも)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3534,7 +3534,7 @@ window.JLPT_DATA[6] = {
             4
           ],
           "correctStarOption": 4,
-          "explanation": "<b>Thứ tự câu đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Dịch nghĩa:</b> Thay vì chỉ ngồi than vãn về hoàn cảnh khó khăn, tốt hơn hết là hãy bắt tay vào làm những việc mình có thể làm ngay lúc này.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 消費者被害を: Mảnh ghép liên kết trong câu<br>• 2. がちな: Mảnh ghép liên kết trong câu<br>• 3. 見落とされ: Mảnh ghép liên kết trong câu<br>• <b>4. 救うこと: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (救うこと)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> その新しい庁の役割は <b>[見落とされ(3)] [がちな(2)] [消費者被害を(1)] [★ 救うこと(4)]</b> である。<br><b>Cấu trúc:</b> 見落とされがちな N を救うこと (cứu giúp những tổn hại của người tiêu dùng vốn thường hay bị bỏ sót).<br><b>Dịch nghĩa:</b> Vai trò của cơ quan mới đó là cứu giúp những thiệt hại của người tiêu dùng vốn thường hay bị bỏ sót.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• 1. 消費者被害を: Mảnh ghép liên kết trong câu<br>• 2. がちな: Mảnh ghép liên kết trong câu<br>• 3. 見落とされ: Mảnh ghép liên kết trong câu<br>• <b>4. 救うこと: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>-> Thứ tự ghép câu hoàn chỉnh: <b>3 - 2 - 1 - 4</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>4 (救うこと)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"
@@ -3569,7 +3569,7 @@ window.JLPT_DATA[6] = {
             1
           ],
           "correctStarOption": 1,
-          "explanation": "<b>Thứ tự câu đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Dịch nghĩa:</b> Bác sĩ khuyên tôi nên hạn chế đồ ngọt và chăm chỉ tập thể dục để cải thiện sức khỏe.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 落ち着きがある: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. キャンパスは静かで: Mảnh ghép liên kết trong câu<br>• 3. にもかかわらず: Mảnh ghép liên kết trong câu<br>• 4. 交通の便がよい: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 2 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (落ち着きがある)</b>.",
+          "explanation": "<b>Thứ tự câu đúng:</b> 都心からの <b>[交通の便がよい(4)] [にもかかわらず(3)] [キャンパスは静かで(2)] [★ 落ち着きがある(1)]</b> のが本校の特徴です。<br><b>Cấu trúc:</b> ～にもかかわらず (mặc dù giao thông thuận tiện nhưng khuôn viên trường lại rất yên tĩnh và trầm lắng).<br><b>Dịch nghĩa:</b> Đặc trưng của trường chúng tôi là dù giao thông từ trung tâm thành phố rất thuận tiện nhưng khuôn viên lại yên tĩnh và thanh bình.<br><i>Phân tích các phương án (mảnh ghép):</i><br>• <b>1. 落ち着きがある: Mảnh ghép đứng ở vị trí ngôi sao ★ [Đúng]</b><br>• 2. キャンパスは静かで: Mảnh ghép liên kết trong câu<br>• 3. にもかかわらず: Mảnh ghép liên kết trong câu<br>• 4. 交通の便がよい: Mảnh ghép liên kết trong câu<br>-> Thứ tự ghép câu hoàn chỉnh: <b>4 - 3 - 2 - 1</b>. Vị trí ngôi sao ★ (vị trí 4) là phương án <b>1 (落ち着きがある)</b>.",
           "isStarQuestion": true,
           "mondai": 8,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)"

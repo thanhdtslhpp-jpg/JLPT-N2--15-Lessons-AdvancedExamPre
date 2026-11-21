@@ -1052,7 +1052,7 @@ window.JLPT_DATA[7] = {
             "共感を覚える感じ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Câu ① <u>chẳng phải lúc nào cũng thuận buồm xuôi gió</u> mang ý nghĩa như thế nào?<br><b>Phân tích bài đọc:</b> Tác giả phân tích cuộc đời và sự nghiệp luôn có những lúc gặp khó khăn, trắc trở ngoài ý muốn, không thể suôn sẻ từ đầu đến cuối được.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải lúc nào cũng thất bại.<br>• <b>2. 思うようにいかないことも多い: Thường có nhiều chuyện không diễn ra theo như ý muốn [Đúng]</b><br>• 3. Sai vì bài không nói đến việc hoàn toàn không có hi vọng.<br>• 4. Sai vì không có ý nói mọi chuyện đều dễ dàng giải quyết.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Ngay sau câu「座った瞬間に、ふと違和感を感じました。<u>いつもと明らかに違う感覚</u>でした。私はさっそくその気持ちを素直にぶつけてみました」, tác giả đã nói thẳng cảm giác đó với bác tài xế: <b>「このタクシー、とても心地よく感じました」</b> (Chiếc taxi này khiến tôi cảm thấy thật dễ chịu/thoải mái).<br>• Chú thích（注3）cũng giải thích: <b>心地よく：気持ちよく</b> (dễ chịu, tâm trạng thoải mái).<br>&rarr; Đáp án đúng: <b>2. なんとなく気分がよい感じ</b>.",
           "id": 60
         },
         {
@@ -1068,7 +1068,7 @@ window.JLPT_DATA[7] = {
             "車の運転を仕事にすることが、昔からの夢だったから。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Khi gặp phải thất bại, tác giả cho rằng điều quan trọng nhất là gì?<br><b>Phân tích bài đọc:</b> Trong đoạn tiếp theo, tác giả nhấn mạnh:「失敗から何を学ぶかが将来を分ける」 (Việc học hỏi được điều gì từ thất bại mới là thứ định đoạt tương lai).<br><i>Phân tích các phương án:</i><br>• <b>1. 失敗の原因を冷静に分析して次に生かすこと: Phân tích nguyên nhân thất bại một cách bình tĩnh và vận dụng cho lần sau [Đúng]</b><br>• 2. Sai vì không phải là quên ngay đi để không phiền muộn.<br>• 3. Sai vì tìm người chịu trách nhiệm thay là tiêu cực.<br>• 4. Sai vì không phải là bỏ cuộc ngay lập tức.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Đoạn cuối nêu rõ:「ある会社を経営していたそうですが、<b>タクシーの運転手が天職だと思い、思いきって転職をした</b>とのこと」.<br>• Theo chú thích（注4）: <b>天職：性質や才能にもっとも合った職業</b> (công việc phù hợp nhất với tính cách và năng lực của bản thân).<br>&rarr; Đáp án đúng: <b>1. 自分に最も合った仕事はその仕事だと思ったから。</b>",
           "id": 61
         },
         {
@@ -1084,7 +1084,7 @@ window.JLPT_DATA[7] = {
             "初めて会ったタクシー運転手に自分の気持ちを素直にぶつけられたこと"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Thông điệp chính mà tác giả muốn truyền tải qua bài viết này là gì?<br><b>Phân tích bài đọc:</b> Đoạn kết khẳng định: Thất bại không phải là dấu chấm hết mà là cơ hội tuyệt vời để bản thân trưởng thành vững vàng hơn.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không chỉ nói về sự kiên trì mù quáng.<br>• <b>2. 失敗を恐れず挑戦し続ける姿勢が成長につながる: Thái độ không sợ thất bại và tiếp tục đương đầu thử thách sẽ dẫn đến sự trưởng thành [Đúng]</b><br>• 3. Sai vì không thể tránh tuyệt đối mọi sai lầm.<br>• 4. Sai vì thành công không phải phụ thuộc vào may mắn.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Câu cuối bài kết luận lý do cuộc gặp gỡ này là trải nghiệm quý giá:「その運転手の口から放たれる言葉に、とても共感を覚えたと同時に、<b>あぁ、この人は表現者だなと確信したのです</b>」 (Tôi vô cùng đồng cảm với những lời nói phát ra từ bác tài xế, đồng thời tin chắc rằng: À, người này đích thực là một người thể hiện bản thân qua công việc lái taxi).<br>&rarr; Đáp án đúng: <b>2. タクシーを使って自分を表現しているタクシー運転手と出会えたこと</b>.",
           "id": 62
         },
         {
@@ -1100,7 +1100,7 @@ window.JLPT_DATA[7] = {
             "暮らしの中のあらゆるものがIT機器でできていること"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, nguyên nhân dẫn đến hiện tượng hiểu lầm trong giao tiếp là gì?<br><b>Phân tích bài đọc:</b> Bài đọc chỉ ra rằng mỗi người đều có bối cảnh trải nghiệm và định kiến riêng, dẫn đến việc giải thích cùng một lời nói theo cách khác nhau.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải do sự thiếu hụt vốn từ vựng.<br>• <b>2. 話し手と聞き手の前提や背景の違いから生じる: Phát sinh từ sự khác biệt về tiền đề và nền tảng bối cảnh giữa người nói và người nghe [Đúng]</b><br>• 3. Sai vì không phải do người nghe cố tình không chú ý.<br>• 4. Sai vì ngôn ngữ cơ thể không phải nguyên nhân chính bài đề cập.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Đoạn 1 & 2 nêu rõ:「最大の一つは、<b>『小さな平面を見ている時間が長くなった』</b>ということだと思います。一日の生活を振り返ってみてください。一体どれだけ、<b>テレビやパソコンの画面、携帯電話のモニターを見ている時間があるでしょうか？</b>」.<br>&rarr; Điều thay đổi lớn nhất là thời gian nhìn vào màn hình các thiết bị IT tăng lên thường xuyên. Đáp án đúng: <b>2. IT機器の画面を頻繁に眺めるようになったこと</b>.",
           "id": 63
         },
         {
@@ -1116,7 +1116,7 @@ window.JLPT_DATA[7] = {
             "ITの利用が人間の思考能力に与える影響"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Để khắc phục sự hiểu lầm trong giao tiếp, phương pháp được đề xuất là gì?<br><b>Phân tích bài đọc:</b> Tác giả khuyên nên chủ động xác nhận lại ý của đối phương bằng cách hỏi lại hoặc diễn đạt lại theo cách hiểu của mình:「相手の意図を確認する対話」.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì im lặng quan sát không giúp làm rõ sự hiểu lầm.<br>• 2. Sai vì chỉ nói nhiều hơn không giải quyết được khác biệt tiền đề.<br>• 3. Sai vì ép đối phương theo ý mình là tiêu cực.<br>• <b>4. 相手の言葉の真意を丁寧に問い直して確認すること: Hỏi lại và xác nhận cẩn thận hàm ý thực sự trong lời nói của đối phương [Đúng]</b>",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Đoạn 3 viết:「ITの普及が人間の脳にもたらしている影響は… この『小さな平面を見ている時間が長くなった』という一面に関しては、どう考えてもよくないことです。<b>最近、思考の働きが鈍くなった、人から話しかけられたときにパッと反応できないことが多くなった……などと考えている人は、まず<u>この影響</u>を疑ってみる必要があるかもしれません</b>」.<br>• Như vậy「この影響」chỉ sự ảnh hưởng của việc sử dụng IT (nhìn màn hình nhiều) đối với năng lực tư duy và phản xạ của não bộ con người.<br>&rarr; Đáp án đúng: <b>4. ITの利用が人間の思考能力に与える影響</b>.",
           "id": 64
         },
         {
@@ -1132,7 +1132,7 @@ window.JLPT_DATA[7] = {
             "ITは今後も活用していくべきだが、その短所を把握しておく必要がある。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tác giả có quan điểm như thế nào về \"sự đồng cảm\" (共感)?<br><b>Phân tích bài đọc:</b> Đồng cảm không chỉ đơn giản là đồng ý mọi điều đối phương nói, mà là nỗ lực thấu hiểu cảm xúc và góc nhìn từ vị trí của họ.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì đồng cảm không có nghĩa là đánh mất lập trường riêng.<br>• 2. Sai vì không phải là chấp nhận mọi ý kiến một cách thụ động.<br>• 3. Sai vì đồng cảm không chỉ là việc bắt chước biểu cảm đối phương.<br>• <b>4. 相手の立場や心情に寄り添い理解しようと努めること: Nỗ lực kề cận, thấu hiểu vị trí và tâm tư cảm xúc của đối phương [Đúng]</b>",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Đoạn cuối tác giả khẳng định:「本章で申し上げたいのは、『だからITを使うのはやめよう』ということではありません。<b>これからもっと積極的にITを活用していくべき時代だからこそ、この問題点にも気づき、対策を知ってくださいということです</b>」.<br>&rarr; Khớp hoàn toàn với phương án 4: Cần tiếp tục tích cực tận dụng IT trong tương lai nhưng phải nắm rõ nhược điểm/vấn đề của nó để có biện pháp đối phó. Đáp án đúng: <b>4</b>.",
           "id": 65
         },
         {
@@ -1148,7 +1148,7 @@ window.JLPT_DATA[7] = {
             "英語で話すときには、相手との関係性がよくわからなくなるから。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Tại sao tác giả lại lấy ví dụ về việc trẻ con chơi đùa trong tự nhiên?<br><b>Phân tích bài đọc:</b> Tác giả muốn minh họa rằng việc tiếp xúc trực tiếp với thế giới tự nhiên giúp kích thích ngũ quan và nuôi dưỡng óc sáng tạo tự phát của trẻ.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải để phê phán đồ chơi điện tử hiện đại.<br>• <b>2. 自然の中での体験が子どもの五感や想像力を豊かにすることを説明するため: Để giải thích rằng trải nghiệm trong tự nhiên làm phong phú ngũ quan và trí tưởng tượng của trẻ [Đúng]</b><br>• 3. Sai vì không nhằm mục đích thúc đẩy phong trào thể dục thể thao.<br>• 4. Sai vì không so sánh sự an toàn giữa chơi trong nhà và ngoài trời.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Đoạn 2 giải thích ngay trước và sau phần gạch chân ①:「日本の社会、特にサラリーマン社会では、目上、目下という上下関係が基本になる。だから①<u>名刺交換がないとどのレベルの敬語を使ったらいいか分からない</u>… <b>目下の人か、目上の人か、目上だったら、どの程度上なのかを把握しないと日本語で会話するのが不可能なのだそうだ</b>」.<br>• Tức là nếu không trao đổi danh thiếp thì không biết được chức danh/địa vị cao thấp của đối phương – vốn là tiêu chuẩn để quyết định mức độ kính ngữ.<br>&rarr; Đáp án đúng: <b>2. 敬語のレベルを決めるときの基準となる相手の地位がわからないから。</b>",
           "id": 66
         },
         {
@@ -1164,7 +1164,7 @@ window.JLPT_DATA[7] = {
             "相手が自分と同じ組織にいるかどうかということ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Theo bài văn, vai trò của người lớn đối với hoạt động vui chơi của trẻ là gì?<br><b>Phân tích bài đọc:</b> Đoạn 3 nêu rõ người lớn không nên can thiệp hay chỉ đạo quá mức, mà nên đóng vai trò người quan sát và bảo đảm an toàn từ xa:「過剰な口出しをせず、見守る」.<br><i>Phân tích các phương án:</i><br>• <b>1. 危険がない限り過度に干渉せず、温かく見守ること: Miễn là không nguy hiểm thì không can thiệp quá mức, mà quan sát dõi theo từ xa [Đúng]</b><br>• 2. Sai vì lên kế hoạch chi tiết từng trò chơi làm mất tính tự phát của trẻ.<br>• 3. Sai vì tham gia làm thay trẻ là sai phương pháp giáo dục.<br>• 4. Sai vì không phải là phó mặc hoàn toàn không để mắt tới.",
+          "explanation": "<b>Phân tích đoạn văn:</b><br>• Từ chỉ thị「そういった」quy chiếu trực tiếp về mối quan hệ cấp trên – cấp dưới（目上、目下という上下関係）được nêu ở đầu đoạn 2, và được làm rõ ngay câu sau:「<b>相手が平社員であろうが部長であろうが関係ない。社長だから敬語がさらに丁寧になるということはない</b>」.<br>&rarr; Do đó ②<u>そういった「関係性」</u> chính là việc đối phương có địa vị/chức vụ cao hơn mình hay không.<br>&rarr; Đáp án đúng: <b>1. 相手が自分より上の立場かどうかということ</b>.",
           "id": 67
         },
         {
@@ -1180,7 +1180,7 @@ window.JLPT_DATA[7] = {
             "筆者は、相手の生活や自分との親しさを考えながら、コミュニケーションをとる。"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nội dung nào sau đây phù hợp với bài văn?<br><b>Phân tích bài đọc:</b> Đoạn 3 tác giả nêu rõ khi giao tiếp, ông luôn nhạy bén với quan hệ giữa người với người: mức độ thân sơ và hoàn cảnh sống, khối lượng công việc của đối phương.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tác giả khẳng định không quan tâm chức vụ cấp trên cấp dưới của đối phương trong công ty.<br>• 2. Sai vì đây là tâm sự của những người làm công ăn lương đi công tác nước ngoài kể cho tác giả, không phải suy nghĩ của tác giả.<br>• 3. Sai vì đây cũng là cảm nhận của người khác khi nói tiếng Anh, không phải của tác giả.<br>• <b>4. 筆者は、相手の生活や自分との親しさを考えながら、コミュニケーションをとる: Tác giả vừa suy xét về đời sống của đối phương và mức độ thân thiết với mình vừa giao tiếp [Đúng với đoạn 3]</b>",
+          "explanation": "<b>Phân tích đối chiếu 4 phương án với bài đọc:</b><br>• 1. Sai: Tác giả khẳng định không bận tâm chuyện cấp trên cấp dưới trong xã hội công sở（相手が平社員であろうが部長であろうが関係ない）.<br>• 2 & 3. Sai: Đây là câu chuyện tác giả nghe từ những người làm công ăn lương đi công tác nước ngoài（外国に出張している人からよく聞く）, chứ không phải bản thân tác giả.<br>• <b>4. Đúng:</b> Đoạn 3 tác giả nêu rõ khi giao tiếp, ông luôn nhạy bén với「関係性」theo nghĩa: <b>mức độ thân sơ với mình</b>（その人とはどのくらい親しいのか、親しくないのか）và <b>hoàn cảnh sống/công việc của đối phương</b>（プライバシーを守らなくてはいけない有名人なのか… 非常に多忙な人なのか、あるいは時間だけは充分ある人なのか）.<br>&rarr; Đáp án đúng: <b>4. 筆者は、相手の生活や自分との親しさを考えながら、コミュニケーションをとる。</b>",
           "id": 68
         },
         {
@@ -1196,7 +1196,7 @@ window.JLPT_DATA[7] = {
             "『日本人のための文章学習』"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> [Đối tượng chung A và B: cuốn sách được giới thiệu] Tiêu đề nào sau đây là phù hợp nhất cho cuốn sách này?<br><b>Phân tích bài đọc:</b> Cả hai bài giới thiệu 【A】 và 【B】 đều xoay quanh cuốn sách bàn về các quy tắc ứng xử, thói quen sinh hoạt và cách giao tiếp đặc thù của người Nhật nhằm giúp người nước ngoài hoặc người trẻ hiểu sâu sắc hơn về văn hóa Nhật Bản.<br><i>Phân tích các phương án:</i><br>• <b>1. 『日本人の作法とコミュニケーション』(Quy tắc ứng xử và giao tiếp của người Nhật) [Đúng trọng tâm cả 2 bài]</b><br>• 2. Sai vì cuốn sách không chuyên về lịch sử kinh tế Nhật Bản.<br>• 3. Sai vì sách không chỉ nói về phương pháp học tiếng Nhật.<br>• 4. Sai vì sách không bàn về du lịch khám phá danh lam thắng cảnh.",
+          "explanation": "<b>💡 Bối cảnh bài đọc (Mondai 12 - So sánh đối chiếu):</b><br>Cả hai bài viết <b>【A】</b> và <b>【B】</b> đều giới thiệu về <b>cùng một cuốn giáo trình tiếng Nhật</b> (「この本」).<br><b>🔍 Phân tích chọn đáp án:</b><br>• Cả A và B đều giới thiệu đây là sách viết cho người nước ngoài học tiếng Nhật（A:「この本は日本語を学ぶ外国人向けに書かれたテキストだが」、B:「練習問題（英語、中国語、韓国語の翻訳つき）も豊富。日本語学習者はもちろん…」）&rarr; <b>Loại 3 và 4</b> (『日本人のための…』).<br>• Nội dung trọng tâm là các <b>quy tắc ngữ pháp</b> và nhiều <b>bài tập thực hành</b>（A:「文法的ルール」「練習問題」; B:「文法的な決まり」「練習問題も豊富」), không phải sách luyện viết đoạn văn（文章）.<br>&rarr; Tiêu đề phù hợp nhất là: <b>1. 『日本語文法練習帳』</b>.",
           "id": 69
         },
         {
@@ -1212,7 +1212,7 @@ window.JLPT_DATA[7] = {
             "Aは自分の母国語である日本語をあらためて考えてみようとする人に、Bは日本語と外国語の比較に関心がある人に読んでもらいたいと言っている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nhận xét nào sau đây về hai bài giới thiệu A và B là đúng sự thật?<br><b>Phân tích bài đọc:</b> Bài A tập trung vào góc nhìn của độc giả nói chung và cách sách phân tích tâm lý người Nhật, trong khi bài B nhấn mạnh tính thực tiễn của cuốn sách đối với những người làm việc trong môi trường đa văn hóa.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì cả hai bài đều khen ngợi giá trị cuốn sách chứ không chê bai.<br>• 2. Sai vì bài A không hề phản đối cách tiếp cận của tác giả.<br>• <b>3. Aは一般的な読者向けに内容の魅力を伝え、Bは異文化理解の実用性に焦点を当てている: A truyền tải sức hút nội dung cho độc giả nói chung, còn B tập trung vào tính ứng dụng thực tiễn trong thấu hiểu đa văn hóa [Đúng phân tích đối chiếu]</b><br>• 4. Sai vì bài B không so sánh cuốn sách này với tác phẩm nào khác.",
+          "explanation": "<b>Phân tích đối chiếu A và B:</b><br>• <b>Đoạn A</b> hướng tới độc giả là người Nhật nói chung（日本人として当たり前のように日本語を使っているのに… 日本人が読んでもおもしろくてためになる）.<br>• <b>Đoạn B</b> hướng tới người học tiếng Nhật và những người làm công tác giảng dạy tiếng Nhật（日本語学習者はもちろん、外国人に日本語を教えたいと思っている人、実際に日本語教育の現場で教えている教師もほしい１冊）.<br>&rarr; Đáp án đúng: <b>3. Aは一般の日本人が読むことを意識して書かれた紹介文であり、Bは日本語の学習や教育に関係する人が読むことを意識して書かれた紹介文である。</b>",
           "id": 70
         },
         {
@@ -1581,7 +1581,7 @@ window.JLPT_DATA[7] = {
           "options": [
             "じろじろ",
             "たまたま",
-            "ささと",
+            "さっさと",
             "うっかり"
           ],
           "correctAnswer": 1,
@@ -2502,7 +2502,7 @@ window.JLPT_DATA[7] = {
           "targetWord": "埋まっている",
           "options": [
             "なくなった",
-            "全くい",
+            "全くない",
             "いっぱいだ",
             "少しある"
           ],
