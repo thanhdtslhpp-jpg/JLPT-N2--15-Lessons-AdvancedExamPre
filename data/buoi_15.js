@@ -6418,7 +6418,31 @@ window.JLPT_DATA[15] = {
             "長期の家庭教師のアルバイトに申し込む"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và nhân viên đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 短期のスーパーのアルバイトの内容を確認する: Xem nội dung việc làm thêm ngắn hạn ở siêu thị<br>2. 短期の家庭教師のアルバイトの内容を確認する: Xem nội dung việc làm thêm gia sư ngắn hạn<br>3. 長期のスーパーのアルバイトに申し込む: Đăng ký việc làm thêm dài hạn ở siêu thị<br>4. 長期の家庭教師のアルバイトに申し込む: Đăng ký làm gia sư dài hạn<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：すみません、家庭教師のアルバイトを探しているんですが、そこの掲示板を見ても見つからなくて。<br>職員：家庭教師ですか。今募集は出てないですね。毎年3月4月ごろには募集がたくさん出るんですが。<br>女：そうですか。あまり多くの時間はできないので、時給のいい家庭教師がちょうどいいと思ったんです。でも4月まで待つのは難しいです。<br>職員：じゃあ、しばらく短期のアルバイトをするというのはいかがですか。家庭教師のアルバイトの募集が出てくるのを待ちながら、時間を有効に使えると思いますけど。<br>女：そうですね。そうしたいと思います。<br>職員：<b>短期なら大学の近くのスーパーで募集が出てましたよ。それならどうですか？</b><br>女：<b>そうですか。じゃあ募集情報を見てみます。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh muốn làm gia sư nhưng hiện chưa có đợt tuyển (phải chờ tới tháng 3-4). Nhân viên gợi ý làm việc ngắn hạn ở siêu thị gần trường trong lúc chờ. Nữ sinh đồng ý và bảo sẽ đi xem thông tin tuyển dụng việc làm thêm ngắn hạn ở siêu thị.<br>&rarr; <b>Đáp án đúng là 1 (短期のスーパーのアルバイトの内容を確認する)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và nhân viên đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 短期のスーパーのアルバイトの内容を確認する: Xem nội dung việc làm thêm ngắn hạn ở siêu thị<br>2. 短期の家庭教師のアルバイトの内容を確認する: Xem nội dung việc làm thêm gia sư ngắn hạn<br>3. 長期のスーパーのアルバイトに申し込む: Đăng ký việc làm thêm dài hạn ở siêu thị<br>4. 長期の家庭教師のアルバイトに申し込む: Đăng ký làm gia sư dài hạn<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+大学で女の学生と職員が話しています。女の学生はこれから何をしますか。<br>
+女：すみません、家庭教師のアルバイトを探しているんですが、そこの掲示板を見ても見つからなくて。<br>
+職員：家庭教師ですか。今募集は出てないですね。毎年3月、4月ごろには募集がたくさん出るんですが。<br>
+女：そうですか。<br>
+職員：レストランやスーパーのアルバイトならすぐにでも申し込めるんですけどね。<br>
+女：ありがとうございます。あまり多くの時間はできないので、時給のいい家庭教師がちょうどいいと思ったんです。でも4月まで待つのは難しいです。<br>
+職員：<b>じゃあ、しばらく短期のアルバイトをするというのはいかがですか。</b>家庭教師のアルバイトの募集が出てくるのを待ちながら時間を有効に使えると思いますけど。<br>
+女：<b>そうですね、そうしたいと思います。</b><br>
+職員：<b>短期なら大学の近くのスーパーで募集が出てましたよ。それならどうですか。</b><br>
+女：<b>そうですか、じゃあ募集情報を見てみます。</b><br>
+女の学生はこれから何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại trường đại học, nữ sinh viên và nhân viên nhà trường đang nói chuyện. Nữ sinh viên sau đây sẽ làm gì?<br>
+Nữ: "Xin lỗi, em đang tìm việc làm thêm gia sư, nhưng tìm trên bảng thông báo đằng kia không thấy có ạ."<br>
+Nhân viên: "Gia sư à? Hiện tại không có thông báo tuyển nào đâu em. Hằng năm cứ vào khoảng tháng 3, tháng 4 thì mới có nhiều tin tuyển gia sư."<br>
+Nữ: "Thế ạ."<br>
+Nhân viên: "Nếu là việc làm thêm ở nhà hàng hay siêu thị thì em có thể đăng ký ứng tuyển ngay lập tức đấy."<br>
+Nữ: "Em cảm ơn ạ. Vì em không có nhiều thời gian rảnh nên nghĩ công việc gia sư lương theo giờ cao sẽ vừa sức với mình. Nhưng nếu phải đợi đến tận tháng 4 thì khó quá ạ."<br>
+Nhân viên: "<b>Vậy trong thời gian này em thử làm một công việc làm thêm ngắn hạn xem sao?</b> Trong lúc chờ có đợt tuyển gia sư thì làm vậy sẽ tận dụng hiệu quả thời gian đấy."<br>
+Nữ: "<b>Vâng, đúng thế ạ, em muốn làm theo cách đó.</b>"<br>
+Nhân viên: "<b>Việc làm thêm ngắn hạn thì đang có thông báo tuyển của siêu thị ngay gần trường đại học đấy. Công việc đó thế nào?</b>"<br>
+Nữ: "<b>Thế ạ, vậy để em xem thông tin tuyển dụng đó ngay ạ.</b>"<br>
+Nữ sinh viên sau đây sẽ làm gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Nữ sinh muốn làm gia sư nhưng hiện chưa có đợt tuyển (phải chờ tới tháng 3-4). Nhân viên gợi ý làm việc ngắn hạn ở siêu thị gần trường trong lúc chờ. Nữ sinh đồng ý và bảo sẽ đi xem thông tin tuyển dụng việc làm thêm ngắn hạn ở siêu thị.<br>&rarr; <b>Đáp án đúng là 1 (短期のスーパーのアルバイトの内容を確認する)</b>.`
         },
         {
           "id": 398,
@@ -6435,7 +6459,27 @@ window.JLPT_DATA[15] = {
             "他の出席者に連絡する"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nữ đang nói chuyện. Người phụ nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 田中さんと連絡を取り合う: Liên lạc qua lại với Tanaka-san<br>2. 会場に連絡する: Liên hệ với hội trường tổ chức<br>3. 空港に田中さんを迎えに行く: Ra sân bay đón Tanaka-san<br>4. 他の出席者に連絡する: Liên lạc với những người tham dự khác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：さくらコーポレーションの田中さんから連絡がありました。天候が悪くて飛行機がまだ東京を出発できていないそうです。<br>課長：そうか。会議は午後4時からだから、午前中に出発できなければ間に合わないな。もしかしたら田中さんにはオンラインで会議に参加してもらうことになるかもしれないな。<b>念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか。</b><br>女：<b>はい、わかりました。</b><br>課長：私は田中さんと連絡を取るよ。<br>女：他の出席者にも伝えておいた方がよろしいでしょうか。<br>課長：いや、まだ間に合わないと決まったわけじゃないし、もう少し様子を見てからにしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trưởng phòng đích thân liên hệ với Tanaka. Những người khác thì chưa cần báo vội.<br>- Nhiệm vụ giao cho người nữ: \"念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか\" &rarr; Người nữ nhận lời liên hệ ngay với hội trường nhờ cài đặt họp online.<br>&rarr; <b>Đáp án đúng là 2 (会場に連絡する)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại công ty, trưởng phòng và người nữ đang nói chuyện. Người phụ nữ sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 田中さんと連絡を取り合う: Liên lạc qua lại với Tanaka-san<br>2. 会場に連絡する: Liên hệ với hội trường tổ chức<br>3. 空港に田中さんを迎えに行く: Ra sân bay đón Tanaka-san<br>4. 他の出席者に連絡する: Liên lạc với những người tham dự khác<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+会社で課長と女の人が話しています。女の人はこの後何をしますか。<br>
+女：さくらコーポレーションの田中さんから連絡がありました。天候が悪くて飛行機がまだ東京を出発できていないそうです。<br>
+課長：そうか。会議は午後4時からだから、午前中に出発できなければ間に合わないな。<br>
+女：そうですね。<br>
+課長：もしかしたら田中さんにはオンラインで会議に参加してもらうことになるかもしれないな。<b>念のため会場に連絡して、オンライン会議のセッティングを頼んでおいてくれない？</b><br>
+女：<b>はい、わかりました。</b>私は田中さんと連絡を取り...他の出席者にも伝えておいた方がよろしいでしょうか。<br>
+課長：いや、まだ間に合わないと決まったわけじゃないし、もう少し様子を見てからにしよう。<br>
+女：わかりました。<br>
+女の人はこの後何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại công ty, Trưởng phòng và nữ nhân viên đang nói chuyện. Nữ nhân viên sau đây sẽ làm gì?<br>
+Nữ: "Anh Tanaka bên Tập đoàn Sakura vừa mới liên lạc tới ạ. Anh ấy báo do thời tiết xấu nên máy bay vẫn chưa thể cất cánh rời Tokyo được."<br>
+Trưởng phòng: "Thế à. Cuộc họp bắt đầu từ 4 giờ chiều, nên nếu trong buổi sáng mà máy bay chưa cất cánh được thì sẽ không kịp tới nơi rồi."<br>
+Nữ: "Đúng vậy ạ."<br>
+Trưởng phòng: "Có khả năng chúng ta sẽ phải để anh Tanaka tham dự cuộc họp theo hình thức trực tuyến (online) rồi. <b>Để phòng hờ, cô hãy liên lạc ngay với bên hội trường, nhờ họ lắp đặt chuẩn bị sẵn thiết bị họp trực tuyến giúp tôi nhé?</b>"<br>
+Nữ: "<b>Vâng, tôi hiểu rồi ạ.</b> Tôi sẽ giữ liên lạc với anh Tanaka... À, có cần báo trước cho những người tham dự khác biết không thưa Trưởng phòng?"<br>
+Trưởng phòng: "Chưa cần đâu, cũng chưa chắc chắn là anh ấy không kịp tới, cứ theo dõi tình hình thêm một chút nữa rồi tính."<br>
+Nữ: "Vâng, tôi rõ rồi ạ."<br>
+Nữ nhân viên ngay sau đây sẽ làm gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Trưởng phòng đích thân liên hệ với Tanaka. Những người khác thì chưa cần báo vội.<br>- Nhiệm vụ giao cho người nữ: "念のため会場に連絡して、オンライン会議の設定を頼んでおいてくれないか" &rarr; Người nữ nhận lời liên hệ ngay với hội trường nhờ cài đặt họp online.<br>&rarr; <b>Đáp án đúng là 2 (会場に連絡する)</b>.`
         },
         {
           "id": 399,
@@ -6452,7 +6496,35 @@ window.JLPT_DATA[15] = {
             "使い方が簡単なスマホを買いに行く"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người cha và con gái đang nói chuyện. Người cha sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 携帯電話を買うのをやめる: Bỏ ý định mua điện thoại<br>2. 今使っている携帯電話を修理に出す: Đem sửa chiếc điện thoại gập đang dùng<br>3. 娘と同じスマホを買いに行く: Đi mua smartphone giống của con gái<br>4. 使い方が簡単なスマホを買いに行く: Đi mua smartphone có cách dùng đơn giản cho người cao tuổi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>父：やっぱり行くのやめるよ。70歳を過ぎてスマホなんてやっぱり無理だよ。今使っている携帯電話を修理すればいいんだから。<br>娘：でもその携帯、古すぎるんだよね。もう修理のサービスも終わってるんじゃないかな。私と同じスマホにしてって言ってるわけじゃないの。<b>お父さんでも使えるような簡単なスマホがあるから、そういうのを使ってくれればいいんだから。</b>スマホがあれば画面を見ながら電話もできるし、健康チェックもできるしいいことばかりだよ。分からないことがあったら私が教えてあげるから。<br>父：<b>しょうがないなあ。分かったよ。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Máy cũ đã ngừng hỗ trợ sửa chữa. Con gái thuyết phục bố mua loại smartphone đơn giản dễ thao tác dành cho người già (簡単なスマホ), hứa sẽ hướng dẫn bố tận tình. Người bố đồng ý đi mua.<br>&rarr; <b>Đáp án đúng là 4 (使い方が簡単なスマホを買いに行く)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Người cha và con gái đang nói chuyện. Người cha sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 携帯電話を買うのをやめる: Bỏ ý định mua điện thoại<br>2. 今使っている携帯電話を修理に出す: Đem sửa chiếc điện thoại gập đang dùng<br>3. 娘と同じスマホを買いに行く: Đi mua smartphone giống của con gái<br>4. 使い方が簡単なスマホを買いに行く: Đi mua smartphone có cách dùng đơn giản cho người cao tuổi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+70代になる父親とその娘が話しています。父親はこの後何をしますか。<br>
+父：やっぱり行くのやめるよ。<br>
+娘：え？どうして？<br>
+父：70歳を過ぎてスマホなんてやっぱり無理だよ。今使っている携帯電話を修理すればいいんだから。これで十分なんだよ。<br>
+娘：でもその携帯電話、古すぎるんだよね。もう修理のサービスも終わってるんじゃないかな。<br>
+父：うん、多分そうだと思う。<br>
+娘：そっか。<b>私と同じスマホにしてって言ってるわけじゃないの。お父さんでも使えるような簡単なスマホがあるから、そういうのを使ってくれればいいんだから。</b><br>
+父：そうは言ってもな。<br>
+娘：スマホがあれば画面を見ながら電話もできるし、健康チェックもできるし、いいことばかりだよ。<br>
+父：<b>そうだな。まあ、父さんでも使えるようなのがあるんなら...。</b><br>
+娘：もしわからないことがあったら私が教えてあげるから。<br>
+父：<b>しょうがないな。わかったよ。</b><br>
+父親はこの後何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người bố đã ngoài 70 tuổi và con gái đang nói chuyện với nhau. Người bố sau đây sẽ làm gì?<br>
+Bố: "Thôi, bố không đi mua nữa đâu."<br>
+Con gái: "Ủa? Sao thế bố?"<br>
+Bố: "Ngoài 70 tuổi rồi mà bảo dùng điện thoại thông minh (smartphone) thì quả thực quá sức với bố. Cứ mang chiếc điện thoại di động đang dùng đi sửa là được rồi. Bố chỉ cần cái này là đủ."<br>
+Con gái: "Nhưng chiếc điện thoại đó của bố cũ quá rồi. Chắc dịch vụ sửa chữa cho dòng máy đó cũng ngừng hoạt động từ lâu rồi bố ạ."<br>
+Bố: "Ừ, chắc cũng đúng thế thật."<br>
+Con gái: "Đấy. <b>Con đâu có bảo bố phải mua loại smartphone phức tạp giống của con đâu. Có loại smartphone đơn giản thiết kế cho cả người lớn tuổi như bố cũng dễ dàng sử dụng được, bố chỉ cần chuyển sang dùng loại đó là được mà.</b>"<br>
+Bố: "Dù con có nói thế nhưng mà..."<br>
+Con gái: "Có smartphone thì vừa nhìn mặt nhau trên màn hình vừa gọi điện được, lại còn theo dõi kiểm tra sức khỏe được nữa, toàn điều tiện ích cả thôi."<br>
+Bố: "<b>Ừ nhỉ. Mà nếu quả thực có loại đơn giản để bố cũng dùng được thì...</b>"<br>
+Con gái: "Nếu có chỗ nào không biết cách dùng thì con sẽ chỉ cho bố mà."<br>
+Bố: "<b>Đành chịu con vậy. Bố đồng ý đi mua.</b>"<br>
+Người bố sau đây sẽ làm gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Máy cũ đã ngừng hỗ trợ sửa chữa. Con gái thuyết phục bố mua loại smartphone đơn giản dễ thao tác dành cho người già (簡単なスマホ), hứa sẽ hướng dẫn bố tận tình. Người bố đồng ý đi mua.<br>&rarr; <b>Đáp án đúng là 4 (使い方が簡単なスマホを買いに行く)</b>.`
         },
         {
           "id": 400,
@@ -6469,7 +6541,35 @@ window.JLPT_DATA[15] = {
             "新しいパスワードを作る"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại thư viện, một người nam và một người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. パスワードに生年月日を入れて試す: Thử nhập ngày tháng năm sinh làm mật khẩu<br>2. 図書館の利用者カードを作る: Làm thẻ người dùng thư viện<br>3. 忘れたパスワードを教えてもらう: Nhờ nhân viên nhắc lại mật khẩu đã quên<br>4. 新しいパスワードを作る: Tạo mật khẩu mới<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：すみません、ネットから本の貸出の予約をしたんですが、インターネットサービスのパスワードを忘れてしまって。<br>女：パスワードをお忘れになった場合、<b>こちらの窓口で新しいパスワードを作っていただくことになっています。</b>忘れたパスワードをお教えするわけではないんですね。<br>男：わかりました。<b>では、新しいパスワードを作ります。</b><br>女：図書館の利用者カードはお持ちですか。あと運転免許証など身分証明書はお持ちですか。<br>男：はい、持っています。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Quy định bảo mật thư viện không thể tra lại pass cũ mà bắt buộc cấp/tạo mật khẩu mới tại quầy (新しいパスワードを作っていただく). Người nam đồng ý làm thủ tục tạo mật khẩu mới.<br>&rarr; <b>Đáp án đúng là 4 (新しいパスワードを作る)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại thư viện, một người nam và một người nữ đang nói chuyện. Người nam sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. パスワードに生年月日を入れて試す: Thử nhập ngày tháng năm sinh làm mật khẩu<br>2. 図書館の利用者カードを作る: Làm thẻ người dùng thư viện<br>3. 忘れたパスワードを教えてもらう: Nhờ nhân viên nhắc lại mật khẩu đã quên<br>4. 新しいパスワードを作る: Tạo mật khẩu mới<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+図書館で男の人と女の人が話しています。男の人はこの後何をしますか。<br>
+男：すみません。ネットから本の貸し出しの予約をしたんですが、インターネットサービスのパスワードを忘れてしまって。<br>
+女：インターネットサービスは利用されたことがあるんですね。<br>
+男：はい。でも、しばらく使わなかったからパスワードを忘れちゃって。<br>
+女：インターネットサービスを始める際、最初のパスワードはご利用になる方の生年月日になっていますが、それは試されましたか？<br>
+男：一度パスワードの変更手続きをして別のパスワードを使ってたんです。それを忘れちゃって。<br>
+女：わかりました。<b>パスワードをお忘れになった場合、こちらの窓口で新しいパスワードを作っていただくことになっています。</b><br>
+男：ああ、忘れたパスワードを教えてもらうわけじゃないんですね。わかりました。<br>
+女：<b>では、新しいパスワードをお作りします。図書館の利用者カードはお持ちですか？</b><br>
+男：<b>はい。これです。</b><br>
+女：お預かりします。運転免許証か保険証など身分証明書はお持ちですか？<br>
+男：はい。<br>
+男の人は、この後何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại thư viện, người đàn ông và nữ nhân viên đang nói chuyện. Người đàn ông sau đây sẽ làm gì?<br>
+Nam: "Xin lỗi, tôi muốn đặt lịch mượn sách qua mạng nhưng lại quên mất mật khẩu của dịch vụ trực tuyến rồi."<br>
+Nữ: "Anh đã từng sử dụng dịch vụ trực tuyến của thư viện rồi đúng không ạ?"<br>
+Nam: "Vâng. Nhưng vì lâu ngày không dùng đến nên tôi quên mất mật khẩu."<br>
+Nữ: "Khi mới bắt đầu đăng ký dịch vụ trực tuyến, mật khẩu mặc định ban đầu là ngày tháng năm sinh của người dùng, anh đã thử nhập mật khẩu đó chưa ạ?"<br>
+Nam: "Tôi đã từng làm thủ tục đổi mật khẩu một lần và chuyển sang dùng mật khẩu khác rồi. Mà giờ tôi lại quên mất mật khẩu mới đó."<br>
+Nữ: "Tôi hiểu rồi ạ. <b>Trường hợp quý khách quên mật khẩu đã đổi thì theo quy định quý khách sẽ tạo lại một mật khẩu mới ngay tại quầy này ạ.</b>"<br>
+Nam: "À, tức là không phải tra cứu lại mật khẩu cũ đã quên. Tôi hiểu rồi."<br>
+Nữ: "<b>Vậy bây giờ chúng tôi sẽ hỗ trợ anh tạo mật khẩu mới. Anh có mang theo thẻ bạn đọc thư viện không ạ?</b>"<br>
+Nam: "<b>Vâng, thẻ của tôi đây.</b>"<br>
+Nữ: "Tôi xin phép nhận thẻ. Anh có mang theo giấy tờ tùy thân như bằng lái xe hay thẻ bảo hiểm không ạ?"<br>
+Nam: "Có đây ạ."<br>
+Người đàn ông sau đây sẽ làm gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Quy định bảo mật thư viện không thể tra lại pass cũ mà bắt buộc cấp/tạo mật khẩu mới tại quầy (新しいパスワードを作っていただく). Người nam đồng ý làm thủ tục tạo mật khẩu mới.<br>&rarr; <b>Đáp án đúng là 4 (新しいパスワードを作る)</b>.`
         },
         {
           "id": 401,
@@ -6486,7 +6586,19 @@ window.JLPT_DATA[15] = {
             "先生の研究室を訪ねて聞く"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại trường đại học, giảng viên đang dặn dò về tiết học. Sinh viên khi nghỉ học sẽ xác nhận bài tập bằng cách nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 先生にメールで問い合わせる: Gửi email hỏi giảng viên<br>2. 大学の事務所に聞く: Hỏi phòng giáo vụ đại học<br>3. ホームページの先生の専用ページを見る: Xem trang riêng của giảng viên trên website trường<br>4. 先生の研究室を訪ねて聞く: Đến tận phòng nghiên cứu của thầy hỏi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>先生：この授業を休む時は必ず前日までに連絡してください。メールでも構いません。<b>それから授業を休んだ場合ですが、大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください。友達に聞くんじゃなくて自分で直接確認してやっておいてください。</b>課題の提出場所や締め切りなどもそこで示します。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Giảng viên chỉ thị rõ ràng: Nếu nghỉ học thì tự lên website trường vào trang nghiên cứu của thầy để kiểm tra bài tập được giao (大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください).<br>&rarr; <b>Đáp án đúng là 3 (ホームページの先生の専用ページを見る)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, giảng viên đang dặn dò về tiết học. Sinh viên khi nghỉ học sẽ xác nhận bài tập bằng cách nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 先生にメールで問い合わせる: Gửi email hỏi giảng viên<br>2. 大学の事務所に聞く: Hỏi phòng giáo vụ đại học<br>3. ホームページの先生の専用ページを見る: Xem trang riêng của giảng viên trên website trường<br>4. 先生の研究室を訪ねて聞く: Đến tận phòng nghiên cứu của thầy hỏi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+大学で先生が講義について話しています。学生は授業を休んだ時、どのように課題を確認しますか。<br>
+先生：えーっと、この授業を休む時は必ず前日までに連絡してください。<br>
+学生：メールでもいいですか？<br>
+先生：かまいません。それから授業を休んだ場合ですが、<b>大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください。友達に聞くんじゃなくて、自分で直接確認してやっておいてください。</b>課題の提出がある場合も、提出の場所や締め切りなどをそこで示しますので注意してください。基本的には授業の中で言いますが、そこでもう一度確認するようにしてください。あと、何か質問などがあればそのページから問い合わせができるようにしているので、メッセージを入れてください。メールで答えるか、研究室に来てもらって答えるようにします。<br>
+学生は、授業を休んだ時、どのように課題を確認しますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại trường đại học, thầy giáo đang dặn dò về môn học. Khi nghỉ học, sinh viên sẽ kiểm tra bài tập bằng cách nào?<br>
+Thầy giáo: "À, khi nào các em nghỉ tiết học này thì nhất định phải liên lạc báo trước muộn nhất là từ ngày hôm trước nhé."<br>
+Sinh viên: "Em gửi qua email có được không thưa thầy?"<br>
+Thầy giáo: "Qua email cũng được. Ngoài ra, trong trường hợp các em nghỉ học, <b>trên trang chủ của trường đại học có trang web riêng của phòng nghiên cứu của thầy, các em hãy truy cập vào đó để kiểm tra bài tập về nhà nhé. Đừng hỏi qua bạn bè mà hãy tự mình trực tiếp vào trang đó kiểm tra và làm bài đầy đủ.</b> Trường hợp có bài tập cần nộp thì địa điểm nộp bài cũng như hạn chót nộp đều được thông báo trên trang đó nên các em hãy chú ý. Về cơ bản thầy sẽ thông báo trong giờ học, nhưng các em vẫn nên vào trang web đó kiểm tra lại một lần nữa. Thêm nữa, nếu có thắc mắc gì thì thầy đã thiết lập mục liên hệ ngay trên trang đó, các em cứ để lại tin nhắn. Thầy sẽ trả lời qua email hoặc hẹn các em tới phòng nghiên cứu để giải đáp."<br>
+Khi nghỉ học, sinh viên sẽ kiểm tra bài tập bằng cách nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Giảng viên chỉ thị rõ ràng: Nếu nghỉ học thì tự lên website trường vào trang nghiên cứu của thầy để kiểm tra bài tập được giao (大学のホームページに私の研究室のページがあるので、そこを見て課題を確認してください).<br>&rarr; <b>Đáp án đúng là 3 (ホームページの先生の専用ページを見る)</b>.`
         },
         {
           "id": 402,
@@ -6503,7 +6615,31 @@ window.JLPT_DATA[15] = {
             "一番安い方法でテーブルを買って組み立てサービスを頼む"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, hai vợ chồng đang nói chuyện. Hai vợ chồng quyết định sẽ làm thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 郊外の店でテーブルを買って組み立てる: Mua bàn ở tiệm ngoại ô rồi tự mình lắp ráp<br>2. インターネットでテーブルを買って組み立てる: Mua bàn trên mạng rồi tự lắp ráp<br>3. 駅前の店でテーブルを買って組み立てサービスを頼む: Mua bàn tiệm trước ga và thuê dịch vụ lắp ráp<br>4. 一番安い方法でテーブルを買って組み立てサービスを頼む: Mua bằng cách rẻ nhất và thuê dịch vụ lắp ráp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：今のテーブル、買い替えたいなあ。<br>妻：駅前のかぐやさんにすごくいいテーブルがあったよ。でもちょっと高かった。<br>夫：郊外の大きいお店なら物がよくて、値段もそれほど高くないのがあるかもしれないね。<br>妻：ネットだと安くていいのがあるけど、実際に見てみないと不安かな。組み立てくらいは自分たちでできるよ。<b>郊外の店だって組み立てサービスを頼んだらプラス1万円かかるけど、それもちょっともったいないな。</b><br>夫：<b>それなら実際に見て選んで、頑張って組み立てようか。</b><br>妻：わかった、そうしよう。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Hai vợ chồng chốt đi xem và mua thực tế ở cửa hàng lớn ngoại ô để yên tâm về chất lượng, đồng thời không thuê lắp ráp tốn 1 vạn yên mà tự mình lắp ráp tại nhà.<br>&rarr; <b>Đáp án đúng là 1 (郊外の店でテーブルを買って組み立てる)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại nhà, hai vợ chồng đang nói chuyện. Hai vợ chồng quyết định sẽ làm thế nào?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 郊外の店でテーブルを買って組み立てる: Mua bàn ở tiệm ngoại ô rồi tự mình lắp ráp<br>2. インターネットでテーブルを買って組み立てる: Mua bàn trên mạng rồi tự lắp ráp<br>3. 駅前の店でテーブルを買って組み立てサービスを頼む: Mua bàn tiệm trước ga và thuê dịch vụ lắp ráp<br>4. 一番安い方法でテーブルを買って組み立てサービスを頼む: Mua bằng cách rẻ nhất và thuê dịch vụ lắp ráp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+家で夫婦が話しています。夫婦はどうすることにしましたか。<br>
+夫：今のテーブル、脚がぐらぐらし始めたから、そろそろ買い替えたいな。あまりおしゃれじゃないし。<br>
+妻：そうね。駅前の家具屋さんにすごくいいテーブルがあったんだよ。丈夫そうだったし、デザインも良くて。<br>
+夫：駅前の家具屋って、あの輸入家具のお店？そんなの私たちに買えるわけないじゃない。<br>
+妻：確かにちょっと高かった。<br>
+夫：<b>郊外の大きいお店なら物が良くて、値段もそれほど高くないのがあるかもしれないね。</b><br>
+妻：うん。あと値段を重視するならネットで買うのもいいかもね。きっと安くていいのがあるよ。<br>
+夫：うーん。でもやっぱり実際に見てみないと不安かな。イメージと違うのが届いたらショックじゃない。しかも自分たちで組み立てないといけないし。<br>
+妻：まあね。あ、でも組み立てぐらいはできるよ。郊外の店だって組み立てサービスを頼んだらプラス1万円はかかるけど、それもちょっともったいないな。<b>それなら実際に見て選んで、頑張って組み立ててもらおうかな。</b><br>
+夫：<b>わかった。じゃあそうしよう。</b><br>
+夫婦はどうすることにしましたか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Ở nhà, hai vợ chồng đang nói chuyện với nhau. Hai vợ chồng đã quyết định làm như thế nào?<br>
+Chồng: "Cái bàn ăn hiện tại của nhà mình chân bàn bắt đầu lung lay rồi, anh muốn sớm đổi sang bàn mới quá. Nhìn nó cũng chẳng hợp thời trang nữa."<br>
+Vợ: "Đúng thế nhỉ. Ở cửa hàng nội thất trước nhà ga có một chiếc bàn đẹp lắm đấy anh. Trông vừa chắc chắn mà thiết kế cũng sang nữa."<br>
+Chồng: "Cửa hàng nội thất trước nhà ga có phải là cái tiệm bán đồ nội thất nhập khẩu đó không? Đồ ở đó đắt đỏ làm sao vợ chồng mình mua nổi."<br>
+Vợ: "Đúng là giá hơi cao thật."<br>
+Chồng: "<b>Nếu ra các cửa hàng lớn ở vùng ngoại ô thì có lẽ sẽ tìm được chiếc bàn vừa có chất lượng tốt mà giá cả lại không quá đắt đấy.</b>"<br>
+Vợ: "Ừ. Hoặc nếu ưu tiên giá rẻ thì mua trên mạng cũng được đấy anh. Chắc chắn sẽ có mẫu vừa rẻ vừa đẹp."<br>
+Chồng: "Ừm. Nhưng không tận mắt nhìn thấy sản phẩm thực tế thì vẫn thấy bất an sao ấy. Lỡ người ta giao tới chiếc bàn khác hẳn hình dung của mình thì thất vọng lắm. Đã thế lại còn phải tự tay lắp ráp nữa."<br>
+Vợ: "Cũng đúng. À, nhưng chỉ lắp ráp cái bàn thôi thì mình tự làm được mà. Ngay cả mua ở cửa hàng ngoại ô mà thuê dịch vụ lắp ráp của họ thì cũng tốn thêm 10.000 yên, như thế thì hơi phí tiền. <b>Vậy thì mình cứ ra cửa hàng ngoại ô tận mắt xem và chọn mua, rồi về nhà chịu khó tự lắp ráp lấy nhé.</b>"<br>
+Chồng: "<b>Được rồi. Vậy vợ chồng mình làm thế đi.</b>"<br>
+Hai vợ chồng đã quyết định làm như thế nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Hai vợ chồng chốt đi xem và mua thực tế ở cửa hàng lớn ngoại ô để yên tâm về chất lượng, đồng thời không thuê lắp ráp tốn 1 vạn yên mà tự mình lắp ráp tại nhà.<br>&rarr; <b>Đáp án đúng là 1 (郊外の店でテーブルを買って組み立てる)</b>.`
         },
         {
           "id": 403,
@@ -6520,7 +6656,35 @@ window.JLPT_DATA[15] = {
             "授業に集中できないこと"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, mẹ và con trai đang nói chuyện. Người mẹ đặc biệt nhắc nhở lưu ý điều gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 朝、起きるのが遅いこと: Việc buổi sáng dậy muộn<br>2. 夜、寝るのが遅いこと: Việc buổi tối đi ngủ muộn<br>3. 朝ご飯を食べないこと: Việc không chịu ăn sáng<br>4. 授業に集中できないこと: Việc không tập trung vào giờ học<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>息子：じゃあ行ってきまーす。<br>母：もう行くの？コーヒーしか飲んでないじゃない、朝ご飯は？<br>息子：いいよ、今日はコーヒー飲んで目は覚めたし。<br>母：<b>ダメよ、ちゃんとご飯食べてから行きなさい！目は覚めたかもしれないけど頭が働かないでしょ。ぼーっとして授業も頭に入らないんだから。ふらふらして事故にでもあったらどうすんの！少しでもいいから食べなさい。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mẹ chặn con trai lại vì chỉ uống cafe mà bỏ bữa sáng, gay gắt nhắc nhở việc không ăn sáng sẽ khiến não không hoạt động, dễ hoa mắt chóng mặt gây tai nạn: \"ダメよ、ちゃんとご飯食べてから行きなさい！\"<br>&rarr; <b>Đáp án đúng là 3 (朝ご飯を食べないこと)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại nhà, mẹ và con trai đang nói chuyện. Người mẹ đặc biệt nhắc nhở lưu ý điều gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 朝、起きるのが遅いこと: Việc buổi sáng dậy muộn<br>2. 夜、寝るのが遅いこと: Việc buổi tối đi ngủ muộn<br>3. 朝ご飯を食べないこと: Việc không chịu ăn sáng<br>4. 授業に集中できないこと: Việc không tập trung vào giờ học<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+家で母親と息子が話しています。母親は特に何を注意していますか。<br>
+息子：じゃあ行ってきまーす。<br>
+母：え？もう行くの？コーヒーしか飲んでないじゃない。朝ごはんは？<br>
+息子：いいよ、今日は。コーヒー飲んで目は覚めたし。<br>
+母：<b>ダメよ。ちゃんとご飯食べてから行きなさい。目は覚めたかもしれないけど、頭が働かないでしょ？ボーッとして授業も頭に入らないんだから。</b><br>
+息子：でも、そんなにゆっくりしてる時間がないんだよ。それにそんなお腹空いてないし。<br>
+母：<b>少しでもいいから、それくらいの時間はあるでしょ？ふらふらして、事故にでもあったらどうすんの？</b><br>
+息子：はいはい、分かったよ。<br>
+母：もうちょっと早く起きればいいのに。10分早く起きたら、慌てなくていいでしょ？<br>
+息子：寝るのが遅かったから。<br>
+母：それがダメなのよ。早く寝るようにしないと。<br>
+息子：わかってるって。<br>
+母親は、特に何を注意していますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Ở nhà, người mẹ và con trai đang nói chuyện. Người mẹ đặc biệt nhắc nhở con về điều gì?<br>
+Con trai: "Thôi con đi học đây ạ!"<br>
+Mẹ: "Ơ? Con đi ngay bây giờ á? Chẳng phải con mới chỉ uống mỗi cốc cà phê thôi sao. Thế còn bữa sáng thì sao?"<br>
+Con trai: "Hôm nay khỏi ăn cũng được mẹ ạ. Con uống cà phê là tỉnh ngủ rồi."<br>
+Mẹ: "<b>Không được đâu. Phải ăn cơm sáng đàng hoàng rồi mới được đi! Có thể mắt con tỉnh ngủ rồi nhưng không ăn thì đầu óc làm sao hoạt động được? Lại lơ mơ không tiếp thu được bài giảng trên lớp cho mà xem.</b>"<br>
+Con trai: "Nhưng con không còn thời gian mà ngồi ăn thong thả đâu. Với lại con cũng chưa thấy đói lắm."<br>
+Mẹ: "<b>Ăn một chút thôi cũng được, chừng đó thời gian thì vẫn kịp chứ gì? Đi đường hoa mắt chóng mặt rồi lỡ gặp tai nạn thì biết làm thế nào?</b>"<br>
+Con trai: "Vâng vâng, con biết rồi, con ăn đây ạ."<br>
+Mẹ: "Giá mà con dậy sớm hơn một chút. Chỉ cần dậy sớm hơn 10 phút thôi là đâu phải vội vàng hấp tấp thế này?"<br>
+Con trai: "Tại tối qua con ngủ muộn mà."<br>
+Mẹ: "Chính cái thói đó là không được đấy. Phải tập đi ngủ sớm đi."<br>
+Con trai: "Con biết rồi mà mẹ."<br>
+Người mẹ đặc biệt nhắc nhở con về điều gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Mẹ chặn con trai lại vì chỉ uống cafe mà bỏ bữa sáng, gay gắt nhắc nhở việc không ăn sáng sẽ khiến não không hoạt động, dễ hoa mắt chóng mặt gây tai nạn: "ダメよ、ちゃんとご飯食べてから行きなさい！"<br>&rarr; <b>Đáp án đúng là 3 (朝ご飯を食べないこと)</b>.`
         },
         {
           "id": 404,
@@ -6537,7 +6701,33 @@ window.JLPT_DATA[15] = {
             "たくさん練習をすること"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại phòng tư vấn việc làm, giáo viên và sinh viên đang nói chuyện. Giáo viên nói điều quan trọng nhất khi đi phỏng vấn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 服装に気をつけること: Chú ý trang phục chỉnh tề<br>2. 会場への行き方を確認すること: Xác nhận đường đến địa điểm thi<br>3. 自分に自信を持つこと: Có sự tự tin vào chính bản thân mình<br>4. たくさん練習をすること: Luyện tập thật nhiều<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>学生：先生、明日面接なんですが不安で落ち着かないんです。<br>先生：服装も準備できてるし、会場への道順も大丈夫ね。あなたはいろいろ心配しすぎよ。これまであんなに練習してきたじゃない。努力は嘘をつかないって言うから大丈夫だよ。<b>とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。</b><br>学生：ありがとうございます！<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Trang phục và đường đi sinh viên đều đã chuẩn bị xong. Giáo viên khuyên giải điều then chốt nhất giúp phát huy thế mạnh của bản thân trong phòng phỏng vấn là sự tự tin: \"とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。\"<br>&rarr; <b>Đáp án đúng là 3 (自分に自信を持つこと)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại phòng tư vấn việc làm, giáo viên và sinh viên đang nói chuyện. Giáo viên nói điều quan trọng nhất khi đi phỏng vấn là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 服装に気をつけること: Chú ý trang phục chỉnh tề<br>2. 会場への行き方を確認すること: Xác nhận đường đến địa điểm thi<br>3. 自分に自信を持つこと: Có sự tự tin vào chính bản thân mình<br>4. たくさん練習をすること: Luyện tập thật nhiều<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+就職相談室で先生と学生が話しています。先生は面接試験の時、何が最も大切だと言っていますか。<br>
+学生：先生、明日面接なんですが、不安でちょっと落ち着かないんです。<br>
+先生：大丈夫よ。そんなに心配しなくて。服装はどう？大丈夫？<br>
+学生：はい。スーツも靴も準備してあります。<br>
+先生：第一印象は大事だからね。鏡の前でチェックして出かけてね。会場までの道順はどう？確認してある？<br>
+学生：はい。説明会と同じ会場なので大丈夫だと思います。ただ、電車が遅れて遅刻しないかとか、どこかで道を間違えないかとか、考えるといろいろ心配になります。<br>
+先生：あなたはちょっと心配しすぎ。じゃあちょっと早めに行きましょう。そうね、面接時間の30分くらい前かな。で、近くでコーヒーでも飲んで落ち着いて、それから行くといいんじゃない？<br>
+学生：分かりました。そうします。<br>
+先生：まあ、でもこれまであんなに練習してきたじゃない。努力は嘘をつかないって言うから大丈夫だよ。<b>とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。</b><br>
+学生：ありがとうございます。じゃあ、最後にもう一度練習させていただけないでしょうか。<br>
+先生：いいですよ、もちろん。<br>
+先生は、面接試験の時、何が最も大切だと言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại phòng tư vấn việc làm, cô giáo và sinh viên đang nói chuyện. Cô giáo nói khi thi phỏng vấn, điều gì là quan trọng nhất?<br>
+Sinh viên: "Thưa cô, ngày mai em đi phỏng vấn rồi mà trong lòng cứ bất an, bồn chồn không yên ạ."<br>
+Cô giáo: "Không sao đâu, em đừng lo lắng quá như thế. Trang phục thế nào rồi? Đã ổn thỏa chưa?"<br>
+Sinh viên: "Dạ rồi ạ. Bộ vest và giày em đều đã chuẩn bị sẵn sàng."<br>
+Cô giáo: "Ấn tượng đầu tiên rất quan trọng đấy nhé. Trước khi ra khỏi nhà nhớ soi gương kiểm tra lại chỉnh tề. Thế còn đường đi tới địa điểm phỏng vấn thì sao? Đã kiểm tra kỹ chưa?"<br>
+Sinh viên: "Dạ rồi ạ. Vì cùng một hội trường với buổi hội thảo giới thiệu công ty lần trước nên em nghĩ không vấn đề gì. Chỉ có điều cứ nghĩ đến chuyện nhỡ tàu điện bị trễ làm mình đến muộn, hay nhỡ đi lạc đường ở đâu đó là em lại lo đủ thứ."<br>
+Cô giáo: "Em hơi lo xa quá rồi đấy. Vậy thì hãy xuất phát sớm hơn một chút nhé. Để xem nào, đến nơi trước giờ phỏng vấn khoảng 30 phút đi. Rồi ghé quán gần đó uống tách cà phê cho bình tĩnh lại rồi mới bước vào phỏng vấn là vừa đẹp."<br>
+Sinh viên: "Dạ vâng, em sẽ làm như vậy."<br>
+Cô giáo: "Mà từ trước đến nay em đã luyện tập chăm chỉ đến thế rồi còn gì. Người ta vẫn nói 'Nỗ lực không bao giờ phản bội lại mình' nên chắc chắn sẽ ổn thôi. <b>Quan trọng nhất là phải có sự tự tin vào bản thân. Khi có sự tự tin thì những điểm mạnh thường ngày của em sẽ tự khắc được bộc lộ ra hết.</b>"<br>
+Sinh viên: "Em cảm ơn cô ạ. Vậy cô cho phép em được luyện tập phỏng vấn lại một lần cuối cùng nữa có được không ạ?"<br>
+Cô giáo: "Tất nhiên là được rồi."<br>
+Cô giáo nói khi thi phỏng vấn, điều gì là quan trọng nhất?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Trang phục và đường đi sinh viên đều đã chuẩn bị xong. Giáo viên khuyên giải điều then chốt nhất giúp phát huy thế mạnh của bản thân trong phòng phỏng vấn là sự tự tin: "とにかく自信を持つこと。そうしたらいつものあなたの良さが出るから。"<br>&rarr; <b>Đáp án đúng là 3 (自分に自信を持つこと)</b>.`
         },
         {
           "id": 405,
@@ -6554,7 +6744,25 @@ window.JLPT_DATA[15] = {
             "子供の勉強を見てもらえること"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người phụ nữ nói điều tuyệt vời nhất khi sống chung với bố mẹ chồng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 家事を助けてもらえること: Được giúp đỡ làm việc nhà<br>2. 今の仕事を続けられること: Có thể tiếp tục công việc hiện tại<br>3. 子供が社会や文化を学べること: Con cái được học hỏi về xã hội và văn hóa truyền thống<br>4. 子供の勉強を見てもらえること: Được ông bà kèm cặp chuyện học hành của con<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：毎日仕事と子育て両立して大変じゃない？<br>女：夫の両親がそばにいるから、ご飯や買い物、洗濯も手伝ってくれて助かってるわ。<br>男：気をつかって大変じゃない？<br>女：もちろん生活スタイルの違いはあるけど、気に入ってるよ。仕事ができるのはもちろんだけど、<b>子どもにとっていやいろんな年代の人と接することって大切でしょ。伝統とか行儀作法とか、私たち親では教えられないことってたくさんあるのよ。一緒に住んでて一番いいなと思うのはそれかな。</b><br><br><b>💡 Phân tích chọn đáp án:</b><br>- Việc nhà và nấu nướng là sự hỗ trợ thông thường, nhưng khi được hỏi điều tốt nhất (一番いいなと思うのは), người phụ nữ khẳng định chính là con cái được tiếp xúc với thế hệ lớn tuổi, học hỏi các giá trị truyền thống, phép tắc ứng xử lễ nghĩa (伝統・行儀作法 &rarr; 子供が社会や文化を学べること).<br>&rarr; <b>Đáp án đúng là 3 (子供が社会や文化を学べること)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Người nam và người nữ đang nói chuyện. Người phụ nữ nói điều tuyệt vời nhất khi sống chung với bố mẹ chồng là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 家事を助けてもらえること: Được giúp đỡ làm việc nhà<br>2. 今の仕事を続けられること: Có thể tiếp tục công việc hiện tại<br>3. 子供が社会や文化を学べること: Con cái được học hỏi về xã hội và văn hóa truyền thống<br>4. 子供の勉強を見てもらえること: Được ông bà kèm cặp chuyện học hành của con<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男の人と女の人が話しています。女の人は、夫の両親と一緒に暮らして何が良かったと言っていますか。<br>
+男：小さい子供を育てながら毎日朝から晩まで仕事して大変じゃない？<br>
+女：まあね。でも夫の両親がそばにいるから、いろいろ面倒を見てくれてる。仕事で帰りが遅くなる時なんか、子供の世話だけじゃなく、晩ご飯も作ってくれるし、あと買い物とか洗濯とかも。<br>
+男：そっか。でも、いろいろ気を使って大変でしょ。<br>
+女：確かに、生活スタイルや考え方も違うから、気を使うことはあるけど。<br>
+男：やっぱりそうなんだ。<br>
+女：でも、私は今の状態気に入ってるよ。仕事ができるのはもちろんだけど、<b>子供にとって、いろいろな年代の人と接することって大切でしょ。伝統とか、行儀作法とか、私たちでは教えられないことってたくさんあるのよ。実際子供たちは、おじいちゃん、おばあちゃんにいろいろ聞いて教えてもらってる。楽しそうにね。一緒に住んでて一番いいなと思うのはそれかな。</b><br>
+女の人は、夫の両親と一緒に暮らして何が良かったと言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người đàn ông và người phụ nữ đang nói chuyện. Người phụ nữ nói việc sống chung với bố mẹ chồng có điểm gì tốt nhất?<br>
+Nam: "Vừa nuôi con nhỏ vừa đi làm từ sáng đến tối mỗi ngày chắc chị vất vả lắm nhỉ?"<br>
+Nữ: "Cũng vất vả đấy. Nhưng nhờ có bố mẹ chồng sống cùng nên ông bà đỡ đần chăm sóc cho nhiều lắm. Những hôm đi làm về muộn, ông bà không chỉ trông cháu giúp mà còn nấu sẵn bữa tối, rồi phụ cả việc đi chợ hay giặt giũ nữa."<br>
+Nam: "Thế à. Nhưng sống chung chắc cũng phải giữ ý tứ nhiều nên mệt mỏi lắm nhỉ."<br>
+Nữ: "Đúng là vì lối sống và suy nghĩ khác thế hệ nên cũng có những lúc phải để ý giữ kẽ."<br>
+Nam: "Quả nhiên là vậy nhỉ."<br>
+Nữ: "Nhưng tôi rất hài lòng với cuộc sống hiện tại. Việc mình có thể yên tâm đi làm thì không phải bàn rồi, nhưng <b>đối với con trẻ, việc được tiếp xúc với những người ở nhiều độ tuổi khác nhau rất quan trọng phải không nào? Những nét truyền thống hay phép tắc lễ nghĩa ứng xử, có rất nhiều điều mà thế hệ trẻ chúng tôi không thể dạy hết cho con được. Thực tế lũ trẻ ở nhà rất thích thú khi được hỏi han và được ông bà chỉ dạy cho đủ thứ. Tôi nghĩ đó chính là điều tuyệt vời nhất khi sống chung với ông bà đấy.</b>"<br>
+Người phụ nữ nói việc sống chung với bố mẹ chồng có điểm gì tốt nhất?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Việc nhà và nấu nướng là sự hỗ trợ thông thường, nhưng khi được hỏi điều tốt nhất (一番いいなと思うのは), người phụ nữ khẳng định chính là con cái được tiếp xúc với thế hệ lớn tuổi, học hỏi các giá trị truyền thống, phép tắc ứng xử lễ nghĩa (伝統・行儀作法 &rarr; 子供が社会や文化を学べること).<br>&rarr; <b>Đáp án đúng là 3 (子供が社会や文化を学べること)</b>.`
         },
         {
           "id": 406,
@@ -6571,7 +6779,15 @@ window.JLPT_DATA[15] = {
             "日本語の授業を聞き取ること"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Trên đài radio, người phụ nữ đang kể chuyện. Người phụ nữ nói điều gì từng khiến cô gặp khó khăn vất vả nhất?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 日本の習慣に慣れること: Quen với phong tục tập quán Nhật Bản<br>2. 日本人と会話すること: Trò chuyện hội thoại với người Nhật<br>3. 日本語の文章を読むこと: Đọc hiểu các văn bản câu cú tiếng Nhật<br>4. 日本語の授業を聞き取ること: Nghe hiểu các tiết học tiếng Nhật<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>女：私は7歳の時親の仕事の関係でアメリカから日本に来ました。文化や習慣に慣れるのは大変でしたが、一番苦労したのはやっぱり言葉です。話したり聞いたりするのは2年くらいで大体できるようになったんですが、<b>読んだり書いたりするのはずっと苦労していました。</b>ある程度会話ができるので上手に思われるようですが、読み書きは全然ダメでしたから。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ nói rõ: Giao tiếp nghe - nói chỉ mất 2 năm là thành thạo, nhưng kỹ năng đọc và viết văn bản chữ nghĩa (読み書き &rarr; 文章を読むこと) là rào cản gian nan và khổ sở nhất suốt thời gian dài.<br>&rarr; <b>Đáp án đúng là 3 (日本語の文章を読むこと)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Trên đài radio, người phụ nữ đang kể chuyện. Người phụ nữ nói điều gì từng khiến cô gặp khó khăn vất vả nhất?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 日本の習慣に慣れること: Quen với phong tục tập quán Nhật Bản<br>2. 日本人と会話すること: Trò chuyện hội thoại với người Nhật<br>3. 日本語の文章を読むこと: Đọc hiểu các văn bản câu cú tiếng Nhật<br>4. 日本語の授業を聞き取ること: Nghe hiểu các tiết học tiếng Nhật<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+ラジオで女の人が話しています。女の人は何が一番大変だったと言っていますか。<br>
+女：私は7歳の時、親の仕事の関係でアメリカから日本に来ました。文化や習慣に慣れるのは大変でしたが、一番苦労したのはやっぱり言葉です。話したり聞いたりするのは2年くらいで大体できるようになったんですが、<b>読んだり書いたりするのはずっと苦労していました。</b>よく「日本語上手だね」などと言われたのですが、全然嬉しくなかったです。<b>ある程度会話ができるので上手に思われるようですが、読み書きは全然ダメでしたから。</b>そんな時ボランティアの佐藤さんに出会いました。佐藤さんは学校の教科書を一緒に読みながら意味を一つ一つ説明してくれました。そのおかげで、授業がよくわかるようになりました。今でも感謝しています。<br>
+女の人は何が一番大変だったと言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Trên đài radio, người phụ nữ đang chia sẻ. Người phụ nữ nói điều gì là vất vả nhất với cô ấy?<br>
+Nữ: "Năm lên 7 tuổi, do công việc của bố mẹ nên tôi đã từ Mỹ chuyển sang Nhật Bản sinh sống. Việc làm quen với văn hóa và tập quán mới cũng khá vất vả, nhưng điều khiến tôi chật vật nhất quả nhiên vẫn là ngôn ngữ. Kỹ năng nghe và nói thì chỉ sau khoảng 2 năm là tôi đã nắm được đại khái, <b>nhưng việc đọc và viết chữ tiếng Nhật thì tôi đã phải khổ sở suốt một thời gian dài.</b> Mọi người thường khen tôi 'Tiếng Nhật giỏi quá nhỉ', nhưng tôi chẳng thấy vui chút nào. <b>Có lẽ vì giao tiếp hội thoại được ở mức độ nhất định nên mọi người tưởng tôi giỏi, chứ thực chất kỹ năng đọc viết của tôi khi ấy hoàn toàn kém cỏi.</b> Đúng lúc đó tôi đã gặp được cô tình nguyện viên Sato. Cô Sato đã cùng tôi đọc sách giáo khoa trên trường và kiên nhẫn giải thích ý nghĩa từng từ một. Nhờ có cô mà tôi đã hiểu được các bài giảng trên lớp. Cho đến tận bây giờ tôi vẫn luôn biết ơn cô."<br>
+Người phụ nữ nói điều gì là vất vả nhất với cô ấy?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Người phụ nữ nói rõ: Giao tiếp nghe - nói chỉ mất 2 năm là thành thạo, nhưng kỹ năng đọc và viết văn bản chữ nghĩa (読み書き &rarr; 文章を読むこと) là rào cản gian nan và khổ sở nhất suốt thời gian dài.<br>&rarr; <b>Đáp án đúng là 3 (日本語の文章を読むこと)</b>.`
         },
         {
           "id": 407,
@@ -6588,7 +6804,31 @@ window.JLPT_DATA[15] = {
             "腰が痛いのを治すため"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. マッサージより経済的だから: Vì tiết kiệm chi phí hơn đi massage<br>4. 腰が痛いのを治すため: Để chữa đau lưng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>夫：ねえ、何してるの？<br>妻：これ、猫のポーズ。ヨガ体操だよ。<br>夫：へえ、どういう効果があるの？リラックスできるの？<br>妻：もちろんリラックスもできるけど、<b>最近パソコン作業が多くて、肩がガチガチに凝っちゃって痛くてね。このポーズをすると肩甲骨がほぐれて、肩こりがすごく楽になるのよ。</b>だから毎日やってるの。<br>夫：へえ、僕もやってみようかな。<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại nhà, chồng và vợ đang nói chuyện. Người vợ vì sao lại tập bài thể dục này?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. リラックスするため: Để thư giãn tinh thần<br>2. 肩こりを楽にするため: Để làm dịu/giảm đau nhức mỏi vai gáy<br>3. マッサージより経済的だから: Vì tiết kiệm chi phí hơn đi massage<br>4. 腰が痛いのを治すため: Để chữa đau lưng<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+家で夫と妻が話しています。妻はどうしてこの体操をしていますか。<br>
+夫：ねえ、何してるの？<br>
+妻：これは猫のポーズ。ヨガ体操だよ。<br>
+夫：ふーん、どういう効果があるの？<br>
+妻：<b>ネットで見たんだけど、このポーズをやると、首から肩のあたりの筋肉が伸びて、肩こりが少し楽になるんだって。私前から肩こりで悩んでたでしょ。</b><br>
+夫：へー、肩こりならマッサージのほうがいいんじゃないの？<br>
+妻：そう思うでしょ？でもこのヨガ体操をすると筋肉だけじゃなくて脳もリラックスするんだって。一人でできるし、お金もかからないしね。他のいろいろな体操もすると、体全体の調子も良くなると思うし、痩せるのにもいいかもしれない。<br>
+夫：なるほどね。あ、邪魔して悪かったね。<br>
+妻：この体操、腰が痛いのにも効果があるらしいよ。<br>
+夫：へー、じゃあ僕もやってみようかな。<br>
+妻は、どうしてこの体操をしていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Ở nhà, hai vợ chồng đang nói chuyện với nhau. Tại sao người vợ lại tập động tác thể dục này?<br>
+Chồng: "Này, em đang làm gì thế?"<br>
+Vợ: "Đây là tư thế con mèo. Là một bài tập Yoga đấy anh."<br>
+Chồng: "Ồ, động tác đó có tác dụng gì thế?"<br>
+Vợ: "<b>Em xem trên mạng thấy người ta hướng dẫn tập tư thế này sẽ giúp kéo giãn vùng cơ từ cổ xuống vai, làm giảm nhẹ chứng đau mỏi vai gáy. Chẳng phải từ trước đến nay em vẫn luôn khổ sở vì chứng mỏi vai gáy hay sao.</b>"<br>
+Chồng: "Ồ, nếu bị mỏi vai gáy thì đi mát-xa chẳng phải hiệu quả hơn à?"<br>
+Vợ: "Anh cũng nghĩ thế đúng không? Nhưng nghe nói tập động tác Yoga này không chỉ giúp giãn cơ mà còn giúp não bộ được thư giãn nữa đấy. Lại có thể tự tập một mình mà chẳng tốn đồng nào. Nếu kết hợp tập thêm nhiều động tác khác nữa thì thể trạng toàn thân cũng khỏe lên, biết đâu còn giúp giảm cân giữ dáng nữa."<br>
+Chồng: "Ra là thế. À, xin lỗi vì đã làm phiền lúc em đang tập nhé."<br>
+Vợ: "Nghe nói bài tập này cũng có hiệu quả với cả chứng đau lưng nữa đấy."<br>
+Chồng: "Thế à, vậy có khi anh cũng phải tập thử mới được."<br>
+Tại sao người vợ lại tập động tác thể dục này?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>- Mục đích trực tiếp và quan trọng nhất người vợ tập bài tập Yoga này là để giải tỏa chứng đau cứng mỏi vai do ngồi máy tính nhiều (肩こりを楽にするため).<br>&rarr; <b>Đáp án đúng là 2 (肩こりを楽にするため)</b>.`
         },
         {
           "id": 408,
@@ -6695,7 +6935,23 @@ window.JLPT_DATA[15] = {
             "ここまで2時間半ほどかかりました。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Xin lỗi, có lẽ nào tôi đã từng gặp anh ở đâu đó rồi phải không ạ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. ええと、もしかして山田たかしさんの妹さんですか。 (À ừm, có phải cô là em gái của anh Yamada Takashi không ạ?)<br>\n2. え、どこへも行っていないんですが。 (Ơ, tôi chẳng đi đâu cả mà.)<br>\n3. ここまで2時間半ほどかかりました。 (Tới đây mất khoảng 2 tiếng rưỡi ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：あのう、もしかしてどこかで<b>お目にかかったことがありませんか</b>。<br>\nM：<b>1. ええと、もしかして山田たかしさんの妹さんですか。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Xin lỗi, hình như tôi đã từng gặp anh ở đâu rồi nhỉ?\"<br>\nNam: \"À ừm, có phải cô là em gái của anh Yamada Takashi không?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「お目にかかる」 là khiêm nhường ngữ của 「会う」 (gặp). Nam nhận ra người quen nên hỏi lại xác nhận &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Xin lỗi, có lẽ nào tôi đã từng gặp anh ở đâu đó rồi phải không ạ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ええと、もしかして山田たかしさんの妹さんですか。: À ừm, có phải cô là em gái của anh Yamada Takashi không ạ?<br>
+2. え、どこへも行っていないんですが。: Ơ, tôi chẳng đi đâu cả mà.<br>
+3. ここまで2時間半ほどかかりました。: Tới đây mất khoảng 2 tiếng rưỡi ạ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：あのう、もしかしてどこかでお目にかかったことがありませんか。<br>
+<b>1. ええと、もしかして山田たかしさんの妹さんですか。</b><br>
+2. え、どこへも行っていないんですが。<br>
+3. ここまで2時間半ほどかかりました。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Xin lỗi, có lẽ nào tôi đã từng gặp anh ở đâu đó rồi phải không ạ?"<br>
+<b>1. À ừm, có phải cô là em gái của anh Yamada Takashi không ạ?</b><br>
+2. Ơ, tôi chẳng đi đâu cả mà.<br>
+3. Tới đây mất khoảng 2 tiếng rưỡi ạ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「お目にかかる」 là khiêm nhường ngữ của 「会う」 (gặp). Nam nhận ra người quen nên hỏi lại xác nhận &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 414,
@@ -6712,7 +6968,23 @@ window.JLPT_DATA[15] = {
             "急ぎませんので、使い終わったらお返しください。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Đồ quý giá thế này, tôi không thể mượn được đâu ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. それは大変失礼いたしました。 (Thật vô cùng thất lễ.)<br>\n2. では、お返しにならなくてもいいですよ。 (Vậy thì anh không cần trả lại cũng được.)<br>\n3. 急ぎませんので、使い終わったらお返しください。 (Tôi không vội đâu, dùng xong anh trả lại cũng được.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：こんな大切なもの、<b>お借りするわけにはいきません</b>。<br>\nF：<b>3. 急ぎませんので、使い終わったらお返しください。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Vật quan trọng thế này tôi không dám mượn đâu.\"<br>\nNữ: \"Tôi không vội đâu, anh dùng xong rồi trả lại tôi nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người nói ngại mượn đồ quý (わけにはいかない), người cho mượn trấn an rằng không vội, dùng xong trả là được &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Đồ quý giá thế này, tôi không thể mượn được đâu ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. それは大変失礼いたしました。: Thật vô cùng thất lễ.<br>
+2. では、お返しにならなくてもいいですよ。: Vậy thì anh không cần trả lại cũng được.<br>
+3. 急ぎませんので、使い終わったらお返しください。: Tôi không vội đâu, dùng xong anh trả lại cũng được.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：こんな大切なもの、お借りするわけにはいきません。<br>
+1. それは大変失礼いたしました。<br>
+2. では、お返しにならなくてもいいですよ。<br>
+<b>3. 急ぎませんので、使い終わったらお返しください。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Đồ quý giá thế này, tôi không thể mượn được đâu ạ."<br>
+1. Thật vô cùng thất lễ.<br>
+2. Vậy thì anh không cần trả lại cũng được.<br>
+<b>3. Tôi không vội đâu, dùng xong anh trả lại cũng được.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người nói ngại mượn đồ quý (わけにはいかない), người cho mượn trấn an rằng không vội, dùng xong trả là được &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 415,
@@ -6729,7 +7001,23 @@ window.JLPT_DATA[15] = {
             "え、もう片付いたの？"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Trưởng phòng ơi, tôi đã đặt giữ phòng họp từ lúc 2 giờ rồi ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. ありがとう。助かるよ。 (Cảm ơn nhé. Đỡ quá đi mất.)<br>\n2. それは知らなかったよ。 (Chuyện đó tôi không biết đấy.)<br>\n3. え、もう片付いたの？ (Ơ, dọn dẹp xong rồi à?)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：部長、会議室を2時から<b>押さえておきました</b>。<br>\nM：<b>1. ありがとう。助かるよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Trưởng phòng, em đã đặt phòng họp từ 2 giờ rồi ạ.\"<br>\nNam: \"Cảm ơn em, đỡ cho tôi quá.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「押さえておく」 nghĩa là đặt chỗ trước (予約する). Khi cấp dưới chủ động đặt phòng giúp, sếp cảm ơn bằng 「ありがとう。助かるよ。」 &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Trưởng phòng ơi, tôi đã đặt giữ phòng họp từ lúc 2 giờ rồi ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ありがとう。助かるよ。: Cảm ơn nhé. Đỡ quá đi mất.<br>
+2. それは知らなかったよ。: Chuyện đó tôi không biết đấy.<br>
+3. え、もう片付いたの？: Ơ, dọn dẹp xong rồi à?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：部長、会議室を2時から押さえておきました。<br>
+<b>1. ありがとう。助かるよ。</b><br>
+2. それは知らなかったよ。<br>
+3. え、もう片付いたの？<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Trưởng phòng ơi, tôi đã đặt giữ phòng họp từ lúc 2 giờ rồi ạ."<br>
+<b>1. Cảm ơn nhé. Đỡ quá đi mất.</b><br>
+2. Chuyện đó tôi không biết đấy.<br>
+3. Ơ, dọn dẹp xong rồi à?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「押さえておく」 nghĩa là đặt chỗ trước (予約する). Khi cấp dưới chủ động đặt phòng giúp, sếp cảm ơn bằng 「ありがとう。助かるよ。」 &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 416,
@@ -6746,7 +7034,23 @@ window.JLPT_DATA[15] = {
             "どちらでも結構ですよ。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Việc nộp báo cáo, thầy/anh cho tôi lùi thêm 1 ngày có được không ạ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. ええ、かまいませんよ。 (Ừ, không sao đâu.)<br>\n2. え、かわりましたか。 (Ơ, thay đổi rồi à?)<br>\n3. どちらでも結構ですよ。 (Cái nào cũng được.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：レポートの提出、あと1日<b>待ってもらうわけにはいきませんか</b>。<br>\nM：<b>1. ええ、かまいませんよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Nộp báo cáo, anh đợi thêm cho em 1 ngày nữa được không?\"<br>\nNam: \"Ừ, không vấn đề gì đâu.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～てもらうわけにはいきませんか」 là cách xin phép/nhờ vả lịch sự; đồng ý bằng 「ええ、かまいませんよ」 &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Việc nộp báo cáo, thầy/anh cho tôi lùi thêm 1 ngày có được không ạ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ええ、かまいませんよ。: Ừ, không sao đâu.<br>
+2. え、かわりましたか。: Ơ, thay đổi rồi à?<br>
+3. どちらでも結構ですよ。: Cái nào cũng được.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：レポートの提出、あと1日待ってもらうわけにはいきませんか。<br>
+<b>1. ええ、かまいませんよ。</b><br>
+2. え、かわりましたか。<br>
+3. どちらでも結構ですよ。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Việc nộp báo cáo, thầy/anh cho tôi lùi thêm 1 ngày có được không ạ?"<br>
+<b>1. Ừ, không sao đâu.</b><br>
+2. Ơ, thay đổi rồi à?<br>
+3. Cái nào cũng được.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～てもらうわけにはいきませんか」 là cách xin phép/nhờ vả lịch sự; đồng ý bằng 「ええ、かまいませんよ」 &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 417,
@@ -6763,7 +7067,23 @@ window.JLPT_DATA[15] = {
             "確かにそうですね。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Việc này chẳng phải là việc chưa nên làm ngay bây giờ sao?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. じゃ、やっておきます。 (Vậy tôi sẽ làm sẵn.)<br>\n2. じゃ、そうしましょう。 (Vậy mình làm thế đi.)<br>\n3. 確かにそうですね。 (Đúng là như vậy thật.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：これは<b>今やるべきことではない</b>んじゃないですか。<br>\nF：<b>3. 確かにそうですね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Việc này đâu phải việc cần làm ngay bây giờ đúng không?\"<br>\nNữ: \"Đúng là vậy thật.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Câu nói mang ý nhận định/góp ý rằng việc này không nên làm lúc này, nên đáp lại đồng tình 「確かにそうですね」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Việc này chẳng phải là việc chưa nên làm ngay bây giờ sao?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. じゃ、やっておきます。: Vậy tôi sẽ làm sẵn.<br>
+2. じゃ、そうしましょう。: Vậy mình làm thế đi.<br>
+3. 確かにそうですね。: Đúng là như vậy thật.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：これは今やるべきことではないんじゃないですか。<br>
+1. じゃ、やっておきます。<br>
+2. じゃ、そうしましょう。<br>
+<b>3. 確かにそうですね。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Việc này chẳng phải là việc chưa nên làm ngay bây giờ sao?"<br>
+1. Vậy tôi sẽ làm sẵn.<br>
+2. Vậy mình làm thế đi.<br>
+<b>3. Đúng là như vậy thật.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Câu nói mang ý nhận định/góp ý rằng việc này không nên làm lúc này, nên đáp lại đồng tình 「確かにそうですね」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 418,
@@ -6780,7 +7100,23 @@ window.JLPT_DATA[15] = {
             "そうか……明日はだめか。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Trưởng phòng ơi, Giám đốc bảo là chỉ rảnh mỗi ngày mai thôi ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. え、明日できないってことですか。 (Ơ, nghĩa là ngày mai không làm được à? - hiểu ngược 「明日しか」.)<br>\n2. では、明日にしましょうか。 (Vậy thì chốt ngày mai nhé.)<br>\n3. そうか……明日はだめか。 (Thế à... ngày mai không được à? - hiểu ngược.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：課長、部長は<b>明日しか空いてない</b>っておっしゃってます。<br>\nF：<b>2. では、明日にしましょうか。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Trưởng phòng, sếp bảo chỉ có ngày mai là trống lịch thôi ạ.\"<br>\nNữ: \"Vậy thì mình hẹn vào ngày mai nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「明日しか空いてない」 = chỉ rảnh mỗi ngày mai (chứ không phải bận ngày mai), nên quyết định chọn ngày mai &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Trưởng phòng ơi, Giám đốc bảo là chỉ rảnh mỗi ngày mai thôi ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. え、明日できないってことですか。: Ơ, nghĩa là ngày mai không làm được à? - hiểu ngược 「明日しか」.<br>
+2. では、明日にしましょうか。: Vậy thì chốt ngày mai nhé.<br>
+3. そうか……明日はだめか。: Thế à... ngày mai không được à? - hiểu ngược.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：課長、部長は明日しか空いてないっておっしゃってます。<br>
+1. え、明日できないってことですか。<br>
+<b>2. では、明日にしましょうか。</b><br>
+3. そうか……明日はだめか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Trưởng phòng ơi, Giám đốc bảo là chỉ rảnh mỗi ngày mai thôi ạ."<br>
+1. Ơ, nghĩa là ngày mai không làm được à? - hiểu ngược 「明日しか」.<br>
+<b>2. Vậy thì chốt ngày mai nhé.</b><br>
+3. Thế à... ngày mai không được à? - hiểu ngược.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「明日しか空いてない」 = chỉ rảnh mỗi ngày mai (chứ không phải bận ngày mai), nên quyết định chọn ngày mai &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 419,
@@ -6797,7 +7133,23 @@ window.JLPT_DATA[15] = {
             "じゃ、仕方がありませんね。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Nếu được thì tôi cũng muốn làm thế, nhưng không có thời gian nên hết cách rồi.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. じゃ、できそうですね。 (Vậy có vẻ làm được nhỉ.)<br>\n2. じゃ、やったほうがいいんですね。 (Vậy thì nên làm nhỉ.)<br>\n3. じゃ、仕方がありませんね。 (Vậy thì đành chịu thôi nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：できればそうしたいんですが、時間がなくて<b>やりようがないんです</b>。<br>\nF：<b>3. じゃ、仕方がありませんね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Nếu được tôi cũng muốn làm vậy lắm, nhưng chẳng có thời gian nên không có cách nào làm được.\"<br>\nNữ: \"Vậy thì đành chịu thôi nhỉ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～ようがない」 nghĩa là \"không có cách nào để...\". Người nghe thông cảm đáp lại 「仕方がありませんね」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Nếu được thì tôi cũng muốn làm thế, nhưng không có thời gian nên hết cách rồi."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. じゃ、できそうですね。: Vậy có vẻ làm được nhỉ.<br>
+2. じゃ、やったほうがいですね。: Vậy thì nên làm nhỉ.<br>
+3. じゃ、仕方がありませんね。: Vậy thì đành chịu thôi nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：できればそうしたいんですが、時間がなくてやりようがないんです。<br>
+1. じゃ、できそうですね。<br>
+2. じゃ、やったほうがいですね。<br>
+<b>3. じゃ、仕方がありませんね。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Nếu được thì tôi cũng muốn làm thế, nhưng không có thời gian nên hết cách rồi."<br>
+1. Vậy có vẻ làm được nhỉ.<br>
+2. Vậy thì nên làm nhỉ.<br>
+<b>3. Vậy thì đành chịu thôi nhỉ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～ようがない」 nghĩa là "không có cách nào để...". Người nghe thông cảm đáp lại 「仕方がありませんね」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 420,
@@ -6814,7 +7166,23 @@ window.JLPT_DATA[15] = {
             "いいですよ、手伝います。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Xin lỗi, tôi lơ đễnh quên mất.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. え、もう終わったんですか。 (Ơ, xong rồi à?)<br>\n2. これから気をつけてくださいね。 (Từ giờ hãy chú ý nhé.)<br>\n3. いいですよ、手伝います。 (Được thôi, tôi giúp cho.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：すみません、<b>うっかりしていました</b>。<br>\nM：<b>2. これから気をつけてくださいね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Xin lỗi, em sơ ý quên mất.\"<br>\nNam: \"Lần sau nhớ cẩn thận hơn nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「うっかりする」 là lơ đễnh, sơ ý làm sai/quên. Khi đối phương xin lỗi vì sơ ý, nhắc nhở nhẹ nhàng 「これから気をつけてくださいね」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Xin lỗi, tôi lơ đễnh quên mất."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. え、もう終わったんですか。: Ơ, xong rồi à?<br>
+2. これから気をつけてくださいね。: Từ giờ hãy chú ý nhé.<br>
+3. いいですよ、手伝います。: Được thôi, tôi giúp cho.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：すみません、うっかりしていました。<br>
+1. え、もう終わったんですか。<br>
+<b>2. これから気をつけてくださいね。</b><br>
+3. いいですよ、手伝います。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Xin lỗi, tôi lơ đễnh quên mất."<br>
+1. Ơ, xong rồi à?<br>
+<b>2. Từ giờ hãy chú ý nhé.</b><br>
+3. Được thôi, tôi giúp cho.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「うっかりする」 là lơ đễnh, sơ ý làm sai/quên. Khi đối phương xin lỗi vì sơ ý, nhắc nhở nhẹ nhàng 「これから気をつけてくださいね」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 421,
@@ -6831,7 +7199,23 @@ window.JLPT_DATA[15] = {
             "それじゃ、やめとこうか。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Cái điều hòa này, với mức giá này mà tính năng thế này thì chẳng có gì để chê cả nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. そうだね。これに決めようか。 (Đúng nhỉ. Chốt cái này luôn nhé?)<br>\n2. うん、機能がもうちょっと良ければいいのに。 (Ừ, giá mà tính năng tốt hơn chút nữa.)<br>\n3. それじゃ、やめとこうか。 (Thế thì thôi không mua nữa nhé.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：このエアコン、この価格でこの機能なら、<b>申し分ないね</b>。<br>\nM：<b>1. そうだね。これに決めようか。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Chiếc điều hòa này giá vậy mà chức năng thế này thì quá ổn, không chê vào đâu được nhỉ.\"<br>\nNam: \"Ừ nhỉ. Quyết định chọn cái này nhé?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「申し分ない」 nghĩa là hoàn hảo, không có điểm gì đáng chê trách, nên đồng ý chốt mua &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Cái điều hòa này, với mức giá này mà tính năng thế này thì chẳng có gì để chê cả nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. そうだね。これに決めようか。: Đúng nhỉ. Chốt cái này luôn nhé?<br>
+2. うん、機能がもうちょっと良ければいいのに。: Ừ, giá mà tính năng tốt hơn chút nữa.<br>
+3. それじゃ、やめとこうか。: Thế thì thôi không mua nữa nhé.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：このエアコン、この価格でこの機能なら、申し分ないね。<br>
+<b>1. そうだね。これに決めようか。</b><br>
+2. うん、機能がもうちょっと良ければいいのに。<br>
+3. それじゃ、やめとこうか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Cái điều hòa này, với mức giá này mà tính năng thế này thì chẳng có gì để chê cả nhỉ."<br>
+<b>1. Đúng nhỉ. Chốt cái này luôn nhé?</b><br>
+2. Ừ, giá mà tính năng tốt hơn chút nữa.<br>
+3. Thế thì thôi không mua nữa nhé.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「申し分ない」 nghĩa là hoàn hảo, không có điểm gì đáng chê trách, nên đồng ý chốt mua &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 422,
@@ -6848,7 +7232,23 @@ window.JLPT_DATA[15] = {
             "では、早めにやっておきます。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Đừng đợi đến tuần sau, làm được sớm hơn thì chẳng gì bằng.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. わかりました。来週やります。 (Tôi hiểu rồi. Tuần sau tôi sẽ làm.)<br>\n2. できそうにないということですか。 (Nghĩa là có vẻ không làm được à?)<br>\n3. では、早めにやっておきます。 (Vậy thì tôi sẽ tranh thủ làm sớm.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：来週と言わず、<b>早くできるにこしたことはありません</b>。<br>\nF：<b>3. では、早めにやっておきます。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Khoan nói tuần sau, càng làm sớm được càng tốt.\"<br>\nNữ: \"Vâng, vậy em sẽ làm sớm ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～にこしたことはない」 nghĩa là \"không gì tốt bằng...\" (càng sớm càng tốt). Đáp lại bằng 「早めにやっておきます」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Đừng đợi đến tuần sau, làm được sớm hơn thì chẳng gì bằng."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. わかりました。来週やります。: Tôi hiểu rồi. Tuần sau tôi sẽ làm.<br>
+2. できそうにないということですか。: Nghĩa là có vẻ không làm được à?<br>
+3. では、早めにやっておきます。: Vậy thì tôi sẽ tranh thủ làm sớm.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：来週と言わず、早くできるにこしたことはありません。<br>
+1. わかりました。来週やります。<br>
+2. できそうにないということですか。<br>
+<b>3. では、早めにやっておきます。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Đừng đợi đến tuần sau, làm được sớm hơn thì chẳng gì bằng."<br>
+1. Tôi hiểu rồi. Tuần sau tôi sẽ làm.<br>
+2. Nghĩa là có vẻ không làm được à?<br>
+<b>3. Vậy thì tôi sẽ tranh thủ làm sớm.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～にこしたことはない」 nghĩa là "không gì tốt bằng..." (càng sớm càng tốt). Đáp lại bằng 「早めにやっておきます」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 423,
@@ -6865,7 +7265,23 @@ window.JLPT_DATA[15] = {
             "ええ。いつもどおり元気そうでした。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Này, sao thế? Không giống bạn (Yamamoto) chút nào. Trông uể oải thế?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 山本さんはお休みだそうです。 (Nghe nói anh Yamamoto nghỉ phép rồi - nói như người thứ 3 là sai.)<br>\n2. すみません、ちょっと寝不足で。 (Xin lỗi, tại tôi hơi thiếu ngủ chút.)<br>\n3. ええ。いつもどおり元気そうでした。 (Vâng. Trông khỏe mạnh như mọi khi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：ねえ、どうしたの？<b>山本さんらしくないね。元気ないじゃない。</b><br>\nF：<b>2. すみません、ちょっと寝不足で。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Này, có chuyện gì thế? Chẳng giống Yamamoto mọi ngày chút nào, trông mệt mỏi thế?\"<br>\nNữ: \"Xin lỗi, tại mình hơi thiếu ngủ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Trong tiếng Nhật giao tiếp, sếp/đồng nghiệp gọi trực tiếp họ đối phương (山本さん) khi hỏi thăm trực tiếp. Trả lời nêu lý do mệt mỏi (ちょっと寝不足で) &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Này, sao thế? Không giống bạn (Yamamoto) chút nào. Trông uể oải thế?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 山本さんはお休みだそうです。: Nghe nói anh Yamamoto nghỉ phép rồi - nói như người thứ 3 là sai.<br>
+2. すみません、ちょっと寝不足で。: Xin lỗi, tại tôi hơi thiếu ngủ chút.<br>
+3. ええ。いつもどおり元気そうでした。: Vâng. Trông khỏe mạnh như mọi khi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：ねえ、どうしたの？山本さんらしくないね。元気ないじゃない。<br>
+1. 山本さんはお休みだそうです。<br>
+<b>2. すみません、ちょっと寝不足で。</b><br>
+3. ええ。いつもどおり元気そうでした。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Này, sao thế? Không giống bạn (Yamamoto) chút nào. Trông uể oải thế?"<br>
+1. Nghe nói anh Yamamoto nghỉ phép rồi - nói như người thứ 3 là sai.<br>
+<b>2. Xin lỗi, tại tôi hơi thiếu ngủ chút.</b><br>
+3. Vâng. Trông khỏe mạnh như mọi khi.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Trong tiếng Nhật giao tiếp, sếp/đồng nghiệp gọi trực tiếp họ đối phương (山本さん) khi hỏi thăm trực tiếp. Trả lời nêu lý do mệt mỏi (ちょっと寝不足で) &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 424,
@@ -6882,7 +7298,23 @@ window.JLPT_DATA[15] = {
             "え、そんなに多かったんですか。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Linh à, bài tập hôm qua của em toàn lỗi sai thôi đấy.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. それは困りましたね。 (Thế thì rắc rối nhỉ - nói như người ngoài cuộc.)<br>\n2. え、全部間違ってましたか。 (Ơ, sai hết tất cả luôn ạ? - 「～だらけ」 là đầy/rất nhiều, chưa chắc là tất cả 100%.)<br>\n3. え、そんなに多かったんですか。 (Ơ, sai nhiều đến thế cơ ạ?)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：リンさん、昨日の宿題、<b>間違いだらけでしたよ</b>。<br>\nM：<b>3. え、そんなに多かったんですか。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Linh ơi, bài tập hôm qua đầy lỗi sai đấy nhé.\"<br>\nNam: \"Ơ, nhiều lỗi đến thế cơ ạ?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「間違いだらけ」 diễn tả lỗi sai rất nhiều (nhiều khắp nơi). Phản ứng tự nhiên của học sinh khi nghe cô giáo báo bài sai nhiều là ngạc nhiên hỏi 「そんなに多かったんですか」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Linh à, bài tập hôm qua của em toàn lỗi sai thôi đấy."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. それは困りましたね。: Thế thì rắc rối nhỉ - nói như người ngoài cuộc.<br>
+2. え、全部間違ってましたか。: Ơ, sai hết tất cả luôn ạ? - 「～だらけ」 là đầy/rất nhiều, chưa chắc là tất cả 100%.<br>
+3. え、そんなに多かったんですか。: Ơ, sai nhiều đến thế cơ ạ?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：リンさん、昨日の宿題、間違いだらけでしたよ。<br>
+1. それは困りましたね。<br>
+2. え、全部間違ってましたか。<br>
+<b>3. え、そんなに多かったんですか。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Linh à, bài tập hôm qua của em toàn lỗi sai thôi đấy."<br>
+1. Thế thì rắc rối nhỉ - nói như người ngoài cuộc.<br>
+2. Ơ, sai hết tất cả luôn ạ? - 「～だらけ」 là đầy/rất nhiều, chưa chắc là tất cả 100%.<br>
+<b>3. Ơ, sai nhiều đến thế cơ ạ?</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「間違いだらけ」 diễn tả lỗi sai rất nhiều (nhiều khắp nơi). Phản ứng tự nhiên của học sinh khi nghe cô giáo báo bài sai nhiều là ngạc nhiên hỏi 「そんなに多かったんですか」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 425,
@@ -6936,7 +7368,38 @@ window.JLPT_DATA[15] = {
             "PG-ホワイト"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Ở phòng khách (居間) sẽ lắp chiếc điều hòa nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. SA-クリーン X (mẫu mới nhất, điều chỉnh độ ẩm, tiết kiệm điện, tự vệ sinh, giá cao nhất)<br>\n2. SA-クリーン 7 (mẫu năm ngoái, tính năng gần giống X, giá rẻ hơn chút)<br>\n3. SA-クリーンホワイト (mẫu tiêu chuẩn, giá rẻ hơn, có tự vệ sinh)<br>\n4. PG-ホワイト (mẫu tiêu chuẩn, không có tự vệ sinh, rẻ nhất)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n店で、夫婦と店員が話しています。<br>\nF：すみません。エアコンを探してるんですが。居間と子供の部屋に1つずつ置きたくて……。<br>\nM1：エアコンですね。一番おすすめしているのは、こちらのSA-クリーンXです。すぐに部屋が涼しくなりますし、湿度を調整する機能も付いています。お値段は一番高いですが、電気代が節約できるタイプなので、長く使うことを考えると一番経済的です。また、こちらのSA-クリーン7はSA-クリーンXと機能はほぼ同じですが、去年のモデルですので、今、店に置いているものしかありません。その分、お値段は少し安くなっています。スタンダードなタイプは、SA-クリーンホワイトとPG-ホワイトです。基本的な機能はそろっていて、お値段はSA-クリーンXやSA-クリーン7に比べると安くなっています。それから、SAクリーンのシリーズにはお掃除機能がついています。面倒なフィルターのお掃除を自動でしてくれる機能です。PG-ホワイトはその機能がついていない分、さらに安くなっています。<br>\nM2：うーん、やっぱり居間は一番長くいるところだから、いいものにしたいね。<br>\nF：そうだね。これは湿度が調節できるのが、すごくいい。値段がちょっと高いけど。<br>\nM2：まあね。でも、いいと思うよ。電気代が節約できるんだったら。<br>\nF：<b>そう？性能はほぼ変わらないんだったら、一番新しいタイプじゃなくても十分じゃない？</b><br>\nM2：<b>じゃ、そうしよう。</b><br>\n質問1：居間にはどのエアコンをつけますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nHai vợ chồng đi chọn 2 chiếc điều hòa cho phòng khách và phòng con. Nhân viên giới thiệu 4 mẫu: SA-クリーンX (mới nhất, đắt nhất), SA-クリーン7 (mẫu năm ngoái, tính năng gần y hệt X nhưng rẻ hơn chút), SA-クリーンホワイト (tiêu chuẩn, có tự vệ sinh), PG-ホワイト (tiêu chuẩn, không tự vệ sinh, rẻ nhất).<br>\nChồng muốn chọn loại tốt cho phòng khách. Vợ thấy thích tính năng chỉnh độ ẩm, nhưng thấy mẫu năm ngoái tính năng gần như không đổi mà rẻ hơn nên đề xuất: <b>\"Nếu tính năng gần như không đổi thì không cần loại mới nhất cũng đủ rồi nhỉ?\"</b> Chồng đồng ý: <b>\"Ừ, vậy chọn cái đó đi.\"</b><br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Phòng khách chọn mẫu năm ngoái có tính năng tương đương X nhưng rẻ hơn &rarr; <b>SA-クリーン 7 (Đáp án 2)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Ở phòng khách (居間) sẽ lắp chiếc điều hòa nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. SA-クリーン X (mẫu mới nhất, điều chỉnh độ ẩm, tiết kiệm điện, tự vệ sinh, giá cao nhất)<br>
+2. SA-クリーン 7 (mẫu năm ngoái, tính năng gần giống X, giá rẻ hơn chút)<br>
+3. SA-クリーンホワイト (mẫu tiêu chuẩn, giá rẻ hơn, có tự vệ sinh)<br>
+4. PG-ホワイト (mẫu tiêu chuẩn, không có tự vệ sinh, rẻ nhất)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+店で、夫婦と店員が話しています。<br>
+F：すみません。エアコンを探してるんですが。居間と子供の部屋に1つずつ置きたくて……。<br>
+M1：エアコンですね。一番おすすめしているのは、こちらの「SA-クリーンX」です。すぐに部屋が涼しくなりますし、湿度を調整する機能も付いています。お値段は一番高いですが、電気代が節約できるタイプなので、長く使うことを考えると一番経済的です。<b>また、こちらの「SA-クリーン7」は「SA-クリーンX」と機能はほぼ同じですが、去年のモデルですので、今、店に置いているものしかありません。その分、お値段は少し安くなっています。</b>スタンダードなタイプは、「SA-クリーンホワイト」と「PG-ホワイト」です。基本的な機能はそろっていて、お値段は「SA-クリーンX」や「SA-クリーン7」に比べると安くなっています。それから、SAクリーンのシリーズにはお掃除機能がついています。面倒なフィルターのお掃除を自動でしてくれる機能です。「PG-ホワイト」はその機能がついていない分、さらに安くなっています。<br>
+M2：うーん、やっぱり居間は一番長くいるところだから、いいものにしたいね。<br>
+F：そうだね。これは湿度が調節できるのが、すごくいい。値段がちょっと高いけど。<br>
+M2：まあね。でも、いいと思うよ。電気代が節約できるんだったら。<br>
+F：<b>そう？性能はほぼ変わらないんだったら、一番新しいタイプじゃなくても十分じゃない？</b><br>
+M2：<b>じゃ、そうしよう。</b>子供部屋はそんなに長くいるわけじゃないし、基本的な機能が付いていればいいよね。一番安いのにする？<br>
+F：でも、お掃除機能はほしいな。エアコンの掃除って、手間がかかって大変だから。<br>
+M2：確かにね。じゃ、これだ。<br>
+質問1：居間にはどのエアコンをつけますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại cửa hàng điện máy, hai vợ chồng và nhân viên bán hàng đang nói chuyện.<br>
+Vợ (F): "Xin lỗi, vợ chồng tôi đang tìm mua máy điều hòa. Chúng tôi muốn lắp một chiếc ở phòng khách và một chiếc ở phòng của con..."<br>
+Nhân viên (M1): "Máy điều hòa phải không ạ. Mẫu chúng tôi khuyên dùng nhất là chiếc 'SA-Clean X' này. Máy làm mát phòng tức thì và có trang bị cả tính năng điều chỉnh độ ẩm. Giá thành tuy cao nhất nhưng là dòng máy tiết kiệm điện nên nếu tính về lâu dài thì lại kinh tế nhất ạ. <b>Ngoài ra, chiếc 'SA-Clean 7' bên này có tính năng gần như giống hệt với 'SA-Clean X', nhưng vì là mẫu của năm ngoái nên hiện chỉ còn những chiếc đang trưng bày tại cửa hàng thôi. Nhờ vậy mà giá của nó rẻ hơn một chút.</b> Còn dòng tiêu chuẩn là hai mẫu 'SA-Clean White' và 'PG-White'. Cả hai đều có đầy đủ các tính năng cơ bản và giá rẻ hơn so với 'SA-Clean X' hay 'SA-Clean 7'. Thêm nữa, tất cả các mẫu thuộc dòng SA-Clean đều được trang bị tính năng tự động làm sạch màng lọc vốn rất tốn công vệ sinh. Còn mẫu 'PG-White' không có tính năng tự làm sạch đó nên giá lại càng rẻ hơn nữa."<br>
+Chồng (M2): "Ừm, phòng khách là nơi cả nhà sinh hoạt nhiều thời gian nhất nên anh muốn chọn loại thật tốt."<br>
+Vợ (F): "Đúng thế. Dòng này có tính năng điều chỉnh độ ẩm rất tuyệt, chỉ có điều giá hơi đắt một chút."<br>
+Chồng (M2): "Ừ, nhưng nếu tiết kiệm được tiền điện hằng tháng thì anh thấy cũng đáng mua đấy chứ."<br>
+Vợ (F): "<b>Thế à? Nhưng nếu hiệu năng gần như không khác gì nhau thì đâu cần phải mua mẫu mới nhất, lấy mẫu năm ngoái ('SA-Clean 7') chẳng phải là quá đủ rồi sao?</b>"<br>
+Chồng (M2): "<b>Ừ, vậy mình chốt mẫu đó cho phòng khách đi.</b> Còn phòng của con thì cháu cũng không ở trong phòng suốt nên chỉ cần có các tính năng cơ bản là được rồi nhỉ. Mình lấy chiếc rẻ nhất nhé?"<br>
+Vợ (F): "Nhưng em vẫn muốn có tính năng tự động làm sạch màng lọc cơ. Việc vệ sinh điều hòa tốn công và vất vả lắm."<br>
+Chồng (M2): "Đúng thế thật. Vậy phòng con lấy mẫu này ('SA-Clean White') nhé."<br>
+Câu hỏi 1: Hai vợ chồng sẽ lắp chiếc điều hòa nào cho phòng khách?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Phòng khách chọn mẫu năm ngoái có tính năng tương đương X nhưng rẻ hơn &rarr; <b>SA-クリーン 7 (Đáp án 2)</b>.`
         },
         {
           "id": 428,
@@ -6954,7 +7417,38 @@ window.JLPT_DATA[15] = {
             "PG-ホワイト"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Ở phòng trẻ em sẽ lắp chiếc điều hòa nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. SA-クリーン X<br>\n2. SA-クリーン 7<br>\n3. SA-クリーンホワイト<br>\n4. PG-ホワイト<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n(Nghe chung đoạn hội thoại Track 42 ở câu trên)<br>\nM2：子供部屋はそんなに長くいるわけじゃないし、基本的な機能が付いていればいいよね。一番安いのにする？<br>\nF：<b>でも、お掃除機能はほしいな。エアコンの掃除って、手間がかかって大変だから。</b><br>\nM2：<b>確かにね。じゃ、これだ。</b><br>\n質問2：子供の部屋にはどのエアコンをつけますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nChồng: \"Phòng con cũng không ở lâu lắm, chỉ cần tính năng cơ bản là được rồi. Lấy cái rẻ nhất (PG-ホワイト) nhé?\"<br>\nVợ: \"<b>Nhưng em muốn có chức năng tự vệ sinh cơ. Vệ sinh điều hòa tốn công và vất vả lắm.</b>\"<br>\nChồng: \"<b>Đúng thật. Vậy lấy cái này nhé.</b>\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Loại tiêu chuẩn giá hợp lý nhưng phải có chức năng tự vệ sinh (dòng SA-クリーン) &rarr; <b>SA-クリーンホワイト (Đáp án 3)</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Ở phòng trẻ em sẽ lắp chiếc điều hòa nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. SA-クリーン X<br>
+2. SA-クリーン 7<br>
+3. SA-クリーンホワイト<br>
+4. PG-ホワイト<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+店で、夫婦と店員が話しています。<br>
+F：すみません。エアコンを探してるんですが。居間と子供の部屋に1つずつ置きたくて……。<br>
+M1：エアコンですね。一番おすすめしているのは、こちらの「SA-クリーンX」です。すぐに部屋が涼しくなりますし、湿度を調整する機能も付いています。お値段は一番高いですが、電気代が節約できるタイプなので、長く使うことを考えると一番経済的です。また、こちらの「SA-クリーン7」は「SA-クリーンX」と機能はほぼ同じですが、去年のモデルですので、今、店に置いているものしかありません。その分、お値段は少し安くなっています。<b>スタンダードなタイプは、「SA-クリーンホワイト」と「PG-ホワイト」です。基本的な機能はそろっていて、お値段は「SA-クリーンX」や「SA-クリーン7」に比べると安くなっています。それから、SAクリーンのシリーズにはお掃除機能がついています。面倒なフィルターのお掃除を自動でしてくれる機能です。</b>「PG-ホワイト」はその機能がついていない分、さらに安くなっています。<br>
+M2：うーん、やっぱり居間は一番長くいるところだから、いいものにしたいね。<br>
+F：そうだね。これは湿度が調節できるのが、すごくいい。値段がちょっと高いけど。<br>
+M2：まあね。でも、いいと思うよ。電気代が節約できるんだったら。<br>
+F：そう？性能はほぼ変わらないんだったら、一番新しいタイプじゃなくても十分じゃない？<br>
+M2：じゃ、そうしよう。<b>子供部屋はそんなに長くいるわけじゃないし、基本的な機能が付いていればいいよね。一番安いのにする？</b><br>
+F：<b>でも、お掃除機能はほしいな。エアコンの掃除って、手間がかかって大変だから。</b><br>
+M2：<b>確かにね。じゃ、これだ。</b><br>
+質問2：子供の部屋にはどのエアコンをつけますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại cửa hàng điện máy, hai vợ chồng và nhân viên bán hàng đang nói chuyện.<br>
+Vợ (F): "Xin lỗi, vợ chồng tôi đang tìm mua máy điều hòa. Chúng tôi muốn lắp một chiếc ở phòng khách và một chiếc ở phòng của con..."<br>
+Nhân viên (M1): "Máy điều hòa phải không ạ. Mẫu chúng tôi khuyên dùng nhất là chiếc 'SA-Clean X' này. Máy làm mát phòng tức thì và có trang bị cả tính năng điều chỉnh độ ẩm. Giá thành tuy cao nhất nhưng là dòng máy tiết kiệm điện nên nếu tính về lâu dài thì lại kinh tế nhất ạ. Ngoài ra, chiếc 'SA-Clean 7' bên này có tính năng gần như giống hệt với 'SA-Clean X', nhưng vì là mẫu của năm ngoái nên hiện chỉ còn những chiếc đang trưng bày tại cửa hàng thôi. Nhờ vậy mà giá của nó rẻ hơn một chút. <b>Còn dòng tiêu chuẩn là hai mẫu 'SA-Clean White' và 'PG-White'. Cả hai đều có đầy đủ các tính năng cơ bản và giá rẻ hơn so với 'SA-Clean X' hay 'SA-Clean 7'. Thêm nữa, tất cả các mẫu thuộc dòng SA-Clean đều được trang bị tính năng tự động làm sạch màng lọc vốn rất tốn công vệ sinh.</b> Còn mẫu 'PG-White' không có tính năng tự làm sạch đó nên giá lại càng rẻ hơn nữa."<br>
+Chồng (M2): "Ừm, phòng khách là nơi cả nhà sinh hoạt nhiều thời gian nhất nên anh muốn chọn loại thật tốt."<br>
+Vợ (F): "Đúng thế. Dòng này có tính năng điều chỉnh độ ẩm rất tuyệt, chỉ có điều giá hơi đắt một chút."<br>
+Chồng (M2): "Ừ, nhưng nếu tiết kiệm được tiền điện hằng tháng thì anh thấy cũng đáng mua đấy chứ."<br>
+Vợ (F): "Thế à? Nhưng nếu hiệu năng gần như không khác gì nhau thì đâu cần phải mua mẫu mới nhất, lấy mẫu năm ngoái ('SA-Clean 7') chẳng phải là quá đủ rồi sao?"<br>
+Chồng (M2): "Ừ, vậy mình chốt mẫu đó cho phòng khách đi. <b>Còn phòng của con thì cháu cũng không ở trong phòng suốt nên chỉ cần có các tính năng cơ bản là được rồi nhỉ. Mình lấy chiếc rẻ nhất nhé?</b>"<br>
+Vợ (F): "<b>Nhưng em vẫn muốn có tính năng tự động làm sạch màng lọc cơ. Việc vệ sinh điều hòa tốn công và vất vả lắm.</b>"<br>
+Chồng (M2): "<b>Đúng thế thật. Vậy phòng con lấy mẫu này ('SA-Clean White') nhé.</b>"<br>
+Câu hỏi 2: Hai vợ chồng sẽ lắp chiếc điều hòa nào cho phòng của con?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Loại tiêu chuẩn giá hợp lý nhưng phải có chức năng tự vệ sinh (dòng SA-クリーン) &rarr; <b>SA-クリーンホワイト (Đáp án 3)</b>.`
         }
       ]
     }

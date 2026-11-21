@@ -3531,7 +3531,50 @@ window.JLPT_DATA[8] = {
             "イ　ウ　エ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu bé sau đây sẽ cho những món đồ nào vào trong cặp/túi xách?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　イ　ウ: Thuốc, điện thoại di động, sạc pin<br>\n2. ア　イ　エ: Thuốc, điện thoại di động, máy ảnh<br>\n3. ア　ウ　エ: Thuốc, sạc pin, máy ảnh<br>\n4. イ　ウ　エ: Điện thoại di động, sạc pin, máy ảnh<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n母親と中学生の男の子が、明日の旅行の準備について話しています。男の子はこのあとカバンに何を入れますか。<br>\nF：もう明日の準備は終わった？忘れ物しないように、よく確認するのよ。薬は入れた？<br>\nM：うん、2種類入れたよ。<br>\nF：あっそう。乗り物酔いの薬も？<br>\nM：それは持って行かなくても大丈夫だよ。<br>\nF：本当にいいの？<br>\nM：<b>じゃあ、念のため（薬を入れる）</b>。<br>\nF：そうね。あら、携帯。机の上なんかに置いとくと忘れちゃうわよ。<b>今日入れなさい</b>。<br>\nM：<b>うん（携帯を入れる）</b>。<br>\nF：充電器は持って行かないの？<br>\nM：2泊3日だからね。<br>\nF：そう。<br>\nF：あら、ここにカメラが出てるけど。<br>\nM：<b>あ、明日持って行こうと思って、お父さんから借りてきたの忘れてた（カメラを入れる）</b>。<br>\nF：もう、しっかりしなさい。<br>\n男の子はこのあとカバンに何を入れますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười mẹ và cậu con trai học cấp 2 đang nói chuyện chuẩn bị đồ cho chuyến du lịch ngày mai. Cậu bé sau đây sẽ cho những món đồ nào vào cặp?<br>\nMẹ: \"Chuẩn bị cho ngày mai xong chưa con? Kiểm tra thật kỹ kẻo quên đồ đấy nhé. Thuốc đã cho vào chưa?\"<br>\nCon: \"Dạ, con cho 2 loại vào rồi ạ.\"<br>\nMẹ: \"Thế à. Cả thuốc chống say xe nữa chứ?\"<br>\nCon: \"Cái đó không mang chắc cũng không sao đâu mẹ.\"<br>\nMẹ: \"Thật không đấy con?\"<br>\nCon: \"<b>Vậy để chắc ăn con mang thêm thuốc say xe nhé (Thêm thuốc: ア)</b>.\"<br>\nMẹ: \"Ừ. Kìa, điện thoại kìa. Để trên mặt bàn thế kia thể nào cũng quên cho xem. <b>Cho vào cặp ngay hôm nay đi con</b>.\"<br>\nCon: \"<b>Dạ vâng (Thêm điện thoại: イ)</b>.\"<br>\nMẹ: \"Sạc pin không mang theo à con?\"<br>\nCon: \"Chuyến đi 2 ngày 3 đêm mà mẹ (đã sạc đầy hoặc không mang theo/để ở nhà).\"<br>\nMẹ: \"Ừ.\"<br>\nMẹ: \"Kìa, có máy ảnh để ở đây này.\"<br>\nCon: \"<b>A, con định mai mang đi nên mượn của bố mà suýt quên mất (Thêm máy ảnh: エ)</b>.\"<br>\nMẹ: \"Thật là, chú ý vào chứ con!\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thuốc chống say xe (ア: 薬): Sau khi mẹ nhắc thì cậu bé quyết định mang phòng hờ &rarr; Cho vào cặp.<br>\n- Điện thoại (イ: 携帯電話): Mẹ bảo cất vào cặp ngay kẻo quên &rarr; Cho vào cặp.<br>\n- Sạc pin (ウ: 充電器): Cậu bé không cho vào cặp.<br>\n- Máy ảnh (エ: カメラ): Cậu mượn của bố và cất vào cặp ngay &rarr; Cho vào cặp.<br>\n- Như vậy các món đồ cậu bé cho vào cặp sau cuộc nói chuyện là <b>ア (Thuốc), イ (Điện thoại), エ (Máy ảnh)</b> &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Cậu bé sau đây sẽ cho những món đồ nào vào trong cặp/túi xách?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. ア　イ　ウ: Thuốc, điện thoại di động, sạc pin<br>
+2. ア　イ　エ: Thuốc, điện thoại di động, máy ảnh<br>
+3. ア　ウ　エ: Thuốc, sạc pin, máy ảnh<br>
+4. イ　ウ　エ: Điện thoại di động, sạc pin, máy ảnh<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+母親と中学生の男の子が、明日の旅行の準備について話しています。男の子はこのあとカバンに何を入れますか。<br>
+F：もう明日の準備は終わった？忘れ物しないように、よく確認するのよ。薬は入れた？<br>
+M：うん、2種類入れたよ。<br>
+F：あっそう。乗り物酔いの薬も？<br>
+M：それは持って行かなくても大丈夫だよ。<br>
+F：本当にいいの？<br>
+M：<b>じゃあ、念のため。</b><br>
+F：そうね。あら、携帯。机の上なんかに置いとくと忘れちゃうわよ。<b>今日入れなさい。</b><br>
+M：<b>うん。</b><br>
+F：充電器は持って行かないの？<br>
+M：2泊3日だからね。<br>
+F：そう。あら、ここにカメラが出てるけど。<br>
+M：<b>あ、明日持って行こうと思って、お父さんから借りてきたの忘れてた。</b><br>
+F：もう、しっかりしなさい。<br>
+男の子はこのあとカバンに何を入れますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người mẹ và cậu con trai học cấp 2 đang nói chuyện chuẩn bị đồ cho chuyến du lịch ngày mai. Cậu bé sau đây sẽ cho những món đồ nào vào cặp?<br>
+Mẹ: "Chuẩn bị cho ngày mai xong chưa con? Kiểm tra thật kỹ kẻo quên đồ đấy nhé. Thuốc đã cho vào chưa?"<br>
+Con: "Dạ, con cho 2 loại vào rồi ạ."<br>
+Mẹ: "Thế à. Cả thuốc chống say xe nữa chứ?"<br>
+Con: "Cái đó không mang chắc cũng không sao đâu mẹ."<br>
+Mẹ: "Thật không đấy con?"<br>
+Con: "<b>Vậy để chắc ăn con mang thêm thuốc say xe nhé (Thêm thuốc: ア)</b>."<br>
+Mẹ: "Ừ. Kìa, điện thoại kìa. Để trên mặt bàn thế kia thể nào cũng quên cho xem. <b>Cho vào cặp ngay hôm nay đi con</b>."<br>
+Con: "<b>Dạ vâng (Thêm điện thoại: イ)</b>."<br>
+Mẹ: "Sạc pin không mang theo à con?"<br>
+Con: "Chuyến đi 2 ngày 3 đêm mà mẹ (đã sạc đầy hoặc không mang theo/để ở nhà)."<br>
+Mẹ: "Ừ."<br>
+Mẹ: "Kìa, có máy ảnh để ở đây này."<br>
+Con: "<b>A, con định mai mang đi nên mượn của bố mà suýt quên mất (Thêm máy ảnh: エ)</b>."<br>
+Mẹ: "Thật là, chú ý vào chứ con!"<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Thuốc chống say xe (ア: 薬): Sau khi mẹ nhắc thì cậu bé quyết định mang phòng hờ &rarr; Cho vào cặp.<br>
+- Điện thoại (イ: 携帯電話): Mẹ bảo cất vào cặp ngay kẻo quên &rarr; Cho vào cặp.<br>
+- Sạc pin (ウ: 充電器): Cậu bé không cho vào cặp.<br>
+- Máy ảnh (エ: カメラ): Cậu mượn của bố và cất vào cặp ngay &rarr; Cho vào cặp.<br>
+- Như vậy các món đồ cậu bé cho vào cặp sau cuộc nói chuyện là <b>ア (Thuốc), イ (Điện thoại), エ (Máy ảnh)</b> &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 126,
@@ -3566,7 +3609,51 @@ window.JLPT_DATA[8] = {
             "イ　エ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông phải mua những nguyên liệu nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　オ: Bánh mì (パン) và Phô mai (チーズ)<br>\n2. ア　イ　オ: Bánh mì, bơ, phô mai<br>\n3. ア　ウ　エ: Bánh mì, trứng, rau<br>\n4. イ　エ: Bơ và rau<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人と女の人が話しています。男の人は何を買わなければなりませんか。<br>\nM：明日の弁当、サンドイッチ作るんだよね。何買ってくればいい？<br>\nF：ええと、パンは8枚あるからいいでしょう？<br>\nM：え？でも4人分でしょう？足りる？<br>\nF：半分に切ればいいかなって思ったけど、<b>じゃ、念のため追加しようか（パンを買う：ア）</b>。それから、バターはあるし……。<br>\nM：あ、俺、今朝バター使ったよ。もうあまり残ってなかったけど。<br>\nF：そう。じゃ、必要だね。それから、卵は3つあるからいいよね。<br>\nM：うん。<br>\nM：ねえ、野菜は何も入れないの？<br>\nF：うーん、そうだね。なんか緑の物が入ると、見た目がよくなるね。じゃ、入れようか。確か冷蔵庫にあったと思う。<br>\nM：そう。<br>\nF：<b>ねえ、野菜を入れるなら、バターの代わりにチーズ入れたいんだけど</b>。<br>\nM：いいよ。<br>\nF：<b>じゃ、バターはいいから、チーズお願い（チーズを買う：オ）</b>。<br>\nM：わかった。<br>\n男の人は何を買わなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười đàn ông và người phụ nữ đang nói chuyện. Người đàn ông phải mua những nguyên liệu nào?<br>\nNam: \"Cơm hộp ngày mai là làm bánh mì kẹp sandwich nhỉ. Anh cần mua những gì về đây?\"<br>\nNữ: \"Để xem nào, bánh mì gối có 8 lát rồi nên chắc đủ nhỉ?\"<br>\nNam: \"Ủa? Nhưng phần cho 4 người cơ mà? Có đủ không đấy?\"<br>\nNữ: \"Em định cắt đôi lát bánh ra, nhưng <b>thôi để chắc ăn anh mua thêm bánh mì nhé (Mua bánh mì: ア)</b>. Với lại bơ thì có rồi...\"<br>\nNam: \"À, sáng nay anh vừa dùng bơ xong, trong hộp chẳng còn lại mấy đâu.\"<br>\nNữ: \"Thế à. Vậy thì phải mua rồi. Còn trứng thì có 3 quả rồi nên thôi nhé.\"<br>\nNam: \"Ừ.\"<br>\nNam: \"Này, không cho rau vào à em?\"<br>\nNữ: \"Ừm, đúng rồi nhỉ. Có chút màu xanh vào trông sẽ đẹp mắt hơn. Thế cho rau vào nhé. Hình như trong tủ lạnh vẫn còn đấy.\"<br>\nNam: \"Ừ.\"<br>\nNữ: \"<b>Này, nếu cho rau thì thay vì phết bơ, em muốn kẹp phô mai cơ</b>.\"<br>\nNam: \"Được thôi.\"<br>\nNữ: \"<b>Vậy thì không cần mua bơ nữa, anh mua phô mai giúp em nhé (Mua phô mai: オ)</b>.\"<br>\nNam: \"Được rồi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bánh mì (ア: パン): Ban đầu tưởng đủ nhưng làm cho 4 người nên quyết định mua bổ sung &rarr; Phải mua (ア).<br>\n- Bơ (イ: バター): Ban đầu định mua vì hết, nhưng sau đó đổi ý không dùng bơ nữa mà dùng phô mai &rarr; Không mua.<br>\n- Trứng (ウ: 卵): Trong tủ lạnh còn 3 quả &rarr; Không mua.<br>\n- Rau (エ: 野菜): Trong tủ lạnh có sẵn &rarr; Không mua.<br>\n- Phô mai (オ: チーズ): Quyết định kẹp thay cho bơ &rarr; Phải mua (オ).<br>\n- Vậy những thứ cần mua là <b>ア (Bánh mì) và オ (Phô mai)</b> &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Người đàn ông phải mua những nguyên liệu nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. ア　オ: Bánh mì (パン) và Phô mai (チーズ)<br>
+2. ア　イ　オ: Bánh mì, bơ, phô mai<br>
+3. ア　ウ　エ: Bánh mì, trứng, rau<br>
+4. イ　エ: Bơ và rau<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男の人と女の人が話しています。男の人は何を買わなければなりませんか。<br>
+M：明日の弁当、サンドイッチ作るんだよね。何買ってくればいい？<br>
+F：ええと、パンは8枚あるからいいでしょう？<br>
+M：え？でも4人分でしょう？足りる？<br>
+F：半分に切ればいいかなって思ったけど、<b>じゃ、念のため追加しようか。</b>それから、バターはあるし……。<br>
+M：あ、俺、今朝バター使ったよ。もうあまり残ってなかったけど。<br>
+F：そう。じゃ、必要だね。それから、卵は3つあるからいいよね。<br>
+M：うん。ねえ、野菜は何も入れないの？<br>
+F：うーん、そうだね。なんか緑の物が入ると、見た目がよくなるね。じゃ、入れようか。確か冷蔵庫にあったと思う。<br>
+M：そう。<br>
+F：<b>ねえ、野菜を入れるなら、バターの代わりにチーズ入れたいんだけど。</b><br>
+M：いいよ。<br>
+F：<b>じゃ、バターはいいから、チーズお願い。</b><br>
+M：わかった。<br>
+男の人は何を買わなければなりませんか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người đàn ông và người phụ nữ đang nói chuyện. Người đàn ông phải mua những nguyên liệu nào?<br>
+Nam: "Cơm hộp ngày mai là làm bánh mì kẹp sandwich nhỉ. Anh cần mua những gì về đây?"<br>
+Nữ: "Để xem nào, bánh mì gối có 8 lát rồi nên chắc đủ nhỉ?"<br>
+Nam: "Ủa? Nhưng phần cho 4 người cơ mà? Có đủ không đấy?"<br>
+Nữ: "Em định cắt đôi lát bánh ra, nhưng <b>thôi để chắc ăn anh mua thêm bánh mì nhé (Mua bánh mì: ア)</b>. Với lại bơ thì có rồi..."<br>
+Nam: "À, sáng nay anh vừa dùng bơ xong, trong hộp chẳng còn lại mấy đâu."<br>
+Nữ: "Thế à. Vậy thì phải mua rồi. Còn trứng thì có 3 quả rồi nên thôi nhé."<br>
+Nam: "Ừ."<br>
+Nam: "Này, không cho rau vào à em?"<br>
+Nữ: "Ừm, đúng rồi nhỉ. Có chút màu xanh vào trông sẽ đẹp mắt hơn. Thế cho rau vào nhé. Hình như trong tủ lạnh vẫn còn đấy."<br>
+Nam: "Ừ."<br>
+Nữ: "<b>Này, nếu cho rau thì thay vì phết bơ, em muốn kẹp phô mai cơ</b>."<br>
+Nam: "Được thôi."<br>
+Nữ: "<b>Vậy thì không cần mua bơ nữa, anh mua phô mai giúp em nhé (Mua phô mai: オ)</b>."<br>
+Nam: "Được rồi."<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bánh mì (ア: パン): Ban đầu tưởng đủ nhưng làm cho 4 người nên quyết định mua bổ sung &rarr; Phải mua (ア).<br>
+- Bơ (イ: バター): Ban đầu định mua vì hết, nhưng sau đó đổi ý không dùng bơ nữa mà dùng phô mai &rarr; Không mua.<br>
+- Trứng (ウ: 卵): Trong tủ lạnh còn 3 quả &rarr; Không mua.<br>
+- Rau (エ: 野菜): Trong tủ lạnh có sẵn &rarr; Không mua.<br>
+- Phô mai (オ: チーズ): Quyết định kẹp thay cho bơ &rarr; Phải mua (オ).<br>
+- Vậy những thứ cần mua là <b>ア (Bánh mì) và オ (Phô mai)</b> &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 128,
@@ -3583,7 +3670,46 @@ window.JLPT_DATA[8] = {
             "行動マニュアルを配る"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 備蓄品を買う: Mua sắm đồ dự trữ ứng phó thảm họa<br>\n2. 会議の議案をまとめる: Tổng hợp nghị án cho cuộc họp<br>\n3. 資料を取り寄せる: Đặt / lấy tài liệu hướng dẫn mới nhất về<br>\n4. 行動マニュアルを配る: Phát sổ tay hướng dẫn hành động cho mọi người<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が会社の地震対策について話しています。男の人はこのあとまず何をしますか。<br>\nF：ねえ、田中さん、この間お願いした地震対策なんだけど、水や薬はまだ買ってないよね？<br>\nM：ええ、備蓄品の購入については、予算案を作成したところです。<br>\nF：よかった。備蓄品は会議で承認されてから購入することになってるから、会議の議案に入れといてくれる？<br>\nM：はい、それも入れてまとめておきます。<br>\nF：あと、地震が発生したあとの行動マニュアルだけど、どこまで進んでる？<br>\nM：はい、区が作成した資料をもとに、今、案を練っています。<br>\nF：そう。ちょっとその資料を見せてくれる？<br>\nM：これですけど。<br>\nF：あら、これ、5年前に発行されたものじゃない。<b>もっと最近のがあるはずだから、それに従わないと</b>。<br>\nM：<b>はい、すぐ手配します（最新の資料を取り寄せる）</b>。<br>\nF：マニュアルは来週の会議で検討しなきゃいけないんだから、まとまったら会議の前に配布しといてくれる？議案はそのあとでいいから。<br>\nM：はい。<br>\n男の人はこのあとまず何をしますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười phụ nữ và người đàn ông đang thảo luận về phương án đối phó động đất của công ty. Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br>\nNữ: \"Này anh Tanaka, kế hoạch đối phó động đất tôi nhờ hôm nọ ấy, nước và thuốc men anh vẫn chưa mua đúng không?\"<br>\nNam: \"Vâng, về việc mua đồ dự trữ thì tôi vừa mới lập xong bản dự toán ngân sách thôi ạ.\"<br>\nNữ: \"Tốt quá. Đồ dự trữ phải chờ cuộc họp thông qua phê duyệt mới được mua, nên anh hãy đưa vào nghị án cuộc họp nhé.\"<br>\nNam: \"Vâng, tôi sẽ đưa vào và tổng hợp lại ạ.\"<br>\nNữ: \"Còn cuốn sổ tay hướng dẫn hành vi khi xảy ra động đất thì tiến hành đến đâu rồi?\"<br>\nNam: \"Dạ, tôi đang dựa trên tài liệu do ủy ban quận phát hành để lên phương án ạ.\"<br>\nNữ: \"Thế à, cho tôi xem tập tài liệu đó một chút được không?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nNữ: \"Ơ kìa, tài liệu này phát hành từ 5 năm trước rồi còn gì. <b>Chắc chắn phải có bản mới gần đây hơn chứ, mình phải làm theo bản mới nhất</b>.\"<br>\nNam: \"<b>Vâng, tôi sẽ liên hệ lấy tài liệu mới về ngay ạ</b>.\"<br>\nNữ: \"Cuốn sổ tay hướng dẫn phải được thảo luận trong cuộc họp tuần tới, nên khi tổng hợp xong anh phát trước cuộc họp giúp tôi nhé. Còn nghị án thì để sau đó cũng được.\"<br>\nNam: \"Vâng.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Mua đồ dự trữ (備蓄品を買う) phải chờ cuộc họp duyệt mới mua &rarr; Chưa làm ngay.<br>\n- Phát sổ tay (行動マニュアルを配る) phải đợi soạn thảo xong mới phát trước cuộc họp tuần tới.<br>\n- Nghị án (会議の議案をまとめる) được người phụ nữ dặn \"そのあとでいいから\" (để sau cũng được).<br>\n- Người phụ nữ phát hiện tài liệu quận đang dùng đã cũ từ 5 năm trước và yêu cầu lấy bản mới nhất. Người nam nhận lệnh làm ngay: \"はい、すぐ手配します\" (Vâng, tôi sẽ liên hệ lấy tài liệu mới ngay) &rarr; Việc làm ngay trước tiên là <b>資料を取り寄せる (Đặt/lấy tài liệu mới về)</b> &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 備蓄品を買う: Mua sắm đồ dự trữ ứng phó thảm họa<br>
+2. 会議の議案をまとめる: Tổng hợp nghị án cho cuộc họp<br>
+3. 資料を取り寄せる: Đặt / lấy tài liệu hướng dẫn mới nhất về<br>
+4. 行動マニュアルを配る: Phát sổ tay hướng dẫn hành động cho mọi người<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女の人と男の人が会社の地震対策について話しています。男の人はこのあとまず何をしますか。<br>
+F：ねえ、田中さん、この間お願いした地震対策なんだけど、水や薬はまだ買ってないよね？<br>
+M：ええ、備蓄品の購入については、予算案を作成したところです。<br>
+F：よかった。備蓄品は会議で承認されてから購入することになってるから、会議の議案に入れといてくれる？<br>
+M：はい、それも入れてまとめておきます。<br>
+F：あと、地震が発生したあとの行動マニュアルだけど、どこまで進んでる？<br>
+M：はい、区が作成した資料をもとに、今、案を練っています。<br>
+F：そう。ちょっとその資料を見せてくれる？<br>
+M：これですけど。<br>
+F：あら、これ、5年前に発行されたものじゃない。<b>もっと最近のがあるはずだから、それに従わないと。</b><br>
+M：<b>はい、すぐ手配します。</b><br>
+F：マニュアルは来週の会議で検討しなきゃいけないんだから、まとまったら会議の前に配布しといてくれる？議案はそのあとでいいから。<br>
+M：はい。<br>
+男の人はこのあとまず何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người phụ nữ và người đàn ông đang thảo luận về phương án đối phó động đất của công ty. Người đàn ông ngay sau đây trước tiên sẽ làm gì?<br>
+Nữ: "Này anh Tanaka, kế hoạch đối phó động đất tôi nhờ hôm nọ ấy, nước và thuốc men anh vẫn chưa mua đúng không?"<br>
+Nam: "Vâng, về việc mua đồ dự trữ thì tôi vừa mới lập xong bản dự toán ngân sách thôi ạ."<br>
+Nữ: "Tốt quá. Đồ dự trữ phải chờ cuộc họp thông qua phê duyệt mới được mua, nên anh hãy đưa vào nghị án cuộc họp nhé."<br>
+Nam: "Vâng, tôi sẽ đưa vào và tổng hợp lại ạ."<br>
+Nữ: "Còn cuốn sổ tay hướng dẫn hành vi khi xảy ra động đất thì tiến hành đến đâu rồi?"<br>
+Nam: "Dạ, tôi đang dựa trên tài liệu do ủy ban quận phát hành để lên phương án ạ."<br>
+Nữ: "Thế à, cho tôi xem tập tài liệu đó một chút được không?"<br>
+Nam: "Dạ đây ạ."<br>
+Nữ: "Ơ kìa, tài liệu này phát hành từ 5 năm trước rồi còn gì. <b>Chắc chắn phải có bản mới gần đây hơn chứ, mình phải làm theo bản mới nhất</b>."<br>
+Nam: "<b>Vâng, tôi sẽ liên hệ lấy tài liệu mới về ngay ạ</b>."<br>
+Nữ: "Cuốn sổ tay hướng dẫn phải được thảo luận trong cuộc họp tuần tới, nên khi tổng hợp xong anh phát trước cuộc họp giúp tôi nhé. Còn nghị án thì để sau đó cũng được."<br>
+Nam: "Vâng."<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Mua đồ dự trữ (備蓄品を買う) phải chờ cuộc họp duyệt mới mua &rarr; Chưa làm ngay.<br>
+- Phát sổ tay (行動マニュアルを配る) phải đợi soạn thảo xong mới phát trước cuộc họp tuần tới.<br>
+- Nghị án (会議の議案をまとめる) được người phụ nữ dặn "そのあとでいいから" (để sau cũng được).<br>
+- Người phụ nữ phát hiện tài liệu quận đang dùng đã cũ từ 5 năm trước và yêu cầu lấy bản mới nhất. Người nam nhận lệnh làm ngay: "はい、すぐ手配します" (Vâng, tôi sẽ liên hệ lấy tài liệu mới ngay) &rarr; Việc làm ngay trước tiên là <b>資料を取り寄せる (Đặt/lấy tài liệu mới về)</b> &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 129,
@@ -3601,7 +3727,50 @@ window.JLPT_DATA[8] = {
             "イ　オ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Cậu học sinh từ bây giờ sẽ phải chuẩn bị lại/làm những giấy tờ nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. ア　ウ　エ: Đơn nhập học, Giấy chứng nhận điểm số, Bản trình bày nguyện vọng<br>\n2. ア　エ: Đơn nhập học, Bản trình bày nguyện vọng<br>\n3. イ　ウ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy chứng nhận điểm số, Giấy khám sức khỏe<br>\n4. イ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy khám sức khỏe<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n高校生の男の子と先生が、大学の入学試験に必要な書類について話しています。男の子はこれからどの書類を準備しなければなりませんか。<br>\nM：先生、すみません。大学に提出する書類の確認を一緒にしていただきますか。<br>\nF：じゃあ、ちょっと見せて。まず、入学願書は？<br>\nM：これです。<br>\nF：<b>あら、書き間違いが随分多いね。もう一度きれいに書き直して（入学願書：ア）</b>。あと、卒業見込み証明書、準備できてる？<br>\nM：はい、ここにあります。<br>\nF：うん、いいね。それから、成績証明書。これは封筒に入っている書類だけど……あ、封筒開けちゃったの？<b>こういうのは開けたら書類としての効果がなくなっちゃうんだよ。もう一回作ってもらわなきゃ（成績証明書：ウ）</b>。<br>\nM：えっ、そうだったんですか。<br>\nF：<b>志望理由書は、卒業後の計画のところをもっと具体的に考えて書き直したほうがいいね（志望理由書：エ）</b>。<br>\nM：分かりました。<br>\nF：健康診断書は病院で作ってもらって……。<br>\nM：はい、それは昨日行ってきました。<br>\nF：そう、それなら問題ないね。じゃ、必要なものをすぐに準備してね。<br>\nM：はい。<br>\n男の子はこれからどの書類を準備しなければなりませんか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nMột bạn nam sinh cấp 3 và cô giáo đang trao đổi về các giấy tờ cần thiết cho kỳ thi tuyển sinh đại học. Bạn nam sinh từ bây giờ sẽ phải chuẩn bị lại những giấy tờ nào?<br>\nNam: \"Thưa cô, cô kiểm tra giúp em các giấy tờ nộp cho trường đại học với ạ.\"<br>\nCô: \"Được rồi, đưa cô xem nào. Trước hết, đơn đăng ký dự thi đâu em?\"<br>\nNam: \"Dạ đây ạ.\"<br>\nCô: \"<b>Trời ơi, viết sai nhiều chỗ thế này em. Phải viết lại sạch đẹp lần nữa nhé (Đơn đăng ký: ア)</b>. Tiếp theo, giấy chứng nhận tốt nghiệp tạm thời chuẩn bị xong chưa em?\"<br>\nNam: \"Dạ có ở đây rồi ạ.\"<br>\nCô: \"Ừ, được rồi. Tiếp đến là bảng điểm. Bảng điểm để trong phong bì niêm phong mà... Ơ, em bóc phong bì ra rồi à? <b>Những giấy tờ niêm phong thế này bóc ra là mất giá trị hiệu lực đấy em. Phải xin cấp lại lần nữa rồi (Bảng điểm: ウ)</b>.\"<br>\nNam: \"Hả, thế ạ cô?\"<br>\nCô: \"<b>Còn bài trình bày lý do nguyện vọng, phần kế hoạch sau khi tốt nghiệp em cần suy nghĩ cụ thể hơn rồi viết lại nhé (Lý do nguyện vọng: エ)</b>.\"<br>\nNam: \"Dạ em hiểu rồi ạ.\"<br>\nCô: \"Giấy khám sức khỏe thì đi bệnh viện khám...\"<br>\nNam: \"Dạ cái đó hôm qua em đi khám xong rồi ạ.\"<br>\nCô: \"Thế thì ổn rồi. Giờ em mau chuẩn bị lại những giấy tờ cần thiết nhé.\"<br>\nNam: \"Vâng ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Giấy chứng nhận tốt nghiệp tạm thời (イ) và Giấy khám sức khỏe (オ) đã đạt yêu cầu &rarr; Không cần làm lại.<br>\n- Các giấy tờ bắt buộc phải chuẩn bị lại:<br>\n  + <b>ア (入学願書 - Đơn dự thi)</b>: Viết sai nhiều, cô bảo viết lại.<br>\n  + <b>ウ (成績証明書 - Bảng điểm)</b>: Đã lỡ bóc niêm phong phong bì nên mất hiệu lực, phải xin cấp lại.<br>\n  + <b>エ (志望理由書 - Bản lý do nguyện vọng)</b>: Chưa đủ cụ thể, cô bảo viết lại.<br>\n- Do đó các giấy tờ cần chuẩn bị lại là <b>ア, ウ, エ</b> &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Cậu học sinh từ bây giờ sẽ phải chuẩn bị lại/làm những giấy tờ nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. ア　ウ　エ: Đơn nhập học, Giấy chứng nhận điểm số, Bản trình bày nguyện vọng<br>
+2. ア　エ: Đơn nhập học, Bản trình bày nguyện vọng<br>
+3. イ　ウ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy chứng nhận điểm số, Giấy khám sức khỏe<br>
+4. イ　オ: Giấy chứng nhận tốt nghiệp (dự kiến), Giấy khám sức khỏe<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+高校生の男の子と先生が、大学の入学試験に必要な書類について話しています。男の子はこれからどの書類を準備しなければなりませんか。<br>
+M：先生、すみません。大学に提出する書類の確認を一緒にしていただきますか。<br>
+F：じゃあ、ちょっと見せて。まず、入学願書は？<br>
+M：これです。<br>
+F：<b>あら、書き間違いが随分多いね。もう一度きれいに書き直して。</b>あと、卒業見込み証明書、準備できてる？<br>
+M：はい、ここにあります。<br>
+F：うん、いいね。それから、成績証明書。これは封筒に入っている書類だけど……あ、封筒開けちゃったの？<b>こういうのは開けたら書類としての効果がなくなっちゃうんだよ。もう一回作ってもらわなきゃ。</b><br>
+M：えっ、そうだったんですか。<br>
+F：<b>志望理由書は、卒業後の計画のところをもっと具体的に考えて書き直したほうがいいね。</b><br>
+M：分かりました。<br>
+F：健康診断書は病院で作ってもらって……。<br>
+M：はい、それは昨日行ってきました。<br>
+F：そう、それなら問題ないね。じゃ、必要なものをすぐに準備してね。<br>
+M：はい。<br>
+男の子はこれからどの書類を準備しなければなりませんか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Một bạn nam sinh cấp 3 và cô giáo đang trao đổi về các giấy tờ cần thiết cho kỳ thi tuyển sinh đại học. Bạn nam sinh từ bây giờ sẽ phải chuẩn bị lại những giấy tờ nào?<br>
+Nam: "Thưa cô, cô kiểm tra giúp em các giấy tờ nộp cho trường đại học với ạ."<br>
+Cô: "Được rồi, đưa cô xem nào. Trước hết, đơn đăng ký dự thi đâu em?"<br>
+Nam: "Dạ đây ạ."<br>
+Cô: "<b>Trời ơi, viết sai nhiều chỗ thế này em. Phải viết lại sạch đẹp lần nữa nhé (Đơn đăng ký: ア)</b>. Tiếp theo, giấy chứng nhận tốt nghiệp tạm thời chuẩn bị xong chưa em?"<br>
+Nam: "Dạ có ở đây rồi ạ."<br>
+Cô: "Ừ, được rồi. Tiếp đến là bảng điểm. Bảng điểm để trong phong bì niêm phong mà... Ơ, em bóc phong bì ra rồi à? <b>Những giấy tờ niêm phong thế này bóc ra là mất giá trị hiệu lực đấy em. Phải xin cấp lại lần nữa rồi (Bảng điểm: ウ)</b>."<br>
+Nam: "Hả, thế ạ cô?"<br>
+Cô: "<b>Còn bài trình bày lý do nguyện vọng, phần kế hoạch sau khi tốt nghiệp em cần suy nghĩ cụ thể hơn rồi viết lại nhé (Lý do nguyện vọng: エ)</b>."<br>
+Nam: "Dạ em hiểu rồi ạ."<br>
+Cô: "Giấy khám sức khỏe thì đi bệnh viện khám..."<br>
+Nam: "Dạ cái đó hôm qua em đi khám xong rồi ạ."<br>
+Cô: "Thế thì ổn rồi. Giờ em mau chuẩn bị lại những giấy tờ cần thiết nhé."<br>
+Nam: "Vâng ạ."<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Giấy chứng nhận tốt nghiệp tạm thời (イ) và Giấy khám sức khỏe (オ) đã đạt yêu cầu &rarr; Không cần làm lại.<br>
+- Các giấy tờ bắt buộc phải chuẩn bị lại:<br>
+  + <b>ア (入学願書 - Đơn dự thi)</b>: Viết sai nhiều, cô bảo viết lại.<br>
+  + <b>ウ (成績証明書 - Bảng điểm)</b>: Đã lỡ bóc niêm phong phong bì nên mất hiệu lực, phải xin cấp lại.<br>
+  + <b>エ (志望理由書 - Bản lý do nguyện vọng)</b>: Chưa đủ cụ thể, cô bảo viết lại.<br>
+- Do đó các giấy tờ cần chuẩn bị lại là <b>ア, ウ, エ</b> &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 130,
@@ -3721,7 +3890,22 @@ window.JLPT_DATA[8] = {
             "事務所や店の経営方針の変化"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhà bình luận đang nói về điều gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 他人との関係の変化: Sự thay đổi trong mối quan hệ với người khác<br>\n2. 物を持つことに対する考え方の変化: Sự thay đổi trong suy nghĩ về việc sở hữu đồ vật<br>\n3. 人気がある車の種類の変化: Sự thay đổi loại xe ô tô được ưa chuộng<br>\n4. 事務所や店の経営方針の変化: Sự thay đổi phương châm kinh doanh của văn phòng/cửa hàng<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n評論家が話しています。<br>\n以前は自分のものを持つということが目標となったり、自分のものを持つことで満足したりすることもありました。しかし最近は意識が変化してきているようです。例えば個人で車を買うのではなく、複数の人と共同で借りて、それぞれが必要な時に使用するという方法が広がってきています。<b>これは自分が使うものが自分だけのものである必要はないという意識の現れではないでしょうか。</b>また車だけでなく事務所や店などにも同じような傾向が見られます。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNhà bình luận nhận định: Trước đây việc sở hữu đồ riêng là mục tiêu và niềm tự hào, nhưng gần đây ý thức đã thay đổi (ví dụ thuê chung xe ô tô, chia sẻ văn phòng/cửa hàng thay vì mua đứt cho riêng mình).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Chủ đề chính là sự thay đổi nhận thức đối với việc sở hữu đồ vật &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Nhà bình luận đang nói về điều gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 他人との関係の変化: Sự thay đổi trong mối quan hệ với người khác<br>
+2. 物を持つことに対する考え方の変化: Sự thay đổi trong suy nghĩ về việc sở hữu đồ vật<br>
+3. 人気がある車の種類の変化: Sự thay đổi loại xe ô tô được ưa chuộng<br>
+4. 事務所や店の経営方針の変化: Sự thay đổi phương châm kinh doanh của văn phòng/cửa hàng<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+評論家が話しています。<br>
+以前は自分のものを持つということが目標となったり、自分のものを持つことで満足したりすることもありました。<b>しかし最近は意識が変化してきているようです。</b>例えば個人で車を買うのではなく、複数の人と共同で借りて、それぞれが必要な時に使用するという方法が広がってきています。<b>これは自分が使うものが自分だけのものである必要はないという意識の現れではないでしょうか。</b>また車だけでなく事務所や店などにも同じような傾向が見られます。このような傾向はこれからますます広がっていくのではないかと考えられます。<br>
+評論家は何について話していますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nhà bình luận đang nói chuyện.<br>
+"Trước đây, việc sở hữu đồ đạc của riêng mình từng trở thành mục tiêu phấn đấu, hoặc người ta cảm thấy thỏa mãn khi sở hữu món đồ của riêng mình. <b>Tuy nhiên gần đây nhận thức đó dường như đang dần thay đổi.</b> Ví dụ, thay vì cá nhân tự mua xe ô tô, phương thức nhiều người cùng thuê chung một chiếc xe rồi ai cần lúc nào thì sử dụng lúc đó đang ngày càng lan rộng. <b>Chẳng phải đây chính là biểu hiện của nhận thức rằng thứ mình sử dụng không nhất thiết phải thuộc sở hữu của riêng mình hay sao.</b> Hơn nữa, không chỉ xe cộ mà ngay cả văn phòng hay cửa hàng cũng xuất hiện xu hướng tương tự. Người ta cho rằng xu hướng này từ nay về sau sẽ ngày càng lan rộng hơn nữa."<br>
+Nhà bình luận đang nói về điều gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Chủ đề chính là sự thay đổi nhận thức đối với việc sở hữu đồ vật &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 137,
@@ -3739,7 +3923,22 @@ window.JLPT_DATA[8] = {
             "売れている商品の安さ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Đây là kết quả khảo sát về điều gì của siêu thị?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 客の多い時間帯: Khung giờ đông khách<br>\n2. 売れている商品の種類: Chủng loại mặt hàng đang bán chạy<br>\n3. 商品の種類の多さ: Sự đa dạng của các loại mặt hàng<br>\n4. 売れている商品の安さ: Độ rẻ của các mặt hàng bán chạy<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n学生が授業でスーパーに関する調査の結果を発表しています。<br>\n私は駅前にあるスーパーについて調査しました。まず桜スーパーですが、ここは食料品に力を入れています。特に魚は新鮮で安いため人気があります。<b>夕方から夜にかけて行った調査では魚を買っていく人が多かったです。</b>次にスーパー富士ですが、ここは電気製品から洋服、食料品まで何でも揃っていて、どれもそんなに高くないのが特徴です。<b>夕方から夜の時間帯に客が買っていくものは肉、野菜から靴下、電球、トイレットペーパーまで様々でした。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nSinh viên báo cáo khảo sát 2 siêu thị trước ga vào khung giờ chiều tối: ở siêu thị Sakura khách mua nhiều cá; ở siêu thị Fuji khách mua đủ thứ từ thịt, rau đến tất, bóng đèn, giấy vệ sinh.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khảo sát tập trung vào các loại mặt hàng khách mua (đang bán chạy) ở mỗi siêu thị &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Đây là kết quả khảo sát về điều gì của siêu thị?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 客の多い時間帯: Khung giờ đông khách<br>
+2. 売れている商品の種類: Chủng loại mặt hàng đang bán chạy<br>
+3. 商品の種類の多さ: Sự đa dạng của các loại mặt hàng<br>
+4. 売れている商品の安さ: Độ rẻ của các mặt hàng bán chạy<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+学生が授業でスーパーに関する調査の結果を発表しています。<br>
+私は駅前にあるスーパーについて調査しました。まず桜スーパーですが、ここは食料品に力を入れています。特に魚は新鮮で安いため人気があります。<b>夕方から夜にかけて行った調査では魚を買っていく人が多かったです。</b>次にスーパー富士ですが、ここは電気製品から洋服、食料品まで何でも揃っていて、どれもそんなに高くないのが特徴です。<b>夕方から夜の時間帯に客が買っていくものは肉、野菜から靴下、電球、トイレットペーパーまで様々でした。</b><br>
+スーパーの何についての調査の結果ですか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Sinh viên đang thuyết trình trong giờ học về kết quả khảo sát liên quan đến các siêu thị.<br>
+"Em đã tiến hành khảo sát về các siêu thị ở trước nhà ga. Trước hết là siêu thị Sakura, nơi này tập trung mạnh vào mặt hàng thực phẩm. Đặc biệt cá ở đây vừa tươi vừa rẻ nên rất được ưa chuộng. <b>Trong cuộc khảo sát thực hiện từ chiều tối đến đêm, có rất nhiều người mua cá mang về.</b> Tiếp theo là siêu thị Fuji, đặc trưng của nơi này là có đầy đủ mọi thứ từ đồ điện gia dụng, quần áo cho đến thực phẩm, và món nào giá cũng không đắt lắm. <b>Trong khung giờ từ chiều tối đến đêm, những mặt hàng khách mua mang về vô cùng đa dạng, từ thịt, rau củ cho đến tất, bóng đèn, giấy vệ sinh.</b>"<br>
+Đây là kết quả khảo sát về điều gì của siêu thị?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khảo sát tập trung vào các loại mặt hàng khách mua (đang bán chạy) ở mỗi siêu thị &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 138,
@@ -3757,7 +3956,22 @@ window.JLPT_DATA[8] = {
             "長い傘の短所"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Nhân viên cửa hàng đang giải thích về điều gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 小さく畳める傘の長所: Ưu điểm của ô gấp gọn<br>\n2. 小さく畳める傘の短所: Nhược điểm của ô gấp gọn<br>\n3. 長い傘の長所: Ưu điểm của chiếc ô dáng dài<br>\n4. 長い傘の短所: Nhược điểm của chiếc ô dáng dài<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n傘売り場で店員が説明しています。<br>\n軽い傘をお探しのお客様、軽いものというと小さく畳める傘を選ばれる方が多いですが、<b>当店のおすすめはこちらの傘です。長い傘で小さく畳むことはできませんが、ちょっと持ってみてください。とても軽いんです。長くても小さく畳めるものとほとんど変わらない200グラムなんです。</b>軽すぎてすぐ壊れるのではと思われるかもしれませんが、<b>骨がしっかりしていてとても丈夫なので長く使えます。</b>重さの面からも品質の面からもおすすめできる商品です。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNhân viên quầy ô giới thiệu mẫu ô cán dài: tuy không gấp gọn được nhưng siêu nhẹ chỉ 200g ngang ô gấp, khung xương chắc chắn bền bỉ dùng được lâu dài.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bài giới thiệu nêu bật các ưu điểm (nhẹ, bền) của chiếc ô dài &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Nhân viên cửa hàng đang giải thích về điều gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 小さく畳める傘の長所: Ưu điểm của ô gấp gọn<br>
+2. 小さく畳める傘の短所: Nhược điểm của ô gấp gọn<br>
+3. 長い傘の長所: Ưu điểm của chiếc ô dáng dài<br>
+4. 長い傘の短所: Nhược điểm của chiếc ô dáng dài<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+傘売り場で店員が説明しています。<br>
+軽い傘をお探しのお客様、軽いものというと小さく畳める傘を選ばれる方が多いですが、<b>当店のおすすめはこちらの傘です。長い傘で小さく畳むことはできませんが、ちょっと持ってみてください。とても軽いんです。長くても小さく畳めるものとほとんど変わらない200グラムなんです。</b>軽すぎてすぐ壊れるのではと思われるかもしれませんが、<b>骨がしっかりしていてとても丈夫なので長く使えます。重さの面からも品質の面からもおすすめできる商品です。</b><br>
+店員は何について説明していますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại quầy bán ô dù, nhân viên bán hàng đang giới thiệu.<br>
+"Thưa quý khách đang tìm kiếm một chiếc ô nhẹ, nhắc đến ô nhẹ thì nhiều người thường chọn loại ô gấp gọn, nhưng <b>sản phẩm cửa hàng chúng tôi khuyên dùng là chiếc ô này ạ. Tuy là ô cán dài không thể gấp nhỏ lại được, nhưng xin quý khách hãy thử cầm lên xem. Nó nhẹ lắm ạ. Dù là ô dài nhưng trọng lượng chỉ 200 gram, hầu như không khác gì so với ô gấp gọn.</b> Có thể quý khách sẽ lo rằng nhẹ quá thì dễ gãy hỏng, nhưng <b>khung xương ô rất chắc chắn và vô cùng bền bỉ nên có thể sử dụng lâu dài. Xét cả về mặt trọng lượng lẫn chất lượng thì đây đều là sản phẩm rất đáng khuyên dùng ạ.</b>"<br>
+Nhân viên bán hàng đang giải thích về điều gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bài giới thiệu nêu bật các ưu điểm (nhẹ, bền) của chiếc ô dài &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 139,
@@ -3775,7 +3989,22 @@ window.JLPT_DATA[8] = {
             "気持ちを伝える方法"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Chủ đề câu chuyện của người đàn ông là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 謝ることの難しさ: Sự khó khăn của việc xin lỗi<br>\n2. 子供の頃困った経験: Trải nghiệm khó xử hồi nhỏ<br>\n3. 上手な手紙の書き方: Cách viết thư hay<br>\n4. 気持ちを伝える方法: Phương pháp truyền đạt tâm ý/cảm xúc<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n男の人が話しています。<br>\n<b>私は気持ちというものは心を込めて書くことで相手の心に届くものだと思っています。</b>子供の頃友達と喧嘩をしていくら口で謝っても許してもらえなかったことがありました。それで困って悪かったという気持ちを手紙に書いて渡してみたんです。上手な文章ではなかったはずですが友達は許してくれたんです。その時口で謝るより書いたもののほうが思いが伝わったことに驚きました。<b>それ以来私は思っていることを相手に分かってもらいたい時は紙に書いて渡すことにしています。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNgười đàn ông kể hồi nhỏ cãi nhau với bạn, xin lỗi bằng lời không được tha thứ nhưng viết thư tay chân thành lại được bạn tha lỗi. Từ đó mỗi khi muốn đối phương hiểu lòng mình, anh đều viết ra giấy.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Toàn bài nói về cách thức truyền đạt tâm ý hiệu quả (viết ra giấy) &rarr; <b>Đáp án đúng là 4</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Chủ đề câu chuyện của người đàn ông là gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 謝ることの難しさ: Sự khó khăn của việc xin lỗi<br>
+2. 子供の頃困った経験: Trải nghiệm khó xử hồi nhỏ<br>
+3. 上手な手紙の書き方: Cách viết thư hay<br>
+4. 気持ちを伝える方法: Phương pháp truyền đạt tâm ý/cảm xúc<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男の人が話しています。<br>
+<b>私は気持ちというものは心を込めて書くことで相手の心に届くものだと思っています。</b>子供の頃、友達と喧嘩をして、いくら口で謝っても許してもらえなかったことがありました。それで困って、悪かったという気持ちを手紙に書いて渡してみたんです。上手な文章ではなかったはずですが、友達は許してくれたんです。その時、口で謝るより書いたもののほうが思いが伝わったことに驚きました。<b>それ以来、私は思っていることを相手に分かってもらいたい時は、紙に書いて渡すことにしています。</b><br>
+男の人の話のテーマは何ですか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người đàn ông đang nói chuyện.<br>
+"<b>Tôi cho rằng tình cảm, tấm lòng là thứ sẽ chạm được tới trái tim đối phương khi ta đặt trọn tâm huyết để viết ra.</b> Hồi còn nhỏ, có lần tôi cãi nhau với bạn, dù có mở lời xin lỗi bao nhiêu lần đi nữa cũng không được bạn tha thứ. Bí quá, tôi đành viết tâm tư hối lỗi của mình ra một bức thư rồi đưa cho bạn. Chắc chắn lời văn khi ấy chẳng hay ho gì, thế nhưng người bạn đó đã tha lỗi cho tôi. Lúc ấy tôi đã rất ngạc nhiên khi thấy những điều viết ra giấy lại truyền tải được tâm ý tốt hơn là nói lời xin lỗi bằng miệng. <b>Kể từ đó trở đi, mỗi khi muốn đối phương thấu hiểu những điều mình suy nghĩ, tôi đều viết ra giấy rồi trao cho họ.</b>"<br>
+Chủ đề câu chuyện của người đàn ông là gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Toàn bài nói về cách thức truyền đạt tâm ý hiệu quả (viết ra giấy) &rarr; <b>Đáp án đúng là 4</b>.`
         },
         {
           "id": 140,
@@ -3793,7 +4022,22 @@ window.JLPT_DATA[8] = {
             "天気に関することわざは信じるべきではない"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Giáo sư đại học nói gì về các câu tục ngữ?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 雨に関することわざには根拠がない: Tục ngữ về mưa không có căn cứ<br>\n2. 雨に関することわざは信じるべきだ: Tục ngữ về mưa nên tin theo<br>\n3. 天気に関することわざには根拠がある: Tục ngữ về thời tiết đều có căn cứ khoa học<br>\n4. 天気に関することわざは信じるべきではない: Tục ngữ về thời tiết không nên tin<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学の先生がことわざについて話しています。<br>\n皆さんは「ツバメが低く飛ぶと雨が降る」ということわざを聞いたことがあると思います。こういった天気のことわざは本当でしょうか。<b>実はちゃんと科学的な理由があるんです。</b>雨が近づき風が強くなるとツバメの餌である小さい虫が高く飛べなくなります。そうするとツバメも低く飛ぶというわけです。また「猫が顔を洗うと雨が降る」ということわざもあります。これも雨が近づくと湿気でひげがベタつくために手入れをしていると考えられています。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nGiảng viên giải thích các câu tục ngữ dự báo thời tiết (\"én bay thấp trời mưa\", \"mèo rửa mặt trời mưa\") thực chất đều có lý giải khoa học (côn trùng bay thấp do gió ẩm, mèo lau râu vì độ ẩm tăng).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Tục ngữ thời tiết đều có cơ sở khoa học (科学的理由/根拠がある) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Giáo sư đại học nói gì về các câu tục ngữ?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 雨に関することわざには根拠がない: Tục ngữ về mưa không có căn cứ<br>
+2. 雨に関することわざは信じるべきだ: Tục ngữ về mưa nên tin theo<br>
+3. 天気に関することわざには根拠がある: Tục ngữ về thời tiết đều có căn cứ khoa học<br>
+4. 天気に関することわざは信じるべきではない: Tục ngữ về thời tiết không nên tin<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+大学の先生がことわざについて話しています。<br>
+皆さんは「ツバメが低く飛ぶと雨が降る」ということわざを聞いたことがあると思います。こういった天気のことわざは本当でしょうか。<b>実はちゃんと科学的な理由があるんです。</b>雨が近づき風が強くなると、ツバメの餌である小さい虫が高く飛べなくなります。そうするとツバメも低く飛ぶというわけです。また「猫が顔を洗うと雨が降る」ということわざもあります。これも雨が近づくと湿気でひげがベタつくために手入れをしていると考えられています。<br>
+大学の先生はことわざについて何と言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Giảng viên đại học đang nói về các câu tục ngữ.<br>
+"Chắc hẳn các bạn đã từng nghe câu tục ngữ 'Chim én bay thấp thì trời mưa'. Những câu tục ngữ về thời tiết như thế này liệu có đúng sự thật không? <b>Thực ra chúng đều có lý do khoa học đàng hoàng cả đấy.</b> Khi cơn mưa kéo đến gần và gió mạnh lên, các loài côn trùng nhỏ làm thức ăn của chim én không thể bay cao được nữa. Khi đó chim én cũng sẽ bay sát mặt đất để bắt mồi. Ngoài ra còn có câu tục ngữ 'Mèo rửa mặt thì trời mưa'. Hiện tượng này cũng được lý giải là do khi trời sắp mưa, độ ẩm tăng cao làm ria mèo bị bết dính nên chúng dùng chân vuốt mặt để chải chuốt lại ria."<br>
+Giảng viên đại học nói gì về các câu tục ngữ?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Tục ngữ thời tiết đều có cơ sở khoa học (科学的理由/根拠がある) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 141,
@@ -3810,7 +4054,23 @@ window.JLPT_DATA[8] = {
             "ええ、さっき使わせてもらいましたよ。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Cho phép tôi sử dụng phòng bên cạnh để họp bàn được không ạ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. いいえ、今使いませんよ。 (Không, giờ tôi không dùng - dùng 「いいえ」 trước ý cho phép là sai.)<br>\n2. ええ、構いませんよ。 (Vâng, không sao đâu / Cứ dùng tự nhiên ạ.)<br>\n3. ええ、さっき使わせてもらいましたよ。 (Vâng, lúc nãy tôi đã được dùng rồi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n隣の部屋、打ち合わせで<b>使わせていただけませんか</b>。<br>\n<b>2. ええ、構いませんよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Cho phép em dùng phòng bên cạnh để họp chút được không ạ?\"<br>\nB: \"Ừ, được chứ không sao đâu.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～させていただけませんか」 là xin phép lịch sự, đồng ý bằng 「ええ、構いませんよ」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Cho phép tôi sử dụng phòng bên cạnh để họp bàn được không ạ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. いいえ、今使いませんよ。: Không, giờ tôi không dùng - dùng 「いいえ」 trước ý cho phép là sai.<br>
+2. ええ、構いませんよ。: Vâng, không sao đâu / Cứ dùng tự nhiên ạ.<br>
+3. ええ、さっき使わせてもらいましたよ。: Vâng, lúc nãy tôi đã được dùng rồi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+隣の部屋、打ち合わせで使わせていただけませんか。<br>
+1. いいえ、今使いませんよ。<br>
+<b>2. ええ、構いませんよ。</b><br>
+3. ええ、さっき使わせてもらいましたよ。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Cho phép tôi sử dụng phòng bên cạnh để họp bàn được không ạ?"<br>
+1. Không, giờ tôi không dùng - dùng 「いいえ」 trước ý cho phép là sai.<br>
+<b>2. Vâng, không sao đâu / Cứ dùng tự nhiên ạ.</b><br>
+3. Vâng, lúc nãy tôi đã được dùng rồi.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～させていただけませんか」 là xin phép lịch sự, đồng ý bằng 「ええ、構いませんよ」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 142,
@@ -3827,7 +4087,23 @@ window.JLPT_DATA[8] = {
             "はい、持っていきます。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Tối nay cậu gọi điện lại cho tớ lần nữa thì tốt quá.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 分かりました、電話します。 (Tớ hiểu rồi, tối tớ sẽ gọi.)<br>\n2. そうですか、ありがとうございます。 (Vậy à, cảm ơn nhé.)<br>\n3. はい、持っていきます。 (Vâng, tôi sẽ mang đi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n夜にもう一度<b>電話をもらえると嬉しいんだけど</b>。<br>\n<b>1. 分かりました、電話します。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Tối cậu gọi lại cho tớ phát nữa được không?\"<br>\nB: \"OK, tối tớ gọi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người nói nhờ gọi lại (電話をもらえると嬉しい), người nghe nhận lời sẽ gọi &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Tối nay cậu gọi điện lại cho tớ lần nữa thì tốt quá."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 分かりました、電話します。: Tớ hiểu rồi, tối tớ sẽ gọi.<br>
+2. そうですか、ありがとうございます。: Vậy à, cảm ơn nhé.<br>
+3. はい、持っていきます。: Vâng, tôi sẽ mang đi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+夜にもう一度電話をもらえると嬉しいんだけど。<br>
+<b>1. 分かりました、電話します。</b><br>
+2. そうですか、ありがとうございます。<br>
+3. はい、持っていきます。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Tối nay cậu gọi điện lại cho tớ lần nữa thì tốt quá."<br>
+<b>1. Tớ hiểu rồi, tối tớ sẽ gọi.</b><br>
+2. Vậy à, cảm ơn nhé.<br>
+3. Vâng, tôi sẽ mang đi.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người nói nhờ gọi lại (電話をもらえると嬉しい), người nghe nhận lời sẽ gọi &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 143,
@@ -3844,7 +4120,23 @@ window.JLPT_DATA[8] = {
             "席ならもう誰か取ってったよ。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Cậu vào lớp trước giữ luôn chỗ cho tớ với được không?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. それぐらい自分で取っててよ。 (Từng đó tự mà giữ đi - sai thể 「取ってて」.)<br>\n2. しょうがないな、取っておくよ。 (Chịu cậu thật đấy, để tớ giữ chỗ cho.)<br>\n3. 席ならもう誰か取ってったよ。 (Chỗ thì ai đó lấy mất rồi - chưa vào lớp.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n先に教室に行って俺の席も<b>取っておいてくんない？</b><br>\n<b>2. しょうがないな、取っておくよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Vào lớp trước giữ hộ tớ một chỗ nhé?\"<br>\nB: \"Thôi được rồi, để tớ giữ cho.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～ておいてくれない？」 là nhờ vả thân mật, đồng ý bằng 「取っておくよ」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Cậu vào lớp trước giữ luôn chỗ cho tớ với được không?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. それぐらい自分で取っててよ。: Từng đó tự mà giữ đi<br>
+2. しょうがないな、取っておくよ。: Chịu cậu thật đấy, để tớ giữ chỗ cho.<br>
+3. 席ならもう誰か取ってったよ。: Chỗ thì ai đó lấy mất rồi<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+先に教室に行って俺の席も取っておいてくんない？<br>
+1. それぐらい自分で取っててよ。<br>
+<b>2. しょうがないな、取っておくよ。</b><br>
+3. 席ならもう誰か取ってったよ。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Cậu vào lớp trước giữ luôn chỗ cho tớ với được không?"<br>
+1. Từng đó tự mà giữ đi<br>
+<b>2. Chịu cậu thật đấy, để tớ giữ chỗ cho.</b><br>
+3. Chỗ thì ai đó lấy mất rồi<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～ておいてくれない？」 là nhờ vả thân mật, đồng ý bằng 「取っておくよ」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 144,
@@ -3861,7 +4153,23 @@ window.JLPT_DATA[8] = {
             "うん、サービスがあんまりね。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Nhà hàng trước ga ấy, so với giá tiền thì hơi...\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. うん、ちょっとおいしいよね。 (Ừ, hơi ngon nhỉ - không dùng 「ちょっと」 với nghĩa khen.)<br>\n2. うん、今度また行こうか。 (Ừ, lần sau lại đi nhé - trái ý chê.)<br>\n3. うん、サービスがあんまりね。 (Ừ, dịch vụ cũng chẳng ra sao nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n駅前のレストランって、値段の割には<b>ちょっとねえ……</b>。<br>\n<b>3. うん、サービスがあんまりね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Quán trước ga giá đắt mà chất lượng hơi...\"<br>\nB: \"Ừ, phục vụ cũng chán lắm.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「ちょっとねえ…」 là cách nói lửng mang ý chê bai; đồng tình bằng ý chê tương tự (あんまりね = không tốt lắm) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Nhà hàng trước ga ấy, so với giá tiền thì hơi..."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. うん、ちょっとおいしいよね。: Ừ, hơi ngon nhỉ<br>
+2. うん、今度また行こうか。: Ừ, lần sau lại đi nhé<br>
+3. うん、サービスがあんまりね。: Ừ, dịch vụ cũng chẳng ra sao nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+駅前のレストランって、値段の割にはちょっとねえ……。<br>
+1. うん、ちょっとおいしいよね。<br>
+2. うん、今度また行こうか。<br>
+<b>3. うん、サービスがあんまりね。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Nhà hàng trước ga ấy, so với giá tiền thì hơi..."<br>
+1. Ừ, hơi ngon nhỉ<br>
+2. Ừ, lần sau lại đi nhé<br>
+<b>3. Ừ, dịch vụ cũng chẳng ra sao nhỉ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「ちょっとねえ…」 là cách nói lửng mang ý chê bai; đồng tình bằng ý chê tương tự (あんまりね = không tốt lắm) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 145,
@@ -3878,7 +4186,23 @@ window.JLPT_DATA[8] = {
             "え、場所決まってたんですか。すみません。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Này cậu, xe đạp không đỗ đúng nơi quy định là phiền lắm đấy nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. いいえ、ここに止めとくんで大丈夫です。 (Không, cứ để đây cũng ổn - cãi lại.)<br>\n2. そうなんですよ、勝手に決められて困ってるんです。 (Đúng đấy, tự ý quy định làm tôi khổ sở.)<br>\n3. え、場所決まってたんですか。すみません。 (Ủa, có quy định chỗ đỗ ạ? Cháu xin lỗi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nちょっと君、自転車は<b>決められた場所に止めてくんないと</b>困るよ。<br>\n<b>3. え、場所決まってたんですか。すみません。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nBảo vệ: \"Này cậu, không để xe đạp đúng nơi quy định là không được đâu.\"<br>\nNgười đi xe: \"Ơ, có chỗ quy định sẵn ạ? Em xin lỗi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bị nhắc nhở đỗ xe sai chỗ, phản ứng lịch sự là xin lỗi &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Này cậu, xe đạp không đỗ đúng nơi quy định là phiền lắm đấy nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. いいえ、ここに止めとくんで大丈夫です。: Không, cứ để đây cũng ổn<br>
+2. そうなんですよ、勝手に決められて困ってるんです。: Đúng đấy, tự ý quy định làm tôi khổ sở.<br>
+3. え、場所決まってたんですか。すみません。: Ủa, có quy định chỗ đỗ ạ? Cháu xin lỗi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+ちょっと君、自転車は決められた場所に止めてくんないと困るよ。<br>
+1. いいえ、ここに止めとくんで大丈夫です。<br>
+2. そうなんですよ、勝手に決められて困ってるんです。<br>
+<b>3. え、場所決まってたんですか。すみません。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Này cậu, xe đạp không đỗ đúng nơi quy định là phiền lắm đấy nhé."<br>
+1. Không, cứ để đây cũng ổn<br>
+2. Đúng đấy, tự ý quy định làm tôi khổ sở.<br>
+<b>3. Ủa, có quy định chỗ đỗ ạ? Cháu xin lỗi.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bị nhắc nhở đỗ xe sai chỗ, phản ứng lịch sự là xin lỗi &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 146,
@@ -3895,7 +4219,23 @@ window.JLPT_DATA[8] = {
             "そうですか、じゃあまだ時間がありますね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Cuộc họp tới là vào tháng sau phải không nhỉ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. そうですか、分かりました。 (Vậy à, tôi hiểu rồi.)<br>\n2. そうですよ、来月ですよ。 (Đúng rồi đấy, tháng sau đấy.)<br>\n3. そうですか、じゃあまだ時間がありますね。 (Vậy à, thế vẫn còn thời gian nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n次の会議は<b>来月でしたっけ</b>。<br>\n<b>2. そうですよ、来月ですよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Cuộc họp tiếp theo là tháng sau đúng không nhỉ?\"<br>\nB: \"Đúng rồi, tháng sau đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～でしたっけ」 dùng để hỏi xác nhận lại thông tin mình nhớ mang máng &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Cuộc họp tới là vào tháng sau phải không nhỉ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. そうですか、分かりました。: Vậy à, tôi hiểu rồi.<br>
+2. そうですよ、来月ですよ。: Đúng rồi đấy, tháng sau đấy.<br>
+3. そうですか、じゃあまだ時間がありますね。: Vậy à, thế vẫn còn thời gian nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+次の会議は来月でしたっけ。<br>
+1. そうですか、分かりました。<br>
+<b>2. そうですよ、来月ですよ。</b><br>
+3. そうですか、じゃあまだ時間がありますね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Cuộc họp tới là vào tháng sau phải không nhỉ?"<br>
+1. Vậy à, tôi hiểu rồi.<br>
+<b>2. Đúng rồi đấy, tháng sau đấy.</b><br>
+3. Vậy à, thế vẫn còn thời gian nhỉ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～でしたっけ」 dùng để hỏi xác nhận lại thông tin mình nhớ mang máng &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 147,
@@ -3912,7 +4252,23 @@ window.JLPT_DATA[8] = {
             "あ、そうか、明日と間違えちゃった。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Ủa, hôm nay chẳng phải không phải ngày đổ rác cháy được sao?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. あ、そうか、燃えるごみの日か。 (À, ra là ngày rác cháy được à - trái ý 「じゃない」.)<br>\n2. あ、そうそう、さっき出せばよかったよ。 (À đúng rồi, lúc nãy đem vứt thì tốt.)<br>\n3. あ、そうか、明日と間違えちゃった。 (À chết, tớ nhầm với ngày mai rồi.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nあれ、今日は燃えるごみの日<b>じゃないんじゃなかった？</b><br>\n<b>3. あ、そうか、明日と間違えちゃった。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Ủa, hôm nay đâu phải ngày vứt rác cháy được đâu?\"<br>\nB: \"À chết, tớ nhầm sang ngày mai mất rồi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi được nhắc hôm nay không phải ngày đổ rác cháy được, nhận ra mình đã nhớ nhầm sang ngày mai &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Ủa, hôm nay chẳng phải không phải ngày đổ rác cháy được sao?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. あ、そうか、燃えるごみの日か。: À, ra là ngày rác cháy được à<br>
+2. あ、そうそう、さっき出せばよかったよ。: À đúng rồi, lúc nãy đem vứt thì tốt.<br>
+3. あ、そうか、明日と間違えちゃった。: À chết, tớ nhầm với ngày mai rồi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+あれ、今日は燃えるごみの日じゃないんじゃなかった？<br>
+1. あ、そうか、燃えるごみの日か。<br>
+2. あ、そうそう、さっき出せばよかったよ。<br>
+<b>3. あ、そうか、明日と間違えちゃった。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Ủa, hôm nay chẳng phải không phải ngày đổ rác cháy được sao?"<br>
+1. À, ra là ngày rác cháy được à<br>
+2. À đúng rồi, lúc nãy đem vứt thì tốt.<br>
+<b>3. À chết, tớ nhầm với ngày mai rồi.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khi được nhắc hôm nay không phải ngày đổ rác cháy được, nhận ra mình đã nhớ nhầm sang ngày mai &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 148,
@@ -3929,7 +4285,23 @@ window.JLPT_DATA[8] = {
             "いや、こちらこそ失礼します。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Xin lỗi, cho phép tôi đi ngang qua phía trước một chút ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. お疲れ様でした。 (Anh đã vất vả rồi.)<br>\n2. あ、どうぞ。 (À, xin mời anh/chị đi qua ạ.)<br>\n3. いや、こちらこそ失礼します。 (Không, chính tôi mới thất lễ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nすみません、ちょっと<b>前を失礼します</b>。<br>\n<b>2. あ、どうぞ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Xin lỗi, cho tôi đi qua trước mặt chút nhé.\"<br>\nB: \"À, xin mời.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi có người xin phép đi ngang qua trước mặt, nhường đường và nói 「どうぞ」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Xin lỗi, cho phép tôi đi ngang qua phía trước một chút ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. お疲れ様でした。: Anh đã vất vả rồi.<br>
+2. あ、どうぞ。: À, xin mời anh/chị đi qua ạ.<br>
+3. いや、こちらこそ失礼します。: Không, chính tôi mới thất lễ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+すみません、ちょっと前を失礼します。<br>
+1. お疲れ様でした。<br>
+<b>2. あ、どうぞ。</b><br>
+3. いや、こちらこそ失礼します。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Xin lỗi, cho phép tôi đi ngang qua phía trước một chút ạ."<br>
+1. Anh đã vất vả rồi.<br>
+<b>2. À, xin mời anh/chị đi qua ạ.</b><br>
+3. Không, chính tôi mới thất lễ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khi có người xin phép đi ngang qua trước mặt, nhường đường và nói 「どうぞ」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 149,
@@ -3946,7 +4318,23 @@ window.JLPT_DATA[8] = {
             "気にしないでください、一人でできますから。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Công việc đó, nếu mà tôi giúp được thì tôi cũng muốn giúp cậu lắm, nhưng mà...\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. そうですか、もらえないんですか。 (Vậy à, không nhận được ạ?)<br>\n2. 私、手伝えられますよ。 (Tôi có thể giúp đấy.)<br>\n3. 気にしないでください、一人でできますから。 (Đừng bận tâm ạ, tôi tự làm một mình được mà.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nその仕事、私が手伝って<b>あげられるものならそうしてあげたいけど</b>……。<br>\n<b>3. 気にしないでください、一人でできますから。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Việc đó giá mà tôi giúp được thì cũng muốn giúp lắm nhưng...\"<br>\nB: \"Đừng ngại ạ, một mình tôi làm được mà.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～られるものなら」 diễn tả mong muốn giúp nhưng thực tế không giúp được; đáp lại lịch sự để người kia đỡ áy náy &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Công việc đó, nếu mà tôi giúp được thì tôi cũng muốn giúp cậu lắm, nhưng mà..."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. そうですか、もらえないんですか。: Vậy à, không nhận được ạ?<br>
+2. 私、手伝えられますよ。: Tôi có thể giúp đấy.<br>
+3. 気にしないでください、一人でできますから。: Đừng bận tâm ạ, tôi tự làm một mình được mà.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+その仕事、私が手伝ってあげられるものならそうしてあげたいけど……。<br>
+1. そうですか、もらえないんですか。<br>
+2. 私、手伝えられますよ。<br>
+<b>3. 気にしないでください、一人でできますから。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Công việc đó, nếu mà tôi giúp được thì tôi cũng muốn giúp cậu lắm, nhưng mà..."<br>
+1. Vậy à, không nhận được ạ?<br>
+2. Tôi có thể giúp đấy.<br>
+<b>3. Đừng bận tâm ạ, tôi tự làm một mình được mà.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～られるものなら」 diễn tả mong muốn giúp nhưng thực tế không giúp được; đáp lại lịch sự để người kia đỡ áy náy &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 150,
@@ -3963,7 +4351,23 @@ window.JLPT_DATA[8] = {
             "はい、頑張ってください。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Vậy về việc này, tôi giao phó lại cho anh/chị nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. はい、お任せいたします。 (Vâng, tôi xin giao cho anh - ngược vai.)<br>\n2. はい、承知しました。 (Vâng, tôi đã rõ / xin nhận nhiệm vụ ạ.)<br>\n3. はい、頑張ってください。 (Vâng, anh cố gắng lên nhé.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nでは、この件については<b>あなたにお任せします</b>。<br>\n<b>2. はい、承知しました。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nSếp: \"Vậy vụ này tôi giao cho cậu phụ trách nhé.\"<br>\nNhân viên: \"Vâng, em rõ rồi ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi được cấp trên giao phó công việc, đáp lại trang trọng bằng 「承知しました」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Vậy về việc này, tôi giao phó lại cho anh/chị nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. はい、お任せいたします。: Vâng, tôi xin giao cho anh<br>
+2. はい、承知しました。: Vâng, tôi đã rõ / xin nhận nhiệm vụ ạ.<br>
+3. はい、頑張ってください。: Vâng, anh cố gắng lên nhé.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+では、この件についてはあなたにお任せします。<br>
+1. はい、お任せいたします。<br>
+<b>2. はい、承知しました。</b><br>
+3. はい、頑張ってください。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Vậy về việc này, tôi giao phó lại cho anh/chị nhé."<br>
+1. Vâng, tôi xin giao cho anh<br>
+<b>2. Vâng, tôi đã rõ / xin nhận nhiệm vụ ạ.</b><br>
+3. Vâng, anh cố gắng lên nhé.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khi được cấp trên giao phó công việc, đáp lại trang trọng bằng 「承知しました」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 151,
@@ -3980,7 +4384,23 @@ window.JLPT_DATA[8] = {
             "申し訳ありません、すぐにお持ちします。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Này, lúc nãy tôi gọi cà phê rồi, rốt cuộc tôi phải đợi đến bao giờ nữa đây?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. では、そちらで少々お待ちください。 (Vậy xin đợi thêm chút - đổ thêm dầu vào lửa.)<br>\n2. はい、あと10分ほど待たされます。 (Vâng, còn bị bắt đợi 10 phút nữa - dùng sai 「待たされる」.)<br>\n3. 申し訳ありません、すぐにお持ちします。 (Thành thật xin lỗi quý khách, tôi xin mang ra ngay lập tức ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n一体<b>どれだけ待たされなきゃいけないわけ</b>？<br>\n<b>3. 申し訳ありません、すぐにお持ちします。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nKhách: \"Tôi gọi cà phê nãy giờ rồi, bắt đợi đến bao giờ nữa?\"<br>\nNhân viên: \"Thành thật xin lỗi quý khách, tôi mang ra ngay đây ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khách hàng phàn nàn vì chờ quá lâu, nhân viên xin lỗi và hứa mang ra ngay &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Này, lúc nãy tôi gọi cà phê rồi, rốt cuộc tôi phải đợi đến bao giờ nữa đây?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. では、そちらで少々お待ちください。: では、そちらで少々お待ちください。 (Vậy xin đợi thêm chút - đổ thêm dầu vào lửa.)<br>
+2. はい、あと10分ほど待たされます。: Vâng, còn bị bắt đợi 10 phút nữa - dùng sai 「待たされる」.<br>
+3. 申し訳ありません、すぐにお持ちします。: Thành thật xin lỗi quý khách, tôi xin mang ra ngay lập tức ạ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+あの、さっきコーヒーを注文したんだけど、一体どれだけ待たされなきゃいけないわけ？<br>
+1. では、そちらで少々お待ちください。<br>
+2. はい、あと10分ほど待たされます。<br>
+<b>3. 申し訳ありません、すぐにお持ちします。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Này, lúc nãy tôi gọi cà phê rồi, rốt cuộc tôi phải đợi đến bao giờ nữa đây?"<br>
+1. では、そちらで少々お待ちください。 (Vậy xin đợi thêm chút - đổ thêm dầu vào lửa.)<br>
+2. Vâng, còn bị bắt đợi 10 phút nữa - dùng sai 「待たされる」.<br>
+<b>3. Thành thật xin lỗi quý khách, tôi xin mang ra ngay lập tức ạ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khách hàng phàn nàn vì chờ quá lâu, nhân viên xin lỗi và hứa mang ra ngay &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 152,
@@ -3997,7 +4417,23 @@ window.JLPT_DATA[8] = {
             "引っ越しするの良かったねー。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Haiz, có lẽ thà đừng chuyển nhà thì hơn rồi.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. どうしたの、何か問題でも？ (Sao thế, có vấn đề gì à?)<br>\n2. そうだねー、引っ越したいよねー。 (Đúng nhỉ, muốn chuyển nhà nhỉ.)<br>\n3. 引っ越しするの良かったねー。 (Chuyển nhà thích nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nああ、引っ越しなんて<b>しなかった方が良かったかもしんないな</b>。<br>\n<b>1. どうしたの、何か問題でも？</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Chẹp, biết thế chẳng chuyển nhà cho xong.\"<br>\nB: \"Sao vậy, có chuyện gì thế?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Thấy bạn than thở hối hận vì đã chuyển nhà, hỏi thăm nguyên nhân 「どうしたの」 &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Haiz, có lẽ thà đừng chuyển nhà thì hơn rồi."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. どうしたの、何か問題でも？: Sao thế, có vấn đề gì à?<br>
+2. そうだねー、引っ越したいよねー。: Đúng nhỉ, muốn chuyển nhà nhỉ.<br>
+3. 引っ越しするの良かったねー。: Chuyển nhà thích nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+ああ、引っ越しなんてしなかった方が良かったかもしんないな。<br>
+<b>1. どうしたの、何か問題でも？</b><br>
+2. そうだねー、引っ越したいよねー。<br>
+3. 引っ越しするの良かったねー。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Haiz, có lẽ thà đừng chuyển nhà thì hơn rồi."<br>
+<b>1. Sao thế, có vấn đề gì à?</b><br>
+2. Đúng nhỉ, muốn chuyển nhà nhỉ.<br>
+3. Chuyển nhà thích nhỉ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Thấy bạn than thở hối hận vì đã chuyển nhà, hỏi thăm nguyên nhân 「どうしたの」 &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 153,
@@ -4015,7 +4451,40 @@ window.JLPT_DATA[8] = {
             "クリアマの辞書"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Người phụ nữ sẽ mua kim từ điển của hãng nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. エコーの辞書 (Hãng Echo: có màu hồng nhưng giá 32.000 yên -> vượt ngân sách 30.000 yên)<br>\n2. 加藤の辞書 (Hãng Kato: nhiều từ điển nhưng chỉ có màu trắng, giá 27.000 yên)<br>\n3. PLCの辞書 (Hãng PLC: có màu hồng, giá rẻ 25.000 yên, ít từ điển hơn nhưng vừa đủ dùng)<br>\n4. クリアマの辞書 (Hãng Kuriama: có màu hồng, nhiều chức năng phụ, giá 28.000 yên)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人と男の人が、店の人と話しています。<br>\n女：電子辞書を買いたいんですが、…色はピンクで。それで予算は3万円までなんですが…<br>\n(1. Echo 32.000 &rarr; quá ngân sách; 2. Kato 27.000 màu trắng; 3. PLC 25.000 màu hồng; 4. Kuriama 28.000 màu hồng nhiều tính năng)<br>\n女：…でも、機能が多くても使いこなせないから、もう少し安いのでもいいかな。<br>\n男：…ケース付きのはどう？<br>\n女：うーん。<b>でも、やっぱりピンクがいいから、これにします。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nCô gái muốn mua kim từ điển màu hồng giá dưới 30.000 yên. Echo vượt giá; Kuriama nhiều chức năng nhưng cô thấy không dùng hết, muốn loại rẻ hơn; Kato lại chỉ có màu trắng. Cuối cùng cô chốt chiếc màu hồng giá rẻ nhất (PLC).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Kim từ điển màu hồng giá 25.000 yên là của hãng PLC &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Người phụ nữ sẽ mua kim từ điển của hãng nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. エコーの辞書 (Hãng Echo: có màu hồng nhưng giá 32.000 yên -> vượt ngân sách 30.000 yên)<br>
+2. 加藤の辞書 (Hãng Kato: nhiều từ điển nhưng chỉ có màu trắng, giá 27.000 yên)<br>
+3. PLCの辞書 (Hãng PLC: có màu hồng, giá rẻ 25.000 yên, ít từ điển hơn nhưng vừa đủ dùng)<br>
+4. クリアマの辞書 (Hãng Kuriama: có màu hồng, nhiều chức năng phụ, giá 28.000 yên)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女の人と男の人が、店の人と話しています。<br>
+女：電子辞書を買いたいんですが、できるだけいろんなことが調べられる辞書で、色はピンクで。それで予算は3万円までなんですが、どんなのがありますか？<br>
+店員：えー、色々な色があって人気があるのは、エコーの辞書ですね。価格が3万2000円になってしまうんですが、もともと3万9000円の商品ですから、お買い得ですよ。こちらです。<br>
+女：あ、このピンク可愛い。でも予算内じゃないと。<br>
+男：そうだね。<br>
+店員：では、こちらの加藤のはいかがでしょうか。色は白だけですが、入っている辞書が多いので、いろいろなことが調べられます。それに、辞書を入れるケースがおまけについて、2万7000円です。ケースを別に買うと2000円はしますからお得です。<b>それから、PLCの辞書。これはピンクのがありますね。入っている辞書は多くはないんですが、2万5000円とお安くなっています。</b><br>
+女：へー。<br>
+店員：あとは、クリアマの辞書です。こちらもピンクのがあります。単語帳など便利な機能がたくさんついているので、人気があるんですよ。ただいまキャンペーン中で2万8000円となっています。<br>
+女：いいですね。<b>でも、機能が多くても使いこなせないから、もう少し安いのでもいいかな。</b><br>
+男：そうだね。機能は必要ないね。いろいろ調べられるから、ケース付きのはどう？<br>
+女：<b>うーん。でも、やっぱりピンクがいいから、これにします。</b><br>
+女の人はどの会社の電子辞書を買いますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người phụ nữ và người đàn ông đang nói chuyện với nhân viên cửa hàng.<br>
+Nữ: "Tôi muốn mua một chiếc kim từ điển, loại nào tra cứu được càng nhiều thứ càng tốt, màu hồng, và ngân sách tối đa là 30.000 yên. Cửa hàng có những mẫu nào ạ?"<br>
+Nhân viên: "À, có nhiều màu sắc và được ưa chuộng hiện nay là kim từ điển của hãng Echo ạ. Giá của nó là 32.000 yên, nhưng vốn là sản phẩm giá 39.000 yên nên rất hời đấy ạ. Là mẫu này đây."<br>
+Nữ: "Ồ, màu hồng này xinh quá. Nhưng phải nằm trong ngân sách 30.000 yên cơ."<br>
+Nam: "Đúng thế."<br>
+Nhân viên: "Vậy mẫu này của hãng Kato thì sao ạ? Tuy chỉ có màu trắng nhưng được tích hợp rất nhiều bộ từ điển nên tra cứu được đủ thứ. Hơn nữa còn được tặng kèm bao đựng từ điển với giá 27.000 yên. Mua lẻ bao đựng bên ngoài cũng mất 2.000 yên nên rất lợi ạ. <b>Tiếp theo là kim từ điển của hãng PLC. Mẫu này có màu hồng ạ. Số lượng từ điển tích hợp bên trong tuy không nhiều lắm, nhưng giá rất rẻ chỉ 25.000 yên.</b>"<br>
+Nữ: "Ồ..."<br>
+Nhân viên: "Còn lại là kim từ điển của hãng Kuriama. Mẫu này cũng có màu hồng ạ. Vì được trang bị nhiều tính năng tiện lợi như sổ từ vựng nên rất được yêu thích. Hiện đang trong đợt khuyến mãi nên có giá 28.000 yên."<br>
+Nữ: "Hay quá nhỉ. <b>Nhưng nhiều tính năng quá tôi cũng chẳng dùng hết được, nên chắc lấy loại rẻ hơn một chút cũng được.</b>"<br>
+Nam: "Ừ nhỉ. Tính năng phụ không cần thiết đâu. Hay lấy loại tặng kèm bao đựng vì tra cứu được nhiều thứ?"<br>
+Nữ: "<b>Ừm... Nhưng tôi vẫn thích màu hồng hơn, nên tôi sẽ lấy chiếc này (PLC).</b>"<br>
+Người phụ nữ sẽ mua kim từ điển của hãng nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Kim từ điển màu hồng giá 25.000 yên là của hãng PLC &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 154,
@@ -4033,7 +4502,44 @@ window.JLPT_DATA[8] = {
             "隣のうちの人が新しい車を買ったから"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Lý do chính khiến gia đình đổi xe ngay trong năm nay là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 今乗っている車が古くなったから: Vì xe đang đi đã cũ<br>\n2. 環境にいい車が発売されるから: Vì sắp ra mắt xe thân thiện môi trường (ra mắt vào mùa hè năm sau)<br>\n3. 制度を利用して車を買うことができるから: Vì có thể tận dụng chế độ trợ cấp để mua xe<br>\n4. 隣のうちの人が新しい車を買ったから: Vì nhà hàng xóm đã mua xe mới<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n家族3人が車の買い替え時期について話しています。<br>\n(Ông bố ban đầu định đợi sang năm mua mẫu mới, nhưng con gái bảo năm nay có tiền trợ cấp nếu bỏ xe cũ trên 13 năm mua xe thân thiện môi trường, và chế độ này chỉ áp dụng trong năm nay)<br>\n父：そうか。<b>どうせ買い替えるなら、その制度が利用できるうちの方がいいよな。</b><br>\n母：そうね。<b>じゃあ今年買いましょう。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nGia đình bàn thời điểm đổi xe. Bố định đợi năm sau nhưng nghe con gái nói chế độ trợ cấp đổi xe thân thiện môi trường chỉ có trong năm nay, nên quyết định mua luôn năm nay để kịp hưởng chế độ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Lý do quyết định đổi xe ngay năm nay là để tận dụng chế độ trợ cấp &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Lý do chính khiến gia đình đổi xe ngay trong năm nay là gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 今乗っている車が古くなったから: Vì xe đang đi đã cũ<br>
+2. 環境にいい車が発売されるから: Vì sắp ra mắt xe thân thiện môi trường (ra mắt vào mùa hè năm sau)<br>
+3. 制度を利用して車を買うことができるから: Vì có thể tận dụng chế độ trợ cấp để mua xe<br>
+4. 隣のうちの人が新しい車を買ったから: Vì nhà hàng xóm đã mua xe mới<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+家族3人が車の買い替え時期について話しています。<br>
+母：お父さん、そろそろ車買い替えませんか？<br>
+父：車？<br>
+母：ええ、今年でもう15年になりますよ。<br>
+父：いや、来年の夏に今乗ってる車が新しいモデルになるんだよ。今より環境にいい車になるそうだから、買い替えるのはその頃にしようと思ってるんだ。<br>
+母：でもこの間だってしばらくエンジンがかからないことがあったし。<br>
+父：それ以外のところは問題ないよ。<br>
+娘：ねえ、環境にいい車を買ったら税金が安くなるよ。<b>それに今なら補助金がもらえるよ。来年じゃなくて今年買ったら？</b><br>
+父：なんだ、その補助金っていうのは？<br>
+娘：<b>13年以上乗った車を廃車にして環境にいい車を買うと、いくらかお金がもらえるんだって。この制度が使えるのは今年だけって聞いたけど。</b><br>
+母：それでお隣さんも急いで車を買ったのね。補助金がもらえるうちにって言ってたから。<br>
+父：<b>そうか。どうせ買い替えるなら、その制度が利用できるうちの方がいいよな。</b><br>
+母：<b>そうね。じゃあ今年買いましょう。</b><br>
+家族が今年車を買い替える一番の理由は何ですか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Ba người trong gia đình đang nói chuyện về thời điểm đổi xe ô tô.<br>
+Mẹ: "Mình ơi, chẳng phải đã đến lúc đổi xe ô tô mới rồi sao?"<br>
+Bố: "Xe ô tô á?"<br>
+Mẹ: "Vâng, tính đến năm nay là đã đi được 15 năm rồi đấy."<br>
+Bố: "Không, mùa hè năm sau dòng xe nhà mình đang đi sẽ ra mẫu mới. Nghe nói sẽ là mẫu xe thân thiện với môi trường hơn hiện tại, nên tôi định đợi đến tầm đó mới đổi."<br>
+Mẹ: "Nhưng mới hôm trước cũng có lúc đề máy mãi không nổ còn gì."<br>
+Bố: "Ngoài chỗ đó ra thì các bộ phận khác vẫn chẳng có vấn đề gì cả."<br>
+Con gái: "Bố ơi, nếu mua xe thân thiện với môi trường thì sẽ được giảm thuế đấy ạ. <b>Hơn nữa mua ngay bây giờ còn được nhận tiền trợ cấp nữa. Hay là mình mua trong năm nay luôn chứ đừng đợi năm sau?</b>"<br>
+Bố: "Tiền trợ cấp đó là sao hả con?"<br>
+Con gái: "<b>Nghe nói nếu hủy bỏ xe cũ đã đi trên 13 năm để mua xe thân thiện với môi trường thì sẽ được nhà nước hỗ trợ một khoản tiền. Con nghe bảo chế độ này chỉ áp dụng trong năm nay thôi đấy.</b>"<br>
+Mẹ: "Thảo nào bác hàng xóm cũng vội vàng đi mua xe mới. Bác ấy bảo phải mua ngay trong lúc còn được nhận trợ cấp."<br>
+Bố: "<b>Ra thế. Đằng nào cũng đổi xe thì đổi ngay trong lúc còn tận dụng được chế độ đó vẫn hơn nhỉ.</b>"<br>
+Mẹ: "<b>Đúng đấy. Vậy nhà mình mua trong năm nay luôn đi.</b>"<br>
+Lý do lớn nhất khiến gia đình quyết định đổi xe ngay trong năm nay là gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Lý do quyết định đổi xe ngay năm nay là để tận dụng chế độ trợ cấp &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 155,
@@ -4051,7 +4557,34 @@ window.JLPT_DATA[8] = {
             "花の絵"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông chọn bức tranh nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 果物の絵 (Tranh hoa quả: mang lại tình yêu)<br>\n2. 海の絵 (Tranh biển: tăng tài lộc, tiết kiệm tiền)<br>\n3. 山の絵 (Tranh núi: tăng khả năng quyết đoán)<br>\n4. 花の絵 (Tranh hoa: kiểm soát cảm xúc, giảm stress)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビ番組で女の人が絵の紹介をしています。<br>\n女：お兄ちゃんの願いはやっぱり金運アップ、それとも仕事のストレスからの解放？<br>\n男：<b>俺は何をするにも迷ってばかりでなかなか決められないだろ？それを何とかしたいな。</b><br>\n質問1：この男の人はどの絵を選びますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nHai anh em xem TV giới thiệu 4 bức tranh phong thủy. Anh trai bảo mình làm gì cũng hay chần chừ mãi không quyết được nên muốn cải thiện điều đó -> chọn tranh tăng sự quyết đoán (Tranh núi).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bức tranh tăng khả năng quyết đoán là 山の絵 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông chọn bức tranh nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 果物の絵 (Tranh hoa quả: mang lại tình yêu)<br>
+2. 海の絵 (Tranh biển: tăng tài lộc, tiết kiệm tiền)<br>
+3. 山の絵 (Tranh núi: tăng khả năng quyết đoán)<br>
+4. 花の絵 (Tranh hoa: kiểm soát cảm xúc, giảm stress)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+テレビ番組で女の人が絵の紹介をしています。<br>
+アナウンサー：本日はお部屋に飾るだけで幸運がやってくる絵をご紹介します。果物、海、山、花の4種類の絵があります。まず若い女性の間で人気となっておりますのが果物の絵。深い愛情で満たされたい、恋愛を成就させたい、そんな方におすすめです。次に、最近出費がかさんで困る、お金がなかなか貯まらなくてというお悩みをお持ちの方には海の絵。これを飾るようになってから貯蓄が増えたなんていうお声をよく聞きますよ。<b>それから決断力アップには山の絵のパワーが効きますよ。進学先や就職、結婚など将来を決めかねている方にはぴったり。</b>また勉強や仕事におけるストレスを感じている方も多いでしょう。感情のコントロールや精神安定にはこちらの花の絵がいいですよ。ついつい周りの人に怒りをぶつけてしまうなんていうあなた、いかがですか。<br>
+女：へえ、面白いね。最近仕事のストレスで不安になったりイライラしたりするし、あの絵がいいかも。<br>
+男：うん、お前がイライラすると俺たち家族も迷惑だからな。でもそれより、お前には恋人ができるのがいいよ。<br>
+女：うん、確かにそれも魅力的。その絵にしようかな。お兄ちゃんの願いはやっぱり金運アップ、それとも仕事のストレスからの解放？<br>
+男：<b>俺は何をするにも迷ってばかりでなかなか決められないだろ？それを何とかしたいな。</b><br>
+女：そっか。うーん、やっぱり私はあの絵。周りに不快な思いをさせたくないからね。<br>
+男：お前はいつも恋愛は後回しだよな。<br>
+質問1：この男の人はどの絵を選びますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Trong chương trình truyền hình, người phụ nữ đang giới thiệu về các bức tranh.<br>
+Phát thanh viên: "Hôm nay chúng tôi xin giới thiệu những bức tranh chỉ cần treo trong phòng là sẽ mang lại may mắn. Có 4 loại tranh: Hoa quả, Biển, Núi và Hoa. Trước hết, được ưa chuộng trong giới nữ trẻ tuổi là tranh Hoa quả. Rất khuyên dùng cho những ai muốn được lấp đầy bởi tình yêu sâu sắc hay muốn chuyện tình cảm đơm hoa kết trái. Tiếp theo, với những ai đang đau đầu vì gần đây chi tiêu tốn kém, mãi không tiết kiệm được tiền thì hãy chọn tranh Biển. Chúng tôi thường xuyên nghe phản hồi rằng từ khi treo tranh này tiền tiết kiệm đã tăng lên. <b>Tiếp nữa, để nâng cao khả năng quyết đoán thì sức mạnh của bức tranh Núi cực kỳ hiệu nghiệm. Rất phù hợp với những ai đang phân vân chưa quyết định được tương lai như chọn trường học, việc làm hay kết hôn.</b> Ngoài ra, chắc hẳn cũng có nhiều người đang cảm thấy căng thẳng trong học tập và công việc. Để kiểm soát cảm xúc và ổn định tinh thần thì bức tranh Hoa này rất tốt. Những ai hay lỡ trút giận lên người xung quanh thì thấy sao ạ?"<br>
+Em gái: "Ồ, thú vị thật đấy. Gần đây em hay bất an và cáu gắt vì áp lực công việc, có lẽ bức tranh kia hợp với em."<br>
+Anh trai: "Ừ, em mà cứ cáu kỉnh thì gia đình mình cũng khổ lây. Nhưng hơn thế thì anh thấy em nên có người yêu đi thì hơn."<br>
+Em gái: "Ừm, đúng là điều đó cũng hấp dẫn thật. Hay là chọn bức tranh đó nhỉ. Thế còn điều ước của anh chắc là tăng vận tài lộc, hay là giải tỏa áp lực công việc?"<br>
+Anh trai: "<b>Anh thì làm việc gì cũng cứ do dự phân vân mãi chẳng quyết định được đúng không? Anh muốn khắc phục tính đó.</b>"<br>
+Em gái: "Ra vậy. Ừm, thôi em vẫn quyết định chọn bức tranh lúc nãy. Vì em không muốn làm những người xung quanh phải khó chịu."<br>
+Anh trai: "Em lúc nào cũng gác chuyện yêu đương ra sau cùng nhỉ."<br>
+Câu hỏi 1: Người đàn ông này chọn bức tranh nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bức tranh tăng khả năng quyết đoán là 山の絵 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 156,
@@ -4069,7 +4602,34 @@ window.JLPT_DATA[8] = {
             "花の絵"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ chọn bức tranh nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 果物の絵<br>\n2. 海の絵<br>\n3. 山の絵<br>\n4. 花の絵<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n(Nghe chung đoạn hội thoại ở câu trên)<br>\n女：…<b>うーん、やっぱり私はあの絵。周りに不快な思いをさせたくないからね。</b><br>\n男：お前はいつも恋愛は後回しだよな。<br>\n質問2：この女の人はどの絵を選びますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nEm gái tuy cũng thấy tranh hoa quả (tình yêu) hấp dẫn nhưng cuối cùng gác chuyện yêu đương sang một bên vì không muốn vì stress công việc mà cáu gắt làm người xung quanh khó chịu -> chọn tranh kiểm soát cảm xúc (Tranh hoa).<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bức tranh giúp kiểm soát cảm xúc và giảm stress là 花の絵 &rarr; <b>Đáp án đúng là 4</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ chọn bức tranh nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 果物の絵<br>
+2. 海の絵<br>
+3. 山の絵<br>
+4. 花の絵<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+テレビ番組で女の人が絵の紹介をしています。<br>
+アナウンサー：本日はお部屋に飾るだけで幸運がやってくる絵をご紹介します。果物、海、山、花の4種類の絵があります。まず若い女性の間で人気となっておりますのが果物の絵。深い愛情で満たされたい、恋愛を成就させたい、そんな方におすすめです。次に、最近出費がかさんで困る、お金がなかなか貯まらなくてというお悩みをお持ちの方には海の絵。これを飾るようになってから貯蓄が増えたなんていうお声をよく聞きますよ。それから決断力アップには山の絵のパワーが効きますよ。進学先や就職、結婚など将来を決めかねている方にはぴったり。<b>また勉強や仕事におけるストレスを感じている方も多いでしょう。感情のコントロールや精神安定にはこちらの花の絵がいいですよ。ついつい周りの人に怒りをぶつけてしまうなんていうあなた、いかがですか。</b><br>
+女：<b>へえ、面白いね。最近仕事のストレスで不安になったりイライラしたりするし、あの絵がいいかも。</b><br>
+男：うん、お前がイライラすると俺たち家族も迷惑だからな。でもそれより、お前には恋人ができるのがいいよ。<br>
+女：うん、確かにそれも魅力的。その絵にしようかな。お兄ちゃんの願いはやっぱり金運アップ、それとも仕事のストレスからの解放？<br>
+男：俺は何をするにも迷ってばかりでなかなか決められないだろ？それを何とかしたいな。<br>
+女：<b>そっか。うーん、やっぱり私はあの絵。周りに不快な思いをさせたくないからね。</b><br>
+男：お前はいつも恋愛は後回しだよな。<br>
+質問2：この女の人はどの絵を選びますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Trong chương trình truyền hình, người phụ nữ đang giới thiệu về các bức tranh.<br>
+Phát thanh viên: "Hôm nay chúng tôi xin giới thiệu những bức tranh chỉ cần treo trong phòng là sẽ mang lại may mắn. Có 4 loại tranh: Hoa quả, Biển, Núi và Hoa. Trước hết, được ưa chuộng trong giới nữ trẻ tuổi là tranh Hoa quả. Rất khuyên dùng cho những ai muốn được lấp đầy bởi tình yêu sâu sắc hay muốn chuyện tình cảm đơm hoa kết trái. Tiếp theo, với những ai đang đau đầu vì gần đây chi tiêu tốn kém, mãi không tiết kiệm được tiền thì hãy chọn tranh Biển. Chúng tôi thường xuyên nghe phản hồi rằng từ khi treo tranh này tiền tiết kiệm đã tăng lên. Tiếp nữa, để nâng cao khả năng quyết đoán thì sức mạnh của bức tranh Núi cực kỳ hiệu nghiệm. Rất phù hợp với những ai đang phân vân chưa quyết định được tương lai như chọn trường học, việc làm hay kết hôn. <b>Ngoài ra, chắc hẳn cũng có nhiều người đang cảm thấy căng thẳng trong học tập và công việc. Để kiểm soát cảm xúc và ổn định tinh thần thì bức tranh Hoa này rất tốt. Những ai hay lỡ trút giận lên người xung quanh thì thấy sao ạ?</b>"<br>
+Em gái: "<b>Ồ, thú vị thật đấy. Gần đây em hay bất an và cáu gắt vì áp lực công việc, có lẽ bức tranh kia hợp với em.</b>"<br>
+Anh trai: "Ừ, em mà cứ cáu kỉnh thì gia đình mình cũng khổ lây. Nhưng hơn thế thì anh thấy em nên có người yêu đi thì hơn."<br>
+Em gái: "Ừm, đúng là điều đó cũng hấp dẫn thật. Hay là chọn bức tranh đó nhỉ. Thế còn điều ước của anh chắc là tăng vận tài lộc, hay là giải tỏa áp lực công việc?"<br>
+Anh trai: "Anh thì làm việc gì cũng cứ do dự phân vân mãi chẳng quyết định được đúng không? Anh muốn khắc phục tính đó."<br>
+Em gái: "<b>Ra vậy. Ừm, thôi em vẫn quyết định chọn bức tranh lúc nãy. Vì em không muốn làm những người xung quanh phải khó chịu.</b>"<br>
+Anh trai: "Em lúc nào cũng gác chuyện yêu đương ra sau cùng nhỉ."<br>
+Câu hỏi 2: Người phụ nữ này chọn bức tranh nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bức tranh giúp kiểm soát cảm xúc và giảm stress là 花の絵 &rarr; <b>Đáp án đúng là 4</b>.`
         }
       ]
     }

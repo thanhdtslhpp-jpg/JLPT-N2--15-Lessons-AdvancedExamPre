@@ -3830,7 +3830,24 @@ window.JLPT_DATA[1] = {
             "エアコンつけて寝ないと寝れないですよね"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Đêm oi bức (nhiệt đới) kéo dài thế này thì điều hòa đúng là không thể thiếu được nhỉ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Không có điều hòa cũng được hả?<br>\n2. Hả? Sao bạn lại không dùng điều hòa?<br>\n3. Đúng thật, không bật điều hòa khi ngủ thì không tài nào ngủ nổi nhỉ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cụm từ: 欠かせない (không thể thiếu). Người nữ đưa ra nhận định đồng tình về sự cần thiết của điều hòa khi trời nóng nực ban đêm.<br>\n- Đáp án 3 thể hiện sự đồng cảm sâu sắc: \"Không bật thì không ngủ được\" &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Đêm oi bức (nhiệt đới) kéo dài thế này thì điều hòa đúng là không thể thiếu được nhỉ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. エアコンはなくてもいいんですか？: Không có điều hòa cũng được hả?<br>
+2. え？どうしてエアコンを使わないんですか？: Hả? Sao bạn lại không dùng điều hòa?<br>
+3. エアコンつけて寝ないと寝れないですよね: Đúng thật, không bật điều hòa khi ngủ thì không tài nào ngủ nổi nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：こう熱帯夜が続くとエアコンは欠かせませんよね？<br>
+1. エアコンはなくてもいいんですか？<br>
+2. え？どうしてエアコンを使わないんですか？<br>
+<b>3. エアコンつけて寝ないと寝れないですよね</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Đêm oi bức (nhiệt đới) kéo dài thế này thì điều hòa đúng là không thể thiếu được nhỉ?"<br>
+1. Không có điều hòa cũng được hả?<br>
+2. Hả? Sao bạn lại không dùng điều hòa?<br>
+<b>3. Đúng thật, không bật điều hòa khi ngủ thì không tài nào ngủ nổi nhỉ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cụm từ: 欠かせない (không thể thiếu). Người nữ đưa ra nhận định đồng tình về sự cần thiết của điều hòa khi trời nóng nực ban đêm.<br>
+- Đáp án 3 thể hiện sự đồng cảm sâu sắc: "Không bật thì không ngủ được" &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 89,
@@ -3846,7 +3863,24 @@ window.JLPT_DATA[1] = {
             "２時からで大丈夫です"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Anh Ito à. Cuộc họp dự kiến lúc 2 giờ, anh có thể dời thời gian lùi lại/chuyển sang giờ khác giúp tôi được không?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. À, tôi lúc nào cũng được cả (giờ nào cũng tiện đối với tôi).<br>\n2. Kéo dài thêm thời gian cuộc họp ạ?<br>\n3. Bắt đầu từ 2 giờ là ổn ạ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: 時間をずらす (dời, dịch chuyển mốc thời gian sang thời điểm khác). Khi được nhờ đổi giờ họp, người nghe sẵn lòng đáp lại \"tôi lúc nào cũng được\" (いつでも構いません).<br>\n- Do đó <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Anh Ito à. Cuộc họp dự kiến lúc 2 giờ, anh có thể dời thời gian lùi lại/chuyển sang giờ khác giúp tôi được không?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. あ、私はいつでも構いません: À, tôi lúc nào cũng được cả (giờ nào cũng tiện đối với tôi).<br>
+2. 打ち合わせの時間を長くするんですか？: Kéo dài thêm thời gian cuộc họp ạ?<br>
+3. ２時からで大丈夫です: Bắt đầu từ 2 giờ là ổn ạ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：伊藤さん。２時から予定してた打ち合わせだけど、時間ずらしてもらえない？<br>
+<b>1. あ、私はいつでも構いません</b><br>
+2. 打ち合わせの時間を長くするんですか？<br>
+3. ２時からで大丈夫です<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Anh Ito à. Cuộc họp dự kiến lúc 2 giờ, anh có thể dời thời gian lùi lại/chuyển sang giờ khác giúp tôi được không?"<br>
+<b>1. À, tôi lúc nào cũng được cả (giờ nào cũng tiện đối với tôi).</b><br>
+2. Kéo dài thêm thời gian cuộc họp ạ?<br>
+3. Bắt đầu từ 2 giờ là ổn ạ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: 時間をずらす (dời, dịch chuyển mốc thời gian sang thời điểm khác). Khi được nhờ đổi giờ họp, người nghe sẵn lòng đáp lại "tôi lúc nào cũng được" (いつでも構いません).<br>
+- Do đó <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 90,
@@ -3862,7 +3896,24 @@ window.JLPT_DATA[1] = {
             "練習がないから１人でやってたんだ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Nakano này, dạo này cậu hay nghỉ tập ở câu lạc bộ bóng bàn thế, có chuyện gì vậy?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Sắp thi đấu rồi nên tớ không muốn nghỉ đâu.<br>\n2. Xin lỗi cậu, dạo này tớ bận làm thêm một chút.<br>\n3. Vì không có buổi tập nên tớ tự tập một mình.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: V-bỏ-masu + がち (có xu hướng hay làm gì/thường xuyên làm gì tiêu cực). Người hỏi thắc mắc lý do tại sao dạo này cậu hay vắng mặt.<br>\n- Câu trả lời hợp lý nhất giải thích nguyên nhân vắng mặt: \"Xin lỗi nhé, vì bận việc làm thêm\" &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Nakano này, dạo này cậu hay nghỉ tập ở câu lạc bộ bóng bàn thế, có chuyện gì vậy?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 試合が近いから休みたくないんだ: Sắp thi đấu rồi nên tớ không muốn nghỉ đâu.<br>
+2. ごめん、ちょっとバイトが忙しくて: Xin lỗi cậu, dạo này tớ bận làm thêm một chút.<br>
+3. 練習がないから１人でやってたんだ: Vì không có buổi tập nên tớ tự tập một mình.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：中野さん。中野さん、最近卓球部の練習休みがちだけどどうしたの？<br>
+1. 試合が近いから休みたくないんだ<br>
+<b>2. ごめん、ちょっとバイトが忙しくて</b><br>
+3. 練習がないから１人でやってたんだ<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Nakano này, dạo này cậu hay nghỉ tập ở câu lạc bộ bóng bàn thế, có chuyện gì vậy?"<br>
+1. Sắp thi đấu rồi nên tớ không muốn nghỉ đâu.<br>
+<b>2. Xin lỗi cậu, dạo này tớ bận làm thêm một chút.</b><br>
+3. Vì không có buổi tập nên tớ tự tập một mình.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: V-bỏ-masu + がち (có xu hướng hay làm gì/thường xuyên làm gì tiêu cực). Người hỏi thắc mắc lý do tại sao dạo này cậu hay vắng mặt.<br>
+- Câu trả lời hợp lý nhất giải thích nguyên nhân vắng mặt: "Xin lỗi nhé, vì bận việc làm thêm" &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 91,
@@ -3878,7 +3929,24 @@ window.JLPT_DATA[1] = {
             "あ、もう帰ってこられたんですか？"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Sắp đến giờ họp rồi mà Trưởng phòng Yamamoto đi ăn trưa suốt từ nãy đến giờ chưa thấy về nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Vẫn chưa thấy trưởng phòng quay lại cơ à?<br>\n2. Trưởng phòng bây giờ mới chuẩn bị đi ăn trưa ạ?<br>\n3. A, trưởng phòng đã quay về rồi đấy à?<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: V-た + きり (đi biền biệt kể từ khi... không thấy quay lại / không có tiến triển tiếp theo).<br>\n- Đáp án tương thích với trạng thái chưa quay lại là 1 (まだ戻られてないんですか？) &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Sắp đến giờ họp rồi mà Trưởng phòng Yamamoto đi ăn trưa suốt từ nãy đến giờ chưa thấy về nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. まだ戻られてないんですか？: Vẫn chưa thấy trưởng phòng quay lại cơ à?<br>
+2. 課長、これから昼食ですか？: Trưởng phòng bây giờ mới chuẩn bị đi ăn trưa ạ?<br>
+3. あ、もう帰ってこられたんですか？: A, trưởng phòng đã quay về rồi đấy à?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：もうすぐ会議の時間ですけど山本課長、昼ごはん食べに行ったきりですね。<br>
+<b>1. まだ戻られてないんですか？</b><br>
+2. 課長、これから昼食ですか？<br>
+3. あ、もう帰ってこられたんですか？<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Sắp đến giờ họp rồi mà Trưởng phòng Yamamoto đi ăn trưa suốt từ nãy đến giờ chưa thấy về nhỉ."<br>
+<b>1. Vẫn chưa thấy trưởng phòng quay lại cơ à?</b><br>
+2. Trưởng phòng bây giờ mới chuẩn bị đi ăn trưa ạ?<br>
+3. A, trưởng phòng đã quay về rồi đấy à?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: V-た + きり (đi biền biệt kể từ khi... không thấy quay lại / không có tiến triển tiếp theo).<br>
+- Đáp án tương thích với trạng thái chưa quay lại là 1 (まだ戻られてないんですか？) &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 92,
@@ -3894,7 +3962,24 @@ window.JLPT_DATA[1] = {
             "直せるかどうかまだわからないんですね"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Thưa cửa hàng trưởng, chiếc tủ lạnh mà ta nhờ sửa, nghe nói không còn cách nào khác ngoài việc phải mua cái mới ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Trời, không sửa được nữa à.<br>\n2. Sửa được đúng không, may quá.<br>\n3. Vẫn chưa biết có sửa được hay không à.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: V-る + ほかない (chẳng còn cách nào khác ngoài...). Mua cái mới là giải pháp duy nhất đồng nghĩa với việc không sửa được nữa (直せない).<br>\n- Do đó <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Thưa cửa hàng trưởng, chiếc tủ lạnh mà ta nhờ sửa, nghe nói không còn cách nào khác ngoài việc phải mua cái mới ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. あー、直せないんですか: Trời, không sửa được nữa à.<br>
+2. 直せるんですね。良かったです: Sửa được đúng không, may quá.<br>
+3. 直せるかどうかまだわからないんですね: Vẫn chưa biết có sửa được hay không à.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：店長、修理を頼んでいた冷蔵庫ですが、買い替えるほかないそうです。<br>
+<b>1. あー、直せないんですか</b><br>
+2. 直せるんですね。良かったです<br>
+3. 直せるかどうかまだわからないんですね<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Thưa cửa hàng trưởng, chiếc tủ lạnh mà ta nhờ sửa, nghe nói không còn cách nào khác ngoài việc phải mua cái mới ạ."<br>
+<b>1. Trời, không sửa được nữa à.</b><br>
+2. Sửa được đúng không, may quá.<br>
+3. Vẫn chưa biết có sửa được hay không à.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: V-る + ほかない (chẳng còn cách nào khác ngoài...). Mua cái mới là giải pháp duy nhất đồng nghĩa với việc không sửa được nữa (直せない).<br>
+- Do đó <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 93,
@@ -3910,7 +3995,24 @@ window.JLPT_DATA[1] = {
             "出席できない人は連絡いらないって思ってたよ"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Buổi tiệc chia tay trưởng phòng, anh Ono bảo là 'Dù tham dự hay vắng mặt thì cũng phải trả lời sớm' đấy nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Chỉ người tham gia mới cần liên lạc thôi nhỉ.<br>\n2. Nếu không đi được thì phải trả lời sớm nhỉ.<br>\n3. Thế mà tớ cứ tưởng ai không tham gia được thì không cần liên lạc cơ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: ～にかかわらず (bất kể / bất luận có hay không). Dù đi hay không cũng phải báo sớm.<br>\n- Đáp án 3 bày tỏ sự bất ngờ vì trước đó nghĩ sai (\"cứ tưởng không đi thì khỏi cần báo\") &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Buổi tiệc chia tay trưởng phòng, anh Ono bảo là 'Dù tham dự hay vắng mặt thì cũng phải trả lời sớm' đấy nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 出る人だけ連絡すればいいんだね: Chỉ người tham gia mới cần liên lạc thôi nhỉ.<br>
+2. 行けないなら早めに返事するんだね: Nếu không đi được thì phải trả lời sớm nhỉ.<br>
+3. 出席できない人は連絡いらないって思ってたよ: Thế mà tớ cứ tưởng ai không tham gia được thì không cần liên lạc cơ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：課長の送別会、「出席、欠席に関わらず早く返事くれ」って小野さんが言ってたよ。<br>
+1. 出る人だけ連絡すればいいんだね<br>
+2. 行けないなら早めに返事するんだね<br>
+<b>3. 出席できない人は連絡いらないって思ってたよ</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Buổi tiệc chia tay trưởng phòng, anh Ono bảo là 'Dù tham dự hay vắng mặt thì cũng phải trả lời sớm' đấy nhé."<br>
+1. Chỉ người tham gia mới cần liên lạc thôi nhỉ.<br>
+2. Nếu không đi được thì phải trả lời sớm nhỉ.<br>
+<b>3. Thế mà tớ cứ tưởng ai không tham gia được thì không cần liên lạc cơ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: ～にかかわらず (bất kể / bất luận có hay không). Dù đi hay không cũng phải báo sớm.<br>
+- Đáp án 3 bày tỏ sự bất ngờ vì trước đó nghĩ sai ("cứ tưởng không đi thì khỏi cần báo") &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 94,
@@ -3926,7 +4028,24 @@ window.JLPT_DATA[1] = {
             "スタッフのお弁当は別に注文するんですね"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Anh Mori. Cơm hộp cho ngày hội thảo, nhờ anh đặt 30 suất bao gồm cả phần của nhân viên hỗ trợ nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Riêng phần của nhân viên là 30 suất đúng không ạ.<br>\n2. Cơm hộp đặt tổng cộng là 30 suất đúng không ạ.<br>\n3. Cơm hộp của nhân viên đặt riêng ra đúng không ạ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cụm từ: スタッフの分を含めて30個 (Bao gồm cả nhân viên là 30 phần, tức là tổng cộng 30 suất).<br>\n- Đáp án xác nhận lại chuẩn xác là: 全部で30個ですね &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Anh Mori. Cơm hộp cho ngày hội thảo, nhờ anh đặt 30 suất bao gồm cả phần của nhân viên hỗ trợ nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. スタッフの分だけで３０個ですね。: Riêng phần của nhân viên là 30 suất đúng không ạ.<br>
+2. 予約するお弁当は全部で３０個ですね: Cơm hộp đặt tổng cộng là 30 suất đúng không ạ.<br>
+3. スタッフのお弁当は別に注文するんですね: Cơm hộp của nhân viên đặt riêng ra đúng không ạ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：森さん。セミナー当日のお弁当、スタッフの分を含めて３０個予約をお願いします。<br>
+1. スタッフの分だけで３０個ですね。<br>
+<b>2. 予約するお弁当は全部で３０個ですね</b><br>
+3. スタッフのお弁当は別に注文するんですね<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Anh Mori. Cơm hộp cho ngày hội thảo, nhờ anh đặt 30 suất bao gồm cả phần của nhân viên hỗ trợ nhé."<br>
+1. Riêng phần của nhân viên là 30 suất đúng không ạ.<br>
+<b>2. Cơm hộp đặt tổng cộng là 30 suất đúng không ạ.</b><br>
+3. Cơm hộp của nhân viên đặt riêng ra đúng không ạ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cụm từ: スタッフの分を含めて30個 (Bao gồm cả nhân viên là 30 phần, tức là tổng cộng 30 suất).<br>
+- Đáp án xác nhận lại chuẩn xác là: 全部で30個ですね &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 95,
@@ -3942,7 +4061,24 @@ window.JLPT_DATA[1] = {
             "あー、今日はミーティング中止なんだね"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Cuộc họp về hàng mẫu hôm nay, trưởng phòng vừa gửi mail bảo là 'Cứ họp mà không cần có tôi' đấy.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Vậy thì đợi trưởng phòng đến rồi hãy bắt đầu.<br>\n2. Thế là hôm nay trưởng phòng không đến họp nhỉ.<br>\n3. À, thế là hôm nay cuộc họp bị hủy bỏ nhỉ.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: N + 抜きで (bỏ qua N, không có N). \"Trưởng phòng nhắn cứ họp mà không có mặt ông ấy\" có nghĩa là hôm nay trưởng phòng không tham gia họp (部長来ないんだ).<br>\n- Do đó <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Cuộc họp về hàng mẫu hôm nay, trưởng phòng vừa gửi mail bảo là 'Cứ họp mà không cần có tôi' đấy."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. じゃ、部長が来てから始めよう: Vậy thì đợi trưởng phòng đến rồi hãy bắt đầu.<br>
+2. 今日、部長来ないんだ: Thế là hôm nay trưởng phòng không đến họp nhỉ.<br>
+3. あー、今日はミーティング中止なんだね: À, thế là hôm nay cuộc họp bị hủy bỏ nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：今日のサンプルのミーティングだけど、「部長抜きでやってくれ」って部長からメールが来たよ。<br>
+1. じゃ、部長が来てから始めよう<br>
+<b>2. 今日、部長来ないんだ</b><br>
+3. あー、今日はミーティング中止なんだね<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Cuộc họp về hàng mẫu hôm nay, trưởng phòng vừa gửi mail bảo là 'Cứ họp mà không cần có tôi' đấy."<br>
+1. Vậy thì đợi trưởng phòng đến rồi hãy bắt đầu.<br>
+<b>2. Thế là hôm nay trưởng phòng không đến họp nhỉ.</b><br>
+3. À, thế là hôm nay cuộc họp bị hủy bỏ nhỉ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: N + 抜きで (bỏ qua N, không có N). "Trưởng phòng nhắn cứ họp mà không có mặt ông ấy" có nghĩa là hôm nay trưởng phòng không tham gia họp (部長来ないんだ).<br>
+- Do đó <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 96,
@@ -3958,7 +4094,24 @@ window.JLPT_DATA[1] = {
             "今度の週末だね。土曜でもいい？"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Quán karaoke trước ga, tớ thấy tờ rơi bảo chỉ riêng thứ bảy chủ nhật tuần này được giảm nửa giá đấy, đi không?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Hàng tuần cứ thứ bảy chủ nhật là giảm nửa giá nhỉ. Đi nhé?<br>\n2. Nếu ngày thường giảm nửa giá thì đi ngày thường nhé.<br>\n3. Cuối tuần này đúng không. Thứ bảy được không cậu?<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: ～に限り (chỉ riêng dịp này). Khuyến mãi áp dụng riêng cho cuối tuần này (今度の土日に限り).<br>\n- Đáp án 3 hẹn lịch cụ thể vào thứ bảy cuối tuần này &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Quán karaoke trước ga, tớ thấy tờ rơi bảo chỉ riêng thứ bảy chủ nhật tuần này được giảm nửa giá đấy, đi không?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 毎週土日は半額なんだね。行こうか？: Hàng tuần cứ thứ bảy chủ nhật là giảm nửa giá nhỉ. Đi nhé?<br>
+2. 平日が半額になるなら平日だね: Nếu ngày thường giảm nửa giá thì đi ngày thường nhé.<br>
+3. 今度の週末だね。土曜でもいい？: Cuối tuần này đúng không. Thứ bảy được không cậu?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：駅前のカラオケ、今度の土日に限り半額ってチラシで見たけど行かない？<br>
+1. 毎週土日は半額なんだね。行こうか？<br>
+2. 平日が半額になるなら平日だね<br>
+<b>3. 今度の週末だね。土曜でもいい？</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Quán karaoke trước ga, tớ thấy tờ rơi bảo chỉ riêng thứ bảy chủ nhật tuần này được giảm nửa giá đấy, đi không?"<br>
+1. Hàng tuần cứ thứ bảy chủ nhật là giảm nửa giá nhỉ. Đi nhé?<br>
+2. Nếu ngày thường giảm nửa giá thì đi ngày thường nhé.<br>
+<b>3. Cuối tuần này đúng không. Thứ bảy được không cậu?</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: ～に限り (chỉ riêng dịp này). Khuyến mãi áp dụng riêng cho cuối tuần này (今度の土日に限り).<br>
+- Đáp án 3 hẹn lịch cụ thể vào thứ bảy cuối tuần này &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 97,
@@ -3974,7 +4127,24 @@ window.JLPT_DATA[1] = {
             "受けてもらえて安心しました"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Thưa trưởng phòng, em đã nhờ công ty Midori hợp tác trong sự kiện năm tới nhưng câu trả lời của họ còn mập mờ, chưa rõ ràng ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Cậu hãy gửi email cảm ơn lại cho họ nhé.<br>\n2. Thế thì để tôi trực tiếp hỏi họ xem sao.<br>\n3. Được họ nhận lời là tôi yên tâm rồi.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Từ vựng: 曖昧 (mập mờ, lấp lửng, chưa dứt khoát). Khi đối tác trả lời chưa rõ ràng, cấp trên chủ động hỗ trợ: \"Để tôi hỏi lại họ xem sao\" (私から聞いてみましょうか).<br>\n- Do đó <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Thưa trưởng phòng, em đã nhờ công ty Midori hợp tác trong sự kiện năm tới nhưng câu trả lời của họ còn mập mờ, chưa rõ ràng ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 改めてお礼のメールを送ってください: Cậu hãy gửi email cảm ơn lại cho họ nhé.<br>
+2. じゃ、私から聞いてみましょうか: Thế thì để tôi trực tiếp hỏi họ xem sao.<br>
+3. 受けてもらえて安心しました: Được họ nhận lời là tôi yên tâm rồi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：課長、みどり社に来年のイベントへの協力を依頼しているんですが、返事が曖昧なんです。<br>
+1. 改めてお礼のメールを送ってください<br>
+<b>2. じゃ、私から聞いてみましょうか</b><br>
+3. 受けてもらえて安心しました<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Thưa trưởng phòng, em đã nhờ công ty Midori hợp tác trong sự kiện năm tới nhưng câu trả lời của họ còn mập mờ, chưa rõ ràng ạ."<br>
+1. Cậu hãy gửi email cảm ơn lại cho họ nhé.<br>
+<b>2. Thế thì để tôi trực tiếp hỏi họ xem sao.</b><br>
+3. Được họ nhận lời là tôi yên tâm rồi.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Từ vựng: 曖昧 (mập mờ, lấp lửng, chưa dứt khoát). Khi đối tác trả lời chưa rõ ràng, cấp trên chủ động hỗ trợ: "Để tôi hỏi lại họ xem sao" (私から聞いてみましょうか).<br>
+- Do đó <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 98,
@@ -3990,7 +4160,24 @@ window.JLPT_DATA[1] = {
             "そう？じゃ、来月になったらすぐ予約しよう"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Tớ xem trang web chuyến du lịch trượt tuyết tháng 2 của nhóm mình rồi, người ta bảo phải sang tháng sau mới mở đăng ký đấy.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. Hả? Vẫn còn thời gian mà đã kín chỗ rồi cơ à?<br>\n2. Thế thì trong tháng này phải đặt ngay rồi nhỉ.<br>\n3. Thế à? Vậy sang tháng sau một cái là ta đặt ngay nhé.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Cấu trúc: V-てからでないと (nếu chưa... thì không thể). Phải bước sang tháng sau mới được đăng ký.<br>\n- Câu phản hồi phù hợp logic: \"Vậy sang tháng sau là đặt liền\" &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Tớ xem trang web chuyến du lịch trượt tuyết tháng 2 của nhóm mình rồi, người ta bảo phải sang tháng sau mới mở đăng ký đấy."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. え？まだ時間あるのにもういっぱいなの？: Hả? Vẫn còn thời gian mà đã kín chỗ rồi cơ à?<br>
+2. じゃ、今月中に予約しなくちゃいけないんだね: Thế thì trong tháng này phải đặt ngay rồi nhỉ.<br>
+3. そう？じゃ、来月になったらすぐ予約しよう: Thế à? Vậy sang tháng sau một cái là ta đặt ngay nhé.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：２月にみんなで行くスキー旅行のサイト見たけど、来月になってからでないと申し込みできないって。<br>
+1. え？まだ時間あるのにもういっぱいなの？<br>
+2. じゃ、今月中に予約しなくちゃいけないんだね<br>
+<b>3. そう？じゃ、来月になったらすぐ予約しよう</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Tớ xem trang web chuyến du lịch trượt tuyết tháng 2 của nhóm mình rồi, người ta bảo phải sang tháng sau mới mở đăng ký đấy."<br>
+1. Hả? Vẫn còn thời gian mà đã kín chỗ rồi cơ à?<br>
+2. Thế thì trong tháng này phải đặt ngay rồi nhỉ.<br>
+<b>3. Thế à? Vậy sang tháng sau một cái là ta đặt ngay nhé.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Cấu trúc: V-てからでないと (nếu chưa... thì không thể). Phải bước sang tháng sau mới được đăng ký.<br>
+- Câu phản hồi phù hợp logic: "Vậy sang tháng sau là đặt liền" &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 99,
@@ -4024,7 +4211,35 @@ window.JLPT_DATA[1] = {
             "第４会場（健康相談・医師面談）"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông nói sẽ đến hội trường nào trước tiên?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. Hội trường 1 (Đo lường thể lực)<br>\n2. Hội trường 2 (Thể dục nâng cao sức khỏe)<br>\n3. Hội trường 3 (Chế độ ăn uống lành mạnh)<br>\n4. Hội trường 4 (Tư vấn sức khỏe cùng bác sĩ)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n市の健康イベントで市の職員が話しています。<br>\n女１：市民健康イベントにお越しいただきありがとうございます。館内には４つの会場がございます。<b>第１会場では体力測定</b>を実施しております。どなたにもできる簡単なテストでご自分の体力年齢を測定することができます。<b>第２会場では健康づくりに役立つ体操</b>を紹介しております。職場や家庭で簡単にできるものからちょっと難しめのものまでご自分の体力に合わせて運動していただけます。ぜひ体験してみてください。<b>第３会場では健康な食生活</b>をテーマに毎日の献立や調理法を講師が紹介します。栄養が偏りがちな方におすすめです。<b>第４会場では健康に関する悩みや相談に個別にお答えします。１時から４時まで医師がおります</b>のでこの機会をご利用ください。<br>\n男：へー、いろんなのがあるんだね。時間がない時に会社でもできる運動を教えてもらおうかな。最近運動してないし。<br>\n女２：うん、いいんじゃない？スポーツジムに行く時間も取れないもんね。通勤途中や仕事中でも体を動かせたらいいね。<br>\n男：<b>うん。まずは今どれくらい体力があるか測ってもらおう。頑張らなきゃって気になれるし。</b><br>\n女２：そう。私はやっぱり毎日の献立かな？一度食事を見直したいと思ってたの。<br>\n男：それより最近ぐっすり眠れないって言ってなかった？お医者さんに相談してみたら？<br>\n女２：あ、そうだね。そっち先に行ってこよ。<br><br>\n<b>💡 Phân tích chọn đáp án cho Câu hỏi 1:</b><br>\n- Người đàn ông nói: \"うん。まずは今どれくらい体力があるか測ってもらおう\" (Trước tiên tôi đi đo xem thể lực hiện tại của mình đến đâu đã).<br>\n- Hoạt động đo thể lực (体力測定) diễn ra tại Hội trường 1 &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông nói sẽ đến hội trường nào trước tiên?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. Hội trường 1 (Đo lường thể lực)<br>
+2. Hội trường 2 (Thể dục nâng cao sức khỏe)<br>
+3. Hội trường 3 (Chế độ ăn uống lành mạnh)<br>
+4. Hội trường 4 (Tư vấn sức khỏe cùng bác sĩ)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+市の健康イベントで市の職員が話しています。<br>
+女１：市民健康イベントにお越しいただきありがとうございます。館内には４つの会場がございます。<b>第１会場では体力測定を実施しております。どなたにもできる簡単なテストでご自分の体力年齢を測定することができます。</b>第２会場では健康づくりに役立つ体操を紹介しております。職場や家庭で簡単にできるものからちょっと難しめのものまでご自分の体力に合わせて運動していただけます。ぜひ体験してみてください。第３会場では健康な食生活をテーマに毎日の献立や調理法を講師が紹介します。栄養が偏りがちな方におすすめです。第４会場では健康に関する悩みや相談に個別にお答えします。１時から４時まで医師がおりますのでこの機会をご利用ください。<br>
+男：へー、いろんなのがあるんだね。時間がない時に会社でもできる運動を教えてもらおうかな。最近運動してないし。<br>
+女２：うん、いいんじゃない？スポーツジムに行く時間も取れないもんね。通勤途中や仕事中でも体を動かせたらいいね。<br>
+男：<b>うん。まずは今どれくらい体力があるか測ってもらおう。頑張らなきゃって気になれるし。</b><br>
+女２：そう。私はやっぱり毎日の献立かな？一度食事を見直したいと思ってたの。<br>
+男：それより最近ぐっすり眠れないって言ってなかった？お医者さんに相談してみたら？<br>
+女２：あ、そうだね。そっち先に行ってこよ。<br>
+質問１：男の人はまずどの会場に行くと言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại sự kiện sức khỏe của thành phố, một nhân viên thành phố đang phát biểu.<br>
+Nữ 1: "Cảm ơn quý vị đã đến tham dự sự kiện sức khỏe công dân. Trong tòa nhà có 4 hội trường. <b>Tại Hội trường 1, chúng tôi tổ chức đo lường thể lực. Quý vị có thể đo tuổi thể lực của mình bằng những bài kiểm tra đơn giản ai cũng làm được.</b> Tại Hội trường 2, chúng tôi giới thiệu các bài thể dục hữu ích cho việc nâng cao sức khỏe. Từ những bài tập đơn giản có thể làm ở nơi làm việc hay ở nhà cho đến những bài hơi khó một chút, quý vị có thể vận động phù hợp với thể lực của mình. Xin nhất định hãy thử trải nghiệm. Tại Hội trường 3, giảng viên sẽ giới thiệu thực đơn hàng ngày và phương pháp nấu ăn với chủ đề chế độ ăn uống lành mạnh. Rất khuyến khích cho những ai dễ bị mất cân bằng dinh dưỡng. Tại Hội trường 4, chúng tôi sẽ giải đáp riêng từng cá nhân về những nỗi niềm hay thắc mắc liên quan đến sức khỏe. Có bác sĩ túc trực từ 1 giờ đến 4 giờ nên xin hãy tận dụng cơ hội này."<br>
+Nam: "Ồ, có nhiều hoạt động ghê nhỉ. Hay là anh đi nhờ hướng dẫn bài vận động có thể tập ở công ty lúc không có thời gian nhỉ. Dạo này anh chẳng tập tành gì cả."<br>
+Nữ 2: "Ừ, hay đấy chứ? Cũng chẳng thu xếp được thời gian đi phòng gym mà. Nếu trên đường đi làm hay trong lúc làm việc mà vận động cơ thể được thì tốt quá."<br>
+Nam: "<b>Ừ. Trước tiên anh sẽ nhờ họ đo xem hiện tại mình có bao nhiêu thể lực đã. Như thế cũng giúp mình có động lực phải cố gắng hơn.</b>"<br>
+Nữ 2: "Thế à. Còn em thì chắc là thực đơn hàng ngày nhỉ? Em vẫn luôn muốn xem xét điều chỉnh lại bữa ăn một lần."<br>
+Nam: "Hơn thế, chẳng phải dạo này em bảo không ngủ sâu giấc được sao? Em thử hỏi ý kiến bác sĩ xem?"<br>
+Nữ 2: "À, đúng rồi nhỉ. Để em qua chỗ đó trước vậy."<br>
+Câu hỏi 1: Người đàn ông nói trước tiên sẽ đi đến hội trường nào?<br><br>
+<b>💡 Phân tích chọn đáp án cho Câu hỏi 1:</b><br>
+- Người đàn ông nói: "うん。まずは今どれくらい体力があるか測ってもらおう" (Trước tiên tôi đi đo xem thể lực hiện tại của mình đến đâu đã).<br>
+- Hoạt động đo thể lực (体力測定) diễn ra tại Hội trường 1 &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 101,
@@ -4041,7 +4256,36 @@ window.JLPT_DATA[1] = {
             "第４会場（健康相談・医師面談）"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ nói sẽ đến hội trường nào trước tiên?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. Hội trường 1 (Đo lường thể lực)<br>\n2. Hội trường 2 (Thể dục nâng cao sức khỏe)<br>\n3. Hội trường 3 (Chế độ ăn uống lành mạnh)<br>\n4. Hội trường 4 (Tư vấn sức khỏe cùng bác sĩ)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女２：そう。私はやっぱり毎日の献立かな？一度食事を見直したいと思ってたの。<br>\n男：<b>それより最近ぐっすり眠れないって言ってなかった？お医者さんに相談してみたら？</b><br>\n女２：<b>あ、そうだね。そっち先に行ってこよ。</b><br><br>\n<b>💡 Phân tích chọn đáp án cho Câu hỏi 2:</b><br>\n- Ban đầu người phụ nữ định đi xem thực đơn hàng ngày (Hội trường 3), nhưng người đàn ông nhắc: \"Chẳng phải dạo này em mất ngủ sao, sao không đi hỏi bác sĩ xem?\"<br>\n- Người phụ nữ đồng ý ngay: \"À đúng rồi, em sẽ đến đó trước\" (そっち先に行ってこよ).<br>\n- Nơi có bác sĩ tư vấn sức khỏe là Hội trường 4 &rarr; <b>Đáp án đúng là 4</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ nói sẽ đến hội trường nào trước tiên?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. Hội trường 1 (Đo lường thể lực)<br>
+2. Hội trường 2 (Thể dục nâng cao sức khỏe)<br>
+3. Hội trường 3 (Chế độ ăn uống lành mạnh)<br>
+4. Hội trường 4 (Tư vấn sức khỏe cùng bác sĩ)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+市の健康イベントで市の職員が話しています。<br>
+女１：市民健康イベントにお越しいただきありがとうございます。館内には４つの会場がございます。第１会場では体力測定を実施しております。どなたにもできる簡単なテストでご自分の体力年齢を測定することができます。第２会場では健康づくりに役立つ体操を紹介しております。職場や家庭で簡単にできるものからちょっと難しめのものまでご自分の体力に合わせて運動していただけます。ぜひ体験してみてください。第３会場では健康な食生活をテーマに毎日の献立や調理法を講師が紹介します。栄養が偏りがちな方におすすめです。<b>第４会場では健康に関する悩みや相談に個別にお答えします。１時から４時まで医師がおりますのでこの機会をご利用ください。</b><br>
+男：へー、いろんなのがあるんだね。時間がない時に会社でもできる運動を教えてもらおうかな。最近運動してないし。<br>
+女２：うん、いいんじゃない？スポーツジムに行く時間も取れないもんね。通勤途中や仕事中でも体を動かせたらいいね。<br>
+男：うん。まずは今どれくらい体力があるか測ってもらおう。頑張らなきゃって気になれるし。<br>
+女２：そう。私はやっぱり毎日の献立かな？一度食事を見直したいと思ってたの。<br>
+男：<b>それより最近ぐっすり眠れないって言ってなかった？お医者さんに相談してみたら？</b><br>
+女２：<b>あ、そうだね。そっち先に行ってこよ。</b><br>
+質問２：女の人はまずどの会場に行くと言っていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại sự kiện sức khỏe của thành phố, một nhân viên thành phố đang phát biểu.<br>
+Nữ 1: "Cảm ơn quý vị đã đến tham dự sự kiện sức khỏe công dân. Trong tòa nhà có 4 hội trường. Tại Hội trường 1, chúng tôi tổ chức đo lường thể lực. Quý vị có thể đo tuổi thể lực của mình bằng những bài kiểm tra đơn giản ai cũng làm được. Tại Hội trường 2, chúng tôi giới thiệu các bài thể dục hữu ích cho việc nâng cao sức khỏe. Từ những bài tập đơn giản có thể làm ở nơi làm việc hay ở nhà cho đến những bài hơi khó một chút, quý vị có thể vận động phù hợp với thể lực của mình. Xin nhất định hãy thử trải nghiệm. Tại Hội trường 3, giảng viên sẽ giới thiệu thực đơn hàng ngày và phương pháp nấu ăn với chủ đề chế độ ăn uống lành mạnh. Rất khuyến khích cho những ai dễ bị mất cân bằng dinh dưỡng. <b>Tại Hội trường 4, chúng tôi sẽ giải đáp riêng từng cá nhân về những nỗi niềm hay thắc mắc liên quan đến sức khỏe. Có bác sĩ túc trực từ 1 giờ đến 4 giờ nên xin hãy tận dụng cơ hội này.</b>"<br>
+Nam: "Ồ, có nhiều hoạt động ghê nhỉ. Hay là anh đi nhờ hướng dẫn bài vận động có thể tập ở công ty lúc không có thời gian nhỉ. Dạo này anh chẳng tập tành gì cả."<br>
+Nữ 2: "Ừ, hay đấy chứ? Cũng chẳng thu xếp được thời gian đi phòng gym mà. Nếu trên đường đi làm hay trong lúc làm việc mà vận động cơ thể được thì tốt quá."<br>
+Nam: "Ừ. Trước tiên anh sẽ nhờ họ đo xem hiện tại mình có bao nhiêu thể lực đã. Như thế cũng giúp mình có động lực phải cố gắng hơn."<br>
+Nữ 2: "Thế à. Còn em thì chắc là thực đơn hàng ngày nhỉ? Em vẫn luôn muốn xem xét điều chỉnh lại bữa ăn một lần."<br>
+Nam: "<b>Hơn thế, chẳng phải dạo này em bảo không ngủ sâu giấc được sao? Em thử hỏi ý kiến bác sĩ xem?</b>"<br>
+Nữ 2: "<b>À, đúng rồi nhỉ. Để em qua chỗ đó trước vậy.</b>"<br>
+Câu hỏi 2: Người phụ nữ nói trước tiên sẽ đi đến hội trường nào?<br><br>
+<b>💡 Phân tích chọn đáp án cho Câu hỏi 2:</b><br>
+- Ban đầu người phụ nữ định đi xem thực đơn hàng ngày (Hội trường 3), nhưng người đàn ông nhắc: "Chẳng phải dạo này em mất ngủ sao, sao không đi hỏi bác sĩ xem?"<br>
+- Người phụ nữ đồng ý ngay: "À đúng rồi, em sẽ đến đó trước" (そっち先に行ってこよ).<br>
+- Nơi có bác sĩ tư vấn sức khỏe là Hội trường 4 &rarr; <b>Đáp án đúng là 4</b>.`
         }
       ]
     }

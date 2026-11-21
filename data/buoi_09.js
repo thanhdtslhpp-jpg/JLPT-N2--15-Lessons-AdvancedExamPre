@@ -3352,7 +3352,21 @@ window.JLPT_DATA[9] = {
             "トレーニングによる効果の変化"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Nội dung được đề cập trong bài giảng này là gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 新しいトレーニングの方法: Phương pháp tập luyện mới<br>\n2. トレーニングを行う目的: Mục đích của việc tập luyện<br>\n3. 休みとトレーニングの関係: Mối quan hệ giữa việc nghỉ ngơi và tập luyện<br>\n4. トレーニングによる効果の変化: Sự thay đổi hiệu quả do tập luyện<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n大学の講義で先生が話しています。<br>\nM：えー、最近は健康のためにトレーニングをする人が増えてきました。トレーニングをすると当然疲れがたまって筋肉も壊れます。ただ、<b>その後十分休むことで疲れが取れ、筋肉も修復され、トレーニングまえよりたくましくなっていくわけです。</b>ここで<b>もし、じゅうぶん休まないでトレーニングを続けたらどうなると思いますか。</b>……えー、今日はこのような点について説明していきたいと思います。<br>\nこの講義で取り上げる内容はどのようなことですか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nThầy giáo đang giảng bài tại đại học.<br>\nNam: \"Ừm, gần đây số người tập luyện vì sức khỏe ngày càng tăng. Khi tập luyện thì đương nhiên mệt mỏi sẽ tích tụ và cơ bắp cũng bị tổn thương. Tuy nhiên, <b>nhờ nghỉ ngơi đầy đủ sau đó mà hết mệt, cơ bắp được phục hồi và trở nên săn chắc hơn trước.</b> Vậy nếu <b>không nghỉ ngơi đầy đủ mà cứ tiếp tục tập luyện thì các bạn nghĩ sẽ thế nào?</b> Dần dần sẽ không thể tập như trước, rồi dù có nghỉ cũng khó hồi phục, lúc nào cũng thấy mệt và ngay cả bài tập đơn giản cũng thấy vất vả. Hôm nay tôi sẽ giải thích về điểm này.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Giảng viên đặt vấn đề xoay quanh việc nghỉ ngơi đầy đủ sau khi tập luyện và tác hại nếu không nghỉ ngơi &rarr; Mối quan hệ giữa nghỉ ngơi và tập luyện &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Nội dung được đề cập trong bài giảng này là gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 新しいトレーニングの方法: Phương pháp tập luyện mới<br>
+2. トレーニングを行う目的: Mục đích của việc tập luyện<br>
+3. 休みとトレーニングの関係: Mối quan hệ giữa việc nghỉ ngơi và tập luyện<br>
+4. トレーニングによる効果の変化: Sự thay đổi hiệu quả do tập luyện<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+大学の講義で先生が話しています。<br>
+M：えー、最近は健康のためにトレーニングをする人が増えてきました。トレーニングをすると当然疲れがたまって筋肉も壊れます。ただ、<b>その後十分休むことで疲れが取れ、筋肉も修復され、トレーニング前よりたくましくなっていくわけです。ここでもし、十分休まないでトレーニングを続けたらどうなると思いますか。</b>だんだんこれまでと同じようにはできなくなり、さらには休んでも回復しにくくなって、常に疲れを感じる、簡単なトレーニングもつらいといった状態になってしまいます。えー、今日はこのような点について説明していきたいと思います。<br>
+この講義で取り上げる内容はどのようなことですか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Thầy giáo đang giảng bài tại đại học.<br>
+Nam: "Ừm, gần đây số người tập luyện vì sức khỏe ngày càng tăng. Khi tập luyện thì đương nhiên mệt mỏi sẽ tích tụ và cơ bắp cũng bị tổn thương. Tuy nhiên, <b>nhờ nghỉ ngơi đầy đủ sau đó mà hết mệt, cơ bắp được phục hồi và trở nên săn chắc hơn trước.</b> Vậy nếu <b>không nghỉ ngơi đầy đủ mà cứ tiếp tục tập luyện thì các bạn nghĩ sẽ thế nào?</b> Dần dần sẽ không thể tập như trước, rồi dù có nghỉ cũng khó hồi phục, lúc nào cũng thấy mệt và ngay cả bài tập đơn giản cũng thấy vất vả. Hôm nay tôi sẽ giải thích về điểm này."<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Giảng viên đặt vấn đề xoay quanh việc nghỉ ngơi đầy đủ sau khi tập luyện và tác hại nếu không nghỉ ngơi &rarr; Mối quan hệ giữa nghỉ ngơi và tập luyện &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 136,
@@ -3423,7 +3437,24 @@ window.JLPT_DATA[9] = {
             "そう言ってくれるとうれしいよ。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Bức tranh này cậu vẽ đấy à Suzuki? Đẹp quá nhỉ!\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 残念だな。次はもっと頑張るよ。 (Tiếc thật đấy. Lần sau mình sẽ cố gắng hơn.)<br>\n2. そう？俺はけっこういいと思うけど。 (Thế à? Mình thấy cũng khá ổn mà.)<br>\n3. そう言ってくれるとうれしいよ。 (Cậu khen vậy mình vui lắm.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：この絵、鈴木君が描いたの？<b>素敵じゃない。</b><br>\nM：<b>3. そう言ってくれるとうれしいよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Bức tranh này là cậu vẽ à Suzuki? Đẹp đấy chứ!\"<br>\nNam: \"Cậu nói vậy mình vui lắm.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「素敵じゃない」 là lời khen (\"Đẹp quá nhỉ\"). Đáp lại lời khen một cách tự nhiên là cảm ơn/bày tỏ niềm vui (そう言ってくれるとうれしいよ).<br>\n- Đáp án 1 và 2 phản ứng như thể bị chê nên sai &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Bức tranh này cậu vẽ đấy à Suzuki? Đẹp quá nhỉ!"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 残念だな。次はもっと頑張るよ。: Tiếc thật đấy. Lần sau mình sẽ cố gắng hơn.<br>
+2. そう？俺はけっこういいと思うけど。: Thế à? Mình thấy cũng khá ổn mà.<br>
+3. そう言ってくれるとうれしいよ。: Cậu khen vậy mình vui lắm.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：この絵、鈴木君が描いたの？素敵じゃない。<br>
+1. 残念だな。次はもっと頑張るよ。<br>
+2. そう？俺はけっこういいと思うけど。<br>
+<b>3. そう言ってくれるとうれしいよ。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Bức tranh này cậu vẽ đấy à Suzuki? Đẹp quá nhỉ!"<br>
+1. Tiếc thật đấy. Lần sau mình sẽ cố gắng hơn.<br>
+2. Thế à? Mình thấy cũng khá ổn mà.<br>
+<b>3. Cậu khen vậy mình vui lắm.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「素敵じゃない」 là lời khen ("Đẹp quá nhỉ"). Đáp lại lời khen một cách tự nhiên là cảm ơn/bày tỏ niềm vui (そう言ってくれるとうれしいよ).<br>
+- Đáp án 1 và 2 phản ứng như thể bị chê nên sai &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 140,
@@ -3440,7 +3471,23 @@ window.JLPT_DATA[9] = {
             "はい、遠慮させていただきます。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Xin mời anh cứ tự nhiên dùng bao nhiêu tùy thích, đừng ngại nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. はい、ごちそうさまでした。 (Vâng, cảm ơn vì bữa ăn - nói sau khi ăn xong.)<br>\n2. はい、いただきます。 (Vâng, xin phép được dùng ạ.)<br>\n3. はい、遠慮させていただきます。 (Vâng, tôi xin phép từ chối ạ - nghe thiếu tự nhiên/từ chối sai ngữ cảnh.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：どうぞ、遠慮なさらずに好きなだけ<b>召し上がってください</b>。<br>\nM：<b>2. はい、いただきます。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Xin mời anh đừng ngại, cứ ăn thoải mái theo ý thích nhé.\"<br>\nNam: \"Vâng, xin phép được dùng ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi được mời ăn uống (召し上がってください), lời đáp chuẩn mực là 「はい、いただきます。」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Xin mời anh cứ tự nhiên dùng bao nhiêu tùy thích, đừng ngại nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. はい、ごちそうさまでした。: Vâng, cảm ơn vì bữa ăn - nói sau khi ăn xong.<br>
+2. はい、いただきます。: Vâng, xin phép được dùng ạ.<br>
+3. はい、遠慮させていただきます。: Vâng, tôi xin phép từ chối ạ - nghe thiếu tự nhiên/từ chối sai ngữ cảnh.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：どうぞ、遠慮なさらずに好きなだけ召し上がってください。<br>
+1. はい、ごちそうさまでした。<br>
+<b>2. はい、いただきます。</b><br>
+3. はい、遠慮させていただきます。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Xin mời anh cứ tự nhiên dùng bao nhiêu tùy thích, đừng ngại nhé."<br>
+1. Vâng, cảm ơn vì bữa ăn - nói sau khi ăn xong.<br>
+<b>2. Vâng, xin phép được dùng ạ.</b><br>
+3. Vâng, tôi xin phép từ chối ạ - nghe thiếu tự nhiên/từ chối sai ngữ cảnh.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khi được mời ăn uống (召し上がってください), lời đáp chuẩn mực là 「はい、いただきます。」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 141,
@@ -3457,7 +3504,23 @@ window.JLPT_DATA[9] = {
             "うん、きっと気に入るよ。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Bộ quần áo này, không biết mẹ có thích không nhỉ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. うん、もちろん。毎日着てるよ。 (Ừ, tất nhiên rồi. Mẹ đang mặc mỗi ngày đấy.)<br>\n2. ううん、何もくれなかったよ。 (Không, chẳng cho cái gì cả.)<br>\n3. うん、きっと気に入るよ。 (Ừ, chắc chắn mẹ sẽ thích đấy.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：この服、お母さん<b>気に入ってくれるかな</b>？<br>\nM：<b>3. うん、きっと気に入るよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Bộ đồ này không biết mẹ có thích không nhỉ?\"<br>\nNam: \"Ừ, chắc chắn mẹ sẽ thích thôi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Câu hỏi phỏng đoán về tương lai (khi tặng mẹ), nên đáp án 1 chia thì hiện tại tiếp diễn (毎日着てる) là sai thời điểm; đáp án 2 hiểu nhầm 「くれる」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Bộ quần áo này, không biết mẹ có thích không nhỉ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. うん、もちろん。毎日着てるよ。: Ừ, tất nhiên rồi. Mẹ đang mặc mỗi ngày đấy.<br>
+2. ううん、何もくれなかったよ。: Không, chẳng cho cái gì cả.<br>
+3. うん、きっと気に入るよ。: Ừ, chắc chắn mẹ sẽ thích đấy.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：この服、お母さん気に入ってくれるかな？<br>
+1. うん、もちろん。毎日着てるよ。<br>
+2. ううん、何もくれなかったよ。<br>
+<b>3. うん、きっと気に入るよ。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Bộ quần áo này, không biết mẹ có thích không nhỉ?"<br>
+1. Ừ, tất nhiên rồi. Mẹ đang mặc mỗi ngày đấy.<br>
+2. Không, chẳng cho cái gì cả.<br>
+<b>3. Ừ, chắc chắn mẹ sẽ thích đấy.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Câu hỏi phỏng đoán về tương lai (khi tặng mẹ), nên đáp án 1 chia thì hiện tại tiếp diễn (毎日着てる) là sai thời điểm; đáp án 2 hiểu nhầm 「くれる」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 142,
@@ -3474,7 +3537,23 @@ window.JLPT_DATA[9] = {
             "教科書読んで来いって。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Này, thầy giáo đã nói gì thế?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 電話してた。 (Thầy đang gọi điện thoại.)<br>\n2. バスで来てたよ。 (Thầy đến bằng xe buýt đấy.)<br>\n3. 教科書読んで来いって。 (Thầy bảo hãy đọc trước sách giáo khoa rồi đến.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：ねえ、先生、<b>何て言ってた</b>？<br>\nM：<b>3. 教科書読んで来いって。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Này, thầy giáo bảo sao thế?\"<br>\nNam: \"Thầy dặn là đọc trước sách giáo khoa đi rồi tới.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hỏi nội dung lời nói 「何て言ってた？」 thì đáp lại bằng cấu trúc truyền đạt 「～って」 (nghe nói là / bảo là...) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Này, thầy giáo đã nói gì thế?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 電話してた。: Thầy đang gọi điện thoại.<br>
+2. バスで来てたよ。: Thầy đến bằng xe buýt đấy.<br>
+3. 教科書読んで来いって。: Thầy bảo hãy đọc trước sách giáo khoa rồi đến.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：ねえ、先生、何て言ってた？<br>
+1. 電話してた。<br>
+2. バスで来てたよ。<br>
+<b>3. 教科書読んで来いって。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Này, thầy giáo đã nói gì thế?"<br>
+1. Thầy đang gọi điện thoại.<br>
+2. Thầy đến bằng xe buýt đấy.<br>
+<b>3. Thầy bảo hãy đọc trước sách giáo khoa rồi đến.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Hỏi nội dung lời nói 「何て言ってた？」 thì đáp lại bằng cấu trúc truyền đạt 「～って」 (nghe nói là / bảo là...) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 143,
@@ -3491,7 +3570,23 @@ window.JLPT_DATA[9] = {
             "すみません。すぐに消します。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Cho đến khi mọi người về hết, xin vui lòng đừng tắt đèn ở lối vào nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. わかりました。お願いします。 (Tôi hiểu rồi. Nhờ anh ạ - sai vai vế người thực hiện.)<br>\n2. はい。このままにしておきます。 (Vâng. Tôi sẽ để nguyên như thế này.)<br>\n3. すみません。すぐに消します。 (Xin lỗi. Tôi sẽ tắt ngay - trái với yêu cầu.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：全員が帰るまで、入口の電気は<b>消さないようにお願いします</b>。<br>\nF：<b>2. はい。このままにしておきます。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Cho đến khi tất cả về hết, nhờ chị đừng tắt đèn ở cửa ra vào nhé.\"<br>\nNữ: \"Vâng, tôi sẽ để nguyên thế này.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Yêu cầu giữ nguyên đèn sáng (消さないように), nên đáp lại 「このままにしておきます」 (sẽ giữ nguyên trạng) là chuẩn xác nhất &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Cho đến khi mọi người về hết, xin vui lòng đừng tắt đèn ở lối vào nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. わかりました。お願いします。: Tôi hiểu rồi. Nhờ anh ạ<br>
+2. はい。このままにしておきます。: Vâng. Tôi sẽ để nguyên như thế này.<br>
+3. すみません。すぐに消します。: Xin lỗi. Tôi sẽ tắt ngay<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：全員が帰るまで、入口の電気は消さないようにお願いします。<br>
+1. わかりました。お願いします。<br>
+<b>2. はい。このままにしておきます。</b><br>
+3. すみません。すぐに消します。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Cho đến khi mọi người về hết, xin vui lòng đừng tắt đèn ở lối vào nhé."<br>
+1. Tôi hiểu rồi. Nhờ anh ạ<br>
+<b>2. Vâng. Tôi sẽ để nguyên như thế này.</b><br>
+3. Xin lỗi. Tôi sẽ tắt ngay<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Yêu cầu giữ nguyên đèn sáng (消さないように), nên đáp lại 「このままにしておきます」 (sẽ giữ nguyên trạng) là chuẩn xác nhất &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 144,
@@ -3508,7 +3603,23 @@ window.JLPT_DATA[9] = {
             "そうだね。長かったね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Giá mà có thêm thời gian thì tốt biết mấy nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. そうだね。よかったね。 (Đúng nhỉ. Tốt quá nhỉ - không khớp ý nuối tiếc.)<br>\n2. そうだね。あんまりなかったね。 (Đúng nhỉ. Chẳng có mấy thời gian nhỉ.)<br>\n3. そうだね。長かったね。 (Đúng nhỉ. Dài thật nhỉ - trái nghĩa.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：<b>もっと時間があればよかったね。</b><br>\nF：<b>2. そうだね。あんまりなかったね。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Giá mà có nhiều thời gian hơn thì hay nhỉ.\"<br>\nNữ: \"Ừ nhỉ. Đúng là chẳng có mấy thời gian thật.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～ばよかった」 thể hiện sự tiếc nuối vì thực tế không có đủ thời gian, nên đồng tình bằng 「あんまりなかったね」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Giá mà có thêm thời gian thì tốt biết mấy nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. そうだね。よかったね。: Đúng nhỉ. Tốt quá nhỉ<br>
+2. そうだね。あんまりなかったね。: Đúng nhỉ. Chẳng có mấy thời gian nhỉ.<br>
+3. そうだね。長かったね。: Đúng nhỉ. Dài thật nhỉ<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：もっと時間があればよかったね。<br>
+1. そうだね。よかったね。<br>
+<b>2. そうだね。あんまりなかったね。</b><br>
+3. そうだね。長かったね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Giá mà có thêm thời gian thì tốt biết mấy nhỉ."<br>
+1. Đúng nhỉ. Tốt quá nhỉ<br>
+<b>2. Đúng nhỉ. Chẳng có mấy thời gian nhỉ.</b><br>
+3. Đúng nhỉ. Dài thật nhỉ<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～ばよかった」 thể hiện sự tiếc nuối vì thực tế không có đủ thời gian, nên đồng tình bằng 「あんまりなかったね」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 145,
@@ -3525,7 +3636,23 @@ window.JLPT_DATA[9] = {
             "そうですか？じゃあ、お願いします。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Vậy lát nữa để bên tôi bảo (nhân viên) gọi điện lại cho anh nhé?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. ええ、もちろん。かけられますよ。 (Vâng, tất nhiên. Có thể gọi được đấy.)<br>\n2. わかりました。おかけします。 (Tôi hiểu rồi. Tôi sẽ gọi - nhầm chủ thể hành động.)<br>\n3. そうですか？じゃあ、お願いします。 (Vậy à? Thế thì nhờ chị nhé.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：では、あとで<b>こちらから電話をかけさせましょうか</b>。<br>\nM：<b>3. そうですか？じゃあ、お願いします。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Vậy lát nữa để bên chúng tôi gọi điện cho anh nhé?\"<br>\nNam: \"Vậy ạ? Thế thì nhờ bên chị nhé.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người nói đề nghị 「～ましょうか」 (để bên tôi gọi lại nhé), người nghe đồng ý tiếp nhận sự giúp đỡ bằng 「じゃあ、お願いします」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Vậy lát nữa để bên tôi bảo (nhân viên) gọi điện lại cho anh nhé?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ええ、もちろん。かけられますよ。: Vâng, tất nhiên. Có thể gọi được đấy.<br>
+2. わかりました。おかけします。: Tôi hiểu rồi. Tôi sẽ gọi - nhầm chủ thể hành động.<br>
+3. そうですか？じゃあ、お願いします。: Vậy à? Thế thì nhờ chị nhé.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：では、あとでこちらから電話をかけさせましょうか。<br>
+1. ええ、もちろん。かけられますよ。<br>
+2. わかりました。おかけします。<br>
+<b>3. そうですか？じゃあ、お願いします。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Vậy lát nữa để bên tôi bảo (nhân viên) gọi điện lại cho anh nhé?"<br>
+1. Vâng, tất nhiên. Có thể gọi được đấy.<br>
+2. Tôi hiểu rồi. Tôi sẽ gọi - nhầm chủ thể hành động.<br>
+<b>3. Vậy à? Thế thì nhờ chị nhé.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người nói đề nghị 「～ましょうか」 (để bên tôi gọi lại nhé), người nghe đồng ý tiếp nhận sự giúp đỡ bằng 「じゃあ、お願いします」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 146,
@@ -3542,7 +3669,23 @@ window.JLPT_DATA[9] = {
             "え？もう提出したの？"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Việc nộp báo cáo chắc không kịp hạn chót mất rồi.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 大丈夫だよ、今から頑張れば。 (Không sao đâu, nếu bây giờ cố gắng lên thì kịp mà.)<br>\n2. すごいね。よく頑張ったね。 (Giỏi quá nhỉ. Cậu đã cố gắng rất tốt rồi.)<br>\n3. え？もう提出したの？ (Hả? Cậu nộp rồi à?)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：レポートの提出、<b>締め切りに間に合いそうもないよ</b>。<br>\nF：<b>1. 大丈夫だよ、今から頑張れば。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Nộp báo cáo chắc chẳng kịp hạn mất rồi.\"<br>\nNữ: \"Ổn mà, nếu từ giờ cố gắng thì kịp thôi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「間に合いそうもない」 (có vẻ không kịp) là lời than thở lo lắng chưa nộp xong. Đáp lại bằng lời động viên (1) là phù hợp nhất &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Việc nộp báo cáo chắc không kịp hạn chót mất rồi."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 大丈夫だよ、今から頑張れば。: Không sao đâu, nếu bây giờ cố gắng lên thì kịp mà.<br>
+2. すごいね。よく頑張ったね。: Giỏi quá nhỉ. Cậu đã cố gắng rất tốt rồi.<br>
+3. え？もう提出したの？: Hả? Cậu nộp rồi à?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：レポートの提出、締め切りに間に合いそうもないよ。<br>
+<b>1. 大丈夫だよ、今から頑張れば。</b><br>
+2. すごいね。よく頑張ったね。<br>
+3. え？もう提出したの？<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Việc nộp báo cáo chắc không kịp hạn chót mất rồi."<br>
+<b>1. Không sao đâu, nếu bây giờ cố gắng lên thì kịp mà.</b><br>
+2. Giỏi quá nhỉ. Cậu đã cố gắng rất tốt rồi.<br>
+3. Hả? Cậu nộp rồi à?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「間に合いそうもない」 (có vẻ không kịp) là lời than thở lo lắng chưa nộp xong. Đáp lại bằng lời động viên (1) là phù hợp nhất &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 147,
@@ -3559,7 +3702,23 @@ window.JLPT_DATA[9] = {
             "うん。ここに止められてほんとうに便利だね。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Này, chỗ này hình như không được đỗ xe đâu nhỉ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. あ、そうだね。じゃあ、向こうに止めよう。 (À, đúng nhỉ. Vậy đỗ ở đằng kia đi.)<br>\n2. いや、ここ車止めちゃだめなんだよ。 (Không, chỗ này cấm đỗ xe đấy - dùng 「いや」 phủ định nhưng ý lại lặp lại.)<br>\n3. うん。ここに止められてほんとうに便利だね。 (Ừ. Đỗ được ở đây thật tiện lợi nhỉ - trái nghĩa 「いけない」.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：ねえ、ここに車<b>止めちゃいけないんじゃない</b>？<br>\nM：<b>1. あ、そうだね。じゃあ、向こうに止めよう。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Này, ở đây không được đỗ xe phải không?\"<br>\nNam: \"À, đúng rồi nhỉ. Vậy ra đằng kia đỗ thôi.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Khi được nhắc có lẽ không được đỗ xe ở đây, người lái xe đồng tình và đề xuất chuyển sang chỗ khác &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Này, chỗ này hình như không được đỗ xe đâu nhỉ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. あ、そうだね。じゃあ、向こうに止めよう。: À, đúng nhỉ. Vậy đỗ ở đằng kia đi.<br>
+2. いや、ここ車止めちゃだめなんだよ。: Không, chỗ này cấm đỗ xe đấy - dùng 「いや」 phủ định nhưng ý lại lặp lại.<br>
+3. うん。ここに止められてほんとうに便利だね。: Ừ. Đỗ được ở đây thật tiện lợi nhỉ<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：ねえ、ここに車止めちゃいけないんじゃない？<br>
+<b>1. あ、そうだね。じゃあ、向こうに止めよう。</b><br>
+2. いや、ここ車止めちゃだめなんだよ。<br>
+3. うん。ここに止められてほんとうに便利だね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Này, chỗ này hình như không được đỗ xe đâu nhỉ?"<br>
+<b>1. À, đúng nhỉ. Vậy đỗ ở đằng kia đi.</b><br>
+2. Không, chỗ này cấm đỗ xe đấy - dùng 「いや」 phủ định nhưng ý lại lặp lại.<br>
+3. Ừ. Đỗ được ở đây thật tiện lợi nhỉ<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Khi được nhắc có lẽ không được đỗ xe ở đây, người lái xe đồng tình và đề xuất chuyển sang chỗ khác &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 148,
@@ -3576,7 +3735,23 @@ window.JLPT_DATA[9] = {
             "いいえ、結構です。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Lúc anh/chị đang bận thế này thật ngại quá, nhưng mà...\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. はい、何でしょうか。 (Vâng, có chuyện gì thế ạ?)<br>\n2. ええ、ちょっといいですか。 (Vâng, tôi hỏi chút được không - câu của người mở lời.)<br>\n3. いいえ、結構です。 (Không, tôi không cần đâu - dùng để từ chối lời mời.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：<b>忙しいところ、悪いんだけど……。</b><br>\nF：<b>1. はい、何でしょうか。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Đang lúc bận thế này thật ngại quá...\"<br>\nNữ: \"Vâng, có việc gì vậy ạ?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Đây là câu rào trước khi nhờ vả, người nghe đáp lại sẵn sàng lắng nghe bằng 「はい、何でしょうか。」 &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Lúc anh/chị đang bận thế này thật ngại quá, nhưng mà..."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. はい、何でしょうか。: Vâng, có chuyện gì thế ạ?<br>
+2. ええ、ちょっといいですか。: Vâng, tôi hỏi chút được không - câu của người mở lời.<br>
+3. いいえ、結構です。: Không, tôi không cần đâu - dùng để từ chối lời mời.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：忙しいところ、悪いんだけど……。<br>
+<b>1. はい、何でしょうか。</b><br>
+2. ええ、ちょっといいですか。<br>
+3. いいえ、結構です。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Lúc anh/chị đang bận thế này thật ngại quá, nhưng mà..."<br>
+<b>1. Vâng, có chuyện gì thế ạ?</b><br>
+2. Vâng, tôi hỏi chút được không - câu của người mở lời.<br>
+3. Không, tôi không cần đâu - dùng để từ chối lời mời.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Đây là câu rào trước khi nhờ vả, người nghe đáp lại sẵn sàng lắng nghe bằng 「はい、何でしょうか。」 &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 149,
@@ -3593,7 +3768,23 @@ window.JLPT_DATA[9] = {
             "山田と申します。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nữ: \"Xin lỗi, cho hỏi ai đấy ạ / quý khách tên gì ạ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. こちらでございます。 (Ở phía này ạ.)<br>\n2. 駅へ行きたいんですが……。 (Tôi muốn đi đến nhà ga...)<br>\n3. 山田と申します。 (Tôi tên là Yamada ạ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nF：あのう、<b>どちらさまでしょうか</b>。<br>\nM：<b>3. 山田と申します。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ: \"Xin lỗi, xin hỏi ai vậy ạ?\"<br>\nNam: \"Tôi là Yamada ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「どちらさま」 là cách hỏi lịch sự danh tính của đối phương (thường qua điện thoại hoặc tiếp khách), nên trả lời bằng tên mình + 「と申します」 &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nữ: "Xin lỗi, cho hỏi ai đấy ạ / quý khách tên gì ạ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. こちらでございます。: Ở phía này ạ.<br>
+2. 駅へ行きたいんですが……。: Tôi muốn đi đến nhà ga...<br>
+3. 山田と申します。: Tôi tên là Yamada ạ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女：あのう、どちらさまでしょうか。<br>
+1. こちらでございます。<br>
+2. 駅へ行きたいんですが……。<br>
+<b>3. 山田と申します。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nữ: "Xin lỗi, cho hỏi ai đấy ạ / quý khách tên gì ạ?"<br>
+1. Ở phía này ạ.<br>
+2. Tôi muốn đi đến nhà ga...<br>
+<b>3. Tôi tên là Yamada ạ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「どちらさま」 là cách hỏi lịch sự danh tính của đối phương (thường qua điện thoại hoặc tiếp khách), nên trả lời bằng tên mình + 「と申します」 &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 150,
@@ -3610,7 +3801,23 @@ window.JLPT_DATA[9] = {
             "眼鏡ならテーブルの上だよ。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> Nam: \"Ừm, kính, kính đâu rồi. Kính để ở đâu nhỉ?\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 駅前の眼鏡屋で買ったんだ。 (Mua ở tiệm kính trước nhà ga đấy.)<br>\n2. フランスの有名なブランドだよ。 (Là thương hiệu nổi tiếng của Pháp đấy.)<br>\n3. 眼鏡ならテーブルの上だよ。 (Nếu là kính thì ở trên bàn đấy.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nM：えーと、眼鏡、眼鏡。<b>眼鏡どこだっけ？</b><br>\nF：<b>3. 眼鏡ならテーブルの上だよ。</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNam: \"Ừm, kính, kính... Kính ở đâu rồi nhỉ?\"<br>\nNữ: \"Kính thì ở trên bàn đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Hỏi vị trí đồ vật (どこ), đáp lại chỉ rõ vị trí (テーブルの上) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: "Ừm, kính, kính đâu rồi. Kính để ở đâu nhỉ?"<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 駅前の眼鏡屋で買ったんだ。: Mua ở tiệm kính trước nhà ga đấy.<br>
+2. フランスの有名なブランドだよ。: Là thương hiệu nổi tiếng của Pháp đấy.<br>
+3. 眼鏡ならテーブルの上だよ。: Nếu là kính thì ở trên bàn đấy.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+男：えーと、眼鏡、眼鏡。眼鏡どこだっけ？<br>
+1. 駅前の眼鏡屋で買ったんだ。<br>
+2. フランスの有名なブランドだよ。<br>
+<b>3. 眼鏡ならテーブルの上だよ。</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: "Ừm, kính, kính đâu rồi. Kính để ở đâu nhỉ?"<br>
+1. Mua ở tiệm kính trước nhà ga đấy.<br>
+2. Là thương hiệu nổi tiếng của Pháp đấy.<br>
+<b>3. Nếu là kính thì ở trên bàn đấy.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Hỏi vị trí đồ vật (どこ), đáp lại chỉ rõ vị trí (テーブルの上) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 151,
@@ -3664,7 +3871,38 @@ window.JLPT_DATA[9] = {
             "お任せコース"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông đang nghĩ sẽ chọn khóa học nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. スケジュールコース: Khóa Lịch trình (tự do chọn giờ)<br>\n2. スピードコース: Khóa Tốc độ (lấy bằng trong 2 tuần)<br>\n3. 安心コース: Khóa An tâm (tập không giới hạn, không phụ phí)<br>\n4. お任せコース: Khóa Giao phó (1 giảng viên cố định hướng dẫn đến khi tốt nghiệp)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n女の人が自動車学校のコースの説明をしています。<br>\nF1：えー、四つのコースについてご説明します。ご希望に合わせてお選びください。まず、スケジュールコースですが、こちらは自由に時間をお選びいただける点が特徴です。お忙しい方にお勧めです。次に、スピードコースですが、こちらは、とにかく早く免許を取ってしまいたいという方のために、2週間で免許が取れるコースです。それから、運転にあまり自信がないという方でも追加料金なしで何回でも練習できる安心コースがございます。最後にお任せコースですが、他の三つのコースは曜日によって担当講師が変わるのに対し、こちらは卒業までずっと同じ講師が担当します。一人一人の運転の癖を把握して的確な指導をしますので、免許のことは講師にお任せください。<br>\nM：<b>へえ、同じ先生に教えてもらえるんだ。俺、緊張しやすいから、ちょくちょく先生が変わるのはちょっと……。</b><br>\nF2：へえ、意外だね。迷わず早く免許が取れるコースって言うと思ったけど。<br>\nM：<b>毎回アドバイスしてもらいたいな。だからこのコースにするよ。</b><br>\nF2：そう。私は大学もあるし、アルバイトも忙しいから……。<br>\nM：じゃ、授業やアルバイトの予定に合わせて練習できるコースにしたら？<br>\nF2：そうだね。追加料金なしっていうのも魅力的だけど……。<br>\nM：たしかにね。でも、そんなに何回も練習しなきゃいけないかな？<br>\nF2：そうだね。お金がかからないからって、のんきに練習してる暇はないから、これはやめとく。<br>\n質問1：男の人はどのコースを選ぼうと考えていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNhân viên nữ giải thích 4 khóa học lái xe: (1) Khóa Lịch trình: tự do chọn giờ, hợp người bận rộn; (2) Khóa Tốc độ: lấy bằng trong 2 tuần; (3) Khóa An tâm: không tự tin vẫn được tập nhiều lần không mất thêm phí; (4) Khóa Giao phó: giữ nguyên 1 giảng viên từ đầu đến khi tốt nghiệp.<br>\nNam: \"Ồ, được cùng một thầy dạy suốt luôn à. Mình dễ bị căng thẳng nên nếu thầy cô đổi xoành xoạch thì hơi ngại... Mình muốn được thầy góp ý mỗi buổi. <b>Nên mình sẽ chọn khóa này.</b>\"<br>\nNữ 2: \"Ồ bất ngờ ghê, tớ tưởng cậu chọn khóa lấy bằng nhanh chứ. Tớ thì còn học đại học và làm thêm bận lắm...\"<br>\nNam: \"Vậy cậu chọn khóa tập theo lịch học và lịch làm thêm đi?\"<br>\nNữ 2: \"Ừ nhỉ. Không mất thêm phí cũng hấp dẫn đấy nhưng... Đúng là chẳng có thời gian thong thả tập mãi nên bỏ qua khóa đó vậy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người đàn ông chọn khóa giữ nguyên 1 giảng viên cố định (お任せコース) &rarr; <b>Đáp án đúng là 4</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Người đàn ông đang nghĩ sẽ chọn khóa học nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. スケジュールコース: Khóa Lịch trình (tự do chọn giờ)<br>
+2. スピードコース: Khóa Tốc độ (lấy bằng trong 2 tuần)<br>
+3. 安心コース: Khóa An tâm (tập không giới hạn, không phụ phí)<br>
+4. お任せコース: Khóa Giao phó (1 giảng viên cố định hướng dẫn đến khi tốt nghiệp)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女の人が自動車学校のコースの説明をしています。<br>
+F1：えー、四つのコースについてご説明します。ご希望に合わせてお選びください。まず、スケジュールコースですが、こちらは自由に時間をお選びいただける点が特徴です。お忙しい方にお勧めです。次に、スピードコースですが、こちらは、とにかく早く免許を取ってしまいたいという方のために、2週間で免許が取れるコースです。それから、運転にあまり自信がないという方でも追加料金なしで何回でも練習できる安心コースがございます。<b>最後にお任せコースですが、他の三つのコースは曜日によって担当講師が変わるのに対し、こちらは卒業までずっと同じ講師が担当します。一人一人の運転の癖を把握して的確な指導をしますので、免許のことは講師にお任せください。</b><br>
+M：<b>へえ、同じ先生に教えてもらえるんだ。俺、緊張しやすいから、ちょくちょく先生が変わるのはちょっと……。</b><br>
+F2：へえ、意外だね。迷わず早く免許が取れるコースって言うと思ったけど。<br>
+M：<b>毎回アドバイスしてもらいたいな。だからこのコースにするよ。</b><br>
+F2：そう。私は大学もあるし、アルバイトも忙しいから……。<br>
+M：じゃ、授業やアルバイトの予定に合わせて練習できるコースにしたら？<br>
+F2：そうだね。追加料金なしっていうのも魅力的だけど……。<br>
+M：たしかにね。でも、そんなに何回も練習しなきゃいけないかな？<br>
+F2：そうだね。お金がかからないからって、のんきに練習してる暇はないから、これはやめとく。<br>
+質問1：男の人はどのコースを選ぼうと考えていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người phụ nữ đang giới thiệu về các khóa học của trường dạy lái xe ô tô.<br>
+Nữ 1: "Sau đây tôi xin giải thích về 4 khóa học. Xin quý khách hãy lựa chọn theo nguyện vọng của mình. Trước hết là 'Khóa Lịch trình' (スケジュールコース), khóa này có đặc trưng là học viên được tự do lựa chọn thời gian học, rất khuyên dùng cho những người bận rộn. Tiếp theo là 'Khóa Tốc độ' (スピードコース), đây là khóa học giúp lấy bằng chỉ trong 2 tuần dành cho những ai muốn lấy bằng càng nhanh càng tốt. Ngoài ra, chúng tôi có 'Khóa An tâm' (安心コース) giúp những ai không mấy tự tin vào khả năng lái xe có thể luyện tập bao nhiêu lần tùy thích mà không tốn thêm phụ phí. <b>Cuối cùng là 'Khóa Giao phó' (お任せコース): trong khi 3 khóa học kia giảng viên phụ trách sẽ thay đổi tùy theo ngày trong tuần, thì ở khóa này một giảng viên cố định sẽ phụ trách suốt cho đến khi tốt nghiệp. Giảng viên sẽ nắm bắt thói quen lái xe của từng học viên để hướng dẫn chính xác, nên việc lấy bằng xin cứ giao phó cho giảng viên.</b>"<br>
+Nam: "<b>Ồ, được cùng một thầy hướng dẫn suốt luôn à. Mình vốn dễ bị căng thẳng nên nếu giáo viên cứ thay đổi xoành xoạch thì hơi ngại...</b>"<br>
+Nữ 2: "Ồ, bất ngờ thật đấy. Tớ cứ tưởng cậu sẽ chọn ngay khóa lấy bằng nhanh chứ."<br>
+Nam: "<b>Mình muốn buổi nào cũng được thầy cho lời khuyên sát sao. Thế nên mình sẽ chọn khóa này.</b>"<br>
+Nữ 2: "Thế à. Tớ thì vừa phải đi học đại học, việc làm thêm cũng bận rộn nữa..."<br>
+Nam: "Vậy cậu chọn khóa có thể luyện tập khớp với lịch học trên trường và lịch làm thêm đi?"<br>
+Nữ 2: "Ừ nhỉ. Mà khóa không mất thêm phụ phí nghe cũng hấp dẫn đấy nhưng..."<br>
+Nam: "Đúng thế. Nhưng liệu có cần phải tập đi tập lại nhiều lần đến mức ấy không?"<br>
+Nữ 2: "Đúng vậy nhỉ. Dù không tốn thêm tiền nhưng tớ cũng chẳng có thời gian rảnh để thong thả tập mãi được, nên thôi bỏ qua khóa đó vậy."<br>
+Câu hỏi 1: Người đàn ông đang dự định chọn khóa học nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người đàn ông chọn khóa giữ nguyên 1 giảng viên cố định (お任せコース) &rarr; <b>Đáp án đúng là 4</b>.`
         },
         {
           "id": 154,
@@ -3682,7 +3920,38 @@ window.JLPT_DATA[9] = {
             "お任せコース"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ đang nghĩ sẽ chọn khóa học nào?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. スケジュールコース: Khóa Lịch trình (tự do chọn giờ)<br>\n2. スピードコース: Khóa Tốc độ (lấy bằng trong 2 tuần)<br>\n3. 安心コース: Khóa An tâm (tập không giới hạn, không phụ phí)<br>\n4. お任せコース: Khóa Giao phó (1 giảng viên cố định hướng dẫn đến khi tốt nghiệp)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n(Nghe chung đoạn hội thoại Track 38 ở câu trên)<br>\nF2：<b>私は大学もあるし、アルバイトも忙しいから……。</b><br>\nM：<b>じゃ、授業やアルバイトの予定に合わせて練習できるコースにしたら？</b><br>\nF2：<b>そうだね。</b>追加料金なしっていうのも魅力的だけど……。<br>\nM：たしかにね。でも、そんなに何回も練習しなきゃいけないかな？<br>\nF2：そうだね。お金がかからないからって、のんきに練習してる暇はないから、これはやめとく。<br>\n質問2：女の人はどのコースを選ぼうと考えていますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNữ 2: \"Tớ thì vừa học đại học vừa đi làm thêm nên bận lắm...\"<br>\nNam: \"Vậy cậu chọn khóa có thể tập phù hợp với lịch học và lịch làm thêm đi?\"<br>\nNữ 2: \"Ừ nhỉ. Không mất thêm phí (Khóa An tâm) cũng hấp dẫn đấy nhưng... không có thời gian thong thả tập nhiều lần nên tớ bỏ qua khóa đó vậy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Người phụ nữ đồng ý chọn khóa tự do sắp xếp thời gian phù hợp với lịch học và làm thêm (スケジュールコース) và loại bỏ 安心コース &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Người phụ nữ đang nghĩ sẽ chọn khóa học nào?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. スケジュールコース: Khóa Lịch trình (tự do chọn giờ)<br>
+2. スピードコース: Khóa Tốc độ (lấy bằng trong 2 tuần)<br>
+3. 安心コース: Khóa An tâm (tập không giới hạn, không phụ phí)<br>
+4. お任せコース: Khóa Giao phó (1 giảng viên cố định hướng dẫn đến khi tốt nghiệp)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+女の人が自動車学校のコースの説明をしています。<br>
+F1：えー、四つのコースについてご説明します。ご希望に合わせてお選びください。<b>まず、スケジュールコースですが、こちらは自由に時間をお選びいただける点が特徴です。お忙しい方にお勧めです。</b>次に、スピードコースですが、こちらは、とにかく早く免許を取ってしまいたいという方のために、2週間で免許が取れるコースです。それから、運転にあまり自信がないという方でも追加料金なしで何回でも練習できる安心コースがございます。最後にお任せコースですが、他の三つのコースは曜日によって担当講師が変わるのに対し、こちらは卒業までずっと同じ講師が担当します。一人一人の運転の癖を把握して的確な指導をしますので、免許のことは講師にお任せください。<br>
+M：へえ、同じ先生に教えてもらえるんだ。俺、緊張しやすいから、ちょくちょく先生が変わるのはちょっと……。<br>
+F2：へえ、意外だね。迷わず早く免許が取れるコースって言うと思ったけど。<br>
+M：毎回アドバイスしてもらいたいな。だからこのコースにするよ。<br>
+F2：<b>そう。私は大学もあるし、アルバイトも忙しいから……。</b><br>
+M：<b>じゃ、授業やアルバイトの予定に合わせて練習できるコースにしたら？</b><br>
+F2：<b>そうだね。</b>追加料金なしっていうのも魅力的だけど……。<br>
+M：たしかにね。でも、そんなに何回も練習しなきゃいけないかな？<br>
+F2：<b>そうだね。お金がかからないからって、のんきに練習してる暇はないから、これはやめとく。</b><br>
+質問2：女の人はどのコースを選ぼうと考えていますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Người phụ nữ đang giới thiệu về các khóa học của trường dạy lái xe ô tô.<br>
+Nữ 1: "Sau đây tôi xin giải thích về 4 khóa học. Xin quý khách hãy lựa chọn theo nguyện vọng của mình. <b>Trước hết là 'Khóa Lịch trình' (スケジュールコース), khóa này có đặc trưng là học viên được tự do lựa chọn thời gian học, rất khuyên dùng cho những người bận rộn.</b> Tiếp theo là 'Khóa Tốc độ' (スピードコース), đây là khóa học giúp lấy bằng chỉ trong 2 tuần dành cho những ai muốn lấy bằng càng nhanh càng tốt. Ngoài ra, chúng tôi có 'Khóa An tâm' (安心コース) giúp những ai không mấy tự tin vào khả năng lái xe có thể luyện tập bao nhiêu lần tùy thích mà không tốn thêm phụ phí. Cuối cùng là 'Khóa Giao phó' (お任せコース): trong khi 3 khóa học kia giảng viên phụ trách sẽ thay đổi tùy theo ngày trong tuần, thì ở khóa này một giảng viên cố định sẽ phụ trách suốt cho đến khi tốt nghiệp. Giảng viên sẽ nắm bắt thói quen lái xe của từng học viên để hướng dẫn chính xác, nên việc lấy bằng xin cứ giao phó cho giảng viên."<br>
+Nam: "Ồ, được cùng một thầy hướng dẫn suốt luôn à. Mình vốn dễ bị căng thẳng nên nếu giáo viên cứ thay đổi xoành xoạch thì hơi ngại..."<br>
+Nữ 2: "Ồ, bất ngờ thật đấy. Tớ cứ tưởng cậu sẽ chọn ngay khóa lấy bằng nhanh chứ."<br>
+Nam: "Mình muốn buổi nào cũng được thầy cho lời khuyên sát sao. Thế nên mình sẽ chọn khóa này."<br>
+Nữ 2: "<b>Thế à. Tớ thì vừa phải đi học đại học, việc làm thêm cũng bận rộn nữa...</b>"<br>
+Nam: "<b>Vậy cậu chọn khóa có thể luyện tập khớp với lịch học trên trường và lịch làm thêm đi?</b>"<br>
+Nữ 2: "<b>Ừ nhỉ.</b> Mà khóa không mất thêm phụ phí nghe cũng hấp dẫn đấy nhưng..."<br>
+Nam: "Đúng thế. Nhưng liệu có cần phải tập đi tập lại nhiều lần đến mức ấy không?"<br>
+Nữ 2: "<b>Đúng vậy nhỉ. Dù không tốn thêm tiền nhưng tớ cũng chẳng có thời gian rảnh để thong thả tập mãi được, nên thôi bỏ qua khóa đó vậy.</b>"<br>
+Câu hỏi 2: Người phụ nữ đang dự định chọn khóa học nào?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người phụ nữ đồng ý chọn khóa tự do sắp xếp thời gian phù hợp với lịch học và làm thêm (スケジュールコース) và loại bỏ 安心コース &rarr; <b>Đáp án đúng là 1</b>.`
         }
       ]
     }

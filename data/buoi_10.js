@@ -5319,7 +5319,11 @@ window.JLPT_DATA[10] = {
             "机といすをトラックにのせる"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Tại sân bóng chày, nhân viên ủy ban thành phố đang nói chuyện với các bạn làm thêm (arubaito). Các bạn làm thêm sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. アンケートをかいしゅうする: Thu phiếu khảo sát<br>2. テントをかたづける: Dọn dẹp lều bạt<br>3. 作業用てぶくろをする: Đeo găng tay bảo hộ lao động<br>4. 机といすをトラックにのせる: Khiêng bàn ghế xếp lên xe tải<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>男：アルバイトの皆さん、お疲れ様です。本日の市民野球大会を無事終えることができました。参加者へのアンケートの実施ならびに回収もありがとうございました。これからテントの片付けを行います。<b>安全の観点から作業の前に作業用手袋をするのを忘れないでください</b>。受付の机と椅子については畳んだテントと一緒にトラックに積み込んでください。よろしくお願いします。<br><br><b>🇻🇳 Dịch nghĩa:</b><br>\"Cảm ơn tất cả các bạn làm thêm. Giải bóng chày thành phố hôm nay đã kết thúc tốt đẹp. Cảm ơn các bạn đã hỗ trợ phát và thu phiếu khảo sát. Bây giờ chúng ta sẽ tiến hành dọn lều bạt. <b>Vì lý do an toàn, trước khi bắt tay vào làm việc các bạn đừng quên đeo găng tay lao động vào nhé</b>. Bàn ghế ở bàn lễ tân thì hãy khiêng xếp lên xe tải cùng với lều đã gấp. Nhờ các bạn nhé.\"<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khảo sát đã thu xong.<br>- Trước khi dọn lều và bàn ghế, nhân viên nhấn mạnh: 作業の前に作業用手袋をするのを忘れないでください (Trước khi làm việc đừng quên đeo găng tay lao động).<br>- Do đó hành động đầu tiên các bạn làm thêm phải làm ngay là đeo găng tay bảo hộ &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại sân bóng chày, nhân viên ủy ban thành phố đang nói chuyện với các bạn làm thêm (arubaito). Các bạn làm thêm sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. アンケートをかいしゅうする: Thu phiếu khảo sát<br>2. テントをかたづける: Dọn dẹp lều bạt<br>3. 作業用てぶくろをする: Đeo găng tay bảo hộ lao động<br>4. 机といすをトラックにのせる: Khiêng bàn ghế xếp lên xe tải<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+野球場で市役所の職員がアルバイトの人たちに話しています。アルバイトの人たちはこの後まず何をしますか。<br>
+男：アルバイトの皆さん、お疲れ様です。本日の市民野球大会を無事終えることができました。参加者へのアンケートの実施ならびに回収もありがとうございました。これからテントの片付けを行います。<b>安全の観点から作業の前に作業用手袋をするのを忘れないでください。</b>受付の机と椅子については畳んだテントと一緒にトラックに積み込んでください。よろしくお願いします。<br>
+アルバイトの人たちはこの後まず何をしますか。<br><br>
+<b>🇻🇳 Dịch nghĩa:</b><br>"Cảm ơn tất cả các bạn làm thêm. Giải bóng chày thành phố hôm nay đã kết thúc tốt đẹp. Cảm ơn các bạn đã hỗ trợ phát và thu phiếu khảo sát. Bây giờ chúng ta sẽ tiến hành dọn lều bạt. <b>Vì lý do an toàn, trước khi bắt tay vào làm việc các bạn đừng quên đeo găng tay lao động vào nhé</b>. Bàn ghế ở bàn lễ tân thì hãy khiêng xếp lên xe tải cùng với lều đã gấp. Nhờ các bạn nhé."<br><br><b>💡 Phân tích chọn đáp án:</b><br>- Khảo sát đã thu xong.<br>- Trước khi dọn lều và bàn ghế, nhân viên nhấn mạnh: 作業の前に作業用手袋をするのを忘れないでください (Trước khi làm việc đừng quên đeo găng tay lao động).<br>- Do đó hành động đầu tiên các bạn làm thêm phải làm ngay là đeo găng tay bảo hộ &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 177,
@@ -5492,7 +5496,28 @@ window.JLPT_DATA[10] = {
             "店を長く続ける工夫"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Chủ tiệm bánh kẹo đang nói về điều gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 店をやる喜び: Niềm vui khi mở/bán cửa hàng<br>\n2. 子供に人気のお菓子: Bánh kẹo được trẻ em yêu thích<br>\n3. 昔と今のお菓子の違い: Sự khác nhau giữa bánh kẹo xưa và nay<br>\n4. 店を長く続ける工夫: Bí quyết duy trì cửa hàng lâu dài<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nテレビでアナウンサーの男の人がお菓子屋の人にインタビューしています。<br>\n男：…こちら、50年前からお店をやっていらっしゃる橋本さんです。先ほども放課後の子供たちが何人もお菓子を買いに来ていましたね。<br>\n女：みんなお小遣いを持って買いに来てくれます。<b>子供たちが笑顔で駆け寄ってきてくれるので、私の方が元気をもらえてありがたいです。</b><br>\n男：そうですか。<br>\n女：<b>小さかった頃にうちに通ってきてた子が大人になって就職したと報告しに来てくれたり、赤ちゃんを連れて一緒に来てくれたりするんです。それは本当にうれしいですよ。</b><br>\nお菓子屋の人は何について話していますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nPhóng viên phỏng vấn bà Hashimoto, chủ tiệm bánh kẹo truyền thống mở 50 năm.<br>\nBà chia sẻ: Lũ trẻ tươi cười chạy đến mua kẹo giúp bà được tiếp thêm năng lượng. Hơn nữa, những đứa trẻ ngày xưa hay ghé quán nay lớn lên đi làm ghé báo tin, hay dẫn cả em bé tới thăm khiến bà thực sự hạnh phúc.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Bà chủ tiệm bày tỏ niềm vui, sự biết ơn khi bán hàng suốt 50 năm qua &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Chủ tiệm bánh kẹo đang nói về điều gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 店をやる喜び: Niềm vui khi mở/bán cửa hàng<br>
+2. 子供に人気のお菓子: Bánh kẹo được trẻ em yêu thích<br>
+3. 昔と今のお菓子の違い: Sự khác nhau giữa bánh kẹo xưa và nay<br>
+4. 店を長く続ける工夫: Bí quyết duy trì cửa hàng lâu dài<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+テレビでアナウンサーの男の人がお菓子屋の人にインタビューしています。<br>
+男：西山町に古くからあるお菓子屋さんにお邪魔しています。小さな店内にはキャンディーやガムなど昔懐かしいお菓子がたくさん並んでいます。こちら、50年前からお店をやっていらっしゃる橋本さんです。先ほども放課後の子供たちが何人もお菓子を買いに来ていましたね。<br>
+女：みんなお小遣いを持って買いに来てくれます。<b>子供たちが笑顔で駆け寄ってきてくれるので、私の方が元気をもらえてありがたいです。</b><br>
+男：そうですか。<br>
+女：<b>小さかった頃にうちに通ってきてた子が大人になって就職したと報告しに来てくれたり、赤ちゃんを連れて一緒に来てくれたりするんです。それは本当にうれしいですよ。</b><br>
+お菓子屋の人は何について話していますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Trên truyền hình, nam phát thanh viên đang phỏng vấn chủ một tiệm bánh kẹo.<br>
+Nam: "Chúng tôi đang ghé thăm một tiệm bánh kẹo lâu đời tại thị trấn Nishiyama. Trong cửa tiệm nhỏ nhắn bày rất nhiều loại kẹo và kẹo cao su gợi nhớ kỷ niệm xưa. Đây là bà Hashimoto, người đã mở tiệm từ 50 năm trước. Vừa nãy cũng có rất nhiều em nhỏ sau giờ tan học đã ghé mua bánh kẹo nhỉ."<br>
+Nữ: "Đứa nào cũng cầm tiền tiêu vặt tới mua. <b>Nhìn bọn trẻ tươi cười chạy ùa tới, chính tôi lại là người được tiếp thêm nguồn năng lượng nên thấy biết ơn lắm.</b>"<br>
+Nam: "Thế ạ."<br>
+Nữ: "<b>Những cô bé, cậu bé hồi nhỏ từng hay lui tới tiệm của tôi nay đã trưởng thành, có việc làm rồi quay lại báo tin mừng, hay bế theo cả em bé cùng tới thăm nữa. Điều đó thực sự khiến tôi vô cùng hạnh phúc.</b>"<br>
+Chủ tiệm bánh kẹo đang nói về điều gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Bà chủ tiệm bày tỏ niềm vui, sự biết ơn khi bán hàng suốt 50 năm qua &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 187,
@@ -5545,7 +5570,23 @@ window.JLPT_DATA[10] = {
             "調子悪くてもおかゆなら食べられるからね"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Hôm qua bị đau bụng đến cả cháo mà tôi cũng không ăn nổi.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. おかゆだけは食べられてよかったね (May là vẫn ăn được mỗi cháo nhỉ - sai nghĩa phủ định 「食べられなかった」.)<br>\n2. 何も食べられなかったの？ (Thế là không ăn được gì luôn à?)<br>\n3. 調子悪くてもおかゆなら食べられるからね (Dù người mệt nhưng cháo thì ăn được mà.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n昨日は腹痛で<b>おかゆすら食べられなかった</b>んだ。<br>\n<b>2. 何も食べられなかったの？</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Hôm qua đau bụng đến cháo cũng chẳng ăn nổi.\"<br>\nB: \"Không ăn được gì luôn à?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「N + すら～ない」 = đến cả N cũng không... -> ngay cả món nhẹ nhất là cháo cũng không ăn được thì tức là chẳng ăn được gì &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Hôm qua bị đau bụng đến cả cháo mà tôi cũng không ăn nổi."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. おかゆだけは食べられてよかったね: May là vẫn ăn được mỗi cháo nhỉ<br>
+2. 何も食べられなかったの？: Thế là không ăn được gì luôn à?<br>
+3. 調子悪くてもおかゆなら食べられるからね: Dù người mệt nhưng cháo thì ăn được mà.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+昨日は腹痛でおかゆすら食べられなかったんだ。<br>
+1. おかゆだけは食べられてよかったね<br>
+<b>2. 何も食べられなかったの？</b><br>
+3. 調子悪くてもおかゆなら食べられるからね<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Hôm qua bị đau bụng đến cả cháo mà tôi cũng không ăn nổi."<br>
+1. May là vẫn ăn được mỗi cháo nhỉ<br>
+<b>2. Thế là không ăn được gì luôn à?</b><br>
+3. Dù người mệt nhưng cháo thì ăn được mà.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「N + すら～ない」 = đến cả N cũng không... -> ngay cả món nhẹ nhất là cháo cũng không ăn được thì tức là chẳng ăn được gì &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 190,
@@ -5562,7 +5603,23 @@ window.JLPT_DATA[10] = {
             "雨の景色もきれいだったね"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Chuyến du lịch tuần trước trời mưa, nhưng trái lại lại rất tuyệt vời nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 雨で楽しめなかったの？ (Trời mưa nên không vui được à?)<br>\n2. 晴れたほうが良かったのにね (Giá mà trời nắng thì tốt hơn nhỉ - ngược ý 「かえって素敵」.)<br>\n3. 雨の景色もきれいだったね (Cảnh ngày mưa cũng đẹp thật nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n先週の旅行、雨だったけど、<b>かえって素敵だったよね</b>。<br>\n<b>3. 雨の景色もきれいだったね</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Chuyến đi tuần trước tuy mưa nhưng lại thành ra tuyệt vời nhỉ.\"<br>\nB: \"Cảnh lúc trời mưa cũng đẹp thật đấy.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「かえって」 = ngược lại, trái lại (tưởng xấu nhưng lại thành hay). Đồng tình khen cảnh mưa đẹp &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Chuyến du lịch tuần trước trời mưa, nhưng trái lại lại rất tuyệt vời nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 雨で楽しめなかったの？: Trời mưa nên không vui được à?<br>
+2. 晴れたほうが良かったのにね: Giá mà trời nắng thì tốt hơn nhỉ<br>
+3. 雨の景色もきれいだったね: Cảnh ngày mưa cũng đẹp thật nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+先週の旅行、雨だったけど、かえって素敵だったよね。<br>
+1. 雨で楽しめなかったの？<br>
+2. 晴れたほうが良かったのにね<br>
+<b>3. 雨の景色もきれいだったね</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Chuyến du lịch tuần trước trời mưa, nhưng trái lại lại rất tuyệt vời nhỉ."<br>
+1. Trời mưa nên không vui được à?<br>
+2. Giá mà trời nắng thì tốt hơn nhỉ<br>
+<b>3. Cảnh ngày mưa cũng đẹp thật nhỉ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「かえって」 = ngược lại, trái lại (tưởng xấu nhưng lại thành hay). Đồng tình khen cảnh mưa đẹp &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 191,
@@ -5579,7 +5636,23 @@ window.JLPT_DATA[10] = {
             "社長がこの部屋までいらっしゃるんですか？"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Anh Watanabe ơi, Giám đốc đang gọi anh đấy ạ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 社長がですか？すぐ行きます (Giám đốc gọi ạ? Tôi sang ngay đây.)<br>\n2. 社長に電話するんですね (Tôi gọi điện cho Giám đốc nhỉ.)<br>\n3. 社長がこの部屋までいらっしゃるんですか？ (Giám đốc sẽ tới tận phòng này ạ? - sai vì 「お呼び」 là gọi mình sang.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n渡辺さん、<b>社長がお呼びですよ</b>。<br>\n<b>1. 社長がですか？すぐ行きます</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Anh Watanabe, giám đốc cho gọi anh đấy.\"<br>\nB: \"Giám đốc ạ? Tôi đi ngay đây.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「お呼びです」 (tôn kính ngữ của 呼んでいる) = đang gọi anh. Phản hồi chuẩn là xác nhận và đi gặp ngay &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Anh Watanabe ơi, Giám đốc đang gọi anh đấy ạ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 社長がですか？すぐ行きます: Giám đốc gọi ạ? Tôi sang ngay đây.<br>
+2. 社長に電話するんですね: Tôi gọi điện cho Giám đốc nhỉ.<br>
+3. 社長がこの部屋までいらっしゃるんですか？: Giám đốc sẽ tới tận phòng này ạ?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+渡辺さん、社長がお呼びですよ。<br>
+<b>1. 社長がですか？すぐ行きます</b><br>
+2. 社長に電話するんですね<br>
+3. 社長がこの部屋までいらっしゃるんですか？<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Anh Watanabe ơi, Giám đốc đang gọi anh đấy ạ."<br>
+<b>1. Giám đốc gọi ạ? Tôi sang ngay đây.</b><br>
+2. Tôi gọi điện cho Giám đốc nhỉ.<br>
+3. Giám đốc sẽ tới tận phòng này ạ?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「お呼びです」 (tôn kính ngữ của 呼んでいる) = đang gọi anh. Phản hồi chuẩn là xác nhận và đi gặp ngay &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 192,
@@ -5596,7 +5669,23 @@ window.JLPT_DATA[10] = {
             "量、ちょうどいいんだ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Nhìn suất cơm này xem. Lượng nhiều thế này ăn không hết nổi đâu.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 私、ちょっと食べてあげようか？ (Để tớ ăn đỡ cho một ít nhé?)<br>\n2. 他のも注文する？ (Gọi thêm món khác nữa không?)<br>\n3. 量、ちょうどいいんだ (Lượng vừa vặn nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n見てこの定食。この量は<b>食べきれないよ</b>。<br>\n<b>1. 私、ちょっと食べてあげようか？</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Nhìn suất ăn này đi, nhiều thế này ăn sao hết.\"<br>\nB: \"Để tớ ăn giúp một ít nhé?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「Vます + きれない」 = không thể làm hết/trọn vẹn. Đáp lại đề nghị ăn phụ giúp là tự nhiên nhất &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Nhìn suất cơm này xem. Lượng nhiều thế này ăn không hết nổi đâu."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 私、ちょっと食べてあげようか？: Để tớ ăn đỡ cho một ít nhé?<br>
+2. 他のも注文する？: Gọi thêm món khác nữa không?<br>
+3. 量、ちょうどいいんだ: Lượng vừa vặn nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+見てこの定食。この量は食べきれないよ。<br>
+<b>1. 私、ちょっと食べてあげようか？</b><br>
+2. 他のも注文する？<br>
+3. 量、ちょうどいいんだ<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Nhìn suất cơm này xem. Lượng nhiều thế này ăn không hết nổi đâu."<br>
+<b>1. Để tớ ăn đỡ cho một ít nhé?</b><br>
+2. Gọi thêm món khác nữa không?<br>
+3. Lượng vừa vặn nhỉ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「Vます + きれない」 = không thể làm hết/trọn vẹn. Đáp lại đề nghị ăn phụ giúp là tự nhiên nhất &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 193,
@@ -5613,7 +5702,23 @@ window.JLPT_DATA[10] = {
             "親に相談しなくても問題ないってことですか？"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Ono à, em hãy bàn bạc kỹ với bố mẹ rồi mới quyết định thi trường nào nhé.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 自分だけで決めていいんですね (Tự mình quyết định là được ạ?)<br>\n2. ちゃんと親と話します (Vâng, em sẽ nói chuyện đàng hoàng với bố mẹ ạ.)<br>\n3. 親に相談しなくても問題ないってことですか？ (Nghĩa là không cần hỏi ý kiến bố mẹ cũng không sao ạ?)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n小野さん、ご両親と<b>相談したうえで</b>どの学校を受験するか決めてくださいね。<br>\n<b>2. ちゃんと親と話します</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nThầy/Cô: \"Ono, em nhớ bàn bạc với bố mẹ trước rồi hãy quyết định thi trường nào nhé.\"<br>\nOno: \"Vâng, em sẽ trao đổi kỹ với bố mẹ ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～たうえで」 = sau khi làm A rồi mới làm B. Học sinh tiếp thu lời khuyên bằng 「ちゃんと親と話します」 &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Ono à, em hãy bàn bạc kỹ với bố mẹ rồi mới quyết định thi trường nào nhé."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 自分だけで決めていいんですね: Tự mình quyết định là được ạ?<br>
+2. ちゃんと親と話します: Vâng, em sẽ nói chuyện đàng hoàng với bố mẹ ạ.<br>
+3. 親に相談しなくても問題ないってことですか？: Nghĩa là không cần hỏi ý kiến bố mẹ cũng không sao ạ?<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+小野さん、ご両親と相談したうえでどの学校を受験するか決めてくださいね。<br>
+1. 自分だけで決めていいんですね<br>
+<b>2. ちゃんと親と話します</b><br>
+3. 親に相談しなくても問題ないってことですか？<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Ono à, em hãy bàn bạc kỹ với bố mẹ rồi mới quyết định thi trường nào nhé."<br>
+1. Tự mình quyết định là được ạ?<br>
+<b>2. Vâng, em sẽ nói chuyện đàng hoàng với bố mẹ ạ.</b><br>
+3. Nghĩa là không cần hỏi ý kiến bố mẹ cũng không sao ạ?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～たうえで」 = sau khi làm A rồi mới làm B. Học sinh tiếp thu lời khuyên bằng 「ちゃんと親と話します」 &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 194,
@@ -5630,7 +5735,23 @@ window.JLPT_DATA[10] = {
             "じゃ、ゆっくり準備してもいいんだね。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Hồ sơ xin học bổng, không chuẩn bị nhanh là sắp đến hạn rồi đấy.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. まだ時間があって安心したよ (Vẫn còn thời gian nên yên tâm quá.)<br>\n2. あ、ありがとう。急がなくちゃ (À, cảm ơn cậu. Phải nhanh lên mới được.)<br>\n3. じゃ、ゆっくり準備してもいいんだね。 (Vậy thì chuẩn bị từ từ cũng được nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n奨学金の申請、<b>早く準備しないと期限が近いよ</b>。<br>\n<b>2. あ、ありがとう。急がなくちゃ</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Xin học bổng mà không chuẩn bị gấp là cận hạn rồi đấy.\"<br>\nB: \"À cảm ơn nhé. Tớ phải làm nhanh mới được.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Được nhắc nhở sắp hết hạn (期限が近い), phản ứng đúng là cảm ơn và giục bản thân làm gấp &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Hồ sơ xin học bổng, không chuẩn bị nhanh là sắp đến hạn rồi đấy."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. まだ時間があって安心したよ: Vẫn còn thời gian nên yên tâm quá.<br>
+2. あ、ありがとう。急がなくちゃ: À, cảm ơn cậu. Phải nhanh lên mới được.<br>
+3. じゃ、ゆっくり準備してもいいんだね。: Vậy thì chuẩn bị từ từ cũng được nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+奨学金の申請、早く準備しないと期限が近いよ。<br>
+1. まだ時間があって安心したよ<br>
+<b>2. あ、ありがとう。急がなくちゃ</b><br>
+3. じゃ、ゆっくり準備してもいいんだね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Hồ sơ xin học bổng, không chuẩn bị nhanh là sắp đến hạn rồi đấy."<br>
+1. Vẫn còn thời gian nên yên tâm quá.<br>
+<b>2. À, cảm ơn cậu. Phải nhanh lên mới được.</b><br>
+3. Vậy thì chuẩn bị từ từ cũng được nhỉ.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Được nhắc nhở sắp hết hạn (期限が近い), phản ứng đúng là cảm ơn và giục bản thân làm gấp &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 195,
@@ -5647,7 +5768,23 @@ window.JLPT_DATA[10] = {
             "すごい人気だからね"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Tai nghe mới ra, đúng vì được ưa chuộng quá nên cửa hàng nào cũng chẳng còn hàng.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 人気とは関係ないんだね (Không liên quan đến độ nổi tiếng nhỉ.)<br>\n2. 人気じゃないのにね (Dù không nổi tiếng nhỉ.)<br>\n3. すごい人気だからね (Tại nó nổi tiếng quá mà.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n新しく出たイヤホン、<b>人気があるだけに</b>どの店にも残ってなかったよ。<br>\n<b>3. すごい人気だからね</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Tai nghe mới ra mắt hot quá nên tiệm nào cũng hết sạch hàng.\"<br>\nB: \"Tại nó được chuộng kinh khủng mà.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～だけに」 = chính vì... nên quả nhiên... (nhấn mạnh hệ quả tương xứng với độ nổi tiếng) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Tai nghe mới ra, đúng vì được ưa chuộng quá nên cửa hàng nào cũng chẳng còn hàng."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 人気とは関係ないんだね: Không liên quan đến độ nổi tiếng nhỉ.<br>
+2. 人気じゃないのにね: Dù không nổi tiếng nhỉ.<br>
+3. すごい人気だからね: Tại nó nổi tiếng quá mà.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+新しく出たイヤホン、人気があるだけにどの店にも残ってなかったよ。<br>
+1. 人気とは関係ないんだね<br>
+2. 人気じゃないのにね<br>
+<b>3. すごい人気だからね</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Tai nghe mới ra, đúng vì được ưa chuộng quá nên cửa hàng nào cũng chẳng còn hàng."<br>
+1. Không liên quan đến độ nổi tiếng nhỉ.<br>
+2. Dù không nổi tiếng nhỉ.<br>
+<b>3. Tại nó nổi tiếng quá mà.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～だけに」 = chính vì... nên quả nhiên... (nhấn mạnh hệ quả tương xứng với độ nổi tiếng) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 196,
@@ -5664,7 +5801,23 @@ window.JLPT_DATA[10] = {
             "お兄さんとよく会ってるんだね。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Hai năm trước tôi cãi nhau với anh trai, rồi từ lần gặp đó đến nay bặt vô âm tín luôn.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. そうなの？そんなに会ってないの？ (Thế à? Không gặp nhau lâu thế cơ à?)<br>\n2. 仲直りできてよかったじゃない (Làm lành được rồi thì tốt quá còn gì - sai hoàn toàn.)<br>\n3. お兄さんとよく会ってるんだね。 (Cậu hay gặp anh trai nhỉ - trái nghĩa.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n兄と2年前に言い合いしちゃって、<b>その時会ったきりなんだ</b>。<br>\n<b>1. そうなの？そんなに会ってないの？</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Tớ cãi nhau với anh trai 2 năm trước, từ lần đó tới giờ không gặp lại luôn.\"<br>\nB: \"Thế á? Lâu vậy chưa gặp lại luôn sao?\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～たきり」 = từ lần đó trở đi (không lặp lại hành động đó nữa) &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Hai năm trước tôi cãi nhau với anh trai, rồi từ lần gặp đó đến nay bặt vô âm tín luôn."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. そうなの？そんなに会ってないの？: Thế à? Không gặp nhau lâu thế cơ à?<br>
+2. 仲直りできてよかったじゃない: Làm lành được rồi thì tốt quá còn gì<br>
+3. お兄さんとよく会ってるんだね。: Cậu hay gặp anh trai nhỉ<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+兄と2年前に言い合いしちゃって、その時会ったきりなんだ。<br>
+<b>1. そうなの？そんなに会ってないの？</b><br>
+2. 仲直りできてよかったじゃない<br>
+3. お兄さんとよく会ってるんだね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Hai năm trước tôi cãi nhau với anh trai, rồi từ lần gặp đó đến nay bặt vô âm tín luôn."<br>
+<b>1. Thế à? Không gặp nhau lâu thế cơ à?</b><br>
+2. Làm lành được rồi thì tốt quá còn gì<br>
+3. Cậu hay gặp anh trai nhỉ<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～たきり」 = từ lần đó trở đi (không lặp lại hành động đó nữa) &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 197,
@@ -5681,7 +5834,23 @@ window.JLPT_DATA[10] = {
             "おいでいただき、ありがとうございます"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Hôm nay xin chân thành cảm ơn quý vị đã đến tham dự buổi giới thiệu sản phẩm.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. こちらこそ、失礼いたしました (Chính tôi mới thất lễ ạ.)<br>\n2. ご招待、感謝申し上げます (Xin cảm ơn quý vị đã gửi lời mời ạ.)<br>\n3. おいでいただき、ありがとうございます (Cảm ơn quý vị đã tới - câu của chủ nhà/ban tổ chức.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n本日は商品説明会へ<b>お越しいただきありがとうございます</b>。<br>\n<b>2. ご招待、感謝申し上げます</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nChủ nhà: \"Cảm ơn quý khách hôm nay đã đến dự buổi giới thiệu sản phẩm.\"<br>\nKhách: \"Xin cảm ơn lời mời của quý công ty ạ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Đáp lại lời cảm ơn đón tiếp của ban tổ chức bằng lời cảm tạ trang trọng vì đã mời tham dự &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Hôm nay xin chân thành cảm ơn quý vị đã đến tham dự buổi giới thiệu sản phẩm."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. こちらこそ、失礼いたしました: Chính tôi mới thất lễ ạ.<br>
+2. ご招待、感謝申し上げます: Xin cảm ơn quý vị đã gửi lời mời ạ.<br>
+3. おいでいただき、ありがとうございます: Cảm ơn quý vị đã tới - câu của chủ nhà/ban tổ chức.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+本日は商品説明会へお越しいただきありがとうございます。<br>
+1. こちらこそ、失礼いたしました<br>
+<b>2. ご招待、感謝申し上げます</b><br>
+3. おいでいただき、ありがとうございます<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Hôm nay xin chân thành cảm ơn quý vị đã đến tham dự buổi giới thiệu sản phẩm."<br>
+1. Chính tôi mới thất lễ ạ.<br>
+<b>2. Xin cảm ơn quý vị đã gửi lời mời ạ.</b><br>
+3. Cảm ơn quý vị đã tới - câu của chủ nhà/ban tổ chức.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Đáp lại lời cảm ơn đón tiếp của ban tổ chức bằng lời cảm tạ trang trọng vì đã mời tham dự &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 198,
@@ -5698,7 +5867,23 @@ window.JLPT_DATA[10] = {
             "あと少しで1位になれそうだったね"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Giải marathon hôm qua, vận động viên Tamura có khí thế bám sát vị trí thứ nhất ghê nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. ついに1位になったんだね (Cuối cùng cũng đạt hạng 1 rồi nhỉ.)<br>\n2. 1位とは差が大きかったね (Khoảng cách với hạng 1 lớn nhỉ.)<br>\n3. あと少しで1位になれそうだったね (Chỉ còn chút nữa là suýt giành được hạng 1 rồi nhỉ.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n昨日のマラソン大会、田村選手<b>1位に迫る勢いだったね</b>。<br>\n<b>3. あと少しで1位になれそうだったね</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Giải marathon hôm qua Tamura chạy khí thế bám sát nút vị trí nhất nhỉ.\"<br>\nB: \"Chút xíu nữa là lên nhất luôn rồi nhỉ.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「1位に迫る勢い」 = khí thế áp sát vị trí số 1 (suýt chút nữa đạt hạng 1) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Giải marathon hôm qua, vận động viên Tamura có khí thế bám sát vị trí thứ nhất ghê nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ついに1位になったんだね: Cuối cùng cũng đạt hạng 1 rồi nhỉ.<br>
+2. 1位とは差が大きかったね: Khoảng cách với hạng 1 lớn nhỉ.<br>
+3. あと少しで1位になれそうだったね: Chỉ còn chút nữa là suýt giành được hạng 1 rồi nhỉ.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+昨日のマラソン大会、田村選手1位に迫る勢いだったね。<br>
+1. ついに1位になったんだね<br>
+2. 1位とは差が大きかったね<br>
+<b>3. あと少しで1位になれそうだったね</b><br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Giải marathon hôm qua, vận động viên Tamura có khí thế bám sát vị trí thứ nhất ghê nhỉ."<br>
+1. Cuối cùng cũng đạt hạng 1 rồi nhỉ.<br>
+2. Khoảng cách với hạng 1 lớn nhỉ.<br>
+<b>3. Chỉ còn chút nữa là suýt giành được hạng 1 rồi nhỉ.</b><br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「1位に迫る勢い」 = khí thế áp sát vị trí số 1 (suýt chút nữa đạt hạng 1) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 199,
@@ -5715,7 +5900,23 @@ window.JLPT_DATA[10] = {
             "あ、佐藤さんも手伝ったんだ"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu thoại dẫn:</b> \"Hara à, dọn phòng câu lạc bộ giá mà Sato cũng giúp một tay thì tốt biết mấy nhỉ.\"<br><br>\n<b>📝 Dịch chi tiết 3 đáp án:</b><br>\n1. 佐藤さんも来てくれてよかったよ (May mà Sato cũng đến giúp.)<br>\n2. 佐藤さん忙しかったみたい (Có vẻ bạn Sato bận lắm.)<br>\n3. あ、佐藤さんも手伝ったんだ (À, Sato cũng đã giúp rồi à.)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n原さん。サークルの部屋の掃除、佐藤さんも<b>手伝ってくれるとよかったのにね</b>。<br>\n<b>2. 佐藤さん忙しかったみたい</b><br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nA: \"Hara, dọn phòng CLB giá mà Sato cũng giúp cùng thì hay nhỉ.\"<br>\nB: \"Hình như Sato bận việc gì đó.\"<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- 「～とよかったのにね」 diễn tả sự tiếc nuối vì Sato đã không đến giúp; giải thích nguyên nhân có lẽ do bạn ấy bận &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Hara à, dọn phòng câu lạc bộ giá mà Sato cũng giúp một tay thì tốt biết mấy nhỉ."<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. 佐藤さんも来てくれてよかったよ: May mà Sato cũng đến giúp.<br>
+2. 佐藤さん忙しかったみたい: Có vẻ bạn Sato bận lắm.<br>
+3. あ、佐藤さんも手伝ったんだ: À, Sato cũng đã giúp rồi à.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+原さん。サークルの部屋の掃除、佐藤さんも手伝ってくれるとよかったのにね。<br>
+1. 佐藤さんも来てくれてよかったよ<br>
+<b>2. 佐藤さん忙しかったみたい</b><br>
+3. あ、佐藤さんも手伝ったんだ<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+"Hara à, dọn phòng câu lạc bộ giá mà Sato cũng giúp một tay thì tốt biết mấy nhỉ."<br>
+1. May mà Sato cũng đến giúp.<br>
+<b>2. Có vẻ bạn Sato bận lắm.</b><br>
+3. À, Sato cũng đã giúp rồi à.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- 「～とよかったのにね」 diễn tả sự tiếc nuối vì Sato đã không đến giúp; giải thích nguyên nhân có lẽ do bạn ấy bận &rarr; <b>Đáp án đúng là 2</b>.`
         },
         {
           "id": 200,
@@ -5733,7 +5934,44 @@ window.JLPT_DATA[10] = {
             "選手の人数を減らす"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Để ứng phó với vấn đề, họ đã quyết định làm gì?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 開催日を変更する: Thay đổi ngày tổ chức<br>\n2. ポスターを貼る場所を増やす: Tăng số địa điểm dán áp phích<br>\n3. 会場を変更する: Thay đổi địa điểm tổ chức (sân bãi)<br>\n4. 選手の人数を減らす: Giảm số lượng tuyển thủ<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n市のスポーツセンターで職員がイベントについて話しています。<br>\n男1：再来週の親子サッカー教室、参加申し込みの締め切りが今日なんだけど、他のイベントと日が重なってしまったようでね。50組の募集定員のところ20組しか申し込みが来てないんだよ。<br>\n男2：…思い切って日程を変えるのはどうでしょうか。<br>\n女：…既に申し込んでる方や選手の都合もありますしね。<br>\n女：…今回は少人数のイベントとしてやったらどうでしょうか。<b>例えば会場ですが、参加者を50組と設定していたので、一番大きい試合用のグラウンドを押さえていましたが、隣の練習用の小さめの運動場も空いています。今の人数なら小さいグラウンドの方が選手と参加者がコミュニケーションしやすいと思うんですよ。スタッフの人数も少なくて済みますし。</b><br>\n男1：<b>なるほど。それなら早く押さえたほうがいいね。</b><br>\n男1：…とにかく今の人数に応じた対応をしよう。あと、ポスターを貼る場所、今回は時間的に厳しいけど次回からは範囲を広げる必要があるね。<br>\n問題に対応するために、何をすることにしましたか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nNhân viên trung tâm thể thao bàn về lớp học bóng đá cha mẹ - con cái tuần tới chỉ có 20/50 cặp đăng ký. Phương án đổi ngày bị loại vì vướng lịch người đã đăng ký và tuyển thủ; mở rộng dán poster để dành lần sau; đổi nội dung sang đấu giao hữu bị loại vì có người mới. Cuối cùng thống nhất chuyển từ sân thi đấu lớn sang sân tập nhỏ bên cạnh phù hợp với 20 cặp.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Quyết định đổi sang sân tập nhỏ hơn (会場を変更する) &rarr; <b>Đáp án đúng là 3</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Để ứng phó với vấn đề, họ đã quyết định làm gì?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 開催日を変更する: Thay đổi ngày tổ chức<br>
+2. ポスターを貼る場所を増やす: Tăng số địa điểm dán áp phích<br>
+3. 会場を変更する: Thay đổi địa điểm tổ chức (sân bãi)<br>
+4. 選手の人数を減らす: Giảm số lượng tuyển thủ<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+市のスポーツセンターで職員がイベントについて話しています。<br>
+男1：再来週の親子サッカー教室、参加申し込みの締め切りが今日なんだけど、他のイベントと日が重なってしまったようでね。50組の募集定員のところ20組しか申し込みが来てないんだよ。<br>
+男2：せっかくプロの選手を3人も指導者として呼んでるんですから、参加者は多い方がいいですよね。この際、思い切って日程を変えるのはどうでしょうか。<br>
+女：それができればいいんですが、既に申し込んでる方や選手の都合もありますしね。<br>
+男1：そうなんだよな。<br>
+男2：それでしたら締め切りを少し延ばしますか？宣伝、頑張ります。スーパーとかコンビニにもポスターを掲示してもらって。<br>
+女：それもいいですが、今回は少人数のイベントとしてやったらどうでしょうか。<br>
+男1：どういうこと？<br>
+女：<b>例えば会場ですが、参加者を50組と設定していたので、一番大きい試合用のグラウンドを押さえていましたが、隣の練習用の小さめの運動場も空いています。今の人数なら小さいグラウンドの方が選手と参加者がコミュニケーションしやすいと思うんですよ。スタッフの人数も少なくて済みますし。</b><br>
+男1：<b>なるほど。それなら早く押さえたほうがいいね。</b><br>
+女：あと、これはまた別の案なんですが、少人数なら活動の内容を思い切って変えて、試合みたいなこともできるんじゃないですか？<br>
+男2：でも今回は初心者も参加できるイベントということで募集してるんですよ。<br>
+男1：うん。試合は難しいね。選手にもそんなことはお願いしてないから。<b>とにかく今の人数に応じた対応をしよう。</b>あと、ポスターを貼る場所、今回は時間的に厳しいけど次回からは範囲を広げる必要があるね。<br>
+問題に対応するために、何をすることにしましたか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Tại trung tâm thể thao thành phố, các nhân viên đang thảo luận về một sự kiện.<br>
+Nam 1: "Lớp học bóng đá dành cho cha mẹ và con cái vào hai tuần tới hôm nay là hạn chót đăng ký rồi, nhưng có vẻ bị trùng ngày với một sự kiện khác. Chỉ tiêu tuyển 50 cặp mà mới chỉ có 20 cặp đăng ký thôi."<br>
+Nam 2: "Cất công mời tới 3 cầu thủ chuyên nghiệp làm huấn luyện viên hướng dẫn nên càng đông người tham gia càng tốt chứ ạ. Nhân tiện hay là mình mạnh dạn đổi ngày tổ chức xem sao?"<br>
+Nữ: "Làm được thế thì tốt quá, nhưng còn lịch trình của những người đã đăng ký rồi và cả lịch của các cầu thủ nữa."<br>
+Nam 1: "Đúng thế đấy."<br>
+Nam 2: "Nếu vậy thì mình gia hạn thời gian đăng ký thêm một chút nhé? Tôi sẽ cố gắng đẩy mạnh quảng bá, nhờ cả các siêu thị và cửa hàng tiện lợi dán áp phích giúp."<br>
+Nữ: "Cách đó cũng được, nhưng hay là lần này mình cứ tổ chức theo quy mô sự kiện ít người xem sao?"<br>
+Nam 1: "Ý cô là thế nào?"<br>
+Nữ: "<b>Ví dụ như về địa điểm tổ chức, vì ban đầu dự kiến 50 cặp tham gia nên chúng ta đã đặt sân lớn nhất dùng để thi đấu, nhưng sân vận động nhỏ hơn ở bên cạnh dùng để tập luyện hiện cũng đang trống. Với số lượng người như hiện tại thì tổ chức ở sân nhỏ sẽ giúp các cầu thủ và người tham gia dễ giao lưu tương tác với nhau hơn. Số lượng nhân viên phục vụ cũng không cần nhiều nữa.</b>"<br>
+Nam 1: "<b>Ra vậy. Thế thì phải đặt giữ sân nhỏ đó sớm đi thôi.</b>"<br>
+Nữ: "À, đây là một phương án khác nữa: nếu ít người thì mình mạnh dạn thay đổi nội dung hoạt động sang tổ chức thi đấu giao hữu chẳng phải cũng được sao?"<br>
+Nam 2: "Nhưng lần này chúng ta thông báo tuyển cả những người mới bắt đầu làm quen với bóng đá mà."<br>
+Nam 1: "Ừ, tổ chức đấu bóng thì khó đấy. Chúng ta cũng chưa nhờ các cầu thủ việc đó. <b>Dù sao thì hãy xử lý phù hợp với số lượng người đăng ký hiện tại.</b> Còn về các địa điểm dán áp phích, lần này thời gian gấp rút quá không kịp nữa nhưng từ lần sau cần phải mở rộng phạm vi ra."<br>
+Để ứng phó với vấn đề, họ đã quyết định làm gì?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Quyết định đổi sang sân tập nhỏ hơn (会場を変更する) &rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
           "id": 201,
@@ -5751,7 +5989,34 @@ window.JLPT_DATA[10] = {
             "東山"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Ngày thứ nhất hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 夕日通り (Đường Hoàng Hôn - dọc bãi cát ven biển)<br>\n2. にしがおか (Đồi Nishigaoka - ngắm xuống ngôi chùa ở chân đồi)<br>\n3. さくら公園 (Công viên Sakura - mặt hồ có chim)<br>\n4. 東山 (Núi Higashiyama - lái xe lên 20 phút ngắm mặt trời lặn xuống biển)<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\nラジオを聞いて男の人と女の人が話しています。<br>\n女1：1つ目は夕日通り。砂浜に沿って続くこの通りからは、海を夕日が徐々にオレンジ色に染めていく光景が見られます。…3つ目のさくら公園では、湖に映る夕日を鑑賞できます。湖にいる鳥たちが夕日に照らされる光景に心を打たれます。…<br>\n男：どこ？鳥が見られる所？<br>\n女2：<b>ううん。海沿いの方。ホテルからも近いし、1日目の夕方に散歩に行くのにちょうどいいんじゃない？</b><br>\n男：<b>ああ、いいね。行ってみよう。</b><br>\n質問1：2人は1日目、どこに夕日を見に行きますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nRadio giới thiệu 4 điểm ngắm hoàng hôn: (1) Đường Yuuhi dọc bãi biển; (2) Đồi Nishigaoka nhìn xuống chùa; (3) Công viên Sakura bên hồ có chim; (4) Núi Higashiyama đi xe 20 phút. Ngày 1 hai người chọn chỗ dọc bờ biển gần khách sạn để đi dạo buổi chiều.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Địa điểm dọc bờ biển chính là 夕日通り &rarr; <b>Đáp án đúng là 1</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 1: Ngày thứ nhất hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 夕日通り (Đường Hoàng Hôn - dọc bãi cát ven biển)<br>
+2. にしがおか (Đồi Nishigaoka - ngắm xuống ngôi chùa ở chân đồi)<br>
+3. さくら公園 (Công viên Sakura - mặt hồ có chim)<br>
+4. 東山 (Núi Higashiyama - lái xe lên 20 phút ngắm mặt trời lặn xuống biển)<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+ラジオを聞いて男の人と女の人が話しています。<br>
+女1：今日は緑市で夕日が楽しめる場所を4ヶ所ご紹介します。<b>1つ目は夕日通り。砂浜に沿って続くこの通りからは、海を夕日が徐々にオレンジ色に染めていく光景が見られます。</b>2つ目は西が丘です。小さな山ですが、上からふもとのお寺が夕日に染まっていく様子を見下ろすことができます。3つ目のさくら公園では、湖に映る夕日を鑑賞できます。湖にいる鳥たちが夕日に照らされる光景に心を打たれます。最後は東山。車で20分ほど上がった所から、海に沈む夕日を眺めることができます。<br>
+男：この週末緑市に旅行に行くし、ちょうどいいね。観光の帰りにでも夕日見に行こうよ。<br>
+女2：天気がよさそうだし、2泊するから2回見られるね。夕日が水に映るとキラキラしてきれいだもんね。<br>
+男：どこ？鳥が見られる所？<br>
+女2：<b>ううん。海沿いの方。ホテルからも近いし、1日目の夕方に散歩に行くのにちょうどいいんじゃない？</b><br>
+男：<b>ああ、いいね。行ってみよう。</b>2日目は午後、美術館に行くよね。お寺の近くっていう所、美術館から近いんじゃない？お寺を入れた夕焼けの写真を撮りに行こうよ。<br>
+女2：いいね。高い所から海に沈む夕日を見るのもいいと思うんだけど、そっちはちょっと場所が離れているしね。<br>
+質問1：2人は1日目、どこに夕日を見に行きますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Sau khi nghe đài radio, người đàn ông và người phụ nữ đang nói chuyện với nhau.<br>
+Nữ 1 (Phát thanh viên): "Hôm nay tôi xin giới thiệu 4 địa điểm có thể thưởng ngoạn cảnh hoàng hôn tại thành phố Midori. <b>Thứ nhất là Đường Yuuhi (Đường Hoàng Hôn). Từ con đường chạy dọc theo bãi cát này, quý vị có thể chiêm ngưỡng khung cảnh mặt trời chiều dần nhuộm mặt biển sang màu cam rực rỡ.</b> Thứ hai là Đồi Nishigaoka. Tuy chỉ là một ngọn đồi nhỏ nhưng từ trên đỉnh có thể phóng tầm mắt nhìn xuống ngôi chùa dưới chân đồi nhuốm ánh hoàng hôn. Tại địa điểm thứ ba là Công viên Sakura, quý vị có thể thưởng thức ánh hoàng hôn phản chiếu trên mặt hồ. Khung cảnh đàn chim trên hồ được ánh chiều tà chiếu rọi vô cùng lay động lòng người. Cuối cùng là Núi Higashiyama. Từ vị trí chạy xe lên khoảng 20 phút, quý vị có thể ngắm nhìn mặt trời lặn xuống biển."<br>
+Nam: "Cuối tuần này tụi mình đi du lịch thành phố Midori, vừa khéo thật đấy. Trên đường đi tham quan về mình ghé ngắm hoàng hôn đi."<br>
+Nữ 2: "Thời tiết có vẻ đẹp, mà mình ở lại 2 đêm nên có thể ngắm được 2 lần đấy. Ánh hoàng hôn phản chiếu trên mặt nước lấp lánh đẹp lắm mà."<br>
+Nam: "Chỗ nào cơ? Chỗ ngắm được đàn chim ấy hả?"<br>
+Nữ 2: "<b>Không phải. Là chỗ dọc bờ biển cơ. Từ khách sạn ra đó cũng gần, chiều tối ngày đầu tiên đi dạo ra đó chẳng phải rất vừa vặn sao?</b>"<br>
+Nam: "<b>À, hay đấy. Mình đi thử xem sao.</b> Còn ngày thứ hai buổi chiều mình sẽ đi bảo tàng mỹ thuật đúng không? Chỗ bảo là gần ngôi chùa chẳng phải rất gần bảo tàng mỹ thuật sao? Mình đến đó chụp ảnh ráng chiều có cả ngôi chùa đi."<br>
+Nữ 2: "Hay đấy. Ngắm hoàng hôn lặn xuống biển từ trên cao nghe cũng thích thật, nhưng chỗ đó lại hơi xa."<br>
+Câu hỏi 1: Ngày thứ nhất hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Địa điểm dọc bờ biển chính là 夕日通り &rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 202,
@@ -5769,7 +6034,34 @@ window.JLPT_DATA[10] = {
             "東山"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Ngày thứ hai hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>\n<b>📝 Dịch chi tiết 4 đáp án:</b><br>\n1. 夕日通り<br>\n2. にしがおか<br>\n3. さくら公園<br>\n4. 東山<br><br>\n<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>\n(Nghe chung đoạn hội thoại ở câu trên)<br>\n女1：2つ目はにしがおかです。小さな山ですが、上からふもとのお寺が夕日に染まっていく様子を見下ろすことができます。…<br>\n男：2日目は午後、美術館に行くよね。<b>お寺の近くっていう所、美術館から近いんじゃない？お寺を入れた夕焼けの写真を撮りに行こうよ。</b><br>\n女2：<b>いいね。</b>高い所から海に沈む夕日を見るのもいいと思うんだけど、そっちはちょっと場所が離れているしね。<br>\n質問2：2人は2日目、どこに夕日を見に行きますか。<br><br>\n<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>\nChiều ngày 2 đi bảo tàng mỹ thuật, nơi gần ngôi chùa (đồi Nishigaoka) tiện đường hơn hẳn núi Higashiyama ở xa, nên hai người quyết định đến chụp ảnh hoàng hôn cùng ngôi chùa.<br><br>\n<b>💡 Phân tích chọn đáp án:</b><br>\n- Điểm ngắm xuống ngôi chùa là にしがおか &rarr; <b>Đáp án đúng là 2</b>."
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Câu hỏi 2: Ngày thứ hai hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>
+<b>📝 Dịch chi tiết 4 đáp án:</b><br>
+1. 夕日通り<br>
+2. にしがおか<br>
+3. さくら公園<br>
+4. 東山<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+ラジオを聞いて男の人と女の人が話しています。<br>
+女1：今日は緑市で夕日が楽しめる場所を4ヶ所ご紹介します。1つ目は夕日通り。砂浜に沿って続くこの通りからは、海を夕日が徐々にオレンジ色に染めていく光景が見られます。<b>2つ目は西が丘です。小さな山ですが、上からふもとのお寺が夕日に染まっていく様子を見下ろすことができます。</b>3つ目のさくら公園では、湖に映る夕日を鑑賞できます。湖にいる鳥たちが夕日に照らされる光景に心を打たれます。最後は東山。車で20分ほど上がった所から、海に沈む夕日を眺めることができます。<br>
+男：この週末緑市に旅行に行くし、ちょうどいいね。観光の帰りにでも夕日見に行こうよ。<br>
+女2：天気がよさそうだし、2泊するから2回見られるね。夕日が水に映るとキラキラしてきれいだもんね。<br>
+男：どこ？鳥が見られる所？<br>
+女2：ううん。海沿いの方。ホテルからも近いし、1日目の夕方に散歩に行くのにちょうどいいんじゃない？<br>
+男：ああ、いいね。行ってみよう。<b>2日目は午後、美術館に行くよね。お寺の近くっていう所、美術館から近いんじゃない？お寺を入れた夕焼けの写真を撮りに行こうよ。</b><br>
+女2：<b>いいね。</b>高い所から海に沈む夕日を見るのもいいと思うんだけど、そっちはちょっと場所が離れているしね。<br>
+質問2：2人は2日目、どこに夕日を見に行きますか。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Sau khi nghe đài radio, người đàn ông và người phụ nữ đang nói chuyện với nhau.<br>
+Nữ 1 (Phát thanh viên): "Hôm nay tôi xin giới thiệu 4 địa điểm có thể thưởng ngoạn cảnh hoàng hôn tại thành phố Midori. Thứ nhất là Đường Yuuhi (Đường Hoàng Hôn). Từ con đường chạy dọc theo bãi cát này, quý vị có thể chiêm ngưỡng khung cảnh mặt trời chiều dần nhuộm mặt biển sang màu cam rực rỡ. <b>Thứ hai là Đồi Nishigaoka. Tuy chỉ là một ngọn đồi nhỏ nhưng từ trên đỉnh có thể phóng tầm mắt nhìn xuống ngôi chùa dưới chân đồi nhuốm ánh hoàng hôn.</b> Tại địa điểm thứ ba là Công viên Sakura, quý vị có thể thưởng thức ánh hoàng hôn phản chiếu trên mặt hồ. Khung cảnh đàn chim trên hồ được ánh chiều tà chiếu rọi vô cùng lay động lòng người. Cuối cùng là Núi Higashiyama. Từ vị trí chạy xe lên khoảng 20 phút, quý vị có thể ngắm nhìn mặt trời lặn xuống biển."<br>
+Nam: "Cuối tuần này tụi mình đi du lịch thành phố Midori, vừa khéo thật đấy. Trên đường đi tham quan về mình ghé ngắm hoàng hôn đi."<br>
+Nữ 2: "Thời tiết có vẻ đẹp, mà mình ở lại 2 đêm nên có thể ngắm được 2 lần đấy. Ánh hoàng hôn phản chiếu trên mặt nước lấp lánh đẹp lắm mà."<br>
+Nam: "Chỗ nào cơ? Chỗ ngắm được đàn chim ấy hả?"<br>
+Nữ 2: "Không phải. Là chỗ dọc bờ biển cơ. Từ khách sạn ra đó cũng gần, chiều tối ngày đầu tiên đi dạo ra đó chẳng phải rất vừa vặn sao?"<br>
+Nam: "À, hay đấy. Mình đi thử xem sao. <b>Còn ngày thứ hai buổi chiều mình sẽ đi bảo tàng mỹ thuật đúng không? Chỗ bảo là gần ngôi chùa chẳng phải rất gần bảo tàng mỹ thuật sao? Mình đến đó chụp ảnh ráng chiều có cả ngôi chùa đi.</b>"<br>
+Nữ 2: "<b>Hay đấy.</b> Ngắm hoàng hôn lặn xuống biển từ trên cao nghe cũng thích thật, nhưng chỗ đó lại hơi xa."<br>
+Câu hỏi 2: Ngày thứ hai hai người sẽ đi ngắm hoàng hôn ở đâu?<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Điểm ngắm xuống ngôi chùa là にしがおか &rarr; <b>Đáp án đúng là 2</b>.`
         }
       ]
     }
