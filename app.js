@@ -1061,6 +1061,28 @@ class JLPTApp {
     const all = this.getAllQuestions();
     let hasChanges = false;
 
+    // Dọn 1 lần duy nhất các dấu sao / câu sai "rác" do bug cũ ở những câu chưa từng trả lời
+    const cleanFlagKey = `jlpt_clean_unanswered_stars_v1_${sessionKey}`;
+    if (!localStorage.getItem(cleanFlagKey)) {
+      const prevBmLen = this.bookmarks[sessionKey].length;
+      const prevWrongLen = this.wrongQuestions[sessionKey].length;
+      this.bookmarks[sessionKey] = this.bookmarks[sessionKey].filter(
+        (id) => this.userAnswers[id] !== undefined
+      );
+      this.wrongQuestions[sessionKey] = this.wrongQuestions[sessionKey].filter(
+        (id) => this.userAnswers[id] !== undefined
+      );
+      if (
+        this.bookmarks[sessionKey].length !== prevBmLen ||
+        this.wrongQuestions[sessionKey].length !== prevWrongLen
+      ) {
+        hasChanges = true;
+      }
+      try {
+        localStorage.setItem(cleanFlagKey, "1");
+      } catch (e) {}
+    }
+
     all.forEach((q) => {
       const userAns = this.userAnswers[q.id];
       if (userAns !== undefined) {
@@ -1094,6 +1116,7 @@ class JLPTApp {
     if (hasChanges) {
       localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
       localStorage.setItem("jlpt_n2_wrong_questions", JSON.stringify(this.wrongQuestions));
+      if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
     }
   }
 
