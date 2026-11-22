@@ -133,7 +133,7 @@ window.JLPT_DATA[12] = {
           "mondai": 2,
           "mondaiName": "問題2: 漢字表記",
           "type": "kanji",
-          "question": "この二人はライバルとして常に<u>きそって</u>きた。",
+          "question": "この二人はライバルとして常に<u>きそってきた</u>。",
           "options": [
             "争ってきた",
             "競ってきた",
@@ -1742,7 +1742,7 @@ window.JLPT_DATA[12] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "結婚式はしないで、親しい友人だけを<u>招待</u>してパーティーをするつもりだ。",
+          "question": "結婚式はしないで、<u>親しい</u>友人だけを招待してパーティーをするつもりだ。",
           "options": [
             "なつかしい",
             "たのもしい",
@@ -1757,7 +1757,7 @@ window.JLPT_DATA[12] = {
           "mondai": 1,
           "mondaiName": "問題1: 漢字の読み方",
           "type": "kanji",
-          "question": "ミスをしたら、正直に<u>認めて</u>謝ったほうがいい。",
+          "question": "ミスをしたら、<u>正直</u>に認めて謝ったほうがいい。",
           "options": [
             "しょうちき",
             "しょうじき",

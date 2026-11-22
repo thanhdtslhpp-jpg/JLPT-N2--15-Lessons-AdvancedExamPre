@@ -3548,7 +3548,7 @@ window.JLPT_DATA[15] = {
         {
           "mondai": 2,
           "mondaiName": "問題２：漢字表記 (Cách viết Kanji)",
-          "sentence": "生徒たちはみんな担任の先生を<u>うやまっていた</u>。",
+          "sentence": "生徒たちはみんな担任の先生を<u>うやまって</u>いた。",
           "options": [
             "尊って",
             "敬って",
@@ -5269,7 +5269,7 @@ window.JLPT_DATA[15] = {
         {
           "mondai": 1,
           "mondaiName": "問題１：言葉の読み方 (Cách đọc Kanji)",
-          "sentence": "ここは危険です。<ruby>直ちに<rt>______</rt></ruby>逃げてください。",
+          "sentence": "ここは危険です。<ruby>直ち<rt>______</rt></ruby>に逃げてください。",
           "options": [
             "すなわち",
             "たちまち",

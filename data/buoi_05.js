@@ -22,7 +22,7 @@ window.JLPT_DATA[5] = {
             "ちりょう"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>競っていた（あらそっていた / きそっていた）</b>: Đua tranh, cạnh tranh, ganh đua.<br><b>Dịch nghĩa:</b> Mỗi lần kiểm tra, chúng tôi lại ganh đua nhau để giành vị trí dẫn đầu toàn khối.<br><i>Phân tích các phương án:</i><br>• 1. きそっと: Chia sai thể て (đúng phải là きそって).<br>• 2. ねらって: Nhắm tới, hướng tới (động từ 狙う - ねらう).<br>• 3. <b>あらそって (Đúng)</b>: 競う cũng có cách đọc là あらそう (cạnh tranh, tranh giành).<br>• 4. うばって: Cướp đoạt, giật lấy (động từ 奪う - うばう)."
+          explanation: "<b>治療（ちりょう）</b>: Điều trị, chữa trị (bệnh tật, vết thương).<br><b>Dịch nghĩa:</b> Tôi đã đến nha khoa để điều trị răng sâu.<br><i>Phân tích các phương án:</i><br>• 1. じりょ: Sai âm (治 đọc là ち, 療 có trường âm りょう).<br>• 2. ちりょ: Thiếu trường âm う ở chữ 療.<br>• 3. じりょう: Sai âm đục chữ 治 (chỉ đọc ち ở đây).<br>• 4. <b>ちりょう (Đúng)</b>: 治 (ち) + 療 (りょう) &rarr; ちりょう."
         },
         {
           "id": 2,
@@ -331,7 +331,7 @@ window.JLPT_DATA[5] = {
           "id": 23,
           "mondai": 5,
           "mondaiName": "Đề 07/2016 - 問題５：言い換え類義語",
-          "sentence": "佐藤氏は、<b>たびたび</b>この店を訪れた。",
+          "sentence": "佐藤氏は、<u>たびたび</u>この店を訪れた。",
           "targetWord": "たびたび",
           "options": [
             "必ず",
@@ -346,7 +346,7 @@ window.JLPT_DATA[5] = {
           "id": 24,
           "mondai": 5,
           "mondaiName": "Đề 07/2016 - 問題５：言い換え類義語",
-          "sentence": "今日の林氏の発言に皆が<b>注目した</b>。",
+          "sentence": "今日の林氏の発言に皆が<u>注目した</u>。",
           "targetWord": "注目した",
           "options": [
             "関心を持った",
@@ -361,7 +361,7 @@ window.JLPT_DATA[5] = {
           "id": 25,
           "mondai": 5,
           "mondaiName": "Đề 07/2016 - 問題５：言い換え類義語",
-          "sentence": "このことは本人に<b>じかに</b>伝えてください。",
+          "sentence": "このことは本人に<u>じかに</u>伝えてください。",
           "targetWord": "じかに",
           "options": [
             "直接",
@@ -376,7 +376,7 @@ window.JLPT_DATA[5] = {
           "id": 26,
           "mondai": 5,
           "mondaiName": "Đề 07/2016 - 問題５：言い換え類義語",
-          "sentence": "もう少しで<b>衝突する</b>ところだった。",
+          "sentence": "もう少しで<u>衝突する</u>ところだった。",
           "targetWord": "衝突する",
           "options": [
             "倒れる",
@@ -391,7 +391,7 @@ window.JLPT_DATA[5] = {
           "id": 27,
           "mondai": 5,
           "mondaiName": "Đề 07/2016 - 問題５：言い換え類義語",
-          "sentence": "高橋さんは、そんな<b>ひきょうな</b>やり方はしませんよ。",
+          "sentence": "高橋さんは、そんな<u>ひきょうな</u>やり方はしませんよ。",
           "targetWord": "ひきょうな",
           "options": [
             "危ない",
@@ -1545,7 +1545,7 @@ window.JLPT_DATA[5] = {
           "id": 123,
           "mondai": 5,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題５",
-          "sentence": "私たちの泊まるホテル、この<b>方角</b>で合ってるよね。",
+          "sentence": "私たちの泊まるホテル、この<u>方角</u>で合ってるよね。",
           "targetWord": "方角",
           "options": [
             "方向",
@@ -1560,7 +1560,7 @@ window.JLPT_DATA[5] = {
           "id": 124,
           "mondai": 5,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題５",
-          "sentence": "父に費用を<b>援助してもらって</b>、留学することができた。",
+          "sentence": "父に費用を<u>援助してもらって</u>、留学することができた。",
           "targetWord": "援助してもらって",
           "options": [
             "応援して",
@@ -1575,7 +1575,7 @@ window.JLPT_DATA[5] = {
           "id": 125,
           "mondai": 5,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題５",
-          "sentence": "棒の<b>端</b>に番号が書かれているので、同じ番号の穴に入れてください。",
+          "sentence": "棒の<u>端</u>に番号が書かれているので、同じ番号の穴に入れてください。",
           "targetWord": "端",
           "options": [
             "うら",
@@ -1590,7 +1590,7 @@ window.JLPT_DATA[5] = {
           "id": 126,
           "mondai": 5,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題５",
-          "sentence": "彼女の料理の<b>腕</b>は、コンクールで優勝するくらい確かだ。",
+          "sentence": "彼女の料理の<u>腕</u>は、コンクールで優勝するくらい確かだ。",
           "targetWord": "腕",
           "options": [
             "才能",
@@ -1605,7 +1605,7 @@ window.JLPT_DATA[5] = {
           "id": 127,
           "mondai": 5,
           "mondaiName": "Chuyên Đề Từ Vựng - 問題５",
-          "sentence": "この大学を<b>志望した</b>のは、子どものころからの夢を実現するためです。",
+          "sentence": "この大学を<u>志望した</u>のは、子どものころからの夢を実現するためです。",
           "targetWord": "志望した",
           "options": [
             "あこがれた",

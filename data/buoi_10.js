@@ -2733,7 +2733,7 @@ window.JLPT_DATA[10] = {
           "options": [
             "しっぽう",
             "しつぼう",
-            "しっぽう",
+            "じっぽう",
             "しつぽう"
           ],
           "correctAnswer": 2,
@@ -4085,7 +4085,7 @@ window.JLPT_DATA[10] = {
           "sentence": "夫がリストラ<ruby>候補<rt>______</rt></ruby>だなんて、信じられない。",
           "targetWord": "候補",
           "options": [
-            "こうほ",
+            "ごうほ",
             "こうぼう",
             "こうほ",
             "こうほう"

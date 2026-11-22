@@ -315,7 +315,7 @@ window.JLPT_DATA[1] = {
           "id": 21,
           "mondai": 5,
           "mondaiName": "問題５：言い換え類義語 (Từ đồng nghĩa)",
-          "sentence": "佐藤さんが<b>ガイド</b>してくれました。",
+          "sentence": "佐藤さんが<u>ガイド</u>してくれました。",
           "targetWord": "ガイド",
           "options": [
             "案内",
@@ -330,7 +330,7 @@ window.JLPT_DATA[1] = {
           "id": 22,
           "mondai": 5,
           "mondaiName": "問題５：言い換え類義語 (Từ đồng nghĩa)",
-          "sentence": "この表現は<b>修正した</b>ほうがいいですよ。",
+          "sentence": "この表現は<u>修正した</u>ほうがいいですよ。",
           "targetWord": "修正した",
           "options": [
             "消した",
@@ -345,7 +345,7 @@ window.JLPT_DATA[1] = {
           "id": 23,
           "mondai": 5,
           "mondaiName": "問題５：言い換え類義語 (Từ đồng nghĩa)",
-          "sentence": "<b>徐々に</b>会社に慣れてきた。",
+          "sentence": "<u>徐々に</u>会社に慣れてきた。",
           "targetWord": "徐々に",
           "options": [
             "やっと",
@@ -366,7 +366,7 @@ window.JLPT_DATA[1] = {
           "id": 24,
           "mondai": 5,
           "mondaiName": "問題５：言い換え類義語 (Từ đồng nghĩa)",
-          "sentence": "青いペンキが<b>はげている</b>。",
+          "sentence": "青いペンキが<u>はげている</u>。",
           "targetWord": "はげている",
           "options": [
             "取れて",
@@ -381,7 +381,7 @@ window.JLPT_DATA[1] = {
           "id": 25,
           "mondai": 5,
           "mondaiName": "問題５：言い換え類義語 (Từ đồng nghĩa)",
-          "sentence": "彼女のあの<b>しぐさ</b>は印象的だった。",
+          "sentence": "彼女のあの<u>しぐさ</u>は印象的だった。",
           "targetWord": "しぐさ",
           "options": [
             "表情",
@@ -1487,7 +1487,7 @@ window.JLPT_DATA[1] = {
             "きょうふ",
             "きょうふう",
             "きょふ",
-            "きょうふう"
+            "きょふう"
           ],
           "correctAnswer": 1,
           "explanation": "恐怖（きょうふ）：Nỗi kinh hãi, sợ hãi.<br><b>Dịch nghĩa:</b> Xem đoạn phim tai nạn mà tôi cảm thấy kinh hãi."
