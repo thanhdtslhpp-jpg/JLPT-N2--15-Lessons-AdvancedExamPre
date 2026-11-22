@@ -3579,14 +3579,34 @@ class JLPTApp {
     const sessionKey = String(this.currentSessionId);
     const starredList = this.bookmarks[sessionKey] || [];
     this.starredReviewIds = [...starredList];
-    if (starredList.length === 0) return;
+  }
 
-    // Reset các câu hỏi đã lưu về nguyên bản chưa trả lời để người học làm lại
+  resetStarredAnswersForRetry() {
+    const sessionKey = String(this.currentSessionId);
+    const starredList = this.bookmarks[sessionKey] || [];
+    if (starredList.length === 0) return;
     starredList.forEach((qId) => {
       delete this.userAnswers[qId];
       delete this.starAnswers[qId];
     });
     this.saveDraftAnswers();
+    this.renderQuestions();
+    this.updatePallet();
+  }
+
+  clearAllBookmarksInSession() {
+    const sessionKey = String(this.currentSessionId);
+    const count = (this.bookmarks[sessionKey] || []).length;
+    if (count === 0) return;
+    if (!confirm(`Bạn muốn bỏ toàn bộ ${count} dấu sao đang lưu ở buổi này?`)) return;
+    this.bookmarks[sessionKey] = [];
+    localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
+    this.starredReviewIds = [];
+    if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
+    this.setFilter("all");
+    this.renderFilterTabs();
+    this.renderQuestions();
+    this.updatePallet();
   }
 
 
@@ -4400,12 +4420,20 @@ class JLPTApp {
           <i class="fas fa-star" style="font-size: 1.5rem; color: #f59e0b;"></i>
           <div>
             <b style="color: #f59e0b; font-size: 1rem;">CHẾ ĐỘ ÔN LUYỆN CÂU ĐÃ LƯU & CÂU SAI:</b><br>
-            <span style="font-size: 0.88rem; color: var(--text-sub);">Các câu hỏi đã đưa về nguyên bản chưa trả lời. Khi bạn <b>làm đúng</b>, hệ thống sẽ <b>tự động bỏ dấu sao</b>!</span>
+            <span style="font-size: 0.88rem; color: var(--text-sub);">Khi bạn <b>làm đúng</b>, hệ thống sẽ <b>tự động bỏ dấu sao</b>. Có thể bấm làm lại hoặc bỏ lưu hàng loạt bên phải.</span>
           </div>
         </div>
-        <button class="btn btn-primary" style="font-weight: 700; padding: 0.55rem 1.1rem; box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);" onclick="app.setFilter('all')">
-          <i class="fas fa-arrow-left"></i> Quay lại phần luyện tập
-        </button>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn btn-outline" style="font-weight: 600; padding: 0.5rem 0.9rem;" onclick="app.resetStarredAnswersForRetry()">
+            <i class="fas fa-redo"></i> Xóa đáp án các câu sao để làm lại
+          </button>
+          <button class="btn btn-outline" style="font-weight: 600; padding: 0.5rem 0.9rem; color: var(--error); border-color: rgba(239, 68, 68, 0.4);" onclick="app.clearAllBookmarksInSession()">
+            <i class="fas fa-trash-alt"></i> Bỏ tất cả dấu sao
+          </button>
+          <button class="btn btn-primary" style="font-weight: 700; padding: 0.55rem 1.1rem; box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);" onclick="app.setFilter('all')">
+            <i class="fas fa-arrow-left"></i> Quay lại phần luyện tập
+          </button>
+        </div>
       `;
       container.appendChild(banner);
     }
@@ -6486,14 +6514,15 @@ class JLPTApp {
 
     all.forEach((q) => {
       const targetAns = this.getTargetAnswer(q);
-      const isRight = this.userAnswers[q.id] === targetAns;
+      const hasAnswered = this.userAnswers[q.id] !== undefined;
+      const isRight = hasAnswered && this.userAnswers[q.id] === targetAns;
       if (isRight) {
         correctCount++;
         // Tự động bỏ dấu sao nếu câu này đã làm đúng trong bài thi
         this.removeBookmark(q.id, false);
         this.removeWrongQuestion(q.id);
-      } else {
-        // Tự động tích sao nếu câu hỏi trả lời sai hoặc chưa làm
+      } else if (hasAnswered) {
+        // Chỉ tự động tích sao nếu câu hỏi ĐÃ TRẢ LỜI và bị sai (không tích sao câu chưa làm)
         this.addBookmark(q.id, false);
         this.addWrongQuestion(q.id);
       }
