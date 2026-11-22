@@ -2993,7 +2993,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
             "くらい"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Đáp án đúng: 1 (命じられる)</b><br><b>Cấu trúc (接続):</b> Thể bị động V-られる + かと思ったら (Cứ tưởng bị ai bắt làm gì, ai ngờ...).<br><b>Phân tích 4 phương án:</b><br>• <b>1. 命じられる (Đúng):</b> Chủ ngữ là người nói (\"tôi\"), bị Trưởng phòng (部長に) ra lệnh tăng ca nên dùng bị động 命じられる.<br>• <b>2. 命じさせる (Sai):</b> Thể sai khiến (\"bắt ai đó ra lệnh\"), sai nghĩa.<br>• <b>3. 命じられるの (Sai):</b> ～かと思ったら nối trực tiếp với thể thông thường, không chèn の.<br>• <b>4. 命じる (Sai):</b> Thể chủ động không hợp với 部長に (bởi Trưởng phòng).<br><b>Dịch câu:</b> Hôm nay cứ tưởng sẽ bị Trưởng phòng bắt tăng ca, ai ngờ đúng giờ lại được về."
+          "explanation": "<b>Đáp án đúng: 1 (なんて)</b><br><b>Cấu trúc (接続):</b> N / V + なんて + 〜くらいなら〜ほうがましだ (Nhấn mạnh sự chán ghét: cái việc như thế mà phải làm thì thà...).<br><b>Phân tích 4 phương án:</b><br>• <b>1. なんて (Đúng):</b> なんて diễn tả sắc thái bất mãn, coi nhẹ rất tự nhiên giữa 残業 và する.<br>• <b>2. なんか (Sai):</b> なんか thường đi sau danh từ để giảm nhẹ/chê bai, ít tự nhiên hơn なんて khi nối 残業 với する.<br>• <b>3. など (Sai):</b> など mang sắc thái văn viết trung tính (\"như là\"), không hợp giọng điệu bực bội văn nói của くらいなら〜ほうがましだ.<br>• <b>4. くらい (Sai):</b> Bị lặp từ くらい với くらいなら ngay phía sau.<br><b>Dịch câu:</b> Nếu mà phải làm cái việc tăng ca như thế thì thà nghỉ việc còn hơn."
         },
         {
           "id": 214,
@@ -3007,7 +3007,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
             "命じる"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Đáp án đúng: 1 (命じられる)</b><br><b>Cấu trúc (接続):</b> Thể bị động V-られる + かと思ったら (Cứ tưởng bị ai bắt làm gì, ai ngờ...).<br><b>Phân tích 4 phương án:</b><br>• <b>1. 命じられる (Đúng):</b> Chủ ngữ là người nói (\"tôi\"), bị Trưởng phòng (部長に) ra lệnh tăng ca nên dùng bị động 命じられる.<br>• <b>2. 命じさせる (Sai):</b> Thể sai khiến (\"bắt ai đó ra lệnh\"), sai nghĩa.<br>• <b>3. 命じる (Sai):</b> Thể chủ động không hợp với 部長に (bởi Trưởng phòng).<br>• <b>4. 命じられるの (Sai):</b> 〜かと思ったら nối trực tiếp với thể thông thường, không chèn の.<br><b>Dịch câu:</b> Hôm nay cứ tưởng sẽ bị Trưởng phòng bắt tăng ca, ai ngờ đúng giờ lại được về."
+          "explanation": "<b>Đáp án đúng: 1 (命じられる)</b><br><b>Cấu trúc (接続):</b> Thể bị động V-られる + かと思ったら (Cứ tưởng bị ai bắt làm gì, ai ngờ...).<br><b>Phân tích 4 phương án:</b><br>• <b>1. 命じられる (Đúng):</b> Chủ ngữ là người nói (\"tôi\"), bị Trưởng phòng (部長に) ra lệnh tăng ca nên dùng bị động 命じられる.<br>• <b>2. 命じさせる (Sai):</b> Thể sai khiến (\"bắt ai đó ra lệnh\"), sai nghĩa.<br>• <b>3. 命じられるの (Sai):</b> ～かと思ったら nối trực tiếp với thể thông thường, không chèn の.<br>• <b>4. 命じる (Sai):</b> Thể chủ động không hợp với 部長に (bởi Trưởng phòng).<br><b>Dịch câu:</b> Hôm nay cứ tưởng sẽ bị Trưởng phòng bắt tăng ca, ai ngờ đúng giờ lại được về."
         },
         {
           "id": 215,

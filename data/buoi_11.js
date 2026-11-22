@@ -2118,7 +2118,7 @@ window.JLPT_DATA[11] = {
             "着いたおりに"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Vて + まいりました：</b>Khiêm nhường ngữ của ～てきました (đã làm gì đó và trở về đến đây).<br><b>Dịch nghĩa:</b> Cuối bộ phim, khi nhân vật chính nói \"Tôi đã hoàn thành nhiệm vụ an toàn trở về\" rồi ngã gục xuống, mọi người đều rơi nước mắt.<br><i>Phân tích các phương án:</i><br>• 1. ぞんじました: Khiêm nhường ngữ của 知る/思う (không ghép sau Vて).<br>• 2. おりました: Khiêm nhường ngữ của いる (đang ở, không hợp nghĩa hoàn thành trở về).<br>• 3. さしあげました: Khiêm nhường ngữ của あげる (tặng/làm cho ai).<br>• <b>4. まいりました: [Đúng] 果たしてまいりました = 果たしてきました (hoàn thành nhiệm vụ trở về).</b>"
+          "explanation": "<b>V-masu + 次第（しだい）：</b>Ngay sau khi V thì sẽ lập tức làm... (空港に着き次第: ngay sau khi tới sân bay).<br><b>Dịch nghĩa:</b> Tôi không biết chính xác giờ, nhưng theo lịch là ngay sau khi tới sân bay thì anh ấy/cô ấy sẽ gọi điện cho tôi.<br><i>Phân tích các phương án:</i><br>• 1. 着かないうちに: Trong lúc chưa tới<br>• <b>2. 着き次第: [Đúng] Ngay sau khi tới nơi (thường đi với hành động tiếp theo ở thì tương lai/dự định)</b><br>• 3. 着いた末に: Sau bao nhiêu gian nan cuối cùng cũng tới (không hợp ngữ cảnh)<br>• 4. 着いたおりに: Nhân dịp đã tới (không tự nhiên ở đây)"
         },
         {
           "id": 136,
@@ -2133,7 +2133,7 @@ window.JLPT_DATA[11] = {
             "まいりました"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>外出してまいりました（外出しております）：</b>Đang đi ra ngoài (khiêm nhường ngữ thông báo sếp/người thuộc nhóm mình vắng mặt).<br><b>Dịch nghĩa:</b> Khách: 'Trưởng phòng Yamada có ở đó không ạ?' - Nhân viên: 'Rất tiếc hiện tại ông Yamada đang đi ra ngoài rồi ạ.'<br><i>Phân tích các phương án:</i><br>• 1. いらっしゃいます: Tôn kính ngữ (không dùng cho sếp mình khi nói chuyện với khách bên ngoài)<br>• 2. ございます: Có (không đi với 外出して)<br>• 3. もうしあげました: Đã thưa gửi<br>• <b>4. まいりました: [Đúng] Khiêm nhường ngữ 外出してまいりました (đã đi ra ngoài)</b>"
+          "explanation": "<b>Vて + まいりました：</b>Khiêm nhường ngữ của ～てきました (đã làm gì đó và trở về đến đây).<br><b>Dịch nghĩa:</b> Cuối bộ phim, khi nhân vật chính nói \"Tôi đã hoàn thành nhiệm vụ an toàn trở về\" rồi ngã gục xuống, mọi người đều rơi nước mắt.<br><i>Phân tích các phương án:</i><br>• 1. ぞんじました: Khiêm nhường ngữ của 知る/思う (không ghép sau Vて).<br>• 2. おりました: Khiêm nhường ngữ của いる (đang ở, không hợp nghĩa hoàn thành trở về).<br>• 3. さしあげました: Khiêm nhường ngữ của あげる (tặng/làm cho ai).<br>• <b>4. まいりました: [Đúng] 果たしてまいりました = 果たしてきました (hoàn thành nhiệm vụ trở về).</b>"
         },
         {
           "id": 137,
@@ -2313,7 +2313,7 @@ window.JLPT_DATA[11] = {
             "はたして"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>N ＋ につき：</b>Vì lý do... (cấu trúc thông báo trang trọng trên biển báo/văn bản).<br><b>Dịch nghĩa:</b> Tuyến đường này sẽ cấm lưu thông cho tới cuối tuần sau do đang thi công đường ống cấp nước.<br><i>Phân tích các phương án:</i><br>• <b>1. につき: [Đúng] 工事中につき通行禁止 (vì lý do đang thi công nên cấm đường).</b><br>• 2. につれ: Cùng với sự biến đổi của...<br>• 3. にわたり: Kéo dài suốt (khoảng thời gian/phạm vi).<br>• 4. にしたがい: Cùng với / tuân theo."
+          "explanation": "<b>N ＋ にこたえて（に応えて）：</b>Đáp lại (sự cổ vũ, kỳ vọng, tiếng gọi ủng hộ).<br><b>Dịch nghĩa:</b> Đáp lại sự cổ vũ nồng nhiệt của các công dân địa phương, toàn đội rốt cuộc đã xuất sắc tiến thẳng vào trận chung kết.<br><i>Phân tích các phương án:</i><br>• 1. よろこんで: Vui vẻ<br>• 2. もとづいて: Dựa trên căn cứ<br>• <b>3. こたえて: [Đúng] 応援にこたえて (đáp lại sự cổ vũ nhiệt thành)</b><br>• 4. はたして: Liệu rằng / quả nhiên"
         },
         {
           "id": 149,
@@ -2328,7 +2328,7 @@ window.JLPT_DATA[11] = {
             "にしたがい"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>N ＋ につき：</b>Vì lý do... (cấu trúc thông báo trang trọng trên biển báo/văn bản).<br><b>Dịch nghĩa:</b> Tuyến đường này sẽ cấm lưu thông cho tới cuối tuần sau do đang thi công đường ống cấp nước.<br><i>Phân tích các phương án:</i><br>• <b>1. につき: [Đúng] 工事中につき通行禁止 (vì lý do đang thi công nên cấm đường)</b><br>• 2. につれ: Cùng với sự thay đổi của<br>• 3. にわたり: Kéo dài suốt<br>• 4. にしたがって: Cùng với kéo theo"
+          "explanation": "<b>N ＋ につき：</b>Vì lý do... (cấu trúc thông báo trang trọng trên biển báo/văn bản).<br><b>Dịch nghĩa:</b> Tuyến đường này sẽ cấm lưu thông cho tới cuối tuần sau do đang thi công đường ống cấp nước.<br><i>Phân tích các phương án:</i><br>• <b>1. につき: [Đúng] 工事中につき通行禁止 (vì lý do đang thi công nên cấm đường).</b><br>• 2. につれ: Cùng với sự biến đổi của...<br>• 3. にわたり: Kéo dài suốt (khoảng thời gian/phạm vi).<br>• 4. にしたがい: Cùng với / tuân theo."
         },
         {
           "id": 150,

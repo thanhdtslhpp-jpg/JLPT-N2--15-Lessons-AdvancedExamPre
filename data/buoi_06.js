@@ -1938,7 +1938,7 @@ window.JLPT_DATA[6] = {
             "映画は映画館以外で見ることをすすめる。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc xem phim, tác giả A và B đã trình bày như thế nào?<br><b>Phân tích bài đọc:</b> Tác giả A nhấn mạnh xem ở rạp giúp tập trung từ đầu đến cuối và nhớ kỹ nội dung (「映画館で見ると、最初から最後まで集中して…内容はよく覚えている」). Tác giả B cho rằng xem ở rạp cũng thích, nhưng xem qua dịch vụ phát video ở nơi khác theo nhịp độ riêng cũng rất tiện (「映画館で見るのも…映画館以外の場所で見るのも好きだ」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không chỉ khuyên xem ở rạp.<br>• 2. Sai vì A thích xem ở rạp hơn ở nhà.<br>• <b>3. A cho rằng xem ở rạp tập trung và nhớ rõ nội dung; B cho rằng xem ở rạp cũng hay nhưng xem ở nơi khác cũng tốt [Đúng]</b><br>• 4. Sai vì A nói xem ngoài rạp dễ mất tập trung và hay quên nội dung."
+          "explanation": "<b>Dịch câu hỏi:</b> Điểm chung được nêu ở cả hai bài A và B là gì?<br><b>Phân tích bài đọc:</b> Bài A nói xem ở rạp giúp tập trung từ đầu đến cuối (最初から最後まで集中して楽しめる). Bài B cũng nói xem ở rạp thì không làm việc khác được nên đắm chìm và tập trung vào thế giới của bộ phim (ほかのことができず、その世界に入り込んで夢中になれる).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì tác giả B thích cả xem ở ngoài rạp<br>• 2. Sai vì tác giả B vẫn thích xem qua dịch vụ phát trực tuyến ngoài rạp<br>• <b>3. 映画は映画館で見ると集中できる: [Đúng] Xem phim ở rạp chiếu phim thì có thể tập trung được</b><br>• 4. Sai vì cả hai bài đều không khuyên người đọc chỉ nên xem ngoài rạp"
         },
         {
           "id": 119,
@@ -1953,7 +1953,7 @@ window.JLPT_DATA[6] = {
             "Aは映画館以外で見ると集中が続かないが、内容もよく分かるからいいと述べ、Bは映画館で見るのも、それ以外の方法で見るも好きだと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc hiểu lời bài hát trước khi hát, A và B suy nghĩ như thế nào?<br><b>Phân tích bài đọc:</b> Cả hai tác giả đều khẳng định việc hiểu rõ lời bài hát trước khi hát là rất cần thiết/quan trọng: Tác giả A viết 「まず歌詞を理解して曲を覚えることが必要だ」; Tác giả B viết 「それには歌詞を深く理解することが大切だ」.<br><i>Phân tích các phương án:</i><br>• <b>1. AもBも、必要だと述べている: Cả A và B đều cho rằng điều đó là cần thiết [Đúng]</b><br>• 2, 3, 4. Sai vì trái với quan điểm đồng thuận của cả A và B trong bài."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc xem phim, tác giả A và B đã trình bày như thế nào?<br><b>Phân tích bài đọc:</b> Tác giả A nhấn mạnh xem ở rạp giúp tập trung từ đầu đến cuối và nhớ kỹ nội dung (「映画館で見ると、最初から最後まで集中して…内容はよく覚えている」). Tác giả B cho rằng xem ở rạp cũng thích, nhưng xem qua dịch vụ phát video ở nơi khác theo nhịp độ riêng cũng rất tiện (「映画館で見るのも…映画館以外の場所で見るのも好きだ」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không chỉ khuyên xem ở rạp.<br>• 2. Sai vì A thích xem ở rạp hơn ở nhà.<br>• <b>3. A cho rằng xem ở rạp tập trung và nhớ rõ nội dung; B cho rằng xem ở rạp cũng hay nhưng xem ở nơi khác cũng tốt [Đúng]</b><br>• 4. Sai vì A nói xem ngoài rạp dễ mất tập trung và hay quên nội dung."
         },
         {
           "id": 120,
@@ -1968,7 +1968,7 @@ window.JLPT_DATA[6] = {
             "Aはあまり必要ではないと述べ、Bは必要だと述べている。"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> A và B cho rằng để hát hay thì điều gì là quan trọng?<br><b>Phân tích bài đọc:</b> Tác giả A khuyên nên đọc hiểu lời, nghe đi nghe lại để nhớ chính xác giai điệu rồi hát tự tin như ca sĩ (「歌詞と曲をしっかり覚えたら…」). Ngược lại, tác giả B nhấn mạnh bài hát hay là bài hát truyền tải được cảm xúc chân thành đến người nghe (「歌う人の気持ちが伝わってくる歌」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không thích việc chỉ bắt chước ca sĩ.<br>• 2. Sai vì A không nhấn mạnh chỗ nhấn nhá cảm xúc.<br>• <b>3. A cho rằng cần nhớ chính xác bài hát rồi mới hát; B cho rằng cần hát sao cho truyền tải được cảm xúc [Đúng]</b><br>• 4. Sai vì B không hề nói ngược lại việc tự tin."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Về việc hiểu lời bài hát trước khi hát, A và B suy nghĩ như thế nào?<br><b>Phân tích bài đọc:</b> Cả hai tác giả đều khẳng định việc hiểu rõ lời bài hát trước khi hát là rất cần thiết/quan trọng: Tác giả A viết 「まず歌詞を理解して曲を覚えることが必要だ」; Tác giả B viết 「それには歌詞を深く理解することが大切だ」.<br><i>Phân tích các phương án:</i><br>• <b>1. AもBも、必要だと述べている: Cả A và B đều cho rằng điều đó là cần thiết [Đúng]</b><br>• 2, 3, 4. Sai vì trái với quan điểm đồng thuận của cả A và B trong bài."
         },
         {
           "id": 121,
@@ -1983,7 +1983,7 @@ window.JLPT_DATA[6] = {
             "Aは自分らしく歌おうとしないことだと述べ、Bは自信を持って歌うことだと述べている。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Nhận định nào sau đây phản ánh đúng nhất sự khác biệt trong lập luận của A và B?<br><b>Phân tích bài đọc:</b> Tác giả A tập trung vào chiều sâu cảm xúc và trải nghiệm xúc giác của việc đọc chậm, trong khi tác giả B hướng tới hiệu suất, tính tiện ích và sự cơ động trong đời sống hiện đại.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì A không hề phản bác các tiện ích kỹ thuật số.<br>• 2. Sai vì B không chê bai sách giấy tốn diện tích.<br>• <b>3. Aは五感を通じた読書の質的深さを重視し、Bは利便性や効率性を重視している: A chú trọng chiều sâu chất lượng qua ngũ quan, còn B chú trọng tính tiện lợi và hiệu quả [Đúng đối chiếu]</b><br>• 4. Sai vì cả hai đều khuyến khích đọc sách chứ không bài xích lẫn nhau."
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> A và B cho rằng để hát hay thì điều gì là quan trọng?<br><b>Phân tích bài đọc:</b> Tác giả A khuyên nên đọc hiểu lời, nghe đi nghe lại để nhớ chính xác giai điệu rồi hát tự tin như ca sĩ (「歌詞と曲をしっかり覚えたら…」). Ngược lại, tác giả B nhấn mạnh bài hát hay là bài hát truyền tải được cảm xúc chân thành đến người nghe (「歌う人の気持ちが伝わってくる歌」).<br><i>Phân tích các phương án:</i><br>• 1. Sai vì B không thích việc chỉ bắt chước ca sĩ.<br>• 2. Sai vì A không nhấn mạnh chỗ nhấn nhá cảm xúc.<br>• <b>3. A cho rằng cần nhớ chính xác bài hát rồi mới hát; B cho rằng cần hát sao cho truyền tải được cảm xúc [Đúng]</b><br>• 4. Sai vì B không hề nói ngược lại việc tự tin."
         },
         {
           "id": 122,
