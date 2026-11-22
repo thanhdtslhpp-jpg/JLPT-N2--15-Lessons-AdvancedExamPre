@@ -1061,9 +1061,12 @@ class JLPTApp {
     const all = this.getAllQuestions();
     let hasChanges = false;
 
-    // Dọn 1 lần duy nhất các dấu sao / câu sai "rác" do bug cũ ở những câu chưa từng trả lời
-    const cleanFlagKey = `jlpt_clean_unanswered_stars_v1_${sessionKey}`;
-    if (!localStorage.getItem(cleanFlagKey)) {
+    // Dọn các dấu sao / câu sai "rác" do bug cũ (kể cả khi Cloud Sync kéo bản cũ về ghi đè)
+    const cleanFlagKey = `jlpt_clean_unanswered_stars_v2_${sessionKey}`;
+    const unansweredStarredCount = this.bookmarks[sessionKey].filter(
+      (id) => this.userAnswers[id] === undefined
+    ).length;
+    if (!localStorage.getItem(cleanFlagKey) || unansweredStarredCount >= 5) {
       const prevBmLen = this.bookmarks[sessionKey].length;
       const prevWrongLen = this.wrongQuestions[sessionKey].length;
       this.bookmarks[sessionKey] = this.bookmarks[sessionKey].filter(
