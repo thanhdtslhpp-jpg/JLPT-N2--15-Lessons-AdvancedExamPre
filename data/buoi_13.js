@@ -628,7 +628,7 @@ window.JLPT_DATA[13] = {
           "mondai": 7,
           "mondaiName": "問題7: 文法形式の判断",
           "type": "grammar",
-          "question": "運動しようと思って走り出した（　　）、転んでけがをしてしまった。",
+          "question": "運動しようと思って（　　）とたん、転んでけがをしてしまった。",
           "options": [
             "走り出して",
             "走り出した",
