@@ -2502,38 +2502,6 @@ Nữ: Ủa? Quán này hôm nay đóng cửa nghỉ hay sao ý nhỉ...<br>
           "isChoukai": true,
           "type": "audio",
           "audio": "audio/buoi_13/m4_09.mp3",
-          "questionText": "M: あさってお休みをいただいてもよろしいでしょうか。",
-          "options": [
-            "ええ、かまわないですよ。",
-            "いや、できないこともありますよ。",
-            "それはよかったですね。"
-          ],
-          "correctAnswer": 1,
-          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br>
-<b>📝 Dịch chi tiết 3 đáp án:</b><br>
-1. ええ、かまわないですよ。: Vâng, không sao cả, bạn cứ nghỉ đi.<br>
-2. いや、できないこともありますよ。: Không, cũng có những việc không làm được.<br>
-3. それはよかったですね。: Thế thì tốt quá rồi.<br><br>
-<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
-M: あさってお休みをいただいてもよろしいでしょうか。<br>
-<b>1. ええ、かまわないですよ。</b><br>
-2. いや、できないこともありますよ。<br>
-3. それはよかったですね。<br><br>
-<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
-Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br>
-<b>1. Vâng, không sao cả, bạn cứ nghỉ đi.</b><br>
-2. Không, cũng có những việc không làm được.<br>
-3. Thế thì tốt quá rồi.<br><br>
-<b>💡 Phân tích chọn đáp án:</b><br>
-- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng "ええ、かまわないですよ" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>.`
-        },
-        {
-          "id": 150,
-          "mondai": 4,
-          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
-          "isChoukai": true,
-          "type": "audio",
-          "audio": "audio/buoi_13/m4_10.mp3",
           "questionText": "M: できることなら、一度あの歌手に会ってみたいなあ。",
           "options": [
             "ええ？コンサートに行ったんですか。",
@@ -2560,12 +2528,12 @@ Nam: Nếu có thể, tôi muốn một lần được trực tiếp gặp mặt
 - Khi nghe đối phương bày tỏ sự ngưỡng mộ tha thiết muốn gặp một ca sĩ, câu hỏi đáp tiếp nối tự nhiên là hỏi về nét cuốn hút của ca sĩ đó: "どういうところが魅力なんですか" (Ở người đó có sức hút thế nào thế?).<br>&rarr; <b>Đáp án đúng là 3</b>.`
         },
         {
-          "id": 151,
+          "id": 150,
           "mondai": 4,
           "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
           "isChoukai": true,
           "type": "audio",
-          "audio": "audio/buoi_13/m4_11.mp3",
+          "audio": "audio/buoi_13/m4_10.mp3",
           "questionText": "F: ご無沙汰しております。お元気でいらっしゃいますか。",
           "options": [
             "ええ。こないだお見えになりましたね。",
@@ -2590,6 +2558,38 @@ Nữ: Đã lâu không liên lạc, bác/anh dạo này vẫn khỏe mạnh cả
 3. Vâng, hôm trước tôi có xem/nhìn rồi (sai nghĩa kính ngữ).<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
 - "ご無沙汰しております" dùng chào hỏi sau khoảng thời gian dài không gặp gỡ hay liên lạc. Câu đáp lại tương xứng là xác nhận khoảng thời gian cách biệt: "去年お会いして以来ですね" (Đúng vậy, từ tận năm ngoái tới giờ).<br>&rarr; <b>Đáp án đúng là 2</b>.`
+        },
+        {
+          "id": 151,
+          "mondai": 4,
+          "mondaiName": "聴解 問題４：即時応答 (Phản xạ câu ngắn)",
+          "isChoukai": true,
+          "type": "audio",
+          "audio": "audio/buoi_13/m4_11.mp3",
+          "questionText": "M: あさってお休みをいただいてもよろしいでしょうか。",
+          "options": [
+            "ええ、かまわないですよ。",
+            "いや、できないこともありますよ。",
+            "それはよかったですね。"
+          ],
+          "correctAnswer": 1,
+          "explanation": `<b>❓ Dịch câu thoại dẫn:</b> Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br><br>
+<b>📝 Dịch chi tiết 3 đáp án:</b><br>
+1. ええ、かまわないですよ。: Vâng, không sao cả, bạn cứ nghỉ đi.<br>
+2. いや、できないこともありますよ。: Không, cũng có những việc không làm được.<br>
+3. それはよかったですね。: Thế thì tốt quá rồi.<br><br>
+<b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+M: あさってお休みをいただいてもよろしいでしょうか。<br>
+<b>1. ええ、かまわないですよ。</b><br>
+2. いや、できないこともありますよ。<br>
+3. それはよかったですね。<br><br>
+<b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
+Nam: Ngày kia tôi xin phép nghỉ một hôm có được không ạ?<br>
+<b>1. Vâng, không sao cả, bạn cứ nghỉ đi.</b><br>
+2. Không, cũng có những việc không làm được.<br>
+3. Thế thì tốt quá rồi.<br><br>
+<b>💡 Phân tích chọn đáp án:</b><br>
+- Người cấp dưới xin phép nghỉ 「〜てもよろしいでしょうか」. Cấp trên đồng ý cấp phép sẽ dùng "ええ、かまわないですよ" (Được chứ, không sao đâu).<br>&rarr; <b>Đáp án đúng là 1</b>.`
         },
         {
           "id": 152,
