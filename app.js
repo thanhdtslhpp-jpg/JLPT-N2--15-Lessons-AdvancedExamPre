@@ -186,13 +186,31 @@ class JLPTApp {
           try {
             const curObj = JSON.parse(curVal);
             const syncObj = typeof val === "string" ? JSON.parse(val) : val;
-            const mergedAnswers = { ...(syncObj.userAnswers || {}), ...(curObj.userAnswers || {}) };
-            const mergedStar = { ...(syncObj.starAnswers || {}), ...(curObj.starAnswers || {}) };
-            const maxTime = Math.max(syncObj.updatedAt || 0, curObj.updatedAt || 0);
-            curObj.userAnswers = mergedAnswers;
-            curObj.starAnswers = mergedStar;
-            curObj.updatedAt = maxTime;
-            localStorage.setItem(key, JSON.stringify(curObj));
+            const curTime = curObj.updatedAt || 0;
+            const syncTime = syncObj.updatedAt || 0;
+
+            // Nếu thiết bị kia vừa xóa làm lại buổi này sau lần lưu gần nhất của máy này -> áp dụng bản reset
+            if (syncObj.resetAt && syncObj.resetAt > curTime) {
+              localStorage.setItem(key, JSON.stringify(syncObj));
+            } else if (curObj.resetAt && curObj.resetAt > syncTime) {
+              // Máy này vừa xóa làm lại mới hơn -> giữ bản reset cục bộ
+              localStorage.setItem(key, JSON.stringify(curObj));
+            } else {
+              const cloudIsNewer = syncTime >= curTime;
+              const mergedAnswers = cloudIsNewer
+                ? { ...(curObj.userAnswers || {}), ...(syncObj.userAnswers || {}) }
+                : { ...(syncObj.userAnswers || {}), ...(curObj.userAnswers || {}) };
+              const mergedStar = cloudIsNewer
+                ? { ...(curObj.starAnswers || {}), ...(syncObj.starAnswers || {}) }
+                : { ...(syncObj.starAnswers || {}), ...(curObj.starAnswers || {}) };
+              curObj.userAnswers = mergedAnswers;
+              curObj.starAnswers = mergedStar;
+              curObj.updatedAt = Math.max(syncTime, curTime);
+              if (syncObj.resetAt || curObj.resetAt) {
+                curObj.resetAt = Math.max(syncObj.resetAt || 0, curObj.resetAt || 0);
+              }
+              localStorage.setItem(key, JSON.stringify(curObj));
+            }
           } catch (e) {
             localStorage.setItem(key, strVal);
           }
@@ -216,17 +234,31 @@ class JLPTApp {
         try {
           const curHist = JSON.parse(localStorage.getItem(key) || "{}");
           const syncHist = typeof val === "string" ? JSON.parse(val) : val;
-          for (const [sess, list] of Object.entries(syncHist)) {
-            if (Array.isArray(list)) {
-              curHist[sess] = curHist[sess] || [];
-              for (const item of list) {
+          for (const [sess, entry] of Object.entries(syncHist)) {
+            if (Array.isArray(entry)) {
+              curHist[sess] = Array.isArray(curHist[sess]) ? curHist[sess] : [];
+              for (const item of entry) {
                 if (!curHist[sess].some(x => x.date === item.date)) {
                   curHist[sess].push(item);
                 }
               }
+            } else if (entry && typeof entry === "object") {
+              const curEntry = curHist[sess];
+              if (!curEntry || (entry.updatedAt || 0) >= (curEntry.updatedAt || 0)) {
+                curHist[sess] = entry;
+              }
             }
           }
           localStorage.setItem(key, JSON.stringify(curHist));
+        } catch (e) {
+          localStorage.setItem(key, strVal);
+        }
+        count++;
+      } else if (key === "jlpt_audio_listened") {
+        try {
+          const curAudio = JSON.parse(localStorage.getItem(key) || "{}");
+          const syncAudio = typeof val === "string" ? JSON.parse(val) : val;
+          localStorage.setItem(key, JSON.stringify({ ...curAudio, ...syncAudio }));
         } catch (e) {
           localStorage.setItem(key, strVal);
         }
@@ -241,6 +273,9 @@ class JLPTApp {
     this.history = JSON.parse(localStorage.getItem("jlpt_n2_history") || "{}");
     this.bookmarks = JSON.parse(localStorage.getItem("jlpt_n2_bookmarks") || "{}");
     this.wrongQuestions = JSON.parse(localStorage.getItem("jlpt_n2_wrong_questions") || "{}");
+    try {
+      this.audioListened = JSON.parse(localStorage.getItem("jlpt_audio_listened") || "{}");
+    } catch (e) {}
     if (this.currentSessionId) {
       this.loadDraftAnswers(this.currentSessionId);
       this.syncWrongAndBookmarkedQuestions(this.currentSessionId);
@@ -251,7 +286,11 @@ class JLPTApp {
         this.renderFilterTabs();
       }
     }
-    this.renderDashboard();
+    if (this.currentDashboardTab === "drills" && typeof this.renderDrillsDashboard === "function") {
+      this.renderDrillsDashboard();
+    } else {
+      this.renderDashboard();
+    }
     return true;
   }
 
@@ -342,6 +381,7 @@ class JLPTApp {
     this.setupHistoryRouting();
     if (this.cloudSync) {
       this.cloudSync.updateCloudStatusUI();
+      this.cloudSync.setupAutoSync();
       if (this.cloudSync.config.enabled) {
         this.cloudSync.pull(true);
       }
@@ -547,8 +587,9 @@ class JLPTApp {
 
         if (this.cloudSync) {
           this.cloudSync.saveConfig({ enabled: true, syncId, passphrase });
-          this.showSyncStatus("🔄 Đang kết nối và đồng bộ với Đám mây Firebase...", "info");
-          const ok = await this.cloudSync.pull(false);
+          this.cloudSync.setupAutoSync();
+          this.showSyncStatus("🔄 Đang kết nối và đồng bộ 2 chiều với Đám mây Firebase...", "info");
+          const ok = await this.cloudSync.syncNow(false);
           if (ok) {
             this.showSyncStatus("🎉 Đã kết nối và đồng bộ Đám mây Firebase thành công! Tiến độ làm bài sẽ tự động đồng bộ ngầm.", "success");
           }
@@ -563,10 +604,10 @@ class JLPTApp {
           this.showSyncStatus("⚠️ Vui lòng nhập Tên và Mật khẩu rồi bấm 'Bật & Kết Nối Đám Mây' trước.", "warning");
           return;
         }
-        this.showSyncStatus("🔄 Đang đồng bộ với đám mây...", "info");
-        const ok = await this.cloudSync.pull(false);
+        this.showSyncStatus("🔄 Đang đồng bộ 2 chiều với đám mây...", "info");
+        const ok = await this.cloudSync.syncNow(false);
         if (ok) {
-          this.showSyncStatus("✅ Đồng bộ thành công! Toàn bộ tiến độ mới nhất đã được cập nhật.", "success");
+          this.showSyncStatus("✅ Đồng bộ thành công! Toàn bộ tiến độ mới nhất đã được cập nhật giữa các thiết bị.", "success");
         }
       });
     }
@@ -1325,7 +1366,13 @@ class JLPTApp {
     this.wrongQuestions[sessionKey] = [];
     delete this.history[sessionKey];
 
-    localStorage.removeItem(`jlpt_draft_${this.currentSessionId}`);
+    const now = Date.now();
+    localStorage.setItem(`jlpt_draft_${this.currentSessionId}`, JSON.stringify({
+      userAnswers: {},
+      starAnswers: {},
+      updatedAt: now,
+      resetAt: now
+    }));
     localStorage.setItem("jlpt_n2_bookmarks", JSON.stringify(this.bookmarks));
     localStorage.setItem("jlpt_n2_wrong_questions", JSON.stringify(this.wrongQuestions));
     localStorage.setItem("jlpt_n2_history", JSON.stringify(this.history));
@@ -3127,11 +3174,18 @@ class JLPTApp {
 
   clearDraft(sessionId) {
     if (confirm(`Bạn có chắc chắn muốn xóa bản nháp làm dở của ${sessionId} để làm lại từ đầu?`)) {
-      localStorage.removeItem(`jlpt_draft_${sessionId}`);
+      const now = Date.now();
+      localStorage.setItem(`jlpt_draft_${sessionId}`, JSON.stringify({
+        userAnswers: {},
+        starAnswers: {},
+        updatedAt: now,
+        resetAt: now
+      }));
       if (this.currentSessionId === sessionId) {
         this.userAnswers = {};
         this.starAnswers = {};
       }
+      if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
       if (this.currentDashboardTab === "drills") {
         this.renderDrillsDashboard();
       } else {
@@ -6575,16 +6629,24 @@ class JLPTApp {
     });
 
     // Lưu kết quả làm bài
+    const submitNow = Date.now();
     this.history[this.currentSessionId] = {
       completed: true,
       score: correctCount,
       total: all.length,
-      date: new Date().toLocaleDateString("vi-VN")
+      date: new Date().toLocaleDateString("vi-VN"),
+      updatedAt: submitNow
     };
     localStorage.setItem("jlpt_n2_history", JSON.stringify(this.history));
 
-    // Xóa draft sau khi đã nộp bài chính thức
-    localStorage.removeItem(`jlpt_draft_${this.currentSessionId}`);
+    // Xóa draft sau khi đã nộp bài chính thức (lưu tombstone để đồng bộ xóa trên thiết bị khác)
+    localStorage.setItem(`jlpt_draft_${this.currentSessionId}`, JSON.stringify({
+      userAnswers: {},
+      starAnswers: {},
+      updatedAt: submitNow,
+      resetAt: submitNow
+    }));
+    if (this.cloudSync) this.cloudSync.triggerDebouncedPush();
 
     // Hiển thị modal kết quả
     document.getElementById("res-score-num").textContent = correctCount;

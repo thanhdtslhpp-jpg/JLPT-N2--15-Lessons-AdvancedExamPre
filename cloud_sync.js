@@ -9,7 +9,11 @@ class JLPTCloudSync {
     this.config = this.loadConfig();
     this.isSyncing = false;
     this.debounceTimer = null;
+    this.hasPendingPush = false;
     this.lastSyncTime = this.config.lastSyncedAt || null;
+    this.lastPullCheckAt = 0;
+    this.autoSyncInitialized = false;
+    this.pollIntervalId = null;
   }
 
   loadConfig() {
@@ -145,7 +149,7 @@ class JLPTCloudSync {
     return base;
   }
 
-  async push(force = false) {
+  async push(force = false, skipMergeCheck = false) {
     if (!this.config.enabled || !this.config.syncId || !this.config.passphrase) return false;
     if (this.isSyncing && !force) return false;
 
@@ -153,19 +157,44 @@ class JLPTCloudSync {
     this.updateCloudStatusUI("syncing", "Đang lưu lên đám mây...");
 
     try {
-      const allData = this.app.exportAllUserData();
-      const encryptedPayload = await this.encrypt(allData, this.config.passphrase);
       const userHash = await this.hashId(this.config.syncId);
       const url = `${this.getEndpointUrl()}/jlpt_users/${userHash}.json`;
 
+      // Trước khi ghi đè lên đám mây, kiểm tra xem thiết bị khác có bản mới hơn chưa để gộp an toàn
+      if (!skipMergeCheck) {
+        try {
+          const checkRes = await fetch(url, { cache: "no-store" });
+          if (checkRes.ok) {
+            const remotePayload = await checkRes.json();
+            if (remotePayload && remotePayload.updatedAt && remotePayload.updatedAt > (this.lastSyncTime || 0)) {
+              try {
+                const decryptedRemote = await this.decrypt(remotePayload, this.config.passphrase);
+                if (decryptedRemote) {
+                  this.app.importAllUserData(decryptedRemote);
+                }
+              } catch (decryptErr) {
+                console.warn("Cloud pre-push decrypt warning:", decryptErr);
+              }
+            }
+          }
+        } catch (checkErr) {
+          console.warn("Cloud pre-push check skipped:", checkErr);
+        }
+      }
+
+      const allData = this.app.exportAllUserData();
+      const encryptedPayload = await this.encrypt(allData, this.config.passphrase);
+
       const res = await fetch(url, {
         method: "PUT",
+        cache: "no-store",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(encryptedPayload)
       });
 
       if (!res.ok) throw new Error(`Lỗi kết nối Firebase (HTTP ${res.status})`);
 
+      this.hasPendingPush = false;
       this.lastSyncTime = encryptedPayload.updatedAt;
       this.saveConfig({ lastSyncedAt: this.lastSyncTime });
       this.updateCloudStatusUI("success", `Đã đồng bộ lên đám mây (${this.formatTime(this.lastSyncTime)})`);
@@ -181,22 +210,25 @@ class JLPTCloudSync {
 
   async pull(silent = false) {
     if (!this.config.enabled || !this.config.syncId || !this.config.passphrase) return false;
+    if (this.isSyncing) return false;
 
     this.isSyncing = true;
+    this.lastPullCheckAt = Date.now();
     if (!silent) this.updateCloudStatusUI("syncing", "Đang kiểm tra đám mây...");
 
     try {
       const userHash = await this.hashId(this.config.syncId);
       const url = `${this.getEndpointUrl()}/jlpt_users/${userHash}.json`;
 
-      const res = await fetch(url);
+      const res = await fetch(url, { cache: "no-store" });
       if (!res.ok) throw new Error(`Lỗi kết nối Firebase (HTTP ${res.status})`);
       const payload = await res.json();
 
       if (!payload) {
         // Trên đám mây chưa có dữ liệu nào cho tài khoản này -> Đẩy bài làm hiện tại lên làm gốc
         console.log("No cloud data found for this syncId. Pushing local data as initial cloud copy.");
-        await this.push(true);
+        this.isSyncing = false;
+        await this.push(true, true);
         return true;
       }
 
@@ -229,11 +261,81 @@ class JLPTCloudSync {
     }
   }
 
+  // Đồng bộ 2 chiều: Kéo bản mới nhất từ đám mây về gộp, rồi đẩy bản đã gộp lên lại đám mây
+  async syncNow(silent = false) {
+    if (!this.config.enabled || !this.config.syncId || !this.config.passphrase) return false;
+    const pulled = await this.pull(silent);
+    if (!pulled) return false;
+    return await this.push(true, true);
+  }
+
+  // Kiểm tra nhẹ timestamp trên đám mây (chỉ ~13 bytes), chỉ pull khi thực sự có dữ liệu mới hơn
+  async checkForRemoteUpdates() {
+    if (!this.config.enabled || !this.config.syncId || !this.config.passphrase) return false;
+    if (this.isSyncing || document.visibilityState !== "visible") return false;
+    try {
+      const userHash = await this.hashId(this.config.syncId);
+      const url = `${this.getEndpointUrl()}/jlpt_users/${userHash}/updatedAt.json`;
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) return false;
+      const remoteUpdatedAt = await res.json();
+      if (typeof remoteUpdatedAt === "number" && remoteUpdatedAt > (this.lastSyncTime || 0)) {
+        return await this.pull(true);
+      }
+    } catch (e) {
+      // Bỏ qua lỗi mạng tạm thời khi polling ngầm
+    }
+    return false;
+  }
+
+  // Tự động đồng bộ khi quay lại tab/app trên điện thoại, khi có mạng lại, hoặc khi rời trang
+  setupAutoSync() {
+    if (this.autoSyncInitialized) return;
+    this.autoSyncInitialized = true;
+
+    const triggerPullIfStale = () => {
+      if (!this.config.enabled) return;
+      const now = Date.now();
+      if (now - this.lastPullCheckAt < 3000) return;
+      this.pull(true);
+    };
+
+    document.addEventListener("visibilitychange", () => {
+      if (!this.config.enabled) return;
+      if (document.visibilityState === "visible") {
+        triggerPullIfStale();
+      } else if (document.visibilityState === "hidden" && this.hasPendingPush) {
+        if (this.debounceTimer) {
+          clearTimeout(this.debounceTimer);
+          this.debounceTimer = null;
+        }
+        this.push(true);
+      }
+    });
+
+    window.addEventListener("focus", () => {
+      triggerPullIfStale();
+    });
+
+    window.addEventListener("online", () => {
+      if (this.config.enabled) {
+        this.syncNow(true);
+      }
+    });
+
+    // Kiểm tra cập nhật mới từ thiết bị khác mỗi 25 giây khi đang mở trang
+    this.pollIntervalId = setInterval(() => {
+      this.checkForRemoteUpdates();
+    }, 25000);
+  }
+
   // Tự động kích hoạt lưu ngầm sau khi người dùng dừng thao tác
   triggerDebouncedPush(delayMs = 1200) {
     if (!this.config.enabled) return;
+    this.hasPendingPush = true;
     if (this.debounceTimer) clearTimeout(this.debounceTimer);
     this.debounceTimer = setTimeout(() => {
+      this.debounceTimer = null;
       this.push();
     }, delayMs);
   }
