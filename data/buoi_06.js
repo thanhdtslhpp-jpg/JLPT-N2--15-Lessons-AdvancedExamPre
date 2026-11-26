@@ -1744,7 +1744,7 @@ window.JLPT_DATA[6] = {
             "したがって"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Đoạn trước vừa trình bày công năng thoát nước mưa của mặt đường, đoạn này bổ sung thêm một công năng sưởi ấm tuyết tan ở xứ lạnh.<br><b>Dịch nghĩa:</b> Ngoài ra, tại những vùng đất có tuyết rơi nhiều, người ta còn trang bị thêm hệ thống sưởi ngầm dưới lòng đường.<br><i>Phân tích các phương án:</i><br>• <b>1. また: Ngoài ra, hơn nữa (liên từ bổ sung thêm thông tin cùng chiều) [Đúng]</b><br>• 2. すると: Thế là, ngay lập tức (chỉ diễn tiến thời gian)<br>• 3. こうして: Bằng cách này (tổng kết phương thức)<br>• 4. したがって: Do đó, vì vậy (chỉ kết quả nhân quả)",
+          "explanation": "<b>Ngữ cảnh bài điền từ:</b> Đoạn trước vừa trình bày công năng thoát nước mưa của mặt đường, đoạn này bổ sung thêm công năng nghiền nát băng tuyết (bằng vật liệu cao su đàn hồi nhúng vào mặt đường) ở vùng xứ lạnh.<br><b>Dịch nghĩa:</b> Ngoài ra, tại những vùng lạnh giá, các vụ tai nạn trơn trượt do tuyết và băng xảy ra rất nhiều.<br><i>Phân tích các phương án:</i><br>• <b>1. また: Ngoài ra, hơn nữa (liên từ bổ sung thêm thông tin cùng chiều) [Đúng]</b><br>• 2. すると: Thế là, ngay lập tức (chỉ diễn tiến thời gian)<br>• 3. こうして: Bằng cách này (tổng kết phương thức)<br>• 4. したがって: Do đó, vì vậy (chỉ kết quả nhân quả)",
           "id": 106
         },
         {
@@ -1998,7 +1998,7 @@ window.JLPT_DATA[6] = {
             "不採用になったのは、自分自身に悪い点があるからだと考える人"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>những người kiểu như thế này</u> chỉ loại người nào?<br><b>Phân tích bài đọc:</b> Tác giả nói về những ứng viên thi trượt phỏng vấn rồi tự dằn vặt nghĩ rằng do mình có điểm gì đó kém cỏi, mà không hiểu được rằng trong tuyển dụng, việc đỗ hay trượt là kết quả so sánh tương đối giữa các ứng viên với nhau.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải là người không có năng lực thực sự.<br>• 2. Sai vì không phải là người coi thường đối thủ cạnh tranh.<br>• 3. Sai vì không nói về người không chuẩn bị kỹ hồ sơ.<br>• <b>4. 不合格の原因が自分の欠点にあると思い込み、他者との相対比較に気づかない人: Người đinh ninh nguyên nhân trượt là do khuyết điểm của bản thân mà không nhận ra sự so sánh tương đối với người khác [Đúng]</b>"
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>những người kiểu như thế này</u> chỉ loại người nào?<br><b>Phân tích bài đọc:</b> Tác giả nói về những ứng viên thi trượt phỏng vấn rồi tự dằn vặt nghĩ rằng do mình có điểm gì đó kém cỏi, mà không hiểu được rằng trong tuyển dụng, việc đỗ hay trượt là kết quả so sánh tương đối giữa các ứng viên với nhau.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì bài không nói họ không chịu chấp nhận dù đã được giải thích nhiều lần.<br>• 2. Sai vì họ có suy nghĩ nhiều nhưng lại suy nghĩ sai hướng (chỉ đổ lỗi cho bản thân).<br>• 3. Sai vì họ không nghĩ rằng cách đánh giá có vấn đề, mà nghĩ bản thân mình có vấn đề.<br>• <b>4. 不採用になったのは、自分自身に悪い点があるからだと考える人: Người nghĩ rằng lý do không được tuyển là vì bản thân mình có điểm chưa tốt (không nhận ra việc tuyển dụng là so sánh tương đối với ứng viên khác) [Đúng]</b>"
         },
         {
           "id": 123,
@@ -3064,7 +3064,7 @@ window.JLPT_DATA[6] = {
             "信じなかったりしました"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin<br><b>Dịch nghĩa:</b> Hồi bé chúng tôi thường hay mơ mộng về những cuộc thám hiểm kỳ thú trong những cánh rừng xa xôi như thế.",
+          "explanation": "<b>Cấu trúc: V-ta + ものだ:</b> Nhớ lại thói quen, tâm lý thời ấu thơ ngày xưa ('hồi đó chúng tôi thường tin sái cổ là có người sao Hỏa...').<br><i>Phân tích:</i> Liệt kê 信じたり <b>したものだ</b>.<br>• <b>1. したものです: Thường làm gì đó trong quá khứ (nhớ lại kỷ niệm) [Đúng]</b><br>• 2. したことにしました: Tự quyết định làm<br>• 3. しませんでした: Đã không làm<br>• 4. 信じなかったりしました: Không tin<br><b>Dịch nghĩa:</b> Hơn nữa, chúng tôi từng nghĩ rằng vĩnh viễn không thể nhìn thấy mặt sau của Mặt Trăng, và thậm chí còn từng tin sái cổ rằng trên sao Hỏa có người sao Hỏa sinh sống.",
           "passage": "今日、科学技術の発達によって、自然開発や宇宙探査が進み、これまで謎や神秘とされてきたものが次々に解明され、だんだん夢やロマンが失われてきたと言われています。\n\n私たちの子どものころは、熱帯地方のジャングルは、人食い人種が出現する謎の世界 【50】。また、月の裏側は永久に見られないと思っていたし、火星には火星人が住んでいると本気で信じたり 【51】。ロボットなども、マンガや空想の世界 【52】 存在しないものでした。\n\nところで、これらが一つ一つ解明され、開発されるたびに、「ああ、これでまた一つ夢が消えた」と言う人がいます。【53】、人間はあらゆる謎を解明してしまって、子どもたちには、【54-a】 がなくなってしまうのではないか、と心配する人もいますが、そんな心配はいりません。謎を一つ解明すれば、すぐまたそこに新しい謎が出現する。一つの謎は、さらに十倍の謎を生む。【54-b】 とはそういうものだからです。"
         },
         {
@@ -4605,7 +4605,7 @@ Những người tham gia sau đây trước tiên sẽ làm gì?<br><br>
 <b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
 Tại trường đại học, nam sinh và nữ sinh đang nói chuyện. Nữ sinh nói cô ấy cảm thấy bị cuốn hút bởi điểm nào của bộ phim hoạt hình này?<br>
 Nam: "Nghe nói cậu đã xem bộ phim hoạt hình đoạt giải Vàng tại Liên hoan phim Sakura rồi hả? Phim thế nào? Lấy bối cảnh nước Nhật 300 năm trước đúng không?"<br>
-Nữ: "Ừ, phim bám sát các sự kiện lịch sử rất tỉ mỉ nên những ai yêu thích lịch sử chắc sẽ thích điểm đó lắm. Còn tớ có lẽ do bản thân theo đuổi âm nhạc nên bình thường toàn chú ý đến nhạc chủ đề của phim, thế nhưng <b>bộ phim này lại có diễn biến cốt truyện cực kỳ ấn tượng. Phải nói sao nhỉ, hết lần này đến lần khác сюжет phim đi ngược lại dự đoán của người xem làm tớ cứ hồi hộp thót tim suốt từ đầu đến cuối.</b> Trước giờ tớ vẫn cứ nghĩ phim hay dở là tùy thuộc vào âm nhạc cơ."<br>
+Nữ: "Ừ, phim bám sát các sự kiện lịch sử rất tỉ mỉ nên những ai yêu thích lịch sử chắc sẽ thích điểm đó lắm. Còn tớ có lẽ do bản thân theo đuổi âm nhạc nên bình thường toàn chú ý đến nhạc chủ đề của phim, thế nhưng <b>bộ phim này lại có diễn biến cốt truyện cực kỳ ấn tượng. Phải nói sao nhỉ, hết lần này đến lần khác cốt truyện phim đi ngược lại dự đoán của người xem làm tớ cứ hồi hộp thót tim suốt từ đầu đến cuối.</b> Trước giờ tớ vẫn cứ nghĩ phim hay dở là tùy thuộc vào âm nhạc cơ."<br>
 Nam: "Thế à. Trên báo chí người ta lại đánh giá cao việc bộ phim khắc họa tinh tế sự chuyển biến tâm lý của các nhân vật đấy."<br>
 Nữ: "Góc nhìn đó thì tớ lại không cảm nhận rõ lắm."<br>
 Nữ sinh nói cô ấy cảm thấy bị cuốn hút bởi điểm nào của bộ phim hoạt hình này?<br><br>

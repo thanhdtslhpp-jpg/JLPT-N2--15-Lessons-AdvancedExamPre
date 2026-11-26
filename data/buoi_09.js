@@ -536,8 +536,8 @@ window.JLPT_DATA[9] = {
             "お目にかかっていただけませんか",
             "見せていただけませんか"
           ],
-          "correctAnswer": 1,
-          "explanation": "<b>見せていただけませんか</b>: Anh/chị có thể cho tôi xem ảnh được không? (Lưu ý ご覧になる là tôn kính ngữ của 見る, không dùng khi nhờ đối phương cho mình xem; theo ngữ cảnh Suzuki muốn xem ảnh Tanaka chụp, hoặc đáp án 1 theo đề gốc nếu hiểu nhầm). Tuy nhiên trong bảng đáp án gốc của ĐỀ TỔNG câu 38 ghi đáp án là 1 (ご覧いただけませんか) — giữ đúng đáp án bảng 1? Khoan: trong hội thoại, Tanaka đi du lịch chụp ảnh và nói '見てくれたらうれしいです' (nếu cậu xem giúp mình thì mình vui), tức Suzuki là người xem -> dùng 拝見 hoặc 見せて. Đáp án gốc ghi 1."
+          "correctAnswer": 4,
+          "explanation": "<b>見せていただけませんか</b>: Anh/chị có thể cho tôi xem ảnh được không?<br><b>Dịch nghĩa:</b> Tanaka: 'Tuần trước không tham dự được, tôi xin lỗi.' - Suzuki: 'Không có gì. Chuyến du lịch thế nào? Nếu được thì lần tới cho tôi xem ảnh nhé?' - Tanaka: 'Tất nhiên rồi. Tôi chụp nhiều lắm, bạn xem giúp thì tôi vui lắm.'<br><b>Phân tích:</b> Vì Tanaka nói '見てくれたらうれしいです' (bạn xem cho tôi thì tôi vui) nên Suzuki là người muốn được xem ảnh &rarr; dùng <b>見せていただけませんか</b> (cho tôi xem được không). Không dùng ご覧いただけませんか (mời đối phương xem)."
         },
         {
           "id": 39,
@@ -2720,7 +2720,7 @@ window.JLPT_DATA[9] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "Thứ tự đúng: 仕事がうまくいっているのは、<b>[いつも(2)] [協力してくれる(4)] [★ 仲間の(1)] [おかげで(3)]</b>、僕一人の力ではない。<br>Wait — hoặc [いつも(2)] [協力してくれる(4)] [仲間の(1)] [おかげで(3)]: 'Nhờ vào những người đồng nghiệp luôn giúp đỡ'. Chuẩn xác!",
+          "explanation": "Thứ tự đúng: 仕事がうまくいっているのは、<b>[いつも(2)] [協力してくれる(4)] [★ 仲間の(1)] [おかげで(3)]</b>、僕一人の力ではない。<br><b>Dịch nghĩa:</b> Công việc tiến triển thuận lợi là nhờ vào những người đồng nghiệp luôn giúp đỡ tôi, chứ không phải nhờ sức lực của một mình tôi.",
           "id": 200
         },
         {

@@ -1100,7 +1100,7 @@ window.JLPT_DATA[8] = {
             "田舎には戻るつもりはないという気持ち"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Điểm chung giữa quan điểm của A và B là gì?<br><b>Vị trí thông tin trong bài:</b> Người xin tư vấn băn khoăn chuyện bố già yếu muốn mình về quê nối nghiệp xưởng nấu rượu, nhưng bản thân người này lại muốn tiếp tục công việc hiện tại ở thành phố. Cả A và B đều nhận thấy相談者 hoàn toàn không hề có ý định muốn quay về quê sinh sống.<br><i>Phân tích các phương án:</i><br>• 1. 父親の会社を経営したいという気持ち: Sai vì người này không hề muốn về quê kinh doanh công ty của bố.<br>• 2. 酒の製造に興味が持てないという気持ち: Sai vì không phải điểm chung được nêu trong thư tư vấn.<br>• 3. 今後の父親の健康が心配だという気持ち: Sai vì chỉ là một chi tiết phụ, không phải điểm chung trong nhận định cốt lõi của A và B.<br>• <b>4. 田舎には戻るつもりはないという気持ち: [Đúng] Cả A và B đều thấy rõ người hỏi vốn dĩ không hề có ý định quay về quê.</b>",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>「気持ちがゆれています」 (tâm trạng đang dao động)</u> là tâm trạng nào bị dao động?<br><b>Vị trí thông tin trong bài:</b> Ngay trước cụm gạch chân ①, người xin tư vấn viết: 「戻るつもりはなかったのですが、病気の父に会ってから①気持ちがゆれています」 (Vốn dĩ tôi không hề có ý định quay về quê, nhưng sau khi gặp lại người cha đau ốm thì tâm trạng đó bắt đầu dao động).<br><i>Phân tích các phương án:</i><br>• 1. 父親の会社を経営したいという気持ち: Sai vì trước đó người này vốn không muốn về tiếp quản công ty của bố.<br>• 2. 酒の製造に興味が持てないという気持ち: Sai vì bài không nói người này không hứng thú với việc nấu rượu.<br>• 3. 今後の父親の健康が心配だという気持ち: Sai vì nỗi lo cho sức khỏe bố là nguyên nhân làm dao động quyết tâm ban đầu, không phải bản thân tâm trạng bị dao động.<br>• <b>4. 田舎には戻るつもりはないという気持ち: [Đúng] Chính là quyết tâm ban đầu \"không có ý định quay về quê\" giờ đây bị lung lay sau khi thấy bố đau ốm.</b>",
           "id": 69
         },
         {
@@ -2434,7 +2434,7 @@ window.JLPT_DATA[8] = {
             "6つ"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Phân tích:</b> Điều kiện: (1) SV năm 2 dùng được học bổng/giảm giá SV (学割), (2) <=15 ngày, (3) xe AT. Các trường thỏa mãn là: 2. SJI (14 ngày, 学割あり), 5. KANTO (15 ngày, 学割あり), 8. 東 (14 ngày, 学割あり) &rarr; Tổng cộng <b>3 trường (Đáp án 1)</b>."
+          "explanation": "<b>Phân tích:</b> Điều kiện: (1) SV năm 2 dùng được học bổng/giảm giá SV (学割), (2) ≤15 ngày, (3) xe AT. Các trường thỏa mãn là: 2. SJI (14 ngày, 学割あり), 5. KANTO (15 ngày, 学割あり), 8. 東 (14 ngày, 学割あり) &rarr; Tổng cộng <b>3 trường (Đáp án 1)</b>."
         },
         {
           "id": 188,
@@ -2464,7 +2464,7 @@ window.JLPT_DATA[8] = {
             "一周コース。"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Phân tích:</b> Có tàu leo núi (loại 半周), <=2 giờ (loại 一周 3h), xuất phát & đích khác nhau (loại らくらく vì 北口→北口) &rarr; <b>花を楽しむコース (Đáp án 2)</b>."
+          "explanation": "<b>Phân tích:</b> Có tàu leo núi (loại 半周), ≤2 giờ (loại 一周 3h), xuất phát & đích khác nhau (loại らくらく vì 北口→北口) &rarr; <b>花を楽しむコース (Đáp án 2)</b>."
         },
         {
           "id": 190,
@@ -2524,7 +2524,7 @@ window.JLPT_DATA[8] = {
             "3,250円"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Phân tích:</b> Matsumoto mới nghỉ nửa năm (<1 năm) nên KHÔNG được hưởng ưu đãi ①~③. Phải đóng đủ: Phí nhập hội 5,400 + Phí thủ tục 3,000 + Hội phí 2 tháng đầu (6,500×2 = 13,000) = <b>21,400円 (Đáp án 1)</b>."
+          "explanation": "<b>Phân tích:</b> Matsumoto mới nghỉ nửa năm (&lt;1 năm) nên KHÔNG được hưởng ưu đãi ①~③. Phải đóng đủ: Phí nhập hội 5,400 + Phí thủ tục 3,000 + Hội phí 2 tháng đầu (6,500×2 = 13,000) = <b>21,400円 (Đáp án 1)</b>."
         },
         {
           "id": 194,
@@ -4386,7 +4386,7 @@ Giảng viên đại học nói gì về các câu tục ngữ?<br><br>
           "correctAnswer": 3,
           "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Này, lúc nãy tôi gọi cà phê rồi, rốt cuộc tôi phải đợi đến bao giờ nữa đây?"<br><br>
 <b>📝 Dịch chi tiết 3 đáp án:</b><br>
-1. では、そちらで少々お待ちください。: では、そちらで少々お待ちください。 (Vậy xin đợi thêm chút - đổ thêm dầu vào lửa.)<br>
+1. では、そちらで少々お待ちください。: Vậy xin quý khách đợi thêm một chút ở phía đó ạ. (Đổ thêm dầu vào lửa.)<br>
 2. はい、あと10分ほど待たされます。: Vâng, còn bị bắt đợi 10 phút nữa - dùng sai 「待たされる」.<br>
 3. 申し訳ありません、すぐにお持ちします。: Thành thật xin lỗi quý khách, tôi xin mang ra ngay lập tức ạ.<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>

@@ -6088,7 +6088,7 @@ F：そうだね。私ももっと備えよう。<br>
 Nam sinh viên và nữ sinh viên đang nói chuyện. Nam sinh viên nói từ giờ cậu ấy định sẽ làm gì?<br>
 Nam: "Trận động đất hôm qua làm mình giật cả mình. Tuy chỉ bị rơi vài món đồ trên kệ xuống thôi nhưng dư chấn rung lắc kéo dài mãi..."<br>
 Nữ: "Ừ, đáng sợ thật đấy. Không ngờ lại rung lắc lâu đến thế."<br>
-Nam: "Ừ. Qua trận đó mình mới thấy phải chuẩn bị phòng비 kỹ càng hơn mới được. Trong phòng mình nước uống lẫn lương thực dự trữ hầu như chẳng có gì cả. Ngay cả khi có chuyện phải sơ tán đi đâu mình cũng chẳng biết nữa."<br>
+Nam: "Ừ. Qua trận đó mình mới thấy phải chuẩn bị phòng bị kỹ càng hơn mới được. Trong phòng mình nước uống lẫn lương thực dự trữ hầu như chẳng có gì cả. Ngay cả khi có chuyện phải sơ tán đi đâu mình cũng chẳng biết nữa."<br>
 Nữ: "Đúng thế nhỉ. Sau khi hết rung lắc, mình cũng đã lên mạng tra cứu nhiều thứ. Khu nhà mình thì khi sơ tán sẽ tập trung ở trường tiểu học gần nhà. Đồ ăn và nước uống thì mình cũng có dự trữ một ít, nhưng nếu bị cắt điện và cắt ga thì thực sự sẽ rất khốn đốn."<br>
 Nam: "Ừ. Mình sống một mình nên cứ hay chủ quan qua loa. Ngay sau trận động đất hôm qua, trước mắt mình đã cố định lại kệ tủ và đồ nội thất rồi. <b>Còn về lương thực và nước uống dự trữ, từ giờ mình cũng sẽ suy nghĩ tính toán xem nên chuẩn bị như thế nào.</b>"<br>
 Nữ: "Đúng đấy. Mình cũng phải chuẩn bị dự phòng thêm mới được."<br>
@@ -6156,7 +6156,7 @@ Phát thanh viên đang nói về điều gì?<br><br>
 先生は何について話していますか。<br><br>
 <b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
 Tại trường đại học, thầy giáo đang nói chuyện với các sinh viên.<br>
-"Chắc hẳn các em đã bắt đầu quen với nhịp sống đại học rồi nhỉ. Nào, <b>nếu các em cứ nghĩ đời sinh viên kéo dàiตั้ง 4 năm rồi đủng đỉnh thong thả thì thời gian sẽ trôi vụt qua trong chớp mắt đấy. Để không lãng phí quãng thời gian quý báu này, các em hãy lập kế hoạch thật rõ ràng để trải qua những năm tháng đại học.</b> Ví dụ, năm thứ 2 tham gia các hoạt động tình nguyện hoặc đi du học ngắn hạn; sang năm thứ 3 tham gia chương trình thực tập (internship) để trải nghiệm nghề nghiệp thực tế. <b>Dù theo hướng nào đi nữa, điều quan trọng nhất là phải tận dụng tối đa thời gian, cơ hội cũng như vị thế thuận lợi mà một người sinh viên có được.</b> Và từ những trải nghiệm thu nhận được ở đó, các em sẽ học hỏi và trưởng thành lên."<br>
+"Chắc hẳn các em đã bắt đầu quen với nhịp sống đại học rồi nhỉ. Nào, <b>nếu các em cứ nghĩ đời sinh viên kéo dài tận 4 năm rồi đủng đỉnh thong thả thì thời gian sẽ trôi vụt qua trong chớp mắt đấy. Để không lãng phí quãng thời gian quý báu này, các em hãy lập kế hoạch thật rõ ràng để trải qua những năm tháng đại học.</b> Ví dụ, năm thứ 2 tham gia các hoạt động tình nguyện hoặc đi du học ngắn hạn; sang năm thứ 3 tham gia chương trình thực tập (internship) để trải nghiệm nghề nghiệp thực tế. <b>Dù theo hướng nào đi nữa, điều quan trọng nhất là phải tận dụng tối đa thời gian, cơ hội cũng như vị thế thuận lợi mà một người sinh viên có được.</b> Và từ những trải nghiệm thu nhận được ở đó, các em sẽ học hỏi và trưởng thành lên."<br>
 Thầy giáo đang nói về điều gì?<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
 - Thầy khuyên sinh viên cách sử dụng thời gian và trải qua 4 năm đại học sao cho có ích &rarr; <b>Đáp án đúng là 2</b>.`

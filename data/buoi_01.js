@@ -970,7 +970,7 @@ window.JLPT_DATA[1] = {
             "孤独を好み、人間に愛情を示さないこと"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Chủ đề: Tại sao con người thấy mèo 'thất thường, khó đoán'?</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, tại sao loài mèo lại có vẻ thất thường trong mắt con người?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>人間には気持ちがわかりにくいこと (Đúng)</b>: Vì mèo vốn là loài săn mồi độc lập, chúng bộc lộ cảm xúc theo cách riêng của loài mèo khiến con người khó nắm bắt và cảm nhận được tâm trạng của chúng so với loài chó.<br>\n• 2. Sai vì bài không nói mèo không hiểu cảm xúc con người.<br>\n• 3. Sai vì mèo chỉ sống độc lập chứ không phải 'ghét bỏ tập thể'.<br>\n• 4. Sai vì mèo vẫn quấn quýt và thể hiện tình cảm với chủ nhân theo cách kín đáo của chúng."
+          "explanation": "<b>Chủ đề: Sức hấp dẫn lớn của loài mèo</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, đâu là một trong những sức hấp dẫn lớn của loài mèo?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>人間には気持ちがわかりにくいこと (Đúng)</b>: Cuối bài tác giả viết: 「この理解できないところが、ねこの大きな魅力のひとつ」 — chính điểm khó nắm bắt, khó hiểu được tâm trạng đối với con người lại là một trong những sức hút lớn của loài mèo.<br>\n• 2. Sai vì bài không nói mèo không hiểu cảm xúc con người.<br>\n• 3. Sai vì mèo chỉ sống độc lập chứ không phải 'ghét bỏ tập thể'.<br>\n• 4. Sai vì mèo vẫn quấn quýt và thể hiện tình cảm với chủ nhân theo cách kín đáo của chúng."
         },
         {
           "id": 61,
@@ -1034,7 +1034,7 @@ window.JLPT_DATA[1] = {
             "一般の人々に専門的な知識をわかりやすく解説すること"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Chủ đề: Bản chất đích thực của 'vốn học vấn / giáo dưỡng' (教養)</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Về 'vốn học vấn / giáo dưỡng' (教養), tác giả có quan điểm như thế nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>専門ではない人の視点で、専門的な知識を再検討すること (Đúng)</b>: Giáo dưỡng thực sự không phải là nhồi nhét thật nhiều kiến thức hàn lâm, mà là năng lực đứng từ góc nhìn của một người bình thường (phi chuyên gia) để xem xét lại, phản tư và kết nối các tri thức chuyên môn vào đời sống thực tế.<br>\n• 2. Sai vì không đơn thuần là gom các môn học lại thành một lý thuyết mới.<br>\n• 3. Sai vì bài viết không giới hạn ở tiêu chuẩn đạo đức công nghệ khoa học.<br>\n• 4. Sai vì giáo dưỡng không chỉ là kỹ năng diễn giải bình dân cho người khác nghe."
+          "explanation": "<b>Chủ đề: Vai trò của Triết học (哲学) trong xã hội hiện đại</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Theo tác giả, vai trò quan trọng mà triết học cần đảm nhận trong thời đại ngày nay là gì?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>専門ではない人の視点で、専門的な知識を再検討すること (Đúng)</b>: Đoạn cuối nêu rõ: từ góc nhìn của những người bình thường không phải chuyên gia, việc xem xét lại và đặt lại vấn đề đối với các tri thức chuyên môn trong bối cảnh xã hội chính là vai trò quan trọng của triết học ngày nay.<br>\n• 2. Sai vì không phải là tích hợp các ngành học thành một lý thuyết mới.<br>\n• 3. Sai vì bài viết không nói triết học thiết lập tiêu chuẩn đạo đức mới cho khoa học kỹ thuật.<br>\n• 4. Sai vì không phải là giải thích dễ hiểu kiến thức chuyên môn cho người bình thường."
         },
         {
           "id": 65,
@@ -1130,7 +1130,7 @@ window.JLPT_DATA[1] = {
             "10,500円に1,100円を加えた金額"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Chủ đề: Tính toán giá phòng khách sạn theo điều kiện thực tế</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Anh Carl và bạn đi 2 người, muốn phòng có giường và bồn tắm, đặt gói 'Kèm bữa sáng' vào Chủ nhật. Giá tiền cho mỗi người là bao nhiêu?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 7.200 yên: Đây là giá của loại phòng A (chỉ có vòi sen, không có bồn tắm), không thỏa mãn yêu cầu.<br>\n• 2. 7.200 yên + 1.100 yên: Vừa sai loại phòng, vừa tính thừa phụ thu ngày thứ Bảy.<br>\n• 3. <b>10,500円 (Đúng)</b>: Thỏa mãn điều kiện: 2 người, có 2 giường (ベッド2台) và có bồn tắm (お風呂つき) &rarr; bắt buộc chọn phòng <b>Loại C (Cタイプ)</b>. Đi vào Chủ nhật (không phải thứ Bảy nên không bị phụ thu 1.100 yên). Giá gói Kèm bữa sáng cho 2 người ở phòng C là <b>10.500 yên/người</b>.<br>\n• 4. 10.500 yên + 1.100 yên: Sai vì ngày Chủ nhật không phải chịu phí phụ thu cuối tuần (chỉ áp dụng cho đêm trước ngày lễ và thứ Bảy)."
+          "explanation": "<b>Chủ đề: Tính toán giá phòng khách sạn theo điều kiện thực tế</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Anh Carl và bạn đi 2 người, muốn phòng có giường và bồn tắm, đặt gói 'Kèm bữa sáng' vào Chủ nhật. Giá tiền cho mỗi người là bao nhiêu?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 7.200 yên: Đây là giá của loại phòng A (phòng kiểu Nhật không có giường — ベッドなし), không thỏa mãn yêu cầu có giường.<br>\n• 2. 7.200 yên + 1.100 yên: Vừa sai loại phòng, vừa tính thừa phụ thu ngày thứ Bảy.<br>\n• 3. <b>10,500円 (Đúng)</b>: Thỏa mãn điều kiện: 2 người, có 2 giường (ベッド2台) và có bồn tắm (お風呂つき) &rarr; bắt buộc chọn phòng <b>Loại C (Cタイプ)</b>. Đi vào Chủ nhật (không phải thứ Bảy nên không bị phụ thu 1.100 yên). Giá gói Kèm bữa sáng cho 2 người ở phòng C là <b>10.500 yên/người</b>.<br>\n• 4. 10.500 yên + 1.100 yên: Sai vì ngày Chủ nhật không phải chịu phí phụ thu cuối tuần (chỉ áp dụng cho đêm trước ngày lễ và thứ Bảy)."
         },
         {
           "id": 71,
@@ -1146,7 +1146,7 @@ window.JLPT_DATA[1] = {
             "追加料金は4,000円で、4月7日の午後5時までに連絡する。"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Chủ đề: Thủ tục và chi phí bổ sung dịch vụ ăn uống khách sạn</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Chị Nadia ở một mình vào ngày 8/4 đã đặt gói kèm bữa sáng, nay ngày 4/4 muốn bổ sung thêm suất ăn tối đặc biệt. Mức phí phụ thu là bao nhiêu và hạn chót liên hệ là khi nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai mức giá (1.000 yên là giá bữa sáng tăng thêm, không phải bữa tối đặc biệt).<br>\n• 2. Sai cả mức giá lẫn hạn chót liên hệ.<br>\n• 3. <b>追加料金は4,000円で、4月6日の午後5時までに連絡する (Đúng)</b>: Bảng quy định ghi rõ: Khách đã đặt phòng muốn bổ sung suất ăn tối đặc biệt (特別和食膳) thì phí thêm là <b>4.000 yên</b>. Hạn chót liên hệ là <b>2 ngày trước ngày lưu trú trước 17:00</b> (lưu trú ngày 8/4 &rarr; 2 ngày trước là ngày 6/4 lúc 5 giờ chiều).<br>\n• 4. Sai hạn chót (ngày 7/4 chỉ cách 1 ngày, trong khi quy định suất tối đặc biệt yêu cầu báo trước 2 ngày)."
+          "explanation": "<b>Chủ đề: Thủ tục và chi phí bổ sung dịch vụ ăn uống khách sạn</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Chị Nadia ở một mình vào ngày 8/4 đã đặt gói kèm bữa sáng, nay ngày 4/4 muốn bổ sung thêm suất ăn tối đặc biệt. Mức phí phụ thu là bao nhiêu và hạn chót liên hệ là khi nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai mức giá (1.000 yên là phí phụ thu nâng cấp từ bữa tối thường lên bữa tối đặc biệt trong gói đã có bữa tối, không phải phí đặt thêm bữa tối đặc biệt từ gói chỉ có bữa sáng).<br>\n• 2. Sai cả mức giá lẫn hạn chót liên hệ.<br>\n• 3. <b>追加料金は4,000円で、4月6日の午後5時までに連絡する (Đúng)</b>: Bảng quy định ghi rõ: Khách đã đặt phòng muốn bổ sung suất ăn tối đặc biệt (特別和食膳) thì phí thêm là <b>4.000 yên</b>. Hạn chót liên hệ là <b>2 ngày trước ngày lưu trú trước 17:00</b> (lưu trú ngày 8/4 &rarr; 2 ngày trước là ngày 6/4 lúc 5 giờ chiều).<br>\n• 4. Sai hạn chót (ngày 7/4 chỉ cách 1 ngày, trong khi quy định suất tối đặc biệt yêu cầu báo trước 2 ngày)."
         }
       ]
     },
@@ -3109,7 +3109,7 @@ window.JLPT_DATA[1] = {
             1
           ],
           "correctStarOption": 3,
-          "explanation": "Thứ tự đúng: <b>[たんぱく質が(2)] [★ 多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)]</b> ものが思い浮かぶと思いますが... (Hoặc [2][4][3][1], sao là vị trí 2 -> 4? Wait: trong ảnh đề, dấu sao ở vị trí 2: `____ ★ ____ ____ ものが思い浮かぶ` -> [たんぱく質が(2)] [多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)] -> star=4! Khoan: trong ảnh đáp án khoanh đỏ số 3 `食べ物というと` ở vị trí 2? Kiểm tra lại: `たんぱく質が 多く含まれる 食べ物というと 肉や魚や卵といった ものが...` vs `たんぱく質が多く含まれる 食べ物というと` -> nếu vị trí 2 là `食べ物というと(3)` thì `[2][3][1][4]` -> `たんぱく質が 食べ物というと 肉や魚や卵といった 多く含まれる ものが` -> SAI ngữ pháp! Vì `もの` cần bổ ngữ `多く含まれる` đứng ngay trước, nhưng `肉や魚や卵といった` mới bổ nghĩa cho `もの`! Đúng hơn: `[たんぱく質が(2)] [多く含まれる(4)] [食べ物というと(3)] [肉や魚や卵といった(1)]` -> vị trí 3 là `3`! Kiểm tra ảnh `d2015_p05.png`: câu 48 là `____ ____ ★ ____ ものが思い浮かぶ` -> dấu sao ở VỊ TRÍ 3!! Đúng rồi!! `starPositionIndex: 3`, `correctOrder: [2, 4, 3, 1]`, `correctStarOption: 3`!).<br><b>Đáp án chọn:</b> 3"
+          "explanation": "Thứ tự đúng: <b>[たんぱく質が(2)] [多く含まれる(4)] [★ 食べ物というと(3)] [肉や魚や卵といった(1)]</b> ものが思い浮かぶと思いますが、大豆にもたくさん含まれています。<br><b>Cấu trúc:</b> ～というと (hễ nói đến ~ thì...), ～といった (những thứ như là ~).<br><b>Dịch nghĩa:</b> Hễ nói đến thực phẩm giàu đạm thì chắc mọi người sẽ nghĩ ngay tới những thứ như thịt, cá hay trứng, nhưng trong đậu nành cũng chứa rất nhiều đạm.<br><b>Đáp án chọn:</b> 3"
         },
         {
           "id": 224,

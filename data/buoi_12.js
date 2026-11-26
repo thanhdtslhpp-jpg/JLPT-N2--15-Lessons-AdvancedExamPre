@@ -2460,7 +2460,7 @@ Kiện hàng dự kiến sẽ được giao tới nơi vào lúc nào?<br><br>
             "かんとくのはんだんが適切だったから"
           ],
           "correctAnswer": 2,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Blue giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 監督の指示が的確だったから: Chỉ đạo của huấn luyện viên chuẩn xác<br>2. 新しい戦術が成功したから: Chiến thuật mới thành công<br>3. 選手一人ひとりの体力があったから: Từng cầu thủ đều có thể lực dồi dào, bền bỉ<br>4. 相手チームにミスが多かったから: Đội đối phương mắc nhiều lỗi<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Sau trận bóng đá, phát thanh viên hỏi chuyện bình luận viên. Lý do đội Green (Xanh Lá) giành chiến thắng được cho là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ぎじゅつてきにすぐれた選手が多かったから: Vì có nhiều cầu thủ giỏi kỹ thuật<br>2. 選手の体力が上回っていたから: Vì thể lực của các cầu thủ vượt trội hơn<br>3. 選手がかんとくの指示をよく聞いたから: Vì các cầu thủ nghe theo kỹ chỉ đạo của huấn luyện viên<br>4. かんとくのはんだんが適切だったから: Vì phán đoán của huấn luyện viên thích hợp<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 テレビでアナウンサーと男の人がサッカーの試合について話しています。男の人はチームグリーンが勝った理由は何だと言っていますか。<br>
 アナウンサー：解説の山田さん、今日の試合ご覧になってどんな感想をお持ちですか。<br>
 男：そうですね、試合前はチームブルーに技術的に優れた選手が多くて楽な試合だろうと思われてたのですが、意外でした。<b>選手一人ひとりの体力の差が出ましたね。</b><br>
@@ -2482,7 +2482,7 @@ Nam: "Đội bóng nào cũng thế cả thôi. <b>Hôm nay thời tiết oi b�
 Phát thanh viên: "Thì ra đó chính là yếu tố phân định thắng bại."<br>
 Nam: "Vâng, chính xác là như vậy."<br>
 Người đàn ông nói lý do Đội Xanh Lá giành chiến thắng là gì?<br><br>
-<b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đối thủ đuối sức, trong khi đội Blue chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 2 (選手の体力が上回っていたから)</b>.`
+<b>💡 Phân tích chọn đáp án:</b><br>- Bình luận viên nhấn mạnh trời oi bức khiến đội Blue đuối sức từ giữa trận, trong khi đội Green chạy bền đến tận cuối trận nhờ chênh lệch thể lực từng cầu thủ (選手一人ひとりの体力の差が出ましたね).<br>&rarr; <b>Đáp án đúng là 2 (選手の体力が上回っていたから)</b>.`
         },
         {
           "id": 146,

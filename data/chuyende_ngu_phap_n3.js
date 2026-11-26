@@ -809,7 +809,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
             "食べるにくいので"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>Đáp án đúng: 1 (食べにくくて)</b><br><b>Cấu trúc:</b> V bỏ ます + にくい (Khó làm V), chia thể て (～にくくて) để nối nguyên nhân cảm xúc phía sau.<br><b>Dịch câu:</b> Mấy loại trái cây nhiều hạt vừa khó ăn nên tôi rất ghét.<br><b>Phân tích các lựa chọn:</b><br>• <b>1. 食べにくくて:</b> Đúng. 食べ bỏ ます + にくい -> 食べにくくて + いやだ.<br>• <b>2. 食べるにくくて:</b> Sai cách chia (phải bỏ る/ます, không giữ nguyên 食べる).<br>• <b>3. 食べにくいので:</b> Dù hợp nghĩa nhưng thiếu dấu phẩy/ít phổ biến hơn 1? Khoan: 食べにくくて, いやだ hay 食べにくいので, いやだ? Câu gốc là 「食べにくくて、いやだ」 (tính từ nối trực tiếp với cảm xúc いやだ). Thực tế 3 không sai ngữ pháp nhưng ở đề gốc JLPT, 3 có phải là 食べにくいので? Trong dữ liệu đáp án là 1 vì ので thường ít đi với đánh giá cảm tính chủ quan ngắn gọn như いやだ bằng thể て, hoặc là đáp án chuẩn đề thi.<br>• <b>4. 食べるにくいので:</b> Sai cách chia (giữ nguyên 食べる trước にくい)."
+          "explanation": "<b>Đáp án đúng: 1 (食べにくくて)</b><br><b>Cấu trúc:</b> V bỏ ます + にくい (Khó làm V), chia thể て (～にくくて) để nối nguyên nhân cảm xúc phía sau.<br><b>Dịch câu:</b> Mấy loại trái cây nhiều hạt vừa khó ăn nên tôi rất ghét.<br><b>Phân tích các lựa chọn:</b><br>• <b>1. 食べにくくて:</b> Đúng. 食べ bỏ ます + にくい -> 食べにくくて + いやだ.<br>• <b>2. 食べるにくくて:</b> Sai cách chia (phải bỏ る/ます, không giữ nguyên 食べる).<br>• <b>3. 食べにくいので:</b> ので thiên về giải thích lý do khách quan, trong khi mẫu nối trực tiếp cảm xúc chủ quan như いやだ dùng thể て (食べにくくて、いやだ) tự nhiên và chuẩn hơn.<br>• <b>4. 食べるにくいので:</b> Sai cách chia (giữ nguyên 食べる trước にくい)."
         },
         {
           "id": 58,
@@ -1753,7 +1753,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
           "id": 125,
           "mondai": 7,
           "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - N3 Cốt Lõi)",
-          "sentence": "電車が遅れた（　　）で、試験に間に合わなかった。",
+          "sentence": "電車が遅れた（　　）、試験に間に合わなかった。",
           "options": [
             "からには",
             "せいで",
@@ -2509,7 +2509,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
           "id": 179,
           "mondai": 7,
           "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - N3 Cốt Lõi)",
-          "sentence": "出かける（　　）雨が降ってきたので、家にいることにした。",
+          "sentence": "出かけた（　　）雨が降ってきたので、家にいることにした。",
           "options": [
             "とたんに",
             "さいちゅうに",
@@ -2537,7 +2537,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
           "id": 181,
           "mondai": 7,
           "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - N3 Cốt Lõi)",
-          "sentence": "A「先生、アイスクリーム、何味がおすすめですか。」<br>B「私は抹茶味（　　）ないね。」",
+          "sentence": "A「先生、アイスクリーム、何味がおすすめですか。」<br>B「私は抹茶味（　　）ね。」",
           "options": [
             "にかぎる",
             "しかない",
@@ -2691,7 +2691,7 @@ window.JLPT_DATA["drill_ngu_phap_n3"] = {
           "id": 192,
           "mondai": 7,
           "mondaiName": "問題７：文の文法１ (Ngữ pháp câu đơn - N3 Cốt Lõi)",
-          "sentence": "日本にいる（　　）に、一度は富士山に登ってみたい。",
+          "sentence": "日本にいる（　　）、一度は富士山に登ってみたい。",
           "options": [
             "あいだ",
             "うちに",

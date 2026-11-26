@@ -5064,12 +5064,13 @@ class JLPTApp {
 
   getStarTranslation(sessionNum, qId) {
     if (!window.JLPT_STAR_TRANSLATIONS) return "";
-    const num = parseInt(String(sessionNum).replace(/\D+/g, ""), 10);
-    const keys = [
-      `${sessionNum}_${qId}`,
-      `${num}_${qId}`,
-      `buoi_${String(num).padStart(2, "0")}_${qId}`
-    ];
+    const raw = String(sessionNum || "").trim();
+    const keys = [`${raw}_${qId}`];
+    const m = raw.match(/^(?:buoi_)?(\d+)$/i);
+    if (m) {
+      const num = parseInt(m[1], 10);
+      keys.push(`${num}_${qId}`, `buoi_${String(num).padStart(2, "0")}_${qId}`);
+    }
     for (let k of keys) {
       if (window.JLPT_STAR_TRANSLATIONS[k]) {
         return window.JLPT_STAR_TRANSLATIONS[k];

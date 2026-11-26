@@ -2006,13 +2006,13 @@ window.JLPT_DATA[15] = {
             }
           ],
           "correctOrder": [
+            3,
             2,
             1,
-            3,
             4
           ],
-          "correctStarOption": 3,
-          "explanation": "<b>Thứ tự:</b> こと(2) から(1) <b>★という(3)</b> すると(4) — Wait: 昇進したことからすると (Xét từ việc anh ấy thăng chức trưởng phòng thì...).<br><b>Cấu trúc:</b> ～ことからすると (xét từ việc...).",
+          "correctStarOption": 1,
+          "explanation": "<b>Thứ tự:</b> という(3) こと(2) <b>★から(1)</b> すると(4).<br><b>Cấu trúc:</b> ～ということからすると (xét từ sự việc rằng...).<br><b>Dịch nghĩa:</b> Xét từ việc anh ấy đã được thăng chức lên trưởng phòng thì có vẻ như dự án đó đã thành công.",
           "id": 125
         },
         {
@@ -3360,7 +3360,7 @@ window.JLPT_DATA[15] = {
             1
           ],
           "correctStarOption": 2,
-          "explanation": "<b>Thứ tự:</b> とった(4) <b>★きり(2)</b> 何も(3) 口に(1) — Wait: 朝食をとったきり何も口にできなかった (Sau khi ăn sáng xong thì không ăn thêm được gì).<br><b>Cấu trúc:</b> Vたきり～ない.",
+          "explanation": "<b>Thứ tự:</b> とった(4) <b>★きり(2)</b> 何も(3) 口に(1).<br><b>Cấu trúc:</b> V-たきり～ない (kể từ sau khi làm V thì không...).<br><b>Dịch nghĩa:</b> Hôm nay công việc bận quá nên kể từ sau khi ăn sáng xong, tôi không ăn thêm được chút gì cả.",
           "id": 211
         },
         {
@@ -4176,7 +4176,7 @@ window.JLPT_DATA[15] = {
           "isStarQuestion": true,
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
           "beforeText": "彼の病気が",
-          "afterText": "には分からないだろう。",
+          "afterText": "分からないだろう。",
           "starPositionIndex": 3,
           "fragments": [
             {
@@ -5179,8 +5179,8 @@ window.JLPT_DATA[15] = {
             "まして",
             "あるいは"
           ],
-          "correctAnswer": 4,
-          "explanation": "<b>Phân tích:</b> あるいは (Hoặc là) — Wait: 自分が認められていないなどと考える必要はありません。あるいは、感情的になってしまうことは望ましくありません -> hoặc とはいうものの? Wait: let's check sentence flow: 'không cần nghĩ là mình không được công nhận. Mặt khác / Hoặc là...' Actually あるいは connects two similar thoughts or alternatives; いっぽうで (mặt khác). Between 1 (いっぽうで) and 4 (あるいは), 'Không cần nghĩ là bản thân không được công nhận. Mặt khác (いっぽうで), việc trở nên cảm tính chỉ vì bị phản đối ý kiến tuyệt đối không phải điều đáng mong muốn.' いっぽうで (1) fits best!",
+          "correctAnswer": 1,
+          "explanation": "<b>Phân tích:</b> <b>いっぽうで</b> (Mặt khác) dùng để chuyển sang vế đối chiếu/bổ sung một khía cạnh khác của vấn đề.<br><b>Dịch nghĩa ngữ cảnh:</b> Không cần phải nghĩ rằng mình không được công nhận khi ý kiến bị phủ định. Mặt khác, việc trở nên cảm tính chỉ vì bị đặt câu hỏi hay phản đối ý kiến thì tuyệt đối không phải điều đáng mong muốn.<br><b>Đáp án đúng:</b> 1 (いっぽうで)",
           "passage": "私たちは、誰でも、自分のことを認めてほしいという根本的欲求を持っています（これは強すぎても弱すぎてもいけない欲求です）。自分の言うことは一応信じてほしいし、自分のことを無視されるのはいやです。自分の意見 <b>[50]</b> も同じことで、私たちは、自分が主張すること <b>[50]</b>、基本的には認めてほしい、という欲求を持っていると言えそうです。多くの場合、相手の意見が自分の意見と同じであるほうが、何となく安心したりするのもこのためでしょう。自分の意見に挑戦されて、それをおもしろがれる人は、自分に自信がある人です。しかし、中にはそういう自信がなくて、面とむかって反対されたり否定されたりすると、<b>[51]</b> というように感じてしまうという人もあります。<br>\nもちろん、情報の信頼性や意見の妥当性は、その人の人格とは全く別の事柄ですから、自分が主張することが否定された <b>[52]</b>、自分が認められていない、などと考える必要はありません。<b>[53]</b>、自分の意見に対して疑問を持たれたり、反対意見を持たれたりしたからといって感情的になってしまうことは決して望ましいことではありません。ただ望ましいことではない <b>[54]</b>、現実には、そういう感情的なことも切り離せないのです。",
           "id": 320
         },
@@ -5858,13 +5858,13 @@ window.JLPT_DATA[15] = {
             }
           ],
           "correctOrder": [
+            2,
             4,
             3,
-            2,
             1
           ],
-          "correctStarOption": 2,
-          "explanation": "<b>Thứ tự:</b> 私(4) に対して(3) <b>★につけ(2)</b> 文句(1).<br><b>Cấu trúc:</b> 何かにつけ (hễ có chuyện gì là lại càm ràm).",
+          "correctStarOption": 3,
+          "explanation": "<b>Thứ tự:</b> につけ(2) 私(4) <b>★に対して(3)</b> 文句(1).<br><b>Cấu trúc:</b> 何かにつけ (hễ có chuyện gì là lại...), ～に対して (đối với ai).<br><b>Dịch nghĩa:</b> Chị gái tôi tính hay để ý chuyện vụn vặt nên từ bé hễ có chuyện gì là lại cằn nhằn với tôi.",
           "id": 366
         },
         {

@@ -815,7 +815,7 @@ window.JLPT_DATA[11] = {
             "あるいは"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>しかし：</b>Tuy nhiên, nhưng (liên từ đối lập, chuyển từ bối cảnh sang thử thách).<br><b>Dịch nghĩa:</b> Nhiều người nước ngoài đến Nhật Bản. Tuy nhiên, thời đó hầu hết người Nhật không thể giao tiếp bằng tiếng nước ngoài.<br><i>Phân tích các phương án:</i><br>• 1. だから: Vì vậy (chỉ kết quả thuận)<br>• <b>2. しかし: [Đúng] Tuy nhiên (đối lập giữa việc đón nhiều khách quốc tế và rào cản ngôn ngữ)</b><br>• 3. つまり: Tức là, tóm lại là<br>• 4. あるいは: Hoặc là",
+          "explanation": "<b>しかし：</b>Tuy nhiên, nhưng (liên từ đối lập, chuyển từ bối cảnh sang thử thách).<br><b>Dịch nghĩa:</b> Thời đó, hầu hết các bảng chỉ dẫn ở Nhật chỉ viết bằng tiếng Nhật như \"お手洗い\". Tuy nhiên, như vậy thì các vận động viên từ hơn 90 quốc gia đến Nhật sẽ không thể hiểu được.<br><i>Phân tích các phương án:</i><br>• 1. だから: Vì vậy (chỉ kết quả thuận)<br>• <b>2. しかし: [Đúng] Tuy nhiên (đối lập giữa việc đón nhiều khách quốc tế và rào cản ngôn ngữ)</b><br>• 3. つまり: Tức là, tóm lại là<br>• 4. あるいは: Hoặc là",
           "passage": "【日本発のトイレマーク】\n公衆トイレの入り口に描かれている男女の絵のマーク。そのマークがあれば、文字で「トイレ」と書かれていなくても、そこがトイレであることがわかる。世界のあちこちで使われているこのトイレマークが実は日本で生まれたものだということを【 50 】。\nトイレマークが生まれたのは、1964年の東京オリンピックがきっかけだ。この東京オリンピックは、アルファベットを使わない国での初めての開催であったため、特に問題になったのが、言葉の壁だった。当時、日本国内の案内板は「お手洗い」などと日本語で書かれているものがほとんどだった。【 51 】、それでは世界90数か国から来日する選手たちに理解してもらえない。かといって、参加国すべての国の言葉で書くわけにもいかない。そこで、案内板作成者たちは、あらゆる国の選手が理解できるよう、絵で表すことを考え【 52 】トイレマークなのだ。\nそのほかにも、食堂、シャワー、公衆電話等の施設や設備を表すマークや、水泳、バレーボール等の競技を表すマークも作られた。競技を表すマークは、この東京オリンピックで初めて全面的に導入され、高い評価を受けた。そして、その後のオリンピックでもデザインを変えながら毎回【 53 】。\nトイレマークに代表されるように、東京オリンピックをきっかけに日本で生まれたマークが、言葉の壁を越え、今や新たなコミュニケーション手段として、世界に広がっている。それは、あらゆる人にわかりやすくという思いが世界に届いた【 54 】。"
         },
         {
@@ -847,7 +847,7 @@ window.JLPT_DATA[11] = {
             "使い始めた"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>使われるようになった：</b>Đã trở nên được sử dụng rộng rãi (chỉ sự biến đổi trạng thái sang phổ biến).<br><b>Dịch nghĩa:</b> Thiết kế đó dễ hiểu với bất kỳ ai, và dần dà đã trở nên được sử dụng trên khắp toàn thế giới.<br><i>Phân tích các phương án:</i><br>• <b>1. 使われるようになった: [Đúng] Thể bị động + ようになった (trở nên được sử dụng rộng rãi)</b><br>• 2. 使わせるようになった: Khiến cho người khác sử dụng (thể sai khiến)<br>• 3. 使うようにした: Bản thân cố gắng sử dụng (ý chí cá nhân)<br>• 4. 使い始めた: Bắt đầu dùng (chưa nêu bật được sự biến đổi phổ cập chung)",
+          "explanation": "<b>使われるようになった：</b>Đã trở nên được sử dụng rộng rãi (chỉ sự biến đổi trạng thái sang phổ biến).<br><b>Dịch nghĩa:</b> Và tại các kỳ Thế vận hội sau đó, các biểu tượng này vừa được thay đổi thiết kế vừa trở nên được sử dụng trong mỗi kỳ đại hội.<br><i>Phân tích các phương án:</i><br>• <b>1. 使われるようになった: [Đúng] Thể bị động + ようになった (trở nên được sử dụng rộng rãi)</b><br>• 2. 使わせるようになった: Khiến cho người khác sử dụng (thể sai khiến)<br>• 3. 使うようにした: Bản thân cố gắng sử dụng (ý chí cá nhân)<br>• 4. 使い始めた: Bắt đầu dùng (chưa nêu bật được sự biến đổi phổ cập chung)",
           "passage": "【日本発のトイレマーク】\n公衆トイレの入り口に描かれている男女の絵のマーク。そのマークがあれば、文字で「トイレ」と書かれていなくても、そこがトイレであることがわかる。世界のあちこちで使われているこのトイレマークが実は日本で生まれたものだということを【 50 】。\nトイレマークが生まれたのは、1964年の東京オリンピックがきっかけだ。この東京オリンピックは、アルファベットを使わない国での初めての開催であったため、特に問題になったのが、言葉の壁だった。当時、日本国内の案内板は「お手洗い」などと日本語で書かれているものがほとんどだった。【 51 】、それでは世界90数か国から来日する選手たちに理解してもらえない。かといって、参加国すべての国の言葉で書くわけにもいかない。そこで、案内板作成者たちは、あらゆる国の選手が理解できるよう、絵で表すことを考え【 52 】トイレマークなのだ。\nそのほかにも、食堂、シャワー、公衆電話等の施設や設備を表すマークや、水泳、バレーボール等の競技を表すマークも作られた。競技を表すマークは、この東京オリンピックで初めて全面的に導入され、高い評価を受けた。そして、その後のオリンピックでもデザインを変えながら毎回【 53 】。\nトイレマークに代表されるように、東京オリンピックをきっかけに日本で生まれたマークが、言葉の壁を越え、今や新たなコミュニケーション手段として、世界に広がっている。それは、あらゆる人にわかりやすくという思いが世界に届いた【 54 】。"
         },
         {
@@ -863,7 +863,7 @@ window.JLPT_DATA[11] = {
             "結果のはずだ"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>証拠ではないだろうか：</b>Chẳng phải là minh chứng cho thấy... hay sao? (câu kết luận đúc rút ý nghĩa sâu sắc của tác giả).<br><b>Dịch nghĩa:</b> Việc một biểu tượng ra đời vì sự thấu hiểu và lòng hiếu khách đối với người khác được yêu chuộng trên toàn thế giới chẳng phải là một minh chứng cho thấy tầm quan trọng của sự quan tâm, tử tế hay sao?<br><i>Phân tích các phương án:</i><br>• 1. 事実ではないか: Chẳng phải là sự thật sao (quá khẳng định thô ráp)<br>• 2. 理由だろうか: Liệu có phải là lý do (lạc đề câu hỏi)<br>• <b>3. 証拠ではないだろうか: [Đúng] Chẳng phải là bằng chứng/minh chứng cho thấy... hay sao?</b><br>• 4. 結果のはずだ: Chắc chắn là kết quả (áp đặt, không mang tính khái quát nhân văn)",
+          "explanation": "<b>証拠ではないだろうか：</b>Chẳng phải là minh chứng cho thấy... hay sao? (câu kết luận đúc rút ý nghĩa sâu sắc của tác giả).<br><b>Dịch nghĩa:</b> Điều đó chẳng phải là minh chứng cho thấy tấm lòng mong muốn làm sao để mọi người đều dễ hiểu đã chạm đến cả thế giới hay sao?<br><i>Phân tích các phương án:</i><br>• 1. 事実ではないか: Chẳng phải là sự thật sao (quá khẳng định thô ráp)<br>• 2. 理由だろうか: Liệu có phải là lý do (lạc đề câu hỏi)<br>• <b>3. 証拠ではないだろうか: [Đúng] Chẳng phải là bằng chứng/minh chứng cho thấy... hay sao?</b><br>• 4. 結果のはずだ: Chắc chắn là kết quả (áp đặt, không mang tính khái quát nhân văn)",
           "passage": "【日本発のトイレマーク】\n公衆トイレの入り口に描かれている男女の絵のマーク。そのマークがあれば、文字で「トイレ」と書かれていなくても、そこがトイレであることがわかる。世界のあちこちで使われているこのトイレマークが実は日本で生まれたものだということを【 50 】。\nトイレマークが生まれたのは、1964年の東京オリンピックがきっかけだ。この東京オリンピックは、アルファベットを使わない国での初めての開催であったため、特に問題になったのが、言葉の壁だった。当時、日本国内の案内板は「お手洗い」などと日本語で書かれているものがほとんどだった。【 51 】、それでは世界90数か国から来日する選手たちに理解してもらえない。かといって、参加国すべての国の言葉で書くわけにもいかない。そこで、案内板作成者たちは、あらゆる国の選手が理解できるよう、絵で表すことを考え【 52 】トイレマークなのだ。\nそのほかにも、食堂、シャワー、公衆電話等の施設や設備を表すマークや、水泳、バレーボール等の競技を表すマークも作られた。競技を表すマークは、この東京オリンピックで初めて全面的に導入され、高い評価を受けた。そして、その後のオリンピックでもデザインを変えながら毎回【 53 】。\nトイレマークに代表されるように、東京オリンピックをきっかけに日本で生まれたマークが、言葉の壁を越え、今や新たなコミュニケーション手段として、世界に広がっている。それは、あらゆる人にわかりやすくという思いが世界に届いた【 54 】。"
         },
         {
@@ -2801,7 +2801,7 @@ window.JLPT_DATA[11] = {
             "どんなふうに"
           ],
           "correctAnswer": 1,
-          "explanation": "<b>こういうふうに：</b>Theo cách như thế này (chỉ cách tư duy vừa được phân tích ở các câu trước).<br><b>Dịch nghĩa:</b> Khi thử suy nghĩ theo cách như thế này, ta có thể thấy rằng kỹ năng giảng dạy không phải là kỹ năng 'nói cái gì' mà là kỹ năng 'cắt gọt bỏ đi cái gì'.<br><i>Phân tích các phương án:</i><br>• <b>1. こういうふうに: [Đúng] こういうふうに考えてみると (khi thử suy nghĩ theo hướng như thế này)</b><br>• 2. そういうふうに: Theo cách như thế (thường hướng về ý kiến đối phương)<br>• 3. ああいうふうに: Theo cách như đằng kia<br>• 4. どんなふうに: Theo cách như thế nào (từ để hỏi)",
+          "explanation": "<b>こういうふうに：</b>Theo cách như thế này (chỉ cách tư duy vừa được phân tích ở các câu trước).<br><b>Dịch nghĩa:</b> Tuy nhiên trước đó, điều quan trọng là phải chỉ ra một \"khuôn mẫu chuẩn\" cụ thể kiểu như \"làm theo cách này là được\".<br><i>Phân tích các phương án:</i><br>• <b>1. こういうふうに: [Đúng] 「こういうふうにやればいい」 (làm theo cách này là được)</b><br>• 2. そういうふうに: Theo cách như thế (thường hướng về ý kiến đối phương)<br>• 3. ああいうふうに: Theo cách như đằng kia<br>• 4. どんなふうに: Theo cách như thế nào (từ để hỏi)",
           "passage": "概して教えることが好きな人は、話が長い。それだけ情熱や愛情に【 18 】ということでもあるが、はっきりいってあまり意味はない。教えられる側は、しばしば「ポイントだけにしてくれ」という気持ちになるものだ。\nでは、【 19 】何か。人に何かを教えるとき、まず「なぜできないのか」を説明したり、「やればできる」的な精神論から入る人は多い。だがその前に、「【 20 】やればいい」という具体的な“定番”を見せることが重要だ。\n【 21 】、あなたの部下に仕事の遅い人がいたとする。報告・連絡も、パソコンによる資料づくりも時間がかかり、周囲が迷惑していたとしよう。そういう人に、「お前のせいで周りが迷惑している」とか「心構えができていない」などと責めることは、「教える」になっていない。\n必要なのは、まず簡単かつ具体的なアドバイスを一つ与え、【 22 】。その結果を踏まえた上で、あらためて次のアドバイスを与える。こうして少しずつステップアップしていくのが効率的だ。\n（齋藤孝『1分で大切なことを伝える技術』PHP新書による）"
         },
         {
@@ -2817,7 +2817,7 @@ window.JLPT_DATA[11] = {
             "一方"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>たとえば：</b>Ví dụ như (liên từ đưa ra ví dụ minh họa cụ thể cho luận điểm).<br><b>Dịch nghĩa:</b> Ví dụ như, thay vì giải thích tất cả mọi thứ cùng một lúc, trước hết chỉ cần truyền đạt duy nhất một câu quan trọng nhất.<br><i>Phân tích các phương án:</i><br>• 1. つまり: Tức là, tóm lại là<br>• 2. ところで: Nhân tiện, chuyển chủ đề<br>• <b>3. たとえば: [Đúng] たとえば (ví dụ như, đưa ra dẫn chứng thực tế)</b><br>• 4. 一方: Mặt khác, ngược lại",
+          "explanation": "<b>たとえば：</b>Ví dụ như (liên từ đưa ra ví dụ minh họa cụ thể cho luận điểm).<br><b>Dịch nghĩa:</b> Ví dụ như, giả sử trong số cấp dưới của bạn có người làm việc chậm chạp.<br><i>Phân tích các phương án:</i><br>• 1. つまり: Tức là, tóm lại là<br>• 2. ところで: Nhân tiện, chuyển chủ đề<br>• <b>3. たとえば: [Đúng] たとえば (ví dụ như, đưa ra dẫn chứng thực tế)</b><br>• 4. 一方: Mặt khác, ngược lại",
           "passage": "概して教えることが好きな人は、話が長い。それだけ情熱や愛情に【 18 】ということでもあるが、はっきりいってあまり意味はない。教えられる側は、しばしば「ポイントだけにしてくれ」という気持ちになるものだ。\nでは、【 19 】何か。人に何かを教えるとき、まず「なぜできないのか」を説明したり、「やればできる」的な精神論から入る人は多い。だがその前に、「【 20 】やればいい」という具体的な“定番”を見せることが重要だ。\n【 21 】、あなたの部下に仕事の遅い人がいたとする。報告・連絡も、パソコンによる資料づくりも時間がかかり、周囲が迷惑していたとしよう。そういう人に、「お前のせいで周りが迷惑している」とか「心構えができていない」などと責めることは、「教える」になっていない。\n必要なのは、まず簡単かつ具体的なアドバイスを一つ与え、【 22 】。その結果を踏まえた上で、あらためて次のアドバイスを与える。こうして少しずつステップアップしていくのが効率的だ。\n（齋藤孝『1分で大切なことを伝える技術』PHP新書による）"
         },
         {
@@ -5615,8 +5615,8 @@ window.JLPT_DATA[11] = {
             "ものの",
             "には"
           ],
-          "correctAnswer": 4,
-          "explanation": "<b>Vる + には</b>? Khoan: đáp án 40 là **4 (には)**? Wait: 「手元にあるには」 hay 「としたら」? Trong đề 40 ghi: 1 からには, 2 として, 3 ものの, 4 には -> đáp án 40 trên phiếu là **2** hay **4**? Hãy nhìn kỹ `best_ans_p01.png` câu 40: `40: ① ❷ ③ ④` -> **2 (として)**!! Đúng rồi! Trong phiếu 40 tô ô số 2! `あるとして` (giả sử là có 100 vạn yên trong tay). Cảm ơn đã kiểm tra kỹ!",
+          "correctAnswer": 2,
+          "explanation": "<b>～として (Giả sử là...)</b>: V-thể thường + として đặt ra một tình huống giả định.<br><b>Dịch nghĩa:</b> Nghe nói khi hỏi người Nhật rằng giả sử hiện tại có 1 triệu yên tự do chi tiêu trong tay thì họ muốn làm gì, hầu hết mọi người đều trả lời là 'tiết kiệm'.",
           "id": 442
         },
         {
@@ -5812,7 +5812,7 @@ window.JLPT_DATA[11] = {
             3
           ],
           "correctStarOption": 1,
-          "explanation": "Wait: check `best_ans_p01.png` row 48: 48 is **1**? Let's verify: 性別や国籍 [に(2)] [かかわらず(1)] [だれ(4)] [でも(3)] 活躍できる... -> star at pos 2 is **1 (かかわらず)**! Matches row 48 = 1! (Earlier summary had a typo saying 48=3, good thing we viewed `best_ans_p01.png`!)<br><b>Cấu trúc:</b> ～にかかわらず (bất kể ~).<br><b>Đáp án chọn:</b> 1",
+          "explanation": "Thứ tự đúng: 性別や国籍 <b>[に(2)] [★ かかわらず(1)] [だれ(4)] [でも(3)]</b> 活躍できる会社に就職したいと思っています。<br><b>Cấu trúc:</b> ～にかかわらず (bất kể ~).<br><b>Dịch nghĩa:</b> Tôi muốn xin vào một công ty nơi bất kể giới tính hay quốc tịch, ai cũng có thể phát huy năng lực.<br><b>Đáp án chọn:</b> 1",
           "id": 450
         },
         {
@@ -7861,10 +7861,10 @@ Hai người đang nói chuyện về chủ đề gì?<br><br>
 <b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
 Nữ sinh viên và nam sinh viên đang nói chuyện với nhau.<br>
 Nữ: "Bạn Tanaka này, nghe nói tìm lại được xe đạp rồi hả? May quá nhỉ."<br>
-Nam: "Khổ nỗi cũng chẳng vui vẻ gì đâu. Bị thu mấtตั้ง 5.000 yên đấy."<br>
+Nam: "Khổ nỗi cũng chẳng vui vẻ gì đâu. Bị thu mất tận 5.000 yên đấy."<br>
 Nữ: "5.000 yên á? Tại sao lại mất tiền?"<br>
 Nam: "Hôm qua bên tòa thị chính thành phố liên lạc báo mình đến nhận lại xe đạp. Mình chưa nộp đơn trình báo mất xe, nhưng vì trên xe có đăng ký thông tin chủ xe."<br>
-Nữ: "À, đăng ký chống trộm (방범등록) chứ gì. Thế xe được tìm thấy ở đâu?"<br>
+Nữ: "À, đăng ký chống trộm (防犯登録) chứ gì. Thế xe được tìm thấy ở đâu?"<br>
 Nam: "<b>Ở bãi giữ các xe đạp đỗ trái phép. Hình như kẻ trộm vứt chiếc xe đó suốt ở ngay cạnh trạm xe buýt.</b>"<br>
 Nữ: "Ơ, thế là vì vậy mà cậu bị bắt nộp phạt á? Sao cậu không giải thích là xe mình bị lấy trộm?"<br>
 Nam: "Tất nhiên là mình có nói chứ. Nhưng người ta bảo có rất nhiều người cũng viện lý do như thế, <b>rõ ràng tự mình đỗ xe trái phép nhưng lại không muốn nộp tiền phạt.</b>"<br>
@@ -8328,7 +8328,7 @@ Nam: "<b>Vé vào cửa là 1.000 yên à. Tụi mình dùng được ưu đãi 
 Nữ: "À, không cần mua đâu. Mình có vé mời rồi nên không tốn tiền."<br>
 Nam: "Ồ, thế à? Vậy thì may quá. Xin lỗi, cho chúng em vào cổng 2 người bằng vé mời này ạ."<br>
 Nhân viên: "Vâng. <b>À, xin lỗi quý khách, tấm vé mời này 1 vé chỉ áp dụng cho 1 người sử dụng thôi ạ.</b>"<br>
-Nữ: "Ơ, thế ạ? À đúng thật, trên vé có ghi '1 người'. Tấm vé lần trước đi đượcตั้ง 2 người cơ mà nhỉ. Thôi đành chịu vậy. <b>Thế thì 1 người dùng vé mời này (0 yên), còn 1 người mua vé giảm giá sinh viên (800 yên) nhé.</b>"<br>
+Nữ: "Ơ, thế ạ? À đúng thật, trên vé có ghi '1 người'. Tấm vé lần trước đi được tận 2 người cơ mà nhỉ. Thôi đành chịu vậy. <b>Thế thì 1 người dùng vé mời này (0 yên), còn 1 người mua vé giảm giá sinh viên (800 yên) nhé.</b>"<br>
 Nhân viên: "Vâng ạ."<br>
 Hai bạn sinh viên phải trả tổng cộng bao nhiêu tiền?<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>

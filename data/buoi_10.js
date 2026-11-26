@@ -2516,7 +2516,7 @@ window.JLPT_DATA[10] = {
             "というけれど"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Thứ tự sắp xếp đúng:</b> 子どもがたくさんいると <b>[生活が苦しくなる(2)] [というけれど(4)] [子どもがいる(1)] [★ からこそ(3)]</b> 仕事をがんばる力が出る。<br><b>Cấu trúc:</b> 〜というけれど、〜からこそ (Người ta nói rằng... nhưng chính vì... nên mới...). Ở đây: 生活が苦しくなるというけれど (Người ta nói nhiều con thì cuộc sống vất vả, nhưng) + 子どもがいるからこそ (chính vì có con) + 仕事をがんばる力が出る (mới có động lực cố gắng làm việc).<br><b>Dịch nghĩa:</b> Người ta vẫn thường bảo có đông con thì cuộc sống sẽ vất vả khó khăn, thế nhưng chính vì có những đứa con thơ nên tôi mới có thêm nguồn động lực to lớn để cố gắng hết mình trong công việc.<br><b>Đáp án chọn:</b> 4 (というけれど)",
+          "explanation": "<b>Thứ tự sắp xếp đúng:</b> 子どもがたくさんいると <b>[生活が苦しくなる(2)] [★ というけれど(4)] [子どもがいる(1)] [からこそ(3)]</b> 仕事をがんばる力が出る。<br><b>Cấu trúc:</b> 〜というけれど、〜からこそ (Người ta nói rằng... nhưng chính vì... nên mới...). Ở đây: 生活が苦しくなるというけれど (Người ta nói nhiều con thì cuộc sống vất vả, nhưng) + 子どもがいるからこそ (chính vì có con) + 仕事をがんばる力が出る (mới có động lực cố gắng làm việc).<br><b>Dịch nghĩa:</b> Người ta vẫn thường bảo có đông con thì cuộc sống sẽ vất vả khó khăn, thế nhưng chính vì có những đứa con thơ nên tôi mới có thêm nguồn động lực to lớn để cố gắng hết mình trong công việc.<br><b>Đáp án chọn:</b> 4 (というけれど)",
           "isStarQuestion": true,
           "sentenceOrder": [
             2,
@@ -4736,7 +4736,7 @@ window.JLPT_DATA[10] = {
           "mondaiName": "問題８：文の組み立て (Sắp xếp câu dấu sao ★)",
           "beforeText": "年末を越したら忙しさが落ち着くと思っていたが、最近は難しい",
           "afterText": "である。",
-          "starPositionIndex": 3,
+          "starPositionIndex": 2,
           "fragments": [
             {
               "id": 1,
@@ -4757,12 +4757,12 @@ window.JLPT_DATA[10] = {
           ],
           "correctOrder": [
             2,
-            4,
             1,
+            4,
             3
           ],
           "correctStarOption": 1,
-          "explanation": "Thứ tự đúng: 難しい <b>[仕事も多く(2)] [増える(4)] [★ 負担が(1)] [ばかり(3)]</b> である。Wait: hoặc [仕事も多く(2)] [負担が(1)] [増える(4)] [ばかり(3)]? Đáp án in là 46 -> 1, vị trí sao là ô 3 -> 1 ở ô 3: [2,4,1,3] ('việc khó nhiều, gánh nặng tăng suốt').",
+          "explanation": "Thứ tự đúng: 難しい <b>[仕事も多く(2)] [★ 負担が(1)] [増える(4)] [ばかり(3)]</b> である。<br><b>Cấu trúc:</b> V-る + ばかりだ (ngày càng ~).<br><b>Dịch nghĩa:</b> Tôi cứ nghĩ qua cuối năm thì sẽ đỡ bận hơn, nhưng gần đây công việc khó cũng nhiều nên gánh nặng ngày càng tăng lên.",
           "id": 334
         },
         {

@@ -174,7 +174,7 @@ window.JLPT_DATA[2] = {
             "離れ"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>読書離れ (どくしょばなれ)</b>: Hiện tượng xa rời việc đọc sách (Hán Việt: ĐỘC THƯ LI).<br>\n<b>Dịch nghĩa:</b> Có vẻ như hiện tượng trẻ em ngày càng xa rời việc đọc sách đang gia tăng.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 抜け: Mang nghĩa rút lui, bỏ qua (손抜).<br>\n• 2. 逃げ: Mang nghĩa trốn chạy, tránh né.<br>\n• 3. 別れ: Mang nghĩa chia ly, từ biệt.<br>\n• 4. <b>離れ (Đúng)</b>: Hậu tố ～離れ (ばなれ) ghép sau danh từ biểu thị hiện tượng rời xa, quay lưng với cái gì: 読書離れ, 活字離れ, 車離れ."
+          "explanation": "<b>読書離れ (どくしょばなれ)</b>: Hiện tượng xa rời việc đọc sách (Hán Việt: ĐỘC THƯ LI).<br>\n<b>Dịch nghĩa:</b> Có vẻ như hiện tượng trẻ em ngày càng xa rời việc đọc sách đang gia tăng.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. 抜け: Mang nghĩa rút lui, bỏ qua (手抜き).<br>\n• 2. 逃げ: Mang nghĩa trốn chạy, tránh né.<br>\n• 3. 別れ: Mang nghĩa chia ly, từ biệt.<br>\n• 4. <b>離れ (Đúng)</b>: Hậu tố ～離れ (ばなれ) ghép sau danh từ biểu thị hiện tượng rời xa, quay lưng với cái gì: 読書離れ, 活字離れ, 車離れ."
         },
         {
           "id": 13,
@@ -616,7 +616,7 @@ window.JLPT_DATA[2] = {
           ],
           "correctStarOption": 1,
           "correctAnswer": 1,
-          "explanation": "<b>Cấu trúc câu Dấu sao: ～ことから、...ように (bắt nguồn từ việc... như chúng ta thấy...)</b><br>\n<b>Thứ tự sắp xếp đúng:</b> 3 - 2 - 1 - 4 (ことから &rarr; ★ わかる &rarr; ように &rarr; 春を代表する)<br>\n<b>Câu hoàn chỉnh:</b> 「さわら」という魚は、漢字で「鰆」と書く<b>ことからわかるように、春を代表する</b>魚の一つです。<br>\n<b>Dịch nghĩa:</b> Loài cá \"Sawara\" (cá thu Nhật), đúng như chúng ta thấy từ việc tên chữ Hán viết là chữ \"Xuân\" (鰆), chính là một trong những loài cá tiêu biểu của mùa xuân.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. ように: Nối sau động từ thể từ điển: わかるように (như có thể thấy từ...) (xếp ở vị trí thứ 3).<br>\n• 2. <b>わかる (Đúng)</b>: Động từ bổ nghĩa cho ように, rơi vào vị trí dấu sao ★ (vị trí thứ 2).<br>\n• 3. ことから: Cấu trúc biểu thị căn cứ nguồn gốc: 書くことから (xếp ở vị trí thứ 1).<br>\n• 4. 春を代表する: Bổ nghĩa cho danh từ 魚 ở cuối câu (loài cá tiêu biểu cho mùa xuân) (xếp ở vị trí thứ 4)."
+          "explanation": "<b>Cấu trúc câu Dấu sao: ～ことから、...ように (bắt nguồn từ việc... như chúng ta thấy...)</b><br>\n<b>Thứ tự sắp xếp đúng:</b> 3 - 2 - ★ 1 - 4 (ことから &rarr; わかる &rarr; ★ ように &rarr; 春を代表する)<br>\n<b>Câu hoàn chỉnh:</b> 「さわら」という魚は、漢字で「鰆」と書く<b>ことからわかるように、春を代表する</b>魚の一つです。<br>\n<b>Dịch nghĩa:</b> Loài cá \"Sawara\" (cá thu Nhật), đúng như chúng ta thấy từ việc tên chữ Hán viết là chữ \"Xuân\" (鰆), chính là một trong những loài cá tiêu biểu của mùa xuân.<br>\n<i>Phân tích các phương án:</i><br>\n• 1. <b>ように (Đúng)</b>: Nối sau động từ thể từ điển: わかるように (như có thể thấy từ...), rơi vào vị trí dấu sao ★ (vị trí thứ 3).<br>\n• 2. わかる: Động từ bổ nghĩa cho ように (xếp ở vị trí thứ 2).<br>\n• 3. ことから: Cấu trúc biểu thị căn cứ nguồn gốc: 書くことから (xếp ở vị trí thứ 1).<br>\n• 4. 春を代表する: Bổ nghĩa cho danh từ 魚 ở cuối câu (loài cá tiêu biểu cho mùa xuân) (xếp ở vị trí thứ 4)."
         },
         {
           "id": 44,
@@ -2340,7 +2340,7 @@ window.JLPT_DATA[2] = {
             "Aは他人の視点で切り取られた映像で自由度が低いと述べ、Bは会場の一体感という特別な感動は得られないと述べている"
           ],
           "correctAnswer": 4,
-          "explanation": "<b>Chủ đề: Nhược điểm của việc xem kịch qua video / DVD (Bài A vs B)</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Về việc thưởng thức qua video hoặc đĩa DVD, tác giả A và B đã nhận định như thế nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì video vẫn có thể cho xem lại nhiều lần.<br>\n• 2. Sai vì bài A không chê chất lượng âm thanh.<br>\n• 3. Sai vì tác giả B không bàn về sự tiện lợi giá rẻ.<br>\n• 4. <b>Aは他人の視点で切り取られたもので自由度が低いと述べ、Bは会場での特別な感動は得られないと述べている (Đúng)</b>: Đoạn A nhận định video bị giới hạn bởi ống kính góc máy của đạo diễn nên làm mất đi sự tự do ngắm nhìn của người xem; còn đoạn B nhận định màn ảnh nhỏ không thể nào tái hiện được luồng rung cảm đặc biệt chỉ có tại hiện trường trực tiếp.",
+          "explanation": "<b>Chủ đề: Nhược điểm của việc xem kịch qua video / DVD (Bài A vs B)</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Về việc thưởng thức qua video hoặc đĩa DVD, tác giả A và B đã nhận định như thế nào?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì cả A và B đều không ca ngợi việc xem video ở nhà là phương pháp tuyệt vời.<br>\n• 2. Sai vì A không đánh giá cao tiến bộ công nghệ hình ảnh và B không nói về việc tiết kiệm tiền vé.<br>\n• 3. Sai vì A không coi đó là giải pháp cứu cánh cho người không đến rạp, và B không đề cập đến hiệu quả giáo dục.<br>\n• 4. <b>Aは他人の視点で切り取られたもので自由度が低いと述べ、Bは会場での特別な感動は得られないと述べている (Đúng)</b>: Đoạn A nhận định video bị giới hạn bởi ống kính góc máy của đạo diễn nên làm mất đi sự tự do ngắm nhìn của người xem; còn đoạn B nhận định màn ảnh nhỏ không thể nào tái hiện được luồng rung cảm đặc biệt chỉ có tại hiện trường trực tiếp.",
           "passage": "<b>A:</b> かつては、演劇の公演は生で鑑賞することが一般的だったが、最近は、自宅で公演のビデオやDVDを鑑賞する人が増えている。これらの映像は、何台ものカメラを使い、出演者の表情を近くから映したりステージ全体をとらえたりしているので、会場に行かなくても十分に楽しめるというのだ。しかし、生の公演を鑑賞することの良さの一つに、自分の視点で楽しめるということがある。ビデオやDVDの映像は他人の視点で切り取られたものなので、自分が本当に見たい部分だとは限らない。私はやはり生で、好きな出演者の姿を追い続けるなど自由に鑑賞するのが面白いと思う。<br><br><b>B:</b> 先日、劇場で演劇を鑑賞する機会があった。久しぶりに生で鑑賞して、会場でしか得られないものがあると気づいた。それは出演者と観客との一体感から生まれる感動だ。出演者の素晴らしい演技を見て、観客が泣いたり笑ったりする。観客が出演者に声援を送ることもある。このように会場が一つになったときの感動は、その場にいる人にしか得られない特別な感動だろう。最近は、多くの公演がインターネットやDVDなどで自宅でも鑑賞できるようになったが、劇場での生の一体感は決して再現できない。"
         },
         {
@@ -2355,7 +2355,7 @@ window.JLPT_DATA[2] = {
             "④のみ"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Chủ đề: Lựa chọn khóa học chuyên đề mở phù hợp với lịch trình</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Bạn Emily muốn học chuyên đề mở của Khoa Kinh tế tổ chức tại cơ sở Kageyama trong khoảng từ 25/7 đến 30/8. Khóa học nào phù hợp?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. ①と③: Sai vì khóa ① tổ chức tại cơ sở Kita-Kageyama chứ không phải cơ sở Kageyama.<br>\n• 2. ②と④: Sai vì khóa ② là do Khoa Luật tổ chức chứ không phải Khoa Kinh tế.<br>\n• 3. <b>③と④ (Đúng)</b>: Đối chiếu bảng: Khoa Kinh tế tại cơ sở Kageyama gồm các khóa ③, ④, ⑥. Trong khoảng thời gian từ 25/7 đến 30/8: khóa ③ (26/7, 2/8) và khóa ④ (29/7, 5/8) thỏa mãn; còn khóa ⑥ diễn ra vào tháng 9 (loại). Do đó hai khóa phù hợp là <b>③ và ④</b>.<br>\n• 4. ④と⑥: Sai vì khóa ⑥ diễn ra vào tháng 9, nằm ngoài khung thời gian Emily yêu cầu.",
+          "explanation": "<b>Chủ đề: Lựa chọn khóa học chuyên đề mở phù hợp với lịch trình</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Bạn Emily muốn học chuyên đề mở của Khoa Kinh tế tổ chức tại cơ sở Kageyama trong khoảng từ 25/7 đến 30/8. Khóa học nào phù hợp?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. ①と③と④と⑥: Sai vì khóa ① tổ chức tại cơ sở Kita-Kageyama (không phải cơ sở Kageyama) và diễn ra đầu tháng 7; khóa ⑥ diễn ra vào tháng 9.<br>\n• 2. ③と④と⑥: Sai vì khóa ⑥ diễn ra vào tháng 9, nằm ngoài khung thời gian 25/7–30/8.<br>\n• 3. <b>③と④ (Đúng)</b>: Đối chiếu bảng: Khoa Kinh tế tại cơ sở Kageyama gồm các khóa ③, ④, ⑥ (khóa ② thuộc Khoa Thương mại). Trong khoảng 25/7–30/8 chỉ có khóa ③ (26/7, 2/8) và khóa ④ (29/7, 5/8) thỏa mãn.<br>\n• 4. ④のみ: Sai vì thiếu khóa ③ cũng đáp ứng đủ điều kiện.",
           "passage": "<b>影山大学 経済学部・商学部 無料公開講座のご案内</b><br>\n<b>公開講座一覧</b>（講座の詳しい内容は、裏面をご覧ください）<br>\n<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\">\n<tr><th>番号</th><th>講座名</th><th>日程</th><th>時間</th><th>実施キャンパス</th><th>実施する学部</th></tr>\n<tr><td>①</td><td>日本経済の現状［全2回］</td><td>7/2（日）、7/9（日）</td><td>14:00〜16:30</td><td>北影山</td><td>経済学部</td></tr>\n<tr><td>②</td><td>比較経営論［全3回］</td><td>7/15（土）〜7/17（月）</td><td>13:00〜17:15</td><td>影山</td><td>商学部</td></tr>\n<tr><td>③</td><td>国際金融論［全2回］</td><td>7/26（水）、8/2（水）</td><td>18:00〜19:30</td><td>影山</td><td>経済学部</td></tr>\n<tr><td>④</td><td>経済統計データの分析［全2回］</td><td>7/29（土）、8/5（土）</td><td>9:00〜17:00</td><td>影山</td><td>経済学部</td></tr>\n<tr><td>⑤</td><td>組織行動学［全2回］</td><td>8/21（月）、8/22（水）</td><td>13:45〜16:15</td><td>北影山</td><td>商学部</td></tr>\n<tr><td>⑥</td><td>社会政策と経済政策［全2回］</td><td>9/7（水）、9/14（木）</td><td>10:00〜12:30</td><td>影山</td><td>経済学部</td></tr>\n</table>\n・受講は、高校生以上の方ならどなたでも可能です。<br>\n・各講座、定員は30名となっています。<br><br>\n<b>申込・受付について</b><br>\n・郵送、または影山キャンパス経済学部事務所窓口で受け付けます。（申込者多数の場合、抽選）<br>\n・締め切りは、各講座初回の2週間前となります。<br>\n・裏面の「公開講座申込書」にご記入の上、ご提出ください。複数の講座を希望される場合も、申込書は1枚でお願いします。<br>\n・各講座初回1週間前までに、受講できるかどうかを文書で通知しますので、お申し込み時に返信用の封筒1枚（長形3号）[120×235mm]もご提出ください。封筒には82円分の切手をはり、住所と氏名をご記入ください。"
         },
         {
@@ -2370,7 +2370,7 @@ window.JLPT_DATA[2] = {
             "公開講座申込書２枚と返信用封筒１枚"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Chủ đề: Hồ sơ cần chuẩn bị khi nộp đơn trực tiếp tại quầy văn phòng</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Anh Baco muốn đăng ký 2 khóa học và đến nộp trực tiếp tại văn phòng. Hồ sơ giấy tờ nộp gồm những gì?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì chỉ cần 1 tờ phiếu đăng ký duy nhất dù học nhiều khóa.<br>\n• 2. Sai vì bắt buộc phải nộp kèm phong bì hồi đáp để nhận giấy báo trúng tuyển.<br>\n• 3. <b>公開講座申込書１枚と返信用封筒１枚 (Đúng)</b>: Quy định ghi rõ: Dù đăng ký nhiều khóa học thì cũng chỉ cần <b>1 tờ phiếu đăng ký duy nhất</b>; và do nhà trường sẽ gửi kết quả bằng văn bản qua đường thư tín trước 1 tuần nên bắt buộc phải nộp kèm <b>1 phong bì hồi đáp dán sẵn tem</b>.<br>\n• 4. Sai vì không cần nộp 2 phong bì hồi đáp.",
+          "explanation": "<b>Chủ đề: Hồ sơ cần chuẩn bị khi nộp đơn trực tiếp tại quầy văn phòng</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Anh Baco muốn đăng ký 2 khóa học và đến nộp trực tiếp tại văn phòng. Hồ sơ giấy tờ nộp gồm những gì?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì thiếu 1 phong bì hồi đáp (返信用封筒) để nhận thông báo kết quả.<br>\n• 2. Sai vì vừa chỉ cần 1 tờ phiếu đăng ký (không phải 2 tờ), vừa thiếu phong bì hồi đáp.<br>\n• 3. <b>公開講座申込書１枚と返信用封筒１枚 (Đúng)</b>: Quy định ghi rõ: Dù đăng ký nhiều khóa học thì cũng chỉ cần <b>1 tờ phiếu đăng ký duy nhất</b>; và do nhà trường sẽ gửi kết quả bằng văn bản trước 1 tuần nên bắt buộc phải nộp kèm <b>1 phong bì hồi đáp dán sẵn tem</b>.<br>\n• 4. Sai vì dù đăng ký 2 khóa cũng chỉ cần nộp 1 tờ phiếu đăng ký (không phải 2 tờ).",
           "passage": "<b>影山大学 経済学部・商学部 無料公開講座のご案内</b><br>\n<b>公開講座一覧</b>（講座の詳しい内容は、裏面をご覧ください）<br>\n<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse; width:100%; font-size:0.9em;\">\n<tr><th>番号</th><th>講座名</th><th>日程</th><th>時間</th><th>実施キャンパス</th><th>実施する学部</th></tr>\n<tr><td>①</td><td>日本経済の現状［全2回］</td><td>7/2（日）、7/9（日）</td><td>14:00〜16:30</td><td>北影山</td><td>経済学部</td></tr>\n<tr><td>②</td><td>比較経営論［全3回］</td><td>7/15（土）〜7/17（月）</td><td>13:00〜17:15</td><td>影山</td><td>商学部</td></tr>\n<tr><td>③</td><td>国際金融論［全2回］</td><td>7/26（水）、8/2（水）</td><td>18:00〜19:30</td><td>影山</td><td>経済学部</td></tr>\n<tr><td>④</td><td>経済統計データの分析［全2回］</td><td>7/29（土）、8/5（土）</td><td>9:00〜17:00</td><td>影山</td><td>経済学部</td></tr>\n<tr><td>⑤</td><td>組織行動学［全2回］</td><td>8/21（月）、8/22（水）</td><td>13:45〜16:15</td><td>北影山</td><td>商学部</td></tr>\n<tr><td>⑥</td><td>社会政策と経済政策［全2回］</td><td>9/7（水）、9/14（木）</td><td>10:00〜12:30</td><td>影山</td><td>経済学部</td></tr>\n</table>\n・受講は、高校生以上の方ならどなたでも可能です。<br>\n・各講座、定員は30名となっています。<br><br>\n<b>申込・受付について</b><br>\n・郵送、または影山キャンパス経済学部事務所窓口で受け付けます。（申込者多数の場合、抽選）<br>\n・締め切りは、各講座初回の2週間前となります。<br>\n・裏面の「公開講座申込書」にご記入の上、ご提出ください。複数の講座を希望される場合も、申込書は1枚でお願いします。<br>\n・各講座初回1週間前までに、受講できるかどうかを文書で通知しますので、お申し込み時に返信用の封筒1枚（長形3号）[120×235mm]もご提出ください。封筒には82円分の切手をはり、住所と氏名をご記入ください。"
         },
         {
@@ -2385,7 +2385,7 @@ window.JLPT_DATA[2] = {
             "将来の他人に読まれることを意識して分かりやすく書くべきだ"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Chủ đề: Điểm chung về ý nghĩa của việc ghi chép nhật ký / tư liệu (Bài A và B)</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Về việc ghi chép nhật ký, điều mà cả hai tác giả A và B đều xem là cốt lõi là gì?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì ghi chép không chỉ đơn thuần là liệt kê các đầu việc cần làm.<br>\n• 2. Sai vì bài viết không đặt mục tiêu viết cho người khác đọc.<br>\n• 3. <b>事実だけでなく、自分の感情や考えも記録することが大切だということ (Đúng)</b>: Cả tác giả A và B đều nhấn mạnh: việc ghi chép có giá trị đích thực khi chúng ta không chỉ ghi lại sự kiện khách quan, mà quan trọng nhất là phải ghi lại chân thực dòng suy nghĩ và cảm xúc nội tâm của chính mình.<br>\n• 4. Sai vì không bắt buộc phải viết thật dài mỗi ngày.",
+          "explanation": "<b>Chủ đề: Điểm chung về ý nghĩa của việc ghi chép nhật ký / tư liệu (Bài A và B)</b><br>\n<b>Dịch nghĩa câu hỏi:</b> Về việc ghi chép nhật ký, điều mà cả hai tác giả A và B đều xem là cốt lõi là gì?<br>\n<i>Phân tích các phương án:</i><br>\n• 1. Sai vì cả A và B không đề cập đến việc dùng thiết bị kỹ thuật số mới nhất để tối ưu hóa việc ghi chép.<br>\n• 2. Sai vì cả A và B đều cho rằng chỉ ghi chép sự kiện/thông tin khách quan thôi là chưa đủ.<br>\n• 3. <b>出来事や情報そのものだけでなく、自分の考えや内面を記録することが思考を深める (Đúng)</b>: Cả tác giả A và B đều nhấn mạnh việc ghi chép không chỉ ghi lại sự kiện/thông tin khách quan, mà quan trọng nhất là ghi lại dòng suy nghĩ và cảm xúc nội tâm của chính mình để đào sâu tư duy.<br>\n• 4. Sai vì bài viết không nói cần viết dễ hiểu để người khác đọc trong tương lai.",
           "passage": "<b>A:</b> 私たちは日々、膨大な量の情報にさらされている。気になる記事や言葉に出会ったとき、手元のスマートフォンや手帳にメモをとる人は多い。しかし、単に情報をそのまま書き留めるだけでは十分ではない。大切なのは、その情報に触れて「自分はどう感じたか」「何を考えたか」という自分の思考を同時にメモしておくことだ。そうすることで集めた情報の中におぼれず、どう考えるかを自身に問いかける姿勢が身についていく。<br><br><b>B:</b> 私は昔から日記をつける習慣がある。日々の出来事を客観的に記録するだけでなく、その時々の自分の感情や思考の軌跡を文字にして残すのだ。後から読み返すと、「なぜあの時あんな決断をしたのか」「自分の考えはどう深まってきたのか」を客観的に検証することができる。自分の内面を言葉にして記録することは、自己理解を深め、より良い未来の選択をするための羅針盤となる。"
         },
         {
@@ -2605,7 +2605,7 @@ window.JLPT_DATA[2] = {
             "発表者にれんらくする"
           ],
           "correctAnswer": 2,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nam sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. シンポジウムのポスターをはる: Chuẩn bị hội trường<br>2. スタッフの当日の予定表を作る: Lập bảng lịch trình cho nhân viên trong ngày<br>3. 当日配るしりようをコピーする: Photo tài liệu phát vào ngày diễn ra<br>4. 発表者にれんらくする: Liên lạc với người thuyết trình<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nam sinh sau đây trước tiên sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. シンポジウムのポスターをはる: Dán áp phích hội thảo chuyên đề<br>2. スタッフの当日の予定表を作る: Lập bảng lịch trình cho nhân viên trong ngày<br>3. 当日配るしりようをコピーする: Photo tài liệu phát vào ngày diễn ra<br>4. 発表者にれんらくする: Liên lạc với người thuyết trình<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 大学で女の学生と男の学生が話しています。男の学生はこの後まず何をしますか。<br>
 女：中村くん。シンポジウムのポスター、掲示板に貼ってくれたんだね。ありがとう。<br>
 男：えぇ、他に僕がやっておくことってありますか？<br>
@@ -2761,7 +2761,7 @@ Nữ nhân viên sau đây trước tiên sẽ làm gì?<br><br>
             "けいさつでお金を払う"
           ],
           "correctAnswer": 3,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 駅前で自転車をさがす: Tìm bãi đỗ xe đạp trước ga<br>2. 市役所へ自転車を取りに行く: Đến đồn cảnh sát tìm xe đạp<br>3. 自転車の預かり場所を調べる: Lên website của toà thị chính kiểm tra nơi lưu trữ giữ xe đạp<br>4. けいさつでお金を払う: Đến ngân hàng nộp tiền phí lưu giữ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại trường đại học, một nữ sinh và một nam sinh đang nói chuyện. Nữ sinh sau đây sẽ làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 駅前で自転車をさがす: Tìm xe đạp ở trước ga<br>2. 市役所へ自転車を取りに行く: Đến tòa thị chính lấy xe đạp<br>3. 自転車の預かり場所を調べる: Kiểm tra nơi lưu giữ xe đạp<br>4. けいさつでお金を払う: Nộp tiền ở đồn cảnh sát<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 大学で女の学生と男の学生が話しています。女の学生はこの後何をしますか。<br>
 女：田中くん、聞いて。昨日自転車、駅前に止めてたんだけど、乗って帰ろうとしたら自転車がなくて・・・。置いといた場所の地面に「駐輪禁止区域のため移動しました」って紙が貼られてたんだよ。<br>
 男：駅前は駐輪場以外には停めちゃいけないんだよ。<br>
@@ -2804,7 +2804,7 @@ Nữ sinh sau đây sẽ làm gì?<br><br>
             "母のパンの味を残したかったから"
           ],
           "correctAnswer": 3,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Trên truyền hình, nữ phát thanh viên đang phỏng vấn chủ tiệm bánh mì. Chủ tiệm nói lý do tại sao anh bắt đầu mở tiệm bánh mì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì từ xưa bản thân đã rất thích làm bánh<br>2. Vì muốn thay người mẹ bị bệnh biến giấc mơ mở tiệm thành hiện thực<br>3. Vì được công nhận tài năng làm bánh khi học ở trường nghề<br>4. Vì được người dân địa phương thỉnh cầu mở quán<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Trên truyền hình, nữ phát thanh viên đang phỏng vấn chủ tiệm bánh mì. Chủ tiệm nói lý do tại sao anh bắt đầu mở tiệm bánh mì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. 母といっしょにパン屋をやりたかったから: Vì muốn cùng mẹ mở tiệm bánh mì<br>2. 母にたのまれたから: Vì được mẹ nhờ vả<br>3. 母のゆめをかなえたかったから: Vì muốn hiện thực hóa ước mơ của mẹ<br>4. 母のパンの味を残したかったから: Vì muốn giữ lại hương vị bánh mì của mẹ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 テレビで女のアナウンサーがパン屋の店長にインタビューをしています。店長はどうしてパン屋を始めたと言っていますか。<br>
 女：店長の山本さんです。こちらのお店の手作りのパン、大変人気ですが山本さんご自身は以前、会社員をなされていたんですよね？<br>
 男：はい。この店はもともとパン作りが好きな母がやる予定だったんですが、店を出す準備をしている途中で母が病気になってしまいました。<b>母はずっと会社勤めをしていて定年退職したら店をやるのが夢だったんです。それで私が母の代わりにパン屋をやろうと思って会社を辞めました。</b><br>
@@ -2835,7 +2835,7 @@ Chủ tiệm nói tại sao anh lại bắt đầu mở tiệm bánh mì?<br><br
             "安いひっこし会社をさがす"
           ],
           "correctAnswer": 1,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại nhà, người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định làm thế nào để giảm chi phí dọn nhà?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Tháo dỡ giá sách cho gọn lại<br>2. Cho/tặng người khác món đồ gỗ lớn không dùng tới<br>3. Bán tủ lạnh cũ cho tiệm đồ cũ<br>4. Mượn xe tải của người quen tự chở đồ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Tại nhà, người phụ nữ và người đàn ông đang nói chuyện. Hai người quyết định làm thế nào để giảm chi phí dọn nhà?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ソファーをもらってくれる人をさがす: Tìm người nhận lại chiếc ghế sofa<br>2. れいぞうこを売る: Bán tủ lạnh<br>3. 親戚にひっこしを手伝ってもらう: Nhờ họ hàng giúp chuyển nhà<br>4. 安いひっこし会社をさがす: Tìm công ty chuyển nhà giá rẻ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 家で女の人と男の人が話しています。二人は引っ越しの費用を安くするためにどうすることにしましたか。<br>
 女：引っ越し会社に引越しの見積もりを出してもらったけど予算よりかなり高かったよ。今の時期はどこの会社も高いんだね。荷物の量と移動距離で料金を計算するから荷物を減らせば安くなるって。<br>
 男：そう、んー。大きい荷物を減らそうか。えーっと、大きいものって言ったらソファー、冷蔵庫、本棚だね。<br>
@@ -2911,7 +2911,7 @@ Người phụ nữ sẽ viết gì vào phiếu khảo sát?<br><br>
             "リサイクルショップで服を買う"
           ],
           "correctAnswer": 3,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Nữ sinh và nam sinh đang nói về trang phục mặc hằng ngày. Nam sinh khuyên nữ sinh cách tốt nhất nên làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Đăng ký dịch vụ chuyên gia chọn và gửi quần áo hằng tháng<br>2. Xem tạp chí thời trang để nghiên cứu phong cách<br>3. Đơn giản hóa trang phục như áo sơ mi trắng, quần đen và kết hợp phụ kiện<br>4. Đến cửa hàng đồ cũ tìm quần áo đa dạng giá rẻ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Nữ sinh và nam sinh đang nói về trang phục mặc hằng ngày. Nam sinh khuyên nữ sinh cách tốt nhất nên làm gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. ファッション雑誌を参考にする: Tham khảo tạp chí thời trang<br>2. ファッションのプロに服を選んでもらう: Nhờ chuyên gia thời trang chọn quần áo<br>3. 毎日シンプルな服を着る: Mỗi ngày mặc trang phục đơn giản<br>4. リサイクルショップで服を買う: Mua quần áo ở cửa hàng đồ cũ<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 女の学生と男の学生が毎日着る服について話しています。男の学生は女の学生にどんな方法を勧めていますか。<br>
 女：岡田くん、ファッションの勉強をしているから教えてほしいんだけど・・・私、毎日どんな服を着たらいいのかわからなくて・・・。ファッション雑誌を見ても自分に似合うかわからないし。<br>
 男：雑誌は参考になると思うけど、そうだね・・・あ、インターネットで毎月、洋服を送ってくれるサービスって知ってる？プロがその人に似合いそうな服を選んで送ってくれるんだよ。気に入ればそのまま買い取れるし、気に入らなければ返せばいいし。<br>
@@ -2950,7 +2950,7 @@ Nam sinh khuyên nữ sinh nên áp dụng phương pháp nào?<br><br>
             "新しい分野の仕事をしてみたかったから"
           ],
           "correctAnswer": 4,
-          "explanation": `<b>❓ Dịch câu hỏi:</b> Phóng viên truyền hình đang phỏng vấn một người phụ nữ về việc chuyển việc. Lý do người phụ nữ chuyển sang công ty hiện tại là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. Vì muốn nhận mức lương cao hơn<br>2. Vì không hài lòng với quan hệ đồng nghiệp ở công ty cũ<br>3. Vì muốn thử sức, trải nghiệm một lĩnh vực/thế giới mới mẻ<br>4. Vì được bạn nhờ vả không nỡ từ chối<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
+          "explanation": `<b>❓ Dịch câu hỏi:</b> Phóng viên truyền hình đang phỏng vấn một người phụ nữ về việc chuyển việc. Lý do người phụ nữ chuyển sang công ty hiện tại là gì?<br><br><b>📝 Dịch chi tiết 4 đáp án:</b><br>1. これまでの経験を生かせそうだったから: Vì thấy có thể phát huy kinh nghiệm từ trước đến nay<br>2. 給料などよいじょうけんがそろっていたから: Vì có đủ các điều kiện tốt như mức lương<br>3. 前のしょくばに不満があったから: Vì có điều bất mãn với nơi làm việc cũ<br>4. 新しい分野の仕事をしてみたかったから: Vì muốn thử làm công việc ở một lĩnh vực mới<br><br><b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 テレビのレポーターが女の人に転職についてインタビューをしています。女の人が今の会社に転職した理由は何ですか。<br>
 男：今日は転職を経験されている会社員の内田さんにお話を伺います。<br>
 女：あ、はい。私は２回転職経験があります。転職というと経験を積んでそれを活かし、より給料の良いところに移っていく人もいますけど、どちらかというと現状に不満や不足を感じて居心地のいい場所を求める人が多いように感じます。私の最初の転職がそうでした。<br>

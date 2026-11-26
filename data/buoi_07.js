@@ -1228,7 +1228,7 @@ window.JLPT_DATA[7] = {
             "結果にこだわらないことと「天にまかせる」という気持ち"
           ],
           "correctAnswer": 2,
-          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>cả hai điều này</u> ở đoạn 2 quy chiếu về hai điều nào?<br><b>Phân tích bài đọc:</b> Đoạn 2 nêu rõ:「それには『思い切りの心』をもつと同時に、何か大きな力に『もたれていく素直な気持ち』の両方が必要だと思うのです」 (Cần phải có tinh thần quyết đoán dứt khoát, đồng thời có tâm thế ngoan ngoãn nương tựa vào một sức mạnh to lớn nào đó). Do đó \"cả hai điều này\" chính là 2 tâm thế này.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì không phải là việc đắn đo và phán đoán logic.<br>• <b>2. 「思い切りの心」と「もたれていく素直な気持ち」: Tinh thần quyết đoán và tâm thế khiêm nhường nương tựa [Đúng nguyên văn đoạn 2]</b><br>• 3. Sai vì tính cách bẩm sinh và giáo dục gia đình không phải là 2 điều tác giả nêu.<br>• 4. Sai vì không quan tâm kết quả là hiểu sai ý tác giả.",
+          "explanation": "<b>Dịch nghĩa câu hỏi:</b> Cụm từ ① <u>cả hai điều này</u> ở đoạn 2 quy chiếu về hai điều nào?<br><b>Phân tích bài đọc:</b> Đoạn 2 nêu rõ:「それには『思い切りの心』をもつと同時に、何か大きな力に『もたれていく素直な気持ち』の両方が必要だと思うのです」 (Cần phải có tinh thần quyết đoán dứt khoát, đồng thời có tâm thế ngoan ngoãn nương tựa vào một sức mạnh to lớn nào đó). Do đó \"cả hai điều này\" chính là 2 tâm thế này.<br><i>Phân tích các phương án:</i><br>• 1. Sai vì \"cột mốc ai cũng gặp và cột mốc riêng của từng cá nhân\" được nêu ở đoạn 1, không phải 2 thái độ ở đoạn 2.<br>• <b>2. 「思い切りの心」と「もたれていく素直な気持ち」: Tinh thần quyết đoán và tâm thế khiêm nhường nương tựa [Đúng nguyên văn đoạn 2]</b><br>• 3. Sai vì tính cách bẩm sinh và giáo dục gia đình không phải là 2 điều tác giả nêu.<br>• 4. Sai vì không quan tâm kết quả là hiểu sai ý tác giả.",
           "id": 71
         },
         {
@@ -4119,7 +4119,7 @@ window.JLPT_DATA[7] = {
             "西田さん"
           ],
           "correctAnswer": 3,
-          "explanation": "<b>Phân tích:</b> Điều kiện: dùng >=2 nguyên liệu trong danh sách, <=30 phút, <=1,000 yên, sống/làm việc/học tại thành phố.<br>- Hao: 40 phút ❌<br>- Nakamura: chỉ 1 nguyên liệu trong danh sách (米) ❌<br>- Matt: làm việc tại Aohara, dùng トマト・きゅうり (2 loại), 15 phút, 350 yên ⭕<br>- Nishida: 1,290 yên ❌<br>Vậy chọn <b>マットさん (Đáp án 3)</b>."
+          "explanation": "<b>Phân tích:</b> Điều kiện: dùng ≥2 nguyên liệu trong danh sách, ≤30 phút, ≤1,000 yên, sống/làm việc/học tại thành phố.<br>- Hao: 40 phút ❌<br>- Nakamura: chỉ 1 nguyên liệu trong danh sách (米) ❌<br>- Matt: làm việc tại Aohara, dùng トマト・きゅうり (2 loại), 15 phút, 350 yên ⭕<br>- Nishida: 1,290 yên ❌<br>Vậy chọn <b>マットさん (Đáp án 3)</b>."
         },
         {
           "id": 342,
@@ -5137,7 +5137,7 @@ Gia đình đã quyết định làm thế nào về chuyện mua máy chơi gam
 Nhân viên trung tâm thương mại đang giới thiệu về các set hạt cà phê.<br>
 Nhân viên: "Chúng tôi xin giới thiệu bộ sưu tập hạt cà phê giúp quý khách thưởng thức hương vị đích thực ngay tại nhà. <b>Trước hết, set số 1 là set được chuẩn bị đặc biệt trong dịp này. Quý khách chọn ra 1 loại hạt yêu thích nhất trong 4 loại hạt, đóng thành 1 set gồm 5 túi.</b> Set này cực kỳ tiết kiệm ạ. Với những quý khách muốn thưởng thức cả 4 loại cà phê, chúng tôi khuyên dùng từ set số 2 đến số 4. Đầu tiên, dành cho những ai muốn thử tất cả các vị là set số 2 gồm mỗi loại 1 túi. Dành cho những ai muốn thưởng thức không chỉ cà phê mà cả hồng trà là set số 3, gồm set số 2 cộng thêm hồng trà. Ngoài ra, ở set số 4 sẽ có mỗi loại cà phê 1 túi kèm thêm hạt chuyên dùng để pha cà phê đá."<br>
 Nữ: "Chà, có nhiều loại quá nhỉ."<br>
-Nam: "Ừ, <b>mình mỗi ngày uốngตั้ง mấy cốc cà phê nên thích bộ nào uống được thật nhiều, vậy nên chọn bộ này thôi.</b>"<br>
+Nam: "Ừ, <b>mình mỗi ngày uống tận mấy cốc cà phê nên thích bộ nào uống được thật nhiều, vậy nên chọn bộ này thôi.</b>"<br>
 Nữ: "Thế à, chẳng phải bộ có cà phê đá cũng uống được nhiều sao?"<br>
 Nam: "<b>Cà phê đá thì mình cũng muốn uống đấy, nhưng mình sẽ uống hết vị mình thích trước rồi vị không thích rốt cuộc lại bị thừa lại, nên thôi cứ lấy bộ này là được rồi.</b>"<br>
 Nữ: "Vậy à. Mình thì nhân tiện cũng muốn uống thử nhiều loại khác nhau."<br>
@@ -6832,12 +6832,12 @@ Người đàn ông có quan điểm như thế nào?<br><br>
           "correctAnswer": 3,
           "explanation": `<b>❓ Dịch câu thoại dẫn:</b> "Thưa quý khách, nếu là quà tặng thì để tôi thắt thêm nơ ruy-băng nhé?"<br><br>
 <b>📝 Dịch chi tiết 3 đáp án:</b><br>
-1. ギフトだったら買いました: Nếu là quà tặng thì tôi đã mua rồi.<br>
+1. プレゼントならもう買いました: Nếu là quà tặng thì tôi đã mua rồi.<br>
 2. はい、その通りです: Vâng, đúng như vậy.<br>
 3. そうですね、お願いします: Vâng nhỉ, làm ơn giúp tôi nhé.<br><br>
 <b>🎧 Nội dung bài nghe (Script tiếng Nhật):</b><br>
 お客様、プレゼントでしたらリボンをお付けしましょうか。<br>
-1. ギフトだったら買いました<br>
+1. プレゼントならもう買いました<br>
 2. はい、その通りです<br>
 <b>3. そうですね、お願いします</b><br><br>
 <b>🇻🇳 Dịch nghĩa toàn bộ đoạn hội thoại:</b><br>
@@ -7368,7 +7368,7 @@ Người phụ nữ đang hướng dẫn về phòng khám sức khỏe.<br>
 Nhân viên: "Khám sức khỏe sẽ được tiến hành riêng biệt cho nữ và nam. Nữ giới khám ở phòng số 1 và phòng số 2 tại tầng này, còn <b>nam giới xin hãy khám ở phòng số 3 và phòng số 4 ở tầng trên.</b> Ngoài ra, chắc mọi người đều đang cầm phiếu số thứ tự màu hồng và màu xanh vừa phát lúc nãy: nữ giới có phiếu màu hồng từ số 1 đến số 50 sẽ vào phòng số 1, từ số 51 trở đi vào phòng số 2. <b>Nam giới có phiếu màu xanh từ số 1 đến số 40 sẽ vào phòng số 3.</b> Những người còn lại sẽ khám ở phòng số 4."<br>
 Nam: "Ủa? Của tớ là số 81 hả?"<br>
 Nữ: "Làm gì có chuyện đó? Nam giới làm gì có đến 80 người. Nhìn kìa, đúng thế thật. Cậu cầm ngược rồi kìa, ngược đầu đuôi ấy."<br>
-Nam: "<b>Đúng thật! Ôi may quá. Số 18 (hàngสิบ) thì chắc sẽ xong khá nhanh đây.</b> Còn cậu số mấy?"<br>
+Nam: "<b>Đúng thật! Ôi may quá. Số 18 (hàng chục) thì chắc sẽ xong khá nhanh đây.</b> Còn cậu số mấy?"<br>
 Nữ: "Tớ là hai con số 7 may mắn (77). Haiz, số thì đẹp đấy nhưng có vẻ sẽ tốn thời gian chờ đây."<br>
 Câu hỏi 1: Người đàn ông này sẽ vào phòng nào?<br><br>
 <b>💡 Phân tích chọn đáp án:</b><br>
