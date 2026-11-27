@@ -3452,7 +3452,252 @@ class JLPTApp {
     }
   }
 
-  findBestDictMatch(query, list) {
+  // Khôi phục thể từ điển (nguyên thể) cho động từ/tính từ đã chia hoặc từ dính trợ từ
+  deconjugateJapanese(word) {
+    const candidates = [];
+    const add = (w) => {
+      if (w && w !== word && w.length >= 1 && !candidates.includes(w)) {
+        candidates.push(w);
+      }
+    };
+
+    const aToU = { "わ": "う", "か": "く", "が": "ぐ", "さ": "す", "た": "つ", "な": "ぬ", "ば": "ぶ", "ま": "む", "ら": "る" };
+    const iToU = { "い": "う", "き": "く", "ぎ": "ぐ", "し": "す", "ち": "つ", "に": "ぬ", "び": "ぶ", "み": "む", "り": "る" };
+    const eToU = { "え": "う", "け": "く", "げ": "ぐ", "せ": "す", "て": "つ", "ね": "ぬ", "べ": "ぶ", "め": "む", "れ": "る" };
+    const oToU = { "お": "う", "こ": "く", "ご": "ぐ", "そ": "す", "と": "つ", "の": "ぬ", "ぼ": "ぶ", "も": "む", "ろ": "る" };
+
+    // Ưu tiên tách đuôi lịch sự/khẳng định (ví dụ: 静かだった -> 静か)
+    for (const suf of ["ではありません", "ではない", "じゃありません", "じゃない", "だった", "でした", "です"]) {
+      if (word.endsWith(suf) && word.length > suf.length) {
+        const stem = word.slice(0, -suf.length);
+        if (stem.length >= 2 || /[\u4e00-\u9faf]/.test(stem)) {
+          add(stem);
+        }
+      }
+    }
+
+    const queue = [word];
+    const seen = new Set([word]);
+    const pushForm = (f) => {
+      if (f && f.length >= 2 && !seen.has(f)) {
+        seen.add(f);
+        queue.push(f);
+      }
+    };
+
+    const auxTe = [
+      "ていませんでした", "ていました", "ていません", "ています", "ていなかった", "ていない", "ていた", "ている",
+      "てなかった", "てない", "てた", "てる",
+      "てしまった", "てしまう", "てしまって", "ておいた", "ておく", "てみた", "てみる",
+      "てきた", "てくる", "ていった", "ていく", "てあった", "てある",
+      "てくれた", "てくれる", "てもらった", "てもらう", "てあげた", "てあげる",
+      "てほしい", "てばかり"
+    ];
+    const auxDe = auxTe.map(s => "で" + s.slice(1));
+
+    // Bóc tách từng lớp trợ động từ từ ngoài vào trong
+    for (let idx = 0; idx < queue.length && idx < 40; idx++) {
+      const cur = queue[idx];
+
+      for (const suf of auxTe) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "て");
+      }
+      for (const suf of auxDe) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "で");
+      }
+      for (const suf of ["ちゃった", "ちゃって", "ちゃう", "ちゃわない"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "て");
+      }
+      for (const suf of ["じゃった", "じゃって", "じゃう", "じゃわない"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "で");
+      }
+      for (const suf of ["ませんでした", "ました", "ません", "ましょう", "まして"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "ます");
+      }
+      for (const suf of ["なかったら", "なかったり", "なかった", "なくて", "なければ", "なく", "なそう", "ないで"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "ない");
+      }
+      for (const suf of ["たくなかった", "たくない", "たかった", "たくて", "たい", "すぎた", "すぎる", "すぎて", "すぎない", "やすい", "やすかった", "にくい", "にくかった", "ながら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) pushForm(cur.slice(0, -suf.length) + "ます");
+      }
+    }
+
+    // Xử lý từ dạng đã bóc tách sâu nhất về dạng gốc
+    const orderedForms = [...queue].reverse();
+    const ichidanEndings = ["た", "て", "たら", "たり", "ない", "ます", "れば", "よう", "ろ", "る", "ず", "ぬ"];
+
+    for (const cur of orderedForms) {
+      // 1. Động từ/tính từ bất quy tắc
+      if (cur === "行った" || cur === "行って" || cur === "行ったり" || cur === "行ったら") {
+        add("行く");
+        add("行う");
+      }
+      if (/^来(た|て|ない|ます|れば|よう|られ|させ)/.test(cur)) {
+        add("来る");
+      }
+      if (/^(良|よ)(かった|くない|くなかった|くて|ければ|く)$/.test(cur)) {
+        add("良い");
+        add("いい");
+      }
+
+      // 2. Thể Bị động / Sai khiến / Sai khiến bị động (ví dụ: 囲まれた -> 囲む, 食べられた -> 食べる)
+      for (const suf of ichidanEndings) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          if (stem.endsWith("させられ") && stem.length > 4) {
+            const base = stem.slice(0, -4);
+            add(base + "る");
+            add(base + "する");
+            add(base);
+          }
+          if (stem.endsWith("られ") && stem.length > 2) {
+            add(stem.slice(0, -2) + "る");
+          }
+          if (stem.endsWith("させ") && stem.length > 2) {
+            const base = stem.slice(0, -2);
+            add(base + "る");
+            add(base + "する");
+            add(base);
+          }
+          if (stem.endsWith("され") && stem.length > 2) {
+            const base = stem.slice(0, -2);
+            const last = base.slice(-1);
+            if (aToU[last] && base.length >= 2) {
+              add(base.slice(0, -1) + aToU[last]);
+            }
+            add(base + "する");
+            add(base);
+          }
+          if (stem.endsWith("れ") && stem.length >= 2) {
+            const prev = stem.slice(-2, -1);
+            if (aToU[prev]) add(stem.slice(0, -2) + aToU[prev]);
+          }
+          if (stem.endsWith("せ") && stem.length >= 2) {
+            const prev = stem.slice(-2, -1);
+            if (aToU[prev]) add(stem.slice(0, -2) + aToU[prev]);
+          }
+        }
+      }
+
+      // 3. Danh động từ する
+      for (const suf of ["した", "して", "しない", "します", "すれば", "しよう", "しろ", "せよ", "せず", "された", "される", "させた", "させる"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          if (stem.length >= 2 || /[\u4e00-\u9faf]/.test(stem)) {
+            add(stem + "する");
+            add(stem);
+          }
+        }
+      }
+
+      // 4. Tính từ đuôi い
+      for (const suf of ["くなかった", "くない", "くありません", "くなかったら", "くなくて", "かったら", "かったり", "かった", "くて", "ければ", "く", "そう", "さ"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          if (stem.length >= 1) add(stem + "い");
+        }
+      }
+
+      // 5. Động từ nhóm 1 thể て/た
+      for (const suf of ["った", "って", "ったり", "ったら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          add(stem + "う");
+          add(stem + "る");
+          add(stem + "つ");
+          add(stem + "く");
+        }
+      }
+      for (const suf of ["いた", "いて", "いたり", "いたら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) add(cur.slice(0, -suf.length) + "く");
+      }
+      for (const suf of ["いだ", "いで", "いだり", "いだら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) add(cur.slice(0, -suf.length) + "ぐ");
+      }
+      for (const suf of ["んだ", "んで", "んだり", "んだら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          add(stem + "む");
+          add(stem + "ぶ");
+          add(stem + "ぬ");
+        }
+      }
+      for (const suf of ["した", "して", "したり", "したら"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) add(cur.slice(0, -suf.length) + "す");
+      }
+
+      // 6. Thể ます
+      if (cur.endsWith("ます") && cur.length > 2) {
+        const stem = cur.slice(0, -2);
+        const last = stem.slice(-1);
+        if (iToU[last]) add(stem.slice(0, -1) + iToU[last]);
+        add(stem + "る");
+      }
+
+      // 7. Thể ない / ず / ぬ
+      for (const suf of ["ない", "ず", "ぬ"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          const last = stem.slice(-1);
+          if (aToU[last]) add(stem.slice(0, -1) + aToU[last]);
+          add(stem + "る");
+        }
+      }
+
+      // 8. Thể điều kiện ば
+      if (cur.endsWith("ば") && cur.length > 1) {
+        const stem = cur.slice(0, -1);
+        const last = stem.slice(-1);
+        if (eToU[last]) add(stem.slice(0, -1) + eToU[last]);
+        if (stem.endsWith("れ")) add(stem.slice(0, -1) + "る");
+      }
+
+      // 9. Thể ý chí
+      if (cur.endsWith("よう") && cur.length > 2) {
+        add(cur.slice(0, -2) + "る");
+      } else if (cur.endsWith("う") && cur.length > 2) {
+        const stem = cur.slice(0, -1);
+        const last = stem.slice(-1);
+        if (oToU[last]) add(stem.slice(0, -1) + oToU[last]);
+      }
+
+      // 10. Động từ nhóm 2 (Ichidan) đơn giản
+      for (const suf of ["た", "て", "たら", "たり", "れば", "ろ"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          if (stem.length >= 1) add(stem + "る");
+        }
+      }
+
+      // 11. Thể khả năng nhóm 1 (話せる -> 話す, 書けた -> 書く)
+      for (const suf of ["る", "た", "て", "ない", "ます", "れば"]) {
+        if (cur.endsWith(suf) && cur.length > suf.length) {
+          const stem = cur.slice(0, -suf.length);
+          if (stem.length >= 2) {
+            const last = stem.slice(-1);
+            if (eToU[last]) add(stem.slice(0, -1) + eToU[last]);
+          }
+        }
+      }
+    }
+
+    // 12. Trợ từ bị bôi đen dính ở cuối từ (ví dụ: ふもとに -> ふもと)
+    for (const suf of [
+      "から", "まで", "より", "には", "では", "とは", "にも", "でも", "ので", "のに",
+      "だ", "を", "が", "は", "に", "で", "へ", "と", "も", "の", "や", "か", "な"
+    ]) {
+      if (word.endsWith(suf) && word.length > suf.length) {
+        const stem = word.slice(0, -suf.length);
+        if (stem.length >= 2 || /[\u4e00-\u9faf]/.test(stem)) {
+          add(stem);
+        }
+      }
+    }
+
+    return candidates;
+  }
+
+  findStrictDictMatch(query, list) {
     if (!list || list.length === 0) return null;
     const q = query.trim();
 
@@ -3481,22 +3726,56 @@ class JLPTApp {
       return tokenMatches[0];
     }
 
-    // 4. Default fallback: first item
-    return list[0];
+    return null;
+  }
+
+  findBestDictMatch(query, list) {
+    const strict = this.findStrictDictMatch(query, list);
+    if (strict) return strict;
+    return (list && list.length > 0) ? list[0] : null;
+  }
+
+  async queryMaziiApi(query) {
+    const resp = await fetch("https://mazii.net/api/search", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        dict: "javi",
+        type: "word",
+        query: query,
+        page: 1
+      })
+    });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    return await resp.json();
   }
 
   async lookupWord(word) {
+    const lookupSeq = (this._dictLookupSeq = (this._dictLookupSeq || 0) + 1);
+    const saveAndRender = (item) => {
+      if (this._dictLookupSeq !== lookupSeq) return;
+      const toCache = { ...item, _v: 2 };
+      this.dictCache[word] = toCache;
+      try {
+        localStorage.setItem("jlpt_dict_cache", JSON.stringify(this.dictCache));
+      } catch (e) {}
+      this.renderDictResult(word, toCache);
+    };
+
     // 1. Kiểm tra từ điển có sẵn (offline)
     if (window.JLPT_COMMON_DICT && window.JLPT_COMMON_DICT[word]) {
       this.renderDictResult(word, window.JLPT_COMMON_DICT[word]);
       return;
     }
 
-    // 2. Kiểm tra cache trong localStorage và loại bỏ cache sai cũ
+    // 2. Kiểm tra cache trong localStorage và tự động loại bỏ cache sai cũ (ví dụ từ đã chia bị khớp nhầm)
     if (this.dictCache[word]) {
       const cached = this.dictCache[word];
-      const isBadCache = (word === "むしろ" && cached.word === "席");
-      if (!isBadCache) {
+      const isExactOldCache = cached.word === word || (cached.phonetic && cached.phonetic.trim() === word);
+      const isValidCache = cached._v === 2 || (isExactOldCache && !(word === "むしろ" && cached.word === "席"));
+      if (isValidCache) {
         this.renderDictResult(word, cached);
         return;
       } else {
@@ -3505,38 +3784,71 @@ class JLPTApp {
       }
     }
 
-    // 3. Tra cứu từ điển Mazii API với thuật toán khớp từ thông minh
+    // 3. Tra cứu từ điển Mazii API kết hợp khôi phục thể nguyên thể (deconjugation)
     try {
-      const resp = await fetch("https://mazii.net/api/search", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          dict: "javi",
-          type: "word",
-          query: word,
-          page: 1
-        })
-      });
+      const resJson = await this.queryMaziiApi(word);
+      if (this._dictLookupSeq !== lookupSeq) return;
 
-      if (!resp.ok) throw new Error("HTTP " + resp.status);
-      const resJson = await resp.json();
+      // 3a. Khớp chính xác trực tiếp với từ người dùng bôi đen
+      if (resJson && resJson.found && resJson.data && resJson.data.length > 0) {
+        const strictDirect = this.findStrictDictMatch(word, resJson.data);
+        if (strictDirect) {
+          saveAndRender(strictDirect);
+          return;
+        }
+      }
 
+      // 3b. Từ đã chia thể hoặc dính trợ từ -> sinh danh sách nguyên thể ứng viên
+      const candidates = this.deconjugateJapanese(word);
+
+      // Kiểm tra nhanh xem nguyên thể có sẵn trong danh sách kết quả đầu tiên không (0 gọi API thêm)
       if (resJson && resJson.data && resJson.data.length > 0) {
-        const item = this.findBestDictMatch(word, resJson.data);
-        if (item) {
-          this.dictCache[word] = item;
-          try {
-            localStorage.setItem("jlpt_dict_cache", JSON.stringify(this.dictCache));
-          } catch (e) {}
-          this.renderDictResult(word, item);
+        for (const cand of candidates) {
+          const hitInRes1 = this.findStrictDictMatch(cand, resJson.data);
+          if (hitInRes1) {
+            saveAndRender(hitInRes1);
+            return;
+          }
+        }
+      }
+
+      // Gọi Mazii API theo từng lô nhỏ cho các nguyên thể ứng viên hàng đầu
+      const topCandidates = candidates.slice(0, 6);
+      for (let i = 0; i < topCandidates.length; i += 3) {
+        const batch = topCandidates.slice(i, i + 3);
+        const batchResults = await Promise.all(
+          batch.map(cand =>
+            this.queryMaziiApi(cand)
+              .then(json => ({ cand, json }))
+              .catch(() => ({ cand, json: null }))
+          )
+        );
+        if (this._dictLookupSeq !== lookupSeq) return;
+
+        for (const { cand, json } of batchResults) {
+          if (json && json.found && json.data && json.data.length > 0) {
+            const hit = this.findStrictDictMatch(cand, json.data);
+            if (hit) {
+              saveAndRender(hit);
+              return;
+            }
+          }
+        }
+      }
+
+      // 3c. Fallback cuối cùng từ kết quả API gốc nếu không có nguyên thể nào khớp
+      if (resJson && resJson.data && resJson.data.length > 0) {
+        const fallbackItem = this.findBestDictMatch(word, resJson.data);
+        if (fallbackItem) {
+          saveAndRender(fallbackItem);
           return;
         }
       }
     } catch (err) {
       console.warn("Mazii API query error", err);
     }
+
+    if (this._dictLookupSeq !== lookupSeq) return;
 
     // 4. Fallback: Tra cứu trong phần giải thích của buổi thi hiện tại
     this.renderDictFallback(word);
