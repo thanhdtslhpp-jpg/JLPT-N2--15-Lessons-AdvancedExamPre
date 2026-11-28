@@ -758,6 +758,7 @@ class JLPTApp {
 
     this.initSelectionBubble();
     this.initMobileBottomBar();
+    this.initHeaderToggle();
     this.initStarTouchDrag();
 
     window.addEventListener("resize", () => {
@@ -1214,6 +1215,8 @@ class JLPTApp {
 
     document.getElementById("view-dashboard").style.display = "block";
     document.getElementById("view-practice").style.display = "none";
+    document.body.classList.remove("in-practice-mode");
+    this.setHeaderCollapsed(false, false);
     const floatBtn = document.getElementById("btn-floating-pallet");
     if (floatBtn) floatBtn.style.display = "none";
     if (this.currentDashboardTab === "drills") {
@@ -1264,6 +1267,11 @@ class JLPTApp {
 
     document.getElementById("view-dashboard").style.display = "none";
     document.getElementById("view-practice").style.display = "block";
+    document.body.classList.add("in-practice-mode");
+    // Trên iPhone / Mobile & Tablet dọc, tự động ẩn thanh công cụ đầu trang khi vào làm bài để không che nội dung
+    if (window.innerWidth <= 900) {
+      this.setHeaderCollapsed(true, false);
+    }
     document.getElementById("current-session-title").textContent = sessionData.title;
 
     // Restore draft answers from LocalStorage
@@ -6211,10 +6219,86 @@ class JLPTApp {
     }
   }
 
+  initHeaderToggle() {
+    this.isHeaderCollapsed = false;
+    this._headerExpandedScrollY = 0;
+
+    const btnCollapse = document.getElementById("btn-collapse-header");
+    const btnExpand = document.getElementById("btn-expand-header");
+
+    if (btnCollapse) {
+      btnCollapse.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this.setHeaderCollapsed(true, true);
+      });
+    }
+
+    if (btnExpand) {
+      btnExpand.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this._headerExpandedScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+        this.setHeaderCollapsed(false, true);
+      });
+    }
+
+    // Tự động thu gọn lại header khi bấm các nút mở sổ tay / modal trong lúc làm bài trên mobile
+    const autoCollapseBtnIds = [
+      "btn-quick-dau-hieu",
+      "btn-quick-pho-tu",
+      "btn-quick-kosei",
+      "btn-sync-modal",
+      "btn-submit-exam"
+    ];
+    autoCollapseBtnIds.forEach((id) => {
+      const btn = document.getElementById(id);
+      if (btn) {
+        btn.addEventListener("click", () => {
+          if (window.innerWidth <= 900 && this.currentView === "session") {
+            this.setHeaderCollapsed(true, false);
+          }
+        });
+      }
+    });
+
+    // Tự động ẩn lại header khi đang làm bài trên mobile mà người dùng cuộn xuống đọc tiếp câu hỏi
+    let scrollTicking = false;
+    window.addEventListener("scroll", () => {
+      if (scrollTicking) return;
+      scrollTicking = true;
+      window.requestAnimationFrame(() => {
+        scrollTicking = false;
+        if (window.innerWidth <= 900 && this.currentView === "session" && !this.isHeaderCollapsed && !this.isProgrammaticScrolling) {
+          const currentY = window.pageYOffset || document.documentElement.scrollTop || 0;
+          if (currentY - this._headerExpandedScrollY > 90) {
+            this.setHeaderCollapsed(true, false);
+          }
+        }
+      });
+    }, { passive: true });
+  }
+
+  setHeaderCollapsed(collapsed, isManual = false) {
+    const headerEl = document.getElementById("app-header") || document.querySelector(".app-header");
+    if (!headerEl) return;
+    this.isHeaderCollapsed = !!collapsed;
+    headerEl.classList.toggle("header-collapsed", this.isHeaderCollapsed);
+    document.body.classList.toggle("header-is-collapsed", this.isHeaderCollapsed);
+    if (!this.isHeaderCollapsed) {
+      this._headerExpandedScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+    }
+  }
+
+  getVisibleHeaderHeight() {
+    const headerEl = document.getElementById("app-header") || document.querySelector(".app-header");
+    if (!headerEl || headerEl.classList.contains("header-collapsed")) {
+      return 34;
+    }
+    return headerEl.offsetHeight || 65;
+  }
+
   scrollToElementBelowHeader(el) {
     if (!el) return;
-    const headerEl = document.querySelector(".app-header");
-    const headerHeight = headerEl ? headerEl.offsetHeight : 65;
+    const headerHeight = this.getVisibleHeaderHeight();
     const extraPadding = 16; // 16px khoảng đệm thẩm mỹ để thấy rõ toàn bộ viền trên và tiêu đề câu hỏi
     const totalOffset = headerHeight + extraPadding;
 
@@ -6409,8 +6493,7 @@ class JLPTApp {
       }
     }
 
-    const headerEl = document.querySelector(".app-header");
-    const headerHeight = headerEl ? headerEl.offsetHeight : 65;
+    const headerHeight = this.getVisibleHeaderHeight();
     const readingLine = headerHeight + 50;
     let closestQId = null;
 

@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261121_2235">
+  <link rel="stylesheet" href="style.css?v=20261128_1200">
   <!-- Font Awesome Icons for clean UI -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="security.js?v=20261106_1_0"></script>
@@ -89,13 +89,18 @@
   </div>
 
   <!-- Top Navigation Bar -->
-  <header class="app-header">
+  <header class="app-header" id="app-header">
     <div class="header-container">
-      <div class="logo-group" id="btn-dashboard">
-        <span class="badge-jlpt">JLPT N2</span>
-        <div class="app-title">
-          <span>15 NGÀY LUYỆN ĐỀ CHUYÊN SÂU</span>
+      <div class="header-brand-row">
+        <div class="logo-group" id="btn-dashboard">
+          <span class="badge-jlpt">JLPT N2</span>
+          <div class="app-title">
+            <span>15 NGÀY LUYỆN ĐỀ CHUYÊN SÂU</span>
+          </div>
         </div>
+        <button type="button" id="btn-collapse-header" class="btn-header-collapse" title="Ẩn thanh công cụ để làm bài rộng rãi hơn" aria-label="Ẩn thanh công cụ">
+          <i class="fas fa-chevron-up"></i> <span class="collapse-label">Ẩn</span>
+        </button>
       </div>
 
       <div class="header-controls">
@@ -143,6 +148,11 @@
       </div>
     </div>
   </header>
+
+  <!-- Nút nổi nhỏ gọn ở mép trên để mở lại Thanh công cụ khi đang ẩn -->
+  <button type="button" id="btn-expand-header" class="header-expand-pill" title="Hiện thanh công cụ & sổ tay" aria-label="Hiện thanh công cụ">
+    <i class="fas fa-chevron-down"></i> <span>Thanh công cụ</span>
+  </button>
 
   <!-- Main Body Content -->
   <main class="app-body">
@@ -773,6 +783,6 @@
   <script src="data/chuyende_nghe_hieu.js?v=20261120_1_0"></script>
   <script src="user_data.js?v=20261103_1_0"></script>
   <script src="cloud_sync.js?v=20261123_1925"></script>
-  <script src="app.js?v=20261127_1915"></script>
+  <script src="app.js?v=20261128_1200"></script>
 </body>
 </html>
